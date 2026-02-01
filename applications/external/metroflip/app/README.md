@@ -12,7 +12,6 @@ This is a list of metro cards and transit systems that are supported.
 - **Bip!**  
 - **Charliecard**  
 - **Clipper**  
-- **Intertic (21 different cities)**
 - **ITSO**  
 - **Metromoney**  
 - **myki**  
@@ -33,7 +32,6 @@ More coming soon!
 - **Charliecard Parser**: zacharyweiss  
 - **Clipper Parser**: ke6jjj  
 - **Info Slaves**: equipter, TheDingo8MyBaby, ry4000, WillyJL
-- **Intertic parser**: luu176 
 - **ITSO Parser**: gsp8181, hedger, gornekich  
 - **Metromoney Parser**: Leptopt1los  
 - **myki Parser**: gornekich  

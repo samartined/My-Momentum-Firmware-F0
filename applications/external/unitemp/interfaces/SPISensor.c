@@ -25,7 +25,7 @@ static uint8_t sensors_count = 0;
 bool unitemp_spi_sensor_alloc(Sensor* sensor, char* args) {
     if(args == NULL) return false;
 
-    //Creating an SPI Sensor Instance
+    //Создание инстанса датчика SPI
     SPISensor* instance = malloc(sizeof(SPISensor));
     if(instance == NULL) {
         FURI_LOG_E(APP_NAME, "Sensor %s instance allocation error", sensor->name);
@@ -33,7 +33,7 @@ bool unitemp_spi_sensor_alloc(Sensor* sensor, char* args) {
     }
     sensor->instance = instance;
 
-    //Definition GPIO chip select
+    //Определение GPIO chip select
     int gpio = 255;
     sscanf(args, "%d", &gpio);
     instance->CS_pin = unitemp_gpio_getFromInt(gpio);
@@ -50,7 +50,7 @@ bool unitemp_spi_sensor_alloc(Sensor* sensor, char* args) {
 
     bool status = sensor->type->allocator(sensor, args);
 
-    //Blocking GPIO ports
+    //Блокировка портов GPIO
     sensors_count++;
     unitemp_gpio_lock(unitemp_gpio_getFromInt(2), &SPI);
     unitemp_gpio_lock(unitemp_gpio_getFromInt(3), &SPI);

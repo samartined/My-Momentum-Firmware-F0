@@ -19,15 +19,11 @@
 extern "C" {
 #endif
 
-/* Forward declarations */
-struct SamVerionDetails;
-
 /* SamVersion */
 typedef struct SamVersion {
 	OCTET_STRING_t	 version;
 	OCTET_STRING_t	 firmware;
 	OCTET_STRING_t	 type;
-	struct SamVerionDetails	*extra	/* OPTIONAL */;
 	
 	/* Context for parsing across buffer boundaries */
 	asn_struct_ctx_t _asn_ctx;
@@ -39,9 +35,6 @@ extern asn_TYPE_descriptor_t asn_DEF_SamVersion;
 #ifdef __cplusplus
 }
 #endif
-
-/* Referred external types */
-#include "SamVerionDetails.h"
 
 #endif	/* _SamVersion_H_ */
 #include <asn_internal.h>

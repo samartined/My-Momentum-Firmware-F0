@@ -5,7 +5,6 @@ enum SubmenuIndex {
     SubmenuIndexBLEEmulateCentral,
     SubmenuIndexBLEEmulatePeripheral,
     SubmenuIndexDelete,
-    SubmenuIndexWrite,
     SubmenuIndexInfo,
 };
 
@@ -37,8 +36,6 @@ void seos_scene_saved_menu_on_enter(void* context) {
         seos_scene_saved_menu_submenu_callback,
         seos);
 
-    submenu_add_item(
-        submenu, "Write", SubmenuIndexWrite, seos_scene_saved_menu_submenu_callback, seos);
     submenu_add_item(
         submenu, "Info", SubmenuIndexInfo, seos_scene_saved_menu_submenu_callback, seos);
     submenu_add_item(
@@ -73,11 +70,6 @@ bool seos_scene_saved_menu_on_event(void* context, SceneManagerEvent event) {
                 seos->scene_manager, SeosSceneSavedMenu, SubmenuIndexBLEEmulatePeripheral);
             seos->flow_mode = FLOW_CRED;
             scene_manager_next_scene(seos->scene_manager, SeosSceneBlePeripheral);
-            consumed = true;
-        } else if(event.event == SubmenuIndexWrite) {
-            scene_manager_set_scene_state(
-                seos->scene_manager, SeosSceneSavedMenu, SubmenuIndexWrite);
-            scene_manager_next_scene(seos->scene_manager, SeosSceneWrite);
             consumed = true;
         } else if(event.event == SubmenuIndexInfo) {
             scene_manager_set_scene_state(

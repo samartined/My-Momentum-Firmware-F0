@@ -23,40 +23,40 @@
 extern const SensorType DHT20;
 extern const SensorType AHT10;
 /**
- * @brief Allocating memory and setting initial values ​​for the DHT20 sensor
+ * @brief Выделение памяти и установка начальных значений датчика DHT20
  *
- * @param sensor Pointer to the sensor to create
- * @return The truth about success
+ * @param sensor Указатель на создаваемый датчик
+ * @return Истина при успехе
  */
 bool unitemp_DHT20_I2C_alloc(Sensor* sensor, char* args);
 
 /**
- * @brief Initializing the DHT20 sensor
+ * @brief Инициализации датчика DHT20
  *
- * @param sensor Pointer to sensor
- * @return True if initialization is successful
+ * @param sensor Указатель на датчик
+ * @return Истина если инициализация упспешная
  */
 bool unitemp_DHT20_init(Sensor* sensor);
 
 /**
- * @brief Deinitializing the sensor
+ * @brief Деинициализация датчика
  *
- * @param sensor Pointer to sensor
+ * @param sensor Указатель на датчик
  */
 bool unitemp_DHT20_I2C_deinit(Sensor* sensor);
 
 /**
- * @brief Updating values ​​from sensor
+ * @brief Обновление значений из датчика
  *
- * @param sensor Pointer to sensor
- * @return Update status
+ * @param sensor Указатель на датчик
+ * @return Статус обновления
  */
 UnitempStatus unitemp_DHT20_I2C_update(Sensor* sensor);
 
 /**
- * @brief Free up sensor memory
+ * @brief Высвободить память датчика
  *
- * @param sensor Pointer to sensor
+ * @param sensor Указатель на датчик
  */
 bool unitemp_DHT20_I2C_free(Sensor* sensor);
 

@@ -20,7 +20,7 @@ typedef enum {
 #define SHOW_STOPSCAN_TIP (true)
 #define NO_TIP            (false)
 
-#define MAX_OPTIONS (15)
+#define MAX_OPTIONS (13)
 typedef struct {
     const char* item_string;
     const char* options_menu[MAX_OPTIONS];
@@ -69,13 +69,6 @@ const WifiMarauderItem items[NUM_MENU_ITEMS] = {
      INPUT_ARGS,
      FOCUS_CONSOLE_END,
      NO_TIP},
-    {"Set MAC",
-     {"rand ap", "rand sta", "clone ap", "clone sta"},
-     4,
-     {"randapmac", "randstamac", "cloneapmac -a", "clonestamac -s"},
-     TOGGLE_ARGS,
-     FOCUS_CONSOLE_END,
-     NO_TIP},
     {"Join WiFi",
      {"new", "saved"},
      2,
@@ -94,7 +87,6 @@ const WifiMarauderItem items[NUM_MENU_ITEMS] = {
      {"deauth",
       "probe",
       "rickroll",
-      "funny",
       "badmsg",
       "sleep",
       "sour apple",
@@ -103,11 +95,10 @@ const WifiMarauderItem items[NUM_MENU_ITEMS] = {
       "google spam",
       "flipper spam",
       "bt spam all"},
-     12,
+     11,
      {"attack -t deauth",
       "attack -t probe",
       "attack -t rickroll",
-      "attack -t funny",
       "attack -t badmsg",
       "attack -t sleep",
       "blespam -t apple",
@@ -127,16 +118,16 @@ const WifiMarauderItem items[NUM_MENU_ITEMS] = {
      FOCUS_CONSOLE_END,
      NO_TIP},
     {"Wardrive",
-     {"ap", "station", "flock", "bt", "bt cont"},
-     5,
-     {"wardrive", "wardrive -s", "wardrive -f", "btwardrive", "btwardrive -c"},
+     {"ap", "station", "bt", "bt cont"},
+     4,
+     {"wardrive", "wardrive -s", "btwardrive", "btwardrive -c"},
      NO_ARGS,
      FOCUS_CONSOLE_END,
      SHOW_STOPSCAN_TIP},
     {"Evil Portal",
-     {"start", "set html", "set AP"},
-     3,
-     {"evilportal -c start", "evilportal -c sethtml", "evilportal -c setap"},
+     {"start", "set html", "set AP", "Set AP from file"},
+     4,
+     {"evilportal -c start", "evilportal -c sethtml", "evilportal -c setap", "evilportal -c setapfromfile"},
      TOGGLE_ARGS,
      FOCUS_CONSOLE_END,
      SHOW_STOPSCAN_TIP},
@@ -184,8 +175,20 @@ const WifiMarauderItem items[NUM_MENU_ITEMS] = {
      FOCUS_CONSOLE_END,
      SHOW_STOPSCAN_TIP},
     {"Sniff",
-     {"beacon", "deauth", "pmkid", "probe", "pwn", "raw", "bt", "skim", "airtag", "flipper", "flock", "mactrack", "packetcount", "pineapple", "multissid"},
-     15,
+     {"beacon",
+      "deauth",
+      "pmkid",
+      "probe",
+      "pwn",
+      "raw",
+      "bt",
+      "skim",
+      "airtag",
+      "flipper",
+      "packetcount",
+      "pineapple",
+      "multissid"},
+     13,
      {"sniffbeacon",
       "sniffdeauth",
       "sniffpmkid",
@@ -196,8 +199,6 @@ const WifiMarauderItem items[NUM_MENU_ITEMS] = {
       "sniffskim",
       "sniffbt -t airtag",
       "sniffbt -t flipper",
-      "sniffbt -t flock",
-      "mactrack",
       "packetcount",
       "sniffpinescan",
       "sniffmultissid"},
@@ -310,8 +311,19 @@ static void wifi_marauder_scene_start_var_list_enter_callback(void* context, uin
         return;
     }
 
+    // Special case: "Set AP from file" doesn't need keyboard, goes directly to console
+    bool is_set_ap_from_file = (app->selected_tx_string && 
+                                 strncmp("evilportal -c setapfromfile", 
+                                        app->selected_tx_string, 
+                                        strlen("evilportal -c setapfromfile")) == 0);
+    
     bool needs_keyboard = (item->needs_keyboard == TOGGLE_ARGS) ? (selected_option_index != 0) :
                                                                   item->needs_keyboard;
+    // Override: Set AP from file doesn't need keyboard
+    if(is_set_ap_from_file) {
+        needs_keyboard = false;
+    }
+    
     if(needs_keyboard) {
         view_dispatcher_send_custom_event(app->view_dispatcher, WifiMarauderEventStartKeyboard);
     } else {

@@ -51,26 +51,26 @@ bool unitemp_AM2320_I2C_alloc(Sensor* sensor, char* args) {
     UNUSED(args);
     I2CSensor* i2c_sensor = (I2CSensor*)sensor->instance;
 
-    //Addresses on the I2C bus (7 bits)
+    //Адреса на шине I2C (7 бит)
     i2c_sensor->minI2CAdr = 0x5C << 1;
     i2c_sensor->maxI2CAdr = 0x5C << 1;
     return true;
 }
 
 bool unitemp_AM2320_I2C_free(Sensor* sensor) {
-    //Nothing to release since nothing was allocated
+    //Нечего высвобождать, так как ничего не было выделено
     UNUSED(sensor);
     return true;
 }
 
 bool unitemp_AM2320_init(Sensor* sensor) {
-    //Nothing to initialize
+    //Нечего инициализировать
     UNUSED(sensor);
     return true;
 }
 
 bool unitemp_AM2320_I2C_deinit(Sensor* sensor) {
-    //Nothing to deinitialize
+    //Нечего деинициализировать
     UNUSED(sensor);
     return true;
 }
@@ -84,10 +84,10 @@ UnitempStatus unitemp_AM2320_I2C_update(Sensor* sensor) {
     unitemp_i2c_isDeviceReady(i2c_sensor);
     furi_delay_ms(1);
 
-    //Request
+    //Запрос
     if(!unitemp_i2c_writeArray(i2c_sensor, 3, data)) return UT_SENSORSTATUS_TIMEOUT;
     furi_delay_ms(2);
-    //Answer
+    //Ответ
     if(!unitemp_i2c_readArray(i2c_sensor, 8, data)) return UT_SENSORSTATUS_TIMEOUT;
 
     if(AM2320_calc_CRC(data, 6) != ((data[7] << 8) | data[6])) {
@@ -95,7 +95,7 @@ UnitempStatus unitemp_AM2320_I2C_update(Sensor* sensor) {
     }
 
     sensor->hum = (float)(((uint16_t)data[2] << 8) | data[3]) / 10;
-    //Checking for negative temperature
+    //Проверка на отрицательность температуры
     if(!(data[4] & (1 << 7))) {
         sensor->temp = (float)(((uint16_t)data[4] << 8) | data[5]) / 10;
     } else {

@@ -46,9 +46,9 @@ enum SeosCustomEvent {
 
     SeosCustomEventViewExit,
     SeosCustomEventTextInputDone,
-    // Read/write card events
-    SeosCustomEventPollerError,
-    SeosCustomEventPollerSuccess,
+    // Read card events
+    SeosCustomEventReaderError,
+    SeosCustomEventReaderSuccess,
 
     SeosCustomEventHCIInit,
     // Events during emulating or reading

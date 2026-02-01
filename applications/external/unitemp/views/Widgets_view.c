@@ -31,48 +31,48 @@ void unitemp_widgets_free(void) {
     widget_free(app->widget);
 }
 
-/* ================== Deletion confirmation ================== */
+/* ================== Подтверждение удаления ================== */
 Sensor* current_sensor;
 /**
- * @brief Back button click handling function
+ * @brief Функция обработки нажатия кнопки "Назад"
  * 
- * @param context Pointer to application data
- * @return ID of the view to switch to
+ * @param context Указатель на данные приложения
+ * @return ID вида в который нужно переключиться
  */
 static uint32_t _delete_exit_callback(void* context) {
     UNUSED(context);
-    //Returning the ID of the view to return to
+    //Возвращаем ID вида, в который нужно вернуться
     return UnitempViewSensorActions;
 }
 /**
- * @brief Button click handler in widget
+ * @brief Обработчик нажатий на кнопку в виджете
  * 
- * @param result Which button was pressed
- * @param type Press type
- * @param context Pointer to plugin data
+ * @param result Какая из кнопок была нажата
+ * @param type Тип нажатия
+ * @param context Указатель на данные плагина
  */
 static void _delete_click_callback(GuiButtonType result, InputType type, void* context) {
     UNUSED(context);
-    //Left button pressed briefly (Cancel)
+    //Коротко нажата левая кнопка (Cancel)
     if(result == GuiButtonTypeLeft && type == InputTypeShort) {
         unitemp_SensorActions_switch(current_sensor);
     }
-    //Briefly press the right button (Delete)
+    //Коротко нажата правая кнопка (Delete)
     if(result == GuiButtonTypeRight && type == InputTypeShort) {
-        //Removing the Sensor
+        //Удаление датчика
         unitemp_sensor_delete(current_sensor);
-        //Exit menu
+        //Выход из меню
         unitemp_General_switch();
     }
 }
 /**
- * @brief Switch to sensor removal widget
+ * @brief Переключение в виджет удаления датчика
  */
 void unitemp_widget_delete_switch(Sensor* sensor) {
     current_sensor = sensor;
-    //Cleaning a widget
+    //Очистка виджета
     widget_reset(app->widget);
-    //Adding buttons
+    //Добавление кнопок
     widget_add_button_element(
         app->widget, GuiButtonTypeLeft, "Cancel", _delete_click_callback, app);
     widget_add_button_element(
@@ -142,25 +142,25 @@ void unitemp_widget_delete_switch(Sensor* sensor) {
     view_dispatcher_switch_to_view(app->view_dispatcher, UnitempViewWidget);
 }
 
-/* ========================== Help ======================================== */
+/* ========================== Помощь ========================== */
 
 /**
- * @brief Back button click handling function
+ * @brief Функция обработки нажатия кнопки "Назад"
  * 
- * @param context Pointer to application data
- * @return ID of the view to switch to
+ * @param context Указатель на данные приложения
+ * @return ID вида в который нужно переключиться
  */
 static uint32_t _help_exit_callback(void* context) {
     UNUSED(context);
-    //Returning the ID of the view to return to
+    //Возвращаем ID вида, в который нужно вернуться
     return UnitempViewGeneral;
 }
 
 /**
- * @brief Switch to help widget
+ * @brief Переключение в виджет помощи
  */
 void unitemp_widget_help_switch(void) {
-    //Cleaning a widget
+    //Очистка виджета
     widget_reset(app->widget);
 
     widget_add_icon_element(app->widget, 3, 7, &I_repo_qr_50x50);
@@ -169,24 +169,24 @@ void unitemp_widget_help_switch(void) {
     widget_add_string_multiline_element(
         app->widget, 55, 5, AlignLeft, AlignTop, FontSecondary, "You can find help\nthere");
 
-    widget_add_frame_element(app->widget, 0, 0, 128, 63, 7);
-    widget_add_frame_element(app->widget, 0, 0, 128, 64, 7);
+    widget_add_rect_element(app->widget, 0, 0, 128, 63, 7, false);
+    widget_add_rect_element(app->widget, 0, 0, 128, 64, 7, false);
 
     view_set_previous_callback(widget_get_view(app->widget), _help_exit_callback);
     view_dispatcher_switch_to_view(app->view_dispatcher, UnitempViewWidget);
 }
 
-/* ========================== About the application ======================================== */
+/* ========================== О приложении ========================== */
 
 /**
- * @brief Switch to app widget
+ * @brief Переключение в виджет о приложении
  */
 void unitemp_widget_about_switch(void) {
-    //Cleaning a widget
+    //Очистка виджета
     widget_reset(app->widget);
 
-    widget_add_frame_element(app->widget, 0, 0, 128, 63, 7);
-    widget_add_frame_element(app->widget, 0, 0, 128, 64, 7);
+    widget_add_rect_element(app->widget, 0, 0, 128, 63, 7, false);
+    widget_add_rect_element(app->widget, 0, 0, 128, 64, 7, false);
 
     snprintf(app->buff, BUFF_SIZE, "#Unitemp %s#", UNITEMP_APP_VER);
     widget_add_text_box_element(

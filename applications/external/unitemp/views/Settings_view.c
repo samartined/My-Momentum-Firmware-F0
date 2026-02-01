@@ -18,39 +18,35 @@
 #include "UnitempViews.h"
 #include <gui/modules/variable_item_list.h>
 
-//Current view
+//Текущий вид
 static View* view;
-//List
+//Список
 static VariableItemList* variable_item_list;
 
 static const char states[2][9] = {"Auto", "Infinity"};
 static const char temp_units[UT_TEMP_COUNT][3] = {"*C", "*F"};
-static const char humidity_units[UT_HUMIDITY_COUNT][12] = {"Relative", "Dewpoint"};
-static const char pressure_units[UT_PRESSURE_COUNT][6] = {"mmHg", "inHg", "kPa", "hPa"};
+static const char pressure_units[UT_PRESSURE_COUNT][6] = {"mm Hg", "in Hg", "kPa", "hPA"};
 static const char heat_index_bool[2][4] = {"OFF", "ON"};
 
-//List item - infinite highlight
+//Элемент списка - бесконечная подсветка
 VariableItem* infinity_backlight_item;
-//Temperature unit
+//Единица измерения температуры
 VariableItem* temperature_unit_item;
-// Humidity unit
-VariableItem* humidity_unit_item;
-//Pressure unit
+//Единица измерения давления
 VariableItem* pressure_unit_item;
-//Heat index
-VariableItem* heat_index_item;
 
+VariableItem* heat_index_item;
 #define VIEW_ID UnitempViewSettings
 
 /**
- * @brief Back button click handling function
+ * @brief Функция обработки нажатия кнопки "Назад"
  *
- * @param context Pointer to application data
- * @return ID of the view to switch to
+ * @param context Указатель на данные приложения
+ * @return ID вида в который нужно переключиться
  */
 static uint32_t _exit_callback(void* context) {
     UNUSED(context);
-    //Crutch with hovering backlight
+    //Костыль с зависающей подсветкой
     if((bool)variable_item_get_current_value_index(infinity_backlight_item) !=
        app->settings.infinityBacklight) {
         if((bool)variable_item_get_current_value_index(infinity_backlight_item)) {
@@ -63,20 +59,19 @@ static uint32_t _exit_callback(void* context) {
     app->settings.infinityBacklight =
         (bool)variable_item_get_current_value_index(infinity_backlight_item);
     app->settings.temp_unit = variable_item_get_current_value_index(temperature_unit_item);
-    app->settings.humidity_unit = variable_item_get_current_value_index(humidity_unit_item);
     app->settings.pressure_unit = variable_item_get_current_value_index(pressure_unit_item);
     app->settings.heat_index = variable_item_get_current_value_index(heat_index_item);
     unitemp_saveSettings();
     unitemp_loadSettings();
 
-    //Return to previous view
+    //Возврат предыдущий вид
     return UnitempViewMainMenu;
 }
 /**
- * @brief Middle button click handling function
+ * @brief Функция обработки нажатия средней кнопки
  *
- * @param context Pointer to application data
- * @param index Which list item the button was clicked on
+ * @param context Указатель на данные приложения
+ * @param index На каком элементе списка была нажата кнопка
  */
 static void _enter_callback(void* context, uint32_t index) {
     UNUSED(context);
@@ -94,11 +89,6 @@ static void _setting_change_callback(VariableItem* item) {
             temperature_unit_item,
             temp_units[variable_item_get_current_value_index(temperature_unit_item)]);
     }
-    if(item == humidity_unit_item) {
-        variable_item_set_current_value_text(
-            humidity_unit_item,
-            humidity_units[variable_item_get_current_value_index(humidity_unit_item)]);
-    }
     if(item == pressure_unit_item) {
         variable_item_set_current_value_text(
             pressure_unit_item,
@@ -112,37 +102,35 @@ static void _setting_change_callback(VariableItem* item) {
 }
 
 /**
- * @brief Creating a menu for editing settings
+ * @brief Создание меню редактирования настроек
  */
 void unitemp_Settings_alloc(void) {
     variable_item_list = variable_item_list_alloc();
-    //Reset all menu items
+    //Сброс всех элементов меню
     variable_item_list_reset(variable_item_list);
 
     infinity_backlight_item = variable_item_list_add(
         variable_item_list, "Backlight time", UT_TEMP_COUNT, _setting_change_callback, app);
     temperature_unit_item =
         variable_item_list_add(variable_item_list, "Temp. unit", 2, _setting_change_callback, app);
-    humidity_unit_item = variable_item_list_add(
-        variable_item_list, "Humidity unit", UT_HUMIDITY_COUNT, _setting_change_callback, app);
     pressure_unit_item = variable_item_list_add(
         variable_item_list, "Press. unit", UT_PRESSURE_COUNT, _setting_change_callback, app);
     heat_index_item = variable_item_list_add(
         variable_item_list, "Calc. heat index", 2, _setting_change_callback, app);
 
-    //Adding a callback for pressing the middle button
+    //Добавление колбека на нажатие средней кнопки
     variable_item_list_set_enter_callback(variable_item_list, _enter_callback, app);
 
-    //Creating a View from a List
+    //Создание вида из списка
     view = variable_item_list_get_view(variable_item_list);
-    //Adding a callback for pressing the "Back" button
+    //Добавление колбека на нажатие кнопки "Назад"
     view_set_previous_callback(view, _exit_callback);
-    //Adding a View to the Manager
+    //Добавление вида в диспетчер
     view_dispatcher_add_view(app->view_dispatcher, VIEW_ID, view);
 }
 
 void unitemp_Settings_switch(void) {
-    //Resetting the last selected item
+    //Обнуление последнего выбранного пункта
     variable_item_list_set_selected_item(variable_item_list, 0);
 
     variable_item_set_current_value_index(
@@ -155,11 +143,6 @@ void unitemp_Settings_switch(void) {
     variable_item_set_current_value_text(
         temperature_unit_item,
         temp_units[variable_item_get_current_value_index(temperature_unit_item)]);
-
-    variable_item_set_current_value_index(humidity_unit_item, app->settings.humidity_unit);
-    variable_item_set_current_value_text(
-        humidity_unit_item,
-        humidity_units[variable_item_get_current_value_index(humidity_unit_item)]);
 
     variable_item_set_current_value_index(
         pressure_unit_item, (uint8_t)app->settings.pressure_unit);
@@ -175,10 +158,8 @@ void unitemp_Settings_switch(void) {
 }
 
 void unitemp_Settings_free(void) {
-    //Clearing the list of elements
-    variable_item_list_free(variable_item_list);
-    //Clearing a view
-    view_free(view);
-    //Deleting a view after processing
+    //Удаление вида после обработки
     view_dispatcher_remove_view(app->view_dispatcher, VIEW_ID);
+    //Очистка списка элементов
+    variable_item_list_free(variable_item_list);
 }

@@ -20,7 +20,6 @@ void metroflip_scene_supported_on_enter(void* context) {
     furi_string_cat_printf(
         str, " - Clipper:\nSan Francisco, CA, USA\nProtocol: MIFARE DESFire\n\n");
     furi_string_cat_printf(str, " - ITSO:\nUnited Kingdom\nProtocol: MIFARE DESFire\n\n");
-    furi_string_cat_printf(str, " - Intertic:\nFrance\nProtocol: ST25TB\n\n");
     furi_string_cat_printf(str, " - Metromoney:\nTbilisi, Georgia\nProtocol: MIFARE Classic\n\n");
     furi_string_cat_printf(
         str, " - myki:\nMelbourne (and surrounds), VIC, Australia\nProtocol: MIFARE DESFire\n\n");
@@ -32,7 +31,6 @@ void metroflip_scene_supported_on_enter(void* context) {
     furi_string_cat_printf(
         str, " - SmartRider:\nPerth, WA, Australia\nProtocol: MIFARE Classic\n\n");
     furi_string_cat_printf(str, " - Troika:\nMoscow, Russia\nProtocol: MIFARE Classic\n\n");
-    furi_string_cat_printf(str, " - TRT:\nTianjin, China\nProtocol: MIFARE Ultralight\n\n");
     furi_string_cat_printf(str, " - Suica:\nJapan\nProtocol: FeliCa\n\n");
     
 

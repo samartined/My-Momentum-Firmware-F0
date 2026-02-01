@@ -50,52 +50,52 @@ typedef struct {
 } BMx280_hum_cal;
 
 typedef struct {
-    //Temperature calibration values
+    //Калибровочные значения температуры
     BMx280_temp_cal temp_cal;
-    //Pressure calibration values
+    //Калибровочные значения давления
     BMx280_press_cal press_cal;
-    //Air humidity calibration values
+    //Калибровочные значения влажности воздуха
     BMx280_hum_cal hum_cal;
-    //Time of last update of calibration values
+    //Время последнего обновления калибровочных значений
     uint32_t last_cal_update_time;
-    //Sensor ID
+    //Индификатор датчика
     uint8_t chip_id;
-    //Temperature correction value
+    //Корректировочное значение температуры
     int32_t t_fine;
 } BMx280_instance;
 
 extern const SensorType BMP280;
 extern const SensorType BME280;
 /**
- * @brief Allocating memory and setting initial values ​​for the BMP280 sensor
- * @param sensor Pointer to the sensor to create
- * @return The truth about success
+ * @brief Выделение памяти и установка начальных значений датчика BMP280
+ * @param sensor Указатель на создаваемый датчик
+ * @return Истина при успехе
  */
 bool unitemp_BMx280_alloc(Sensor* sensor, char* args);
 
 /**
- * @brief BMP280 sensor initialization
- * @param sensor Pointer to sensor
- * @return True if initialization is successful
+ * @brief Инициализации датчика BMP280
+ * @param sensor Указатель на датчик
+ * @return Истина если инициализация упспешная
  */
 bool unitemp_BMx280_init(Sensor* sensor);
 
 /**
- * @brief Deinitializing the sensor
- * @param sensor Pointer to sensor
+ * @brief Деинициализация датчика
+ * @param sensor Указатель на датчик
  */
 bool unitemp_BMx280_deinit(Sensor* sensor);
 
 /**
- * @brief Updating values ​​from sensor
- * @param sensor Pointer to sensor
- * @return Sensor poll status
+ * @brief Обновление значений из датчика
+ * @param sensor Указатель на датчик
+ * @return Статус опроса датчика
  */
 UnitempStatus unitemp_BMx280_update(Sensor* sensor);
 
 /**
- * @brief Free up sensor memory
- * @param sensor Pointer to sensor
+ * @brief Высвободить память датчика
+ * @param sensor Указатель на датчик
  */
 bool unitemp_BMx280_free(Sensor* sensor);
 

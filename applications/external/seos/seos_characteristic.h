@@ -13,11 +13,12 @@
 #include "seos_att.h"
 #include "keys.h"
 
+#define BLE_START 0xc0
+
 typedef struct {
     Seos* seos;
     SeosAtt* seos_att;
     uint16_t handle;
-    BitBuffer* rx_buffer;
 
     SeosPhase phase;
 

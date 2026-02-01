@@ -20,14 +20,13 @@
 #include <furi.h>
 #include <input/input.h>
 
-//Bit masks to define return types
+//Маски бит для определения типов возвращаемых значений
 #define UT_TEMPERATURE 0b00000001
 #define UT_HUMIDITY    0b00000010
 #define UT_PRESSURE    0b00000100
 #define UT_CO2         0b00001000
-#define UT_CALIBRATION 0b10000000
 
-//Sensor polling statuses
+//Статусы опроса датчика
 typedef enum {
     UT_DATA_TYPE_TEMP = UT_TEMPERATURE,
     UT_DATA_TYPE_TEMP_HUM = UT_TEMPERATURE | UT_HUMIDITY,
@@ -36,19 +35,19 @@ typedef enum {
     UT_DATA_TYPE_TEMP_HUM_CO2 = UT_TEMPERATURE | UT_HUMIDITY | UT_CO2,
 } SensorDataType;
 
-//Return Types
+//Типы возвращаемых данных
 typedef enum {
-    UT_SENSORSTATUS_OK, //Everything is fine, the survey is successful
-    UT_SENSORSTATUS_TIMEOUT, //The sensor did not respond
-    UT_SENSORSTATUS_EARLYPOOL, //Poll before the required delay
-    UT_SENSORSTATUS_BADCRC, //Invalid checksum
-    UT_SENSORSTATUS_ERROR, //Other errors
-    UT_SENSORSTATUS_POLLING, //A transformation occurs in the sensor
-    UT_SENSORSTATUS_INACTIVE, //The sensor is being edited or deleted
+    UT_SENSORSTATUS_OK, //Всё хорошо, опрос успешен
+    UT_SENSORSTATUS_TIMEOUT, //Датчик не отозвался
+    UT_SENSORSTATUS_EARLYPOOL, //Опрос раньше положенной задержки
+    UT_SENSORSTATUS_BADCRC, //Неверная контрольная сумма
+    UT_SENSORSTATUS_ERROR, //Прочие ошибки
+    UT_SENSORSTATUS_POLLING, //В датчике происходит преобразование
+    UT_SENSORSTATUS_INACTIVE, //Датчик на редактировании или удалён
 
 } UnitempStatus;
 
-//Flipper Zero I/O port
+//Порт ввода/вывода Flipper Zero
 typedef struct GPIO {
     const uint8_t num;
     const char* name;
@@ -58,276 +57,268 @@ typedef struct GPIO {
 typedef struct Sensor Sensor;
 
 /**
- * @brief Function pointer to allocate memory and prepare a sensor instance
+ * @brief Указатель функции выделения памяти и подготовки экземпляра датчика
  */
 typedef bool(SensorAllocator)(Sensor* sensor, char* args);
 /**
- * @brief Pointer to the sensor memory release function
+ * @brief Указатель на функцию высвобождении памяти датчика
  */
 typedef bool(SensorFree)(Sensor* sensor);
 /**
- * @brief Sensor initialization function pointer
+ * @brief Указатель функции инициализации датчика
  */
 typedef bool(SensorInitializer)(Sensor* sensor);
 /**
- * @brief Pointer to the sensor deinitialization function
+ * @brief Указатель функции деинициализации датчика
  */
 typedef bool(SensorDeinitializer)(Sensor* sensor);
 /**
- * @brief Pointer to the sensor value update function
+ * @brief Указатель функции обновления значения датчика
  */
 typedef UnitempStatus(SensorUpdater)(Sensor* sensor);
 
-typedef UnitempStatus(Calibrate)(Sensor*, float);
-
-//Sensor connection types
+//Типы подключения датчиков
 typedef struct Interface {
-    //Interface name
+    //Имя интерфейса
     const char* name;
-    //Interface memory allocation function
+    //Функция выделения памяти интерфейса
     SensorAllocator* allocator;
-    //Interface memory release function
+    //Функция высвыбождения памяти интерфейса
     SensorFree* mem_releaser;
-    //Sensor value update function via interface
+    //Функция обновления значения датчика по интерфейсу
     SensorUpdater* updater;
 } Interface;
 
-//Sensor types
+//Типы датчиков
 typedef struct {
-    //Sensor model
+    //Модель датчика
     const char* typename;
-    //Full name with analogues
+    //Полное имя с аналогами
     const char* altname;
-    //Return type
+    //Тип возвращаемых данных
     SensorDataType datatype;
-    //Connection interface
+    //Интерфейс подключения
     const Interface* interface;
-    //Sensor polling interval
+    //Интервал опроса датчика
     uint16_t pollingInterval;
-    //Sensor memory allocation function
+    //Функция выделения памяти для датчика
     SensorAllocator* allocator;
-    //Sensor memory release function
+    //Функция высвыбождения памяти для датчика
     SensorFree* mem_releaser;
-    //Sensor initialization function
+    //Функция инициализации датчика
     SensorInitializer* initializer;
-    //Sensor deinitialization function
+    //Функция деинициализация датчика
     SensorDeinitializer* deinitializer;
-    //Sensor value update function
+    //Функция обновления значения датчка
     SensorUpdater* updater;
 } SensorType;
 
-typedef struct {
-    SensorType super;
-    Calibrate* calibrate;
-} SensorTypeWithCalibration;
-
-//Sensor
+//Датчик
 typedef struct Sensor {
-    //Sensor name
+    //Имя датчика
     char* name;
-    //Temperature
+    //Температура
     float temp;
-    //Heat index
     float heat_index;
-    //Relative humidity
+    //Относительная влажность
     float hum;
-    //Atmospheric pressure
+    //Атмосферное давление
     float pressure;
-    //CO2 concentration
+    // Концентрация CO2
     float co2;
-    //Sensor type
+    //Тип датчика
     const SensorType* type;
-    //Last sensor poll status
+    //Статус последнего опроса датчика
     UnitempStatus status;
-    //Time of the last sensor poll
+    //Время последнего опроса датчика
     uint32_t lastPollingTime;
-    //Temperature offset (x10)
+    //Смещение по температуре (x10)
     int8_t temp_offset;
-    //Sensor instance
+    //Экземпляр датчика
     void* instance;
 } Sensor;
 
-extern const Interface SINGLE_WIRE; //Proprietary single-wire protocol for DHTXX and AM23XX sensors
-extern const Interface ONE_WIRE; //Dallas Single Wire Protocol
+extern const Interface SINGLE_WIRE; //Собственный однопроводной протокол датчиков DHTXX и AM23XX
+extern const Interface ONE_WIRE; //Однопроводной протокол Dallas
 extern const Interface I2C; //I2C_2 (PC0, PC1)
 extern const Interface SPI; //SPI_1 (MOSI - 2, MISO - 3, CS - 4, SCK - 5)
 
-/* ============================= Sensor(s) ============================================ */
+/* ============================= Датчик(и) ============================= */
 /**
- * @brief Memory allocation for sensor
+ * @brief Выделение памяти под датчик
  * 
- * @param name Sensor name
- * @param type Sensor type
- * @param args Pointer to a string with sensor parameters
- * @return Pointer to the sensor in case of successful memory allocation, NULL on error
+ * @param name Имя датчика
+ * @param type Тип датчика
+ * @param args Указатель на строку с парамерами датчика
+ * @return Указатель на датчик в случае успешного выделения памяти, NULL при ошибке
  */
 Sensor* unitemp_sensor_alloc(char* name, const SensorType* type, char* args);
 
 /**
- * @brief Freeing up the memory of a specific sensor
- * @param sensor Pointer to sensor
+ * @brief Высвыбождение памяти конкретного датчка
+ * @param sensor Указатель на датчик
  */
 void unitemp_sensor_free(Sensor* sensor);
 
 /**
- * @brief Update the data of the specified sensor
- * @param sensor Pointer to sensor
- * @return Sensor poll status
+ * @brief Обновление данных указанного датчика
+ * @param sensor Указатель на датчик
+ * @return Статус опроса датчика
  */
 UnitempStatus unitemp_sensor_updateData(Sensor* sensor);
 
 /**
- * @brief Checking whether a sensor is in memory
+ * @brief Проверка наличия датчика в памяти
  * 
- * @param sensor Pointer to sensor
- * @return True if this sensor is already loaded, false if this is a new sensor
+ * @param sensor Указатель на датчик
+ * @return Истина если этот датчик уже загружен, ложь если это новый датчик
  */
 bool unitemp_sensor_isContains(Sensor* sensor);
 
 /**
- * @brief Get sensor from list by index
+ * @brief Получить датчик из списка по индексу
  * 
- * @param index Sensor index (0 - unitemp_sensors_getCount())
- * @return Pointer to sensor on success, NULL on failure
+ * @param index Индекс датчика (0 - unitemp_sensors_getCount())
+ * @return Указатель на датчик при успехе, NULL при неудаче
  */
 Sensor* unitemp_sensor_getActive(uint8_t index);
 
 /**
- * @brief Loading sensors from SD card
- * @return True if the upload was successful
+ * @brief Загрузка датчиков с SD-карты
+ * @return Истина если загрузка прошла успешно
  */
 bool unitemp_sensors_load();
 
 /**
- * @brief Function for rebooting sensors from an SD card
+ * @brief Функция перезагрузки датчиков с SD-карты
 */
 void unitemp_sensors_reload(void);
 
 /**
- * @brief Saving sensors to SD card
- * @return True if save was successful
+ * @brief Сохранение датчиков на SD-карту
+ * @return Истина если сохранение прошло успешно
  */
 bool unitemp_sensors_save(void);
 
 /**
- * @brief Removing a sensor
+ * @brief Удаление датчика
  * 
- * @param sensor Pointer to sensor
+ * @param sensor Указатель на датчик
  */
 void unitemp_sensor_delete(Sensor* sensor);
 
 /**
- * @brief Initializing loaded sensors
- * @return True if everything went well
+ * @brief Инициализация загруженных датчиков
+ * @return Истина если всё прошло успешно
  */
 bool unitemp_sensors_init(void);
 
 /**
- * @brief Deinitialize loaded sensors
- * @return True if everything went well
+ * @brief Деинициализация загруженных датчиков
+ * @return Истина если всё прошло успешно
  */
 bool unitemp_sensors_deInit(void);
 
 /**
- * @brief Freeing up the memory of all sensors
+ * @brief Высвыбождение памяти всех датчиков
  */
 void unitemp_sensors_free(void);
 
 /**
- * @brief Update all sensor data
+ * @brief Обновить данные всех датчиков
  */
 void unitemp_sensors_updateValues(void);
 
 /**
- * @brief Get number of loaded sensors
- * @return Number of sensors
+ * @brief Получить количество загруженных датчиков
+ * @return Количество датчиков
  */
 uint8_t unitemp_sensors_getCount(void);
 
 /**
- * @brief Add sensor to general list
- * @param sensor Pointer to sensor
+ * @brief Добавить датчик в общий список
+ * @param sensor Указатель на датчик
  */
 void unitemp_sensors_add(Sensor* sensor);
 
 /**
-* @brief Get a list of available sensor types
-* @return Pointer to a list of sensors
+* @brief Получить списк доступных типов датчиков
+* @return Указатель на список датчиков
 */
 const SensorType** unitemp_sensors_getTypes(void);
 
 /**
-* @brief Get number of available sensor types
-* @return Number of available sensor types
+* @brief Получить количество доступных типов датчиков
+* @return Количество доступных типов датчиков
 */
 uint8_t unitemp_sensors_getTypesCount(void);
 
 /**
- * @brief Get sensor type by its index
- * @param index Sensor type index (0 to SENSOR_TYPES_COUNT)
+ * @brief Получить тип сенсора по его индексу
+ * @param index Индекс типа датчика (от 0 до SENSOR_TYPES_COUNT)
  * @return const SensorType* 
  */
 const SensorType* unitemp_sensors_getTypeFromInt(uint8_t index);
 
 /**
- * @brief Convert lowercase sensor name to index
+ * @brief Преобразовать строчное название датчка в указатель
  * 
- * @param str Sensor name as a string
- * @return Pointer to the sensor type on success, otherwise NULL
+ * @param str Имя датчика в виде строки
+ * @return Указатель на тип датчика при успехе, иначе NULL
  */
 const SensorType* unitemp_sensors_getTypeFromStr(char* str);
 
 /**
- * @brief Get the number of active sensors
+ * @brief Получить количество активных датчиков
  * 
- * @return Number of active sensors
+ * @return Количество активных датчиков
  */
 uint8_t unitemp_sensors_getActiveCount(void);
 
 /* ============================= GPIO ============================= */
 /**
- * @brief Converting the port number on the FZ case to GPIO
- * @param name Port number on the FZ case
- * @return Pointer to GPIO on success, NULL on error
+ * @brief Конвертация номера порта на корпусе FZ в GPIO 
+ * @param name Номер порта на корпусе FZ
+ * @return Указатель на GPIO при успехе, NULL при ошибке
  */
 const GPIO* unitemp_gpio_getFromInt(uint8_t name);
 /**
- * @brief Converting GPIO to number on the FZ case
- * @param gpio Pointer to port
- * @return Port number on the FZ case
+ * @brief Конвертация GPIO в номер на корпусе FZ
+ * @param gpio Указатель на порт
+ * @return Номер порта на корпусе FZ
  */
 uint8_t unitemp_gpio_toInt(const GPIO* gpio);
 
 /**
- * @brief Locking GPIO by specified interface
- * @param gpio Pointer to port
- * @param interface Pointer to the interface on which the port will be occupied
+ * @brief Блокировка GPIO указанным интерфейсом
+ * @param gpio Указатель на порт
+ * @param interface Указатель на интерфейс, которым порт будет занят
  */
 void unitemp_gpio_lock(const GPIO* gpio, const Interface* interface);
 
 /**
- * @brief Unblocking the port
- * @param gpio Pointer to port
+ * @brief Разблокировка порта
+ * @param gpio Указатель на порт
  */
 void unitemp_gpio_unlock(const GPIO* gpio);
 /**
- * @brief Get the number of available ports for the specified interface
- * @param interface Pointer to interface
- * @return Number of available ports
+ * @brief Получить количество доступных портов для указанного интерфейса
+ * @param interface Указатель на интерфейс
+ * @return Количество доступных портов
  */
 uint8_t unitemp_gpio_getAviablePortsCount(const Interface* interface, const GPIO* extraport);
 /**
- * @brief Get a pointer to the port available for the interface by index
- * @param interface Pointer to interface
- * @param index Port number (from 0 to unitemp_gpio_getAviablePortsCount())
- * @param extraport Pointer to an additional port that will be forced to be considered available. 
- * @return Pointer to an available port
+ * @brief Получить указатель на доступный для интерфейса порт по индексу 
+ * @param interface Указатель на интерфейс
+ * @param index Номер порта (от 0 до unitemp_gpio_getAviablePortsCount())
+ * @param extraport Указатель на дополнительный порт, который будет принудительно считаться доступным. Можно указать NULL если не требуется
+ * @return Указатель на доступный порт
  */
 const GPIO*
     unitemp_gpio_getAviablePort(const Interface* interface, uint8_t index, const GPIO* extraport);
 
-/* Sensors */
-//DHTxx and their derivatives
+/* Датчики */
+//DHTxx и их производные
 #include "./interfaces/SingleWireSensor.h"
 //DS18x2x
 #include "./interfaces/OneWireSensor.h"
@@ -342,7 +333,6 @@ const GPIO*
 #include "./sensors/HTU21x.h"
 #include "./sensors/HDC1080.h"
 #include "./sensors/MAX31855.h"
-#include "./sensors/MAX31725.h"
 #include "./sensors/MAX6675.h"
 #include "./sensors/SCD30.h"
 #include "./sensors/SCD40.h"

@@ -13,7 +13,6 @@
 #include "modules/flipp_pomodoro.h"
 #include "modules/flipp_pomodoro_statistics.h"
 #include "modules/flipp_pomodoro_settings.h"
-#include "helpers/notification_manager.h"
 
 typedef enum
 {
@@ -32,7 +31,6 @@ typedef struct
     ViewDispatcher *view_dispatcher;
     Gui *gui;
     NotificationApp *notification_app;
-    NotificationManager *notification_manager;
     FlippPomodoroTimerView *timer_view;
     FlippPomodoroInfoView *info_view;
     FlippPomodoroConfigView *config_view;

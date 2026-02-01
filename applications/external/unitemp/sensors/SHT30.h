@@ -23,47 +23,47 @@
 extern const SensorType SHT30;
 extern const SensorType GXHT30;
 /**
- * @brief Allocating memory and setting initial values ​​for the SHT30 sensor
+ * @brief Выделение памяти и установка начальных значений датчика SHT30
  *
- * @param sensor Pointer to the sensor to create
- * @return The truth about success
+ * @param sensor Указатель на создаваемый датчик
+ * @return Истина при успехе
  */
 bool unitemp_SHT30_I2C_alloc(Sensor* sensor, char* args);
 
 /**
- * @brief SHT30 sensor initialization
+ * @brief Инициализации датчика SHT30
  *
- * @param sensor Pointer to sensor
- * @return True if initialization is successful
+ * @param sensor Указатель на датчик
+ * @return Истина если инициализация упспешная
  */
 bool unitemp_SHT30_init(Sensor* sensor);
 /**
- * @brief GXHT30 sensor initialization
+ * @brief Инициализации датчика GXHT30
  *
- * @param sensor Pointer to sensor
- * @return True if initialization is successful
+ * @param sensor Указатель на датчик
+ * @return Истина если инициализация упспешная
  */
 bool unitemp_GXHT30_init(Sensor* sensor);
 
 /**
- * @brief Deinitializing the sensor
+ * @brief Деинициализация датчика
  *
- * @param sensor Pointer to sensor
+ * @param sensor Указатель на датчик
  */
 bool unitemp_SHT30_I2C_deinit(Sensor* sensor);
 
 /**
- * @brief Updating values ​​from sensor
+ * @brief Обновление значений из датчика
  *
- * @param sensor Pointer to sensor
- * @return Update status
+ * @param sensor Указатель на датчик
+ * @return Статус обновления
  */
 UnitempStatus unitemp_SHT30_I2C_update(Sensor* sensor);
 
 /**
- * @brief Free up sensor memory
+ * @brief Высвободить память датчика
  *
- * @param sensor Pointer to sensor
+ * @param sensor Указатель на датчик
  */
 bool unitemp_SHT30_I2C_free(Sensor* sensor);
 

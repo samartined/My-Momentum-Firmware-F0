@@ -25,40 +25,40 @@
 extern const SensorType MAX6675;
 
 /**
- * @brief Allocating memory and setting initial values ​​for the MAX6675 sensor
+ * @brief Выделение памяти и установка начальных значений датчика MAX6675
  *
- * @param sensor Pointer to the sensor to create
- * @return The truth about success
+ * @param sensor Указатель на создаваемый датчик
+ * @return Истина при успехе
  */
 bool unitemp_MAX6675_alloc(Sensor* sensor, char* args);
 
 /**
- * @brief MAX6675 sensor initialization
+ * @brief Инициализации датчика MAX6675
  *
- * @param sensor Pointer to sensor
- * @return True if initialization is successful
+ * @param sensor Указатель на датчик
+ * @return Истина если инициализация упспешная
  */
 bool unitemp_MAX6675_init(Sensor* sensor);
 
 /**
- * @brief Deinitializing the sensor
+ * @brief Деинициализация датчика
  *
- * @param sensor Pointer to sensor
+ * @param sensor Указатель на датчик
  */
 bool unitemp_MAX6675_deinit(Sensor* sensor);
 
 /**
- * @brief Updating values ​​from sensor
+ * @brief Обновление значений из датчика
  *
- * @param sensor Pointer to sensor
- * @return Update status
+ * @param sensor Указатель на датчик
+ * @return Статус обновления
  */
 UnitempStatus unitemp_MAX6675_update(Sensor* sensor);
 
 /**
- * @brief Free up sensor memory
+ * @brief Высвободить память датчика
  *
- * @param sensor Pointer to sensor
+ * @param sensor Указатель на датчик
  */
 bool unitemp_MAX6675_free(Sensor* sensor);
 

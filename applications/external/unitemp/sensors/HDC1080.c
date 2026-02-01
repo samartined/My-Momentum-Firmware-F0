@@ -33,14 +33,14 @@ bool unitemp_HDC1080_alloc(Sensor* sensor, char* args) {
     UNUSED(args);
     I2CSensor* i2c_sensor = (I2CSensor*)sensor->instance;
 
-    //Addresses on the I2C bus (7 bits)
+    //Адреса на шине I2C (7 бит)
     i2c_sensor->minI2CAdr = 0x40 << 1;
     i2c_sensor->maxI2CAdr = 0x40 << 1;
     return true;
 }
 
 bool unitemp_HDC1080_free(Sensor* sensor) {
-    //Nothing to release since nothing was allocated
+    //Нечего высвобождать, так как ничего не было выделено
     UNUSED(sensor);
     return true;
 }
@@ -61,7 +61,7 @@ bool unitemp_HDC1080_init(Sensor* sensor) {
     }
     data[0] = 0b0001000;
     data[1] = 0;
-    //Setting the operating mode and measurement depth
+    //Установка режима работы и разрядности измерений
     if(!unitemp_i2c_writeRegArray(i2c_sensor, 0x02, 2, data)) return UT_SENSORSTATUS_TIMEOUT;
 
     return true;
@@ -77,7 +77,7 @@ UnitempStatus unitemp_HDC1080_update(Sensor* sensor) {
     I2CSensor* i2c_sensor = (I2CSensor*)sensor->instance;
 
     uint8_t data[2] = {0};
-    //Starting a measurement
+    //Запуск измерения
     if(!unitemp_i2c_writeArray(i2c_sensor, 1, data)) return UT_SENSORSTATUS_TIMEOUT;
     furi_delay_ms(10);
     if(!unitemp_i2c_readArray(i2c_sensor, 2, data)) return UT_SENSORSTATUS_TIMEOUT;

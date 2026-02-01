@@ -22,40 +22,40 @@
 #include "../Sensors.h"
 extern const SensorType LM75;
 /**
- * @brief Allocating memory and setting initial values ​​for the LM75 sensor
+ * @brief Выделение памяти и установка начальных значений датчика LM75
  *
- * @param sensor Pointer to the sensor to create
- * @return The truth about success
+ * @param sensor Указатель на создаваемый датчик
+ * @return Истина при успехе
  */
 bool unitemp_LM75_alloc(Sensor* sensor, char* args);
 
 /**
- * @brief Initializing the LM75 sensor
+ * @brief Инициализации датчика LM75
  *
- * @param sensor Pointer to sensor
- * @return True if initialization is successful
+ * @param sensor Указатель на датчик
+ * @return Истина если инициализация упспешная
  */
 bool unitemp_LM75_init(Sensor* sensor);
 
 /**
- * @brief Deinitializing the sensor
+ * @brief Деинициализация датчика
  *
- * @param sensor Pointer to sensor
+ * @param sensor Указатель на датчик
  */
 bool unitemp_LM75_deinit(Sensor* sensor);
 
 /**
- * @brief Updating values ​​from sensor
+ * @brief Обновление значений из датчика
  *
- * @param sensor Pointer to sensor
- * @return Update status
+ * @param sensor Указатель на датчик
+ * @return Статус обновления
  */
 UnitempStatus unitemp_LM75_update(Sensor* sensor);
 
 /**
- * @brief Free up sensor memory
+ * @brief Высвободить память датчика
  *
- * @param sensor Pointer to sensor
+ * @param sensor Указатель на датчик
  */
 bool unitemp_LM75_free(Sensor* sensor);
 

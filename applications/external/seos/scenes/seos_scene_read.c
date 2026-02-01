@@ -12,7 +12,6 @@ void seos_scene_read_on_enter(void* context) {
     popup_set_header(popup, "Reading", 68, 30, AlignLeft, AlignTop);
     popup_set_icon(popup, 0, 3, &I_RFIDDolphinReceive_97x61);
 
-    seos->credential->write = false;
     seos->poller = nfc_poller_alloc(seos->nfc, NfcProtocolIso14443_4a);
     nfc_poller_start(seos->poller, seos_worker_poller_callback, seos);
 
@@ -26,10 +25,10 @@ bool seos_scene_read_on_event(void* context, SceneManagerEvent event) {
     bool consumed = false;
 
     if(event.type == SceneManagerEventTypeCustom) {
-        if(event.event == SeosCustomEventPollerSuccess) {
+        if(event.event == SeosCustomEventReaderSuccess) {
             scene_manager_next_scene(seos->scene_manager, SeosSceneReadSuccess);
             consumed = true;
-        } else if(event.event == SeosCustomEventPollerError) {
+        } else if(event.event == SeosCustomEventReaderError) {
             scene_manager_next_scene(seos->scene_manager, SeosSceneReadError);
             consumed = true;
         }

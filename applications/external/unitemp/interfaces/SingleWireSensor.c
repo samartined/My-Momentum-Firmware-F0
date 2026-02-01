@@ -17,10 +17,10 @@
 */
 #include "SingleWireSensor.h"
 
-// Maximum number of polling ticks while waiting for the sensor
+//Максимальное количество попугаев ожидания датчика
 #define POLLING_TIMEOUT_TICKS 500
 
-/* Sensor types and their parameters */
+/* Типы датчиков и их параметры */
 const SensorType DHT11 = {
     .typename = "DHT11",
     .interface = &SINGLE_WIRE,
@@ -107,14 +107,14 @@ bool unitemp_singlewire_init(Sensor* sensor) {
         return false;
     }
     unitemp_gpio_lock(instance->gpio, &SINGLE_WIRE);
-    // High level by default
+    //Высокий уровень по умолчанию
     furi_hal_gpio_write(instance->gpio->pin, true);
-    // Operation mode - OpenDrain, pull-up enabled just in case
+    //Режим работы - OpenDrain, подтяжка включается на всякий случай
     furi_hal_gpio_init(
-        instance->gpio->pin, // FZ port
-        GpioModeOutputOpenDrain, // Operation mode - open drain
-        GpioPullUp, // Force pull-up of the data line to power
-        GpioSpeedVeryHigh); // Operating speed - maximum
+        instance->gpio->pin, //Порт FZ
+        GpioModeOutputOpenDrain, //Режим работы - открытый сток
+        GpioPullUp, //Принудительная подтяжка линии данных к питанию
+        GpioSpeedVeryHigh); //Скорость работы - максимальная
     return true;
 }
 
@@ -122,14 +122,14 @@ bool unitemp_singlewire_deinit(Sensor* sensor) {
     SingleWireSensor* instance = ((Sensor*)sensor)->instance;
     if(instance == NULL || instance->gpio == NULL) return false;
     unitemp_gpio_unlock(instance->gpio);
-    // Low level by default
+    //Низкий уровень по умолчанию
     furi_hal_gpio_write(instance->gpio->pin, false);
-    // Mode - analog, pull-up disabled
+    //Режим работы - аналог, подтяжка выключена
     furi_hal_gpio_init(
-        instance->gpio->pin, // FZ port
-        GpioModeAnalog, // Operation mode - analog
-        GpioPullNo, // Pull-up disabled
-        GpioSpeedLow); // Operating speed - minimum
+        instance->gpio->pin, //Порт FZ
+        GpioModeAnalog, //Режим работы - аналог
+        GpioPullNo, //Подтяжка выключена
+        GpioSpeedLow); //Скорость работы - минимальная
     return true;
 }
 
@@ -148,105 +148,107 @@ const GPIO* unitemp_singlewire_sensorGetGPIO(Sensor* sensor) {
 UnitempStatus unitemp_singlewire_update(Sensor* sensor) {
     SingleWireSensor* instance = sensor->instance;
 
-    // Array for receiving data
+    //Массив для приёма данных
     uint8_t data[5] = {0};
 
-    /* Request */
-    // Pull the line low
+    /* Запрос */
+    //Опускание линии
     furi_hal_gpio_write(instance->gpio->pin, false);
-    // Wait more than 18 ms
+    //Ожидание более 18 мс
     furi_delay_ms(19);
-    // Disable interrupts so nothing interferes with processing the data
+    //Выключение прерываний, чтобы ничто не мешало обработке данных
     __disable_irq();
-    // Raise the line
+    //Подъём линии
     furi_hal_gpio_write(instance->gpio->pin, true);
 
-    /* Sensor response */
-    // Counter variable
+    /* Ответ датчика */
+    //Переменная-счётчик
     uint16_t timeout = 0;
 
-    // Wait for the line to go high
+    //Ожидание подъёма линии
     while(!furi_hal_gpio_read(instance->gpio->pin)) {
         timeout++;
         if(timeout > POLLING_TIMEOUT_TICKS) {
-            // Enable interrupts
+            //Включение прерываний
             __enable_irq();
-            // Return the indicator of a missing sensor
+            //Возврат признака отсутствующего датчика
             return UT_SENSORSTATUS_TIMEOUT;
         }
     }
     timeout = 0;
 
-    // Wait for the line to go low
+    //Ожидание спада линии
     while(furi_hal_gpio_read(instance->gpio->pin)) {
         timeout++;
         if(timeout > POLLING_TIMEOUT_TICKS) {
-            // Enable interrupts
+            //Включение прерываний
             __enable_irq();
-            // Return the indicator of a missing sensor
+            //Возврат признака отсутствующего датчика
             return UT_SENSORSTATUS_TIMEOUT;
         }
     }
 
-    // Wait for the line to go high
+    //Ожидание подъёма линии
     while(!furi_hal_gpio_read(instance->gpio->pin)) {
         timeout++;
         if(timeout > POLLING_TIMEOUT_TICKS) {
-            // Enable interrupts
+            //Включение прерываний
             __enable_irq();
-            // Return the indicator of a missing sensor
+            //Возврат признака отсутствующего датчика
             return UT_SENSORSTATUS_TIMEOUT;
         }
     }
     timeout = 0;
 
-    // Wait for the line to go low
+    //Ожидание спада линии
     while(furi_hal_gpio_read(instance->gpio->pin)) {
         timeout++;
         if(timeout > POLLING_TIMEOUT_TICKS) {
-            // Enable interrupts
+            //Включение прерываний
             __enable_irq();
-            // Return the indicator of a missing sensor
+            //Возврат признака отсутствующего датчика
             return UT_SENSORSTATUS_TIMEOUT;
         }
     }
 
-    /* Reading data from the sensor */
-    // Receive 5 bytes
+    /* Чтение данных с датчика*/
+    //Приём 5 байт
     for(uint8_t a = 0; a < 5; a++) {
         for(uint8_t b = 7; b != 255; b--) {
             uint16_t hT = 0, lT = 0;
-            // While the line is low, increment the lT variable
-            while(!furi_hal_gpio_read(instance->gpio->pin) && lT != 65535) lT++;
-            // While the line is high, increment the hT variable
-            while(furi_hal_gpio_read(instance->gpio->pin) && hT != 65535) hT++;
-            // If hT is greater than lT, a one was received
+            //Пока линия в низком уровне, инкремент переменной lT
+            while(!furi_hal_gpio_read(instance->gpio->pin) && lT != 65535)
+                lT++;
+            //Пока линия в высоком уровне, инкремент переменной hT
+            while(furi_hal_gpio_read(instance->gpio->pin) && hT != 65535)
+                hT++;
+            //Если hT больше lT, то пришла единица
             if(hT > lT) data[a] |= (1 << b);
         }
     }
-    // Enable interrupts
+    //Включение прерываний
     __enable_irq();
 
-    // Check the checksum
+    //Проверка контрольной суммы
     if((uint8_t)(data[0] + data[1] + data[2] + data[3]) != data[4]) {
-        // If the checksum does not match, return an error
+        //Если контрольная сумма не совпала, возврат ошибки
         return UT_SENSORSTATUS_BADCRC;
     }
 
-    /* Convert data to explicit form */
-    // DHT11 and DHT12
+    /* Преобразование данных в явный вид */
+    //DHT11 и DHT12
     if(sensor->type == &DHT11 || sensor->type == &DHT12_SW) {
         sensor->hum = (float)data[0];
         sensor->temp = (float)data[2];
 
-        // Check if the temperature is negative
+        //Проверка на отрицательность температуры
         if(data[3] != 0) {
-            // Check the sign
+            //Проверка знака
             if(!(data[3] & (1 << 7))) {
-                // Add the positive fractional part
+                //Добавление положительной дробной части
                 sensor->temp += data[3] * 0.1f;
             } else {
-                // Here we make the value negative
+                //А тут делаем отрицательное значение
                 data[3] &= ~(1 << 7);
                 sensor->temp += data[3] * 0.1f;
                 sensor->temp *= -1;
@@ -254,19 +256,19 @@ UnitempStatus unitemp_singlewire_update(Sensor* sensor) {
         }
     }
 
-    // DHT21, DHT22, AM2320
+    //DHT21, DHT22, AM2320
     if(sensor->type == &DHT21 || sensor->type == &DHT22 || sensor->type == &AM2320_SW) {
         sensor->hum = (float)(((uint16_t)data[0] << 8) | data[1]) / 10;
 
         uint16_t raw = (((uint16_t)data[2] << 8) | data[3]);
-        // Check if the temperature is negative
+        //Проверка на отрицательность температуры
         if(READ_BIT(raw, 1 << 15)) {
-            // Check the data encoding method
+            //Проверка на способ кодирования данных
             if(READ_BIT(raw, 0x6000)) {
-                // Not original
+                //Не оригинал
                 sensor->temp = (float)((int16_t)raw) / 10;
             } else {
-                // Original sensor
+                //Оригинальный датчик
                 CLEAR_BIT(raw, 1 << 15);
                 sensor->temp = (float)(raw) / -10;
             }
@@ -274,6 +276,6 @@ UnitempStatus unitemp_singlewire_update(Sensor* sensor) {
             sensor->temp = (float)(raw) / 10;
         }
     }
-    // Return the successful poll indicator
+    //Возврат признака успешного опроса
     return UT_SENSORSTATUS_OK;
 }

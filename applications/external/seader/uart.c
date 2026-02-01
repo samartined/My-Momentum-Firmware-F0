@@ -1,7 +1,6 @@
 #include "seader_i.h"
 
-#define TAG              "SeaderUART"
-#define BAUDRATE_DEFAULT 115200
+#define TAG "SeaderUART"
 
 static void seader_uart_on_irq_rx_dma_cb(
     FuriHalSerialHandle* handle,
@@ -37,7 +36,7 @@ void seader_uart_serial_init(SeaderUartBridge* seader_uart, uint8_t uart_ch) {
     seader_uart->serial_handle = furi_hal_serial_control_acquire(uart_ch);
     furi_assert(seader_uart->serial_handle);
 
-    furi_hal_serial_init(seader_uart->serial_handle, BAUDRATE_DEFAULT);
+    furi_hal_serial_init(seader_uart->serial_handle, 115200);
     furi_hal_serial_dma_rx_start(
         seader_uart->serial_handle, seader_uart_on_irq_rx_dma_cb, seader_uart, false);
 }
@@ -210,7 +209,7 @@ void seader_uart_get_state(SeaderUartBridge* seader_uart, SeaderUartState* st) {
 }
 
 SeaderUartBridge* seader_uart_alloc(Seader* seader) {
-    SeaderUartConfig cfg = {.uart_ch = FuriHalSerialIdLpuart, .baudrate = BAUDRATE_DEFAULT};
+    SeaderUartConfig cfg = {.uart_ch = FuriHalSerialIdLpuart, .baudrate = 115200};
     SeaderUartState uart_state;
     SeaderUartBridge* seader_uart;
 

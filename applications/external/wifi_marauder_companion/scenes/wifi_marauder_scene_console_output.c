@@ -176,18 +176,31 @@ void wifi_marauder_scene_console_output_on_enter(void* context) {
             send_html = wifi_marauder_ep_read_html_file(app, &the_html, &html_size);
         }
 
+        bool set_ap_from_file = false;
+        char* ap_name = NULL;
+        size_t ap_name_size = 0;
+        if(app->selected_tx_string && strncmp(
+                                          "evilportal -c setapfromfile",
+                                          app->selected_tx_string,
+                                          strlen("evilportal -c setapfromfile")) == 0) {
+            set_ap_from_file = wifi_marauder_ep_read_ap_config_file(app, &ap_name, &ap_name_size);
+        }
+
         // Send command with newline '\n'
         if(app->selected_tx_string) {
             if(app->script == NULL) {
-                wifi_marauder_uart_tx(
-                    app->uart,
-                    (uint8_t*)(app->selected_tx_string),
-                    strlen(app->selected_tx_string));
-                if(app->is_writing_pcap) {
+                // Don't send the setapfromfile command, we'll send the actual commands instead
+                if(!set_ap_from_file) {
                     wifi_marauder_uart_tx(
-                        app->uart, (uint8_t*)(" -serial\n"), strlen(" -serial\n"));
-                } else {
-                    wifi_marauder_uart_tx(app->uart, (uint8_t*)("\n"), 1);
+                        app->uart,
+                        (uint8_t*)(app->selected_tx_string),
+                        strlen(app->selected_tx_string));
+                    if(app->is_writing_pcap) {
+                        wifi_marauder_uart_tx(
+                            app->uart, (uint8_t*)(" -serial\n"), strlen(" -serial\n"));
+                    } else {
+                        wifi_marauder_uart_tx(app->uart, (uint8_t*)("\n"), 1);
+                    }
                 }
             }
             if(send_html && the_html) {
@@ -195,6 +208,21 @@ void wifi_marauder_scene_console_output_on_enter(void* context) {
                 wifi_marauder_uart_tx(app->uart, (uint8_t*)("\n"), 1);
                 free(the_html);
                 send_html = false;
+            }
+            if(set_ap_from_file && ap_name) {
+                // Clear lists and set SSID from file
+                wifi_marauder_uart_tx(
+                    app->uart, (uint8_t*)("clearlist -a -s -c\n"), strlen("clearlist -a -s -c\n"));
+                furi_delay_ms(100);
+                
+                // Build ssid command with AP name from file
+                char ssid_command[256];
+                snprintf(ssid_command, sizeof(ssid_command), "ssid -a -n '%s'\n", ap_name);
+                wifi_marauder_uart_tx(
+                    app->uart, (uint8_t*)ssid_command, strlen(ssid_command));
+                
+                free(ap_name);
+                set_ap_from_file = false;
             }
         }
 
