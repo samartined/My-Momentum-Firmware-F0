@@ -16,6 +16,7 @@ enum QuickState {
     QuickStart,
     QuickS2Boot,
     QuickS2Boot_Marauder,
+    QuickS2Boot_Ghostesp,
     QuickS2Boot_Flipperhttp,
     QuickS2Boot_Blackmagic,
     QuickWROOMBoot,
@@ -30,6 +31,7 @@ enum QuickState {
     QuickS2,
     QuickS2_Marauder,
     QuickS2_Flipperhttp,
+    QuickS2_Ghostesp,
     QuickS2_Blackmagic,
     QuickS3,
     QuickS3_Marauder,
@@ -92,9 +94,11 @@ void esp_flasher_scene_quick_on_enter(void* context) {
         break;
     case QuickS2Boot_Marauder:
     case QuickS2Boot_Flipperhttp:
+    case QuickS2Boot_Ghostesp:
     case QuickS2Boot_Blackmagic:
     case QuickS2_Marauder:
     case QuickS2_Flipperhttp:
+    case QuickS2_Ghostesp:
     case QuickS2_Blackmagic:
         submenu_set_header(submenu, "Choose Firmware:");
         submenu_add_item(
@@ -107,6 +111,12 @@ void esp_flasher_scene_quick_on_enter(void* context) {
             submenu,
             "FlipperHTTP (web access)",
             state > QuickS2 ? QuickS2_Flipperhttp : QuickS2Boot_Flipperhttp,
+            esp_flasher_scene_quick_submenu_callback,
+            app);
+        submenu_add_item(
+            submenu,
+            "GhostESP",
+            state > QuickS2 ? QuickS2_Ghostesp : QuickS2Boot_Ghostesp,
             esp_flasher_scene_quick_submenu_callback,
             app);
         submenu_add_item(
@@ -208,6 +218,15 @@ bool esp_flasher_scene_quick_on_event(void* context, SceneManagerEvent event) {
             firm = APP_DATA_PATH("assets/flipperhttp/s2/flipper_http_firmware_a.bin");
             break;
 
+        case QuickS2Boot_Ghostesp:
+            enter_bootloader = true;
+            /* fallthrough */
+        case QuickS2_Ghostesp:
+            boot = APP_DATA_PATH("assets/ghostesp/s2/bootloader.bin");
+            part = APP_DATA_PATH("assets/ghostesp/s2/partition-table.bin");
+            firm = APP_DATA_PATH("assets/ghostesp/s2/Ghost_ESP_IDF.bin");
+            break;
+            
         case QuickS2Boot_Blackmagic:
             enter_bootloader = true;
             /* fallthrough */

@@ -125,9 +125,9 @@ const WifiMarauderItem items[NUM_MENU_ITEMS] = {
      FOCUS_CONSOLE_END,
      SHOW_STOPSCAN_TIP},
     {"Evil Portal",
-     {"start", "set html", "set AP", "Set AP from file"},
-     4,
-     {"evilportal -c start", "evilportal -c sethtml", "evilportal -c setap", "evilportal -c setapfromfile"},
+     {"start", "set html", "set AP"},
+     3,
+     {"evilportal -c start", "evilportal -c sethtml", "evilportal -c setap"},
      TOGGLE_ARGS,
      FOCUS_CONSOLE_END,
      SHOW_STOPSCAN_TIP},
@@ -311,19 +311,8 @@ static void wifi_marauder_scene_start_var_list_enter_callback(void* context, uin
         return;
     }
 
-    // Special case: "Set AP from file" doesn't need keyboard, goes directly to console
-    bool is_set_ap_from_file = (app->selected_tx_string && 
-                                 strncmp("evilportal -c setapfromfile", 
-                                        app->selected_tx_string, 
-                                        strlen("evilportal -c setapfromfile")) == 0);
-    
     bool needs_keyboard = (item->needs_keyboard == TOGGLE_ARGS) ? (selected_option_index != 0) :
                                                                   item->needs_keyboard;
-    // Override: Set AP from file doesn't need keyboard
-    if(is_set_ap_from_file) {
-        needs_keyboard = false;
-    }
-    
     if(needs_keyboard) {
         view_dispatcher_send_custom_event(app->view_dispatcher, WifiMarauderEventStartKeyboard);
     } else {
