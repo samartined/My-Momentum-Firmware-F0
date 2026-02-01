@@ -1,30 +1,6 @@
 
 Discarded input sections
 
- .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .text.mf_classic_key_cache_alloc
-                0x00000000        0xc build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .text.mf_classic_key_cache_free
-                0x00000000        0x8 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .text.mf_classic_key_cache_load_from_data
-                0x00000000       0x8c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .debug_line.text.mf_classic_key_cache_alloc
-                0x00000000       0x18 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .debug_line.text.mf_classic_key_cache_free
-                0x00000000       0x1a build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .debug_line.text.mf_classic_key_cache_load_from_data
-                0x00000000       0x8a build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
- .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
  .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a.o
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a.o
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a.o
@@ -86,6 +62,30 @@ Discarded input sections
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .text.mf_classic_key_cache_alloc
+                0x00000000        0xc build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .text.mf_classic_key_cache_free
+                0x00000000        0x8 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .text.mf_classic_key_cache_load_from_data
+                0x00000000       0x8c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .debug_line.text.mf_classic_key_cache_alloc
+                0x00000000       0x18 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .debug_line.text.mf_classic_key_cache_free
+                0x00000000       0x1a build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .debug_line.text.mf_classic_key_cache_load_from_data
+                0x00000000       0x8a build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
 
 Memory Configuration
 
@@ -94,136 +94,136 @@ Name             Origin             Length             Attributes
 
 Linker script and memory map
 
+LOAD build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a.o
+LOAD build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
 LOAD build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
 LOAD build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
 LOAD build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
-LOAD build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a.o
-LOAD build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
 
 .text           0x00000000      0xe64
  *(.text)
  *(.stub)
  *(.text*)
- .text.nfc_get_key_cache_file_path
-                0x00000000       0x58 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .text.mf_classic_key_cache_save
-                0x00000058      0x1ec build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
-                0x00000058                mf_classic_key_cache_save
- .text.mf_classic_key_cache_get_next_key
-                0x00000244       0xee build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
-                0x00000244                mf_classic_key_cache_get_next_key
- .text.mf_classic_key_cache_reset
-                0x00000332       0x14 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
-                0x00000332                mf_classic_key_cache_reset
- *fill*         0x00000346        0x2 
- .text.mf_classic_key_cache_load
-                0x00000348      0x1bc build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
-                0x00000348                mf_classic_key_cache_load
- .text.nfc_scene_write_on_enter_mf_classic
-                0x00000504       0x3c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .text.nfc_scene_write_poller_callback_mf_classic
-                0x00000540      0x178 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .text.nfc_scene_emulate_on_enter_mf_classic
-                0x000006b8       0x38 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .text.nfc_scene_saved_menu_on_event_mf_classic
-                0x000006f0       0x54 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .text.nfc_scene_saved_menu_on_enter_mf_classic
-                0x00000744       0x84 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .text.nfc_scene_read_success_on_enter_mf_classic
-                0x000007c8       0x98 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .text.nfc_scene_read_menu_on_event_mf_classic
-                0x00000860       0x80 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .text.nfc_scene_read_menu_on_enter_mf_classic
-                0x000008e0       0x80 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .text.nfc_scene_read_on_enter_mf_classic
-                0x00000960       0x28 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .text.nfc_scene_read_poller_callback_mf_classic
-                0x00000988      0x11c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .text.nfc_scene_more_info_on_enter_mf_classic
-                0x00000aa4       0x68 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .text.nfc_scene_info_on_enter_mf_classic
-                0x00000b0c       0xa4 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .text.nfc_scene_save_name_on_event_mf_classic
-                0x00000bb0       0x3c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .text.nfc_scene_read_on_event_mf_classic
-                0x00000bec       0x28 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .text.nfc_mf_classic_ep
-                0x00000c14        0x8 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
-                0x00000c14                nfc_mf_classic_ep
- .text.mf_classic_render_raw_data
-                0x00000c1c       0x4c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
- .text.nfc_render_mf_classic_info
-                0x00000c68       0x68 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
-                0x00000c68                nfc_render_mf_classic_info
- .text.nfc_render_mf_classic_dump
-                0x00000cd0       0xb8 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
-                0x00000cd0                nfc_render_mf_classic_dump
  .text.nfc_render_iso14443_3a_format_bytes
-                0x00000d88       0x2c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
-                0x00000d88                nfc_render_iso14443_3a_format_bytes
+                0x00000000       0x2c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000000                nfc_render_iso14443_3a_format_bytes
  .text.nfc_render_iso14443_tech_type
-                0x00000db4       0x28 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
-                0x00000db4                nfc_render_iso14443_tech_type
+                0x0000002c       0x28 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x0000002c                nfc_render_iso14443_tech_type
  .text.nfc_render_iso14443_3a_brief
-                0x00000ddc       0x28 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
-                0x00000ddc                nfc_render_iso14443_3a_brief
+                0x00000054       0x28 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000054                nfc_render_iso14443_3a_brief
  .text.nfc_render_iso14443_3a_extra
-                0x00000e04       0x2c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
-                0x00000e04                nfc_render_iso14443_3a_extra
+                0x0000007c       0x2c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x0000007c                nfc_render_iso14443_3a_extra
  .text.nfc_render_iso14443_3a_info
-                0x00000e30       0x34 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
-                0x00000e30                nfc_render_iso14443_3a_info
+                0x000000a8       0x34 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x000000a8                nfc_render_iso14443_3a_info
+ .text.nfc_get_key_cache_file_path
+                0x000000dc       0x58 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .text.mf_classic_key_cache_save
+                0x00000134      0x1ec build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+                0x00000134                mf_classic_key_cache_save
+ .text.mf_classic_key_cache_get_next_key
+                0x00000320       0xee build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+                0x00000320                mf_classic_key_cache_get_next_key
+ .text.mf_classic_key_cache_reset
+                0x0000040e       0x14 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+                0x0000040e                mf_classic_key_cache_reset
+ *fill*         0x00000422        0x2 
+ .text.mf_classic_key_cache_load
+                0x00000424      0x1bc build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+                0x00000424                mf_classic_key_cache_load
+ .text.nfc_scene_write_on_enter_mf_classic
+                0x000005e0       0x3c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .text.nfc_scene_write_poller_callback_mf_classic
+                0x0000061c      0x178 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .text.nfc_scene_emulate_on_enter_mf_classic
+                0x00000794       0x38 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .text.nfc_scene_saved_menu_on_event_mf_classic
+                0x000007cc       0x54 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .text.nfc_scene_saved_menu_on_enter_mf_classic
+                0x00000820       0x84 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .text.nfc_scene_read_success_on_enter_mf_classic
+                0x000008a4       0x98 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .text.nfc_scene_read_menu_on_event_mf_classic
+                0x0000093c       0x80 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .text.nfc_scene_read_menu_on_enter_mf_classic
+                0x000009bc       0x80 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .text.nfc_scene_read_on_enter_mf_classic
+                0x00000a3c       0x28 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .text.nfc_scene_read_poller_callback_mf_classic
+                0x00000a64      0x11c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .text.nfc_scene_more_info_on_enter_mf_classic
+                0x00000b80       0x68 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .text.nfc_scene_info_on_enter_mf_classic
+                0x00000be8       0xa4 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .text.nfc_scene_save_name_on_event_mf_classic
+                0x00000c8c       0x3c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .text.nfc_scene_read_on_event_mf_classic
+                0x00000cc8       0x28 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .text.nfc_mf_classic_ep
+                0x00000cf0        0x8 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+                0x00000cf0                nfc_mf_classic_ep
+ .text.mf_classic_render_raw_data
+                0x00000cf8       0x4c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
+ .text.nfc_render_mf_classic_info
+                0x00000d44       0x68 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
+                0x00000d44                nfc_render_mf_classic_info
+ .text.nfc_render_mf_classic_dump
+                0x00000dac       0xb8 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
+                0x00000dac                nfc_render_mf_classic_dump
  *(.text.*)
  *(.text._*)
  *(.init)
  *(.fini)
 
-.rodata         0x00000e64      0x2ad
+.rodata         0x00000e64      0x2ac
  *(.rodata)
  *(.rodata1)
  *(.rodata.*)
- .rodata.nfc_get_key_cache_file_path.str1.1
-                0x00000e64       0x22 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .rodata.mf_classic_key_cache_save.str1.1
-                0x00000e86       0x61 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .rodata.nfc_scene_write_on_enter_mf_classic.str1.1
-                0x00000ee7       0x19 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .rodata.nfc_scene_write_poller_callback_mf_classic.str1.1
-                0x00000f00       0x5a build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .rodata.nfc_scene_saved_menu_on_enter_mf_classic.str1.1
-                0x00000f5a       0x61 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .rodata.nfc_scene_read_success_on_enter_mf_classic.str1.1
-                0x00000fbb       0x14 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .rodata.nfc_scene_read_menu_on_enter_mf_classic.str1.1
-                0x00000fcf       0x18 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .rodata.nfc_scene_read_poller_callback_mf_classic.str1.1
-                0x00000fe7       0x31 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .rodata.str1.1
-                0x00001018       0x19 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- *fill*         0x00001031        0x3 
- .rodata.plugin_descriptor_mf_classic
-                0x00001034        0xc build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .rodata.nfc_protocol_support_mf_classic_desc
-                0x00001040        0x8 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .rodata.nfc_protocol_support_mf_classic
-                0x00001048       0x4c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
-                0x00001048                nfc_protocol_support_mf_classic
- .rodata.mf_classic_render_raw_data.str1.1
-                0x00001094       0x10 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
- .rodata.nfc_render_mf_classic_info.str1.1
-                0x000010a4       0x28 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
  .rodata.nfc_render_iso14443_3a_format_bytes.str1.1
-                0x000010cc        0x6 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000e64        0x6 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .rodata.nfc_render_iso14443_tech_type.str1.1
-                0x000010d2       0x1c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000e6a       0x1c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .rodata.nfc_render_iso14443_3a_brief.str1.1
-                0x000010ee        0x5 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000e86        0x5 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .rodata.nfc_render_iso14443_3a_extra.str1.1
-                0x000010f3       0x1e build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000e8b       0x1e build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .rodata.nfc_get_key_cache_file_path.str1.1
+                0x00000ea9       0x22 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .rodata.mf_classic_key_cache_save.str1.1
+                0x00000ecb       0x61 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .rodata.nfc_scene_write_on_enter_mf_classic.str1.1
+                0x00000f2c       0x19 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .rodata.nfc_scene_write_poller_callback_mf_classic.str1.1
+                0x00000f45       0x5a build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .rodata.nfc_scene_saved_menu_on_enter_mf_classic.str1.1
+                0x00000f9f       0x61 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .rodata.nfc_scene_read_success_on_enter_mf_classic.str1.1
+                0x00001000       0x14 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .rodata.nfc_scene_read_menu_on_enter_mf_classic.str1.1
+                0x00001014       0x18 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .rodata.nfc_scene_read_poller_callback_mf_classic.str1.1
+                0x0000102c       0x31 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .rodata.str1.1
+                0x0000105d       0x19 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ *fill*         0x00001076        0x2 
+ .rodata.plugin_descriptor_mf_classic
+                0x00001078        0xc build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .rodata.nfc_protocol_support_mf_classic_desc
+                0x00001084        0x8 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .rodata.nfc_protocol_support_mf_classic
+                0x0000108c       0x4c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+                0x0000108c                nfc_protocol_support_mf_classic
+ .rodata.mf_classic_render_raw_data.str1.1
+                0x000010d8       0x10 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
+ .rodata.nfc_render_mf_classic_info.str1.1
+                0x000010e8       0x28 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
 
 .data
  *(.data)
@@ -273,115 +273,115 @@ LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-lin
 .debug_aranges  0x00000000      0x158
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x58 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+                0x00000000       0x40 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .debug_aranges
-                0x00000058       0x90 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+                0x00000040       0x58 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
  .debug_aranges
-                0x000000e8       0x30 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
+                0x00000098       0x90 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
  .debug_aranges
-                0x00000118       0x40 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000128       0x30 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
 .debug_info     0x00000000     0x48f7
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000     0x1140 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .debug_info    0x00001140     0x2b08 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_info    0x00003c48      0x8c2 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
- .debug_info    0x0000450a      0x3ed build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_info    0x00000000      0x3ed build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_info    0x000003ed     0x1140 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .debug_info    0x0000152d     0x2b08 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_info    0x00004035      0x8c2 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
 
 .debug_abbrev   0x00000000      0xbfd
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x2f3 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .debug_abbrev  0x000002f3      0x47f build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_abbrev  0x00000772      0x2c1 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
- .debug_abbrev  0x00000a33      0x1ca build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_abbrev  0x00000000      0x1ca build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_abbrev  0x000001ca      0x2f3 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .debug_abbrev  0x000004bd      0x47f build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_abbrev  0x0000093c      0x2c1 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
 
 .debug_line     0x00000000     0x1f0c
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x00000000      0x35a build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .debug_line.text.nfc_get_key_cache_file_path
-                0x0000035a       0x5a build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .debug_line.text.mf_classic_key_cache_save
-                0x000003b4      0x166 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .debug_line.text.mf_classic_key_cache_get_next_key
-                0x0000051a       0xb6 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .debug_line.text.mf_classic_key_cache_reset
-                0x000005d0       0x37 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .debug_line.text.mf_classic_key_cache_load
-                0x00000607      0x146 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .debug_line_end
-                0x0000074d        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .debug_line    0x0000074d      0x9d4 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_line.text.nfc_scene_write_on_enter_mf_classic
-                0x00001121       0x35 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_line.text.nfc_scene_write_poller_callback_mf_classic
-                0x00001156      0x116 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_line.text.nfc_scene_emulate_on_enter_mf_classic
-                0x0000126c       0x43 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_line.text.nfc_scene_saved_menu_on_event_mf_classic
-                0x000012af       0x5b build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_line.text.nfc_scene_saved_menu_on_enter_mf_classic
-                0x0000130a       0x52 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_line.text.nfc_scene_read_success_on_enter_mf_classic
-                0x0000135c       0x57 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_line.text.nfc_scene_read_menu_on_event_mf_classic
-                0x000013b3       0x65 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_line.text.nfc_scene_read_menu_on_enter_mf_classic
-                0x00001418       0x52 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_line.text.nfc_scene_read_on_enter_mf_classic
-                0x0000146a       0x28 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_line.text.nfc_scene_read_poller_callback_mf_classic
-                0x00001492      0x111 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_line.text.nfc_scene_more_info_on_enter_mf_classic
-                0x000015a3       0x3e build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_line.text.nfc_scene_info_on_enter_mf_classic
-                0x000015e1       0x59 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_line.text.nfc_scene_save_name_on_event_mf_classic
-                0x0000163a       0x54 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_line.text.nfc_scene_read_on_event_mf_classic
-                0x0000168e       0x36 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_line.text.nfc_mf_classic_ep
-                0x000016c4       0x13 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_line_end
-                0x000016d7        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_line    0x000016d7      0x31c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
- .debug_line.text.mf_classic_render_raw_data
-                0x000019f3       0x57 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
- .debug_line.text.nfc_render_mf_classic_info
-                0x00001a4a       0x54 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
- .debug_line.text.nfc_render_mf_classic_dump
-                0x00001a9e       0xdb build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
- .debug_line_end
-                0x00001b79        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
- .debug_line    0x00001b79      0x28f build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_line    0x00000000      0x28f build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .debug_line.text.nfc_render_iso14443_3a_format_bytes
-                0x00001e08       0x48 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x0000028f       0x48 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .debug_line.text.nfc_render_iso14443_tech_type
-                0x00001e50       0x2c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x000002d7       0x2c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .debug_line.text.nfc_render_iso14443_3a_brief
-                0x00001e7c       0x28 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000303       0x28 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .debug_line.text.nfc_render_iso14443_3a_extra
-                0x00001ea4       0x2d build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x0000032b       0x2d build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .debug_line.text.nfc_render_iso14443_3a_info
-                0x00001ed1       0x3b build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000358       0x3b build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .debug_line_end
-                0x00001f0c        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000393        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_line    0x00000393      0x35a build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .debug_line.text.nfc_get_key_cache_file_path
+                0x000006ed       0x5a build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .debug_line.text.mf_classic_key_cache_save
+                0x00000747      0x166 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .debug_line.text.mf_classic_key_cache_get_next_key
+                0x000008ad       0xb6 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .debug_line.text.mf_classic_key_cache_reset
+                0x00000963       0x37 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .debug_line.text.mf_classic_key_cache_load
+                0x0000099a      0x146 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .debug_line_end
+                0x00000ae0        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .debug_line    0x00000ae0      0x9d4 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_line.text.nfc_scene_write_on_enter_mf_classic
+                0x000014b4       0x35 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_line.text.nfc_scene_write_poller_callback_mf_classic
+                0x000014e9      0x116 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_line.text.nfc_scene_emulate_on_enter_mf_classic
+                0x000015ff       0x43 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_line.text.nfc_scene_saved_menu_on_event_mf_classic
+                0x00001642       0x5b build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_line.text.nfc_scene_saved_menu_on_enter_mf_classic
+                0x0000169d       0x52 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_line.text.nfc_scene_read_success_on_enter_mf_classic
+                0x000016ef       0x57 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_line.text.nfc_scene_read_menu_on_event_mf_classic
+                0x00001746       0x65 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_line.text.nfc_scene_read_menu_on_enter_mf_classic
+                0x000017ab       0x52 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_line.text.nfc_scene_read_on_enter_mf_classic
+                0x000017fd       0x28 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_line.text.nfc_scene_read_poller_callback_mf_classic
+                0x00001825      0x111 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_line.text.nfc_scene_more_info_on_enter_mf_classic
+                0x00001936       0x3e build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_line.text.nfc_scene_info_on_enter_mf_classic
+                0x00001974       0x59 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_line.text.nfc_scene_save_name_on_event_mf_classic
+                0x000019cd       0x54 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_line.text.nfc_scene_read_on_event_mf_classic
+                0x00001a21       0x36 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_line.text.nfc_mf_classic_ep
+                0x00001a57       0x13 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_line_end
+                0x00001a6a        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_line    0x00001a6a      0x31c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
+ .debug_line.text.mf_classic_render_raw_data
+                0x00001d86       0x57 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
+ .debug_line.text.nfc_render_mf_classic_info
+                0x00001ddd       0x54 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
+ .debug_line.text.nfc_render_mf_classic_dump
+                0x00001e31       0xdb build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
+ .debug_line_end
+                0x00001f0c        0x0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
 
 .debug_frame    0x00000000      0x438
  *(.debug_frame)
- .debug_frame   0x00000000      0x10c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .debug_frame   0x0000010c      0x1f0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_frame   0x000002fc       0x80 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
- .debug_frame   0x0000037c       0xbc build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_frame   0x00000000       0xbc build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_frame   0x000000bc      0x10c build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .debug_frame   0x000001c8      0x1f0 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_frame   0x000003b8       0x80 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
 
 .debug_str      0x00000000     0x4169
  *(.debug_str)
- .debug_str     0x00000000      0x901 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
- .debug_str     0x00000901     0x2e70 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
- .debug_str     0x00003771      0x65b build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
- .debug_str     0x00003dcc      0x39d build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_str     0x00000000      0x39d build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_str     0x0000039d      0x901 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+ .debug_str     0x00000c9e     0x2e70 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+ .debug_str     0x00003b0e      0x65b build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
 
 .debug_loc
  *(.debug_loc)
@@ -417,13 +417,13 @@ LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-lin
                 0x00000000      0xe33
  *(.debug_loclists)
  .debug_loclists
-                0x00000000      0x449 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+                0x00000000      0x1c2 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .debug_loclists
-                0x00000449      0x65e build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+                0x000001c2      0x449 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
  .debug_loclists
-                0x00000aa7      0x1ca build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
+                0x0000060b      0x65e build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
  .debug_loclists
-                0x00000c71      0x1c2 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000c69      0x1ca build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
 
 .debug_macro
  *(.debug_macro)
@@ -435,13 +435,13 @@ LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-lin
                 0x00000000      0x1f3
  *(.debug_rnglists)
  .debug_rnglists
-                0x00000000       0xbf build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+                0x00000000       0x3a build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .debug_rnglists
-                0x000000bf       0x9f build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+                0x0000003a       0xbf build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
  .debug_rnglists
-                0x0000015e       0x5b build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
+                0x000000f9       0x9f build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
  .debug_rnglists
-                0x000001b9       0x3a build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000198       0x5b build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
 
 .debug_str_offsets
  *(.debug_str_offsets)
@@ -453,15 +453,15 @@ LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-lin
                 0x00000000       0x34
  *(.ARM.attributes)
  .ARM.attributes
-                0x00000000       0x34 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
+                0x00000000       0x34 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a.o
  .ARM.attributes
-                0x00000034       0x34 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
+                0x00000034       0x34 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .ARM.attributes
-                0x00000068       0x34 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
+                0x00000068       0x34 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/mf_classic_key_cache.o
  .ARM.attributes
-                0x0000009c       0x34 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a.o
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic.o
  .ARM.attributes
-                0x000000d0       0x34 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/nfc_mf_classic/helpers/protocol_support/mf_classic/mf_classic_render.o
  *(.gnu.attributes)
 
 .note.gnu.arm.ident

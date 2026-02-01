@@ -1,6 +1,6 @@
 Archive member included to satisfy reference by file (symbol)
 
-/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+/home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
                               build/f7-firmware-C/.extapps/seader/aeabi_uldivmod.o (__udivmoddi4)
 build/f7-firmware-C/.extapps/seader/asn1(CardDetected.o)
                               build/f7-firmware-C/.extapps/seader/sam_api.o (asn_DEF_CardDetected)
@@ -378,9 +378,9 @@ Discarded input sections
  .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/seader/seader_icons.o
  .debug_line_end
                 0x00000000        0x0 build/f7-firmware-C/.extapps/seader/seader_icons.o
- .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
- .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
- .ARM.extab     0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
  .text          0x00000000        0x0 build/f7-firmware-C/.extapps/seader/asn1(CardDetected.o)
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/seader/asn1(CardDetected.o)
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/seader/asn1(CardDetected.o)
@@ -1183,10 +1183,10 @@ LOAD build/f7-firmware-C/.extapps/seader/seader_worker.o
 LOAD build/f7-firmware-C/.extapps/seader/t_1.o
 LOAD build/f7-firmware-C/.extapps/seader/uart.o
 LOAD build/f7-firmware-C/.extapps/seader/seader_icons.o
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
 LOAD build/f7-firmware-C/lib/libmbedtls.a
 LOAD build/f7-firmware-C/.extapps/seader/asn1
 LOAD build/f7-firmware-C/.extapps/seader/loclass
@@ -1196,7 +1196,7 @@ LOAD build/f7-firmware-C/lib/libmbedtls.a
  *(.text)
  .text          0x00000000       0x24 build/f7-firmware-C/.extapps/seader/aeabi_uldivmod.o
                 0x00000000                __aeabi_uldivmod
- .text          0x00000024      0x2bc /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .text          0x00000024      0x2bc /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
                 0x00000024                __udivmoddi4
  *(.stub)
  *(.text*)
@@ -2764,7 +2764,7 @@ LOAD build/f7-firmware-C/lib/libmbedtls.a
  .rodata.SB1    0x00011da8      0x100 build/f7-firmware-C/lib/libmbedtls.a(des.o)
 
 .ARM.exidx      0x00000000        0x8
- .ARM.exidx     0x00000000        0x8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x00000000        0x8 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
 
 .data           0x00000008     0x11d8
  *(.data)
@@ -5084,7 +5084,7 @@ LOAD build/f7-firmware-C/lib/libmbedtls.a
  .ARM.attributes
                 0x0000079e       0x34 build/f7-firmware-C/.extapps/seader/seader_icons.o
  .ARM.attributes
-                0x000007d2       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x000007d2       0x34 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
  .ARM.attributes
                 0x00000806       0x34 build/f7-firmware-C/.extapps/seader/asn1(CardDetected.o)
  .ARM.attributes
