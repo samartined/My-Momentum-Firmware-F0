@@ -1,0 +1,491 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .text.scene_file_browser_show
+                0x00000000        0xc build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .debug_line.text.scene_file_browser_show
+                0x00000000       0x16 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_popup.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_popup.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_popup.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_popup.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator_icons.o
+ .debug_info    0x00000000       0x7a build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator_icons.o
+ .debug_abbrev  0x00000000       0x26 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator_icons.o
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator_icons.o
+ .debug_line    0x00000000       0x75 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator_icons.o
+ .debug_str     0x00000000      0x21b build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator_icons.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+LOAD build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+LOAD build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+LOAD build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+LOAD build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_popup.o
+LOAD build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+LOAD build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+LOAD build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x11fc
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.scene_dialog_show_custom
+                0x00000000       0xa0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+                0x00000000                scene_dialog_show_custom
+ .text.scene_dialog_show
+                0x000000a0       0x10 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+                0x000000a0                scene_dialog_show
+ .text.scene_dialog_init_view
+                0x000000b0        0x2 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+                0x000000b0                scene_dialog_init_view
+ *fill*         0x000000b2        0x2 
+ .text.file_browser_scene_callback
+                0x000000b4       0x58 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .text.scene_file_browser_select
+                0x0000010c       0x64 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+                0x0000010c                scene_file_browser_select
+ .text.scene_file_browser_init_view
+                0x00000170        0x2 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+                0x00000170                scene_file_browser_init_view
+ *fill*         0x00000172        0x2 
+ .text.scene_menu_show
+                0x00000174       0x44 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+                0x00000174                scene_menu_show
+ .text.scene_menu_init_view
+                0x000001b8        0x2 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+                0x000001b8                scene_menu_init_view
+ *fill*         0x000001ba        0x2 
+ .text.playlist_edit_submenu_callback
+                0x000001bc       0xe4 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .text.scene_playlist_edit_show
+                0x000002a0       0xc0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+                0x000002a0                scene_playlist_edit_show
+ .text.edit_dialog_callback
+                0x00000360      0x204 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .text.on_add_file_selected
+                0x00000564       0x60 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .text.scene_playlist_edit_init_view
+                0x000005c4        0x2 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+                0x000005c4                scene_playlist_edit_init_view
+ *fill*         0x000005c6        0x2 
+ .text.scene_playlist_edit_back_event_callback
+                0x000005c8       0x40 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+                0x000005c8                scene_playlist_edit_back_event_callback
+ .text.scene_popup_show
+                0x00000608       0x7c build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_popup.o
+                0x00000608                scene_popup_show
+ .text.scene_text_input_show
+                0x00000684       0x28 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+                0x00000684                scene_text_input_show
+ .text.scene_text_input_init_view
+                0x000006ac        0x2 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+                0x000006ac                scene_text_input_init_view
+ *fill*         0x000006ae        0x2 
+ .text.subghz_playlist_creator_submenu_callback
+                0x000006b0       0x54 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .text.create_playlist_file
+                0x00000704       0xd0 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .text.subghz_playlist_creator_dialog_callback
+                0x000007d4       0x18 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .text.subghz_playlist_creator_text_input_callback
+                0x000007ec      0x118 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .text.subghz_playlist_creator_custom_callback
+                0x00000904       0x50 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+                0x00000904                subghz_playlist_creator_custom_callback
+ .text.subghz_playlist_creator_back_event_callback
+                0x00000954       0x78 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+                0x00000954                subghz_playlist_creator_back_event_callback
+ .text.on_edit_file_selected
+                0x000009cc      0x158 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .text.subghz_playlist_creator_alloc
+                0x00000b24      0x458 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+                0x00000b24                subghz_playlist_creator_alloc
+ .text.subghz_playlist_creator_free
+                0x00000f7c      0x1e8 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+                0x00000f7c                subghz_playlist_creator_free
+ .text.subghz_playlist_creator_app
+                0x00001164       0x98 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+                0x00001164                subghz_playlist_creator_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000011fc      0xb56
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.scene_menu_show.str1.1
+                0x000011fc       0x53 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+ .rodata.playlist_edit_submenu_callback.str1.1
+                0x0000124f      0x136 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .rodata.scene_playlist_edit_show.str1.1
+                0x00001385       0x1f build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .rodata.edit_dialog_callback.str1.1
+                0x000013a4      0x190 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .rodata.scene_playlist_edit_back_event_callback.str1.1
+                0x00001534       0x49 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .rodata.subghz_playlist_creator_submenu_callback.str1.1
+                0x0000157d       0x1a build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .rodata.create_playlist_file.str1.1
+                0x00001597       0x88 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .rodata.subghz_playlist_creator_text_input_callback.str1.1
+                0x0000161f       0x3b build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .rodata.subghz_playlist_creator_custom_callback.str1.1
+                0x0000165a       0x36 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .rodata.subghz_playlist_creator_back_event_callback.str1.1
+                0x00001690       0x75 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .rodata.on_edit_file_selected.str1.1
+                0x00001705        0x6 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .rodata.subghz_playlist_creator_alloc.str1.1
+                0x0000170b      0x3f6 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .rodata.subghz_playlist_creator_free.str1.1
+                0x00001b01      0x1a3 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .rodata.subghz_playlist_creator_app.str1.1
+                0x00001ca4       0xae build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss            0x00001d54        0x9
+ *(.bss)
+ *(.bss*)
+ .bss.playlist_edit_show_menu_after_popup
+                0x00001d54        0x1 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ *fill*         0x00001d55        0x3 
+ .bss.playlist_edit_selected_index
+                0x00001d58        0x4 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .bss.playlist_edit_dialog_type
+                0x00001d5c        0x1 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x188
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+ .debug_aranges
+                0x00000030       0x38 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .debug_aranges
+                0x00000068       0x28 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+ .debug_aranges
+                0x00000090       0x48 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .debug_aranges
+                0x000000d8       0x20 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_popup.o
+ .debug_aranges
+                0x000000f8       0x28 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+ .debug_aranges
+                0x00000120       0x68 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x550b
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x700 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+ .debug_info    0x00000700      0x633 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .debug_info    0x00000d33      0x4a8 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+ .debug_info    0x000011db     0x1068 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .debug_info    0x00002243      0x59f build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_popup.o
+ .debug_info    0x000027e2      0x434 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+ .debug_info    0x00002c16     0x28f5 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+
+.debug_abbrev   0x00000000      0xf63
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x18e build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+ .debug_abbrev  0x0000018e      0x1ca build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .debug_abbrev  0x00000358      0x194 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+ .debug_abbrev  0x000004ec      0x300 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .debug_abbrev  0x000007ec      0x16b build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_popup.o
+ .debug_abbrev  0x00000957      0x187 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+ .debug_abbrev  0x00000ade      0x485 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+
+.debug_line     0x00000000     0x26ba
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x332 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+ .debug_line.text.scene_dialog_show_custom
+                0x00000332       0x44 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+ .debug_line.text.scene_dialog_show
+                0x00000376       0x1e build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+ .debug_line.text.scene_dialog_init_view
+                0x00000394       0x18 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+ .debug_line_end
+                0x000003ac        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+ .debug_line    0x000003ac      0x352 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .debug_line.text.file_browser_scene_callback
+                0x000006fe       0x74 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .debug_line.text.scene_file_browser_select
+                0x00000772       0x42 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .debug_line.text.scene_file_browser_init_view
+                0x000007b4       0x18 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .debug_line_end
+                0x000007cc        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .debug_line    0x000007cc      0x32d build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+ .debug_line.text.scene_menu_show
+                0x00000af9       0x2e build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+ .debug_line.text.scene_menu_init_view
+                0x00000b27       0x18 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+ .debug_line_end
+                0x00000b3f        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+ .debug_line    0x00000b3f      0x476 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .debug_line.text.playlist_edit_submenu_callback
+                0x00000fb5       0x79 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .debug_line.text.scene_playlist_edit_show
+                0x0000102e       0x9b build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .debug_line.text.edit_dialog_callback
+                0x000010c9      0x205 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .debug_line.text.on_add_file_selected
+                0x000012ce       0x8d build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .debug_line.text.scene_playlist_edit_init_view
+                0x0000135b       0x19 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .debug_line.text.scene_playlist_edit_back_event_callback
+                0x00001374       0x32 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .debug_line_end
+                0x000013a6        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .debug_line    0x000013a6      0x327 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_popup.o
+ .debug_line.text.scene_popup_show
+                0x000016cd       0x40 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_popup.o
+ .debug_line_end
+                0x0000170d        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_popup.o
+ .debug_line    0x0000170d      0x39e build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+ .debug_line.text.scene_text_input_show
+                0x00001aab       0x29 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+ .debug_line.text.scene_text_input_init_view
+                0x00001ad4       0x18 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+ .debug_line_end
+                0x00001aec        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+ .debug_line    0x00001aec      0x4e3 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .debug_line.text.subghz_playlist_creator_submenu_callback
+                0x00001fcf       0x59 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .debug_line.text.create_playlist_file
+                0x00002028       0xbd build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .debug_line.text.subghz_playlist_creator_dialog_callback
+                0x000020e5       0x2e build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .debug_line.text.subghz_playlist_creator_text_input_callback
+                0x00002113       0x94 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .debug_line.text.subghz_playlist_creator_custom_callback
+                0x000021a7       0x46 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .debug_line.text.subghz_playlist_creator_back_event_callback
+                0x000021ed       0x6a build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .debug_line.text.on_edit_file_selected
+                0x00002257      0x197 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .debug_line.text.subghz_playlist_creator_alloc
+                0x000023ee      0x1da build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .debug_line.text.subghz_playlist_creator_free
+                0x000025c8       0xaa build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .debug_line.text.subghz_playlist_creator_app
+                0x00002672       0x48 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .debug_line_end
+                0x000026ba        0x0 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+
+.debug_frame    0x00000000      0x470
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x68 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+ .debug_frame   0x00000068       0x80 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .debug_frame   0x000000e8       0x48 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+ .debug_frame   0x00000130      0x11c build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .debug_frame   0x0000024c       0x3c build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_popup.o
+ .debug_frame   0x00000288       0x44 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+ .debug_frame   0x000002cc      0x1a4 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+
+.debug_str      0x00000000     0x3dc3
+ *(.debug_str)
+ .debug_str     0x00000000      0x7aa build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+ .debug_str     0x000007aa      0x6ca build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .debug_str     0x00000e74      0x636 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+ .debug_str     0x000014aa      0xb22 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .debug_str     0x00001fcc      0x641 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_popup.o
+ .debug_str     0x0000260d      0x5aa build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+ .debug_str     0x00002bb7     0x120c build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0xbc8
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000       0xe4 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+ .debug_loclists
+                0x000000e4       0xfc build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .debug_loclists
+                0x000001e0       0x2a build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+ .debug_loclists
+                0x0000020a      0x290 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .debug_loclists
+                0x0000049a       0x66 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_popup.o
+ .debug_loclists
+                0x00000500       0x2a build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+ .debug_loclists
+                0x0000052a      0x69e build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x21f
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x20 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+ .debug_rnglists
+                0x00000020       0x25 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .debug_rnglists
+                0x00000045       0x19 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+ .debug_rnglists
+                0x0000005e       0x8e build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .debug_rnglists
+                0x000000ec       0x13 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_popup.o
+ .debug_rnglists
+                0x000000ff       0x19 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+ .debug_rnglists
+                0x00000118      0x107 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_dialog.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_file_browser.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_menu.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_playlist_edit.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_popup.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/subghz_playlist_creator/scenes/scene_text_input.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/subghz_playlist_creator/subghz_playlist_creator_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/subghz_playlist_creator_d.elf elf32-littlearm)
+LOAD linker stubs

@@ -1,0 +1,594 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_is_database_loaded
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_get_preset
+                0x00000000       0x18 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .rodata.subghz_txrx_get_frequency_and_modulation.str1.1
+                0x00000000       0x11 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_get_frequency_and_modulation
+                0x00000000       0x68 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_sleep
+                0x00000000       0x18 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_hopper_get_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_hopper_set_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_hopper_unpause
+                0x00000000       0x10 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_hopper_pause
+                0x00000000       0x10 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_rx.isra.0
+                0x00000000       0x54 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_hopper_update
+                0x00000000       0xbc build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_rx_start
+                0x00000000       0x64 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_speaker_set_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_speaker_get_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_protocol_is_serializable
+                0x00000000        0xc build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_protocol_is_transmittable
+                0x00000000       0x2c build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_receiver_set_filter
+                0x00000000        0xc build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_set_rx_calback
+                0x00000000        0xc build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_radio_device_get
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_radio_device_get_rssi
+                0x00000000        0xc build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_is_database_loaded
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_preset
+                0x00000000       0x2a build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_frequency_and_modulation
+                0x00000000       0x59 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_sleep
+                0x00000000       0x31 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_get_state
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_set_state
+                0x00000000       0x20 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_unpause
+                0x00000000       0x28 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_pause
+                0x00000000       0x28 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_rx.isra.0
+                0x00000000       0x4a build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_update
+                0x00000000       0xd4 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_rx_start
+                0x00000000       0x6d build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_set_state
+                0x00000000       0x20 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_get_state
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_protocol_is_serializable
+                0x00000000       0x26 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_protocol_is_transmittable
+                0x00000000       0x61 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_receiver_set_filter
+                0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_rx_calback
+                0x00000000       0x18 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_get
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_get_rssi
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .text.meta_set_state
+                0x00000000        0xc build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .text.playlist_worker_running
+                0x00000000        0x4 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.meta_set_state
+                0x00000000       0x20 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.playlist_worker_running
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist/playlist_file.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist/playlist_file.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist/playlist_file.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_playlist/playlist_file.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist/subghz_playlist_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist/subghz_playlist_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist/subghz_playlist_icons.o
+ .debug_info    0x00000000       0x7a build/f7-firmware-C/.extapps/subghz_playlist/subghz_playlist_icons.o
+ .debug_abbrev  0x00000000       0x26 build/f7-firmware-C/.extapps/subghz_playlist/subghz_playlist_icons.o
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/subghz_playlist/subghz_playlist_icons.o
+ .debug_line    0x00000000       0x65 build/f7-firmware-C/.extapps/subghz_playlist/subghz_playlist_icons.o
+ .debug_str     0x00000000      0x20b build/f7-firmware-C/.extapps/subghz_playlist/subghz_playlist_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_playlist/subghz_playlist_icons.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_playlist/subghz_playlist_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+LOAD build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+LOAD build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+LOAD build/f7-firmware-C/.extapps/subghz_playlist/playlist_file.o
+LOAD build/f7-firmware-C/.extapps/subghz_playlist/subghz_playlist_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x1d10
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.subghz_txrx_radio_device_power_off.constprop.0
+                0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_radio_device_power_on.constprop.0
+                0x0000001c       0x58 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_free
+                0x00000074       0x78 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x00000074                subghz_txrx_free
+ .text.subghz_txrx_set_preset
+                0x000000ec       0x20 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x000000ec                subghz_txrx_set_preset
+ .text.subghz_txrx_get_preset_name
+                0x0000010c       0xa0 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x0000010c                subghz_txrx_get_preset_name
+ .text.subghz_txrx_set_need_save_callback
+                0x000001ac        0x6 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x000001ac                subghz_txrx_set_need_save_callback
+ .text.subghz_txrx_get_fff_data
+                0x000001b2        0x4 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x000001b2                subghz_txrx_get_fff_data
+ .text.subghz_txrx_get_setting
+                0x000001b6        0x4 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x000001b6                subghz_txrx_get_setting
+ *fill*         0x000001ba        0x2 
+ .text.subghz_txrx_speaker_on
+                0x000001bc       0x34 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x000001bc                subghz_txrx_speaker_on
+ .text.subghz_txrx_speaker_off
+                0x000001f0       0x38 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x000001f0                subghz_txrx_speaker_off
+ .text.subghz_txrx_idle
+                0x00000228       0x28 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_rx_end
+                0x00000250       0x40 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .text.subghz_txrx_speaker_mute
+                0x00000290       0x28 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x00000290                subghz_txrx_speaker_mute
+ .text.subghz_txrx_speaker_unmute
+                0x000002b8       0x2c build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x000002b8                subghz_txrx_speaker_unmute
+ .text.subghz_txrx_stop
+                0x000002e4       0x78 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x000002e4                subghz_txrx_stop
+ .text.subghz_txrx_tx_start
+                0x0000035c      0x1a0 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x0000035c                subghz_txrx_tx_start
+ .text.subghz_txrx_load_decoder_by_name_protocol
+                0x000004fc       0x18 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x000004fc                subghz_txrx_load_decoder_by_name_protocol
+ .text.subghz_txrx_get_decoder
+                0x00000514        0x4 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x00000514                subghz_txrx_get_decoder
+ .text.subghz_txrx_set_raw_file_encoder_worker_callback_end
+                0x00000518       0x20 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x00000518                subghz_txrx_set_raw_file_encoder_worker_callback_end
+ .text.subghz_txrx_radio_device_is_external_connected
+                0x00000538       0x4c build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x00000538                subghz_txrx_radio_device_is_external_connected
+ .text.subghz_txrx_radio_device_set
+                0x00000584       0x68 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x00000584                subghz_txrx_radio_device_set
+ .text.subghz_txrx_alloc
+                0x000005ec      0x160 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x000005ec                subghz_txrx_alloc
+ .text.subghz_txrx_radio_device_get_name
+                0x0000074c        0xc build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x0000074c                subghz_txrx_radio_device_get_name
+ .text.subghz_txrx_radio_device_is_frequecy_valid
+                0x00000758        0xc build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+                0x00000758                subghz_txrx_radio_device_is_frequecy_valid
+ .text.draw_centered_boxed_str
+                0x00000764       0x60 build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+                0x00000764                draw_centered_boxed_str
+ .text.draw_corner_aligned
+                0x000007c4      0x210 build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+                0x000007c4                draw_corner_aligned
+ .text.playlist_subghz_raw_end_callback
+                0x000009d4       0x20 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+                0x000009d4                playlist_subghz_raw_end_callback
+ .text.playlist_subghz_need_save_callback
+                0x000009f4       0xa4 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .text.input_callback
+                0x00000a98       0x10 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .text.render_callback
+                0x00000aa8      0x43c build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .text.playlist_worker_wait_pause
+                0x00000ee4       0x3c build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .text.updatePlayListView
+                0x00000f20       0x80 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+                0x00000f20                updatePlayListView
+ .text.playlist_worker_thread
+                0x00000fa0      0x7e0 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .text.playlist_meta_reset
+                0x00001780       0x28 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+                0x00001780                playlist_meta_reset
+ .text.playlist_meta_alloc
+                0x000017a8       0x3c build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+                0x000017a8                playlist_meta_alloc
+ .text.playlist_meta_free
+                0x000017e4       0x28 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+                0x000017e4                playlist_meta_free
+ .text.playlist_worker_alloc
+                0x0000180c       0x80 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+                0x0000180c                playlist_worker_alloc
+ .text.playlist_worker_free
+                0x0000188c       0x40 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+                0x0000188c                playlist_worker_free
+ .text.playlist_worker_stop
+                0x000018cc       0x10 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+                0x000018cc                playlist_worker_stop
+ .text.playlist_worker_start
+                0x000018dc       0x40 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+                0x000018dc                playlist_worker_start
+ .text.playlist_alloc
+                0x0000191c       0x94 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+                0x0000191c                playlist_alloc
+ .text.playlist_start_worker
+                0x000019b0       0x44 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+                0x000019b0                playlist_start_worker
+ .text.playlist_free
+                0x000019f4       0x60 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+                0x000019f4                playlist_free
+ .text.playlist_app
+                0x00001a54      0x24c build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+                0x00001a54                playlist_app
+ .text.playlist_count_playlist_items
+                0x00001ca0       0x70 build/f7-firmware-C/.extapps/subghz_playlist/playlist_file.o
+                0x00001ca0                playlist_count_playlist_items
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00001d10      0x7e3
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.subghz_txrx_radio_device_power_on.constprop.0.str1.1
+                0x00001d10       0x3b build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .rodata.subghz_txrx_get_preset_name.str1.1
+                0x00001d4b       0xf6 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .rodata.subghz_txrx_tx_start.str1.1
+                0x00001e41       0x5f build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .rodata.subghz_txrx_radio_device_set.str1.1
+                0x00001ea0       0x16 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .rodata.subghz_txrx_alloc.str1.1
+                0x00001eb6       0xf0 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .rodata.playlist_subghz_raw_end_callback.str1.1
+                0x00001fa6       0x1c build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .rodata.playlist_subghz_need_save_callback.str1.1
+                0x00001fc2       0x7e build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .rodata.render_callback.str1.1
+                0x00002040       0x68 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .rodata.playlist_worker_wait_pause.str1.1
+                0x000020a8       0x23 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .rodata.playlist_worker_thread.str1.1
+                0x000020cb      0x31c build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .rodata.playlist_worker_alloc.str1.1
+                0x000023e7       0x17 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .rodata.playlist_worker_start.str1.1
+                0x000023fe       0x13 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .rodata.playlist_alloc.str1.1
+                0x00002411       0x19 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .rodata.playlist_app.str1.1
+                0x0000242a       0xc5 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .rodata.playlist_count_playlist_items.str1.1
+                0x000024ef        0x4 build/f7-firmware-C/.extapps/subghz_playlist/playlist_file.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x270
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000      0x170 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_aranges
+                0x00000170       0x28 build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+ .debug_aranges
+                0x00000198       0xb8 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_aranges
+                0x00000250       0x20 build/f7-firmware-C/.extapps/subghz_playlist/playlist_file.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x7972
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2dd8 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_info    0x00002dd8      0x638 build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+ .debug_info    0x00003410     0x42ef build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_info    0x000076ff      0x273 build/f7-firmware-C/.extapps/subghz_playlist/playlist_file.o
+
+.debug_abbrev   0x00000000      0xd3c
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x526 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_abbrev  0x00000526      0x167 build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+ .debug_abbrev  0x0000068d      0x58f build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_abbrev  0x00000c1c      0x120 build/f7-firmware-C/.extapps/subghz_playlist/playlist_file.o
+
+.debug_line     0x00000000     0x2673
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x4eb build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_power_off.constprop.0
+                0x000004eb       0x2d build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_power_on.constprop.0
+                0x00000518       0x4f build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_free
+                0x00000567       0x46 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_preset
+                0x000005ad       0x48 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_preset_name
+                0x000005f5       0x7c build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_need_save_callback
+                0x00000671       0x20 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_fff_data
+                0x00000691       0x1e build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_setting
+                0x000006af       0x1e build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_on
+                0x000006cd       0x4b build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_off
+                0x00000718       0x4b build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_idle
+                0x00000763       0x3b build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_rx_end
+                0x0000079e       0x40 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_mute
+                0x000007de       0x44 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_unmute
+                0x00000822       0x4c build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_stop
+                0x0000086e       0x85 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_tx_start
+                0x000008f3      0x172 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_load_decoder_by_name_protocol
+                0x00000a65       0x3a build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_decoder
+                0x00000a9f       0x1e build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_raw_file_encoder_worker_callback_end
+                0x00000abd       0x2c build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_is_external_connected
+                0x00000ae9       0x7b build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_set
+                0x00000b64       0x76 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_alloc
+                0x00000bda       0xfe build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_get_name
+                0x00000cd8       0x1e build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_is_frequecy_valid
+                0x00000cf6       0x1f build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line_end
+                0x00000d15        0x0 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_line    0x00000d15      0x1f0 build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+ .debug_line.text.draw_centered_boxed_str
+                0x00000f05       0x40 build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+ .debug_line.text.draw_corner_aligned
+                0x00000f45       0xf9 build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+ .debug_line_end
+                0x0000103e        0x0 build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+ .debug_line    0x0000103e      0x673 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.playlist_subghz_raw_end_callback
+                0x000016b1       0x32 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.playlist_subghz_need_save_callback
+                0x000016e3       0x6c build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.input_callback
+                0x0000174f       0x22 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.render_callback
+                0x00001771      0x24c build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.playlist_worker_wait_pause
+                0x000019bd       0x4c build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.updatePlayListView
+                0x00001a09       0x6c build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.playlist_worker_thread
+                0x00001a75      0x593 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.playlist_meta_reset
+                0x00002008       0x3e build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.playlist_meta_alloc
+                0x00002046       0x67 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.playlist_meta_free
+                0x000020ad       0x2b build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.playlist_worker_alloc
+                0x000020d8       0x70 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.playlist_worker_free
+                0x00002148       0x2f build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.playlist_worker_stop
+                0x00002177       0x27 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.playlist_worker_start
+                0x0000219e       0x44 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.playlist_alloc
+                0x000021e2       0x8b build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.playlist_start_worker
+                0x0000226d       0x4a build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.playlist_free
+                0x000022b7       0x33 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line.text.playlist_app
+                0x000022ea      0x266 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line_end
+                0x00002550        0x0 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_line    0x00002550       0xbe build/f7-firmware-C/.extapps/subghz_playlist/playlist_file.o
+ .debug_line.text.playlist_count_playlist_items
+                0x0000260e       0x65 build/f7-firmware-C/.extapps/subghz_playlist/playlist_file.o
+ .debug_line_end
+                0x00002673        0x0 build/f7-firmware-C/.extapps/subghz_playlist/playlist_file.o
+
+.debug_frame    0x00000000      0x768
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x434 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_frame   0x00000434       0x7c build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+ .debug_frame   0x000004b0      0x288 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_frame   0x00000738       0x30 build/f7-firmware-C/.extapps/subghz_playlist/playlist_file.o
+
+.debug_str      0x00000000     0x4924
+ *(.debug_str)
+ .debug_str     0x00000000     0x230d build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_str     0x0000230d      0x368 build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+ .debug_str     0x00002675     0x1f9b build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_str     0x00004610      0x314 build/f7-firmware-C/.extapps/subghz_playlist/playlist_file.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x1682
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x911 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_loclists
+                0x00000911      0x2bb build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+ .debug_loclists
+                0x00000bcc      0xa19 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_loclists
+                0x000015e5       0x9d build/f7-firmware-C/.extapps/subghz_playlist/playlist_file.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x307
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x183 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .debug_rnglists
+                0x00000183       0x1a build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+ .debug_rnglists
+                0x0000019d      0x157 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .debug_rnglists
+                0x000002f4       0x13 build/f7-firmware-C/.extapps/subghz_playlist/playlist_file.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/subghz_playlist/helpers/subghz_txrx.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/subghz_playlist/canvas_helper.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/subghz_playlist/playlist.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/subghz_playlist/playlist_file.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/subghz_playlist/subghz_playlist_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/subghz_playlist_d.elf elf32-littlearm)
+LOAD linker stubs

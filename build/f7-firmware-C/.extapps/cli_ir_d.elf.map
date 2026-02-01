@@ -1,0 +1,2012 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+                              build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o (infrared_decode)
+build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+                              build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o (infrared_brute_force_alloc)
+build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+                              build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o (infrared_signal_alloc)
+build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o) (infrared_send_raw_ext)
+build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+                              build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o (infrared_worker_rx_set_received_signal_callback)
+build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_decoder_kaseikyo_check_ready)
+build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_encoder_kaseikyo_reset)
+build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_protocol_kaseikyo_get_variant)
+build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_decoder_nec_check_ready)
+build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_encoder_nec_reset)
+build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_protocol_nec_get_variant)
+build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_decoder_pioneer_check_ready)
+build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_encoder_pioneer_reset)
+build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_protocol_pioneer_get_variant)
+build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_decoder_rc5_check_ready)
+build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_encoder_rc5_reset)
+build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_protocol_rc5_get_variant)
+build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_decoder_rc6_check_ready)
+build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_encoder_rc6_reset)
+build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_protocol_rc6_get_variant)
+build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_decoder_rca_check_ready)
+build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_encoder_rca_reset)
+build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_protocol_rca_get_variant)
+build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_decoder_samsung32_check_ready)
+build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_encoder_samsung32_reset)
+build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_protocol_samsung32_get_variant)
+build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_decoder_sirc_check_ready)
+build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_encoder_sirc_reset)
+build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared.o) (infrared_protocol_sirc_get_variant)
+build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o) (infrared_common_decode_pdwm)
+build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+                              build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o) (infrared_common_encode_manchester)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .text.infrared_brute_force_is_started
+                0x00000000       0x12 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .text.infrared_brute_force_calculate_messages
+                0x00000000        0x8 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .text.infrared_brute_force_get_button_count
+                0x00000000        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .text.infrared_brute_force_get_button_name
+                0x00000000       0x38 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.infrared_brute_force_is_started
+                0x00000000       0x55 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.infrared_brute_force_calculate_messages
+                0x00000000       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.infrared_brute_force_get_button_count
+                0x00000000       0x2b build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.infrared_brute_force_get_button_name
+                0x00000000       0x98 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .text.infrared_signal_set_signal
+                0x00000000       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .text.infrared_signal_get_message
+                0x00000000        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .text.infrared_signal_search_by_name_and_read
+                0x00000000       0x40 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .text.infrared_signal_search_by_index_and_read
+                0x00000000       0x48 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line.text.infrared_signal_set_signal
+                0x00000000       0x25 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line.text.infrared_signal_get_message
+                0x00000000       0x12 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line.text.infrared_signal_search_by_name_and_read
+                0x00000000       0x58 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line.text.infrared_signal_search_by_index_and_read
+                0x00000000       0x7b build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .text.infrared_send_raw
+                0x00000000       0x10 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .debug_line.text.infrared_send_raw
+                0x00000000       0x16 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .text.infrared_worker_furi_hal_data_isr_callback
+                0x00000000       0x52 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .text.infrared_get_new_signal
+                0x00000000       0x90 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .text.infrared_worker_tx_fill_buffer
+                0x00000000       0x94 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .text.infrared_worker_tx_thread
+                0x00000000      0x130 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .text.infrared_worker_furi_hal_message_sent_isr_callback
+                0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .text.infrared_worker_rx_enable_blink_on_receiving
+                0x00000000       0x16 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .text.infrared_worker_rx_force_signal_decoding
+                0x00000000       0x16 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .text.infrared_worker_tx_start
+                0x00000000       0x5c build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .text.infrared_worker_tx_set_get_signal_callback
+                0x00000000       0x16 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .text.infrared_worker_tx_set_signal_sent_callback
+                0x00000000       0x16 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .text.infrared_worker_tx_stop
+                0x00000000       0x4c build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .text.infrared_worker_set_decoded_signal
+                0x00000000       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .text.infrared_worker_set_raw_signal
+                0x00000000       0x6c build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .text.infrared_worker_tx_get_signal_steady_callback
+                0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_furi_hal_data_isr_callback
+                0x00000000       0xdc build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_get_new_signal
+                0x00000000       0xef build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_tx_fill_buffer
+                0x00000000      0x118 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_tx_thread
+                0x00000000      0x1e7 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_furi_hal_message_sent_isr_callback
+                0x00000000       0x37 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_rx_enable_blink_on_receiving
+                0x00000000       0x5c build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_rx_force_signal_decoding
+                0x00000000       0x5c build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_tx_start
+                0x00000000       0xc4 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_tx_set_get_signal_callback
+                0x00000000       0x6c build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_tx_set_signal_sent_callback
+                0x00000000       0x6c build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_tx_stop
+                0x00000000       0xbf build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_set_decoded_signal
+                0x00000000       0x83 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_set_raw_signal
+                0x00000000      0x12f build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_tx_get_signal_steady_callback
+                0x00000000       0x7d build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/lib/libinfrared.a
+LOAD build/f7-firmware-C/lib/libinfrared.a
+
+.text           0x00000000     0x330c
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.infrared_cli_save_signal
+                0x00000000       0x30 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .text.signal_received_callback
+                0x00000030      0x110 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .text.infrared_cli_print_universal_remotes
+                0x00000140       0xb0 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .text.infrared_cli_print_usage
+                0x000001f0       0xc0 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .text.infrared_cli_process_decode
+                0x000002b0      0x37c build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .text.infrared_cli_start_ir_tx
+                0x0000062c      0x160 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .text.infrared_cli_start_ir_rx
+                0x0000078c       0xc4 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .text.execute  0x00000850       0xa0 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .text.dict_signals_list_pair_reset
+                0x000008f0       0x28 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .text.dict_signals_array_list_pair_resize
+                0x00000918       0x68 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .text.infrared_cli_process_universal
+                0x00000980      0x454 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .text.cli_ir_ep
+                0x00000dd4        0x8 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+                0x00000dd4                cli_ir_ep
+ .text.infrared_find_index_by_protocol
+                0x00000ddc       0x28 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .text.infrared_get_variant_by_protocol
+                0x00000e04       0x2c build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .text.infrared_decode
+                0x00000e30       0x44 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+                0x00000e30                infrared_decode
+ .text.infrared_free_decoder
+                0x00000e74       0x40 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+                0x00000e74                infrared_free_decoder
+ .text.infrared_reset_decoder
+                0x00000eb4       0x2c build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+                0x00000eb4                infrared_reset_decoder
+ .text.infrared_alloc_decoder
+                0x00000ee0       0x44 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+                0x00000ee0                infrared_alloc_decoder
+ .text.infrared_check_decoder_ready
+                0x00000f24       0x38 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+                0x00000f24                infrared_check_decoder_ready
+ .text.infrared_alloc_encoder
+                0x00000f5c       0x10 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+                0x00000f5c                infrared_alloc_encoder
+ .text.infrared_free_encoder
+                0x00000f6c       0x30 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+                0x00000f6c                infrared_free_encoder
+ .text.infrared_reset_encoder
+                0x00000f9c       0x60 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+                0x00000f9c                infrared_reset_encoder
+ .text.infrared_encode
+                0x00000ffc       0x2a build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+                0x00000ffc                infrared_encode
+ .text.infrared_is_protocol_valid
+                0x00001026        0xc build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+                0x00001026                infrared_is_protocol_valid
+ .text.infrared_get_protocol_name
+                0x00001032        0xa build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+                0x00001032                infrared_get_protocol_name
+ .text.infrared_get_protocol_by_name
+                0x0000103c       0x2e build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+                0x0000103c                infrared_get_protocol_by_name
+ .text.infrared_get_protocol_address_length
+                0x0000106a        0xa build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+                0x0000106a                infrared_get_protocol_address_length
+ .text.infrared_get_protocol_command_length
+                0x00001074        0xa build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+                0x00001074                infrared_get_protocol_command_length
+ .text.infrared_get_protocol_frequency
+                0x0000107e        0xa build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+                0x0000107e                infrared_get_protocol_frequency
+ .text.infrared_get_protocol_duty_cycle
+                0x00001088        0xc build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+                0x00001088                infrared_get_protocol_duty_cycle
+ .text.infrared_get_protocol_min_repeat_count
+                0x00001094        0xa build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+                0x00001094                infrared_get_protocol_min_repeat_count
+ .text.InfraredBruteForceRecordDict_next
+                0x0000109e       0x2a build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .text.SignalPositionArray_set
+                0x000010c8       0x66 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .text.InfraredBruteForceRecordDict_list_pair_reset
+                0x0000112e       0x24 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .text.InfraredBruteForceRecordDict_array_list_pair_reset
+                0x00001152       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .text.InfraredBruteForceRecordDict_array_list_pair_resize
+                0x00001172       0x5a build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .text.InfraredBruteForceRecordDict_it
+                0x000011cc       0x2e build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .text.InfraredBruteForceRecordDict_get
+                0x000011fa       0x2e build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .text.infrared_brute_force_alloc
+                0x00001228       0x38 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+                0x00001228                infrared_brute_force_alloc
+ .text.infrared_brute_force_free
+                0x00001260       0x32 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+                0x00001260                infrared_brute_force_free
+ .text.infrared_brute_force_set_db_filename
+                0x00001292       0x10 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+                0x00001292                infrared_brute_force_set_db_filename
+ *fill*         0x000012a2        0x2 
+ .text.infrared_brute_force_stop
+                0x000012a4       0x38 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+                0x000012a4                infrared_brute_force_stop
+ .text.infrared_brute_force_start
+                0x000012dc       0x8c build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+                0x000012dc                infrared_brute_force_start
+ .text.infrared_brute_force_send
+                0x00001368       0x42 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+                0x00001368                infrared_brute_force_send
+ .text.infrared_brute_force_add_record
+                0x000013aa      0x12a build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+                0x000013aa                infrared_brute_force_add_record
+ .text.infrared_brute_force_calculate_messages_ex
+                0x000014d4      0x1a8 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+                0x000014d4                infrared_brute_force_calculate_messages_ex
+ .text.infrared_brute_force_reset
+                0x0000167c       0x22 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+                0x0000167c                infrared_brute_force_reset
+ *fill*         0x0000169e        0x2 
+ .text.infrared_signal_is_message_valid
+                0x000016a0       0x74 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .text.infrared_signal_clear_timings
+                0x00001714       0x16 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .text.infrared_signal_alloc
+                0x0000172a       0x12 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+                0x0000172a                infrared_signal_alloc
+ .text.infrared_signal_free
+                0x0000173c       0x12 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+                0x0000173c                infrared_signal_free
+ .text.infrared_signal_is_raw
+                0x0000174e        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+                0x0000174e                infrared_signal_is_raw
+ *fill*         0x00001752        0x2 
+ .text.infrared_signal_is_valid
+                0x00001754       0xa8 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+                0x00001754                infrared_signal_is_valid
+ .text.infrared_signal_set_raw_signal
+                0x000017fc       0x8c build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+                0x000017fc                infrared_signal_set_raw_signal
+ .text.infrared_signal_get_raw_signal
+                0x00001888        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+                0x00001888                infrared_signal_get_raw_signal
+ .text.infrared_signal_set_message
+                0x0000188c       0x1a build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+                0x0000188c                infrared_signal_set_message
+ *fill*         0x000018a6        0x2 
+ .text.infrared_signal_read_body
+                0x000018a8      0x194 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+                0x000018a8                infrared_signal_read_body
+ .text.infrared_signal_save
+                0x00001a3c      0x114 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+                0x00001a3c                infrared_signal_save
+ .text.infrared_signal_read_name
+                0x00001b50       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+                0x00001b50                infrared_signal_read_name
+ .text.infrared_signal_read
+                0x00001b6c       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+                0x00001b6c                infrared_signal_read
+ .text.infrared_signal_transmit
+                0x00001b8c       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+                0x00001b8c                infrared_signal_transmit
+ .text.infrared_get_raw_data_callback
+                0x00001ba8       0x54 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+                0x00001ba8                infrared_get_raw_data_callback
+ .text.infrared_get_data_callback
+                0x00001bfc       0x44 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+                0x00001bfc                infrared_get_data_callback
+ .text.infrared_send_raw_ext
+                0x00001c40       0x64 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+                0x00001c40                infrared_send_raw_ext
+ .text.infrared_send
+                0x00001ca4       0x8c build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+                0x00001ca4                infrared_send
+ .text.infrared_worker_rx_callback
+                0x00001d30       0x42 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ *fill*         0x00001d72        0x2 
+ .text.infrared_worker_rx_thread
+                0x00001d74      0x1ac build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .text.infrared_worker_rx_timeout_callback
+                0x00001f20       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .text.infrared_worker_rx_set_received_signal_callback
+                0x00001f3c       0x16 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+                0x00001f3c                infrared_worker_rx_set_received_signal_callback
+ *fill*         0x00001f52        0x2 
+ .text.infrared_worker_alloc
+                0x00001f54       0x5c build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+                0x00001f54                infrared_worker_alloc
+ .text.infrared_worker_free
+                0x00001fb0       0x44 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+                0x00001fb0                infrared_worker_free
+ .text.infrared_worker_rx_start
+                0x00001ff4       0x64 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+                0x00001ff4                infrared_worker_rx_start
+ .text.infrared_worker_rx_stop
+                0x00002058       0x4c build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+                0x00002058                infrared_worker_rx_stop
+ .text.infrared_worker_signal_is_decoded
+                0x000020a4       0x10 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+                0x000020a4                infrared_worker_signal_is_decoded
+ .text.infrared_worker_get_raw_signal
+                0x000020b4       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+                0x000020b4                infrared_worker_get_raw_signal
+ .text.infrared_worker_get_decoded_signal
+                0x000020d4       0x10 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+                0x000020d4                infrared_worker_get_decoded_signal
+ .text.infrared_worker_rx_enable_signal_decoding
+                0x000020e4       0x16 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+                0x000020e4                infrared_worker_rx_enable_signal_decoding
+ .text.infrared_decoder_kaseikyo_check_ready
+                0x000020fa        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+                0x000020fa                infrared_decoder_kaseikyo_check_ready
+ .text.infrared_decoder_kaseikyo_interpret
+                0x000020fe       0x6e build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+                0x000020fe                infrared_decoder_kaseikyo_interpret
+ .text.infrared_decoder_kaseikyo_alloc
+                0x0000216c        0xc build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+                0x0000216c                infrared_decoder_kaseikyo_alloc
+ .text.infrared_decoder_kaseikyo_decode
+                0x00002178        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+                0x00002178                infrared_decoder_kaseikyo_decode
+ .text.infrared_decoder_kaseikyo_free
+                0x0000217c        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+                0x0000217c                infrared_decoder_kaseikyo_free
+ .text.infrared_decoder_kaseikyo_reset
+                0x00002180        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+                0x00002180                infrared_decoder_kaseikyo_reset
+ .text.infrared_encoder_kaseikyo_reset
+                0x00002184       0x58 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+                0x00002184                infrared_encoder_kaseikyo_reset
+ .text.infrared_encoder_kaseikyo_alloc
+                0x000021dc        0xc build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+                0x000021dc                infrared_encoder_kaseikyo_alloc
+ .text.infrared_encoder_kaseikyo_free
+                0x000021e8        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+                0x000021e8                infrared_encoder_kaseikyo_free
+ .text.infrared_encoder_kaseikyo_encode
+                0x000021ec        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+                0x000021ec                infrared_encoder_kaseikyo_encode
+ .text.infrared_protocol_kaseikyo_get_variant
+                0x000021f0       0x10 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+                0x000021f0                infrared_protocol_kaseikyo_get_variant
+ .text.infrared_decoder_nec_check_ready
+                0x00002200        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+                0x00002200                infrared_decoder_nec_check_ready
+ .text.infrared_decoder_nec_interpret
+                0x00002204       0x8e build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+                0x00002204                infrared_decoder_nec_interpret
+ *fill*         0x00002292        0x2 
+ .text.infrared_decoder_nec_decode_repeat
+                0x00002294       0xa8 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+                0x00002294                infrared_decoder_nec_decode_repeat
+ .text.infrared_decoder_nec_alloc
+                0x0000233c        0xc build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+                0x0000233c                infrared_decoder_nec_alloc
+ .text.infrared_decoder_nec_decode
+                0x00002348        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+                0x00002348                infrared_decoder_nec_decode
+ .text.infrared_decoder_nec_free
+                0x0000234c        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+                0x0000234c                infrared_decoder_nec_free
+ .text.infrared_decoder_nec_reset
+                0x00002350        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+                0x00002350                infrared_decoder_nec_reset
+ .text.infrared_encoder_nec_reset
+                0x00002354       0xa8 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+                0x00002354                infrared_encoder_nec_reset
+ .text.infrared_encoder_nec_encode_repeat
+                0x000023fc       0x54 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+                0x000023fc                infrared_encoder_nec_encode_repeat
+ .text.infrared_encoder_nec_alloc
+                0x00002450        0xc build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+                0x00002450                infrared_encoder_nec_alloc
+ .text.infrared_encoder_nec_free
+                0x0000245c        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+                0x0000245c                infrared_encoder_nec_free
+ .text.infrared_encoder_nec_encode
+                0x00002460        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+                0x00002460                infrared_encoder_nec_encode
+ .text.infrared_protocol_nec_get_variant
+                0x00002464       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+                0x00002464                infrared_protocol_nec_get_variant
+ .text.infrared_decoder_pioneer_check_ready
+                0x00002478        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+                0x00002478                infrared_decoder_pioneer_check_ready
+ .text.infrared_decoder_pioneer_interpret
+                0x0000247c       0x4c build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+                0x0000247c                infrared_decoder_pioneer_interpret
+ .text.infrared_decoder_pioneer_alloc
+                0x000024c8        0xc build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+                0x000024c8                infrared_decoder_pioneer_alloc
+ .text.infrared_decoder_pioneer_decode
+                0x000024d4        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+                0x000024d4                infrared_decoder_pioneer_decode
+ .text.infrared_decoder_pioneer_free
+                0x000024d8        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+                0x000024d8                infrared_decoder_pioneer_free
+ .text.infrared_decoder_pioneer_reset
+                0x000024dc        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+                0x000024dc                infrared_decoder_pioneer_reset
+ .text.infrared_encoder_pioneer_reset
+                0x000024e0       0x3a build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+                0x000024e0                infrared_encoder_pioneer_reset
+ *fill*         0x0000251a        0x2 
+ .text.infrared_encoder_pioneer_alloc
+                0x0000251c        0xc build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+                0x0000251c                infrared_encoder_pioneer_alloc
+ .text.infrared_encoder_pioneer_free
+                0x00002528        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+                0x00002528                infrared_encoder_pioneer_free
+ .text.infrared_encoder_pioneer_encode_repeat
+                0x0000252c       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+                0x0000252c                infrared_encoder_pioneer_encode_repeat
+ .text.infrared_encoder_pioneer_encode
+                0x00002544       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+                0x00002544                infrared_encoder_pioneer_encode
+ .text.infrared_protocol_pioneer_get_variant
+                0x00002560       0x10 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+                0x00002560                infrared_protocol_pioneer_get_variant
+ .text.reverse  0x00002570       0x2a build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .text.infrared_decoder_rc5_check_ready
+                0x0000259a        0x6 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+                0x0000259a                infrared_decoder_rc5_check_ready
+ .text.infrared_decoder_rc5_interpret
+                0x000025a0       0x8e build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+                0x000025a0                infrared_decoder_rc5_interpret
+ *fill*         0x0000262e        0x2 
+ .text.infrared_decoder_rc5_alloc
+                0x00002630       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+                0x00002630                infrared_decoder_rc5_alloc
+ .text.infrared_decoder_rc5_decode
+                0x00002650        0x6 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+                0x00002650                infrared_decoder_rc5_decode
+ .text.infrared_decoder_rc5_free
+                0x00002656       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+                0x00002656                infrared_decoder_rc5_free
+ .text.infrared_decoder_rc5_reset
+                0x0000266a        0x6 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+                0x0000266a                infrared_decoder_rc5_reset
+ .text.reverse  0x00002670       0x2a build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .text.infrared_encoder_rc5_reset
+                0x0000269a       0x6a build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+                0x0000269a                infrared_encoder_rc5_reset
+ .text.infrared_encoder_rc5_encode
+                0x00002704        0x6 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+                0x00002704                infrared_encoder_rc5_encode
+ *fill*         0x0000270a        0x2 
+ .text.infrared_encoder_rc5_alloc
+                0x0000270c       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+                0x0000270c                infrared_encoder_rc5_alloc
+ .text.infrared_encoder_rc5_free
+                0x0000272c       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+                0x0000272c                infrared_encoder_rc5_free
+ .text.infrared_protocol_rc5_get_variant
+                0x00002740       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+                0x00002740                infrared_protocol_rc5_get_variant
+ .text.reverse  0x0000275c       0x2a build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .text.infrared_decoder_rc6_check_ready
+                0x00002786        0x6 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+                0x00002786                infrared_decoder_rc6_check_ready
+ .text.infrared_decoder_rc6_interpret
+                0x0000278c       0x76 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+                0x0000278c                infrared_decoder_rc6_interpret
+ .text.infrared_decoder_rc6_decode_manchester
+                0x00002802       0xa0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+                0x00002802                infrared_decoder_rc6_decode_manchester
+ *fill*         0x000028a2        0x2 
+ .text.infrared_decoder_rc6_alloc
+                0x000028a4       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+                0x000028a4                infrared_decoder_rc6_alloc
+ .text.infrared_decoder_rc6_decode
+                0x000028c4        0x6 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+                0x000028c4                infrared_decoder_rc6_decode
+ .text.infrared_decoder_rc6_free
+                0x000028ca       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+                0x000028ca                infrared_decoder_rc6_free
+ .text.infrared_decoder_rc6_reset
+                0x000028de        0x6 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+                0x000028de                infrared_decoder_rc6_reset
+ .text.reverse  0x000028e4       0x2a build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .text.infrared_encoder_rc6_reset
+                0x0000290e       0x4a build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+                0x0000290e                infrared_encoder_rc6_reset
+ .text.infrared_encoder_rc6_encode
+                0x00002958        0x6 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+                0x00002958                infrared_encoder_rc6_encode
+ *fill*         0x0000295e        0x2 
+ .text.infrared_encoder_rc6_alloc
+                0x00002960       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+                0x00002960                infrared_encoder_rc6_alloc
+ .text.infrared_encoder_rc6_free
+                0x00002980       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+                0x00002980                infrared_encoder_rc6_free
+ .text.infrared_encoder_rc6_encode_manchester
+                0x00002994       0x16 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+                0x00002994                infrared_encoder_rc6_encode_manchester
+ *fill*         0x000029aa        0x2 
+ .text.infrared_protocol_rc6_get_variant
+                0x000029ac       0x10 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+                0x000029ac                infrared_protocol_rc6_get_variant
+ .text.infrared_decoder_rca_check_ready
+                0x000029bc        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+                0x000029bc                infrared_decoder_rca_check_ready
+ .text.infrared_decoder_rca_interpret
+                0x000029c0       0x3a build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+                0x000029c0                infrared_decoder_rca_interpret
+ *fill*         0x000029fa        0x2 
+ .text.infrared_decoder_rca_alloc
+                0x000029fc        0xc build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+                0x000029fc                infrared_decoder_rca_alloc
+ .text.infrared_decoder_rca_decode
+                0x00002a08        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+                0x00002a08                infrared_decoder_rca_decode
+ .text.infrared_decoder_rca_free
+                0x00002a0c        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+                0x00002a0c                infrared_decoder_rca_free
+ .text.infrared_decoder_rca_reset
+                0x00002a10        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+                0x00002a10                infrared_decoder_rca_reset
+ .text.infrared_encoder_rca_reset
+                0x00002a14       0x36 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+                0x00002a14                infrared_encoder_rca_reset
+ *fill*         0x00002a4a        0x2 
+ .text.infrared_encoder_rca_alloc
+                0x00002a4c        0xc build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+                0x00002a4c                infrared_encoder_rca_alloc
+ .text.infrared_encoder_rca_free
+                0x00002a58        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+                0x00002a58                infrared_encoder_rca_free
+ .text.infrared_encoder_rca_encode
+                0x00002a5c        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+                0x00002a5c                infrared_encoder_rca_encode
+ .text.infrared_protocol_rca_get_variant
+                0x00002a60       0x10 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+                0x00002a60                infrared_protocol_rca_get_variant
+ .text.infrared_decoder_samsung32_check_ready
+                0x00002a70        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+                0x00002a70                infrared_decoder_samsung32_check_ready
+ .text.infrared_decoder_samsung32_interpret
+                0x00002a74       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+                0x00002a74                infrared_decoder_samsung32_interpret
+ .text.infrared_decoder_samsung32_decode_repeat
+                0x00002aa8       0xb0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+                0x00002aa8                infrared_decoder_samsung32_decode_repeat
+ .text.infrared_decoder_samsung32_alloc
+                0x00002b58        0xc build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+                0x00002b58                infrared_decoder_samsung32_alloc
+ .text.infrared_decoder_samsung32_decode
+                0x00002b64        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+                0x00002b64                infrared_decoder_samsung32_decode
+ .text.infrared_decoder_samsung32_free
+                0x00002b68        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+                0x00002b68                infrared_decoder_samsung32_free
+ .text.infrared_decoder_samsung32_reset
+                0x00002b6c        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+                0x00002b6c                infrared_decoder_samsung32_reset
+ .text.infrared_encoder_samsung32_reset
+                0x00002b70       0x2e build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+                0x00002b70                infrared_encoder_samsung32_reset
+ *fill*         0x00002b9e        0x2 
+ .text.infrared_encoder_samsung32_encode_repeat
+                0x00002ba0       0x58 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+                0x00002ba0                infrared_encoder_samsung32_encode_repeat
+ .text.infrared_encoder_samsung32_alloc
+                0x00002bf8        0xc build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+                0x00002bf8                infrared_encoder_samsung32_alloc
+ .text.infrared_encoder_samsung32_free
+                0x00002c04        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+                0x00002c04                infrared_encoder_samsung32_free
+ .text.infrared_encoder_samsung32_encode
+                0x00002c08        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+                0x00002c08                infrared_encoder_samsung32_encode
+ .text.infrared_protocol_samsung32_get_variant
+                0x00002c0c       0x10 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+                0x00002c0c                infrared_protocol_samsung32_get_variant
+ .text.infrared_decoder_sirc_check_ready
+                0x00002c1c        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+                0x00002c1c                infrared_decoder_sirc_check_ready
+ .text.infrared_decoder_sirc_interpret
+                0x00002c20       0x52 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+                0x00002c20                infrared_decoder_sirc_interpret
+ *fill*         0x00002c72        0x2 
+ .text.infrared_decoder_sirc_alloc
+                0x00002c74        0xc build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+                0x00002c74                infrared_decoder_sirc_alloc
+ .text.infrared_decoder_sirc_decode
+                0x00002c80        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+                0x00002c80                infrared_decoder_sirc_decode
+ .text.infrared_decoder_sirc_free
+                0x00002c84        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+                0x00002c84                infrared_decoder_sirc_free
+ .text.infrared_decoder_sirc_reset
+                0x00002c88        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+                0x00002c88                infrared_decoder_sirc_reset
+ .text.infrared_encoder_sirc_reset
+                0x00002c8c       0x6c build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+                0x00002c8c                infrared_encoder_sirc_reset
+ .text.infrared_encoder_sirc_encode_repeat
+                0x00002cf8       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+                0x00002cf8                infrared_encoder_sirc_encode_repeat
+ .text.infrared_encoder_sirc_alloc
+                0x00002d14        0xc build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+                0x00002d14                infrared_encoder_sirc_alloc
+ .text.infrared_encoder_sirc_free
+                0x00002d20        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+                0x00002d20                infrared_encoder_sirc_free
+ .text.infrared_encoder_sirc_encode
+                0x00002d24       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+                0x00002d24                infrared_encoder_sirc_encode
+ .text.infrared_protocol_sirc_get_variant
+                0x00002d40       0x28 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+                0x00002d40                infrared_protocol_sirc_get_variant
+ .text.consume_samples
+                0x00002d68       0x1e build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .text.accumulate_lsb
+                0x00002d86       0x2a build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .text.infrared_common_decoder_reset_state
+                0x00002db0       0x30 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .text.infrared_common_decode_pdwm
+                0x00002de0       0x5a build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+                0x00002de0                infrared_common_decode_pdwm
+ .text.infrared_common_decode_manchester
+                0x00002e3a       0xaa build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+                0x00002e3a                infrared_common_decode_manchester
+ .text.infrared_common_decoder_check_ready
+                0x00002ee4       0x46 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+                0x00002ee4                infrared_common_decoder_check_ready
+ .text.infrared_common_decoder_alloc
+                0x00002f2a       0x24 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+                0x00002f2a                infrared_common_decoder_alloc
+ .text.infrared_common_decoder_free
+                0x00002f4e        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+                0x00002f4e                infrared_common_decoder_free
+ .text.infrared_common_decoder_reset
+                0x00002f52       0x10 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+                0x00002f52                infrared_common_decoder_reset
+ .text.infrared_common_decode
+                0x00002f62      0x1f4 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+                0x00002f62                infrared_common_decode
+ .text.infrared_common_encode_manchester
+                0x00003156       0x44 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+                0x00003156                infrared_common_encode_manchester
+ .text.infrared_common_encode_pdwm
+                0x0000319a       0x54 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+                0x0000319a                infrared_common_encode_pdwm
+ .text.infrared_common_encode
+                0x000031ee       0xae build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+                0x000031ee                infrared_common_encode
+ .text.infrared_common_encoder_alloc
+                0x0000329c       0x2c build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+                0x0000329c                infrared_common_encoder_alloc
+ .text.infrared_common_encoder_free
+                0x000032c8        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+                0x000032c8                infrared_common_encoder_free
+ .text.infrared_common_encoder_reset
+                0x000032cc       0x40 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+                0x000032cc                infrared_common_encoder_reset
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x0000330c      0xc44
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.infrared_cli_save_signal.str1.1
+                0x0000330c       0x37 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .rodata.signal_received_callback.str1.1
+                0x00003343       0x3d build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .rodata.infrared_cli_print_universal_remotes.str1.1
+                0x00003380       0x27 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .rodata.infrared_cli_print_usage.str1.1
+                0x000033a7      0x1a5 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .rodata.infrared_cli_process_decode.str1.1
+                0x0000354c      0x16c build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .rodata.infrared_cli_start_ir_tx.str1.1
+                0x000036b8       0x1e build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .rodata.infrared_cli_start_ir_rx.str1.1
+                0x000036d6       0x3a build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .rodata.execute.str1.1
+                0x00003710       0x1b build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .rodata.infrared_cli_process_universal.str1.1
+                0x0000372b       0xcb build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .rodata.str1.1
+                0x000037f6       0x1e build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .rodata.plugin_descriptor_ir
+                0x00003814        0xc build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .rodata.cli_ir_desc
+                0x00003820       0x10 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .rodata.infrared_cli_commands
+                0x00003830       0x20 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .rodata.infrared_encoder_decoder
+                0x00003850      0x140 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .rodata.infrared_brute_force_stop.str1.1
+                0x00003990        0x8 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .rodata.infrared_brute_force_calculate_messages_ex.str1.1
+                0x00003998       0xaf build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .rodata.infrared_signal_is_message_valid.str1.1
+                0x00003a47       0x80 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .rodata.infrared_signal_is_valid.str1.1
+                0x00003ac7       0x7d build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .rodata.infrared_signal_read_body.str1.1
+                0x00003b44       0x5b build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .rodata.infrared_signal_save.str1.1
+                0x00003b9f        0x6 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .rodata.infrared_worker_rx_thread.str1.1
+                0x00003ba5       0x1b build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .rodata.infrared_worker_alloc.str1.1
+                0x00003bc0       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .rodata.str1.1
+                0x00003bdc        0x9 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+ *fill*         0x00003be5        0x3 
+ .rodata.infrared_protocol_variant_kaseikyo
+                0x00003be8       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+ .rodata.infrared_protocol_kaseikyo
+                0x00003bfc       0x38 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+                0x00003bfc                infrared_protocol_kaseikyo
+ .rodata.repeat_timings
+                0x00003c34       0x10 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .rodata.CSWTCH.1
+                0x00003c44       0x10 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .rodata.str1.1
+                0x00003c54       0x1a build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ *fill*         0x00003c6e        0x2 
+ .rodata.infrared_protocol_variant_nec42ext
+                0x00003c70       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .rodata.infrared_protocol_variant_nec42
+                0x00003c84       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .rodata.infrared_protocol_variant_necext
+                0x00003c98       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .rodata.infrared_protocol_variant_nec
+                0x00003cac       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .rodata.infrared_protocol_nec
+                0x00003cc0       0x38 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+                0x00003cc0                infrared_protocol_nec
+ .rodata.str1.1
+                0x00003cf8        0x8 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+ .rodata.infrared_protocol_variant_pioneer
+                0x00003d00       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+ .rodata.infrared_protocol_pioneer
+                0x00003d14       0x38 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+                0x00003d14                infrared_protocol_pioneer
+ .rodata.str1.1
+                0x00003d4c        0x9 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+ *fill*         0x00003d55        0x3 
+ .rodata.infrared_protocol_variant_rc5x
+                0x00003d58       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+ .rodata.infrared_protocol_variant_rc5
+                0x00003d6c       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+ .rodata.infrared_protocol_rc5
+                0x00003d80       0x38 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+                0x00003d80                infrared_protocol_rc5
+ .rodata.str1.1
+                0x00003db8        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+ .rodata.infrared_protocol_variant_rc6
+                0x00003dbc       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+ .rodata.infrared_protocol_rc6
+                0x00003dd0       0x38 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+                0x00003dd0                infrared_protocol_rc6
+ .rodata.str1.1
+                0x00003e08        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+ .rodata.infrared_protocol_variant_rca
+                0x00003e0c       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+ .rodata.infrared_protocol_rca
+                0x00003e20       0x38 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+                0x00003e20                infrared_protocol_rca
+ .rodata.repeat_timings
+                0x00003e58       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .rodata.str1.1
+                0x00003e70        0xa build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+ *fill*         0x00003e7a        0x2 
+ .rodata.infrared_protocol_variant_samsung32
+                0x00003e7c       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+ .rodata.infrared_protocol_samsung32
+                0x00003e90       0x38 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+                0x00003e90                infrared_protocol_samsung32
+ .rodata.str1.1
+                0x00003ec8       0x13 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ *fill*         0x00003edb        0x1 
+ .rodata.infrared_protocol_variant_sirc20
+                0x00003edc       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ .rodata.infrared_protocol_variant_sirc15
+                0x00003ef0       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ .rodata.infrared_protocol_variant_sirc
+                0x00003f04       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ .rodata.infrared_protocol_sirc
+                0x00003f18       0x38 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+                0x00003f18                infrared_protocol_sirc
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss            0x00003f50       0x14
+ *(.bss)
+ *(.bss*)
+ .bss.infrared_tx_raw_add_silence
+                0x00003f50        0x1 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ *fill*         0x00003f51        0x3 
+ .bss.infrared_tx_raw_start_from_mark
+                0x00003f54        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .bss.infrared_tx_raw_timings_number
+                0x00003f58        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .bss.infrared_tx_raw_timings_index
+                0x00003f5c        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .bss.infrared_tx_number_of_transmissions
+                0x00003f60        0x4 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x9c0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x78 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_aranges
+                0x00000078       0xb0 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_aranges
+                0x00000128       0xb8 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_aranges
+                0x000001e0       0xa8 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_aranges
+                0x00000288       0x40 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .debug_aranges
+                0x000002c8       0xe8 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_aranges
+                0x000003b0       0x48 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .debug_aranges
+                0x000003f8       0x38 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+ .debug_aranges
+                0x00000430       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+ .debug_aranges
+                0x00000450       0x50 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .debug_aranges
+                0x000004a0       0x40 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .debug_aranges
+                0x000004e0       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .debug_aranges
+                0x00000500       0x48 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .debug_aranges
+                0x00000548       0x40 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .debug_aranges
+                0x00000588       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+ .debug_aranges
+                0x000005a8       0x50 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .debug_aranges
+                0x000005f8       0x40 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .debug_aranges
+                0x00000638       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+ .debug_aranges
+                0x00000658       0x58 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .debug_aranges
+                0x000006b0       0x48 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .debug_aranges
+                0x000006f8       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+ .debug_aranges
+                0x00000718       0x48 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .debug_aranges
+                0x00000760       0x38 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+ .debug_aranges
+                0x00000798       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+ .debug_aranges
+                0x000007b8       0x50 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .debug_aranges
+                0x00000808       0x40 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .debug_aranges
+                0x00000848       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+ .debug_aranges
+                0x00000868       0x48 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .debug_aranges
+                0x000008b0       0x40 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .debug_aranges
+                0x000008f0       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ .debug_aranges
+                0x00000910       0x68 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_aranges
+                0x00000978       0x48 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x19662
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x45e8 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_info    0x000045e8     0x14bd build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_info    0x00005aa5     0x28ba build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_info    0x0000835f     0x1804 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_info    0x00009b63      0x8aa build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .debug_info    0x0000a40d     0x2526 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_info    0x0000c933      0x7e6 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .debug_info    0x0000d119      0x75b build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+ .debug_info    0x0000d874      0x66e build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+ .debug_info    0x0000dee2      0x89a build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .debug_info    0x0000e77c      0x82a build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .debug_info    0x0000efa6      0x6d2 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .debug_info    0x0000f678      0x7c6 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .debug_info    0x0000fe3e      0x799 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .debug_info    0x000105d7      0x68e build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+ .debug_info    0x00010c65      0x948 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .debug_info    0x000115ad      0x82b build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .debug_info    0x00011dd8      0x67c build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+ .debug_info    0x00012454      0xa42 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .debug_info    0x00012e96      0x8e7 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .debug_info    0x0001377d      0x66b build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+ .debug_info    0x00013de8      0x7ad build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .debug_info    0x00014595      0x728 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+ .debug_info    0x00014cbd      0x66e build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+ .debug_info    0x0001532b      0x800 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .debug_info    0x00015b2b      0x7d9 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .debug_info    0x00016304      0x6a4 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+ .debug_info    0x000169a8      0x774 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .debug_info    0x0001711c      0x794 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .debug_info    0x000178b0      0x6ac build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ .debug_info    0x00017f5c      0xd32 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_info    0x00018c8e      0x9d4 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+
+.debug_abbrev   0x00000000     0x4c54
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x633 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_abbrev  0x00000633      0x427 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_abbrev  0x00000a5a      0x5a6 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_abbrev  0x00001000      0x433 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_abbrev  0x00001433      0x2e2 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .debug_abbrev  0x00001715      0x5fe build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_abbrev  0x00001d13      0x1e2 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .debug_abbrev  0x00001ef5      0x1e4 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+ .debug_abbrev  0x000020d9      0x150 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+ .debug_abbrev  0x00002229      0x1de build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .debug_abbrev  0x00002407      0x23b build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .debug_abbrev  0x00002642      0x152 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .debug_abbrev  0x00002794      0x1d5 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .debug_abbrev  0x00002969      0x1f9 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .debug_abbrev  0x00002b62      0x150 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+ .debug_abbrev  0x00002cb2      0x21a build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .debug_abbrev  0x00002ecc      0x1d5 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .debug_abbrev  0x000030a1      0x152 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+ .debug_abbrev  0x000031f3      0x21a build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .debug_abbrev  0x0000340d      0x1de build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .debug_abbrev  0x000035eb      0x151 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+ .debug_abbrev  0x0000373c      0x1ce build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .debug_abbrev  0x0000390a      0x1d0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+ .debug_abbrev  0x00003ada      0x150 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+ .debug_abbrev  0x00003c2a      0x1ce build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .debug_abbrev  0x00003df8      0x1e1 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .debug_abbrev  0x00003fd9      0x150 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+ .debug_abbrev  0x00004129      0x1ce build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .debug_abbrev  0x000042f7      0x210 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .debug_abbrev  0x00004507      0x152 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ .debug_abbrev  0x00004659      0x394 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_abbrev  0x000049ed      0x267 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+
+.debug_line     0x00000000     0xa2ae
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x4b2 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_line.text.infrared_cli_save_signal
+                0x000004b2       0x46 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_line.text.signal_received_callback
+                0x000004f8       0xfc build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_line.text.infrared_cli_print_universal_remotes
+                0x000005f4       0x96 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_line.text.infrared_cli_print_usage
+                0x0000068a       0x66 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_line.text.infrared_cli_process_decode
+                0x000006f0      0x2b5 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_line.text.infrared_cli_start_ir_tx
+                0x000009a5      0x151 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_line.text.infrared_cli_start_ir_rx
+                0x00000af6       0x87 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_line.text.execute
+                0x00000b7d       0x9d build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_line.text.dict_signals_list_pair_reset
+                0x00000c1a       0x4c build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_line.text.dict_signals_array_list_pair_resize
+                0x00000c66       0x76 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_line.text.infrared_cli_process_universal
+                0x00000cdc      0x42d build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_line.text.cli_ir_ep
+                0x00001109       0x13 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_line_end
+                0x0000111c        0x0 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_line    0x0000111c      0x48b build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_find_index_by_protocol
+                0x000015a7       0x4f build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_get_variant_by_protocol
+                0x000015f6       0x5a build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_decode
+                0x00001650       0x6c build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_free_decoder
+                0x000016bc       0x78 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_reset_decoder
+                0x00001734       0x52 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_alloc_decoder
+                0x00001786       0x6d build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_check_decoder_ready
+                0x000017f3       0x6b build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_alloc_encoder
+                0x0000185e       0x2d build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_free_encoder
+                0x0000188b       0xab build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_reset_encoder
+                0x00001936      0x135 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_encode
+                0x00001a6b       0xe4 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_is_protocol_valid
+                0x00001b4f       0x1f build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_get_protocol_name
+                0x00001b6e       0x1f build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_get_protocol_by_name
+                0x00001b8d       0x6a build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_get_protocol_address_length
+                0x00001bf7       0x1f build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_get_protocol_command_length
+                0x00001c16       0x1f build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_get_protocol_frequency
+                0x00001c35       0x1f build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_get_protocol_duty_cycle
+                0x00001c54       0x1f build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line.text.infrared_get_protocol_min_repeat_count
+                0x00001c73       0x1f build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line_end
+                0x00001c92        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_line    0x00001c92      0x2ff build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.InfraredBruteForceRecordDict_next
+                0x00001f91       0x8a build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.SignalPositionArray_set
+                0x0000201b       0xa9 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.InfraredBruteForceRecordDict_list_pair_reset
+                0x000020c4       0x7d build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.InfraredBruteForceRecordDict_array_list_pair_reset
+                0x00002141       0x6b build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.InfraredBruteForceRecordDict_array_list_pair_resize
+                0x000021ac       0x76 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.InfraredBruteForceRecordDict_it
+                0x00002222       0xb4 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.InfraredBruteForceRecordDict_get
+                0x000022d6       0x61 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.infrared_brute_force_alloc
+                0x00002337       0x71 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.infrared_brute_force_free
+                0x000023a8       0xff build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.infrared_brute_force_set_db_filename
+                0x000024a7       0x6b build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.infrared_brute_force_stop
+                0x00002512       0xa2 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.infrared_brute_force_start
+                0x000025b4      0x157 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.infrared_brute_force_send
+                0x0000270b       0xe0 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.infrared_brute_force_add_record
+                0x000027eb      0x164 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.infrared_brute_force_calculate_messages_ex
+                0x0000294f      0x237 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line.text.infrared_brute_force_reset
+                0x00002b86       0x4a build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line_end
+                0x00002bd0        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_line    0x00002bd0      0x367 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line.text.infrared_signal_is_message_valid
+                0x00002f37       0x80 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line.text.infrared_signal_clear_timings
+                0x00002fb7       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line.text.infrared_signal_alloc
+                0x00002feb       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line.text.infrared_signal_free
+                0x0000301f       0x25 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line.text.infrared_signal_is_raw
+                0x00003044       0x1a build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line.text.infrared_signal_is_valid
+                0x0000305e       0xb8 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line.text.infrared_signal_set_raw_signal
+                0x00003116       0x83 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line.text.infrared_signal_get_raw_signal
+                0x00003199       0x1e build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line.text.infrared_signal_set_message
+                0x000031b7       0x2d build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line.text.infrared_signal_read_body
+                0x000031e4      0x15d build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line.text.infrared_signal_save
+                0x00003341       0xed build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line.text.infrared_signal_read_name
+                0x0000342e       0x23 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line.text.infrared_signal_read
+                0x00003451       0x3b build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line.text.infrared_signal_transmit
+                0x0000348c       0x25 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line_end
+                0x000034b1        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_line    0x000034b1      0x22c build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .debug_line.text.infrared_get_raw_data_callback
+                0x000036dd       0x85 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .debug_line.text.infrared_get_data_callback
+                0x00003762       0x8e build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .debug_line.text.infrared_send_raw_ext
+                0x000037f0       0xb5 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .debug_line.text.infrared_send
+                0x000038a5      0x11b build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .debug_line_end
+                0x000039c0        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .debug_line    0x000039c0      0x412 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_rx_callback
+                0x00003dd2       0x66 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_rx_thread
+                0x00003e38      0x22f build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_rx_timeout_callback
+                0x00004067       0x31 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_rx_set_received_signal_callback
+                0x00004098       0x5e build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_alloc
+                0x000040f6       0x8a build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_free
+                0x00004180       0x90 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_rx_start
+                0x00004210       0xaa build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_rx_stop
+                0x000042ba       0xa6 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_signal_is_decoded
+                0x00004360       0x55 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_get_raw_signal
+                0x000043b5       0x9d build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_get_decoded_signal
+                0x00004452       0x55 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line.text.infrared_worker_rx_enable_signal_decoding
+                0x000044a7       0x5c build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line_end
+                0x00004503        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_line    0x00004503      0x1fb build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .debug_line.text.infrared_decoder_kaseikyo_check_ready
+                0x000046fe       0x15 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .debug_line.text.infrared_decoder_kaseikyo_interpret
+                0x00004713       0xb7 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .debug_line.text.infrared_decoder_kaseikyo_alloc
+                0x000047ca       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .debug_line.text.infrared_decoder_kaseikyo_decode
+                0x000047e2       0x17 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .debug_line.text.infrared_decoder_kaseikyo_free
+                0x000047f9       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .debug_line.text.infrared_decoder_kaseikyo_reset
+                0x0000480d       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .debug_line_end
+                0x00004821        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .debug_line    0x00004821      0x1fb build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+ .debug_line.text.infrared_encoder_kaseikyo_reset
+                0x00004a1c       0x88 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+ .debug_line.text.infrared_encoder_kaseikyo_alloc
+                0x00004aa4       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+ .debug_line.text.infrared_encoder_kaseikyo_free
+                0x00004abc       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+ .debug_line.text.infrared_encoder_kaseikyo_encode
+                0x00004ad0       0x17 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+ .debug_line_end
+                0x00004ae7        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+ .debug_line    0x00004ae7      0x27b build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+ .debug_line.text.infrared_protocol_kaseikyo_get_variant
+                0x00004d62       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+ .debug_line_end
+                0x00004d7e        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+ .debug_line    0x00004d7e      0x1e7 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .debug_line.text.infrared_decoder_nec_check_ready
+                0x00004f65       0x15 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .debug_line.text.infrared_decoder_nec_interpret
+                0x00004f7a      0x10a build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .debug_line.text.infrared_decoder_nec_decode_repeat
+                0x00005084       0x9b build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .debug_line.text.infrared_decoder_nec_alloc
+                0x0000511f       0x19 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .debug_line.text.infrared_decoder_nec_decode
+                0x00005138       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .debug_line.text.infrared_decoder_nec_free
+                0x00005150       0x15 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .debug_line.text.infrared_decoder_nec_reset
+                0x00005165       0x15 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .debug_line_end
+                0x0000517a        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .debug_line    0x0000517a      0x1fc build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .debug_line.text.infrared_encoder_nec_reset
+                0x00005376      0x10e build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .debug_line.text.infrared_encoder_nec_encode_repeat
+                0x00005484       0x91 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .debug_line.text.infrared_encoder_nec_alloc
+                0x00005515       0x19 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .debug_line.text.infrared_encoder_nec_free
+                0x0000552e       0x15 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .debug_line.text.infrared_encoder_nec_encode
+                0x00005543       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .debug_line_end
+                0x0000555b        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .debug_line    0x0000555b      0x267 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .debug_line.text.infrared_protocol_nec_get_variant
+                0x000057c2       0x1e build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .debug_line_end
+                0x000057e0        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .debug_line    0x000057e0      0x1f7 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .debug_line.text.infrared_decoder_pioneer_check_ready
+                0x000059d7       0x15 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .debug_line.text.infrared_decoder_pioneer_interpret
+                0x000059ec       0x96 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .debug_line.text.infrared_decoder_pioneer_alloc
+                0x00005a82       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .debug_line.text.infrared_decoder_pioneer_decode
+                0x00005a9a       0x17 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .debug_line.text.infrared_decoder_pioneer_free
+                0x00005ab1       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .debug_line.text.infrared_decoder_pioneer_reset
+                0x00005ac5       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .debug_line_end
+                0x00005ad9        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .debug_line    0x00005ad9      0x20c build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .debug_line.text.infrared_encoder_pioneer_reset
+                0x00005ce5       0x6b build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .debug_line.text.infrared_encoder_pioneer_alloc
+                0x00005d50       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .debug_line.text.infrared_encoder_pioneer_free
+                0x00005d68       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .debug_line.text.infrared_encoder_pioneer_encode_repeat
+                0x00005d7c       0x56 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .debug_line.text.infrared_encoder_pioneer_encode
+                0x00005dd2       0x67 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .debug_line_end
+                0x00005e39        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .debug_line    0x00005e39      0x277 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+ .debug_line.text.infrared_protocol_pioneer_get_variant
+                0x000060b0       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+ .debug_line_end
+                0x000060cc        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+ .debug_line    0x000060cc      0x2d6 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .debug_line.text.reverse
+                0x000063a2       0x59 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .debug_line.text.infrared_decoder_rc5_check_ready
+                0x000063fb       0x1a build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .debug_line.text.infrared_decoder_rc5_interpret
+                0x00006415       0xc7 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .debug_line.text.infrared_decoder_rc5_alloc
+                0x000064dc       0x46 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .debug_line.text.infrared_decoder_rc5_decode
+                0x00006522       0x1a build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .debug_line.text.infrared_decoder_rc5_free
+                0x0000653c       0x27 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .debug_line.text.infrared_decoder_rc5_reset
+                0x00006563       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .debug_line_end
+                0x0000657b        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .debug_line    0x0000657b      0x2d6 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .debug_line.text.reverse
+                0x00006851       0x59 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .debug_line.text.infrared_encoder_rc5_reset
+                0x000068aa       0x8d build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .debug_line.text.infrared_encoder_rc5_encode
+                0x00006937       0x19 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .debug_line.text.infrared_encoder_rc5_alloc
+                0x00006950       0x3b build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .debug_line.text.infrared_encoder_rc5_free
+                0x0000698b       0x2a build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .debug_line_end
+                0x000069b5        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .debug_line    0x000069b5      0x267 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+ .debug_line.text.infrared_protocol_rc5_get_variant
+                0x00006c1c       0x25 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+ .debug_line_end
+                0x00006c41        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+ .debug_line    0x00006c41      0x2d6 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .debug_line.text.reverse
+                0x00006f17       0x59 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .debug_line.text.infrared_decoder_rc6_check_ready
+                0x00006f70       0x1a build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .debug_line.text.infrared_decoder_rc6_interpret
+                0x00006f8a       0xb3 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .debug_line.text.infrared_decoder_rc6_decode_manchester
+                0x0000703d      0x10e build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .debug_line.text.infrared_decoder_rc6_alloc
+                0x0000714b       0x47 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .debug_line.text.infrared_decoder_rc6_decode
+                0x00007192       0x1a build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .debug_line.text.infrared_decoder_rc6_free
+                0x000071ac       0x27 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .debug_line.text.infrared_decoder_rc6_reset
+                0x000071d3       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .debug_line_end
+                0x000071eb        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .debug_line    0x000071eb      0x2d6 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .debug_line.text.reverse
+                0x000074c1       0x59 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .debug_line.text.infrared_encoder_rc6_reset
+                0x0000751a       0x68 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .debug_line.text.infrared_encoder_rc6_encode
+                0x00007582       0x19 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .debug_line.text.infrared_encoder_rc6_alloc
+                0x0000759b       0x3b build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .debug_line.text.infrared_encoder_rc6_free
+                0x000075d6       0x2a build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .debug_line.text.infrared_encoder_rc6_encode_manchester
+                0x00007600       0x3e build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .debug_line_end
+                0x0000763e        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .debug_line    0x0000763e      0x267 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+ .debug_line.text.infrared_protocol_rc6_get_variant
+                0x000078a5       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+ .debug_line_end
+                0x000078c1        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+ .debug_line    0x000078c1      0x1e7 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .debug_line.text.infrared_decoder_rca_check_ready
+                0x00007aa8       0x15 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .debug_line.text.infrared_decoder_rca_interpret
+                0x00007abd       0x6a build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .debug_line.text.infrared_decoder_rca_alloc
+                0x00007b27       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .debug_line.text.infrared_decoder_rca_decode
+                0x00007b3f       0x17 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .debug_line.text.infrared_decoder_rca_free
+                0x00007b56       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .debug_line.text.infrared_decoder_rca_reset
+                0x00007b6a       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .debug_line_end
+                0x00007b7e        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .debug_line    0x00007b7e      0x1e7 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+ .debug_line.text.infrared_encoder_rca_reset
+                0x00007d65       0x5e build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+ .debug_line.text.infrared_encoder_rca_alloc
+                0x00007dc3       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+ .debug_line.text.infrared_encoder_rca_free
+                0x00007ddb       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+ .debug_line.text.infrared_encoder_rca_encode
+                0x00007def       0x17 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+ .debug_line_end
+                0x00007e06        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+ .debug_line    0x00007e06      0x267 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+ .debug_line.text.infrared_protocol_rca_get_variant
+                0x0000806d       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+ .debug_line_end
+                0x00008089        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+ .debug_line    0x00008089      0x1f7 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .debug_line.text.infrared_decoder_samsung32_check_ready
+                0x00008280       0x15 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .debug_line.text.infrared_decoder_samsung32_interpret
+                0x00008295       0x6e build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .debug_line.text.infrared_decoder_samsung32_decode_repeat
+                0x00008303       0xb1 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .debug_line.text.infrared_decoder_samsung32_alloc
+                0x000083b4       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .debug_line.text.infrared_decoder_samsung32_decode
+                0x000083cc       0x17 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .debug_line.text.infrared_decoder_samsung32_free
+                0x000083e3       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .debug_line.text.infrared_decoder_samsung32_reset
+                0x000083f7       0x15 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .debug_line_end
+                0x0000840c        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .debug_line    0x0000840c      0x1f7 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .debug_line.text.infrared_encoder_samsung32_reset
+                0x00008603       0x58 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .debug_line.text.infrared_encoder_samsung32_encode_repeat
+                0x0000865b       0x94 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .debug_line.text.infrared_encoder_samsung32_alloc
+                0x000086ef       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .debug_line.text.infrared_encoder_samsung32_free
+                0x00008707       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .debug_line.text.infrared_encoder_samsung32_encode
+                0x0000871b       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .debug_line_end
+                0x00008733        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .debug_line    0x00008733      0x277 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+ .debug_line.text.infrared_protocol_samsung32_get_variant
+                0x000089aa       0x1c build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+ .debug_line_end
+                0x000089c6        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+ .debug_line    0x000089c6      0x1eb build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .debug_line.text.infrared_decoder_sirc_check_ready
+                0x00008bb1       0x15 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .debug_line.text.infrared_decoder_sirc_interpret
+                0x00008bc6       0xac build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .debug_line.text.infrared_decoder_sirc_alloc
+                0x00008c72       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .debug_line.text.infrared_decoder_sirc_decode
+                0x00008c8a       0x17 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .debug_line.text.infrared_decoder_sirc_free
+                0x00008ca1       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .debug_line.text.infrared_decoder_sirc_reset
+                0x00008cb5       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .debug_line_end
+                0x00008cc9        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .debug_line    0x00008cc9      0x200 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .debug_line.text.infrared_encoder_sirc_reset
+                0x00008ec9       0xaa build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .debug_line.text.infrared_encoder_sirc_encode_repeat
+                0x00008f73       0x63 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .debug_line.text.infrared_encoder_sirc_alloc
+                0x00008fd6       0x18 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .debug_line.text.infrared_encoder_sirc_free
+                0x00008fee       0x14 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .debug_line.text.infrared_encoder_sirc_encode
+                0x00009002       0x67 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .debug_line_end
+                0x00009069        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .debug_line    0x00009069      0x26b build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ .debug_line.text.infrared_protocol_sirc_get_variant
+                0x000092d4       0x2f build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ .debug_line_end
+                0x00009303        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ .debug_line    0x00009303      0x2a9 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_line.text.consume_samples
+                0x000095ac       0x55 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_line.text.accumulate_lsb
+                0x00009601       0x54 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_line.text.infrared_common_decoder_reset_state
+                0x00009655       0x65 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_line.text.infrared_common_decode_pdwm
+                0x000096ba       0xcf build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_line.text.infrared_common_decode_manchester
+                0x00009789      0x10b build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_line.text.infrared_common_decoder_check_ready
+                0x00009894       0x7d build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_line.text.infrared_common_decoder_alloc
+                0x00009911       0x5b build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_line.text.infrared_common_decoder_free
+                0x0000996c       0x19 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_line.text.infrared_common_decoder_reset
+                0x00009985       0x29 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_line.text.infrared_common_decode
+                0x000099ae      0x2a2 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_line_end
+                0x00009c50        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_line    0x00009c50      0x2ae build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+ .debug_line.text.infrared_common_encode_manchester
+                0x00009efe       0x90 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+ .debug_line.text.infrared_common_encode_pdwm
+                0x00009f8e       0xe8 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+ .debug_line.text.infrared_common_encode
+                0x0000a076      0x13f build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+ .debug_line.text.infrared_common_encoder_alloc
+                0x0000a1b5       0x50 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+ .debug_line.text.infrared_common_encoder_free
+                0x0000a205       0x19 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+ .debug_line.text.infrared_common_encoder_reset
+                0x0000a21e       0x90 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+ .debug_line_end
+                0x0000a2ae        0x0 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+
+.debug_frame    0x00000000     0x17c8
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x250 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_frame   0x00000250      0x224 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_frame   0x00000474      0x264 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_frame   0x000006d8      0x224 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_frame   0x000008fc       0xb0 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .debug_frame   0x000009ac      0x2fc build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_frame   0x00000ca8       0x7c build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .debug_frame   0x00000d24       0x5c build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+ .debug_frame   0x00000d80       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+ .debug_frame   0x00000da0       0x94 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .debug_frame   0x00000e34       0x78 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .debug_frame   0x00000eac       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .debug_frame   0x00000ecc       0x70 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .debug_frame   0x00000f3c       0x74 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .debug_frame   0x00000fb0       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+ .debug_frame   0x00000fd0       0xb0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .debug_frame   0x00001080       0x90 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .debug_frame   0x00001110       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+ .debug_frame   0x00001130       0xe0 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .debug_frame   0x00001210       0xa8 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .debug_frame   0x000012b8       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+ .debug_frame   0x000012d8       0x70 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .debug_frame   0x00001348       0x5c build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+ .debug_frame   0x000013a4       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+ .debug_frame   0x000013c4       0x8c build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .debug_frame   0x00001450       0x78 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .debug_frame   0x000014c8       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+ .debug_frame   0x000014e8       0x70 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .debug_frame   0x00001558       0x74 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .debug_frame   0x000015cc       0x20 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ .debug_frame   0x000015ec      0x120 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_frame   0x0000170c       0xbc build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+
+.debug_str      0x00000000    0x16464
+ *(.debug_str)
+ .debug_str     0x00000000     0x2093 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_str     0x00002093     0x11ca build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_str     0x0000325d     0x184b build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_str     0x00004aa8      0xe6a build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_str     0x00005912      0x7b7 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .debug_str     0x000060c9     0x19cf build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_str     0x00007a98      0x951 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .debug_str     0x000083e9      0x8c0 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+ .debug_str     0x00008ca9      0x891 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+ .debug_str     0x0000953a      0x95c build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .debug_str     0x00009e96      0x91e build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .debug_str     0x0000a7b4      0x91d build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .debug_str     0x0000b0d1      0x941 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .debug_str     0x0000ba12      0x8dd build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .debug_str     0x0000c2ef      0x8b2 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+ .debug_str     0x0000cba1      0x968 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .debug_str     0x0000d509      0x8b6 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .debug_str     0x0000ddbf      0x89e build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+ .debug_str     0x0000e65d      0x9ec build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .debug_str     0x0000f049      0x90f build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .debug_str     0x0000f958      0x889 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+ .debug_str     0x000101e1      0x91f build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .debug_str     0x00010b00      0x897 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+ .debug_str     0x00011397      0x873 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+ .debug_str     0x00011c0a      0x972 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .debug_str     0x0001257c      0x912 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .debug_str     0x00012e8e      0x8e5 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+ .debug_str     0x00013773      0x8d8 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .debug_str     0x0001404b      0x8c5 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .debug_str     0x00014910      0x8df build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ .debug_str     0x000151ef      0x990 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_str     0x00015b7f      0x8e5 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x7397
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000     0x1215 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_loclists
+                0x00001215      0x445 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_loclists
+                0x0000165a     0x1128 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_loclists
+                0x00002782      0x94c build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_loclists
+                0x000030ce      0x3d9 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .debug_loclists
+                0x000034a7      0xa53 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_loclists
+                0x00003efa      0x40c build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .debug_loclists
+                0x00004306      0x13a build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+ .debug_loclists
+                0x00004440       0x23 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+ .debug_loclists
+                0x00004463      0x35b build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .debug_loclists
+                0x000047be      0x1b5 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .debug_loclists
+                0x00004973       0x23 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .debug_loclists
+                0x00004996      0x213 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .debug_loclists
+                0x00004ba9      0x109 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .debug_loclists
+                0x00004cb2       0x23 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+ .debug_loclists
+                0x00004cd5      0x288 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .debug_loclists
+                0x00004f5d      0x172 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .debug_loclists
+                0x000050cf       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+ .debug_loclists
+                0x00005103      0x3aa build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .debug_loclists
+                0x000054ad      0x1db build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .debug_loclists
+                0x00005688       0x23 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+ .debug_loclists
+                0x000056ab      0x2a6 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .debug_loclists
+                0x00005951       0xe2 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+ .debug_loclists
+                0x00005a33       0x23 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+ .debug_loclists
+                0x00005a56      0x293 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .debug_loclists
+                0x00005ce9      0x1c4 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .debug_loclists
+                0x00005ead       0x23 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+ .debug_loclists
+                0x00005ed0      0x1a5 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .debug_loclists
+                0x00006075      0x109 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .debug_loclists
+                0x0000617e       0x45 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ .debug_loclists
+                0x000061c3      0x8c6 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_loclists
+                0x00006a89      0x90e build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0xe0d
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x350 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .debug_rnglists
+                0x00000350       0x8e build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .debug_rnglists
+                0x000003de      0x2c3 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .debug_rnglists
+                0x000006a1       0xda build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .debug_rnglists
+                0x0000077b       0x2c build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .debug_rnglists
+                0x000007a7      0x146 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .debug_rnglists
+                0x000008ed       0x31 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .debug_rnglists
+                0x0000091e       0x25 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+ .debug_rnglists
+                0x00000943       0x13 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+ .debug_rnglists
+                0x00000956       0x54 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .debug_rnglists
+                0x000009aa       0x38 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .debug_rnglists
+                0x000009e2       0x13 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .debug_rnglists
+                0x000009f5       0x3d build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .debug_rnglists
+                0x00000a32       0x2b build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .debug_rnglists
+                0x00000a5d       0x13 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+ .debug_rnglists
+                0x00000a70       0x5c build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .debug_rnglists
+                0x00000acc       0x3a build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .debug_rnglists
+                0x00000b06       0x13 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+ .debug_rnglists
+                0x00000b19       0x5f build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .debug_rnglists
+                0x00000b78       0x40 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .debug_rnglists
+                0x00000bb8       0x13 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+ .debug_rnglists
+                0x00000bcb       0x31 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .debug_rnglists
+                0x00000bfc       0x25 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+ .debug_rnglists
+                0x00000c21       0x13 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+ .debug_rnglists
+                0x00000c34       0x38 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .debug_rnglists
+                0x00000c6c       0x2b build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .debug_rnglists
+                0x00000c97       0x13 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+ .debug_rnglists
+                0x00000caa       0x31 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .debug_rnglists
+                0x00000cdb       0x2b build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .debug_rnglists
+                0x00000d06       0x13 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ .debug_rnglists
+                0x00000d19       0xad build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .debug_rnglists
+                0x00000dc6       0x47 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/cli_ir/infrared_cli.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared.o)
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_brute_force.o)
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_signal.o)
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_transmit.o)
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_worker.o)
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_kaseikyo.o)
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_kaseikyo.o)
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_kaseikyo.o)
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_nec.o)
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_nec.o)
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_nec.o)
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_pioneer.o)
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_pioneer.o)
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_pioneer.o)
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc5.o)
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc5.o)
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc5.o)
+ .ARM.attributes
+                0x000003a8       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rc6.o)
+ .ARM.attributes
+                0x000003dc       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rc6.o)
+ .ARM.attributes
+                0x00000410       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rc6.o)
+ .ARM.attributes
+                0x00000444       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_rca.o)
+ .ARM.attributes
+                0x00000478       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_rca.o)
+ .ARM.attributes
+                0x000004ac       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_rca.o)
+ .ARM.attributes
+                0x000004e0       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_samsung.o)
+ .ARM.attributes
+                0x00000514       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_samsung.o)
+ .ARM.attributes
+                0x00000548       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_samsung.o)
+ .ARM.attributes
+                0x0000057c       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_decoder_sirc.o)
+ .ARM.attributes
+                0x000005b0       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_encoder_sirc.o)
+ .ARM.attributes
+                0x000005e4       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_protocol_sirc.o)
+ .ARM.attributes
+                0x00000618       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_common_decoder.o)
+ .ARM.attributes
+                0x0000064c       0x34 build/f7-firmware-C/lib/libinfrared.a(infrared_common_encoder.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/cli_ir_d.elf elf32-littlearm)
+LOAD linker stubs

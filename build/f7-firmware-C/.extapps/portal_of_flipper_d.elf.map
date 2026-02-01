@@ -1,0 +1,1366 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fmin.o)
+                              build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o (fminf)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_tanh.o)
+                              build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o (tanhf)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_expm1.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_tanh.o) (expm1f)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fpclassify.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fmin.o) (__fpclassifyf)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_tanh.o) (fabsf)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_expm1.o) (__math_oflowf)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+                              build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o (__aeabi_ldivmod)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                              build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o (__aeabi_uldivmod)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o) (__udivmoddi4)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o) (__aeabi_ldiv0)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .text.quantize
+                0x00000000       0x60 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .text.g721_encoder
+                0x00000000       0xb4 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .data.qtab_721
+                0x00000000        0xe build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_line.text.quantize
+                0x00000000       0x92 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_line.text.g721_encoder
+                0x00000000       0xb2 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .bss.serial    0x00000000        0xc build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .text.feistel  0x00000000        0xe build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .debug_line.text.feistel
+                0x00000000       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .text.virtual_portal_set_leds
+                0x00000000       0x24 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_set_leds
+                0x00000000       0x33 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_icons.o
+ .debug_info    0x00000000       0x7a build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_icons.o
+ .debug_abbrev  0x00000000       0x26 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_icons.o
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_icons.o
+ .debug_line    0x00000000       0x69 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_icons.o
+ .debug_str     0x00000000      0x20f build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_icons.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_icons.o
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fmin.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fmin.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fmin.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_tanh.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_tanh.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_tanh.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_expm1.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_expm1.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_expm1.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fpclassify.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fpclassify.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fpclassify.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+ .text.__math_uflowf
+                0x00000000        0xc /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+ .text.__math_divzerof
+                0x00000000       0x24 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+ .text.__math_invalidf
+                0x00000000       0x1e /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+ .text          0x00000000       0xa0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .debug_line_str
+                0x00000000       0xa3 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+LOAD build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+LOAD build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+LOAD build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+LOAD build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene.o
+LOAD build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+LOAD build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+LOAD build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+LOAD build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+LOAD build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+LOAD build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+LOAD build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+LOAD build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+LOAD build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+LOAD build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+LOAD build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+LOAD build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+LOAD build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x3c08
+ *(.text)
+ .text          0x00000000       0x30 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x00000000                __aeabi_uldivmod
+ .text          0x00000030      0x2bc /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x00000030                __udivmoddi4
+ .text          0x000002ec        0x4 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                0x000002ec                __aeabi_ldiv0
+                0x000002ec                __aeabi_idiv0
+ *(.stub)
+ *(.text*)
+ .text.quan     0x000002f0       0x18 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .text.fmult    0x00000308       0x80 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .text.update   0x00000388      0x2ac build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+                0x00000388                update
+ .text.g72x_init_state
+                0x00000634       0x2c build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+                0x00000634                g72x_init_state
+ .text.predictor_zero
+                0x00000660       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+                0x00000660                predictor_zero
+ .text.predictor_pole
+                0x00000694       0x28 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+                0x00000694                predictor_pole
+ .text.step_size
+                0x000006bc       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+                0x000006bc                step_size
+ .text.reconstruct
+                0x000006f0       0x3c build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+                0x000006f0                reconstruct
+ .text.g721_decoder
+                0x0000072c       0xa4 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+                0x0000072c                g721_decoder
+ .text.wav_player_speaker_init
+                0x000007d0       0xb0 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+                0x000007d0                wav_player_speaker_init
+ .text.wav_player_hal_deinit
+                0x00000880       0x24 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+                0x00000880                wav_player_hal_deinit
+ .text.wav_player_speaker_start
+                0x000008a4       0x2c build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+                0x000008a4                wav_player_speaker_start
+ .text.wav_player_speaker_stop
+                0x000008d0       0x2c build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+                0x000008d0                wav_player_speaker_stop
+ .text.wav_player_dma_init
+                0x000008fc       0x80 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+                0x000008fc                wav_player_dma_init
+ .text.wav_player_dma_start
+                0x0000097c       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+                0x0000097c                wav_player_dma_start
+ .text.wav_player_dma_stop
+                0x00000998       0x10 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+                0x00000998                wav_player_dma_stop
+ .text.pof_usb_wakeup
+                0x000009a8        0x2 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ *fill*         0x000009aa        0x2 
+ .text.pof_usb_rx_ep_callback
+                0x000009ac       0x24 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .text.pof_usb_tx_ep_callback
+                0x000009d0       0x24 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .text.pof_usb_deinit
+                0x000009f4       0x5c build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .text.pof_hid_control
+                0x00000a50       0xc4 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .text.pof_usb_send.constprop.0
+                0x00000b14        0xa build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ *fill*         0x00000b1e        0x2 
+ .text.pof_thread_worker
+                0x00000b20      0x180 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .text.pof_usb_init
+                0x00000ca0       0x78 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .text.pof_usb_suspend
+                0x00000d18        0x2 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ *fill*         0x00000d1a        0x2 
+ .text.pof_usb_ep_config
+                0x00000d1c       0x54 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .text.pof_usb_start
+                0x00000d70       0xb4 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+                0x00000d70                pof_usb_start
+ .text.pof_usb_stop
+                0x00000e24       0x10 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+                0x00000e24                pof_usb_stop
+ .text.usbd_ep_deconfig
+                0x00000e34        0x8 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .text.pof_usb_wakeup
+                0x00000e3c        0x2 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ *fill*         0x00000e3e        0x2 
+ .text.pof_usb_rx_ep_callback
+                0x00000e40       0x24 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .text.pof_usb_tx_ep_callback
+                0x00000e64       0x24 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .text.pof_usb_deinit
+                0x00000e88       0x5c build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .text.pof_hid_control
+                0x00000ee4      0x128 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .text.usbd_ep_config.constprop.0.isra.0
+                0x0000100c        0xe build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ *fill*         0x0000101a        0x2 
+ .text.pof_usb_ep_config
+                0x0000101c       0x90 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .text.pof_usb_send.constprop.0
+                0x000010ac        0xa build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ *fill*         0x000010b6        0x2 
+ .text.pof_thread_worker
+                0x000010b8      0x1a8 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .text.pof_usb_init
+                0x00001260       0x78 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .text.pof_usb_suspend
+                0x000012d8        0x2 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ *fill*         0x000012da        0x2 
+ .text.pof_usb_start_xbox360
+                0x000012dc       0xb4 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+                0x000012dc                pof_usb_start_xbox360
+ .text.pof_usb_stop_xbox360
+                0x00001390       0x10 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+                0x00001390                pof_usb_stop_xbox360
+ .text.pof_scene_file_select_on_enter
+                0x000013a0       0x70 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+                0x000013a0                pof_scene_file_select_on_enter
+ .text.pof_scene_file_select_on_event
+                0x00001410        0xe build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+                0x00001410                pof_scene_file_select_on_event
+ .text.pof_scene_file_select_on_exit
+                0x0000141e        0x2 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+                0x0000141e                pof_scene_file_select_on_exit
+ .text.pof_scene_main_submenu_callback
+                0x00001420        0xc build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+                0x00001420                pof_scene_main_submenu_callback
+ .text.pof_scene_main_on_update
+                0x0000142c       0xf0 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+                0x0000142c                pof_scene_main_on_update
+ .text.pof_scene_main_on_enter
+                0x0000151c        0x8 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+                0x0000151c                pof_scene_main_on_enter
+ .text.pof_scene_main_on_event
+                0x00001524       0x74 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+                0x00001524                pof_scene_main_on_event
+ .text.pof_scene_main_on_exit
+                0x00001598        0xc build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+                0x00001598                pof_scene_main_on_exit
+ .text.pof_scene_type_select_submenu_callback
+                0x000015a4        0xc build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+                0x000015a4                pof_scene_type_select_submenu_callback
+ .text.pof_scene_type_select_on_enter
+                0x000015b0       0x50 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+                0x000015b0                pof_scene_type_select_on_enter
+ .text.pof_scene_type_select_on_event
+                0x00001600       0x5c build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+                0x00001600                pof_scene_type_select_on_event
+ .text.pof_scene_type_select_on_exit
+                0x0000165c        0xc build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+                0x0000165c                pof_scene_type_select_on_exit
+ .text.ExCryptDesParity
+                0x00001668       0x2a build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+                0x00001668                ExCryptDesParity
+ *fill*         0x00001692        0x2 
+ .text.ExCryptDesKey
+                0x00001694       0xec build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+                0x00001694                ExCryptDesKey
+ .text.f        0x00001780      0x11c build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+                0x00001780                f
+ .text.ExCryptDesEcb
+                0x0000189c       0xec build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+                0x0000189c                ExCryptDesEcb
+ .text.ExCryptDes3Key
+                0x00001988       0x28 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+                0x00001988                ExCryptDes3Key
+ .text.ExCryptDes3Ecb
+                0x000019b0       0x50 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+                0x000019b0                ExCryptDes3Ecb
+ .text.ExCryptDes3Cbc
+                0x00001a00       0x78 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+                0x00001a00                ExCryptDes3Cbc
+ .text.ExCryptParveEcb
+                0x00001a78       0x5c build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+                0x00001a78                ExCryptParveEcb
+ .text.ExCryptParveCbcMac
+                0x00001ad4       0x5c build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+                0x00001ad4                ExCryptParveCbcMac
+ .text.ExCryptChainAndSumMac
+                0x00001b30      0x158 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+                0x00001b30                ExCryptChainAndSumMac
+ .text.sha1_process_block
+                0x00001c88       0xfc build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+                0x00001c88                sha1_process_block
+ .text.sha1_process_byte
+                0x00001d84       0x28 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+                0x00001d84                sha1_process_byte
+ .text.ExCryptShaInit
+                0x00001dac       0x30 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+                0x00001dac                ExCryptShaInit
+ .text.ExCryptShaUpdate
+                0x00001ddc       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+                0x00001ddc                ExCryptShaUpdate
+ .text.ExCryptShaFinal
+                0x00001df8       0xb8 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+                0x00001df8                ExCryptShaFinal
+ .text.ExCryptSha
+                0x00001eb0       0x60 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+                0x00001eb0                ExCryptSha
+ .text.UsbdSecXSM3AuthenticationCrypt
+                0x00001f10       0x50 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+                0x00001f10                UsbdSecXSM3AuthenticationCrypt
+ .text.UsbdSecXSM3AuthenticationMac
+                0x00001f60       0xc4 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+                0x00001f60                UsbdSecXSM3AuthenticationMac
+ .text.UsbdSecXSMAuthenticationAcr
+                0x00002024       0x80 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+                0x00002024                UsbdSecXSMAuthenticationAcr
+ .text.xsm3_calculate_checksum
+                0x000020a4       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .text.xsm3_verify_checksum
+                0x000020c0       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .text.xsm3_initialise_state
+                0x000020dc       0xa4 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+                0x000020dc                xsm3_initialise_state
+ .text.xsm3_set_vid_pid
+                0x00002180       0x28 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+                0x00002180                xsm3_set_vid_pid
+ .text.xsm3_set_identification_data
+                0x000021a8       0x58 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+                0x000021a8                xsm3_set_identification_data
+ .text.xsm3_generate_kv_keys
+                0x00002200       0x54 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+                0x00002200                xsm3_generate_kv_keys
+ .text.xsm3_do_challenge_init
+                0x00002254      0x1f8 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+                0x00002254                xsm3_do_challenge_init
+ .text.xsm3_do_challenge_verify
+                0x0000244c      0x108 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+                0x0000244c                xsm3_do_challenge_verify
+ .text.pof_token_alloc
+                0x00002554       0x58 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+                0x00002554                pof_token_alloc
+ .text.pof_token_set_name
+                0x000025ac        0xc build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+                0x000025ac                pof_token_set_name
+ .text.pof_token_clear
+                0x000025b8       0x54 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+                0x000025b8                pof_token_clear
+ .text.pof_token_free
+                0x0000260c       0x48 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+                0x0000260c                pof_token_free
+ .text.pof_file_select
+                0x00002654      0x1a0 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+                0x00002654                pof_file_select
+ .text.pof_token_set_loading_callback
+                0x000027f4        0x6 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+                0x000027f4                pof_token_set_loading_callback
+ *fill*         0x000027fa        0x2 
+ .text.pof_app_tick_event_callback
+                0x000027fc        0xc build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .text.pof_app_back_event_callback
+                0x00002808        0xc build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .text.pof_app_custom_event_callback
+                0x00002814        0xc build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .text.pof_show_loading_popup
+                0x00002820       0x28 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+                0x00002820                pof_show_loading_popup
+ .text.pof_app_alloc
+                0x00002848      0x124 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+                0x00002848                pof_app_alloc
+ .text.pof_app_free
+                0x0000296c       0xa4 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+                0x0000296c                pof_app_free
+ .text.portal_of_flipper_app
+                0x00002a10       0x24 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+                0x00002a10                portal_of_flipper_app
+ .text.pof_start
+                0x00002a34       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+                0x00002a34                pof_start
+ .text.pof_stop
+                0x00002a68       0x38 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+                0x00002a68                pof_stop
+ .text.virtual_portal_tick
+                0x00002aa0      0x210 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x00002aa0                virtual_portal_tick
+ .text.wav_player_dma_isr
+                0x00002cb0       0x9c build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .text.queue_led_command
+                0x00002d4c       0xc0 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x00002d4c                queue_led_command
+ .text.virtual_portal_alloc
+                0x00002e0c       0xe4 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x00002e0c                virtual_portal_alloc
+ .text.virtual_portal_set_type
+                0x00002ef0        0xa build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x00002ef0                virtual_portal_set_type
+ *fill*         0x00002efa        0x2 
+ .text.virtual_portal_cleanup
+                0x00002efc       0x2c build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x00002efc                virtual_portal_cleanup
+ .text.virtual_portal_free
+                0x00002f28       0x84 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x00002f28                virtual_portal_free
+ .text.virtual_portal_set_backlight
+                0x00002fac        0xc build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x00002fac                virtual_portal_set_backlight
+ .text.virtual_portal_load_token
+                0x00002fb8      0x130 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x00002fb8                virtual_portal_load_token
+ .text.virtual_portal_next_sequence
+                0x000030e8       0x1c build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x000030e8                virtual_portal_next_sequence
+ .text.virtual_portal_activate
+                0x00003104       0x44 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x00003104                virtual_portal_activate
+ .text.virtual_portal_reset
+                0x00003148       0x50 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x00003148                virtual_portal_reset
+ .text.virtual_portal_status
+                0x00003198       0xe0 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x00003198                virtual_portal_status
+ .text.virtual_portal_send_status
+                0x00003278       0x18 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x00003278                virtual_portal_send_status
+ .text.virtual_portal_m
+                0x00003290       0x68 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x00003290                virtual_portal_m
+ .text.virtual_portal_l
+                0x000032f8       0x3c build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x000032f8                virtual_portal_l
+ .text.virtual_portal_j
+                0x00003334       0x28 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x00003334                virtual_portal_j
+ .text.virtual_portal_query
+                0x0000335c       0x8c build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x0000335c                virtual_portal_query
+ .text.virtual_portal_write
+                0x000033e8       0xf4 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x000033e8                virtual_portal_write
+ .text.virtual_portal_process_audio
+                0x000034dc       0xc4 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x000034dc                virtual_portal_process_audio
+ .text.virtual_portal_process_audio_360
+                0x000035a0      0x15c build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x000035a0                virtual_portal_process_audio_360
+ .text.virtual_portal_process_message
+                0x000036fc      0x11c build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x000036fc                virtual_portal_process_message
+ .text.fminf    0x00003818       0x3a /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fmin.o)
+                0x00003818                fminf
+ *fill*         0x00003852        0x2 
+ .text.tanhf    0x00003854       0xd4 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_tanh.o)
+                0x00003854                tanhf
+ .text.expm1f   0x00003928      0x25c /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_expm1.o)
+                0x00003928                expm1f
+ .text.__fpclassifyf
+                0x00003b84       0x38 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fpclassify.o)
+                0x00003b84                __fpclassifyf
+ .text.fabsf    0x00003bbc        0xe /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+                0x00003bbc                fabsf
+ .text.with_errnof
+                0x00003bca       0x1c /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+ .text.xflowf   0x00003be6       0x16 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+ .text.__math_oflowf
+                0x00003bfc        0xc /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+                0x00003bfc                __math_oflowf
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00003c08      0x990
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata._fitab
+                0x00003c08       0x20 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .rodata._witab
+                0x00003c28       0x20 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .rodata._dqlntab
+                0x00003c48       0x20 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .rodata.pof_thread_worker.str1.1
+                0x00003c68        0xd build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .rodata.pof_usb_init.str1.1
+                0x00003c75        0x7 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .rodata.pof_usb_start.str1.1
+                0x00003c7c       0x1a build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .rodata.usb_pof_cfg_descr
+                0x00003c96       0x29 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .rodata.usb_pof_dev_descr
+                0x00003cbf       0x12 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .rodata.hid_report_desc
+                0x00003cd1       0x1d build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .rodata.dev_product_desc
+                0x00003cee       0x1a build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .rodata.dev_manuf_desc
+                0x00003d08       0x18 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .rodata.pof_thread_worker.str1.1
+                0x00003d20       0x15 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .rodata.pof_usb_init.str1.1
+                0x00003d35        0x7 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .rodata.pof_usb_start_xbox360.str1.1
+                0x00003d3c       0x1a build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .rodata.usb_pof_cfg_descr_x360
+                0x00003d56       0x99 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .rodata.XInputInputCapabilities
+                0x00003def       0x14 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .rodata.XInputVibrationCapabilities
+                0x00003e03        0x8 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .rodata.xbox_serial
+                0x00003e0b        0x4 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .rodata.usb_pof_dev_descr_xbox_360
+                0x00003e0f       0x12 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ *fill*         0x00003e21        0x1 
+ .rodata.dev_security_desc
+                0x00003e22       0xb2 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .rodata.dev_product_desc
+                0x00003ed4       0x1a build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .rodata.dev_manuf_desc
+                0x00003eee       0x18 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ *fill*         0x00003f06        0x2 
+ .rodata.pof_scene_handlers
+                0x00003f08       0x10 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene.o
+                0x00003f08                pof_scene_handlers
+ .rodata.pof_scene_on_exit_handlers
+                0x00003f18        0xc build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene.o
+                0x00003f18                pof_scene_on_exit_handlers
+ .rodata.pof_scene_on_event_handlers
+                0x00003f24        0xc build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene.o
+                0x00003f24                pof_scene_on_event_handlers
+ .rodata.pof_scene_on_enter_handlers
+                0x00003f30        0xc build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene.o
+                0x00003f30                pof_scene_on_enter_handlers
+ .rodata.pof_scene_main_on_update.str1.1
+                0x00003f3c       0x25 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .rodata.pof_scene_type_select_on_enter.str1.1
+                0x00003f61       0x1d build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .rodata.ITERATION_SHIFT
+                0x00003f7e       0x10 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .rodata.PC2    0x00003f8e       0x30 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .rodata.PC1    0x00003fbe       0x38 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .rodata.PBOX   0x00003ff6       0x20 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .rodata.SBOX   0x00004016      0x200 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .rodata.EXPANSION
+                0x00004216       0x30 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .rodata.FP     0x00004246       0x40 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .rodata.IP     0x00004286       0x40 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .rodata.xsm3_set_identification_data.str1.1
+                0x000042c6       0x36 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .rodata.xsm3_do_challenge_init.str1.1
+                0x000042fc       0x63 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .rodata.xsm3_do_challenge_verify.str1.1
+                0x0000435f       0x67 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .rodata.xsm3_root_key_0x24
+                0x000043c6       0x10 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .rodata.xsm3_root_key_0x23
+                0x000043d6       0x10 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .rodata.xsm3_key_0x1E
+                0x000043e6       0x10 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .rodata.xsm3_key_0x1D
+                0x000043f6       0x10 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .rodata.pof_token_alloc.str1.1
+                0x00004406       0x10 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .rodata.pof_file_select.str1.1
+                0x00004416       0x62 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .rodata.pof_app_alloc.str1.1
+                0x00004478       0x11 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .rodata.virtual_portal_load_token.str1.1
+                0x00004489       0xa6 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .rodata.virtual_portal_activate.str1.1
+                0x0000452f        0xb build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .rodata.virtual_portal_status.str1.1
+                0x0000453a        0xc build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .rodata.virtual_portal_query.str1.1
+                0x00004546        0xc build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .rodata.virtual_portal_write.str1.1
+                0x00004552        0xf build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .rodata.virtual_portal_process_message.str1.1
+                0x00004561       0x15 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ *fill*         0x00004576        0x2 
+ .rodata.sequence_set_leds
+                0x00004578       0x14 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x00004578                sequence_set_leds
+ .rodata.sequence_set_backlight
+                0x0000458c        0xc build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+                0x0000458c                sequence_set_backlight
+
+.ARM.exidx      0x00000000        0x8
+ .ARM.exidx     0x00000000        0x8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+
+.data           0x00000008      0x1d0
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.power2   0x00000008       0x1e build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .data.state    0x00000026        0x2 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+                0x00000026                state
+ .data.UsbdSecPlainTextData
+                0x00000028       0x80 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .data.UsbdSecSboxData
+                0x000000a8      0x100 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .data.xsm3_id_data_ms_controller
+                0x000001a8       0x1d build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+                0x000001a8                xsm3_id_data_ms_controller
+ .data.pof_token_sector_0_key
+                0x000001c5        0x6 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ *fill*         0x000001cb        0x1 
+ .data.tiny     0x000001cc        0x4 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_tanh.o)
+ .data.two      0x000001d0        0x4 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_tanh.o)
+ .data.one      0x000001d4        0x4 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_tanh.o)
+
+.bss            0x000001d8      0x114
+ *(.bss)
+ *(.bss*)
+ .bss.pof_cur   0x000001d8        0x4 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .bss.pof_cur   0x000001dc        0x4 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .bss.xsm3_challenge_init_hash
+                0x000001e0       0x14 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .bss.xsm3_random_controller_data
+                0x000001f4       0x10 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .bss.xsm3_random_console_data_swap_enc
+                0x00000204       0x10 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .bss.xsm3_random_console_data_swap
+                0x00000214       0x10 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .bss.xsm3_random_console_data_enc
+                0x00000224       0x10 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .bss.xsm3_random_console_data
+                0x00000234       0x10 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .bss.xsm3_identification_data
+                0x00000244       0x20 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .bss.xsm3_decryption_buffer
+                0x00000264       0x30 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .bss.xsm3_kv_2des_key_2
+                0x00000294       0x10 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .bss.xsm3_kv_2des_key_1
+                0x000002a4       0x10 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .bss.xsm3_console_id
+                0x000002b4        0x8 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+                0x000002b4                xsm3_console_id
+ .bss.xsm3_challenge_response
+                0x000002bc       0x30 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+                0x000002bc                xsm3_challenge_response
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x568
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x70 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_aranges
+                0x00000070       0x50 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .debug_aranges
+                0x000000c0       0x78 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_aranges
+                0x00000138       0x88 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_aranges
+                0x000001c0       0x18 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene.o
+ .debug_aranges
+                0x000001d8       0x30 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+ .debug_aranges
+                0x00000208       0x40 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .debug_aranges
+                0x00000248       0x38 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .debug_aranges
+                0x00000280       0x58 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .debug_aranges
+                0x000002d8       0x30 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+ .debug_aranges
+                0x00000308       0x48 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .debug_aranges
+                0x00000350       0x30 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .debug_aranges
+                0x00000380       0x58 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .debug_aranges
+                0x000003d8       0x48 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .debug_aranges
+                0x00000420       0x50 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .debug_aranges
+                0x00000470       0x28 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+ .debug_aranges
+                0x00000498       0xd0 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x131af
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xb97 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_info    0x00000b97     0x150d build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .debug_info    0x000020a4     0x228f build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_info    0x00004333     0x27d9 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_info    0x00006b0c      0x532 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene.o
+ .debug_info    0x0000703e     0x123a build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+ .debug_info    0x00008278     0x15cb build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .debug_info    0x00009843     0x134b build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .debug_info    0x0000ab8e      0x9a4 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .debug_info    0x0000b532      0x3c3 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+ .debug_info    0x0000b8f5      0x663 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .debug_info    0x0000bf58      0x720 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .debug_info    0x0000c678      0xc34 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .debug_info    0x0000d2ac      0xe7f build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .debug_info    0x0000e12b     0x1974 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .debug_info    0x0000fa9f     0x106e build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+ .debug_info    0x00010b0d     0x26a2 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+
+.debug_abbrev   0x00000000     0x3146
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x220 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_abbrev  0x00000220      0x265 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .debug_abbrev  0x00000485      0x591 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_abbrev  0x00000a16      0x62e build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_abbrev  0x00001044      0x15a build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene.o
+ .debug_abbrev  0x0000119e      0x2cd build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+ .debug_abbrev  0x0000146b      0x31f build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .debug_abbrev  0x0000178a      0x2ae build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .debug_abbrev  0x00001a38      0x25c build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .debug_abbrev  0x00001c94      0x156 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+ .debug_abbrev  0x00001dea      0x19e build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .debug_abbrev  0x00001f88      0x1ae build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .debug_abbrev  0x00002136      0x1bd build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .debug_abbrev  0x000022f3      0x2f4 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .debug_abbrev  0x000025e7      0x340 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .debug_abbrev  0x00002927      0x251 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+ .debug_abbrev  0x00002b78      0x5ce build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+
+.debug_line     0x00000000     0x7d13
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x6d build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_line.text.quan
+                0x0000006d       0x43 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_line.text.fmult
+                0x000000b0      0x145 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_line.text.update
+                0x000001f5      0x389 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_line.text.g72x_init_state
+                0x0000057e       0x9d build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_line.text.predictor_zero
+                0x0000061b       0x68 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_line.text.predictor_pole
+                0x00000683       0x23 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_line.text.step_size
+                0x000006a6       0x73 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_line.text.reconstruct
+                0x00000719       0x69 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_line.text.g721_decoder
+                0x00000782       0xb2 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_line_end
+                0x00000834        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_line    0x00000834      0x2f1 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .debug_line.text.wav_player_speaker_init
+                0x00000b25       0xa0 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .debug_line.text.wav_player_hal_deinit
+                0x00000bc5       0x24 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .debug_line.text.wav_player_speaker_start
+                0x00000be9       0x6c build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .debug_line.text.wav_player_speaker_stop
+                0x00000c55       0x6c build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .debug_line.text.wav_player_dma_init
+                0x00000cc1      0x123 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .debug_line.text.wav_player_dma_start
+                0x00000de4       0x40 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .debug_line.text.wav_player_dma_stop
+                0x00000e24       0x2a build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .debug_line_end
+                0x00000e4e        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .debug_line    0x00000e4e      0x482 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_line.text.pof_usb_wakeup
+                0x000012d0       0x19 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_line.text.pof_usb_rx_ep_callback
+                0x000012e9       0x2a build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_line.text.pof_usb_tx_ep_callback
+                0x00001313       0x2a build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_line.text.pof_usb_deinit
+                0x0000133d       0x8e build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_line.text.pof_hid_control
+                0x000013cb       0xea build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_line.text.pof_usb_send.constprop.0
+                0x000014b5       0x29 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_line.text.pof_thread_worker
+                0x000014de      0x1c2 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_line.text.pof_usb_init
+                0x000016a0       0xa2 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_line.text.pof_usb_suspend
+                0x00001742       0x12 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_line.text.pof_usb_ep_config
+                0x00001754       0xf1 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_line.text.pof_usb_start
+                0x00001845       0xa9 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_line.text.pof_usb_stop
+                0x000018ee       0x22 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_line_end
+                0x00001910        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_line    0x00001910      0x4c9 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_line.text.usbd_ep_deconfig
+                0x00001dd9       0x1e build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_line.text.pof_usb_wakeup
+                0x00001df7       0x19 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_line.text.pof_usb_rx_ep_callback
+                0x00001e10       0x2a build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_line.text.pof_usb_tx_ep_callback
+                0x00001e3a       0x2a build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_line.text.pof_usb_deinit
+                0x00001e64       0x8e build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_line.text.pof_hid_control
+                0x00001ef2      0x153 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_line.text.usbd_ep_config.constprop.0.isra.0
+                0x00002045       0x28 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_line.text.pof_usb_ep_config
+                0x0000206d       0xde build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_line.text.pof_usb_send.constprop.0
+                0x0000214b       0x29 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_line.text.pof_thread_worker
+                0x00002174      0x1fd build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_line.text.pof_usb_init
+                0x00002371       0xa2 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_line.text.pof_usb_suspend
+                0x00002413       0x12 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_line.text.pof_usb_start_xbox360
+                0x00002425       0xa3 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_line.text.pof_usb_stop_xbox360
+                0x000024c8       0x22 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_line_end
+                0x000024ea        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_line    0x000024ea      0x27b build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene.o
+ .debug_line_end
+                0x00002765        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene.o
+ .debug_line    0x00002765      0x4c5 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+ .debug_line.text.pof_scene_file_select_on_enter
+                0x00002c2a       0x5c build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+ .debug_line.text.pof_scene_file_select_on_event
+                0x00002c86       0x24 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+ .debug_line.text.pof_scene_file_select_on_exit
+                0x00002caa       0x18 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+ .debug_line_end
+                0x00002cc2        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+ .debug_line    0x00002cc2      0x4be build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .debug_line.text.pof_scene_main_submenu_callback
+                0x00003180       0x16 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .debug_line.text.pof_scene_main_on_update
+                0x00003196       0x98 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .debug_line.text.pof_scene_main_on_enter
+                0x0000322e       0x16 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .debug_line.text.pof_scene_main_on_event
+                0x00003244       0x72 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .debug_line.text.pof_scene_main_on_exit
+                0x000032b6       0x18 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .debug_line_end
+                0x000032ce        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .debug_line    0x000032ce      0x4c5 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .debug_line.text.pof_scene_type_select_submenu_callback
+                0x00003793       0x18 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .debug_line.text.pof_scene_type_select_on_enter
+                0x000037ab       0x36 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .debug_line.text.pof_scene_type_select_on_event
+                0x000037e1       0x5d build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .debug_line.text.pof_scene_type_select_on_exit
+                0x0000383e       0x17 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .debug_line_end
+                0x00003855        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .debug_line    0x00003855      0x177 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .debug_line.text.ExCryptDesParity
+                0x000039cc       0x9c build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .debug_line.text.ExCryptDesKey
+                0x00003a68      0x1c0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .debug_line.text.f
+                0x00003c28      0x1f1 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .debug_line.text.ExCryptDesEcb
+                0x00003e19      0x1a6 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .debug_line.text.ExCryptDes3Key
+                0x00003fbf       0x2d build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .debug_line.text.ExCryptDes3Ecb
+                0x00003fec       0x3b build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .debug_line.text.ExCryptDes3Cbc
+                0x00004027       0xa7 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .debug_line_end
+                0x000040ce        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .debug_line    0x000040ce      0x241 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+ .debug_line.text.ExCryptParveEcb
+                0x0000430f       0xd2 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+ .debug_line.text.ExCryptParveCbcMac
+                0x000043e1       0x91 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+ .debug_line.text.ExCryptChainAndSumMac
+                0x00004472      0x170 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+ .debug_line_end
+                0x000045e2        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+ .debug_line    0x000045e2      0x250 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .debug_line.text.sha1_process_block
+                0x00004832      0x202 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .debug_line.text.sha1_process_byte
+                0x00004a34       0x46 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .debug_line.text.ExCryptShaInit
+                0x00004a7a       0x3c build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .debug_line.text.ExCryptShaUpdate
+                0x00004ab6       0x48 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .debug_line.text.ExCryptShaFinal
+                0x00004afe       0xb3 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .debug_line.text.ExCryptSha
+                0x00004bb1       0x65 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .debug_line_end
+                0x00004c16        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .debug_line    0x00004c16      0x25f build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .debug_line.text.UsbdSecXSM3AuthenticationCrypt
+                0x00004e75       0x55 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .debug_line.text.UsbdSecXSM3AuthenticationMac
+                0x00004eca       0xd0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .debug_line.text.UsbdSecXSMAuthenticationAcr
+                0x00004f9a       0x62 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .debug_line_end
+                0x00004ffc        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .debug_line    0x00004ffc      0x29c build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .debug_line.text.xsm3_calculate_checksum
+                0x00005298       0x6a build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .debug_line.text.xsm3_verify_checksum
+                0x00005302       0x2e build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .debug_line.text.xsm3_initialise_state
+                0x00005330       0x39 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .debug_line.text.xsm3_set_vid_pid
+                0x00005369       0x2d build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .debug_line.text.xsm3_set_identification_data
+                0x00005396       0x40 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .debug_line.text.xsm3_generate_kv_keys
+                0x000053d6       0x24 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .debug_line.text.xsm3_do_challenge_init
+                0x000053fa       0xdc build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .debug_line.text.xsm3_do_challenge_verify
+                0x000054d6       0x77 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .debug_line_end
+                0x0000554d        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .debug_line    0x0000554d      0x41a build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .debug_line.text.pof_token_alloc
+                0x00005967       0x74 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .debug_line.text.pof_token_set_name
+                0x000059db       0x1b build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .debug_line.text.pof_token_clear
+                0x000059f6       0x40 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .debug_line.text.pof_token_free
+                0x00005a36       0x35 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .debug_line.text.pof_file_select
+                0x00005a6b      0x1a3 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .debug_line.text.pof_token_set_loading_callback
+                0x00005c0e       0x20 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .debug_line_end
+                0x00005c2e        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .debug_line    0x00005c2e      0x55f build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .debug_line.text.pof_app_tick_event_callback
+                0x0000618d       0x1b build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .debug_line.text.pof_app_back_event_callback
+                0x000061a8       0x1e build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .debug_line.text.pof_app_custom_event_callback
+                0x000061c6       0x1d build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .debug_line.text.pof_show_loading_popup
+                0x000061e3       0x38 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .debug_line.text.pof_app_alloc
+                0x0000621b       0xb1 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .debug_line.text.pof_app_free
+                0x000062cc       0x4c build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .debug_line.text.portal_of_flipper_app
+                0x00006318       0x31 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .debug_line_end
+                0x00006349        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .debug_line    0x00006349      0x410 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+ .debug_line.text.pof_start
+                0x00006759       0x4c build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+ .debug_line.text.pof_stop
+                0x000067a5       0x41 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+ .debug_line_end
+                0x000067e6        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+ .debug_line    0x000067e6      0x58a build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_tick
+                0x00006d70      0x22d build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.wav_player_dma_isr
+                0x00006f9d      0x15e build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.queue_led_command
+                0x000070fb      0x16a build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_alloc
+                0x00007265       0xb7 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_set_type
+                0x0000731c       0x1d build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_cleanup
+                0x00007339       0x26 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_free
+                0x0000735f       0x72 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_set_backlight
+                0x000073d1       0x1d build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_load_token
+                0x000073ee      0x159 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_next_sequence
+                0x00007547       0x32 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_activate
+                0x00007579       0x5e build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_reset
+                0x000075d7       0x7c build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_status
+                0x00007653      0x125 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_send_status
+                0x00007778       0x28 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_m
+                0x000077a0       0x89 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_l
+                0x00007829       0x48 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_j
+                0x00007871       0x47 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_query
+                0x000078b8       0xa4 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_write
+                0x0000795c       0xb5 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_process_audio
+                0x00007a11       0xd8 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_process_audio_360
+                0x00007ae9      0x155 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line.text.virtual_portal_process_message
+                0x00007c3e       0xd5 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .debug_line_end
+                0x00007d13        0x0 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+
+.debug_frame    0x00000000      0xf9c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x154 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_frame   0x00000154       0xa4 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .debug_frame   0x000001f8      0x150 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_frame   0x00000348      0x17c build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_frame   0x000004c4       0x64 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+ .debug_frame   0x00000528       0xa0 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .debug_frame   0x000005c8       0x7c build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .debug_frame   0x00000644      0x140 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .debug_frame   0x00000784       0x88 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+ .debug_frame   0x0000080c       0xdc build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .debug_frame   0x000008e8       0x88 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .debug_frame   0x00000970      0x10c build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .debug_frame   0x00000a7c       0xbc build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .debug_frame   0x00000b38       0xbc build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .debug_frame   0x00000bf4       0x48 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+ .debug_frame   0x00000c3c      0x360 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+
+.debug_str      0x00000000     0xb73b
+ *(.debug_str)
+ .debug_str     0x00000000      0x348 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_str     0x00000348     0x1164 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .debug_str     0x000014ac     0x124e build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_str     0x000026fa     0x14f4 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_str     0x00003bee      0x642 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene.o
+ .debug_str     0x00004230      0xc0a build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+ .debug_str     0x00004e3a      0xd4a build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .debug_str     0x00005b84      0xc84 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .debug_str     0x00006808      0x3be build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .debug_str     0x00006bc6      0x2bd build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+ .debug_str     0x00006e83      0x35b build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .debug_str     0x000071de      0x3ec build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .debug_str     0x000075ca      0x5bb build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .debug_str     0x00007b85      0x969 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .debug_str     0x000084ee     0x10ea build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .debug_str     0x000095d8      0xa65 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+ .debug_str     0x0000a03d     0x16fe build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x14a
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa3 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line_str
+                0x000000a3       0xa7 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+
+.debug_loclists
+                0x00000000     0x5e04
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000     0x2132 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_loclists
+                0x00002132      0x2d4 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .debug_loclists
+                0x00002406      0x6c6 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_loclists
+                0x00002acc      0x7e3 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_loclists
+                0x000032af       0xb1 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+ .debug_loclists
+                0x00003360      0x271 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .debug_loclists
+                0x000035d1      0x152 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .debug_loclists
+                0x00003723      0x8be build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .debug_loclists
+                0x00003fe1      0x35f build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+ .debug_loclists
+                0x00004340      0x37e build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .debug_loclists
+                0x000046be      0x1f9 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .debug_loclists
+                0x000048b7      0x1d8 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .debug_loclists
+                0x00004a8f      0x1c8 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .debug_loclists
+                0x00004c57      0x1a2 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .debug_loclists
+                0x00004df9       0x59 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+ .debug_loclists
+                0x00004e52      0xfb2 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x758
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x53 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .debug_rnglists
+                0x00000053       0x39 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .debug_rnglists
+                0x0000008c       0x8b build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .debug_rnglists
+                0x00000117       0xc3 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .debug_rnglists
+                0x000001da       0x1f build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+ .debug_rnglists
+                0x000001f9       0x44 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .debug_rnglists
+                0x0000023d       0x25 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .debug_rnglists
+                0x00000262      0x11a build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .debug_rnglists
+                0x0000037c       0x4f build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+ .debug_rnglists
+                0x000003cb       0x71 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .debug_rnglists
+                0x0000043c       0x21 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .debug_rnglists
+                0x0000045d       0x40 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .debug_rnglists
+                0x0000049d       0x5e build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .debug_rnglists
+                0x000004fb       0x39 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .debug_rnglists
+                0x00000534       0x19 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+ .debug_rnglists
+                0x0000054d      0x20b build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/audio/g721.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/audio/wav_player_hal.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/helpers/pof_usb_xbox360.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_file_select.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_main.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/scenes/pof_scene_type_select.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_des.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_parve.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/excrypt_sha.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/usbdsec.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/xsm3/xsm3.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/pof_token.o
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper.o
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_i.o
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/virtual_portal.o
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/.extapps/portal_of_flipper/portal_of_flipper_icons.o
+ .ARM.attributes
+                0x000003a8       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fmin.o)
+ .ARM.attributes
+                0x000003dc       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_tanh.o)
+ .ARM.attributes
+                0x00000410       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_expm1.o)
+ .ARM.attributes
+                0x00000444       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fpclassify.o)
+ .ARM.attributes
+                0x00000478       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .ARM.attributes
+                0x000004ac       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+ .ARM.attributes
+                0x000004e0       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .ARM.attributes
+                0x00000502       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000524       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x00000558       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/portal_of_flipper_d.elf elf32-littlearm)
+LOAD linker stubs

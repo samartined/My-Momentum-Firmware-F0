@@ -1,0 +1,522 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+                              build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o (__aeabi_dcmpeq)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+                              build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o (__aeabi_d2iz)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .text.strnlen  0x00000000       0x12 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .debug_line.text.strnlen
+                0x00000000       0x33 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+LOAD build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xa78
+ *(.text)
+ .text          0x00000000      0x110 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+                0x00000000                __gtdf2
+                0x00000000                __gedf2
+                0x00000008                __ltdf2
+                0x00000008                __ledf2
+                0x00000010                __cmpdf2
+                0x00000010                __eqdf2
+                0x00000010                __nedf2
+                0x0000008c                __aeabi_cdrcmple
+                0x0000009c                __aeabi_cdcmple
+                0x0000009c                __aeabi_cdcmpeq
+                0x000000ac                __aeabi_dcmpeq
+                0x000000c0                __aeabi_dcmplt
+                0x000000d4                __aeabi_dcmple
+                0x000000e8                __aeabi_dcmpge
+                0x000000fc                __aeabi_dcmpgt
+ .text          0x00000110       0x50 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+                0x00000110                __fixdfsi
+                0x00000110                __aeabi_d2iz
+ *(.stub)
+ *(.text*)
+ .text.app_draw_callback
+                0x00000160       0x14 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .text.app_input_callback
+                0x00000174       0x14 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .text.handle_config_menu_input
+                0x00000188      0x1c8 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .text.draw_config_menu_view
+                0x00000350      0x17c build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .text.draw_main_view
+                0x000004cc      0x2e0 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .text.handle_main_input
+                0x000007ac       0xc8 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ *fill*         0x00000874        0x4 
+ .text.gpio_controller_main
+                0x00000878      0x200 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+                0x00000878                gpio_controller_main
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000a78      0x4b6
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.draw_config_menu_view.str1.1
+                0x00000a78        0xf build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .rodata.draw_main_view.str1.1
+                0x00000a87        0x5 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .rodata.gpio_controller_main.str1.1
+                0x00000a8c        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .rodata.str1.1
+                0x00000a90       0xab build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ *fill*         0x00000b3b        0x1 
+ .rodata.wiggle
+                0x00000b3c       0x10 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .rodata.input_handlers
+                0x00000b4c        0x8 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .rodata.draw_view_funcs
+                0x00000b54        0x8 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .rodata.I_tx_pin
+                0x00000b5c        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000b5c                I_tx_pin
+ .rodata.I_swc_pin
+                0x00000b68        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000b68                I_swc_pin
+ .rodata.I_sio_pin
+                0x00000b74        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000b74                I_sio_pin
+ .rodata.I_rx_pin
+                0x00000b80        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000b80                I_rx_pin
+ .rodata.I_gnd_pin
+                0x00000b8c        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000b8c                I_gnd_pin
+ .rodata.I_gear_unhighlighted
+                0x00000b98        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000b98                I_gear_unhighlighted
+ .rodata.I_gear_highlighted
+                0x00000ba4        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000ba4                I_gear_highlighted
+ .rodata.I_digi_zero
+                0x00000bb0        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000bb0                I_digi_zero
+ .rodata.I_digi_one
+                0x00000bbc        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000bbc                I_digi_one
+ .rodata.I_c3_pin
+                0x00000bc8        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000bc8                I_c3_pin
+ .rodata.I_c1_pin
+                0x00000bd4        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000bd4                I_c1_pin
+ .rodata.I_c0_pin
+                0x00000be0        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000be0                I_c0_pin
+ .rodata.I_b3_pin
+                0x00000bec        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000bec                I_b3_pin
+ .rodata.I_b2_pin
+                0x00000bf8        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000bf8                I_b2_pin
+ .rodata.I_arrow_up
+                0x00000c04        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000c04                I_arrow_up
+ .rodata.I_arrow_down
+                0x00000c10        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000c10                I_arrow_down
+ .rodata.I_analog_box
+                0x00000c1c        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000c1c                I_analog_box
+ .rodata.I_a7_pin
+                0x00000c28        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000c28                I_a7_pin
+ .rodata.I_a6_pin
+                0x00000c34        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000c34                I_a6_pin
+ .rodata.I_a4_pin
+                0x00000c40        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000c40                I_a4_pin
+ .rodata.I_5v_pin
+                0x00000c4c        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000c4c                I_5v_pin
+ .rodata.I_3v_pin
+                0x00000c58        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000c58                I_3v_pin
+ .rodata.I_1w_pin
+                0x00000c64        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000c64                I_1w_pin
+ .rodata._I_tx_pin
+                0x00000c70        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000c70                _I_tx_pin
+ .rodata._I_tx_pin_0
+                0x00000c74       0x1a build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000c74                _I_tx_pin_0
+ *fill*         0x00000c8e        0x2 
+ .rodata._I_swc_pin
+                0x00000c90        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000c90                _I_swc_pin
+ .rodata._I_swc_pin_0
+                0x00000c94       0x24 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000c94                _I_swc_pin_0
+ .rodata._I_sio_pin
+                0x00000cb8        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000cb8                _I_sio_pin
+ .rodata._I_sio_pin_0
+                0x00000cbc       0x22 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000cbc                _I_sio_pin_0
+ *fill*         0x00000cde        0x2 
+ .rodata._I_rx_pin
+                0x00000ce0        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000ce0                _I_rx_pin
+ .rodata._I_rx_pin_0
+                0x00000ce4       0x1a build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000ce4                _I_rx_pin_0
+ *fill*         0x00000cfe        0x2 
+ .rodata._I_gnd_pin
+                0x00000d00        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000d00                _I_gnd_pin
+ .rodata._I_gnd_pin_0
+                0x00000d04       0x20 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000d04                _I_gnd_pin_0
+ .rodata._I_gear_unhighlighted
+                0x00000d24        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000d24                _I_gear_unhighlighted
+ .rodata._I_gear_unhighlighted_0
+                0x00000d28       0x20 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000d28                _I_gear_unhighlighted_0
+ .rodata._I_gear_highlighted
+                0x00000d48        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000d48                _I_gear_highlighted
+ .rodata._I_gear_highlighted_0
+                0x00000d4c       0x21 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000d4c                _I_gear_highlighted_0
+ *fill*         0x00000d6d        0x3 
+ .rodata._I_digi_zero
+                0x00000d70        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000d70                _I_digi_zero
+ .rodata._I_digi_zero_0
+                0x00000d74       0x13 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000d74                _I_digi_zero_0
+ *fill*         0x00000d87        0x1 
+ .rodata._I_digi_one
+                0x00000d88        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000d88                _I_digi_one
+ .rodata._I_digi_one_0
+                0x00000d8c       0x13 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000d8c                _I_digi_one_0
+ *fill*         0x00000d9f        0x1 
+ .rodata._I_c3_pin
+                0x00000da0        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000da0                _I_c3_pin
+ .rodata._I_c3_pin_0
+                0x00000da4       0x19 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000da4                _I_c3_pin_0
+ *fill*         0x00000dbd        0x3 
+ .rodata._I_c1_pin
+                0x00000dc0        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000dc0                _I_c1_pin
+ .rodata._I_c1_pin_0
+                0x00000dc4       0x1a build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000dc4                _I_c1_pin_0
+ *fill*         0x00000dde        0x2 
+ .rodata._I_c0_pin
+                0x00000de0        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000de0                _I_c0_pin
+ .rodata._I_c0_pin_0
+                0x00000de4       0x18 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000de4                _I_c0_pin_0
+ .rodata._I_b3_pin
+                0x00000dfc        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000dfc                _I_b3_pin
+ .rodata._I_b3_pin_0
+                0x00000e00       0x1a build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000e00                _I_b3_pin_0
+ *fill*         0x00000e1a        0x2 
+ .rodata._I_b2_pin
+                0x00000e1c        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000e1c                _I_b2_pin
+ .rodata._I_b2_pin_0
+                0x00000e20       0x1b build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000e20                _I_b2_pin_0
+ *fill*         0x00000e3b        0x1 
+ .rodata._I_arrow_up
+                0x00000e3c        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000e3c                _I_arrow_up
+ .rodata._I_arrow_up_0
+                0x00000e40        0x7 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000e40                _I_arrow_up_0
+ *fill*         0x00000e47        0x1 
+ .rodata._I_arrow_down
+                0x00000e48        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000e48                _I_arrow_down
+ .rodata._I_arrow_down_0
+                0x00000e4c        0x7 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000e4c                _I_arrow_down_0
+ *fill*         0x00000e53        0x1 
+ .rodata._I_analog_box
+                0x00000e54        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000e54                _I_analog_box
+ .rodata._I_analog_box_0
+                0x00000e58        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000e58                _I_analog_box_0
+ .rodata._I_a7_pin
+                0x00000e64        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000e64                _I_a7_pin
+ .rodata._I_a7_pin_0
+                0x00000e68       0x1b build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000e68                _I_a7_pin_0
+ *fill*         0x00000e83        0x1 
+ .rodata._I_a6_pin
+                0x00000e84        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000e84                _I_a6_pin
+ .rodata._I_a6_pin_0
+                0x00000e88       0x1b build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000e88                _I_a6_pin_0
+ *fill*         0x00000ea3        0x1 
+ .rodata._I_a4_pin
+                0x00000ea4        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000ea4                _I_a4_pin
+ .rodata._I_a4_pin_0
+                0x00000ea8       0x1b build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000ea8                _I_a4_pin_0
+ *fill*         0x00000ec3        0x1 
+ .rodata._I_5v_pin
+                0x00000ec4        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000ec4                _I_5v_pin
+ .rodata._I_5v_pin_0
+                0x00000ec8       0x1b build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000ec8                _I_5v_pin_0
+ *fill*         0x00000ee3        0x1 
+ .rodata._I_3v_pin
+                0x00000ee4        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000ee4                _I_3v_pin
+ .rodata._I_3v_pin_0
+                0x00000ee8       0x25 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000ee8                _I_3v_pin_0
+ *fill*         0x00000f0d        0x3 
+ .rodata._I_1w_pin
+                0x00000f10        0x4 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000f10                _I_1w_pin
+ .rodata._I_1w_pin_0
+                0x00000f14       0x1a build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+                0x00000f14                _I_1w_pin_0
+
+.data           0x00000f30      0x230
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.gpio_user_value_strs
+                0x00000f30        0xc build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+                0x00000f30                gpio_user_value_strs
+ .data.gpio_user_mode_strs
+                0x00000f3c       0x10 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+                0x00000f3c                gpio_user_mode_strs
+ .data.elements
+                0x00000f4c      0x214 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+
+.bss            0x00001160      0x1b8
+ *(.bss)
+ *(.bss*)
+ .bss.gpio_pin_config
+                0x00001160      0x180 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .bss.vstate    0x000012e0       0x38 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x70
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x58 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .debug_aranges
+                0x00000058       0x18 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2464
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1d2d build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .debug_info    0x00001d2d      0x737 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+
+.debug_abbrev   0x00000000      0x652
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x59d build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .debug_abbrev  0x0000059d       0xb5 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+
+.debug_line     0x00000000      0xeec
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x453 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .debug_line.text.app_draw_callback
+                0x00000453       0x1d build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .debug_line.text.app_input_callback
+                0x00000470       0x1d build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .debug_line.text.handle_config_menu_input
+                0x0000048d      0x209 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .debug_line.text.draw_config_menu_view
+                0x00000696       0xd1 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .debug_line.text.draw_main_view
+                0x00000767      0x2df build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .debug_line.text.handle_main_input
+                0x00000a46      0x10e build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .debug_line.text.gpio_controller_main
+                0x00000b54      0x1f3 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .debug_line_end
+                0x00000d47        0x0 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .debug_line    0x00000d47      0x1a5 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+ .debug_line_end
+                0x00000eec        0x0 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+
+.debug_frame    0x00000000      0x130
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x130 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+
+.debug_str      0x00000000     0x1810
+ *(.debug_str)
+ .debug_str     0x00000000     0x126e build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .debug_str     0x0000126e      0x5a2 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x150
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .debug_line_str
+                0x000000a8       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+
+.debug_loclists
+                0x00000000      0xae2
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0xae2 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x152
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x152 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/gpio_controller/gpio_controller_icons.o
+ .ARM.attributes
+                0x00000068       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x0000008a       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/gpio_controller_d.elf elf32-littlearm)
+LOAD linker stubs

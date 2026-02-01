@@ -1,0 +1,982 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o)
+                              build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o (cosf)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_cos.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o) (__kernel_cosf)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_sin.o)
+                              build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o (sinf)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_sin.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o) (__kernel_sinf)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o) (__ieee754_rem_pio2f)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o) (fabsf)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o) (__kernel_rem_pio2f)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o) (scalbnf)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_floor.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o) (floorf)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_paritysi2.o)
+                              build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o (__paritysi2)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .rodata.adi_devarch_desc.str1.1
+                0x00000000       0x14 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .text.adi_devarch_desc
+                0x00000000       0x38 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .rodata.class0x9_devarch
+                0x00000000       0xb0 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .debug_line.text.adi_devarch_desc
+                0x00000000       0x5e build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/swd_probe/jep106.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/swd_probe/jep106.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/swd_probe/jep106.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/swd_probe/jep106.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .text.usb_uart_set_config
+                0x00000000       0x50 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .text.usb_uart_get_config
+                0x00000000        0xe build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .text.usb_uart_get_state
+                0x00000000        0xa build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_line.text.usb_uart_set_config
+                0x00000000       0x3f build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_line.text.usb_uart_get_config
+                0x00000000       0x21 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_line.text.usb_uart_get_state
+                0x00000000       0x21 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/swd_probe/swd_probe_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/swd_probe/swd_probe_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/swd_probe/swd_probe_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/swd_probe/swd_probe_icons.o
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_cos.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_cos.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_cos.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_sin.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_sin.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_sin.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_sin.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_sin.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_sin.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_floor.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_floor.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_floor.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_paritysi2.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_paritysi2.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/swd_probe/adi.o
+LOAD build/f7-firmware-C/.extapps/swd_probe/jep106.o
+LOAD build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+LOAD build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+LOAD build/f7-firmware-C/.extapps/swd_probe/swd_probe_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x5490
+ *(.text)
+ .text          0x00000000       0x20 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_paritysi2.o)
+                0x00000000                __paritysi2
+ *(.stub)
+ *(.text*)
+ .text.adi_part_num
+                0x00000020       0x54 build/f7-firmware-C/.extapps/swd_probe/adi.o
+                0x00000020                adi_part_num
+ .text.adi_get_pidr
+                0x00000074       0xd8 build/f7-firmware-C/.extapps/swd_probe/adi.o
+                0x00000074                adi_get_pidr
+ .text.adi_get_class
+                0x0000014c       0xb4 build/f7-firmware-C/.extapps/swd_probe/adi.o
+                0x0000014c                adi_get_class
+ .text.adi_romtable_type
+                0x00000200       0x30 build/f7-firmware-C/.extapps/swd_probe/adi.o
+                0x00000200                adi_romtable_type
+ .text.adi_romtable_full
+                0x00000230       0x30 build/f7-firmware-C/.extapps/swd_probe/adi.o
+                0x00000230                adi_romtable_full
+ .text.adi_romtable_entry_count
+                0x00000260       0x8c build/f7-firmware-C/.extapps/swd_probe/adi.o
+                0x00000260                adi_romtable_entry_count
+ .text.adi_romtable_get
+                0x000002ec       0x74 build/f7-firmware-C/.extapps/swd_probe/adi.o
+                0x000002ec                adi_romtable_get
+ .text.adi_is_romtable
+                0x00000360       0x28 build/f7-firmware-C/.extapps/swd_probe/adi.o
+                0x00000360                adi_is_romtable
+ .text.jep106_table_manufacturer
+                0x00000388       0x34 build/f7-firmware-C/.extapps/swd_probe/jep106.o
+                0x00000388                jep106_table_manufacturer
+ .text.swd_configure_pins
+                0x000003bc       0xa8 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_script_skip_whitespace
+                0x00000464       0x84 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_script_get_string
+                0x000004e8       0xec build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_script_get_number
+                0x000005d4       0xb8 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_script_log
+                0x0000068c       0xd8 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.furi_hal_gpio_write
+                0x00000764        0xe build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ *fill*         0x00000772        0x2 
+ .text.swd_set_clock
+                0x00000774       0x5c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_set_data
+                0x000007d0       0x5c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.input_callback
+                0x0000082c       0x38 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_script_seek_newline.isra.0
+                0x00000864       0x4c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_label
+                0x000008b0       0x8c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_goto
+                0x0000093c       0x6c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_errors
+                0x000009a8       0x8c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_maxtries
+                0x00000a34       0x7c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_swd_clock_delay
+                0x00000ab0       0x78 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_swd_idle_bits
+                0x00000b28       0x70 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_blocksize
+                0x00000b98       0x70 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_execute_script_line
+                0x00000c08      0x1fc build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.data_received
+                0x00000e04       0x74 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+                0x00000e04                data_received
+ .text.swd_execute_script
+                0x00000e78      0x2d8 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_message_process
+                0x00001150      0x38c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_script_gui_refresh
+                0x000014dc       0x60 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_message
+                0x0000153c      0x158 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_call
+                0x00001694       0xe8 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_beep
+                0x0000177c       0x64 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_status
+                0x000017e0       0x58 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_comment
+                0x00001838       0x30 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_clock_delay.isra.0
+                0x00001868        0xc build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_write_bit
+                0x00001874       0x48 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_write_byte
+                0x000018bc       0x34 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_write
+                0x000018f0       0x30 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_line_reset
+                0x00001920       0x28 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_read_bit
+                0x00001948       0xa0 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_transfer
+                0x000019e8      0x158 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_select
+                0x00001b40       0x70 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_write_ap
+                0x00001bb0       0x6c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_ap_write
+                0x00001c1c       0xc4 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_read_ap
+                0x00001ce0       0x80 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_ap_read
+                0x00001d60       0xb8 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_abort
+                0x00001e18       0x38 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_write_memory
+                0x00001e50       0x74 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_apscan_test
+                0x00001ec4       0xac build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_apscan
+                0x00001f70       0x84 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_apselect
+                0x00001ff4       0x6c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_abort
+                0x00002060       0x38 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_read_dpbank
+                0x00002098       0x70 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_dp_read
+                0x00002108       0xcc build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_write_dpbank
+                0x000021d4       0x70 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_dp_write
+                0x00002244       0xcc build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_read_ap_single.constprop.0
+                0x00002310       0x68 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.render_callback
+                0x00002378      0xbb0 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_read_memory
+                0x00002f28       0x90 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+                0x00002f28                swd_read_memory
+ .text.swd_scriptfunc_core_cpuid
+                0x00002fb8       0x78 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_core_reg_set
+                0x00003030      0x11c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_core_reg_get
+                0x0000314c      0x11c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_core_regs
+                0x00003268      0x104 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_core_continue
+                0x0000336c       0x9c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_core_step
+                0x00003408       0xa8 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_core_halt
+                0x000034b0       0x94 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_mem_read
+                0x00003544      0x13c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_mem_write
+                0x00003680      0x154 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_mem_ldmst
+                0x000037d4      0x160 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_scriptfunc_mem_dump
+                0x00003934      0x348 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .text.swd_probe_app_main
+                0x00003c7c      0x9d8 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+                0x00003c7c                swd_probe_app_main
+ .text.vcp_state_callback
+                0x00004654        0x2 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .text.vcp_on_line_config
+                0x00004656        0x2 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .text.vcp_on_cdc_tx_complete
+                0x00004658        0xc build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .text.usb_uart_vcp_init
+                0x00004664       0x80 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .text.vcp_on_cdc_rx
+                0x000046e4       0x1c build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .text.usb_uart_vcp_deinit.constprop.0
+                0x00004700       0x38 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .text.usb_uart_worker
+                0x00004738      0x148 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .text.vcp_on_cdc_control_line
+                0x00004880        0x2 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ *fill*         0x00004882        0x2 
+ .text.usb_uart_tx_data
+                0x00004884       0x74 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+                0x00004884                usb_uart_tx_data
+ .text.usb_uart_enable
+                0x000048f8       0x48 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+                0x000048f8                usb_uart_enable
+ .text.usb_uart_disable
+                0x00004940       0x3c build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+                0x00004940                usb_uart_disable
+ .text.cosf     0x0000497c       0x88 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o)
+                0x0000497c                cosf
+ .text.__kernel_cosf
+                0x00004a04       0xb0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_cos.o)
+                0x00004a04                __kernel_cosf
+ .text.sinf     0x00004ab4       0x8c /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_sin.o)
+                0x00004ab4                sinf
+ .text.__kernel_sinf
+                0x00004b40       0x90 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_sin.o)
+                0x00004b40                __kernel_sinf
+ .text.__ieee754_rem_pio2f
+                0x00004bd0      0x260 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o)
+                0x00004bd0                __ieee754_rem_pio2f
+ .text.fabsf    0x00004e30        0xe /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+                0x00004e30                fabsf
+ *fill*         0x00004e3e        0x2 
+ .text.__kernel_rem_pio2f
+                0x00004e40      0x4fc /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o)
+                0x00004e40                __kernel_rem_pio2f
+ .text.scalbnf  0x0000533c       0xcc /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+                0x0000533c                scalbnf
+ .text.floorf   0x00005408       0x88 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_floor.o)
+                0x00005408                floorf
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00005490     0xd92c
+ *(.rodata)
+ .rodata        0x00005490       0x30 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .rodata        0x000054c0       0x24 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.adi_part_num.str1.1
+                0x000054e4        0xa build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .rodata.adi_get_pidr.str1.1
+                0x000054ee       0x14 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .rodata.adi_romtable_type.str1.1
+                0x00005502        0x5 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .rodata.__FUNCTION__.0
+                0x00005507       0x11 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .rodata.__FUNCTION__.1
+                0x00005518       0x19 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .rodata.__FUNCTION__.2
+                0x00005531        0xe build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .rodata.__FUNCTION__.3
+                0x0000553f        0xd build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .rodata.str1.1
+                0x0000554c     0x110f build/f7-firmware-C/.extapps/swd_probe/adi.o
+ *fill*         0x0000665b        0x1 
+ .rodata.dap_part_nums
+                0x0000665c      0x870 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .rodata.jep106_table_manufacturer.str1.1
+                0x00006ecc       0x14 build/f7-firmware-C/.extapps/swd_probe/jep106.o
+ .rodata.str1.1
+                0x00006ee0     0x877c build/f7-firmware-C/.extapps/swd_probe/jep106.o
+ .rodata.jep106
+                0x0000f65c     0x1d88 build/f7-firmware-C/.extapps/swd_probe/jep106.o
+ .rodata.swd_script_get_string.str1.1
+                0x000113e4       0x2e build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_script_get_number.str1.1
+                0x00011412       0x1c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_script_log.str1.1
+                0x0001142e       0x26 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_label.str1.1
+                0x00011454       0x31 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_goto.str1.1
+                0x00011485       0x26 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_errors.str1.1
+                0x000114ab       0x27 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_maxtries.str1.1
+                0x000114d2       0x38 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_swd_clock_delay.str1.1
+                0x0001150a       0x24 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_swd_idle_bits.str1.1
+                0x0001152e       0x1f build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_blocksize.str1.1
+                0x0001154d       0x21 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_execute_script_line.str1.1
+                0x0001156e       0x60 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.data_received.str1.1
+                0x000115ce       0x14 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_execute_script.str1.1
+                0x000115e2       0xb7 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_message_process.str1.1
+                0x00011699       0x17 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_script_gui_refresh.str1.1
+                0x000116b0        0xf build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_message.str1.1
+                0x000116bf       0x42 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_call.str1.1
+                0x00011701       0x3f build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_beep.str1.1
+                0x00011740        0x9 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_status.str1.1
+                0x00011749        0xb build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_comment.str1.1
+                0x00011754        0xc build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_select.str1.1
+                0x00011760        0xf build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_write_ap.str1.1
+                0x0001176f       0x16 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_ap_write.str1.1
+                0x00011785       0x59 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_ap_read.str1.1
+                0x000117de       0x25 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_write_memory.str1.1
+                0x00011803       0x1d build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_apscan_test.str1.1
+                0x00011820       0x13 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_apscan.str1.1
+                0x00011833       0x32 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_apselect.str1.1
+                0x00011865       0x22 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_abort.str1.1
+                0x00011887        0xd build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_dp_read.str1.1
+                0x00011894       0x5d build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_dp_write.str1.1
+                0x000118f1       0x3e build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.render_callback.str1.1
+                0x0001192f      0x228 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_read_memory.str1.1
+                0x00011b57       0x3b build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_core_cpuid.str1.1
+                0x00011b92       0x1e build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_core_reg_set.str1.1
+                0x00011bb0       0x66 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_core_regs.str1.1
+                0x00011c16       0x1c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_core_continue.str1.1
+                0x00011c32        0xf build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_core_step.str1.1
+                0x00011c41        0xd build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_core_halt.str1.1
+                0x00011c4e       0x1e build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_mem_read.str1.1
+                0x00011c6c       0x5a build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_mem_write.str1.1
+                0x00011cc6       0x48 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_mem_ldmst.str1.1
+                0x00011d0e       0x4c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_scriptfunc_mem_dump.str1.1
+                0x00011d5a       0xaa build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.swd_probe_app_main.str1.1
+                0x00011e04      0x29f build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.str1.1
+                0x000120a3      0x2d5 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.CSWTCH.214
+                0x00012378       0x24 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.0
+                0x0001239c       0x13 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.1
+                0x000123af        0xe build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.7
+                0x000123bd       0x13 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.8
+                0x000123d0        0xf build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.9
+                0x000123df       0x17 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.10
+                0x000123f6       0x17 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.11
+                0x0001240d       0x15 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.12
+                0x00012422       0x14 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.13
+                0x00012436       0x13 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.14
+                0x00012449       0x14 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.15
+                0x0001245d       0x16 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.16
+                0x00012473       0x16 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.17
+                0x00012489       0x14 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.18
+                0x0001249d       0x18 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.19
+                0x000124b5       0x15 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.20
+                0x000124ca       0x13 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.21
+                0x000124dd       0x16 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.22
+                0x000124f3       0x18 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.23
+                0x0001250b       0x19 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.24
+                0x00012524       0x19 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.25
+                0x0001253d       0x18 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.26
+                0x00012555       0x11 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.27
+                0x00012566       0x10 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.28
+                0x00012576       0x16 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.29
+                0x0001258c       0x10 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.30
+                0x0001259c       0x11 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.31
+                0x000125ad       0x16 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.32
+                0x000125c3       0x16 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.33
+                0x000125d9       0x18 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.34
+                0x000125f1        0xc build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.35
+                0x000125fd        0xb build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.36
+                0x00012608        0xd build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.__FUNCTION__.37
+                0x00012615       0x10 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ *fill*         0x00012625        0x3 
+ .rodata.script_funcs
+                0x00012628       0xf0 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.cpu_regs
+                0x00012718      0x1a8 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.seq_error
+                0x000128c0       0x30 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+                0x000128c0                seq_error
+ .rodata.seq_c_minor
+                0x000128f0       0x40 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+                0x000128f0                seq_c_minor
+ .rodata.gpio_direction_mask
+                0x00012930        0x6 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ *fill*         0x00012936        0x2 
+ .rodata.gpio_names
+                0x00012938       0x20 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.gpios  0x00012958       0x20 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .rodata.usb_uart_vcp_init.str1.1
+                0x00012978        0x8 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .rodata.usb_uart_enable.str1.1
+                0x00012980        0xe build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ *fill*         0x0001298e        0x2 
+ .rodata.cdc_cb
+                0x00012990       0x14 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .rodata.I_swd  0x000129a4        0xc build/f7-firmware-C/.extapps/swd_probe/swd_probe_icons.o
+                0x000129a4                I_swd
+ .rodata.I_app  0x000129b0        0xc build/f7-firmware-C/.extapps/swd_probe/swd_probe_icons.o
+                0x000129b0                I_app
+ .rodata._I_swd
+                0x000129bc        0x4 build/f7-firmware-C/.extapps/swd_probe/swd_probe_icons.o
+                0x000129bc                _I_swd
+ .rodata._I_swd_0
+                0x000129c0        0xd build/f7-firmware-C/.extapps/swd_probe/swd_probe_icons.o
+                0x000129c0                _I_swd_0
+ *fill*         0x000129cd        0x3 
+ .rodata._I_app
+                0x000129d0        0x4 build/f7-firmware-C/.extapps/swd_probe/swd_probe_icons.o
+                0x000129d0                _I_app
+ .rodata._I_app_0
+                0x000129d4       0x15 build/f7-firmware-C/.extapps/swd_probe/swd_probe_icons.o
+                0x000129d4                _I_app_0
+ *fill*         0x000129e9        0x3 
+ .rodata.npio2_hw
+                0x000129ec       0x80 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o)
+ .rodata.two_over_pi
+                0x00012a6c      0x318 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o)
+ .rodata.PIo2   0x00012d84       0x2c /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o)
+ .rodata.init_jk
+                0x00012db0        0xc /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o)
+
+.data           0x00012dbc     0x1394
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.unknown.4
+                0x00012dbc        0xc build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .data.edgeIndices
+                0x00012dc8      0xd20 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+                0x00012dc8                edgeIndices
+ .data.vertexCoords
+                0x00013ae8      0x660 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+                0x00013ae8                vertexCoords
+ .data.seq_sounds
+                0x00014148        0x8 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+                0x00014148                seq_sounds
+
+.bss            0x00014150      0x690
+ *(.bss)
+ *(.bss*)
+ .bss.buf.5     0x00014150       0x20 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .bss.zoom.3    0x00014170        0x4 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .bss.zAngle.4  0x00014174        0x4 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .bss.yAngle.5  0x00014178        0x4 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .bss.xAngle.6  0x0001417c        0x4 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .bss.rotatedVertexCoords
+                0x00014180      0x660 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x338
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x60 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .debug_aranges
+                0x00000060       0x20 build/f7-firmware-C/.extapps/swd_probe/jep106.o
+ .debug_aranges
+                0x00000080      0x218 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_aranges
+                0x00000298       0x88 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_aranges
+                0x00000320       0x18 build/f7-firmware-C/.extapps/swd_probe/swd_probe_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xd1f5
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x13bc build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .debug_info    0x000013bc       0xb0 build/f7-firmware-C/.extapps/swd_probe/jep106.o
+ .debug_info    0x0000146c     0xa2da build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_info    0x0000b746     0x18e2 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_info    0x0000d028      0x1cd build/f7-firmware-C/.extapps/swd_probe/swd_probe_icons.o
+
+.debug_abbrev   0x00000000     0x101c
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x332 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .debug_abbrev  0x00000332       0x95 build/f7-firmware-C/.extapps/swd_probe/jep106.o
+ .debug_abbrev  0x000003c7      0x731 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_abbrev  0x00000af8      0x46f build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_abbrev  0x00000f67       0xb5 build/f7-firmware-C/.extapps/swd_probe/swd_probe_icons.o
+
+.debug_line     0x00000000     0x4eb1
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3d6 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .debug_line.text.adi_part_num
+                0x000003d6       0x7e build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .debug_line.text.adi_get_pidr
+                0x00000454       0xe6 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .debug_line.text.adi_get_class
+                0x0000053a       0xbe build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .debug_line.text.adi_romtable_type
+                0x000005f8       0x36 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .debug_line.text.adi_romtable_full
+                0x0000062e       0x36 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .debug_line.text.adi_romtable_entry_count
+                0x00000664       0xce build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .debug_line.text.adi_romtable_get
+                0x00000732       0x5e build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .debug_line.text.adi_is_romtable
+                0x00000790       0x32 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .debug_line_end
+                0x000007c2        0x0 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .debug_line    0x000007c2       0x49 build/f7-firmware-C/.extapps/swd_probe/jep106.o
+ .debug_line.text.jep106_table_manufacturer
+                0x0000080b       0x43 build/f7-firmware-C/.extapps/swd_probe/jep106.o
+ .debug_line_end
+                0x0000084e        0x0 build/f7-firmware-C/.extapps/swd_probe/jep106.o
+ .debug_line    0x0000084e      0x67f build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_configure_pins
+                0x00000ecd       0xe4 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_script_skip_whitespace
+                0x00000fb1       0xb1 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_script_get_string
+                0x00001062      0x135 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_script_get_number
+                0x00001197       0xda build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_script_log
+                0x00001271       0xa6 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.furi_hal_gpio_write
+                0x00001317       0x34 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_set_clock
+                0x0000134b       0x81 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_set_data
+                0x000013cc       0x81 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.input_callback
+                0x0000144d       0x54 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_script_seek_newline.isra.0
+                0x000014a1       0x6c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_label
+                0x0000150d       0x5e build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_goto
+                0x0000156b       0x57 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_errors
+                0x000015c2       0x6b build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_maxtries
+                0x0000162d       0x6e build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_swd_clock_delay
+                0x0000169b       0x6e build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_swd_idle_bits
+                0x00001709       0x6e build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_blocksize
+                0x00001777       0x74 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_execute_script_line
+                0x000017eb      0x17c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.data_received
+                0x00001967       0x8f build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_execute_script
+                0x000019f6      0x1dd build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_message_process
+                0x00001bd3      0x3c0 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_script_gui_refresh
+                0x00001f93       0x43 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_message
+                0x00001fd6       0xc8 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_call
+                0x0000209e       0x8c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_beep
+                0x0000212a       0x36 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_status
+                0x00002160       0x3d build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_comment
+                0x0000219d       0x2b build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_clock_delay.isra.0
+                0x000021c8       0x21 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_write_bit
+                0x000021e9       0x33 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_write_byte
+                0x0000221c       0x64 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_write
+                0x00002280       0x41 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_line_reset
+                0x000022c1       0x4e build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_read_bit
+                0x0000230f       0xc0 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_transfer
+                0x000023cf      0x18e build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_select
+                0x0000255d       0x81 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_write_ap
+                0x000025de       0x68 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_ap_write
+                0x00002646       0x8b build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_read_ap
+                0x000026d1       0x7e build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_ap_read
+                0x0000274f       0x8c build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_abort
+                0x000027db       0x35 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_write_memory
+                0x00002810       0x62 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_apscan_test
+                0x00002872       0xb6 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_apscan
+                0x00002928       0x5b build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_apselect
+                0x00002983       0x6d build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_abort
+                0x000029f0       0x27 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_read_dpbank
+                0x00002a17       0x79 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_dp_read
+                0x00002a90       0x9f build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_write_dpbank
+                0x00002b2f       0x6e build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_dp_write
+                0x00002b9d       0xa5 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_read_ap_single.constprop.0
+                0x00002c42       0x7d build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.render_callback
+                0x00002cbf      0x6ea build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_read_memory
+                0x000033a9       0x60 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_core_cpuid
+                0x00003409       0x59 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_core_reg_set
+                0x00003462       0xd6 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_core_reg_get
+                0x00003538       0xc9 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_core_regs
+                0x00003601       0xc2 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_core_continue
+                0x000036c3       0x6d build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_core_step
+                0x00003730       0x70 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_core_halt
+                0x000037a0       0x7a build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_mem_read
+                0x0000381a       0xdc build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_mem_write
+                0x000038f6       0xee build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_mem_ldmst
+                0x000039e4      0x129 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_scriptfunc_mem_dump
+                0x00003b0d      0x2e4 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line.text.swd_probe_app_main
+                0x00003df1      0x7b9 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line_end
+                0x000045aa        0x0 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_line    0x000045aa      0x3dc build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_line.text.vcp_state_callback
+                0x00004986       0x1a build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_line.text.vcp_on_line_config
+                0x000049a0       0x1a build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_line.text.vcp_on_cdc_tx_complete
+                0x000049ba       0x18 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_line.text.usb_uart_vcp_init
+                0x000049d2       0x6c build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_line.text.vcp_on_cdc_rx
+                0x00004a3e       0x24 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_line.text.usb_uart_vcp_deinit.constprop.0
+                0x00004a62       0x44 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_line.text.usb_uart_worker
+                0x00004aa6      0x16c build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_line.text.vcp_on_cdc_control_line
+                0x00004c12       0x12 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_line.text.usb_uart_tx_data
+                0x00004c24       0x83 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_line.text.usb_uart_enable
+                0x00004ca7       0x44 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_line.text.usb_uart_disable
+                0x00004ceb       0x33 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_line_end
+                0x00004d1e        0x0 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_line    0x00004d1e      0x193 build/f7-firmware-C/.extapps/swd_probe/swd_probe_icons.o
+ .debug_line_end
+                0x00004eb1        0x0 build/f7-firmware-C/.extapps/swd_probe/swd_probe_icons.o
+
+.debug_frame    0x00000000      0xccc
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x144 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .debug_frame   0x00000144       0x20 build/f7-firmware-C/.extapps/swd_probe/jep106.o
+ .debug_frame   0x00000164      0x9e4 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_frame   0x00000b48      0x184 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+
+.debug_str      0x00000000     0x4719
+ *(.debug_str)
+ .debug_str     0x00000000      0xa0a build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .debug_str     0x00000a0a      0x18c build/f7-firmware-C/.extapps/swd_probe/jep106.o
+ .debug_str     0x00000b96     0x2a6f build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_str     0x00003605      0xe93 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .debug_str     0x00004498      0x281 build/f7-firmware-C/.extapps/swd_probe/swd_probe_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x313a
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x3a3 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .debug_loclists
+                0x000003a3       0x7f build/f7-firmware-C/.extapps/swd_probe/jep106.o
+ .debug_loclists
+                0x00000422     0x2a36 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_loclists
+                0x00002e58      0x2e2 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x764
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xc7 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .debug_rnglists
+                0x000000c7       0x13 build/f7-firmware-C/.extapps/swd_probe/jep106.o
+ .debug_rnglists
+                0x000000da      0x5e4 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .debug_rnglists
+                0x000006be       0xa6 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/swd_probe/adi.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/swd_probe/jep106.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/swd_probe/swd_probe_app.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/swd_probe/usb_uart.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/swd_probe/swd_probe_icons.o
+ .ARM.attributes
+                0x00000104       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o)
+ .ARM.attributes
+                0x00000138       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_cos.o)
+ .ARM.attributes
+                0x0000016c       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_sin.o)
+ .ARM.attributes
+                0x000001a0       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_sin.o)
+ .ARM.attributes
+                0x000001d4       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o)
+ .ARM.attributes
+                0x00000208       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .ARM.attributes
+                0x0000023c       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o)
+ .ARM.attributes
+                0x00000270       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+ .ARM.attributes
+                0x000002a4       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_floor.o)
+ .ARM.attributes
+                0x000002d8       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_paritysi2.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/swd_probe_d.elf elf32-littlearm)
+LOAD linker stubs

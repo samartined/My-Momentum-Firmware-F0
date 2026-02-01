@@ -1,0 +1,969 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_paritysi2.o)
+                              build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o (__paritysi2)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .rodata.rp2040_flash_read_data.str1.1
+                0x00000000       0x14 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .text.rp2040_flash_read_data
+                0x00000000       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .debug_line.text.rp2040_flash_read_data
+                0x00000000       0x37 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_paritysi2.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_paritysi2.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+LOAD build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+LOAD build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+LOAD build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+LOAD build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+LOAD build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+LOAD build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene.o
+LOAD build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+LOAD build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+LOAD build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+LOAD build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+LOAD build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+LOAD build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+LOAD build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+LOAD build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+LOAD build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+LOAD build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x1970
+ *(.text)
+ .text          0x00000000       0x20 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_paritysi2.o)
+                0x00000000                __paritysi2
+ *(.stub)
+ *(.text*)
+ .text.board_init
+                0x00000020       0x24 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+                0x00000020                board_init
+ .text.board_deinit
+                0x00000044       0x18 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+                0x00000044                board_deinit
+ .text.board_reset
+                0x0000005c       0x28 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+                0x0000005c                board_reset
+ .text.flasher_emit_progress
+                0x00000084       0x28 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .text.flasher_emit_error
+                0x000000ac       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .text.flasher_program_flash
+                0x000000c8       0xb8 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .text.flasher_deinit
+                0x00000180       0x3c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+                0x00000180                flasher_deinit
+ .text.flasher_init
+                0x000001bc       0x54 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+                0x000001bc                flasher_init
+ .text.flasher_set_callback
+                0x00000210        0xc build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+                0x00000210                flasher_set_callback
+ .text.flasher_start
+                0x0000021c      0x204 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+                0x0000021c                flasher_start
+ .text.rp2040_spi_txrx
+                0x00000420       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .text.rp2040_spi_chip_select
+                0x00000454       0x30 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .text.rp2040_spi_setup_txrx
+                0x00000484       0x64 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .text.rp2040_spi_read
+                0x000004e8       0x4c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .text.rp2040_spi_write
+                0x00000534       0x48 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .text.rp2040_init
+                0x0000057c      0x150 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+                0x0000057c                rp2040_init
+ .text.rp2040_flash_erase_sector
+                0x000006cc       0xac build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+                0x000006cc                rp2040_flash_erase_sector
+ .text.rp2040_flash_program_page
+                0x00000778       0xb8 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+                0x00000778                rp2040_flash_program_page
+ .text.swd_tx.constprop.0
+                0x00000830       0x8c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .text.swd_tx_parity.constprop.0
+                0x000008bc       0x3c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .text.swd_rx   0x000008f8       0x70 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .text.swd_rx_parity.constprop.0
+                0x00000968       0xa8 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .text.swd_tx   0x00000a10       0x98 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .text.swd_line_reset
+                0x00000aa8       0x28 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .text.swd_write_request
+                0x00000ad0       0x50 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .text.swd_read_request
+                0x00000b20       0x48 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .text.swd_init
+                0x00000b68       0x74 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+                0x00000b68                swd_init
+ .text.swd_deinit
+                0x00000bdc       0x3c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+                0x00000bdc                swd_deinit
+ .text.swd_select_target
+                0x00000c18       0x30 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+                0x00000c18                swd_select_target
+ .text.swd_dp_read
+                0x00000c48       0x10 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+                0x00000c48                swd_dp_read
+ .text.swd_dp_write
+                0x00000c58       0x10 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+                0x00000c58                swd_dp_write
+ .text.swd_ap_read
+                0x00000c68       0x3c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+                0x00000c68                swd_ap_read
+ .text.swd_ap_write
+                0x00000ca4       0x2c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+                0x00000ca4                swd_ap_write
+ .text.target_memory_access_setup
+                0x00000cd0       0x38 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .text.target_read_memory_32
+                0x00000d08       0x20 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+                0x00000d08                target_read_memory_32
+ .text.target_write_memory_32
+                0x00000d28       0x20 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+                0x00000d28                target_write_memory_32
+ .text.target_attach
+                0x00000d48      0x108 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+                0x00000d48                target_attach
+ .text.target_detach
+                0x00000e50       0x38 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+                0x00000e50                target_detach
+ .text.uf2_get_block_count
+                0x00000e88       0x4c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+                0x00000e88                uf2_get_block_count
+ .text.uf2_verify_block
+                0x00000ed4       0xe4 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+                0x00000ed4                uf2_verify_block
+ .text.uf2_read_block
+                0x00000fb8       0x4c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+                0x00000fb8                uf2_read_block
+ .text.scene_confirm_button_callback
+                0x00001004       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .text.scene_confirm_on_enter
+                0x00001020       0xac build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+                0x00001020                scene_confirm_on_enter
+ .text.scene_confirm_on_event
+                0x000010cc       0x48 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+                0x000010cc                scene_confirm_on_event
+ .text.scene_confirm_on_exit
+                0x00001114        0xc build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+                0x00001114                scene_confirm_on_exit
+ .text.scene_error_button_callback
+                0x00001120       0x14 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .text.scene_error_on_enter
+                0x00001134       0xc8 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+                0x00001134                scene_error_on_enter
+ .text.scene_error_on_event
+                0x000011fc       0x3c build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+                0x000011fc                scene_error_on_event
+ .text.scene_error_on_exit
+                0x00001238       0x24 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+                0x00001238                scene_error_on_exit
+ .text.scene_file_select_on_enter
+                0x0000125c       0x78 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+                0x0000125c                scene_file_select_on_enter
+ .text.scene_file_select_on_event
+                0x000012d4        0xe build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+                0x000012d4                scene_file_select_on_event
+ .text.scene_file_select_on_exit
+                0x000012e2        0x2 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+                0x000012e2                scene_file_select_on_exit
+ .text.scene_install_flasher_callback
+                0x000012e4       0x38 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .text.scene_install_on_enter
+                0x0000131c       0x38 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+                0x0000131c                scene_install_on_enter
+ .text.scene_install_on_event
+                0x00001354        0xe build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+                0x00001354                scene_install_on_event
+ *fill*         0x00001362        0x2 
+ .text.scene_install_on_exit
+                0x00001364        0xc build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+                0x00001364                scene_install_on_exit
+ .text.scene_probe_on_enter
+                0x00001370       0x60 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+                0x00001370                scene_probe_on_enter
+ .text.scene_probe_on_event
+                0x000013d0       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+                0x000013d0                scene_probe_on_event
+ .text.scene_probe_on_exit
+                0x00001404       0x18 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+                0x00001404                scene_probe_on_exit
+ .text.scene_start_on_enter
+                0x0000141c       0x68 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+                0x0000141c                scene_start_on_enter
+ .text.scene_start_on_event
+                0x00001484       0x60 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+                0x00001484                scene_start_on_event
+ .text.scene_start_on_exit
+                0x000014e4        0xc build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+                0x000014e4                scene_start_on_exit
+ .text.scene_success_button_callback
+                0x000014f0       0x18 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .text.scene_success_on_enter
+                0x00001508       0x90 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+                0x00001508                scene_success_on_enter
+ .text.scene_success_on_event
+                0x00001598       0x30 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+                0x00001598                scene_success_on_event
+ .text.scene_success_on_exit
+                0x000015c8       0x2c build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+                0x000015c8                scene_success_on_exit
+ .text.progress_draw_callback
+                0x000015f4       0x84 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .text.progress_alloc
+                0x00001678       0x64 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+                0x00001678                progress_alloc
+ .text.progress_free
+                0x000016dc       0x3c build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+                0x000016dc                progress_free
+ .text.progress_get_view
+                0x00001718        0x4 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+                0x00001718                progress_get_view
+ .text.progress_set_value
+                0x0000171c       0x44 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+                0x0000171c                progress_set_value
+ .text.progress_reset
+                0x00001760        0xc build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+                0x00001760                progress_reset
+ .text.tick_event_callback
+                0x0000176c        0xc build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .text.back_event_callback
+                0x00001778        0xc build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .text.custom_event_callback
+                0x00001784        0xc build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .text.submenu_item_common_callback
+                0x00001790        0xc build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+                0x00001790                submenu_item_common_callback
+ .text.vgm_tool_app
+                0x0000179c      0x1d4 build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+                0x0000179c                vgm_tool_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00001970      0x9ec
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.flasher_program_flash.str1.1
+                0x00001970       0x6a build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .rodata.flasher_deinit.str1.1
+                0x000019da       0x24 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .rodata.flasher_init.str1.1
+                0x000019fe       0x2d build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .rodata.flasher_start.str1.1
+                0x00001a2b      0x130 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .rodata.rp2040_init.str1.1
+                0x00001b5b       0x63 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .rodata.rp2040_flash_erase_sector.str1.1
+                0x00001bbe       0x9f build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .rodata.rp2040_flash_program_page.str1.1
+                0x00001c5d       0x25 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .rodata.target_attach.str1.1
+                0x00001c82       0x63 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .rodata.uf2_get_block_count.str1.1
+                0x00001ce5       0x42 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ .rodata.uf2_verify_block.str1.1
+                0x00001d27       0xc7 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ *fill*         0x00001dee        0x2 
+ .rodata.scene_handlers
+                0x00001df0       0x10 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene.o
+                0x00001df0                scene_handlers
+ .rodata.on_exit_handlers
+                0x00001e00       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene.o
+ .rodata.on_event_handlers
+                0x00001e1c       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene.o
+ .rodata.on_enter_handlers
+                0x00001e38       0x1c build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene.o
+ .rodata.scene_confirm_on_enter.str1.1
+                0x00001e54       0x1b build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .rodata.scene_error_on_enter.str1.1
+                0x00001e6f       0x8d build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .rodata.scene_file_select_on_enter.str1.1
+                0x00001efc       0x13 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+ .rodata.scene_probe_on_enter.str1.1
+                0x00001f0f       0x1a build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+ .rodata.scene_start_on_enter.str1.1
+                0x00001f29       0x4a build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .rodata.scene_start_on_event.str1.1
+                0x00001f73       0x36 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .rodata.scene_success_on_enter.str1.1
+                0x00001fa9       0x1d build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .rodata.progress_draw_callback.str1.1
+                0x00001fc6        0xb build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .rodata.progress_alloc.str1.1
+                0x00001fd1        0x4 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .rodata.progress_set_value.str1.1
+                0x00001fd5        0x5 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .rodata.vgm_tool_app.str1.1
+                0x00001fda       0x1b build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ *fill*         0x00001ff5        0x3 
+ .rodata.I_Update_module_56x52
+                0x00001ff8        0xc build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+                0x00001ff8                I_Update_module_56x52
+ .rodata.I_Module_60x26
+                0x00002004        0xc build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+                0x00002004                I_Module_60x26
+ .rodata.I_Flashing_module_70x30
+                0x00002010        0xc build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+                0x00002010                I_Flashing_module_70x30
+ .rodata.I_Checkmark_44x40
+                0x0000201c        0xc build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+                0x0000201c                I_Checkmark_44x40
+ .rodata._I_Update_module_56x52
+                0x00002028        0x4 build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+                0x00002028                _I_Update_module_56x52
+ .rodata._I_Update_module_56x52_0
+                0x0000202c      0x126 build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+                0x0000202c                _I_Update_module_56x52_0
+ *fill*         0x00002152        0x2 
+ .rodata._I_Module_60x26
+                0x00002154        0x4 build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+                0x00002154                _I_Module_60x26
+ .rodata._I_Module_60x26_0
+                0x00002158       0xae build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+                0x00002158                _I_Module_60x26_0
+ *fill*         0x00002206        0x2 
+ .rodata._I_Flashing_module_70x30
+                0x00002208        0x4 build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+                0x00002208                _I_Flashing_module_70x30
+ .rodata._I_Flashing_module_70x30_0
+                0x0000220c       0xcf build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+                0x0000220c                _I_Flashing_module_70x30_0
+ *fill*         0x000022db        0x1 
+ .rodata._I_Checkmark_44x40
+                0x000022dc        0x4 build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+                0x000022dc                _I_Checkmark_44x40
+ .rodata._I_Checkmark_44x40_0
+                0x000022e0       0x7c build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+                0x000022e0                _I_Checkmark_44x40_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss            0x0000235c       0x10
+ *(.bss)
+ *(.bss*)
+ .bss.flasher   0x0000235c        0x8 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .bss.prev_dir.0
+                0x00002364        0x1 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ *fill*         0x00002365        0x3 
+ .bss.prev_address
+                0x00002368        0x4 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x408
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+ .debug_aranges
+                0x00000030       0x50 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .debug_aranges
+                0x00000080       0x60 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .debug_aranges
+                0x000000e0       0x90 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_aranges
+                0x00000170       0x40 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .debug_aranges
+                0x000001b0       0x30 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ .debug_aranges
+                0x000001e0       0x18 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene.o
+ .debug_aranges
+                0x000001f8       0x38 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .debug_aranges
+                0x00000230       0x38 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .debug_aranges
+                0x00000268       0x30 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+ .debug_aranges
+                0x00000298       0x38 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .debug_aranges
+                0x000002d0       0x30 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+ .debug_aranges
+                0x00000300       0x30 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .debug_aranges
+                0x00000330       0x38 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .debug_aranges
+                0x00000368       0x48 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .debug_aranges
+                0x000003b0       0x40 build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .debug_aranges
+                0x000003f0       0x18 build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x95dd
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x47a build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+ .debug_info    0x0000047a      0xe27 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .debug_info    0x000012a1      0xcfc build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .debug_info    0x00001f9d     0x1abd build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_info    0x00003a5a      0x65d build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .debug_info    0x000040b7      0x851 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ .debug_info    0x00004908      0x3e1 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene.o
+ .debug_info    0x00004ce9      0x835 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .debug_info    0x0000551e      0xac0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .debug_info    0x00005fde      0x592 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+ .debug_info    0x00006570      0x59c build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .debug_info    0x00006b0c      0x557 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+ .debug_info    0x00007063      0x50a build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .debug_info    0x0000756d      0xa48 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .debug_info    0x00007fb5      0x733 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .debug_info    0x000086e8      0xc8d build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .debug_info    0x00009375      0x268 build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+
+.debug_abbrev   0x00000000     0x2610
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1f5 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+ .debug_abbrev  0x000001f5      0x3b9 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .debug_abbrev  0x000005ae      0x2a2 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .debug_abbrev  0x00000850      0x408 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_abbrev  0x00000c58      0x1f8 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .debug_abbrev  0x00000e50      0x25e build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ .debug_abbrev  0x000010ae      0x135 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene.o
+ .debug_abbrev  0x000011e3      0x22b build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .debug_abbrev  0x0000140e      0x2a3 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .debug_abbrev  0x000016b1      0x1a0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+ .debug_abbrev  0x00001851      0x22d build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .debug_abbrev  0x00001a7e      0x1d2 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+ .debug_abbrev  0x00001c50      0x192 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .debug_abbrev  0x00001de2      0x26b build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .debug_abbrev  0x0000204d      0x214 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .debug_abbrev  0x00002261      0x2f1 build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .debug_abbrev  0x00002552       0xbe build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+
+.debug_line     0x00000000     0x51db
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x1d2 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+ .debug_line.text.board_init
+                0x000001d2       0x5e build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+ .debug_line.text.board_deinit
+                0x00000230       0x3f build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+ .debug_line.text.board_reset
+                0x0000026f       0x8c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+ .debug_line_end
+                0x000002fb        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+ .debug_line    0x000002fb      0x287 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .debug_line.text.flasher_emit_progress
+                0x00000582       0x3b build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .debug_line.text.flasher_emit_error
+                0x000005bd       0x32 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .debug_line.text.flasher_program_flash
+                0x000005ef       0x9f build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .debug_line.text.flasher_deinit
+                0x0000068e       0x27 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .debug_line.text.flasher_init
+                0x000006b5       0x35 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .debug_line.text.flasher_set_callback
+                0x000006ea       0x1e build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .debug_line.text.flasher_start
+                0x00000708      0x232 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .debug_line_end
+                0x0000093a        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .debug_line    0x0000093a      0x1fd build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .debug_line.text.rp2040_spi_txrx
+                0x00000b37       0x61 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .debug_line.text.rp2040_spi_chip_select
+                0x00000b98       0x56 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .debug_line.text.rp2040_spi_setup_txrx
+                0x00000bee       0x84 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .debug_line.text.rp2040_spi_read
+                0x00000c72       0x66 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .debug_line.text.rp2040_spi_write
+                0x00000cd8       0x68 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .debug_line.text.rp2040_init
+                0x00000d40      0x195 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .debug_line.text.rp2040_flash_erase_sector
+                0x00000ed5       0xb9 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .debug_line.text.rp2040_flash_program_page
+                0x00000f8e       0xa8 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .debug_line_end
+                0x00001036        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .debug_line    0x00001036      0x203 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_line.text.swd_tx.constprop.0
+                0x00001239      0x252 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_line.text.swd_tx_parity.constprop.0
+                0x0000148b       0xa8 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_line.text.swd_rx
+                0x00001533      0x19d build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_line.text.swd_rx_parity.constprop.0
+                0x000016d0      0x24c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_line.text.swd_tx
+                0x0000191c      0x25c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_line.text.swd_line_reset
+                0x00001b78       0x2c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_line.text.swd_write_request
+                0x00001ba4       0x88 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_line.text.swd_read_request
+                0x00001c2c       0x6b build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_line.text.swd_init
+                0x00001c97       0x3e build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_line.text.swd_deinit
+                0x00001cd5       0x3b build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_line.text.swd_select_target
+                0x00001d10       0x2e build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_line.text.swd_dp_read
+                0x00001d3e       0x1f build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_line.text.swd_dp_write
+                0x00001d5d       0x1f build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_line.text.swd_ap_read
+                0x00001d7c       0x58 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_line.text.swd_ap_write
+                0x00001dd4       0x4b build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_line_end
+                0x00001e1f        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_line    0x00001e1f      0x17b build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .debug_line.text.target_memory_access_setup
+                0x00001f9a       0x63 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .debug_line.text.target_read_memory_32
+                0x00001ffd       0x4b build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .debug_line.text.target_write_memory_32
+                0x00002048       0x4b build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .debug_line.text.target_attach
+                0x00002093      0x142 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .debug_line.text.target_detach
+                0x000021d5       0x49 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .debug_line_end
+                0x0000221e        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .debug_line    0x0000221e      0x229 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ .debug_line.text.uf2_get_block_count
+                0x00002447       0x66 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ .debug_line.text.uf2_verify_block
+                0x000024ad      0x137 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ .debug_line.text.uf2_read_block
+                0x000025e4       0x8c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ .debug_line_end
+                0x00002670        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ .debug_line    0x00002670      0x19b build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene.o
+ .debug_line_end
+                0x0000280b        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene.o
+ .debug_line    0x0000280b      0x388 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .debug_line.text.scene_confirm_button_callback
+                0x00002b93       0x42 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .debug_line.text.scene_confirm_on_enter
+                0x00002bd5       0x5d build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .debug_line.text.scene_confirm_on_event
+                0x00002c32       0x52 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .debug_line.text.scene_confirm_on_exit
+                0x00002c84       0x17 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .debug_line_end
+                0x00002c9b        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .debug_line    0x00002c9b      0x3ea build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .debug_line.text.scene_error_button_callback
+                0x00003085       0x2e build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .debug_line.text.scene_error_on_enter
+                0x000030b3       0x67 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .debug_line.text.scene_error_on_event
+                0x0000311a       0x54 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .debug_line.text.scene_error_on_exit
+                0x0000316e       0x27 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .debug_line_end
+                0x00003195        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .debug_line    0x00003195      0x33e build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+ .debug_line.text.scene_file_select_on_enter
+                0x000034d3       0x63 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+ .debug_line.text.scene_file_select_on_event
+                0x00003536       0x24 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+ .debug_line.text.scene_file_select_on_exit
+                0x0000355a       0x18 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+ .debug_line_end
+                0x00003572        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+ .debug_line    0x00003572      0x2e7 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .debug_line.text.scene_install_flasher_callback
+                0x00003859       0x60 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .debug_line.text.scene_install_on_enter
+                0x000038b9       0x2d build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .debug_line.text.scene_install_on_event
+                0x000038e6       0x24 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .debug_line.text.scene_install_on_exit
+                0x0000390a       0x17 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .debug_line_end
+                0x00003921        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .debug_line    0x00003921      0x351 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+ .debug_line.text.scene_probe_on_enter
+                0x00003c72       0x3a build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+ .debug_line.text.scene_probe_on_event
+                0x00003cac       0x47 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+ .debug_line.text.scene_probe_on_exit
+                0x00003cf3       0x26 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+ .debug_line_end
+                0x00003d19        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+ .debug_line    0x00003d19      0x2e5 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .debug_line.text.scene_start_on_enter
+                0x00003ffe       0x3a build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .debug_line.text.scene_start_on_event
+                0x00004038       0x71 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .debug_line.text.scene_start_on_exit
+                0x000040a9       0x18 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .debug_line_end
+                0x000040c1        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .debug_line    0x000040c1      0x419 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .debug_line.text.scene_success_button_callback
+                0x000044da       0x2e build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .debug_line.text.scene_success_on_enter
+                0x00004508       0x2d build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .debug_line.text.scene_success_on_event
+                0x00004535       0x44 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .debug_line.text.scene_success_on_exit
+                0x00004579       0x28 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .debug_line_end
+                0x000045a1        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .debug_line    0x000045a1      0x312 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .debug_line.text.progress_draw_callback
+                0x000048b3       0x41 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .debug_line.text.progress_alloc
+                0x000048f4       0x47 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .debug_line.text.progress_free
+                0x0000493b       0x38 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .debug_line.text.progress_get_view
+                0x00004973       0x19 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .debug_line.text.progress_set_value
+                0x0000498c       0x60 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .debug_line.text.progress_reset
+                0x000049ec       0x17 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .debug_line_end
+                0x00004a03        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .debug_line    0x00004a03      0x47b build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .debug_line.text.tick_event_callback
+                0x00004e7e       0x1b build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .debug_line.text.back_event_callback
+                0x00004e99       0x1e build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .debug_line.text.custom_event_callback
+                0x00004eb7       0x1f build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .debug_line.text.submenu_item_common_callback
+                0x00004ed6       0x1d build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .debug_line.text.vgm_tool_app
+                0x00004ef3      0x12e build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .debug_line_end
+                0x00005021        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .debug_line    0x00005021      0x1ba build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+ .debug_line_end
+                0x000051db        0x0 build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+
+.debug_frame    0x00000000      0xa0c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x60 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+ .debug_frame   0x00000060       0xf0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .debug_frame   0x00000150      0x13c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .debug_frame   0x0000028c      0x1e4 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_frame   0x00000470       0xb0 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .debug_frame   0x00000520       0x7c build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ .debug_frame   0x0000059c       0x84 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .debug_frame   0x00000620       0x84 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .debug_frame   0x000006a4       0x5c build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+ .debug_frame   0x00000700       0x78 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .debug_frame   0x00000778       0x74 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+ .debug_frame   0x000007ec       0x68 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .debug_frame   0x00000854       0x80 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .debug_frame   0x000008d4       0xc4 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .debug_frame   0x00000998       0x74 build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+
+.debug_str      0x00000000     0x77c3
+ *(.debug_str)
+ .debug_str     0x00000000      0x483 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+ .debug_str     0x00000483      0x7b3 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .debug_str     0x00000c36      0x4c3 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .debug_str     0x000010f9      0xbfa build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_str     0x00001cf3      0x410 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .debug_str     0x00002103      0x52f build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ .debug_str     0x00002632      0x575 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene.o
+ .debug_str     0x00002ba7      0x7ef build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .debug_str     0x00003396      0xcdb build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .debug_str     0x00004071      0x5e6 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+ .debug_str     0x00004657      0x5c3 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .debug_str     0x00004c1a      0x5ea build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+ .debug_str     0x00005204      0x595 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .debug_str     0x00005799      0xcb1 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .debug_str     0x0000644a      0x55a build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .debug_str     0x000069a4      0xab3 build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .debug_str     0x00007457      0x36c build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x2199
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000       0x60 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+ .debug_loclists
+                0x00000060      0x361 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .debug_loclists
+                0x000003c1      0x438 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .debug_loclists
+                0x000007f9      0x775 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_loclists
+                0x00000f6e      0x1ba build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .debug_loclists
+                0x00001128      0x342 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ .debug_loclists
+                0x0000146a      0x1fe build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .debug_loclists
+                0x00001668      0x218 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .debug_loclists
+                0x00001880       0x66 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+ .debug_loclists
+                0x000018e6      0x16a build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .debug_loclists
+                0x00001a50       0xe5 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+ .debug_loclists
+                0x00001b35      0x16d build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .debug_loclists
+                0x00001ca2      0x207 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .debug_loclists
+                0x00001ea9      0x161 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .debug_loclists
+                0x0000200a      0x18f build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x74c
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x49 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+ .debug_rnglists
+                0x00000049       0xc4 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .debug_rnglists
+                0x0000010d       0xf5 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .debug_rnglists
+                0x00000202      0x2ef build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .debug_rnglists
+                0x000004f1       0x5d build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .debug_rnglists
+                0x0000054e       0x53 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ .debug_rnglists
+                0x000005a1       0x32 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .debug_rnglists
+                0x000005d3       0x26 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .debug_rnglists
+                0x000005f9       0x1f build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+ .debug_rnglists
+                0x00000618       0x25 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .debug_rnglists
+                0x0000063d       0x1f build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+ .debug_rnglists
+                0x0000065c       0x1f build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .debug_rnglists
+                0x0000067b       0x26 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .debug_rnglists
+                0x000006a1       0x56 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .debug_rnglists
+                0x000006f7       0x55 build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/board.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/flasher.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/rp2040.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/swd.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/target.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/flasher/uf2.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_confirm.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_error.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_file_select.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_install.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_probe.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_start.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/scenes/scene_success.o
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/views/progress.o
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/app.o
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/video_game_module_tool/video_game_module_tool_icons.o
+ .ARM.attributes
+                0x00000374       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_paritysi2.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/video_game_module_tool_d.elf elf32-littlearm)
+LOAD linker stubs

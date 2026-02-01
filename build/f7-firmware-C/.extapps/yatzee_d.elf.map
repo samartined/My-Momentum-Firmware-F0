@@ -1,0 +1,380 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .text.check_if_score_used
+                0x00000000       0x12 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .bss.roll      0x00000000        0x1 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line.text.check_if_score_used
+                0x00000000       0x1d build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+ .rodata.I_yatzee_icon_10px
+                0x00000000        0xc build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+ .rodata._I_yatzee_icon_10px
+                0x00000000        0x4 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+ .rodata._I_yatzee_icon_10px_0
+                0x00000000       0x15 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/yatzee/yatzee.o
+LOAD build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xac0
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.ones     0x00000000       0x24 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .text.twos     0x00000024       0x24 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .text.threes   0x00000048       0x24 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .text.fours    0x0000006c       0x24 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .text.fives    0x00000090       0x24 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .text.sixes    0x000000b4       0x24 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .text.fullhouse
+                0x000000d8       0x78 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .text.smallstraight
+                0x00000150       0x74 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .text.largestraight
+                0x000001c4       0x7c build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .text.chance   0x00000240       0x1c build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .text.yatzee   0x0000025c       0x24 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .text.app_input_callback
+                0x00000280       0x14 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .text.app_draw_callback
+                0x00000294      0x498 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .text.add_dice
+                0x0000072c       0x1c build/f7-firmware-C/.extapps/yatzee/yatzee.o
+                0x0000072c                add_dice
+ .text.fourkind
+                0x00000748       0x38 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .text.threekind
+                0x00000780       0x38 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .text.yatzee_main
+                0x000007b8      0x308 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+                0x000007b8                yatzee_main
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000ac0      0x1ae
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.app_draw_callback.str1.1
+                0x00000ac0       0x98 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .rodata.yatzee_main.str1.1
+                0x00000b58        0x7 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .rodata.str1.1
+                0x00000b5f       0x22 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ *fill*         0x00000b81        0x3 
+ .rodata.I_die_6
+                0x00000b84        0xc build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+                0x00000b84                I_die_6
+ .rodata.I_die_5
+                0x00000b90        0xc build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+                0x00000b90                I_die_5
+ .rodata.I_die_4
+                0x00000b9c        0xc build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+                0x00000b9c                I_die_4
+ .rodata.I_die_3
+                0x00000ba8        0xc build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+                0x00000ba8                I_die_3
+ .rodata.I_die_2
+                0x00000bb4        0xc build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+                0x00000bb4                I_die_2
+ .rodata.I_die_1
+                0x00000bc0        0xc build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+                0x00000bc0                I_die_1
+ .rodata._I_die_6
+                0x00000bcc        0x4 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+                0x00000bcc                _I_die_6
+ .rodata._I_die_6_0
+                0x00000bd0       0x14 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+                0x00000bd0                _I_die_6_0
+ .rodata._I_die_5
+                0x00000be4        0x4 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+                0x00000be4                _I_die_5
+ .rodata._I_die_5_0
+                0x00000be8       0x19 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+                0x00000be8                _I_die_5_0
+ *fill*         0x00000c01        0x3 
+ .rodata._I_die_4
+                0x00000c04        0x4 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+                0x00000c04                _I_die_4
+ .rodata._I_die_4_0
+                0x00000c08       0x14 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+                0x00000c08                _I_die_4_0
+ .rodata._I_die_3
+                0x00000c1c        0x4 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+                0x00000c1c                _I_die_3
+ .rodata._I_die_3_0
+                0x00000c20       0x1b build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+                0x00000c20                _I_die_3_0
+ *fill*         0x00000c3b        0x1 
+ .rodata._I_die_2
+                0x00000c3c        0x4 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+                0x00000c3c                _I_die_2
+ .rodata._I_die_2_0
+                0x00000c40       0x17 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+                0x00000c40                _I_die_2_0
+ *fill*         0x00000c57        0x1 
+ .rodata._I_die_1
+                0x00000c58        0x4 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+                0x00000c58                _I_die_1
+ .rodata._I_die_1_0
+                0x00000c5c       0x12 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+                0x00000c5c                _I_die_1_0
+
+.data           0x00000c70      0x115
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.scorecard
+                0x00000c70       0xd0 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+                0x00000c70                scorecard
+ .data.die      0x00000d40        0xf build/f7-firmware-C/.extapps/yatzee/yatzee.o
+                0x00000d40                die
+ *fill*         0x00000d4f        0x1 
+ .data.scoreCursor
+                0x00000d50        0x8 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+                0x00000d50                scoreCursor
+ .data.cursor   0x00000d58        0x8 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+                0x00000d58                cursor
+ .data.score_positions
+                0x00000d60       0x1a build/f7-firmware-C/.extapps/yatzee/yatzee.o
+                0x00000d60                score_positions
+ .data.position
+                0x00000d7a        0xa build/f7-firmware-C/.extapps/yatzee/yatzee.o
+                0x00000d7a                position
+ .data.new_game
+                0x00000d84        0x1 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+                0x00000d84                new_game
+
+.bss            0x00000d88       0x10
+ *(.bss)
+ *(.bss*)
+ .bss.totalrolls
+                0x00000d88        0x1 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+                0x00000d88                totalrolls
+ *fill*         0x00000d89        0x3 
+ .bss.totalScore
+                0x00000d8c        0x4 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+                0x00000d8c                totalScore
+ .bss.lowerScore
+                0x00000d90        0x4 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+                0x00000d90                lowerScore
+ .bss.upperScore
+                0x00000d94        0x1 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+                0x00000d94                upperScore
+ .bss.num_bonus_yatzees
+                0x00000d95        0x1 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+                0x00000d95                num_bonus_yatzees
+ .bss.bonus_added
+                0x00000d96        0x1 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+                0x00000d96                bonus_added
+ .bss.game_over
+                0x00000d97        0x1 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+                0x00000d97                game_over
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xc0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xa8 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_aranges
+                0x000000a8       0x18 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1d10
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x19d7 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_info    0x000019d7      0x339 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+
+.debug_abbrev   0x00000000      0x544
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x48f build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_abbrev  0x0000048f       0xb5 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+
+.debug_line     0x00000000     0x1296
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3ca build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line.text.ones
+                0x000003ca       0x47 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line.text.twos
+                0x00000411       0x47 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line.text.threes
+                0x00000458       0x47 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line.text.fours
+                0x0000049f       0x47 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line.text.fives
+                0x000004e6       0x47 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line.text.sixes
+                0x0000052d       0x47 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line.text.fullhouse
+                0x00000574      0x106 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line.text.smallstraight
+                0x0000067a       0xcf build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line.text.largestraight
+                0x00000749       0xcb build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line.text.chance
+                0x00000814       0x56 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line.text.yatzee
+                0x0000086a       0x5c build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line.text.app_input_callback
+                0x000008c6       0x26 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line.text.app_draw_callback
+                0x000008ec      0x328 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line.text.add_dice
+                0x00000c14       0x56 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line.text.fourkind
+                0x00000c6a       0x8e build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line.text.threekind
+                0x00000cf8       0x8e build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line.text.yatzee_main
+                0x00000d86      0x386 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line_end
+                0x0000110c        0x0 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_line    0x0000110c      0x18a build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+ .debug_line_end
+                0x00001296        0x0 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+
+.debug_frame    0x00000000      0x1c0
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1c0 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+
+.debug_str      0x00000000      0xe0b
+ *(.debug_str)
+ .debug_str     0x00000000      0xad7 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .debug_str     0x00000ad7      0x334 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x90e
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x90e build/f7-firmware-C/.extapps/yatzee/yatzee.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x27f
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x27f build/f7-firmware-C/.extapps/yatzee/yatzee.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/yatzee/yatzee.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/yatzee/yatzee_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/yatzee_d.elf elf32-littlearm)
+LOAD linker stubs

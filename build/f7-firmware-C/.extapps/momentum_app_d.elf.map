@@ -1,0 +1,2111 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_auto_lock_timer_callback
+                0x00000000        0xc build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_clock_update
+                0x00000000       0x4c build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_clock_timer_callback
+                0x00000000       0x34 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_stealth_mode_icon_draw_callback
+                0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_lock_icon_draw_callback
+                0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .rodata.desktop_clock_draw_callback.str1.1
+                0x00000000        0xa build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_clock_draw_callback
+                0x00000000       0xa0 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_back_event_callback
+                0x00000000        0xc build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_tick_event_callback
+                0x00000000        0xc build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_auto_lock_arm
+                0x00000000       0x54 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_storage_callback
+                0x00000000       0x14 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_loader_callback
+                0x00000000       0x44 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_apply_settings
+                0x00000000       0x70 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_auto_lock_inhibit
+                0x00000000       0x38 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_auto_lock_callback
+                0x00000000       0x20 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .rodata.desktop_lock.str1.1
+                0x00000000        0xb build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_lock
+                0x00000000       0xb8 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .rodata.desktop_custom_event_callback.str1.1
+                0x00000000        0x4 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_custom_event_callback
+                0x00000000      0x104 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .rodata.desktop_unlock.str1.1
+                0x00000000        0x4 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_unlock
+                0x00000000       0xc8 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .rodata.desktop_shutdown.str1.1
+                0x00000000       0x60 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_shutdown
+                0x00000000       0xd4 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_set_stealth_mode_state
+                0x00000000       0x40 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_launch_archive
+                0x00000000       0x2c build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_api_is_locked
+                0x00000000        0xc build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_api_unlock
+                0x00000000        0xc build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_api_get_status_pubsub
+                0x00000000        0x4 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_api_reload_settings
+                0x00000000        0xc build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .rodata.desktop_srv.str1.1
+                0x00000000       0xda build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text.desktop_srv
+                0x00000000      0x4c4 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_auto_lock_timer_callback
+                0x00000000       0x1e build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_clock_update
+                0x00000000       0x5f build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_clock_timer_callback
+                0x00000000       0x44 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_stealth_mode_icon_draw_callback
+                0x00000000       0x2a build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_lock_icon_draw_callback
+                0x00000000       0x29 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_clock_draw_callback
+                0x00000000       0x95 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_back_event_callback
+                0x00000000       0x21 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_tick_event_callback
+                0x00000000       0x1e build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_auto_lock_arm
+                0x00000000       0x69 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_storage_callback
+                0x00000000       0x38 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_loader_callback
+                0x00000000       0x59 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_apply_settings
+                0x00000000       0x63 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_auto_lock_inhibit
+                0x00000000       0x59 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_auto_lock_callback
+                0x00000000       0x40 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_lock
+                0x00000000       0xa0 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_custom_event_callback
+                0x00000000       0xb5 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_unlock
+                0x00000000       0xa0 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_shutdown
+                0x00000000       0x75 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_set_stealth_mode_state
+                0x00000000       0x4b build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_launch_archive
+                0x00000000       0x36 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_api_is_locked
+                0x00000000       0x20 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_api_unlock
+                0x00000000       0x1d build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_api_get_status_pubsub
+                0x00000000       0x20 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_api_reload_settings
+                0x00000000       0x1d build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_srv
+                0x00000000      0x330 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_alloc
+                0x00000000        0xc build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_free
+                0x00000000        0x8 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .rodata.dolphin_state_save.str1.1
+                0x00000000       0x42 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_save
+                0x00000000       0x58 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .rodata.dolphin_state_load.str1.1
+                0x00000000       0x14 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_load
+                0x00000000       0x54 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_timestamp
+                0x00000000       0x20 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_is_levelup
+                0x00000000       0x20 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_xp_above_last_levelup
+                0x00000000       0x28 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_xp_to_levelup
+                0x00000000       0x28 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .rodata.dolphin_state_on_deed.str1.1
+                0x00000000       0x1b build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_on_deed
+                0x00000000      0x120 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_butthurted
+                0x00000000       0x24 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_increase_level
+                0x00000000        0xe build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_clear_limits
+                0x00000000        0xe build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_alloc
+                0x00000000       0x1a build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_free
+                0x00000000       0x18 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_save
+                0x00000000       0x4c build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_load
+                0x00000000       0x42 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_timestamp
+                0x00000000       0x28 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_is_levelup
+                0x00000000       0x47 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_xp_above_last_levelup
+                0x00000000       0x3e build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_xp_to_levelup
+                0x00000000       0x44 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_on_deed
+                0x00000000      0x191 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_butthurted
+                0x00000000       0x44 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_increase_level
+                0x00000000       0x23 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_clear_limits
+                0x00000000       0x72 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+LOAD build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x5170
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.desktop_api_get_settings
+                0x00000000        0xc build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+                0x00000000                desktop_api_get_settings
+ .text.desktop_api_set_settings
+                0x0000000c       0x18 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+                0x0000000c                desktop_api_set_settings
+ .text.dolphin_get_level
+                0x00000024       0x20 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+                0x00000024                dolphin_get_level
+ .text.momentum_app_scene_interface_var_item_list_callback
+                0x00000044        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+                0x00000044                momentum_app_scene_interface_var_item_list_callback
+ .text.momentum_app_scene_interface_on_enter
+                0x00000050       0xd0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+                0x00000050                momentum_app_scene_interface_on_enter
+ .text.momentum_app_scene_interface_on_event
+                0x00000120       0x88 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+                0x00000120                momentum_app_scene_interface_on_event
+ .text.momentum_app_scene_interface_on_exit
+                0x000001a8        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+                0x000001a8                momentum_app_scene_interface_on_exit
+ .text.momentum_app_scene_interface_filebrowser_var_item_list_callback
+                0x000001b4        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+                0x000001b4                momentum_app_scene_interface_filebrowser_var_item_list_callback
+ .text.momentum_app_scene_interface_filebrowser_favorite_timeout_changed
+                0x000001c0       0x60 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .text.momentum_app_scene_interface_filebrowser_browser_path_mode_changed
+                0x00000220       0x40 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .text.momentum_app_scene_interface_filebrowser_show_internal_tab_changed
+                0x00000260       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .text.momentum_app_scene_interface_filebrowser_show_hidden_files_changed
+                0x000002ac       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .text.momentum_app_scene_interface_filebrowser_sort_dirs_first_changed
+                0x000002f8       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .text.momentum_app_scene_interface_filebrowser_on_enter
+                0x00000344      0x168 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+                0x00000344                momentum_app_scene_interface_filebrowser_on_enter
+ .text.momentum_app_scene_interface_filebrowser_on_event
+                0x000004ac       0x28 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+                0x000004ac                momentum_app_scene_interface_filebrowser_on_event
+ .text.momentum_app_scene_interface_filebrowser_on_exit
+                0x000004d4        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+                0x000004d4                momentum_app_scene_interface_filebrowser_on_exit
+ .text.momentum_app_scene_interface_general_var_item_list_callback
+                0x000004e0        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+                0x000004e0                momentum_app_scene_interface_general_var_item_list_callback
+ .text.momentum_app_scene_interface_general_popup_overlay_changed
+                0x000004ec       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .text.momentum_app_scene_interface_general_midnight_format_changed
+                0x00000538       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .text.momentum_app_scene_interface_general_scroll_marquee_changed
+                0x00000584       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .text.momentum_app_scene_interface_general_on_enter
+                0x000005d0      0x108 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+                0x000005d0                momentum_app_scene_interface_general_on_enter
+ .text.momentum_app_scene_interface_general_on_event
+                0x000006d8       0x28 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+                0x000006d8                momentum_app_scene_interface_general_on_event
+ .text.momentum_app_scene_interface_general_on_exit
+                0x00000700        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+                0x00000700                momentum_app_scene_interface_general_on_exit
+ .text.momentum_app_scene_interface_graphics_var_item_list_callback
+                0x0000070c        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+                0x0000070c                momentum_app_scene_interface_graphics_var_item_list_callback
+ .text.momentum_app_scene_interface_graphics_unlock_anims_changed
+                0x00000718       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .text.momentum_app_scene_interface_graphics_cycle_anims_changed
+                0x00000764       0x48 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .text.momentum_app_scene_interface_graphics_anim_speed_changed
+                0x000007ac       0x48 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .text.momentum_app_scene_interface_graphics_asset_pack_changed
+                0x000007f4       0x68 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .text.momentum_app_scene_interface_graphics_on_enter
+                0x0000085c      0x158 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+                0x0000085c                momentum_app_scene_interface_graphics_on_enter
+ .text.momentum_app_scene_interface_graphics_on_event
+                0x000009b4       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+                0x000009b4                momentum_app_scene_interface_graphics_on_event
+ .text.momentum_app_scene_interface_graphics_on_exit
+                0x000009ec        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+                0x000009ec                momentum_app_scene_interface_graphics_on_exit
+ .text.momentum_app_scene_interface_graphics_pack_submenu_callback
+                0x000009f8        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+                0x000009f8                momentum_app_scene_interface_graphics_pack_submenu_callback
+ .text.momentum_app_scene_interface_graphics_pack_on_enter
+                0x00000a04       0x74 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+                0x00000a04                momentum_app_scene_interface_graphics_pack_on_enter
+ .text.momentum_app_scene_interface_graphics_pack_on_event
+                0x00000a78       0x58 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+                0x00000a78                momentum_app_scene_interface_graphics_pack_on_event
+ .text.momentum_app_scene_interface_graphics_pack_on_exit
+                0x00000ad0        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+                0x00000ad0                momentum_app_scene_interface_graphics_pack_on_exit
+ .text.momentum_app_scene_interface_lockscreen_var_item_list_callback
+                0x00000adc        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+                0x00000adc                momentum_app_scene_interface_lockscreen_var_item_list_callback
+ .text.momentum_app_scene_interface_lockscreen_lockscreen_skip_animation_changed
+                0x00000ae8       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .text.momentum_app_scene_interface_lockscreen_lockscreen_transparent_changed
+                0x00000b34       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .text.momentum_app_scene_interface_lockscreen_lockscreen_prompt_changed
+                0x00000b80       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .text.momentum_app_scene_interface_lockscreen_lockscreen_statusbar_changed
+                0x00000bcc       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .text.momentum_app_scene_interface_lockscreen_lockscreen_date_changed
+                0x00000c18       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .text.momentum_app_scene_interface_lockscreen_lockscreen_seconds_changed
+                0x00000c64       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .text.momentum_app_scene_interface_lockscreen_lockscreen_time_changed
+                0x00000cb0       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .text.momentum_app_scene_interface_lockscreen_lockscreen_poweroff_changed
+                0x00000cfc       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .text.momentum_app_scene_interface_lockscreen_allow_locked_rpc_ble_changed
+                0x00000d48       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .text.momentum_app_scene_interface_lockscreen_allow_locked_rpc_usb_changed
+                0x00000d94       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .text.momentum_app_scene_interface_lockscreen_bad_pins_format_changed
+                0x00000de0       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .text.momentum_app_scene_interface_lockscreen_lock_on_boot_changed
+                0x00000e2c       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .text.momentum_app_scene_interface_lockscreen_on_enter
+                0x00000e78      0x284 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+                0x00000e78                momentum_app_scene_interface_lockscreen_on_enter
+ .text.momentum_app_scene_interface_lockscreen_on_event
+                0x000010fc       0x28 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+                0x000010fc                momentum_app_scene_interface_lockscreen_on_event
+ .text.momentum_app_scene_interface_lockscreen_on_exit
+                0x00001124        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+                0x00001124                momentum_app_scene_interface_lockscreen_on_exit
+ .text.momentum_app_scene_interface_mainmenu_var_item_list_callback
+                0x00001130        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+                0x00001130                momentum_app_scene_interface_mainmenu_var_item_list_callback
+ .text.momentum_app_scene_interface_mainmenu_app_changed
+                0x0000113c       0x5c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .text.momentum_app_scene_interface_mainmenu_menu_style_changed
+                0x00001198       0x40 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .text.CharList_swap_at
+                0x000011d8       0x26 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ *fill*         0x000011fe        0x2 
+ .text.momentum_app_scene_interface_mainmenu_move_app_changed
+                0x00001200       0x90 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .text.CharList_remove_v
+                0x00001290       0x2c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .text.momentum_app_scene_interface_mainmenu_on_enter
+                0x000012bc      0x170 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+                0x000012bc                momentum_app_scene_interface_mainmenu_on_enter
+ .text.momentum_app_scene_interface_mainmenu_on_event
+                0x0000142c      0x12c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+                0x0000142c                momentum_app_scene_interface_mainmenu_on_event
+ .text.momentum_app_scene_interface_mainmenu_on_exit
+                0x00001558        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+                0x00001558                momentum_app_scene_interface_mainmenu_on_exit
+ .text.fap_selector_item_callback
+                0x00001564       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .text.momentum_app_scene_interface_mainmenu_add_submenu_callback
+                0x0000159c       0xe4 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .text.momentum_app_scene_interface_mainmenu_add_on_enter
+                0x00001680       0x64 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+                0x00001680                momentum_app_scene_interface_mainmenu_add_on_enter
+ .text.momentum_app_scene_interface_mainmenu_add_on_event
+                0x000016e4       0x16 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+                0x000016e4                momentum_app_scene_interface_mainmenu_add_on_event
+ *fill*         0x000016fa        0x2 
+ .text.momentum_app_scene_interface_mainmenu_add_on_exit
+                0x000016fc        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+                0x000016fc                momentum_app_scene_interface_mainmenu_add_on_exit
+ .text.momentum_app_scene_interface_mainmenu_add_main_submenu_callback
+                0x00001708       0x44 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .text.momentum_app_scene_interface_mainmenu_add_main_on_enter
+                0x0000174c       0x90 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+                0x0000174c                momentum_app_scene_interface_mainmenu_add_main_on_enter
+ .text.momentum_app_scene_interface_mainmenu_add_main_on_event
+                0x000017dc       0x16 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+                0x000017dc                momentum_app_scene_interface_mainmenu_add_main_on_event
+ *fill*         0x000017f2        0x2 
+ .text.momentum_app_scene_interface_mainmenu_add_main_on_exit
+                0x000017f4        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+                0x000017f4                momentum_app_scene_interface_mainmenu_add_main_on_exit
+ .text.momentum_app_scene_interface_mainmenu_reset_dialog_callback
+                0x00001800       0x10 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .text.momentum_app_scene_interface_mainmenu_reset_on_enter
+                0x00001810       0x88 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+                0x00001810                momentum_app_scene_interface_mainmenu_reset_on_enter
+ .text.momentum_app_scene_interface_mainmenu_reset_on_event
+                0x00001898       0x5c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+                0x00001898                momentum_app_scene_interface_mainmenu_reset_on_event
+ .text.momentum_app_scene_interface_mainmenu_reset_on_exit
+                0x000018f4        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+                0x000018f4                momentum_app_scene_interface_mainmenu_reset_on_exit
+ .text.momentum_app_scene_interface_mainmenu_style_submenu_callback
+                0x00001900        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+                0x00001900                momentum_app_scene_interface_mainmenu_style_submenu_callback
+ .text.momentum_app_scene_interface_mainmenu_style_on_enter
+                0x0000190c       0x6c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+                0x0000190c                momentum_app_scene_interface_mainmenu_style_on_enter
+ .text.momentum_app_scene_interface_mainmenu_style_on_event
+                0x00001978       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+                0x00001978                momentum_app_scene_interface_mainmenu_style_on_event
+ .text.momentum_app_scene_interface_mainmenu_style_on_exit
+                0x000019ac        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+                0x000019ac                momentum_app_scene_interface_mainmenu_style_on_exit
+ .text.momentum_app_scene_interface_statusbar_var_item_list_callback
+                0x000019b8        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+                0x000019b8                momentum_app_scene_interface_statusbar_var_item_list_callback
+ .text.momentum_app_scene_interface_statusbar_bar_background_changed
+                0x000019c4       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .text.momentum_app_scene_interface_statusbar_bar_borders_changed
+                0x00001a10       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .text.momentum_app_scene_interface_statusbar_status_icons_changed
+                0x00001a5c       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .text.momentum_app_scene_interface_statusbar_statusbar_clock_changed
+                0x00001aa8       0x44 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .text.momentum_app_scene_interface_statusbar_battery_icon_changed
+                0x00001aec       0x40 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .text.momentum_app_scene_interface_statusbar_on_enter
+                0x00001b2c      0x150 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+                0x00001b2c                momentum_app_scene_interface_statusbar_on_enter
+ .text.momentum_app_scene_interface_statusbar_on_event
+                0x00001c7c       0x28 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+                0x00001c7c                momentum_app_scene_interface_statusbar_on_event
+ .text.momentum_app_scene_interface_statusbar_on_exit
+                0x00001ca4        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+                0x00001ca4                momentum_app_scene_interface_statusbar_on_exit
+ .text.momentum_app_scene_misc_var_item_list_callback
+                0x00001cb0        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+                0x00001cb0                momentum_app_scene_misc_var_item_list_callback
+ .text.momentum_app_scene_misc_on_enter
+                0x00001cbc       0xb8 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+                0x00001cbc                momentum_app_scene_misc_on_enter
+ .text.momentum_app_scene_misc_on_event
+                0x00001d74       0xac build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+                0x00001d74                momentum_app_scene_misc_on_event
+ .text.momentum_app_scene_misc_on_exit
+                0x00001e20        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+                0x00001e20                momentum_app_scene_misc_on_exit
+ .text.momentum_app_scene_misc_dolphin_var_item_list_callback
+                0x00001e2c        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+                0x00001e2c                momentum_app_scene_misc_dolphin_var_item_list_callback
+ .text.momentum_app_scene_misc_dolphin_butthurt_timer_changed
+                0x00001e38       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .text.momentum_app_scene_misc_dolphin_dolphin_angry_changed
+                0x00001e84       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .text.momentum_app_scene_misc_dolphin_dolphin_xp_changed
+                0x00001ed0       0xc4 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .text.momentum_app_scene_misc_dolphin_dolphin_level_changed
+                0x00001f94       0xb4 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .text.momentum_app_scene_misc_dolphin_on_enter
+                0x00002048      0x19c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+                0x00002048                momentum_app_scene_misc_dolphin_on_enter
+ .text.momentum_app_scene_misc_dolphin_on_event
+                0x000021e4       0x3c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+                0x000021e4                momentum_app_scene_misc_dolphin_on_event
+ .text.momentum_app_scene_misc_dolphin_on_exit
+                0x00002220        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+                0x00002220                momentum_app_scene_misc_dolphin_on_exit
+ .text.momentum_app_scene_misc_dolphin_xp_number_input_callback
+                0x0000222c       0x10 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .text.momentum_app_scene_misc_dolphin_xp_on_enter
+                0x0000223c       0x58 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+                0x0000223c                momentum_app_scene_misc_dolphin_xp_on_enter
+ .text.momentum_app_scene_misc_dolphin_xp_on_event
+                0x00002294       0x28 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+                0x00002294                momentum_app_scene_misc_dolphin_xp_on_event
+ .text.momentum_app_scene_misc_dolphin_xp_on_exit
+                0x000022bc       0x30 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+                0x000022bc                momentum_app_scene_misc_dolphin_xp_on_exit
+ .text.momentum_app_scene_misc_screen_var_item_list_callback
+                0x000022ec        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+                0x000022ec                momentum_app_scene_misc_screen_var_item_list_callback
+ .text.momentum_app_scene_misc_screen_rgb_backlight_changed
+                0x000022f8       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .text.momentum_app_scene_misc_screen_dark_mode_changed
+                0x00002314       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .text.momentum_app_scene_misc_screen_rainbow_saturation_changed
+                0x00002360       0x54 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .text.momentum_app_scene_misc_screen_rainbow_interval_changed
+                0x000023b4       0x48 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .text.momentum_app_scene_misc_screen_rainbow_speed_changed
+                0x000023fc       0x54 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .text.momentum_app_scene_misc_screen_rainbow_lcd_changed
+                0x00002450       0x40 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .text.momentum_app_scene_misc_screen_lcd_color_changed
+                0x00002490       0x54 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .text.momentum_app_scene_misc_screen_lcd_color_2_changed
+                0x000024e4        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .text.momentum_app_scene_misc_screen_lcd_color_1_changed
+                0x000024f0        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .text.momentum_app_scene_misc_screen_lcd_color_0_changed
+                0x000024fc        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .text.momentum_app_scene_misc_screen_hand_orient_changed
+                0x00002508       0x40 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .text.momentum_app_scene_misc_screen_on_enter
+                0x00002548      0x320 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+                0x00002548                momentum_app_scene_misc_screen_on_enter
+ .text.momentum_app_scene_misc_screen_on_event
+                0x00002868      0x1b4 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+                0x00002868                momentum_app_scene_misc_screen_on_event
+ .text.momentum_app_scene_misc_screen_on_exit
+                0x00002a1c        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+                0x00002a1c                momentum_app_scene_misc_screen_on_exit
+ .text.momentum_app_scene_misc_screen_color_byte_input_callback
+                0x00002a28        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+                0x00002a28                momentum_app_scene_misc_screen_color_byte_input_callback
+ .text.momentum_app_scene_misc_screen_color_on_enter
+                0x00002a34       0x60 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+                0x00002a34                momentum_app_scene_misc_screen_color_on_enter
+ .text.momentum_app_scene_misc_screen_color_on_event
+                0x00002a94       0x48 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+                0x00002a94                momentum_app_scene_misc_screen_color_on_event
+ .text.momentum_app_scene_misc_screen_color_on_exit
+                0x00002adc       0x30 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+                0x00002adc                momentum_app_scene_misc_screen_color_on_exit
+ .text.momentum_app_scene_misc_spoof_var_item_list_callback
+                0x00002b0c        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+                0x00002b0c                momentum_app_scene_misc_spoof_var_item_list_callback
+ .text.momentum_app_scene_misc_spoof_shell_color_changed
+                0x00002b18       0x44 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .text.momentum_app_scene_misc_spoof_on_enter
+                0x00002b5c       0xa4 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+                0x00002b5c                momentum_app_scene_misc_spoof_on_enter
+ .text.momentum_app_scene_misc_spoof_on_event
+                0x00002c00       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+                0x00002c00                momentum_app_scene_misc_spoof_on_event
+ .text.momentum_app_scene_misc_spoof_on_exit
+                0x00002c38        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+                0x00002c38                momentum_app_scene_misc_spoof_on_exit
+ .text.momentum_app_scene_misc_spoof_name_text_input_callback
+                0x00002c44       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .text.momentum_app_scene_misc_spoof_name_validator
+                0x00002c5c       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .text.momentum_app_scene_misc_spoof_name_on_enter
+                0x00002c94       0x64 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+                0x00002c94                momentum_app_scene_misc_spoof_name_on_enter
+ .text.momentum_app_scene_misc_spoof_name_on_event
+                0x00002cf8       0x28 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+                0x00002cf8                momentum_app_scene_misc_spoof_name_on_event
+ .text.momentum_app_scene_misc_spoof_name_on_exit
+                0x00002d20        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+                0x00002d20                momentum_app_scene_misc_spoof_name_on_exit
+ .text.momentum_app_scene_misc_vgm_var_item_list_callback
+                0x00002d2c        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+                0x00002d2c                momentum_app_scene_misc_vgm_var_item_list_callback
+ .text.momentum_app_scene_misc_vgm_background_changed
+                0x00002d38       0x8c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .text.momentum_app_scene_misc_vgm_foreground_changed
+                0x00002dc4       0x8c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .text.momentum_app_scene_misc_vgm_on_enter
+                0x00002e50      0x1bc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+                0x00002e50                momentum_app_scene_misc_vgm_on_enter
+ .text.momentum_app_scene_misc_vgm_on_event
+                0x0000300c       0x44 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+                0x0000300c                momentum_app_scene_misc_vgm_on_event
+ .text.momentum_app_scene_misc_vgm_on_exit
+                0x00003050        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+                0x00003050                momentum_app_scene_misc_vgm_on_exit
+ .text.momentum_app_scene_misc_vgm_color_byte_input_callback
+                0x0000305c        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+                0x0000305c                momentum_app_scene_misc_vgm_color_byte_input_callback
+ .text.momentum_app_scene_misc_vgm_color_on_enter
+                0x00003068       0x78 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+                0x00003068                momentum_app_scene_misc_vgm_color_on_enter
+ .text.momentum_app_scene_misc_vgm_color_on_event
+                0x000030e0       0x60 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+                0x000030e0                momentum_app_scene_misc_vgm_color_on_event
+ .text.momentum_app_scene_misc_vgm_color_on_exit
+                0x00003140       0x30 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+                0x00003140                momentum_app_scene_misc_vgm_color_on_exit
+ .text.momentum_app_scene_protocols_var_item_list_callback
+                0x00003170        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+                0x00003170                momentum_app_scene_protocols_var_item_list_callback
+ .text.momentum_app_scene_protocols_subghz_extend_changed
+                0x0000317c       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .text.momentum_app_scene_protocols_subghz_bypass_changed
+                0x00003198       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .text.momentum_app_scene_protocols_file_naming_prefix_changed
+                0x000031b4       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .text.momentum_app_scene_protocols_on_enter
+                0x00003200      0x144 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+                0x00003200                momentum_app_scene_protocols_on_enter
+ .text.momentum_app_scene_protocols_on_event
+                0x00003344      0x17c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+                0x00003344                momentum_app_scene_protocols_on_event
+ .text.momentum_app_scene_protocols_on_exit
+                0x000034c0        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+                0x000034c0                momentum_app_scene_protocols_on_exit
+ .text.momentum_app_scene_protocols_freqs_var_item_list_callback
+                0x000034cc        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+                0x000034cc                momentum_app_scene_protocols_freqs_var_item_list_callback
+ .text.momentum_app_scene_protocols_freqs_use_defaults_changed
+                0x000034d8       0x48 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .text.momentum_app_scene_protocols_freqs_on_enter
+                0x00003520       0xb8 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+                0x00003520                momentum_app_scene_protocols_freqs_on_enter
+ .text.momentum_app_scene_protocols_freqs_on_event
+                0x000035d8       0x54 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+                0x000035d8                momentum_app_scene_protocols_freqs_on_event
+ .text.momentum_app_scene_protocols_freqs_on_exit
+                0x0000362c        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+                0x0000362c                momentum_app_scene_protocols_freqs_on_exit
+ .text.callback_return
+                0x00003638        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+                0x00003638                callback_return
+ .text.FrequencyList_push_back
+                0x00003644       0x24 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .text.momentum_app_scene_protocols_freqs_add_number_input_callback
+                0x00003668       0x58 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .text.momentum_app_scene_protocols_freqs_add_on_enter
+                0x000036c0       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+                0x000036c0                momentum_app_scene_protocols_freqs_add_on_enter
+ .text.momentum_app_scene_protocols_freqs_add_on_event
+                0x0000370c       0xa4 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+                0x0000370c                momentum_app_scene_protocols_freqs_add_on_event
+ .text.momentum_app_scene_protocols_freqs_add_on_exit
+                0x000037b0       0x30 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+                0x000037b0                momentum_app_scene_protocols_freqs_add_on_exit
+ .text.momentum_app_scene_protocols_freqs_hopper_var_item_list_callback
+                0x000037e0        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+                0x000037e0                momentum_app_scene_protocols_freqs_hopper_var_item_list_callback
+ .text.FrequencyList_size.isra.0
+                0x000037ec        0xe build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ *fill*         0x000037fa        0x2 
+ .text.FrequencyList_get.isra.0
+                0x000037fc       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .text.momentum_app_scene_protocols_freqs_hopper_frequency_changed
+                0x00003818       0x74 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .text.momentum_app_scene_protocols_freqs_hopper_on_enter
+                0x0000388c      0x108 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+                0x0000388c                momentum_app_scene_protocols_freqs_hopper_on_enter
+ .text.momentum_app_scene_protocols_freqs_hopper_on_event
+                0x00003994      0x150 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+                0x00003994                momentum_app_scene_protocols_freqs_hopper_on_event
+ .text.momentum_app_scene_protocols_freqs_hopper_on_exit
+                0x00003ae4        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+                0x00003ae4                momentum_app_scene_protocols_freqs_hopper_on_exit
+ .text.momentum_app_scene_protocols_freqs_static_var_item_list_callback
+                0x00003af0        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+                0x00003af0                momentum_app_scene_protocols_freqs_static_var_item_list_callback
+ .text.FrequencyList_size.isra.0
+                0x00003afc        0xe build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ *fill*         0x00003b0a        0x2 
+ .text.FrequencyList_get.isra.0
+                0x00003b0c       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .text.momentum_app_scene_protocols_freqs_static_frequency_changed
+                0x00003b28       0x70 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .text.momentum_app_scene_protocols_freqs_static_on_enter
+                0x00003b98      0x104 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+                0x00003b98                momentum_app_scene_protocols_freqs_static_on_enter
+ .text.momentum_app_scene_protocols_freqs_static_on_event
+                0x00003c9c      0x148 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+                0x00003c9c                momentum_app_scene_protocols_freqs_static_on_event
+ .text.momentum_app_scene_protocols_freqs_static_on_exit
+                0x00003de4        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+                0x00003de4                momentum_app_scene_protocols_freqs_static_on_exit
+ .text.momentum_app_scene_protocols_gpio_var_item_list_callback
+                0x00003df0        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+                0x00003df0                momentum_app_scene_protocols_gpio_var_item_list_callback
+ .text.momentum_app_scene_protocols_gpio_nmea_channel_changed
+                0x00003dfc       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .text.momentum_app_scene_protocols_gpio_esp32_channel_changed
+                0x00003e48       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .text.momentum_app_scene_protocols_gpio_nrf24_handle_changed
+                0x00003e94       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .text.momentum_app_scene_protocols_gpio_cc1101_handle_changed
+                0x00003ee0       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .text.momentum_app_scene_protocols_gpio_on_enter
+                0x00003f2c      0x134 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+                0x00003f2c                momentum_app_scene_protocols_gpio_on_enter
+ .text.momentum_app_scene_protocols_gpio_on_event
+                0x00004060       0x28 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+                0x00004060                momentum_app_scene_protocols_gpio_on_event
+ .text.momentum_app_scene_protocols_gpio_on_exit
+                0x00004088        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+                0x00004088                momentum_app_scene_protocols_gpio_on_exit
+ .text.momentum_app_scene_start_var_item_list_callback
+                0x00004094        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+                0x00004094                momentum_app_scene_start_var_item_list_callback
+ .text.momentum_app_scene_start_on_enter
+                0x000040a0       0xac build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+                0x000040a0                momentum_app_scene_start_on_enter
+ .text.momentum_app_scene_start_on_event
+                0x0000414c       0x60 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+                0x0000414c                momentum_app_scene_start_on_event
+ .text.momentum_app_scene_start_on_exit
+                0x000041ac        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+                0x000041ac                momentum_app_scene_start_on_exit
+ .text.callback_reboot
+                0x000041b8       0x20 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+                0x000041b8                callback_reboot
+ .text.CharList_push_raw
+                0x000041d8       0x50 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .text.FrequencyList_push_back
+                0x00004228       0x24 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .text.CharList_clear
+                0x0000424c       0x1c build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .text.momentum_app_custom_event_callback
+                0x00004268        0xc build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .text.momentum_app_push_mainmenu_app_raw
+                0x00004274       0xc8 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .text.momentum_app_apply
+                0x0000433c      0x3dc build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+                0x0000433c                momentum_app_apply
+ .text.momentum_app_back_event_callback
+                0x00004718       0x30 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .text.momentum_app_push_mainmenu_app
+                0x00004748      0x110 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+                0x00004748                momentum_app_push_mainmenu_app
+ .text.momentum_app_load_mainmenu_apps
+                0x00004858      0x19c build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+                0x00004858                momentum_app_load_mainmenu_apps
+ .text.momentum_app_empty_mainmenu_apps
+                0x000049f4       0x3c build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+                0x000049f4                momentum_app_empty_mainmenu_apps
+ .text.momentum_app_alloc
+                0x00004a30      0x5a4 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+                0x00004a30                momentum_app_alloc
+ .text.momentum_app_free
+                0x00004fd4      0x148 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+                0x00004fd4                momentum_app_free
+ .text.momentum_app
+                0x0000511c       0x54 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+                0x0000511c                momentum_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00005170     0x1349
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.DOLPHIN_LEVEL_COUNT
+                0x00005170        0x4 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+                0x00005170                DOLPHIN_LEVEL_COUNT
+ .rodata.DOLPHIN_LEVELS
+                0x00005174       0x74 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+                0x00005174                DOLPHIN_LEVELS
+ .rodata.momentum_app_scene_handlers
+                0x000051e8       0x10 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene.o
+                0x000051e8                momentum_app_scene_handlers
+ .rodata.momentum_app_on_exit_handlers
+                0x000051f8       0x70 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene.o
+                0x000051f8                momentum_app_on_exit_handlers
+ .rodata.momentum_app_on_event_handlers
+                0x00005268       0x70 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene.o
+                0x00005268                momentum_app_on_event_handlers
+ .rodata.momentum_app_on_enter_handlers
+                0x000052d8       0x70 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene.o
+                0x000052d8                momentum_app_on_enter_handlers
+ .rodata.momentum_app_scene_interface_on_enter.str1.1
+                0x00005348       0x3e build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .rodata.momentum_app_scene_interface_filebrowser_favorite_timeout_changed.str1.1
+                0x00005386        0xa build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .rodata.momentum_app_scene_interface_filebrowser_show_internal_tab_changed.str1.1
+                0x00005390        0x3 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .rodata.momentum_app_scene_interface_filebrowser_on_enter.str1.1
+                0x00005393       0x53 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .rodata.str1.1
+                0x000053e6       0x13 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ *fill*         0x000053f9        0x3 
+ .rodata.browser_path_names
+                0x000053fc       0x10 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+                0x000053fc                browser_path_names
+ .rodata.momentum_app_scene_interface_general_popup_overlay_changed.str1.1
+                0x0000540c        0x7 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .rodata.momentum_app_scene_interface_general_midnight_format_changed.str1.1
+                0x00005413        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .rodata.momentum_app_scene_interface_general_scroll_marquee_changed.str1.1
+                0x0000541f       0x11 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .rodata.momentum_app_scene_interface_general_on_enter.str1.1
+                0x00005430       0x36 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .rodata.momentum_app_scene_interface_graphics_unlock_anims_changed.str1.1
+                0x00005466        0x7 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .rodata.momentum_app_scene_interface_graphics_asset_pack_changed.str1.1
+                0x0000546d        0x9 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .rodata.momentum_app_scene_interface_graphics_on_enter.str1.1
+                0x00005476       0x2f build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ *fill*         0x000054a5        0x3 
+ .rodata.cycle_anims_values
+                0x000054a8       0x3c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+                0x000054a8                cycle_anims_values
+ .rodata.str1.1
+                0x000054e4       0x7d build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ *fill*         0x00005561        0x3 
+ .rodata.cycle_anims_names
+                0x00005564       0x3c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+                0x00005564                cycle_anims_names
+ .rodata.anim_speed_values
+                0x000055a0       0x30 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+                0x000055a0                anim_speed_values
+ .rodata.anim_speed_names
+                0x000055d0       0x30 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+                0x000055d0                anim_speed_names
+ .rodata.momentum_app_scene_interface_graphics_pack_on_enter.str1.1
+                0x00005600       0x1b build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .rodata.momentum_app_scene_interface_graphics_pack_on_event.str1.1
+                0x0000561b        0x1 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .rodata.momentum_app_scene_interface_lockscreen_lockscreen_skip_animation_changed.str1.1
+                0x0000561c        0x7 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .rodata.momentum_app_scene_interface_lockscreen_on_enter.str1.1
+                0x00005623       0xe4 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .rodata.momentum_app_scene_interface_mainmenu_app_changed.str1.1
+                0x00005707        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .rodata.momentum_app_scene_interface_mainmenu_on_enter.str1.1
+                0x00005713       0x62 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .rodata.str1.1
+                0x00005775       0x35 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ *fill*         0x000057aa        0x2 
+ .rodata.menu_style_names
+                0x000057ac       0x24 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+                0x000057ac                menu_style_names
+ .rodata.fap_selector_item_callback.str1.1
+                0x000057d0        0x8 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .rodata.momentum_app_scene_interface_mainmenu_add_submenu_callback.str1.1
+                0x000057d8       0x16 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .rodata.momentum_app_scene_interface_mainmenu_add_on_enter.str1.1
+                0x000057ee       0x42 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .rodata.momentum_app_scene_interface_mainmenu_reset_on_enter.str1.1
+                0x00005830       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .rodata.momentum_app_scene_interface_mainmenu_reset_on_event.str1.1
+                0x00005868       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .rodata.momentum_app_scene_interface_mainmenu_style_on_enter.str1.1
+                0x00005880       0x13 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .rodata.momentum_app_scene_interface_statusbar_bar_background_changed.str1.1
+                0x00005893        0x7 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .rodata.momentum_app_scene_interface_statusbar_on_enter.str1.1
+                0x0000589a       0x40 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .rodata.str1.1
+                0x000058da       0x23 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ *fill*         0x000058fd        0x3 
+ .rodata.battery_icon_names
+                0x00005900       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+                0x00005900                battery_icon_names
+ .rodata.momentum_app_scene_misc_on_enter.str1.1
+                0x0000591c       0x42 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .rodata.momentum_app_scene_misc_on_event.str1.1
+                0x0000595e       0x2b build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .rodata.momentum_app_scene_misc_dolphin_dolphin_angry_changed.str1.1
+                0x00005989        0x4 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .rodata.momentum_app_scene_misc_dolphin_dolphin_xp_changed.str1.1
+                0x0000598d        0x3 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .rodata.momentum_app_scene_misc_dolphin_on_enter.str1.1
+                0x00005990       0x62 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ *fill*         0x000059f2        0x2 
+ .rodata.butthurt_timer_values
+                0x000059f4       0x28 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+                0x000059f4                butthurt_timer_values
+ .rodata.str1.1
+                0x00005a1c       0x2c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .rodata.butthurt_timer_names
+                0x00005a48       0x28 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+                0x00005a48                butthurt_timer_names
+ .rodata.momentum_app_scene_misc_dolphin_xp_on_enter.str1.1
+                0x00005a70       0x17 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .rodata.momentum_app_scene_misc_dolphin_xp_on_exit.str1.1
+                0x00005a87        0x1 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .rodata.momentum_app_scene_misc_screen_dark_mode_changed.str1.1
+                0x00005a88        0x7 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .rodata.momentum_app_scene_misc_screen_rainbow_saturation_changed.str1.1
+                0x00005a8f        0x3 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .rodata.momentum_app_scene_misc_screen_on_enter.str1.1
+                0x00005a92       0x8f build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .rodata.momentum_app_scene_misc_screen_on_event.str1.1
+                0x00005b21       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ *fill*         0x00005b72        0x2 
+ .rodata.rainbow_interval_values
+                0x00005b74       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+                0x00005b74                rainbow_interval_values
+ .rodata.str1.1
+                0x00005bac       0xc7 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ *fill*         0x00005c73        0x1 
+ .rodata.rainbow_interval_names
+                0x00005c74       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+                0x00005c74                rainbow_interval_names
+ .rodata.rainbow_lcd_names
+                0x00005cac        0xc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+                0x00005cac                rainbow_lcd_names
+ .rodata.lcd_cols
+                0x00005cb8       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .rodata.lcd_colors
+                0x00005cd0       0x98 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .rodata.momentum_app_scene_misc_screen_color_on_enter.str1.1
+                0x00005d68       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .rodata.momentum_app_scene_misc_screen_color_on_exit.str1.1
+                0x00005d80        0x1 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .rodata.momentum_app_scene_misc_spoof_on_enter.str1.1
+                0x00005d81       0x19 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .rodata.str1.1
+                0x00005d9a       0x1d build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ *fill*         0x00005db7        0x1 
+ .rodata.shell_color_names
+                0x00005db8       0x10 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+                0x00005db8                shell_color_names
+ .rodata.momentum_app_scene_misc_spoof_name_validator.str1.1
+                0x00005dc8       0x27 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .rodata.momentum_app_scene_misc_spoof_name_on_enter.str1.1
+                0x00005def       0x1a build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .rodata.momentum_app_scene_misc_vgm_background_changed.str1.1
+                0x00005e09       0x17 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .rodata.momentum_app_scene_misc_vgm_on_enter.str1.1
+                0x00005e20       0x23 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .rodata.str1.1
+                0x00005e43       0x6f build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ *fill*         0x00005eb2        0x2 
+ .rodata.vgm_colors
+                0x00005eb4       0xb0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .rodata.momentum_app_scene_misc_vgm_color_on_enter.str1.1
+                0x00005f64       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .rodata.momentum_app_scene_misc_vgm_color_on_exit.str1.1
+                0x00005f7c        0x1 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .rodata.momentum_app_scene_protocols_file_naming_prefix_changed.str1.1
+                0x00005f7d        0xd build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .rodata.momentum_app_scene_protocols_on_enter.str1.1
+                0x00005f8a       0x85 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .rodata.momentum_app_scene_protocols_on_event.str1.1
+                0x0000600f       0xb3 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .rodata.momentum_app_scene_protocols_freqs_use_defaults_changed.str1.1
+                0x000060c2        0x7 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .rodata.momentum_app_scene_protocols_freqs_on_enter.str1.1
+                0x000060c9       0x29 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .rodata.momentum_app_scene_protocols_freqs_add_on_enter.str1.1
+                0x000060f2       0x1c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .rodata.momentum_app_scene_protocols_freqs_add_on_event.str1.1
+                0x0000610e       0x39 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .rodata.momentum_app_scene_protocols_freqs_add_on_exit.str1.1
+                0x00006147        0x1 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .rodata.momentum_app_scene_protocols_freqs_hopper_frequency_changed.str1.1
+                0x00006148        0xa build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .rodata.momentum_app_scene_protocols_freqs_hopper_on_enter.str1.1
+                0x00006152       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .rodata.momentum_app_scene_protocols_freqs_static_frequency_changed.str1.1
+                0x00006186        0xa build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .rodata.momentum_app_scene_protocols_freqs_static_on_enter.str1.1
+                0x00006190       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .rodata.momentum_app_scene_protocols_gpio_nmea_channel_changed.str1.1
+                0x000061c4       0x1a build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .rodata.momentum_app_scene_protocols_gpio_nrf24_handle_changed.str1.1
+                0x000061de       0x12 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .rodata.momentum_app_scene_protocols_gpio_on_enter.str1.1
+                0x000061f0       0x33 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .rodata.momentum_app_scene_start_on_enter.str1.1
+                0x00006223       0x1b build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .rodata.callback_reboot.str1.1
+                0x0000623e        0x6 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .rodata.momentum_app_push_mainmenu_app_raw.str1.1
+                0x00006244       0x34 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .rodata.momentum_app_apply.str1.1
+                0x00006278      0x1af build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .rodata.momentum_app_push_mainmenu_app.str1.1
+                0x00006427        0x2 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .rodata.momentum_app_load_mainmenu_apps.str1.1
+                0x00006429       0x25 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .rodata.momentum_app_alloc.str1.1
+                0x0000644e       0x60 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .rodata.momentum_app.str1.1
+                0x000064ae        0xb build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0xa60
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xf0 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_aranges
+                0x000000f0       0x80 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_aranges
+                0x00000170       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene.o
+ .debug_aranges
+                0x00000188       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .debug_aranges
+                0x000001c0       0x60 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .debug_aranges
+                0x00000220       0x50 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .debug_aranges
+                0x00000270       0x58 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .debug_aranges
+                0x000002c8       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .debug_aranges
+                0x00000300       0x98 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_aranges
+                0x00000398       0x60 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .debug_aranges
+                0x000003f8       0x40 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .debug_aranges
+                0x00000438       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .debug_aranges
+                0x00000470       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .debug_aranges
+                0x000004a8       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .debug_aranges
+                0x000004e0       0x60 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .debug_aranges
+                0x00000540       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .debug_aranges
+                0x00000578       0x58 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .debug_aranges
+                0x000005d0       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .debug_aranges
+                0x00000608       0x90 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_aranges
+                0x00000698       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .debug_aranges
+                0x000006d0       0x40 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .debug_aranges
+                0x00000710       0x40 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .debug_aranges
+                0x00000750       0x48 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .debug_aranges
+                0x00000798       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .debug_aranges
+                0x000007d0       0x50 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .debug_aranges
+                0x00000820       0x40 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .debug_aranges
+                0x00000860       0x48 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .debug_aranges
+                0x000008a8       0x50 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .debug_aranges
+                0x000008f8       0x50 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .debug_aranges
+                0x00000948       0x58 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .debug_aranges
+                0x000009a0       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .debug_aranges
+                0x000009d8       0x88 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x31a33
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x4a53 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_info    0x00004a53      0xd9f build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_info    0x000057f2      0x90c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene.o
+ .debug_info    0x000060fe     0x1227 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .debug_info    0x00007325     0x199a build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .debug_info    0x00008cbf     0x169b build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .debug_info    0x0000a35a     0x1ad2 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .debug_info    0x0000be2c     0x13ce build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .debug_info    0x0000d1fa     0x1ea0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_info    0x0000f09a     0x1f75 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .debug_info    0x0001100f     0x13bb build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .debug_info    0x000123ca     0x1161 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .debug_info    0x0001352b     0x10ad build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .debug_info    0x000145d8     0x12c0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .debug_info    0x00015898     0x18da build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .debug_info    0x00017172     0x126f build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .debug_info    0x000183e1     0x1ccc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .debug_info    0x0001a0ad      0xeaf build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .debug_info    0x0001af5c     0x2a67 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_info    0x0001d9c3      0xfe7 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .debug_info    0x0001e9aa     0x15ed build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .debug_info    0x0001ff97      0xf85 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .debug_info    0x00020f1c     0x19cc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .debug_info    0x000228e8     0x1399 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .debug_info    0x00023c81     0x1abc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .debug_info    0x0002573d     0x11cd build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .debug_info    0x0002690a     0x130f build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .debug_info    0x00027c19     0x1759 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .debug_info    0x00029372     0x175a build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .debug_info    0x0002aacc     0x1736 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .debug_info    0x0002c202     0x115e build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .debug_info    0x0002d360     0x46d3 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+
+.debug_abbrev   0x00000000     0x5db9
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x5c8 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_abbrev  0x000005c8      0x2ac build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_abbrev  0x00000874      0x137 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene.o
+ .debug_abbrev  0x000009ab      0x257 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .debug_abbrev  0x00000c02      0x2b9 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .debug_abbrev  0x00000ebb      0x291 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .debug_abbrev  0x0000114c      0x30c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .debug_abbrev  0x00001458      0x2b3 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .debug_abbrev  0x0000170b      0x2c0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_abbrev  0x000019cb      0x3a2 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .debug_abbrev  0x00001d6d      0x359 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .debug_abbrev  0x000020c6      0x2bb build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .debug_abbrev  0x00002381      0x24e build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .debug_abbrev  0x000025cf      0x27e build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .debug_abbrev  0x0000284d      0x293 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .debug_abbrev  0x00002ae0      0x276 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .debug_abbrev  0x00002d56      0x2d3 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .debug_abbrev  0x00003029      0x26a build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .debug_abbrev  0x00003293      0x42b build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_abbrev  0x000036be      0x254 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .debug_abbrev  0x00003912      0x282 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .debug_abbrev  0x00003b94      0x299 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .debug_abbrev  0x00003e2d      0x2e0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .debug_abbrev  0x0000410d      0x277 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .debug_abbrev  0x00004384      0x2bd build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .debug_abbrev  0x00004641      0x270 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .debug_abbrev  0x000048b1      0x345 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .debug_abbrev  0x00004bf6      0x396 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .debug_abbrev  0x00004f8c      0x396 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .debug_abbrev  0x00005322      0x280 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .debug_abbrev  0x000055a2      0x257 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .debug_abbrev  0x000057f9      0x5c0 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+
+.debug_line     0x00000000    0x1155a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0xa4f build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_api_get_settings
+                0x00000a4f       0x2a build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_api_set_settings
+                0x00000a79       0x2e build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line_end
+                0x00000aa7        0x0 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_line    0x00000aa7      0x38a build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_get_level
+                0x00000e31       0x4c build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_line_end
+                0x00000e7d        0x0 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_line    0x00000e7d      0x1b4 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene.o
+ .debug_line_end
+                0x00001031        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene.o
+ .debug_line    0x00001031      0x5cf build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .debug_line.text.momentum_app_scene_interface_var_item_list_callback
+                0x00001600       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .debug_line.text.momentum_app_scene_interface_on_enter
+                0x00001618       0x76 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .debug_line.text.momentum_app_scene_interface_on_event
+                0x0000168e       0x5c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .debug_line.text.momentum_app_scene_interface_on_exit
+                0x000016ea       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .debug_line_end
+                0x00001702        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .debug_line    0x00001702      0x6b6 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .debug_line.text.momentum_app_scene_interface_filebrowser_var_item_list_callback
+                0x00001db8       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .debug_line.text.momentum_app_scene_interface_filebrowser_favorite_timeout_changed
+                0x00001dd0       0x53 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .debug_line.text.momentum_app_scene_interface_filebrowser_browser_path_mode_changed
+                0x00001e23       0x4e build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .debug_line.text.momentum_app_scene_interface_filebrowser_show_internal_tab_changed
+                0x00001e71       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .debug_line.text.momentum_app_scene_interface_filebrowser_show_hidden_files_changed
+                0x00001ec2       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .debug_line.text.momentum_app_scene_interface_filebrowser_sort_dirs_first_changed
+                0x00001f13       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .debug_line.text.momentum_app_scene_interface_filebrowser_on_enter
+                0x00001f64       0xaf build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .debug_line.text.momentum_app_scene_interface_filebrowser_on_event
+                0x00002013       0x3f build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .debug_line.text.momentum_app_scene_interface_filebrowser_on_exit
+                0x00002052       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .debug_line_end
+                0x0000206a        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .debug_line    0x0000206a      0x623 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .debug_line.text.momentum_app_scene_interface_general_var_item_list_callback
+                0x0000268d       0x16 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .debug_line.text.momentum_app_scene_interface_general_popup_overlay_changed
+                0x000026a3       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .debug_line.text.momentum_app_scene_interface_general_midnight_format_changed
+                0x000026f4       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .debug_line.text.momentum_app_scene_interface_general_scroll_marquee_changed
+                0x00002745       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .debug_line.text.momentum_app_scene_interface_general_on_enter
+                0x00002796       0x7d build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .debug_line.text.momentum_app_scene_interface_general_on_event
+                0x00002813       0x39 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .debug_line.text.momentum_app_scene_interface_general_on_exit
+                0x0000284c       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .debug_line_end
+                0x00002864        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .debug_line    0x00002864      0x6c5 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .debug_line.text.momentum_app_scene_interface_graphics_var_item_list_callback
+                0x00002f29       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .debug_line.text.momentum_app_scene_interface_graphics_unlock_anims_changed
+                0x00002f41       0x52 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .debug_line.text.momentum_app_scene_interface_graphics_cycle_anims_changed
+                0x00002f93       0x52 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .debug_line.text.momentum_app_scene_interface_graphics_anim_speed_changed
+                0x00002fe5       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .debug_line.text.momentum_app_scene_interface_graphics_asset_pack_changed
+                0x00003036      0x125 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .debug_line.text.momentum_app_scene_interface_graphics_on_enter
+                0x0000315b      0x1ec build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .debug_line.text.momentum_app_scene_interface_graphics_on_event
+                0x00003347       0x4b build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .debug_line.text.momentum_app_scene_interface_graphics_on_exit
+                0x00003392       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .debug_line_end
+                0x000033aa        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .debug_line    0x000033aa      0x651 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .debug_line.text.momentum_app_scene_interface_graphics_pack_submenu_callback
+                0x000039fb       0x16 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .debug_line.text.momentum_app_scene_interface_graphics_pack_on_enter
+                0x00003a11       0xfe build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .debug_line.text.momentum_app_scene_interface_graphics_pack_on_event
+                0x00003b0f       0xe2 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .debug_line.text.momentum_app_scene_interface_graphics_pack_on_exit
+                0x00003bf1       0x17 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .debug_line_end
+                0x00003c08        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .debug_line    0x00003c08      0x626 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_line.text.momentum_app_scene_interface_lockscreen_var_item_list_callback
+                0x0000422e       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_line.text.momentum_app_scene_interface_lockscreen_lockscreen_skip_animation_changed
+                0x00004246       0x52 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_line.text.momentum_app_scene_interface_lockscreen_lockscreen_transparent_changed
+                0x00004298       0x52 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_line.text.momentum_app_scene_interface_lockscreen_lockscreen_prompt_changed
+                0x000042ea       0x52 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_line.text.momentum_app_scene_interface_lockscreen_lockscreen_statusbar_changed
+                0x0000433c       0x52 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_line.text.momentum_app_scene_interface_lockscreen_lockscreen_date_changed
+                0x0000438e       0x52 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_line.text.momentum_app_scene_interface_lockscreen_lockscreen_seconds_changed
+                0x000043e0       0x52 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_line.text.momentum_app_scene_interface_lockscreen_lockscreen_time_changed
+                0x00004432       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_line.text.momentum_app_scene_interface_lockscreen_lockscreen_poweroff_changed
+                0x00004483       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_line.text.momentum_app_scene_interface_lockscreen_allow_locked_rpc_ble_changed
+                0x000044d4       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_line.text.momentum_app_scene_interface_lockscreen_allow_locked_rpc_usb_changed
+                0x00004525       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_line.text.momentum_app_scene_interface_lockscreen_bad_pins_format_changed
+                0x00004576       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_line.text.momentum_app_scene_interface_lockscreen_lock_on_boot_changed
+                0x000045c7       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_line.text.momentum_app_scene_interface_lockscreen_on_enter
+                0x00004618      0x11f build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_line.text.momentum_app_scene_interface_lockscreen_on_event
+                0x00004737       0x3f build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_line.text.momentum_app_scene_interface_lockscreen_on_exit
+                0x00004776       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_line_end
+                0x0000478e        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_line    0x0000478e      0x6cb build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_var_item_list_callback
+                0x00004e59       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_app_changed
+                0x00004e71       0x79 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_menu_style_changed
+                0x00004eea       0x4e build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .debug_line.text.CharList_swap_at
+                0x00004f38       0x3b build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_move_app_changed
+                0x00004f73       0xab build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .debug_line.text.CharList_remove_v
+                0x0000501e       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_on_enter
+                0x00005052       0xec build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_on_event
+                0x0000513e      0x17a build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_on_exit
+                0x000052b8       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .debug_line_end
+                0x000052d0        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .debug_line    0x000052d0      0x661 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .debug_line.text.fap_selector_item_callback
+                0x00005931       0x49 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_add_submenu_callback
+                0x0000597a       0xba build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_add_on_enter
+                0x00005a34       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_add_on_event
+                0x00005a6c       0x2b build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_add_on_exit
+                0x00005a97       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .debug_line_end
+                0x00005aaf        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .debug_line    0x00005aaf      0x61f build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_add_main_submenu_callback
+                0x000060ce       0x68 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_add_main_on_enter
+                0x00006136       0xb6 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_add_main_on_event
+                0x000061ec       0x2a build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_add_main_on_exit
+                0x00006216       0x17 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .debug_line_end
+                0x0000622d        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .debug_line    0x0000622d      0x5be build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_reset_dialog_callback
+                0x000067eb       0x1e build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_reset_on_enter
+                0x00006809       0x36 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_reset_on_event
+                0x0000683f       0x58 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_reset_on_exit
+                0x00006897       0x19 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .debug_line_end
+                0x000068b0        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .debug_line    0x000068b0      0x5e2 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_style_submenu_callback
+                0x00006e92       0x16 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_style_on_enter
+                0x00006ea8       0x64 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_style_on_event
+                0x00006f0c       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .debug_line.text.momentum_app_scene_interface_mainmenu_style_on_exit
+                0x00006f58       0x17 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .debug_line_end
+                0x00006f6f        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .debug_line    0x00006f6f      0x637 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .debug_line.text.momentum_app_scene_interface_statusbar_var_item_list_callback
+                0x000075a6       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .debug_line.text.momentum_app_scene_interface_statusbar_bar_background_changed
+                0x000075be       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .debug_line.text.momentum_app_scene_interface_statusbar_bar_borders_changed
+                0x0000760f       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .debug_line.text.momentum_app_scene_interface_statusbar_status_icons_changed
+                0x00007660       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .debug_line.text.momentum_app_scene_interface_statusbar_statusbar_clock_changed
+                0x000076b1       0x4e build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .debug_line.text.momentum_app_scene_interface_statusbar_battery_icon_changed
+                0x000076ff       0x4e build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .debug_line.text.momentum_app_scene_interface_statusbar_on_enter
+                0x0000774d       0xa9 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .debug_line.text.momentum_app_scene_interface_statusbar_on_event
+                0x000077f6       0x3f build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .debug_line.text.momentum_app_scene_interface_statusbar_on_exit
+                0x00007835       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .debug_line_end
+                0x0000784d        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .debug_line    0x0000784d      0x5e6 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .debug_line.text.momentum_app_scene_misc_var_item_list_callback
+                0x00007e33       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .debug_line.text.momentum_app_scene_misc_on_enter
+                0x00007e4b       0x65 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .debug_line.text.momentum_app_scene_misc_on_event
+                0x00007eb0       0x93 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .debug_line.text.momentum_app_scene_misc_on_exit
+                0x00007f43       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .debug_line_end
+                0x00007f5b        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .debug_line    0x00007f5b      0x6cc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .debug_line.text.momentum_app_scene_misc_dolphin_var_item_list_callback
+                0x00008627       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .debug_line.text.momentum_app_scene_misc_dolphin_butthurt_timer_changed
+                0x0000863f       0x5a build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .debug_line.text.momentum_app_scene_misc_dolphin_dolphin_angry_changed
+                0x00008699       0x52 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .debug_line.text.momentum_app_scene_misc_dolphin_dolphin_xp_changed
+                0x000086eb      0x11f build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .debug_line.text.momentum_app_scene_misc_dolphin_dolphin_level_changed
+                0x0000880a      0x10f build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .debug_line.text.momentum_app_scene_misc_dolphin_on_enter
+                0x00008919      0x148 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .debug_line.text.momentum_app_scene_misc_dolphin_on_event
+                0x00008a61       0x4c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .debug_line.text.momentum_app_scene_misc_dolphin_on_exit
+                0x00008aad       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .debug_line_end
+                0x00008ac5        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .debug_line    0x00008ac5      0x58d build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .debug_line.text.momentum_app_scene_misc_dolphin_xp_number_input_callback
+                0x00009052       0x1f build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .debug_line.text.momentum_app_scene_misc_dolphin_xp_on_enter
+                0x00009071       0x54 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .debug_line.text.momentum_app_scene_misc_dolphin_xp_on_event
+                0x000090c5       0x42 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .debug_line.text.momentum_app_scene_misc_dolphin_xp_on_exit
+                0x00009107       0x2c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .debug_line_end
+                0x00009133        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .debug_line    0x00009133      0x723 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_line.text.momentum_app_scene_misc_screen_var_item_list_callback
+                0x00009856       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_line.text.momentum_app_scene_misc_screen_rgb_backlight_changed
+                0x0000986e       0x27 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_line.text.momentum_app_scene_misc_screen_dark_mode_changed
+                0x00009895       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_line.text.momentum_app_scene_misc_screen_rainbow_saturation_changed
+                0x000098e6       0x47 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_line.text.momentum_app_scene_misc_screen_rainbow_interval_changed
+                0x0000992d       0x50 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_line.text.momentum_app_scene_misc_screen_rainbow_speed_changed
+                0x0000997d       0x47 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_line.text.momentum_app_scene_misc_screen_rainbow_lcd_changed
+                0x000099c4       0x48 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_line.text.momentum_app_scene_misc_screen_lcd_color_changed
+                0x00009a0c       0x4b build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_line.text.momentum_app_scene_misc_screen_lcd_color_2_changed
+                0x00009a57       0x17 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_line.text.momentum_app_scene_misc_screen_lcd_color_1_changed
+                0x00009a6e       0x17 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_line.text.momentum_app_scene_misc_screen_lcd_color_0_changed
+                0x00009a85       0x17 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_line.text.momentum_app_scene_misc_screen_hand_orient_changed
+                0x00009a9c       0x40 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_line.text.momentum_app_scene_misc_screen_on_enter
+                0x00009adc      0x206 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_line.text.momentum_app_scene_misc_screen_on_event
+                0x00009ce2      0x168 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_line.text.momentum_app_scene_misc_screen_on_exit
+                0x00009e4a       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_line_end
+                0x00009e62        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_line    0x00009e62      0x5f6 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .debug_line.text.momentum_app_scene_misc_screen_color_byte_input_callback
+                0x0000a458       0x15 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .debug_line.text.momentum_app_scene_misc_screen_color_on_enter
+                0x0000a46d       0x40 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .debug_line.text.momentum_app_scene_misc_screen_color_on_event
+                0x0000a4ad       0x57 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .debug_line.text.momentum_app_scene_misc_screen_color_on_exit
+                0x0000a504       0x2c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .debug_line_end
+                0x0000a530        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .debug_line    0x0000a530      0x62e build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .debug_line.text.momentum_app_scene_misc_spoof_var_item_list_callback
+                0x0000ab5e       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .debug_line.text.momentum_app_scene_misc_spoof_shell_color_changed
+                0x0000ab76       0x56 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .debug_line.text.momentum_app_scene_misc_spoof_on_enter
+                0x0000abcc       0x67 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .debug_line.text.momentum_app_scene_misc_spoof_on_event
+                0x0000ac33       0x4b build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .debug_line.text.momentum_app_scene_misc_spoof_on_exit
+                0x0000ac7e       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .debug_line_end
+                0x0000ac96        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .debug_line    0x0000ac96      0x58d build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .debug_line.text.momentum_app_scene_misc_spoof_name_text_input_callback
+                0x0000b223       0x25 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .debug_line.text.momentum_app_scene_misc_spoof_name_validator
+                0x0000b248       0x61 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .debug_line.text.momentum_app_scene_misc_spoof_name_on_enter
+                0x0000b2a9       0x36 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .debug_line.text.momentum_app_scene_misc_spoof_name_on_event
+                0x0000b2df       0x42 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .debug_line.text.momentum_app_scene_misc_spoof_name_on_exit
+                0x0000b321       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .debug_line_end
+                0x0000b339        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .debug_line    0x0000b339      0x6b5 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .debug_line.text.momentum_app_scene_misc_vgm_var_item_list_callback
+                0x0000b9ee       0x16 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .debug_line.text.momentum_app_scene_misc_vgm_background_changed
+                0x0000ba04       0x92 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .debug_line.text.momentum_app_scene_misc_vgm_foreground_changed
+                0x0000ba96       0x92 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .debug_line.text.momentum_app_scene_misc_vgm_on_enter
+                0x0000bb28      0x203 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .debug_line.text.momentum_app_scene_misc_vgm_on_event
+                0x0000bd2b       0x4d build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .debug_line.text.momentum_app_scene_misc_vgm_on_exit
+                0x0000bd78       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .debug_line_end
+                0x0000bd90        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .debug_line    0x0000bd90      0x620 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .debug_line.text.momentum_app_scene_misc_vgm_color_byte_input_callback
+                0x0000c3b0       0x15 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .debug_line.text.momentum_app_scene_misc_vgm_color_on_enter
+                0x0000c3c5       0x58 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .debug_line.text.momentum_app_scene_misc_vgm_color_on_event
+                0x0000c41d       0x67 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .debug_line.text.momentum_app_scene_misc_vgm_color_on_exit
+                0x0000c484       0x2c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .debug_line_end
+                0x0000c4b0        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .debug_line    0x0000c4b0      0x627 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .debug_line.text.momentum_app_scene_protocols_var_item_list_callback
+                0x0000cad7       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .debug_line.text.momentum_app_scene_protocols_subghz_extend_changed
+                0x0000caef       0x27 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .debug_line.text.momentum_app_scene_protocols_subghz_bypass_changed
+                0x0000cb16       0x27 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .debug_line.text.momentum_app_scene_protocols_file_naming_prefix_changed
+                0x0000cb3d       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .debug_line.text.momentum_app_scene_protocols_on_enter
+                0x0000cb8e       0x96 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .debug_line.text.momentum_app_scene_protocols_on_event
+                0x0000cc24      0x13a build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .debug_line.text.momentum_app_scene_protocols_on_exit
+                0x0000cd5e       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .debug_line_end
+                0x0000cd76        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .debug_line    0x0000cd76      0x5d5 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_var_item_list_callback
+                0x0000d34b       0x16 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_use_defaults_changed
+                0x0000d361       0x54 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_on_enter
+                0x0000d3b5       0x60 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_on_event
+                0x0000d415       0x51 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_on_exit
+                0x0000d466       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .debug_line_end
+                0x0000d47e        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .debug_line    0x0000d47e      0x678 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .debug_line.text.callback_return
+                0x0000daf6       0x17 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .debug_line.text.FrequencyList_push_back
+                0x0000db0d       0x32 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_add_number_input_callback
+                0x0000db3f       0x66 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_add_on_enter
+                0x0000dba5       0x35 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_add_on_event
+                0x0000dbda       0x53 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_add_on_exit
+                0x0000dc2d       0x2d build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .debug_line_end
+                0x0000dc5a        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .debug_line    0x0000dc5a      0x665 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_hopper_var_item_list_callback
+                0x0000e2bf       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .debug_line.text.FrequencyList_size.isra.0
+                0x0000e2d7       0x1f build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .debug_line.text.FrequencyList_get.isra.0
+                0x0000e2f6       0x25 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_hopper_frequency_changed
+                0x0000e31b       0x68 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_hopper_on_enter
+                0x0000e383       0x97 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_hopper_on_event
+                0x0000e41a      0x145 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_hopper_on_exit
+                0x0000e55f       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .debug_line_end
+                0x0000e577        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .debug_line    0x0000e577      0x665 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_static_var_item_list_callback
+                0x0000ebdc       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .debug_line.text.FrequencyList_size.isra.0
+                0x0000ebf4       0x1f build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .debug_line.text.FrequencyList_get.isra.0
+                0x0000ec13       0x25 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_static_frequency_changed
+                0x0000ec38       0x68 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_static_on_enter
+                0x0000eca0       0x97 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_static_on_event
+                0x0000ed37      0x145 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .debug_line.text.momentum_app_scene_protocols_freqs_static_on_exit
+                0x0000ee7c       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .debug_line_end
+                0x0000ee94        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .debug_line    0x0000ee94      0x620 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .debug_line.text.momentum_app_scene_protocols_gpio_var_item_list_callback
+                0x0000f4b4       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .debug_line.text.momentum_app_scene_protocols_gpio_nmea_channel_changed
+                0x0000f4cc       0x46 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .debug_line.text.momentum_app_scene_protocols_gpio_esp32_channel_changed
+                0x0000f512       0x46 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .debug_line.text.momentum_app_scene_protocols_gpio_nrf24_handle_changed
+                0x0000f558       0x46 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .debug_line.text.momentum_app_scene_protocols_gpio_cc1101_handle_changed
+                0x0000f59e       0x46 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .debug_line.text.momentum_app_scene_protocols_gpio_on_enter
+                0x0000f5e4       0x8d build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .debug_line.text.momentum_app_scene_protocols_gpio_on_event
+                0x0000f671       0x3f build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .debug_line.text.momentum_app_scene_protocols_gpio_on_exit
+                0x0000f6b0       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .debug_line_end
+                0x0000f6c8        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .debug_line    0x0000f6c8      0x5cb build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .debug_line.text.momentum_app_scene_start_var_item_list_callback
+                0x0000fc93       0x16 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .debug_line.text.momentum_app_scene_start_on_enter
+                0x0000fca9       0x5c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .debug_line.text.momentum_app_scene_start_on_event
+                0x0000fd05       0x57 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .debug_line.text.momentum_app_scene_start_on_exit
+                0x0000fd5c       0x18 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .debug_line_end
+                0x0000fd74        0x0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .debug_line    0x0000fd74      0x819 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .debug_line.text.callback_reboot
+                0x0001058d       0x29 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .debug_line.text.CharList_push_raw
+                0x000105b6       0x9a build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .debug_line.text.FrequencyList_push_back
+                0x00010650       0x32 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .debug_line.text.CharList_clear
+                0x00010682       0x38 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .debug_line.text.momentum_app_custom_event_callback
+                0x000106ba       0x1d build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .debug_line.text.momentum_app_push_mainmenu_app_raw
+                0x000106d7       0xb8 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .debug_line.text.momentum_app_apply
+                0x0001078f      0x3c9 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .debug_line.text.momentum_app_back_event_callback
+                0x00010b58       0x48 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .debug_line.text.momentum_app_push_mainmenu_app
+                0x00010ba0      0x126 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .debug_line.text.momentum_app_load_mainmenu_apps
+                0x00010cc6      0x139 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .debug_line.text.momentum_app_empty_mainmenu_apps
+                0x00010dff      0x163 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .debug_line.text.momentum_app_alloc
+                0x00010f62      0x47c build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .debug_line.text.momentum_app_free
+                0x000113de      0x12d build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .debug_line.text.momentum_app
+                0x0001150b       0x4f build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ .debug_line_end
+                0x0001155a        0x0 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+
+.debug_frame    0x00000000     0x1c84
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x2dc build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_frame   0x000002dc      0x138 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_frame   0x00000414       0x80 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .debug_frame   0x00000494      0x10c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .debug_frame   0x000005a0       0xd4 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .debug_frame   0x00000674       0xfc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .debug_frame   0x00000770       0x80 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .debug_frame   0x000007f0      0x1d4 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_frame   0x000009c4      0x138 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .debug_frame   0x00000afc       0xb4 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .debug_frame   0x00000bb0       0x90 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .debug_frame   0x00000c40       0x78 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .debug_frame   0x00000cb8       0x80 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .debug_frame   0x00000d38      0x110 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .debug_frame   0x00000e48       0x84 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .debug_frame   0x00000ecc      0x100 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .debug_frame   0x00000fcc       0x84 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .debug_frame   0x00001050      0x1b0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_frame   0x00001200       0x8c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .debug_frame   0x0000128c       0x98 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .debug_frame   0x00001324       0x88 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .debug_frame   0x000013ac       0xc4 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .debug_frame   0x00001470       0x8c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .debug_frame   0x000014fc       0xec build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .debug_frame   0x000015e8       0x98 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .debug_frame   0x00001680       0xd0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .debug_frame   0x00001750       0xe0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .debug_frame   0x00001830       0xe0 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .debug_frame   0x00001910       0xf4 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .debug_frame   0x00001a04       0x80 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .debug_frame   0x00001a84      0x200 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+
+.debug_str      0x00000000    0x2c82d
+ *(.debug_str)
+ .debug_str     0x00000000     0x3cfc build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_str     0x00003cfc      0xb09 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_str     0x00004805     0x15f1 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene.o
+ .debug_str     0x00005df6     0x10e5 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .debug_str     0x00006edb     0x18ae build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .debug_str     0x00008789     0x1751 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .debug_str     0x00009eda     0x1937 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .debug_str     0x0000b811     0x1237 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .debug_str     0x0000ca48     0x19d2 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_str     0x0000e41a     0x1998 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .debug_str     0x0000fdb2     0x120a build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .debug_str     0x00010fbc     0x1127 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .debug_str     0x000120e3      0xe82 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .debug_str     0x00012f65     0x122a build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .debug_str     0x0001418f     0x1867 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .debug_str     0x000159f6     0x116d build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .debug_str     0x00016b63     0x1999 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .debug_str     0x000184fc      0xc44 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .debug_str     0x00019140     0x242f build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_str     0x0001b56f     0x100b build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .debug_str     0x0001c57a     0x179c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .debug_str     0x0001dd16      0xcbb build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .debug_str     0x0001e9d1     0x181f build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .debug_str     0x000201f0     0x15bb build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .debug_str     0x000217ab     0x1957 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .debug_str     0x00023102     0x115a build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .debug_str     0x0002425c     0x1164 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .debug_str     0x000253c0     0x12e7 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .debug_str     0x000266a7     0x12e7 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .debug_str     0x0002798e     0x176c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .debug_str     0x000290fa     0x10b2 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .debug_str     0x0002a1ac     0x2681 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x6012
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x909 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_loclists
+                0x00000909      0x406 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_loclists
+                0x00000d0f      0x181 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .debug_loclists
+                0x00000e90      0x2f6 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .debug_loclists
+                0x00001186      0x231 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .debug_loclists
+                0x000013b7      0x33e build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .debug_loclists
+                0x000016f5      0x1cc build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .debug_loclists
+                0x000018c1      0x50e build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_loclists
+                0x00001dcf      0x556 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .debug_loclists
+                0x00002325      0x255 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .debug_loclists
+                0x0000257a      0x190 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .debug_loclists
+                0x0000270a      0x168 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .debug_loclists
+                0x00002872      0x167 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .debug_loclists
+                0x000029d9      0x2de build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .debug_loclists
+                0x00002cb7      0x1a3 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .debug_loclists
+                0x00002e5a      0x30b build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .debug_loclists
+                0x00003165      0x188 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .debug_loclists
+                0x000032ed      0x5be build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_loclists
+                0x000038ab      0x153 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .debug_loclists
+                0x000039fe      0x1a1 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .debug_loclists
+                0x00003b9f      0x1c5 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .debug_loclists
+                0x00003d64      0x2e6 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .debug_loclists
+                0x0000404a      0x168 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .debug_loclists
+                0x000041b2      0x300 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .debug_loclists
+                0x000044b2      0x1af build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .debug_loclists
+                0x00004661      0x2a2 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .debug_loclists
+                0x00004903      0x3c6 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .debug_loclists
+                0x00004cc9      0x3c6 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .debug_loclists
+                0x0000508f      0x262 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .debug_loclists
+                0x000052f1      0x164 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .debug_loclists
+                0x00005455      0xbbd build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0xbad
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x121 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .debug_rnglists
+                0x00000121       0xd1 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .debug_rnglists
+                0x000001f2       0x27 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .debug_rnglists
+                0x00000219       0x44 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .debug_rnglists
+                0x0000025d       0x38 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .debug_rnglists
+                0x00000295       0x4a build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .debug_rnglists
+                0x000002df       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .debug_rnglists
+                0x00000313       0x6e build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .debug_rnglists
+                0x00000381       0x8e build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .debug_rnglists
+                0x0000040f       0x2c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .debug_rnglists
+                0x0000043b       0x44 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .debug_rnglists
+                0x0000047f       0x26 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .debug_rnglists
+                0x000004a5       0x31 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .debug_rnglists
+                0x000004d6       0x44 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .debug_rnglists
+                0x0000051a       0x33 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .debug_rnglists
+                0x0000054d       0x40 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .debug_rnglists
+                0x0000058d       0x25 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .debug_rnglists
+                0x000005b2       0xac build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .debug_rnglists
+                0x0000065e       0x25 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .debug_rnglists
+                0x00000683       0x2c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .debug_rnglists
+                0x000006af       0x2b build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .debug_rnglists
+                0x000006da       0x64 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .debug_rnglists
+                0x0000073e       0x25 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .debug_rnglists
+                0x00000763       0x47 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .debug_rnglists
+                0x000007aa       0x2c build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .debug_rnglists
+                0x000007d6       0x4a build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .debug_rnglists
+                0x00000820       0x5a build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .debug_rnglists
+                0x0000087a       0x5a build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .debug_rnglists
+                0x000008d4       0x3e build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .debug_rnglists
+                0x00000912       0x26 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .debug_rnglists
+                0x00000938      0x275 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_desktop.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/momentum_app/mock_imports/mock_dolphin_state.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_filebrowser.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_general.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_graphics_pack.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_lockscreen.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_add_main.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_reset.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_mainmenu_style.o
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_interface_statusbar.o
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc.o
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin.o
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_dolphin_xp.o
+ .ARM.attributes
+                0x000003a8       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen.o
+ .ARM.attributes
+                0x000003dc       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_screen_color.o
+ .ARM.attributes
+                0x00000410       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof.o
+ .ARM.attributes
+                0x00000444       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_spoof_name.o
+ .ARM.attributes
+                0x00000478       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm.o
+ .ARM.attributes
+                0x000004ac       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_misc_vgm_color.o
+ .ARM.attributes
+                0x000004e0       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols.o
+ .ARM.attributes
+                0x00000514       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs.o
+ .ARM.attributes
+                0x00000548       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_add.o
+ .ARM.attributes
+                0x0000057c       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_hopper.o
+ .ARM.attributes
+                0x000005b0       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_freqs_static.o
+ .ARM.attributes
+                0x000005e4       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_protocols_gpio.o
+ .ARM.attributes
+                0x00000618       0x34 build/f7-firmware-C/.extapps/momentum_app/scenes/momentum_app_scene_start.o
+ .ARM.attributes
+                0x0000064c       0x34 build/f7-firmware-C/.extapps/momentum_app/momentum_app.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/momentum_app_d.elf elf32-littlearm)
+LOAD linker stubs

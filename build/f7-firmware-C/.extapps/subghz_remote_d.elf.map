@@ -1,0 +1,1377 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_is_database_loaded
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_get_preset
+                0x00000000       0x18 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .rodata.subghz_txrx_get_frequency_and_modulation.str1.1
+                0x00000000       0x14 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_get_frequency_and_modulation
+                0x00000000       0x78 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_sleep
+                0x00000000       0x18 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_get_fff_data
+                0x00000000        0x4 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_hopper_get_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_hopper_set_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_hopper_unpause
+                0x00000000       0x10 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_hopper_pause
+                0x00000000       0x10 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_custom_button_get
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_rx.isra.0
+                0x00000000       0x54 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_hopper_update
+                0x00000000       0xbc build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_rx_start
+                0x00000000       0x64 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_speaker_set_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_speaker_get_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_protocol_is_serializable
+                0x00000000        0xc build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_protocol_is_transmittable
+                0x00000000       0x2c build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_receiver_set_filter
+                0x00000000        0xc build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_set_rx_calback
+                0x00000000        0xc build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_radio_device_get_rssi
+                0x00000000        0xc build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_radio_device_is_tx_allowed
+                0x00000000       0x30 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_set_debug_pin_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_get_debug_pin_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_get_receiver
+                0x00000000        0x4 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_is_database_loaded
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_preset
+                0x00000000       0x2a build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_frequency_and_modulation
+                0x00000000       0x68 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_sleep
+                0x00000000       0x31 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_fff_data
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_get_state
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_set_state
+                0x00000000       0x20 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_unpause
+                0x00000000       0x28 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_pause
+                0x00000000       0x28 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_custom_button_get
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_rx.isra.0
+                0x00000000       0x46 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_update
+                0x00000000       0xd4 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_rx_start
+                0x00000000       0x6d build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_set_state
+                0x00000000       0x20 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_get_state
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_protocol_is_serializable
+                0x00000000       0x26 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_protocol_is_transmittable
+                0x00000000       0x61 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_receiver_set_filter
+                0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_rx_calback
+                0x00000000       0x18 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_get_rssi
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_is_tx_allowed
+                0x00000000       0x3c build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_debug_pin_state
+                0x00000000       0x20 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_debug_pin_state
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_receiver
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .text.subrem_scene_edit_submenu_text_input_callback
+                0x00000000        0xc build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .debug_line.text.subrem_scene_edit_submenu_text_input_callback
+                0x00000000       0x19 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_fw_warning.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_fw_warning.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_fw_warning.o
+ .debug_info    0x00000000      0x25e build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_fw_warning.o
+ .debug_abbrev  0x00000000       0x72 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_fw_warning.o
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_fw_warning.o
+ .debug_line    0x00000000      0x1b3 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_fw_warning.o
+ .debug_str     0x00000000      0x298 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_fw_warning.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_fw_warning.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_fw_warning.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+LOAD build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+LOAD build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene.o
+LOAD build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+LOAD build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+LOAD build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+LOAD build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+LOAD build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+LOAD build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_fw_warning.o
+LOAD build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+LOAD build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+LOAD build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+LOAD build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+LOAD build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+LOAD build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+LOAD build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+LOAD build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+LOAD build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x2d7c
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.subghz_txrx_radio_device_power_off.constprop.0
+                0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_radio_device_power_on.constprop.0
+                0x0000001c       0x2c build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_free
+                0x00000048       0x78 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x00000048                subghz_txrx_free
+ .text.subghz_txrx_set_preset
+                0x000000c0       0x20 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x000000c0                subghz_txrx_set_preset
+ .text.subghz_txrx_get_preset_name
+                0x000000e0       0xa0 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x000000e0                subghz_txrx_get_preset_name
+ .text.subghz_txrx_set_need_save_callback
+                0x00000180        0x6 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x00000180                subghz_txrx_set_need_save_callback
+ .text.subghz_txrx_get_setting
+                0x00000186        0x4 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x00000186                subghz_txrx_get_setting
+ .text.subghz_txrx_custom_button_set
+                0x0000018a        0x6 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x0000018a                subghz_txrx_custom_button_set
+ .text.subghz_txrx_custom_button_reset
+                0x00000190        0x8 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x00000190                subghz_txrx_custom_button_reset
+ .text.subghz_txrx_speaker_on
+                0x00000198       0x4c build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x00000198                subghz_txrx_speaker_on
+ .text.subghz_txrx_speaker_off
+                0x000001e4       0x4c build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x000001e4                subghz_txrx_speaker_off
+ .text.subghz_txrx_rx_end
+                0x00000230       0x40 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .text.subghz_txrx_speaker_mute
+                0x00000270       0x3c build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x00000270                subghz_txrx_speaker_mute
+ .text.subghz_txrx_speaker_unmute
+                0x000002ac       0x44 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x000002ac                subghz_txrx_speaker_unmute
+ .text.subghz_txrx_stop
+                0x000002f0       0x80 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x000002f0                subghz_txrx_stop
+ .text.subghz_txrx_tx_start
+                0x00000370      0x1cc build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x00000370                subghz_txrx_tx_start
+ .text.subghz_txrx_load_decoder_by_name_protocol
+                0x0000053c       0x18 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x0000053c                subghz_txrx_load_decoder_by_name_protocol
+ .text.subghz_txrx_get_decoder
+                0x00000554        0x4 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x00000554                subghz_txrx_get_decoder
+ .text.subghz_txrx_set_raw_file_encoder_worker_callback_end
+                0x00000558       0x20 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x00000558                subghz_txrx_set_raw_file_encoder_worker_callback_end
+ .text.subghz_txrx_radio_device_is_external_connected
+                0x00000578       0x4c build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x00000578                subghz_txrx_radio_device_is_external_connected
+ .text.subghz_txrx_radio_device_set
+                0x000005c4       0x68 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x000005c4                subghz_txrx_radio_device_set
+ .text.subghz_txrx_alloc
+                0x0000062c      0x144 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x0000062c                subghz_txrx_alloc
+ .text.subghz_txrx_radio_device_get
+                0x00000770        0x6 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x00000770                subghz_txrx_radio_device_get
+ *fill*         0x00000776        0x2 
+ .text.subghz_txrx_radio_device_get_name
+                0x00000778        0xc build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x00000778                subghz_txrx_radio_device_get_name
+ .text.subghz_txrx_radio_device_is_frequency_valid
+                0x00000784        0xc build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x00000784                subghz_txrx_radio_device_is_frequency_valid
+ .text.subghz_txrx_reset_dynamic_and_custom_btns
+                0x00000790       0x18 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+                0x00000790                subghz_txrx_reset_dynamic_and_custom_btns
+ .text.subrem_sub_file_preset_alloc
+                0x000007a8       0x3c build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+                0x000007a8                subrem_sub_file_preset_alloc
+ .text.subrem_sub_file_preset_free
+                0x000007e4       0x34 build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+                0x000007e4                subrem_sub_file_preset_free
+ .text.subrem_sub_file_preset_reset
+                0x00000818       0x40 build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+                0x00000818                subrem_sub_file_preset_reset
+ .text.subrem_sub_preset_load
+                0x00000858      0x294 build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+                0x00000858                subrem_sub_preset_load
+ .text.subrem_scene_edit_label_text_input_callback
+                0x00000aec        0xc build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+                0x00000aec                subrem_scene_edit_label_text_input_callback
+ .text.subrem_scene_edit_label_widget_callback
+                0x00000af8       0x20 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+                0x00000af8                subrem_scene_edit_label_widget_callback
+ .text.subrem_scene_edit_label_on_enter
+                0x00000b18      0x134 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+                0x00000b18                subrem_scene_edit_label_on_enter
+ .text.subrem_scene_edit_label_on_event
+                0x00000c4c       0xa0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+                0x00000c4c                subrem_scene_edit_label_on_event
+ .text.subrem_scene_edit_label_on_exit
+                0x00000cec       0x1c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+                0x00000cec                subrem_scene_edit_label_on_exit
+ .text.subrem_scene_edit_menu_callback
+                0x00000d08       0x10 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+                0x00000d08                subrem_scene_edit_menu_callback
+ .text.subrem_scene_edit_menu_update_data
+                0x00000d18       0x3c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .text.subrem_scene_edit_menu_widget_callback
+                0x00000d54       0x30 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+                0x00000d54                subrem_scene_edit_menu_widget_callback
+ .text.subrem_scene_edit_menu_on_enter
+                0x00000d84       0xa0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+                0x00000d84                subrem_scene_edit_menu_on_enter
+ .text.subrem_scene_edit_menu_on_event
+                0x00000e24       0xb0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+                0x00000e24                subrem_scene_edit_menu_on_event
+ .text.subrem_scene_edit_menu_on_exit
+                0x00000ed4        0xc build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+                0x00000ed4                subrem_scene_edit_menu_on_exit
+ .text.subghz_scene_edit_preview_save_popup_callback
+                0x00000ee0        0xc build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+                0x00000ee0                subghz_scene_edit_preview_save_popup_callback
+ .text.subrem_scene_edit_preview_callback
+                0x00000eec       0x10 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+                0x00000eec                subrem_scene_edit_preview_callback
+ .text.subrem_scene_edit_preview_on_enter
+                0x00000efc       0xac build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+                0x00000efc                subrem_scene_edit_preview_on_enter
+ .text.subrem_scene_edit_preview_on_event
+                0x00000fa8       0x68 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+                0x00000fa8                subrem_scene_edit_preview_on_event
+ .text.subrem_scene_edit_preview_on_exit
+                0x00001010       0x20 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+                0x00001010                subrem_scene_edit_preview_on_exit
+ .text.subrem_scene_edit_submenu_var_list_change_callback
+                0x00001030       0x3c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+                0x00001030                subrem_scene_edit_submenu_var_list_change_callback
+ .text.subrem_scene_edit_submenu_callback
+                0x0000106c       0x28 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+                0x0000106c                subrem_scene_edit_submenu_callback
+ .text.subrem_scene_edit_submenu_on_enter
+                0x00001094       0xc0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+                0x00001094                subrem_scene_edit_submenu_on_enter
+ .text.subrem_scene_edit_submenu_on_event
+                0x00001154       0x58 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+                0x00001154                subrem_scene_edit_submenu_on_event
+ .text.subrem_scene_edit_submenu_on_exit
+                0x000011ac        0xc build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+                0x000011ac                subrem_scene_edit_submenu_on_exit
+ .text.subrem_scene_enter_new_name_text_input_callback
+                0x000011b8        0xc build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+                0x000011b8                subrem_scene_enter_new_name_text_input_callback
+ .text.subrem_scene_enter_new_name_on_enter
+                0x000011c4       0x78 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+                0x000011c4                subrem_scene_enter_new_name_on_enter
+ .text.subrem_scene_enter_new_name_on_event
+                0x0000123c       0x64 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+                0x0000123c                subrem_scene_enter_new_name_on_event
+ .text.subrem_scene_enter_new_name_on_exit
+                0x000012a0       0x4c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+                0x000012a0                subrem_scene_enter_new_name_on_exit
+ .text.subrem_scene_open_map_file_on_enter
+                0x000012ec       0x6c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+                0x000012ec                subrem_scene_open_map_file_on_enter
+ .text.subrem_scene_open_map_file_on_event
+                0x00001358        0xe build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+                0x00001358                subrem_scene_open_map_file_on_event
+ .text.subrem_scene_open_map_file_on_exit
+                0x00001366        0x2 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+                0x00001366                subrem_scene_open_map_file_on_exit
+ .text.subrem_scene_open_sub_file_error_popup_callback
+                0x00001368        0xc build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+                0x00001368                subrem_scene_open_sub_file_error_popup_callback
+ .text.subrem_scene_open_sub_file_dialog
+                0x00001374      0x148 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+                0x00001374                subrem_scene_open_sub_file_dialog
+ .text.subrem_scene_open_sub_file_on_enter
+                0x000014bc       0xd4 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+                0x000014bc                subrem_scene_open_sub_file_on_enter
+ .text.subrem_scene_open_sub_file_on_event
+                0x00001590       0x2c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+                0x00001590                subrem_scene_open_sub_file_on_event
+ .text.subrem_scene_open_sub_file_on_exit
+                0x000015bc        0xc build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+                0x000015bc                subrem_scene_open_sub_file_on_exit
+ .text.subrem_scene_remote_callback
+                0x000015c8       0x10 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+                0x000015c8                subrem_scene_remote_callback
+ .text.subrem_scene_remote_raw_callback_end_tx
+                0x000015d8        0xc build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+                0x000015d8                subrem_scene_remote_raw_callback_end_tx
+ .text.subrem_scene_remote_on_enter
+                0x000015e4       0x50 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+                0x000015e4                subrem_scene_remote_on_enter
+ .text.subrem_scene_remote_on_event
+                0x00001634      0x108 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+                0x00001634                subrem_scene_remote_on_event
+ .text.subrem_scene_remote_on_exit
+                0x0000173c       0x30 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+                0x0000173c                subrem_scene_remote_on_exit
+ .text.subrem_scene_start_submenu_callback
+                0x0000176c        0xc build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+                0x0000176c                subrem_scene_start_submenu_callback
+ .text.subrem_scene_start_on_enter
+                0x00001778       0x94 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+                0x00001778                subrem_scene_start_on_enter
+ .text.subrem_scene_start_on_event
+                0x0000180c       0x64 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+                0x0000180c                subrem_scene_start_on_event
+ .text.subrem_scene_start_on_exit
+                0x00001870        0xc build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+                0x00001870                subrem_scene_start_on_exit
+ .text.subrem_view_edit_menu_enter
+                0x0000187c        0x2 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+                0x0000187c                subrem_view_edit_menu_enter
+ *fill*         0x0000187e        0x2 
+ .text.subrem_view_edit_menu_input
+                0x00001880       0x94 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+                0x00001880                subrem_view_edit_menu_input
+ .text.subrem_view_edit_menu_draw
+                0x00001914      0x238 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+                0x00001914                subrem_view_edit_menu_draw
+ .text.subrem_view_edit_menu_exit
+                0x00001b4c        0x2 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+                0x00001b4c                subrem_view_edit_menu_exit
+ .text.subrem_view_edit_menu_set_callback
+                0x00001b4e        0x6 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+                0x00001b4e                subrem_view_edit_menu_set_callback
+ .text.subrem_view_edit_menu_add_data_to_show
+                0x00001b54       0x94 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+                0x00001b54                subrem_view_edit_menu_add_data_to_show
+ .text.subrem_view_edit_menu_get_index
+                0x00001be8       0x20 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+                0x00001be8                subrem_view_edit_menu_get_index
+ .text.subrem_view_edit_menu_alloc
+                0x00001c08       0xa0 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+                0x00001c08                subrem_view_edit_menu_alloc
+ .text.subrem_view_edit_menu_free
+                0x00001ca8       0x44 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+                0x00001ca8                subrem_view_edit_menu_free
+ .text.subrem_view_edit_menu_get_view
+                0x00001cec        0x4 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+                0x00001cec                subrem_view_edit_menu_get_view
+ .text.subrem_view_remote_enter
+                0x00001cf0        0x2 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+                0x00001cf0                subrem_view_remote_enter
+ *fill*         0x00001cf2        0x2 
+ .text.subrem_view_remote_input
+                0x00001cf4       0x88 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+                0x00001cf4                subrem_view_remote_input
+ .text.subrem_view_remote_draw
+                0x00001d7c      0x25c build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+                0x00001d7c                subrem_view_remote_draw
+ .text.subrem_view_remote_exit
+                0x00001fd8        0x2 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+                0x00001fd8                subrem_view_remote_exit
+ .text.subrem_view_remote_set_callback
+                0x00001fda        0x6 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+                0x00001fda                subrem_view_remote_set_callback
+ .text.subrem_view_remote_update_data_labels
+                0x00001fe0      0x104 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+                0x00001fe0                subrem_view_remote_update_data_labels
+ .text.subrem_view_remote_set_state
+                0x000020e4       0x28 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+                0x000020e4                subrem_view_remote_set_state
+ .text.subrem_view_remote_set_radio
+                0x0000210c       0x24 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+                0x0000210c                subrem_view_remote_set_radio
+ .text.subrem_view_remote_alloc
+                0x00002130       0xcc build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+                0x00002130                subrem_view_remote_alloc
+ .text.subrem_view_remote_free
+                0x000021fc       0x48 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+                0x000021fc                subrem_view_remote_free
+ .text.subrem_view_remote_get_view
+                0x00002244        0x4 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+                0x00002244                subrem_view_remote_get_view
+ .text.subghz_remote_app_tick_event_callback
+                0x00002248        0xc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .text.subghz_remote_app_back_event_callback
+                0x00002254        0xc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .text.subghz_remote_app_custom_event_callback
+                0x00002260        0xc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .text.subghz_remote_app_alloc
+                0x0000226c      0x1cc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+                0x0000226c                subghz_remote_app_alloc
+ .text.subghz_remote_app_free
+                0x00002438       0xfc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+                0x00002438                subghz_remote_app_free
+ .text.subghz_remote_app
+                0x00002534       0xfc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+                0x00002534                subghz_remote_app
+ .text.subrem_map_preset_reset
+                0x00002630       0x1c build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+                0x00002630                subrem_map_preset_reset
+ .text.subrem_map_file_load
+                0x0000264c      0x254 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+                0x0000264c                subrem_map_file_load
+ .text.subrem_save_protocol_to_file
+                0x000028a0       0xc4 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+                0x000028a0                subrem_save_protocol_to_file
+ .text.subrem_save_active_sub
+                0x00002964       0x28 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+                0x00002964                subrem_save_active_sub
+ .text.subrem_tx_stop_sub
+                0x0000298c       0x6c build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+                0x0000298c                subrem_tx_stop_sub
+ .text.subrem_tx_start_sub
+                0x000029f8       0x98 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+                0x000029f8                subrem_tx_start_sub
+ .text.subrem_load_from_file
+                0x00002a90       0x6c build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+                0x00002a90                subrem_load_from_file
+ .text.subrem_load_default_path
+                0x00002afc       0x90 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+                0x00002afc                subrem_load_default_path
+ .text.subrem_save_default_path
+                0x00002b8c       0x74 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+                0x00002b8c                subrem_save_default_path
+ .text.subrem_clear_default_path
+                0x00002c00       0x30 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+                0x00002c00                subrem_clear_default_path
+ .text.subrem_has_default_path
+                0x00002c30       0x30 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+                0x00002c30                subrem_has_default_path
+ .text.subrem_save_map_to_file
+                0x00002c60      0x11c build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+                0x00002c60                subrem_save_map_to_file
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00002d7c      0xc8d
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.subghz_txrx_get_preset_name.str1.1
+                0x00002d7c       0xfd build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .rodata.subghz_txrx_tx_start.str1.1
+                0x00002e79       0x5f build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .rodata.subghz_txrx_radio_device_set.str1.1
+                0x00002ed8       0x16 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .rodata.subghz_txrx_alloc.str1.1
+                0x00002eee       0xc7 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .rodata.subrem_sub_file_preset_reset.str1.1
+                0x00002fb5        0x1 build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .rodata.subrem_sub_preset_load.str1.1
+                0x00002fb6      0x18d build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ *fill*         0x00003143        0x1 
+ .rodata.subrem_scene_handlers
+                0x00003144       0x10 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene.o
+                0x00003144                subrem_scene_handlers
+ .rodata.subrem_scene_on_exit_handlers
+                0x00003154       0x24 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene.o
+                0x00003154                subrem_scene_on_exit_handlers
+ .rodata.subrem_scene_on_event_handlers
+                0x00003178       0x24 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene.o
+                0x00003178                subrem_scene_on_event_handlers
+ .rodata.subrem_scene_on_enter_handlers
+                0x0000319c       0x24 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene.o
+                0x0000319c                subrem_scene_on_enter_handlers
+ .rodata.subrem_scene_edit_label_on_enter.str1.1
+                0x000031c0       0x2f build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .rodata.subrem_scene_edit_menu_on_enter.str1.1
+                0x000031ef       0x32 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .rodata.subrem_scene_edit_preview_on_enter.str1.1
+                0x00003221        0x7 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .rodata.subrem_scene_edit_submenu_on_enter.str1.1
+                0x00003228       0x27 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .rodata.str1.1
+                0x0000324f       0x1b build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ *fill*         0x0000326a        0x2 
+ .rodata.custom_button_text
+                0x0000326c       0x14 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+                0x0000326c                custom_button_text
+ .rodata.subrem_scene_enter_new_name_on_enter.str1.1
+                0x00003280       0x14 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .rodata.subrem_scene_enter_new_name_on_event.str1.1
+                0x00003294       0x19 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .rodata.subrem_scene_open_sub_file_dialog.str1.1
+                0x000032ad       0x19 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .rodata.subrem_scene_open_sub_file_on_enter.str1.1
+                0x000032c6       0x38 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .rodata.subrem_scene_start_on_enter.str1.1
+                0x000032fe       0x43 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .rodata.subrem_view_edit_menu_draw.str1.1
+                0x00003341       0x86 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .rodata.subrem_view_edit_menu_add_data_to_show.str1.1
+                0x000033c7        0xb build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .rodata.subrem_view_remote_draw.str1.1
+                0x000033d2       0x12 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .rodata.subrem_view_remote_update_data_labels.str1.1
+                0x000033e4       0x38 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .rodata.subghz_remote_app_alloc.str1.1
+                0x0000341c       0x2c build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .rodata.subghz_remote_app.str1.1
+                0x00003448       0x41 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .rodata.subrem_map_file_load.str1.1
+                0x00003489       0xf4 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .rodata.subrem_save_protocol_to_file.str1.1
+                0x0000357d       0x15 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .rodata.subrem_tx_start_sub.str1.1
+                0x00003592        0x8 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .rodata.subrem_load_from_file.str1.1
+                0x0000359a       0x18 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .rodata.subrem_load_default_path.str1.1
+                0x000035b2       0x23 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .rodata.subrem_save_default_path.str1.1
+                0x000035d5       0x14 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .rodata.subrem_save_map_to_file.str1.1
+                0x000035e9       0x18 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .rodata.str1.1
+                0x00003601       0x63 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .rodata.map_file_labels
+                0x00003664       0x3c build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .rodata.I_status_bar
+                0x000036a0        0xc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000036a0                I_status_bar
+ .rodata.I_Status_cube_14x14
+                0x000036ac        0xc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000036ac                I_Status_cube_14x14
+ .rodata.I_Internal_antenna_20x12
+                0x000036b8        0xc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000036b8                I_Internal_antenna_20x12
+ .rodata.I_External_antenna_20x12
+                0x000036c4        0xc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000036c4                I_External_antenna_20x12
+ .rodata.I_up_hover
+                0x000036d0        0xc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000036d0                I_up_hover
+ .rodata.I_up   0x000036dc        0xc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000036dc                I_up
+ .rodata.I_right_hover
+                0x000036e8        0xc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000036e8                I_right_hover
+ .rodata.I_right
+                0x000036f4        0xc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000036f4                I_right
+ .rodata.I_ok_hover
+                0x00003700        0xc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003700                I_ok_hover
+ .rodata.I_ok   0x0000370c        0xc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x0000370c                I_ok
+ .rodata.I_left_hover
+                0x00003718        0xc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003718                I_left_hover
+ .rodata.I_left
+                0x00003724        0xc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003724                I_left
+ .rodata.I_down_hover
+                0x00003730        0xc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003730                I_down_hover
+ .rodata.I_down
+                0x0000373c        0xc build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x0000373c                I_down
+ .rodata._I_status_bar
+                0x00003748        0x4 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003748                _I_status_bar
+ .rodata._I_status_bar_0
+                0x0000374c       0x42 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x0000374c                _I_status_bar_0
+ *fill*         0x0000378e        0x2 
+ .rodata._I_Status_cube_14x14
+                0x00003790        0x4 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003790                _I_Status_cube_14x14
+ .rodata._I_Status_cube_14x14_0
+                0x00003794       0x10 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003794                _I_Status_cube_14x14_0
+ .rodata._I_Internal_antenna_20x12
+                0x000037a4        0x4 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000037a4                _I_Internal_antenna_20x12
+ .rodata._I_Internal_antenna_20x12_0
+                0x000037a8       0x25 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000037a8                _I_Internal_antenna_20x12_0
+ *fill*         0x000037cd        0x3 
+ .rodata._I_External_antenna_20x12
+                0x000037d0        0x4 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000037d0                _I_External_antenna_20x12
+ .rodata._I_External_antenna_20x12_0
+                0x000037d4       0x25 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000037d4                _I_External_antenna_20x12_0
+ *fill*         0x000037f9        0x3 
+ .rodata._I_up_hover
+                0x000037fc        0x4 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000037fc                _I_up_hover
+ .rodata._I_up_hover_0
+                0x00003800       0x2a build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003800                _I_up_hover_0
+ *fill*         0x0000382a        0x2 
+ .rodata._I_up  0x0000382c        0x4 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x0000382c                _I_up
+ .rodata._I_up_0
+                0x00003830       0x2f build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003830                _I_up_0
+ *fill*         0x0000385f        0x1 
+ .rodata._I_right_hover
+                0x00003860        0x4 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003860                _I_right_hover
+ .rodata._I_right_hover_0
+                0x00003864       0x2f build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003864                _I_right_hover_0
+ *fill*         0x00003893        0x1 
+ .rodata._I_right
+                0x00003894        0x4 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003894                _I_right
+ .rodata._I_right_0
+                0x00003898       0x32 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003898                _I_right_0
+ *fill*         0x000038ca        0x2 
+ .rodata._I_ok_hover
+                0x000038cc        0x4 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000038cc                _I_ok_hover
+ .rodata._I_ok_hover_0
+                0x000038d0       0x31 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000038d0                _I_ok_hover_0
+ *fill*         0x00003901        0x3 
+ .rodata._I_ok  0x00003904        0x4 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003904                _I_ok
+ .rodata._I_ok_0
+                0x00003908       0x35 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003908                _I_ok_0
+ *fill*         0x0000393d        0x3 
+ .rodata._I_left_hover
+                0x00003940        0x4 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003940                _I_left_hover
+ .rodata._I_left_hover_0
+                0x00003944       0x2d build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003944                _I_left_hover_0
+ *fill*         0x00003971        0x3 
+ .rodata._I_left
+                0x00003974        0x4 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003974                _I_left
+ .rodata._I_left_0
+                0x00003978       0x31 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x00003978                _I_left_0
+ *fill*         0x000039a9        0x3 
+ .rodata._I_down_hover
+                0x000039ac        0x4 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000039ac                _I_down_hover
+ .rodata._I_down_hover_0
+                0x000039b0       0x27 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000039b0                _I_down_hover_0
+ *fill*         0x000039d7        0x1 
+ .rodata._I_down
+                0x000039d8        0x4 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000039d8                _I_down
+ .rodata._I_down_0
+                0x000039dc       0x2d build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+                0x000039dc                _I_down_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x5d8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000      0x1a8 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_aranges
+                0x000001a8       0x38 build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .debug_aranges
+                0x000001e0       0x18 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene.o
+ .debug_aranges
+                0x000001f8       0x40 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .debug_aranges
+                0x00000238       0x48 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .debug_aranges
+                0x00000280       0x40 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .debug_aranges
+                0x000002c0       0x48 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .debug_aranges
+                0x00000308       0x38 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .debug_aranges
+                0x00000340       0x30 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+ .debug_aranges
+                0x00000370       0x40 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .debug_aranges
+                0x000003b0       0x40 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .debug_aranges
+                0x000003f0       0x38 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .debug_aranges
+                0x00000428       0x68 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_aranges
+                0x00000490       0x70 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_aranges
+                0x00000500       0x48 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .debug_aranges
+                0x00000548       0x78 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .debug_aranges
+                0x000005c0       0x18 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x136ce
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x3134 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_info    0x00003134     0x1300 build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .debug_info    0x00004434      0x67c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene.o
+ .debug_info    0x00004ab0      0xf9c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .debug_info    0x00005a4c      0xf6c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .debug_info    0x000069b8      0xd20 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .debug_info    0x000076d8      0xe8c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .debug_info    0x00008564      0xca6 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .debug_info    0x0000920a      0xa17 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+ .debug_info    0x00009c21      0xfdc build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .debug_info    0x0000abfd      0xfab build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .debug_info    0x0000bba8      0xbcf build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .debug_info    0x0000c777     0x1320 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_info    0x0000da97     0x1702 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_info    0x0000f199     0x15a7 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .debug_info    0x00010740     0x2a79 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .debug_info    0x000131b9      0x515 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+
+.debug_abbrev   0x00000000     0x2e29
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x50e build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_abbrev  0x0000050e      0x26d build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .debug_abbrev  0x0000077b      0x15a build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene.o
+ .debug_abbrev  0x000008d5      0x293 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .debug_abbrev  0x00000b68      0x2b9 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .debug_abbrev  0x00000e21      0x21a build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .debug_abbrev  0x0000103b      0x2a5 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .debug_abbrev  0x000012e0      0x23f build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .debug_abbrev  0x0000151f      0x1f9 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+ .debug_abbrev  0x00001718      0x295 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .debug_abbrev  0x000019ad      0x2eb build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .debug_abbrev  0x00001c98      0x215 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .debug_abbrev  0x00001ead      0x3ab build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_abbrev  0x00002258      0x392 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_abbrev  0x000025ea      0x339 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .debug_abbrev  0x00002923      0x451 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .debug_abbrev  0x00002d74       0xb5 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+
+.debug_line     0x00000000     0x7d02
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x50c build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_power_off.constprop.0
+                0x0000050c       0x2d build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_power_on.constprop.0
+                0x00000539       0x34 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_free
+                0x0000056d       0x46 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_preset
+                0x000005b3       0x48 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_preset_name
+                0x000005fb       0x7c build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_need_save_callback
+                0x00000677       0x20 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_setting
+                0x00000697       0x1e build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_custom_button_set
+                0x000006b5       0x20 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_custom_button_reset
+                0x000006d5       0x20 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_on
+                0x000006f5       0x66 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_off
+                0x0000075b       0x63 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_rx_end
+                0x000007be       0x40 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_mute
+                0x000007fe       0x5a build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_unmute
+                0x00000858       0x62 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_stop
+                0x000008ba       0xa6 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_tx_start
+                0x00000960      0x1fb build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_load_decoder_by_name_protocol
+                0x00000b5b       0x3a build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_decoder
+                0x00000b95       0x1e build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_raw_file_encoder_worker_callback_end
+                0x00000bb3       0x2c build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_is_external_connected
+                0x00000bdf       0x7b build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_set
+                0x00000c5a       0x76 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_alloc
+                0x00000cd0      0x12c build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_get
+                0x00000dfc       0x1e build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_get_name
+                0x00000e1a       0x1e build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_is_frequency_valid
+                0x00000e38       0x1f build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line.text.subghz_txrx_reset_dynamic_and_custom_btns
+                0x00000e57       0x2a build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line_end
+                0x00000e81        0x0 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_line    0x00000e81      0x430 build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .debug_line.text.subrem_sub_file_preset_alloc
+                0x000012b1       0x78 build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .debug_line.text.subrem_sub_file_preset_free
+                0x00001329       0x2f build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .debug_line.text.subrem_sub_file_preset_reset
+                0x00001358       0x4d build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .debug_line.text.subrem_sub_preset_load
+                0x000013a5      0x1f3 build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .debug_line_end
+                0x00001598        0x0 build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .debug_line    0x00001598      0x27d build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene.o
+ .debug_line_end
+                0x00001815        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene.o
+ .debug_line    0x00001815      0x68e build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .debug_line.text.subrem_scene_edit_label_text_input_callback
+                0x00001ea3       0x1b build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .debug_line.text.subrem_scene_edit_label_widget_callback
+                0x00001ebe       0x47 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .debug_line.text.subrem_scene_edit_label_on_enter
+                0x00001f05       0x90 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .debug_line.text.subrem_scene_edit_label_on_event
+                0x00001f95       0xaf build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .debug_line.text.subrem_scene_edit_label_on_exit
+                0x00002044       0x28 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .debug_line_end
+                0x0000206c        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .debug_line    0x0000206c      0x578 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .debug_line.text.subrem_scene_edit_menu_callback
+                0x000025e4       0x22 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .debug_line.text.subrem_scene_edit_menu_update_data
+                0x00002606       0x4c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .debug_line.text.subrem_scene_edit_menu_widget_callback
+                0x00002652       0x4e build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .debug_line.text.subrem_scene_edit_menu_on_enter
+                0x000026a0       0x3c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .debug_line.text.subrem_scene_edit_menu_on_event
+                0x000026dc       0xa0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .debug_line.text.subrem_scene_edit_menu_on_exit
+                0x0000277c       0x18 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .debug_line_end
+                0x00002794        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .debug_line    0x00002794      0x536 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .debug_line.text.subghz_scene_edit_preview_save_popup_callback
+                0x00002cca       0x15 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .debug_line.text.subrem_scene_edit_preview_callback
+                0x00002cdf       0x24 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .debug_line.text.subrem_scene_edit_preview_on_enter
+                0x00002d03       0x3c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .debug_line.text.subrem_scene_edit_preview_on_event
+                0x00002d3f       0x74 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .debug_line.text.subrem_scene_edit_preview_on_exit
+                0x00002db3       0x2d build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .debug_line_end
+                0x00002de0        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .debug_line    0x00002de0      0x521 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .debug_line.text.subrem_scene_edit_submenu_var_list_change_callback
+                0x00003301       0x51 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .debug_line.text.subrem_scene_edit_submenu_callback
+                0x00003352       0x4c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .debug_line.text.subrem_scene_edit_submenu_on_enter
+                0x0000339e       0x70 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .debug_line.text.subrem_scene_edit_submenu_on_event
+                0x0000340e       0x78 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .debug_line.text.subrem_scene_edit_submenu_on_exit
+                0x00003486       0x1c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .debug_line_end
+                0x000034a2        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .debug_line    0x000034a2      0x593 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .debug_line.text.subrem_scene_enter_new_name_text_input_callback
+                0x00003a35       0x19 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .debug_line.text.subrem_scene_enter_new_name_on_enter
+                0x00003a4e       0x47 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .debug_line.text.subrem_scene_enter_new_name_on_event
+                0x00003a95       0x53 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .debug_line.text.subrem_scene_enter_new_name_on_exit
+                0x00003ae8       0x3f build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .debug_line_end
+                0x00003b27        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .debug_line    0x00003b27      0x503 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+ .debug_line.text.subrem_scene_open_map_file_on_enter
+                0x0000402a       0x82 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+ .debug_line.text.subrem_scene_open_map_file_on_event
+                0x000040ac       0x24 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+ .debug_line.text.subrem_scene_open_map_file_on_exit
+                0x000040d0       0x18 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+ .debug_line_end
+                0x000040e8        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+ .debug_line    0x000040e8      0x539 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .debug_line.text.subrem_scene_open_sub_file_error_popup_callback
+                0x00004621       0x15 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .debug_line.text.subrem_scene_open_sub_file_dialog
+                0x00004636       0xf5 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .debug_line.text.subrem_scene_open_sub_file_on_enter
+                0x0000472b       0x75 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .debug_line.text.subrem_scene_open_sub_file_on_event
+                0x000047a0       0x3f build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .debug_line.text.subrem_scene_open_sub_file_on_exit
+                0x000047df       0x18 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .debug_line_end
+                0x000047f7        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .debug_line    0x000047f7      0x51c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .debug_line.text.subrem_scene_remote_callback
+                0x00004d13       0x22 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .debug_line.text.subrem_scene_remote_raw_callback_end_tx
+                0x00004d35       0x1b build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .debug_line.text.subrem_scene_remote_on_enter
+                0x00004d50       0x37 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .debug_line.text.subrem_scene_remote_on_event
+                0x00004d87       0xaf build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .debug_line.text.subrem_scene_remote_on_exit
+                0x00004e36       0x2c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .debug_line_end
+                0x00004e62        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .debug_line    0x00004e62      0x4fb build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .debug_line.text.subrem_scene_start_submenu_callback
+                0x0000535d       0x1a build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .debug_line.text.subrem_scene_start_on_enter
+                0x00005377       0x4b build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .debug_line.text.subrem_scene_start_on_event
+                0x000053c2       0x67 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .debug_line.text.subrem_scene_start_on_exit
+                0x00005429       0x1c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .debug_line_end
+                0x00005445        0x0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .debug_line    0x00005445      0x3fe build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_line.text.subrem_view_edit_menu_enter
+                0x00005843       0x1c build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_line.text.subrem_view_edit_menu_input
+                0x0000585f       0xc2 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_line.text.subrem_view_edit_menu_draw
+                0x00005921       0xdd build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_line.text.subrem_view_edit_menu_exit
+                0x000059fe       0x12 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_line.text.subrem_view_edit_menu_set_callback
+                0x00005a10       0x1f build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_line.text.subrem_view_edit_menu_add_data_to_show
+                0x00005a2f       0x72 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_line.text.subrem_view_edit_menu_get_index
+                0x00005aa1       0x35 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_line.text.subrem_view_edit_menu_alloc
+                0x00005ad6       0x59 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_line.text.subrem_view_edit_menu_free
+                0x00005b2f       0x3e build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_line.text.subrem_view_edit_menu_get_view
+                0x00005b6d       0x1e build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_line_end
+                0x00005b8b        0x0 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_line    0x00005b8b      0x496 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_line.text.subrem_view_remote_enter
+                0x00006021       0x1c build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_line.text.subrem_view_remote_input
+                0x0000603d       0xbc build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_line.text.subrem_view_remote_draw
+                0x000060f9       0xea build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_line.text.subrem_view_remote_exit
+                0x000061e3       0x12 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_line.text.subrem_view_remote_set_callback
+                0x000061f5       0x1f build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_line.text.subrem_view_remote_update_data_labels
+                0x00006214      0x174 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_line.text.subrem_view_remote_set_state
+                0x00006388       0x3c build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_line.text.subrem_view_remote_set_radio
+                0x000063c4       0x39 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_line.text.subrem_view_remote_alloc
+                0x000063fd       0x8e build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_line.text.subrem_view_remote_free
+                0x0000648b       0x72 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_line.text.subrem_view_remote_get_view
+                0x000064fd       0x1e build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_line_end
+                0x0000651b        0x0 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_line    0x0000651b      0x5b3 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .debug_line.text.subghz_remote_app_tick_event_callback
+                0x00006ace       0x1b build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .debug_line.text.subghz_remote_app_back_event_callback
+                0x00006ae9       0x1e build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .debug_line.text.subghz_remote_app_custom_event_callback
+                0x00006b07       0x1d build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .debug_line.text.subghz_remote_app_alloc
+                0x00006b24      0x15a build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .debug_line.text.subghz_remote_app_free
+                0x00006c7e       0x84 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .debug_line.text.subghz_remote_app
+                0x00006d02       0xcf build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .debug_line_end
+                0x00006dd1        0x0 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .debug_line    0x00006dd1      0x6dd build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .debug_line.text.subrem_map_preset_reset
+                0x000074ae       0x45 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .debug_line.text.subrem_map_file_load
+                0x000074f3      0x224 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .debug_line.text.subrem_save_protocol_to_file
+                0x00007717       0x97 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .debug_line.text.subrem_save_active_sub
+                0x000077ae       0x35 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .debug_line.text.subrem_tx_stop_sub
+                0x000077e3       0x63 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .debug_line.text.subrem_tx_start_sub
+                0x00007846       0x4c build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .debug_line.text.subrem_load_from_file
+                0x00007892       0x60 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .debug_line.text.subrem_load_default_path
+                0x000078f2       0x7f build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .debug_line.text.subrem_save_default_path
+                0x00007971       0x66 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .debug_line.text.subrem_clear_default_path
+                0x000079d7       0x34 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .debug_line.text.subrem_has_default_path
+                0x00007a0b       0x34 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .debug_line.text.subrem_save_map_to_file
+                0x00007a3f      0x124 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .debug_line_end
+                0x00007b63        0x0 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .debug_line    0x00007b63      0x19f build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+ .debug_line_end
+                0x00007d02        0x0 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+
+.debug_frame    0x00000000      0xf98
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x4b8 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_frame   0x000004b8       0x98 build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .debug_frame   0x00000550       0xa4 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .debug_frame   0x000005f4       0xa0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .debug_frame   0x00000694       0x98 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .debug_frame   0x0000072c       0xc4 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .debug_frame   0x000007f0       0x8c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .debug_frame   0x0000087c       0x68 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+ .debug_frame   0x000008e4       0xbc build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .debug_frame   0x000009a0       0x98 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .debug_frame   0x00000a38       0x78 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .debug_frame   0x00000ab0      0x13c build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_frame   0x00000bec      0x16c build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_frame   0x00000d58       0xa8 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .debug_frame   0x00000e00      0x198 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+
+.debug_str      0x00000000    0x12e9d
+ *(.debug_str)
+ .debug_str     0x00000000     0x24bf build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_str     0x000024bf     0x107c build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .debug_str     0x0000353b      0x8fd build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene.o
+ .debug_str     0x00003e38     0x10fc build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .debug_str     0x00004f34     0x123b build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .debug_str     0x0000616f      0xffa build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .debug_str     0x00007169     0x10fc build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .debug_str     0x00008265      0xf74 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .debug_str     0x000091d9      0xea0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+ .debug_str     0x0000a079     0x1046 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .debug_str     0x0000b0bf     0x14cd build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .debug_str     0x0000c58c      0xe41 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .debug_str     0x0000d3cd      0xfe8 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_str     0x0000e3b5     0x130f build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_str     0x0000f6c4     0x1277 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .debug_str     0x0001093b     0x20ba build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .debug_str     0x000129f5      0x4a8 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x2e9e
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0xa64 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_loclists
+                0x00000a64      0x1ea build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .debug_loclists
+                0x00000c4e      0x2ed build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .debug_loclists
+                0x00000f3b      0x2ea build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .debug_loclists
+                0x00001225      0x221 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .debug_loclists
+                0x00001446      0x249 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .debug_loclists
+                0x0000168f      0x12a build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .debug_loclists
+                0x000017b9       0xe0 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+ .debug_loclists
+                0x00001899      0x211 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .debug_loclists
+                0x00001aaa      0x1ff build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .debug_loclists
+                0x00001ca9      0x189 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .debug_loclists
+                0x00001e32      0x313 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_loclists
+                0x00002145      0x51a build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_loclists
+                0x0000265f      0x1af build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .debug_loclists
+                0x0000280e      0x690 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x6a6
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x1d5 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .debug_rnglists
+                0x000001d5       0x33 build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .debug_rnglists
+                0x00000208       0x2d build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .debug_rnglists
+                0x00000235       0x3f build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .debug_rnglists
+                0x00000274       0x2c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .debug_rnglists
+                0x000002a0       0x41 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .debug_rnglists
+                0x000002e1       0x25 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .debug_rnglists
+                0x00000306       0x1f build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+ .debug_rnglists
+                0x00000325       0x3a build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .debug_rnglists
+                0x0000035f       0x2c build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .debug_rnglists
+                0x0000038b       0x26 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .debug_rnglists
+                0x000003b1       0x87 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .debug_rnglists
+                0x00000438      0x124 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .debug_rnglists
+                0x0000055c       0x67 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .debug_rnglists
+                0x000005c3       0xe3 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/subghz_remote/helpers/txrx/subghz_txrx.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/subghz_remote/helpers/subrem_presets.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_label.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_menu.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_preview.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_edit_submenu.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_enter_new_name.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_fw_warning.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_map_file.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_open_sub_file.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_remote.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/subghz_remote/scenes/subrem_scene_start.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/subghz_remote/views/edit_menu.o
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/subghz_remote/views/remote.o
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app.o
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_app_i.o
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/.extapps/subghz_remote/subghz_remote_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/subghz_remote_d.elf elf32-littlearm)
+LOAD linker stubs

@@ -1,0 +1,233 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x79c
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.js_i2c_create
+                0x00000000       0xbc build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .text.ret_bad_args
+                0x000000bc       0x2c build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .text.check_arg_count_range
+                0x000000e8       0x30 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .text.js_i2c_write_read
+                0x00000118      0x268 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .text.js_i2c_write
+                0x00000380      0x1fc build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .text.js_i2c_read
+                0x0000057c      0x144 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .text.js_i2c_is_device_ready
+                0x000006c0       0xd4 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .text.js_i2c_ep
+                0x00000794        0x8 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+                0x00000794                js_i2c_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x0000079c      0x148
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.js_i2c_create.str1.1
+                0x0000079c       0x23 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .rodata.ret_bad_args.str1.1
+                0x000007bf        0x3 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .rodata.check_arg_count_range.str1.1
+                0x000007c2       0x15 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .rodata.js_i2c_write_read.str1.1
+                0x000007d7       0xea build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .rodata.str1.1
+                0x000008c1        0x7 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .rodata.i2c_plugin_descriptor
+                0x000008c8        0xc build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .rodata.js_i2c_desc
+                0x000008d4       0x10 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x58
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x58 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x177c
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x177c build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+
+.debug_abbrev   0x00000000      0x3a3
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3a3 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+
+.debug_line     0x00000000      0xa9b
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3fa build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .debug_line.text.js_i2c_create
+                0x000003fa       0x43 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .debug_line.text.ret_bad_args
+                0x0000043d       0x25 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .debug_line.text.check_arg_count_range
+                0x00000462       0x41 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .debug_line.text.js_i2c_write_read
+                0x000004a3      0x23b build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .debug_line.text.js_i2c_write
+                0x000006de      0x1d4 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .debug_line.text.js_i2c_read
+                0x000008b2      0x118 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .debug_line.text.js_i2c_is_device_ready
+                0x000009ca       0xb8 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .debug_line.text.js_i2c_ep
+                0x00000a82       0x19 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ .debug_line_end
+                0x00000a9b        0x0 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+
+.debug_frame    0x00000000      0x1d4
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1d4 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+
+.debug_str      0x00000000      0x928
+ *(.debug_str)
+ .debug_str     0x00000000      0x928 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x9d4
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x9d4 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0xd7
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xd7 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/js_i2c/modules/js_i2c.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/js_i2c_d.elf elf32-littlearm)
+LOAD linker stubs

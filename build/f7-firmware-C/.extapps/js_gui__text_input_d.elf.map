@@ -1,0 +1,248 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x2a0
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.view_mod_ctor
+                0x00000000       0x1c build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .text.illegal_symbols_assign
+                0x0000001c       0x14 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .text.default_text_clear_assign
+                0x00000030       0x28 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .text.input_callback
+                0x00000058        0xc build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .text.default_text_assign
+                0x00000064       0x5c build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .text.max_len_assign
+                0x000000c0       0x54 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .text.min_len_assign
+                0x00000114       0x14 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .text.header_assign
+                0x00000128       0x2c build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .text.ctx_destroy
+                0x00000154       0x4c build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .text.ctx_make
+                0x000001a0       0xc0 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .text.input_transformer
+                0x00000260       0x38 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .text.js_view_text_input_ep
+                0x00000298        0x8 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+                0x00000298                js_view_text_input_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000002a0      0x118
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.max_len_assign.str1.1
+                0x000002a0       0x31 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .rodata.ctx_make.str1.1
+                0x000002d1        0x6 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .rodata.str1.1
+                0x000002d7       0x5a build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ *fill*         0x00000331        0x3 
+ .rodata.plugin_descriptor
+                0x00000334        0xc build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .rodata.js_mod_desc
+                0x00000340       0x10 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .rodata.view_descriptor
+                0x00000350       0x68 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x78
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x78 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x12a7
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x12a7 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+
+.debug_abbrev   0x00000000      0x335
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x335 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+
+.debug_line     0x00000000      0x77e
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x477 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .debug_line.text.view_mod_ctor
+                0x00000477       0x1c build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .debug_line.text.illegal_symbols_assign
+                0x00000493       0x27 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .debug_line.text.default_text_clear_assign
+                0x000004ba       0x2f build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .debug_line.text.input_callback
+                0x000004e9       0x16 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .debug_line.text.default_text_assign
+                0x000004ff       0x63 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .debug_line.text.max_len_assign
+                0x00000562       0x66 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .debug_line.text.min_len_assign
+                0x000005c8       0x26 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .debug_line.text.header_assign
+                0x000005ee       0x2c build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .debug_line.text.ctx_destroy
+                0x0000061a       0x6e build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .debug_line.text.ctx_make
+                0x00000688       0x76 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .debug_line.text.input_transformer
+                0x000006fe       0x6d build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .debug_line.text.js_view_text_input_ep
+                0x0000076b       0x13 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ .debug_line_end
+                0x0000077e        0x0 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+
+.debug_frame    0x00000000      0x164
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x164 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+
+.debug_str      0x00000000      0xdd0
+ *(.debug_str)
+ .debug_str     0x00000000      0xdd0 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x41b
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x41b build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x65
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x65 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/js_gui__text_input/modules/js_gui/text_input.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/js_gui__text_input_d.elf elf32-littlearm)
+LOAD linker stubs

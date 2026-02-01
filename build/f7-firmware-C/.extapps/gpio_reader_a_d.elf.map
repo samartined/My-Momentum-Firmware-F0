@@ -1,0 +1,252 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+LOAD build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x358
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.input_callback
+                0x00000000       0x28 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .text.render_callback
+                0x00000028      0x108 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .text.GPIO_reader_app
+                0x00000130      0x1bc build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+                0x00000130                GPIO_reader_app
+ .text.gpio_item_get_pin_name
+                0x000002ec        0xc build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+                0x000002ec                gpio_item_get_pin_name
+ .text.gpio_item_get_pull_mode
+                0x000002f8        0xc build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+                0x000002f8                gpio_item_get_pull_mode
+ .text.gpio_item_get_pin_level
+                0x00000304       0x28 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+                0x00000304                gpio_item_get_pin_level
+ .text.gpio_item_configure_pin
+                0x0000032c       0x2c build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+                0x0000032c                gpio_item_configure_pin
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000358       0xf0
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.render_callback.str1.1
+                0x00000358        0xc build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .rodata.GPIO_reader_app.str1.1
+                0x00000364       0x26 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .rodata.gpio_item_get_pin_level.str1.1
+                0x0000038a        0x9 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+ .rodata.str1.1
+                0x00000393       0x5b build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+ *fill*         0x000003ee        0x2 
+ .rodata.gpio_pull_mode
+                0x000003f0       0x18 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+ .rodata.gpio_item
+                0x00000408       0x40 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x68
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .debug_aranges
+                0x00000030       0x38 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x13f3
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xf2f build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .debug_info    0x00000f2f      0x4c4 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+
+.debug_abbrev   0x00000000      0x4fb
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x315 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .debug_abbrev  0x00000315      0x1e6 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+
+.debug_line     0x00000000      0x801
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x380 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .debug_line.text.input_callback
+                0x00000380       0x30 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .debug_line.text.render_callback
+                0x000003b0       0x91 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .debug_line.text.GPIO_reader_app
+                0x00000441      0x14a build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .debug_line_end
+                0x0000058b        0x0 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .debug_line    0x0000058b      0x1cc build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+ .debug_line.text.gpio_item_get_pin_name
+                0x00000757       0x1b build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+ .debug_line.text.gpio_item_get_pull_mode
+                0x00000772       0x1b build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+ .debug_line.text.gpio_item_get_pin_level
+                0x0000078d       0x43 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+ .debug_line.text.gpio_item_configure_pin
+                0x000007d0       0x31 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+ .debug_line_end
+                0x00000801        0x0 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+
+.debug_frame    0x00000000       0xec
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x90 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .debug_frame   0x00000090       0x5c build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+
+.debug_str      0x00000000      0xf5d
+ *(.debug_str)
+ .debug_str     0x00000000      0xa1e build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .debug_str     0x00000a1e      0x53f build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x210
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x186 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .debug_loclists
+                0x00000186       0x8a build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x76
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x51 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .debug_rnglists
+                0x00000051       0x25 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/gpio_reader_a/GPIO_reader_item.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/gpio_reader_a_d.elf elf32-littlearm)
+LOAD linker stubs

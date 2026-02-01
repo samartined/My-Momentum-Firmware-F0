@@ -1,0 +1,220 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x248
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.metromoney_parse
+                0x00000000       0x94 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ .text.metromoney_read
+                0x00000094      0x120 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ *fill*         0x000001b4        0x4 
+ .text.metromoney_verify
+                0x000001b8       0x88 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ .text.metromoney_plugin_ep
+                0x00000240        0x8 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+                0x00000240                metromoney_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000248      0x1c0
+ *(.rodata)
+ .rodata        0x00000248        0x6 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.metromoney_parse.str1.1
+                0x0000024e       0x34 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ .rodata.metromoney_read.str1.1
+                0x00000282       0x1f build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ .rodata.metromoney_verify.str1.1
+                0x000002a1       0x30 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ .rodata.str1.1
+                0x000002d1       0x17 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ .rodata.metromoney_plugin_descriptor
+                0x000002e8        0xc build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ .rodata.metromoney_plugin
+                0x000002f4       0x10 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ *fill*         0x00000304        0x4 
+ .rodata.metromoney_1k_keys
+                0x00000308      0x100 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x38
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x38 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xed1
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xed1 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+
+.debug_abbrev   0x00000000      0x2c2
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x2c2 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+
+.debug_line     0x00000000      0x5a4
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x345 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ .debug_line.text.metromoney_parse
+                0x00000345       0xb6 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ .debug_line.text.metromoney_read
+                0x000003fb      0x11c build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ .debug_line.text.metromoney_verify
+                0x00000517       0x74 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ .debug_line.text.metromoney_plugin_ep
+                0x0000058b       0x19 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ .debug_line_end
+                0x000005a4        0x0 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+
+.debug_frame    0x00000000       0xa0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xa0 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+
+.debug_str      0x00000000      0xa99
+ *(.debug_str)
+ .debug_str     0x00000000      0xa99 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x255
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x255 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x64
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x64 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/metromoney_parser/plugins/supported_cards/metromoney.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/metromoney_parser_d.elf elf32-littlearm)
+LOAD linker stubs

@@ -1,0 +1,341 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                              build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o (__aeabi_uldivmod)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .text.append_bytes
+                0x00000000       0x24 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.append_bytes
+                0x00000000       0x2a build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x13cc
+ *(.text)
+ .text          0x00000000       0x30 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x00000000                __aeabi_uldivmod
+ .text          0x00000030      0x2bc /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x00000030                __udivmoddi4
+ .text          0x000002ec        0x4 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                0x000002ec                __aeabi_ldiv0
+                0x000002ec                __aeabi_idiv0
+ *(.stub)
+ *(.text*)
+ .text.intertic_on_exit
+                0x000002f0       0x44 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .text.intertic_poller_callback
+                0x00000334       0x4c build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .text.append_bytes.part.0
+                0x00000380       0x34 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .text.find_entry
+                0x000003b4       0x30 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+                0x000003b4                find_entry
+ .text.st25tb_get_block_byte
+                0x000003e4       0x34 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+                0x000003e4                st25tb_get_block_byte
+ .text.big_endian_version
+                0x00000418       0x60 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+                0x00000418                big_endian_version
+ .text.extract_bits
+                0x00000478       0x66 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+                0x00000478                extract_bits
+ *fill*         0x000004de        0x2 
+ .text.parse_timestamp
+                0x000004e0       0x84 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+                0x000004e0                parse_timestamp
+ .text.Describe_Usage_1
+                0x00000564       0xb4 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+                0x00000564                Describe_Usage_1
+ .text.Describe_Usage_1_1
+                0x00000618      0x178 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+                0x00000618                Describe_Usage_1_1
+ .text.Describe_Usage_2
+                0x00000790      0x158 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+                0x00000790                Describe_Usage_2
+ .text.Describe_Usage_1_2
+                0x000008e8      0x1c8 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+                0x000008e8                Describe_Usage_1_2
+ .text.Describe_Usage_3
+                0x00000ab0       0xb4 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+                0x00000ab0                Describe_Usage_3
+ .text.Describe_Usage_4
+                0x00000b64       0xb4 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+                0x00000b64                Describe_Usage_4
+ .text.intertic_parse
+                0x00000c18      0x488 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .text.intertic_on_event
+                0x000010a0      0x180 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .text.intertic_on_enter
+                0x00001220      0x1a4 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .text.intertic_plugin_ep
+                0x000013c4        0x8 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+                0x000013c4                intertic_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000013cc      0x6d8
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.parse_timestamp.str1.1
+                0x000013cc        0x5 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .rodata.Describe_Usage_1.str1.1
+                0x000013d1       0x66 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .rodata.Describe_Usage_1_1.str1.1
+                0x00001437       0xd9 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .rodata.Describe_Usage_2.str1.1
+                0x00001510       0x4b build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .rodata.Describe_Usage_1_2.str1.1
+                0x0000155b       0xad build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .rodata.Describe_Usage_3.str1.1
+                0x00001608       0x33 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .rodata.Describe_Usage_4.str1.1
+                0x0000163b       0x32 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .rodata.intertic_parse.str1.1
+                0x0000166d      0x191 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .rodata.intertic_on_event.str1.1
+                0x000017fe       0x5e build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .rodata.intertic_on_enter.str1.1
+                0x0000185c       0x3c build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .rodata.str1.1
+                0x00001898      0x1ef build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ *fill*         0x00001a87        0x1 
+ .rodata.intertic_plugin_descriptor
+                0x00001a88        0xc build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .rodata.intertic_plugin
+                0x00001a94       0x10 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+
+.ARM.exidx      0x00000000        0x8
+ .ARM.exidx     0x00000000        0x8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+
+.data           0x00000008      0x1a4
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.FRA_OrganizationalAuthority_Contract_Provider
+                0x00000008      0x1a4 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+                0x00000008                FRA_OrganizationalAuthority_Contract_Provider
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xb0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xb0 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x52f1
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x52f1 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+
+.debug_abbrev   0x00000000      0x5cd
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x5cd build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+
+.debug_line     0x00000000     0x1671
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0xa55 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.intertic_on_exit
+                0x00000a55       0x3f build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.intertic_poller_callback
+                0x00000a94       0x5d build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.append_bytes.part.0
+                0x00000af1       0x59 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.find_entry
+                0x00000b4a       0x53 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.st25tb_get_block_byte
+                0x00000b9d       0x57 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.big_endian_version
+                0x00000bf4       0xe9 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.extract_bits
+                0x00000cdd       0xb3 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.parse_timestamp
+                0x00000d90       0x5d build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.Describe_Usage_1
+                0x00000ded       0x63 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.Describe_Usage_1_1
+                0x00000e50       0xc4 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.Describe_Usage_2
+                0x00000f14       0xb3 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.Describe_Usage_1_2
+                0x00000fc7       0xe5 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.Describe_Usage_3
+                0x000010ac       0x63 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.Describe_Usage_4
+                0x0000110f       0x63 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.intertic_parse
+                0x00001172      0x37b build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.intertic_on_event
+                0x000014ed       0xb7 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.intertic_on_enter
+                0x000015a4       0xb4 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line.text.intertic_plugin_ep
+                0x00001658       0x19 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .debug_line_end
+                0x00001671        0x0 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+
+.debug_frame    0x00000000      0x2f4
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x2f4 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+
+.debug_str      0x00000000     0x29ba
+ *(.debug_str)
+ .debug_str     0x00000000     0x29ba build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x14a
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa3 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line_str
+                0x000000a3       0xa7 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+
+.debug_loclists
+                0x00000000     0x1c7f
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000     0x1c7f build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x156
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x156 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/intertic_plugin/scenes/plugins/intertic.o
+ .ARM.attributes
+                0x00000034       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000056       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x0000008a       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/intertic_plugin_d.elf elf32-littlearm)
+LOAD linker stubs

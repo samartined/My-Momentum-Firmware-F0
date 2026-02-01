@@ -1,0 +1,248 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ .rodata.pin_back
+                0x00000000        0x4 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x3b8
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.my_draw_callback
+                0x00000000       0x44 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ .text.furi_hal_gpio_read.constprop.0
+                0x00000044       0x18 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ .text.my_input_callback
+                0x0000005c       0xb0 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ .text.do_effect_lrl
+                0x0000010c       0x68 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+                0x0000010c                do_effect_lrl
+ .text.do_effect_both_lrl
+                0x00000174       0x84 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+                0x00000174                do_effect_both_lrl
+ .text.do_effect_lr
+                0x000001f8       0x70 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+                0x000001f8                do_effect_lr
+ .text.do_effect_counter
+                0x00000268       0x68 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+                0x00000268                do_effect_counter
+ .text.do_effects
+                0x000002d0       0x44 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+                0x000002d0                do_effects
+ .text.gpio_diag_lights_app
+                0x00000314       0xa4 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+                0x00000314                gpio_diag_lights_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000003b8       0x68
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.my_draw_callback.str1.1
+                0x000003b8       0x2f build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ .rodata.gpio_diag_lights_app.str1.1
+                0x000003e7        0x4 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ *fill*         0x000003eb        0x1 
+ .rodata.pin_leds
+                0x000003ec       0x34 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+                0x000003ec                pin_leds
+
+.data           0x00000420        0x8
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.animating
+                0x00000420        0x1 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+                0x00000420                animating
+ .data.effect   0x00000421        0x1 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+                0x00000421                effect
+ *fill*         0x00000422        0x2 
+ .data.speed    0x00000424        0x4 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+                0x00000424                speed
+
+.bss            0x00000428        0x4
+ *(.bss)
+ *(.bss*)
+ .bss.lri       0x00000428        0x4 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+                0x00000428                lri
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x60
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x60 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xdea
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xdea build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+
+.debug_abbrev   0x00000000      0x3fe
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3fe build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+
+.debug_line     0x00000000      0x91e
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x2b3 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ .debug_line.text.my_draw_callback
+                0x000002b3       0x30 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ .debug_line.text.furi_hal_gpio_read.constprop.0
+                0x000002e3       0x27 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ .debug_line.text.my_input_callback
+                0x0000030a       0xbc build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ .debug_line.text.do_effect_lrl
+                0x000003c6      0x106 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ .debug_line.text.do_effect_both_lrl
+                0x000004cc      0x14e build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ .debug_line.text.do_effect_lr
+                0x0000061a       0xd7 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ .debug_line.text.do_effect_counter
+                0x000006f1      0x138 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ .debug_line.text.do_effects
+                0x00000829       0x43 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ .debug_line.text.gpio_diag_lights_app
+                0x0000086c       0xb2 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ .debug_line_end
+                0x0000091e        0x0 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+
+.debug_frame    0x00000000      0x118
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x118 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+
+.debug_str      0x00000000      0x883
+ *(.debug_str)
+ .debug_str     0x00000000      0x883 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x493
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x493 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0xe6
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xe6 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/gpio_badge/gpio_badge.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/gpio_badge_d.elf elf32-littlearm)
+LOAD linker stubs

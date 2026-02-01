@@ -1,0 +1,215 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x164
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.js_gui_file_picker_create
+                0x00000000       0x50 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+ .text.js_gui_file_picker_pick_file
+                0x00000050      0x10c build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+ .text.js_gui_file_picker_ep
+                0x0000015c        0x8 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+                0x0000015c                js_gui_file_picker_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000168       0x88
+ *(.rodata)
+ .rodata        0x00000168        0x8 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.js_gui_file_picker_create.str1.1
+                0x00000170        0x9 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+ .rodata.js_gui_file_picker_pick_file.str1.1
+                0x00000179        0x8 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+ *fill*         0x00000181        0x7 
+ .rodata.js_picker_arg_list.1
+                0x00000188       0x30 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+ .rodata.js_picker_args.0
+                0x000001b8        0x8 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+ .rodata.str1.1
+                0x000001c0       0x14 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+ .rodata.plugin_descriptor
+                0x000001d4        0xc build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+ .rodata.js_gui_file_picker_desc
+                0x000001e0       0x10 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x30
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xb9f
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xb9f build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+
+.debug_abbrev   0x00000000      0x299
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x299 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+
+.debug_line     0x00000000      0x55e
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x421 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+ .debug_line.text.js_gui_file_picker_create
+                0x00000421       0x3b build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+ .debug_line.text.js_gui_file_picker_pick_file
+                0x0000045c       0xea build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+ .debug_line.text.js_gui_file_picker_ep
+                0x00000546       0x18 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+ .debug_line_end
+                0x0000055e        0x0 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+
+.debug_frame    0x00000000       0x78
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x78 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+
+.debug_str      0x00000000      0xa4d
+ *(.debug_str)
+ .debug_str     0x00000000      0xa4d build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x18b
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x18b build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x20
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x20 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/js_gui__file_picker/modules/js_gui/file_picker.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/js_gui__file_picker_d.elf elf32-littlearm)
+LOAD linker stubs

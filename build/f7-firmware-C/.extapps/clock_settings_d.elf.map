@@ -1,0 +1,404 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .text.clock_settings_scene_start_submenu_callback
+                0x00000000        0xc build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .debug_line.text.clock_settings_scene_start_submenu_callback
+                0x00000000       0x18 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .text.clock_settings_alarm_animation_callback
+                0x00000000        0xc build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .rodata.clock_settings_alarm.str1.1
+                0x00000000       0x11 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .text.clock_settings_alarm
+                0x00000000      0x248 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .text.clock_settings_alarm_input_callback
+                0x00000000       0x14 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .rodata.clock_settings_alarm_draw_callback.str1.1
+                0x00000000       0x20 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .text.clock_settings_alarm_draw_callback
+                0x00000000       0xcc build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .text.clock_settings_alarm_isr
+                0x00000000       0x14 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .rodata.clock_settings_alarm_start.str1.1
+                0x00000000       0x34 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .text.clock_settings_alarm_start
+                0x00000000       0x5c build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .text.clock_settings_alarm_thread_state_callback
+                0x00000000       0x18 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .text.clock_settings_start
+                0x00000000       0x10 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .bss.clock_settings_alarm_thread
+                0x00000000        0x4 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .rodata.sequence_alarm
+                0x00000000       0x4c build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .debug_info    0x00000000     0x177b build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .debug_abbrev  0x00000000      0x3c5 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .debug_loclists
+                0x00000000      0x27a build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .debug_aranges
+                0x00000000       0x58 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .debug_rnglists
+                0x00000000       0x4b build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .debug_line    0x00000000      0x474 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .debug_str     0x00000000     0x130f build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .debug_line.text.clock_settings_alarm_animation_callback
+                0x00000000       0x1a build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .debug_line.text.clock_settings_alarm
+                0x00000000      0x177 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .debug_line.text.clock_settings_alarm_input_callback
+                0x00000000       0x26 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .debug_line.text.clock_settings_alarm_draw_callback
+                0x00000000       0x50 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .debug_line.text.clock_settings_alarm_isr
+                0x00000000       0x18 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .debug_line.text.clock_settings_alarm_start
+                0x00000000       0x4c build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .debug_line.text.clock_settings_alarm_thread_state_callback
+                0x00000000       0x33 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .debug_line.text.clock_settings_start
+                0x00000000       0x15 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ .debug_frame   0x00000000       0xe8 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene.o
+LOAD build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+LOAD build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+LOAD build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+LOAD build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x920
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.clock_settings_scene_start_on_enter
+                0x00000000        0xc build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+                0x00000000                clock_settings_scene_start_on_enter
+ .text.clock_settings_scene_start_on_event
+                0x0000000c        0xe build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+                0x0000000c                clock_settings_scene_start_on_event
+ .text.clock_settings_scene_start_on_exit
+                0x0000001a        0x2 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+                0x0000001a                clock_settings_scene_start_on_exit
+ .text.clock_settings_module_view_exit_callback
+                0x0000001c        0xc build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .text.clock_settings_module_timer_callback
+                0x00000028       0x38 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .text.clock_settings_module_view_enter_callback
+                0x00000060       0x58 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .text.clock_settings_module_draw_block
+                0x000000b8       0xe0 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .text.clock_settings_module_draw_callback
+                0x00000198      0x2e4 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .text.clock_settings_module_input_navigation_callback.isra.0
+                0x0000047c       0x54 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .text.clock_settings_module_input_callback
+                0x000004d0      0x254 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .text.clock_settings_module_alloc
+                0x00000724       0xa4 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+                0x00000724                clock_settings_module_alloc
+ .text.clock_settings_module_free
+                0x000007c8       0x1c build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+                0x000007c8                clock_settings_module_free
+ .text.clock_settings_module_get_view
+                0x000007e4        0x4 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+                0x000007e4                clock_settings_module_get_view
+ .text.clock_settings_back_event_callback
+                0x000007e8        0xc build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+ .text.clock_settings_custom_event_callback
+                0x000007f4        0xc build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+ .text.clock_settings_alloc
+                0x00000800       0xb0 build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+                0x00000800                clock_settings_alloc
+ .text.clock_settings_free
+                0x000008b0       0x4c build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+                0x000008b0                clock_settings_free
+ .text.clock_settings
+                0x000008fc       0x24 build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+                0x000008fc                clock_settings
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000920       0x41
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.clock_settings_scene_handlers
+                0x00000920       0x10 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene.o
+                0x00000920                clock_settings_scene_handlers
+ .rodata.clock_settings_scene_on_exit_handlers
+                0x00000930        0x4 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene.o
+                0x00000930                clock_settings_scene_on_exit_handlers
+ .rodata.clock_settings_scene_on_event_handlers
+                0x00000934        0x4 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene.o
+                0x00000934                clock_settings_scene_on_event_handlers
+ .rodata.clock_settings_scene_on_enter_handlers
+                0x00000938        0x4 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene.o
+                0x00000938                clock_settings_scene_on_enter_handlers
+ .rodata.clock_settings_module_draw_callback.str1.1
+                0x0000093c       0x21 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .rodata.clock_settings_alloc.str1.1
+                0x0000095d        0x4 build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xf8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene.o
+ .debug_aranges
+                0x00000018       0x38 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .debug_aranges
+                0x00000050       0x68 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_aranges
+                0x000000b8       0x40 build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2d18
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x458 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene.o
+ .debug_info    0x00000458      0x4c4 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .debug_info    0x0000091c     0x1a41 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_info    0x0000235d      0x9bb build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+
+.debug_abbrev   0x00000000      0xa63
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x156 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene.o
+ .debug_abbrev  0x00000156      0x1cc build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .debug_abbrev  0x00000322      0x4cb build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_abbrev  0x000007ed      0x276 build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+
+.debug_line     0x00000000     0x14aa
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x24f build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene.o
+ .debug_line_end
+                0x0000024f        0x0 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene.o
+ .debug_line    0x0000024f      0x295 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .debug_line.text.clock_settings_scene_start_on_enter
+                0x000004e4       0x17 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .debug_line.text.clock_settings_scene_start_on_event
+                0x000004fb       0x24 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .debug_line.text.clock_settings_scene_start_on_exit
+                0x0000051f       0x18 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .debug_line_end
+                0x00000537        0x0 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .debug_line    0x00000537      0x3e7 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_line.text.clock_settings_module_view_exit_callback
+                0x0000091e       0x1c build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_line.text.clock_settings_module_timer_callback
+                0x0000093a       0x38 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_line.text.clock_settings_module_view_enter_callback
+                0x00000972       0x4d build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_line.text.clock_settings_module_draw_block
+                0x000009bf       0x7f build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_line.text.clock_settings_module_draw_callback
+                0x00000a3e       0x8e build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_line.text.clock_settings_module_input_navigation_callback.isra.0
+                0x00000acc       0x90 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_line.text.clock_settings_module_input_callback
+                0x00000b5c      0x3e5 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_line.text.clock_settings_module_alloc
+                0x00000f41       0x5d build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_line.text.clock_settings_module_free
+                0x00000f9e       0x31 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_line.text.clock_settings_module_get_view
+                0x00000fcf       0x1e build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_line_end
+                0x00000fed        0x0 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_line    0x00000fed      0x3bc build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+ .debug_line.text.clock_settings_back_event_callback
+                0x000013a9       0x1e build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+ .debug_line.text.clock_settings_custom_event_callback
+                0x000013c7       0x1d build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+ .debug_line.text.clock_settings_alloc
+                0x000013e4       0x67 build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+ .debug_line.text.clock_settings_free
+                0x0000144b       0x2f build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+ .debug_line.text.clock_settings
+                0x0000147a       0x30 build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+ .debug_line_end
+                0x000014aa        0x0 build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+
+.debug_frame    0x00000000      0x220
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x58 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .debug_frame   0x00000058      0x148 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_frame   0x000001a0       0x80 build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+
+.debug_str      0x00000000     0x1dec
+ *(.debug_str)
+ .debug_str     0x00000000      0x4f3 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene.o
+ .debug_str     0x000004f3      0x493 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .debug_str     0x00000986      0xc2b build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_str     0x000015b1      0x83b build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x87c
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000       0x96 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .debug_loclists
+                0x00000096      0x6fb build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_loclists
+                0x00000791       0xeb build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x129
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x25 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .debug_rnglists
+                0x00000025       0xd8 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .debug_rnglists
+                0x000000fd       0x2c build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/clock_settings/scenes/clock_settings_scene_start.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/clock_settings/views/clock_settings_module.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/clock_settings/clock_settings.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/clock_settings/clock_settings_alarm.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/clock_settings_d.elf elf32-littlearm)
+LOAD linker stubs

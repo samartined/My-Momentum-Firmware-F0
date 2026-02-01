@@ -1,0 +1,212 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x2d8
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.opal_parse
+                0x00000000      0x2d0 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+ .text.opal_plugin_ep
+                0x000002d0        0x8 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+                0x000002d0                opal_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000002d8      0x254
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.opal_parse.str1.1
+                0x000002d8       0x8e build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+ .rodata.str1.1
+                0x00000366      0x159 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+ *fill*         0x000004bf        0x1 
+ .rodata.opal_plugin_descriptor
+                0x000004c0        0xc build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+ .rodata.opal_plugin
+                0x000004cc       0x10 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+ .rodata.opal_usages
+                0x000004dc       0x38 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+ .rodata.opal_modes
+                0x00000514       0x14 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+ .rodata.opal_file_id
+                0x00000528        0x1 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+ .rodata.opal_app_id
+                0x00000529        0x3 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x28
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x12e2
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x12e2 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+
+.debug_abbrev   0x00000000      0x31f
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x31f build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+
+.debug_line     0x00000000      0x76f
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x35a build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+ .debug_line.text.opal_parse
+                0x0000035a      0x3fc build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+ .debug_line.text.opal_plugin_ep
+                0x00000756       0x19 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+ .debug_line_end
+                0x0000076f        0x0 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+
+.debug_frame    0x00000000       0x50
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x50 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+
+.debug_str      0x00000000      0xe52
+ *(.debug_str)
+ .debug_str     0x00000000      0xe52 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x416
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x416 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x5c
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x5c build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/opal_parser/plugins/supported_cards/opal.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/opal_parser_d.elf elf32-littlearm)
+LOAD linker stubs

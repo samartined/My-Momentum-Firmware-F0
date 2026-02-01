@@ -1,0 +1,1696 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+                              build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o (spi_mem_chip_copy_chip_info)
+build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip_arr.o)
+                              build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o) (SPIMemChips)
+build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+                              build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o (spi_mem_tools_get_file_max_block_size)
+build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+                              build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o (spi_mem_worker_alloc)
+build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+                              build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o) (spi_mem_worker_modes)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .text.spi_mem_chip_get_write_mode
+                0x00000000        0x4 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_line.text.spi_mem_chip_get_write_mode
+                0x00000000       0x1a build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip_arr.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip_arr.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip_arr.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip_arr.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/.extapps/spi_mem_manager/spi
+
+.text           0x00000000     0x2954
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.spi_mem_scene_about_on_enter
+                0x00000000      0x100 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+                0x00000000                spi_mem_scene_about_on_enter
+ .text.spi_mem_scene_about_on_event
+                0x00000100        0xe build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+                0x00000100                spi_mem_scene_about_on_event
+ *fill*         0x0000010e        0x2 
+ .text.spi_mem_scene_about_on_exit
+                0x00000110        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+                0x00000110                spi_mem_scene_about_on_exit
+ .text.spi_mem_scene_chip_detect_callback
+                0x0000011c        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .text.spi_mem_scene_chip_detect_on_enter
+                0x00000128       0x48 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+                0x00000128                spi_mem_scene_chip_detect_on_enter
+ .text.spi_mem_scene_chip_detect_on_event
+                0x00000170       0x40 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+                0x00000170                spi_mem_scene_chip_detect_on_event
+ .text.spi_mem_scene_chip_detect_on_exit
+                0x000001b0       0x2c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+                0x000001b0                spi_mem_scene_chip_detect_on_exit
+ .text.spi_mem_scene_chip_detect_fail_widget_callback
+                0x000001dc       0x14 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .text.spi_mem_scene_chip_detect_fail_on_enter
+                0x000001f0      0x124 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+                0x000001f0                spi_mem_scene_chip_detect_fail_on_enter
+ .text.spi_mem_scene_chip_detect_fail_on_event
+                0x00000314       0x3c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+                0x00000314                spi_mem_scene_chip_detect_fail_on_event
+ .text.spi_mem_scene_chip_detect_fail_on_exit
+                0x00000350        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+                0x00000350                spi_mem_scene_chip_detect_fail_on_exit
+ .text.spi_mem_scene_chip_detected_widget_callback
+                0x0000035c       0x14 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .text.spi_mem_scene_chip_detected_on_enter
+                0x00000370      0x16c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+                0x00000370                spi_mem_scene_chip_detected_on_enter
+ .text.spi_mem_scene_chip_detected_on_event
+                0x000004dc       0x6c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+                0x000004dc                spi_mem_scene_chip_detected_on_event
+ .text.spi_mem_scene_chip_detected_on_exit
+                0x00000548        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+                0x00000548                spi_mem_scene_chip_detected_on_exit
+ .text.spi_mem_scene_chip_error_widget_callback
+                0x00000554       0x14 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .text.spi_mem_scene_chip_error_on_enter
+                0x00000568       0x84 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+                0x00000568                spi_mem_scene_chip_error_on_enter
+ .text.spi_mem_scene_chip_error_on_event
+                0x000005ec       0x48 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+                0x000005ec                spi_mem_scene_chip_error_on_event
+ .text.spi_mem_scene_chip_error_on_exit
+                0x00000634        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+                0x00000634                spi_mem_scene_chip_error_on_exit
+ .text.spi_mem_scene_delete_confirm_widget_callback
+                0x00000640       0x14 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .text.spi_mem_scene_delete_confirm_on_enter
+                0x00000654       0xb8 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+                0x00000654                spi_mem_scene_delete_confirm_on_enter
+ .text.spi_mem_scene_delete_confirm_on_event
+                0x0000070c       0x50 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+                0x0000070c                spi_mem_scene_delete_confirm_on_event
+ .text.spi_mem_scene_delete_confirm_on_exit
+                0x0000075c        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+                0x0000075c                spi_mem_scene_delete_confirm_on_exit
+ .text.spi_mem_scene_erase_callback
+                0x00000768        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .text.spi_mem_scene_erase_widget_callback
+                0x00000774       0x14 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .text.spi_mem_scene_erase_on_enter
+                0x00000788       0x98 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+                0x00000788                spi_mem_scene_erase_on_enter
+ .text.spi_mem_scene_erase_on_event
+                0x00000820       0x6c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+                0x00000820                spi_mem_scene_erase_on_event
+ .text.spi_mem_scene_erase_on_exit
+                0x0000088c       0x2c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+                0x0000088c                spi_mem_scene_erase_on_exit
+ .text.spi_mem_scene_file_info_on_enter
+                0x000008b8       0x88 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+                0x000008b8                spi_mem_scene_file_info_on_enter
+ .text.spi_mem_scene_file_info_on_event
+                0x00000940       0x28 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+                0x00000940                spi_mem_scene_file_info_on_event
+ .text.spi_mem_scene_file_info_on_exit
+                0x00000968        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+                0x00000968                spi_mem_scene_file_info_on_exit
+ .text.spi_mem_scene_read_progress_view_result_callback
+                0x00000974        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+                0x00000974                spi_mem_scene_read_progress_view_result_callback
+ .text.spi_mem_scene_read_callback
+                0x00000980        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .text.spi_mem_scene_read_on_enter
+                0x0000098c       0x88 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+                0x0000098c                spi_mem_scene_read_on_enter
+ .text.spi_mem_scene_read_on_event
+                0x00000a14       0x5c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+                0x00000a14                spi_mem_scene_read_on_event
+ .text.spi_mem_scene_read_on_exit
+                0x00000a70       0x2c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+                0x00000a70                spi_mem_scene_read_on_exit
+ .text.spi_mem_scene_read_filename_view_result_callback
+                0x00000a9c        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+                0x00000a9c                spi_mem_scene_read_filename_view_result_callback
+ .text.spi_mem_scene_read_set_random_filename
+                0x00000aa8       0x48 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+                0x00000aa8                spi_mem_scene_read_set_random_filename
+ .text.spi_mem_scene_read_filename_on_enter
+                0x00000af0       0x4c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+                0x00000af0                spi_mem_scene_read_filename_on_enter
+ .text.spi_mem_scene_read_filename_on_event
+                0x00000b3c       0x2c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+                0x00000b3c                spi_mem_scene_read_filename_on_event
+ .text.spi_mem_scene_read_filename_on_exit
+                0x00000b68        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+                0x00000b68                spi_mem_scene_read_filename_on_exit
+ .text.spi_mem_scene_saved_file_menu_submenu_callback
+                0x00000b74        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .text.spi_mem_scene_saved_file_menu_on_enter
+                0x00000b80       0x7c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+                0x00000b80                spi_mem_scene_saved_file_menu_on_enter
+ .text.spi_mem_scene_saved_file_menu_on_event
+                0x00000bfc       0x58 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+                0x00000bfc                spi_mem_scene_saved_file_menu_on_event
+ .text.spi_mem_scene_saved_file_menu_on_exit
+                0x00000c54        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+                0x00000c54                spi_mem_scene_saved_file_menu_on_exit
+ .text.spi_mem_scene_select_file_on_enter
+                0x00000c60       0x3c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+                0x00000c60                spi_mem_scene_select_file_on_enter
+ .text.spi_mem_scene_select_file_on_event
+                0x00000c9c        0xe build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+                0x00000c9c                spi_mem_scene_select_file_on_event
+ .text.spi_mem_scene_select_file_on_exit
+                0x00000caa        0x2 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+                0x00000caa                spi_mem_scene_select_file_on_exit
+ .text.spi_mem_scene_select_model_submenu_callback
+                0x00000cac       0x28 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .text.spi_mem_scene_select_model_on_enter
+                0x00000cd4       0xa4 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+                0x00000cd4                spi_mem_scene_select_model_on_enter
+ .text.spi_mem_scene_select_model_on_event
+                0x00000d78       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+                0x00000d78                spi_mem_scene_select_model_on_event
+ .text.spi_mem_scene_select_model_on_exit
+                0x00000dac        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+                0x00000dac                spi_mem_scene_select_model_on_exit
+ .text.spi_mem_scene_select_vendor_submenu_callback
+                0x00000db8        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .text.spi_mem_scene_select_vendor_on_enter
+                0x00000dc4      0x154 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+                0x00000dc4                spi_mem_scene_select_vendor_on_enter
+ .text.spi_mem_scene_select_vendor_on_event
+                0x00000f18       0x54 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+                0x00000f18                spi_mem_scene_select_vendor_on_event
+ .text.spi_mem_scene_select_vendor_on_exit
+                0x00000f6c        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+                0x00000f6c                spi_mem_scene_select_vendor_on_exit
+ .text.spi_mem_scene_start_submenu_callback
+                0x00000f78        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .text.spi_mem_scene_start_on_enter
+                0x00000f84       0x8c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+                0x00000f84                spi_mem_scene_start_on_enter
+ .text.spi_mem_scene_start_on_event
+                0x00001010       0x6c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+                0x00001010                spi_mem_scene_start_on_event
+ .text.spi_mem_scene_start_on_exit
+                0x0000107c        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+                0x0000107c                spi_mem_scene_start_on_exit
+ .text.spi_mem_scene_storage_error_set_previous_scene
+                0x00001088       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .text.spi_mem_scene_storage_error_widget_callback
+                0x000010a4       0x14 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .text.spi_mem_scene_storage_error_on_enter
+                0x000010b8       0x84 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+                0x000010b8                spi_mem_scene_storage_error_on_enter
+ .text.spi_mem_scene_storage_error_on_event
+                0x0000113c       0x30 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+                0x0000113c                spi_mem_scene_storage_error_on_event
+ .text.spi_mem_scene_storage_error_on_exit
+                0x0000116c        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+                0x0000116c                spi_mem_scene_storage_error_on_exit
+ .text.spi_mem_scene_success_popup_callback
+                0x00001178        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .text.spi_mem_scene_success_on_enter
+                0x00001184       0x7c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+                0x00001184                spi_mem_scene_success_on_enter
+ .text.spi_mem_scene_success_on_event
+                0x00001200       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+                0x00001200                spi_mem_scene_success_on_event
+ .text.spi_mem_scene_success_on_exit
+                0x00001234        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+                0x00001234                spi_mem_scene_success_on_exit
+ .text.spi_mem_scene_verify_view_result_callback
+                0x00001240        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+                0x00001240                spi_mem_scene_verify_view_result_callback
+ .text.spi_mem_scene_verify_callback
+                0x0000124c        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .text.spi_mem_scene_verify_on_enter
+                0x00001258       0xa0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+                0x00001258                spi_mem_scene_verify_on_enter
+ .text.spi_mem_scene_verify_on_event
+                0x000012f8       0x54 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+                0x000012f8                spi_mem_scene_verify_on_event
+ .text.spi_mem_scene_verify_on_exit
+                0x0000134c       0x2c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+                0x0000134c                spi_mem_scene_verify_on_exit
+ .text.spi_mem_scene_verify_error_widget_callback
+                0x00001378       0x14 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .text.spi_mem_scene_verify_error_on_enter
+                0x0000138c       0x68 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+                0x0000138c                spi_mem_scene_verify_error_on_enter
+ .text.spi_mem_scene_verify_error_on_event
+                0x000013f4       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+                0x000013f4                spi_mem_scene_verify_error_on_event
+ .text.spi_mem_scene_verify_error_on_exit
+                0x00001428        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+                0x00001428                spi_mem_scene_verify_error_on_exit
+ .text.spi_mem_scene_wiring_on_enter
+                0x00001434       0x28 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+                0x00001434                spi_mem_scene_wiring_on_enter
+ .text.spi_mem_scene_wiring_on_event
+                0x0000145c        0xe build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+                0x0000145c                spi_mem_scene_wiring_on_event
+ *fill*         0x0000146a        0x2 
+ .text.spi_mem_scene_wiring_on_exit
+                0x0000146c        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+                0x0000146c                spi_mem_scene_wiring_on_exit
+ .text.spi_mem_scene_write_progress_view_result_callback
+                0x00001478        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+                0x00001478                spi_mem_scene_write_progress_view_result_callback
+ .text.spi_mem_scene_write_callback
+                0x00001484        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .text.spi_mem_scene_write_on_enter
+                0x00001490       0xa0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+                0x00001490                spi_mem_scene_write_on_enter
+ .text.spi_mem_scene_write_on_event
+                0x00001530       0x5c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+                0x00001530                spi_mem_scene_write_on_event
+ .text.spi_mem_scene_write_on_exit
+                0x0000158c       0x2c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+                0x0000158c                spi_mem_scene_write_on_exit
+ .text.spi_mem_view_detect_exit_callback
+                0x000015b8       0x28 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .text.spi_mem_view_detect_enter_callback
+                0x000015e0       0x28 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .text.spi_mem_view_detect_draw_callback
+                0x00001608       0x54 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .text.spi_mem_view_detect_get_view
+                0x0000165c        0x4 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+                0x0000165c                spi_mem_view_detect_get_view
+ .text.spi_mem_view_detect_alloc
+                0x00001660       0x98 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+                0x00001660                spi_mem_view_detect_alloc
+ .text.spi_mem_view_detect_free
+                0x000016f8       0x3c build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+                0x000016f8                spi_mem_view_detect_free
+ .text.spi_mem_view_progress_draw_progress
+                0x00001734       0x94 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .text.spi_mem_view_progress_draw_size_warning
+                0x000017c8       0x4c build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .text.spi_mem_view_progress_draw_callback
+                0x00001814       0xac build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .text.spi_mem_view_progress_input_callback
+                0x000018c0       0x4c build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .text.spi_mem_view_progress_get_view
+                0x0000190c        0x4 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+                0x0000190c                spi_mem_view_progress_get_view
+ .text.spi_mem_view_progress_free
+                0x00001910       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+                0x00001910                spi_mem_view_progress_free
+ .text.spi_mem_view_progress_set_read_callback
+                0x0000192c       0x28 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+                0x0000192c                spi_mem_view_progress_set_read_callback
+ .text.spi_mem_view_progress_set_verify_callback
+                0x00001954       0x24 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+                0x00001954                spi_mem_view_progress_set_verify_callback
+ .text.spi_mem_view_progress_set_write_callback
+                0x00001978       0x28 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+                0x00001978                spi_mem_view_progress_set_write_callback
+ .text.spi_mem_view_progress_set_chip_size
+                0x000019a0       0x24 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+                0x000019a0                spi_mem_view_progress_set_chip_size
+ .text.spi_mem_view_progress_set_file_size
+                0x000019c4       0x24 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+                0x000019c4                spi_mem_view_progress_set_file_size
+ .text.spi_mem_view_progress_set_block_size
+                0x000019e8       0x24 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+                0x000019e8                spi_mem_view_progress_set_block_size
+ .text.spi_mem_view_progress_inc_progress
+                0x00001a0c       0x60 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+                0x00001a0c                spi_mem_view_progress_inc_progress
+ .text.spi_mem_view_progress_reset
+                0x00001a6c       0x30 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+                0x00001a6c                spi_mem_view_progress_reset
+ .text.spi_mem_view_progress_alloc
+                0x00001a9c       0x60 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+                0x00001a9c                spi_mem_view_progress_alloc
+ .text.spi_mem_back_event_callback
+                0x00001afc        0xc build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .text.spi_mem_custom_event_callback
+                0x00001b08        0xc build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .text.spi_mem_alloc
+                0x00001b14      0x1e0 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+                0x00001b14                spi_mem_alloc
+ .text.spi_mem_free
+                0x00001cf4      0x100 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+                0x00001cf4                spi_mem_free
+ .text.spi_mem_app
+                0x00001df4       0x24 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+                0x00001df4                spi_mem_app
+ .text.spi_mem_file_delete
+                0x00001e18       0x20 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+                0x00001e18                spi_mem_file_delete
+ .text.spi_mem_file_select
+                0x00001e38       0x38 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+                0x00001e38                spi_mem_file_select
+ .text.spi_mem_file_create_open
+                0x00001e70       0x94 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+                0x00001e70                spi_mem_file_create_open
+ .text.spi_mem_file_open
+                0x00001f04       0x44 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+                0x00001f04                spi_mem_file_open
+ .text.spi_mem_file_write_block
+                0x00001f48       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+                0x00001f48                spi_mem_file_write_block
+ .text.spi_mem_file_read_block
+                0x00001f60       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+                0x00001f60                spi_mem_file_read_block
+ .text.spi_mem_file_close
+                0x00001f78       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+                0x00001f78                spi_mem_file_close
+ .text.spi_mem_file_get_size
+                0x00001f94       0x28 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+                0x00001f94                spi_mem_file_get_size
+ .text.spi_mem_chip_find_all
+                0x00001fbc       0x80 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+                0x00001fbc                spi_mem_chip_find_all
+ .text.spi_mem_chip_copy_chip_info
+                0x0000203c       0x12 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+                0x0000203c                spi_mem_chip_copy_chip_info
+ .text.spi_mem_chip_get_size
+                0x0000204e        0x4 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+                0x0000204e                spi_mem_chip_get_size
+ *fill*         0x00002052        0x2 
+ .text.spi_mem_chip_get_vendor_name
+                0x00002054       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+                0x00002054                spi_mem_chip_get_vendor_name
+ .text.spi_mem_chip_get_vendor_name_by_enum
+                0x0000206c       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+                0x0000206c                spi_mem_chip_get_vendor_name_by_enum
+ .text.spi_mem_chip_get_model_name
+                0x00002084        0x4 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+                0x00002084                spi_mem_chip_get_model_name
+ .text.spi_mem_chip_get_vendor_id
+                0x00002088        0x4 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+                0x00002088                spi_mem_chip_get_vendor_id
+ .text.spi_mem_chip_get_type_id
+                0x0000208c        0x4 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+                0x0000208c                spi_mem_chip_get_type_id
+ .text.spi_mem_chip_get_capacity_id
+                0x00002090        0x4 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+                0x00002090                spi_mem_chip_get_capacity_id
+ .text.spi_mem_chip_get_page_size
+                0x00002094        0x4 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+                0x00002094                spi_mem_chip_get_page_size
+ .text.spi_mem_chip_get_vendor_enum
+                0x00002098        0x4 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+                0x00002098                spi_mem_chip_get_vendor_enum
+ .text.spi_mem_tools_trx
+                0x0000209c       0x78 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .text.spi_mem_tools_set_write_enabled.constprop.0
+                0x00002114       0x40 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .text.spi_mem_tools_read_chip_info
+                0x00002154       0x50 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+                0x00002154                spi_mem_tools_read_chip_info
+ .text.spi_mem_tools_check_chip_info
+                0x000021a4       0x38 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+                0x000021a4                spi_mem_tools_check_chip_info
+ .text.spi_mem_tools_read_block
+                0x000021dc       0x74 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+                0x000021dc                spi_mem_tools_read_block
+ .text.spi_mem_tools_get_file_max_block_size
+                0x00002250        0x6 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+                0x00002250                spi_mem_tools_get_file_max_block_size
+ *fill*         0x00002256        0x2 
+ .text.spi_mem_tools_get_chip_status
+                0x00002258       0x2c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+                0x00002258                spi_mem_tools_get_chip_status
+ .text.spi_mem_tools_erase_chip
+                0x00002284       0x24 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+                0x00002284                spi_mem_tools_erase_chip
+ .text.spi_mem_tools_write_bytes
+                0x000022a8       0xa0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+                0x000022a8                spi_mem_tools_write_bytes
+ .text.spi_mem_worker_thread
+                0x00002348       0x60 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .text.spi_mem_worker_alloc
+                0x000023a8       0x5c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+                0x000023a8                spi_mem_worker_alloc
+ .text.spi_mem_worker_free
+                0x00002404       0x1c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+                0x00002404                spi_mem_worker_free
+ .text.spi_mem_worker_check_for_stop
+                0x00002420       0x10 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+                0x00002420                spi_mem_worker_check_for_stop
+ .text.spi_mem_worker_start_thread
+                0x00002430        0xc build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+                0x00002430                spi_mem_worker_start_thread
+ .text.spi_mem_worker_stop_thread
+                0x0000243c       0x28 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+                0x0000243c                spi_mem_worker_stop_thread
+ .text.spi_mem_worker_chip_detect_start
+                0x00002464       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+                0x00002464                spi_mem_worker_chip_detect_start
+ .text.spi_mem_worker_read_start
+                0x00002498       0x30 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+                0x00002498                spi_mem_worker_read_start
+ .text.spi_mem_worker_verify_start
+                0x000024c8       0x30 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+                0x000024c8                spi_mem_worker_verify_start
+ .text.spi_mem_worker_erase_start
+                0x000024f8       0x30 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+                0x000024f8                spi_mem_worker_erase_start
+ .text.spi_mem_worker_write_start
+                0x00002528       0x30 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+                0x00002528                spi_mem_worker_write_start
+ .text.spi_mem_worker_run_callback
+                0x00002558        0xa build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ *fill*         0x00002562        0x2 
+ .text.spi_mem_worker_await_chip_busy
+                0x00002564       0x3c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .text.spi_mem_worker_erase_process
+                0x000025a0       0x38 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .text.spi_mem_worker_chip_detect_process
+                0x000025d8       0x50 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .text.spi_mem_worker_write.constprop.0
+                0x00002628       0xc0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .text.spi_mem_worker_write_process
+                0x000026e8       0x7c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .text.spi_mem_worker_read.constprop.0.isra.0
+                0x00002764       0x94 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .text.spi_mem_worker_read_process
+                0x000027f8       0x4c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .text.spi_mem_worker_verify.constprop.0.isra.0
+                0x00002844       0xa0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .text.spi_mem_worker_verify_process
+                0x000028e4       0x70 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00002954     0x49fc
+ *(.rodata)
+ .rodata        0x00002954        0x3 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ *(.rodata1)
+ *(.rodata.*)
+ *fill*         0x00002957        0x1 
+ .rodata.spi_mem_scene_handlers
+                0x00002958       0x10 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene.o
+                0x00002958                spi_mem_scene_handlers
+ .rodata.spi_mem_on_exit_handlers
+                0x00002968       0x54 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene.o
+                0x00002968                spi_mem_on_exit_handlers
+ .rodata.spi_mem_on_event_handlers
+                0x000029bc       0x54 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene.o
+                0x000029bc                spi_mem_on_event_handlers
+ .rodata.spi_mem_on_enter_handlers
+                0x00002a10       0x54 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene.o
+                0x00002a10                spi_mem_on_enter_handlers
+ .rodata.spi_mem_scene_about_on_enter.str1.1
+                0x00002a64      0x154 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+ .rodata.spi_mem_scene_chip_detect_fail_on_enter.str1.1
+                0x00002bb8       0x56 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .rodata.spi_mem_scene_chip_detected_on_enter.str1.1
+                0x00002c0e       0x3f build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .rodata.spi_mem_scene_chip_error_on_enter.str1.1
+                0x00002c4d       0x38 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .rodata.spi_mem_scene_delete_confirm_on_enter.str1.1
+                0x00002c85       0x1d build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .rodata.spi_mem_scene_erase_on_enter.str1.1
+                0x00002ca2       0x2a build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .rodata.spi_mem_scene_file_info_on_enter.str1.1
+                0x00002ccc       0x17 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+ .rodata.spi_mem_scene_read_set_random_filename.str1.1
+                0x00002ce3        0xc build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .rodata.spi_mem_scene_read_filename_on_enter.str1.1
+                0x00002cef        0xe build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .rodata.spi_mem_scene_saved_file_menu_on_enter.str1.1
+                0x00002cfd       0x1a build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .rodata.spi_mem_scene_select_model_on_enter.str1.1
+                0x00002d17       0x12 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .rodata.spi_mem_scene_select_vendor_on_enter.str1.1
+                0x00002d29       0x13 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .rodata.spi_mem_scene_start_on_enter.str1.1
+                0x00002d3c       0x1e build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .rodata.spi_mem_scene_start_on_event.str1.1
+                0x00002d5a        0x6 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .rodata.spi_mem_scene_storage_error_on_enter.str1.1
+                0x00002d60       0x37 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .rodata.spi_mem_scene_success_on_enter.str1.1
+                0x00002d97        0x9 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .rodata.spi_mem_scene_verify_error_on_enter.str1.1
+                0x00002da0       0x26 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .rodata.spi_mem_view_detect_draw_callback.str1.1
+                0x00002dc6       0x16 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .rodata.spi_mem_view_progress_draw_progress.str1.1
+                0x00002ddc        0x6 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .rodata.spi_mem_view_progress_draw_size_warning.str1.1
+                0x00002de2       0x2c build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .rodata.spi_mem_view_progress_draw_callback.str1.1
+                0x00002e0e       0x35 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .rodata.spi_mem_alloc.str1.1
+                0x00002e43       0x33 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .rodata.spi_mem_file_select.str1.1
+                0x00002e76        0xb build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .rodata.spi_mem_file_create_open.str1.1
+                0x00002e81       0x17 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .rodata.A_ChipLooking_64x64
+                0x00002e98        0xc build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+                0x00002e98                A_ChipLooking_64x64
+ .rodata.I_Wiring_SPI_128x64
+                0x00002ea4        0xc build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+                0x00002ea4                I_Wiring_SPI_128x64
+ .rodata.I_Dip8_32x36
+                0x00002eb0        0xc build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+                0x00002eb0                I_Dip8_32x36
+ .rodata.I_Dip8_10px
+                0x00002ebc        0xc build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+                0x00002ebc                I_Dip8_10px
+ .rodata._A_ChipLooking_64x64
+                0x00002ec8        0xc build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+                0x00002ec8                _A_ChipLooking_64x64
+ .rodata._A_ChipLooking_64x64_2
+                0x00002ed4       0xbb build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+                0x00002ed4                _A_ChipLooking_64x64_2
+ .rodata._A_ChipLooking_64x64_1
+                0x00002f8f       0xaa build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+                0x00002f8f                _A_ChipLooking_64x64_1
+ .rodata._A_ChipLooking_64x64_0
+                0x00003039       0xbc build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+                0x00003039                _A_ChipLooking_64x64_0
+ *fill*         0x000030f5        0x3 
+ .rodata._I_Wiring_SPI_128x64
+                0x000030f8        0x4 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+                0x000030f8                _I_Wiring_SPI_128x64
+ .rodata._I_Wiring_SPI_128x64_0
+                0x000030fc      0x255 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+                0x000030fc                _I_Wiring_SPI_128x64_0
+ *fill*         0x00003351        0x3 
+ .rodata._I_Dip8_32x36
+                0x00003354        0x4 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+                0x00003354                _I_Dip8_32x36
+ .rodata._I_Dip8_32x36_0
+                0x00003358       0x38 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+                0x00003358                _I_Dip8_32x36_0
+ .rodata._I_Dip8_10px
+                0x00003390        0x4 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+                0x00003390                _I_Dip8_10px
+ .rodata._I_Dip8_10px_0
+                0x00003394       0x15 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+                0x00003394                _I_Dip8_10px_0
+ .rodata.str1.1
+                0x000033a9      0x112 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ *fill*         0x000034bb        0x1 
+ .rodata.spi_mem_chip_vendor_names
+                0x000034bc      0x140 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+                0x000034bc                spi_mem_chip_vendor_names
+ .rodata.str1.1
+                0x000035fc     0x1428 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip_arr.o)
+ .rodata.SPIMemChips
+                0x00004a24     0x2904 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip_arr.o)
+                0x00004a24                SPIMemChips
+ .rodata.spi_mem_worker_alloc.str1.1
+                0x00007328        0xd build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ *fill*         0x00007335        0x3 
+ .rodata.spi_mem_worker_modes
+                0x00007338       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+                0x00007338                spi_mem_worker_modes
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x810
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene.o
+ .debug_aranges
+                0x00000018       0x30 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+ .debug_aranges
+                0x00000048       0x38 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .debug_aranges
+                0x00000080       0x38 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .debug_aranges
+                0x000000b8       0x38 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .debug_aranges
+                0x000000f0       0x38 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .debug_aranges
+                0x00000128       0x38 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .debug_aranges
+                0x00000160       0x40 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .debug_aranges
+                0x000001a0       0x30 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+ .debug_aranges
+                0x000001d0       0x40 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .debug_aranges
+                0x00000210       0x40 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .debug_aranges
+                0x00000250       0x38 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .debug_aranges
+                0x00000288       0x30 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+ .debug_aranges
+                0x000002b8       0x38 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .debug_aranges
+                0x000002f0       0x38 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .debug_aranges
+                0x00000328       0x38 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .debug_aranges
+                0x00000360       0x40 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .debug_aranges
+                0x000003a0       0x38 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .debug_aranges
+                0x000003d8       0x40 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .debug_aranges
+                0x00000418       0x38 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .debug_aranges
+                0x00000450       0x30 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+ .debug_aranges
+                0x00000480       0x40 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .debug_aranges
+                0x000004c0       0x48 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .debug_aranges
+                0x00000508       0x90 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_aranges
+                0x00000598       0x40 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .debug_aranges
+                0x000005d8       0x58 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .debug_aranges
+                0x00000630       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+ .debug_aranges
+                0x00000648       0x78 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_aranges
+                0x000006c0       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip_arr.o)
+ .debug_aranges
+                0x000006d8       0x60 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .debug_aranges
+                0x00000738       0x70 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_aranges
+                0x000007a8       0x68 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x15289
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x753 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene.o
+ .debug_info    0x00000753      0x8a3 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+ .debug_info    0x00000ff6      0xac1 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .debug_info    0x00001ab7      0xbb8 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .debug_info    0x0000266f      0xda0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .debug_info    0x0000340f      0xa64 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .debug_info    0x00003e73      0xaa4 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .debug_info    0x00004917      0xe1b build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .debug_info    0x00005732      0x878 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+ .debug_info    0x00005faa      0xc15 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .debug_info    0x00006bbf      0x8c7 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .debug_info    0x00007486      0x87b build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .debug_info    0x00007d01      0x630 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+ .debug_info    0x00008331      0x9ad build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .debug_info    0x00008cde     0x1122 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .debug_info    0x00009e00      0x8e3 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .debug_info    0x0000a6e3      0xa25 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .debug_info    0x0000b108      0x901 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .debug_info    0x0000ba09      0xc38 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .debug_info    0x0000c641      0x956 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .debug_info    0x0000cf97      0x5ff build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+ .debug_info    0x0000d596      0xc69 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .debug_info    0x0000e1ff      0x7bd build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .debug_info    0x0000e9bc     0x1056 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_info    0x0000fa12     0x16d0 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .debug_info    0x000110e2      0xb89 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .debug_info    0x00011c6b      0x2c9 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+ .debug_info    0x00011f34      0x807 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_info    0x0001273b      0x2b2 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip_arr.o)
+ .debug_info    0x000129ed      0xf36 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .debug_info    0x00013923      0xa4e build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_info    0x00014371      0xf18 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+
+.debug_abbrev   0x00000000     0x4afe
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x137 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene.o
+ .debug_abbrev  0x00000137      0x220 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+ .debug_abbrev  0x00000357      0x216 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .debug_abbrev  0x0000056d      0x25f build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .debug_abbrev  0x000007cc      0x2d8 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .debug_abbrev  0x00000aa4      0x2ad build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .debug_abbrev  0x00000d51      0x25e build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .debug_abbrev  0x00000faf      0x2e7 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .debug_abbrev  0x00001296      0x211 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+ .debug_abbrev  0x000014a7      0x24b build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .debug_abbrev  0x000016f2      0x239 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .debug_abbrev  0x0000192b      0x1e7 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .debug_abbrev  0x00001b12      0x1d6 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+ .debug_abbrev  0x00001ce8      0x26c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .debug_abbrev  0x00001f54      0x3a9 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .debug_abbrev  0x000022fd      0x1e7 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .debug_abbrev  0x000024e4      0x287 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .debug_abbrev  0x0000276b      0x26a build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .debug_abbrev  0x000029d5      0x24c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .debug_abbrev  0x00002c21      0x246 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .debug_abbrev  0x00002e67      0x1ce build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+ .debug_abbrev  0x00003035      0x24b build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .debug_abbrev  0x00003280      0x22e build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .debug_abbrev  0x000034ae      0x370 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_abbrev  0x0000381e      0x368 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .debug_abbrev  0x00003b86      0x24e build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .debug_abbrev  0x00003dd4       0xbe build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+ .debug_abbrev  0x00003e92      0x281 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_abbrev  0x00004113       0xc2 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip_arr.o)
+ .debug_abbrev  0x000041d5      0x371 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .debug_abbrev  0x00004546      0x2a4 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_abbrev  0x000047ea      0x314 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+
+.debug_line     0x00000000     0xb584
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x1ac build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene.o
+ .debug_line_end
+                0x000001ac        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene.o
+ .debug_line    0x000001ac      0x46c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+ .debug_line.text.spi_mem_scene_about_on_enter
+                0x00000618       0x55 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+ .debug_line.text.spi_mem_scene_about_on_event
+                0x0000066d       0x24 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+ .debug_line.text.spi_mem_scene_about_on_exit
+                0x00000691       0x17 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+ .debug_line_end
+                0x000006a8        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+ .debug_line    0x000006a8      0x4f7 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .debug_line.text.spi_mem_scene_chip_detect_callback
+                0x00000b9f       0x16 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .debug_line.text.spi_mem_scene_chip_detect_on_enter
+                0x00000bb5       0x25 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .debug_line.text.spi_mem_scene_chip_detect_on_event
+                0x00000bda       0x57 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .debug_line.text.spi_mem_scene_chip_detect_on_exit
+                0x00000c31       0x28 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .debug_line_end
+                0x00000c59        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .debug_line    0x00000c59      0x52e build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .debug_line.text.spi_mem_scene_chip_detect_fail_widget_callback
+                0x00001187       0x25 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .debug_line.text.spi_mem_scene_chip_detect_fail_on_enter
+                0x000011ac       0x77 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .debug_line.text.spi_mem_scene_chip_detect_fail_on_event
+                0x00001223       0x52 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .debug_line.text.spi_mem_scene_chip_detect_fail_on_exit
+                0x00001275       0x17 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .debug_line_end
+                0x0000128c        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .debug_line    0x0000128c      0x57d build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .debug_line.text.spi_mem_scene_chip_detected_widget_callback
+                0x00001809       0x25 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .debug_line.text.spi_mem_scene_chip_detected_on_enter
+                0x0000182e       0xb5 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .debug_line.text.spi_mem_scene_chip_detected_on_event
+                0x000018e3       0xaa build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .debug_line.text.spi_mem_scene_chip_detected_on_exit
+                0x0000198d       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .debug_line_end
+                0x000019a5        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .debug_line    0x000019a5      0x57a build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .debug_line.text.spi_mem_scene_chip_error_widget_callback
+                0x00001f1f       0x25 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .debug_line.text.spi_mem_scene_chip_error_on_enter
+                0x00001f44       0x31 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .debug_line.text.spi_mem_scene_chip_error_on_event
+                0x00001f75       0x7b build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .debug_line.text.spi_mem_scene_chip_error_on_exit
+                0x00001ff0       0x17 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .debug_line_end
+                0x00002007        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .debug_line    0x00002007      0x555 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .debug_line.text.spi_mem_scene_delete_confirm_widget_callback
+                0x0000255c       0x25 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .debug_line.text.spi_mem_scene_delete_confirm_on_enter
+                0x00002581       0x58 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .debug_line.text.spi_mem_scene_delete_confirm_on_event
+                0x000025d9       0x6f build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .debug_line.text.spi_mem_scene_delete_confirm_on_exit
+                0x00002648       0x17 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .debug_line_end
+                0x0000265f        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .debug_line    0x0000265f      0x56a build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .debug_line.text.spi_mem_scene_erase_callback
+                0x00002bc9       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .debug_line.text.spi_mem_scene_erase_widget_callback
+                0x00002be1       0x25 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .debug_line.text.spi_mem_scene_erase_on_enter
+                0x00002c06       0x35 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .debug_line.text.spi_mem_scene_erase_on_event
+                0x00002c3b       0xa2 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .debug_line.text.spi_mem_scene_erase_on_exit
+                0x00002cdd       0x28 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .debug_line_end
+                0x00002d05        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .debug_line    0x00002d05      0x4cd build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+ .debug_line.text.spi_mem_scene_file_info_on_enter
+                0x000031d2       0x45 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+ .debug_line.text.spi_mem_scene_file_info_on_event
+                0x00003217       0x36 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+ .debug_line.text.spi_mem_scene_file_info_on_exit
+                0x0000324d       0x17 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+ .debug_line_end
+                0x00003264        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+ .debug_line    0x00003264      0x503 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .debug_line.text.spi_mem_scene_read_progress_view_result_callback
+                0x00003767       0x15 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .debug_line.text.spi_mem_scene_read_callback
+                0x0000377c       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .debug_line.text.spi_mem_scene_read_on_enter
+                0x00003794       0x2e build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .debug_line.text.spi_mem_scene_read_on_event
+                0x000037c2       0x59 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .debug_line.text.spi_mem_scene_read_on_exit
+                0x0000381b       0x28 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .debug_line_end
+                0x00003843        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .debug_line    0x00003843      0x4d2 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .debug_line.text.spi_mem_scene_read_filename_view_result_callback
+                0x00003d15       0x15 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .debug_line.text.spi_mem_scene_read_set_random_filename
+                0x00003d2a       0x44 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .debug_line.text.spi_mem_scene_read_filename_on_enter
+                0x00003d6e       0x2b build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .debug_line.text.spi_mem_scene_read_filename_on_event
+                0x00003d99       0x3f build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .debug_line.text.spi_mem_scene_read_filename_on_exit
+                0x00003dd8       0x17 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .debug_line_end
+                0x00003def        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .debug_line    0x00003def      0x4b4 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .debug_line.text.spi_mem_scene_saved_file_menu_submenu_callback
+                0x000042a3       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .debug_line.text.spi_mem_scene_saved_file_menu_on_enter
+                0x000042bb       0x30 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .debug_line.text.spi_mem_scene_saved_file_menu_on_event
+                0x000042eb       0x81 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .debug_line.text.spi_mem_scene_saved_file_menu_on_exit
+                0x0000436c       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .debug_line_end
+                0x00004384        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .debug_line    0x00004384      0x4c3 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+ .debug_line.text.spi_mem_scene_select_file_on_enter
+                0x00004847       0x3c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+ .debug_line.text.spi_mem_scene_select_file_on_event
+                0x00004883       0x24 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+ .debug_line.text.spi_mem_scene_select_file_on_exit
+                0x000048a7       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+ .debug_line_end
+                0x000048bf        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+ .debug_line    0x000048bf      0x4b1 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .debug_line.text.spi_mem_scene_select_model_submenu_callback
+                0x00004d70       0x3e build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .debug_line.text.spi_mem_scene_select_model_on_enter
+                0x00004dae       0xe6 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .debug_line.text.spi_mem_scene_select_model_on_event
+                0x00004e94       0x3f build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .debug_line.text.spi_mem_scene_select_model_on_exit
+                0x00004ed3       0x17 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .debug_line_end
+                0x00004eea        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .debug_line    0x00004eea      0x53c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .debug_line.text.spi_mem_scene_select_vendor_submenu_callback
+                0x00005426       0x1e build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .debug_line.text.spi_mem_scene_select_vendor_on_enter
+                0x00005444      0x19d build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .debug_line.text.spi_mem_scene_select_vendor_on_event
+                0x000055e1       0x6d build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .debug_line.text.spi_mem_scene_select_vendor_on_exit
+                0x0000564e       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .debug_line_end
+                0x00005666        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .debug_line    0x00005666      0x4aa build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .debug_line.text.spi_mem_scene_start_submenu_callback
+                0x00005b10       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .debug_line.text.spi_mem_scene_start_on_enter
+                0x00005b28       0x31 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .debug_line.text.spi_mem_scene_start_on_event
+                0x00005b59       0x70 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .debug_line.text.spi_mem_scene_start_on_exit
+                0x00005bc9       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .debug_line_end
+                0x00005be1        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .debug_line    0x00005be1      0x553 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .debug_line.text.spi_mem_scene_storage_error_set_previous_scene
+                0x00006134       0x2b build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .debug_line.text.spi_mem_scene_storage_error_widget_callback
+                0x0000615f       0x25 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .debug_line.text.spi_mem_scene_storage_error_on_enter
+                0x00006184       0x31 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .debug_line.text.spi_mem_scene_storage_error_on_event
+                0x000061b5       0x4a build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .debug_line.text.spi_mem_scene_storage_error_on_exit
+                0x000061ff       0x17 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .debug_line_end
+                0x00006216        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .debug_line    0x00006216      0x4e0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .debug_line.text.spi_mem_scene_success_popup_callback
+                0x000066f6       0x15 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .debug_line.text.spi_mem_scene_success_on_enter
+                0x0000670b       0x30 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .debug_line.text.spi_mem_scene_success_on_event
+                0x0000673b       0x52 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .debug_line.text.spi_mem_scene_success_on_exit
+                0x0000678d       0x17 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .debug_line_end
+                0x000067a4        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .debug_line    0x000067a4      0x518 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .debug_line.text.spi_mem_scene_verify_view_result_callback
+                0x00006cbc       0x15 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .debug_line.text.spi_mem_scene_verify_callback
+                0x00006cd1       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .debug_line.text.spi_mem_scene_verify_on_enter
+                0x00006ce9       0x2f build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .debug_line.text.spi_mem_scene_verify_on_event
+                0x00006d18       0x55 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .debug_line.text.spi_mem_scene_verify_on_exit
+                0x00006d6d       0x28 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .debug_line_end
+                0x00006d95        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .debug_line    0x00006d95      0x52a build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .debug_line.text.spi_mem_scene_verify_error_widget_callback
+                0x000072bf       0x25 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .debug_line.text.spi_mem_scene_verify_error_on_enter
+                0x000072e4       0x30 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .debug_line.text.spi_mem_scene_verify_error_on_event
+                0x00007314       0x4d build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .debug_line.text.spi_mem_scene_verify_error_on_exit
+                0x00007361       0x17 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .debug_line_end
+                0x00007378        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .debug_line    0x00007378      0x4b3 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+ .debug_line.text.spi_mem_scene_wiring_on_enter
+                0x0000782b       0x2a build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+ .debug_line.text.spi_mem_scene_wiring_on_event
+                0x00007855       0x24 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+ .debug_line.text.spi_mem_scene_wiring_on_exit
+                0x00007879       0x17 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+ .debug_line_end
+                0x00007890        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+ .debug_line    0x00007890      0x517 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .debug_line.text.spi_mem_scene_write_progress_view_result_callback
+                0x00007da7       0x15 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .debug_line.text.spi_mem_scene_write_callback
+                0x00007dbc       0x18 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .debug_line.text.spi_mem_scene_write_on_enter
+                0x00007dd4       0x2f build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .debug_line.text.spi_mem_scene_write_on_event
+                0x00007e03       0x59 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .debug_line.text.spi_mem_scene_write_on_exit
+                0x00007e5c       0x28 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .debug_line_end
+                0x00007e84        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .debug_line    0x00007e84      0x303 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .debug_line.text.spi_mem_view_detect_exit_callback
+                0x00008187       0x31 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .debug_line.text.spi_mem_view_detect_enter_callback
+                0x000081b8       0x31 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .debug_line.text.spi_mem_view_detect_draw_callback
+                0x000081e9       0x35 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .debug_line.text.spi_mem_view_detect_get_view
+                0x0000821e       0x19 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .debug_line.text.spi_mem_view_detect_alloc
+                0x00008237       0x4a build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .debug_line.text.spi_mem_view_detect_free
+                0x00008281       0x38 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .debug_line_end
+                0x000082b9        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .debug_line    0x000082b9      0x318 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_line.text.spi_mem_view_progress_draw_progress
+                0x000085d1       0x4b build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_line.text.spi_mem_view_progress_draw_size_warning
+                0x0000861c       0x40 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_line.text.spi_mem_view_progress_draw_callback
+                0x0000865c       0x88 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_line.text.spi_mem_view_progress_input_callback
+                0x000086e4       0x99 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_line.text.spi_mem_view_progress_get_view
+                0x0000877d       0x19 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_line.text.spi_mem_view_progress_free
+                0x00008796       0x2d build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_line.text.spi_mem_view_progress_set_read_callback
+                0x000087c3       0x37 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_line.text.spi_mem_view_progress_set_verify_callback
+                0x000087fa       0x37 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_line.text.spi_mem_view_progress_set_write_callback
+                0x00008831       0x37 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_line.text.spi_mem_view_progress_set_chip_size
+                0x00008868       0x36 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_line.text.spi_mem_view_progress_set_file_size
+                0x0000889e       0x36 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_line.text.spi_mem_view_progress_set_block_size
+                0x000088d4       0x36 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_line.text.spi_mem_view_progress_inc_progress
+                0x0000890a       0x52 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_line.text.spi_mem_view_progress_reset
+                0x0000895c       0x36 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_line.text.spi_mem_view_progress_alloc
+                0x00008992       0x3e build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_line_end
+                0x000089d0        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_line    0x000089d0      0x5f7 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .debug_line.text.spi_mem_back_event_callback
+                0x00008fc7       0x1e build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .debug_line.text.spi_mem_custom_event_callback
+                0x00008fe5       0x1d build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .debug_line.text.spi_mem_alloc
+                0x00009002      0x13a build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .debug_line.text.spi_mem_free
+                0x0000913c       0x7f build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .debug_line.text.spi_mem_app
+                0x000091bb       0x31 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .debug_line_end
+                0x000091ec        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .debug_line    0x000091ec      0x473 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .debug_line.text.spi_mem_file_delete
+                0x0000965f       0x20 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .debug_line.text.spi_mem_file_select
+                0x0000967f       0x35 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .debug_line.text.spi_mem_file_create_open
+                0x000096b4       0x6e build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .debug_line.text.spi_mem_file_open
+                0x00009722       0x3b build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .debug_line.text.spi_mem_file_write_block
+                0x0000975d       0x25 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .debug_line.text.spi_mem_file_read_block
+                0x00009782       0x25 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .debug_line.text.spi_mem_file_close
+                0x000097a7       0x26 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .debug_line.text.spi_mem_file_get_size
+                0x000097cd       0x2e build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .debug_line_end
+                0x000097fb        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .debug_line    0x000097fb      0x1a5 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+ .debug_line_end
+                0x000099a0        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+ .debug_line    0x000099a0      0x281 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_line.text.spi_mem_chip_find_all
+                0x00009c21       0xd6 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_line.text.spi_mem_chip_copy_chip_info
+                0x00009cf7       0x1a build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_line.text.spi_mem_chip_get_size
+                0x00009d11       0x1a build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_line.text.spi_mem_chip_get_vendor_name
+                0x00009d2b       0x4c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_line.text.spi_mem_chip_get_vendor_name_by_enum
+                0x00009d77       0x4e build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_line.text.spi_mem_chip_get_model_name
+                0x00009dc5       0x1a build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_line.text.spi_mem_chip_get_vendor_id
+                0x00009ddf       0x1a build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_line.text.spi_mem_chip_get_type_id
+                0x00009df9       0x1a build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_line.text.spi_mem_chip_get_capacity_id
+                0x00009e13       0x1a build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_line.text.spi_mem_chip_get_page_size
+                0x00009e2d       0x1a build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_line.text.spi_mem_chip_get_vendor_enum
+                0x00009e47       0x1a build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_line_end
+                0x00009e61        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_line    0x00009e61      0x1fb build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip_arr.o)
+ .debug_line_end
+                0x0000a05c        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip_arr.o)
+ .debug_line    0x0000a05c      0x2e6 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .debug_line.text.spi_mem_tools_trx
+                0x0000a342       0x69 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .debug_line.text.spi_mem_tools_set_write_enabled.constprop.0
+                0x0000a3ab       0x46 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .debug_line.text.spi_mem_tools_read_chip_info
+                0x0000a3f1       0x5a build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .debug_line.text.spi_mem_tools_check_chip_info
+                0x0000a44b       0x3d build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .debug_line.text.spi_mem_tools_read_block
+                0x0000a488       0xb5 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .debug_line.text.spi_mem_tools_get_file_max_block_size
+                0x0000a53d       0x1b build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .debug_line.text.spi_mem_tools_get_chip_status
+                0x0000a558       0x2d build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .debug_line.text.spi_mem_tools_erase_chip
+                0x0000a585       0x2d build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .debug_line.text.spi_mem_tools_write_bytes
+                0x0000a5b2       0xea build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .debug_line_end
+                0x0000a69c        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .debug_line    0x0000a69c      0x2c4 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_line.text.spi_mem_worker_thread
+                0x0000a960       0xb5 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_line.text.spi_mem_worker_alloc
+                0x0000aa15       0x47 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_line.text.spi_mem_worker_free
+                0x0000aa5c       0x2c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_line.text.spi_mem_worker_check_for_stop
+                0x0000aa88       0x25 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_line.text.spi_mem_worker_start_thread
+                0x0000aaad       0x16 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_line.text.spi_mem_worker_stop_thread
+                0x0000aac3       0x2b build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_line.text.spi_mem_worker_chip_detect_start
+                0x0000aaee       0x8c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_line.text.spi_mem_worker_read_start
+                0x0000ab7a       0x86 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_line.text.spi_mem_worker_verify_start
+                0x0000ac00       0x86 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_line.text.spi_mem_worker_erase_start
+                0x0000ac86       0x86 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_line.text.spi_mem_worker_write_start
+                0x0000ad0c       0x86 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_line_end
+                0x0000ad92        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_line    0x0000ad92      0x32c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .debug_line.text.spi_mem_worker_run_callback
+                0x0000b0be       0x24 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .debug_line.text.spi_mem_worker_await_chip_busy
+                0x0000b0e2       0x4d build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .debug_line.text.spi_mem_worker_erase_process
+                0x0000b12f       0x53 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .debug_line.text.spi_mem_worker_chip_detect_process
+                0x0000b182       0x60 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .debug_line.text.spi_mem_worker_write.constprop.0
+                0x0000b1e2       0xc6 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .debug_line.text.spi_mem_worker_write_process
+                0x0000b2a8       0x9c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .debug_line.text.spi_mem_worker_read.constprop.0.isra.0
+                0x0000b344       0xb4 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .debug_line.text.spi_mem_worker_read_process
+                0x0000b3f8       0x53 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .debug_line.text.spi_mem_worker_verify.constprop.0.isra.0
+                0x0000b44b       0xb3 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .debug_line.text.spi_mem_worker_verify_process
+                0x0000b4fe       0x86 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ .debug_line_end
+                0x0000b584        0x0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+
+.debug_frame    0x00000000     0x1358
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x70 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+ .debug_frame   0x00000070       0x78 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .debug_frame   0x000000e8       0x84 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .debug_frame   0x0000016c       0x84 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .debug_frame   0x000001f0       0x74 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .debug_frame   0x00000264       0x80 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .debug_frame   0x000002e4       0x90 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .debug_frame   0x00000374       0x6c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+ .debug_frame   0x000003e0       0x8c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .debug_frame   0x0000046c       0x8c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .debug_frame   0x000004f8       0x78 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .debug_frame   0x00000570       0x5c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+ .debug_frame   0x000005cc       0x98 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .debug_frame   0x00000664       0x8c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .debug_frame   0x000006f0       0x78 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .debug_frame   0x00000768       0x84 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .debug_frame   0x000007ec       0x74 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .debug_frame   0x00000860       0x8c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .debug_frame   0x000008ec       0x74 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .debug_frame   0x00000960       0x5c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+ .debug_frame   0x000009bc       0x8c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .debug_frame   0x00000a48       0xb0 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .debug_frame   0x00000af8      0x1ec build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_frame   0x00000ce4       0x8c build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .debug_frame   0x00000d70       0xf0 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .debug_frame   0x00000e60       0xe0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_frame   0x00000f40      0x13c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .debug_frame   0x0000107c      0x13c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_frame   0x000011b8      0x1a0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+
+.debug_str      0x00000000    0x1562e
+ *(.debug_str)
+ .debug_str     0x00000000      0xd97 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene.o
+ .debug_str     0x00000d97      0x6e1 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+ .debug_str     0x00001478      0xeb4 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .debug_str     0x0000232c      0xadb build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .debug_str     0x00002e07      0xb8e build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .debug_str     0x00003995      0xa60 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .debug_str     0x000043f5      0xa46 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .debug_str     0x00004e3b     0x10c6 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .debug_str     0x00005f01      0x917 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+ .debug_str     0x00006818     0x1043 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .debug_str     0x0000785b      0x997 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .debug_str     0x000081f2      0x96c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .debug_str     0x00008b5e      0x791 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+ .debug_str     0x000092ef      0x94d build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .debug_str     0x00009c3c      0xb99 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .debug_str     0x0000a7d5      0x94e build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .debug_str     0x0000b123      0xa78 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .debug_str     0x0000bb9b      0x9b8 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .debug_str     0x0000c553     0x1052 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .debug_str     0x0000d5a5      0x9ea build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .debug_str     0x0000df8f      0x624 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+ .debug_str     0x0000e5b3     0x1085 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .debug_str     0x0000f638      0x604 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .debug_str     0x0000fc3c      0x9e1 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_str     0x0001061d     0x1537 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .debug_str     0x00011b54      0x8b1 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .debug_str     0x00012405      0x362 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+ .debug_str     0x00012767      0x939 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_str     0x000130a0      0x6b0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip_arr.o)
+ .debug_str     0x00013750      0xdae build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .debug_str     0x000144fe      0x897 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_str     0x00014d95      0x899 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x3f8f
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000       0xa8 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+ .debug_loclists
+                0x000000a8      0x176 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .debug_loclists
+                0x0000021e      0x235 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .debug_loclists
+                0x00000453      0x31f build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .debug_loclists
+                0x00000772      0x272 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .debug_loclists
+                0x000009e4      0x1f6 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .debug_loclists
+                0x00000bda      0x344 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .debug_loclists
+                0x00000f1e      0x100 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+ .debug_loclists
+                0x0000101e      0x22a build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .debug_loclists
+                0x00001248      0x155 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .debug_loclists
+                0x0000139d      0x15e build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .debug_loclists
+                0x000014fb       0x81 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+ .debug_loclists
+                0x0000157c      0x1df build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .debug_loclists
+                0x0000175b      0x43f build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .debug_loclists
+                0x00001b9a      0x122 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .debug_loclists
+                0x00001cbc      0x226 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .debug_loclists
+                0x00001ee2      0x166 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .debug_loclists
+                0x00002048      0x208 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .debug_loclists
+                0x00002250      0x1f8 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .debug_loclists
+                0x00002448       0x8d build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+ .debug_loclists
+                0x000024d5      0x22a build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .debug_loclists
+                0x000026ff      0x16b build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .debug_loclists
+                0x0000286a      0x5e5 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_loclists
+                0x00002e4f      0x119 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .debug_loclists
+                0x00002f68      0x177 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .debug_loclists
+                0x000030df      0x229 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_loclists
+                0x00003308      0x32c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .debug_loclists
+                0x00003634      0x47b build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_loclists
+                0x00003aaf      0x4e0 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x867
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x20 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+ .debug_rnglists
+                0x00000020       0x25 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .debug_rnglists
+                0x00000045       0x26 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .debug_rnglists
+                0x0000006b       0x3e build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .debug_rnglists
+                0x000000a9       0x32 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .debug_rnglists
+                0x000000db       0x26 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .debug_rnglists
+                0x00000101       0x2c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .debug_rnglists
+                0x0000012d       0x20 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+ .debug_rnglists
+                0x0000014d       0x2c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .debug_rnglists
+                0x00000179       0x2b build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .debug_rnglists
+                0x000001a4       0x25 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .debug_rnglists
+                0x000001c9       0x1f build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+ .debug_rnglists
+                0x000001e8       0x39 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .debug_rnglists
+                0x00000221       0xff build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .debug_rnglists
+                0x00000320       0x26 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .debug_rnglists
+                0x00000346       0x2c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .debug_rnglists
+                0x00000372       0x25 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .debug_rnglists
+                0x00000397       0x2c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .debug_rnglists
+                0x000003c3       0x25 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .debug_rnglists
+                0x000003e8       0x1f build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+ .debug_rnglists
+                0x00000407       0x2c build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .debug_rnglists
+                0x00000433       0x65 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .debug_rnglists
+                0x00000498      0x13b build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .debug_rnglists
+                0x000005d3       0x54 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .debug_rnglists
+                0x00000627       0x4a build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .debug_rnglists
+                0x00000671       0x98 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .debug_rnglists
+                0x00000709       0x5c build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .debug_rnglists
+                0x00000765       0x5b build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .debug_rnglists
+                0x000007c0       0xa7 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_about.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detect_fail.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_detected.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_chip_error.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_delete_confirm.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_erase.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_file_info.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_read_filename.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_saved_file_menu.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_file.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_model.o
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_select_vendor.o
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_start.o
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_storage_error.o
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_success.o
+ .ARM.attributes
+                0x000003a8       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify.o
+ .ARM.attributes
+                0x000003dc       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_verify_error.o
+ .ARM.attributes
+                0x00000410       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_wiring.o
+ .ARM.attributes
+                0x00000444       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/scenes/spi_mem_scene_write.o
+ .ARM.attributes
+                0x00000478       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_detect.o
+ .ARM.attributes
+                0x000004ac       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/views/spi_mem_view_progress.o
+ .ARM.attributes
+                0x000004e0       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_app.o
+ .ARM.attributes
+                0x00000514       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_files.o
+ .ARM.attributes
+                0x00000548       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/spi_mem_manager_icons.o
+ .ARM.attributes
+                0x0000057c       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip.o)
+ .ARM.attributes
+                0x000005b0       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_chip_arr.o)
+ .ARM.attributes
+                0x000005e4       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_tools.o)
+ .ARM.attributes
+                0x00000618       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker.o)
+ .ARM.attributes
+                0x0000064c       0x34 build/f7-firmware-C/.extapps/spi_mem_manager/spi(spi_mem_worker_modes.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/spi_mem_manager_d.elf elf32-littlearm)
+LOAD linker stubs

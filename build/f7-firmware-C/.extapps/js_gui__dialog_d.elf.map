@@ -1,0 +1,244 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x208
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.view_mod_ctor
+                0x00000000       0x1c build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .text.right_assign
+                0x0000001c       0x14 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .text.center_assign
+                0x00000030       0x14 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .text.left_assign
+                0x00000044       0x14 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .text.text_assign
+                0x00000058       0x20 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .text.header_assign
+                0x00000078       0x20 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .text.ctx_destroy
+                0x00000098       0x3c build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .text.ctx_make
+                0x000000d4       0xa4 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .text.input_transformer
+                0x00000178       0x5c build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .text.input_callback
+                0x000001d4       0x2c build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .text.js_view_dialog_ep
+                0x00000200        0x8 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+                0x00000200                js_view_dialog_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000208       0xac
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.ctx_make.str1.1
+                0x00000208        0x6 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .rodata.input_transformer.str1.1
+                0x0000020e       0x12 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .rodata.str1.1
+                0x00000220       0x1b build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ *fill*         0x0000023b        0x1 
+ .rodata.plugin_descriptor
+                0x0000023c        0xc build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .rodata.js_mod_desc
+                0x00000248       0x10 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .rodata.view_descriptor
+                0x00000258       0x5c build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x70
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x70 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1240
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1240 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+
+.debug_abbrev   0x00000000      0x390
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x390 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+
+.debug_line     0x00000000      0x6e5
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x46a build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .debug_line.text.view_mod_ctor
+                0x0000046a       0x1c build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .debug_line.text.right_assign
+                0x00000486       0x27 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .debug_line.text.center_assign
+                0x000004ad       0x26 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .debug_line.text.left_assign
+                0x000004d3       0x26 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .debug_line.text.text_assign
+                0x000004f9       0x31 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .debug_line.text.header_assign
+                0x0000052a       0x2c build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .debug_line.text.ctx_destroy
+                0x00000556       0x68 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .debug_line.text.ctx_make
+                0x000005be       0x52 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .debug_line.text.input_transformer
+                0x00000610       0x93 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .debug_line.text.input_callback
+                0x000006a3       0x2f build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .debug_line.text.js_view_dialog_ep
+                0x000006d2       0x13 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ .debug_line_end
+                0x000006e5        0x0 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+
+.debug_frame    0x00000000      0x13c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x13c build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+
+.debug_str      0x00000000      0xdff
+ *(.debug_str)
+ .debug_str     0x00000000      0xdff build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x3bf
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x3bf build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x5f
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x5f build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/js_gui__dialog/modules/js_gui/dialog.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/js_gui__dialog_d.elf elf32-littlearm)
+LOAD linker stubs

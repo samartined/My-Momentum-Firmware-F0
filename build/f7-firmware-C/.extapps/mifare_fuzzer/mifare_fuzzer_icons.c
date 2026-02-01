@@ -1,0 +1,9 @@
+#include "mifare_fuzzer_icons.h"
+
+#include <gui/icon_i.h>
+
+const uint8_t _I_mifare_fuzzer_10px_0[] = {0x00,0x00,0x00,0xe2,0x01,0xf6,0x01,0x7e,0x00,0x6a,0x00,0xe2,0x00,0x62,0x00,0x62,0x00,0x62,0x00,0x00,0x00,};
+const uint8_t* const _I_mifare_fuzzer_10px[] = {_I_mifare_fuzzer_10px_0};
+
+const Icon I_mifare_fuzzer_10px = {.width=10,.height=10,.frame_count=1,.frame_rate=0,.frames=_I_mifare_fuzzer_10px};
+

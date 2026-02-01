@@ -1,0 +1,942 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+                              build/f7-firmware-C/.extapps/can_tools/cantools_app.o (__aeabi_dmul)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              build/f7-firmware-C/.extapps/can_tools/cantools_app.o (__aeabi_dadd)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/can_tools/can_tools_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/can_tools/can_tools_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/can_tools/can_tools_icons.o
+ .debug_info    0x00000000       0x7a build/f7-firmware-C/.extapps/can_tools/can_tools_icons.o
+ .debug_abbrev  0x00000000       0x26 build/f7-firmware-C/.extapps/can_tools/can_tools_icons.o
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/can_tools/can_tools_icons.o
+ .debug_line    0x00000000       0x59 build/f7-firmware-C/.extapps/can_tools/can_tools_icons.o
+ .debug_str     0x00000000      0x1ff build/f7-firmware-C/.extapps/can_tools/can_tools_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/can_tools/can_tools_icons.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/can_tools/can_tools_icons.o
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+LOAD build/f7-firmware-C/.extapps/can_tools/can_tools_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x36e4
+ *(.text)
+ .text          0x00000000      0x254 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+                0x00000000                __aeabi_dmul
+                0x00000000                __muldf3
+ .text          0x00000254      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000254                __aeabi_drsub
+                0x0000025c                __aeabi_dsub
+                0x0000025c                __subdf3
+                0x00000260                __adddf3
+                0x00000260                __aeabi_dadd
+                0x000004d8                __aeabi_ui2d
+                0x000004d8                __floatunsidf
+                0x000004f8                __floatsidf
+                0x000004f8                __aeabi_i2d
+                0x0000051c                __extendsfdf2
+                0x0000051c                __aeabi_f2d
+                0x00000560                __aeabi_ul2d
+                0x00000560                __floatundidf
+                0x00000570                __floatdidf
+                0x00000570                __aeabi_l2d
+ *(.stub)
+ *(.text*)
+ .text.validate_optional_text
+                0x000005cc        0x4 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.dbc_endian_char
+                0x000005d0       0x38 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.dbc_sign_char
+                0x00000608       0x24 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.dbc_clear_signals
+                0x0000062c       0x26 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ *fill*         0x00000652        0x2 
+ .text.dbc_trim_left
+                0x00000654       0x18 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.Cantools_scenes_dbc_file_name_scene_on_exit
+                0x0000066c        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x0000066c                Cantools_scenes_dbc_file_name_scene_on_exit
+ .text.Cantools_scenes_calculate_scene_on_event
+                0x0000066e        0xe build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x0000066e                Cantools_scenes_calculate_scene_on_event
+ .text.Cantools_scenes_main_menu_callback
+                0x0000067c       0x28 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x0000067c                Cantools_scenes_main_menu_callback
+ .text.Cantools_scenes_dbc_file_menu_callback
+                0x000006a4        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x000006a4                Cantools_scenes_dbc_file_menu_callback
+ .text.Cantools_scenes_dbc_maker_menu_callback
+                0x000006b0        0x8 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x000006b0                Cantools_scenes_dbc_maker_menu_callback
+ .text.Cantools_scenes_view_dbc_menu_callback
+                0x000006b8        0x8 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x000006b8                Cantools_scenes_view_dbc_menu_callback
+ .text.Cantools_scenes_signal_actions_menu_callback
+                0x000006c0        0x8 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x000006c0                Cantools_scenes_signal_actions_menu_callback
+ .text.cantools_dbc_name_input_callback
+                0x000006c8        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.cantools_vehicle_info_input_callback
+                0x000006d4        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.cantools_text_input_callback
+                0x000006e0        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.cantools_decode_canid_input_callback
+                0x000006ec        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.cantools_decode_dlc_input_callback
+                0x000006f8        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.cantools_byte_input_callback
+                0x00000704        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.Cantools_scene_custom_callback
+                0x00000710        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.Cantools_scenes_main_menu_scene_on_exit
+                0x0000071c        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x0000071c                Cantools_scenes_main_menu_scene_on_exit
+ .text.Cantools_scenes_dbc_file_list_scene_on_exit
+                0x00000728        0x8 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000728                Cantools_scenes_dbc_file_list_scene_on_exit
+ .text.Cantools_scenes_dbc_maker_menu_scene_on_exit
+                0x00000730        0x8 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000730                Cantools_scenes_dbc_maker_menu_scene_on_exit
+ .text.Cantools_scenes_view_dbc_list_scene_on_exit
+                0x00000738        0x8 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000738                Cantools_scenes_view_dbc_list_scene_on_exit
+ .text.Cantools_scenes_signal_actions_scene_on_exit
+                0x00000740        0x8 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000740                Cantools_scenes_signal_actions_scene_on_exit
+ .text.Cantools_scenes_decode_data_scene_on_exit
+                0x00000748        0x8 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000748                Cantools_scenes_decode_data_scene_on_exit
+ .text.Cantools_scenes_main_menu_scene_on_enter
+                0x00000750       0x84 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000750                Cantools_scenes_main_menu_scene_on_enter
+ .text.Cantools_scenes_signal_actions_scene_on_enter
+                0x000007d4       0x6c build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x000007d4                Cantools_scenes_signal_actions_scene_on_enter
+ .text.Cantools_scenes_decode_data_scene_on_event
+                0x00000840       0x34 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000840                Cantools_scenes_decode_data_scene_on_event
+ .text.app_set_defaults
+                0x00000874       0xb0 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.dbc_trim_right
+                0x00000924       0x28 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.validate_required
+                0x0000094c       0x24 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.validate_signal_name
+                0x00000970       0x10 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.format_dbc_entry
+                0x00000980      0x118 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.cantools_show_message
+                0x00000a98       0x74 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.Cantools_scenes_dbc_maker_menu_scene_on_enter
+                0x00000b0c      0x10c build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000b0c                Cantools_scenes_dbc_maker_menu_scene_on_enter
+ .text.Cantools_scenes_decode_data_scene_on_enter
+                0x00000c18       0x88 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000c18                Cantools_scenes_decode_data_scene_on_enter
+ .text.cantools_simple_text_input_on_enter
+                0x00000ca0       0x5c build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.Cantools_scenes_dbc_file_name_scene_on_enter
+                0x00000cfc       0x20 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000cfc                Cantools_scenes_dbc_file_name_scene_on_enter
+ .text.Cantools_scenes_vehicle_info_scene_on_enter
+                0x00000d1c       0x20 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000d1c                Cantools_scenes_vehicle_info_scene_on_enter
+ .text.Cantools_scenes_decode_manual_can_id_scene_on_enter
+                0x00000d3c       0x40 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000d3c                Cantools_scenes_decode_manual_can_id_scene_on_enter
+ .text.Cantools_scenes_decode_manual_dlc_scene_on_enter
+                0x00000d7c       0x40 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000d7c                Cantools_scenes_decode_manual_dlc_scene_on_enter
+ .text.cantools_text_input_scene_on_enter
+                0x00000dbc       0x68 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.Cantools_scenes_signal_name_scene_on_enter
+                0x00000e24        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000e24                Cantools_scenes_signal_name_scene_on_enter
+ .text.Cantools_scenes_can_id_scene_on_enter
+                0x00000e30        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000e30                Cantools_scenes_can_id_scene_on_enter
+ .text.Cantools_scenes_start_bit_scene_on_enter
+                0x00000e3c        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000e3c                Cantools_scenes_start_bit_scene_on_enter
+ .text.Cantools_scenes_bit_length_scene_on_enter
+                0x00000e48        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000e48                Cantools_scenes_bit_length_scene_on_enter
+ .text.Cantools_scenes_endianness_scene_on_enter
+                0x00000e54        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000e54                Cantools_scenes_endianness_scene_on_enter
+ .text.Cantools_scenes_signed_scene_on_enter
+                0x00000e60        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000e60                Cantools_scenes_signed_scene_on_enter
+ .text.Cantools_scenes_offset_scene_on_enter
+                0x00000e6c        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000e6c                Cantools_scenes_offset_scene_on_enter
+ .text.Cantools_scenes_scalar_scene_on_enter
+                0x00000e78        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000e78                Cantools_scenes_scalar_scene_on_enter
+ .text.Cantools_scenes_unit_scene_on_enter
+                0x00000e84        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000e84                Cantools_scenes_unit_scene_on_enter
+ .text.Cantools_scenes_min_scene_on_enter
+                0x00000e90        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000e90                Cantools_scenes_min_scene_on_enter
+ .text.Cantools_scenes_max_scene_on_enter
+                0x00000e9c        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000e9c                Cantools_scenes_max_scene_on_enter
+ .text.dbc_set_default_header
+                0x00000ea8       0x30 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.validate_signedness
+                0x00000ed8       0x54 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.validate_endianness
+                0x00000f2c       0x58 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.sanitize_filename
+                0x00000f84       0x5c build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.Cantools_scenes_view_dbc_detail_scene_on_enter
+                0x00000fe0      0x100 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00000fe0                Cantools_scenes_view_dbc_detail_scene_on_enter
+ .text.Cantools_scenes_decode_log_scene_on_enter
+                0x000010e0       0x3c build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x000010e0                Cantools_scenes_decode_log_scene_on_enter
+ .text.Cantools_scenes_decode_manual_data_scene_on_event
+                0x0000111c       0x2c build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x0000111c                Cantools_scenes_decode_manual_data_scene_on_event
+ .text.Cantools_scene_back_event_callback
+                0x00001148       0x34 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00001148                Cantools_scene_back_event_callback
+ .text.decimal_substitute.part.0
+                0x0000117c       0x3c build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.validate_optional_number
+                0x000011b8       0x58 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.parse_double_or_default
+                0x00001210       0x5c build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.Cantools_scenes_decode_manual_data_scene_on_enter
+                0x0000126c       0x50 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x0000126c                Cantools_scenes_decode_manual_data_scene_on_enter
+ .text.Cantools_scenes_decode_result_scene_on_event
+                0x000012bc        0xe build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x000012bc                Cantools_scenes_decode_result_scene_on_event
+ .text.Cantools_scenes_max_scene_on_exit
+                0x000012ca        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x000012ca                Cantools_scenes_max_scene_on_exit
+ .text.dbc_parse_vehicle_comment.constprop.0
+                0x000012cc       0x4c build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.Cantools_scenes_dbc_file_name_scene_on_event
+                0x00001318       0x98 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00001318                Cantools_scenes_dbc_file_name_scene_on_event
+ .text.dbc_create_file
+                0x000013b0      0x194 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.parse_int32_str.constprop.0
+                0x00001544       0x38 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.Cantools_scenes_decode_manual_dlc_scene_on_event
+                0x0000157c       0x80 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x0000157c                Cantools_scenes_decode_manual_dlc_scene_on_event
+ .text.validate_start_bit
+                0x000015fc       0x48 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.validate_bit_length
+                0x00001644       0x78 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.parse_uint32_str.constprop.0
+                0x000016bc       0x34 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.validate_can_id
+                0x000016f0       0x48 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.Cantools_scenes_decode_manual_can_id_scene_on_event
+                0x00001738       0x74 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00001738                Cantools_scenes_decode_manual_can_id_scene_on_event
+ .text.dbc_parse_can_id
+                0x000017ac       0x24 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.dbc_sort_signals.part.0
+                0x000017d0       0xb8 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.Cantools_scenes_view_dbc_list_scene_on_event
+                0x00001888       0x6c build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00001888                Cantools_scenes_view_dbc_list_scene_on_event
+ .text.dbc_write_file
+                0x000018f4      0x3d0 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.dbc_scan_files
+                0x00001cc4      0x264 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.Cantools_scenes_dbc_file_list_scene_on_enter
+                0x00001f28       0xf4 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00001f28                Cantools_scenes_dbc_file_list_scene_on_enter
+ .text.Cantools_scenes_decode_log_scene_on_event
+                0x0000201c        0xe build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x0000201c                Cantools_scenes_decode_log_scene_on_event
+ .text.Cantools_scenes_view_dbc_detail_scene_on_event
+                0x0000202a        0xe build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x0000202a                Cantools_scenes_view_dbc_detail_scene_on_event
+ .text.Cantools_scenes_decode_result_scene_on_exit
+                0x00002038        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00002038                Cantools_scenes_decode_result_scene_on_exit
+ .text.Cantools_scenes_decode_manual_data_scene_on_exit
+                0x0000203a        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x0000203a                Cantools_scenes_decode_manual_data_scene_on_exit
+ .text.Cantools_scenes_decode_manual_can_id_scene_on_exit
+                0x0000203c        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x0000203c                Cantools_scenes_decode_manual_can_id_scene_on_exit
+ .text.Cantools_scenes_decode_manual_dlc_scene_on_exit
+                0x0000203e        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x0000203e                Cantools_scenes_decode_manual_dlc_scene_on_exit
+ .text.Cantools_scenes_decode_log_scene_on_exit
+                0x00002040        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00002040                Cantools_scenes_decode_log_scene_on_exit
+ .text.Cantools_scenes_view_dbc_detail_scene_on_exit
+                0x00002042        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00002042                Cantools_scenes_view_dbc_detail_scene_on_exit
+ .text.Cantools_scenes_calculate_scene_on_exit
+                0x00002044        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00002044                Cantools_scenes_calculate_scene_on_exit
+ .text.Cantools_scenes_vehicle_info_scene_on_exit
+                0x00002046        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00002046                Cantools_scenes_vehicle_info_scene_on_exit
+ .text.Cantools_scenes_signal_name_scene_on_exit
+                0x00002048        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00002048                Cantools_scenes_signal_name_scene_on_exit
+ .text.Cantools_scenes_can_id_scene_on_exit
+                0x0000204a        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x0000204a                Cantools_scenes_can_id_scene_on_exit
+ .text.Cantools_scenes_start_bit_scene_on_exit
+                0x0000204c        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x0000204c                Cantools_scenes_start_bit_scene_on_exit
+ .text.Cantools_scenes_bit_length_scene_on_exit
+                0x0000204e        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x0000204e                Cantools_scenes_bit_length_scene_on_exit
+ .text.Cantools_scenes_endianness_scene_on_exit
+                0x00002050        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00002050                Cantools_scenes_endianness_scene_on_exit
+ .text.Cantools_scenes_signed_scene_on_exit
+                0x00002052        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00002052                Cantools_scenes_signed_scene_on_exit
+ .text.Cantools_scenes_offset_scene_on_exit
+                0x00002054        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00002054                Cantools_scenes_offset_scene_on_exit
+ .text.Cantools_scenes_scalar_scene_on_exit
+                0x00002056        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00002056                Cantools_scenes_scalar_scene_on_exit
+ .text.Cantools_scenes_unit_scene_on_exit
+                0x00002058        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00002058                Cantools_scenes_unit_scene_on_exit
+ .text.Cantools_scenes_min_scene_on_exit
+                0x0000205a        0x2 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x0000205a                Cantools_scenes_min_scene_on_exit
+ .text.dbc_load_file
+                0x0000205c      0x510 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.Cantools_scenes_main_menu_scene_on_event
+                0x0000256c       0x64 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x0000256c                Cantools_scenes_main_menu_scene_on_event
+ .text.dbc_set_active_file
+                0x000025d0       0x34 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.Cantools_scenes_dbc_file_list_scene_on_event
+                0x00002604       0x70 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00002604                Cantools_scenes_dbc_file_list_scene_on_event
+ .text.Cantools_scenes_vehicle_info_scene_on_event
+                0x00002674       0x94 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00002674                Cantools_scenes_vehicle_info_scene_on_event
+ .text.dbc_save_current_and_reload
+                0x00002708      0x1c8 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.Cantools_scenes_signal_actions_scene_on_event
+                0x000028d0      0x24c build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x000028d0                Cantools_scenes_signal_actions_scene_on_event
+ .text.Cantools_scenes_view_dbc_list_scene_on_enter
+                0x00002b1c      0x164 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00002b1c                Cantools_scenes_view_dbc_list_scene_on_enter
+ .text.Cantools_scenes_decode_result_scene_on_enter
+                0x00002c80      0x3bc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00002c80                Cantools_scenes_decode_result_scene_on_enter
+ .text.decimal_substitute
+                0x0000303c        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x0000303c                decimal_substitute
+ .text.calculate_values
+                0x00003048       0x78 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00003048                calculate_values
+ .text.Cantools_scenes_dbc_maker_menu_scene_on_event
+                0x000030c0       0x68 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x000030c0                Cantools_scenes_dbc_maker_menu_scene_on_event
+ .text.cantools_text_input_scene_on_event.isra.0
+                0x00003128       0x8c build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .text.Cantools_scenes_max_scene_on_event
+                0x000031b4       0x20 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x000031b4                Cantools_scenes_max_scene_on_event
+ .text.Cantools_scenes_min_scene_on_event
+                0x000031d4       0x20 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x000031d4                Cantools_scenes_min_scene_on_event
+ .text.Cantools_scenes_unit_scene_on_event
+                0x000031f4       0x20 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x000031f4                Cantools_scenes_unit_scene_on_event
+ .text.Cantools_scenes_scalar_scene_on_event
+                0x00003214       0x20 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00003214                Cantools_scenes_scalar_scene_on_event
+ .text.Cantools_scenes_offset_scene_on_event
+                0x00003234       0x20 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00003234                Cantools_scenes_offset_scene_on_event
+ .text.Cantools_scenes_signed_scene_on_event
+                0x00003254       0x20 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00003254                Cantools_scenes_signed_scene_on_event
+ .text.Cantools_scenes_endianness_scene_on_event
+                0x00003274       0x20 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00003274                Cantools_scenes_endianness_scene_on_event
+ .text.Cantools_scenes_bit_length_scene_on_event
+                0x00003294       0x20 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00003294                Cantools_scenes_bit_length_scene_on_event
+ .text.Cantools_scenes_start_bit_scene_on_event
+                0x000032b4       0x20 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x000032b4                Cantools_scenes_start_bit_scene_on_event
+ .text.Cantools_scenes_can_id_scene_on_event
+                0x000032d4       0x20 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x000032d4                Cantools_scenes_can_id_scene_on_event
+ .text.Cantools_scenes_signal_name_scene_on_event
+                0x000032f4       0x20 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x000032f4                Cantools_scenes_signal_name_scene_on_event
+ .text.Cantools_scenes_calculate_scene_on_enter
+                0x00003314      0x130 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00003314                Cantools_scenes_calculate_scene_on_enter
+ .text.cantools_app
+                0x00003444      0x2a0 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00003444                cantools_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000036e4      0xaec
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.Cantools_scenes_main_menu_scene_on_enter.str1.1
+                0x000036e4       0x33 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_signal_actions_scene_on_enter.str1.1
+                0x00003717       0x28 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.app_set_defaults.str1.1
+                0x0000373f       0x2e build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.validate_required.str1.1
+                0x0000376d       0x10 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.validate_signal_name.str1.1
+                0x0000377d        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.format_dbc_entry.str1.1
+                0x00003789       0x59 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.cantools_show_message.str1.1
+                0x000037e2        0x3 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_dbc_maker_menu_scene_on_enter.str1.1
+                0x000037e5       0x69 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_decode_data_scene_on_enter.str1.1
+                0x0000384e       0x18 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_dbc_file_name_scene_on_enter.str1.1
+                0x00003866        0xf build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_vehicle_info_scene_on_enter.str1.1
+                0x00003875       0x1b build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_decode_manual_can_id_scene_on_enter.str1.1
+                0x00003890       0x14 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_decode_manual_dlc_scene_on_enter.str1.1
+                0x000038a4        0xb build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.dbc_set_default_header.str1.1
+                0x000038af       0x4d build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.validate_signedness.str1.1
+                0x000038fc       0x1b build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.validate_endianness.str1.1
+                0x00003917       0x26 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_view_dbc_detail_scene_on_enter.str1.1
+                0x0000393d       0x29 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_decode_log_scene_on_enter.str1.1
+                0x00003966       0x1b build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.decimal_substitute.part.0.str1.1
+                0x00003981       0x27 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.validate_optional_number.str1.1
+                0x000039a8       0x16 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_decode_manual_data_scene_on_enter.str1.1
+                0x000039be        0xc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.dbc_parse_vehicle_comment.constprop.0.str1.1
+                0x000039ca        0xf build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_dbc_file_name_scene_on_event.str1.1
+                0x000039d9       0x20 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.dbc_create_file.str1.1
+                0x000039f9       0x77 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_decode_manual_dlc_scene_on_event.str1.1
+                0x00003a70       0x1e build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.validate_start_bit.str1.1
+                0x00003a8e       0x23 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.validate_bit_length.str1.1
+                0x00003ab1       0x47 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.validate_can_id.str1.1
+                0x00003af8       0x27 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_decode_manual_can_id_scene_on_event.str1.1
+                0x00003b1f       0x24 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.dbc_write_file.str1.1
+                0x00003b43       0x7b build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.dbc_scan_files.str1.1
+                0x00003bbe       0x32 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_dbc_file_list_scene_on_enter.str1.1
+                0x00003bf0       0x1d build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.dbc_load_file.str1.1
+                0x00003c0d       0x61 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_dbc_file_list_scene_on_event.str1.1
+                0x00003c6e       0x19 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.dbc_save_current_and_reload.str1.1
+                0x00003c87       0x2f build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_signal_actions_scene_on_event.str1.1
+                0x00003cb6       0x4b build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_view_dbc_list_scene_on_enter.str1.1
+                0x00003d01       0x75 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_decode_result_scene_on_enter.str1.1
+                0x00003d76       0x75 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.calculate_values.str1.1
+                0x00003deb       0x52 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.cantools_text_input_scene_on_event.isra.0.str1.1
+                0x00003e3d        0xe build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.cantools_app.str1.1
+                0x00003e4b       0x78 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ *fill*         0x00003ec3        0x1 
+ .rodata.Cantools_scenes_scene_manager_handlers
+                0x00003ec4       0x10 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .rodata.Cantools_scenes_scene_on_exit_handlers
+                0x00003ed4       0x68 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00003ed4                Cantools_scenes_scene_on_exit_handlers
+ .rodata.Cantools_scenes_scene_on_event_handlers
+                0x00003f3c       0x68 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00003f3c                Cantools_scenes_scene_on_event_handlers
+ .rodata.Cantools_scenes_scene_on_enter_handlers
+                0x00003fa4       0x68 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+                0x00003fa4                Cantools_scenes_scene_on_enter_handlers
+ .rodata.str1.1
+                0x0000400c       0xe7 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ *fill*         0x000040f3        0x1 
+ .rodata.dbc_field_configs
+                0x000040f4       0xdc build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x420
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000      0x420 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x8679
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x8679 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+
+.debug_abbrev   0x00000000      0x641
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x641 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+
+.debug_line     0x00000000     0x308c
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x402 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.validate_optional_text
+                0x00000402       0x1d build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.dbc_endian_char
+                0x0000041f       0x43 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.dbc_sign_char
+                0x00000462       0x58 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.dbc_clear_signals
+                0x000004ba       0x7a build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.dbc_trim_left
+                0x00000534       0x30 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_dbc_file_name_scene_on_exit
+                0x00000564       0x19 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_calculate_scene_on_event
+                0x0000057d       0x25 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_main_menu_callback
+                0x000005a2       0x2f build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_dbc_file_menu_callback
+                0x000005d1       0x19 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_dbc_maker_menu_callback
+                0x000005ea       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_view_dbc_menu_callback
+                0x000005fc       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_signal_actions_menu_callback
+                0x0000060e       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.cantools_dbc_name_input_callback
+                0x00000620       0x18 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.cantools_vehicle_info_input_callback
+                0x00000638       0x18 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.cantools_text_input_callback
+                0x00000650       0x18 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.cantools_decode_canid_input_callback
+                0x00000668       0x18 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.cantools_decode_dlc_input_callback
+                0x00000680       0x18 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.cantools_byte_input_callback
+                0x00000698       0x18 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scene_custom_callback
+                0x000006b0       0x20 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_main_menu_scene_on_exit
+                0x000006d0       0x18 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_dbc_file_list_scene_on_exit
+                0x000006e8       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_dbc_maker_menu_scene_on_exit
+                0x000006fa       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_view_dbc_list_scene_on_exit
+                0x0000070c       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_signal_actions_scene_on_exit
+                0x0000071e       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_decode_data_scene_on_exit
+                0x00000730       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_main_menu_scene_on_enter
+                0x00000742       0x33 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_signal_actions_scene_on_enter
+                0x00000775       0x2d build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_decode_data_scene_on_event
+                0x000007a2       0x52 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.app_set_defaults
+                0x000007f4       0x3f build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.dbc_trim_right
+                0x00000833       0x55 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.validate_required
+                0x00000888       0x3d build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.validate_signal_name
+                0x000008c5       0x1f build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.format_dbc_entry
+                0x000008e4      0x12b build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.cantools_show_message
+                0x00000a0f       0x3e build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_dbc_maker_menu_scene_on_enter
+                0x00000a4d       0xa3 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_decode_data_scene_on_enter
+                0x00000af0       0x41 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.cantools_simple_text_input_on_enter
+                0x00000b31       0x30 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_dbc_file_name_scene_on_enter
+                0x00000b61       0x24 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_vehicle_info_scene_on_enter
+                0x00000b85       0x24 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_decode_manual_can_id_scene_on_enter
+                0x00000ba9       0x39 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_decode_manual_dlc_scene_on_enter
+                0x00000be2       0x39 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.cantools_text_input_scene_on_enter
+                0x00000c1b       0x60 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_signal_name_scene_on_enter
+                0x00000c7b       0x16 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_can_id_scene_on_enter
+                0x00000c91       0x16 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_start_bit_scene_on_enter
+                0x00000ca7       0x16 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_bit_length_scene_on_enter
+                0x00000cbd       0x16 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_endianness_scene_on_enter
+                0x00000cd3       0x16 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_signed_scene_on_enter
+                0x00000ce9       0x16 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_offset_scene_on_enter
+                0x00000cff       0x16 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_scalar_scene_on_enter
+                0x00000d15       0x16 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_unit_scene_on_enter
+                0x00000d2b       0x16 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_min_scene_on_enter
+                0x00000d41       0x16 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_max_scene_on_enter
+                0x00000d57       0x16 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.dbc_set_default_header
+                0x00000d6d       0x39 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.validate_signedness
+                0x00000da6       0x48 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.validate_endianness
+                0x00000dee       0x49 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.sanitize_filename
+                0x00000e37       0x88 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_view_dbc_detail_scene_on_enter
+                0x00000ebf       0xbf build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_decode_log_scene_on_enter
+                0x00000f7e       0x2f build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_decode_manual_data_scene_on_event
+                0x00000fad       0x40 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scene_back_event_callback
+                0x00000fed       0x5c build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.decimal_substitute.part.0
+                0x00001049       0x3f build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.validate_optional_number
+                0x00001088       0x69 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.parse_double_or_default
+                0x000010f1       0x63 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_decode_manual_data_scene_on_enter
+                0x00001154       0x6a build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_decode_result_scene_on_event
+                0x000011be       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_max_scene_on_exit
+                0x000011d0       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.dbc_parse_vehicle_comment.constprop.0
+                0x000011e2       0x70 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_dbc_file_name_scene_on_event
+                0x00001252       0x7e build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.dbc_create_file
+                0x000012d0       0xfe build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.parse_int32_str.constprop.0
+                0x000013ce       0x57 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_decode_manual_dlc_scene_on_event
+                0x00001425       0x94 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.validate_start_bit
+                0x000014b9       0x54 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.validate_bit_length
+                0x0000150d       0x7f build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.parse_uint32_str.constprop.0
+                0x0000158c       0x5f build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.validate_can_id
+                0x000015eb       0x4f build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_decode_manual_can_id_scene_on_event
+                0x0000163a       0x7a build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.dbc_parse_can_id
+                0x000016b4       0x39 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.dbc_sort_signals.part.0
+                0x000016ed       0xc3 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_view_dbc_list_scene_on_event
+                0x000017b0       0x94 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.dbc_write_file
+                0x00001844      0x25e build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.dbc_scan_files
+                0x00001aa2      0x1e0 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_dbc_file_list_scene_on_enter
+                0x00001c82       0xb7 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_decode_log_scene_on_event
+                0x00001d39       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_view_dbc_detail_scene_on_event
+                0x00001d4b       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_decode_result_scene_on_exit
+                0x00001d5d       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_decode_manual_data_scene_on_exit
+                0x00001d6f       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_decode_manual_can_id_scene_on_exit
+                0x00001d81       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_decode_manual_dlc_scene_on_exit
+                0x00001d93       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_decode_log_scene_on_exit
+                0x00001da5       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_view_dbc_detail_scene_on_exit
+                0x00001db7       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_calculate_scene_on_exit
+                0x00001dc9       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_vehicle_info_scene_on_exit
+                0x00001ddb       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_signal_name_scene_on_exit
+                0x00001ded       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_can_id_scene_on_exit
+                0x00001dff       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_start_bit_scene_on_exit
+                0x00001e11       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_bit_length_scene_on_exit
+                0x00001e23       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_endianness_scene_on_exit
+                0x00001e35       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_signed_scene_on_exit
+                0x00001e47       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_offset_scene_on_exit
+                0x00001e59       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_scalar_scene_on_exit
+                0x00001e6b       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_unit_scene_on_exit
+                0x00001e7d       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_min_scene_on_exit
+                0x00001e8f       0x12 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.dbc_load_file
+                0x00001ea1      0x3ec build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_main_menu_scene_on_event
+                0x0000228d       0x63 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.dbc_set_active_file
+                0x000022f0       0x40 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_dbc_file_list_scene_on_event
+                0x00002330       0x89 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_vehicle_info_scene_on_event
+                0x000023b9       0x7d build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.dbc_save_current_and_reload
+                0x00002436      0x14a build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_signal_actions_scene_on_event
+                0x00002580      0x18a build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_view_dbc_list_scene_on_enter
+                0x0000270a       0xe3 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_decode_result_scene_on_enter
+                0x000027ed      0x32b build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.decimal_substitute
+                0x00002b18       0x1c build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.calculate_values
+                0x00002b34       0x49 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_dbc_maker_menu_scene_on_event
+                0x00002b7d       0x7f build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.cantools_text_input_scene_on_event.isra.0
+                0x00002bfc       0x76 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_max_scene_on_event
+                0x00002c72       0x17 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_min_scene_on_event
+                0x00002c89       0x17 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_unit_scene_on_event
+                0x00002ca0       0x17 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_scalar_scene_on_event
+                0x00002cb7       0x17 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_offset_scene_on_event
+                0x00002cce       0x17 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_signed_scene_on_event
+                0x00002ce5       0x17 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_endianness_scene_on_event
+                0x00002cfc       0x17 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_bit_length_scene_on_event
+                0x00002d13       0x17 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_start_bit_scene_on_event
+                0x00002d2a       0x17 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_can_id_scene_on_event
+                0x00002d41       0x17 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_signal_name_scene_on_event
+                0x00002d58       0x17 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.Cantools_scenes_calculate_scene_on_enter
+                0x00002d6f      0x122 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line.text.cantools_app
+                0x00002e91      0x1fb build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .debug_line_end
+                0x0000308c        0x0 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+
+.debug_frame    0x00000000      0xe28
+ *(.debug_frame)
+ .debug_frame   0x00000000      0xe28 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+
+.debug_str      0x00000000     0x2e27
+ *(.debug_str)
+ .debug_str     0x00000000     0x2e27 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x150
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .debug_line_str
+                0x000000a8       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+.debug_loclists
+                0x00000000     0x31b5
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000     0x31b5 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x6c1
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x6c1 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/can_tools/cantools_app.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/can_tools/can_tools_icons.o
+ .ARM.attributes
+                0x00000068       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .ARM.attributes
+                0x0000008a       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/can_tools_d.elf elf32-littlearm)
+LOAD linker stubs

@@ -1,0 +1,852 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene.o
+LOAD build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+LOAD build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+LOAD build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+LOAD build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+LOAD build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+LOAD build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+LOAD build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+LOAD build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+LOAD build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+LOAD build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+LOAD build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+LOAD build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x1950
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.gpio_scene_reader_ok_callback
+                0x00000000       0x24 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+                0x00000000                gpio_scene_reader_ok_callback
+ .text.gpio_scene_reader_on_enter
+                0x00000024       0x30 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+                0x00000024                gpio_scene_reader_on_enter
+ .text.gpio_scene_reader_on_event
+                0x00000054        0xe build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+                0x00000054                gpio_scene_reader_on_event
+ *fill*         0x00000062        0x2 
+ .text.gpio_scene_reader_on_exit
+                0x00000064        0xc build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+                0x00000064                gpio_scene_reader_on_exit
+ .text.gpio_scene_start_var_list_change_callback
+                0x00000070       0x48 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .text.gpio_scene_start_var_list_enter_callback
+                0x000000b8       0x20 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .text.gpio_scene_start_on_enter
+                0x000000d8       0xc4 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+                0x000000d8                gpio_scene_start_on_enter
+ .text.gpio_scene_start_on_event
+                0x0000019c       0x94 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+                0x0000019c                gpio_scene_start_on_event
+ .text.gpio_scene_start_on_exit
+                0x00000230        0xc build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+                0x00000230                gpio_scene_start_on_exit
+ .text.gpio_scene_test_ok_callback
+                0x0000023c       0x24 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+                0x0000023c                gpio_scene_test_ok_callback
+ .text.gpio_scene_test_on_enter
+                0x00000260       0x30 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+                0x00000260                gpio_scene_test_on_enter
+ .text.gpio_scene_test_on_event
+                0x00000290        0xe build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+                0x00000290                gpio_scene_test_on_event
+ *fill*         0x0000029e        0x2 
+ .text.gpio_scene_test_on_exit
+                0x000002a0        0xc build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+                0x000002a0                gpio_scene_test_on_exit
+ .text.gpio_scene_usb_uart_callback
+                0x000002ac       0x10 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+                0x000002ac                gpio_scene_usb_uart_callback
+ .text.gpio_scene_usb_uart_on_enter
+                0x000002bc       0x90 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+                0x000002bc                gpio_scene_usb_uart_on_enter
+ .text.gpio_scene_usb_uart_on_event
+                0x0000034c       0x90 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+                0x0000034c                gpio_scene_usb_uart_on_event
+ .text.gpio_scene_usb_uart_on_exit
+                0x000003dc       0x40 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+                0x000003dc                gpio_scene_usb_uart_on_exit
+ .text.gpio_scene_usb_uart_close_rpc_on_enter
+                0x0000041c       0x64 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+                0x0000041c                gpio_scene_usb_uart_close_rpc_on_enter
+ .text.gpio_scene_usb_uart_close_rpc_on_event
+                0x00000480       0x40 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+                0x00000480                gpio_scene_usb_uart_close_rpc_on_event
+ .text.gpio_scene_usb_uart_close_rpc_on_exit
+                0x000004c0        0xc build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+                0x000004c0                gpio_scene_usb_uart_close_rpc_on_exit
+ .text.line_flow_cb
+                0x000004cc       0x44 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .text.line_baudrate_cb
+                0x00000510       0x78 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .text.line_vcp_cb
+                0x00000588       0x44 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .text.gpio_scene_usb_uart_cfg_on_event
+                0x000005cc       0x2c build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+                0x000005cc                gpio_scene_usb_uart_cfg_on_event
+ .text.line_ensure_flow_invariant
+                0x000005f8       0x54 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+                0x000005f8                line_ensure_flow_invariant
+ .text.line_port_cb
+                0x0000064c       0x54 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .text.gpio_scene_usb_uart_cfg_on_enter
+                0x000006a0      0x148 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+                0x000006a0                gpio_scene_usb_uart_cfg_on_enter
+ .text.gpio_scene_usb_uart_cfg_on_exit
+                0x000007e8       0x38 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+                0x000007e8                gpio_scene_usb_uart_cfg_on_exit
+ .text.gpio_reader_draw_callback
+                0x00000820       0xdc build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .text.gpio_reader_input_callback
+                0x000008fc       0xa0 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .text.gpio_reader_alloc
+                0x0000099c       0x54 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+                0x0000099c                gpio_reader_alloc
+ .text.gpio_reader_free
+                0x000009f0       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+                0x000009f0                gpio_reader_free
+ .text.gpio_reader_get_view
+                0x00000a0c        0x4 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+                0x00000a0c                gpio_reader_get_view
+ .text.gpio_reader_set_ok_callback
+                0x00000a10       0x28 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+                0x00000a10                gpio_reader_set_ok_callback
+ .text.gpio_test_draw_callback
+                0x00000a38       0x68 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .text.gpio_test_input_callback
+                0x00000aa0       0xa4 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .text.gpio_test_alloc
+                0x00000b44       0x54 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+                0x00000b44                gpio_test_alloc
+ .text.gpio_test_free
+                0x00000b98       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+                0x00000b98                gpio_test_free
+ .text.gpio_test_get_view
+                0x00000bb4        0x4 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+                0x00000bb4                gpio_test_get_view
+ .text.gpio_test_set_ok_callback
+                0x00000bb8       0x28 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+                0x00000bb8                gpio_test_set_ok_callback
+ .text.gpio_usb_uart_draw_callback
+                0x00000be0      0x258 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .text.gpio_usb_uart_input_callback
+                0x00000e38       0x1e build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ *fill*         0x00000e56        0x2 
+ .text.gpio_usb_uart_alloc
+                0x00000e58       0x54 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+                0x00000e58                gpio_usb_uart_alloc
+ .text.gpio_usb_uart_free
+                0x00000eac       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+                0x00000eac                gpio_usb_uart_free
+ .text.gpio_usb_uart_get_view
+                0x00000ec8        0x4 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+                0x00000ec8                gpio_usb_uart_get_view
+ .text.gpio_usb_uart_set_callback
+                0x00000ecc       0x28 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+                0x00000ecc                gpio_usb_uart_set_callback
+ .text.gpio_usb_uart_update_state
+                0x00000ef4       0x5c build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+                0x00000ef4                gpio_usb_uart_update_state
+ .text.gpio_app_tick_event_callback
+                0x00000f50        0xc build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .text.gpio_app_back_event_callback
+                0x00000f5c        0xc build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .text.gpio_app_custom_event_callback
+                0x00000f68        0xc build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .text.gpio_app_alloc
+                0x00000f74      0x140 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+                0x00000f74                gpio_app_alloc
+ .text.gpio_app_free
+                0x000010b4       0x98 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+                0x000010b4                gpio_app_free
+ .text.gpio_app
+                0x0000114c       0x54 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+                0x0000114c                gpio_app
+ .text.gpio_item_configure_pin
+                0x000011a0       0x28 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+                0x000011a0                gpio_item_configure_pin
+ .text.gpio_item_configure_all_pins
+                0x000011c8       0x24 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+                0x000011c8                gpio_item_configure_all_pins
+ .text.gpio_item_set_pin
+                0x000011ec       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+                0x000011ec                gpio_item_set_pin
+ .text.gpio_item_get_pin
+                0x00001208       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+                0x00001208                gpio_item_get_pin
+ .text.gpio_item_set_all_pins
+                0x00001224       0x18 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+                0x00001224                gpio_item_set_all_pins
+ .text.gpio_item_get_pin_name
+                0x0000123c       0x18 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+                0x0000123c                gpio_item_get_pin_name
+ .text.vcp_state_callback
+                0x00001254        0x2 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ *fill*         0x00001256        0x2 
+ .text.vcp_on_line_config
+                0x00001258       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .text.vcp_on_cdc_control_line
+                0x00001274       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .text.vcp_on_cdc_rx
+                0x00001290       0x1c build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .text.usb_uart_tx_thread
+                0x000012ac       0x80 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .text.usb_uart_vcp_init
+                0x0000132c       0x88 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .text.vcp_on_cdc_tx_complete
+                0x000013b4        0xc build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .text.usb_uart_serial_init
+                0x000013c0       0x44 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .text.usb_uart_on_irq_cb
+                0x00001404       0x40 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .text.usb_uart_set_baudrate.part.0
+                0x00001444       0x28 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .text.usb_uart_set_baudrate
+                0x0000146c       0x24 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .text.usb_uart_vcp_deinit.constprop.0
+                0x00001490       0x38 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .text.usb_uart_update_ctrl_lines.part.0
+                0x000014c8       0x40 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .text.usb_uart_worker
+                0x00001508      0x364 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .text.usb_uart_enable
+                0x0000186c       0x44 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+                0x0000186c                usb_uart_enable
+ .text.usb_uart_disable
+                0x000018b0       0x3c build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+                0x000018b0                usb_uart_disable
+ .text.usb_uart_set_config
+                0x000018ec       0x4c build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+                0x000018ec                usb_uart_set_config
+ .text.usb_uart_get_config
+                0x00001938        0xa build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+                0x00001938                usb_uart_get_config
+ .text.usb_uart_get_state
+                0x00001942        0xe build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+                0x00001942                usb_uart_get_state
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00001950      0x34c
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.gpio_scene_handlers
+                0x00001950       0x10 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene.o
+                0x00001950                gpio_scene_handlers
+ .rodata.gpio_scene_on_exit_handlers
+                0x00001960       0x18 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene.o
+                0x00001960                gpio_scene_on_exit_handlers
+ .rodata.gpio_scene_on_event_handlers
+                0x00001978       0x18 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene.o
+                0x00001978                gpio_scene_on_event_handlers
+ .rodata.gpio_scene_on_enter_handlers
+                0x00001990       0x18 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene.o
+                0x00001990                gpio_scene_on_enter_handlers
+ .rodata.gpio_scene_start_on_enter.str1.1
+                0x000019a8       0x47 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ *fill*         0x000019ef        0x1 
+ .rodata.gpio_otg_text
+                0x000019f0        0x8 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+                0x000019f0                gpio_otg_text
+ .rodata.gpio_scene_usb_uart_close_rpc_on_enter.str1.1
+                0x000019f8       0x48 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+ .rodata.line_baudrate_cb.str1.1
+                0x00001a40        0x9 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .rodata.gpio_scene_usb_uart_cfg_on_enter.str1.1
+                0x00001a49       0x2c build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ *fill*         0x00001a75        0x3 
+ .rodata.baudrate_list
+                0x00001a78       0x24 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .rodata.str1.1
+                0x00001a9c       0x29 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ *fill*         0x00001ac5        0x3 
+ .rodata.flow_pins
+                0x00001ac8       0x10 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .rodata.uart_ch
+                0x00001ad8        0x8 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .rodata.vcp_ch
+                0x00001ae0        0x8 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .rodata.gpio_reader_draw_callback.str1.1
+                0x00001ae8       0x39 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .rodata.gpio_test_draw_callback.str1.1
+                0x00001b21       0x31 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .rodata.gpio_usb_uart_draw_callback.str1.1
+                0x00001b52       0x4e build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .rodata.gpio_app_alloc.str1.1
+                0x00001ba0       0x11 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .rodata.gpio_app.str1.1
+                0x00001bb1        0xa build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .rodata.gpio_item_get_pin_name.str1.1
+                0x00001bbb        0x4 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .rodata.str1.1
+                0x00001bbf       0x48 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ *fill*         0x00001c07        0x1 
+ .rodata.gpio_item
+                0x00001c08       0x40 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .rodata.usb_uart_vcp_init.str1.1
+                0x00001c48        0x8 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .rodata.usb_uart_worker.str1.1
+                0x00001c50       0x10 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .rodata.usb_uart_enable.str1.1
+                0x00001c60        0xe build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ *fill*         0x00001c6e        0x2 
+ .rodata.cdc_cb
+                0x00001c70       0x14 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .rodata.flow_pins
+                0x00001c84       0x18 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss            0x00001c9c        0x4
+ *(.bss)
+ *(.bss*)
+ .bss.scene_usb_uart
+                0x00001c9c        0x4 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x3a8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene.o
+ .debug_aranges
+                0x00000018       0x38 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+ .debug_aranges
+                0x00000050       0x40 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .debug_aranges
+                0x00000090       0x38 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+ .debug_aranges
+                0x000000c8       0x38 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ .debug_aranges
+                0x00000100       0x30 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+ .debug_aranges
+                0x00000130       0x58 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .debug_aranges
+                0x00000188       0x48 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .debug_aranges
+                0x000001d0       0x48 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .debug_aranges
+                0x00000218       0x50 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .debug_aranges
+                0x00000268       0x48 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .debug_aranges
+                0x000002b0       0x48 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .debug_aranges
+                0x000002f8       0xb0 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xa14f
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x3a2 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene.o
+ .debug_info    0x000003a2      0x891 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+ .debug_info    0x00000c33      0xb32 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .debug_info    0x00001765      0x891 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+ .debug_info    0x00001ff6      0xb0b build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ .debug_info    0x00002b01      0x66d build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+ .debug_info    0x0000316e      0xeb9 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .debug_info    0x00004027      0xb85 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .debug_info    0x00004bac      0x9ea build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .debug_info    0x00005596     0x10e3 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .debug_info    0x00006679      0xea3 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .debug_info    0x0000751c      0x60d build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .debug_info    0x00007b29     0x2626 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+
+.debug_abbrev   0x00000000     0x23d7
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x137 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene.o
+ .debug_abbrev  0x00000137      0x26b build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+ .debug_abbrev  0x000003a2      0x2c8 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .debug_abbrev  0x0000066a      0x26b build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+ .debug_abbrev  0x000008d5      0x23e build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ .debug_abbrev  0x00000b13      0x1f2 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+ .debug_abbrev  0x00000d05      0x290 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .debug_abbrev  0x00000f95      0x334 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .debug_abbrev  0x000012c9      0x305 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .debug_abbrev  0x000015ce      0x34c build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .debug_abbrev  0x0000191a      0x2a9 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .debug_abbrev  0x00001bc3      0x28c build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .debug_abbrev  0x00001e4f      0x588 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+
+.debug_line     0x00000000     0x46bf
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x1a1 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene.o
+ .debug_line_end
+                0x000001a1        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene.o
+ .debug_line    0x000001a1      0x372 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+ .debug_line.text.gpio_scene_reader_ok_callback
+                0x00000513       0x42 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+ .debug_line.text.gpio_scene_reader_on_enter
+                0x00000555       0x29 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+ .debug_line.text.gpio_scene_reader_on_event
+                0x0000057e       0x24 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+ .debug_line.text.gpio_scene_reader_on_exit
+                0x000005a2       0x17 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+ .debug_line_end
+                0x000005b9        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+ .debug_line    0x000005b9      0x3df build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .debug_line.text.gpio_scene_start_var_list_change_callback
+                0x00000998       0x59 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .debug_line.text.gpio_scene_start_var_list_enter_callback
+                0x000009f1       0x4a build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .debug_line.text.gpio_scene_start_on_enter
+                0x00000a3b       0x6a build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .debug_line.text.gpio_scene_start_on_event
+                0x00000aa5       0x6e build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .debug_line.text.gpio_scene_start_on_exit
+                0x00000b13       0x18 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .debug_line_end
+                0x00000b2b        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .debug_line    0x00000b2b      0x370 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+ .debug_line.text.gpio_scene_test_ok_callback
+                0x00000e9b       0x42 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+ .debug_line.text.gpio_scene_test_on_enter
+                0x00000edd       0x29 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+ .debug_line.text.gpio_scene_test_on_event
+                0x00000f06       0x24 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+ .debug_line.text.gpio_scene_test_on_exit
+                0x00000f2a       0x17 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+ .debug_line_end
+                0x00000f41        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+ .debug_line    0x00000f41      0x484 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ .debug_line.text.gpio_scene_usb_uart_callback
+                0x000013c5       0x24 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ .debug_line.text.gpio_scene_usb_uart_on_enter
+                0x000013e9       0x63 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ .debug_line.text.gpio_scene_usb_uart_on_event
+                0x0000144c       0x88 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ .debug_line.text.gpio_scene_usb_uart_on_exit
+                0x000014d4       0x3d build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ .debug_line_end
+                0x00001511        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ .debug_line    0x00001511      0x339 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+ .debug_line.text.gpio_scene_usb_uart_close_rpc_on_enter
+                0x0000184a       0x30 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+ .debug_line.text.gpio_scene_usb_uart_close_rpc_on_event
+                0x0000187a       0x4c build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+ .debug_line.text.gpio_scene_usb_uart_close_rpc_on_exit
+                0x000018c6       0x17 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+ .debug_line_end
+                0x000018dd        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+ .debug_line    0x000018dd      0x492 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .debug_line.text.line_flow_cb
+                0x00001d6f       0x52 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .debug_line.text.line_baudrate_cb
+                0x00001dc1       0x73 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .debug_line.text.line_vcp_cb
+                0x00001e34       0x51 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .debug_line.text.gpio_scene_usb_uart_cfg_on_event
+                0x00001e85       0x43 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .debug_line.text.line_ensure_flow_invariant
+                0x00001ec8       0x57 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .debug_line.text.line_port_cb
+                0x00001f1f       0x63 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .debug_line.text.gpio_scene_usb_uart_cfg_on_enter
+                0x00001f82       0xdc build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .debug_line.text.gpio_scene_usb_uart_cfg_on_exit
+                0x0000205e       0x3a build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .debug_line_end
+                0x00002098        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .debug_line    0x00002098      0x33b build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .debug_line.text.gpio_reader_draw_callback
+                0x000023d3       0xa2 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .debug_line.text.gpio_reader_input_callback
+                0x00002475       0xc0 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .debug_line.text.gpio_reader_alloc
+                0x00002535       0x3d build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .debug_line.text.gpio_reader_free
+                0x00002572       0x31 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .debug_line.text.gpio_reader_get_view
+                0x000025a3       0x1e build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .debug_line.text.gpio_reader_set_ok_callback
+                0x000025c1       0x37 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .debug_line_end
+                0x000025f8        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .debug_line    0x000025f8      0x324 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .debug_line.text.gpio_test_draw_callback
+                0x0000291c       0x35 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .debug_line.text.gpio_test_input_callback
+                0x00002951       0xc1 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .debug_line.text.gpio_test_alloc
+                0x00002a12       0x3d build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .debug_line.text.gpio_test_free
+                0x00002a4f       0x31 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .debug_line.text.gpio_test_get_view
+                0x00002a80       0x1e build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .debug_line.text.gpio_test_set_ok_callback
+                0x00002a9e       0x37 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .debug_line_end
+                0x00002ad5        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .debug_line    0x00002ad5      0x408 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .debug_line.text.gpio_usb_uart_draw_callback
+                0x00002edd       0xb7 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .debug_line.text.gpio_usb_uart_input_callback
+                0x00002f94       0x50 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .debug_line.text.gpio_usb_uart_alloc
+                0x00002fe4       0x3d build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .debug_line.text.gpio_usb_uart_free
+                0x00003021       0x31 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .debug_line.text.gpio_usb_uart_get_view
+                0x00003052       0x1e build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .debug_line.text.gpio_usb_uart_set_callback
+                0x00003070       0x37 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .debug_line.text.gpio_usb_uart_update_state
+                0x000030a7       0x4e build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .debug_line_end
+                0x000030f5        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .debug_line    0x000030f5      0x47a build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .debug_line.text.gpio_app_tick_event_callback
+                0x0000356f       0x1b build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .debug_line.text.gpio_app_back_event_callback
+                0x0000358a       0x1e build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .debug_line.text.gpio_app_custom_event_callback
+                0x000035a8       0x1d build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .debug_line.text.gpio_app_alloc
+                0x000035c5       0xb5 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .debug_line.text.gpio_app_free
+                0x0000367a       0x42 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .debug_line.text.gpio_app
+                0x000036bc       0x42 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .debug_line_end
+                0x000036fe        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .debug_line    0x000036fe      0x1af build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .debug_line.text.gpio_item_configure_pin
+                0x000038ad       0x53 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .debug_line.text.gpio_item_configure_all_pins
+                0x00003900       0x5c build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .debug_line.text.gpio_item_set_pin
+                0x0000395c       0x4e build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .debug_line.text.gpio_item_get_pin
+                0x000039aa       0x3e build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .debug_line.text.gpio_item_set_all_pins
+                0x000039e8       0x4e build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .debug_line.text.gpio_item_get_pin_name
+                0x00003a36       0x2a build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .debug_line_end
+                0x00003a60        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .debug_line    0x00003a60      0x4a4 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.vcp_state_callback
+                0x00003f04       0x1a build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.vcp_on_line_config
+                0x00003f1e       0x25 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.vcp_on_cdc_control_line
+                0x00003f43       0x25 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.vcp_on_cdc_rx
+                0x00003f68       0x24 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.usb_uart_tx_thread
+                0x00003f8c       0xea build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.usb_uart_vcp_init
+                0x00004076       0x86 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.vcp_on_cdc_tx_complete
+                0x000040fc       0x18 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.usb_uart_serial_init
+                0x00004114       0x64 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.usb_uart_on_irq_cb
+                0x00004178       0x41 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.usb_uart_set_baudrate.part.0
+                0x000041b9       0x40 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.usb_uart_set_baudrate
+                0x000041f9       0x30 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.usb_uart_vcp_deinit.constprop.0
+                0x00004229       0x44 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.usb_uart_update_ctrl_lines.part.0
+                0x0000426d       0xa3 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.usb_uart_worker
+                0x00004310      0x2b3 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.usb_uart_enable
+                0x000045c3       0x48 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.usb_uart_disable
+                0x0000460b       0x33 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.usb_uart_set_config
+                0x0000463e       0x3f build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.usb_uart_get_config
+                0x0000467d       0x21 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line.text.usb_uart_get_state
+                0x0000469e       0x21 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ .debug_line_end
+                0x000046bf        0x0 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+
+.debug_frame    0x00000000      0x958
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x64 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+ .debug_frame   0x00000064       0xa4 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .debug_frame   0x00000108       0x64 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+ .debug_frame   0x0000016c       0x84 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ .debug_frame   0x000001f0       0x6c build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+ .debug_frame   0x0000025c      0x138 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .debug_frame   0x00000394       0xc4 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .debug_frame   0x00000458       0xb8 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .debug_frame   0x00000510       0xe4 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .debug_frame   0x000005f4       0xa0 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .debug_frame   0x00000694       0x98 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .debug_frame   0x0000072c      0x22c build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+
+.debug_str      0x00000000     0x8523
+ *(.debug_str)
+ .debug_str     0x00000000      0x620 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene.o
+ .debug_str     0x00000620      0xbd8 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+ .debug_str     0x000011f8      0xcc8 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .debug_str     0x00001ec0      0xbca build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+ .debug_str     0x00002a8a      0xd61 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ .debug_str     0x000037eb      0x745 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+ .debug_str     0x00003f30      0x92e build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .debug_str     0x0000485e      0x80d build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .debug_str     0x0000506b      0x6b6 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .debug_str     0x00005721      0x940 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .debug_str     0x00006061      0xb0d build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .debug_str     0x00006b6e      0x55f build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .debug_str     0x000070cd     0x1456 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x1b3e
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x11a build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+ .debug_loclists
+                0x0000011a      0x290 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .debug_loclists
+                0x000003aa      0x11a build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+ .debug_loclists
+                0x000004c4      0x1c8 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ .debug_loclists
+                0x0000068c       0xbb build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+ .debug_loclists
+                0x00000747      0x268 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .debug_loclists
+                0x000009af      0x360 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .debug_loclists
+                0x00000d0f      0x2e2 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .debug_loclists
+                0x00000ff1      0x2c5 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .debug_loclists
+                0x000012b6      0x130 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .debug_loclists
+                0x000013e6      0x19a build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .debug_loclists
+                0x00001580      0x5be build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x419
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x31 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+ .debug_rnglists
+                0x00000031       0x39 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .debug_rnglists
+                0x0000006a       0x31 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+ .debug_rnglists
+                0x0000009b       0x27 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ .debug_rnglists
+                0x000000c2       0x1f build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+ .debug_rnglists
+                0x000000e1       0x3e build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .debug_rnglists
+                0x0000011f       0x88 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .debug_rnglists
+                0x000001a7       0x6a build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .debug_rnglists
+                0x00000211       0x5c build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .debug_rnglists
+                0x0000026d       0x33 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .debug_rnglists
+                0x000002a0       0x67 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .debug_rnglists
+                0x00000307      0x112 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_reader.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_start.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_test.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_close_rpc.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/gpio_reader_b/scenes/gpio_scene_usb_uart_config.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_reader.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_test.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/gpio_reader_b/views/gpio_usb_uart.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_app.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/gpio_reader_b/gpio_item.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/gpio_reader_b/usb_uart_bridge.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/gpio_reader_b_d.elf elf32-littlearm)
+LOAD linker stubs

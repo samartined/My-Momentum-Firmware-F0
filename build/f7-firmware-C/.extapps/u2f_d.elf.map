@@ -1,0 +1,1873 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                              build/f7-firmware-C/.extapps/u2f/u2f.o (mbedtls_mpi_init)
+build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+                              build/f7-firmware-C/lib/libmbedtls.a(bignum.o) (mbedtls_mpi_core_clz)
+build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+                              build/f7-firmware-C/.extapps/u2f/u2f.o (mbedtls_ecdsa_sign)
+build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+                              build/f7-firmware-C/.extapps/u2f/u2f.o (mbedtls_ecp_point_init)
+build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+                              build/f7-firmware-C/.extapps/u2f/u2f.o (mbedtls_ecp_group_load)
+build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                              build/f7-firmware-C/.extapps/u2f/u2f.o (mbedtls_md_info_from_type)
+build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                              build/f7-firmware-C/lib/libmbedtls.a(md.o) (mbedtls_md5_init)
+build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+                              build/f7-firmware-C/lib/libmbedtls.a(bignum.o) (mbedtls_platform_zeroize)
+build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+                              build/f7-firmware-C/lib/libmbedtls.a(md.o) (mbedtls_sha1_init)
+build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+                              build/f7-firmware-C/.extapps/u2f/u2f.o (mbedtls_sha256_init)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/u2f/u2f.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mpi_get_digit
+                0x00000000       0x36 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_lt_mpi_ct
+                0x00000000       0x6c build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_safe_cond_swap
+                0x00000000       0x5c build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_swap
+                0x00000000       0x22 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_set_bit
+                0x00000000       0x54 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_read_binary_le
+                0x00000000       0x38 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_write_binary_le
+                0x00000000       0x18 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_add_int
+                0x00000000       0x34 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_read_string
+                0x00000000      0x140 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_div_int
+                0x00000000       0x34 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_exp_mod_optionally_safe
+                0x00000000      0x230 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_mod_int
+                0x00000000       0x6c build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .rodata.mbedtls_mpi_write_string.str1.1
+                0x00000000       0x11 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_write_string
+                0x00000000      0x178 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mpi_check_small_factors
+                0x00000000       0x5c build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_exp_mod
+                0x00000000       0x18 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_exp_mod_unsafe
+                0x00000000       0x18 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_fill_random
+                0x00000000       0x38 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mpi_miller_rabin
+                0x00000000      0x1a8 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_is_prime_ext
+                0x00000000       0x6c build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_gen_prime
+                0x00000000      0x238 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .rodata.small_prime_gaps
+                0x00000000       0xa7 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mpi_get_digit
+                0x00000000       0x5d build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_lt_mpi_ct
+                0x00000000      0x11d build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_safe_cond_swap
+                0x00000000       0xc3 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_swap
+                0x00000000       0x28 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_set_bit
+                0x00000000       0x79 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_read_binary_le
+                0x00000000       0x5e build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_write_binary_le
+                0x00000000       0x2b build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_add_int
+                0x00000000       0x5f build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_read_string
+                0x00000000      0x1b5 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_div_int
+                0x00000000       0x53 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_exp_mod_optionally_safe
+                0x00000000      0x276 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_mod_int
+                0x00000000      0x118 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_write_string
+                0x00000000      0x27a build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mpi_check_small_factors
+                0x00000000       0x99 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_exp_mod
+                0x00000000       0x21 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_exp_mod_unsafe
+                0x00000000       0x21 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_fill_random
+                0x00000000       0x55 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mpi_miller_rabin
+                0x00000000      0x27c build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_is_prime_ext
+                0x00000000       0x87 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_gen_prime
+                0x00000000      0x253 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .text.mbedtls_mpi_core_cond_swap
+                0x00000000       0x38 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .text.mbedtls_mpi_core_read_le
+                0x00000000       0x50 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .text.mbedtls_mpi_core_write_le
+                0x00000000       0x68 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .text.mbedtls_mpi_core_add_if
+                0x00000000       0x3c build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .text.mbedtls_mpi_core_montmul_init
+                0x00000000       0x22 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .text.mbedtls_mpi_core_montmul
+                0x00000000       0xb0 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .text.mbedtls_mpi_core_exp_mod_optionally_safe
+                0x00000000      0x1b4 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .text.mbedtls_mpi_core_get_mont_r2_unsafe
+                0x00000000       0x44 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .text.mbedtls_mpi_core_exp_mod_working_limbs
+                0x00000000       0x16 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .text.mbedtls_mpi_core_exp_mod
+                0x00000000       0x24 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .text.mbedtls_mpi_core_exp_mod_unsafe
+                0x00000000       0x28 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .text.mbedtls_mpi_core_check_zero_ct
+                0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .text.mbedtls_mpi_core_to_mont_rep
+                0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .text.mbedtls_mpi_core_from_mont_rep
+                0x00000000       0x24 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_cond_swap
+                0x00000000       0xe5 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_read_le
+                0x00000000       0xa3 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_write_le
+                0x00000000       0xaf build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_add_if
+                0x00000000       0xcc build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_montmul_init
+                0x00000000       0x71 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_montmul
+                0x00000000       0xfc build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_exp_mod_optionally_safe
+                0x00000000      0x230 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_get_mont_r2_unsafe
+                0x00000000       0x84 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_exp_mod_working_limbs
+                0x00000000       0x40 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_exp_mod
+                0x00000000       0x22 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_exp_mod_unsafe
+                0x00000000       0x22 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_check_zero_ct
+                0x00000000       0x4e build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_to_mont_rep
+                0x00000000       0x21 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_from_mont_rep
+                0x00000000       0x30 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .text.mbedtls_ecdsa_can_do
+                0x00000000        0x4 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .text.mbedtls_ecdsa_verify_restartable
+                0x00000000      0x174 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .text.mbedtls_ecdsa_verify
+                0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .text.mbedtls_ecdsa_write_signature_restartable
+                0x00000000       0xf4 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .text.mbedtls_ecdsa_write_signature
+                0x00000000       0x28 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .text.mbedtls_ecdsa_read_signature_restartable
+                0x00000000       0xb0 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .text.mbedtls_ecdsa_read_signature
+                0x00000000       0x18 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .text.mbedtls_ecdsa_genkey
+                0x00000000       0x2c build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .text.mbedtls_ecdsa_init
+                0x00000000        0x8 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .text.mbedtls_ecdsa_free
+                0x00000000        0xc build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .text.mbedtls_ecdsa_from_keypair
+                0x00000000       0x48 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_line.text.mbedtls_ecdsa_can_do
+                0x00000000       0x1d build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_line.text.mbedtls_ecdsa_verify_restartable
+                0x00000000      0x1c4 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_line.text.mbedtls_ecdsa_verify
+                0x00000000       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_line.text.mbedtls_ecdsa_write_signature_restartable
+                0x00000000       0xc7 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_line.text.mbedtls_ecdsa_write_signature
+                0x00000000       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_line.text.mbedtls_ecdsa_read_signature_restartable
+                0x00000000       0xb4 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_line.text.mbedtls_ecdsa_read_signature
+                0x00000000       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_line.text.mbedtls_ecdsa_genkey
+                0x00000000       0x3a build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_line.text.mbedtls_ecdsa_init
+                0x00000000       0x17 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_line.text.mbedtls_ecdsa_free
+                0x00000000       0x21 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_line.text.mbedtls_ecdsa_from_keypair
+                0x00000000       0x4f build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_curve_list
+                0x00000000        0x8 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_grp_id_list
+                0x00000000       0x38 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_curve_info_from_grp_id
+                0x00000000       0x18 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_curve_info_from_tls_id
+                0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_curve_info_from_name
+                0x00000000       0x30 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_keypair_init
+                0x00000000       0x28 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_keypair_free
+                0x00000000       0x2c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_group_copy
+                0x00000000        0xc build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_is_zero
+                0x00000000       0x18 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_point_cmp
+                0x00000000       0x34 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_point_read_string
+                0x00000000       0x38 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_point_read_binary
+                0x00000000      0x164 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_tls_read_point
+                0x00000000       0x34 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_tls_write_point
+                0x00000000       0x38 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_tls_read_group_id
+                0x00000000       0x44 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_tls_read_group
+                0x00000000       0x2c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_tls_write_group
+                0x00000000       0x38 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_mul_shortcuts.isra.0
+                0x00000000       0xe8 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_muladd_restartable
+                0x00000000       0xa0 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_muladd
+                0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_gen_keypair_base
+                0x00000000       0x40 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_gen_keypair
+                0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_gen_key
+                0x00000000       0x30 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_set_public_key
+                0x00000000       0x38 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_read_key
+                0x00000000       0x68 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_write_key
+                0x00000000       0x28 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_write_key_ext
+                0x00000000       0x54 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_write_public_key
+                0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_check_pub_priv
+                0x00000000       0xc8 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_keypair_calc_public
+                0x00000000       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_keypair_get_group_id
+                0x00000000        0x4 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_export
+                0x00000000       0x4c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .bss.init_done.0
+                0x00000000        0x4 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .bss.ecp_supported_grp_id
+                0x00000000        0x2 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .rodata.str1.1
+                0x00000000        0xa build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .rodata.ecp_supported_curves
+                0x00000000       0x18 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_curve_list
+                0x00000000       0x19 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_grp_id_list
+                0x00000000       0x5e build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_curve_info_from_grp_id
+                0x00000000       0x49 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_curve_info_from_tls_id
+                0x00000000       0x43 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_curve_info_from_name
+                0x00000000       0x46 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_keypair_init
+                0x00000000       0x2d build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_keypair_free
+                0x00000000       0x2c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_group_copy
+                0x00000000       0x1b build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_is_zero
+                0x00000000       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_point_cmp
+                0x00000000       0x3f build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_point_read_string
+                0x00000000       0x68 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_point_read_binary
+                0x00000000      0x172 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_tls_read_point
+                0x00000000       0x66 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_tls_write_point
+                0x00000000       0x4d build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_tls_read_group_id
+                0x00000000       0x88 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_tls_read_group
+                0x00000000       0x3b build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_tls_write_group
+                0x00000000       0x75 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_mul_shortcuts.isra.0
+                0x00000000       0xa4 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_muladd_restartable
+                0x00000000      0x118 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_muladd
+                0x00000000       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_gen_keypair_base
+                0x00000000       0x5a build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_gen_keypair
+                0x00000000       0x23 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_gen_key
+                0x00000000       0x37 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_set_public_key
+                0x00000000       0x4b build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_read_key
+                0x00000000       0x5b build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_write_key
+                0x00000000       0x58 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_write_key_ext
+                0x00000000       0x80 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_write_public_key
+                0x00000000       0x23 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_check_pub_priv
+                0x00000000       0xab build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_keypair_calc_public
+                0x00000000       0x21 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_keypair_get_group_id
+                0x00000000       0x1a build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_export
+                0x00000000       0x76 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text.mbedtls_md_clone
+                0x00000000       0x54 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text.mbedtls_md
+                0x00000000       0x54 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text.mbedtls_md_get_size
+                0x00000000        0x6 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text.mbedtls_md_get_type
+                0x00000000        0x6 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text.mbedtls_md_list
+                0x00000000        0x8 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text.mbedtls_md_info_from_string
+                0x00000000       0x34 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text.mbedtls_md_get_name
+                0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text.mbedtls_md_info_from_ctx
+                0x00000000        0x6 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text.mbedtls_md_hmac
+                0x00000000       0x70 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .rodata.str1.1
+                0x00000000       0x1b build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .rodata.md_names
+                0x00000000       0x30 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .rodata.supported_digests
+                0x00000000       0x14 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_clone
+                0x00000000       0x6d build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md
+                0x00000000       0x66 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_get_size
+                0x00000000       0x24 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_get_type
+                0x00000000       0x24 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_list
+                0x00000000       0x19 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_info_from_string
+                0x00000000       0x50 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_get_name
+                0x00000000       0x40 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_info_from_ctx
+                0x00000000       0x24 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_hmac
+                0x00000000       0x63 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .text.mbedtls_md5_clone
+                0x00000000       0x10 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .text.mbedtls_md5
+                0x00000000       0x70 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5_clone
+                0x00000000       0x1e build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5
+                0x00000000       0x8d build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .text.mbedtls_sha1_clone
+                0x00000000       0x10 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .text.mbedtls_sha1
+                0x00000000       0x54 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line.text.mbedtls_sha1_clone
+                0x00000000       0x1e build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line.text.mbedtls_sha1
+                0x00000000       0x68 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .text.mbedtls_sha256_clone
+                0x00000000       0x10 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .text.mbedtls_sha256
+                0x00000000       0x64 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .debug_line.text.mbedtls_sha256_clone
+                0x00000000       0x1f build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .debug_line.text.mbedtls_sha256
+                0x00000000       0x6f build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene.o
+LOAD build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+LOAD build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+LOAD build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+LOAD build/f7-firmware-C/.extapps/u2f/u2f.o
+LOAD build/f7-firmware-C/.extapps/u2f/u2f_app.o
+LOAD build/f7-firmware-C/.extapps/u2f/u2f_data.o
+LOAD build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/lib/libassets.a
+LOAD build/f7-firmware-C/lib/libmbedtls.a
+LOAD build/f7-firmware-C/lib/libassets.a
+LOAD build/f7-firmware-C/lib/libmbedtls.a
+
+.text           0x00000000     0x6f88
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.u2f_scene_error_event_callback
+                0x00000000       0x14 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .text.u2f_scene_error_on_enter
+                0x00000014       0x6c build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+                0x00000014                u2f_scene_error_on_enter
+ .text.u2f_scene_error_on_event
+                0x00000080       0x2c build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+                0x00000080                u2f_scene_error_on_event
+ .text.u2f_scene_error_on_exit
+                0x000000ac        0xc build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+                0x000000ac                u2f_scene_error_on_exit
+ .text.u2f_scene_main_ok_callback
+                0x000000b8       0x10 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .text.u2f_scene_main_event_callback
+                0x000000c8       0x38 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .text.u2f_scene_main_timer_callback
+                0x00000100        0xc build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .text.u2f_scene_main_on_event
+                0x0000010c      0x118 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+                0x0000010c                u2f_scene_main_on_event
+ .text.u2f_scene_main_on_enter
+                0x00000224       0x88 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+                0x00000224                u2f_scene_main_on_enter
+ .text.u2f_scene_main_on_exit
+                0x000002ac       0x48 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+                0x000002ac                u2f_scene_main_on_exit
+ .text.u2f_view_draw_callback
+                0x000002f4       0xe4 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .text.u2f_view_input_callback
+                0x000003d8       0x22 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ *fill*         0x000003fa        0x2 
+ .text.u2f_view_alloc
+                0x000003fc       0x54 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+                0x000003fc                u2f_view_alloc
+ .text.u2f_view_free
+                0x00000450       0x1c build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+                0x00000450                u2f_view_free
+ .text.u2f_view_get_view
+                0x0000046c        0x4 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+                0x0000046c                u2f_view_get_view
+ .text.u2f_view_set_ok_callback
+                0x00000470       0x28 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+                0x00000470                u2f_view_set_ok_callback
+ .text.u2f_view_set_state
+                0x00000498       0x24 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+                0x00000498                u2f_view_set_state
+ .text.u2f_uecc_random_cb
+                0x000004bc       0x14 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .text.u2f_ecc_sign
+                0x000004d0       0xa0 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .text.u2f_der_encode_int.constprop.0
+                0x00000570       0x40 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .text.u2f_der_encode_signature
+                0x000005b0       0x2c build/f7-firmware-C/.extapps/u2f/u2f.o
+ .text.u2f_register
+                0x000005dc      0x268 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .text.u2f_authenticate
+                0x00000844      0x214 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .text.u2f_alloc
+                0x00000a58        0xc build/f7-firmware-C/.extapps/u2f/u2f.o
+                0x00000a58                u2f_alloc
+ .text.u2f_free
+                0x00000a64       0x1c build/f7-firmware-C/.extapps/u2f/u2f.o
+                0x00000a64                u2f_free
+ .text.u2f_init
+                0x00000a80       0xd4 build/f7-firmware-C/.extapps/u2f/u2f.o
+                0x00000a80                u2f_init
+ .text.u2f_set_event_callback
+                0x00000b54        0x6 build/f7-firmware-C/.extapps/u2f/u2f.o
+                0x00000b54                u2f_set_event_callback
+ .text.u2f_confirm_user_present
+                0x00000b5a        0x8 build/f7-firmware-C/.extapps/u2f/u2f.o
+                0x00000b5a                u2f_confirm_user_present
+ *fill*         0x00000b62        0x2 
+ .text.u2f_msg_parse
+                0x00000b64       0x5c build/f7-firmware-C/.extapps/u2f/u2f.o
+                0x00000b64                u2f_msg_parse
+ .text.u2f_wink
+                0x00000bc0        0xc build/f7-firmware-C/.extapps/u2f/u2f.o
+                0x00000bc0                u2f_wink
+ .text.u2f_set_state
+                0x00000bcc       0x22 build/f7-firmware-C/.extapps/u2f/u2f.o
+                0x00000bcc                u2f_set_state
+ *fill*         0x00000bee        0x2 
+ .text.u2f_app_back_event_callback
+                0x00000bf0        0xc build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .text.u2f_app_custom_event_callback
+                0x00000bfc        0xc build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .text.u2f_app_tick_event_callback
+                0x00000c08        0xc build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .text.u2f_app_alloc
+                0x00000c14       0xfc build/f7-firmware-C/.extapps/u2f/u2f_app.o
+                0x00000c14                u2f_app_alloc
+ .text.u2f_app_free
+                0x00000d10       0x64 build/f7-firmware-C/.extapps/u2f/u2f_app.o
+                0x00000d10                u2f_app_free
+ .text.u2f_app  0x00000d74       0x24 build/f7-firmware-C/.extapps/u2f/u2f_app.o
+                0x00000d74                u2f_app
+ .text.u2f_data_check
+                0x00000d98       0x9c build/f7-firmware-C/.extapps/u2f/u2f_data.o
+                0x00000d98                u2f_data_check
+ .text.u2f_data_cert_check
+                0x00000e34       0xa8 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+                0x00000e34                u2f_data_cert_check
+ .text.u2f_data_cert_load
+                0x00000edc       0x78 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+                0x00000edc                u2f_data_cert_load
+ .text.u2f_data_cert_key_load
+                0x00000f54      0x274 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+                0x00000f54                u2f_data_cert_key_load
+ .text.u2f_data_key_load
+                0x000011c8      0x144 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+                0x000011c8                u2f_data_key_load
+ .text.u2f_data_key_generate
+                0x0000130c      0x104 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+                0x0000130c                u2f_data_key_generate
+ .text.u2f_data_cnt_write
+                0x00001410       0xf4 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+                0x00001410                u2f_data_cnt_write
+ .text.u2f_data_cnt_read
+                0x00001504      0x1a8 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+                0x00001504                u2f_data_cnt_read
+ .text.u2f_hid_lock_timeout_callback
+                0x000016ac       0x1c build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .text.u2f_hid_send_response
+                0x000016c8       0xb0 build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .text.u2f_hid_event_callback
+                0x00001778       0x3c build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .text.u2f_hid_worker
+                0x000017b4      0x288 build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .text.u2f_hid_start
+                0x00001a3c       0x3c build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+                0x00001a3c                u2f_hid_start
+ .text.u2f_hid_stop
+                0x00001a78       0x3c build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+                0x00001a78                u2f_hid_stop
+ .text.mbedtls_ct_mpi_sign_if
+                0x00001ab4       0x12 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_init
+                0x00001ac6        0xa build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001ac6                mbedtls_mpi_init
+ .text.mbedtls_mpi_free
+                0x00001ad0       0x20 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001ad0                mbedtls_mpi_free
+ .text.mbedtls_mpi_grow
+                0x00001af0       0x60 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001af0                mbedtls_mpi_grow
+ .text.mbedtls_mpi_safe_cond_assign
+                0x00001b50       0x64 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001b50                mbedtls_mpi_safe_cond_assign
+ .text.mbedtls_mpi_resize_clear
+                0x00001bb4       0x44 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_shrink
+                0x00001bf8       0x80 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001bf8                mbedtls_mpi_shrink
+ .text.mbedtls_mpi_copy
+                0x00001c78       0x74 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001c78                mbedtls_mpi_copy
+ .text.mbedtls_mpi_lset
+                0x00001cec       0x40 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001cec                mbedtls_mpi_lset
+ .text.mbedtls_mpi_get_bit
+                0x00001d2c       0x20 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001d2c                mbedtls_mpi_get_bit
+ .text.mbedtls_mpi_lsb
+                0x00001d4c       0x26 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001d4c                mbedtls_mpi_lsb
+ *fill*         0x00001d72        0x2 
+ .text.mbedtls_mpi_bitlen
+                0x00001d74        0xc build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001d74                mbedtls_mpi_bitlen
+ .text.mbedtls_mpi_size
+                0x00001d80       0x10 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001d80                mbedtls_mpi_size
+ .text.mbedtls_mpi_read_binary
+                0x00001d90       0x38 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001d90                mbedtls_mpi_read_binary
+ .text.mbedtls_mpi_write_binary
+                0x00001dc8       0x18 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001dc8                mbedtls_mpi_write_binary
+ .text.mbedtls_mpi_shift_l
+                0x00001de0       0x48 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001de0                mbedtls_mpi_shift_l
+ .text.mbedtls_mpi_shift_r
+                0x00001e28       0x18 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001e28                mbedtls_mpi_shift_r
+ .text.mbedtls_mpi_cmp_abs
+                0x00001e40       0x5e build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001e40                mbedtls_mpi_cmp_abs
+ .text.mbedtls_mpi_cmp_mpi
+                0x00001e9e       0x90 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001e9e                mbedtls_mpi_cmp_mpi
+ *fill*         0x00001f2e        0x2 
+ .text.mbedtls_mpi_cmp_int
+                0x00001f30       0x34 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001f30                mbedtls_mpi_cmp_int
+ .text.mbedtls_mpi_add_abs
+                0x00001f64       0xac build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00001f64                mbedtls_mpi_add_abs
+ .text.mbedtls_mpi_sub_abs
+                0x00002010       0xb8 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00002010                mbedtls_mpi_sub_abs
+ .text.add_sub_mpi
+                0x000020c8       0x6c build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .text.mbedtls_mpi_add_mpi
+                0x00002134       0x14 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00002134                mbedtls_mpi_add_mpi
+ .text.mbedtls_mpi_sub_mpi
+                0x00002148       0x14 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00002148                mbedtls_mpi_sub_mpi
+ .text.mbedtls_mpi_sub_int
+                0x0000215c       0x34 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x0000215c                mbedtls_mpi_sub_int
+ .text.mbedtls_mpi_mul_mpi
+                0x00002190       0xf0 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00002190                mbedtls_mpi_mul_mpi
+ .text.mbedtls_mpi_mul_int
+                0x00002280       0x74 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00002280                mbedtls_mpi_mul_int
+ .text.mbedtls_mpi_div_mpi
+                0x000022f4      0x40c build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x000022f4                mbedtls_mpi_div_mpi
+ .text.mbedtls_mpi_mod_mpi
+                0x00002700       0x84 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00002700                mbedtls_mpi_mod_mpi
+ .text.mbedtls_mpi_gcd
+                0x00002784      0x110 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00002784                mbedtls_mpi_gcd
+ .text.mbedtls_mpi_random
+                0x00002894       0x48 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x00002894                mbedtls_mpi_random
+ .text.mbedtls_mpi_inv_mod
+                0x000028dc      0x2b0 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+                0x000028dc                mbedtls_mpi_inv_mod
+ .text.mbedtls_ct_bool
+                0x00002b8c        0x8 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .text.mbedtls_ct_uint_lt
+                0x00002b94       0x10 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .text.mbedtls_mpi_core_clz
+                0x00002ba4        0x6 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+                0x00002ba4                mbedtls_mpi_core_clz
+ .text.mbedtls_mpi_core_bitlen
+                0x00002baa       0x1e build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+                0x00002baa                mbedtls_mpi_core_bitlen
+ .text.mbedtls_mpi_core_bigendian_to_host
+                0x00002bc8       0x26 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+                0x00002bc8                mbedtls_mpi_core_bigendian_to_host
+ *fill*         0x00002bee        0x2 
+ .text.mbedtls_mpi_core_uint_le_mpi
+                0x00002bf0       0x34 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+                0x00002bf0                mbedtls_mpi_core_uint_le_mpi
+ .text.mbedtls_mpi_core_lt_ct
+                0x00002c24       0x44 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+                0x00002c24                mbedtls_mpi_core_lt_ct
+ .text.mbedtls_mpi_core_cond_assign
+                0x00002c68       0x28 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+                0x00002c68                mbedtls_mpi_core_cond_assign
+ .text.mbedtls_mpi_core_read_be
+                0x00002c90       0x58 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+                0x00002c90                mbedtls_mpi_core_read_be
+ .text.mbedtls_mpi_core_write_be
+                0x00002ce8       0x68 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+                0x00002ce8                mbedtls_mpi_core_write_be
+ .text.mbedtls_mpi_core_shift_r
+                0x00002d50       0x84 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+                0x00002d50                mbedtls_mpi_core_shift_r
+ .text.mbedtls_mpi_core_shift_l
+                0x00002dd4       0x70 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+                0x00002dd4                mbedtls_mpi_core_shift_l
+ .text.mbedtls_mpi_core_add
+                0x00002e44       0x2c build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+                0x00002e44                mbedtls_mpi_core_add
+ .text.mbedtls_mpi_core_sub
+                0x00002e70       0x3a build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+                0x00002e70                mbedtls_mpi_core_sub
+ *fill*         0x00002eaa        0x2 
+ .text.mbedtls_mpi_core_mla
+                0x00002eac       0xcc build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+                0x00002eac                mbedtls_mpi_core_mla
+ .text.mbedtls_mpi_core_mul
+                0x00002f78       0x4c build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+                0x00002f78                mbedtls_mpi_core_mul
+ .text.mbedtls_mpi_core_fill_random
+                0x00002fc4       0x64 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+                0x00002fc4                mbedtls_mpi_core_fill_random
+ .text.mbedtls_mpi_core_random
+                0x00003028       0x9c build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+                0x00003028                mbedtls_mpi_core_random
+ .text.mbedtls_mpi_core_sub_int
+                0x000030c4       0x22 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+                0x000030c4                mbedtls_mpi_core_sub_int
+ *fill*         0x000030e6        0x2 
+ .text.derive_mpi
+                0x000030e8       0x70 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .text.mbedtls_ecdsa_sign_restartable
+                0x00003158      0x1c0 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+                0x00003158                mbedtls_ecdsa_sign_restartable
+ .text.mbedtls_ecdsa_sign
+                0x00003318       0x28 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+                0x00003318                mbedtls_ecdsa_sign
+ .text.mpi_init_many
+                0x00003340       0x1c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mpi_free_many
+                0x0000335c       0x1c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_mpi_mul_mod
+                0x00003378       0xc8 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.ecp_normalize_jac
+                0x00003440       0x9c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.ecp_normalize_jac_many
+                0x000034dc      0x1b0 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.ecp_safe_invert_jac
+                0x0000368c       0x5c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.ecp_select_comb
+                0x000036e8       0x7c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.ecp_randomize_jac
+                0x00003764       0x9c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_mpi_sub_mod
+                0x00003800       0x50 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_mpi_add_mod
+                0x00003850       0x4c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_mpi_mul_int_mod.part.0
+                0x0000389c       0x30 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_point_free.part.0
+                0x000038cc       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_mpi_shift_l_mod.constprop.0
+                0x000038ec       0x28 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.ecp_sw_rhs
+                0x00003914       0x94 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.ecp_double_jac
+                0x000039a8      0x21c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_get_type
+                0x00003bc4       0x12 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+                0x00003bc4                mbedtls_ecp_get_type
+ *fill*         0x00003bd6        0x2 
+ .text.mbedtls_ecp_point_init
+                0x00003bd8       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+                0x00003bd8                mbedtls_ecp_point_init
+ .text.mbedtls_ecp_group_init
+                0x00003bf8       0x44 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+                0x00003bf8                mbedtls_ecp_group_init
+ .text.mbedtls_ecp_point_free
+                0x00003c3c        0xc build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+                0x00003c3c                mbedtls_ecp_point_free
+ .text.mbedtls_ecp_group_free
+                0x00003c48       0x70 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+                0x00003c48                mbedtls_ecp_group_free
+ .text.mbedtls_ecp_copy
+                0x00003cb8       0x30 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+                0x00003cb8                mbedtls_ecp_copy
+ .text.mbedtls_ecp_set_zero
+                0x00003ce8       0x2c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+                0x00003ce8                mbedtls_ecp_set_zero
+ .text.ecp_add_mixed
+                0x00003d14      0x1e4 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_point_write_binary
+                0x00003ef8       0xc8 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+                0x00003ef8                mbedtls_ecp_point_write_binary
+ .text.mbedtls_ecp_check_pubkey
+                0x00003fc0       0xc4 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+                0x00003fc0                mbedtls_ecp_check_pubkey
+ .text.mbedtls_ecp_check_privkey
+                0x00004084       0x48 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+                0x00004084                mbedtls_ecp_check_privkey
+ .text.ecp_mul_restartable_internal.isra.0
+                0x000040cc      0x578 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .text.mbedtls_ecp_mul_restartable
+                0x00004644       0x24 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+                0x00004644                mbedtls_ecp_mul_restartable
+ .text.mbedtls_ecp_mul
+                0x00004668       0x1c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+                0x00004668                mbedtls_ecp_mul
+ .text.mbedtls_ecp_gen_privkey
+                0x00004684       0x44 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+                0x00004684                mbedtls_ecp_gen_privkey
+ .text.add32    0x000046c8       0x10 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .text.sub32    0x000046d8       0x16 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ *fill*         0x000046ee        0x2 
+ .text.ecp_mod_p256
+                0x000046f0      0x2ac build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .text.mbedtls_ecp_group_load
+                0x0000499c       0xa0 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+                0x0000499c                mbedtls_ecp_group_load
+ .text.mbedtls_md_info_from_type
+                0x00004a3c       0x18 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x00004a3c                mbedtls_md_info_from_type
+ .text.mbedtls_md_init
+                0x00004a54        0xa build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x00004a54                mbedtls_md_init
+ *fill*         0x00004a5e        0x2 
+ .text.mbedtls_md_free
+                0x00004a60       0x68 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x00004a60                mbedtls_md_free
+ .text.mbedtls_md_setup
+                0x00004ac8       0xb0 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x00004ac8                mbedtls_md_setup
+ .text.mbedtls_md_starts
+                0x00004b78       0x48 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x00004b78                mbedtls_md_starts
+ .text.mbedtls_md_update
+                0x00004bc0       0x40 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x00004bc0                mbedtls_md_update
+ .text.mbedtls_md_finish
+                0x00004c00       0x40 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x00004c00                mbedtls_md_finish
+ .text.mbedtls_md_hmac_starts
+                0x00004c40      0x10c build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x00004c40                mbedtls_md_hmac_starts
+ .text.mbedtls_md_hmac_update
+                0x00004d4c       0x24 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x00004d4c                mbedtls_md_hmac_update
+ .text.mbedtls_md_hmac_finish
+                0x00004d70       0x64 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x00004d70                mbedtls_md_hmac_finish
+ .text.mbedtls_md_hmac_reset
+                0x00004dd4       0x34 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x00004dd4                mbedtls_md_hmac_reset
+ .text.mbedtls_md5_init
+                0x00004e08        0xc build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                0x00004e08                mbedtls_md5_init
+ .text.mbedtls_md5_free
+                0x00004e14       0x10 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                0x00004e14                mbedtls_md5_free
+ .text.mbedtls_md5_starts
+                0x00004e24       0x2c build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                0x00004e24                mbedtls_md5_starts
+ .text.mbedtls_internal_md5_process
+                0x00004e50      0x718 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                0x00004e50                mbedtls_internal_md5_process
+ .text.mbedtls_md5_update
+                0x00005568       0x7c build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                0x00005568                mbedtls_md5_update
+ .text.mbedtls_md5_finish
+                0x000055e4       0x90 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                0x000055e4                mbedtls_md5_finish
+ .text.mbedtls_platform_zeroize
+                0x00005674       0x18 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+                0x00005674                mbedtls_platform_zeroize
+ .text.mbedtls_zeroize_and_free
+                0x0000568c       0x1c build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+                0x0000568c                mbedtls_zeroize_and_free
+ .text.mbedtls_sha1_init
+                0x000056a8        0xc build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+                0x000056a8                mbedtls_sha1_init
+ .text.mbedtls_sha1_free
+                0x000056b4       0x10 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+                0x000056b4                mbedtls_sha1_free
+ .text.mbedtls_sha1_starts
+                0x000056c4       0x34 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+                0x000056c4                mbedtls_sha1_starts
+ .text.mbedtls_internal_sha1_process
+                0x000056f8      0xeac build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+                0x000056f8                mbedtls_internal_sha1_process
+ .text.mbedtls_sha1_update
+                0x000065a4       0x7c build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+                0x000065a4                mbedtls_sha1_update
+ .text.mbedtls_sha1_finish
+                0x00006620       0xa4 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+                0x00006620                mbedtls_sha1_finish
+ .text.mbedtls_sha256_init
+                0x000066c4        0xc build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+                0x000066c4                mbedtls_sha256_init
+ .text.mbedtls_sha256_free
+                0x000066d0       0x10 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+                0x000066d0                mbedtls_sha256_free
+ .text.mbedtls_sha256_starts
+                0x000066e0       0xc8 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+                0x000066e0                mbedtls_sha256_starts
+ .text.mbedtls_internal_sha256_process
+                0x000067a8      0x6a8 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+                0x000067a8                mbedtls_internal_sha256_process
+ .text.mbedtls_sha256_update
+                0x00006e50       0x88 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+                0x00006e50                mbedtls_sha256_update
+ .text.mbedtls_sha256_finish
+                0x00006ed8       0xb0 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+                0x00006ed8                mbedtls_sha256_finish
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00006f88      0xb68
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.u2f_scene_handlers
+                0x00006f88       0x10 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene.o
+                0x00006f88                u2f_scene_handlers
+ .rodata.u2f_scene_on_exit_handlers
+                0x00006f98        0x8 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene.o
+                0x00006f98                u2f_scene_on_exit_handlers
+ .rodata.u2f_scene_on_event_handlers
+                0x00006fa0        0x8 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene.o
+                0x00006fa0                u2f_scene_on_event_handlers
+ .rodata.u2f_scene_on_enter_handlers
+                0x00006fa8        0x8 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene.o
+                0x00006fa8                u2f_scene_on_enter_handlers
+ .rodata.u2f_scene_error_on_enter.str1.1
+                0x00006fb0       0x52 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .rodata.u2f_view_draw_callback.str1.1
+                0x00007002       0x7d build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .rodata.u2f_register.str1.1
+                0x0000707f        0x7 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .rodata.u2f_authenticate.str1.1
+                0x00007086       0x22 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .rodata.u2f_init.str1.1
+                0x000070a8       0xa3 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .rodata.ver_str
+                0x0000714b        0x7 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .rodata.u2f_app_alloc.str1.1
+                0x00007152       0x11 build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .rodata.u2f_data_check.str1.1
+                0x00007163       0x60 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .rodata.u2f_data_cert_check.str1.1
+                0x000071c3       0x36 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .rodata.u2f_data_cert_key_load.str1.1
+                0x000071f9       0xfa build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .rodata.u2f_data_key_load.str1.1
+                0x000072f3       0x1c build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .rodata.u2f_data_cnt_write.str1.1
+                0x0000730f       0x19 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .rodata.u2f_data_cnt_read.str1.1
+                0x00007328       0x38 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .rodata.u2f_hid_worker.str1.1
+                0x00007360       0x43 build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ *fill*         0x000073a3        0x1 
+ .rodata.secp256r1_T
+                0x000073a4      0x180 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_15_Y
+                0x00007524       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_15_X
+                0x00007544       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_14_Y
+                0x00007564       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_14_X
+                0x00007584       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_13_Y
+                0x000075a4       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_13_X
+                0x000075c4       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_12_Y
+                0x000075e4       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_12_X
+                0x00007604       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_11_Y
+                0x00007624       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_11_X
+                0x00007644       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_10_Y
+                0x00007664       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_10_X
+                0x00007684       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_9_Y
+                0x000076a4       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_9_X
+                0x000076c4       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_8_Y
+                0x000076e4       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_8_X
+                0x00007704       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_7_Y
+                0x00007724       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_7_X
+                0x00007744       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_6_Y
+                0x00007764       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_6_X
+                0x00007784       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_5_Y
+                0x000077a4       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_5_X
+                0x000077c4       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_4_Y
+                0x000077e4       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_4_X
+                0x00007804       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_3_Y
+                0x00007824       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_3_X
+                0x00007844       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_2_Y
+                0x00007864       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_2_X
+                0x00007884       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_1_Y
+                0x000078a4       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_1_X
+                0x000078c4       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_0_Y
+                0x000078e4       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_T_0_X
+                0x00007904       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_n
+                0x00007924       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_gy
+                0x00007944       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_gx
+                0x00007964       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_b
+                0x00007984       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.secp256r1_p
+                0x000079a4       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.mpi_one
+                0x000079c4        0x4 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .rodata.CSWTCH.4
+                0x000079c8       0x1c build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .rodata.mbedtls_sha256_info
+                0x000079e4        0x3 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .rodata.mbedtls_sha224_info
+                0x000079e7        0x3 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .rodata.mbedtls_sha1_info
+                0x000079ea        0x3 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .rodata.mbedtls_md5_info
+                0x000079ed        0x3 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .rodata.K      0x000079f0      0x100 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+.data           0x00007af0        0x4
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.memset_func
+                0x00007af0        0x4 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x9e8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene.o
+ .debug_aranges
+                0x00000018       0x38 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .debug_aranges
+                0x00000050       0x48 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .debug_aranges
+                0x00000098       0x50 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .debug_aranges
+                0x000000e8       0x88 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_aranges
+                0x00000170       0x48 build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .debug_aranges
+                0x000001b8       0x58 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .debug_aranges
+                0x00000210       0x48 build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .debug_aranges
+                0x00000258      0x1c0 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_aranges
+                0x00000418      0x120 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_aranges
+                0x00000538       0x88 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_aranges
+                0x000005c0      0x208 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_aranges
+                0x000007c8       0x38 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .debug_aranges
+                0x00000800       0xb8 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_aranges
+                0x000008b8       0x58 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_aranges
+                0x00000910       0x28 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_aranges
+                0x00000938       0x58 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_aranges
+                0x00000990       0x58 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x1af31
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x2a6 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene.o
+ .debug_info    0x000002a6      0x758 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .debug_info    0x000009fe      0xefc build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .debug_info    0x000018fa      0x9bc build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .debug_info    0x000022b6     0x2107 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_info    0x000043bd      0xc46 build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .debug_info    0x00005003     0x1b09 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .debug_info    0x00006b0c     0x166b build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .debug_info    0x00008177     0x48ed build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_info    0x0000ca64     0x2b70 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_info    0x0000f5d4     0x1c87 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_info    0x0001125b     0x54ab build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_info    0x00016706     0x137b build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .debug_info    0x00017a81     0x11a5 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_info    0x00018c26      0xbaa build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_info    0x000197d0      0x204 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_info    0x000199d4      0xae3 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_info    0x0001a4b7      0xa7a build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+.debug_abbrev   0x00000000     0x3f3d
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x137 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene.o
+ .debug_abbrev  0x00000137      0x242 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .debug_abbrev  0x00000379      0x2c1 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .debug_abbrev  0x0000063a      0x302 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .debug_abbrev  0x0000093c      0x546 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_abbrev  0x00000e82      0x2a3 build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .debug_abbrev  0x00001125      0x310 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .debug_abbrev  0x00001435      0x46c build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .debug_abbrev  0x000018a1      0x574 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_abbrev  0x00001e15      0x569 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_abbrev  0x0000237e      0x40d build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_abbrev  0x0000278b      0x538 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_abbrev  0x00002cc3      0x303 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .debug_abbrev  0x00002fc6      0x3be build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_abbrev  0x00003384      0x34f build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_abbrev  0x000036d3      0x166 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_abbrev  0x00003839      0x372 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_abbrev  0x00003bab      0x392 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+.debug_line     0x00000000     0xae51
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x190 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene.o
+ .debug_line_end
+                0x00000190        0x0 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene.o
+ .debug_line    0x00000190      0x32e build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .debug_line.text.u2f_scene_error_event_callback
+                0x000004be       0x30 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .debug_line.text.u2f_scene_error_on_enter
+                0x000004ee       0x35 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .debug_line.text.u2f_scene_error_on_event
+                0x00000523       0x47 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .debug_line.text.u2f_scene_error_on_exit
+                0x0000056a       0x17 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .debug_line_end
+                0x00000581        0x0 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .debug_line    0x00000581      0x3c0 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .debug_line.text.u2f_scene_main_ok_callback
+                0x00000941       0x25 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .debug_line.text.u2f_scene_main_event_callback
+                0x00000966       0x46 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .debug_line.text.u2f_scene_main_timer_callback
+                0x000009ac       0x1b build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .debug_line.text.u2f_scene_main_on_event
+                0x000009c7       0xbd build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .debug_line.text.u2f_scene_main_on_enter
+                0x00000a84       0x6d build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .debug_line.text.u2f_scene_main_on_exit
+                0x00000af1       0x37 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .debug_line_end
+                0x00000b28        0x0 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .debug_line    0x00000b28      0x300 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .debug_line.text.u2f_view_draw_callback
+                0x00000e28       0x4f build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .debug_line.text.u2f_view_input_callback
+                0x00000e77       0x55 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .debug_line.text.u2f_view_alloc
+                0x00000ecc       0x3c build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .debug_line.text.u2f_view_free
+                0x00000f08       0x31 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .debug_line.text.u2f_view_get_view
+                0x00000f39       0x1e build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .debug_line.text.u2f_view_set_ok_callback
+                0x00000f57       0x37 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .debug_line.text.u2f_view_set_state
+                0x00000f8e       0x35 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .debug_line_end
+                0x00000fc3        0x0 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .debug_line    0x00000fc3      0x32d build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_line.text.u2f_uecc_random_cb
+                0x000012f0       0x25 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_line.text.u2f_ecc_sign
+                0x00001315       0xc3 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_line.text.u2f_der_encode_int.constprop.0
+                0x000013d8       0x77 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_line.text.u2f_der_encode_signature
+                0x0000144f       0x52 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_line.text.u2f_register
+                0x000014a1      0x220 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_line.text.u2f_authenticate
+                0x000016c1      0x21f build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_line.text.u2f_alloc
+                0x000018e0       0x19 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_line.text.u2f_free
+                0x000018f9       0x31 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_line.text.u2f_init
+                0x0000192a       0xa7 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_line.text.u2f_set_event_callback
+                0x000019d1       0x24 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_line.text.u2f_confirm_user_present
+                0x000019f5       0x1c build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_line.text.u2f_msg_parse
+                0x00001a11       0x7e build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_line.text.u2f_wink
+                0x00001a8f       0x2d build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_line.text.u2f_set_state
+                0x00001abc       0x63 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_line_end
+                0x00001b1f        0x0 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_line    0x00001b1f      0x40c build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .debug_line.text.u2f_app_back_event_callback
+                0x00001f2b       0x1e build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .debug_line.text.u2f_app_custom_event_callback
+                0x00001f49       0x1d build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .debug_line.text.u2f_app_tick_event_callback
+                0x00001f66       0x1b build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .debug_line.text.u2f_app_alloc
+                0x00001f81       0x9e build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .debug_line.text.u2f_app_free
+                0x0000201f       0x38 build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .debug_line.text.u2f_app
+                0x00002057       0x31 build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .debug_line_end
+                0x00002088        0x0 build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .debug_line    0x00002088      0x36d build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .debug_line.text.u2f_data_check
+                0x000023f5       0x82 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .debug_line.text.u2f_data_cert_check
+                0x00002477       0x97 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .debug_line.text.u2f_data_cert_load
+                0x0000250e       0x7c build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .debug_line.text.u2f_data_cert_key_load
+                0x0000258a      0x1ff build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .debug_line.text.u2f_data_key_load
+                0x00002789       0xe3 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .debug_line.text.u2f_data_key_generate
+                0x0000286c       0xc3 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .debug_line.text.u2f_data_cnt_write
+                0x0000292f       0xc4 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .debug_line.text.u2f_data_cnt_read
+                0x000029f3      0x17a build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .debug_line_end
+                0x00002b6d        0x0 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .debug_line    0x00002b6d      0x35e build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .debug_line.text.u2f_hid_lock_timeout_callback
+                0x00002ecb       0x28 build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .debug_line.text.u2f_hid_send_response
+                0x00002ef3       0xc3 build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .debug_line.text.u2f_hid_event_callback
+                0x00002fb6       0x58 build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .debug_line.text.u2f_hid_worker
+                0x0000300e      0x311 build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .debug_line.text.u2f_hid_start
+                0x0000331f       0x40 build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .debug_line.text.u2f_hid_stop
+                0x0000335f       0x33 build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .debug_line_end
+                0x00003392        0x0 build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .debug_line    0x00003392      0x2c7 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_ct_mpi_sign_if
+                0x00003659       0x4f build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_init
+                0x000036a8       0x1e build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_free
+                0x000036c6       0x38 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_grow
+                0x000036fe       0x69 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_safe_cond_assign
+                0x00003767      0x142 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_resize_clear
+                0x000038a9       0x61 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_shrink
+                0x0000390a       0xad build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_copy
+                0x000039b7       0xb5 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_lset
+                0x00003a6c       0x6c build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_get_bit
+                0x00003ad8       0x39 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_lsb
+                0x00003b11       0x55 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_bitlen
+                0x00003b66       0x1a build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_size
+                0x00003b80       0x22 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_read_binary
+                0x00003ba2       0x5e build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_write_binary
+                0x00003c00       0x2b build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_shift_l
+                0x00003c2b       0x4b build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_shift_r
+                0x00003c76       0x30 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_cmp_abs
+                0x00003ca6       0xbe build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_cmp_mpi
+                0x00003d64      0x112 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_cmp_int
+                0x00003e76       0x5f build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_add_abs
+                0x00003ed5      0x12d build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_sub_abs
+                0x00004002       0xe4 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.add_sub_mpi
+                0x000040e6       0xaf build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_add_mpi
+                0x00004195       0x23 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_sub_mpi
+                0x000041b8       0x23 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_sub_int
+                0x000041db       0x5f build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_mul_mpi
+                0x0000423a      0x15c build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_mul_int
+                0x00004396       0xa0 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_div_mpi
+                0x00004436      0x5a1 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_mod_mpi
+                0x000049d7       0x71 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_gcd
+                0x00004a48      0x203 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_random
+                0x00004c4b       0x51 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line.text.mbedtls_mpi_inv_mod
+                0x00004c9c      0x4a3 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line_end
+                0x0000513f        0x0 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_line    0x0000513f      0x290 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_ct_bool
+                0x000053cf       0x23 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_ct_uint_lt
+                0x000053f2       0x24 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_clz
+                0x00005416       0x1d build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_bitlen
+                0x00005433       0x52 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_bigendian_to_host
+                0x00005485       0x78 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_uint_le_mpi
+                0x000054fd       0xde build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_lt_ct
+                0x000055db      0x18a build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_cond_assign
+                0x00005765       0x5d build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_read_be
+                0x000057c2       0x65 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_write_be
+                0x00005827       0xb5 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_shift_r
+                0x000058dc       0xfe build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_shift_l
+                0x000059da       0xd3 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_add
+                0x00005aad       0x8a build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_sub
+                0x00005b37       0x99 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_mla
+                0x00005bd0       0x85 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_mul
+                0x00005c55       0x66 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_fill_random
+                0x00005cbb       0x64 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_random
+                0x00005d1f       0xfa build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line.text.mbedtls_mpi_core_sub_int
+                0x00005e19       0x7e build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line_end
+                0x00005e97        0x0 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_line    0x00005e97      0x296 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_line.text.derive_mpi
+                0x0000612d       0x8b build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_line.text.mbedtls_ecdsa_sign_restartable
+                0x000061b8      0x257 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_line.text.mbedtls_ecdsa_sign
+                0x0000640f       0x21 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_line_end
+                0x00006430        0x0 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_line    0x00006430      0x28b build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mpi_init_many
+                0x000066bb       0x2a build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mpi_free_many
+                0x000066e5       0x2a build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_mpi_mul_mod
+                0x0000670f       0xc3 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.ecp_normalize_jac
+                0x000067d2       0xd1 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.ecp_normalize_jac_many
+                0x000068a3      0x1c2 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.ecp_safe_invert_jac
+                0x00006a65       0x6e build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.ecp_select_comb
+                0x00006ad3       0x94 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.ecp_randomize_jac
+                0x00006b67       0xe1 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_mpi_sub_mod
+                0x00006c48       0x3c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_mpi_add_mod
+                0x00006c84       0x3b build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_mpi_mul_int_mod.part.0
+                0x00006cbf       0x35 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_point_free.part.0
+                0x00006cf4       0x31 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_mpi_shift_l_mod.constprop.0
+                0x00006d25       0x29 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.ecp_sw_rhs
+                0x00006d4e       0x90 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.ecp_double_jac
+                0x00006dde      0x322 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_get_type
+                0x00007100       0x2b build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_point_init
+                0x0000712b       0x2d build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_group_init
+                0x00007158       0x56 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_point_free
+                0x000071ae       0x1c build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_group_free
+                0x000071ca       0x77 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_copy
+                0x00007241       0x3e build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_set_zero
+                0x0000727f       0x52 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.ecp_add_mixed
+                0x000072d1      0x2b6 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_point_write_binary
+                0x00007587      0x10d build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_check_pubkey
+                0x00007694       0x9f build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_check_privkey
+                0x00007733       0x61 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.ecp_mul_restartable_internal.isra.0
+                0x00007794      0x358 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_mul_restartable
+                0x00007aec       0x31 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_mul
+                0x00007b1d       0x20 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line.text.mbedtls_ecp_gen_privkey
+                0x00007b3d       0x58 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line_end
+                0x00007b95        0x0 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_line    0x00007b95      0x1f4 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .debug_line.text.add32
+                0x00007d89       0x24 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .debug_line.text.sub32
+                0x00007dad       0x2d build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .debug_line.text.ecp_mod_p256
+                0x00007dda      0x5e8 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .debug_line.text.mbedtls_ecp_group_load
+                0x000083c2      0x139 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .debug_line_end
+                0x000084fb        0x0 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .debug_line    0x000084fb      0x2b5 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_info_from_type
+                0x000087b0       0x1d build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_init
+                0x000087cd       0x19 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_free
+                0x000087e6       0x79 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_setup
+                0x0000885f       0xb9 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_starts
+                0x00008918       0x5b build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_update
+                0x00008973       0x59 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_finish
+                0x000089cc       0x59 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_hmac_starts
+                0x00008a25      0x1e1 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_hmac_update
+                0x00008c06       0x3e build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_hmac_finish
+                0x00008c44       0x8f build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_hmac_reset
+                0x00008cd3       0x5b build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line_end
+                0x00008d2e        0x0 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line    0x00008d2e      0x273 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5_init
+                0x00008fa1       0x16 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5_free
+                0x00008fb7       0x24 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5_starts
+                0x00008fdb       0x34 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_internal_md5_process
+                0x0000900f      0x46a build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5_update
+                0x00009479       0xc6 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5_finish
+                0x0000953f      0x1b1 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line_end
+                0x000096f0        0x0 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line    0x000096f0      0x14d build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_line.text.mbedtls_platform_zeroize
+                0x0000983d       0x3a build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_line.text.mbedtls_zeroize_and_free
+                0x00009877       0x2b build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_line_end
+                0x000098a2        0x0 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_line    0x000098a2      0x275 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line.text.mbedtls_sha1_init
+                0x00009b17       0x16 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line.text.mbedtls_sha1_free
+                0x00009b2d       0x24 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line.text.mbedtls_sha1_starts
+                0x00009b51       0x33 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line.text.mbedtls_internal_sha1_process
+                0x00009b84      0x651 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line.text.mbedtls_sha1_update
+                0x0000a1d5       0xc6 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line.text.mbedtls_sha1_finish
+                0x0000a29b      0x1e0 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line_end
+                0x0000a47b        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line    0x0000a47b      0x279 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .debug_line.text.mbedtls_sha256_init
+                0x0000a6f4       0x17 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .debug_line.text.mbedtls_sha256_free
+                0x0000a70b       0x25 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .debug_line.text.mbedtls_sha256_starts
+                0x0000a730       0x54 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .debug_line.text.mbedtls_internal_sha256_process
+                0x0000a784      0x365 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .debug_line.text.mbedtls_sha256_update
+                0x0000aae9       0xe7 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .debug_line.text.mbedtls_sha256_finish
+                0x0000abd0      0x281 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .debug_line_end
+                0x0000ae51        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+.debug_frame    0x00000000     0x21a8
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x74 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .debug_frame   0x00000074       0xa4 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .debug_frame   0x00000118       0xd8 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .debug_frame   0x000001f0      0x18c build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_frame   0x0000037c       0x98 build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .debug_frame   0x00000414      0x144 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .debug_frame   0x00000558       0xe4 build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .debug_frame   0x0000063c      0x6e4 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_frame   0x00000d20      0x408 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_frame   0x00001128      0x1dc build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_frame   0x00001304      0x8dc build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_frame   0x00001be0       0x84 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .debug_frame   0x00001c64      0x218 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_frame   0x00001e7c       0xf4 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_frame   0x00001f70       0x44 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_frame   0x00001fb4       0xf4 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_frame   0x000020a8      0x100 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+.debug_str      0x00000000     0x9f9c
+ *(.debug_str)
+ .debug_str     0x00000000      0x43a build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene.o
+ .debug_str     0x0000043a      0x760 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .debug_str     0x00000b9a     0x1224 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .debug_str     0x00001dbe      0x6f0 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .debug_str     0x000024ae      0xe0d build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_str     0x000032bb      0xa01 build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .debug_str     0x00003cbc      0x867 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .debug_str     0x00004523      0xde8 build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .debug_str     0x0000530b      0xca9 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_str     0x00005fb4      0xa27 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_str     0x000069db      0xa15 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_str     0x000073f0      0xf7a build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_str     0x0000836a      0x732 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .debug_str     0x00008a9c      0x821 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_str     0x000092bd      0x35f build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_str     0x0000961c      0x238 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_str     0x00009854      0x36e build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_str     0x00009bc2      0x3da build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0xbc8d
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x18c build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .debug_loclists
+                0x0000018c      0x3bd build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .debug_loclists
+                0x00000549      0x25b build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .debug_loclists
+                0x000007a4      0x529 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_loclists
+                0x00000ccd      0x112 build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .debug_loclists
+                0x00000ddf      0x4ca build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .debug_loclists
+                0x000012a9      0x38a build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .debug_loclists
+                0x00001633     0x31a3 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_loclists
+                0x000047d6     0x1ea5 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_loclists
+                0x0000667b      0xe71 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_loclists
+                0x000074ec     0x2d93 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_loclists
+                0x0000a27f      0x320 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .debug_loclists
+                0x0000a59f      0x7f9 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_loclists
+                0x0000ad98      0x5a7 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_loclists
+                0x0000b33f       0xb6 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_loclists
+                0x0000b3f5      0x3a8 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_loclists
+                0x0000b79d      0x4f0 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0xeeb
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x25 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .debug_rnglists
+                0x00000025       0x33 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .debug_rnglists
+                0x00000058       0x68 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .debug_rnglists
+                0x000000c0       0x9d build/f7-firmware-C/.extapps/u2f/u2f.o
+ .debug_rnglists
+                0x0000015d       0x32 build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .debug_rnglists
+                0x0000018f       0x70 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .debug_rnglists
+                0x000001ff       0x83 build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .debug_rnglists
+                0x00000282      0x2a2 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .debug_rnglists
+                0x00000524      0x2f3 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .debug_rnglists
+                0x00000817       0x72 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .debug_rnglists
+                0x00000889      0x22d build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .debug_rnglists
+                0x00000ab6       0x8a build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .debug_rnglists
+                0x00000b40      0x105 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_rnglists
+                0x00000c45      0x10e build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_rnglists
+                0x00000d53       0x19 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_rnglists
+                0x00000d6c      0x123 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_rnglists
+                0x00000e8f       0x5c build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_error.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/u2f/scenes/u2f_scene_main.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/u2f/views/u2f_view.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/u2f/u2f.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/u2f/u2f_app.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/u2f/u2f_data.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/u2f/u2f_hid.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/lib/libmbedtls.a(bignum.o)
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/lib/libmbedtls.a(bignum_core.o)
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/lib/libmbedtls.a(ecdsa.o)
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/lib/libmbedtls.a(ecp.o)
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/lib/libmbedtls.a(ecp_curves.o)
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/u2f_d.elf elf32-littlearm)
+LOAD linker stubs

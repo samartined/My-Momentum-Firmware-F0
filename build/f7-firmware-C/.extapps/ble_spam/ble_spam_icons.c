@@ -1,0 +1,25 @@
+#include "ble_spam_icons.h"
+
+#include <gui/icon_i.h>
+
+const uint8_t _I_android_0[] = {0x00,0x00,0x22,0x1c,0x3e,0x6b,0x7f,0x7f,0x7f,0x7f,0x00,};
+const uint8_t* const _I_android[] = {_I_android_0};
+
+const uint8_t _I_apple_0[] = {0x00,0x10,0x08,0x36,0x7f,0x3f,0x1f,0x3f,0x7f,0x36,0x00,};
+const uint8_t* const _I_apple[] = {_I_apple_0};
+
+const uint8_t _I_ble_spam_0[] = {0x00,0x00,0x00,0x04,0x00,0x0d,0x01,0x96,0x00,0x4c,0x01,0xa4,0x00,0x4c,0x01,0x96,0x00,0x0d,0x01,0x04,0x00,};
+const uint8_t* const _I_ble_spam[] = {_I_ble_spam_0};
+
+const uint8_t _I_heart_0[] = {0x00,0x00,0x00,0x36,0x7f,0x7f,0x7f,0x3e,0x1c,0x08,0x00,};
+const uint8_t* const _I_heart[] = {_I_heart_0};
+
+const uint8_t _I_windows_0[] = {0x00,0x00,0x03,0x37,0x77,0x77,0x00,0x77,0x77,0x37,0x03,};
+const uint8_t* const _I_windows[] = {_I_windows_0};
+
+const Icon I_android = {.width=7,.height=10,.frame_count=1,.frame_rate=0,.frames=_I_android};
+const Icon I_apple = {.width=7,.height=10,.frame_count=1,.frame_rate=0,.frames=_I_apple};
+const Icon I_ble_spam = {.width=9,.height=10,.frame_count=1,.frame_rate=0,.frames=_I_ble_spam};
+const Icon I_heart = {.width=7,.height=10,.frame_count=1,.frame_rate=0,.frames=_I_heart};
+const Icon I_windows = {.width=7,.height=10,.frame_count=1,.frame_rate=0,.frames=_I_windows};
+

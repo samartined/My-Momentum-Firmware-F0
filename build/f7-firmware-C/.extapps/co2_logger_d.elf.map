@@ -1,0 +1,268 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+LOAD build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xfb0
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.co2_logger_uart_worker_uart_cb
+                0x00000000       0x2c build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .text.co2_logger_alloc
+                0x0000002c       0xcc build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+                0x0000002c                co2_logger_alloc
+ .text.co2_logger_free
+                0x000000f8       0x4c build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+                0x000000f8                co2_logger_free
+ .text.co2_logger_open
+                0x00000144       0x7c build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+                0x00000144                co2_logger_open
+ .text.co2_logger_close
+                0x000001c0       0x70 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+                0x000001c0                co2_logger_close
+ .text.co2_logger_read_gas_concentration
+                0x00000230      0x168 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+                0x00000230                co2_logger_read_gas_concentration
+ .text.co2_logger_uart_input_callback
+                0x00000398       0x14 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+ .text.co2_logger_uart_apply_auto_dim
+                0x000003ac       0x6c build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+ .text.co2_logger_uart_draw_callback
+                0x00000418      0x328 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+ .text.co2_logger_app
+                0x00000740      0x870 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+                0x00000740                co2_logger_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000fb0      0xda4
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.co2_logger_alloc.str1.1
+                0x00000fb0      0x117 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .rodata.co2_logger_free.str1.1
+                0x000010c7       0x36 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .rodata.co2_logger_open.str1.1
+                0x000010fd       0x83 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .rodata.co2_logger_close.str1.1
+                0x00001180       0x79 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .rodata.co2_logger_read_gas_concentration.str1.1
+                0x000011f9      0x165 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .rodata.co2_logger_uart_apply_auto_dim.str1.1
+                0x0000135e       0x90 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+ .rodata.co2_logger_uart_draw_callback.str1.1
+                0x000013ee       0xdf build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+ .rodata.co2_logger_app.str1.1
+                0x000014cd      0x887 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x80
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x48 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .debug_aranges
+                0x00000048       0x38 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3800
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xe08 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .debug_info    0x00000e08     0x29f8 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+
+.debug_abbrev   0x00000000      0x798
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x31d build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .debug_abbrev  0x0000031d      0x47b build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+
+.debug_line     0x00000000     0x12e6
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x35e build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .debug_line.text.co2_logger_uart_worker_uart_cb
+                0x0000035e       0x41 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .debug_line.text.co2_logger_alloc
+                0x0000039f       0x9b build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .debug_line.text.co2_logger_free
+                0x0000043a       0x33 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .debug_line.text.co2_logger_open
+                0x0000046d       0x39 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .debug_line.text.co2_logger_close
+                0x000004a6       0x36 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .debug_line.text.co2_logger_read_gas_concentration
+                0x000004dc      0x167 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .debug_line_end
+                0x00000643        0x0 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .debug_line    0x00000643      0x47d build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+ .debug_line.text.co2_logger_uart_input_callback
+                0x00000ac0       0x22 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+ .debug_line.text.co2_logger_uart_apply_auto_dim
+                0x00000ae2       0x38 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+ .debug_line.text.co2_logger_uart_draw_callback
+                0x00000b1a      0x1e9 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+ .debug_line.text.co2_logger_app
+                0x00000d03      0x5e3 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+ .debug_line_end
+                0x000012e6        0x0 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+
+.debug_frame    0x00000000      0x198
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xe8 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .debug_frame   0x000000e8       0xb0 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+
+.debug_str      0x00000000     0x1dda
+ *(.debug_str)
+ .debug_str     0x00000000      0x801 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .debug_str     0x00000801     0x15d9 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0xae6
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x294 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .debug_loclists
+                0x00000294      0x852 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x1a6
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x6c build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .debug_rnglists
+                0x0000006c      0x13a build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/co2_logger/co2_logger.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/co2_logger/co2_logger_uart.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/co2_logger_d.elf elf32-littlearm)
+LOAD linker stubs

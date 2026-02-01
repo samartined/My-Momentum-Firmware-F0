@@ -1,0 +1,310 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                              build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o (mbedtls_md5_init)
+build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+                              build/f7-firmware-C/lib/libmbedtls.a(md5.o) (mbedtls_platform_zeroize)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .text.mbedtls_md5_clone
+                0x00000000       0x10 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .text.mbedtls_md5
+                0x00000000       0x70 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5_clone
+                0x00000000       0x1e build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5
+                0x00000000       0x8d build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .text.mbedtls_zeroize_and_free
+                0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_line.text.mbedtls_zeroize_and_free
+                0x00000000       0x2b build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/lib/libmbedtls.a
+LOAD build/f7-firmware-C/lib/libmbedtls.a
+
+.text           0x00000000     0x10cc
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.clock_tick_pause
+                0x00000000       0x20 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .text.clock_tick
+                0x00000020       0x20 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .text.gpiocallback
+                0x00000040       0x20 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .text.input_callback
+                0x00000060       0x28 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .text.draw_callback
+                0x00000088      0x17c build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .text.flipper_atomicdiceroller_app
+                0x00000204      0x644 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+                0x00000204                flipper_atomicdiceroller_app
+ .text.mbedtls_md5_init
+                0x00000848        0xc build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                0x00000848                mbedtls_md5_init
+ .text.mbedtls_md5_free
+                0x00000854       0x10 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                0x00000854                mbedtls_md5_free
+ .text.mbedtls_md5_starts
+                0x00000864       0x2c build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                0x00000864                mbedtls_md5_starts
+ .text.mbedtls_internal_md5_process
+                0x00000890      0x718 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                0x00000890                mbedtls_internal_md5_process
+ .text.mbedtls_md5_update
+                0x00000fa8       0x7c build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                0x00000fa8                mbedtls_md5_update
+ .text.mbedtls_md5_finish
+                0x00001024       0x90 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                0x00001024                mbedtls_md5_finish
+ .text.mbedtls_platform_zeroize
+                0x000010b4       0x18 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+                0x000010b4                mbedtls_platform_zeroize
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000010cc       0x58
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.draw_callback.str1.1
+                0x000010cc       0x3d build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .rodata.flipper_atomicdiceroller_app.str1.1
+                0x00001109       0x1b build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+
+.data           0x00001124        0x4
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.memset_func
+                0x00001124        0x4 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xc8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x48 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .debug_aranges
+                0x00000048       0x58 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_aranges
+                0x000000a0       0x28 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2cf3
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1f45 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .debug_info    0x00001f45      0xbaa build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_info    0x00002aef      0x204 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+
+.debug_abbrev   0x00000000      0x89b
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3e6 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .debug_abbrev  0x000003e6      0x34f build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_abbrev  0x00000735      0x166 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+
+.debug_line     0x00000000     0x198a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x48e build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .debug_line.text.clock_tick_pause
+                0x0000048e       0x35 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .debug_line.text.clock_tick
+                0x000004c3       0x35 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .debug_line.text.gpiocallback
+                0x000004f8       0x35 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .debug_line.text.input_callback
+                0x0000052d       0x30 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .debug_line.text.draw_callback
+                0x0000055d      0x10f build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .debug_line.text.flipper_atomicdiceroller_app
+                0x0000066c      0x7d5 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .debug_line_end
+                0x00000e41        0x0 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .debug_line    0x00000e41      0x273 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5_init
+                0x000010b4       0x16 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5_free
+                0x000010ca       0x24 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5_starts
+                0x000010ee       0x34 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_internal_md5_process
+                0x00001122      0x46a build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5_update
+                0x0000158c       0xc6 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5_finish
+                0x00001652      0x1b1 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line_end
+                0x00001803        0x0 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line    0x00001803      0x14d build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_line.text.mbedtls_platform_zeroize
+                0x00001950       0x3a build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_line_end
+                0x0000198a        0x0 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+
+.debug_frame    0x00000000      0x204
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xcc build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .debug_frame   0x000000cc       0xf4 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_frame   0x000001c0       0x44 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+
+.debug_str      0x00000000     0x1852
+ *(.debug_str)
+ .debug_str     0x00000000     0x12bb build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .debug_str     0x000012bb      0x35f build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_str     0x0000161a      0x238 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x111a
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0xabd build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .debug_loclists
+                0x00000abd      0x5a7 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_loclists
+                0x00001064       0xb6 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x24d
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x126 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .debug_rnglists
+                0x00000126      0x10e build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_rnglists
+                0x00000234       0x19 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/flipper_atomicdiceroller/flipper_atomicdiceroller.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/flipper_atomicdiceroller_d.elf elf32-littlearm)
+LOAD linker stubs

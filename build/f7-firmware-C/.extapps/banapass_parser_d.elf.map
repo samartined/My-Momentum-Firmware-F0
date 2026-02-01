@@ -1,0 +1,221 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x490
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.banapass_parse
+                0x00000000      0x254 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ .text.banapass_read
+                0x00000254      0x198 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ *fill*         0x000003ec        0x4 
+ .text.banapass_verify
+                0x000003f0       0x98 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ .text.banapass_plugin_ep
+                0x00000488        0x8 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+                0x00000488                banapass_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000490      0x468
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.banapass_parse.str1.1
+                0x00000490      0x1c1 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ .rodata.banapass_read.str1.1
+                0x00000651       0x43 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ .rodata.banapass_verify.str1.1
+                0x00000694       0x30 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ .rodata.str1.1
+                0x000006c4       0x17 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ *fill*         0x000006db        0x1 
+ .rodata.banapass_plugin_descriptor
+                0x000006dc        0xc build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ .rodata.banapass_plugin
+                0x000006e8       0x10 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ .rodata.banapass_keys_if_access_code
+                0x000006f8      0x100 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ .rodata.banapass_keys_if_value_block
+                0x000007f8      0x100 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x38
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x38 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x12ba
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x12ba build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+
+.debug_abbrev   0x00000000      0x2da
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x2da build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+
+.debug_line     0x00000000      0x78d
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x343 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ .debug_line.text.banapass_parse
+                0x00000343      0x228 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ .debug_line.text.banapass_read
+                0x0000056b      0x195 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ .debug_line.text.banapass_verify
+                0x00000700       0x74 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ .debug_line.text.banapass_plugin_ep
+                0x00000774       0x19 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ .debug_line_end
+                0x0000078d        0x0 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+
+.debug_frame    0x00000000       0xa8
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xa8 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+
+.debug_str      0x00000000      0xb2f
+ *(.debug_str)
+ .debug_str     0x00000000      0xb2f build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x39c
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x39c build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0xb1
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xb1 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/banapass_parser/plugins/supported_cards/banapass.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/banapass_parser_d.elf elf32-littlearm)
+LOAD linker stubs

@@ -1,0 +1,1645 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_auto_lock_timer_callback
+                0x00000000        0xc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_clock_update
+                0x00000000       0x4c build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_clock_timer_callback
+                0x00000000       0x34 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_stealth_mode_icon_draw_callback
+                0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_lock_icon_draw_callback
+                0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .rodata.desktop_clock_draw_callback.str1.1
+                0x00000000        0xa build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_clock_draw_callback
+                0x00000000       0xa0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_back_event_callback
+                0x00000000        0xc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_tick_event_callback
+                0x00000000        0xc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_auto_lock_arm
+                0x00000000       0x54 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_storage_callback
+                0x00000000       0x14 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_loader_callback
+                0x00000000       0x44 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_apply_settings
+                0x00000000       0x70 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_auto_lock_inhibit
+                0x00000000       0x38 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_auto_lock_callback
+                0x00000000       0x20 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .rodata.desktop_lock.str1.1
+                0x00000000        0xb build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_lock
+                0x00000000       0xb8 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .rodata.desktop_custom_event_callback.str1.1
+                0x00000000        0x4 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_custom_event_callback
+                0x00000000      0x104 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .rodata.desktop_unlock.str1.1
+                0x00000000        0x4 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_unlock
+                0x00000000       0xc8 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .rodata.desktop_shutdown.str1.1
+                0x00000000       0x60 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_shutdown
+                0x00000000       0xd4 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_set_stealth_mode_state
+                0x00000000       0x40 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_launch_archive
+                0x00000000       0x2c build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_api_is_locked
+                0x00000000        0xc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_api_unlock
+                0x00000000        0xc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_api_get_status_pubsub
+                0x00000000        0x4 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_api_reload_settings
+                0x00000000        0xc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .rodata.desktop_srv.str1.1
+                0x00000000       0xda build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text.desktop_srv
+                0x00000000      0x4c4 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_auto_lock_timer_callback
+                0x00000000       0x1e build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_clock_update
+                0x00000000       0x5f build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_clock_timer_callback
+                0x00000000       0x44 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_stealth_mode_icon_draw_callback
+                0x00000000       0x2a build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_lock_icon_draw_callback
+                0x00000000       0x29 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_clock_draw_callback
+                0x00000000       0x95 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_back_event_callback
+                0x00000000       0x21 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_tick_event_callback
+                0x00000000       0x1e build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_auto_lock_arm
+                0x00000000       0x69 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_storage_callback
+                0x00000000       0x38 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_loader_callback
+                0x00000000       0x59 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_apply_settings
+                0x00000000       0x63 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_auto_lock_inhibit
+                0x00000000       0x59 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_auto_lock_callback
+                0x00000000       0x40 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_lock
+                0x00000000       0xa0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_custom_event_callback
+                0x00000000       0xb5 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_unlock
+                0x00000000       0xa0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_shutdown
+                0x00000000       0x75 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_set_stealth_mode_state
+                0x00000000       0x4b build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_launch_archive
+                0x00000000       0x36 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_api_is_locked
+                0x00000000       0x20 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_api_unlock
+                0x00000000       0x1d build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_api_get_status_pubsub
+                0x00000000       0x20 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_api_reload_settings
+                0x00000000       0x1d build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_srv
+                0x00000000      0x330 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .text.desktop_keybinds_migrate
+                0x00000000      0x114 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .text.desktop_run_keybind
+                0x00000000      0x1ec build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .rodata.keybind_keys
+                0x00000000        0x4 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .rodata.keybind_types
+                0x00000000        0x4 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .debug_line.text.desktop_keybinds_migrate
+                0x00000000       0xfd build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .debug_line.text.desktop_run_keybind
+                0x00000000      0x15a build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .text.desktop_view_pin_input_hide_pin
+                0x00000000       0x24 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .text.desktop_view_pin_input_set_label_tertiary
+                0x00000000       0x30 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .text.desktop_view_pin_input_set_timeout_callback
+                0x00000000        0x4 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_hide_pin
+                0x00000000       0x42 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_set_label_tertiary
+                0x00000000       0x45 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_set_timeout_callback
+                0x00000000       0x22 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_reset
+                0x00000000       0x1e build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_start_clock_and_switch
+                0x00000000       0xa4 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_alarm_handler
+                0x00000000       0x40 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_deinit_early
+                0x00000000        0x2 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_prepare_for_shutdown
+                0x00000000       0x50 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_sync_shadow
+                0x00000000       0x20 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_reset_registers
+                0x00000000       0x28 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_get_register
+                0x00000000        0xc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_set_register
+                0x00000000        0xc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_set_log_level
+                0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_get_log_level
+                0x00000000       0x10 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_get_log_device
+                0x00000000       0x10 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_get_log_baud_rate
+                0x00000000       0x10 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .rodata.furi_hal_rtc_init.str1.1
+                0x00000000       0x13 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_init
+                0x00000000       0xb4 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_set_log_device
+                0x00000000       0x44 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_set_log_baud_rate
+                0x00000000       0x44 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_set_flag
+                0x00000000       0x28 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_reset_flag
+                0x00000000       0x28 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_is_flag_set
+                0x00000000       0x18 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_set_boot_mode
+                0x00000000       0x14 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_get_boot_mode
+                0x00000000       0x10 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_set_heap_track_mode
+                0x00000000       0x14 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_get_heap_track_mode
+                0x00000000       0x10 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_set_locale_units
+                0x00000000       0x14 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_get_locale_units
+                0x00000000       0x10 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_set_locale_timeformat
+                0x00000000       0x14 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_get_locale_timeformat
+                0x00000000       0x10 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_set_locale_dateformat
+                0x00000000       0x14 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_get_locale_dateformat
+                0x00000000       0x10 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_set_datetime
+                0x00000000      0x100 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_get_datetime
+                0x00000000       0xf8 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .rodata.furi_hal_rtc_init_early.str1.1
+                0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_init_early
+                0x00000000      0x118 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_set_alarm
+                0x00000000       0xcc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_get_alarm
+                0x00000000       0x68 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_set_alarm_callback
+                0x00000000       0xd0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_set_fault_data
+                0x00000000        0xc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_get_fault_data
+                0x00000000        0xc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_set_pin_fails
+                0x00000000        0xc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_get_pin_fails
+                0x00000000        0xc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text.furi_hal_rtc_get_timestamp
+                0x00000000       0x28 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .rodata.furi_hal_rtc_log_baud_rates
+                0x00000000       0x20 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .rodata.furi_hal_rtc_log_devices
+                0x00000000        0x4 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .bss.furi_hal_rtc
+                0x00000000        0x8 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_reset
+                0x00000000       0x3e build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_start_clock_and_switch
+                0x00000000      0x14d build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_alarm_handler
+                0x00000000       0x97 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_deinit_early
+                0x00000000       0x17 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_prepare_for_shutdown
+                0x00000000       0xae build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_sync_shadow
+                0x00000000       0x6a build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_reset_registers
+                0x00000000       0xaf build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_get_register
+                0x00000000       0x38 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_set_register
+                0x00000000       0x38 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_set_log_level
+                0x00000000       0x68 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_get_log_level
+                0x00000000       0x3f build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_get_log_device
+                0x00000000       0x3f build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_get_log_baud_rate
+                0x00000000       0x3f build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_init
+                0x00000000       0xe7 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_set_log_device
+                0x00000000       0x85 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_set_log_baud_rate
+                0x00000000       0x85 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_set_flag
+                0x00000000       0x72 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_reset_flag
+                0x00000000       0x74 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_is_flag_set
+                0x00000000       0x43 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_set_boot_mode
+                0x00000000       0x67 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_get_boot_mode
+                0x00000000       0x40 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_set_heap_track_mode
+                0x00000000       0x67 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_get_heap_track_mode
+                0x00000000       0x40 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_set_locale_units
+                0x00000000       0x67 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_get_locale_units
+                0x00000000       0x40 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_set_locale_timeformat
+                0x00000000       0x67 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_get_locale_timeformat
+                0x00000000       0x40 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_set_locale_dateformat
+                0x00000000       0x67 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_get_locale_dateformat
+                0x00000000       0x40 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_set_datetime
+                0x00000000      0x350 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_get_datetime
+                0x00000000      0x24b build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_init_early
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_set_alarm
+                0x00000000      0x1b2 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_get_alarm
+                0x00000000      0x1b7 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_set_alarm_callback
+                0x00000000      0x19a build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_set_fault_data
+                0x00000000       0x3a build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_get_fault_data
+                0x00000000       0x3a build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_set_pin_fails
+                0x00000000       0x3a build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_get_pin_fails
+                0x00000000       0x3a build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_get_timestamp
+                0x00000000       0x2a build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .text.desktop_pin_lock_get_fail_timeout
+                0x00000000       0x2c build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .debug_line.text.desktop_pin_lock_get_fail_timeout
+                0x00000000       0x69 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+LOAD build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x2174
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.desktop_api_get_settings
+                0x00000000        0xc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+                0x00000000                desktop_api_get_settings
+ .text.desktop_api_set_settings
+                0x0000000c       0x18 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+                0x0000000c                desktop_api_set_settings
+ .text.desktop_keybinds_load
+                0x00000024      0x120 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+                0x00000024                desktop_keybinds_load
+ .text.desktop_keybinds_save
+                0x00000144       0xcc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+                0x00000144                desktop_keybinds_save
+ .text.desktop_keybinds_free
+                0x00000210       0x30 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+                0x00000210                desktop_keybinds_free
+ .text.desktop_view_pin_input_timer_callback
+                0x00000240        0xa build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+                0x00000240                desktop_view_pin_input_timer_callback
+ *fill*         0x0000024a        0x2 
+ .text.desktop_view_pin_input_exit
+                0x0000024c        0xc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .text.desktop_view_pin_input_enter
+                0x00000258       0x10 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .text.desktop_view_pin_input_input
+                0x00000268       0xc0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .text.desktop_view_pin_input_draw
+                0x00000328      0x194 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .text.desktop_view_pin_input_alloc
+                0x000004bc       0xa8 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+                0x000004bc                desktop_view_pin_input_alloc
+ .text.desktop_view_pin_input_free
+                0x00000564       0x28 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+                0x00000564                desktop_view_pin_input_free
+ .text.desktop_view_pin_input_lock_input
+                0x0000058c       0x20 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+                0x0000058c                desktop_view_pin_input_lock_input
+ .text.desktop_view_pin_input_unlock_input
+                0x000005ac       0x24 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+                0x000005ac                desktop_view_pin_input_unlock_input
+ .text.desktop_view_pin_input_set_pin
+                0x000005d0       0x30 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+                0x000005d0                desktop_view_pin_input_set_pin
+ .text.desktop_view_pin_input_reset_pin
+                0x00000600       0x24 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+                0x00000600                desktop_view_pin_input_reset_pin
+ .text.desktop_view_pin_input_set_label_button
+                0x00000624       0x24 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+                0x00000624                desktop_view_pin_input_set_label_button
+ .text.desktop_view_pin_input_set_label_primary
+                0x00000648       0x2c build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+                0x00000648                desktop_view_pin_input_set_label_primary
+ .text.desktop_view_pin_input_set_label_secondary
+                0x00000674       0x2c build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+                0x00000674                desktop_view_pin_input_set_label_secondary
+ .text.desktop_view_pin_input_set_pin_position
+                0x000006a0       0x28 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+                0x000006a0                desktop_view_pin_input_set_pin_position
+ .text.desktop_view_pin_input_set_context
+                0x000006c8        0x4 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+                0x000006c8                desktop_view_pin_input_set_context
+ .text.desktop_view_pin_input_set_back_callback
+                0x000006cc        0x4 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+                0x000006cc                desktop_view_pin_input_set_back_callback
+ .text.desktop_view_pin_input_set_done_callback
+                0x000006d0        0x4 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+                0x000006d0                desktop_view_pin_input_set_done_callback
+ .text.desktop_view_pin_input_get_view
+                0x000006d4        0x4 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+                0x000006d4                desktop_view_pin_input_get_view
+ .text.furi_hal_rtc_set_pin_value
+                0x000006d8        0xc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+                0x000006d8                furi_hal_rtc_set_pin_value
+ .text.furi_hal_rtc_get_pin_value
+                0x000006e4        0xc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+                0x000006e4                furi_hal_rtc_get_pin_value
+ .text.desktop_pin_code_pack
+                0x000006f0       0x38 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .text.desktop_pin_code_is_set
+                0x00000728       0x18 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+                0x00000728                desktop_pin_code_is_set
+ .text.desktop_pin_code_set
+                0x00000740       0x18 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+                0x00000740                desktop_pin_code_set
+ .text.desktop_pin_code_reset
+                0x00000758        0xc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+                0x00000758                desktop_pin_code_reset
+ .text.desktop_pin_code_check
+                0x00000764       0x20 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+                0x00000764                desktop_pin_code_check
+ .text.desktop_pin_code_is_equal
+                0x00000784       0x38 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+                0x00000784                desktop_pin_code_is_equal
+ .text.desktop_pin_lock_error_notify
+                0x000007bc       0x30 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+                0x000007bc                desktop_pin_lock_error_notify
+ .text.desktop_settings_scene_happy_mode_done_callback
+                0x000007ec       0x54 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .text.desktop_settings_scene_happy_mode_on_enter
+                0x00000840       0xcc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+                0x00000840                desktop_settings_scene_happy_mode_on_enter
+ .text.desktop_settings_scene_happy_mode_on_event
+                0x0000090c       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+                0x0000090c                desktop_settings_scene_happy_mode_on_event
+ .text.desktop_settings_scene_happy_mode_on_exit
+                0x00000940        0x2 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+                0x00000940                desktop_settings_scene_happy_mode_on_exit
+ *fill*         0x00000942        0x2 
+ .text.desktop_settings_scene_keybinds_action_submenu_callback
+                0x00000944       0x1c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .text.desktop_settings_scene_keybinds_action_on_enter
+                0x00000960      0x12c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+                0x00000960                desktop_settings_scene_keybinds_action_on_enter
+ .text.desktop_settings_scene_keybinds_action_on_event
+                0x00000a8c       0x16 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+                0x00000a8c                desktop_settings_scene_keybinds_action_on_event
+ *fill*         0x00000aa2        0x2 
+ .text.desktop_settings_scene_keybinds_action_on_exit
+                0x00000aa4        0xc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+                0x00000aa4                desktop_settings_scene_keybinds_action_on_exit
+ .text.desktop_settings_scene_keybinds_action_type_submenu_callback
+                0x00000ab0      0x138 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .text.keybinds_fap_selector_item_callback
+                0x00000be8       0x38 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .text.desktop_settings_scene_keybinds_action_type_on_enter
+                0x00000c20      0x1c0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+                0x00000c20                desktop_settings_scene_keybinds_action_type_on_enter
+ .text.desktop_settings_scene_keybinds_action_type_on_event
+                0x00000de0       0x16 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+                0x00000de0                desktop_settings_scene_keybinds_action_type_on_event
+ *fill*         0x00000df6        0x2 
+ .text.desktop_settings_scene_keybinds_action_type_on_exit
+                0x00000df8        0xc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+                0x00000df8                desktop_settings_scene_keybinds_action_type_on_exit
+ .text.desktop_settings_scene_keybinds_key_submenu_callback
+                0x00000e04        0xc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .text.desktop_settings_scene_keybinds_key_on_enter
+                0x00000e10       0x98 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+                0x00000e10                desktop_settings_scene_keybinds_key_on_enter
+ .text.desktop_settings_scene_keybinds_key_on_event
+                0x00000ea8       0x3c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+                0x00000ea8                desktop_settings_scene_keybinds_key_on_event
+ .text.desktop_settings_scene_keybinds_key_on_exit
+                0x00000ee4        0xc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+                0x00000ee4                desktop_settings_scene_keybinds_key_on_exit
+ .text.desktop_settings_scene_keybinds_reset_dialog_callback
+                0x00000ef0       0x10 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .text.desktop_settings_scene_keybinds_reset_on_enter
+                0x00000f00       0x88 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+                0x00000f00                desktop_settings_scene_keybinds_reset_on_enter
+ .text.desktop_settings_scene_keybinds_reset_on_event
+                0x00000f88       0x78 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+                0x00000f88                desktop_settings_scene_keybinds_reset_on_event
+ .text.desktop_settings_scene_keybinds_reset_on_exit
+                0x00001000        0xc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+                0x00001000                desktop_settings_scene_keybinds_reset_on_exit
+ .text.desktop_settings_scene_keybinds_type_submenu_callback
+                0x0000100c        0xc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .text.desktop_settings_scene_keybinds_type_on_enter
+                0x00001018       0x78 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+                0x00001018                desktop_settings_scene_keybinds_type_on_enter
+ .text.desktop_settings_scene_keybinds_type_on_event
+                0x00001090       0x3c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+                0x00001090                desktop_settings_scene_keybinds_type_on_event
+ .text.desktop_settings_scene_keybinds_type_on_exit
+                0x000010cc        0xc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+                0x000010cc                desktop_settings_scene_keybinds_type_on_exit
+ .text.pin_auth_back_callback
+                0x000010d8        0xc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .text.pin_auth_done_callback
+                0x000010e4       0x38 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .text.desktop_settings_scene_pin_auth_on_enter
+                0x0000111c       0x90 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+                0x0000111c                desktop_settings_scene_pin_auth_on_enter
+ .text.desktop_settings_scene_pin_auth_on_event
+                0x000011ac       0x78 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+                0x000011ac                desktop_settings_scene_pin_auth_on_event
+ .text.desktop_settings_scene_pin_auth_on_exit
+                0x00001224       0x20 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+                0x00001224                desktop_settings_scene_pin_auth_on_exit
+ .text.pin_disable_back_callback
+                0x00001244        0xc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .text.desktop_settings_scene_pin_disable_on_enter
+                0x00001250       0x84 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+                0x00001250                desktop_settings_scene_pin_disable_on_enter
+ .text.desktop_settings_scene_pin_disable_on_event
+                0x000012d4       0x2c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+                0x000012d4                desktop_settings_scene_pin_disable_on_event
+ .text.desktop_settings_scene_pin_disable_on_exit
+                0x00001300        0x2 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+                0x00001300                desktop_settings_scene_pin_disable_on_exit
+ *fill*         0x00001302        0x2 
+ .text.pin_error_done_callback
+                0x00001304       0x10 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .text.pin_error_back_callback
+                0x00001314        0xc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .text.desktop_settings_scene_pin_error_on_enter
+                0x00001320       0xc0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+                0x00001320                desktop_settings_scene_pin_error_on_enter
+ .text.desktop_settings_scene_pin_error_on_event
+                0x000013e0       0x2c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+                0x000013e0                desktop_settings_scene_pin_error_on_event
+ .text.desktop_settings_scene_pin_error_on_exit
+                0x0000140c       0x2c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+                0x0000140c                desktop_settings_scene_pin_error_on_exit
+ .text.desktop_settings_scene_pin_menu_submenu_callback
+                0x00001438        0xc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .text.desktop_settings_scene_pin_menu_on_enter
+                0x00001444       0x7c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+                0x00001444                desktop_settings_scene_pin_menu_on_enter
+ .text.desktop_settings_scene_pin_menu_on_event
+                0x000014c0       0x58 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+                0x000014c0                desktop_settings_scene_pin_menu_on_event
+ .text.desktop_settings_scene_pin_menu_on_exit
+                0x00001518       0x20 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+                0x00001518                desktop_settings_scene_pin_menu_on_exit
+ .text.pin_setup_back_callback
+                0x00001538        0xc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .text.pin_setup_done_callback
+                0x00001544       0x54 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .text.desktop_settings_scene_pin_setup_on_enter
+                0x00001598       0x90 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+                0x00001598                desktop_settings_scene_pin_setup_on_enter
+ .text.desktop_settings_scene_pin_setup_on_event
+                0x00001628       0xb0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+                0x00001628                desktop_settings_scene_pin_setup_on_event
+ .text.desktop_settings_scene_pin_setup_on_exit
+                0x000016d8       0x20 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+                0x000016d8                desktop_settings_scene_pin_setup_on_exit
+ .text.pin_setup_done_callback
+                0x000016f8       0x10 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .text.desktop_settings_scene_pin_setup_done_on_enter
+                0x00001708       0xe0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+                0x00001708                desktop_settings_scene_pin_setup_done_on_enter
+ .text.desktop_settings_scene_pin_setup_done_on_event
+                0x000017e8       0x3c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+                0x000017e8                desktop_settings_scene_pin_setup_done_on_event
+ .text.desktop_settings_scene_pin_setup_done_on_exit
+                0x00001824       0x30 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+                0x00001824                desktop_settings_scene_pin_setup_done_on_exit
+ .text.desktop_settings_scene_pin_lock_done_callback
+                0x00001854        0xc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .text.desktop_settings_scene_pin_setup_howto_on_enter
+                0x00001860       0x28 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+                0x00001860                desktop_settings_scene_pin_setup_howto_on_enter
+ .text.desktop_settings_scene_pin_setup_howto_on_event
+                0x00001888       0x38 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+                0x00001888                desktop_settings_scene_pin_setup_howto_on_event
+ .text.desktop_settings_scene_pin_setup_howto_on_exit
+                0x000018c0        0x2 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+                0x000018c0                desktop_settings_scene_pin_setup_howto_on_exit
+ *fill*         0x000018c2        0x2 
+ .text.desktop_settings_scene_pin_setup_howto2_exit_callback
+                0x000018c4        0xc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .text.desktop_settings_scene_pin_setup_howto2_done_callback
+                0x000018d0        0xc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .text.desktop_settings_scene_pin_setup_howto2_on_enter
+                0x000018dc       0x40 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+                0x000018dc                desktop_settings_scene_pin_setup_howto2_on_enter
+ .text.desktop_settings_scene_pin_setup_howto2_on_event
+                0x0000191c       0x58 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+                0x0000191c                desktop_settings_scene_pin_setup_howto2_on_event
+ .text.desktop_settings_scene_pin_setup_howto2_on_exit
+                0x00001974       0x20 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+                0x00001974                desktop_settings_scene_pin_setup_howto2_on_exit
+ .text.desktop_settings_scene_start_var_list_enter_callback
+                0x00001994        0xc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .text.desktop_settings_scene_start_clock_enable_changed
+                0x000019a0       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .text.desktop_settings_scene_start_usb_inhibit_auto_lock_delay_changed
+                0x000019d4       0x3c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .text.desktop_settings_scene_start_auto_lock_pin_changed
+                0x00001a10       0x38 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .text.desktop_settings_scene_start_auto_lock_delay_changed
+                0x00001a48       0x3c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .text.desktop_settings_scene_start_on_enter
+                0x00001a84      0x170 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+                0x00001a84                desktop_settings_scene_start_on_enter
+ .text.desktop_settings_scene_start_on_event
+                0x00001bf4       0x5c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+                0x00001bf4                desktop_settings_scene_start_on_event
+ .text.desktop_settings_scene_start_on_exit
+                0x00001c50        0xc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+                0x00001c50                desktop_settings_scene_start_on_exit
+ .text.desktop_settings_view_pin_setup_howto_draw
+                0x00001c5c       0x70 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .text.desktop_settings_view_pin_setup_howto_input
+                0x00001ccc       0x1a build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .text.desktop_settings_view_pin_setup_howto_set_callback
+                0x00001ce6        0x6 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+                0x00001ce6                desktop_settings_view_pin_setup_howto_set_callback
+ .text.desktop_settings_view_pin_setup_howto_alloc
+                0x00001cec       0x48 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+                0x00001cec                desktop_settings_view_pin_setup_howto_alloc
+ .text.desktop_settings_view_pin_setup_howto_free
+                0x00001d34       0x1c build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+                0x00001d34                desktop_settings_view_pin_setup_howto_free
+ .text.desktop_settings_view_pin_setup_howto_get_view
+                0x00001d50        0x4 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+                0x00001d50                desktop_settings_view_pin_setup_howto_get_view
+ .text.desktop_settings_view_pin_setup_howto2_draw
+                0x00001d54       0x50 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .text.desktop_settings_view_pin_setup_howto2_input
+                0x00001da4       0x24 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .text.desktop_settings_view_pin_setup_howto2_set_context
+                0x00001dc8        0x4 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+                0x00001dc8                desktop_settings_view_pin_setup_howto2_set_context
+ .text.desktop_settings_view_pin_setup_howto2_set_cancel_callback
+                0x00001dcc        0x4 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+                0x00001dcc                desktop_settings_view_pin_setup_howto2_set_cancel_callback
+ .text.desktop_settings_view_pin_setup_howto2_set_ok_callback
+                0x00001dd0        0x4 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+                0x00001dd0                desktop_settings_view_pin_setup_howto2_set_ok_callback
+ .text.desktop_settings_view_pin_setup_howto2_alloc
+                0x00001dd4       0x48 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+                0x00001dd4                desktop_settings_view_pin_setup_howto2_alloc
+ .text.desktop_settings_view_pin_setup_howto2_free
+                0x00001e1c       0x1c build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+                0x00001e1c                desktop_settings_view_pin_setup_howto2_free
+ .text.desktop_settings_view_pin_setup_howto2_get_view
+                0x00001e38        0x4 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+                0x00001e38                desktop_settings_view_pin_setup_howto2_get_view
+ .text.desktop_settings_back_event_callback
+                0x00001e3c        0xc build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+ .text.desktop_settings_custom_event_callback
+                0x00001e48        0xc build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+ .text.desktop_settings_app_get_keybind
+                0x00001e54       0x28 build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+                0x00001e54                desktop_settings_app_get_keybind
+ .text.desktop_settings_app_set_keybind
+                0x00001e7c       0x3c build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+                0x00001e7c                desktop_settings_app_set_keybind
+ .text.desktop_settings_app_alloc
+                0x00001eb8      0x15c build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+                0x00001eb8                desktop_settings_app_alloc
+ .text.desktop_settings_app_free
+                0x00002014       0xb4 build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+                0x00002014                desktop_settings_app_free
+ .text.desktop_settings_app
+                0x000020c8       0xac build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+                0x000020c8                desktop_settings_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00002174      0x769
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.desktop_keybinds_load.str1.1
+                0x00002174       0x54 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .rodata.desktop_keybinds_save.str1.1
+                0x000021c8       0x14 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .rodata.desktop_keybinds_migrate.str1.1
+                0x000021dc       0x6e build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .rodata.desktop_run_keybind.str1.1
+                0x0000224a       0x8f build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .rodata.str1.1
+                0x000022d9       0x27 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .rodata.desktop_view_pin_input_draw.str1.1
+                0x00002300        0x8 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .rodata.desktop_pin_lock_error_notify.str1.1
+                0x00002308        0xd build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ *fill*         0x00002315        0x3 
+ .rodata.sequence_pin_fail
+                0x00002318       0x34 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .rodata.desktop_settings_scene_handlers
+                0x0000234c       0x10 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene.o
+                0x0000234c                desktop_settings_scene_handlers
+ .rodata.desktop_settings_on_exit_handlers
+                0x0000235c       0x3c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene.o
+                0x0000235c                desktop_settings_on_exit_handlers
+ .rodata.desktop_settings_on_event_handlers
+                0x00002398       0x3c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene.o
+                0x00002398                desktop_settings_on_event_handlers
+ .rodata.desktop_settings_on_enter_handlers
+                0x000023d4       0x3c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene.o
+                0x000023d4                desktop_settings_on_enter_handlers
+ .rodata.desktop_settings_scene_happy_mode_done_callback.str1.1
+                0x00002410        0x8 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .rodata.desktop_settings_scene_happy_mode_on_enter.str1.1
+                0x00002418       0x8b build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .rodata.desktop_settings_scene_keybinds_action_type_submenu_callback.str1.1
+                0x000024a3       0x20 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .rodata.desktop_settings_scene_keybinds_action_type_on_enter.str1.1
+                0x000024c3       0x5f build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .rodata.desktop_settings_scene_keybinds_key_on_enter.str1.1
+                0x00002522       0x20 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .rodata.desktop_settings_scene_keybinds_reset_on_enter.str1.1
+                0x00002542       0x3e build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .rodata.desktop_settings_scene_keybinds_reset_on_event.str1.1
+                0x00002580       0x2b build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .rodata.desktop_settings_scene_keybinds_type_on_enter.str1.1
+                0x000025ab       0x19 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .rodata.desktop_settings_scene_pin_auth_on_enter.str1.1
+                0x000025c4       0x1b build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .rodata.desktop_settings_scene_pin_disable_on_enter.str1.1
+                0x000025df        0x8 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .rodata.desktop_settings_scene_pin_error_on_enter.str1.1
+                0x000025e7       0x1f build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .rodata.desktop_settings_scene_pin_menu_on_enter.str1.1
+                0x00002606       0x30 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .rodata.desktop_settings_scene_pin_setup_on_enter.str1.1
+                0x00002636       0x1e build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .rodata.desktop_settings_scene_pin_setup_on_event.str1.1
+                0x00002654       0x12 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .rodata.desktop_settings_scene_pin_setup_done_on_enter.str1.1
+                0x00002666       0x3b build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .rodata.desktop_settings_scene_start_auto_lock_pin_changed.str1.1
+                0x000026a1        0x7 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .rodata.desktop_settings_scene_start_on_enter.str1.1
+                0x000026a8       0x8d build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ *fill*         0x00002735        0x3 
+ .rodata.clock_enable_value
+                0x00002738        0x8 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+                0x00002738                clock_enable_value
+ .rodata.clock_enable_text
+                0x00002740        0x8 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+                0x00002740                clock_enable_text
+ .rodata.usb_inhibit_auto_lock_delay_value
+                0x00002748        0x8 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+                0x00002748                usb_inhibit_auto_lock_delay_value
+ .rodata.usb_inhibit_auto_lock_delay_text
+                0x00002750        0x8 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+                0x00002750                usb_inhibit_auto_lock_delay_text
+ .rodata.auto_lock_delay_value
+                0x00002758       0x24 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .rodata.str1.1
+                0x0000277c       0x24 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .rodata.auto_lock_delay_text
+                0x000027a0       0x24 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .rodata.desktop_settings_view_pin_setup_howto_draw.str1.1
+                0x000027c4       0x39 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .rodata.desktop_settings_view_pin_setup_howto2_draw.str1.1
+                0x000027fd       0x5b build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .rodata.desktop_settings_app_alloc.str1.1
+                0x00002858        0xc build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+ .rodata.desktop_settings_app.str1.1
+                0x00002864       0x16 build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+ *fill*         0x0000287a        0x2 
+ .rodata.EXTRA_KEYBINDS_COUNT
+                0x0000287c        0x4 build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+                0x0000287c                EXTRA_KEYBINDS_COUNT
+ .rodata.str1.1
+                0x00002880       0x5d build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+
+.data           0x000028e0       0x5c
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.desktop_keybind_keys
+                0x000028e0       0x10 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+                0x000028e0                desktop_keybind_keys
+ .data.desktop_keybind_types
+                0x000028f0        0x8 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+                0x000028f0                desktop_keybind_types
+ .data.desktop_keybinds_defaults
+                0x000028f8       0x20 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+                0x000028f8                desktop_keybinds_defaults
+ .data.EXTRA_KEYBINDS
+                0x00002918       0x24 build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+                0x00002918                EXTRA_KEYBINDS
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x850
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xf0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_aranges
+                0x000000f0       0x40 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .debug_aranges
+                0x00000130       0xc8 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_aranges
+                0x000001f8      0x168 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_aranges
+                0x00000360       0x58 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .debug_aranges
+                0x000003b8       0x18 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene.o
+ .debug_aranges
+                0x000003d0       0x38 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .debug_aranges
+                0x00000408       0x38 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .debug_aranges
+                0x00000440       0x40 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .debug_aranges
+                0x00000480       0x38 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .debug_aranges
+                0x000004b8       0x38 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .debug_aranges
+                0x000004f0       0x38 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .debug_aranges
+                0x00000528       0x40 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .debug_aranges
+                0x00000568       0x38 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .debug_aranges
+                0x000005a0       0x40 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .debug_aranges
+                0x000005e0       0x38 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .debug_aranges
+                0x00000618       0x40 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .debug_aranges
+                0x00000658       0x38 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .debug_aranges
+                0x00000690       0x38 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .debug_aranges
+                0x000006c8       0x40 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .debug_aranges
+                0x00000708       0x58 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .debug_aranges
+                0x00000760       0x48 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .debug_aranges
+                0x000007a8       0x58 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .debug_aranges
+                0x00000800       0x50 build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x18265
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x4a53 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_info    0x00004a53     0x1e11 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .debug_info    0x00006864     0x13c7 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_info    0x00007c2b     0x4325 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_info    0x0000bf50      0x7bc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .debug_info    0x0000c70c      0x5d9 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene.o
+ .debug_info    0x0000cce5      0x93e build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .debug_info    0x0000d623      0xa65 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .debug_info    0x0000e088     0x1099 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .debug_info    0x0000f121      0x87b build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .debug_info    0x0000f99c      0x95e build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .debug_info    0x000102fa      0x7e8 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .debug_info    0x00010ae2      0x9bc build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .debug_info    0x0001149e      0x7ce build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .debug_info    0x00011c6c      0x8ef build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .debug_info    0x0001255b      0x7b7 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .debug_info    0x00012d12      0x9af build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .debug_info    0x000136c1      0xc1e build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .debug_info    0x000142df      0x68f build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .debug_info    0x0001496e      0x7ca build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .debug_info    0x00015138      0xe2e build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .debug_info    0x00015f66      0x93b build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .debug_info    0x000168a1      0x8fe build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .debug_info    0x0001719f     0x10c6 build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+
+.debug_abbrev   0x00000000     0x40d5
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x5c8 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_abbrev  0x000005c8      0x351 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .debug_abbrev  0x00000919      0x452 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_abbrev  0x00000d6b      0x68d build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_abbrev  0x000013f8      0x2c3 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .debug_abbrev  0x000016bb      0x137 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene.o
+ .debug_abbrev  0x000017f2      0x225 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .debug_abbrev  0x00001a17      0x22a build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .debug_abbrev  0x00001c41      0x271 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .debug_abbrev  0x00001eb2      0x1e9 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .debug_abbrev  0x0000209b      0x1e6 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .debug_abbrev  0x00002281      0x1e9 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .debug_abbrev  0x0000246a      0x2c2 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .debug_abbrev  0x0000272c      0x20c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .debug_abbrev  0x00002938      0x241 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .debug_abbrev  0x00002b79      0x204 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .debug_abbrev  0x00002d7d      0x27a build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .debug_abbrev  0x00002ff7      0x21e build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .debug_abbrev  0x00003215      0x1ff build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .debug_abbrev  0x00003414      0x22f build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .debug_abbrev  0x00003643      0x233 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .debug_abbrev  0x00003876      0x30a build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .debug_abbrev  0x00003b80      0x2ee build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .debug_abbrev  0x00003e6e      0x267 build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+
+.debug_line     0x00000000     0x8f5b
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0xa57 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_api_get_settings
+                0x00000a57       0x2a build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line.text.desktop_api_set_settings
+                0x00000a81       0x2e build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line_end
+                0x00000aaf        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_line    0x00000aaf      0x7f4 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .debug_line.text.desktop_keybinds_load
+                0x000012a3       0xf8 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .debug_line.text.desktop_keybinds_save
+                0x0000139b       0x9e build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .debug_line.text.desktop_keybinds_free
+                0x00001439       0x61 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .debug_line_end
+                0x0000149a        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .debug_line    0x0000149a      0x3e4 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_timer_callback
+                0x0000187e       0x28 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_exit
+                0x000018a6       0x1a build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_enter
+                0x000018c0       0x1a build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_input
+                0x000018da      0x121 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_draw
+                0x000019fb      0x153 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_alloc
+                0x00001b4e       0x76 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_free
+                0x00001bc4       0x2f build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_lock_input
+                0x00001bf3       0x3c build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_unlock_input
+                0x00001c2f       0x3d build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_set_pin
+                0x00001c6c       0x4e build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_reset_pin
+                0x00001cba       0x3d build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_set_label_button
+                0x00001cf7       0x43 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_set_label_primary
+                0x00001d3a       0x45 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_set_label_secondary
+                0x00001d7f       0x45 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_set_pin_position
+                0x00001dc4       0x4a build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_set_context
+                0x00001e0e       0x22 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_set_back_callback
+                0x00001e30       0x22 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_set_done_callback
+                0x00001e52       0x22 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line.text.desktop_view_pin_input_get_view
+                0x00001e74       0x20 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line_end
+                0x00001e94        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_line    0x00001e94      0x48f build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_set_pin_value
+                0x00002323       0x3a build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line.text.furi_hal_rtc_get_pin_value
+                0x0000235d       0x3a build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line_end
+                0x00002397        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_line    0x00002397      0x349 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .debug_line.text.desktop_pin_code_pack
+                0x000026e0       0xa2 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .debug_line.text.desktop_pin_code_is_set
+                0x00002782       0x2b build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .debug_line.text.desktop_pin_code_set
+                0x000027ad       0x23 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .debug_line.text.desktop_pin_code_reset
+                0x000027d0       0x16 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .debug_line.text.desktop_pin_code_check
+                0x000027e6       0x30 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .debug_line.text.desktop_pin_code_is_equal
+                0x00002816       0xa6 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .debug_line.text.desktop_pin_lock_error_notify
+                0x000028bc       0x2a build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .debug_line_end
+                0x000028e6        0x0 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .debug_line    0x000028e6      0x1c8 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene.o
+ .debug_line_end
+                0x00002aae        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene.o
+ .debug_line    0x00002aae      0x465 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .debug_line.text.desktop_settings_scene_happy_mode_done_callback
+                0x00002f13       0x4d build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .debug_line.text.desktop_settings_scene_happy_mode_on_enter
+                0x00002f60       0x39 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .debug_line.text.desktop_settings_scene_happy_mode_on_event
+                0x00002f99       0x48 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .debug_line.text.desktop_settings_scene_happy_mode_on_exit
+                0x00002fe1       0x18 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .debug_line_end
+                0x00002ff9        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .debug_line    0x00002ff9      0x4d2 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .debug_line.text.desktop_settings_scene_keybinds_action_submenu_callback
+                0x000034cb       0x23 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .debug_line.text.desktop_settings_scene_keybinds_action_on_enter
+                0x000034ee      0x112 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .debug_line.text.desktop_settings_scene_keybinds_action_on_event
+                0x00003600       0x2b build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .debug_line.text.desktop_settings_scene_keybinds_action_on_exit
+                0x0000362b       0x18 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .debug_line_end
+                0x00003643        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .debug_line    0x00003643      0x56f build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .debug_line.text.desktop_settings_scene_keybinds_action_type_submenu_callback
+                0x00003bb2       0xc4 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .debug_line.text.keybinds_fap_selector_item_callback
+                0x00003c76       0x49 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .debug_line.text.desktop_settings_scene_keybinds_action_type_on_enter
+                0x00003cbf      0x114 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .debug_line.text.desktop_settings_scene_keybinds_action_type_on_event
+                0x00003dd3       0x2b build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .debug_line.text.desktop_settings_scene_keybinds_action_type_on_exit
+                0x00003dfe       0x18 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .debug_line_end
+                0x00003e16        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .debug_line    0x00003e16      0x412 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .debug_line.text.desktop_settings_scene_keybinds_key_submenu_callback
+                0x00004228       0x16 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .debug_line.text.desktop_settings_scene_keybinds_key_on_enter
+                0x0000423e       0x3a build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .debug_line.text.desktop_settings_scene_keybinds_key_on_event
+                0x00004278       0x44 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .debug_line.text.desktop_settings_scene_keybinds_key_on_exit
+                0x000042bc       0x18 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .debug_line_end
+                0x000042d4        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .debug_line    0x000042d4      0x464 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .debug_line.text.desktop_settings_scene_keybinds_reset_dialog_callback
+                0x00004738       0x1e build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .debug_line.text.desktop_settings_scene_keybinds_reset_on_enter
+                0x00004756       0x36 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .debug_line.text.desktop_settings_scene_keybinds_reset_on_event
+                0x0000478c       0x73 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .debug_line.text.desktop_settings_scene_keybinds_reset_on_exit
+                0x000047ff       0x19 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .debug_line_end
+                0x00004818        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .debug_line    0x00004818      0x413 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .debug_line.text.desktop_settings_scene_keybinds_type_submenu_callback
+                0x00004c2b       0x16 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .debug_line.text.desktop_settings_scene_keybinds_type_on_enter
+                0x00004c41       0x38 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .debug_line.text.desktop_settings_scene_keybinds_type_on_event
+                0x00004c79       0x40 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .debug_line.text.desktop_settings_scene_keybinds_type_on_exit
+                0x00004cb9       0x17 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .debug_line_end
+                0x00004cd0        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .debug_line    0x00004cd0      0x433 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .debug_line.text.pin_auth_back_callback
+                0x00005103       0x17 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .debug_line.text.pin_auth_done_callback
+                0x0000511a       0x50 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .debug_line.text.desktop_settings_scene_pin_auth_on_enter
+                0x0000516a       0x35 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .debug_line.text.desktop_settings_scene_pin_auth_on_event
+                0x0000519f       0x81 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .debug_line.text.desktop_settings_scene_pin_auth_on_exit
+                0x00005220       0x2c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .debug_line_end
+                0x0000524c        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .debug_line    0x0000524c      0x468 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .debug_line.text.pin_disable_back_callback
+                0x000056b4       0x1b build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .debug_line.text.desktop_settings_scene_pin_disable_on_enter
+                0x000056cf       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .debug_line.text.desktop_settings_scene_pin_disable_on_event
+                0x00005703       0x40 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .debug_line.text.desktop_settings_scene_pin_disable_on_exit
+                0x00005743       0x18 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .debug_line_end
+                0x0000575b        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .debug_line    0x0000575b      0x43d build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .debug_line.text.pin_error_done_callback
+                0x00005b98       0x25 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .debug_line.text.pin_error_back_callback
+                0x00005bbd       0x1b build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .debug_line.text.desktop_settings_scene_pin_error_on_enter
+                0x00005bd8       0x58 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .debug_line.text.desktop_settings_scene_pin_error_on_event
+                0x00005c30       0x40 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .debug_line.text.desktop_settings_scene_pin_error_on_exit
+                0x00005c70       0x2d build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .debug_line_end
+                0x00005c9d        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .debug_line    0x00005c9d      0x431 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .debug_line.text.desktop_settings_scene_pin_menu_submenu_callback
+                0x000060ce       0x16 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .debug_line.text.desktop_settings_scene_pin_menu_on_enter
+                0x000060e4       0x4e build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .debug_line.text.desktop_settings_scene_pin_menu_on_event
+                0x00006132       0x61 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .debug_line.text.desktop_settings_scene_pin_menu_on_exit
+                0x00006193       0x35 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .debug_line_end
+                0x000061c8        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .debug_line    0x000061c8      0x432 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .debug_line.text.pin_setup_back_callback
+                0x000065fa       0x17 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .debug_line.text.pin_setup_done_callback
+                0x00006611       0x6a build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .debug_line.text.desktop_settings_scene_pin_setup_on_enter
+                0x0000667b       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .debug_line.text.desktop_settings_scene_pin_setup_on_event
+                0x000066af       0x7c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .debug_line.text.desktop_settings_scene_pin_setup_on_exit
+                0x0000672b       0x2c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .debug_line_end
+                0x00006757        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .debug_line    0x00006757      0x4bf build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .debug_line.text.pin_setup_done_callback
+                0x00006c16       0x28 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .debug_line.text.desktop_settings_scene_pin_setup_done_on_enter
+                0x00006c3e       0x53 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .debug_line.text.desktop_settings_scene_pin_setup_done_on_event
+                0x00006c91       0x4f build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .debug_line.text.desktop_settings_scene_pin_setup_done_on_exit
+                0x00006ce0       0x2d build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .debug_line_end
+                0x00006d0d        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .debug_line    0x00006d0d      0x443 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .debug_line.text.desktop_settings_scene_pin_lock_done_callback
+                0x00007150       0x17 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .debug_line.text.desktop_settings_scene_pin_setup_howto_on_enter
+                0x00007167       0x27 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .debug_line.text.desktop_settings_scene_pin_setup_howto_on_event
+                0x0000718e       0x48 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .debug_line.text.desktop_settings_scene_pin_setup_howto_on_exit
+                0x000071d6       0x18 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .debug_line_end
+                0x000071ee        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .debug_line    0x000071ee      0x444 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .debug_line.text.desktop_settings_scene_pin_setup_howto2_exit_callback
+                0x00007632       0x17 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .debug_line.text.desktop_settings_scene_pin_setup_howto2_done_callback
+                0x00007649       0x15 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .debug_line.text.desktop_settings_scene_pin_setup_howto2_on_enter
+                0x0000765e       0x29 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .debug_line.text.desktop_settings_scene_pin_setup_howto2_on_event
+                0x00007687       0x6b build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .debug_line.text.desktop_settings_scene_pin_setup_howto2_on_exit
+                0x000076f2       0x27 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .debug_line_end
+                0x00007719        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .debug_line    0x00007719      0x4a9 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .debug_line.text.desktop_settings_scene_start_var_list_enter_callback
+                0x00007bc2       0x18 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .debug_line.text.desktop_settings_scene_start_clock_enable_changed
+                0x00007bda       0x46 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .debug_line.text.desktop_settings_scene_start_usb_inhibit_auto_lock_delay_changed
+                0x00007c20       0x4a build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .debug_line.text.desktop_settings_scene_start_auto_lock_pin_changed
+                0x00007c6a       0x41 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .debug_line.text.desktop_settings_scene_start_auto_lock_delay_changed
+                0x00007cab       0x4a build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .debug_line.text.desktop_settings_scene_start_on_enter
+                0x00007cf5       0xcf build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .debug_line.text.desktop_settings_scene_start_on_event
+                0x00007dc4       0x55 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .debug_line.text.desktop_settings_scene_start_on_exit
+                0x00007e19       0x18 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .debug_line_end
+                0x00007e31        0x0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .debug_line    0x00007e31      0x3a4 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .debug_line.text.desktop_settings_view_pin_setup_howto_draw
+                0x000081d5       0x3c build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .debug_line.text.desktop_settings_view_pin_setup_howto_input
+                0x00008211       0x4a build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .debug_line.text.desktop_settings_view_pin_setup_howto_set_callback
+                0x0000825b       0x23 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .debug_line.text.desktop_settings_view_pin_setup_howto_alloc
+                0x0000827e       0x3b build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .debug_line.text.desktop_settings_view_pin_setup_howto_free
+                0x000082b9       0x31 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .debug_line.text.desktop_settings_view_pin_setup_howto_get_view
+                0x000082ea       0x1e build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .debug_line_end
+                0x00008308        0x0 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .debug_line    0x00008308      0x37e build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .debug_line.text.desktop_settings_view_pin_setup_howto2_draw
+                0x00008686       0x36 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .debug_line.text.desktop_settings_view_pin_setup_howto2_input
+                0x000086bc       0x5f build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .debug_line.text.desktop_settings_view_pin_setup_howto2_set_context
+                0x0000871b       0x1f build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .debug_line.text.desktop_settings_view_pin_setup_howto2_set_cancel_callback
+                0x0000873a       0x20 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .debug_line.text.desktop_settings_view_pin_setup_howto2_set_ok_callback
+                0x0000875a       0x20 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .debug_line.text.desktop_settings_view_pin_setup_howto2_alloc
+                0x0000877a       0x3c build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .debug_line.text.desktop_settings_view_pin_setup_howto2_free
+                0x000087b6       0x31 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .debug_line.text.desktop_settings_view_pin_setup_howto2_get_view
+                0x000087e7       0x1e build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .debug_line_end
+                0x00008805        0x0 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .debug_line    0x00008805      0x51b build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+ .debug_line.text.desktop_settings_back_event_callback
+                0x00008d20       0x1e build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+ .debug_line.text.desktop_settings_custom_event_callback
+                0x00008d3e       0x1f build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+ .debug_line.text.desktop_settings_app_get_keybind
+                0x00008d5d       0x3b build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+ .debug_line.text.desktop_settings_app_set_keybind
+                0x00008d98       0x3f build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+ .debug_line.text.desktop_settings_app_alloc
+                0x00008dd7       0xcb build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+ .debug_line.text.desktop_settings_app_free
+                0x00008ea2       0x45 build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+ .debug_line.text.desktop_settings_app
+                0x00008ee7       0x74 build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+ .debug_line_end
+                0x00008f5b        0x0 build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+
+.debug_frame    0x00000000     0x15b4
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x2dc build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_frame   0x000002dc      0x11c build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .debug_frame   0x000003f8      0x278 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_frame   0x00000670      0x398 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_frame   0x00000a08       0xd8 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .debug_frame   0x00000ae0       0x7c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .debug_frame   0x00000b5c       0x90 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .debug_frame   0x00000bec       0xd8 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .debug_frame   0x00000cc4       0x78 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .debug_frame   0x00000d3c       0x8c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .debug_frame   0x00000dc8       0x7c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .debug_frame   0x00000e44       0xa0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .debug_frame   0x00000ee4       0x74 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .debug_frame   0x00000f58       0x90 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .debug_frame   0x00000fe8       0x84 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .debug_frame   0x0000106c       0xa8 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .debug_frame   0x00001114       0x88 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .debug_frame   0x0000119c       0x68 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .debug_frame   0x00001204       0x88 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .debug_frame   0x0000128c       0xf8 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .debug_frame   0x00001384       0xa4 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .debug_frame   0x00001428       0xc0 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .debug_frame   0x000014e8       0xcc build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+
+.debug_str      0x00000000    0x16c7f
+ *(.debug_str)
+ .debug_str     0x00000000     0x3d04 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_str     0x00003d04     0x18d2 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .debug_str     0x000055d6      0xcec build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_str     0x000062c2     0x1de5 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_str     0x000080a7      0x974 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .debug_str     0x00008a1b      0xdbd build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene.o
+ .debug_str     0x000097d8      0xa63 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .debug_str     0x0000a23b      0xcb2 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .debug_str     0x0000aeed      0xf31 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .debug_str     0x0000be1e      0xb27 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .debug_str     0x0000c945      0x9d2 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .debug_str     0x0000d317      0xa14 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .debug_str     0x0000dd2b      0xc67 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .debug_str     0x0000e992      0xb26 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .debug_str     0x0000f4b8      0xc30 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .debug_str     0x000100e8      0xae6 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .debug_str     0x00010bce      0xc39 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .debug_str     0x00011807     0x1141 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .debug_str     0x00012948      0xac5 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .debug_str     0x0001340d      0xbc9 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .debug_str     0x00013fd6      0xd84 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .debug_str     0x00014d5a      0x745 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .debug_str     0x0001549f      0x7a3 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .debug_str     0x00015c42     0x103d build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x4b54
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x909 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_loclists
+                0x00000909      0x51c build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .debug_loclists
+                0x00000e25      0x6a3 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_loclists
+                0x000014c8     0x160f build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_loclists
+                0x00002ad7      0x17b build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .debug_loclists
+                0x00002c52      0x155 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .debug_loclists
+                0x00002da7      0x200 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .debug_loclists
+                0x00002fa7      0x37a build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .debug_loclists
+                0x00003321      0x131 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .debug_loclists
+                0x00003452      0x1b0 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .debug_loclists
+                0x00003602      0x12f build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .debug_loclists
+                0x00003731      0x1f2 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .debug_loclists
+                0x00003923      0x117 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .debug_loclists
+                0x00003a3a      0x1c8 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .debug_loclists
+                0x00003c02      0x1c7 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .debug_loclists
+                0x00003dc9      0x230 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .debug_loclists
+                0x00003ff9      0x183 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .debug_loclists
+                0x0000417c      0x11b build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .debug_loclists
+                0x00004297      0x1a4 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .debug_loclists
+                0x0000443b      0x2ed build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .debug_loclists
+                0x00004728      0x15a build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .debug_loclists
+                0x00004882      0x14a build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .debug_loclists
+                0x000049cc      0x188 build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x91d
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x121 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .debug_rnglists
+                0x00000121      0x108 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .debug_rnglists
+                0x00000229       0xbf build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .debug_rnglists
+                0x000002e8      0x224 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .debug_rnglists
+                0x0000050c       0x58 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .debug_rnglists
+                0x00000564       0x26 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .debug_rnglists
+                0x0000058a       0x4d build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .debug_rnglists
+                0x000005d7       0x6a build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .debug_rnglists
+                0x00000641       0x26 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .debug_rnglists
+                0x00000667       0x26 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .debug_rnglists
+                0x0000068d       0x25 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .debug_rnglists
+                0x000006b2       0x38 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .debug_rnglists
+                0x000006ea       0x26 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .debug_rnglists
+                0x00000710       0x2c build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .debug_rnglists
+                0x0000073c       0x25 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .debug_rnglists
+                0x00000761       0x54 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .debug_rnglists
+                0x000007b5       0x26 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .debug_rnglists
+                0x000007db       0x25 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .debug_rnglists
+                0x00000800       0x2b build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .debug_rnglists
+                0x0000082b       0x3e build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .debug_rnglists
+                0x00000869       0x31 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .debug_rnglists
+                0x0000089a       0x49 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .debug_rnglists
+                0x000008e3       0x3a build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_keybinds.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_desktop_view_pin_input.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_furi_hal_rtc.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/desktop_settings/mock_imports/mock_pin_code.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_happy_mode.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_action_type.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_key.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_reset.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_keybinds_type.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_auth.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_disable.o
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_error.o
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_menu.o
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup.o
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_done.o
+ .ARM.attributes
+                0x000003a8       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto.o
+ .ARM.attributes
+                0x000003dc       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_pin_setup_howto2.o
+ .ARM.attributes
+                0x00000410       0x34 build/f7-firmware-C/.extapps/desktop_settings/scenes/desktop_settings_scene_start.o
+ .ARM.attributes
+                0x00000444       0x34 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto.o
+ .ARM.attributes
+                0x00000478       0x34 build/f7-firmware-C/.extapps/desktop_settings/views/desktop_settings_view_pin_setup_howto2.o
+ .ARM.attributes
+                0x000004ac       0x34 build/f7-firmware-C/.extapps/desktop_settings/desktop_settings_app.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/desktop_settings_d.elf elf32-littlearm)
+LOAD linker stubs

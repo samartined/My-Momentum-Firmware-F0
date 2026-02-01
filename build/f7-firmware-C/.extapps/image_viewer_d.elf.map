@@ -1,0 +1,294 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_opv.o)
+                              build/f7-firmware-C/.extapps/image_viewer/src/main.o (operator delete[](void*))
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_opv.o)
+                              build/f7-firmware-C/.extapps/image_viewer/src/main.o (operator new[](unsigned int))
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_opv.o) (operator delete(void*))
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_op.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_opv.o) (operator new(unsigned int))
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_handler.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_op.o) (std::get_new_handler())
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/image_viewer/src/main.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/image_viewer/image_viewer_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/image_viewer/image_viewer_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/image_viewer/image_viewer_icons.o
+ .rodata.I_screenshot
+                0x00000000        0xc build/f7-firmware-C/.extapps/image_viewer/image_viewer_icons.o
+ .rodata._I_screenshot
+                0x00000000        0x4 build/f7-firmware-C/.extapps/image_viewer/image_viewer_icons.o
+ .rodata._I_screenshot_0
+                0x00000000     0x1e70 build/f7-firmware-C/.extapps/image_viewer/image_viewer_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/image_viewer/image_viewer_icons.o
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_opv.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_opv.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_opv.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_opv.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_opv.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_opv.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_op.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_op.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_op.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_handler.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_handler.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_handler.o)
+ .text._ZSt15set_new_handlerPFvvE
+                0x00000000       0x20 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_handler.o)
+ .rodata._ZSt7nothrow
+                0x00000000        0x1 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_handler.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/image_viewer/src/main.o
+LOAD build/f7-firmware-C/.extapps/image_viewer/image_viewer_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x2bc
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text._ZL14input_callbackP10InputEventPv
+                0x00000000       0x14 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+ .text._Z12reverse_bitsh
+                0x00000014       0x26 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+                0x00000014                reverse_bits(unsigned char)
+ *fill*         0x0000003a        0x2 
+ .text._ZL13draw_callbackP6CanvasPv
+                0x0000003c       0xac build/f7-firmware-C/.extapps/image_viewer/src/main.o
+ .text.image_viewer_main
+                0x000000e8      0x194 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+                0x000000e8                image_viewer_main
+ .text._ZdaPv   0x0000027c        0x4 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_opv.o)
+                0x0000027c                operator delete[](void*)
+ .text._Znaj    0x00000280        0x4 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_opv.o)
+                0x00000280                operator new[](unsigned int)
+ .text._ZdlPv   0x00000284        0x4 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+                0x00000284                operator delete(void*)
+ .text._Znwj    0x00000288       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_op.o)
+                0x00000288                operator new(unsigned int)
+ *fill*         0x000002aa        0x2 
+ .text._ZSt15get_new_handlerv
+                0x000002ac       0x10 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_handler.o)
+                0x000002ac                std::get_new_handler()
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000002bc       0x65
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.image_viewer_main.str1.1
+                0x000002bc       0x40 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+ .rodata.I_icon
+                0x000002fc        0xc build/f7-firmware-C/.extapps/image_viewer/image_viewer_icons.o
+                0x000002fc                I_icon
+ .rodata._I_icon
+                0x00000308        0x4 build/f7-firmware-C/.extapps/image_viewer/image_viewer_icons.o
+                0x00000308                _I_icon
+ .rodata._I_icon_0
+                0x0000030c       0x15 build/f7-firmware-C/.extapps/image_viewer/image_viewer_icons.o
+                0x0000030c                _I_icon_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss            0x00000324        0x8
+ *(.bss)
+ *(.bss*)
+ .bss.stream    0x00000324        0x4 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+                0x00000324                stream
+ .bss._ZN12_GLOBAL__N_113__new_handlerE
+                0x00000328        0x4 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_handler.o)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x50
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x38 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+ .debug_aranges
+                0x00000038       0x18 build/f7-firmware-C/.extapps/image_viewer/image_viewer_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2cc3
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2af5 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+ .debug_info    0x00002af5      0x1ce build/f7-firmware-C/.extapps/image_viewer/image_viewer_icons.o
+
+.debug_abbrev   0x00000000      0x4ed
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x42f build/f7-firmware-C/.extapps/image_viewer/src/main.o
+ .debug_abbrev  0x0000042f       0xbe build/f7-firmware-C/.extapps/image_viewer/image_viewer_icons.o
+
+.debug_line     0x00000000      0xb03
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x6f0 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+ .debug_line.text._ZL14input_callbackP10InputEventPv
+                0x000006f0       0x28 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+ .debug_line.text._Z12reverse_bitsh
+                0x00000718       0x3f build/f7-firmware-C/.extapps/image_viewer/src/main.o
+ .debug_line.text._ZL13draw_callbackP6CanvasPv
+                0x00000757       0xb9 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+ .debug_line.text.image_viewer_main
+                0x00000810      0x157 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+ .debug_line_end
+                0x00000967        0x0 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+ .debug_line    0x00000967      0x19c build/f7-firmware-C/.extapps/image_viewer/image_viewer_icons.o
+ .debug_line_end
+                0x00000b03        0x0 build/f7-firmware-C/.extapps/image_viewer/image_viewer_icons.o
+
+.debug_frame    0x00000000       0x90
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x90 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+
+.debug_str      0x00000000     0x19a3
+ *(.debug_str)
+ .debug_str     0x00000000     0x1704 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+ .debug_str     0x00001704      0x29f build/f7-firmware-C/.extapps/image_viewer/image_viewer_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x201
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x201 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x27
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x27 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/image_viewer/src/main.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/image_viewer/image_viewer_icons.o
+ .ARM.attributes
+                0x00000068       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_opv.o)
+ .ARM.attributes
+                0x0000009c       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_opv.o)
+ .ARM.attributes
+                0x000000d0       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+ .ARM.attributes
+                0x00000104       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_op.o)
+ .ARM.attributes
+                0x00000138       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(new_handler.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/image_viewer_d.elf elf32-littlearm)
+LOAD linker stubs

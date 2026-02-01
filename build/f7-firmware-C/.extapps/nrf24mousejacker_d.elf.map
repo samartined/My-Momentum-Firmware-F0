@@ -1,0 +1,580 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                              build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o (nrf24_init)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+ .text.nrf_strcat
+                0x00000000       0x1e build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+ .debug_line.text.nrf_strcat
+                0x00000000       0x59 build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24_mouse_jacker_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24_mouse_jacker_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24_mouse_jacker_icons.o
+ .debug_info    0x00000000       0x7a build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24_mouse_jacker_icons.o
+ .debug_abbrev  0x00000000       0x26 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24_mouse_jacker_icons.o
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24_mouse_jacker_icons.o
+ .debug_line    0x00000000       0x69 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24_mouse_jacker_icons.o
+ .debug_str     0x00000000      0x20f build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24_mouse_jacker_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24_mouse_jacker_icons.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24_mouse_jacker_icons.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.nrf24_get_maclen
+                0x00000000       0x20 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.nrf24_get_rate
+                0x00000000       0x48 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.nrf24_set_rate
+                0x00000000       0x64 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.nrf24_get_chan
+                0x00000000       0x20 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.nrf24_set_chan
+                0x00000000        0xc build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.nrf24_get_src_mac
+                0x00000000       0x24 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.nrf24_get_dst_mac
+                0x00000000       0x24 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.nrf24_get_packetlen
+                0x00000000       0x20 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.nrf24_set_packetlen
+                0x00000000        0xc build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.nrf24_rxpacket
+                0x00000000       0xd0 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.nrf24_power_up
+                0x00000000       0x44 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.nrf24_set_rx_mode
+                0x00000000       0x50 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.nrf24_init_promisc_mode
+                0x00000000       0xb0 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .rodata.hexlify.str1.1
+                0x00000000        0x5 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.hexlify  0x00000000       0x4c build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.bytes_to_int64
+                0x00000000       0x2e build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.int64_to_bytes
+                0x00000000       0x42 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.bytes_to_int32
+                0x00000000       0x26 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.bytes_to_int16
+                0x00000000        0xc build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.int16_to_bytes
+                0x00000000       0x12 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.alt_address_old
+                0x00000000       0x64 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.validate_address
+                0x00000000       0x58 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .text.nrf24_sniff_address
+                0x00000000       0x58 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_get_maclen
+                0x00000000       0x27 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_get_rate
+                0x00000000       0x4b build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_rate
+                0x00000000       0x88 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_get_chan
+                0x00000000       0x25 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_chan
+                0x00000000       0x1f build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_get_src_mac
+                0x00000000       0x35 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_get_dst_mac
+                0x00000000       0x35 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_get_packetlen
+                0x00000000       0x25 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_packetlen
+                0x00000000       0x1f build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_rxpacket
+                0x00000000       0xab build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_power_up
+                0x00000000       0x48 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_rx_mode
+                0x00000000       0x6d build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_init_promisc_mode
+                0x00000000       0x68 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.hexlify
+                0x00000000       0x66 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.bytes_to_int64
+                0x00000000       0x5a build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.int64_to_bytes
+                0x00000000       0x53 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.bytes_to_int32
+                0x00000000       0x56 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.bytes_to_int16
+                0x00000000       0x44 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.int16_to_bytes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.alt_address_old
+                0x00000000       0x68 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.validate_address
+                0x00000000       0x7e build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_sniff_address
+                0x00000000       0x87 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+LOAD build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+LOAD build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+LOAD build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24_mouse_jacker_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24
+
+.text           0x00000000     0x1a00
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.input_callback
+                0x00000000       0x28 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .text.render_callback
+                0x00000028      0x254 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .text.mj_worker_thread
+                0x0000027c      0x224 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .text.hexlify.constprop.0
+                0x000004a0       0x44 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .text.mousejacker_app
+                0x000004e4      0x4d8 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+                0x000004e4                mousejacker_app
+ .text.mj_ducky_get_command_len
+                0x000009bc       0x24 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .text.mj_get_ducky_key
+                0x000009e0       0x58 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .text.inject_packet
+                0x00000a38       0x6c build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .text.build_hid_packet
+                0x00000aa4       0x30 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .text.release_key
+                0x00000ad4       0x70 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .text.send_hid_packet
+                0x00000b44       0xac build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .text.mj_process_ducky_line
+                0x00000bf0      0x620 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .text.mj_process_ducky_script
+                0x00001210       0xe4 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+                0x00001210                mj_process_ducky_script
+ .text.nrf_strtok
+                0x000012f4       0x54 build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+                0x000012f4                nrf_strtok
+ .text.nrf24_init
+                0x00001348       0x88 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x00001348                nrf24_init
+ .text.nrf24_deinit
+                0x000013d0       0x84 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x000013d0                nrf24_deinit
+ .text.nrf24_spi_trx
+                0x00001454       0x28 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x00001454                nrf24_spi_trx
+ .text.nrf24_write_reg
+                0x0000147c       0x34 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x0000147c                nrf24_write_reg
+ .text.nrf24_write_buf_reg
+                0x000014b0       0x78 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x000014b0                nrf24_write_buf_reg
+ .text.nrf24_read_reg
+                0x00001528       0x80 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x00001528                nrf24_read_reg
+ .text.nrf24_flush_rx
+                0x000015a8       0x2c build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x000015a8                nrf24_flush_rx
+ .text.nrf24_flush_tx
+                0x000015d4       0x2c build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x000015d4                nrf24_flush_tx
+ .text.nrf24_set_maclen
+                0x00001600       0x10 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x00001600                nrf24_set_maclen
+ .text.nrf24_status
+                0x00001610       0x28 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x00001610                nrf24_status
+ .text.nrf24_set_src_mac
+                0x00001638       0x44 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x00001638                nrf24_set_src_mac
+ .text.nrf24_set_dst_mac
+                0x0000167c       0x44 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x0000167c                nrf24_set_dst_mac
+ .text.nrf24_set_idle
+                0x000016c0       0x40 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x000016c0                nrf24_set_idle
+ .text.nrf24_set_tx_mode
+                0x00001700       0x64 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x00001700                nrf24_set_tx_mode
+ .text.nrf24_txpacket
+                0x00001764       0xc4 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x00001764                nrf24_txpacket
+ .text.nrf24_configure
+                0x00001828       0xf0 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x00001828                nrf24_configure
+ .text.int32_to_bytes
+                0x00001918       0x26 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x00001918                int32_to_bytes
+ *fill*         0x0000193e        0x2 
+ .text.nrf24_find_channel
+                0x00001940       0xac build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x00001940                nrf24_find_channel
+ .text.nrf24_check_connected
+                0x000019ec       0x14 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+                0x000019ec                nrf24_check_connected
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00001a00      0x5d3
+ *(.rodata)
+ .rodata        0x00001a00        0xa build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .rodata        0x00001a0a       0x11 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.render_callback.str1.1
+                0x00001a1b      0x185 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .rodata.mj_worker_thread.str1.1
+                0x00001ba0       0xb0 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .rodata.hexlify.constprop.0.str1.1
+                0x00001c50        0x5 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .rodata.mousejacker_app.str1.1
+                0x00001c55       0x8d build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .rodata.mj_process_ducky_line.str1.1
+                0x00001ce2       0xfa build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .rodata.mj_process_ducky_script.str1.1
+                0x00001ddc       0x2c build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .rodata.str1.1
+                0x00001e08      0x17d build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .rodata.ducky_cmd_repeat
+                0x00001f85        0x8 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .rodata.ducky_cmd_altstring
+                0x00001f8d        0xb build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .rodata.ducky_cmd_string
+                0x00001f98        0x8 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .rodata.ducky_cmd_delay
+                0x00001fa0        0x7 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .rodata.ducky_cmd_comment
+                0x00001fa7        0x4 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .rodata.nrf24_find_channel.str1.1
+                0x00001fab       0x28 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+
+.data           0x00001fd4      0x4c3
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.target_address_str
+                0x00001fd4        0xc build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+                0x00001fd4                target_address_str
+ .data.target_fmt_text
+                0x00001fe0       0x10 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+                0x00001fe0                target_fmt_text
+ .data.mj_ducky_keys
+                0x00001ff0      0x498 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+                0x00001ff0                mj_ducky_keys
+ .data.LOGITECH_KEEPALIVE
+                0x00002488        0x5 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .data.LOGITECH_HELLO
+                0x0000248d        0xa build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+
+.bss            0x00002498      0x2a0
+ *(.bss)
+ *(.bss*)
+ .bss.index_text
+                0x00002498       0x1e build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+                0x00002498                index_text
+ .bss.target_text
+                0x000024b6       0x1e build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+                0x000024b6                target_text
+ .bss.loaded_addrs
+                0x000024d4      0x258 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+                0x000024d4                loaded_addrs
+ .bss.addr_idx  0x0000272c        0x1 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+                0x0000272c                addr_idx
+ .bss.addrs_count
+                0x0000272d        0x1 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+                0x0000272d                addrs_count
+ .bss.holding_gui
+                0x0000272e        0x1 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .bss.holding_alt
+                0x0000272f        0x1 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .bss.holding_shift
+                0x00002730        0x1 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .bss.holding_ctrl
+                0x00002731        0x1 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .bss.prev_hid  0x00002732        0x1 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+                0x00002732                prev_hid
+ *fill*         0x00002733        0x1 
+ .bss.last.0    0x00002734        0x4 build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x220
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x40 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .debug_aranges
+                0x00000040       0x58 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .debug_aranges
+                0x00000098       0x28 build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+ .debug_aranges
+                0x000000c0      0x160 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x7afa
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2e12 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .debug_info    0x00002e12     0x1cc2 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .debug_info    0x00004ad4      0x1fa build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+ .debug_info    0x00004cce     0x2e2c build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+
+.debug_abbrev   0x00000000      0xf5a
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x514 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .debug_abbrev  0x00000514      0x3d2 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .debug_abbrev  0x000008e6      0x17e build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+ .debug_abbrev  0x00000a64      0x4f6 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+
+.debug_line     0x00000000     0x25e2
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x64b build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .debug_line.text.input_callback
+                0x0000064b       0x30 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .debug_line.text.render_callback
+                0x0000067b       0xc0 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .debug_line.text.mj_worker_thread
+                0x0000073b      0x1c3 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .debug_line.text.hexlify.constprop.0
+                0x000008fe       0x44 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .debug_line.text.mousejacker_app
+                0x00000942      0x41d build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .debug_line_end
+                0x00000d5f        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .debug_line    0x00000d5f      0x40e build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .debug_line.text.mj_ducky_get_command_len
+                0x0000116d       0x53 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .debug_line.text.mj_get_ducky_key
+                0x000011c0       0x72 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .debug_line.text.inject_packet
+                0x00001232       0x64 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .debug_line.text.build_hid_packet
+                0x00001296       0x68 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .debug_line.text.release_key
+                0x000012fe       0x65 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .debug_line.text.send_hid_packet
+                0x00001363       0x72 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .debug_line.text.mj_process_ducky_line
+                0x000013d5      0x532 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .debug_line.text.mj_process_ducky_script
+                0x00001907       0x98 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .debug_line_end
+                0x0000199f        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .debug_line    0x0000199f       0x53 build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+ .debug_line.text.nrf_strtok
+                0x000019f2       0xc4 build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+ .debug_line_end
+                0x00001ab6        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+ .debug_line    0x00001ab6      0x3df build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_init
+                0x00001e95       0xd8 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_deinit
+                0x00001f6d       0x7c build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_spi_trx
+                0x00001fe9       0x75 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_write_reg
+                0x0000205e       0x31 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_write_buf_reg
+                0x0000208f       0x63 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_read_reg
+                0x000020f2       0x61 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_flush_rx
+                0x00002153       0x2d build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_flush_tx
+                0x00002180       0x2d build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_maclen
+                0x000021ad       0x1d build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_status
+                0x000021ca       0x26 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_src_mac
+                0x000021f0       0x49 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_dst_mac
+                0x00002239       0x49 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_idle
+                0x00002282       0x67 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_tx_mode
+                0x000022e9       0xbd build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_txpacket
+                0x000023a6       0x93 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_configure
+                0x00002439       0xa7 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.int32_to_bytes
+                0x000024e0       0x52 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_find_channel
+                0x00002532       0x8b build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line.text.nrf24_check_connected
+                0x000025bd       0x25 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ .debug_line_end
+                0x000025e2        0x0 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+
+.debug_frame    0x00000000      0x7bc
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xe4 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .debug_frame   0x000000e4      0x14c build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .debug_frame   0x00000230       0x44 build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+ .debug_frame   0x00000274      0x548 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+
+.debug_str      0x00000000     0x3b89
+ *(.debug_str)
+ .debug_str     0x00000000     0x1d7c build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .debug_str     0x00001d7c      0x917 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .debug_str     0x00002693      0x237 build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+ .debug_str     0x000028ca     0x12bf build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x1e4c
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x6c3 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .debug_loclists
+                0x000006c3      0x6b4 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .debug_loclists
+                0x00000d77      0x13b build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+ .debug_loclists
+                0x00000eb2      0xf9a build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x3a5
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xe7 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .debug_rnglists
+                0x000000e7       0xda build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .debug_rnglists
+                0x000001c1       0x28 build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+ .debug_rnglists
+                0x000001e9      0x1bc build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/nrf24mousejacker/mousejacker_ducky.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/nrf24mousejacker/stdstring.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24_mouse_jacker_icons.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/nrf24mousejacker/nrf24(nrf24.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/nrf24mousejacker_d.elf elf32-littlearm)
+LOAD linker stubs

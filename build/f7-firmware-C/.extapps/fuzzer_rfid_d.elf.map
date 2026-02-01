@@ -1,0 +1,1068 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+                              build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o (fuzzer_worker_load_key_from_file)
+build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+                              build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o (fuzzer_payload_alloc)
+build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+                              build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o) (hardware_worker_alloc)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .text.fuzzer_start_ibtn
+                0x00000000       0x40 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .debug_line.text.fuzzer_start_ibtn
+                0x00000000       0x49 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer_icons.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .rodata.uid_list_cyfral
+                0x00000000       0x20 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .rodata.uid_list_metakom
+                0x00000000       0x44 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .rodata.uid_list_ds1990
+                0x00000000      0x790 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene.o
+LOAD build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+LOAD build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+LOAD build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+LOAD build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+LOAD build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+LOAD build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+LOAD build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+LOAD build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+LOAD build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+LOAD build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/.extapps/fuzzer_rfid/worker
+
+.text           0x00000000     0x22bc
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.fuzzer_scene_attack_update_uid
+                0x00000000       0x20 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .text.fuzzer_scene_attack_worker_tick_callback
+                0x00000020       0x24 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+                0x00000020                fuzzer_scene_attack_worker_tick_callback
+ .text.fuzzer_scene_attack_worker_end_callback
+                0x00000044        0xc build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+                0x00000044                fuzzer_scene_attack_worker_end_callback
+ .text.fuzzer_scene_attack_callback
+                0x00000050       0x10 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+                0x00000050                fuzzer_scene_attack_callback
+ .text.fuzzer_scene_attack_set_state
+                0x00000060       0x58 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .text.fuzzer_scene_attack_on_enter
+                0x000000b8       0x8c build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+                0x000000b8                fuzzer_scene_attack_on_enter
+ .text.fuzzer_scene_attack_on_event
+                0x00000144      0x108 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+                0x00000144                fuzzer_scene_attack_on_event
+ .text.fuzzer_scene_attack_on_exit
+                0x0000024c       0x24 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+                0x0000024c                fuzzer_scene_attack_on_exit
+ .text.fuzzer_scene_field_editor_callback
+                0x00000270       0x10 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+                0x00000270                fuzzer_scene_field_editor_callback
+ .text.fuzzer_scene_field_editor_on_enter
+                0x00000280       0x68 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+                0x00000280                fuzzer_scene_field_editor_on_enter
+ .text.fuzzer_scene_field_editor_on_event
+                0x000002e8       0x84 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+                0x000002e8                fuzzer_scene_field_editor_on_event
+ .text.fuzzer_scene_field_editor_on_exit
+                0x0000036c        0x2 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+                0x0000036c                fuzzer_scene_field_editor_on_exit
+ *fill*         0x0000036e        0x2 
+ .text.fuzzer_scene_main_callback
+                0x00000370       0x10 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+                0x00000370                fuzzer_scene_main_callback
+ .text.fuzzer_scene_main_error_popup_callback
+                0x00000380       0x24 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+                0x00000380                fuzzer_scene_main_error_popup_callback
+ .text.fuzzer_scene_main_show_error
+                0x000003a4       0x48 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .text.fuzzer_scene_main_on_enter
+                0x000003ec       0x74 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+                0x000003ec                fuzzer_scene_main_on_enter
+ .text.fuzzer_scene_main_on_event
+                0x00000460      0x208 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+                0x00000460                fuzzer_scene_main_on_event
+ .text.fuzzer_scene_main_on_exit
+                0x00000668        0x2 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+                0x00000668                fuzzer_scene_main_on_exit
+ *fill*         0x0000066a        0x2 
+ .text.fuzzer_scene_save_name_text_input_callback
+                0x0000066c        0xc build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .text.fuzzer_scene_save_name_on_enter
+                0x00000678       0x80 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+                0x00000678                fuzzer_scene_save_name_on_enter
+ .text.fuzzer_scene_save_name_on_event
+                0x000006f8       0x70 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+                0x000006f8                fuzzer_scene_save_name_on_event
+ .text.fuzzer_scene_save_name_on_exit
+                0x00000768       0x38 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+                0x00000768                fuzzer_scene_save_name_on_exit
+ .text.fuzzer_scene_save_popup_timeout_callback
+                0x000007a0        0xc build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .text.fuzzer_scene_save_success_on_enter
+                0x000007ac       0x7c build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+                0x000007ac                fuzzer_scene_save_success_on_enter
+ .text.fuzzer_scene_save_success_on_event
+                0x00000828       0x38 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+                0x00000828                fuzzer_scene_save_success_on_event
+ .text.fuzzer_scene_save_success_on_exit
+                0x00000860        0xc build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+                0x00000860                fuzzer_scene_save_success_on_exit
+ .text.fuzzer_view_attack_enter
+                0x0000086c        0x2 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+                0x0000086c                fuzzer_view_attack_enter
+ *fill*         0x0000086e        0x2 
+ .text.fuzzer_view_attack_exit
+                0x00000870       0x24 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+                0x00000870                fuzzer_view_attack_exit
+ .text.fuzzer_view_attack_input
+                0x00000894      0x1b0 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+                0x00000894                fuzzer_view_attack_input
+ .text.fuzzer_view_attack_draw
+                0x00000a44      0x3a8 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+                0x00000a44                fuzzer_view_attack_draw
+ .text.fuzzer_view_attack_reset_data
+                0x00000dec       0x3c build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+                0x00000dec                fuzzer_view_attack_reset_data
+ .text.fuzzer_view_attack_set_uid
+                0x00000e28       0x60 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+                0x00000e28                fuzzer_view_attack_set_uid
+ .text.fuzzer_view_update_state
+                0x00000e88       0x24 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+                0x00000e88                fuzzer_view_update_state
+ .text.fuzzer_view_attack_set_callback
+                0x00000eac        0x6 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+                0x00000eac                fuzzer_view_attack_set_callback
+ *fill*         0x00000eb2        0x2 
+ .text.fuzzer_view_attack_alloc
+                0x00000eb4       0xe0 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+                0x00000eb4                fuzzer_view_attack_alloc
+ .text.fuzzer_view_attack_free
+                0x00000f94       0x3c build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+                0x00000f94                fuzzer_view_attack_free
+ .text.fuzzer_view_attack_get_view
+                0x00000fd0        0x4 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+                0x00000fd0                fuzzer_view_attack_get_view
+ .text.fuzzer_view_attack_get_time_delay
+                0x00000fd4       0x20 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+                0x00000fd4                fuzzer_view_attack_get_time_delay
+ .text.fuzzer_view_attack_get_emu_time
+                0x00000ff4       0x20 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+                0x00000ff4                fuzzer_view_attack_get_emu_time
+ .text.fuzzer_view_field_editor_enter
+                0x00001014        0x2 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+                0x00001014                fuzzer_view_field_editor_enter
+ *fill*         0x00001016        0x2 
+ .text.fuzzer_view_field_editor_draw
+                0x00001018      0x240 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+                0x00001018                fuzzer_view_field_editor_draw
+ .text.fuzzer_view_field_editor_input
+                0x00001258      0x124 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+                0x00001258                fuzzer_view_field_editor_input
+ .text.fuzzer_view_field_editor_exit
+                0x0000137c        0x2 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+                0x0000137c                fuzzer_view_field_editor_exit
+ .text.fuzzer_view_field_editor_set_callback
+                0x0000137e        0x6 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+                0x0000137e                fuzzer_view_field_editor_set_callback
+ .text.fuzzer_view_field_editor_reset_data
+                0x00001384       0x40 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+                0x00001384                fuzzer_view_field_editor_reset_data
+ .text.fuzzer_view_field_editor_get_uid
+                0x000013c4       0x30 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+                0x000013c4                fuzzer_view_field_editor_get_uid
+ .text.fuzzer_view_field_editor_get_index
+                0x000013f4       0x20 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+                0x000013f4                fuzzer_view_field_editor_get_index
+ .text.fuzzer_view_field_editor_alloc
+                0x00001414       0xa4 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+                0x00001414                fuzzer_view_field_editor_alloc
+ .text.fuzzer_view_field_editor_free
+                0x000014b8       0x44 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+                0x000014b8                fuzzer_view_field_editor_free
+ .text.fuzzer_view_field_editor_get_view
+                0x000014fc        0x4 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+                0x000014fc                fuzzer_view_field_editor_get_view
+ .text.fuzzer_view_main_enter
+                0x00001500        0x2 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+                0x00001500                fuzzer_view_main_enter
+ *fill*         0x00001502        0x2 
+ .text.fuzzer_view_main_input
+                0x00001504       0xa4 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+                0x00001504                fuzzer_view_main_input
+ .text.fuzzer_view_main_draw
+                0x000015a8       0xe4 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+                0x000015a8                fuzzer_view_main_draw
+ .text.fuzzer_view_main_exit
+                0x0000168c        0x2 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+                0x0000168c                fuzzer_view_main_exit
+ *fill*         0x0000168e        0x2 
+ .text.fuzzer_view_main_update_data
+                0x00001690       0x30 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+                0x00001690                fuzzer_view_main_update_data
+ .text.fuzzer_view_main_get_state
+                0x000016c0       0x28 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+                0x000016c0                fuzzer_view_main_get_state
+ .text.fuzzer_view_main_set_callback
+                0x000016e8        0x6 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+                0x000016e8                fuzzer_view_main_set_callback
+ *fill*         0x000016ee        0x2 
+ .text.fuzzer_view_main_alloc
+                0x000016f0       0xa8 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+                0x000016f0                fuzzer_view_main_alloc
+ .text.fuzzer_view_main_free
+                0x00001798       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+                0x00001798                fuzzer_view_main_free
+ .text.fuzzer_view_main_get_view
+                0x000017b4        0x4 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+                0x000017b4                fuzzer_view_main_get_view
+ .text.fuzzer_app_tick_event_callback
+                0x000017b8        0xc build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .text.fuzzer_app_back_event_callback
+                0x000017c4        0xc build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .text.fuzzer_app_custom_event_callback
+                0x000017d0        0xc build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .text.fuzzer_app_alloc
+                0x000017dc      0x164 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+                0x000017dc                fuzzer_app_alloc
+ .text.fuzzer_app_free
+                0x00001940       0xbc build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+                0x00001940                fuzzer_app_free
+ .text.fuzzer_start_rfid
+                0x000019fc       0x40 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+                0x000019fc                fuzzer_start_rfid
+ .text.fuzzer_worker_load_key
+                0x00001a3c      0x14c build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .text.fuzzer_worker_set_protocol
+                0x00001b88       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .text.fuzzer_worker_load_key_from_file
+                0x00001bbc       0xa8 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+                0x00001bbc                fuzzer_worker_load_key_from_file
+ .text.fuzzer_worker_save_key
+                0x00001c64       0x74 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+                0x00001c64                fuzzer_worker_save_key
+ .text.fuzzer_worker_get_current_key
+                0x00001cd8       0x18 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+                0x00001cd8                fuzzer_worker_get_current_key
+ .text.fuzzer_worker_next_key
+                0x00001cf0        0xc build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+                0x00001cf0                fuzzer_worker_next_key
+ .text.fuzzer_worker_previous_key
+                0x00001cfc       0xa0 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+                0x00001cfc                fuzzer_worker_previous_key
+ .text.fuzzer_worker_init_attack_dict
+                0x00001d9c       0x2c build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+                0x00001d9c                fuzzer_worker_init_attack_dict
+ .text.fuzzer_worker_init_attack_file_dict
+                0x00001dc8       0x90 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+                0x00001dc8                fuzzer_worker_init_attack_file_dict
+ .text.fuzzer_worker_init_attack_bf_byte
+                0x00001e58       0x48 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+                0x00001e58                fuzzer_worker_init_attack_bf_byte
+ .text.fuzzer_worker_alloc
+                0x00001ea0       0xe4 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+                0x00001ea0                fuzzer_worker_alloc
+ .text.fuzzer_worker_start
+                0x00001f84       0x78 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+                0x00001f84                fuzzer_worker_start
+ .text.fuzzer_worker_start_emulate
+                0x00001ffc        0xc build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+                0x00001ffc                fuzzer_worker_start_emulate
+ .text.fuzzer_worker_pause
+                0x00002008       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+                0x00002008                fuzzer_worker_pause
+ .text.fuzzer_worker_on_tick_callback
+                0x00002024       0x7c build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .text.fuzzer_worker_stop
+                0x000020a0       0x38 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+                0x000020a0                fuzzer_worker_stop
+ .text.fuzzer_worker_free
+                0x000020d8       0x40 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+                0x000020d8                fuzzer_worker_free
+ .text.fuzzer_worker_set_uid_chaged_callback
+                0x00002118        0x6 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+                0x00002118                fuzzer_worker_set_uid_chaged_callback
+ .text.fuzzer_worker_set_end_callback
+                0x0000211e        0x6 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+                0x0000211e                fuzzer_worker_set_end_callback
+ .text.fuzzer_payload_alloc
+                0x00002124       0x18 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+                0x00002124                fuzzer_payload_alloc
+ .text.fuzzer_payload_free
+                0x0000213c       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+                0x0000213c                fuzzer_payload_free
+ .text.fuzzer_proto_get_name
+                0x00002158        0xc build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+                0x00002158                fuzzer_proto_get_name
+ .text.fuzzer_proto_get_count_of_protocols
+                0x00002164        0x4 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+                0x00002164                fuzzer_proto_get_count_of_protocols
+ .text.fuzzer_proto_get_max_data_size
+                0x00002168        0x4 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+                0x00002168                fuzzer_proto_get_max_data_size
+ .text.fuzzer_proto_get_def_emu_time
+                0x0000216c        0x4 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+                0x0000216c                fuzzer_proto_get_def_emu_time
+ .text.fuzzer_proto_get_def_idle_time
+                0x00002170        0x4 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+                0x00002170                fuzzer_proto_get_def_idle_time
+ .text.fuzzer_proto_get_menu_label
+                0x00002174        0xc build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+                0x00002174                fuzzer_proto_get_menu_label
+ .text.fuzzer_proto_get_attack_id_by_index
+                0x00002180       0x10 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+                0x00002180                fuzzer_proto_get_attack_id_by_index
+ .text.fuzzer_proto_get_count_of_menu_items
+                0x00002190        0x4 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+                0x00002190                fuzzer_proto_get_count_of_menu_items
+ .text.hardware_worker_alloc
+                0x00002194       0x30 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+                0x00002194                hardware_worker_alloc
+ .text.hardware_worker_free
+                0x000021c4       0x28 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+                0x000021c4                hardware_worker_free
+ .text.hardware_worker_start_thread
+                0x000021ec        0xc build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+                0x000021ec                hardware_worker_start_thread
+ .text.hardware_worker_stop_thread
+                0x000021f8       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+                0x000021f8                hardware_worker_stop_thread
+ .text.hardware_worker_emulate_start
+                0x00002214        0xc build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+                0x00002214                hardware_worker_emulate_start
+ .text.hardware_worker_stop
+                0x00002220        0xc build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+                0x00002220                hardware_worker_stop
+ .text.hardware_worker_set_protocol_data
+                0x0000222c       0x18 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+                0x0000222c                hardware_worker_set_protocol_data
+ .text.hardware_worker_get_protocol_data
+                0x00002244       0x18 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+                0x00002244                hardware_worker_get_protocol_data
+ .text.hardware_worker_set_protocol_id_by_name
+                0x0000225c       0x18 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+                0x0000225c                hardware_worker_set_protocol_id_by_name
+ .text.hardware_worker_get_protocol_id
+                0x00002274        0x4 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+                0x00002274                hardware_worker_get_protocol_id
+ .text.hardware_worker_load_key_from_file
+                0x00002278       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+                0x00002278                hardware_worker_load_key_from_file
+ .text.hardware_worker_save_key
+                0x000022ac       0x10 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+                0x000022ac                hardware_worker_save_key
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000022bc      0x7e7
+ *(.rodata)
+ .rodata        0x000022bc       0x30 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.fuzzer_scene_handlers
+                0x000022ec       0x10 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene.o
+                0x000022ec                fuzzer_scene_handlers
+ .rodata.fuzzer_scene_on_exit_handlers
+                0x000022fc       0x14 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene.o
+                0x000022fc                fuzzer_scene_on_exit_handlers
+ .rodata.fuzzer_scene_on_event_handlers
+                0x00002310       0x14 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene.o
+                0x00002310                fuzzer_scene_on_event_handlers
+ .rodata.fuzzer_scene_on_enter_handlers
+                0x00002324       0x14 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene.o
+                0x00002324                fuzzer_scene_on_enter_handlers
+ .rodata.sequence_one_red_50_on_blink_blue
+                0x00002338       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+                0x00002338                sequence_one_red_50_on_blink_blue
+ .rodata.fuzzer_scene_main_on_event.str1.1
+                0x00002354       0xad build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .rodata.fuzzer_scene_save_name_on_enter.str1.1
+                0x00002401        0xd build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .rodata.fuzzer_scene_save_name_on_event.str1.1
+                0x0000240e        0x8 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .rodata.fuzzer_scene_save_success_on_enter.str1.1
+                0x00002416        0x7 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .rodata.fuzzer_view_attack_draw.str1.1
+                0x0000241d       0xbc build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .rodata.fuzzer_view_attack_reset_data.str1.1
+                0x000024d9        0x8 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .rodata.fuzzer_view_attack_set_uid.str1.1
+                0x000024e1        0xb build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .rodata.fuzzer_view_attack_alloc.str1.1
+                0x000024ec       0x24 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .rodata.fuzzer_view_field_editor_draw.str1.1
+                0x00002510       0x48 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .rodata.fuzzer_view_main_draw.str1.1
+                0x00002558        0x4 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .rodata.fuzzer_app_alloc.str1.1
+                0x0000255c       0x19 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .rodata.str1.1
+                0x00002575       0x5b build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .rodata.I_rfid_10px
+                0x000025d0        0xc build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer_icons.o
+                0x000025d0                I_rfid_10px
+ .rodata._I_rfid_10px
+                0x000025dc        0x4 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer_icons.o
+                0x000025dc                _I_rfid_10px
+ .rodata._I_rfid_10px_0
+                0x000025e0       0x15 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer_icons.o
+                0x000025e0                _I_rfid_10px_0
+ .rodata.fuzzer_worker_load_key.str1.1
+                0x000025f5       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .rodata.fuzzer_worker_load_key_from_file.str1.1
+                0x00002629       0x41 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .rodata.fuzzer_worker_save_key.str1.1
+                0x0000266a       0x53 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .rodata.fuzzer_worker_alloc.str1.1
+                0x000026bd       0x56 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .rodata.fuzzer_worker_start.str1.1
+                0x00002713       0x20 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .rodata.str1.1
+                0x00002733       0xb9 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .rodata.fuzzer_menu_items
+                0x000027ec       0x20 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+                0x000027ec                fuzzer_menu_items
+ .rodata.fuzzer_proto_items
+                0x0000280c       0xf0 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+                0x0000280c                fuzzer_proto_items
+ .rodata.uid_list_8byte
+                0x000028fc       0x70 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+                0x000028fc                uid_list_8byte
+ .rodata.uid_list_3byte
+                0x0000296c       0x2a build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+                0x0000296c                uid_list_3byte
+ .rodata.uid_list_4byte
+                0x00002996       0x44 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+                0x00002996                uid_list_4byte
+ .rodata.uid_list_6byte
+                0x000029da       0x54 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+                0x000029da                uid_list_6byte
+ .rodata.uid_list_5byte
+                0x00002a2e       0x55 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+                0x00002a2e                uid_list_5byte
+ .rodata.hardware_worker_load_key_from_file.str1.1
+                0x00002a83       0x20 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x4b0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene.o
+ .debug_aranges
+                0x00000018       0x58 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .debug_aranges
+                0x00000070       0x38 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+ .debug_aranges
+                0x000000a8       0x48 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .debug_aranges
+                0x000000f0       0x38 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .debug_aranges
+                0x00000128       0x38 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .debug_aranges
+                0x00000160       0x80 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_aranges
+                0x000001e0       0x70 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_aranges
+                0x00000250       0x68 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_aranges
+                0x000002b8       0x50 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .debug_aranges
+                0x00000308       0x18 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer_icons.o
+ .debug_aranges
+                0x00000320       0xb0 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_aranges
+                0x000003d0       0x68 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_aranges
+                0x00000438       0x78 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xbd59
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x363 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene.o
+ .debug_info    0x00000363     0x10a0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .debug_info    0x00001403      0xa3d build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+ .debug_info    0x00001e40     0x13de build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .debug_info    0x0000321e      0xb57 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .debug_info    0x00003d75      0xa2d build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .debug_info    0x000047a2     0x1a67 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_info    0x00006209     0x1426 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_info    0x0000762f      0xe0a build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_info    0x00008439     0x100a build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .debug_info    0x00009443      0x184 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer_icons.o
+ .debug_info    0x000095c7     0x1773 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_info    0x0000ad3a      0x578 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_info    0x0000b2b2      0xaa7 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+
+.debug_abbrev   0x00000000     0x2601
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x137 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene.o
+ .debug_abbrev  0x00000137      0x29f build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .debug_abbrev  0x000003d6      0x222 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+ .debug_abbrev  0x000005f8      0x33b build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .debug_abbrev  0x00000933      0x22e build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .debug_abbrev  0x00000b61      0x229 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .debug_abbrev  0x00000d8a      0x4b0 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_abbrev  0x0000123a      0x461 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_abbrev  0x0000169b      0x2f3 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_abbrev  0x0000198e      0x2bd build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .debug_abbrev  0x00001c4b       0xb1 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer_icons.o
+ .debug_abbrev  0x00001cfc      0x44e build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_abbrev  0x0000214a      0x262 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_abbrev  0x000023ac      0x255 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+
+.debug_line     0x00000000     0x5b87
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x1a6 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene.o
+ .debug_line_end
+                0x000001a6        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene.o
+ .debug_line    0x000001a6      0x4df build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .debug_line.text.fuzzer_scene_attack_update_uid
+                0x00000685       0x32 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .debug_line.text.fuzzer_scene_attack_worker_tick_callback
+                0x000006b7       0x31 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .debug_line.text.fuzzer_scene_attack_worker_end_callback
+                0x000006e8       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .debug_line.text.fuzzer_scene_attack_callback
+                0x00000704       0x25 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .debug_line.text.fuzzer_scene_attack_set_state
+                0x00000729       0x55 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .debug_line.text.fuzzer_scene_attack_on_enter
+                0x0000077e       0x31 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .debug_line.text.fuzzer_scene_attack_on_event
+                0x000007af       0xa8 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .debug_line.text.fuzzer_scene_attack_on_exit
+                0x00000857       0x35 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .debug_line_end
+                0x0000088c        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .debug_line    0x0000088c      0x59b build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+ .debug_line.text.fuzzer_scene_field_editor_callback
+                0x00000e27       0x22 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+ .debug_line.text.fuzzer_scene_field_editor_on_enter
+                0x00000e49       0x50 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+ .debug_line.text.fuzzer_scene_field_editor_on_event
+                0x00000e99       0x77 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+ .debug_line.text.fuzzer_scene_field_editor_on_exit
+                0x00000f10       0x18 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+ .debug_line_end
+                0x00000f28        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+ .debug_line    0x00000f28      0x63c build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .debug_line.text.fuzzer_scene_main_callback
+                0x00001564       0x22 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .debug_line.text.fuzzer_scene_main_error_popup_callback
+                0x00001586       0x27 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .debug_line.text.fuzzer_scene_main_show_error
+                0x000015ad       0x32 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .debug_line.text.fuzzer_scene_main_on_enter
+                0x000015df       0x39 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .debug_line.text.fuzzer_scene_main_on_event
+                0x00001618      0x1a3 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .debug_line.text.fuzzer_scene_main_on_exit
+                0x000017bb       0x19 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .debug_line_end
+                0x000017d4        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .debug_line    0x000017d4      0x54a build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .debug_line.text.fuzzer_scene_save_name_text_input_callback
+                0x00001d1e       0x15 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .debug_line.text.fuzzer_scene_save_name_on_enter
+                0x00001d33       0x4f build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .debug_line.text.fuzzer_scene_save_name_on_event
+                0x00001d82       0x60 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .debug_line.text.fuzzer_scene_save_name_on_exit
+                0x00001de2       0x3c build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .debug_line_end
+                0x00001e1e        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .debug_line    0x00001e1e      0x4c8 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .debug_line.text.fuzzer_scene_save_popup_timeout_callback
+                0x000022e6       0x15 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .debug_line.text.fuzzer_scene_save_success_on_enter
+                0x000022fb       0x35 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .debug_line.text.fuzzer_scene_save_success_on_event
+                0x00002330       0x52 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .debug_line.text.fuzzer_scene_save_success_on_exit
+                0x00002382       0x17 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .debug_line_end
+                0x00002399        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .debug_line    0x00002399      0x432 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_line.text.fuzzer_view_attack_enter
+                0x000027cb       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_line.text.fuzzer_view_attack_exit
+                0x000027e7       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_line.text.fuzzer_view_attack_input
+                0x0000281b      0x2ad build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_line.text.fuzzer_view_attack_draw
+                0x00002ac8      0x1ae build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_line.text.fuzzer_view_attack_reset_data
+                0x00002c76       0x43 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_line.text.fuzzer_view_attack_set_uid
+                0x00002cb9       0x6f build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_line.text.fuzzer_view_update_state
+                0x00002d28       0x39 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_line.text.fuzzer_view_attack_set_callback
+                0x00002d61       0x20 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_line.text.fuzzer_view_attack_alloc
+                0x00002d81       0x70 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_line.text.fuzzer_view_attack_free
+                0x00002df1       0x3d build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_line.text.fuzzer_view_attack_get_view
+                0x00002e2e       0x1e build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_line.text.fuzzer_view_attack_get_time_delay
+                0x00002e4c       0x36 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_line.text.fuzzer_view_attack_get_emu_time
+                0x00002e82       0x36 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_line_end
+                0x00002eb8        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_line    0x00002eb8      0x41f build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_line.text.fuzzer_view_field_editor_enter
+                0x000032d7       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_line.text.fuzzer_view_field_editor_draw
+                0x000032f3      0x132 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_line.text.fuzzer_view_field_editor_input
+                0x00003425       0xf5 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_line.text.fuzzer_view_field_editor_exit
+                0x0000351a       0x12 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_line.text.fuzzer_view_field_editor_set_callback
+                0x0000352c       0x1f build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_line.text.fuzzer_view_field_editor_reset_data
+                0x0000354b       0x47 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_line.text.fuzzer_view_field_editor_get_uid
+                0x00003592       0x42 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_line.text.fuzzer_view_field_editor_get_index
+                0x000035d4       0x36 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_line.text.fuzzer_view_field_editor_alloc
+                0x0000360a       0x4c build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_line.text.fuzzer_view_field_editor_free
+                0x00003656       0x41 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_line.text.fuzzer_view_field_editor_get_view
+                0x00003697       0x1e build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_line_end
+                0x000036b5        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_line    0x000036b5      0x3df build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_line.text.fuzzer_view_main_enter
+                0x00003a94       0x1c build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_line.text.fuzzer_view_main_input
+                0x00003ab0       0xe7 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_line.text.fuzzer_view_main_draw
+                0x00003b97       0x55 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_line.text.fuzzer_view_main_exit
+                0x00003bec       0x12 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_line.text.fuzzer_view_main_update_data
+                0x00003bfe       0x35 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_line.text.fuzzer_view_main_get_state
+                0x00003c33       0x3b build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_line.text.fuzzer_view_main_set_callback
+                0x00003c6e       0x1f build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_line.text.fuzzer_view_main_alloc
+                0x00003c8d       0x50 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_line.text.fuzzer_view_main_free
+                0x00003cdd       0x3b build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_line.text.fuzzer_view_main_get_view
+                0x00003d18       0x1e build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_line_end
+                0x00003d36        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_line    0x00003d36      0x53d build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .debug_line.text.fuzzer_app_tick_event_callback
+                0x00004273       0x1b build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .debug_line.text.fuzzer_app_back_event_callback
+                0x0000428e       0x1e build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .debug_line.text.fuzzer_app_custom_event_callback
+                0x000042ac       0x1d build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .debug_line.text.fuzzer_app_alloc
+                0x000042c9       0xf7 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .debug_line.text.fuzzer_app_free
+                0x000043c0       0x51 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .debug_line.text.fuzzer_start_rfid
+                0x00004411       0x49 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .debug_line_end
+                0x0000445a        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .debug_line    0x0000445a      0x18f build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer_icons.o
+ .debug_line_end
+                0x000045e9        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer_icons.o
+ .debug_line    0x000045e9      0x3eb build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_load_key
+                0x000049d4      0x16c build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_set_protocol
+                0x00004b40       0x4e build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_load_key_from_file
+                0x00004b8e       0xae build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_save_key
+                0x00004c3c       0x83 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_get_current_key
+                0x00004cbf       0x37 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_next_key
+                0x00004cf6       0x22 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_previous_key
+                0x00004d18      0x11d build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_init_attack_dict
+                0x00004e35       0x62 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_init_attack_file_dict
+                0x00004e97       0xa3 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_init_attack_bf_byte
+                0x00004f3a       0x64 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_alloc
+                0x00004f9e      0x10f build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_start
+                0x000050ad       0x7a build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_start_emulate
+                0x00005127       0x1b build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_pause
+                0x00005142       0x2b build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_on_tick_callback
+                0x0000516d       0x8b build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_stop
+                0x000051f8       0x3d build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_free
+                0x00005235       0x31 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_set_uid_chaged_callback
+                0x00005266       0x20 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line.text.fuzzer_worker_set_end_callback
+                0x00005286       0x20 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line_end
+                0x000052a6        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_line    0x000052a6      0x269 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_line.text.fuzzer_payload_alloc
+                0x0000550f       0x31 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_line.text.fuzzer_payload_free
+                0x00005540       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_line.text.fuzzer_proto_get_name
+                0x00005574       0x1f build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_line.text.fuzzer_proto_get_count_of_protocols
+                0x00005593       0x19 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_line.text.fuzzer_proto_get_max_data_size
+                0x000055ac       0x19 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_line.text.fuzzer_proto_get_def_emu_time
+                0x000055c5       0x19 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_line.text.fuzzer_proto_get_def_idle_time
+                0x000055de       0x19 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_line.text.fuzzer_proto_get_menu_label
+                0x000055f7       0x1a build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_line.text.fuzzer_proto_get_attack_id_by_index
+                0x00005611       0x1d build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_line.text.fuzzer_proto_get_count_of_menu_items
+                0x0000562e       0x12 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_line_end
+                0x00005640        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_line    0x00005640      0x34a build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+ .debug_line.text.hardware_worker_alloc
+                0x0000598a       0x44 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+ .debug_line.text.hardware_worker_free
+                0x000059ce       0x28 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+ .debug_line.text.hardware_worker_start_thread
+                0x000059f6       0x16 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+ .debug_line.text.hardware_worker_stop_thread
+                0x00005a0c       0x27 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+ .debug_line.text.hardware_worker_emulate_start
+                0x00005a33       0x17 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+ .debug_line.text.hardware_worker_stop
+                0x00005a4a       0x17 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+ .debug_line.text.hardware_worker_set_protocol_data
+                0x00005a61       0x2e build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+ .debug_line.text.hardware_worker_get_protocol_data
+                0x00005a8f       0x2c build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+ .debug_line.text.hardware_worker_set_protocol_id_by_name
+                0x00005abb       0x2f build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+ .debug_line.text.hardware_worker_get_protocol_id
+                0x00005aea       0x25 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+ .debug_line.text.hardware_worker_load_key_from_file
+                0x00005b0f       0x55 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+ .debug_line.text.hardware_worker_save_key
+                0x00005b64       0x23 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+ .debug_line_end
+                0x00005b87        0x0 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+
+.debug_frame    0x00000000      0xc20
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xf4 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .debug_frame   0x000000f4       0x74 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+ .debug_frame   0x00000168       0xb8 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .debug_frame   0x00000220       0x94 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .debug_frame   0x000002b4       0x78 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .debug_frame   0x0000032c      0x1ac build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_frame   0x000004d8      0x144 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_frame   0x0000061c      0x10c build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_frame   0x00000728       0xcc build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .debug_frame   0x000007f4      0x244 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_frame   0x00000a38       0xd0 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_frame   0x00000b08      0x118 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+
+.debug_str      0x00000000     0x9da8
+ *(.debug_str)
+ .debug_str     0x00000000      0x5e6 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene.o
+ .debug_str     0x000005e6     0x1268 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .debug_str     0x0000184e      0xae0 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+ .debug_str     0x0000232e     0x1422 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .debug_str     0x00003750      0xac3 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .debug_str     0x00004213      0xa09 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .debug_str     0x00004c1c      0xe60 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_str     0x00005a7c      0xc5c build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_str     0x000066d8      0xa6f build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_str     0x00007147      0xc49 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .debug_str     0x00007d90      0x27c build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer_icons.o
+ .debug_str     0x0000800c      0xe09 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_str     0x00008e15      0x519 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_str     0x0000932e      0xa7a build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x2138
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x358 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .debug_loclists
+                0x00000358      0x164 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+ .debug_loclists
+                0x000004bc      0x22d build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .debug_loclists
+                0x000006e9      0x142 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .debug_loclists
+                0x0000082b      0x136 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .debug_loclists
+                0x00000961      0x56d build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_loclists
+                0x00000ece      0x4a4 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_loclists
+                0x00001372      0x28e build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_loclists
+                0x00001600      0x147 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .debug_loclists
+                0x00001747      0x718 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_loclists
+                0x00001e5f       0x91 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_loclists
+                0x00001ef0      0x248 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x5e6
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x3f build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .debug_rnglists
+                0x0000003f       0x26 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+ .debug_rnglists
+                0x00000065       0x3f build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .debug_rnglists
+                0x000000a4       0x26 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .debug_rnglists
+                0x000000ca       0x25 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .debug_rnglists
+                0x000000ef      0x168 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .debug_rnglists
+                0x00000257       0xda build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .debug_rnglists
+                0x00000331       0x8b build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .debug_rnglists
+                0x000003bc       0x39 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .debug_rnglists
+                0x000003f5      0x153 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .debug_rnglists
+                0x00000548       0x49 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .debug_rnglists
+                0x00000591       0x55 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_attack.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_field_editor.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_main.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_name.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/scenes/fuzzer_scene_save_success.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/views/attack.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/views/field_editor.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/views/main_menu.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/fuzzer_icons.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(fake_worker.o)
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(protocol.o)
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/fuzzer_rfid/worker(hardware_worker.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/fuzzer_rfid_d.elf elf32-littlearm)
+LOAD linker stubs

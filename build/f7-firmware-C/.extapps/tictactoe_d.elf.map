@@ -1,0 +1,242 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .text.reset_game_data
+                0x00000000        0xa build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .debug_line.text.reset_game_data
+                0x00000000       0x1f build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x724
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.tictactoe_update_timer_callback
+                0x00000000       0x1c build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .text.tictactoe_input_callback
+                0x0000001c       0x28 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .text.drawCross
+                0x00000044       0x34 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+                0x00000044                drawCross
+ .text.drawCircle
+                0x00000078       0x18 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+                0x00000078                drawCircle
+ .text.player_switch
+                0x00000090       0x14 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+                0x00000090                player_switch
+ .text.tictactoe_draw
+                0x000000a4      0x1b0 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+                0x000000a4                tictactoe_draw
+ .text.clear_game_field
+                0x00000254       0x26 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+                0x00000254                clear_game_field
+ *fill*         0x0000027a        0x2 
+ .text.draw_win
+                0x0000027c       0x48 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+                0x0000027c                draw_win
+ .text.tictactoe_draw_callback
+                0x000002c4      0x25c build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .text.tictactoe_game_app
+                0x00000520      0x204 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+                0x00000520                tictactoe_game_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000724       0x3b
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.tictactoe_draw.str1.1
+                0x00000724       0x17 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .rodata.tictactoe_game_app.str1.1
+                0x0000073b       0x24 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x70
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x70 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x14e7
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x14e7 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+
+.debug_abbrev   0x00000000      0x428
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x428 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+
+.debug_line     0x00000000      0xadd
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3b0 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .debug_line.text.tictactoe_update_timer_callback
+                0x000003b0       0x35 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .debug_line.text.tictactoe_input_callback
+                0x000003e5       0x30 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .debug_line.text.drawCross
+                0x00000415       0x31 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .debug_line.text.drawCircle
+                0x00000446       0x23 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .debug_line.text.player_switch
+                0x00000469       0x37 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .debug_line.text.tictactoe_draw
+                0x000004a0      0x12d build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .debug_line.text.clear_game_field
+                0x000005cd       0x7a build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .debug_line.text.draw_win
+                0x00000647       0x50 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .debug_line.text.tictactoe_draw_callback
+                0x00000697      0x2ae build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .debug_line.text.tictactoe_game_app
+                0x00000945      0x198 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ .debug_line_end
+                0x00000add        0x0 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+
+.debug_frame    0x00000000      0x16c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x16c build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+
+.debug_str      0x00000000      0xe6e
+ *(.debug_str)
+ .debug_str     0x00000000      0xe6e build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x3df
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x3df build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0xe7
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xe7 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/tictactoe/tictactoe_game.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/tictactoe_d.elf elf32-littlearm)
+LOAD linker stubs

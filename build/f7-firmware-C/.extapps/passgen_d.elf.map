@@ -1,0 +1,287 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .rodata.AlphabetLevelsCount
+                0x00000000        0x4 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/passgen/passgen.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+ .rodata.I_passgen_icon
+                0x00000000        0xc build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+ .rodata._I_passgen_icon
+                0x00000000        0x4 build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+ .rodata._I_passgen_icon_0
+                0x00000000       0x14 build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/passgen/passgen.o
+LOAD build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x3e0
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.render_callback
+                0x00000000      0x124 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .text.input_callback
+                0x00000124       0x18 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .text.state_free
+                0x0000013c       0x60 build/f7-firmware-C/.extapps/passgen/passgen.o
+                0x0000013c                state_free
+ .text.build_alphabet
+                0x0000019c       0x2c build/f7-firmware-C/.extapps/passgen/passgen.o
+                0x0000019c                build_alphabet
+ .text.state_init
+                0x000001c8       0x90 build/f7-firmware-C/.extapps/passgen/passgen.o
+                0x000001c8                state_init
+ .text.generate
+                0x00000258       0x78 build/f7-firmware-C/.extapps/passgen/passgen.o
+                0x00000258                generate
+ .text.update_password
+                0x000002d0       0x38 build/f7-firmware-C/.extapps/passgen/passgen.o
+                0x000002d0                update_password
+ .text.passgenapp
+                0x00000308       0xd8 build/f7-firmware-C/.extapps/passgen/passgen.o
+                0x00000308                passgenapp
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000003e0      0x33f
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.render_callback.str1.1
+                0x000003e0       0x20 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .rodata.state_free.str1.1
+                0x00000400       0x11 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .rodata.build_alphabet.str1.1
+                0x00000411        0x2 build/f7-firmware-C/.extapps/passgen/passgen.o
+ *fill*         0x00000413        0x1 
+ .rodata.PassGen_Alert_vibro
+                0x00000414       0x14 build/f7-firmware-C/.extapps/passgen/passgen.o
+                0x00000414                PassGen_Alert_vibro
+ .rodata.str1.1
+                0x00000428      0x268 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .rodata.AlphabetLevels
+                0x00000690       0x14 build/f7-firmware-C/.extapps/passgen/passgen.o
+                0x00000690                AlphabetLevels
+ .rodata.PassGen_AlphabetChars
+                0x000006a4       0x40 build/f7-firmware-C/.extapps/passgen/passgen.o
+                0x000006a4                PassGen_AlphabetChars
+ .rodata.I_Vertical_arrow_7x9
+                0x000006e4        0xc build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+                0x000006e4                I_Vertical_arrow_7x9
+ .rodata.I_Horizontal_arrow_9x7
+                0x000006f0        0xc build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+                0x000006f0                I_Horizontal_arrow_9x7
+ .rodata._I_Vertical_arrow_7x9
+                0x000006fc        0x4 build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+                0x000006fc                _I_Vertical_arrow_7x9
+ .rodata._I_Vertical_arrow_7x9_0
+                0x00000700        0xa build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+                0x00000700                _I_Vertical_arrow_7x9_0
+ *fill*         0x0000070a        0x2 
+ .rodata._I_Horizontal_arrow_9x7
+                0x0000070c        0x4 build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+                0x0000070c                _I_Horizontal_arrow_9x7
+ .rodata._I_Horizontal_arrow_9x7_0
+                0x00000710        0xf build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+                0x00000710                _I_Horizontal_arrow_9x7_0
+
+.data           0x00000720       0x14
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.AlphabetLevelNames
+                0x00000720       0x14 build/f7-firmware-C/.extapps/passgen/passgen.o
+                0x00000720                AlphabetLevelNames
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x70
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x58 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .debug_aranges
+                0x00000058       0x18 build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x15d6
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x13bc build/f7-firmware-C/.extapps/passgen/passgen.o
+ .debug_info    0x000013bc      0x21a build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+
+.debug_abbrev   0x00000000      0x4ac
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3f7 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .debug_abbrev  0x000003f7       0xb5 build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+
+.debug_line     0x00000000      0x98a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x419 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .debug_line.text.render_callback
+                0x00000419       0xdb build/f7-firmware-C/.extapps/passgen/passgen.o
+ .debug_line.text.input_callback
+                0x000004f4       0x33 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .debug_line.text.state_free
+                0x00000527       0x36 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .debug_line.text.build_alphabet
+                0x0000055d       0x36 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .debug_line.text.state_init
+                0x00000593       0x7b build/f7-firmware-C/.extapps/passgen/passgen.o
+ .debug_line.text.generate
+                0x0000060e       0xc8 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .debug_line.text.update_password
+                0x000006d6       0x3d build/f7-firmware-C/.extapps/passgen/passgen.o
+ .debug_line.text.passgenapp
+                0x00000713       0xea build/f7-firmware-C/.extapps/passgen/passgen.o
+ .debug_line_end
+                0x000007fd        0x0 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .debug_line    0x000007fd      0x18d build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+ .debug_line_end
+                0x0000098a        0x0 build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+
+.debug_frame    0x00000000      0x108
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x108 build/f7-firmware-C/.extapps/passgen/passgen.o
+
+.debug_str      0x00000000     0x12ae
+ *(.debug_str)
+ .debug_str     0x00000000      0xfa0 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .debug_str     0x00000fa0      0x30e build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x2f5
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x2f5 build/f7-firmware-C/.extapps/passgen/passgen.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x65
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x65 build/f7-firmware-C/.extapps/passgen/passgen.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/passgen/passgen.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/passgen/passgen_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/passgen_d.elf elf32-littlearm)
+LOAD linker stubs

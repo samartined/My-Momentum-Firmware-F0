@@ -1,0 +1,1432 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+                              build/f7-firmware-C/.extapps/weebo/weebo.o (nfc3d_amiibo_unpack)
+build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+                              build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o) (nfc3d_keygen)
+build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+                              build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o) (nfc3d_drbg_generate_bytes)
+build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+                              build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o) (mbedtls_aes_setkey_enc)
+build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                              build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o) (mbedtls_md_info_from_type)
+build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                              build/f7-firmware-C/lib/libmbedtls.a(md.o) (mbedtls_md5_init)
+build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+                              build/f7-firmware-C/lib/libmbedtls.a(aes.o) (mbedtls_platform_zeroize)
+build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+                              build/f7-firmware-C/lib/libmbedtls.a(md.o) (mbedtls_sha1_init)
+build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+                              build/f7-firmware-C/lib/libmbedtls.a(md.o) (mbedtls_sha256_init)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .text.weebo_scene_acknowledgements_widget_callback
+                0x00000000       0x14 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .debug_line.text.weebo_scene_acknowledgements_widget_callback
+                0x00000000       0x21 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .text.weebo_scene_write_card_success_widget_callback
+                0x00000000       0x14 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .debug_line.text.weebo_scene_write_card_success_widget_callback
+                0x00000000       0x25 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .text.weebo_text_store_clear
+                0x00000000       0x10 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_text_store_clear
+                0x00000000       0x18 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/weebo_common.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/weebo_common.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/weebo_common.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/weebo/weebo_common.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/weebo_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/weebo_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/weebo_icons.o
+ .debug_info    0x00000000       0x7a build/f7-firmware-C/.extapps/weebo/weebo_icons.o
+ .debug_abbrev  0x00000000       0x26 build/f7-firmware-C/.extapps/weebo/weebo_icons.o
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/weebo/weebo_icons.o
+ .debug_line    0x00000000       0x51 build/f7-firmware-C/.extapps/weebo/weebo_icons.o
+ .debug_str     0x00000000      0x1f7 build/f7-firmware-C/.extapps/weebo/weebo_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/weebo/weebo_icons.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/weebo_icons.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .rodata.nfc3d_amiibo_load_keys.str1.1
+                0x00000000        0x3 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .text.nfc3d_amiibo_load_keys
+                0x00000000       0x5c build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .text.nfc3d_amiibo_copy_app_data
+                0x00000000       0x54 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .debug_line.text.nfc3d_amiibo_load_keys
+                0x00000000       0x67 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .debug_line.text.nfc3d_amiibo_copy_app_data
+                0x00000000       0x49 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .text.nfc3d_drbg_cleanup
+                0x00000000        0x8 build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .debug_line.text.nfc3d_drbg_cleanup
+                0x00000000       0x17 build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .text.mbedtls_aes_init
+                0x00000000       0x10 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .text.mbedtls_aes_free
+                0x00000000       0x10 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .text.mbedtls_aes_xts_init
+                0x00000000       0x18 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .text.mbedtls_aes_xts_free
+                0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .text.mbedtls_aes_setkey_dec
+                0x00000000      0x114 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .text.mbedtls_aes_xts_setkey_enc
+                0x00000000       0x44 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .text.mbedtls_aes_xts_setkey_dec
+                0x00000000       0x44 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .text.mbedtls_internal_aes_decrypt
+                0x00000000      0x380 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .text.mbedtls_aes_crypt_ecb
+                0x00000000       0x2c build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .text.mbedtls_aes_crypt_cbc
+                0x00000000       0xe4 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .text.mbedtls_aes_crypt_xts
+                0x00000000      0x1f0 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .text.mbedtls_aes_crypt_cfb128
+                0x00000000       0x90 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .text.mbedtls_aes_crypt_cfb8
+                0x00000000       0x8c build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .text.mbedtls_aes_crypt_ofb
+                0x00000000       0x58 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line.text.mbedtls_aes_init
+                0x00000000       0x17 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line.text.mbedtls_aes_free
+                0x00000000       0x25 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line.text.mbedtls_aes_xts_init
+                0x00000000       0x2c build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line.text.mbedtls_aes_xts_free
+                0x00000000       0x2b build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line.text.mbedtls_aes_setkey_dec
+                0x00000000      0x17d build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line.text.mbedtls_aes_xts_setkey_enc
+                0x00000000       0x78 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line.text.mbedtls_aes_xts_setkey_dec
+                0x00000000       0x78 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line.text.mbedtls_internal_aes_decrypt
+                0x00000000      0x323 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line.text.mbedtls_aes_crypt_ecb
+                0x00000000       0x49 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line.text.mbedtls_aes_crypt_cbc
+                0x00000000      0x1ed build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line.text.mbedtls_aes_crypt_xts
+                0x00000000      0x476 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line.text.mbedtls_aes_crypt_cfb128
+                0x00000000      0x10f build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line.text.mbedtls_aes_crypt_cfb8
+                0x00000000       0xb1 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line.text.mbedtls_aes_crypt_ofb
+                0x00000000       0x98 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text.mbedtls_md_clone
+                0x00000000       0x54 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text.mbedtls_md
+                0x00000000       0x54 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text.mbedtls_md_get_size
+                0x00000000        0x6 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text.mbedtls_md_get_type
+                0x00000000        0x6 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text.mbedtls_md_list
+                0x00000000        0x8 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text.mbedtls_md_info_from_string
+                0x00000000       0x34 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text.mbedtls_md_get_name
+                0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text.mbedtls_md_info_from_ctx
+                0x00000000        0x6 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .rodata.str1.1
+                0x00000000       0x1b build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .rodata.md_names
+                0x00000000       0x30 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .rodata.supported_digests
+                0x00000000       0x14 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_clone
+                0x00000000       0x6d build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md
+                0x00000000       0x66 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_get_size
+                0x00000000       0x24 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_get_type
+                0x00000000       0x24 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_list
+                0x00000000       0x19 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_info_from_string
+                0x00000000       0x50 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_get_name
+                0x00000000       0x40 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_info_from_ctx
+                0x00000000       0x24 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .text.mbedtls_md5_clone
+                0x00000000       0x10 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .text.mbedtls_md5
+                0x00000000       0x70 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5_clone
+                0x00000000       0x1e build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5
+                0x00000000       0x8d build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .text.mbedtls_sha1_clone
+                0x00000000       0x10 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .text.mbedtls_sha1
+                0x00000000       0x54 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line.text.mbedtls_sha1_clone
+                0x00000000       0x1e build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line.text.mbedtls_sha1
+                0x00000000       0x68 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .text.mbedtls_sha256_clone
+                0x00000000       0x10 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .text.mbedtls_sha256
+                0x00000000       0x64 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .debug_line.text.mbedtls_sha256_clone
+                0x00000000       0x1f build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .debug_line.text.mbedtls_sha256
+                0x00000000       0x6f build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene.o
+LOAD build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+LOAD build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+LOAD build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+LOAD build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+LOAD build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+LOAD build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+LOAD build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+LOAD build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+LOAD build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+LOAD build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+LOAD build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+LOAD build/f7-firmware-C/.extapps/weebo/weebo.o
+LOAD build/f7-firmware-C/.extapps/weebo/weebo_common.o
+LOAD build/f7-firmware-C/.extapps/weebo/weebo_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/lib/libmbedtls.a
+LOAD build/f7-firmware-C/.extapps/weebo/amiitool
+LOAD build/f7-firmware-C/lib/libmbedtls.a
+
+.text           0x00000000     0x4aa4
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.weebo_scene_acknowledgements_on_enter
+                0x00000000       0x64 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+                0x00000000                weebo_scene_acknowledgements_on_enter
+ .text.weebo_scene_acknowledgements_on_event
+                0x00000064       0x24 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+                0x00000064                weebo_scene_acknowledgements_on_event
+ .text.weebo_scene_acknowledgements_on_exit
+                0x00000088        0xc build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+                0x00000088                weebo_scene_acknowledgements_on_exit
+ .text.weebo_scene_emulate_widget_callback
+                0x00000094       0x14 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+                0x00000094                weebo_scene_emulate_widget_callback
+ .text.weebo_scene_emulate_draw_screen
+                0x000000a8       0xe8 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+                0x000000a8                weebo_scene_emulate_draw_screen
+ .text.weebo_scene_emulate_on_enter
+                0x00000190       0x64 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+                0x00000190                weebo_scene_emulate_on_enter
+ .text.weebo_scene_emulate_on_event
+                0x000001f4       0xac build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+                0x000001f4                weebo_scene_emulate_on_event
+ .text.weebo_scene_emulate_on_exit
+                0x000002a0       0x40 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+                0x000002a0                weebo_scene_emulate_on_exit
+ .text.weebo_scene_file_select_on_enter
+                0x000002e0       0x48 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+                0x000002e0                weebo_scene_file_select_on_enter
+ .text.weebo_scene_file_select_on_event
+                0x00000328        0xe build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+                0x00000328                weebo_scene_file_select_on_event
+ .text.weebo_scene_file_select_on_exit
+                0x00000336        0x2 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+                0x00000336                weebo_scene_file_select_on_exit
+ .text.weebo_scene_info_on_enter
+                0x00000338       0xf4 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+                0x00000338                weebo_scene_info_on_enter
+ .text.weebo_scene_info_on_event
+                0x0000042c        0xe build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+                0x0000042c                weebo_scene_info_on_event
+ *fill*         0x0000043a        0x2 
+ .text.weebo_scene_info_on_exit
+                0x0000043c        0xc build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+                0x0000043c                weebo_scene_info_on_exit
+ .text.weebo_scene_keys_missing_popup_callback
+                0x00000448        0xc build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+                0x00000448                weebo_scene_keys_missing_popup_callback
+ .text.weebo_scene_keys_missing_on_enter
+                0x00000454       0x54 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+                0x00000454                weebo_scene_keys_missing_on_enter
+ .text.weebo_scene_keys_missing_on_event
+                0x000004a8       0x3c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+                0x000004a8                weebo_scene_keys_missing_on_event
+ .text.weebo_scene_keys_missing_on_exit
+                0x000004e4        0xc build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+                0x000004e4                weebo_scene_keys_missing_on_exit
+ .text.weebo_scene_main_menu_submenu_callback
+                0x000004f0        0xc build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+                0x000004f0                weebo_scene_main_menu_submenu_callback
+ .text.weebo_scene_main_menu_on_enter
+                0x000004fc       0x68 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+                0x000004fc                weebo_scene_main_menu_on_enter
+ .text.weebo_scene_main_menu_on_event
+                0x00000564       0x3c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+                0x00000564                weebo_scene_main_menu_on_event
+ .text.weebo_scene_main_menu_on_exit
+                0x000005a0        0xc build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+                0x000005a0                weebo_scene_main_menu_on_exit
+ .text.weebo_scene_save_name_text_input_callback
+                0x000005ac        0xc build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+                0x000005ac                weebo_scene_save_name_text_input_callback
+ .text.weebo_scene_save_name_on_enter
+                0x000005b8      0x100 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+                0x000005b8                weebo_scene_save_name_on_enter
+ .text.weebo_scene_save_name_on_event
+                0x000006b8       0xe8 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+                0x000006b8                weebo_scene_save_name_on_event
+ .text.weebo_scene_save_name_on_exit
+                0x000007a0       0x3c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+                0x000007a0                weebo_scene_save_name_on_exit
+ .text.weebo_scene_save_success_popup_callback
+                0x000007dc        0xc build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+                0x000007dc                weebo_scene_save_success_popup_callback
+ .text.weebo_scene_save_success_on_enter
+                0x000007e8       0x88 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+                0x000007e8                weebo_scene_save_success_on_enter
+ .text.weebo_scene_save_success_on_event
+                0x00000870       0x28 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+                0x00000870                weebo_scene_save_success_on_event
+ .text.weebo_scene_save_success_on_exit
+                0x00000898        0xc build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+                0x00000898                weebo_scene_save_success_on_exit
+ .text.weebo_scene_saved_menu_submenu_callback
+                0x000008a4        0xc build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+                0x000008a4                weebo_scene_saved_menu_submenu_callback
+ .text.weebo_scene_saved_menu_on_enter
+                0x000008b0       0x88 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+                0x000008b0                weebo_scene_saved_menu_on_enter
+ .text.weebo_scene_saved_menu_on_event
+                0x00000938       0x70 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+                0x00000938                weebo_scene_saved_menu_on_event
+ .text.weebo_scene_saved_menu_on_exit
+                0x000009a8        0xc build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+                0x000009a8                weebo_scene_saved_menu_on_exit
+ .text.weebo_scene_write_poller_callback
+                0x000009b4      0x25c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+                0x000009b4                weebo_scene_write_poller_callback
+ .text.weebo_scene_write_on_enter
+                0x00000c10       0x60 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+                0x00000c10                weebo_scene_write_on_enter
+ .text.weebo_scene_write_on_event
+                0x00000c70       0xd8 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+                0x00000c70                weebo_scene_write_on_event
+ .text.weebo_scene_write_on_exit
+                0x00000d48       0x40 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+                0x00000d48                weebo_scene_write_on_exit
+ .text.weebo_scene_write_card_success_on_enter
+                0x00000d88       0x70 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+                0x00000d88                weebo_scene_write_card_success_on_enter
+ .text.weebo_scene_write_card_success_on_event
+                0x00000df8       0x24 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+                0x00000df8                weebo_scene_write_card_success_on_event
+ .text.weebo_scene_write_card_success_on_exit
+                0x00000e1c        0xc build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+                0x00000e1c                weebo_scene_write_card_success_on_exit
+ .text.weebo_custom_event_callback
+                0x00000e28        0xc build/f7-firmware-C/.extapps/weebo/weebo.o
+                0x00000e28                weebo_custom_event_callback
+ .text.weebo_back_event_callback
+                0x00000e34        0xc build/f7-firmware-C/.extapps/weebo/weebo.o
+                0x00000e34                weebo_back_event_callback
+ .text.weebo_tick_event_callback
+                0x00000e40        0xc build/f7-firmware-C/.extapps/weebo/weebo.o
+                0x00000e40                weebo_tick_event_callback
+ .text.weebo_show_loading_popup
+                0x00000e4c       0x28 build/f7-firmware-C/.extapps/weebo/weebo.o
+                0x00000e4c                weebo_show_loading_popup
+ .text.weebo_load_key_retail
+                0x00000e74       0xe0 build/f7-firmware-C/.extapps/weebo/weebo.o
+                0x00000e74                weebo_load_key_retail
+ .text.weebo_load_figure
+                0x00000f54      0x160 build/f7-firmware-C/.extapps/weebo/weebo.o
+                0x00000f54                weebo_load_figure
+ .text.weebo_get_figure_id
+                0x000010b4       0x28 build/f7-firmware-C/.extapps/weebo/weebo.o
+                0x000010b4                weebo_get_figure_id
+ .text.weebo_get_figure_form
+                0x000010dc       0x54 build/f7-firmware-C/.extapps/weebo/weebo.o
+                0x000010dc                weebo_get_figure_form
+ .text.weebo_get_figure_series
+                0x00001130       0xb4 build/f7-firmware-C/.extapps/weebo/weebo.o
+                0x00001130                weebo_get_figure_series
+ .text.weebo_get_figure_name
+                0x000011e4       0xb0 build/f7-firmware-C/.extapps/weebo/weebo.o
+                0x000011e4                weebo_get_figure_name
+ .text.weebo_set_loading_callback
+                0x00001294        0x6 build/f7-firmware-C/.extapps/weebo/weebo.o
+                0x00001294                weebo_set_loading_callback
+ *fill*         0x0000129a        0x2 
+ .text.weebo_file_select
+                0x0000129c       0xfc build/f7-firmware-C/.extapps/weebo/weebo.o
+                0x0000129c                weebo_file_select
+ .text.weebo_alloc
+                0x00001398      0x1cc build/f7-firmware-C/.extapps/weebo/weebo.o
+                0x00001398                weebo_alloc
+ .text.weebo_free
+                0x00001564      0x104 build/f7-firmware-C/.extapps/weebo/weebo.o
+                0x00001564                weebo_free
+ .text.weebo_text_store_set
+                0x00001668       0x24 build/f7-firmware-C/.extapps/weebo/weebo.o
+                0x00001668                weebo_text_store_set
+ .text.weebo_blink_start
+                0x0000168c       0x10 build/f7-firmware-C/.extapps/weebo/weebo.o
+                0x0000168c                weebo_blink_start
+ .text.weebo_blink_stop
+                0x0000169c       0x10 build/f7-firmware-C/.extapps/weebo/weebo.o
+                0x0000169c                weebo_blink_stop
+ .text.weebo_app
+                0x000016ac       0x44 build/f7-firmware-C/.extapps/weebo/weebo.o
+                0x000016ac                weebo_app
+ .text.weebo_calculate_pwd
+                0x000016f0       0x32 build/f7-firmware-C/.extapps/weebo/weebo_common.o
+                0x000016f0                weebo_calculate_pwd
+ *fill*         0x00001722        0x2 
+ .text.weebo_remix
+                0x00001724       0xe4 build/f7-firmware-C/.extapps/weebo/weebo_common.o
+                0x00001724                weebo_remix
+ .text.nfc3d_amiibo_calc_seed
+                0x00001808       0x4c build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+                0x00001808                nfc3d_amiibo_calc_seed
+ .text.nfc3d_amiibo_keygen
+                0x00001854       0x28 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+                0x00001854                nfc3d_amiibo_keygen
+ .text.nfc3d_amiibo_cipher
+                0x0000187c       0x94 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+                0x0000187c                nfc3d_amiibo_cipher
+ .text.nfc3d_amiibo_tag_to_internal
+                0x00001910       0x84 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+                0x00001910                nfc3d_amiibo_tag_to_internal
+ .text.nfc3d_amiibo_internal_to_tag
+                0x00001994       0x84 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+                0x00001994                nfc3d_amiibo_internal_to_tag
+ .text.nfc3d_amiibo_unpack
+                0x00001a18       0xa4 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+                0x00001a18                nfc3d_amiibo_unpack
+ .text.nfc3d_amiibo_pack
+                0x00001abc       0xd4 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+                0x00001abc                nfc3d_amiibo_pack
+ .text.nfc3d_keygen_prepare_seed
+                0x00001b90       0xa0 build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+                0x00001b90                nfc3d_keygen_prepare_seed
+ .text.nfc3d_keygen
+                0x00001c30       0x30 build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+                0x00001c30                nfc3d_keygen
+ .text.nfc3d_drbg_init
+                0x00001c60       0x58 build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+                0x00001c60                nfc3d_drbg_init
+ .text.nfc3d_drbg_step
+                0x00001cb8       0x44 build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+                0x00001cb8                nfc3d_drbg_step
+ .text.nfc3d_drbg_generate_bytes
+                0x00001cfc       0x5c build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+                0x00001cfc                nfc3d_drbg_generate_bytes
+ .text.aes_gen_tables
+                0x00001d58      0x19c build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .text.mbedtls_aes_setkey_enc
+                0x00001ef4      0x1b8 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+                0x00001ef4                mbedtls_aes_setkey_enc
+ .text.mbedtls_internal_aes_encrypt
+                0x000020ac      0x380 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+                0x000020ac                mbedtls_internal_aes_encrypt
+ .text.mbedtls_aes_crypt_ctr
+                0x0000242c       0xbc build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+                0x0000242c                mbedtls_aes_crypt_ctr
+ .text.mbedtls_md_info_from_type
+                0x000024e8       0x18 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x000024e8                mbedtls_md_info_from_type
+ .text.mbedtls_md_init
+                0x00002500        0xa build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x00002500                mbedtls_md_init
+ *fill*         0x0000250a        0x2 
+ .text.mbedtls_md_free
+                0x0000250c       0x68 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x0000250c                mbedtls_md_free
+ .text.mbedtls_md_setup
+                0x00002574       0xb0 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x00002574                mbedtls_md_setup
+ .text.mbedtls_md_starts
+                0x00002624       0x48 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x00002624                mbedtls_md_starts
+ .text.mbedtls_md_update
+                0x0000266c       0x40 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x0000266c                mbedtls_md_update
+ .text.mbedtls_md_finish
+                0x000026ac       0x40 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x000026ac                mbedtls_md_finish
+ .text.mbedtls_md_hmac_starts
+                0x000026ec      0x10c build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x000026ec                mbedtls_md_hmac_starts
+ .text.mbedtls_md_hmac_update
+                0x000027f8       0x24 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x000027f8                mbedtls_md_hmac_update
+ .text.mbedtls_md_hmac_finish
+                0x0000281c       0x64 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x0000281c                mbedtls_md_hmac_finish
+ .text.mbedtls_md_hmac_reset
+                0x00002880       0x34 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x00002880                mbedtls_md_hmac_reset
+ .text.mbedtls_md_hmac
+                0x000028b4       0x70 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+                0x000028b4                mbedtls_md_hmac
+ .text.mbedtls_md5_init
+                0x00002924        0xc build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                0x00002924                mbedtls_md5_init
+ .text.mbedtls_md5_free
+                0x00002930       0x10 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                0x00002930                mbedtls_md5_free
+ .text.mbedtls_md5_starts
+                0x00002940       0x2c build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                0x00002940                mbedtls_md5_starts
+ .text.mbedtls_internal_md5_process
+                0x0000296c      0x718 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                0x0000296c                mbedtls_internal_md5_process
+ .text.mbedtls_md5_update
+                0x00003084       0x7c build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                0x00003084                mbedtls_md5_update
+ .text.mbedtls_md5_finish
+                0x00003100       0x90 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+                0x00003100                mbedtls_md5_finish
+ .text.mbedtls_platform_zeroize
+                0x00003190       0x18 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+                0x00003190                mbedtls_platform_zeroize
+ .text.mbedtls_zeroize_and_free
+                0x000031a8       0x1c build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+                0x000031a8                mbedtls_zeroize_and_free
+ .text.mbedtls_sha1_init
+                0x000031c4        0xc build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+                0x000031c4                mbedtls_sha1_init
+ .text.mbedtls_sha1_free
+                0x000031d0       0x10 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+                0x000031d0                mbedtls_sha1_free
+ .text.mbedtls_sha1_starts
+                0x000031e0       0x34 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+                0x000031e0                mbedtls_sha1_starts
+ .text.mbedtls_internal_sha1_process
+                0x00003214      0xeac build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+                0x00003214                mbedtls_internal_sha1_process
+ .text.mbedtls_sha1_update
+                0x000040c0       0x7c build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+                0x000040c0                mbedtls_sha1_update
+ .text.mbedtls_sha1_finish
+                0x0000413c       0xa4 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+                0x0000413c                mbedtls_sha1_finish
+ .text.mbedtls_sha256_init
+                0x000041e0        0xc build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+                0x000041e0                mbedtls_sha256_init
+ .text.mbedtls_sha256_free
+                0x000041ec       0x10 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+                0x000041ec                mbedtls_sha256_free
+ .text.mbedtls_sha256_starts
+                0x000041fc       0xc8 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+                0x000041fc                mbedtls_sha256_starts
+ .text.mbedtls_internal_sha256_process
+                0x000042c4      0x6a8 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+                0x000042c4                mbedtls_internal_sha256_process
+ .text.mbedtls_sha256_update
+                0x0000496c       0x88 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+                0x0000496c                mbedtls_sha256_update
+ .text.mbedtls_sha256_finish
+                0x000049f4       0xb0 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+                0x000049f4                mbedtls_sha256_finish
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00004aa4      0x73c
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.weebo_scene_handlers
+                0x00004aa4       0x10 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene.o
+                0x00004aa4                weebo_scene_handlers
+ .rodata.weebo_on_exit_handlers
+                0x00004ab4       0x2c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene.o
+                0x00004ab4                weebo_on_exit_handlers
+ .rodata.weebo_on_event_handlers
+                0x00004ae0       0x2c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene.o
+                0x00004ae0                weebo_on_event_handlers
+ .rodata.weebo_on_enter_handlers
+                0x00004b0c       0x2c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene.o
+                0x00004b0c                weebo_on_enter_handlers
+ .rodata.weebo_scene_acknowledgements_on_enter.str1.1
+                0x00004b38        0x4 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .rodata.str1.1
+                0x00004b3c       0x5b build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .rodata.weebo_scene_emulate_draw_screen.str1.1
+                0x00004b97       0x2d build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .rodata.weebo_scene_emulate_on_event.str1.1
+                0x00004bc4       0x31 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .rodata.weebo_scene_info_on_enter.str1.1
+                0x00004bf5       0x34 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+ .rodata.weebo_scene_keys_missing_on_enter.str1.1
+                0x00004c29       0x17 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .rodata.weebo_scene_main_menu_on_enter.str1.1
+                0x00004c40       0x17 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .rodata.weebo_scene_save_name_on_enter.str1.1
+                0x00004c57       0x23 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .rodata.weebo_scene_save_name_on_event.str1.1
+                0x00004c7a       0x26 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .rodata.weebo_scene_save_success_on_enter.str1.1
+                0x00004ca0        0x7 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .rodata.weebo_scene_saved_menu_on_enter.str1.1
+                0x00004ca7       0x1d build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .rodata.weebo_scene_write_poller_callback.str1.1
+                0x00004cc4      0x100 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .rodata.weebo_scene_write_on_enter.str1.1
+                0x00004dc4       0x10 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .rodata.weebo_scene_write_on_event.str1.1
+                0x00004dd4       0x49 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .rodata.weebo_scene_write_card_success_on_enter.str1.1
+                0x00004e1d        0xf build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .rodata.weebo_load_key_retail.str1.1
+                0x00004e2c       0x52 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .rodata.weebo_load_figure.str1.1
+                0x00004e7e       0x67 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .rodata.weebo_get_figure_id.str1.1
+                0x00004ee5        0xa build/f7-firmware-C/.extapps/weebo/weebo.o
+ .rodata.weebo_get_figure_form.str1.1
+                0x00004eef       0x1d build/f7-firmware-C/.extapps/weebo/weebo.o
+ .rodata.weebo_get_figure_series.str1.1
+                0x00004f0c       0xbe build/f7-firmware-C/.extapps/weebo/weebo.o
+ .rodata.weebo_get_figure_name.str1.1
+                0x00004fca       0x32 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .rodata.weebo_file_select.str1.1
+                0x00004ffc       0x65 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .rodata.weebo_alloc.str1.1
+                0x00005061       0x19 build/f7-firmware-C/.extapps/weebo/weebo.o
+ *fill*         0x0000507a        0x2 
+ .rodata.weebo_sequence_blink_stop
+                0x0000507c        0x8 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .rodata.weebo_sequence_blink_start_blue
+                0x00005084       0x10 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .rodata.weebo_remix.str1.1
+                0x00005094       0x22 build/f7-firmware-C/.extapps/weebo/weebo_common.o
+ *fill*         0x000050b6        0x2 
+ .rodata.CSWTCH.4
+                0x000050b8       0x1c build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .rodata.mbedtls_sha256_info
+                0x000050d4        0x3 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .rodata.mbedtls_sha224_info
+                0x000050d7        0x3 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .rodata.mbedtls_sha1_info
+                0x000050da        0x3 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .rodata.mbedtls_md5_info
+                0x000050dd        0x3 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .rodata.K      0x000050e0      0x100 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+.data           0x000051e0        0x8
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.acknowledgements_text
+                0x000051e0        0x4 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+                0x000051e0                acknowledgements_text
+ .data.memset_func
+                0x000051e4        0x4 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+
+.bss            0x000051e8      0xa2c
+ *(.bss)
+ *(.bss*)
+ .bss.aes_init_done
+                0x000051e8        0x4 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .bss.round_constants
+                0x000051ec       0x28 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .bss.RT0       0x00005214      0x400 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .bss.RSb       0x00005614      0x100 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .bss.FT0       0x00005714      0x400 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .bss.FSb       0x00005b14      0x100 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x6a0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene.o
+ .debug_aranges
+                0x00000018       0x38 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .debug_aranges
+                0x00000050       0x40 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .debug_aranges
+                0x00000090       0x30 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+ .debug_aranges
+                0x000000c0       0x30 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+ .debug_aranges
+                0x000000f0       0x38 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .debug_aranges
+                0x00000128       0x38 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .debug_aranges
+                0x00000160       0x38 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .debug_aranges
+                0x00000198       0x38 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .debug_aranges
+                0x000001d0       0x38 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .debug_aranges
+                0x00000208       0x38 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .debug_aranges
+                0x00000240       0x38 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .debug_aranges
+                0x00000278       0xb0 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_aranges
+                0x00000328       0x28 build/f7-firmware-C/.extapps/weebo/weebo_common.o
+ .debug_aranges
+                0x00000350       0x60 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .debug_aranges
+                0x000003b0       0x28 build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+ .debug_aranges
+                0x000003d8       0x38 build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .debug_aranges
+                0x00000410       0xa8 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_aranges
+                0x000004b8       0xb8 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_aranges
+                0x00000570       0x58 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_aranges
+                0x000005c8       0x28 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_aranges
+                0x000005f0       0x58 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_aranges
+                0x00000648       0x58 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x14a04
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x4dd build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene.o
+ .debug_info    0x000004dd      0xa58 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .debug_info    0x00000f35     0x13e8 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .debug_info    0x0000231d      0x8b6 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+ .debug_info    0x00002bd3      0xb26 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+ .debug_info    0x000036f9      0xaba build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .debug_info    0x000041b3      0xa9b build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .debug_info    0x00004c4e      0xf5b build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .debug_info    0x00005ba9      0xc68 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .debug_info    0x00006811      0xb62 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .debug_info    0x00007373     0x17d9 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .debug_info    0x00008b4c      0xec7 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .debug_info    0x00009a13     0x2b55 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_info    0x0000c568      0xcd9 build/f7-firmware-C/.extapps/weebo/weebo_common.o
+ .debug_info    0x0000d241     0x143e build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .debug_info    0x0000e67f      0x440 build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+ .debug_info    0x0000eabf      0x638 build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .debug_info    0x0000f0f7     0x245d build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_info    0x00011554     0x11a5 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_info    0x000126f9      0xbaa build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_info    0x000132a3      0x204 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_info    0x000134a7      0xae3 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_info    0x00013f8a      0xa7a build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+.debug_abbrev   0x00000000     0x3de6
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x137 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene.o
+ .debug_abbrev  0x00000137      0x269 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .debug_abbrev  0x000003a0      0x300 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .debug_abbrev  0x000006a0      0x21c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+ .debug_abbrev  0x000008bc      0x285 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+ .debug_abbrev  0x00000b41      0x22a build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .debug_abbrev  0x00000d6b      0x22a build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .debug_abbrev  0x00000f95      0x26b build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .debug_abbrev  0x00001200      0x245 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .debug_abbrev  0x00001445      0x22b build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .debug_abbrev  0x00001670      0x2f3 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .debug_abbrev  0x00001963      0x291 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .debug_abbrev  0x00001bf4      0x4d9 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_abbrev  0x000020cd      0x294 build/f7-firmware-C/.extapps/weebo/weebo_common.o
+ .debug_abbrev  0x00002361      0x2ff build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .debug_abbrev  0x00002660      0x187 build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+ .debug_abbrev  0x000027e7      0x213 build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .debug_abbrev  0x000029fa      0x475 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_abbrev  0x00002e6f      0x3be build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_abbrev  0x0000322d      0x34f build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_abbrev  0x0000357c      0x166 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_abbrev  0x000036e2      0x372 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_abbrev  0x00003a54      0x392 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+.debug_line     0x00000000     0x98b9
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x19c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene.o
+ .debug_line_end
+                0x0000019c        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene.o
+ .debug_line    0x0000019c      0x46e build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .debug_line.text.weebo_scene_acknowledgements_on_enter
+                0x0000060a       0x30 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .debug_line.text.weebo_scene_acknowledgements_on_event
+                0x0000063a       0x3e build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .debug_line.text.weebo_scene_acknowledgements_on_exit
+                0x00000678       0x17 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .debug_line_end
+                0x0000068f        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .debug_line    0x0000068f      0x568 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .debug_line.text.weebo_scene_emulate_widget_callback
+                0x00000bf7       0x29 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .debug_line.text.weebo_scene_emulate_draw_screen
+                0x00000c20       0x71 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .debug_line.text.weebo_scene_emulate_on_enter
+                0x00000c91       0x4c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .debug_line.text.weebo_scene_emulate_on_event
+                0x00000cdd       0x74 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .debug_line.text.weebo_scene_emulate_on_exit
+                0x00000d51       0x38 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .debug_line_end
+                0x00000d89        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .debug_line    0x00000d89      0x424 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+ .debug_line.text.weebo_scene_file_select_on_enter
+                0x000011ad       0x3b build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+ .debug_line.text.weebo_scene_file_select_on_event
+                0x000011e8       0x24 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+ .debug_line.text.weebo_scene_file_select_on_exit
+                0x0000120c       0x18 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+ .debug_line_end
+                0x00001224        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+ .debug_line    0x00001224      0x3df build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+ .debug_line.text.weebo_scene_info_on_enter
+                0x00001603       0x8f build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+ .debug_line.text.weebo_scene_info_on_event
+                0x00001692       0x2b build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+ .debug_line.text.weebo_scene_info_on_exit
+                0x000016bd       0x17 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+ .debug_line_end
+                0x000016d4        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+ .debug_line    0x000016d4      0x431 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .debug_line.text.weebo_scene_keys_missing_popup_callback
+                0x00001b05       0x15 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .debug_line.text.weebo_scene_keys_missing_on_enter
+                0x00001b1a       0x31 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .debug_line.text.weebo_scene_keys_missing_on_event
+                0x00001b4b       0x4a build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .debug_line.text.weebo_scene_keys_missing_on_exit
+                0x00001b95       0x17 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .debug_line_end
+                0x00001bac        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .debug_line    0x00001bac      0x422 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .debug_line.text.weebo_scene_main_menu_submenu_callback
+                0x00001fce       0x18 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .debug_line.text.weebo_scene_main_menu_on_enter
+                0x00001fe6       0x36 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .debug_line.text.weebo_scene_main_menu_on_event
+                0x0000201c       0x57 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .debug_line.text.weebo_scene_main_menu_on_exit
+                0x00002073       0x17 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .debug_line_end
+                0x0000208a        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .debug_line    0x0000208a      0x564 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .debug_line.text.weebo_scene_save_name_text_input_callback
+                0x000025ee       0x17 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .debug_line.text.weebo_scene_save_name_on_enter
+                0x00002605       0x9f build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .debug_line.text.weebo_scene_save_name_on_event
+                0x000026a4       0x8c build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .debug_line.text.weebo_scene_save_name_on_exit
+                0x00002730       0x3a build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .debug_line_end
+                0x0000276a        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .debug_line    0x0000276a      0x4bc build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .debug_line.text.weebo_scene_save_success_popup_callback
+                0x00002c26       0x15 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .debug_line.text.weebo_scene_save_success_on_enter
+                0x00002c3b       0x36 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .debug_line.text.weebo_scene_save_success_on_event
+                0x00002c71       0x3e build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .debug_line.text.weebo_scene_save_success_on_exit
+                0x00002caf       0x17 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .debug_line_end
+                0x00002cc6        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .debug_line    0x00002cc6      0x435 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .debug_line.text.weebo_scene_saved_menu_submenu_callback
+                0x000030fb       0x18 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .debug_line.text.weebo_scene_saved_menu_on_enter
+                0x00003113       0x39 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .debug_line.text.weebo_scene_saved_menu_on_event
+                0x0000314c       0x85 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .debug_line.text.weebo_scene_saved_menu_on_exit
+                0x000031d1       0x18 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .debug_line_end
+                0x000031e9        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .debug_line    0x000031e9      0x592 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .debug_line.text.weebo_scene_write_poller_callback
+                0x0000377b      0x276 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .debug_line.text.weebo_scene_write_on_enter
+                0x000039f1       0x3e build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .debug_line.text.weebo_scene_write_on_event
+                0x00003a2f       0x60 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .debug_line.text.weebo_scene_write_on_exit
+                0x00003a8f       0x38 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .debug_line_end
+                0x00003ac7        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .debug_line    0x00003ac7      0x54e build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .debug_line.text.weebo_scene_write_card_success_on_enter
+                0x00004015       0x46 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .debug_line.text.weebo_scene_write_card_success_on_event
+                0x0000405b       0x36 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .debug_line.text.weebo_scene_write_card_success_on_exit
+                0x00004091       0x17 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .debug_line_end
+                0x000040a8        0x0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .debug_line    0x000040a8      0x6e4 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_custom_event_callback
+                0x0000478c       0x20 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_back_event_callback
+                0x000047ac       0x1f build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_tick_event_callback
+                0x000047cb       0x1c build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_show_loading_popup
+                0x000047e7       0x3d build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_load_key_retail
+                0x00004824       0xa4 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_load_figure
+                0x000048c8      0x131 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_get_figure_id
+                0x000049f9       0x28 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_get_figure_form
+                0x00004a21       0x4e build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_get_figure_series
+                0x00004a6f       0x5a build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_get_figure_name
+                0x00004ac9       0xbd build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_set_loading_callback
+                0x00004b86       0x20 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_file_select
+                0x00004ba6       0xea build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_alloc
+                0x00004c90      0x13c build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_free
+                0x00004dcc       0x6b build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_text_store_set
+                0x00004e37       0x2e build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_blink_start
+                0x00004e65       0x17 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_blink_stop
+                0x00004e7c       0x17 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line.text.weebo_app
+                0x00004e93       0x4d build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line_end
+                0x00004ee0        0x0 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_line    0x00004ee0      0x558 build/f7-firmware-C/.extapps/weebo/weebo_common.o
+ .debug_line.text.weebo_calculate_pwd
+                0x00005438       0x31 build/f7-firmware-C/.extapps/weebo/weebo_common.o
+ .debug_line.text.weebo_remix
+                0x00005469       0x83 build/f7-firmware-C/.extapps/weebo/weebo_common.o
+ .debug_line_end
+                0x000054ec        0x0 build/f7-firmware-C/.extapps/weebo/weebo_common.o
+ .debug_line    0x000054ec      0x2c0 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .debug_line.text.nfc3d_amiibo_calc_seed
+                0x000057ac       0x37 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .debug_line.text.nfc3d_amiibo_keygen
+                0x000057e3       0x27 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .debug_line.text.nfc3d_amiibo_cipher
+                0x0000580a       0x5d build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .debug_line.text.nfc3d_amiibo_tag_to_internal
+                0x00005867       0x43 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .debug_line.text.nfc3d_amiibo_internal_to_tag
+                0x000058aa       0x43 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .debug_line.text.nfc3d_amiibo_unpack
+                0x000058ed       0x6e build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .debug_line.text.nfc3d_amiibo_pack
+                0x0000595b       0x4c build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .debug_line_end
+                0x000059a7        0x0 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .debug_line    0x000059a7      0x25a build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+ .debug_line.text.nfc3d_keygen_prepare_seed
+                0x00005c01       0xd7 build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+ .debug_line.text.nfc3d_keygen
+                0x00005cd8       0x2d build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+ .debug_line_end
+                0x00005d05        0x0 build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+ .debug_line    0x00005d05      0x270 build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .debug_line.text.nfc3d_drbg_init
+                0x00005f75       0x4d build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .debug_line.text.nfc3d_drbg_step
+                0x00005fc2       0x58 build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .debug_line.text.nfc3d_drbg_generate_bytes
+                0x0000601a       0x59 build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .debug_line_end
+                0x00006073        0x0 build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .debug_line    0x00006073      0x288 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line.text.aes_gen_tables
+                0x000062fb      0x278 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line.text.mbedtls_aes_setkey_enc
+                0x00006573      0x49b build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line.text.mbedtls_internal_aes_encrypt
+                0x00006a0e      0x347 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line.text.mbedtls_aes_crypt_ctr
+                0x00006d55      0x1ab build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line_end
+                0x00006f00        0x0 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_line    0x00006f00      0x2b5 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_info_from_type
+                0x000071b5       0x1d build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_init
+                0x000071d2       0x19 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_free
+                0x000071eb       0x79 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_setup
+                0x00007264       0xb9 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_starts
+                0x0000731d       0x5b build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_update
+                0x00007378       0x59 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_finish
+                0x000073d1       0x59 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_hmac_starts
+                0x0000742a      0x1e1 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_hmac_update
+                0x0000760b       0x3e build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_hmac_finish
+                0x00007649       0x8f build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_hmac_reset
+                0x000076d8       0x5b build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line.text.mbedtls_md_hmac
+                0x00007733       0x63 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line_end
+                0x00007796        0x0 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_line    0x00007796      0x273 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5_init
+                0x00007a09       0x16 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5_free
+                0x00007a1f       0x24 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5_starts
+                0x00007a43       0x34 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_internal_md5_process
+                0x00007a77      0x46a build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5_update
+                0x00007ee1       0xc6 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line.text.mbedtls_md5_finish
+                0x00007fa7      0x1b1 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line_end
+                0x00008158        0x0 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_line    0x00008158      0x14d build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_line.text.mbedtls_platform_zeroize
+                0x000082a5       0x3a build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_line.text.mbedtls_zeroize_and_free
+                0x000082df       0x2b build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_line_end
+                0x0000830a        0x0 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_line    0x0000830a      0x275 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line.text.mbedtls_sha1_init
+                0x0000857f       0x16 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line.text.mbedtls_sha1_free
+                0x00008595       0x24 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line.text.mbedtls_sha1_starts
+                0x000085b9       0x33 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line.text.mbedtls_internal_sha1_process
+                0x000085ec      0x651 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line.text.mbedtls_sha1_update
+                0x00008c3d       0xc6 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line.text.mbedtls_sha1_finish
+                0x00008d03      0x1e0 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line_end
+                0x00008ee3        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_line    0x00008ee3      0x279 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .debug_line.text.mbedtls_sha256_init
+                0x0000915c       0x17 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .debug_line.text.mbedtls_sha256_free
+                0x00009173       0x25 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .debug_line.text.mbedtls_sha256_starts
+                0x00009198       0x54 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .debug_line.text.mbedtls_internal_sha256_process
+                0x000091ec      0x365 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .debug_line.text.mbedtls_sha256_update
+                0x00009551       0xe7 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .debug_line.text.mbedtls_sha256_finish
+                0x00009638      0x281 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ .debug_line_end
+                0x000098b9        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+.debug_frame    0x00000000     0x1224
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x70 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .debug_frame   0x00000070       0xbc build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .debug_frame   0x0000012c       0x60 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+ .debug_frame   0x0000018c       0x64 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+ .debug_frame   0x000001f0       0x78 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .debug_frame   0x00000268       0x78 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .debug_frame   0x000002e0       0x98 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .debug_frame   0x00000378       0x74 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .debug_frame   0x000003ec       0x80 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .debug_frame   0x0000046c       0xa4 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .debug_frame   0x00000510       0x74 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .debug_frame   0x00000584      0x224 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_frame   0x000007a8       0x44 build/f7-firmware-C/.extapps/weebo/weebo_common.o
+ .debug_frame   0x000007ec      0x130 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .debug_frame   0x0000091c       0x58 build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+ .debug_frame   0x00000974       0x94 build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .debug_frame   0x00000a08      0x2d8 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_frame   0x00000ce0      0x218 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_frame   0x00000ef8       0xf4 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_frame   0x00000fec       0x44 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_frame   0x00001030       0xf4 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_frame   0x00001124      0x100 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+.debug_str      0x00000000     0xde4b
+ *(.debug_str)
+ .debug_str     0x00000000      0x88e build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene.o
+ .debug_str     0x0000088e      0x832 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .debug_str     0x000010c0      0xfaf build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .debug_str     0x0000206f      0x730 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+ .debug_str     0x0000279f      0x74e build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+ .debug_str     0x00002eed      0x987 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .debug_str     0x00003874      0x863 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .debug_str     0x000040d7      0xbea build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .debug_str     0x00004cc1      0xd56 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .debug_str     0x00005a17      0x8c4 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .debug_str     0x000062db     0x147d build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .debug_str     0x00007758     0x11d2 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .debug_str     0x0000892a     0x1d8b build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_str     0x0000a6b5      0xa17 build/f7-firmware-C/.extapps/weebo/weebo_common.o
+ .debug_str     0x0000b0cc      0x9f5 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .debug_str     0x0000bac1      0x389 build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+ .debug_str     0x0000be4a      0x4eb build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .debug_str     0x0000c335      0x616 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_str     0x0000c94b      0x821 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_str     0x0000d16c      0x35f build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_str     0x0000d4cb      0x238 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_str     0x0000d703      0x36e build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_str     0x0000da71      0x3da build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x5af3
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x157 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .debug_loclists
+                0x00000157      0x298 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .debug_loclists
+                0x000003ef       0x7b build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+ .debug_loclists
+                0x0000046a       0xf0 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+ .debug_loclists
+                0x0000055a      0x127 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .debug_loclists
+                0x00000681      0x169 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .debug_loclists
+                0x000007ea      0x1e9 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .debug_loclists
+                0x000009d3      0x10d build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .debug_loclists
+                0x00000ae0      0x1eb build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .debug_loclists
+                0x00000ccb      0x3e8 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .debug_loclists
+                0x000010b3      0x166 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .debug_loclists
+                0x00001219      0x6b7 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_loclists
+                0x000018d0       0x55 build/f7-firmware-C/.extapps/weebo/weebo_common.o
+ .debug_loclists
+                0x00001925      0x37b build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .debug_loclists
+                0x00001ca0      0x193 build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+ .debug_loclists
+                0x00001e33      0x1e2 build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .debug_loclists
+                0x00002015     0x23f0 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_loclists
+                0x00004405      0x7f9 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_loclists
+                0x00004bfe      0x5a7 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_loclists
+                0x000051a5       0xb6 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_loclists
+                0x0000525b      0x3a8 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_loclists
+                0x00005603      0x4f0 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0xaa2
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x25 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .debug_rnglists
+                0x00000025       0x2d build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .debug_rnglists
+                0x00000052       0x1f build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+ .debug_rnglists
+                0x00000071       0x20 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+ .debug_rnglists
+                0x00000091       0x25 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .debug_rnglists
+                0x000000b6       0x25 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .debug_rnglists
+                0x000000db       0x34 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .debug_rnglists
+                0x0000010f       0x26 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .debug_rnglists
+                0x00000135       0x26 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .debug_rnglists
+                0x0000015b       0x45 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .debug_rnglists
+                0x000001a0       0x25 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .debug_rnglists
+                0x000001c5       0xca build/f7-firmware-C/.extapps/weebo/weebo.o
+ .debug_rnglists
+                0x0000028f       0x1a build/f7-firmware-C/.extapps/weebo/weebo_common.o
+ .debug_rnglists
+                0x000002a9       0x48 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .debug_rnglists
+                0x000002f1       0x1a build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+ .debug_rnglists
+                0x0000030b       0x25 build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .debug_rnglists
+                0x00000330      0x3c7 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .debug_rnglists
+                0x000006f7      0x105 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .debug_rnglists
+                0x000007fc      0x10e build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .debug_rnglists
+                0x0000090a       0x19 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .debug_rnglists
+                0x00000923      0x123 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .debug_rnglists
+                0x00000a46       0x5c build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_acknowledgements.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_emulate.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_file_select.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_info.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_keys_missing.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_main_menu.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_name.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_save_success.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_saved_menu.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/weebo/scenes/weebo_scene_write_card_success.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/weebo/weebo.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/weebo/weebo_common.o
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/weebo/weebo_icons.o
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/weebo/amiitool(amiibo.o)
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/weebo/amiitool(keygen.o)
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/.extapps/weebo/amiitool(drbg.o)
+ .ARM.attributes
+                0x000003a8       0x34 build/f7-firmware-C/lib/libmbedtls.a(aes.o)
+ .ARM.attributes
+                0x000003dc       0x34 build/f7-firmware-C/lib/libmbedtls.a(md.o)
+ .ARM.attributes
+                0x00000410       0x34 build/f7-firmware-C/lib/libmbedtls.a(md5.o)
+ .ARM.attributes
+                0x00000444       0x34 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
+ .ARM.attributes
+                0x00000478       0x34 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
+ .ARM.attributes
+                0x000004ac       0x34 build/f7-firmware-C/lib/libmbedtls.a(sha256.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/weebo_d.elf elf32-littlearm)
+LOAD linker stubs

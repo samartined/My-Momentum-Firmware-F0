@@ -1,0 +1,492 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .text.about_view_set_data
+                0x00000000       0x24 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .debug_line.text.about_view_set_data
+                0x00000000       0x38 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .text.send_view_set_data
+                0x00000000       0x24 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .debug_line.text.send_view_set_data
+                0x00000000       0x39 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .text.save_settings
+                0x00000000       0x9c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .debug_line.text.save_settings
+                0x00000000       0x4c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene.o
+LOAD build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+LOAD build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+LOAD build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+LOAD build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+LOAD build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+LOAD build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x950
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.virtual_button_scene_about_view_on_enter
+                0x00000000       0x24 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+                0x00000000                virtual_button_scene_about_view_on_enter
+ .text.virtual_button_scene_about_view_on_event
+                0x00000024       0x2c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+                0x00000024                virtual_button_scene_about_view_on_event
+ .text.virtual_button_scene_about_view_on_exit
+                0x00000050        0x2 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+                0x00000050                virtual_button_scene_about_view_on_exit
+ *fill*         0x00000052        0x2 
+ .text.virtual_button_scene_send_view_on_enter
+                0x00000054       0x24 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+                0x00000054                virtual_button_scene_send_view_on_enter
+ .text.virtual_button_scene_send_view_on_event
+                0x00000078       0x2c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+                0x00000078                virtual_button_scene_send_view_on_event
+ .text.virtual_button_scene_send_view_on_exit
+                0x000000a4        0x2 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+                0x000000a4                virtual_button_scene_send_view_on_exit
+ *fill*         0x000000a6        0x2 
+ .text.virtual_button_scene_start_submenu_callback
+                0x000000a8        0xc build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .text.virtual_button_scene_start_on_enter
+                0x000000b4       0x5c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+                0x000000b4                virtual_button_scene_start_on_enter
+ .text.virtual_button_scene_start_on_event
+                0x00000110       0x40 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+                0x00000110                virtual_button_scene_start_on_event
+ .text.virtual_button_scene_start_on_exit
+                0x00000150        0xc build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+                0x00000150                virtual_button_scene_start_on_exit
+ .text.about_view_draw_callback
+                0x0000015c       0x60 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .text.about_view_alloc
+                0x000001bc       0x44 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+                0x000001bc                about_view_alloc
+ .text.about_view_free
+                0x00000200       0x1c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+                0x00000200                about_view_free
+ .text.about_view_get_view
+                0x0000021c        0x4 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+                0x0000021c                about_view_get_view
+ .text.send_view_draw_callback
+                0x00000220       0x88 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .text.send_serial_command_send
+                0x000002a8       0x60 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+                0x000002a8                send_serial_command_send
+ .text.send_view_input_callback
+                0x00000308       0x80 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .text.send_view_alloc
+                0x00000388       0x58 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+                0x00000388                send_view_alloc
+ .text.send_view_free
+                0x000003e0       0x1c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+                0x000003e0                send_view_free
+ .text.send_view_get_view
+                0x000003fc        0x4 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+                0x000003fc                send_view_get_view
+ .text.ifttt_virtual_button_tick_event_callback
+                0x00000400        0xc build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .text.ifttt_virtual_button_back_event_callback
+                0x0000040c        0xc build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .text.ifttt_virtual_button_custom_event_callback
+                0x00000418        0xc build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .text.save_settings_file
+                0x00000424       0x84 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+                0x00000424                save_settings_file
+ .text.load_settings
+                0x000004a8      0x164 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+                0x000004a8                load_settings
+ .text.send_serial_command_config
+                0x0000060c       0xb8 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+                0x0000060c                send_serial_command_config
+ .text.ifttt_virtual_button_app_alloc
+                0x000006c4      0x144 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+                0x000006c4                ifttt_virtual_button_app_alloc
+ .text.ifttt_virtual_button_app_free
+                0x00000808       0xa8 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+                0x00000808                ifttt_virtual_button_app_free
+ .text.ifttt_virtual_button_app
+                0x000008b0       0xa0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+                0x000008b0                ifttt_virtual_button_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000950      0x269
+ *(.rodata)
+ .rodata        0x00000950        0xa build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ *(.rodata1)
+ *(.rodata.*)
+ *fill*         0x0000095a        0x2 
+ .rodata.virtual_button_scene_handlers
+                0x0000095c       0x10 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene.o
+                0x0000095c                virtual_button_scene_handlers
+ .rodata.virtual_button_on_exit_handlers
+                0x0000096c        0xc build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene.o
+                0x0000096c                virtual_button_on_exit_handlers
+ .rodata.virtual_button_on_event_handlers
+                0x00000978        0xc build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene.o
+                0x00000978                virtual_button_on_event_handlers
+ .rodata.virtual_button_on_enter_handlers
+                0x00000984        0xc build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene.o
+                0x00000984                virtual_button_on_enter_handlers
+ .rodata.virtual_button_scene_start_on_enter.str1.1
+                0x00000990       0x19 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .rodata.about_view_draw_callback.str1.1
+                0x000009a9       0x2c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .rodata.send_view_draw_callback.str1.1
+                0x000009d5       0x5b build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .rodata.send_view_input_callback.str1.1
+                0x00000a30        0xd build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .rodata.save_settings.str1.1
+                0x00000a3d       0x33 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .rodata.save_settings_file.str1.1
+                0x00000a70       0xcd build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .rodata.load_settings.str1.1
+                0x00000b3d        0x1 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .rodata.send_serial_command_config.str1.1
+                0x00000b3e        0xa build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .rodata.ifttt_virtual_button_app_alloc.str1.1
+                0x00000b48        0xa build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .rodata.ifttt_virtual_button_app.str1.1
+                0x00000b52       0x3b build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .rodata.str1.1
+                0x00000b8d       0x2c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+
+.data           0x00000bbc        0x4
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.CONFIG_FILE_PATH
+                0x00000bbc        0x4 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+                0x00000bbc                CONFIG_FILE_PATH
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x1a8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene.o
+ .debug_aranges
+                0x00000018       0x30 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+ .debug_aranges
+                0x00000048       0x30 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+ .debug_aranges
+                0x00000078       0x38 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .debug_aranges
+                0x000000b0       0x40 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .debug_aranges
+                0x000000f0       0x50 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .debug_aranges
+                0x00000140       0x68 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x41f3
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x2e5 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene.o
+ .debug_info    0x000002e5      0x55c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+ .debug_info    0x00000841      0x55c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+ .debug_info    0x00000d9d      0x721 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .debug_info    0x000014be      0x565 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .debug_info    0x00001a23      0xd58 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .debug_info    0x0000277b     0x1a78 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+
+.debug_abbrev   0x00000000      0xf26
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x137 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene.o
+ .debug_abbrev  0x00000137      0x1db build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+ .debug_abbrev  0x00000312      0x1db build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+ .debug_abbrev  0x000004ed      0x1e4 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .debug_abbrev  0x000006d1      0x1c9 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .debug_abbrev  0x0000089a      0x35a build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .debug_abbrev  0x00000bf4      0x332 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+
+.debug_line     0x00000000     0x1df9
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x1b7 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene.o
+ .debug_line_end
+                0x000001b7        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene.o
+ .debug_line    0x000001b7      0x2cd build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+ .debug_line.text.virtual_button_scene_about_view_on_enter
+                0x00000484       0x2e build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+ .debug_line.text.virtual_button_scene_about_view_on_event
+                0x000004b2       0x40 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+ .debug_line.text.virtual_button_scene_about_view_on_exit
+                0x000004f2       0x18 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+ .debug_line_end
+                0x0000050a        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+ .debug_line    0x0000050a      0x2cc build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+ .debug_line.text.virtual_button_scene_send_view_on_enter
+                0x000007d6       0x2e build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+ .debug_line.text.virtual_button_scene_send_view_on_event
+                0x00000804       0x40 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+ .debug_line.text.virtual_button_scene_send_view_on_exit
+                0x00000844       0x18 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+ .debug_line_end
+                0x0000085c        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+ .debug_line    0x0000085c      0x314 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .debug_line.text.virtual_button_scene_start_submenu_callback
+                0x00000b70       0x1a build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .debug_line.text.virtual_button_scene_start_on_enter
+                0x00000b8a       0x33 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .debug_line.text.virtual_button_scene_start_on_event
+                0x00000bbd       0x5e build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .debug_line.text.virtual_button_scene_start_on_exit
+                0x00000c1b       0x17 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .debug_line_end
+                0x00000c32        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .debug_line    0x00000c32      0x281 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .debug_line.text.about_view_draw_callback
+                0x00000eb3       0x30 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .debug_line.text.about_view_alloc
+                0x00000ee3       0x3b build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .debug_line.text.about_view_free
+                0x00000f1e       0x30 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .debug_line.text.about_view_get_view
+                0x00000f4e       0x1d build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .debug_line_end
+                0x00000f6b        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .debug_line    0x00000f6b      0x374 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .debug_line.text.send_view_draw_callback
+                0x000012df       0x37 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .debug_line.text.send_serial_command_send
+                0x00001316       0x7a build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .debug_line.text.send_view_input_callback
+                0x00001390       0x7f build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .debug_line.text.send_view_alloc
+                0x0000140f       0x3f build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .debug_line.text.send_view_free
+                0x0000144e       0x31 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .debug_line.text.send_view_get_view
+                0x0000147f       0x1e build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .debug_line_end
+                0x0000149d        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .debug_line    0x0000149d      0x4dc build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .debug_line.text.ifttt_virtual_button_tick_event_callback
+                0x00001979       0x1c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .debug_line.text.ifttt_virtual_button_back_event_callback
+                0x00001995       0x1f build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .debug_line.text.ifttt_virtual_button_custom_event_callback
+                0x000019b4       0x20 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .debug_line.text.save_settings_file
+                0x000019d4       0x35 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .debug_line.text.load_settings
+                0x00001a09      0x151 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .debug_line.text.send_serial_command_config
+                0x00001b5a       0x88 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .debug_line.text.ifttt_virtual_button_app_alloc
+                0x00001be2      0x169 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .debug_line.text.ifttt_virtual_button_app_free
+                0x00001d4b       0x44 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .debug_line.text.ifttt_virtual_button_app
+                0x00001d8f       0x6a build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ .debug_line_end
+                0x00001df9        0x0 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+
+.debug_frame    0x00000000      0x3fc
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x58 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+ .debug_frame   0x00000058       0x58 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+ .debug_frame   0x000000b0       0x78 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .debug_frame   0x00000128       0x98 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .debug_frame   0x000001c0       0xe4 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .debug_frame   0x000002a4      0x158 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+
+.debug_str      0x00000000     0x39ad
+ *(.debug_str)
+ .debug_str     0x00000000      0x57a build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene.o
+ .debug_str     0x0000057a      0x618 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+ .debug_str     0x00000b92      0x613 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+ .debug_str     0x000011a5      0x793 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .debug_str     0x00001938      0x462 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .debug_str     0x00001d9a      0xbb4 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .debug_str     0x0000294e     0x105f build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x924
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000       0xfb build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+ .debug_loclists
+                0x000000fb       0xfb build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+ .debug_loclists
+                0x000001f6      0x13f build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .debug_loclists
+                0x00000335       0xd8 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .debug_loclists
+                0x0000040d      0x228 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .debug_loclists
+                0x00000635      0x2ef build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x19c
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x2b build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+ .debug_rnglists
+                0x0000002b       0x2b build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+ .debug_rnglists
+                0x00000056       0x25 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .debug_rnglists
+                0x0000007b       0x40 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .debug_rnglists
+                0x000000bb       0x75 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .debug_rnglists
+                0x00000130       0x6c build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_about.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_send.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/scenes/virtual_button_scene_start.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/about_view.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/views/send_view.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button/ifttt_virtual_button.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/esp8266_ifttt_virtual_button_d.elf elf32-littlearm)
+LOAD linker stubs

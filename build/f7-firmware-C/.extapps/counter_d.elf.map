@@ -1,0 +1,236 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/counter/counter.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/counter/counter.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/counter/counter.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/counter/counter.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/counter/counter_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/counter/counter_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/counter/counter_icons.o
+ .rodata.I_counter_icon
+                0x00000000        0xc build/f7-firmware-C/.extapps/counter/counter_icons.o
+ .rodata._I_counter_icon
+                0x00000000        0x4 build/f7-firmware-C/.extapps/counter/counter_icons.o
+ .rodata._I_counter_icon_0
+                0x00000000       0x15 build/f7-firmware-C/.extapps/counter/counter_icons.o
+ .debug_info    0x00000000      0x184 build/f7-firmware-C/.extapps/counter/counter_icons.o
+ .debug_abbrev  0x00000000       0xb1 build/f7-firmware-C/.extapps/counter/counter_icons.o
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/counter/counter_icons.o
+ .debug_line    0x00000000      0x18d build/f7-firmware-C/.extapps/counter/counter_icons.o
+ .debug_str     0x00000000      0x282 build/f7-firmware-C/.extapps/counter/counter_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/counter/counter_icons.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/counter/counter_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/counter/counter.o
+LOAD build/f7-firmware-C/.extapps/counter/counter_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x328
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.render_callback
+                0x00000000      0x12c build/f7-firmware-C/.extapps/counter/counter.o
+ .text.input_callback
+                0x0000012c       0x1c build/f7-firmware-C/.extapps/counter/counter.o
+ .text.state_free
+                0x00000148       0x4c build/f7-firmware-C/.extapps/counter/counter.o
+                0x00000148                state_free
+ .text.state_init
+                0x00000194       0x8c build/f7-firmware-C/.extapps/counter/counter.o
+                0x00000194                state_init
+ .text.counterapp
+                0x00000220      0x108 build/f7-firmware-C/.extapps/counter/counter.o
+                0x00000220                counterapp
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000328       0x1f
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.render_callback.str1.1
+                0x00000328        0xe build/f7-firmware-C/.extapps/counter/counter.o
+ .rodata.state_free.str1.1
+                0x00000336        0x4 build/f7-firmware-C/.extapps/counter/counter.o
+ .rodata.state_init.str1.1
+                0x0000033a        0xd build/f7-firmware-C/.extapps/counter/counter.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x40
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x40 build/f7-firmware-C/.extapps/counter/counter.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xfcb
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xfcb build/f7-firmware-C/.extapps/counter/counter.o
+
+.debug_abbrev   0x00000000      0x3a6
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3a6 build/f7-firmware-C/.extapps/counter/counter.o
+
+.debug_line     0x00000000      0x6d6
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x397 build/f7-firmware-C/.extapps/counter/counter.o
+ .debug_line.text.render_callback
+                0x00000397      0x10c build/f7-firmware-C/.extapps/counter/counter.o
+ .debug_line.text.input_callback
+                0x000004a3       0x35 build/f7-firmware-C/.extapps/counter/counter.o
+ .debug_line.text.state_free
+                0x000004d8       0x30 build/f7-firmware-C/.extapps/counter/counter.o
+ .debug_line.text.state_init
+                0x00000508       0x8c build/f7-firmware-C/.extapps/counter/counter.o
+ .debug_line.text.counterapp
+                0x00000594      0x142 build/f7-firmware-C/.extapps/counter/counter.o
+ .debug_line_end
+                0x000006d6        0x0 build/f7-firmware-C/.extapps/counter/counter.o
+
+.debug_frame    0x00000000       0xac
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xac build/f7-firmware-C/.extapps/counter/counter.o
+
+.debug_str      0x00000000      0xdc0
+ *(.debug_str)
+ .debug_str     0x00000000      0xdc0 build/f7-firmware-C/.extapps/counter/counter.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x1ca
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x1ca build/f7-firmware-C/.extapps/counter/counter.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x3b
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x3b build/f7-firmware-C/.extapps/counter/counter.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/counter/counter.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/counter/counter_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/counter_d.elf elf32-littlearm)
+LOAD linker stubs

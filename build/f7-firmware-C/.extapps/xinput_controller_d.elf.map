@@ -1,0 +1,403 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .bss.xbox_buttons
+                0x00000000        0x2 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/xinput_controller/app.o
+LOAD build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x55c
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.hid_control
+                0x00000000       0x68 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .text.hid_deinit
+                0x00000068        0x8 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .text.hid_on_wakeup
+                0x00000070       0x10 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .text.hid_set_string_descr
+                0x00000080       0x38 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .text.app_input_callback
+                0x000000b8       0x14 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .text.app_draw_callback
+                0x000000cc      0x150 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .text.hid_on_suspend
+                0x0000021c       0x20 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .text.hid_txrx_ep_callback
+                0x0000023c       0x18 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .text.hid_ep_config
+                0x00000254       0x40 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .text.hid_init
+                0x00000294       0x8c build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .text.xinput_app
+                0x00000320      0x23c build/f7-firmware-C/.extapps/xinput_controller/app.o
+                0x00000320                xinput_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x0000055c      0x49e
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.app_draw_callback.str1.1
+                0x0000055c       0x26 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .rodata.hid_init.str1.1
+                0x00000582       0x1e build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .rodata.xinput_app.str1.1
+                0x000005a0        0x4 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .rodata.xbox_cfg_desc
+                0x000005a4       0x99 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ *fill*         0x0000063d        0x3 
+ .rodata.I_usb  0x00000640        0xc build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x00000640                I_usb
+ .rodata.I_up_held
+                0x0000064c        0xc build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x0000064c                I_up_held
+ .rodata.I_up   0x00000658        0xc build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x00000658                I_up
+ .rodata.I_right_held
+                0x00000664        0xc build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x00000664                I_right_held
+ .rodata.I_right
+                0x00000670        0xc build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x00000670                I_right
+ .rodata.I_left_held
+                0x0000067c        0xc build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x0000067c                I_left_held
+ .rodata.I_left
+                0x00000688        0xc build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x00000688                I_left
+ .rodata.I_down_held
+                0x00000694        0xc build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x00000694                I_down_held
+ .rodata.I_down
+                0x000006a0        0xc build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x000006a0                I_down
+ .rodata.I_back
+                0x000006ac        0xc build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x000006ac                I_back
+ .rodata.I_b_held
+                0x000006b8        0xc build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x000006b8                I_b_held
+ .rodata.I_b    0x000006c4        0xc build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x000006c4                I_b
+ .rodata.I_a_held
+                0x000006d0        0xc build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x000006d0                I_a_held
+ .rodata.I_a    0x000006dc        0xc build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x000006dc                I_a
+ .rodata._I_usb
+                0x000006e8        0x4 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x000006e8                _I_usb
+ .rodata._I_usb_0
+                0x000006ec       0x40 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x000006ec                _I_usb_0
+ .rodata._I_up_held
+                0x0000072c        0x4 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x0000072c                _I_up_held
+ .rodata._I_up_held_0
+                0x00000730       0x3c build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x00000730                _I_up_held_0
+ .rodata._I_up  0x0000076c        0x4 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x0000076c                _I_up
+ .rodata._I_up_0
+                0x00000770       0x3e build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x00000770                _I_up_0
+ *fill*         0x000007ae        0x2 
+ .rodata._I_right_held
+                0x000007b0        0x4 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x000007b0                _I_right_held
+ .rodata._I_right_held_0
+                0x000007b4       0x3e build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x000007b4                _I_right_held_0
+ *fill*         0x000007f2        0x2 
+ .rodata._I_right
+                0x000007f4        0x4 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x000007f4                _I_right
+ .rodata._I_right_0
+                0x000007f8       0x3e build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x000007f8                _I_right_0
+ *fill*         0x00000836        0x2 
+ .rodata._I_left_held
+                0x00000838        0x4 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x00000838                _I_left_held
+ .rodata._I_left_held_0
+                0x0000083c       0x3d build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x0000083c                _I_left_held_0
+ *fill*         0x00000879        0x3 
+ .rodata._I_left
+                0x0000087c        0x4 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x0000087c                _I_left
+ .rodata._I_left_0
+                0x00000880       0x3f build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x00000880                _I_left_0
+ *fill*         0x000008bf        0x1 
+ .rodata._I_down_held
+                0x000008c0        0x4 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x000008c0                _I_down_held
+ .rodata._I_down_held_0
+                0x000008c4       0x3a build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x000008c4                _I_down_held_0
+ *fill*         0x000008fe        0x2 
+ .rodata._I_down
+                0x00000900        0x4 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x00000900                _I_down
+ .rodata._I_down_0
+                0x00000904       0x3e build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x00000904                _I_down_0
+ *fill*         0x00000942        0x2 
+ .rodata._I_back
+                0x00000944        0x4 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x00000944                _I_back
+ .rodata._I_back_0
+                0x00000948       0x11 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x00000948                _I_back_0
+ *fill*         0x00000959        0x3 
+ .rodata._I_b_held
+                0x0000095c        0x4 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x0000095c                _I_b_held
+ .rodata._I_b_held_0
+                0x00000960       0x20 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x00000960                _I_b_held_0
+ .rodata._I_b   0x00000980        0x4 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x00000980                _I_b
+ .rodata._I_b_0
+                0x00000984       0x24 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x00000984                _I_b_0
+ .rodata._I_a_held
+                0x000009a8        0x4 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x000009a8                _I_a_held
+ .rodata._I_a_held_0
+                0x000009ac       0x22 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x000009ac                _I_a_held_0
+ *fill*         0x000009ce        0x2 
+ .rodata._I_a   0x000009d0        0x4 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x000009d0                _I_a
+ .rodata._I_a_0
+                0x000009d4       0x26 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+                0x000009d4                _I_a_0
+
+.data           0x000009fc       0x36
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.usb_xbox
+                0x000009fc       0x24 build/f7-firmware-C/.extapps/xinput_controller/app.o
+                0x000009fc                usb_xbox
+ .data.xbox_device_desc
+                0x00000a20       0x12 build/f7-firmware-C/.extapps/xinput_controller/app.o
+
+.bss            0x00000a34       0x25
+ *(.bss)
+ *(.bss*)
+ .bss.message   0x00000a34        0x4 build/f7-firmware-C/.extapps/xinput_controller/app.o
+                0x00000a34                message
+ .bss.hid_connected
+                0x00000a38        0x1 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ *fill*         0x00000a39        0x3 
+ .bss.hid_semaphore
+                0x00000a3c        0x4 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .bss.usb_dev   0x00000a40        0x4 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .bss.boot_protocol
+                0x00000a44        0x1 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .bss.current_surface
+                0x00000a45       0x14 build/f7-firmware-C/.extapps/xinput_controller/app.o
+                0x00000a45                current_surface
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x88
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x70 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .debug_aranges
+                0x00000070       0x18 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x294d
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2423 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .debug_info    0x00002423      0x52a build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+
+.debug_abbrev   0x00000000      0x60a
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x540 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .debug_abbrev  0x00000540       0xca build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+
+.debug_line     0x00000000      0xc37
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x421 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .debug_line.text.hid_control
+                0x00000421       0x9b build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .debug_line.text.hid_deinit
+                0x000004bc       0x44 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .debug_line.text.hid_on_wakeup
+                0x00000500       0x28 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .debug_line.text.hid_set_string_descr
+                0x00000528       0x80 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .debug_line.text.app_input_callback
+                0x000005a8       0x26 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .debug_line.text.app_draw_callback
+                0x000005ce       0x9d build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .debug_line.text.hid_on_suspend
+                0x0000066b       0x32 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .debug_line.text.hid_txrx_ep_callback
+                0x0000069d       0x2a build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .debug_line.text.hid_ep_config
+                0x000006c7       0xa1 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .debug_line.text.hid_init
+                0x00000768      0x10a build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .debug_line.text.xinput_app
+                0x00000872      0x21a build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .debug_line_end
+                0x00000a8c        0x0 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .debug_line    0x00000a8c      0x1ab build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+ .debug_line_end
+                0x00000c37        0x0 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+
+.debug_frame    0x00000000      0x128
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x128 build/f7-firmware-C/.extapps/xinput_controller/app.o
+
+.debug_str      0x00000000     0x1728
+ *(.debug_str)
+ .debug_str     0x00000000     0x1340 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .debug_str     0x00001340      0x3e8 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x4b7
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x4b7 build/f7-firmware-C/.extapps/xinput_controller/app.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x76
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x76 build/f7-firmware-C/.extapps/xinput_controller/app.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/xinput_controller/app.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/xinput_controller/xinput_controller_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/xinput_controller_d.elf elf32-littlearm)
+LOAD linker stubs

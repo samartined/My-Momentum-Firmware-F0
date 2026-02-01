@@ -1,0 +1,266 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x830
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.filter   0x00000000       0x38 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .text.evenparity32
+                0x00000038       0x1e build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ *fill*         0x00000056        0x2 
+ .text.crypt_word_noret
+                0x00000058       0x74 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .text.napi_mf_classic_mfkey32_nonces_check_presence
+                0x000000cc       0x38 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+                0x000000cc                napi_mf_classic_mfkey32_nonces_check_presence
+ .text.napi_mf_classic_nested_nonces_check_presence
+                0x00000104       0x9c build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+                0x00000104                napi_mf_classic_nested_nonces_check_presence
+ .text.napi_mf_classic_nonce_array_free
+                0x000001a0       0x28 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+                0x000001a0                napi_mf_classic_nonce_array_free
+ .text.prng_successor.constprop.0
+                0x000001c8       0x20 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .text.key_already_found_for_nonce_in_dict
+                0x000001e8      0x178 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+                0x000001e8                key_already_found_for_nonce_in_dict
+ .text.binaryStringToInt
+                0x00000360       0x18 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+                0x00000360                binaryStringToInt
+ .text.load_mfkey32_nonces
+                0x00000378      0x28c build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+                0x00000378                load_mfkey32_nonces
+ .text.load_nested_nonces
+                0x00000604      0x1a4 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+                0x00000604                load_nested_nonces
+ .text.napi_mf_classic_nonce_array_alloc
+                0x000007a8       0x80 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+                0x000007a8                napi_mf_classic_nonce_array_alloc
+ .text.init_plugin_ep
+                0x00000828        0x8 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+                0x00000828                init_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000830      0x2cc
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.napi_mf_classic_mfkey32_nonces_check_presence.str1.1
+                0x00000830       0x1e build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .rodata.napi_mf_classic_nested_nonces_check_presence.str1.1
+                0x0000084e       0x1c build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .rodata.load_mfkey32_nonces.str1.1
+                0x0000086a        0x4 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .rodata.load_nested_nonces.str1.1
+                0x0000086e       0x4f build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .rodata.str1.1
+                0x000008bd       0x1c build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ *fill*         0x000008d9        0x3 
+ .rodata.init_plugin_descriptor
+                0x000008dc        0xc build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .rodata.init_plugin
+                0x000008e8       0x14 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .rodata.lookup2
+                0x000008fc      0x100 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .rodata.lookup1
+                0x000009fc      0x100 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x80
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x80 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1cb6
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1cb6 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+
+.debug_abbrev   0x00000000      0x484
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x484 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+
+.debug_line     0x00000000      0xf22
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x42a build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .debug_line.text.filter
+                0x0000042a       0x42 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .debug_line.text.evenparity32
+                0x0000046c       0x38 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .debug_line.text.crypt_word_noret
+                0x000004a4      0x10f build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .debug_line.text.napi_mf_classic_mfkey32_nonces_check_presence
+                0x000005b3       0x33 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .debug_line.text.napi_mf_classic_nested_nonces_check_presence
+                0x000005e6       0x7e build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .debug_line.text.napi_mf_classic_nonce_array_free
+                0x00000664       0x33 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .debug_line.text.prng_successor.constprop.0
+                0x00000697       0x4b build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .debug_line.text.key_already_found_for_nonce_in_dict
+                0x000006e2      0x22b build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .debug_line.text.binaryStringToInt
+                0x0000090d       0x48 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .debug_line.text.load_mfkey32_nonces
+                0x00000955      0x3c7 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .debug_line.text.load_nested_nonces
+                0x00000d1c      0x176 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .debug_line.text.napi_mf_classic_nonce_array_alloc
+                0x00000e92       0x77 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .debug_line.text.init_plugin_ep
+                0x00000f09       0x19 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ .debug_line_end
+                0x00000f22        0x0 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+
+.debug_frame    0x00000000      0x19c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x19c build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+
+.debug_str      0x00000000      0xcbb
+ *(.debug_str)
+ .debug_str     0x00000000      0xcbb build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0xab6
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0xab6 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x170
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x170 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/mfkey_init_plugin/init_plugin.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/mfkey_init_plugin_d.elf elf32-littlearm)
+LOAD linker stubs

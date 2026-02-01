@@ -1,0 +1,841 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+                              build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o (hvac_mitsubishi_init)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .text.ac_remote_panel_reset_selection
+                0x00000000       0x24 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_line.text.ac_remote_panel_reset_selection
+                0x00000000       0x32 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+ .rodata.I_temperature
+                0x00000000        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+ .rodata._I_temperature
+                0x00000000        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+ .rodata._I_temperature_0
+                0x00000000       0x1c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene.o
+LOAD build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+LOAD build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+LOAD build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+LOAD build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi
+
+.text           0x00000000     0x10d0
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.ac_remote_scene_universal_common_item_callback
+                0x00000000       0x1c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+                0x00000000                ac_remote_scene_universal_common_item_callback
+ .text.ac_remote_load_settings
+                0x0000001c      0x108 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+                0x0000001c                ac_remote_load_settings
+ .text.ac_remote_store_settings
+                0x00000124       0xc4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+                0x00000124                ac_remote_store_settings
+ .text.ac_remote_scene_mitsubishi_on_enter
+                0x000001e8      0x24c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+                0x000001e8                ac_remote_scene_mitsubishi_on_enter
+ .text.ac_remote_scene_mitsubishi_on_event
+                0x00000434      0x164 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+                0x00000434                ac_remote_scene_mitsubishi_on_event
+ .text.ac_remote_scene_mitsubishi_on_exit
+                0x00000598       0x40 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+                0x00000598                ac_remote_scene_mitsubishi_on_exit
+ .text.ButtonMatrix_reset
+                0x000005d8       0x3c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .text.ac_remote_panel_get_item
+                0x00000614       0xe4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .text.ac_remote_panel_view_draw_callback
+                0x000006f8       0xa4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .text.ac_remote_panel_view_input_callback
+                0x0000079c      0x1a8 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .text.ac_remote_panel_alloc
+                0x00000944       0x84 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+                0x00000944                ac_remote_panel_alloc
+ .text.ac_remote_panel_reserve
+                0x000009c8       0x88 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+                0x000009c8                ac_remote_panel_reserve
+ .text.ac_remote_panel_reset
+                0x00000a50       0x94 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+                0x00000a50                ac_remote_panel_reset
+ .text.ac_remote_panel_free
+                0x00000ae4       0x68 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+                0x00000ae4                ac_remote_panel_free
+ .text.ac_remote_panel_add_item
+                0x00000b4c       0x7c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+                0x00000b4c                ac_remote_panel_add_item
+ .text.ac_remote_panel_get_view
+                0x00000bc8        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+                0x00000bc8                ac_remote_panel_get_view
+ .text.ac_remote_panel_add_label
+                0x00000bcc       0x58 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+                0x00000bcc                ac_remote_panel_add_label
+ .text.ac_remote_panel_add_icon
+                0x00000c24       0x50 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+                0x00000c24                ac_remote_panel_add_icon
+ .text.ac_remote_panel_item_set_icons
+                0x00000c74       0x60 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+                0x00000c74                ac_remote_panel_item_set_icons
+ .text.ac_remote_panel_label_set_string
+                0x00000cd4       0x34 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+                0x00000cd4                ac_remote_panel_label_set_string
+ .text.ac_remote_app_tick_event_callback
+                0x00000d08        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .text.ac_remote_app_back_event_callback
+                0x00000d14        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .text.ac_remote_app_custom_event_callback
+                0x00000d20        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .text.ac_remote_app_alloc
+                0x00000d2c       0xcc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+                0x00000d2c                ac_remote_app_alloc
+ .text.ac_remote_app_free
+                0x00000df8       0x54 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+                0x00000df8                ac_remote_app_free
+ .text.ac_remote_app
+                0x00000e4c       0x24 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+                0x00000e4c                ac_remote_app
+ .text.hvac_mitsubishi_init
+                0x00000e70       0x34 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+                0x00000e70                hvac_mitsubishi_init
+ .text.hvac_mitsubishi_deinit
+                0x00000ea4        0x8 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+                0x00000ea4                hvac_mitsubishi_deinit
+ .text.hvac_mitsubishi_power
+                0x00000eac       0x1a build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+                0x00000eac                hvac_mitsubishi_power
+ .text.hvac_mitsubishi_set_mode
+                0x00000ec6       0x46 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+                0x00000ec6                hvac_mitsubishi_set_mode
+ .text.hvac_mitsubishi_set_temperature
+                0x00000f0c       0x1c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+                0x00000f0c                hvac_mitsubishi_set_temperature
+ .text.hvac_mitsubishi_set_fan_speed
+                0x00000f28       0x3a build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+                0x00000f28                hvac_mitsubishi_set_fan_speed
+ .text.hvac_mitsubishi_set_vane
+                0x00000f62       0x42 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+                0x00000f62                hvac_mitsubishi_set_vane
+ .text.hvac_mitsubishi_checksum
+                0x00000fa4       0x1c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+                0x00000fa4                hvac_mitsubishi_checksum
+ .text.hvac_mitsubishi_send
+                0x00000fc0      0x110 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+                0x00000fc0                hvac_mitsubishi_send
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000010d0      0x960
+ *(.rodata)
+ .rodata        0x000010d0       0x12 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+ *(.rodata1)
+ *(.rodata.*)
+ *fill*         0x000010e2        0x2 
+ .rodata.ac_remote_scene_handlers
+                0x000010e4       0x10 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene.o
+                0x000010e4                ac_remote_scene_handlers
+ .rodata.ac_remote_scene_on_exit_handlers
+                0x000010f4        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene.o
+                0x000010f4                ac_remote_scene_on_exit_handlers
+ .rodata.ac_remote_scene_on_event_handlers
+                0x000010f8        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene.o
+                0x000010f8                ac_remote_scene_on_event_handlers
+ .rodata.ac_remote_scene_on_enter_handlers
+                0x000010fc        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene.o
+                0x000010fc                ac_remote_scene_on_enter_handlers
+ .rodata.ac_remote_load_settings.str1.1
+                0x00001100       0x3f build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .rodata.ac_remote_store_settings.str1.1
+                0x0000113f        0x1 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .rodata.ac_remote_scene_mitsubishi_on_enter.str1.1
+                0x00001140        0xe build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .rodata.ac_remote_scene_mitsubishi_on_event.str1.1
+                0x0000114e        0xd build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .rodata.ac_remote_app_alloc.str1.1
+                0x0000115b        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ *fill*         0x0000115f        0x1 
+ .rodata.I_vane_text_20x5
+                0x00001160        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001160                I_vane_text_20x5
+ .rodata.I_vane_h5_hover_19x20
+                0x0000116c        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x0000116c                I_vane_h5_hover_19x20
+ .rodata.I_vane_h5_19x20
+                0x00001178        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001178                I_vane_h5_19x20
+ .rodata.I_vane_h4_hover_19x20
+                0x00001184        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001184                I_vane_h4_hover_19x20
+ .rodata.I_vane_h4_19x20
+                0x00001190        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001190                I_vane_h4_19x20
+ .rodata.I_vane_h3_hover_19x20
+                0x0000119c        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x0000119c                I_vane_h3_hover_19x20
+ .rodata.I_vane_h3_19x20
+                0x000011a8        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000011a8                I_vane_h3_19x20
+ .rodata.I_vane_h2_hover_19x20
+                0x000011b4        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000011b4                I_vane_h2_hover_19x20
+ .rodata.I_vane_h2_19x20
+                0x000011c0        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000011c0                I_vane_h2_19x20
+ .rodata.I_vane_h1_hover_19x20
+                0x000011cc        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000011cc                I_vane_h1_hover_19x20
+ .rodata.I_vane_h1_19x20
+                0x000011d8        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000011d8                I_vane_h1_19x20
+ .rodata.I_vane_auto_move_hover_19x20
+                0x000011e4        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000011e4                I_vane_auto_move_hover_19x20
+ .rodata.I_vane_auto_move_19x20
+                0x000011f0        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000011f0                I_vane_auto_move_19x20
+ .rodata.I_tempup_hover_24x21
+                0x000011fc        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000011fc                I_tempup_hover_24x21
+ .rodata.I_tempup_24x21
+                0x00001208        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001208                I_tempup_24x21
+ .rodata.I_tempdown_hover_24x21
+                0x00001214        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001214                I_tempdown_hover_24x21
+ .rodata.I_tempdown_24x21
+                0x00001220        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001220                I_tempdown_24x21
+ .rodata.I_off_text_14x5
+                0x0000122c        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x0000122c                I_off_text_14x5
+ .rodata.I_heat_hover_19x20
+                0x00001238        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001238                I_heat_hover_19x20
+ .rodata.I_heat_19x20
+                0x00001244        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001244                I_heat_19x20
+ .rodata.I_frame_30x39
+                0x00001250        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001250                I_frame_30x39
+ .rodata.I_fan_text_14x5
+                0x0000125c        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x0000125c                I_fan_text_14x5
+ .rodata.I_fan_speed_4_hover_19x20
+                0x00001268        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001268                I_fan_speed_4_hover_19x20
+ .rodata.I_fan_speed_4_19x20
+                0x00001274        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001274                I_fan_speed_4_19x20
+ .rodata.I_fan_speed_3_hover_19x20
+                0x00001280        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001280                I_fan_speed_3_hover_19x20
+ .rodata.I_fan_speed_3_19x20
+                0x0000128c        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x0000128c                I_fan_speed_3_19x20
+ .rodata.I_fan_speed_2_hover_19x20
+                0x00001298        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001298                I_fan_speed_2_hover_19x20
+ .rodata.I_fan_speed_2_19x20
+                0x000012a4        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000012a4                I_fan_speed_2_19x20
+ .rodata.I_fan_speed_1_hover_19x20
+                0x000012b0        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000012b0                I_fan_speed_1_hover_19x20
+ .rodata.I_fan_speed_1_19x20
+                0x000012bc        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000012bc                I_fan_speed_1_19x20
+ .rodata.I_fan_silent_hover_19x20
+                0x000012c8        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000012c8                I_fan_silent_hover_19x20
+ .rodata.I_fan_silent_19x20
+                0x000012d4        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000012d4                I_fan_silent_19x20
+ .rodata.I_cold_hover_19x20
+                0x000012e0        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000012e0                I_cold_hover_19x20
+ .rodata.I_cold_19x20
+                0x000012ec        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000012ec                I_cold_19x20
+ .rodata.I_auto_hover_19x20
+                0x000012f8        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000012f8                I_auto_hover_19x20
+ .rodata.I_auto_19x20
+                0x00001304        0xc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001304                I_auto_19x20
+ .rodata._I_vane_text_20x5
+                0x00001310        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001310                _I_vane_text_20x5
+ .rodata._I_vane_text_20x5_0
+                0x00001314       0x10 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001314                _I_vane_text_20x5_0
+ .rodata._I_vane_h5_hover_19x20
+                0x00001324        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001324                _I_vane_h5_hover_19x20
+ .rodata._I_vane_h5_hover_19x20_0
+                0x00001328       0x1b build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001328                _I_vane_h5_hover_19x20_0
+ *fill*         0x00001343        0x1 
+ .rodata._I_vane_h5_19x20
+                0x00001344        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001344                _I_vane_h5_19x20
+ .rodata._I_vane_h5_19x20_0
+                0x00001348       0x1f build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001348                _I_vane_h5_19x20_0
+ *fill*         0x00001367        0x1 
+ .rodata._I_vane_h4_hover_19x20
+                0x00001368        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001368                _I_vane_h4_hover_19x20
+ .rodata._I_vane_h4_hover_19x20_0
+                0x0000136c       0x32 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x0000136c                _I_vane_h4_hover_19x20_0
+ *fill*         0x0000139e        0x2 
+ .rodata._I_vane_h4_19x20
+                0x000013a0        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000013a0                _I_vane_h4_19x20
+ .rodata._I_vane_h4_19x20_0
+                0x000013a4       0x37 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000013a4                _I_vane_h4_19x20_0
+ *fill*         0x000013db        0x1 
+ .rodata._I_vane_h3_hover_19x20
+                0x000013dc        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000013dc                _I_vane_h3_hover_19x20
+ .rodata._I_vane_h3_hover_19x20_0
+                0x000013e0       0x2f build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000013e0                _I_vane_h3_hover_19x20_0
+ *fill*         0x0000140f        0x1 
+ .rodata._I_vane_h3_19x20
+                0x00001410        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001410                _I_vane_h3_19x20
+ .rodata._I_vane_h3_19x20_0
+                0x00001414       0x34 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001414                _I_vane_h3_19x20_0
+ .rodata._I_vane_h2_hover_19x20
+                0x00001448        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001448                _I_vane_h2_hover_19x20
+ .rodata._I_vane_h2_hover_19x20_0
+                0x0000144c       0x29 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x0000144c                _I_vane_h2_hover_19x20_0
+ *fill*         0x00001475        0x3 
+ .rodata._I_vane_h2_19x20
+                0x00001478        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001478                _I_vane_h2_19x20
+ .rodata._I_vane_h2_19x20_0
+                0x0000147c       0x2e build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x0000147c                _I_vane_h2_19x20_0
+ *fill*         0x000014aa        0x2 
+ .rodata._I_vane_h1_hover_19x20
+                0x000014ac        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000014ac                _I_vane_h1_hover_19x20
+ .rodata._I_vane_h1_hover_19x20_0
+                0x000014b0       0x1b build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000014b0                _I_vane_h1_hover_19x20_0
+ *fill*         0x000014cb        0x1 
+ .rodata._I_vane_h1_19x20
+                0x000014cc        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000014cc                _I_vane_h1_19x20
+ .rodata._I_vane_h1_19x20_0
+                0x000014d0       0x20 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000014d0                _I_vane_h1_19x20_0
+ .rodata._I_vane_auto_move_hover_19x20
+                0x000014f0        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000014f0                _I_vane_auto_move_hover_19x20
+ .rodata._I_vane_auto_move_hover_19x20_0
+                0x000014f4       0x31 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000014f4                _I_vane_auto_move_hover_19x20_0
+ *fill*         0x00001525        0x3 
+ .rodata._I_vane_auto_move_19x20
+                0x00001528        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001528                _I_vane_auto_move_19x20
+ .rodata._I_vane_auto_move_19x20_0
+                0x0000152c       0x35 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x0000152c                _I_vane_auto_move_19x20_0
+ *fill*         0x00001561        0x3 
+ .rodata._I_tempup_hover_24x21
+                0x00001564        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001564                _I_tempup_hover_24x21
+ .rodata._I_tempup_hover_24x21_0
+                0x00001568       0x34 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001568                _I_tempup_hover_24x21_0
+ .rodata._I_tempup_24x21
+                0x0000159c        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x0000159c                _I_tempup_24x21
+ .rodata._I_tempup_24x21_0
+                0x000015a0       0x3a build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000015a0                _I_tempup_24x21_0
+ *fill*         0x000015da        0x2 
+ .rodata._I_tempdown_hover_24x21
+                0x000015dc        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000015dc                _I_tempdown_hover_24x21
+ .rodata._I_tempdown_hover_24x21_0
+                0x000015e0       0x31 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000015e0                _I_tempdown_hover_24x21_0
+ *fill*         0x00001611        0x3 
+ .rodata._I_tempdown_24x21
+                0x00001614        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001614                _I_tempdown_24x21
+ .rodata._I_tempdown_24x21_0
+                0x00001618       0x36 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001618                _I_tempdown_24x21_0
+ *fill*         0x0000164e        0x2 
+ .rodata._I_off_text_14x5
+                0x00001650        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001650                _I_off_text_14x5
+ .rodata._I_off_text_14x5_0
+                0x00001654        0xb build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001654                _I_off_text_14x5_0
+ *fill*         0x0000165f        0x1 
+ .rodata._I_heat_hover_19x20
+                0x00001660        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001660                _I_heat_hover_19x20
+ .rodata._I_heat_hover_19x20_0
+                0x00001664       0x30 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001664                _I_heat_hover_19x20_0
+ .rodata._I_heat_19x20
+                0x00001694        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001694                _I_heat_19x20
+ .rodata._I_heat_19x20_0
+                0x00001698       0x34 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001698                _I_heat_19x20_0
+ .rodata._I_frame_30x39
+                0x000016cc        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000016cc                _I_frame_30x39
+ .rodata._I_frame_30x39_0
+                0x000016d0       0x2f build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000016d0                _I_frame_30x39_0
+ *fill*         0x000016ff        0x1 
+ .rodata._I_fan_text_14x5
+                0x00001700        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001700                _I_fan_text_14x5
+ .rodata._I_fan_text_14x5_0
+                0x00001704        0xb build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001704                _I_fan_text_14x5_0
+ *fill*         0x0000170f        0x1 
+ .rodata._I_fan_speed_4_hover_19x20
+                0x00001710        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001710                _I_fan_speed_4_hover_19x20
+ .rodata._I_fan_speed_4_hover_19x20_0
+                0x00001714       0x3d build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001714                _I_fan_speed_4_hover_19x20_0
+ *fill*         0x00001751        0x3 
+ .rodata._I_fan_speed_4_19x20
+                0x00001754        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001754                _I_fan_speed_4_19x20
+ .rodata._I_fan_speed_4_19x20_0
+                0x00001758       0x3d build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001758                _I_fan_speed_4_19x20_0
+ *fill*         0x00001795        0x3 
+ .rodata._I_fan_speed_3_hover_19x20
+                0x00001798        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001798                _I_fan_speed_3_hover_19x20
+ .rodata._I_fan_speed_3_hover_19x20_0
+                0x0000179c       0x38 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x0000179c                _I_fan_speed_3_hover_19x20_0
+ .rodata._I_fan_speed_3_19x20
+                0x000017d4        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000017d4                _I_fan_speed_3_19x20
+ .rodata._I_fan_speed_3_19x20_0
+                0x000017d8       0x3d build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000017d8                _I_fan_speed_3_19x20_0
+ *fill*         0x00001815        0x3 
+ .rodata._I_fan_speed_2_hover_19x20
+                0x00001818        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001818                _I_fan_speed_2_hover_19x20
+ .rodata._I_fan_speed_2_hover_19x20_0
+                0x0000181c       0x31 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x0000181c                _I_fan_speed_2_hover_19x20_0
+ *fill*         0x0000184d        0x3 
+ .rodata._I_fan_speed_2_19x20
+                0x00001850        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001850                _I_fan_speed_2_19x20
+ .rodata._I_fan_speed_2_19x20_0
+                0x00001854       0x36 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001854                _I_fan_speed_2_19x20_0
+ *fill*         0x0000188a        0x2 
+ .rodata._I_fan_speed_1_hover_19x20
+                0x0000188c        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x0000188c                _I_fan_speed_1_hover_19x20
+ .rodata._I_fan_speed_1_hover_19x20_0
+                0x00001890       0x25 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001890                _I_fan_speed_1_hover_19x20_0
+ *fill*         0x000018b5        0x3 
+ .rodata._I_fan_speed_1_19x20
+                0x000018b8        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000018b8                _I_fan_speed_1_19x20
+ .rodata._I_fan_speed_1_19x20_0
+                0x000018bc       0x29 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000018bc                _I_fan_speed_1_19x20_0
+ *fill*         0x000018e5        0x3 
+ .rodata._I_fan_silent_hover_19x20
+                0x000018e8        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000018e8                _I_fan_silent_hover_19x20
+ .rodata._I_fan_silent_hover_19x20_0
+                0x000018ec       0x39 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000018ec                _I_fan_silent_hover_19x20_0
+ *fill*         0x00001925        0x3 
+ .rodata._I_fan_silent_19x20
+                0x00001928        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001928                _I_fan_silent_19x20
+ .rodata._I_fan_silent_19x20_0
+                0x0000192c       0x3d build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x0000192c                _I_fan_silent_19x20_0
+ *fill*         0x00001969        0x3 
+ .rodata._I_cold_hover_19x20
+                0x0000196c        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x0000196c                _I_cold_hover_19x20
+ .rodata._I_cold_hover_19x20_0
+                0x00001970       0x31 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001970                _I_cold_hover_19x20_0
+ *fill*         0x000019a1        0x3 
+ .rodata._I_cold_19x20
+                0x000019a4        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000019a4                _I_cold_19x20
+ .rodata._I_cold_19x20_0
+                0x000019a8       0x34 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000019a8                _I_cold_19x20_0
+ .rodata._I_auto_hover_19x20
+                0x000019dc        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000019dc                _I_auto_hover_19x20
+ .rodata._I_auto_hover_19x20_0
+                0x000019e0       0x24 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x000019e0                _I_auto_hover_19x20_0
+ .rodata._I_auto_19x20
+                0x00001a04        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001a04                _I_auto_19x20
+ .rodata._I_auto_19x20_0
+                0x00001a08       0x28 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+                0x00001a08                _I_auto_19x20_0
+
+.data           0x00001a30       0x90
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.vane     0x00001a30       0x38 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+                0x00001a30                vane
+ .data.fan      0x00001a68       0x38 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+                0x00001a68                fan
+ .data.mode     0x00001aa0       0x20 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+                0x00001aa0                mode
+
+.bss            0x00001ac0        0x4
+ *(.bss)
+ *(.bss*)
+ .bss.buffer    0x00001ac0        0x4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+                0x00001ac0                buffer
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x1b0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene.o
+ .debug_aranges
+                0x00000018       0x48 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .debug_aranges
+                0x00000060       0x90 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_aranges
+                0x000000f0       0x48 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .debug_aranges
+                0x00000138       0x18 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+ .debug_aranges
+                0x00000150       0x60 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x5df4
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x26b build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene.o
+ .debug_info    0x0000026b     0x1aea build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .debug_info    0x00001d55     0x23bb build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_info    0x00004110      0xb09 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .debug_info    0x00004c19      0xb2e build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+ .debug_info    0x00005747      0x6ad build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+
+.debug_abbrev   0x00000000      0xf9c
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x133 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene.o
+ .debug_abbrev  0x00000133      0x3e0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .debug_abbrev  0x00000513      0x568 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_abbrev  0x00000a7b      0x28e build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .debug_abbrev  0x00000d09       0xb5 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+ .debug_abbrev  0x00000dbe      0x1de build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+
+.debug_line     0x00000000     0x2694
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x1b7 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene.o
+ .debug_line_end
+                0x000001b7        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene.o
+ .debug_line    0x000001b7      0x5b1 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .debug_line.text.ac_remote_scene_universal_common_item_callback
+                0x00000768       0x56 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .debug_line.text.ac_remote_load_settings
+                0x000007be       0xd5 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .debug_line.text.ac_remote_store_settings
+                0x00000893       0x93 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .debug_line.text.ac_remote_scene_mitsubishi_on_enter
+                0x00000926       0xb1 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .debug_line.text.ac_remote_scene_mitsubishi_on_event
+                0x000009d7      0x162 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .debug_line.text.ac_remote_scene_mitsubishi_on_exit
+                0x00000b39       0x33 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .debug_line_end
+                0x00000b6c        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .debug_line    0x00000b6c      0x30c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_line.text.ButtonMatrix_reset
+                0x00000e78       0xc6 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_line.text.ac_remote_panel_get_item
+                0x00000f3e      0x11a build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_line.text.ac_remote_panel_view_draw_callback
+                0x00001058      0x1a3 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_line.text.ac_remote_panel_view_input_callback
+                0x000011fb      0x126 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_line.text.ac_remote_panel_alloc
+                0x00001321       0x80 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_line.text.ac_remote_panel_reserve
+                0x000013a1       0xf2 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_line.text.ac_remote_panel_reset
+                0x00001493      0x164 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_line.text.ac_remote_panel_free
+                0x000015f7       0x83 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_line.text.ac_remote_panel_add_item
+                0x0000167a       0xa6 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_line.text.ac_remote_panel_get_view
+                0x00001720       0x1e build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_line.text.ac_remote_panel_add_label
+                0x0000173e       0x6a build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_line.text.ac_remote_panel_add_icon
+                0x000017a8       0x76 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_line.text.ac_remote_panel_item_set_icons
+                0x0000181e       0x7a build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_line.text.ac_remote_panel_label_set_string
+                0x00001898       0xc5 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_line_end
+                0x0000195d        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_line    0x0000195d      0x3d6 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .debug_line.text.ac_remote_app_tick_event_callback
+                0x00001d33       0x1b build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .debug_line.text.ac_remote_app_back_event_callback
+                0x00001d4e       0x1e build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .debug_line.text.ac_remote_app_custom_event_callback
+                0x00001d6c       0x1d build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .debug_line.text.ac_remote_app_alloc
+                0x00001d89       0x77 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .debug_line.text.ac_remote_app_free
+                0x00001e00       0x30 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .debug_line.text.ac_remote_app
+                0x00001e30       0x31 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .debug_line_end
+                0x00001e61        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .debug_line    0x00001e61      0x1b4 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+ .debug_line_end
+                0x00002015        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+ .debug_line    0x00002015      0x2fc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+ .debug_line.text.hvac_mitsubishi_init
+                0x00002311       0x2d build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+ .debug_line.text.hvac_mitsubishi_deinit
+                0x0000233e       0x16 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+ .debug_line.text.hvac_mitsubishi_power
+                0x00002354       0x2c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+ .debug_line.text.hvac_mitsubishi_set_mode
+                0x00002380       0x74 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+ .debug_line.text.hvac_mitsubishi_set_temperature
+                0x000023f4       0x2c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+ .debug_line.text.hvac_mitsubishi_set_fan_speed
+                0x00002420       0x63 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+ .debug_line.text.hvac_mitsubishi_set_vane
+                0x00002483       0x6c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+ .debug_line.text.hvac_mitsubishi_checksum
+                0x000024ef       0x62 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+ .debug_line.text.hvac_mitsubishi_send
+                0x00002551      0x143 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+ .debug_line_end
+                0x00002694        0x0 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+
+.debug_frame    0x00000000      0x4b4
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xec build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .debug_frame   0x000000ec      0x25c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_frame   0x00000348       0x90 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .debug_frame   0x000003d8       0xdc build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+
+.debug_str      0x00000000     0x4237
+ *(.debug_str)
+ .debug_str     0x00000000      0x44b build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene.o
+ .debug_str     0x0000044b     0x1587 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .debug_str     0x000019d2      0xd88 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_str     0x0000275a      0x91c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .debug_str     0x00003076      0xb6c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+ .debug_str     0x00003be2      0x655 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x1801
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x435 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .debug_loclists
+                0x00000435     0x108c build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_loclists
+                0x000014c1      0x119 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .debug_loclists
+                0x000015da      0x227 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x429
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x54 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .debug_rnglists
+                0x00000054      0x34f build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .debug_rnglists
+                0x000003a3       0x32 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .debug_rnglists
+                0x000003d5       0x54 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/scenes/ac_remote_scene_mitsubishi.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/views/ac_remote_panel.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/ac_remote_app.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/mitsubishi_ac_remote_icons.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/mitsubishi_ac_remote/hvac_mitsubishi(hvac_mitsubishi.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/mitsubishi_ac_remote_d.elf elf32-littlearm)
+LOAD linker stubs

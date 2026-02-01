@@ -1,0 +1,230 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flame_rng/main.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flame_rng/main.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flame_rng/main.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flame_rng/main.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flame_rng/flame_rng_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flame_rng/flame_rng_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flame_rng/flame_rng_icons.o
+ .debug_info    0x00000000       0x7a build/f7-firmware-C/.extapps/flame_rng/flame_rng_icons.o
+ .debug_abbrev  0x00000000       0x26 build/f7-firmware-C/.extapps/flame_rng/flame_rng_icons.o
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/flame_rng/flame_rng_icons.o
+ .debug_line    0x00000000       0x59 build/f7-firmware-C/.extapps/flame_rng/flame_rng_icons.o
+ .debug_str     0x00000000      0x1ff build/f7-firmware-C/.extapps/flame_rng/flame_rng_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flame_rng/flame_rng_icons.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flame_rng/flame_rng_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/flame_rng/main.o
+LOAD build/f7-firmware-C/.extapps/flame_rng/flame_rng_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x4a4
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.ir_callback
+                0x00000000       0xfc build/f7-firmware-C/.extapps/flame_rng/main.o
+ .text.input_callback
+                0x000000fc       0x14 build/f7-firmware-C/.extapps/flame_rng/main.o
+ .text.render_callback
+                0x00000110       0xc8 build/f7-firmware-C/.extapps/flame_rng/main.o
+ .text.save_random_numbers
+                0x000001d8      0x120 build/f7-firmware-C/.extapps/flame_rng/main.o
+ .text.flame_rng
+                0x000002f8      0x1ac build/f7-firmware-C/.extapps/flame_rng/main.o
+                0x000002f8                flame_rng
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000004a4      0x139
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.ir_callback.str1.1
+                0x000004a4       0x29 build/f7-firmware-C/.extapps/flame_rng/main.o
+ .rodata.render_callback.str1.1
+                0x000004cd       0x45 build/f7-firmware-C/.extapps/flame_rng/main.o
+ .rodata.save_random_numbers.str1.1
+                0x00000512       0xa1 build/f7-firmware-C/.extapps/flame_rng/main.o
+ .rodata.flame_rng.str1.1
+                0x000005b3       0x2a build/f7-firmware-C/.extapps/flame_rng/main.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x40
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flame_rng/main.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x173e
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x173e build/f7-firmware-C/.extapps/flame_rng/main.o
+
+.debug_abbrev   0x00000000      0x3bd
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3bd build/f7-firmware-C/.extapps/flame_rng/main.o
+
+.debug_line     0x00000000      0x850
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x48f build/f7-firmware-C/.extapps/flame_rng/main.o
+ .debug_line.text.ir_callback
+                0x0000048f      0x161 build/f7-firmware-C/.extapps/flame_rng/main.o
+ .debug_line.text.input_callback
+                0x000005f0       0x22 build/f7-firmware-C/.extapps/flame_rng/main.o
+ .debug_line.text.render_callback
+                0x00000612       0x74 build/f7-firmware-C/.extapps/flame_rng/main.o
+ .debug_line.text.save_random_numbers
+                0x00000686       0xc5 build/f7-firmware-C/.extapps/flame_rng/main.o
+ .debug_line.text.flame_rng
+                0x0000074b      0x105 build/f7-firmware-C/.extapps/flame_rng/main.o
+ .debug_line_end
+                0x00000850        0x0 build/f7-firmware-C/.extapps/flame_rng/main.o
+
+.debug_frame    0x00000000       0xd0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xd0 build/f7-firmware-C/.extapps/flame_rng/main.o
+
+.debug_str      0x00000000      0xd7e
+ *(.debug_str)
+ .debug_str     0x00000000      0xd7e build/f7-firmware-C/.extapps/flame_rng/main.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x397
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x397 build/f7-firmware-C/.extapps/flame_rng/main.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x84
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x84 build/f7-firmware-C/.extapps/flame_rng/main.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/flame_rng/main.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/flame_rng/flame_rng_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/flame_rng_d.elf elf32-littlearm)
+LOAD linker stubs

@@ -1,0 +1,383 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.ScientificPitch
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.ForkVerdi
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Fork18Century
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.ForkMid19Century
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.ForkSarti
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.ForkCommon
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.CigarBox4OpenG
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.CigarBox3OpenA
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.CigarBox3OpenD
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.CigarBox3OpenG
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Banjo5Standard
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Ukulele4Standard
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Bass5DropA
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Bass5Tenor
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Bass5Standard
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Bass4DropC
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Bass4DropCSharp
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Bass4D
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Bass4DropD
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Bass4Tenor
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Bass4Standard
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Guitar7A
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Guitar7DropA
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Guitar7Standard
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Guitar6CGCFGC
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Guitar6DropC
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Guitar6CGCFGCSharp
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Guitar6D
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Guitar6DADGAD
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Guitar6DropD
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.Guitar6Standard
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x874
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.current_tuning_note
+                0x00000000       0x38 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .text.updateTuning
+                0x00000038       0x58 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .text.next_instrument
+                0x00000090       0x1c build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .text.prev_instrument
+                0x000000ac       0x1c build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .text.next_variation
+                0x000000c8       0x1c build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .text.prev_variation
+                0x000000e4       0x14 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .text.next_tuning
+                0x000000f8       0x1c build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .text.prev_tuning
+                0x00000114       0x14 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .text.next_note
+                0x00000128       0x14 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .text.input_callback
+                0x0000013c       0x28 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .text.play     0x00000164       0x48 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .text.prev_note.part.0
+                0x000001ac        0xa build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ *fill*         0x000001b6        0x2 
+ .text.prev_note
+                0x000001b8       0x14 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .text.stop     0x000001cc       0x24 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .text.replay   0x000001f0       0x1c build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .text.current_instrument_label.part.0
+                0x0000020c       0x30 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .text.current_variation_label.part.0
+                0x0000023c       0x30 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .text.current_tuning_label.part.0
+                0x0000026c       0x30 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .text.render_callback
+                0x0000029c      0x2cc build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .text.tuning_fork_app
+                0x00000568      0x30c build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+                0x00000568                tuning_fork_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000874     0x3f58
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.render_callback.str1.1
+                0x00000874       0x25 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .rodata.tuning_fork_app.str1.1
+                0x00000899       0x68 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ *fill*         0x00000901        0x3 
+ .rodata.Instruments
+                0x00000904       0xa8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+                0x00000904                Instruments
+ .rodata.MiscellaneousVariations
+                0x000009ac       0x38 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+                0x000009ac                MiscellaneousVariations
+ .rodata.OtherTunings
+                0x000009e4      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+                0x000009e4                OtherTunings
+ .rodata.ForkTunings
+                0x00000bdc      0x9d8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+                0x00000bdc                ForkTunings
+ .rodata.CigarBoxVariations
+                0x000015b4       0x38 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+                0x000015b4                CigarBoxVariations
+ .rodata.CigarBox4Tunings
+                0x000015ec      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+                0x000015ec                CigarBox4Tunings
+ .rodata.CigarBox3Tunings
+                0x000017e4      0x5e8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+                0x000017e4                CigarBox3Tunings
+ .rodata.BanjoVariations
+                0x00001dcc       0x1c build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+                0x00001dcc                BanjoVariations
+ .rodata.Banjo5Tunings
+                0x00001de8      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+                0x00001de8                Banjo5Tunings
+ .rodata.UkuleleVariations
+                0x00001fe0       0x1c build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+                0x00001fe0                UkuleleVariations
+ .rodata.Ukulele4Tunings
+                0x00001ffc      0x1f8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+                0x00001ffc                Ukulele4Tunings
+ .rodata.BassVariations
+                0x000021f4       0x38 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+                0x000021f4                BassVariations
+ .rodata.Bass5Tunings
+                0x0000222c      0x5e8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+                0x0000222c                Bass5Tunings
+ .rodata.Bass4Tunings
+                0x00002814      0xbd0 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+                0x00002814                Bass4Tunings
+ .rodata.GuitarVariations
+                0x000033e4       0x38 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+                0x000033e4                GuitarVariations
+ .rodata.Guitar7Tunings
+                0x0000341c      0x5e8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+                0x0000341c                Guitar7Tunings
+ .rodata.Guitar6Tunings
+                0x00003a04      0xdc8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+                0x00003a04                Guitar6Tunings
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xb8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xb8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x25fa
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x25fa build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+
+.debug_abbrev   0x00000000      0x506
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x506 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+
+.debug_line     0x00000000      0xd17
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3e8 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.current_tuning_note
+                0x000003e8       0x2e build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.updateTuning
+                0x00000416       0x45 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.next_instrument
+                0x0000045b       0x36 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.prev_instrument
+                0x00000491       0x39 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.next_variation
+                0x000004ca       0x31 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.prev_variation
+                0x000004fb       0x32 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.next_tuning
+                0x0000052d       0x31 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.prev_tuning
+                0x0000055e       0x32 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.next_note
+                0x00000590       0x3d build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.input_callback
+                0x000005cd       0x30 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.play
+                0x000005fd       0x56 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.prev_note.part.0
+                0x00000653       0x2f build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.prev_note
+                0x00000682       0x27 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.stop
+                0x000006a9       0x31 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.replay
+                0x000006da       0x2c build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.current_instrument_label.part.0
+                0x00000706       0x66 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.current_variation_label.part.0
+                0x0000076c       0x66 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.current_tuning_label.part.0
+                0x000007d2       0x47 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.render_callback
+                0x00000819      0x1b9 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line.text.tuning_fork_app
+                0x000009d2      0x345 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ .debug_line_end
+                0x00000d17        0x0 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+
+.debug_frame    0x00000000      0x234
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x234 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+
+.debug_str      0x00000000     0x10bd
+ *(.debug_str)
+ .debug_str     0x00000000     0x10bd build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x80d
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x80d build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x153
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x153 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/tuning_fork/tuning_fork.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/tuning_fork_d.elf elf32-littlearm)
+LOAD linker stubs

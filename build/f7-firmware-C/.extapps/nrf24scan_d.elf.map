@@ -1,0 +1,626 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+                              build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o (nrf24_init)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.nrf24_get_maclen
+                0x00000000       0x20 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.nrf24_get_rate
+                0x00000000       0x48 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.nrf24_set_rate
+                0x00000000       0x64 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.nrf24_get_chan
+                0x00000000       0x20 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.nrf24_set_chan
+                0x00000000        0xc build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.nrf24_get_src_mac
+                0x00000000       0x24 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.nrf24_set_src_mac
+                0x00000000       0x44 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.nrf24_get_dst_mac
+                0x00000000       0x24 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.nrf24_set_dst_mac
+                0x00000000       0x44 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.nrf24_set_packetlen
+                0x00000000        0xc build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.nrf24_power_up
+                0x00000000       0x44 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.nrf24_configure
+                0x00000000       0xf0 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.nrf24_init_promisc_mode
+                0x00000000       0xb0 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .rodata.hexlify.str1.1
+                0x00000000        0x5 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.hexlify  0x00000000       0x4c build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.bytes_to_int64
+                0x00000000       0x2e build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.int64_to_bytes
+                0x00000000       0x42 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.bytes_to_int32
+                0x00000000       0x26 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.int32_to_bytes
+                0x00000000       0x26 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.bytes_to_int16
+                0x00000000        0xc build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.int16_to_bytes
+                0x00000000       0x12 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.alt_address_old
+                0x00000000       0x64 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.validate_address
+                0x00000000       0x58 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.nrf24_sniff_address
+                0x00000000       0x58 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .rodata.nrf24_find_channel.str1.1
+                0x00000000       0x28 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .text.nrf24_find_channel
+                0x00000000       0xac build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .rodata        0x00000000       0x11 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_get_maclen
+                0x00000000       0x27 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_get_rate
+                0x00000000       0x4b build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_rate
+                0x00000000       0x88 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_get_chan
+                0x00000000       0x25 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_chan
+                0x00000000       0x1f build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_get_src_mac
+                0x00000000       0x35 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_src_mac
+                0x00000000       0x49 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_get_dst_mac
+                0x00000000       0x35 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_dst_mac
+                0x00000000       0x49 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_packetlen
+                0x00000000       0x1f build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_power_up
+                0x00000000       0x48 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_configure
+                0x00000000       0xa7 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_init_promisc_mode
+                0x00000000       0x68 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.hexlify
+                0x00000000       0x66 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.bytes_to_int64
+                0x00000000       0x5a build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.int64_to_bytes
+                0x00000000       0x53 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.bytes_to_int32
+                0x00000000       0x56 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.int32_to_bytes
+                0x00000000       0x52 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.bytes_to_int16
+                0x00000000       0x44 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.int16_to_bytes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.alt_address_old
+                0x00000000       0x68 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.validate_address
+                0x00000000       0x7e build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_sniff_address
+                0x00000000       0x87 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_find_channel
+                0x00000000       0x8b build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/.extapps/nrf24scan/nrf24
+
+.text           0x00000000     0x3754
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.add_to_str_hex_bytes
+                0x00000000       0x40 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .text.input_callback
+                0x00000040       0x28 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .text.add_to_furi_str_hex_bytes
+                0x00000068       0x2c build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .text.add_to_str_hex_bytes_shift_9b.constprop.0
+                0x00000094       0x50 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .text.ConvertHexToArray
+                0x000000e4       0x58 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .text.clear_log
+                0x0000013c       0x30 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x0000013c                clear_log
+ .text.load_settings_file
+                0x0000016c      0x314 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .text.write_to_log_file
+                0x00000480      0x4a0 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00000480                write_to_log_file
+ .text.check_add_addr
+                0x00000920       0xd0 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00000920                check_add_addr
+ .text.prepare_nrf24
+                0x000009f0      0x660 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .text.correct_NRF_Payload_sniff_min
+                0x00001050       0x3c build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00001050                correct_NRF_Payload_sniff_min
+ .text.start_scanning
+                0x0000108c       0xb4 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .text.calc_crc
+                0x00001140       0x60 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00001140                calc_crc
+ .text.get_shifted_crc
+                0x000011a0       0x2c build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x000011a0                get_shifted_crc
+ .text.render_callback
+                0x000011cc      0xcd0 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .text.check_packet
+                0x00001e9c      0x3bc build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00001e9c                check_packet
+ .text.nrf24_read_newpacket
+                0x00002258      0x204 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00002258                nrf24_read_newpacket
+ .text.nrf24_send_packet
+                0x0000245c      0x284 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x0000245c                nrf24_send_packet
+ .text.nrf24scan_app
+                0x000026e0      0xa50 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x000026e0                nrf24scan_app
+ .text.nrf24_init
+                0x00003130       0x88 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+                0x00003130                nrf24_init
+ .text.nrf24_deinit
+                0x000031b8       0x84 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+                0x000031b8                nrf24_deinit
+ .text.nrf24_spi_trx
+                0x0000323c       0x28 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+                0x0000323c                nrf24_spi_trx
+ .text.nrf24_write_reg
+                0x00003264       0x34 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+                0x00003264                nrf24_write_reg
+ .text.nrf24_write_buf_reg
+                0x00003298       0x78 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+                0x00003298                nrf24_write_buf_reg
+ .text.nrf24_read_reg
+                0x00003310       0x80 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+                0x00003310                nrf24_read_reg
+ .text.nrf24_flush_rx
+                0x00003390       0x2c build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+                0x00003390                nrf24_flush_rx
+ .text.nrf24_flush_tx
+                0x000033bc       0x2c build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+                0x000033bc                nrf24_flush_tx
+ .text.nrf24_set_maclen
+                0x000033e8       0x10 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+                0x000033e8                nrf24_set_maclen
+ .text.nrf24_status
+                0x000033f8       0x28 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+                0x000033f8                nrf24_status
+ .text.nrf24_get_packetlen
+                0x00003420       0x2c build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+                0x00003420                nrf24_get_packetlen
+ .text.nrf24_rxpacket
+                0x0000344c       0xf8 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+                0x0000344c                nrf24_rxpacket
+ .text.nrf24_set_idle
+                0x00003544       0x40 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+                0x00003544                nrf24_set_idle
+ .text.nrf24_set_rx_mode
+                0x00003584       0x4c build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+                0x00003584                nrf24_set_rx_mode
+ .text.nrf24_set_tx_mode
+                0x000035d0       0x64 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+                0x000035d0                nrf24_set_tx_mode
+ .text.nrf24_txpacket
+                0x00003634       0xdc build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+                0x00003634                nrf24_txpacket
+ .text.nrf24_set_mac
+                0x00003710       0x44 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+                0x00003710                nrf24_set_mac
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00003754      0x462
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.add_to_str_hex_bytes.str1.1
+                0x00003754        0x5 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .rodata.load_settings_file.str1.1
+                0x00003759       0x6b build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .rodata.write_to_log_file.str1.1
+                0x000037c4       0xeb build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .rodata.prepare_nrf24.str1.1
+                0x000038af        0xc build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .rodata.start_scanning.str1.1
+                0x000038bb       0x2c build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .rodata.render_callback.str1.1
+                0x000038e7      0x18e build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .rodata.check_packet.str1.1
+                0x00003a75       0x50 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .rodata.nrf24_read_newpacket.str1.1
+                0x00003ac5       0x19 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .rodata.nrf24scan_app.str1.1
+                0x00003ade       0xb0 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .rodata.SettingsFld_Sniff
+                0x00003b8e        0x6 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003b8e                SettingsFld_Sniff
+ .rodata.SettingsFld_Payload
+                0x00003b94        0x9 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003b94                SettingsFld_Payload
+ .rodata.SettingsFld_CRC
+                0x00003b9d        0x5 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003b9d                SettingsFld_CRC
+ .rodata.SettingsFld_DPL
+                0x00003ba2        0x5 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003ba2                SettingsFld_DPL
+ .rodata.SettingsFld_ESB
+                0x00003ba7        0x5 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003ba7                SettingsFld_ESB
+ .rodata.SettingsFld_Ch
+                0x00003bac        0x4 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bac                SettingsFld_Ch
+ .rodata.SettingsFld_Rate
+                0x00003bb0        0x6 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bb0                SettingsFld_Rate
+
+.data           0x00003bb6        0xb
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.prev_pipe.1
+                0x00003bb6        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ *fill*         0x00003bb7        0x1 
+ .data.last_packet_send
+                0x00003bb8        0x2 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bb8                last_packet_send
+ .data.save_to_new_log
+                0x00003bba        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bba                save_to_new_log
+ .data.NRF_Payload
+                0x00003bbb        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bbb                NRF_Payload
+ .data.NRF_CRC  0x00003bbc        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bbc                NRF_CRC
+ .data.NRF_ESB  0x00003bbd        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bbd                NRF_ESB
+ .data.NRF_rate
+                0x00003bbe        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bbe                NRF_rate
+ .data.what_to_do
+                0x00003bbf        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bbf                what_to_do
+ .data.SettingsFld_Addr
+                0x00003bc0        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bc0                SettingsFld_Addr
+
+.bss            0x00003bc4       0xa8
+ *(.bss)
+ *(.bss*)
+ .bss.prev_addr_CRC.0
+                0x00003bc4        0x2 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .bss.view_log_decode_CRC
+                0x00003bc6        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bc6                view_log_decode_CRC
+ .bss.view_log_decode_PCF
+                0x00003bc7        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bc7                view_log_decode_PCF
+ .bss.start_time
+                0x00003bc8        0x4 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bc8                start_time
+ .bss.menu_selected
+                0x00003bcc        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bcc                menu_selected
+ *fill*         0x00003bcd        0x1 
+ .bss.find_channel_period
+                0x00003bce        0x2 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bce                find_channel_period
+ .bss.last_packet_send_st
+                0x00003bd0        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bd0                last_packet_send_st
+ *fill*         0x00003bd1        0x1 
+ .bss.view_log_arr_x
+                0x00003bd2        0x2 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bd2                view_log_arr_x
+ .bss.view_log_arr_idx
+                0x00003bd4        0x2 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bd4                view_log_arr_idx
+ .bss.log_arr_idx
+                0x00003bd6        0x2 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bd6                log_arr_idx
+ .bss.log_to_file
+                0x00003bd8        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bd8                log_to_file
+ *fill*         0x00003bd9        0x1 
+ .bss.view_found
+                0x00003bda        0x2 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bda                view_found
+ .bss.found_total
+                0x00003bdc        0x2 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bdc                found_total
+ .bss.sniff_loaded
+                0x00003bde        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bde                sniff_loaded
+ .bss.addrs_sniff
+                0x00003bdf       0x10 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bdf                addrs_sniff
+ .bss.addrs     0x00003bef       0x10 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bef                addrs
+ .bss.NRF_BOARD_POWER_5V
+                0x00003bff        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003bff                NRF_BOARD_POWER_5V
+ .bss.NRF_ERROR
+                0x00003c00        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003c00                NRF_ERROR
+ .bss.NRF_AA_OFF
+                0x00003c01        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003c01                NRF_AA_OFF
+ .bss.NRF_Payload_sniff_min
+                0x00003c02        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003c02                NRF_Payload_sniff_min
+ .bss.NRF_DPL   0x00003c03        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003c03                NRF_DPL
+ .bss.NRF_channel
+                0x00003c04        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003c04                NRF_channel
+ .bss.addr_file_name
+                0x00003c05       0x20 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003c05                addr_file_name
+ .bss.screen_buf
+                0x00003c25       0x40 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003c25                screen_buf
+ .bss.save_settings
+                0x00003c65        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003c65                save_settings
+ .bss.what_doing
+                0x00003c66        0x1 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003c66                what_doing
+ *fill*         0x00003c67        0x1 
+ .bss.APP       0x00003c68        0x4 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+                0x00003c68                APP
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x210
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xb0 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_aranges
+                0x000000b0      0x160 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x8709
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x5896 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_info    0x00005896     0x2e73 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+
+.debug_abbrev   0x00000000      0xbcf
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x6c4 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_abbrev  0x000006c4      0x50b build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+
+.debug_line     0x00000000     0x385e
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x609 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.add_to_str_hex_bytes
+                0x00000609       0x73 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.input_callback
+                0x0000067c       0x30 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.add_to_furi_str_hex_bytes
+                0x000006ac       0x35 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.add_to_str_hex_bytes_shift_9b.constprop.0
+                0x000006e1       0x5e build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.ConvertHexToArray
+                0x0000073f       0xa8 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.clear_log
+                0x000007e7       0x42 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.load_settings_file
+                0x00000829      0x30c build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.write_to_log_file
+                0x00000b35      0x27f build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.check_add_addr
+                0x00000db4       0xef build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.prepare_nrf24
+                0x00000ea3      0x3d2 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.correct_NRF_Payload_sniff_min
+                0x00001275       0x4a build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.start_scanning
+                0x000012bf       0x5a build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.calc_crc
+                0x00001319       0x80 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.get_shifted_crc
+                0x00001399       0x49 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.render_callback
+                0x000013e2      0x97a build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.check_packet
+                0x00001d5c      0x3c0 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.nrf24_read_newpacket
+                0x0000211c      0x215 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.nrf24_send_packet
+                0x00002331      0x167 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line.text.nrf24scan_app
+                0x00002498      0x8d2 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line_end
+                0x00002d6a        0x0 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_line    0x00002d6a      0x3d8 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_init
+                0x00003142       0xda build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_deinit
+                0x0000321c       0x7c build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_spi_trx
+                0x00003298       0x75 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_write_reg
+                0x0000330d       0x31 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_write_buf_reg
+                0x0000333e       0x63 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_read_reg
+                0x000033a1       0x61 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_flush_rx
+                0x00003402       0x2d build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_flush_tx
+                0x0000342f       0x2d build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_maclen
+                0x0000345c       0x1d build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_status
+                0x00003479       0x26 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_get_packetlen
+                0x0000349f       0x32 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_rxpacket
+                0x000034d1       0xde build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_idle
+                0x000035af       0x67 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_rx_mode
+                0x00003616       0x6f build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_tx_mode
+                0x00003685       0xc2 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_txpacket
+                0x00003747       0xc3 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_mac
+                0x0000380a       0x54 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ .debug_line_end
+                0x0000385e        0x0 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+
+.debug_frame    0x00000000      0x84c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x2f8 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_frame   0x000002f8      0x554 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+
+.debug_str      0x00000000     0x3588
+ *(.debug_str)
+ .debug_str     0x00000000     0x22aa build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_str     0x000022aa     0x12de build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x299a
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000     0x1965 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_loclists
+                0x00001965     0x1035 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x527
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x35c build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .debug_rnglists
+                0x0000035c      0x1cb build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/nrf24scan/nrf24scan.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/nrf24scan/nrf24(nrf24.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/nrf24scan_d.elf elf32-littlearm)
+LOAD linker stubs

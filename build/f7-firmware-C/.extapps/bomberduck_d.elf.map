@@ -1,0 +1,381 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .text.max      0x00000000        0x8 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .text.min      0x00000000        0x8 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .text.is_empty
+                0x00000000        0xc build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .debug_line.text.max
+                0x00000000       0x19 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .debug_line.text.min
+                0x00000000       0x19 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .debug_line.text.is_empty
+                0x00000000       0x1b build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+LOAD build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xd58
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.input_callback
+                0x00000000       0x14 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .text.enqueue  0x00000014       0x22 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+                0x00000014                enqueue
+ .text.dequeue  0x00000036       0x1c build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+                0x00000036                dequeue
+ *fill*         0x00000052        0x2 
+ .text.init     0x00000054      0x1b8 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+                0x00000054                init
+ .text.intToStr
+                0x0000020c       0x56 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+                0x0000020c                intToStr
+ *fill*         0x00000262        0x2 
+ .text.BFS      0x00000264      0x120 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+                0x00000264                BFS
+ .text.draw_callback
+                0x00000384      0x1e0 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .text.bomberduck_app
+                0x00000564      0x7f4 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+                0x00000564                bomberduck_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000d58      0x29d
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.draw_callback.str1.1
+                0x00000d58       0x21 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .rodata.bomberduck_app.str1.1
+                0x00000d79       0x32 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ *fill*         0x00000dab        0x1 
+ .rodata.vibr1  0x00000dac       0x24 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .rodata.bomb_explore
+                0x00000dd0       0x10 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .rodata.bomb2  0x00000de0       0x10 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .rodata.end    0x00000df0       0x3c build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+                0x00000df0                end
+ .rodata.I_unbreakbox
+                0x00000e2c        0xc build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000e2c                I_unbreakbox
+ .rodata.I_playerright
+                0x00000e38        0xc build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000e38                I_playerright
+ .rodata.I_playerleft
+                0x00000e44        0xc build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000e44                I_playerleft
+ .rodata.I_explore
+                0x00000e50        0xc build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000e50                I_explore
+ .rodata.I_enemyright
+                0x00000e5c        0xc build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000e5c                I_enemyright
+ .rodata.I_enemyleft
+                0x00000e68        0xc build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000e68                I_enemyleft
+ .rodata.I_enemy1
+                0x00000e74        0xc build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000e74                I_enemy1
+ .rodata.I_end  0x00000e80        0xc build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000e80                I_end
+ .rodata.I_box  0x00000e8c        0xc build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000e8c                I_box
+ .rodata.I_bomb2
+                0x00000e98        0xc build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000e98                I_bomb2
+ .rodata.I_bomb1
+                0x00000ea4        0xc build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000ea4                I_bomb1
+ .rodata.I_bomb0
+                0x00000eb0        0xc build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000eb0                I_bomb0
+ .rodata._I_unbreakbox
+                0x00000ebc        0x4 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000ebc                _I_unbreakbox
+ .rodata._I_unbreakbox_0
+                0x00000ec0       0x14 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000ec0                _I_unbreakbox_0
+ .rodata._I_playerright
+                0x00000ed4        0x4 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000ed4                _I_playerright
+ .rodata._I_playerright_0
+                0x00000ed8       0x15 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000ed8                _I_playerright_0
+ *fill*         0x00000eed        0x3 
+ .rodata._I_playerleft
+                0x00000ef0        0x4 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000ef0                _I_playerleft
+ .rodata._I_playerleft_0
+                0x00000ef4       0x15 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000ef4                _I_playerleft_0
+ *fill*         0x00000f09        0x3 
+ .rodata._I_explore
+                0x00000f0c        0x4 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000f0c                _I_explore
+ .rodata._I_explore_0
+                0x00000f10       0x15 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000f10                _I_explore_0
+ *fill*         0x00000f25        0x3 
+ .rodata._I_enemyright
+                0x00000f28        0x4 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000f28                _I_enemyright
+ .rodata._I_enemyright_0
+                0x00000f2c       0x15 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000f2c                _I_enemyright_0
+ *fill*         0x00000f41        0x3 
+ .rodata._I_enemyleft
+                0x00000f44        0x4 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000f44                _I_enemyleft
+ .rodata._I_enemyleft_0
+                0x00000f48       0x15 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000f48                _I_enemyleft_0
+ *fill*         0x00000f5d        0x3 
+ .rodata._I_enemy1
+                0x00000f60        0x4 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000f60                _I_enemy1
+ .rodata._I_enemy1_0
+                0x00000f64       0x15 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000f64                _I_enemy1_0
+ *fill*         0x00000f79        0x3 
+ .rodata._I_end
+                0x00000f7c        0x4 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000f7c                _I_end
+ .rodata._I_end_0
+                0x00000f80        0xb build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000f80                _I_end_0
+ *fill*         0x00000f8b        0x1 
+ .rodata._I_box
+                0x00000f8c        0x4 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000f8c                _I_box
+ .rodata._I_box_0
+                0x00000f90       0x15 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000f90                _I_box_0
+ *fill*         0x00000fa5        0x3 
+ .rodata._I_bomb2
+                0x00000fa8        0x4 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000fa8                _I_bomb2
+ .rodata._I_bomb2_0
+                0x00000fac       0x15 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000fac                _I_bomb2_0
+ *fill*         0x00000fc1        0x3 
+ .rodata._I_bomb1
+                0x00000fc4        0x4 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000fc4                _I_bomb1
+ .rodata._I_bomb1_0
+                0x00000fc8       0x13 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000fc8                _I_bomb1_0
+ *fill*         0x00000fdb        0x1 
+ .rodata._I_bomb0
+                0x00000fdc        0x4 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000fdc                _I_bomb0
+ .rodata._I_bomb0_0
+                0x00000fe0       0x15 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+                0x00000fe0                _I_bomb0_0
+
+.data           0x00000ff8      0x6c0
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.world    0x00000ff8      0x6b4 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+                0x00000ff8                world
+ .data.player   0x000016ac        0xc build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+                0x000016ac                player
+
+.bss            0x000016b8        0x1
+ *(.bss)
+ *(.bss*)
+ .bss.vibration
+                0x000016b8        0x1 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+                0x000016b8                vibration
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x88
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x70 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .debug_aranges
+                0x00000070       0x18 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x22cf
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1ea8 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .debug_info    0x00001ea8      0x427 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+
+.debug_abbrev   0x00000000      0x596
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4e1 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .debug_abbrev  0x000004e1       0xb5 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+
+.debug_line     0x00000000     0x158c
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x450 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .debug_line.text.input_callback
+                0x00000450       0x26 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .debug_line.text.enqueue
+                0x00000476       0x31 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .debug_line.text.dequeue
+                0x000004a7       0x33 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .debug_line.text.init
+                0x000004da      0x324 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .debug_line.text.intToStr
+                0x000007fe       0xf2 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .debug_line.text.BFS
+                0x000008f0      0x13b build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .debug_line.text.draw_callback
+                0x00000a2b      0x180 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .debug_line.text.bomberduck_app
+                0x00000bab      0x84b build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .debug_line_end
+                0x000013f6        0x0 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .debug_line    0x000013f6      0x196 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+ .debug_line_end
+                0x0000158c        0x0 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+
+.debug_frame    0x00000000      0x16c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x16c build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+
+.debug_str      0x00000000     0x1789
+ *(.debug_str)
+ .debug_str     0x00000000     0x139a build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .debug_str     0x0000139a      0x3ef build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x8a3
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x8a3 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x307
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x307 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/bomberduck/bomberduck.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/bomberduck/bomberduck_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/bomberduck_d.elf elf32-littlearm)
+LOAD linker stubs

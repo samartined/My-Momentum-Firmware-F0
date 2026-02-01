@@ -1,0 +1,425 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .text.usb_ccb_about_set_connected_status
+                0x00000000       0x24 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .debug_line.text.usb_ccb_about_set_connected_status
+                0x00000000       0x39 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .text.usb_ccb_help_set_connected_status
+                0x00000000       0x24 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .debug_line.text.usb_ccb_help_set_connected_status
+                0x00000000       0x39 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .text.usb_ccb_start_set_connected_status
+                0x00000000       0x24 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .rodata.hidConsumerSubsetsSize
+                0x00000000        0x4 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .rodata.hidConsumerArraySize
+                0x00000000        0x4 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_line.text.usb_ccb_start_set_connected_status
+                0x00000000       0x39 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+LOAD build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+LOAD build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+LOAD build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xa00
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.usb_ccb_about_input_callback
+                0x00000000       0x18 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .text.usb_ccb_about_draw_callback
+                0x00000018       0x70 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .text.usb_ccb_about_alloc
+                0x00000088       0x54 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+                0x00000088                usb_ccb_about_alloc
+ .text.usb_ccb_about_free
+                0x000000dc       0x1c build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+                0x000000dc                usb_ccb_about_free
+ .text.usb_ccb_about_get_view
+                0x000000f8        0x4 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+                0x000000f8                usb_ccb_about_get_view
+ .text.usb_ccb_help_input_callback
+                0x000000fc       0x18 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .text.usb_ccb_help_draw_callback
+                0x00000114       0x7c build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .text.usb_ccb_help_alloc
+                0x00000190       0x54 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+                0x00000190                usb_ccb_help_alloc
+ .text.usb_ccb_help_free
+                0x000001e4       0x1c build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+                0x000001e4                usb_ccb_help_free
+ .text.usb_ccb_help_get_view
+                0x00000200        0x4 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+                0x00000200                usb_ccb_help_get_view
+ .text.usb_ccb_start_input_callback
+                0x00000204      0x140 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .text.strrev   0x00000344       0x20 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+                0x00000344                strrev
+ .text.itoa     0x00000364       0x64 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+                0x00000364                itoa
+ .text.hexDigitToChar
+                0x000003c8        0xc build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+                0x000003c8                hexDigitToChar
+ .text.uint16ToHexString
+                0x000003d4       0x44 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+                0x000003d4                uint16ToHexString
+ .text.getConsumerSubsetName
+                0x00000418       0xf0 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+                0x00000418                getConsumerSubsetName
+ .text.usb_ccb_start_draw_callback
+                0x00000508      0x150 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .text.usb_ccb_start_alloc
+                0x00000658       0x54 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+                0x00000658                usb_ccb_start_alloc
+ .text.usb_ccb_start_free
+                0x000006ac       0x24 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+                0x000006ac                usb_ccb_start_free
+ .text.usb_ccb_start_get_view
+                0x000006d0        0x4 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+                0x000006d0                usb_ccb_start_get_view
+ .text.usb_ccb_exit_confirm_view
+                0x000006d4        0x4 build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+                0x000006d4                usb_ccb_exit_confirm_view
+ .text.usb_ccb_exit
+                0x000006d8        0x6 build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+                0x000006d8                usb_ccb_exit
+ *fill*         0x000006de        0x2 
+ .text.usb_ccb_submenu_callback
+                0x000006e0       0x24 build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+                0x000006e0                usb_ccb_submenu_callback
+ .text.usb_ccb_dialog_callback
+                0x00000704       0x28 build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+                0x00000704                usb_ccb_dialog_callback
+ .text.usb_ccb_app_alloc
+                0x0000072c      0x1dc build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+                0x0000072c                usb_ccb_app_alloc
+ .text.usb_ccb_app_free
+                0x00000908       0x9c build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+                0x00000908                usb_ccb_app_free
+ .text.usb_ccb_app
+                0x000009a4       0x5c build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+                0x000009a4                usb_ccb_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000a00     0x18f9
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.usb_ccb_about_draw_callback.str1.1
+                0x00000a00       0x96 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .rodata.usb_ccb_help_draw_callback.str1.1
+                0x00000a96       0xbd build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .rodata.getConsumerSubsetName.str1.1
+                0x00000b53      0x126 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .rodata.usb_ccb_start_draw_callback.str1.1
+                0x00000c79       0x7b build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .rodata.str1.1
+                0x00000cf4     0x15a7 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .rodata.usb_ccb_app_alloc.str1.1
+                0x0000229b       0x5e build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+
+.data           0x000022fc      0xbb0
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.hidConsumerSubsets
+                0x000022fc       0x3c build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+                0x000022fc                hidConsumerSubsets
+ .data.currentSubsetIndex
+                0x00002338        0x4 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+                0x00002338                currentSubsetIndex
+ .data.i        0x0000233c        0x4 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+                0x0000233c                i
+ .data.autofire_delay
+                0x00002340        0x4 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+                0x00002340                autofire_delay
+ .data.hidConsumerArray
+                0x00002344      0xb68 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+                0x00002344                hidConsumerArray
+
+.bss            0x00002eac       0x14
+ *(.bss)
+ *(.bss*)
+ .bss.hexString
+                0x00002eac        0x7 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+                0x00002eac                hexString
+ .bss.autofire_delay_str
+                0x00002eb3        0xc build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+                0x00002eb3                autofire_delay_str
+ .bss.is_running
+                0x00002ebf        0x1 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+                0x00002ebf                is_running
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x150
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x48 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .debug_aranges
+                0x00000048       0x48 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .debug_aranges
+                0x00000090       0x70 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_aranges
+                0x00000100       0x50 build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x389a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x8cf build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .debug_info    0x000008cf      0x8f7 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .debug_info    0x000011c6      0xe71 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_info    0x00002037     0x1863 build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+
+.debug_abbrev   0x00000000      0xcbb
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x275 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .debug_abbrev  0x00000275      0x275 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .debug_abbrev  0x000004ea      0x3e4 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_abbrev  0x000008ce      0x3ed build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+
+.debug_line     0x00000000     0x167e
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x318 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .debug_line.text.usb_ccb_about_input_callback
+                0x00000318       0x2b build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .debug_line.text.usb_ccb_about_draw_callback
+                0x00000343       0x35 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .debug_line.text.usb_ccb_about_alloc
+                0x00000378       0x3c build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .debug_line.text.usb_ccb_about_free
+                0x000003b4       0x30 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .debug_line.text.usb_ccb_about_get_view
+                0x000003e4       0x1d build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .debug_line_end
+                0x00000401        0x0 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .debug_line    0x00000401      0x316 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .debug_line.text.usb_ccb_help_input_callback
+                0x00000717       0x2b build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .debug_line.text.usb_ccb_help_draw_callback
+                0x00000742       0x37 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .debug_line.text.usb_ccb_help_alloc
+                0x00000779       0x3c build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .debug_line.text.usb_ccb_help_free
+                0x000007b5       0x30 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .debug_line.text.usb_ccb_help_get_view
+                0x000007e5       0x1d build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .debug_line_end
+                0x00000802        0x0 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .debug_line    0x00000802      0x32e build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_line.text.usb_ccb_start_input_callback
+                0x00000b30       0x97 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_line.text.strrev
+                0x00000bc7       0x48 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_line.text.itoa
+                0x00000c0f       0xc4 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_line.text.hexDigitToChar
+                0x00000cd3       0x2c build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_line.text.uint16ToHexString
+                0x00000cff       0x9f build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_line.text.getConsumerSubsetName
+                0x00000d9e       0xd7 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_line.text.usb_ccb_start_draw_callback
+                0x00000e75       0x80 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_line.text.usb_ccb_start_alloc
+                0x00000ef5       0x3d build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_line.text.usb_ccb_start_free
+                0x00000f32       0x32 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_line.text.usb_ccb_start_get_view
+                0x00000f64       0x1e build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_line_end
+                0x00000f82        0x0 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_line    0x00000f82      0x482 build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+ .debug_line.text.usb_ccb_exit_confirm_view
+                0x00001404       0x1a build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+ .debug_line.text.usb_ccb_exit
+                0x0000141e       0x1a build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+ .debug_line.text.usb_ccb_submenu_callback
+                0x00001438       0x5a build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+ .debug_line.text.usb_ccb_dialog_callback
+                0x00001492       0x4e build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+ .debug_line.text.usb_ccb_app_alloc
+                0x000014e0       0xdc build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+ .debug_line.text.usb_ccb_app_free
+                0x000015bc       0x47 build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+ .debug_line.text.usb_ccb_app
+                0x00001603       0x7b build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+ .debug_line_end
+                0x0000167e        0x0 build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+
+.debug_frame    0x00000000      0x34c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xb4 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .debug_frame   0x000000b4       0xb4 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .debug_frame   0x00000168      0x12c build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_frame   0x00000294       0xb8 build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+
+.debug_str      0x00000000     0x282c
+ *(.debug_str)
+ .debug_str     0x00000000      0x67f build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .debug_str     0x0000067f      0x675 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .debug_str     0x00000cf4      0x825 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_str     0x00001519     0x1313 build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x99d
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x10d build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .debug_loclists
+                0x0000010d      0x10d build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .debug_loclists
+                0x0000021a      0x55c build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_loclists
+                0x00000776      0x227 build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x179
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x46 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .debug_rnglists
+                0x00000046       0x46 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .debug_rnglists
+                0x0000008c       0x9c build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .debug_rnglists
+                0x00000128       0x51 build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_about.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_help.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/usb_ccb/views/usb_ccb_start.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/usb_ccb/usb_ccb.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/usb_ccb_d.elf elf32-littlearm)
+LOAD linker stubs

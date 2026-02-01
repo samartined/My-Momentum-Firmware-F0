@@ -1,0 +1,1152 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .rodata.cpu_add_bp.str1.1
+                0x00000000       0x2f build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.cpu_add_bp
+                0x00000000       0x34 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.cpu_free_bp
+                0x00000000       0x20 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.cpu_add_bp
+                0x00000000       0x5e build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.cpu_free_bp
+                0x00000000       0x47 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .text.tamalib_set_framerate
+                0x00000000        0xc build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .text.tamalib_get_framerate
+                0x00000000        0xc build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .text.tamalib_set_exec_mode
+                0x00000000       0x28 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .text.tamalib_mainloop
+                0x00000000       0x4c build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .data.g_framerate
+                0x00000000        0x1 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .bss.screen_ts
+                0x00000000        0x4 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .debug_line.text.tamalib_set_framerate
+                0x00000000       0x1b build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .debug_line.text.tamalib_get_framerate
+                0x00000000       0x18 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .debug_line.text.tamalib_set_exec_mode
+                0x00000000       0x34 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .debug_line.text.tamalib_mainloop
+                0x00000000       0x63 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .rodata.menu_items
+                0x00000000        0x1 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .rodata.speed_options_size
+                0x00000000        0x1 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .rodata.max_speed
+                0x00000000        0x1 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .rodata.min_speed
+                0x00000000        0x1 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+LOAD build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+LOAD build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+LOAD build/f7-firmware-C/.extapps/tama_p1/hal.o
+LOAD build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x38d4
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.generate_interrupt
+                0x00000000       0x28 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.get_memory
+                0x00000028      0x2c4 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_pset_cb
+                0x000002ec        0xc build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_jp_cb
+                0x000002f8       0x18 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_jpba_cb
+                0x00000310       0x2c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ret_cb
+                0x0000033c       0x54 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_rets_cb
+                0x00000390       0x48 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_nop5_cb
+                0x000003d8        0x2 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ *fill*         0x000003da        0x2 
+ .text.op_halt_cb
+                0x000003dc        0xc build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_inc_x_cb
+                0x000003e8       0x18 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_inc_y_cb
+                0x00000400       0x18 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_x_cb
+                0x00000418       0x14 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_y_cb
+                0x0000042c       0x14 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_adc_xh_cb
+                0x00000440       0x4c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_adc_xl_cb
+                0x0000048c       0x4c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_adc_yh_cb
+                0x000004d8       0x4c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_adc_yl_cb
+                0x00000524       0x4c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_a_mn_cb
+                0x00000570       0x14 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_b_mn_cb
+                0x00000584       0x14 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_set_cb
+                0x00000598       0x10 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_rst_cb
+                0x000005a8       0x10 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_scf_cb
+                0x000005b8       0x10 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_rcf_cb
+                0x000005c8       0x10 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_szf_cb
+                0x000005d8       0x10 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_rzf_cb
+                0x000005e8       0x10 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_sdf_cb
+                0x000005f8       0x10 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_rdf_cb
+                0x00000608       0x10 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ei_cb
+                0x00000618       0x10 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_di_cb
+                0x00000628       0x10 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_inc_sp_cb
+                0x00000638       0x10 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_dec_sp_cb
+                0x00000648       0x10 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_pop_xp_cb
+                0x00000658       0x28 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_pop_xh_cb
+                0x00000680       0x34 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_pop_xl_cb
+                0x000006b4       0x2c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_pop_yp_cb
+                0x000006e0       0x28 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_pop_yh_cb
+                0x00000708       0x34 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_pop_yl_cb
+                0x0000073c       0x2c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_pop_f_cb
+                0x00000768       0x24 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.set_lcd  0x0000078c       0x3c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.set_memory
+                0x000007c8      0x2b8 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_dec_mn_cb
+                0x00000a80       0x4c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_inc_mn_cb
+                0x00000acc       0x4c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_push_f_cb
+                0x00000b18       0x20 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_push_yl_cb
+                0x00000b38       0x24 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_push_yh_cb
+                0x00000b5c       0x24 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_push_yp_cb
+                0x00000b80       0x24 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_push_xl_cb
+                0x00000ba4       0x24 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_push_xh_cb
+                0x00000bc8       0x24 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_push_xp_cb
+                0x00000bec       0x24 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_lbpx_cb
+                0x00000c10       0x34 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ldpy_my_cb
+                0x00000c44       0x24 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ldpx_mx_cb
+                0x00000c68       0x24 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_mn_b_cb
+                0x00000c8c       0x10 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_mn_a_cb
+                0x00000c9c       0x10 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_retd_cb
+                0x00000cac       0x88 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_calz_cb
+                0x00000d34       0x70 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_call_cb
+                0x00000da4       0x7c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.get_rq   0x00000e20       0x38 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_xp_r_cb
+                0x00000e58       0x1c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_xh_r_cb
+                0x00000e74       0x28 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_xl_r_cb
+                0x00000e9c       0x1c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_yp_r_cb
+                0x00000eb8       0x1c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_yh_r_cb
+                0x00000ed4       0x28 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_yl_r_cb
+                0x00000efc       0x1c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_sph_r_cb
+                0x00000f18       0x20 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_spl_r_cb
+                0x00000f38       0x1c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_cp_r_q_cb
+                0x00000f54       0x48 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_scpy_cb
+                0x00000f9c       0x90 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_scpx_cb
+                0x0000102c       0x90 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_acpy_cb
+                0x000010bc       0x94 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_acpx_cb
+                0x00001150       0x94 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_push_r_cb
+                0x000011e4       0x28 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_jp_c_cb.part.0
+                0x0000120c       0x18 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_jp_c_cb
+                0x00001224       0x18 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_jp_nc_cb
+                0x0000123c       0x18 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_jp_z_cb
+                0x00001254       0x18 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_jp_nz_cb
+                0x0000126c       0x18 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_cp_xh_cb.part.0
+                0x00001284       0x10 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_cp_xh_cb
+                0x00001294       0x38 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_cp_xl_cb
+                0x000012cc       0x38 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_cp_yh_cb
+                0x00001304       0x38 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_cp_yl_cb
+                0x0000133c       0x38 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_cp_r_i_cb
+                0x00001374       0x48 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_fan_r_i_cb
+                0x000013bc       0x2c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_fan_r_q_cb
+                0x000013e8       0x34 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.wait_for_cycles
+                0x0000141c       0x44 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.set_rq   0x00001460       0x38 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_rrc_cb
+                0x00001498       0x4c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_rlc_cb
+                0x000014e4       0x48 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_sbc_r_q_cb
+                0x0000152c       0x7c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_sbc_r_i_cb
+                0x000015a8       0x74 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_sub_cb
+                0x0000161c       0x74 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_adc_r_q_cb
+                0x00001690       0x80 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_adc_r_i_cb
+                0x00001710       0x78 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_add_r_q_cb
+                0x00001788       0x78 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_add_r_i_cb
+                0x00001800       0x74 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_r_spl_cb
+                0x00001874       0x14 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_r_sph_cb
+                0x00001888       0x14 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_pop_r_cb
+                0x0000189c       0x28 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ldpy_r_cb
+                0x000018c4       0x30 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ldpx_r_cb
+                0x000018f4       0x30 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_r_q_cb
+                0x00001924       0x20 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_r_i_cb
+                0x00001944        0x8 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_r_yl_cb
+                0x0000194c       0x14 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_r_yh_cb
+                0x00001960       0x14 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_r_yp_cb
+                0x00001974       0x14 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_r_xl_cb
+                0x00001988       0x14 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_r_xh_cb
+                0x0000199c       0x14 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_ld_r_xp_cb
+                0x000019b0       0x14 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_not_cb
+                0x000019c4       0x40 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_xor_r_q_cb
+                0x00001a04       0x4c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_xor_r_i_cb
+                0x00001a50       0x40 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_or_r_q_cb
+                0x00001a90       0x4c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_or_r_i_cb
+                0x00001adc       0x40 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_and_r_q_cb
+                0x00001b1c       0x4c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_and_r_i_cb
+                0x00001b68       0x40 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .text.op_nop7_cb
+                0x00001ba8        0x2 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ *fill*         0x00001baa        0x2 
+ .text.cpu_set_speed
+                0x00001bac        0xc build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+                0x00001bac                cpu_set_speed
+ .text.cpu_get_state
+                0x00001bb8        0x8 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+                0x00001bb8                cpu_get_state
+ .text.cpu_get_depth
+                0x00001bc0        0xc build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+                0x00001bc0                cpu_get_depth
+ .text.cpu_set_input_pin
+                0x00001bcc       0x40 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+                0x00001bcc                cpu_set_input_pin
+ .text.cpu_sync_ref_timestamp
+                0x00001c0c       0x18 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+                0x00001c0c                cpu_sync_ref_timestamp
+ .text.cpu_refresh_hw
+                0x00001c24       0x84 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+                0x00001c24                cpu_refresh_hw
+ .text.cpu_reset
+                0x00001ca8       0x78 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+                0x00001ca8                cpu_reset
+ .text.cpu_init
+                0x00001d20       0x28 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+                0x00001d20                cpu_init
+ .text.cpu_release
+                0x00001d48        0x2 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+                0x00001d48                cpu_release
+ *fill*         0x00001d4a        0x2 
+ .text.cpu_step
+                0x00001d4c      0x3d8 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+                0x00001d4c                cpu_step
+ .text.hw_init  0x00002124       0x20 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+                0x00002124                hw_init
+ .text.hw_release
+                0x00002144        0x2 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+                0x00002144                hw_release
+ *fill*         0x00002146        0x2 
+ .text.hw_set_lcd_pin
+                0x00002148       0x68 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+                0x00002148                hw_set_lcd_pin
+ .text.hw_set_button
+                0x000021b0       0x20 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+                0x000021b0                hw_set_button
+ .text.hw_set_buzzer_freq
+                0x000021d0       0x1c build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+                0x000021d0                hw_set_buzzer_freq
+ .text.hw_enable_buzzer
+                0x000021ec        0xc build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+                0x000021ec                hw_enable_buzzer
+ .text.tamalib_init
+                0x000021f8       0x24 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+                0x000021f8                tamalib_init
+ .text.tamalib_release
+                0x0000221c       0x18 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+                0x0000221c                tamalib_release
+ .text.tamalib_register_hal
+                0x00002234        0xc build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+                0x00002234                tamalib_register_hal
+ .text.tamalib_step
+                0x00002240       0x74 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+                0x00002240                tamalib_step
+ .text.tama_p1_hal_halt
+                0x000022b4       0x10 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .text.tama_p1_hal_is_log_enabled
+                0x000022c4        0xc build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .text.tama_p1_hal_get_timestamp
+                0x000022d0        0x8 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .text.tama_p1_hal_update_screen
+                0x000022d8        0x2 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .text.tama_p1_hal_handler
+                0x000022da        0x4 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ *fill*         0x000022de        0x2 
+ .text.tama_p1_hal_play_frequency
+                0x000022e0       0x58 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .text.tama_p1_hal_sleep_until
+                0x00002338       0x4c build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .text.tama_p1_hal_log
+                0x00002384       0x88 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .text.tama_p1_hal_free
+                0x0000240c        0x8 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .text.tama_p1_hal_malloc
+                0x00002414        0x8 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .text.tama_p1_hal_set_lcd_matrix
+                0x0000241c       0x24 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .text.tama_p1_hal_set_lcd_icon
+                0x00002440       0x28 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .text.tama_p1_hal_set_frequency
+                0x00002468       0x30 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .text.tama_p1_hal_init
+                0x00002498       0x6c build/f7-firmware-C/.extapps/tama_p1/hal.o
+                0x00002498                tama_p1_hal_init
+ .text.speed_up
+                0x00002504       0x34 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .text.tama_p1_update_timer_callback
+                0x00002538       0x20 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .text.tama_p1_input_callback
+                0x00002558       0x28 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .text.draw_landscape
+                0x00002580      0x114 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .text.tama_p1_worker
+                0x00002694      0x374 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .text.tama_p1_save_state
+                0x00002a08      0x308 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .text.tama_p1_draw_callback
+                0x00002d10      0x4a4 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .text.tama_p1_app
+                0x000031b4      0x720 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x000031b4                tama_p1_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000038d4     0x1926
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.get_memory.str1.1
+                0x000038d4       0xe4 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .rodata.set_memory.str1.1
+                0x000039b8       0x9c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .rodata.cpu_step.str1.1
+                0x00003a54       0xa4 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .rodata.refresh_locs.1
+                0x00003af8       0x14 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .rodata.str1.1
+                0x00003b0c      0xa7a build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ *fill*         0x00004586        0x2 
+ .rodata.ops    0x00004588      0x884 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .rodata.CSWTCH.10
+                0x00004e0c       0x10 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .rodata.seg_pos
+                0x00004e1c       0x28 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .rodata.tama_p1_hal_log.str1.1
+                0x00004e44        0xb build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .rodata.tama_p1_worker.str1.1
+                0x00004e4f       0xb7 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .rodata.tama_p1_save_state.str1.1
+                0x00004f06       0x26 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .rodata.tama_p1_draw_callback.str1.1
+                0x00004f2c       0xe4 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .rodata.tama_p1_app.str1.1
+                0x00005010       0x49 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ *fill*         0x00005059        0x3 
+ .rodata.icons_list
+                0x0000505c       0x20 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .rodata.speed_options
+                0x0000507c        0x3 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x0000507c                speed_options
+ *fill*         0x0000507f        0x1 
+ .rodata.I_icon_7
+                0x00005080        0xc build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x00005080                I_icon_7
+ .rodata.I_icon_6
+                0x0000508c        0xc build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x0000508c                I_icon_6
+ .rodata.I_icon_5
+                0x00005098        0xc build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x00005098                I_icon_5
+ .rodata.I_icon_4
+                0x000050a4        0xc build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x000050a4                I_icon_4
+ .rodata.I_icon_3
+                0x000050b0        0xc build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x000050b0                I_icon_3
+ .rodata.I_icon_2
+                0x000050bc        0xc build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x000050bc                I_icon_2
+ .rodata.I_icon_1
+                0x000050c8        0xc build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x000050c8                I_icon_1
+ .rodata.I_icon_0
+                0x000050d4        0xc build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x000050d4                I_icon_0
+ .rodata._I_icon_7
+                0x000050e0        0x4 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x000050e0                _I_icon_7
+ .rodata._I_icon_7_0
+                0x000050e4       0x1d build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x000050e4                _I_icon_7_0
+ *fill*         0x00005101        0x3 
+ .rodata._I_icon_6
+                0x00005104        0x4 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x00005104                _I_icon_6
+ .rodata._I_icon_6_0
+                0x00005108       0x1b build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x00005108                _I_icon_6_0
+ *fill*         0x00005123        0x1 
+ .rodata._I_icon_5
+                0x00005124        0x4 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x00005124                _I_icon_5
+ .rodata._I_icon_5_0
+                0x00005128       0x1d build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x00005128                _I_icon_5_0
+ *fill*         0x00005145        0x3 
+ .rodata._I_icon_4
+                0x00005148        0x4 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x00005148                _I_icon_4
+ .rodata._I_icon_4_0
+                0x0000514c       0x1d build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x0000514c                _I_icon_4_0
+ *fill*         0x00005169        0x3 
+ .rodata._I_icon_3
+                0x0000516c        0x4 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x0000516c                _I_icon_3
+ .rodata._I_icon_3_0
+                0x00005170       0x1d build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x00005170                _I_icon_3_0
+ *fill*         0x0000518d        0x3 
+ .rodata._I_icon_2
+                0x00005190        0x4 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x00005190                _I_icon_2
+ .rodata._I_icon_2_0
+                0x00005194       0x1d build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x00005194                _I_icon_2_0
+ *fill*         0x000051b1        0x3 
+ .rodata._I_icon_1
+                0x000051b4        0x4 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x000051b4                _I_icon_1
+ .rodata._I_icon_1_0
+                0x000051b8       0x1d build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x000051b8                _I_icon_1_0
+ *fill*         0x000051d5        0x3 
+ .rodata._I_icon_0
+                0x000051d8        0x4 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x000051d8                _I_icon_0
+ .rodata._I_icon_0_0
+                0x000051dc       0x1e build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x000051dc                _I_icon_0_0
+
+.data           0x000051fc       0x63
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.cpu_state
+                0x000051fc       0x44 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .data.speed_ratio
+                0x00005240        0x1 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .data.interrupts
+                0x00005241       0x18 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .data.exec_mode
+                0x00005259        0x1 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .data.c        0x0000525a        0x1 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .data.b        0x0000525b        0x1 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .data.a        0x0000525c        0x1 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .data.menu_cursor
+                0x0000525d        0x1 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x0000525d                menu_cursor
+ .data.speed    0x0000525e        0x1 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x0000525e                speed
+
+.bss            0x00005260      0x228
+ *(.bss)
+ *(.bss*)
+ .bss.previous_cycles.0
+                0x00005260        0x1 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ *fill*         0x00005261        0x3 
+ .bss.ref_ts    0x00005264        0x4 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss.ts_freq   0x00005268        0x4 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss.tick_counter
+                0x0000526c        0x4 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss.prog_timer_rld
+                0x00005270        0x1 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss.prog_timer_data
+                0x00005271        0x1 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss.prog_timer_enabled
+                0x00005272        0x1 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ *fill*         0x00005273        0x1 
+ .bss.prog_timer_timestamp
+                0x00005274        0x4 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss.clk_timer_timestamp
+                0x00005278        0x4 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss.call_depth
+                0x0000527c        0x4 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss.g_breakpoints
+                0x00005280        0x4 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss.inputs    0x00005284        0x2 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss.memory    0x00005286      0x1d0 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ *fill*         0x00005456        0x2 
+ .bss.g_program
+                0x00005458        0x4 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss.flags     0x0000545c        0x1 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss.sp        0x0000545d        0x1 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss.np        0x0000545e        0x1 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss.b         0x0000545f        0x1 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss.a         0x00005460        0x1 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ *fill*         0x00005461        0x1 
+ .bss.y         0x00005462        0x2 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss.x         0x00005464        0x2 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss.next_pc   0x00005466        0x2 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .bss.pc        0x00005468        0x2 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ *fill*         0x0000546a        0x2 
+ .bss.g_hal     0x0000546c        0x4 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+                0x0000546c                g_hal
+ .bss.ts_freq   0x00005470        0x4 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .bss.step_depth
+                0x00005474        0x4 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .bss.m         0x00005478        0x1 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .bss.sub_menu_last
+                0x00005479        0x1 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x00005479                sub_menu_last
+ .bss.sub_menu_buttons
+                0x0000547a        0x1 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x0000547a                sub_menu_buttons
+ .bss.in_menu   0x0000547b        0x1 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x0000547b                in_menu
+ .bss.layout_mode
+                0x0000547c        0x1 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x0000547c                layout_mode
+ *fill*         0x0000547d        0x3 
+ .bss.g_state_mutex
+                0x00005480        0x4 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x00005480                g_state_mutex
+ .bss.g_ctx     0x00005484        0x4 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+                0x00005484                g_ctx
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x5a0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000      0x420 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_aranges
+                0x00000420       0x48 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .debug_aranges
+                0x00000468       0x58 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .debug_aranges
+                0x000004c0       0x88 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_aranges
+                0x00000548       0x58 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x8f08
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x3a26 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_info    0x00003a26      0x527 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .debug_info    0x00003f4d      0x618 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .debug_info    0x00004565      0xdb4 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_info    0x00005319     0x3bef build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+
+.debug_abbrev   0x00000000     0x137d
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x574 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_abbrev  0x00000574      0x1e8 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .debug_abbrev  0x0000075c      0x275 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .debug_abbrev  0x000009d1      0x40c build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_abbrev  0x00000ddd      0x5a0 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+
+.debug_line     0x00000000     0x4d36
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x1a1 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.generate_interrupt
+                0x000001a1       0x44 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.get_memory
+                0x000001e5      0x231 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_pset_cb
+                0x00000416       0x1d build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_jp_cb
+                0x00000433       0x23 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_jpba_cb
+                0x00000456       0x2d build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ret_cb
+                0x00000483       0x51 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_rets_cb
+                0x000004d4       0x55 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_nop5_cb
+                0x00000529       0x1a build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_halt_cb
+                0x00000543       0x1f build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_inc_x_cb
+                0x00000562       0x2b build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_inc_y_cb
+                0x0000058d       0x2b build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_x_cb
+                0x000005b8       0x26 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_y_cb
+                0x000005de       0x26 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_adc_xh_cb
+                0x00000604       0x73 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_adc_xl_cb
+                0x00000677       0x72 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_adc_yh_cb
+                0x000006e9       0x73 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_adc_yl_cb
+                0x0000075c       0x72 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_a_mn_cb
+                0x000007ce       0x23 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_b_mn_cb
+                0x000007f1       0x23 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_set_cb
+                0x00000814       0x1e build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_rst_cb
+                0x00000832       0x1e build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_scf_cb
+                0x00000850       0x1e build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_rcf_cb
+                0x0000086e       0x1e build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_szf_cb
+                0x0000088c       0x1e build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_rzf_cb
+                0x000008aa       0x1e build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_sdf_cb
+                0x000008c8       0x1e build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_rdf_cb
+                0x000008e6       0x1e build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ei_cb
+                0x00000904       0x1e build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_di_cb
+                0x00000922       0x1e build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_inc_sp_cb
+                0x00000940       0x24 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_dec_sp_cb
+                0x00000964       0x24 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_pop_xp_cb
+                0x00000988       0x3e build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_pop_xh_cb
+                0x000009c6       0x4a build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_pop_xl_cb
+                0x00000a10       0x36 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_pop_yp_cb
+                0x00000a46       0x3e build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_pop_yh_cb
+                0x00000a84       0x4a build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_pop_yl_cb
+                0x00000ace       0x36 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_pop_f_cb
+                0x00000b04       0x30 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.set_lcd
+                0x00000b34       0x7b build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.set_memory
+                0x00000baf      0x158 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_dec_mn_cb
+                0x00000d07       0x67 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_inc_mn_cb
+                0x00000d6e       0x67 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_push_f_cb
+                0x00000dd5       0x25 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_push_yl_cb
+                0x00000dfa       0x25 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_push_yh_cb
+                0x00000e1f       0x25 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_push_yp_cb
+                0x00000e44       0x25 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_push_xl_cb
+                0x00000e69       0x25 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_push_xh_cb
+                0x00000e8e       0x25 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_push_xp_cb
+                0x00000eb3       0x25 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_lbpx_cb
+                0x00000ed8       0x3a build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ldpy_my_cb
+                0x00000f12       0x39 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ldpx_mx_cb
+                0x00000f4b       0x39 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_mn_b_cb
+                0x00000f84       0x19 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_mn_a_cb
+                0x00000f9d       0x19 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_retd_cb
+                0x00000fb6       0x6f build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_calz_cb
+                0x00001025       0x62 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_call_cb
+                0x00001087       0x62 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.get_rq
+                0x000010e9       0x46 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_xp_r_cb
+                0x0000112f       0x29 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_xh_r_cb
+                0x00001158       0x38 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_xl_r_cb
+                0x00001190       0x29 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_yp_r_cb
+                0x000011b9       0x29 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_yh_r_cb
+                0x000011e2       0x38 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_yl_r_cb
+                0x0000121a       0x29 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_sph_r_cb
+                0x00001243       0x2a build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_spl_r_cb
+                0x0000126d       0x2c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_cp_r_q_cb
+                0x00001299       0x62 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_scpy_cb
+                0x000012fb       0xdd build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_scpx_cb
+                0x000013d8       0xdd build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_acpy_cb
+                0x000014b5       0xe2 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_acpx_cb
+                0x00001597       0xe2 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_push_r_cb
+                0x00001679       0x2d build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_jp_c_cb.part.0
+                0x000016a6       0x22 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_jp_c_cb
+                0x000016c8       0x20 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_jp_nc_cb
+                0x000016e8       0x20 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_jp_z_cb
+                0x00001708       0x20 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_jp_nz_cb
+                0x00001728       0x20 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_cp_xh_cb.part.0
+                0x00001748       0x1f build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_cp_xh_cb
+                0x00001767       0x4d build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_cp_xl_cb
+                0x000017b4       0x48 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_cp_yh_cb
+                0x000017fc       0x4d build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_cp_yl_cb
+                0x00001849       0x48 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_cp_r_i_cb
+                0x00001891       0x55 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_fan_r_i_cb
+                0x000018e6       0x33 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_fan_r_q_cb
+                0x00001919       0x3a build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.wait_for_cycles
+                0x00001953       0x66 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.set_rq
+                0x000019b9       0x45 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_rrc_cb
+                0x000019fe       0x52 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_rlc_cb
+                0x00001a50       0x54 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_sbc_r_q_cb
+                0x00001aa4       0xb1 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_sbc_r_i_cb
+                0x00001b55       0xac build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_sub_cb
+                0x00001c01       0xb1 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_adc_r_q_cb
+                0x00001cb2       0xb1 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_adc_r_i_cb
+                0x00001d63       0xa7 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_add_r_q_cb
+                0x00001e0a       0xae build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_add_r_i_cb
+                0x00001eb8       0xa7 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_r_spl_cb
+                0x00001f5f       0x19 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_r_sph_cb
+                0x00001f78       0x19 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_pop_r_cb
+                0x00001f91       0x31 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ldpy_r_cb
+                0x00001fc2       0x39 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ldpx_r_cb
+                0x00001ffb       0x39 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_r_q_cb
+                0x00002034       0x2a build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_r_i_cb
+                0x0000205e       0x17 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_r_yl_cb
+                0x00002075       0x19 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_r_yh_cb
+                0x0000208e       0x19 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_r_yp_cb
+                0x000020a7       0x19 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_r_xl_cb
+                0x000020c0       0x19 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_r_xh_cb
+                0x000020d9       0x19 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_ld_r_xp_cb
+                0x000020f2       0x19 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_not_cb
+                0x0000210b       0x3b build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_xor_r_q_cb
+                0x00002146       0x37 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_xor_r_i_cb
+                0x0000217d       0x3d build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_or_r_q_cb
+                0x000021ba       0x37 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_or_r_i_cb
+                0x000021f1       0x3d build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_and_r_q_cb
+                0x0000222e       0x37 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_and_r_i_cb
+                0x00002265       0x3d build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.op_nop7_cb
+                0x000022a2       0x12 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.cpu_set_speed
+                0x000022b4       0x1c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.cpu_get_state
+                0x000022d0       0x19 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.cpu_get_depth
+                0x000022e9       0x19 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.cpu_set_input_pin
+                0x00002302       0x51 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.cpu_sync_ref_timestamp
+                0x00002353       0x25 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.cpu_refresh_hw
+                0x00002378       0xc4 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.cpu_reset
+                0x0000243c       0x84 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.cpu_init
+                0x000024c0       0x35 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.cpu_release
+                0x000024f5       0x15 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line.text.cpu_step
+                0x0000250a      0x354 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line_end
+                0x0000285e        0x0 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_line    0x0000285e      0x192 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .debug_line.text.hw_init
+                0x000029f0       0x23 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .debug_line.text.hw_release
+                0x00002a13       0x14 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .debug_line.text.hw_set_lcd_pin
+                0x00002a27       0x7b build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .debug_line.text.hw_set_button
+                0x00002aa2       0x29 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .debug_line.text.hw_set_buzzer_freq
+                0x00002acb       0x2c build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .debug_line.text.hw_enable_buzzer
+                0x00002af7       0x1d build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .debug_line_end
+                0x00002b14        0x0 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .debug_line    0x00002b14      0x1a4 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .debug_line.text.tamalib_init
+                0x00002cb8       0x43 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .debug_line.text.tamalib_release
+                0x00002cfb       0x24 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .debug_line.text.tamalib_register_hal
+                0x00002d1f       0x1b build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .debug_line.text.tamalib_step
+                0x00002d3a       0x9f build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .debug_line_end
+                0x00002dd9        0x0 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .debug_line    0x00002dd9      0x3b4 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_line.text.tama_p1_hal_halt
+                0x0000318d       0x1b build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_line.text.tama_p1_hal_is_log_enabled
+                0x000031a8       0x1a build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_line.text.tama_p1_hal_get_timestamp
+                0x000031c2       0x2d build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_line.text.tama_p1_hal_update_screen
+                0x000031ef       0x15 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_line.text.tama_p1_hal_handler
+                0x00003204       0x19 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_line.text.tama_p1_hal_play_frequency
+                0x0000321d       0x57 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_line.text.tama_p1_hal_sleep_until
+                0x00003274       0x69 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_line.text.tama_p1_hal_log
+                0x000032dd       0x62 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_line.text.tama_p1_hal_free
+                0x0000333f       0x16 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_line.text.tama_p1_hal_malloc
+                0x00003355       0x17 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_line.text.tama_p1_hal_set_lcd_matrix
+                0x0000336c       0x3e build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_line.text.tama_p1_hal_set_lcd_icon
+                0x000033aa       0x41 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_line.text.tama_p1_hal_set_frequency
+                0x000033eb       0x37 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_line.text.tama_p1_hal_init
+                0x00003422       0x7c build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_line_end
+                0x0000349e        0x0 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_line    0x0000349e      0x4ec build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .debug_line.text.speed_up
+                0x0000398a       0x53 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .debug_line.text.tama_p1_update_timer_callback
+                0x000039dd       0x35 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .debug_line.text.tama_p1_input_callback
+                0x00003a12       0x30 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .debug_line.text.draw_landscape
+                0x00003a42      0x210 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .debug_line.text.tama_p1_worker
+                0x00003c52      0x2e5 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .debug_line.text.tama_p1_save_state
+                0x00003f37      0x45d build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .debug_line.text.tama_p1_draw_callback
+                0x00004394      0x3aa build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .debug_line.text.tama_p1_app
+                0x0000473e      0x5f8 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ .debug_line_end
+                0x00004d36        0x0 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+
+.debug_frame    0x00000000     0x1054
+ *(.debug_frame)
+ .debug_frame   0x00000000      0xc78 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_frame   0x00000c78       0x90 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .debug_frame   0x00000d08       0xcc build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .debug_frame   0x00000dd4      0x140 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_frame   0x00000f14      0x140 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+
+.debug_str      0x00000000     0x384c
+ *(.debug_str)
+ .debug_str     0x00000000      0xcca build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_str     0x00000cca      0x461 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .debug_str     0x0000112b      0x4fe build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .debug_str     0x00001629      0x86d build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_str     0x00001e96     0x19b6 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x25f6
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000     0x16b3 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_loclists
+                0x000016b3      0x137 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .debug_loclists
+                0x000017ea       0x9c build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .debug_loclists
+                0x00001886      0x199 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_loclists
+                0x00001a1f      0xbd7 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x69d
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x37c build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .debug_rnglists
+                0x0000037c       0x31 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .debug_rnglists
+                0x000003ad       0x3d build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .debug_rnglists
+                0x000003ea       0x6e build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .debug_rnglists
+                0x00000458      0x245 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/tama_p1/tamalib/cpu.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/tama_p1/tamalib/hw.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/tama_p1/tamalib/tamalib.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/tama_p1/hal.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/tama_p1/tama_p1.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/tama_p1_d.elf elf32-littlearm)
+LOAD linker stubs

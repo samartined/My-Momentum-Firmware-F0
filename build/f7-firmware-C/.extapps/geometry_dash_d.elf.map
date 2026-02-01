@@ -1,0 +1,438 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_round.o)
+                              build/f7-firmware-C/.extapps/geometry_dash/game_logic.o (roundf)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/geometry_dash/main.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/geometry_dash/main.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/geometry_dash/main.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/geometry_dash/main.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .text.player_reset
+                0x00000000        0x8 build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .debug_line.text.player_reset
+                0x00000000       0x11 build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_round.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_round.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_round.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+LOAD build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+LOAD build/f7-firmware-C/.extapps/geometry_dash/main.o
+LOAD build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+LOAD build/f7-firmware-C/.extapps/geometry_dash/player.o
+LOAD build/f7-firmware-C/.extapps/geometry_dash/render.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x1400
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.check_collision
+                0x00000000      0x220 build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+                0x00000000                check_collision
+ .text.process_game_logic
+                0x00000220       0x84 build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+                0x00000220                process_game_logic
+ .text.load_level_from_file
+                0x000002a4      0x2b4 build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+                0x000002a4                load_level_from_file
+ .text.free_level_files
+                0x00000558       0x38 build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+                0x00000558                free_level_files
+ .text.scan_level_files
+                0x00000590      0x1ac build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+                0x00000590                scan_level_files
+ .text.reset_game
+                0x0000073c       0x54 build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+                0x0000073c                reset_game
+ .text.input_callback
+                0x00000790       0x18 build/f7-firmware-C/.extapps/geometry_dash/main.o
+ .text.geometry_dash_app
+                0x000007a8      0x2dc build/f7-firmware-C/.extapps/geometry_dash/main.o
+                0x000007a8                geometry_dash_app
+ .text.char_to_obstacle_type
+                0x00000a84       0x14 build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+                0x00000a84                char_to_obstacle_type
+ .text.safe_atoi
+                0x00000a98       0x34 build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+                0x00000a98                safe_atoi
+ .text.player_init
+                0x00000acc       0x28 build/f7-firmware-C/.extapps/geometry_dash/player.o
+                0x00000acc                player_init
+ .text.player_update
+                0x00000af4      0x1ec build/f7-firmware-C/.extapps/geometry_dash/player.o
+                0x00000af4                player_update
+ .text.player_handle_input
+                0x00000ce0       0x6c build/f7-firmware-C/.extapps/geometry_dash/player.o
+                0x00000ce0                player_handle_input
+ .text.draw_cube
+                0x00000d4c       0x44 build/f7-firmware-C/.extapps/geometry_dash/render.o
+                0x00000d4c                draw_cube
+ .text.draw_ship
+                0x00000d90       0x48 build/f7-firmware-C/.extapps/geometry_dash/render.o
+                0x00000d90                draw_ship
+ .text.draw_ball
+                0x00000dd8       0x38 build/f7-firmware-C/.extapps/geometry_dash/render.o
+                0x00000dd8                draw_ball
+ .text.draw_ufo
+                0x00000e10       0x34 build/f7-firmware-C/.extapps/geometry_dash/render.o
+                0x00000e10                draw_ufo
+ .text.draw_player
+                0x00000e44       0x4c build/f7-firmware-C/.extapps/geometry_dash/render.o
+                0x00000e44                draw_player
+ .text.draw_vertical_special_object
+                0x00000e90      0x118 build/f7-firmware-C/.extapps/geometry_dash/render.o
+                0x00000e90                draw_vertical_special_object
+ .text.draw_filled_spike
+                0x00000fa8       0xc0 build/f7-firmware-C/.extapps/geometry_dash/render.o
+                0x00000fa8                draw_filled_spike
+ .text.draw_obstacle
+                0x00001068       0x3c build/f7-firmware-C/.extapps/geometry_dash/render.o
+                0x00001068                draw_obstacle
+ .text.draw_ground
+                0x000010a4       0x18 build/f7-firmware-C/.extapps/geometry_dash/render.o
+                0x000010a4                draw_ground
+ .text.draw_ui  0x000010bc       0xa8 build/f7-firmware-C/.extapps/geometry_dash/render.o
+                0x000010bc                draw_ui
+ .text.draw_game_scene
+                0x00001164      0x244 build/f7-firmware-C/.extapps/geometry_dash/render.o
+                0x00001164                draw_game_scene
+ .text.render_callback
+                0x000013a8       0x10 build/f7-firmware-C/.extapps/geometry_dash/render.o
+                0x000013a8                render_callback
+ .text.roundf   0x000013b8       0x48 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_round.o)
+                0x000013b8                roundf
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00001400      0x383
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.load_level_from_file.str1.1
+                0x00001400      0x11a build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .rodata.scan_level_files.str1.1
+                0x0000151a       0xd7 build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .rodata.reset_game.str1.1
+                0x000015f1       0x14 build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .rodata.geometry_dash_app.str1.1
+                0x00001605       0x9f build/f7-firmware-C/.extapps/geometry_dash/main.o
+ .rodata.CSWTCH.1
+                0x000016a4       0x32 build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+ .rodata.draw_ui.str1.1
+                0x000016d6       0x19 build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .rodata.draw_game_scene.str1.1
+                0x000016ef       0x94 build/f7-firmware-C/.extapps/geometry_dash/render.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x160
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+ .debug_aranges
+                0x00000028       0x38 build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .debug_aranges
+                0x00000060       0x28 build/f7-firmware-C/.extapps/geometry_dash/main.o
+ .debug_aranges
+                0x00000088       0x28 build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+ .debug_aranges
+                0x000000b0       0x38 build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .debug_aranges
+                0x000000e8       0x78 build/f7-firmware-C/.extapps/geometry_dash/render.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x499a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x71c build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+ .debug_info    0x0000071c     0x1439 build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .debug_info    0x00001b55     0x101a build/f7-firmware-C/.extapps/geometry_dash/main.o
+ .debug_info    0x00002b6f      0x195 build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+ .debug_info    0x00002d04      0x33d build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .debug_info    0x00003041     0x1959 build/f7-firmware-C/.extapps/geometry_dash/render.o
+
+.debug_abbrev   0x00000000     0x1031
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x255 build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+ .debug_abbrev  0x00000255      0x3cb build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .debug_abbrev  0x00000620      0x36d build/f7-firmware-C/.extapps/geometry_dash/main.o
+ .debug_abbrev  0x0000098d       0xfd build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+ .debug_abbrev  0x00000a8a      0x160 build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .debug_abbrev  0x00000bea      0x447 build/f7-firmware-C/.extapps/geometry_dash/render.o
+
+.debug_line     0x00000000     0x242b
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x272 build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+ .debug_line.text.check_collision
+                0x00000272      0x305 build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+ .debug_line.text.process_game_logic
+                0x00000577       0x81 build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+ .debug_line_end
+                0x000005f8        0x0 build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+ .debug_line    0x000005f8      0x328 build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .debug_line.text.load_level_from_file
+                0x00000920      0x2c0 build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .debug_line.text.free_level_files
+                0x00000be0       0x9c build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .debug_line.text.scan_level_files
+                0x00000c7c      0x16b build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .debug_line.text.reset_game
+                0x00000de7       0x7d build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .debug_line_end
+                0x00000e64        0x0 build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .debug_line    0x00000e64      0x37b build/f7-firmware-C/.extapps/geometry_dash/main.o
+ .debug_line.text.input_callback
+                0x000011df       0x36 build/f7-firmware-C/.extapps/geometry_dash/main.o
+ .debug_line.text.geometry_dash_app
+                0x00001215      0x33b build/f7-firmware-C/.extapps/geometry_dash/main.o
+ .debug_line_end
+                0x00001550        0x0 build/f7-firmware-C/.extapps/geometry_dash/main.o
+ .debug_line    0x00001550       0xda build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+ .debug_line.text.char_to_obstacle_type
+                0x0000162a       0x1c build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+ .debug_line.text.safe_atoi
+                0x00001646       0x5b build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+ .debug_line_end
+                0x000016a1        0x0 build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+ .debug_line    0x000016a1      0x167 build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .debug_line.text.player_init
+                0x00001808       0x43 build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .debug_line.text.player_update
+                0x0000184b      0x1f7 build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .debug_line.text.player_handle_input
+                0x00001a42       0xae build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .debug_line_end
+                0x00001af0        0x0 build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .debug_line    0x00001af0      0x27f build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .debug_line.text.draw_cube
+                0x00001d6f       0x43 build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .debug_line.text.draw_ship
+                0x00001db2       0x43 build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .debug_line.text.draw_ball
+                0x00001df5       0x3c build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .debug_line.text.draw_ufo
+                0x00001e31       0x38 build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .debug_line.text.draw_player
+                0x00001e69       0x42 build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .debug_line.text.draw_vertical_special_object
+                0x00001eab       0xbc build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .debug_line.text.draw_filled_spike
+                0x00001f67      0x1b1 build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .debug_line.text.draw_obstacle
+                0x00002118       0x59 build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .debug_line.text.draw_ground
+                0x00002171       0x28 build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .debug_line.text.draw_ui
+                0x00002199       0x8e build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .debug_line.text.draw_game_scene
+                0x00002227      0x1db build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .debug_line.text.render_callback
+                0x00002402       0x29 build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .debug_line_end
+                0x0000242b        0x0 build/f7-firmware-C/.extapps/geometry_dash/render.o
+
+.debug_frame    0x00000000      0x3e4
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x6c build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+ .debug_frame   0x0000006c       0xd4 build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .debug_frame   0x00000140       0x50 build/f7-firmware-C/.extapps/geometry_dash/main.o
+ .debug_frame   0x00000190       0x30 build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+ .debug_frame   0x000001c0       0x70 build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .debug_frame   0x00000230      0x1b4 build/f7-firmware-C/.extapps/geometry_dash/render.o
+
+.debug_str      0x00000000     0x2e86
+ *(.debug_str)
+ .debug_str     0x00000000      0x700 build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+ .debug_str     0x00000700      0xb8f build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .debug_str     0x0000128f      0xb91 build/f7-firmware-C/.extapps/geometry_dash/main.o
+ .debug_str     0x00001e20      0x352 build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+ .debug_str     0x00002172      0x3f8 build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .debug_str     0x0000256a      0x91c build/f7-firmware-C/.extapps/geometry_dash/render.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x19f2
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x41e build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+ .debug_loclists
+                0x0000041e      0x4ce build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .debug_loclists
+                0x000008ec      0x307 build/f7-firmware-C/.extapps/geometry_dash/main.o
+ .debug_loclists
+                0x00000bf3       0x3e build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+ .debug_loclists
+                0x00000c31      0x228 build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .debug_loclists
+                0x00000e59      0xb99 build/f7-firmware-C/.extapps/geometry_dash/render.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x40d
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x107 build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+ .debug_rnglists
+                0x00000107       0xe4 build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .debug_rnglists
+                0x000001eb       0x65 build/f7-firmware-C/.extapps/geometry_dash/main.o
+ .debug_rnglists
+                0x00000250       0x19 build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+ .debug_rnglists
+                0x00000269       0x51 build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .debug_rnglists
+                0x000002ba      0x153 build/f7-firmware-C/.extapps/geometry_dash/render.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/geometry_dash/game_logic.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/geometry_dash/level_loader.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/geometry_dash/main.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/geometry_dash/obstacles.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/geometry_dash/player.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/geometry_dash/render.o
+ .ARM.attributes
+                0x00000138       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_round.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/geometry_dash_d.elf elf32-littlearm)
+LOAD linker stubs

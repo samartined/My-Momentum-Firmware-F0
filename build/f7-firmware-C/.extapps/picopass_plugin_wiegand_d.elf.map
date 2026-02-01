@@ -1,0 +1,245 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x3e8
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.wiegand_h10301_parse
+                0x00000000       0xac build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .text.wiegand_C1k35s_parse
+                0x000000ac       0x90 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .text.get_bit_by_position
+                0x0000013c       0x34 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+                0x0000013c                get_bit_by_position
+ .text.get_linear_field
+                0x00000170       0x2c build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+                0x00000170                get_linear_field
+ .text.wiegand_H10302_parse
+                0x0000019c       0x9c build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .text.wiegand_H10304_parse
+                0x00000238       0xa4 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .text.wiegand_format_description
+                0x000002dc       0x7c build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .text.wiegand_format_count
+                0x00000358       0x88 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .text.plugin_wiegand_ep
+                0x000003e0        0x8 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+                0x000003e0                plugin_wiegand_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000003e8      0x114
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.wiegand_h10301_parse.str1.1
+                0x000003e8       0x61 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .rodata.wiegand_C1k35s_parse.str1.1
+                0x00000449       0x27 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .rodata.wiegand_H10302_parse.str1.1
+                0x00000470       0x20 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .rodata.wiegand_H10304_parse.str1.1
+                0x00000490       0x27 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .rodata.wiegand_format_description.str1.1
+                0x000004b7        0xf build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .rodata.wiegand_format_count.str1.1
+                0x000004c6        0xd build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ *fill*         0x000004d3        0x1 
+ .rodata.plugin_wiegand_descriptor
+                0x000004d4        0xc build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .rodata.str1.1
+                0x000004e0        0xf build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ *fill*         0x000004ef        0x1 
+ .rodata.plugin_wiegand
+                0x000004f0        0xc build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x60
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x60 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xe55
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xe55 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+
+.debug_abbrev   0x00000000      0x2e9
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x2e9 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+
+.debug_line     0x00000000      0x70e
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x23e build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .debug_line.text.wiegand_h10301_parse
+                0x0000023e       0x99 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .debug_line.text.wiegand_C1k35s_parse
+                0x000002d7       0xd8 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .debug_line.text.get_bit_by_position
+                0x000003af       0x6d build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .debug_line.text.get_linear_field
+                0x0000041c       0x6e build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .debug_line.text.wiegand_H10302_parse
+                0x0000048a       0xd9 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .debug_line.text.wiegand_H10304_parse
+                0x00000563       0xe5 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .debug_line.text.wiegand_format_description
+                0x00000648       0x40 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .debug_line.text.wiegand_format_count
+                0x00000688       0x6d build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .debug_line.text.plugin_wiegand_ep
+                0x000006f5       0x19 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ .debug_line_end
+                0x0000070e        0x0 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+
+.debug_frame    0x00000000      0x150
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x150 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+
+.debug_str      0x00000000      0x5c5
+ *(.debug_str)
+ .debug_str     0x00000000      0x5c5 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x717
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x717 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x99
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x99 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/picopass_plugin_wiegand/plugin/wiegand.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/picopass_plugin_wiegand_d.elf elf32-littlearm)
+LOAD linker stubs

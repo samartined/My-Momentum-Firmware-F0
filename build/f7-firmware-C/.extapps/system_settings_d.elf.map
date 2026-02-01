@@ -1,0 +1,315 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/system_settings/system_settings.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/system_settings/system_settings.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x7e4
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.system_settings_exit
+                0x00000000        0x6 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ *fill*         0x00000006        0x2 
+ .text.heap_trace_mode_changed
+                0x00000008       0x54 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .text.log_baud_rate_changed
+                0x0000005c       0x38 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .text.log_device_changed
+                0x00000094       0x38 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .text.log_level_changed
+                0x000000cc       0x38 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .text.date_format_changed
+                0x00000104       0x38 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .text.time_format_changed
+                0x0000013c       0x38 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .text.measurement_units_changed
+                0x00000174       0x38 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .text.system_settings_custom_event_callback
+                0x000001ac      0x170 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .text.filename_scheme_changed
+                0x0000031c       0x3c build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .text.hand_orient_changed
+                0x00000358       0x3c build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .text.sleep_method_changed
+                0x00000394       0x50 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .text.debug_changed
+                0x000003e4       0x50 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .text.system_settings_alloc
+                0x00000434      0x34c build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000434                system_settings_alloc
+ .text.system_settings_free
+                0x00000780       0x40 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000780                system_settings_free
+ .text.system_settings_app
+                0x000007c0       0x24 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x000007c0                system_settings_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000007e4      0x38c
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.system_settings_custom_event_callback.str1.1
+                0x000007e4      0x16a build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .rodata.system_settings_alloc.str1.1
+                0x0000094e       0x7b build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .rodata.str1.1
+                0x000009c9       0xad build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ *fill*         0x00000a76        0x2 
+ .rodata.filename_scheme
+                0x00000a78        0x8 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000a78                filename_scheme
+ .rodata.sleep_method
+                0x00000a80        0x8 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000a80                sleep_method
+ .rodata.hand_mode
+                0x00000a88        0x8 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000a88                hand_mode
+ .rodata.date_format_value
+                0x00000a90        0xc build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000a90                date_format_value
+ .rodata.date_format_text
+                0x00000a9c        0xc build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000a9c                date_format_text
+ .rodata.time_format_value
+                0x00000aa8        0x8 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000aa8                time_format_value
+ .rodata.time_format_text
+                0x00000ab0        0x8 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000ab0                time_format_text
+ .rodata.measurement_units_value
+                0x00000ab8        0x8 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000ab8                measurement_units_value
+ .rodata.measurement_units_text
+                0x00000ac0        0x8 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000ac0                measurement_units_text
+ .rodata.heap_trace_mode_value
+                0x00000ac8        0x8 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000ac8                heap_trace_mode_value
+ .rodata.heap_trace_mode_text
+                0x00000ad0        0x8 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000ad0                heap_trace_mode_text
+ .rodata.debug_text
+                0x00000ad8        0x8 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000ad8                debug_text
+ .rodata.log_baud_rate_value
+                0x00000ae0       0x20 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000ae0                log_baud_rate_value
+ .rodata.log_baud_rate_text
+                0x00000b00       0x20 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000b00                log_baud_rate_text
+ .rodata.log_device_value
+                0x00000b20        0xc build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000b20                log_device_value
+ .rodata.log_device_text
+                0x00000b2c        0xc build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000b2c                log_device_text
+ .rodata.log_level_value
+                0x00000b38       0x1c build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000b38                log_level_value
+ .rodata.log_level_text
+                0x00000b54       0x1c build/f7-firmware-C/.extapps/system_settings/system_settings.o
+                0x00000b54                log_level_text
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x98
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x98 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1e29
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1e29 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+
+.debug_abbrev   0x00000000      0x365
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x365 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+
+.debug_line     0x00000000      0xa0f
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3ef build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .debug_line.text.system_settings_exit
+                0x000003ef       0x1b build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .debug_line.text.heap_trace_mode_changed
+                0x0000040a       0x53 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .debug_line.text.log_baud_rate_changed
+                0x0000045d       0x37 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .debug_line.text.log_device_changed
+                0x00000494       0x36 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .debug_line.text.log_level_changed
+                0x000004ca       0x36 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .debug_line.text.date_format_changed
+                0x00000500       0x37 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .debug_line.text.time_format_changed
+                0x00000537       0x37 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .debug_line.text.measurement_units_changed
+                0x0000056e       0x37 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .debug_line.text.system_settings_custom_event_callback
+                0x000005a5       0xb4 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .debug_line.text.filename_scheme_changed
+                0x00000659       0x48 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .debug_line.text.hand_orient_changed
+                0x000006a1       0x48 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .debug_line.text.sleep_method_changed
+                0x000006e9       0x5c build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .debug_line.text.debug_changed
+                0x00000745       0x5c build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .debug_line.text.system_settings_alloc
+                0x000007a1      0x20e build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .debug_line.text.system_settings_free
+                0x000009af       0x2f build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .debug_line.text.system_settings_app
+                0x000009de       0x31 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ .debug_line_end
+                0x00000a0f        0x0 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+
+.debug_frame    0x00000000      0x250
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x250 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+
+.debug_str      0x00000000     0x11c5
+ *(.debug_str)
+ .debug_str     0x00000000     0x11c5 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x57b
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x57b build/f7-firmware-C/.extapps/system_settings/system_settings.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x9f
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x9f build/f7-firmware-C/.extapps/system_settings/system_settings.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/system_settings/system_settings.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/system_settings_d.elf elf32-littlearm)
+LOAD linker stubs

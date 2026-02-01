@@ -1,0 +1,948 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_is_database_loaded
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_get_preset
+                0x00000000       0x18 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .rodata.subghz_txrx_get_frequency_and_modulation.str1.1
+                0x00000000       0x11 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_get_frequency_and_modulation
+                0x00000000       0x68 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_sleep
+                0x00000000       0x18 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_hopper_get_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_hopper_set_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_hopper_unpause
+                0x00000000       0x10 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_hopper_pause
+                0x00000000       0x10 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_rx.isra.0
+                0x00000000       0x54 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_hopper_update
+                0x00000000       0xbc build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_rx_start
+                0x00000000       0x64 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_speaker_set_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_speaker_get_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_protocol_is_serializable
+                0x00000000        0xc build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_protocol_is_transmittable
+                0x00000000       0x2c build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_receiver_set_filter
+                0x00000000        0xc build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_set_rx_calback
+                0x00000000        0xc build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_radio_device_get
+                0x00000000        0x6 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_radio_device_get_rssi
+                0x00000000        0xc build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_is_database_loaded
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_preset
+                0x00000000       0x2a build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_frequency_and_modulation
+                0x00000000       0x59 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_sleep
+                0x00000000       0x31 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_get_state
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_set_state
+                0x00000000       0x20 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_unpause
+                0x00000000       0x28 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_pause
+                0x00000000       0x28 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_rx.isra.0
+                0x00000000       0x4a build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_update
+                0x00000000       0xd4 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_rx_start
+                0x00000000       0x6d build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_set_state
+                0x00000000       0x20 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_get_state
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_protocol_is_serializable
+                0x00000000       0x26 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_protocol_is_transmittable
+                0x00000000       0x61 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_receiver_set_filter
+                0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_rx_calback
+                0x00000000       0x18 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_get
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_get_rssi
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .text.scheduler_reset_previous_time
+                0x00000000       0x10 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .text.scheduler_get_previous_time
+                0x00000000        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_reset_previous_time
+                0x00000000       0x2c build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_get_previous_time
+                0x00000000       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .text.scheduler_run_view_free
+                0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .debug_line.text.scheduler_run_view_free
+                0x00000000       0x31 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+ .rodata.I_sub2_10px
+                0x00000000        0xc build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+ .rodata.I_icon
+                0x00000000        0xc build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+ .rodata._I_sub2_10px
+                0x00000000        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+ .rodata._I_sub2_10px_0
+                0x00000000       0x15 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+ .rodata._I_icon
+                0x00000000        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+ .rodata._I_icon_0
+                0x00000000       0x14 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+LOAD build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene.o
+LOAD build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+LOAD build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+LOAD build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+LOAD build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+LOAD build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+LOAD build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+LOAD build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x1b8c
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.subghz_txrx_radio_device_power_off.constprop.0
+                0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_radio_device_power_on.constprop.0
+                0x0000001c       0x58 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_free
+                0x00000074       0x78 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x00000074                subghz_txrx_free
+ .text.subghz_txrx_set_preset
+                0x000000ec       0x20 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x000000ec                subghz_txrx_set_preset
+ .text.subghz_txrx_get_preset_name
+                0x0000010c       0x8c build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x0000010c                subghz_txrx_get_preset_name
+ .text.subghz_txrx_set_need_save_callback
+                0x00000198        0x6 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x00000198                subghz_txrx_set_need_save_callback
+ .text.subghz_txrx_get_fff_data
+                0x0000019e        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x0000019e                subghz_txrx_get_fff_data
+ .text.subghz_txrx_get_setting
+                0x000001a2        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x000001a2                subghz_txrx_get_setting
+ *fill*         0x000001a6        0x2 
+ .text.subghz_txrx_speaker_on
+                0x000001a8       0x34 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x000001a8                subghz_txrx_speaker_on
+ .text.subghz_txrx_speaker_off
+                0x000001dc       0x38 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x000001dc                subghz_txrx_speaker_off
+ .text.subghz_txrx_idle
+                0x00000214       0x28 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_rx_end
+                0x0000023c       0x40 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .text.subghz_txrx_speaker_mute
+                0x0000027c       0x28 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x0000027c                subghz_txrx_speaker_mute
+ .text.subghz_txrx_speaker_unmute
+                0x000002a4       0x2c build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x000002a4                subghz_txrx_speaker_unmute
+ .text.subghz_txrx_stop
+                0x000002d0       0x78 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x000002d0                subghz_txrx_stop
+ .text.subghz_txrx_tx_start
+                0x00000348      0x1a0 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x00000348                subghz_txrx_tx_start
+ .text.subghz_txrx_load_decoder_by_name_protocol
+                0x000004e8       0x18 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x000004e8                subghz_txrx_load_decoder_by_name_protocol
+ .text.subghz_txrx_get_decoder
+                0x00000500        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x00000500                subghz_txrx_get_decoder
+ .text.subghz_txrx_set_raw_file_encoder_worker_callback_end
+                0x00000504       0x20 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x00000504                subghz_txrx_set_raw_file_encoder_worker_callback_end
+ .text.subghz_txrx_radio_device_is_external_connected
+                0x00000524       0x4c build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x00000524                subghz_txrx_radio_device_is_external_connected
+ .text.subghz_txrx_radio_device_set
+                0x00000570       0x68 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x00000570                subghz_txrx_radio_device_set
+ .text.subghz_txrx_alloc
+                0x000005d8      0x160 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x000005d8                subghz_txrx_alloc
+ .text.subghz_txrx_radio_device_get_name
+                0x00000738        0xc build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x00000738                subghz_txrx_radio_device_get_name
+ .text.subghz_txrx_radio_device_is_frequecy_valid
+                0x00000744        0xc build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+                0x00000744                subghz_txrx_radio_device_is_frequecy_valid
+ .text.check_file_extension
+                0x00000750       0x38 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+                0x00000750                check_file_extension
+ .text.scheduler_scene_load_on_enter
+                0x00000788      0x100 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+                0x00000788                scheduler_scene_load_on_enter
+ .text.scheduler_scene_load_on_exit
+                0x00000888       0x10 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+                0x00000888                scheduler_scene_load_on_exit
+ .text.scheduler_scene_load_on_event
+                0x00000898        0xe build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+                0x00000898                scheduler_scene_load_on_event
+ *fill*         0x000008a6        0x2 
+ .text.set_tx_delay_idx
+                0x000008a8        0x8 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .text.get_tx_delay_idx
+                0x000008b0        0x8 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .text.scheduler_scene_start_set_tx_delay
+                0x000008b8       0x40 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .text.set_mode_idx
+                0x000008f8        0x8 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .text.scheduler_scene_start_set_mode
+                0x00000900       0x40 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .text.get_mode_idx
+                0x00000940        0x8 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .text.set_repeats_idx
+                0x00000948        0x8 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .text.scheduler_scene_start_set_repeats
+                0x00000950       0x40 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .text.get_repeats_idx
+                0x00000990        0x8 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .text.set_timing_idx
+                0x00000998       0x10 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .text.scheduler_scene_start_set_timing
+                0x000009a8       0x44 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .text.get_timing_idx
+                0x000009ec        0x8 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .text.set_interval_idx
+                0x000009f4        0x8 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .text.scheduler_scene_start_set_interval
+                0x000009fc       0x40 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .text.get_interval_idx
+                0x00000a3c        0x8 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .text.scheduler_scene_start_var_list_enter_callback
+                0x00000a44       0x14 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .text.add_scheduler_option_item.isra.0
+                0x00000a58       0x58 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .text.scheduler_scene_start_on_enter
+                0x00000ab0      0x1d4 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+                0x00000ab0                scheduler_scene_start_on_enter
+ .text.scheduler_scene_start_on_event
+                0x00000c84       0x58 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+                0x00000c84                scheduler_scene_start_on_event
+ .text.scheduler_scene_start_on_exit
+                0x00000cdc        0xc build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+                0x00000cdc                scheduler_scene_start_on_exit
+ .text.scheduler_app_tick_event_callback
+                0x00000ce8        0xc build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .text.scheduler_app_back_event_callback
+                0x00000cf4        0xc build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .text.scheduler_app_custom_event_callback
+                0x00000d00        0xc build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .text.scheduler_app_alloc
+                0x00000d0c      0x110 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+                0x00000d0c                scheduler_app_alloc
+ .text.scheduler_app_free
+                0x00000e1c       0x88 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+                0x00000e1c                scheduler_app_free
+ .text.scheduler_app
+                0x00000ea4       0x24 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+                0x00000ea4                scheduler_app
+ .text.scheduler_subghz_raw_end_callback
+                0x00000ec8       0x20 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .text.scheduler_subghz_need_save_callback
+                0x00000ee8       0xa4 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .text.tx_run_free
+                0x00000f8c       0x40 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .text.scheduler_tx
+                0x00000fcc      0x5a0 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .text.scheduler_thread_state_callback
+                0x0000156c       0x68 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .text.scheduler_start_tx
+                0x000015d4       0x48 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+                0x000015d4                scheduler_start_tx
+ .text.scheduler_alloc
+                0x0000161c       0x24 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x0000161c                scheduler_alloc
+ .text.scheduler_free
+                0x00001640        0x8 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x00001640                scheduler_free
+ .text.scheduler_reset
+                0x00001648        0x8 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x00001648                scheduler_reset
+ .text.scheduler_set_interval
+                0x00001650       0x10 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x00001650                scheduler_set_interval
+ .text.scheduler_set_timing_mode
+                0x00001660        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x00001660                scheduler_set_timing_mode
+ .text.scheduler_set_tx_repeats
+                0x00001664        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x00001664                scheduler_set_tx_repeats
+ .text.scheduler_set_mode
+                0x00001668        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x00001668                scheduler_set_mode
+ .text.scheduler_set_tx_delay
+                0x0000166c       0x10 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x0000166c                scheduler_set_tx_delay
+ .text.scheduler_set_file
+                0x0000167c       0x2c build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x0000167c                scheduler_set_file
+ .text.scheduler_time_to_trigger
+                0x000016a8       0x40 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x000016a8                scheduler_time_to_trigger
+ .text.scheduler_get_countdown_fmt
+                0x000016e8       0x3c build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x000016e8                scheduler_get_countdown_fmt
+ .text.scheduler_get_interval
+                0x00001724        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x00001724                scheduler_get_interval
+ .text.scheduler_get_tx_repeats
+                0x00001728        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x00001728                scheduler_get_tx_repeats
+ .text.scheduler_get_file_name
+                0x0000172c        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x0000172c                scheduler_get_file_name
+ .text.scheduler_get_file_type
+                0x00001730        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x00001730                scheduler_get_file_type
+ .text.scheduler_get_mode
+                0x00001734        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x00001734                scheduler_get_mode
+ .text.scheduler_get_tx_delay
+                0x00001738        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x00001738                scheduler_get_tx_delay
+ .text.scheduler_get_tx_delay_index
+                0x0000173c       0x20 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x0000173c                scheduler_get_tx_delay_index
+ .text.scheduler_get_list_count
+                0x0000175c        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x0000175c                scheduler_get_list_count
+ .text.scheduler_get_timing_mode
+                0x00001760        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+                0x00001760                scheduler_get_timing_mode
+ .text.scheduler_run_view_draw_callback
+                0x00001764      0x1f4 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .text.scheduler_scene_run_on_enter
+                0x00001958       0xe4 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+                0x00001958                scheduler_scene_run_on_enter
+ .text.scheduler_scene_run_on_exit
+                0x00001a3c       0x68 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+                0x00001a3c                scheduler_scene_run_on_exit
+ .text.scheduler_scene_run_on_event
+                0x00001aa4       0xac build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+                0x00001aa4                scheduler_scene_run_on_event
+ .text.scheduler_run_view_alloc
+                0x00001b50       0x38 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+                0x00001b50                scheduler_run_view_alloc
+ .text.scheduler_run_view_get_view
+                0x00001b88        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+                0x00001b88                scheduler_run_view_get_view
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00001b8c      0x924
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.subghz_txrx_radio_device_power_on.constprop.0.str1.1
+                0x00001b8c       0x3b build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .rodata.subghz_txrx_get_preset_name.str1.1
+                0x00001bc7       0xcd build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .rodata.subghz_txrx_tx_start.str1.1
+                0x00001c94       0x5f build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .rodata.subghz_txrx_radio_device_set.str1.1
+                0x00001cf3       0x16 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .rodata.subghz_txrx_alloc.str1.1
+                0x00001d09       0xf0 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ *fill*         0x00001df9        0x3 
+ .rodata.scheduler_scene_handlers
+                0x00001dfc       0x10 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene.o
+                0x00001dfc                scheduler_scene_handlers
+ .rodata.scheduler_scene_on_exit_handlers
+                0x00001e0c        0xc build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene.o
+                0x00001e0c                scheduler_scene_on_exit_handlers
+ .rodata.scheduler_scene_on_event_handlers
+                0x00001e18        0xc build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene.o
+                0x00001e18                scheduler_scene_on_event_handlers
+ .rodata.scheduler_scene_on_enter_handlers
+                0x00001e24        0xc build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene.o
+                0x00001e24                scheduler_scene_on_enter_handlers
+ .rodata.check_file_extension.str1.1
+                0x00001e30        0xa build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .rodata.scheduler_scene_load_on_enter.str1.1
+                0x00001e3a       0x22 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .rodata.scheduler_scene_start_on_enter.str1.1
+                0x00001e5c       0x57 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .rodata.scheduler_scene_start_on_event.str1.1
+                0x00001eb3       0x2f build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .rodata.str1.1
+                0x00001ee2       0xc4 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ *fill*         0x00001fa6        0x2 
+ .rodata.tx_repeats_text
+                0x00001fa8       0x18 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .rodata.interval_text
+                0x00001fc0       0x48 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .rodata.tx_delay_text
+                0x00002008       0x10 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .rodata.timing_mode_text
+                0x00002018        0x8 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .rodata.mode_text
+                0x00002020        0xc build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .rodata.scheduler_app_alloc.str1.1
+                0x0000202c       0x23 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .rodata.scheduler_subghz_raw_end_callback.str1.1
+                0x0000204f       0x26 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .rodata.scheduler_subghz_need_save_callback.str1.1
+                0x00002075       0x7e build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .rodata.tx_run_free.str1.1
+                0x000020f3        0x8 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .rodata.scheduler_tx.str1.1
+                0x000020fb      0x197 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .rodata.scheduler_thread_state_callback.str1.1
+                0x00002292       0x1f build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .rodata.scheduler_start_tx.str1.1
+                0x000022b1       0x12 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .rodata.scheduler_get_countdown_fmt.str1.1
+                0x000022c3       0x12 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ *fill*         0x000022d5        0x3 
+ .rodata.interval_second_value
+                0x000022d8       0x48 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .rodata.tx_delay_value
+                0x00002320        0x8 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .rodata.scheduler_run_view_draw_callback.str1.1
+                0x00002328       0x11 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .rodata.scheduler_scene_run_on_enter.str1.1
+                0x00002339       0x11 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .rodata.str1.1
+                0x0000234a       0xaa build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .rodata.tx_repeats_text
+                0x000023f4       0x18 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .rodata.interval_text
+                0x0000240c       0x48 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .rodata.mode_text
+                0x00002454        0xc build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .rodata.file_type_text
+                0x00002460        0x8 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .rodata.I_time_7px
+                0x00002468        0xc build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+                0x00002468                I_time_7px
+ .rodata.I_rept_7px
+                0x00002474        0xc build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+                0x00002474                I_rept_7px
+ .rodata.I_mode_7px
+                0x00002480        0xc build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+                0x00002480                I_mode_7px
+ .rodata._I_time_7px
+                0x0000248c        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+                0x0000248c                _I_time_7px
+ .rodata._I_time_7px_0
+                0x00002490        0x8 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+                0x00002490                _I_time_7px_0
+ .rodata._I_rept_7px
+                0x00002498        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+                0x00002498                _I_rept_7px
+ .rodata._I_rept_7px_0
+                0x0000249c        0x8 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+                0x0000249c                _I_rept_7px_0
+ .rodata._I_mode_7px
+                0x000024a4        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+                0x000024a4                _I_mode_7px
+ .rodata._I_mode_7px_0
+                0x000024a8        0x8 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+                0x000024a8                _I_mode_7px_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss            0x000024b0        0x4
+ *(.bss)
+ *(.bss*)
+ .bss.state     0x000024b0        0x4 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+                0x000024b0                state
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x438
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000      0x170 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_aranges
+                0x00000170       0x18 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene.o
+ .debug_aranges
+                0x00000188       0x38 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .debug_aranges
+                0x000001c0       0xb8 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_aranges
+                0x00000278       0x48 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .debug_aranges
+                0x000002c0       0x48 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .debug_aranges
+                0x00000308       0xc8 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_aranges
+                0x000003d0       0x50 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .debug_aranges
+                0x00000420       0x18 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xaf93
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2dbb build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_info    0x00002dbb      0x2e5 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene.o
+ .debug_info    0x000030a0      0xda1 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .debug_info    0x00003e41     0x1762 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_info    0x000055a3      0xe01 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .debug_info    0x000063a4     0x268d build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .debug_info    0x00008a31      0xb30 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_info    0x00009561     0x17a8 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .debug_info    0x0000ad09      0x28a build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+
+.debug_abbrev   0x00000000     0x1b15
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x526 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_abbrev  0x00000526      0x137 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene.o
+ .debug_abbrev  0x0000065d      0x312 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .debug_abbrev  0x0000096f      0x38f build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_abbrev  0x00000cfe      0x2bf build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .debug_abbrev  0x00000fbd      0x44e build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .debug_abbrev  0x0000140b      0x261 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_abbrev  0x0000166c      0x3f4 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .debug_abbrev  0x00001a60       0xb5 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+
+.debug_line     0x00000000     0x419e
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x4ec build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_power_off.constprop.0
+                0x000004ec       0x2d build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_power_on.constprop.0
+                0x00000519       0x4d build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_free
+                0x00000566       0x46 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_preset
+                0x000005ac       0x48 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_preset_name
+                0x000005f4       0x70 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_need_save_callback
+                0x00000664       0x20 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_fff_data
+                0x00000684       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_setting
+                0x000006a2       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_on
+                0x000006c0       0x4b build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_off
+                0x0000070b       0x4b build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_idle
+                0x00000756       0x3b build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_rx_end
+                0x00000791       0x40 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_mute
+                0x000007d1       0x44 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_unmute
+                0x00000815       0x4c build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_stop
+                0x00000861       0x85 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_tx_start
+                0x000008e6      0x172 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_load_decoder_by_name_protocol
+                0x00000a58       0x3a build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_decoder
+                0x00000a92       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_raw_file_encoder_worker_callback_end
+                0x00000ab0       0x2c build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_is_external_connected
+                0x00000adc       0x7b build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_set
+                0x00000b57       0x76 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_alloc
+                0x00000bcd       0xfe build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_get_name
+                0x00000ccb       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_is_frequecy_valid
+                0x00000ce9       0x1f build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line_end
+                0x00000d08        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_line    0x00000d08      0x1b3 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene.o
+ .debug_line_end
+                0x00000ebb        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene.o
+ .debug_line    0x00000ebb      0x4f0 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .debug_line.text.check_file_extension
+                0x000013ab       0x42 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .debug_line.text.scheduler_scene_load_on_enter
+                0x000013ed       0xee build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .debug_line.text.scheduler_scene_load_on_exit
+                0x000014db       0x1c build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .debug_line.text.scheduler_scene_load_on_event
+                0x000014f7       0x2c build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .debug_line_end
+                0x00001523        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .debug_line    0x00001523      0x501 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.set_tx_delay_idx
+                0x00001a24       0x17 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.get_tx_delay_idx
+                0x00001a3b       0x1a build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.scheduler_scene_start_set_tx_delay
+                0x00001a55       0x46 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.set_mode_idx
+                0x00001a9b       0x17 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.scheduler_scene_start_set_mode
+                0x00001ab2       0x46 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.get_mode_idx
+                0x00001af8       0x1a build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.set_repeats_idx
+                0x00001b12       0x17 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.scheduler_scene_start_set_repeats
+                0x00001b29       0x46 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.get_repeats_idx
+                0x00001b6f       0x1a build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.set_timing_idx
+                0x00001b89       0x17 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.scheduler_scene_start_set_timing
+                0x00001ba0       0x46 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.get_timing_idx
+                0x00001be6       0x19 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.set_interval_idx
+                0x00001bff       0x16 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.scheduler_scene_start_set_interval
+                0x00001c15       0x46 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.get_interval_idx
+                0x00001c5b       0x19 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.scheduler_scene_start_var_list_enter_callback
+                0x00001c74       0x33 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.add_scheduler_option_item.isra.0
+                0x00001ca7       0x80 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.scheduler_scene_start_on_enter
+                0x00001d27       0xad build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.scheduler_scene_start_on_event
+                0x00001dd4       0x64 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line.text.scheduler_scene_start_on_exit
+                0x00001e38       0x18 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line_end
+                0x00001e50        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_line    0x00001e50      0x4d6 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .debug_line.text.scheduler_app_tick_event_callback
+                0x00002326       0x1b build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .debug_line.text.scheduler_app_back_event_callback
+                0x00002341       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .debug_line.text.scheduler_app_custom_event_callback
+                0x0000235f       0x1f build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .debug_line.text.scheduler_app_alloc
+                0x0000237e       0xb5 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .debug_line.text.scheduler_app_free
+                0x00002433       0x3c build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .debug_line.text.scheduler_app
+                0x0000246f       0x31 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .debug_line_end
+                0x000024a0        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .debug_line    0x000024a0      0x6de build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .debug_line.text.scheduler_subghz_raw_end_callback
+                0x00002b7e       0x32 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .debug_line.text.scheduler_subghz_need_save_callback
+                0x00002bb0       0x6b build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .debug_line.text.tx_run_free
+                0x00002c1b       0x2a build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .debug_line.text.scheduler_tx
+                0x00002c45      0x36a build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .debug_line.text.scheduler_thread_state_callback
+                0x00002faf       0x76 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .debug_line.text.scheduler_start_tx
+                0x00003025       0x36 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .debug_line_end
+                0x0000305b        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .debug_line    0x0000305b      0x348 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_alloc
+                0x000033a3       0x48 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_free
+                0x000033eb       0x1a build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_reset
+                0x00003405       0x22 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_set_interval
+                0x00003427       0x2a build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_set_timing_mode
+                0x00003451       0x1f build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_set_tx_repeats
+                0x00003470       0x1f build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_set_mode
+                0x0000348f       0x20 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_set_tx_delay
+                0x000034af       0x23 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_set_file
+                0x000034d2       0x5c build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_time_to_trigger
+                0x0000352e       0x92 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_get_countdown_fmt
+                0x000035c0       0x31 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_get_interval
+                0x000035f1       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_get_tx_repeats
+                0x0000360f       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_get_file_name
+                0x0000362d       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_get_file_type
+                0x0000364b       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_get_mode
+                0x00003669       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_get_tx_delay
+                0x00003687       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_get_tx_delay_index
+                0x000036a5       0x27 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_get_list_count
+                0x000036cc       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line.text.scheduler_get_timing_mode
+                0x000036ea       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line_end
+                0x00003708        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_line    0x00003708      0x5ab build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .debug_line.text.scheduler_run_view_draw_callback
+                0x00003cb3      0x106 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .debug_line.text.scheduler_scene_run_on_enter
+                0x00003db9       0xec build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .debug_line.text.scheduler_scene_run_on_exit
+                0x00003ea5       0x51 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .debug_line.text.scheduler_scene_run_on_event
+                0x00003ef6       0xa7 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .debug_line.text.scheduler_run_view_alloc
+                0x00003f9d       0x3b build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .debug_line.text.scheduler_run_view_get_view
+                0x00003fd8       0x1e build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .debug_line_end
+                0x00003ff6        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .debug_line    0x00003ff6      0x1a8 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+ .debug_line_end
+                0x0000419e        0x0 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+
+.debug_frame    0x00000000      0xae0
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x434 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_frame   0x00000434       0x90 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .debug_frame   0x000004c4      0x200 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_frame   0x000006c4       0x98 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .debug_frame   0x0000075c       0xec build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .debug_frame   0x00000848      0x1a0 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_frame   0x000009e8       0xf8 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+
+.debug_str      0x00000000     0x8608
+ *(.debug_str)
+ .debug_str     0x00000000     0x230e build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_str     0x0000230e      0x513 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene.o
+ .debug_str     0x00002821      0x949 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .debug_str     0x0000316a      0xe81 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_str     0x00003feb      0xab2 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .debug_str     0x00004a9d     0x1d7b build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .debug_str     0x00006818      0x908 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_str     0x00007120     0x11d5 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .debug_str     0x000082f5      0x313 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x1a40
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x911 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_loclists
+                0x00000911      0x1e7 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .debug_loclists
+                0x00000af8      0x504 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_loclists
+                0x00000ffc      0x11c build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .debug_loclists
+                0x00001118      0x41b build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .debug_loclists
+                0x00001533      0x25f build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_loclists
+                0x00001792      0x2ae build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x447
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x183 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .debug_rnglists
+                0x00000183       0x50 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .debug_rnglists
+                0x000001d3       0x86 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .debug_rnglists
+                0x00000259       0x33 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .debug_rnglists
+                0x0000028c       0x89 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .debug_rnglists
+                0x00000315       0xa0 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .debug_rnglists
+                0x000003b5       0x92 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/subghz_scheduler/helpers/subghz_txrx.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_loadfile.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/subghz_scheduler/scenes/scheduler_scene_start.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_app.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/subghz_scheduler/src/scheduler_run.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/subghz_scheduler/src/subghz_scheduler.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/subghz_scheduler/views/scheduler_run_view.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/subghz_scheduler/subghz_scheduler_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/subghz_scheduler_d.elf elf32-littlearm)
+LOAD linker stubs

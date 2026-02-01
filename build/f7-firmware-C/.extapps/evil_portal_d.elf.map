@@ -1,0 +1,575 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/evil_portal_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/evil_portal_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/evil_portal/evil_portal_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/evil_portal/evil_portal_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+LOAD build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene.o
+LOAD build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+LOAD build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+LOAD build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+LOAD build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+LOAD build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+LOAD build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+LOAD build/f7-firmware-C/.extapps/evil_portal/evil_portal_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x1228
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.evil_portal_close_storage
+                0x00000000       0x10 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .text.evil_portal_replace_index_html
+                0x00000010       0x74 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+                0x00000010                evil_portal_replace_index_html
+ .text.evil_portal_read_index_html
+                0x00000084       0xf0 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+                0x00000084                evil_portal_read_index_html
+ .text.evil_portal_create_html_folder_if_not_exists
+                0x00000174       0x68 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+                0x00000174                evil_portal_create_html_folder_if_not_exists
+ .text.evil_portal_read_ap_name
+                0x000001dc       0xc0 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+                0x000001dc                evil_portal_read_ap_name
+ .text.evil_portal_write_ap_name
+                0x0000029c       0x6c build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+                0x0000029c                evil_portal_write_ap_name
+ .text.sequential_file_resolve_path
+                0x00000308       0x70 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+                0x00000308                sequential_file_resolve_path
+ .text.write_logs
+                0x00000378       0xac build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+                0x00000378                write_logs
+ .text.evil_portal_console_output_handle_rx_data_cb
+                0x00000424       0x74 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+                0x00000424                evil_portal_console_output_handle_rx_data_cb
+ .text.captured.isra.0
+                0x00000498       0x14 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .text.evil_portal_scene_console_output_on_enter
+                0x000004ac      0x48c build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+                0x000004ac                evil_portal_scene_console_output_on_enter
+ .text.evil_portal_scene_console_output_on_event
+                0x00000938       0x16 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+                0x00000938                evil_portal_scene_console_output_on_event
+ *fill*         0x0000094e        0x2 
+ .text.evil_portal_scene_console_output_on_exit
+                0x00000950        0xc build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+                0x00000950                evil_portal_scene_console_output_on_exit
+ .text.evil_portal_text_input_callback
+                0x0000095c        0xc build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+                0x0000095c                evil_portal_text_input_callback
+ .text.evil_portal_scene_rename_on_enter
+                0x00000968       0x60 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+                0x00000968                evil_portal_scene_rename_on_enter
+ .text.evil_portal_scene_rename_on_event
+                0x000009c8       0x30 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+                0x000009c8                evil_portal_scene_rename_on_event
+ .text.evil_portal_scene_rename_on_exit
+                0x000009f8        0xc build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+                0x000009f8                evil_portal_scene_rename_on_exit
+ .text.evil_portal_scene_select_html_on_enter
+                0x00000a04       0x78 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+                0x00000a04                evil_portal_scene_select_html_on_enter
+ .text.evil_portal_scene_select_html_on_event
+                0x00000a7c        0xe build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+                0x00000a7c                evil_portal_scene_select_html_on_event
+ .text.evil_portal_scene_select_html_on_exit
+                0x00000a8a        0x2 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+                0x00000a8a                evil_portal_scene_select_html_on_exit
+ .text.evil_portal_scene_start_var_list_change_callback
+                0x00000a8c       0x44 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .text.evil_portal_scene_start_var_list_enter_callback
+                0x00000ad0       0x64 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .text.evil_portal_scene_start_on_enter
+                0x00000b34       0xa8 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+                0x00000b34                evil_portal_scene_start_on_enter
+ .text.evil_portal_scene_start_on_event
+                0x00000bdc       0x68 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+                0x00000bdc                evil_portal_scene_start_on_event
+ .text.evil_portal_scene_start_on_exit
+                0x00000c44        0xc build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+                0x00000c44                evil_portal_scene_start_on_exit
+ .text.evil_portal_app_tick_event_callback
+                0x00000c50        0xc build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .text.evil_portal_app_back_event_callback
+                0x00000c5c        0xc build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .text.evil_portal_app_custom_event_callback
+                0x00000c68        0xc build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .text.evil_portal_app_alloc
+                0x00000c74      0x14c build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+                0x00000c74                evil_portal_app_alloc
+ .text.evil_portal_app_free
+                0x00000dc0       0xe0 build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+                0x00000dc0                evil_portal_app_free
+ .text.evil_portal_app
+                0x00000ea0       0xac build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+                0x00000ea0                evil_portal_app
+ .text.uart_worker
+                0x00000f4c       0xd4 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .text.evil_portal_uart_on_irq_cb
+                0x00001020       0xd0 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+                0x00001020                evil_portal_uart_on_irq_cb
+ .text.evil_portal_uart_set_handle_rx_data_cb
+                0x000010f0        0x6 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+                0x000010f0                evil_portal_uart_set_handle_rx_data_cb
+ *fill*         0x000010f6        0x2 
+ .text.evil_portal_uart_tx
+                0x000010f8        0xc build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+                0x000010f8                evil_portal_uart_tx
+ .text.evil_portal_uart_init
+                0x00001104       0xc4 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+                0x00001104                evil_portal_uart_init
+ .text.evil_portal_uart_free
+                0x000011c8       0x60 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+                0x000011c8                evil_portal_uart_free
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00001228      0x781
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.evil_portal_close_storage.str1.1
+                0x00001228        0x8 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .rodata.evil_portal_replace_index_html.str1.1
+                0x00001230       0x6c build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .rodata.evil_portal_read_index_html.str1.1
+                0x0000129c       0xef build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .rodata.evil_portal_create_html_folder_if_not_exists.str1.1
+                0x0000138b       0x75 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .rodata.evil_portal_read_ap_name.str1.1
+                0x00001400       0x29 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .rodata.sequential_file_resolve_path.str1.1
+                0x00001429        0xc build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .rodata.write_logs.str1.1
+                0x00001435       0x28 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ *fill*         0x0000145d        0x3 
+ .rodata.evil_portal_scene_handlers
+                0x00001460       0x10 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene.o
+                0x00001460                evil_portal_scene_handlers
+ .rodata.evil_portal_scene_on_exit_handlers
+                0x00001470       0x10 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene.o
+                0x00001470                evil_portal_scene_on_exit_handlers
+ .rodata.evil_portal_scene_on_event_handlers
+                0x00001480       0x10 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene.o
+                0x00001480                evil_portal_scene_on_event_handlers
+ .rodata.evil_portal_scene_on_enter_handlers
+                0x00001490       0x10 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene.o
+                0x00001490                evil_portal_scene_on_enter_handlers
+ .rodata.evil_portal_console_output_handle_rx_data_cb.str1.1
+                0x000014a0        0x3 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .rodata.evil_portal_scene_console_output_on_enter.str1.1
+                0x000014a3      0x1eb build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .rodata.evil_portal_scene_rename_on_enter.str1.1
+                0x0000168e        0xd build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .rodata.evil_portal_scene_select_html_on_enter.str1.1
+                0x0000169b       0x26 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+ .rodata.str1.1
+                0x000016c1       0x72 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ *fill*         0x00001733        0x1 
+ .rodata.items  0x00001734      0x1f8 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+                0x00001734                items
+ .rodata.evil_portal_app_alloc.str1.1
+                0x0000192c        0xc build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .rodata.evil_portal_app_free.str1.1
+                0x00001938       0x10 build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .rodata.evil_portal_app.str1.1
+                0x00001948        0xa build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .rodata.evil_portal_uart_on_irq_cb.str1.1
+                0x00001952       0x18 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .rodata.evil_portal_uart_init.str1.1
+                0x0000196a       0x18 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ *fill*         0x00001982        0x2 
+ .rodata.I_evil_portal_10px
+                0x00001984        0xc build/f7-firmware-C/.extapps/evil_portal/evil_portal_icons.o
+                0x00001984                I_evil_portal_10px
+ .rodata._I_evil_portal_10px
+                0x00001990        0x4 build/f7-firmware-C/.extapps/evil_portal/evil_portal_icons.o
+                0x00001990                _I_evil_portal_10px
+ .rodata._I_evil_portal_10px_0
+                0x00001994       0x15 build/f7-firmware-C/.extapps/evil_portal/evil_portal_icons.o
+                0x00001994                _I_evil_portal_10px_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x200
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x58 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .debug_aranges
+                0x00000058       0x18 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene.o
+ .debug_aranges
+                0x00000070       0x40 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .debug_aranges
+                0x000000b0       0x38 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .debug_aranges
+                0x000000e8       0x30 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+ .debug_aranges
+                0x00000118       0x40 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .debug_aranges
+                0x00000158       0x48 build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .debug_aranges
+                0x000001a0       0x48 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .debug_aranges
+                0x000001e8       0x18 build/f7-firmware-C/.extapps/evil_portal/evil_portal_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x6d82
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x12e6 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .debug_info    0x000012e6      0x324 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene.o
+ .debug_info    0x0000160a     0x12f3 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .debug_info    0x000028fd      0x8fe build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .debug_info    0x000031fb      0x8ab build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+ .debug_info    0x00003aa6      0xbce build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .debug_info    0x00004674     0x111e build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .debug_info    0x00005792     0x146c build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .debug_info    0x00006bfe      0x184 build/f7-firmware-C/.extapps/evil_portal/evil_portal_icons.o
+
+.debug_abbrev   0x00000000     0x15e1
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x2db build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .debug_abbrev  0x000002db      0x137 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene.o
+ .debug_abbrev  0x00000412      0x312 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .debug_abbrev  0x00000724      0x249 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .debug_abbrev  0x0000096d      0x27e build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+ .debug_abbrev  0x00000beb      0x26b build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .debug_abbrev  0x00000e56      0x2de build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .debug_abbrev  0x00001134      0x3fc build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .debug_abbrev  0x00001530       0xb1 build/f7-firmware-C/.extapps/evil_portal/evil_portal_icons.o
+
+.debug_line     0x00000000     0x3534
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x481 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .debug_line.text.evil_portal_close_storage
+                0x00000481       0x12 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .debug_line.text.evil_portal_replace_index_html
+                0x00000493       0x7e build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .debug_line.text.evil_portal_read_index_html
+                0x00000511       0xf9 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .debug_line.text.evil_portal_create_html_folder_if_not_exists
+                0x0000060a       0x5f build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .debug_line.text.evil_portal_read_ap_name
+                0x00000669       0xe0 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .debug_line.text.evil_portal_write_ap_name
+                0x00000749       0x6f build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .debug_line.text.sequential_file_resolve_path
+                0x000007b8       0x6b build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .debug_line.text.write_logs
+                0x00000823       0x9d build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .debug_line_end
+                0x000008c0        0x0 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .debug_line    0x000008c0      0x1b4 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene.o
+ .debug_line_end
+                0x00000a74        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene.o
+ .debug_line    0x00000a74      0x4dd build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .debug_line.text.evil_portal_console_output_handle_rx_data_cb
+                0x00000f51       0x6d build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .debug_line.text.captured.isra.0
+                0x00000fbe       0x1e build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .debug_line.text.evil_portal_scene_console_output_on_enter
+                0x00000fdc      0x39f build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .debug_line.text.evil_portal_scene_console_output_on_event
+                0x0000137b       0x2d build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .debug_line.text.evil_portal_scene_console_output_on_exit
+                0x000013a8       0x18 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .debug_line_end
+                0x000013c0        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .debug_line    0x000013c0      0x4c6 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .debug_line.text.evil_portal_text_input_callback
+                0x00001886       0x19 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .debug_line.text.evil_portal_scene_rename_on_enter
+                0x0000189f       0x44 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .debug_line.text.evil_portal_scene_rename_on_event
+                0x000018e3       0x3a build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .debug_line.text.evil_portal_scene_rename_on_exit
+                0x0000191d       0x17 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .debug_line_end
+                0x00001934        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .debug_line    0x00001934      0x48b build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+ .debug_line.text.evil_portal_scene_select_html_on_enter
+                0x00001dbf       0x6b build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+ .debug_line.text.evil_portal_scene_select_html_on_event
+                0x00001e2a       0x25 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+ .debug_line.text.evil_portal_scene_select_html_on_exit
+                0x00001e4f       0x18 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+ .debug_line_end
+                0x00001e67        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+ .debug_line    0x00001e67      0x3fa build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .debug_line.text.evil_portal_scene_start_var_list_change_callback
+                0x00002261       0x58 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .debug_line.text.evil_portal_scene_start_var_list_enter_callback
+                0x000022b9       0x79 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .debug_line.text.evil_portal_scene_start_on_enter
+                0x00002332       0xba build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .debug_line.text.evil_portal_scene_start_on_event
+                0x000023ec       0x81 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .debug_line.text.evil_portal_scene_start_on_exit
+                0x0000246d       0x18 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .debug_line_end
+                0x00002485        0x0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .debug_line    0x00002485      0x4d2 build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .debug_line.text.evil_portal_app_tick_event_callback
+                0x00002957       0x1b build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .debug_line.text.evil_portal_app_back_event_callback
+                0x00002972       0x1e build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .debug_line.text.evil_portal_app_custom_event_callback
+                0x00002990       0x1d build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .debug_line.text.evil_portal_app_alloc
+                0x000029ad      0x111 build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .debug_line.text.evil_portal_app_free
+                0x00002abe       0x59 build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .debug_line.text.evil_portal_app
+                0x00002b17       0x98 build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .debug_line_end
+                0x00002baf        0x0 build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .debug_line    0x00002baf      0x50e build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .debug_line.text.uart_worker
+                0x000030bd       0xd9 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .debug_line.text.evil_portal_uart_on_irq_cb
+                0x00003196       0xe9 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .debug_line.text.evil_portal_uart_set_handle_rx_data_cb
+                0x0000327f       0x1f build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .debug_line.text.evil_portal_uart_tx
+                0x0000329e       0x18 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .debug_line.text.evil_portal_uart_init
+                0x000032b6       0xb5 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .debug_line.text.evil_portal_uart_free
+                0x0000336b       0x30 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .debug_line_end
+                0x0000339b        0x0 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .debug_line    0x0000339b      0x199 build/f7-firmware-C/.extapps/evil_portal/evil_portal_icons.o
+ .debug_line_end
+                0x00003534        0x0 build/f7-firmware-C/.extapps/evil_portal/evil_portal_icons.o
+
+.debug_frame    0x00000000      0x4f4
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x13c build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .debug_frame   0x0000013c       0xd8 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .debug_frame   0x00000214       0x78 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .debug_frame   0x0000028c       0x5c build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+ .debug_frame   0x000002e8       0xb4 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .debug_frame   0x0000039c       0xa8 build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .debug_frame   0x00000444       0xb0 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+
+.debug_str      0x00000000     0x56a9
+ *(.debug_str)
+ .debug_str     0x00000000      0x9c0 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .debug_str     0x000009c0      0x5e8 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene.o
+ .debug_str     0x00000fa8      0xa77 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .debug_str     0x00001a1f      0x871 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .debug_str     0x00002290      0x7f2 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+ .debug_str     0x00002a82      0xa82 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .debug_str     0x00003504      0xda8 build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .debug_str     0x000042ac     0x1167 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .debug_str     0x00005413      0x296 build/f7-firmware-C/.extapps/evil_portal/evil_portal_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x104f
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x42a build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .debug_loclists
+                0x0000042a      0x2d0 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .debug_loclists
+                0x000006fa      0x14e build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .debug_loclists
+                0x00000848       0x7e build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+ .debug_loclists
+                0x000008c6      0x3e8 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .debug_loclists
+                0x00000cae      0x190 build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .debug_loclists
+                0x00000e3e      0x211 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x266
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xeb build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .debug_rnglists
+                0x000000eb       0x7d build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .debug_rnglists
+                0x00000168       0x25 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .debug_rnglists
+                0x0000018d       0x1f build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+ .debug_rnglists
+                0x000001ac       0x38 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .debug_rnglists
+                0x000001e4       0x34 build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .debug_rnglists
+                0x00000218       0x4e build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/evil_portal/helpers/evil_portal_storage.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_console_output.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_rename.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_select_html.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/evil_portal/scenes/evil_portal_scene_start.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/evil_portal/evil_portal_app.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/evil_portal/evil_portal_uart.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/evil_portal/evil_portal_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/evil_portal_d.elf elf32-littlearm)
+LOAD linker stubs

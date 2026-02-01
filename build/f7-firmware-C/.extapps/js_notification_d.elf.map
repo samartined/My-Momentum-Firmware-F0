@@ -1,0 +1,230 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x2a0
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.js_notification_destroy
+                0x00000000       0x10 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .text.js_notification_create
+                0x00000010       0xd4 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .text.js_notify
+                0x000000e4       0x48 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .text.js_notify_blink
+                0x0000012c      0x11c build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .text.js_notify_error
+                0x00000248       0x28 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .text.js_notify_success
+                0x00000270       0x28 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .text.js_notification_ep
+                0x00000298        0x8 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+                0x00000298                js_notification_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000002a0       0xbc
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.js_notification_destroy.str1.1
+                0x000002a0        0xd build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .rodata.js_notification_create.str1.1
+                0x000002ad       0x16 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .rodata.js_notify_blink.str1.1
+                0x000002c3        0xc build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .rodata.str1.1
+                0x000002cf       0x26 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ *fill*         0x000002f5        0x3 
+ .rodata.plugin_descriptor
+                0x000002f8        0xc build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .rodata.js_notification_desc
+                0x00000304       0x10 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .rodata.led_sequences
+                0x00000314       0x48 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x50
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x50 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xe3b
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xe3b build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+
+.debug_abbrev   0x00000000      0x2d5
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x2d5 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+
+.debug_line     0x00000000      0x65d
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3f6 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .debug_line.text.js_notification_destroy
+                0x000003f6       0x18 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .debug_line.text.js_notification_create
+                0x0000040e       0x5f build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .debug_line.text.js_notify
+                0x0000046d       0x38 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .debug_line.text.js_notify_blink
+                0x000004a5      0x149 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .debug_line.text.js_notify_error
+                0x000005ee       0x2b build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .debug_line.text.js_notify_success
+                0x00000619       0x2b build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .debug_line.text.js_notification_ep
+                0x00000644       0x19 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ .debug_line_end
+                0x0000065d        0x0 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+
+.debug_frame    0x00000000       0xf4
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xf4 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+
+.debug_str      0x00000000      0xca3
+ *(.debug_str)
+ .debug_str     0x00000000      0xca3 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x23f
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x23f build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x5f
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x5f build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/js_notification/modules/js_notification.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/js_notification_d.elf elf32-littlearm)
+LOAD linker stubs

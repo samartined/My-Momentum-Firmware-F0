@@ -1,0 +1,232 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ .rodata.verify_sector
+                0x00000000        0x1 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x388
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.calculateSumHex
+                0x00000000       0x48 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+                0x00000000                calculateSumHex
+ .text.generateKeyA
+                0x00000048       0x6c build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+                0x00000048                generateKeyA
+ .text.microel_parse
+                0x000000b4       0xcc build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ .text.generateKeyB
+                0x00000180       0x14 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+                0x00000180                generateKeyB
+ .text.microel_read
+                0x00000194      0x1ec build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ .text.microel_plugin_ep
+                0x00000380        0x8 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+                0x00000380                microel_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000388       0xe8
+ *(.rodata)
+ .rodata        0x00000388        0x6 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.calculateSumHex.str1.1
+                0x0000038e        0x7 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ .rodata.microel_parse.str1.1
+                0x00000395       0x55 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ .rodata.microel_read.str1.1
+                0x000003ea       0x52 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ .rodata.str1.1
+                0x0000043c       0x17 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ *fill*         0x00000453        0x1 
+ .rodata.microel_plugin_descriptor
+                0x00000454        0xc build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ .rodata.microel_plugin
+                0x00000460       0x10 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+
+.data           0x00000470      0x100
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.microel_1k_keys
+                0x00000470      0x100 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x48
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x48 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x11e5
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x11e5 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+
+.debug_abbrev   0x00000000      0x308
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x308 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+
+.debug_line     0x00000000      0x78e
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x342 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ .debug_line.text.calculateSumHex
+                0x00000342       0xae build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ .debug_line.text.generateKeyA
+                0x000003f0       0xae build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ .debug_line.text.microel_parse
+                0x0000049e       0xd1 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ .debug_line.text.generateKeyB
+                0x0000056f       0x4a build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ .debug_line.text.microel_read
+                0x000005b9      0x1bc build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ .debug_line.text.microel_plugin_ep
+                0x00000775       0x19 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ .debug_line_end
+                0x0000078e        0x0 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+
+.debug_frame    0x00000000       0xd4
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xd4 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+
+.debug_str      0x00000000      0xaa9
+ *(.debug_str)
+ .debug_str     0x00000000      0xaa9 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x4a0
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x4a0 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x98
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x98 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/microel_parser/plugins/supported_cards/microel.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/microel_parser_d.elf elf32-littlearm)
+LOAD linker stubs

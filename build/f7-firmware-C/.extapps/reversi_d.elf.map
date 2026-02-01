@@ -1,0 +1,298 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/reversi/reversi.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/reversi/reversi.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/reversi/reversi.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/reversi/reversi.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/reversi/game_reversi.o
+LOAD build/f7-firmware-C/.extapps/reversi/reversi.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xb3c
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.input_callback
+                0x00000000       0x14 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .text.draw_callback
+                0x00000014      0x2f4 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .text.load_game
+                0x00000308       0x80 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+                0x00000308                load_game
+ .text.save_game
+                0x00000388       0x60 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+                0x00000388                save_game
+ .text.handle_key_game
+                0x000003e8       0x84 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+                0x000003e8                handle_key_game
+ .text.handle_key_menu
+                0x0000046c       0x50 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+                0x0000046c                handle_key_menu
+ .text.handle_key
+                0x000004bc       0x20 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+                0x000004bc                handle_key
+ .text.game_reversi_app
+                0x000004dc      0x174 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+                0x000004dc                game_reversi_app
+ .text.is_legal_move
+                0x00000650       0xa8 build/f7-firmware-C/.extapps/reversi/reversi.o
+                0x00000650                is_legal_move
+ .text.is_game_over
+                0x000006f8       0x44 build/f7-firmware-C/.extapps/reversi/reversi.o
+                0x000006f8                is_game_over
+ .text.has_legal_moves
+                0x0000073c       0x28 build/f7-firmware-C/.extapps/reversi/reversi.o
+                0x0000073c                has_legal_moves
+ .text.evaluate_board
+                0x00000764       0x48 build/f7-firmware-C/.extapps/reversi/reversi.o
+                0x00000764                evaluate_board
+ .text.make_move
+                0x000007ac       0xe4 build/f7-firmware-C/.extapps/reversi/reversi.o
+                0x000007ac                make_move
+ .text.init_game
+                0x00000890       0x3c build/f7-firmware-C/.extapps/reversi/reversi.o
+                0x00000890                init_game
+ .text.human_move
+                0x000008cc       0x44 build/f7-firmware-C/.extapps/reversi/reversi.o
+                0x000008cc                human_move
+ .text.minimax  0x00000910      0x14c build/f7-firmware-C/.extapps/reversi/reversi.o
+                0x00000910                minimax
+ .text.computer_move
+                0x00000a5c       0xe0 build/f7-firmware-C/.extapps/reversi/reversi.o
+                0x00000a5c                computer_move
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000b3c      0x19c
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.draw_callback.str1.1
+                0x00000b3c       0x59 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .rodata.load_game.str1.1
+                0x00000b95       0x3d build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .rodata.game_reversi_app.str1.1
+                0x00000bd2        0x4 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ *fill*         0x00000bd6        0x2 
+ .rodata.weights
+                0x00000bd8      0x100 build/f7-firmware-C/.extapps/reversi/reversi.o
+                0x00000bd8                weights
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xb8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x58 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .debug_aranges
+                0x00000058       0x60 build/f7-firmware-C/.extapps/reversi/reversi.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x239d
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x17aa build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .debug_info    0x000017aa      0xbf3 build/f7-firmware-C/.extapps/reversi/reversi.o
+
+.debug_abbrev   0x00000000      0x714
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x462 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .debug_abbrev  0x00000462      0x2b2 build/f7-firmware-C/.extapps/reversi/reversi.o
+
+.debug_line     0x00000000     0x1006
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x37d build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .debug_line.text.input_callback
+                0x0000037d       0x25 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .debug_line.text.draw_callback
+                0x000003a2      0x1f9 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .debug_line.text.load_game
+                0x0000059b       0x5c build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .debug_line.text.save_game
+                0x000005f7       0x4f build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .debug_line.text.handle_key_game
+                0x00000646       0xbd build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .debug_line.text.handle_key_menu
+                0x00000703       0x6b build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .debug_line.text.handle_key
+                0x0000076e       0x37 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .debug_line.text.game_reversi_app
+                0x000007a5      0x155 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .debug_line_end
+                0x000008fa        0x0 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .debug_line    0x000008fa      0x158 build/f7-firmware-C/.extapps/reversi/reversi.o
+ .debug_line.text.is_legal_move
+                0x00000a52       0xd7 build/f7-firmware-C/.extapps/reversi/reversi.o
+ .debug_line.text.is_game_over
+                0x00000b29       0x71 build/f7-firmware-C/.extapps/reversi/reversi.o
+ .debug_line.text.has_legal_moves
+                0x00000b9a       0x61 build/f7-firmware-C/.extapps/reversi/reversi.o
+ .debug_line.text.evaluate_board
+                0x00000bfb       0x83 build/f7-firmware-C/.extapps/reversi/reversi.o
+ .debug_line.text.make_move
+                0x00000c7e      0x112 build/f7-firmware-C/.extapps/reversi/reversi.o
+ .debug_line.text.init_game
+                0x00000d90       0x75 build/f7-firmware-C/.extapps/reversi/reversi.o
+ .debug_line.text.human_move
+                0x00000e05       0x3d build/f7-firmware-C/.extapps/reversi/reversi.o
+ .debug_line.text.minimax
+                0x00000e42      0x10f build/f7-firmware-C/.extapps/reversi/reversi.o
+ .debug_line.text.computer_move
+                0x00000f51       0xb5 build/f7-firmware-C/.extapps/reversi/reversi.o
+ .debug_line_end
+                0x00001006        0x0 build/f7-firmware-C/.extapps/reversi/reversi.o
+
+.debug_frame    0x00000000      0x270
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x100 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .debug_frame   0x00000100      0x170 build/f7-firmware-C/.extapps/reversi/reversi.o
+
+.debug_str      0x00000000      0xf6b
+ *(.debug_str)
+ .debug_str     0x00000000      0xbf0 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .debug_str     0x00000bf0      0x37b build/f7-firmware-C/.extapps/reversi/reversi.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0xc45
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x501 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .debug_loclists
+                0x00000501      0x744 build/f7-firmware-C/.extapps/reversi/reversi.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x1fb
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x91 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .debug_rnglists
+                0x00000091      0x16a build/f7-firmware-C/.extapps/reversi/reversi.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/reversi/game_reversi.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/reversi/reversi.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/reversi_d.elf elf32-littlearm)
+LOAD linker stubs

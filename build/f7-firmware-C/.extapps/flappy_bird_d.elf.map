@@ -1,0 +1,330 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+LOAD build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x9ec
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.flappy_game_update_timer_callback
+                0x00000000       0x1c build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .text.flappy_game_input_callback
+                0x0000001c       0x28 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .text.flappy_game_render_callback
+                0x00000044      0x474 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .text.flappy_game_save_score
+                0x000004b8       0x64 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .text.flappy_game_random_pilar
+                0x0000051c       0x58 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .text.flappy_game_state_init
+                0x00000574       0xb4 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .text.flappy_game_app
+                0x00000628      0x3c4 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+                0x00000628                flappy_game_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000009ec      0x353
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.flappy_game_render_callback.str1.1
+                0x000009ec       0xb0 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .rodata.flappy_game_save_score.str1.1
+                0x00000a9c       0x1f build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .rodata.flappy_game_app.str1.1
+                0x00000abb       0x21 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .rodata.character_dimensions
+                0x00000adc       0x48 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .rodata.I_yappyghost_03
+                0x00000b24        0xc build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000b24                I_yappyghost_03
+ .rodata.I_yappyghost_02
+                0x00000b30        0xc build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000b30                I_yappyghost_02
+ .rodata.I_yappyghost_01
+                0x00000b3c        0xc build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000b3c                I_yappyghost_01
+ .rodata.I_yapper_03
+                0x00000b48        0xc build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000b48                I_yapper_03
+ .rodata.I_yapper_02
+                0x00000b54        0xc build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000b54                I_yapper_02
+ .rodata.I_yapper_01
+                0x00000b60        0xc build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000b60                I_yapper_01
+ .rodata.I_bird_03
+                0x00000b6c        0xc build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000b6c                I_bird_03
+ .rodata.I_bird_02
+                0x00000b78        0xc build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000b78                I_bird_02
+ .rodata.I_bird_01
+                0x00000b84        0xc build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000b84                I_bird_01
+ .rodata._I_yappyghost_03
+                0x00000b90        0x4 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000b90                _I_yappyghost_03
+ .rodata._I_yappyghost_03_0
+                0x00000b94       0x3a build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000b94                _I_yappyghost_03_0
+ *fill*         0x00000bce        0x2 
+ .rodata._I_yappyghost_02
+                0x00000bd0        0x4 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000bd0                _I_yappyghost_02
+ .rodata._I_yappyghost_02_0
+                0x00000bd4       0x3a build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000bd4                _I_yappyghost_02_0
+ *fill*         0x00000c0e        0x2 
+ .rodata._I_yappyghost_01
+                0x00000c10        0x4 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000c10                _I_yappyghost_01
+ .rodata._I_yappyghost_01_0
+                0x00000c14       0x3a build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000c14                _I_yappyghost_01_0
+ *fill*         0x00000c4e        0x2 
+ .rodata._I_yapper_03
+                0x00000c50        0x4 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000c50                _I_yapper_03
+ .rodata._I_yapper_03_0
+                0x00000c54       0x2d build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000c54                _I_yapper_03_0
+ *fill*         0x00000c81        0x3 
+ .rodata._I_yapper_02
+                0x00000c84        0x4 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000c84                _I_yapper_02
+ .rodata._I_yapper_02_0
+                0x00000c88       0x2d build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000c88                _I_yapper_02_0
+ *fill*         0x00000cb5        0x3 
+ .rodata._I_yapper_01
+                0x00000cb8        0x4 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000cb8                _I_yapper_01
+ .rodata._I_yapper_01_0
+                0x00000cbc       0x2d build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000cbc                _I_yapper_01_0
+ *fill*         0x00000ce9        0x3 
+ .rodata._I_bird_03
+                0x00000cec        0x4 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000cec                _I_bird_03
+ .rodata._I_bird_03_0
+                0x00000cf0       0x17 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000cf0                _I_bird_03_0
+ *fill*         0x00000d07        0x1 
+ .rodata._I_bird_02
+                0x00000d08        0x4 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000d08                _I_bird_02
+ .rodata._I_bird_02_0
+                0x00000d0c       0x17 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000d0c                _I_bird_02_0
+ *fill*         0x00000d23        0x1 
+ .rodata._I_bird_01
+                0x00000d24        0x4 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000d24                _I_bird_01
+ .rodata._I_bird_01_0
+                0x00000d28       0x17 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+                0x00000d28                _I_bird_01_0
+
+.data           0x00000d40       0x24
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.bird_sets
+                0x00000d40       0x24 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+                0x00000d40                bird_sets
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x68
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x50 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .debug_aranges
+                0x00000050       0x18 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x25d1
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2267 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .debug_info    0x00002267      0x36a build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+
+.debug_abbrev   0x00000000      0x599
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4e4 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .debug_abbrev  0x000004e4       0xb5 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+
+.debug_line     0x00000000      0xdee
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x4a5 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .debug_line.text.flappy_game_update_timer_callback
+                0x000004a5       0x35 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .debug_line.text.flappy_game_input_callback
+                0x000004da       0x30 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .debug_line.text.flappy_game_render_callback
+                0x0000050a      0x214 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .debug_line.text.flappy_game_save_score
+                0x0000071e       0x4f build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .debug_line.text.flappy_game_random_pilar
+                0x0000076d       0x72 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .debug_line.text.flappy_game_state_init
+                0x000007df       0xc1 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .debug_line.text.flappy_game_app
+                0x000008a0      0x3b5 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .debug_line_end
+                0x00000c55        0x0 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .debug_line    0x00000c55      0x199 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+ .debug_line_end
+                0x00000dee        0x0 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+
+.debug_frame    0x00000000      0x10c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x10c build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+
+.debug_str      0x00000000     0x1734
+ *(.debug_str)
+ .debug_str     0x00000000     0x1361 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .debug_str     0x00001361      0x3d3 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x906
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x906 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0xe5
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xe5 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/flappy_bird/flappy_bird_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/flappy_bird_d.elf elf32-littlearm)
+LOAD linker stubs

@@ -1,0 +1,1527 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                              build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o (ble_profile_hid)
+build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                              build/f7-firmware-C/lib/libble_profile.a(hid_profile.o) (ble_svc_hid_start)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .text.hid_usb_mouse_release_all
+                0x00000000        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_usb_mouse_release_all
+                0x00000000       0x1b build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+LOAD build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+LOAD build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+LOAD build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+LOAD build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+LOAD build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene.o
+LOAD build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+LOAD build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+LOAD build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+LOAD build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+LOAD build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+LOAD build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+LOAD build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+LOAD build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+LOAD build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+LOAD build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+LOAD build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+LOAD build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+LOAD build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/lib/libassets.a
+LOAD build/f7-firmware-C/lib/libble_profile.a
+LOAD build/f7-firmware-C/lib/libassets.a
+LOAD build/f7-firmware-C/lib/libble_profile.a
+
+.text           0x00000000     0x3f94
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.hid_usb_adjust_config
+                0x00000000       0x16 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x00000000                hid_usb_adjust_config
+ .text.hid_ble_connection_status_callback
+                0x00000016       0x12 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .text.hid_ble_set_state_callback
+                0x00000028        0x6 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x00000028                hid_ble_set_state_callback
+ .text.hid_ble_is_connected
+                0x0000002e        0x4 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x0000002e                hid_ble_is_connected
+ *fill*         0x00000032        0x2 
+ .text.hid_usb_set_state_callback
+                0x00000034        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x00000034                hid_usb_set_state_callback
+ .text.hid_usb_is_connected
+                0x00000040        0x8 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x00000040                hid_usb_is_connected
+ .text.hid_usb_kb_press
+                0x00000048        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x00000048                hid_usb_kb_press
+ .text.hid_usb_kb_release
+                0x00000054        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x00000054                hid_usb_kb_release
+ .text.hid_usb_mouse_press
+                0x00000060        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x00000060                hid_usb_mouse_press
+ .text.hid_usb_mouse_release
+                0x0000006c        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x0000006c                hid_usb_mouse_release
+ .text.hid_usb_mouse_scroll
+                0x00000078        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x00000078                hid_usb_mouse_scroll
+ .text.hid_usb_mouse_move
+                0x00000084        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x00000084                hid_usb_mouse_move
+ .text.hid_usb_consumer_press
+                0x00000090        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x00000090                hid_usb_consumer_press
+ .text.hid_usb_consumer_release
+                0x0000009c        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x0000009c                hid_usb_consumer_release
+ .text.hid_usb_release_all
+                0x000000a8       0x28 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x000000a8                hid_usb_release_all
+ .text.hid_usb_get_led_state
+                0x000000d0        0x8 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x000000d0                hid_usb_get_led_state
+ .text.hid_ble_adjust_config
+                0x000000d8       0xa4 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x000000d8                hid_ble_adjust_config
+ .text.hid_ble_init
+                0x0000017c       0x94 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x0000017c                hid_ble_init
+ .text.hid_ble_deinit
+                0x00000210       0x6c build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x00000210                hid_ble_deinit
+ .text.hid_ble_kb_press
+                0x0000027c        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x0000027c                hid_ble_kb_press
+ .text.hid_ble_kb_release
+                0x00000288        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x00000288                hid_ble_kb_release
+ .text.hid_ble_mouse_press
+                0x00000294        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x00000294                hid_ble_mouse_press
+ .text.hid_ble_mouse_release
+                0x000002a0        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x000002a0                hid_ble_mouse_release
+ .text.hid_ble_mouse_scroll
+                0x000002ac        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x000002ac                hid_ble_mouse_scroll
+ .text.hid_ble_mouse_move
+                0x000002b8        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x000002b8                hid_ble_mouse_move
+ .text.hid_ble_consumer_press
+                0x000002c4        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x000002c4                hid_ble_consumer_press
+ .text.hid_ble_consumer_release
+                0x000002d0        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x000002d0                hid_ble_consumer_release
+ .text.hid_ble_release_all
+                0x000002dc       0x2c build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x000002dc                hid_ble_release_all
+ .text.hid_ble_get_led_state
+                0x00000308       0x1c build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x00000308                hid_ble_get_led_state
+ .text.hid_usb_init
+                0x00000324       0x44 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x00000324                hid_usb_init
+ .text.hid_usb_deinit
+                0x00000368       0x1c build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x00000368                hid_usb_deinit
+ .text.bad_usb_hid_get_interface
+                0x00000384       0x18 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x00000384                bad_usb_hid_get_interface
+ .text.bad_usb_hid_ble_remove_pairing
+                0x0000039c       0x7c build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+                0x0000039c                bad_usb_hid_ble_remove_pairing
+ .text.ble_profile_hid_ext_start
+                0x00000418       0x10 build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .text.ble_profile_hid_ext_stop
+                0x00000428        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .text.ble_profile_hid_ext_get_config
+                0x00000434       0x4c build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .text.bad_usb_hid_state_callback
+                0x00000480       0x28 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .text.bad_usb_flags_get
+                0x000004a8       0x48 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .text.ducky_get_command_len
+                0x000004f0       0x14 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+                0x000004f0                ducky_get_command_len
+ .text.ducky_is_line_end
+                0x00000504       0x20 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+                0x00000504                ducky_is_line_end
+ .text.ducky_get_keycode
+                0x00000524       0x40 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+                0x00000524                ducky_get_keycode
+ .text.ducky_get_number
+                0x00000564       0x28 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+                0x00000564                ducky_get_number
+ .text.ducky_numlock_on
+                0x0000058c       0x2a build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+                0x0000058c                ducky_numlock_on
+ *fill*         0x000005b6        0x2 
+ .text.ducky_numpad_press
+                0x000005b8       0x34 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+                0x000005b8                ducky_numpad_press
+ .text.ducky_altchar
+                0x000005ec       0x50 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+                0x000005ec                ducky_altchar
+ .text.ducky_altstring
+                0x0000063c       0x48 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+                0x0000063c                ducky_altstring
+ .text.ducky_error
+                0x00000684       0x28 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+                0x00000684                ducky_error
+ .text.ducky_parse_line
+                0x000006ac       0xd8 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .text.bad_usb_worker
+                0x00000784      0xa9c build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .text.ducky_string
+                0x00001220       0x50 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+                0x00001220                ducky_string
+ .text.bad_usb_script_open
+                0x00001270       0x88 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+                0x00001270                bad_usb_script_open
+ .text.bad_usb_script_close
+                0x000012f8       0x44 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+                0x000012f8                bad_usb_script_close
+ .text.bad_usb_script_set_keyboard_layout
+                0x0000133c       0xa8 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+                0x0000133c                bad_usb_script_set_keyboard_layout
+ .text.bad_usb_script_start_stop
+                0x000013e4       0x1c build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+                0x000013e4                bad_usb_script_start_stop
+ .text.bad_usb_script_pause_resume
+                0x00001400       0x1c build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+                0x00001400                bad_usb_script_pause_resume
+ .text.bad_usb_script_get_state
+                0x0000141c        0x4 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+                0x0000141c                bad_usb_script_get_state
+ .text.ducky_fnc_waitforbutton
+                0x00001420        0x6 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ *fill*         0x00001426        0x2 
+ .text.ducky_fnc_mouse_scroll
+                0x00001428       0x58 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .text.ducky_fnc_mouse_move
+                0x00001480       0x80 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .text.ducky_fnc_globe
+                0x00001500       0x6c build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .text.ducky_fnc_sysrq
+                0x0000156c       0x44 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .text.ducky_fnc_media
+                0x000015b0       0x50 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .text.ducky_fnc_release
+                0x00001600       0x8c build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .text.ducky_fnc_hold
+                0x0000168c       0x8c build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .text.ducky_fnc_altstring
+                0x00001718       0x48 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .text.ducky_fnc_altchar
+                0x00001760       0x48 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .text.ducky_fnc_repeat
+                0x000017a8       0x44 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .text.ducky_fnc_defstrdelay
+                0x000017ec       0x40 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .text.ducky_fnc_strdelay
+                0x0000182c       0x40 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .text.ducky_fnc_defdelay
+                0x0000186c       0x40 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .text.ducky_fnc_delay
+                0x000018ac       0x40 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .text.ducky_fnc_string
+                0x000018ec       0x80 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .text.ducky_execute_cmd
+                0x0000196c       0x80 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+                0x0000196c                ducky_execute_cmd
+ .text.ducky_get_next_modifier_keycode_by_name
+                0x000019ec       0x68 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+                0x000019ec                ducky_get_next_modifier_keycode_by_name
+ .text.ducky_get_modifier_keycode_by_name
+                0x00001a54       0x54 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+                0x00001a54                ducky_get_modifier_keycode_by_name
+ .text.ducky_get_keycode_by_name
+                0x00001aa8       0x54 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+                0x00001aa8                ducky_get_keycode_by_name
+ .text.ducky_get_media_keycode_by_name
+                0x00001afc       0x54 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+                0x00001afc                ducky_get_media_keycode_by_name
+ .text.ducky_get_mouse_keycode_by_name
+                0x00001b50       0x54 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+                0x00001b50                ducky_get_mouse_keycode_by_name
+ .text.bad_usb_scene_config_connection_callback
+                0x00001ba4       0x54 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+                0x00001ba4                bad_usb_scene_config_connection_callback
+ .text.bad_usb_scene_config_select_callback
+                0x00001bf8        0xc build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+                0x00001bf8                bad_usb_scene_config_select_callback
+ .text.bad_usb_scene_config_ble_persist_pairing_callback
+                0x00001c04       0x60 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+                0x00001c04                bad_usb_scene_config_ble_persist_pairing_callback
+ .text.bad_usb_scene_config_ble_pairing_mode_callback
+                0x00001c64       0x50 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+                0x00001c64                bad_usb_scene_config_ble_pairing_mode_callback
+ .text.draw_menu
+                0x00001cb4      0x18c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .text.bad_usb_scene_config_on_enter
+                0x00001e40       0x4c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+                0x00001e40                bad_usb_scene_config_on_enter
+ .text.bad_usb_scene_config_on_event
+                0x00001e8c      0x178 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+                0x00001e8c                bad_usb_scene_config_on_event
+ .text.bad_usb_scene_config_on_exit
+                0x00002004        0xc build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+                0x00002004                bad_usb_scene_config_on_exit
+ .text.reverse_mac_addr
+                0x00002010       0x1a build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ *fill*         0x0000202a        0x2 
+ .text.bad_usb_scene_config_ble_mac_byte_input_callback
+                0x0000202c        0xc build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+                0x0000202c                bad_usb_scene_config_ble_mac_byte_input_callback
+ .text.bad_usb_scene_config_ble_mac_on_enter
+                0x00002038       0x60 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+                0x00002038                bad_usb_scene_config_ble_mac_on_enter
+ .text.bad_usb_scene_config_ble_mac_on_event
+                0x00002098       0x68 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+                0x00002098                bad_usb_scene_config_ble_mac_on_event
+ .text.bad_usb_scene_config_ble_mac_on_exit
+                0x00002100       0x30 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+                0x00002100                bad_usb_scene_config_ble_mac_on_exit
+ .text.bad_usb_scene_config_ble_name_text_input_callback
+                0x00002130        0xc build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .text.bad_usb_scene_config_ble_name_on_enter
+                0x0000213c       0x58 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+                0x0000213c                bad_usb_scene_config_ble_name_on_enter
+ .text.bad_usb_scene_config_ble_name_on_event
+                0x00002194       0x60 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+                0x00002194                bad_usb_scene_config_ble_name_on_event
+ .text.bad_usb_scene_config_ble_name_on_exit
+                0x000021f4        0xc build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+                0x000021f4                bad_usb_scene_config_ble_name_on_exit
+ .text.bad_usb_scene_config_layout_on_enter
+                0x00002200       0x84 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+                0x00002200                bad_usb_scene_config_layout_on_enter
+ .text.bad_usb_scene_config_layout_on_event
+                0x00002284        0xe build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+                0x00002284                bad_usb_scene_config_layout_on_event
+ .text.bad_usb_scene_config_layout_on_exit
+                0x00002292        0x2 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+                0x00002292                bad_usb_scene_config_layout_on_exit
+ .text.bad_usb_scene_config_usb_name_text_input_callback
+                0x00002294        0xc build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .text.bad_usb_scene_config_usb_name_on_enter
+                0x000022a0       0x78 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+                0x000022a0                bad_usb_scene_config_usb_name_on_enter
+ .text.bad_usb_scene_config_usb_name_on_event
+                0x00002318       0x84 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+                0x00002318                bad_usb_scene_config_usb_name_on_event
+ .text.bad_usb_scene_config_usb_name_on_exit
+                0x0000239c        0xc build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+                0x0000239c                bad_usb_scene_config_usb_name_on_exit
+ .text.bad_usb_scene_config_usb_vidpid_byte_input_callback
+                0x000023a8        0xc build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+                0x000023a8                bad_usb_scene_config_usb_vidpid_byte_input_callback
+ .text.bad_usb_scene_config_usb_vidpid_on_enter
+                0x000023b4       0x5c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+                0x000023b4                bad_usb_scene_config_usb_vidpid_on_enter
+ .text.bad_usb_scene_config_usb_vidpid_on_event
+                0x00002410       0x64 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+                0x00002410                bad_usb_scene_config_usb_vidpid_on_event
+ .text.bad_usb_scene_config_usb_vidpid_on_exit
+                0x00002474       0x30 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+                0x00002474                bad_usb_scene_config_usb_vidpid_on_exit
+ .text.bad_usb_scene_confirm_unpair_on_enter
+                0x000024a4       0x70 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+                0x000024a4                bad_usb_scene_confirm_unpair_on_enter
+ .text.bad_usb_scene_confirm_unpair_on_event
+                0x00002514       0x44 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+                0x00002514                bad_usb_scene_confirm_unpair_on_event
+ .text.bad_usb_scene_confirm_unpair_widget_callback
+                0x00002558       0x20 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+                0x00002558                bad_usb_scene_confirm_unpair_widget_callback
+ .text.bad_usb_scene_confirm_unpair_on_exit
+                0x00002578        0xc build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+                0x00002578                bad_usb_scene_confirm_unpair_on_exit
+ .text.bad_usb_scene_done_popup_callback
+                0x00002584        0xc build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .text.bad_usb_scene_done_on_enter
+                0x00002590       0x7c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+                0x00002590                bad_usb_scene_done_on_enter
+ .text.bad_usb_scene_done_on_event
+                0x0000260c        0xe build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+                0x0000260c                bad_usb_scene_done_on_event
+ *fill*         0x0000261a        0x2 
+ .text.bad_usb_scene_done_on_exit
+                0x0000261c        0xc build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+                0x0000261c                bad_usb_scene_done_on_exit
+ .text.bad_usb_scene_error_event_callback
+                0x00002628       0x18 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .text.bad_usb_scene_error_on_enter
+                0x00002640       0x6c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+                0x00002640                bad_usb_scene_error_on_enter
+ .text.bad_usb_scene_error_on_event
+                0x000026ac       0x28 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+                0x000026ac                bad_usb_scene_error_on_event
+ .text.bad_usb_scene_error_on_exit
+                0x000026d4        0xc build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+                0x000026d4                bad_usb_scene_error_on_exit
+ .text.bad_usb_scene_file_select_on_enter
+                0x000026e0      0x160 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+                0x000026e0                bad_usb_scene_file_select_on_enter
+ .text.bad_usb_scene_file_select_on_event
+                0x00002840        0xe build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+                0x00002840                bad_usb_scene_file_select_on_event
+ .text.bad_usb_scene_file_select_on_exit
+                0x0000284e        0x2 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+                0x0000284e                bad_usb_scene_file_select_on_exit
+ .text.bad_usb_scene_work_button_callback
+                0x00002850       0x10 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+                0x00002850                bad_usb_scene_work_button_callback
+ .text.bad_usb_scene_work_on_event
+                0x00002860       0xe0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+                0x00002860                bad_usb_scene_work_on_event
+ .text.bad_usb_scene_work_on_enter
+                0x00002940      0x108 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+                0x00002940                bad_usb_scene_work_on_enter
+ .text.bad_usb_scene_work_on_exit
+                0x00002a48        0x2 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+                0x00002a48                bad_usb_scene_work_on_exit
+ *fill*         0x00002a4a        0x2 
+ .text.bad_usb_draw_callback
+                0x00002a4c      0x56c build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .text.bad_usb_input_callback
+                0x00002fb8       0x60 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .text.bad_usb_view_alloc
+                0x00003018       0x80 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+                0x00003018                bad_usb_view_alloc
+ .text.bad_usb_view_free
+                0x00003098       0x2c build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+                0x00003098                bad_usb_view_free
+ .text.bad_usb_view_get_view
+                0x000030c4        0x4 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+                0x000030c4                bad_usb_view_get_view
+ .text.bad_usb_view_set_button_callback
+                0x000030c8       0x28 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+                0x000030c8                bad_usb_view_set_button_callback
+ .text.bad_usb_view_set_file_name
+                0x000030f0       0x2c build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+                0x000030f0                bad_usb_view_set_file_name
+ .text.bad_usb_view_set_layout
+                0x0000311c       0x30 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+                0x0000311c                bad_usb_view_set_layout
+ .text.bad_usb_view_set_state
+                0x0000314c       0x4c build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+                0x0000314c                bad_usb_view_set_state
+ .text.bad_usb_view_set_interface
+                0x00003198       0x24 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+                0x00003198                bad_usb_view_set_interface
+ .text.bad_usb_view_is_idle_state
+                0x000031bc       0x34 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+                0x000031bc                bad_usb_view_is_idle_state
+ .text.bad_usb_app_back_event_callback
+                0x000031f0        0xc build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .text.bad_usb_app_custom_event_callback
+                0x000031fc        0xc build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .text.bad_usb_app_tick_event_callback
+                0x00003208        0xc build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .text.bad_usb_set_interface
+                0x00003214       0x10 build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+                0x00003214                bad_usb_set_interface
+ .text.bad_usb_app_show_loading_popup
+                0x00003224       0x28 build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+                0x00003224                bad_usb_app_show_loading_popup
+ .text.bad_usb_app_alloc
+                0x0000324c      0x48c build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+                0x0000324c                bad_usb_app_alloc
+ .text.bad_usb_app_free
+                0x000036d8      0x20c build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+                0x000036d8                bad_usb_app_free
+ .text.bad_usb_app
+                0x000038e4       0x24 build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+                0x000038e4                bad_usb_app
+ .text.ble_profile_hid_get_config
+                0x00003908       0x98 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_stop
+                0x000039a0       0x58 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_start
+                0x000039f8       0x78 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_kb_press
+                0x00003a70       0x54 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00003a70                ble_profile_hid_kb_press
+ .text.ble_profile_hid_kb_release
+                0x00003ac4       0x58 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00003ac4                ble_profile_hid_kb_release
+ .text.ble_profile_hid_kb_release_all
+                0x00003b1c       0x44 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00003b1c                ble_profile_hid_kb_release_all
+ .text.ble_profile_hid_consumer_key_press
+                0x00003b60       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00003b60                ble_profile_hid_consumer_key_press
+ .text.ble_profile_hid_consumer_key_release
+                0x00003b9c       0x40 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00003b9c                ble_profile_hid_consumer_key_release
+ .text.ble_profile_hid_consumer_key_release_all
+                0x00003bdc       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00003bdc                ble_profile_hid_consumer_key_release_all
+ .text.ble_profile_hid_mouse_move
+                0x00003c18       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00003c18                ble_profile_hid_mouse_move
+ .text.ble_profile_hid_mouse_press
+                0x00003c54       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00003c54                ble_profile_hid_mouse_press
+ .text.ble_profile_hid_mouse_release
+                0x00003c90       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00003c90                ble_profile_hid_mouse_release
+ .text.ble_profile_hid_mouse_release_all
+                0x00003ccc       0x38 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00003ccc                ble_profile_hid_mouse_release_all
+ .text.ble_profile_hid_mouse_scroll
+                0x00003d04       0x38 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00003d04                ble_profile_hid_mouse_scroll
+ .text.ble_svc_hid_char_desc_data_callback
+                0x00003d3c        0xc build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .text.ble_svc_hid_report_data_callback
+                0x00003d48       0x12 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .text.ble_svc_hid_event_handler
+                0x00003d5a       0x26 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .text.ble_svc_hid_start
+                0x00003d80      0x138 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00003d80                ble_svc_hid_start
+ .text.ble_svc_hid_update_report_map
+                0x00003eb8       0x20 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00003eb8                ble_svc_hid_update_report_map
+ .text.ble_svc_hid_update_input_report
+                0x00003ed8       0x20 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00003ed8                ble_svc_hid_update_input_report
+ .text.ble_svc_hid_update_info
+                0x00003ef8       0x1c build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00003ef8                ble_svc_hid_update_info
+ .text.ble_svc_hid_stop
+                0x00003f14       0x80 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00003f14                ble_svc_hid_stop
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00003f94     0x12e4
+ *(.rodata)
+ .rodata        0x00003f94        0x6 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.hid_ble_adjust_config.str1.1
+                0x00003f9a       0x13 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .rodata.hid_ble_init.str1.1
+                0x00003fad       0x16 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .rodata.hid_ble_get_led_state.str1.1
+                0x00003fc3       0x31 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .rodata.hid_api_ble
+                0x00003ff4       0x3c build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .rodata.hid_api_usb
+                0x00004030       0x3c build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .rodata.profile_callbacks
+                0x0000406c        0xc build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .rodata.ducky_altstring.str1.1
+                0x00004078        0x3 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .rodata.ducky_parse_line.str1.1
+                0x0000407b       0x2f build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .rodata.bad_usb_worker.str1.1
+                0x000040aa      0x1a5 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .rodata.numpad_keys
+                0x0000424f        0xa build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .rodata.ducky_cmd_ble_id
+                0x00004259        0x7 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .rodata.ducky_cmd_bt_id
+                0x00004260        0x6 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .rodata.ducky_cmd_id
+                0x00004266        0x3 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ *fill*         0x00004269        0x1 
+ .rodata.hid_asciimap
+                0x0000426a      0x100 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .rodata.ducky_fnc_mouse_scroll.str1.1
+                0x0000436a       0x14 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .rodata.ducky_fnc_globe.str1.1
+                0x0000437e       0x1a build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .rodata.ducky_fnc_release.str1.1
+                0x00004398       0x11 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .rodata.ducky_fnc_hold.str1.1
+                0x000043a9       0x2e build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .rodata.ducky_fnc_altstring.str1.1
+                0x000043d7       0x15 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .rodata.ducky_fnc_altchar.str1.1
+                0x000043ec       0x13 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .rodata.ducky_fnc_repeat.str1.1
+                0x000043ff       0x12 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .rodata.ducky_fnc_string.str1.1
+                0x00004411       0x14 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .rodata.str1.1
+                0x00004425      0x10a build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ *fill*         0x0000452f        0x1 
+ .rodata.ducky_commands
+                0x00004530      0x144 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .rodata.str1.1
+                0x00004674      0x23b build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ *fill*         0x000048af        0x1 
+ .rodata.ducky_mouse_keys
+                0x000048b0       0x40 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .rodata.ducky_media_keys
+                0x000048f0       0xb8 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .rodata.ducky_keys
+                0x000049a8      0x1a0 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .rodata.ducky_modifier_keys
+                0x00004b48       0x30 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .rodata.bad_usb_scene_handlers
+                0x00004b78       0x10 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene.o
+                0x00004b78                bad_usb_scene_handlers
+ .rodata.bad_usb_scene_on_exit_handlers
+                0x00004b88       0x2c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene.o
+                0x00004b88                bad_usb_scene_on_exit_handlers
+ .rodata.bad_usb_scene_on_event_handlers
+                0x00004bb4       0x2c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene.o
+                0x00004bb4                bad_usb_scene_on_event_handlers
+ .rodata.bad_usb_scene_on_enter_handlers
+                0x00004be0       0x2c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene.o
+                0x00004be0                bad_usb_scene_on_enter_handlers
+ .rodata.bad_usb_scene_config_connection_callback.str1.1
+                0x00004c0c        0x8 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .rodata.bad_usb_scene_config_ble_persist_pairing_callback.str1.1
+                0x00004c14        0x7 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .rodata.draw_menu.str1.1
+                0x00004c1b      0x101 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .rodata.str1.1
+                0x00004d1c       0x17 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ *fill*         0x00004d33        0x1 
+ .rodata.ble_pairing_mode_names
+                0x00004d34        0xc build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+                0x00004d34                ble_pairing_mode_names
+ .rodata.bad_usb_scene_config_ble_mac_on_enter.str1.1
+                0x00004d40       0x14 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .rodata.bad_usb_scene_config_ble_mac_on_exit.str1.1
+                0x00004d54        0x1 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .rodata.bad_usb_scene_config_ble_name_on_enter.str1.1
+                0x00004d55       0x14 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .rodata.bad_usb_scene_config_layout_on_enter.str1.1
+                0x00004d69       0x1f build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+ .rodata.bad_usb_scene_config_usb_name_on_enter.str1.1
+                0x00004d88       0x2f build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .rodata.bad_usb_scene_config_usb_vidpid_on_enter.str1.1
+                0x00004db7       0x10 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .rodata.bad_usb_scene_config_usb_vidpid_on_exit.str1.1
+                0x00004dc7        0x1 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .rodata.bad_usb_scene_confirm_unpair_on_enter.str1.1
+                0x00004dc8       0x26 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .rodata.bad_usb_scene_done_on_enter.str1.1
+                0x00004dee        0x5 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .rodata.bad_usb_scene_error_on_enter.str1.1
+                0x00004df3       0x52 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .rodata.bad_usb_scene_file_select_on_enter.str1.1
+                0x00004e45       0x9e build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+ .rodata.bad_usb_draw_callback.str1.1
+                0x00004ee3       0xd9 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .rodata.bad_usb_view_alloc.str1.1
+                0x00004fbc        0x3 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .rodata.bad_usb_app_alloc.str1.1
+                0x00004fbf       0xea build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .rodata.ble_profile_hid_get_config.str1.1
+                0x000050a9       0x10 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ *fill*         0x000050b9        0x3 
+ .rodata.profile_callbacks
+                0x000050bc        0xc build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .rodata.ble_profile_hid_report_map_data
+                0x000050c8       0x8a build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .rodata.str1.1
+                0x00005152       0x42 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .rodata.ble_svc_hid_report_template
+                0x00005194       0x24 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .rodata.ble_svc_hid_char_descr_template
+                0x000051b8       0x20 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .rodata.ble_svc_hid_chars
+                0x000051d8       0x90 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .rodata.ble_svc_hid_uuid
+                0x00005268       0x10 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.data           0x00005278       0x5c
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.ble_profile_hid_ext
+                0x00005278        0x4 build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+                0x00005278                ble_profile_hid_ext
+ .data.ble_profile_hid
+                0x0000527c        0x4 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x0000527c                ble_profile_hid
+ .data.template_config
+                0x00005280       0x54 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x730
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000      0x128 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_aranges
+                0x00000128       0x30 build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .debug_aranges
+                0x00000158       0xb8 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_aranges
+                0x00000210       0xa0 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_aranges
+                0x000002b0       0x40 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .debug_aranges
+                0x000002f0       0x18 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene.o
+ .debug_aranges
+                0x00000308       0x58 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .debug_aranges
+                0x00000360       0x40 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .debug_aranges
+                0x000003a0       0x38 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .debug_aranges
+                0x000003d8       0x30 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+ .debug_aranges
+                0x00000408       0x38 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .debug_aranges
+                0x00000440       0x38 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .debug_aranges
+                0x00000478       0x38 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .debug_aranges
+                0x000004b0       0x38 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .debug_aranges
+                0x000004e8       0x38 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .debug_aranges
+                0x00000520       0x30 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+ .debug_aranges
+                0x00000550       0x38 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+ .debug_aranges
+                0x00000588       0x70 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_aranges
+                0x000005f8       0x58 build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .debug_aranges
+                0x00000650       0x88 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_aranges
+                0x000006d8       0x58 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x169c5
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x24e4 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_info    0x000024e4      0x534 build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .debug_info    0x00002a18     0x2d8b build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_info    0x000057a3     0x1868 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_info    0x0000700b      0x749 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .debug_info    0x00007754      0x4dd build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene.o
+ .debug_info    0x00007c31     0x1474 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .debug_info    0x000090a5      0xcae build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .debug_info    0x00009d53      0xc59 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .debug_info    0x0000a9ac      0xa0d build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+ .debug_info    0x0000b3b9      0xd18 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .debug_info    0x0000c0d1      0xc05 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .debug_info    0x0000ccd6      0xb69 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .debug_info    0x0000d83f      0xace build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .debug_info    0x0000e30d      0xb3e build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .debug_info    0x0000ee4b      0xe66 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+ .debug_info    0x0000fcb1      0xe65 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+ .debug_info    0x00010b16     0x1f01 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_info    0x00012a17     0x1ec8 build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .debug_info    0x000148df     0x1333 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_info    0x00015c12      0xdb3 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_abbrev   0x00000000     0x3cfc
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4f9 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_abbrev  0x000004f9      0x1ff build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .debug_abbrev  0x000006f8      0x5b3 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_abbrev  0x00000cab      0x30d build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_abbrev  0x00000fb8      0x1a5 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .debug_abbrev  0x0000115d      0x137 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene.o
+ .debug_abbrev  0x00001294      0x2c3 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .debug_abbrev  0x00001557      0x24f build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .debug_abbrev  0x000017a6      0x259 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .debug_abbrev  0x000019ff      0x2b9 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+ .debug_abbrev  0x00001cb8      0x26c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .debug_abbrev  0x00001f24      0x244 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .debug_abbrev  0x00002168      0x226 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .debug_abbrev  0x0000238e      0x223 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .debug_abbrev  0x000025b1      0x279 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .debug_abbrev  0x0000282a      0x2cc build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+ .debug_abbrev  0x00002af6      0x246 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+ .debug_abbrev  0x00002d3c      0x40e build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_abbrev  0x0000314a      0x3af build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .debug_abbrev  0x000034f9      0x3a5 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_abbrev  0x0000389e      0x45e build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_line     0x00000000     0xa397
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x56c build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_usb_adjust_config
+                0x0000056c       0x43 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_ble_connection_status_callback
+                0x000005af       0x36 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_ble_set_state_callback
+                0x000005e5       0x21 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_ble_is_connected
+                0x00000606       0x1f build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_usb_set_state_callback
+                0x00000625       0x1e build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_usb_is_connected
+                0x00000643       0x1a build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_usb_kb_press
+                0x0000065d       0x1b build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_usb_kb_release
+                0x00000678       0x1b build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_usb_mouse_press
+                0x00000693       0x1b build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_usb_mouse_release
+                0x000006ae       0x1b build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_usb_mouse_scroll
+                0x000006c9       0x1b build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_usb_mouse_move
+                0x000006e4       0x1e build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_usb_consumer_press
+                0x00000702       0x1c build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_usb_consumer_release
+                0x0000071e       0x1c build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_usb_release_all
+                0x0000073a       0x4c build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_usb_get_led_state
+                0x00000786       0x1b build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_ble_adjust_config
+                0x000007a1       0x9e build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_ble_init
+                0x0000083f       0x8a build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_ble_deinit
+                0x000008c9       0x88 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_ble_kb_press
+                0x00000951       0x20 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_ble_kb_release
+                0x00000971       0x20 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_ble_mouse_press
+                0x00000991       0x20 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_ble_mouse_release
+                0x000009b1       0x20 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_ble_mouse_scroll
+                0x000009d1       0x20 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_ble_mouse_move
+                0x000009f1       0x20 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_ble_consumer_press
+                0x00000a11       0x20 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_ble_consumer_release
+                0x00000a31       0x20 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_ble_release_all
+                0x00000a51       0x3e build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_ble_get_led_state
+                0x00000a8f       0x24 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_usb_init
+                0x00000ab3       0x3d build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.hid_usb_deinit
+                0x00000af0       0x2f build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.bad_usb_hid_get_interface
+                0x00000b1f       0x1a build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line.text.bad_usb_hid_ble_remove_pairing
+                0x00000b39       0x66 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line_end
+                0x00000b9f        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_line    0x00000b9f      0x2eb build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .debug_line.text.ble_profile_hid_ext_start
+                0x00000e8a       0x1b build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .debug_line.text.ble_profile_hid_ext_stop
+                0x00000ea5       0x1c build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .debug_line.text.ble_profile_hid_ext_get_config
+                0x00000ec1       0xa9 build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .debug_line_end
+                0x00000f6a        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .debug_line    0x00000f6a      0x448 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.bad_usb_hid_state_callback
+                0x000013b2       0x3a build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.bad_usb_flags_get
+                0x000013ec       0x83 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.ducky_get_command_len
+                0x0000146f       0x34 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.ducky_is_line_end
+                0x000014a3       0x1d build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.ducky_get_keycode
+                0x000014c0       0x6d build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.ducky_get_number
+                0x0000152d       0x47 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.ducky_numlock_on
+                0x00001574       0x45 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.ducky_numpad_press
+                0x000015b9       0x53 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.ducky_altchar
+                0x0000160c       0x69 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.ducky_altstring
+                0x00001675       0x5a build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.ducky_error
+                0x000016cf       0x2f build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.ducky_parse_line
+                0x000016fe      0x124 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.bad_usb_worker
+                0x00001822      0xe33 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.ducky_string
+                0x00002655       0x8f build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.bad_usb_script_open
+                0x000026e4       0x9a build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.bad_usb_script_close
+                0x0000277e       0x34 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.bad_usb_script_set_keyboard_layout
+                0x000027b2       0x91 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.bad_usb_script_start_stop
+                0x00002843       0x27 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.bad_usb_script_pause_resume
+                0x0000286a       0x27 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line.text.bad_usb_script_get_state
+                0x00002891       0x1e build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line_end
+                0x000028af        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_line    0x000028af      0x34e build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line.text.ducky_fnc_waitforbutton
+                0x00002bfd       0x1d build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line.text.ducky_fnc_mouse_scroll
+                0x00002c1a       0x65 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line.text.ducky_fnc_mouse_move
+                0x00002c7f       0x89 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line.text.ducky_fnc_globe
+                0x00002d08       0x7e build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line.text.ducky_fnc_sysrq
+                0x00002d86       0x52 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line.text.ducky_fnc_media
+                0x00002dd8       0x6a build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line.text.ducky_fnc_release
+                0x00002e42       0xb9 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line.text.ducky_fnc_hold
+                0x00002efb       0xb9 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line.text.ducky_fnc_altstring
+                0x00002fb4       0x57 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line.text.ducky_fnc_altchar
+                0x0000300b       0x57 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line.text.ducky_fnc_repeat
+                0x00003062       0x5a build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line.text.ducky_fnc_defstrdelay
+                0x000030bc       0x52 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line.text.ducky_fnc_strdelay
+                0x0000310e       0x52 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line.text.ducky_fnc_defdelay
+                0x00003160       0x52 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line.text.ducky_fnc_delay
+                0x000031b2       0x63 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line.text.ducky_fnc_string
+                0x00003215       0x78 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line.text.ducky_execute_cmd
+                0x0000328d       0x99 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line_end
+                0x00003326        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_line    0x00003326      0x2b9 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .debug_line.text.ducky_get_next_modifier_keycode_by_name
+                0x000035df       0x98 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .debug_line.text.ducky_get_modifier_keycode_by_name
+                0x00003677       0x77 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .debug_line.text.ducky_get_keycode_by_name
+                0x000036ee       0x77 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .debug_line.text.ducky_get_media_keycode_by_name
+                0x00003765       0x77 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .debug_line.text.ducky_get_mouse_keycode_by_name
+                0x000037dc       0x77 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .debug_line_end
+                0x00003853        0x0 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .debug_line    0x00003853      0x1a0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene.o
+ .debug_line_end
+                0x000039f3        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene.o
+ .debug_line    0x000039f3      0x53e build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .debug_line.text.bad_usb_scene_config_connection_callback
+                0x00003f31       0x34 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .debug_line.text.bad_usb_scene_config_select_callback
+                0x00003f65       0x19 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .debug_line.text.bad_usb_scene_config_ble_persist_pairing_callback
+                0x00003f7e       0x65 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .debug_line.text.bad_usb_scene_config_ble_pairing_mode_callback
+                0x00003fe3       0x61 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .debug_line.text.draw_menu
+                0x00004044       0x8f build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .debug_line.text.bad_usb_scene_config_on_enter
+                0x000040d3       0x3c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .debug_line.text.bad_usb_scene_config_on_event
+                0x0000410f       0xf9 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .debug_line.text.bad_usb_scene_config_on_exit
+                0x00004208       0x1a build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .debug_line_end
+                0x00004222        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .debug_line    0x00004222      0x4e5 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .debug_line.text.reverse_mac_addr
+                0x00004707       0x6e build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .debug_line.text.bad_usb_scene_config_ble_mac_byte_input_callback
+                0x00004775       0x17 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .debug_line.text.bad_usb_scene_config_ble_mac_on_enter
+                0x0000478c       0x42 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .debug_line.text.bad_usb_scene_config_ble_mac_on_event
+                0x000047ce       0x65 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .debug_line.text.bad_usb_scene_config_ble_mac_on_exit
+                0x00004833       0x2d build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .debug_line_end
+                0x00004860        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .debug_line    0x00004860      0x4e6 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .debug_line.text.bad_usb_scene_config_ble_name_text_input_callback
+                0x00004d46       0x15 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .debug_line.text.bad_usb_scene_config_ble_name_on_enter
+                0x00004d5b       0x39 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .debug_line.text.bad_usb_scene_config_ble_name_on_event
+                0x00004d94       0x6c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .debug_line.text.bad_usb_scene_config_ble_name_on_exit
+                0x00004e00       0x19 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .debug_line_end
+                0x00004e19        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .debug_line    0x00004e19      0x42f build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+ .debug_line.text.bad_usb_scene_config_layout_on_enter
+                0x00005248       0x90 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+ .debug_line.text.bad_usb_scene_config_layout_on_event
+                0x000052d8       0x24 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+ .debug_line.text.bad_usb_scene_config_layout_on_exit
+                0x000052fc       0x18 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+ .debug_line_end
+                0x00005314        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+ .debug_line    0x00005314      0x524 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .debug_line.text.bad_usb_scene_config_usb_name_text_input_callback
+                0x00005838       0x15 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .debug_line.text.bad_usb_scene_config_usb_name_on_enter
+                0x0000584d       0x51 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .debug_line.text.bad_usb_scene_config_usb_name_on_event
+                0x0000589e       0x7e build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .debug_line.text.bad_usb_scene_config_usb_name_on_exit
+                0x0000591c       0x1a build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .debug_line_end
+                0x00005936        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .debug_line    0x00005936      0x3f9 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .debug_line.text.bad_usb_scene_config_usb_vidpid_byte_input_callback
+                0x00005d2f       0x15 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .debug_line.text.bad_usb_scene_config_usb_vidpid_on_enter
+                0x00005d44       0x4e build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .debug_line.text.bad_usb_scene_config_usb_vidpid_on_event
+                0x00005d92       0x75 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .debug_line.text.bad_usb_scene_config_usb_vidpid_on_exit
+                0x00005e07       0x2c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .debug_line_end
+                0x00005e33        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .debug_line    0x00005e33      0x4ad build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .debug_line.text.bad_usb_scene_confirm_unpair_on_enter
+                0x000062e0       0x37 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .debug_line.text.bad_usb_scene_confirm_unpair_on_event
+                0x00006317       0x59 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .debug_line.text.bad_usb_scene_confirm_unpair_widget_callback
+                0x00006370       0x2a build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .debug_line.text.bad_usb_scene_confirm_unpair_on_exit
+                0x0000639a       0x19 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .debug_line_end
+                0x000063b3        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .debug_line    0x000063b3      0x45e build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .debug_line.text.bad_usb_scene_done_popup_callback
+                0x00006811       0x15 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .debug_line.text.bad_usb_scene_done_on_enter
+                0x00006826       0x34 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .debug_line.text.bad_usb_scene_done_on_event
+                0x0000685a       0x2a build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .debug_line.text.bad_usb_scene_done_on_exit
+                0x00006884       0x1a build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .debug_line_end
+                0x0000689e        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .debug_line    0x0000689e      0x48e build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .debug_line.text.bad_usb_scene_error_event_callback
+                0x00006d2c       0x33 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .debug_line.text.bad_usb_scene_error_on_enter
+                0x00006d5f       0x35 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .debug_line.text.bad_usb_scene_error_on_event
+                0x00006d94       0x47 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .debug_line.text.bad_usb_scene_error_on_exit
+                0x00006ddb       0x17 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .debug_line_end
+                0x00006df2        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .debug_line    0x00006df2      0x4ca build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+ .debug_line.text.bad_usb_scene_file_select_on_enter
+                0x000072bc       0xe6 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+ .debug_line.text.bad_usb_scene_file_select_on_event
+                0x000073a2       0x24 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+ .debug_line.text.bad_usb_scene_file_select_on_exit
+                0x000073c6       0x19 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+ .debug_line_end
+                0x000073df        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+ .debug_line    0x000073df      0x569 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+ .debug_line.text.bad_usb_scene_work_button_callback
+                0x00007948       0x22 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+ .debug_line.text.bad_usb_scene_work_on_event
+                0x0000796a       0xa9 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+ .debug_line.text.bad_usb_scene_work_on_enter
+                0x00007a13       0x8e build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+ .debug_line.text.bad_usb_scene_work_on_exit
+                0x00007aa1       0x19 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+ .debug_line_end
+                0x00007aba        0x0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+ .debug_line    0x00007aba      0x587 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_line.text.bad_usb_draw_callback
+                0x00008041      0x1df build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_line.text.bad_usb_input_callback
+                0x00008220       0x8b build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_line.text.bad_usb_view_alloc
+                0x000082ab       0x49 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_line.text.bad_usb_view_free
+                0x000082f4       0x2d build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_line.text.bad_usb_view_get_view
+                0x00008321       0x1e build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_line.text.bad_usb_view_set_button_callback
+                0x0000833f       0x37 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_line.text.bad_usb_view_set_file_name
+                0x00008376       0x32 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_line.text.bad_usb_view_set_layout
+                0x000083a8       0x3b build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_line.text.bad_usb_view_set_state
+                0x000083e3       0x43 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_line.text.bad_usb_view_set_interface
+                0x00008426       0x35 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_line.text.bad_usb_view_is_idle_state
+                0x0000845b       0x5b build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_line_end
+                0x000084b6        0x0 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_line    0x000084b6      0x572 build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .debug_line.text.bad_usb_app_back_event_callback
+                0x00008a28       0x1e build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .debug_line.text.bad_usb_app_custom_event_callback
+                0x00008a46       0x1f build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .debug_line.text.bad_usb_app_tick_event_callback
+                0x00008a65       0x1b build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .debug_line.text.bad_usb_set_interface
+                0x00008a80       0x20 build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .debug_line.text.bad_usb_app_show_loading_popup
+                0x00008aa0       0x34 build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .debug_line.text.bad_usb_app_alloc
+                0x00008ad4      0x2ea build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .debug_line.text.bad_usb_app_free
+                0x00008dbe      0x12c build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .debug_line.text.bad_usb_app
+                0x00008eea       0x2e build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .debug_line_end
+                0x00008f18        0x0 build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .debug_line    0x00008f18      0x38a build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_get_config
+                0x000092a2       0xb5 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_stop
+                0x00009357       0x9a build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_start
+                0x000093f1       0x84 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_kb_press
+                0x00009475       0xd2 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_kb_release
+                0x00009547       0xdc build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_kb_release_all
+                0x00009623      0x16c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_consumer_key_press
+                0x0000978f       0xac build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_consumer_key_release
+                0x0000983b       0xe4 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_consumer_key_release_all
+                0x0000991f       0xc6 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_move
+                0x000099e5       0xe4 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_press
+                0x00009ac9       0xa8 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_release
+                0x00009b71       0xa8 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_release_all
+                0x00009c19       0xa3 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_scroll
+                0x00009cbc       0xbf build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line_end
+                0x00009d7b        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line    0x00009d7b      0x301 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_char_desc_data_callback
+                0x0000a07c       0x32 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_report_data_callback
+                0x0000a0ae       0x39 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_event_handler
+                0x0000a0e7       0x4a build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_start
+                0x0000a131      0x11d build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_update_report_map
+                0x0000a24e       0x37 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_update_input_report
+                0x0000a285       0x3b build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_update_info
+                0x0000a2c0       0x2b build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_stop
+                0x0000a2eb       0xac build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line_end
+                0x0000a397        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_frame    0x00000000     0x1424
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x2a0 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_frame   0x000002a0       0x4c build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .debug_frame   0x000002ec      0x290 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_frame   0x0000057c      0x2a0 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_frame   0x0000081c       0xd8 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .debug_frame   0x000008f4      0x114 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .debug_frame   0x00000a08       0xa8 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .debug_frame   0x00000ab0       0x80 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .debug_frame   0x00000b30       0x64 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+ .debug_frame   0x00000b94       0x84 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .debug_frame   0x00000c18       0x8c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .debug_frame   0x00000ca4       0x84 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .debug_frame   0x00000d28       0x70 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .debug_frame   0x00000d98       0x74 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .debug_frame   0x00000e0c       0x84 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+ .debug_frame   0x00000e90       0x84 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+ .debug_frame   0x00000f14      0x17c build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_frame   0x00001090       0xec build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .debug_frame   0x0000117c      0x1c4 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_frame   0x00001340       0xe4 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_str      0x00000000     0xef4d
+ *(.debug_str)
+ .debug_str     0x00000000     0x1612 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_str     0x00001612      0x54f build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .debug_str     0x00001b61     0x15d9 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_str     0x0000313a      0xb18 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_str     0x00003c52      0x4f1 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .debug_str     0x00004143      0x907 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene.o
+ .debug_str     0x00004a4a      0xdd3 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .debug_str     0x0000581d      0x952 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .debug_str     0x0000616f      0x93b build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .debug_str     0x00006aaa      0x823 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+ .debug_str     0x000072cd      0xa57 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .debug_str     0x00007d24      0x939 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .debug_str     0x0000865d      0xa08 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .debug_str     0x00009065      0x93b build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .debug_str     0x000099a0      0x955 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .debug_str     0x0000a2f5      0xb6e build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+ .debug_str     0x0000ae63      0xc34 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+ .debug_str     0x0000ba97      0xf49 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_str     0x0000c9e0     0x120a build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .debug_str     0x0000dbea      0x9f0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_str     0x0000e5da      0x973 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x46b8
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x71a build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_loclists
+                0x0000071a       0xb0 build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .debug_loclists
+                0x000007ca     0x118a build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_loclists
+                0x00001954      0x857 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_loclists
+                0x000021ab      0x176 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .debug_loclists
+                0x00002321      0x326 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .debug_loclists
+                0x00002647      0x1a2 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .debug_loclists
+                0x000027e9      0x14a build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .debug_loclists
+                0x00002933       0xa4 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+ .debug_loclists
+                0x000029d7      0x171 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .debug_loclists
+                0x00002b48      0x140 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .debug_loclists
+                0x00002c88      0x1d0 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .debug_loclists
+                0x00002e58       0xf2 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .debug_loclists
+                0x00002f4a      0x185 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .debug_loclists
+                0x000030cf       0xda build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+ .debug_loclists
+                0x000031a9      0x265 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+ .debug_loclists
+                0x0000340e      0x55a build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_loclists
+                0x00003968      0x313 build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .debug_loclists
+                0x00003c7b      0x710 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_loclists
+                0x0000438b      0x32d build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x996
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xe7 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .debug_rnglists
+                0x000000e7       0x1f build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .debug_rnglists
+                0x00000106      0x2f9 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .debug_rnglists
+                0x000003ff       0xa5 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .debug_rnglists
+                0x000004a4       0xbe build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .debug_rnglists
+                0x00000562       0x4c build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .debug_rnglists
+                0x000005ae       0x37 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .debug_rnglists
+                0x000005e5       0x25 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .debug_rnglists
+                0x0000060a       0x30 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+ .debug_rnglists
+                0x0000063a       0x32 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .debug_rnglists
+                0x0000066c       0x25 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .debug_rnglists
+                0x00000691       0x25 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .debug_rnglists
+                0x000006b6       0x25 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .debug_rnglists
+                0x000006db       0x25 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .debug_rnglists
+                0x00000700       0x20 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+ .debug_rnglists
+                0x00000720       0x27 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+ .debug_rnglists
+                0x00000747       0xdb build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .debug_rnglists
+                0x00000822       0x5c build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .debug_rnglists
+                0x0000087e       0xa7 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_rnglists
+                0x00000925       0x71 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/bad_kb/helpers/bad_usb_hid.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/bad_kb/helpers/ble_hid_ext_profile.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_commands.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/bad_kb/helpers/ducky_script_keycodes.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_mac.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_ble_name.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_layout.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_name.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_config_usb_vidpid.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_confirm_unpair.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_done.o
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_error.o
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_file_select.o
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/bad_kb/scenes/bad_usb_scene_work.o
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/.extapps/bad_kb/views/bad_usb_view.o
+ .ARM.attributes
+                0x000003a8       0x34 build/f7-firmware-C/.extapps/bad_kb/bad_usb_app.o
+ .ARM.attributes
+                0x000003dc       0x34 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .ARM.attributes
+                0x00000410       0x34 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/bad_kb_d.elf elf32-littlearm)
+LOAD linker stubs

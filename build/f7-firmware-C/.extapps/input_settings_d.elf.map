@@ -1,0 +1,268 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+LOAD build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x314
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.input_settings_load
+                0x00000000       0x78 build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+                0x00000000                input_settings_load
+ .text.input_settings_save
+                0x00000078       0x3c build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+                0x00000078                input_settings_save
+ .text.input_settings_app_exit
+                0x000000b4        0x6 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+ *fill*         0x000000ba        0x2 
+ .text.input_settings_vibro_touch_trigger_mask_changed
+                0x000000bc       0x5c build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+ .text.input_settings_vibro_touch_level_changed
+                0x00000118       0x5c build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+ .text.input_settings_app_alloc
+                0x00000174      0x128 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+                0x00000174                input_settings_app_alloc
+ .text.input_settings_app_free
+                0x0000029c       0x48 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+                0x0000029c                input_settings_app_free
+ .text.input_settings_app
+                0x000002e4       0x30 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+                0x000002e4                input_settings_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000314      0x120
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.input_settings_load.str1.1
+                0x00000314       0x47 build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+ .rodata.input_settings_save.str1.1
+                0x0000035b       0x14 build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+ .rodata.input_settings_vibro_touch_trigger_mask_changed.str1.1
+                0x0000036f        0xf build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+ .rodata.input_settings_app_alloc.str1.1
+                0x0000037e       0x20 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+ *fill*         0x0000039e        0x2 
+ .rodata.vibro_touch_trigger_mask_value
+                0x000003a0        0xc build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+                0x000003a0                vibro_touch_trigger_mask_value
+ .rodata.str1.1
+                0x000003ac       0x29 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+ *fill*         0x000003d5        0x3 
+ .rodata.vibro_touch_trigger_mask_text
+                0x000003d8        0xc build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+                0x000003d8                vibro_touch_trigger_mask_text
+ .rodata.vibro_touch_level_value
+                0x000003e4       0x28 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+                0x000003e4                vibro_touch_level_value
+ .rodata.vibro_touch_level_text
+                0x0000040c       0x28 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+                0x0000040c                vibro_touch_level_text
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x70
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+ .debug_aranges
+                0x00000028       0x48 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xfd6
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x3d6 build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+ .debug_info    0x000003d6      0xc00 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+
+.debug_abbrev   0x00000000      0x3e6
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x173 build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+ .debug_abbrev  0x00000173      0x273 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+
+.debug_line     0x00000000      0x960
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x2d2 build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+ .debug_line.text.input_settings_load
+                0x000002d2       0x92 build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+ .debug_line.text.input_settings_save
+                0x00000364       0x3e build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+ .debug_line_end
+                0x000003a2        0x0 build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+ .debug_line    0x000003a2      0x3ad build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+ .debug_line.text.input_settings_app_exit
+                0x0000074f       0x1a build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+ .debug_line.text.input_settings_vibro_touch_trigger_mask_changed
+                0x00000769       0x5e build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+ .debug_line.text.input_settings_vibro_touch_level_changed
+                0x000007c7       0x5e build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+ .debug_line.text.input_settings_app_alloc
+                0x00000825       0xda build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+ .debug_line.text.input_settings_app_free
+                0x000008ff       0x34 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+ .debug_line.text.input_settings_app
+                0x00000933       0x2d build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+ .debug_line_end
+                0x00000960        0x0 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+
+.debug_frame    0x00000000      0x12c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x5c build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+ .debug_frame   0x0000005c       0xd0 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+
+.debug_str      0x00000000      0xc2e
+ *(.debug_str)
+ .debug_str     0x00000000      0x3f1 build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+ .debug_str     0x000003f1      0x83d build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x1e5
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000       0x6f build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+ .debug_loclists
+                0x0000006f      0x176 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x5d
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x2b build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+ .debug_rnglists
+                0x0000002b       0x32 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/input_settings/mock_imports/mock_input_settings.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/input_settings/input_settings_app.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/input_settings_d.elf elf32-littlearm)
+LOAD linker stubs

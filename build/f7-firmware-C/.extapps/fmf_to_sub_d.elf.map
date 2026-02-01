@@ -1,0 +1,321 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              build/f7-firmware-C/.extapps/fmf_to_sub/app.o (__aeabi_f2d)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fmf_to_sub/fmf_to_sub_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fmf_to_sub/fmf_to_sub_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fmf_to_sub/fmf_to_sub_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fmf_to_sub/fmf_to_sub_icons.o
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+LOAD build/f7-firmware-C/.extapps/fmf_to_sub/fmf_to_sub_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x1270
+ *(.text)
+ .text          0x00000000      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000000                __aeabi_drsub
+                0x00000008                __aeabi_dsub
+                0x00000008                __subdf3
+                0x0000000c                __adddf3
+                0x0000000c                __aeabi_dadd
+                0x00000284                __aeabi_ui2d
+                0x00000284                __floatunsidf
+                0x000002a4                __floatsidf
+                0x000002a4                __aeabi_i2d
+                0x000002c8                __extendsfdf2
+                0x000002c8                __aeabi_f2d
+                0x0000030c                __aeabi_ul2d
+                0x0000030c                __floatundidf
+                0x0000031c                __floatdidf
+                0x0000031c                __aeabi_l2d
+ *(.stub)
+ *(.text*)
+ .text.fmf2sub_navigation_exit_callback
+                0x00000378        0x6 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .text.fmf2sub_navigation_submenu_callback
+                0x0000037e        0x4 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .text.fmf2sub_view_convert_enter_callback
+                0x00000382        0x2 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .text.fmf2sub_file_write
+                0x00000384       0x24 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .text.fmf2sub_view_convert_exit_callback
+                0x000003a8       0x34 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .text.fmf2sub_view_convert_input_callback
+                0x000003dc       0x88 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .text.fmf2sub_extract_param
+                0x00000464       0x58 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .text.fmf2sub_view_convert_draw_callback
+                0x000004bc       0xe4 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .text.fmf2sub_setting_button_change
+                0x000005a0       0x3c build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .text.fmf2sub_setting_modulation_change
+                0x000005dc       0x3c build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .text.fmf2sub_setting_frequency_change
+                0x00000618       0x3c build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .text.fmf2sub_submenu_callback
+                0x00000654       0x20 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .text.fmf2sub_save_sub_file
+                0x00000674      0x534 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+                0x00000674                fmf2sub_save_sub_file
+ .text.fmf2sub_view_convert_custom_event_callback
+                0x00000ba8      0x398 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .text.fmf_to_sub_app
+                0x00000f40      0x330 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+                0x00000f40                fmf_to_sub_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00001270      0xc11
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.fmf2sub_view_convert_draw_callback.str1.1
+                0x00001270       0xb5 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .rodata.fmf2sub_save_sub_file.str1.1
+                0x00001325      0x142 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .rodata.fmf2sub_view_convert_custom_event_callback.str1.1
+                0x00001467      0x103 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .rodata.fmf_to_sub_app.str1.1
+                0x0000156a      0x1fa build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .rodata.str1.1
+                0x00001764      0x4c8 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .rodata.setting_button_names
+                0x00001c2c       0x3c build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .rodata.setting_button_values
+                0x00001c68       0x3c build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .rodata.setting_modulation_names
+                0x00001ca4       0x10 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .rodata.setting_modulation_values
+                0x00001cb4       0x10 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .rodata.setting_frequency_names
+                0x00001cc4       0xcc build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .rodata.setting_frequency_values
+                0x00001d90       0xcc build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .rodata.I_fmf_10x10
+                0x00001e5c        0xc build/f7-firmware-C/.extapps/fmf_to_sub/fmf_to_sub_icons.o
+                0x00001e5c                I_fmf_10x10
+ .rodata._I_fmf_10x10
+                0x00001e68        0x4 build/f7-firmware-C/.extapps/fmf_to_sub/fmf_to_sub_icons.o
+                0x00001e68                _I_fmf_10x10
+ .rodata._I_fmf_10x10_0
+                0x00001e6c       0x15 build/f7-firmware-C/.extapps/fmf_to_sub/fmf_to_sub_icons.o
+                0x00001e6c                _I_fmf_10x10_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xa8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x90 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_aranges
+                0x00000090       0x18 build/f7-firmware-C/.extapps/fmf_to_sub/fmf_to_sub_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x30fe
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2f7a build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_info    0x00002f7a      0x184 build/f7-firmware-C/.extapps/fmf_to_sub/fmf_to_sub_icons.o
+
+.debug_abbrev   0x00000000      0x5c5
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x514 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_abbrev  0x00000514       0xb1 build/f7-firmware-C/.extapps/fmf_to_sub/fmf_to_sub_icons.o
+
+.debug_line     0x00000000     0x127f
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x4d6 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_line.text.fmf2sub_navigation_exit_callback
+                0x000004d6       0x1b build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_line.text.fmf2sub_navigation_submenu_callback
+                0x000004f1       0x1b build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_line.text.fmf2sub_view_convert_enter_callback
+                0x0000050c       0x19 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_line.text.fmf2sub_file_write
+                0x00000525       0x30 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_line.text.fmf2sub_view_convert_exit_callback
+                0x00000555       0x51 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_line.text.fmf2sub_view_convert_input_callback
+                0x000005a6       0xaf build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_line.text.fmf2sub_extract_param
+                0x00000655       0x8b build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_line.text.fmf2sub_view_convert_draw_callback
+                0x000006e0       0x8f build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_line.text.fmf2sub_setting_button_change
+                0x0000076f       0x4f build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_line.text.fmf2sub_setting_modulation_change
+                0x000007be       0x4f build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_line.text.fmf2sub_setting_frequency_change
+                0x0000080d       0x4f build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_line.text.fmf2sub_submenu_callback
+                0x0000085c       0x2b build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_line.text.fmf2sub_save_sub_file
+                0x00000887      0x3ed build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_line.text.fmf2sub_view_convert_custom_event_callback
+                0x00000c74      0x2c2 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_line.text.fmf_to_sub_app
+                0x00000f36      0x1b3 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_line_end
+                0x000010e9        0x0 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_line    0x000010e9      0x196 build/f7-firmware-C/.extapps/fmf_to_sub/fmf_to_sub_icons.o
+ .debug_line_end
+                0x0000127f        0x0 build/f7-firmware-C/.extapps/fmf_to_sub/fmf_to_sub_icons.o
+
+.debug_frame    0x00000000      0x220
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x220 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+
+.debug_str      0x00000000     0x17a3
+ *(.debug_str)
+ .debug_str     0x00000000     0x1524 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .debug_str     0x00001524      0x27f build/f7-firmware-C/.extapps/fmf_to_sub/fmf_to_sub_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000       0xa8
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+.debug_loclists
+                0x00000000      0xc14
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0xc14 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x179
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x179 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/fmf_to_sub/app.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/fmf_to_sub/fmf_to_sub_icons.o
+ .ARM.attributes
+                0x00000068       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/fmf_to_sub_d.elf elf32-littlearm)
+LOAD linker stubs

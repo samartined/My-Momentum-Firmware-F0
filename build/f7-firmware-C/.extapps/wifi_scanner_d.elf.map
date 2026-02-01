@@ -1,0 +1,311 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_floor.o)
+                              build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o (floor)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o (__aeabi_dsub)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_floor.o) (__aeabi_dcmpgt)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+                              build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o (__aeabi_d2uiz)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_floor.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_floor.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_floor.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x11b0
+ *(.text)
+ .text          0x00000000      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000000                __aeabi_drsub
+                0x00000008                __aeabi_dsub
+                0x00000008                __subdf3
+                0x0000000c                __adddf3
+                0x0000000c                __aeabi_dadd
+                0x00000284                __aeabi_ui2d
+                0x00000284                __floatunsidf
+                0x000002a4                __floatsidf
+                0x000002a4                __aeabi_i2d
+                0x000002c8                __extendsfdf2
+                0x000002c8                __aeabi_f2d
+                0x0000030c                __aeabi_ul2d
+                0x0000030c                __floatundidf
+                0x0000031c                __floatdidf
+                0x0000031c                __aeabi_l2d
+ .text          0x00000378      0x110 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+                0x00000378                __gtdf2
+                0x00000378                __gedf2
+                0x00000380                __ltdf2
+                0x00000380                __ledf2
+                0x00000388                __cmpdf2
+                0x00000388                __eqdf2
+                0x00000388                __nedf2
+                0x00000404                __aeabi_cdrcmple
+                0x00000414                __aeabi_cdcmple
+                0x00000414                __aeabi_cdcmpeq
+                0x00000424                __aeabi_dcmpeq
+                0x00000438                __aeabi_dcmplt
+                0x0000044c                __aeabi_dcmple
+                0x00000460                __aeabi_dcmpge
+                0x00000474                __aeabi_dcmpgt
+ .text          0x00000488       0x40 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+                0x00000488                __fixunsdfsi
+                0x00000488                __aeabi_d2uiz
+ *(.stub)
+ *(.text*)
+ .text.uart_worker
+                0x000004c8      0x21c build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .text.wifi_module_input_callback
+                0x000006e4       0x28 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .text.uart_on_irq_cb
+                0x0000070c       0x40 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .text.dBmtoPercentage
+                0x0000074c       0x1c build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+                0x0000074c                dBmtoPercentage
+ .text.DrawSignalStrengthBar
+                0x00000768       0x84 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+                0x00000768                DrawSignalStrengthBar
+ .text.wifi_module_render_callback
+                0x000007ec      0x498 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .text.send_serial_command
+                0x00000c84       0x3c build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+                0x00000c84                send_serial_command
+ .text.wifi_scanner_app
+                0x00000cc0      0x3f8 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+                0x00000cc0                wifi_scanner_app
+ .text.floor    0x000010b8       0xf8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_floor.o)
+                0x000010b8                floor
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000011b0     0x19b1
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.uart_worker.str1.1
+                0x000011b0       0x2d build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .rodata.wifi_module_render_callback.str1.1
+                0x000011dd       0x8b build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .rodata.wifi_scanner_app.str1.1
+                0x00001268       0x35 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .rodata.u8g2_font_7x13B_tr
+                0x0000129d      0x43b build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+                0x0000129d                u8g2_font_7x13B_tr
+ .rodata.u8g2_font_courB08_tn
+                0x000016d8       0xc7 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+                0x000016d8                u8g2_font_courB08_tn
+ .rodata.u8g2_font_open_iconic_arrow_2x_t
+                0x0000179f      0x284 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+                0x0000179f                u8g2_font_open_iconic_arrow_2x_t
+ .rodata.u8g2_font_inb27_mr
+                0x00001a23     0x113e build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+                0x00001a23                u8g2_font_inb27_mr
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x58
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x58 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x35cc
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x35cc build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+
+.debug_abbrev   0x00000000      0x592
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x592 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+
+.debug_line     0x00000000     0x10be
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x518 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .debug_line.text.uart_worker
+                0x00000518      0x2bf build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .debug_line.text.wifi_module_input_callback
+                0x000007d7       0x30 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .debug_line.text.uart_on_irq_cb
+                0x00000807       0x4f build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .debug_line.text.dBmtoPercentage
+                0x00000856       0x3e build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .debug_line.text.DrawSignalStrengthBar
+                0x00000894       0x6a build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .debug_line.text.wifi_module_render_callback
+                0x000008fe      0x3a1 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .debug_line.text.send_serial_command
+                0x00000c9f       0x40 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .debug_line.text.wifi_scanner_app
+                0x00000cdf      0x3df build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .debug_line_end
+                0x000010be        0x0 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+
+.debug_frame    0x00000000      0x134
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x134 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+
+.debug_str      0x00000000     0x23ff
+ *(.debug_str)
+ .debug_str     0x00000000     0x23ff build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x1f8
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_line_str
+                0x000000a8       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .debug_line_str
+                0x00000150       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+
+.debug_loclists
+                0x00000000      0x86a
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x86a build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x15a
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x15a build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/wifi_scanner/wifi_scanner.o
+ .ARM.attributes
+                0x00000034       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_floor.o)
+ .ARM.attributes
+                0x00000068       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x0000008a       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x000000ac       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/wifi_scanner_d.elf elf32-littlearm)
+LOAD linker stubs

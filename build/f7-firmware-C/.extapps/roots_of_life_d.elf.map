@@ -1,0 +1,303 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+LOAD build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xbac
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.in_borders
+                0x00000000       0x12 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ *fill*         0x00000012        0x2 
+ .text.get_cell
+                0x00000014       0x20 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .text.can_place_root
+                0x00000034       0xec build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .text.free_root
+                0x00000120       0x20 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .text.roots_update_timer_callback
+                0x00000140       0x1c build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .text.roots_input_callback
+                0x0000015c       0x28 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .text.draw_root_cell
+                0x00000184       0x88 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .text.generate_new_root
+                0x0000020c      0x1c4 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .text.reset_level
+                0x000003d0       0xcc build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .text.roots_draw_callback
+                0x0000049c      0x380 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .text.roots_of_life_game_app
+                0x0000081c      0x390 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+                0x0000081c                roots_of_life_game_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000bac      0x19d
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.roots_draw_callback.str1.1
+                0x00000bac       0x7b build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .rodata.roots_of_life_game_app.str1.1
+                0x00000c27       0x5a build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .rodata.CSWTCH.57
+                0x00000c81        0x8 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ *fill*         0x00000c89        0x3 
+ .rodata.I_tree
+                0x00000c8c        0xc build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+                0x00000c8c                I_tree
+ .rodata.I_score
+                0x00000c98        0xc build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+                0x00000c98                I_score
+ .rodata.I_root_reroll
+                0x00000ca4        0xc build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+                0x00000ca4                I_root_reroll
+ .rodata.I_place_ok
+                0x00000cb0        0xc build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+                0x00000cb0                I_place_ok
+ .rodata.I_place_error
+                0x00000cbc        0xc build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+                0x00000cbc                I_place_error
+ .rodata._I_tree
+                0x00000cc8        0x4 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+                0x00000cc8                _I_tree
+ .rodata._I_tree_0
+                0x00000ccc       0x15 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+                0x00000ccc                _I_tree_0
+ *fill*         0x00000ce1        0x3 
+ .rodata._I_score
+                0x00000ce4        0x4 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+                0x00000ce4                _I_score
+ .rodata._I_score_0
+                0x00000ce8       0x17 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+                0x00000ce8                _I_score_0
+ *fill*         0x00000cff        0x1 
+ .rodata._I_root_reroll
+                0x00000d00        0x4 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+                0x00000d00                _I_root_reroll
+ .rodata._I_root_reroll_0
+                0x00000d04       0x15 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+                0x00000d04                _I_root_reroll_0
+ *fill*         0x00000d19        0x3 
+ .rodata._I_place_ok
+                0x00000d1c        0x4 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+                0x00000d1c                _I_place_ok
+ .rodata._I_place_ok_0
+                0x00000d20       0x11 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+                0x00000d20                _I_place_ok_0
+ *fill*         0x00000d31        0x3 
+ .rodata._I_place_error
+                0x00000d34        0x4 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+                0x00000d34                _I_place_error
+ .rodata._I_place_error_0
+                0x00000d38       0x11 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+                0x00000d38                _I_place_error_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x88
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x70 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .debug_aranges
+                0x00000070       0x18 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3477
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x31ed build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .debug_info    0x000031ed      0x28a build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+
+.debug_abbrev   0x00000000      0x676
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x5c1 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .debug_abbrev  0x000005c1       0xb5 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+
+.debug_line     0x00000000     0x1473
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3c3 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .debug_line.text.in_borders
+                0x000003c3       0x2b build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .debug_line.text.get_cell
+                0x000003ee       0x2f build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .debug_line.text.can_place_root
+                0x0000041d      0x189 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .debug_line.text.free_root
+                0x000005a6       0x4d build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .debug_line.text.roots_update_timer_callback
+                0x000005f3       0x35 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .debug_line.text.roots_input_callback
+                0x00000628       0x30 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .debug_line.text.draw_root_cell
+                0x00000658       0x99 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .debug_line.text.generate_new_root
+                0x000006f1      0x397 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .debug_line.text.reset_level
+                0x00000a88      0x1af build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .debug_line.text.roots_draw_callback
+                0x00000c37      0x2ea build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .debug_line.text.roots_of_life_game_app
+                0x00000f21      0x3a9 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .debug_line_end
+                0x000012ca        0x0 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .debug_line    0x000012ca      0x1a9 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+ .debug_line_end
+                0x00001473        0x0 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+
+.debug_frame    0x00000000      0x1ac
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1ac build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+
+.debug_str      0x00000000     0x11b4
+ *(.debug_str)
+ .debug_str     0x00000000      0xe9c build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .debug_str     0x00000e9c      0x318 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x10c0
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000     0x10c0 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x378
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x378 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/roots_of_life/roots_of_life_game_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/roots_of_life_d.elf elf32-littlearm)
+LOAD linker stubs

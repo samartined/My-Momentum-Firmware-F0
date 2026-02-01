@@ -1,0 +1,13 @@
+#include "rolling_flaws_icons.h"
+
+#include <gui/icon_i.h>
+
+const uint8_t _I_Lock_10x8_0[] = {0x00,0x00,0x30,0x48,0x48,0xfc,0xfc,0xfc,0xfc,};
+const uint8_t* const _I_Lock_10x8[] = {_I_Lock_10x8_0};
+
+const uint8_t _I_Unlock_10x8_0[] = {0x00,0x06,0x09,0x09,0x08,0xfc,0xfc,0xfc,0xfc,};
+const uint8_t* const _I_Unlock_10x8[] = {_I_Unlock_10x8_0};
+
+const Icon I_Lock_10x8 = {.width=8,.height=8,.frame_count=1,.frame_rate=0,.frames=_I_Lock_10x8};
+const Icon I_Unlock_10x8 = {.width=8,.height=8,.frame_count=1,.frame_rate=0,.frames=_I_Unlock_10x8};
+

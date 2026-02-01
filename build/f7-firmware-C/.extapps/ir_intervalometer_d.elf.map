@@ -1,0 +1,297 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .text.infrared_settings_save
+                0x00000000       0x20 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .debug_line.text.infrared_settings_save
+                0x00000000       0x27 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ir_intervalometer/ir_intervalometer_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ir_intervalometer/ir_intervalometer_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ir_intervalometer/ir_intervalometer_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ir_intervalometer/ir_intervalometer_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+LOAD build/f7-firmware-C/.extapps/ir_intervalometer/ir_intervalometer_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xb18
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.flipvalo_config_edit_input_move_cursor
+                0x00000000      0x100 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .text.sony_ir_trigger_send
+                0x00000100       0x34 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .text.canon_ir_trigger_send
+                0x00000134       0x24 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .text.nikon_ir_trigger_send
+                0x00000158       0x24 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .text.pentax_ir_trigger_send
+                0x0000017c       0x24 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .text.timer_callback
+                0x000001a0       0x9c build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .text.input_callback
+                0x0000023c       0x28 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .text.render_callback
+                0x00000264      0x4f8 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .text.infrared_settings_load
+                0x0000075c       0x74 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+                0x0000075c                infrared_settings_load
+ .text.flipvalo_app
+                0x000007d0      0x348 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+                0x000007d0                flipvalo_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000b18      0x138
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.render_callback.str1.1
+                0x00000b18       0x88 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .rodata.infrared_settings_load.str1.1
+                0x00000ba0       0x18 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .rodata.flipvalo_app.str1.1
+                0x00000bb8       0x3b build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ *fill*         0x00000bf3        0x1 
+ .rodata.CSWTCH.6
+                0x00000bf4       0x10 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .rodata.str1.1
+                0x00000c04       0x24 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .rodata.I_ArrowUp_3x5
+                0x00000c28        0xc build/f7-firmware-C/.extapps/ir_intervalometer/ir_intervalometer_icons.o
+                0x00000c28                I_ArrowUp_3x5
+ .rodata.I_ArrowDown_3x5
+                0x00000c34        0xc build/f7-firmware-C/.extapps/ir_intervalometer/ir_intervalometer_icons.o
+                0x00000c34                I_ArrowDown_3x5
+ .rodata._I_ArrowUp_3x5
+                0x00000c40        0x4 build/f7-firmware-C/.extapps/ir_intervalometer/ir_intervalometer_icons.o
+                0x00000c40                _I_ArrowUp_3x5
+ .rodata._I_ArrowUp_3x5_0
+                0x00000c44        0x4 build/f7-firmware-C/.extapps/ir_intervalometer/ir_intervalometer_icons.o
+                0x00000c44                _I_ArrowUp_3x5_0
+ .rodata._I_ArrowDown_3x5
+                0x00000c48        0x4 build/f7-firmware-C/.extapps/ir_intervalometer/ir_intervalometer_icons.o
+                0x00000c48                _I_ArrowDown_3x5
+ .rodata._I_ArrowDown_3x5_0
+                0x00000c4c        0x4 build/f7-firmware-C/.extapps/ir_intervalometer/ir_intervalometer_icons.o
+                0x00000c4c                _I_ArrowDown_3x5_0
+
+.data           0x00000c50       0xa4
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.pentax_ir_trigger
+                0x00000c50        0x8 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+                0x00000c50                pentax_ir_trigger
+ .data.nikon_ir_trigger
+                0x00000c58        0x8 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+                0x00000c58                nikon_ir_trigger
+ .data.canon_ir_trigger
+                0x00000c60        0x8 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+                0x00000c60                canon_ir_trigger
+ .data.sony_ir_trigger
+                0x00000c68        0x8 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+                0x00000c68                sony_ir_trigger
+ .data.pentax_ir_timings
+                0x00000c70       0x3c build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+                0x00000c70                pentax_ir_timings
+ .data.nikon_ir_timings
+                0x00000cac       0x3c build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+                0x00000cac                nikon_ir_timings
+ .data.canon_ir_timings
+                0x00000ce8        0xc build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+                0x00000ce8                canon_ir_timings
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x88
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x70 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .debug_aranges
+                0x00000070       0x18 build/f7-firmware-C/.extapps/ir_intervalometer/ir_intervalometer_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2699
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x24e1 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .debug_info    0x000024e1      0x1b8 build/f7-firmware-C/.extapps/ir_intervalometer/ir_intervalometer_icons.o
+
+.debug_abbrev   0x00000000      0x5fe
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x549 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .debug_abbrev  0x00000549       0xb5 build/f7-firmware-C/.extapps/ir_intervalometer/ir_intervalometer_icons.o
+
+.debug_line     0x00000000     0x113f
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x519 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .debug_line.text.flipvalo_config_edit_input_move_cursor
+                0x00000519      0x215 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .debug_line.text.sony_ir_trigger_send
+                0x0000072e       0x27 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .debug_line.text.canon_ir_trigger_send
+                0x00000755       0x24 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .debug_line.text.nikon_ir_trigger_send
+                0x00000779       0x24 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .debug_line.text.pentax_ir_trigger_send
+                0x0000079d       0x24 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .debug_line.text.timer_callback
+                0x000007c1       0xed build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .debug_line.text.input_callback
+                0x000008ae       0x30 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .debug_line.text.render_callback
+                0x000008de      0x267 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .debug_line.text.infrared_settings_load
+                0x00000b45       0x8c build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .debug_line.text.flipvalo_app
+                0x00000bd1      0x3c3 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .debug_line_end
+                0x00000f94        0x0 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .debug_line    0x00000f94      0x1ab build/f7-firmware-C/.extapps/ir_intervalometer/ir_intervalometer_icons.o
+ .debug_line_end
+                0x0000113f        0x0 build/f7-firmware-C/.extapps/ir_intervalometer/ir_intervalometer_icons.o
+
+.debug_frame    0x00000000      0x174
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x174 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+
+.debug_str      0x00000000     0x17e5
+ *(.debug_str)
+ .debug_str     0x00000000     0x151e build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .debug_str     0x0000151e      0x2c7 build/f7-firmware-C/.extapps/ir_intervalometer/ir_intervalometer_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x940
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x940 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0xf7
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xf7 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/ir_intervalometer/intervalometer.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/ir_intervalometer/ir_intervalometer_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/ir_intervalometer_d.elf elf32-littlearm)
+LOAD linker stubs

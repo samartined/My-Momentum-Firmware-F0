@@ -1,0 +1,836 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+                              build/f7-firmware-C/.extapps/flipper_share/flipper_share.o (__aeabi_ldivmod)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                              build/f7-firmware-C/.extapps/flipper_share/flipper_share.o (__aeabi_uldivmod)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o) (__udivmoddi4)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o) (__aeabi_ldiv0)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .text.fs_map_all_set
+                0x00000000       0x38 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .text.fs_parts_get
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .text.fs_parts_count
+                0x00000000        0xc build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .text.fs_parts_block_count
+                0x00000000        0xc build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .text.fs_parts_is_ready
+                0x00000000       0x20 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .rodata.fs_hexdump.str1.1
+                0x00000000        0xe build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .text.fs_hexdump
+                0x00000000       0x5c build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .rodata.fs_deinit.str1.1
+                0x00000000       0x1a build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .text.fs_deinit
+                0x00000000       0x7c build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_map_all_set
+                0x00000000       0x43 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_parts_get
+                0x00000000       0x3f build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_parts_count
+                0x00000000       0x19 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_parts_block_count
+                0x00000000       0x19 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_parts_is_ready
+                0x00000000       0x32 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_hexdump
+                0x00000000       0x7b build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_deinit
+                0x00000000       0x3e build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .text.file_browser_callback
+                0x00000000        0x4 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .rodata.show_file_info_scene.str1.1
+                0x00000000        0xa build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .text.show_file_info_scene
+                0x00000000       0x48 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .debug_line.text.file_browser_callback
+                0x00000000       0x1d build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .debug_line.text.show_file_info_scene
+                0x00000000       0x30 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+ .text.subghz_cli_radio_device_power_on
+                0x00000000       0x2c build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+ .debug_line.text.subghz_cli_radio_device_power_on
+                0x00000000       0x27 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+ .text          0x00000000       0xa0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .debug_line_str
+                0x00000000       0xa3 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene.o
+LOAD build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+LOAD build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+LOAD build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+LOAD build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+LOAD build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+LOAD build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+LOAD build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+LOAD build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x2860
+ *(.text)
+ .text          0x00000000       0x30 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x00000000                __aeabi_uldivmod
+ .text          0x00000030      0x2bc /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x00000030                __udivmoddi4
+ .text          0x000002ec        0x4 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                0x000002ec                __aeabi_ldiv0
+                0x000002ec                __aeabi_idiv0
+ *(.stub)
+ *(.text*)
+ .text.flipper_share_scene_file_browser_on_enter
+                0x000002f0       0x40 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+                0x000002f0                flipper_share_scene_file_browser_on_enter
+ .text.flipper_share_scene_file_browser_on_event
+                0x00000330       0x44 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+                0x00000330                flipper_share_scene_file_browser_on_event
+ .text.flipper_share_scene_file_browser_on_exit
+                0x00000374        0x2 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+                0x00000374                flipper_share_scene_file_browser_on_exit
+ *fill*         0x00000376        0x2 
+ .text.flipper_share_scene_menu_on_enter
+                0x00000378        0xc build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+                0x00000378                flipper_share_scene_menu_on_enter
+ .text.flipper_share_scene_menu_on_event
+                0x00000384       0x16 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+                0x00000384                flipper_share_scene_menu_on_event
+ .text.flipper_share_scene_menu_on_exit
+                0x0000039a        0x2 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+                0x0000039a                flipper_share_scene_menu_on_exit
+ .text.update_timer_callback
+                0x0000039c      0x1c0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .text.progress_view_draw_callback
+                0x0000055c      0x148 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .text.file_read_worker_thread
+                0x000006a4       0x78 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .text.progress_view_input_callback
+                0x0000071c       0xec build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .text.dialog_ex_callback
+                0x00000808       0x18 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .text.flipper_share_scene_receive_on_enter
+                0x00000820       0xe8 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+                0x00000820                flipper_share_scene_receive_on_enter
+ .text.flipper_share_scene_receive_on_event
+                0x00000908      0x130 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+                0x00000908                flipper_share_scene_receive_on_event
+ .text.flipper_share_scene_receive_on_exit
+                0x00000a38       0x94 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+                0x00000a38                flipper_share_scene_receive_on_exit
+ .text.update_timer_callback
+                0x00000acc       0x94 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .text.file_read_worker_thread
+                0x00000b60       0x44 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .text.dialog_ex_callback
+                0x00000ba4       0x14 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .text.flipper_share_scene_send_on_enter
+                0x00000bb8       0xe8 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+                0x00000bb8                flipper_share_scene_send_on_enter
+ .text.flipper_share_scene_send_on_event
+                0x00000ca0       0xac build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+                0x00000ca0                flipper_share_scene_send_on_event
+ .text.flipper_share_scene_send_on_exit
+                0x00000d4c       0x68 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+                0x00000d4c                flipper_share_scene_send_on_exit
+ .text.dialog_ex_callback
+                0x00000db4       0x18 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .text.flipper_share_scene_show_file_on_enter
+                0x00000dcc       0xa8 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+                0x00000dcc                flipper_share_scene_show_file_on_enter
+ .text.flipper_share_scene_show_file_on_event
+                0x00000e74       0x4c build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+                0x00000e74                flipper_share_scene_show_file_on_event
+ .text.flipper_share_scene_show_file_on_exit
+                0x00000ec0        0x2 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+                0x00000ec0                flipper_share_scene_show_file_on_exit
+ *fill*         0x00000ec2        0x2 
+ .text._parts_bit_set
+                0x00000ec4       0x1c build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .text.subghz_send_bytes
+                0x00000ee0       0x64 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00000ee0                subghz_send_bytes
+ .text.my_write_block
+                0x00000f44       0xdc build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00000f44                my_write_block
+ .text.my_read_block
+                0x00001020       0xf8 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001020                my_read_block
+ .text.fs_crc8.constprop.0
+                0x00001118       0x2a build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ *fill*         0x00001142        0x2 
+ .text.fs_notify_success
+                0x00001144       0x30 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001144                fs_notify_success
+ .text.fs_notify_error
+                0x00001174       0x30 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001174                fs_notify_error
+ .text.fs_notify_vibro
+                0x000011a4       0x30 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x000011a4                fs_notify_vibro
+ .text.fs_notify_led_red
+                0x000011d4       0x30 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x000011d4                fs_notify_led_red
+ .text.fs_notify_led_green
+                0x00001204       0x30 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001204                fs_notify_led_green
+ .text.fs_notify_led_blue
+                0x00001234       0x30 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001234                fs_notify_led_blue
+ .text.fs_notify_led_cyan
+                0x00001264       0x30 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001264                fs_notify_led_cyan
+ .text.fs_map_init
+                0x00001294       0x70 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001294                fs_map_init
+ .text.fs_map_deinit
+                0x00001304       0x20 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001304                fs_map_deinit
+ .text.fs_map_set
+                0x00001324       0x34 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001324                fs_map_set
+ .text.fs_map_get
+                0x00001358       0x2c build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001358                fs_map_get
+ .text.fs_map_search
+                0x00001384       0x94 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001384                fs_map_search
+ .text.fs_parts_init
+                0x00001418       0x94 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001418                fs_parts_init
+ .text.fs_parts_deinit
+                0x000014ac       0x14 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x000014ac                fs_parts_deinit
+ .text.fs_parts_on_block_set
+                0x000014c0       0xac build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x000014c0                fs_parts_on_block_set
+ .text.fs_parts_bitmap_copy
+                0x0000156c       0x20 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x0000156c                fs_parts_bitmap_copy
+ .text.fs_basename
+                0x0000158c       0x4c build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x0000158c                fs_basename
+ .text.fs_ensure_inbox_dir
+                0x000015d8       0x50 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x000015d8                fs_ensure_inbox_dir
+ .text.fs_file_create_truncate
+                0x00001628      0x108 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001628                fs_file_create_truncate
+ .text.fs_init  0x00001730      0x2a8 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001730                fs_init
+ .text.fs_init_from_external_transmit
+                0x000019d8       0x64 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x000019d8                fs_init_from_external_transmit
+ .text.fs_init_from_external_receive
+                0x00001a3c       0x44 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001a3c                fs_init_from_external_receive
+ .text.fs_send_announce
+                0x00001a80       0xc8 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001a80                fs_send_announce
+ .text.fs_send_request
+                0x00001b48       0x68 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001b48                fs_send_request
+ .text.fs_send_data
+                0x00001bb0       0xec build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001bb0                fs_send_data
+ .text.fs_idle  0x00001c9c      0x26c build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001c9c                fs_idle
+ .text.fs_receive_callback
+                0x00001f08      0x404 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x00001f08                fs_receive_callback
+ .text.flipper_share_about_previous
+                0x0000230c        0x4 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .text.flipper_share_custom_event_callback
+                0x00002310        0xc build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+                0x00002310                flipper_share_custom_event_callback
+ .text.flipper_share_back_event_callback
+                0x0000231c        0xc build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .text.submenu_callback
+                0x00002328       0x68 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .text.file_browser_select_callback
+                0x00002390       0x48 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .text.flipper_share_app
+                0x000023d8      0x234 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+                0x000023d8                flipper_share_app
+ .text.ss_subghz_rx_callback
+                0x0000260c       0x30 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+ .text.subghz_cli_radio_device_power_off
+                0x0000263c       0x2c build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+                0x0000263c                subghz_cli_radio_device_power_off
+ .text.subghz_share_send
+                0x00002668       0x64 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+                0x00002668                subghz_share_send
+ .text.ss_subghz_deinit
+                0x000026cc       0xbc build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+                0x000026cc                ss_subghz_deinit
+ .text.ss_subghz_init
+                0x00002788       0xd8 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+                0x00002788                ss_subghz_init
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00002860      0xfff
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.flipper_share_scene_handlers
+                0x00002860       0x10 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene.o
+                0x00002860                flipper_share_scene_handlers
+ .rodata.flipper_share_on_exit_handlers
+                0x00002870       0x14 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene.o
+                0x00002870                flipper_share_on_exit_handlers
+ .rodata.flipper_share_on_event_handlers
+                0x00002884       0x14 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene.o
+                0x00002884                flipper_share_on_event_handlers
+ .rodata.flipper_share_on_enter_handlers
+                0x00002898       0x14 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene.o
+                0x00002898                flipper_share_on_enter_handlers
+ .rodata.flipper_share_scene_file_browser_on_enter.str1.1
+                0x000028ac        0x5 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+ .rodata.update_timer_callback.str1.1
+                0x000028b1      0x100 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .rodata.progress_view_draw_callback.str1.1
+                0x000029b1       0x4d build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .rodata.file_read_worker_thread.str1.1
+                0x000029fe       0x33 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .rodata.progress_view_input_callback.str1.1
+                0x00002a31       0xe7 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .rodata.flipper_share_scene_receive_on_enter.str1.1
+                0x00002b18       0x14 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .rodata.flipper_share_scene_receive_on_event.str1.1
+                0x00002b2c       0x9d build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .rodata.flipper_share_scene_receive_on_exit.str1.1
+                0x00002bc9       0x2e build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .rodata.update_timer_callback.str1.1
+                0x00002bf7       0x2a build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .rodata.flipper_share_scene_send_on_enter.str1.1
+                0x00002c21       0x2d build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .rodata.flipper_share_scene_send_on_exit.str1.1
+                0x00002c4e       0x3f build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .rodata.flipper_share_scene_show_file_on_enter.str1.1
+                0x00002c8d       0x27 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .rodata.subghz_send_bytes.str1.1
+                0x00002cb4       0x7d build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .rodata.my_write_block.str1.1
+                0x00002d31       0xc1 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .rodata.my_read_block.str1.1
+                0x00002df2       0x8c build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .rodata.fs_notify_success.str1.1
+                0x00002e7e        0xd build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .rodata.fs_basename.str1.1
+                0x00002e8b        0x3 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .rodata.fs_ensure_inbox_dir.str1.1
+                0x00002e8e       0x40 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .rodata.fs_file_create_truncate.str1.1
+                0x00002ece      0x111 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .rodata.fs_init.str1.1
+                0x00002fdf      0x18f build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .rodata.fs_send_announce.str1.1
+                0x0000316e       0x30 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .rodata.fs_send_data.str1.1
+                0x0000319e       0x50 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .rodata.fs_idle.str1.1
+                0x000031ee      0x15f build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .rodata.fs_receive_callback.str1.1
+                0x0000334d      0x33f build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .rodata.submenu_callback.str1.1
+                0x0000368c       0x6f build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .rodata.flipper_share_app.str1.1
+                0x000036fb       0x18 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .rodata.subghz_cli_radio_device_power_on.str1.1
+                0x00003713        0x6 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+ .rodata.subghz_share_send.str1.1
+                0x00003719       0x89 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+ .rodata.ss_subghz_deinit.str1.1
+                0x000037a2       0x57 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+ .rodata.ss_subghz_init.str1.1
+                0x000037f9       0x66 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+
+.ARM.exidx      0x00000000        0x8
+ .ARM.exidx     0x00000000        0x8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss            0x00000008      0x794
+ *(.bss)
+ *(.bss*)
+ .bss.progress_view_active
+                0x00000008        0x1 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ *fill*         0x00000009        0x3 
+ .bss.progress_view
+                0x0000000c        0x4 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .bss.fs_parts  0x00000010      0x4c8 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .bss.g_map     0x000004d8        0xc build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .bss.g         0x000004e4      0x2b4 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+                0x000004e4                g
+ .bss.subghz_chat
+                0x00000798        0x4 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+                0x00000798                subghz_chat
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x340
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene.o
+ .debug_aranges
+                0x00000018       0x30 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+ .debug_aranges
+                0x00000048       0x30 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+ .debug_aranges
+                0x00000078       0x58 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .debug_aranges
+                0x000000d0       0x48 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .debug_aranges
+                0x00000118       0x38 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .debug_aranges
+                0x00000150      0x150 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_aranges
+                0x000002a0       0x58 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .debug_aranges
+                0x000002f8       0x48 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xa415
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x363 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene.o
+ .debug_info    0x00000363      0x6a5 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+ .debug_info    0x00000a08      0x57e build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+ .debug_info    0x00000f86     0x1efd build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .debug_info    0x00002e83     0x12bc build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .debug_info    0x0000413f      0x8e4 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .debug_info    0x00004a23     0x3767 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_info    0x0000818a     0x1257 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .debug_info    0x000093e1     0x1034 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+
+.debug_abbrev   0x00000000     0x1e75
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x137 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene.o
+ .debug_abbrev  0x00000137      0x21a build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+ .debug_abbrev  0x00000351      0x1d6 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+ .debug_abbrev  0x00000527      0x554 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .debug_abbrev  0x00000a7b      0x423 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .debug_abbrev  0x00000e9e      0x298 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .debug_abbrev  0x00001136      0x6a0 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_abbrev  0x000017d6      0x3a9 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .debug_abbrev  0x00001b7f      0x2f6 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+
+.debug_line     0x00000000     0x4514
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x1bc build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene.o
+ .debug_line_end
+                0x000001bc        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene.o
+ .debug_line    0x000001bc      0x38a build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+ .debug_line.text.flipper_share_scene_file_browser_on_enter
+                0x00000546       0x3d build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+ .debug_line.text.flipper_share_scene_file_browser_on_event
+                0x00000583       0x61 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+ .debug_line.text.flipper_share_scene_file_browser_on_exit
+                0x000005e4       0x18 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+ .debug_line_end
+                0x000005fc        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+ .debug_line    0x000005fc      0x334 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+ .debug_line.text.flipper_share_scene_menu_on_enter
+                0x00000930       0x15 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+ .debug_line.text.flipper_share_scene_menu_on_event
+                0x00000945       0x2c build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+ .debug_line.text.flipper_share_scene_menu_on_exit
+                0x00000971       0x18 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+ .debug_line_end
+                0x00000989        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+ .debug_line    0x00000989      0x4f2 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .debug_line.text.update_timer_callback
+                0x00000e7b       0xf0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .debug_line.text.progress_view_draw_callback
+                0x00000f6b      0x11d build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .debug_line.text.file_read_worker_thread
+                0x00001088       0x85 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .debug_line.text.progress_view_input_callback
+                0x0000110d       0x97 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .debug_line.text.dialog_ex_callback
+                0x000011a4       0x3c build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .debug_line.text.flipper_share_scene_receive_on_enter
+                0x000011e0       0xa6 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .debug_line.text.flipper_share_scene_receive_on_event
+                0x00001286       0xe5 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .debug_line.text.flipper_share_scene_receive_on_exit
+                0x0000136b       0xb1 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .debug_line_end
+                0x0000141c        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .debug_line    0x0000141c      0x484 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .debug_line.text.update_timer_callback
+                0x000018a0       0x6c build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .debug_line.text.file_read_worker_thread
+                0x0000190c       0x69 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .debug_line.text.dialog_ex_callback
+                0x00001975       0x34 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .debug_line.text.flipper_share_scene_send_on_enter
+                0x000019a9       0x9d build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .debug_line.text.flipper_share_scene_send_on_event
+                0x00001a46       0xde build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .debug_line.text.flipper_share_scene_send_on_exit
+                0x00001b24       0x79 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .debug_line_end
+                0x00001b9d        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .debug_line    0x00001b9d      0x393 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .debug_line.text.dialog_ex_callback
+                0x00001f30       0x34 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .debug_line.text.flipper_share_scene_show_file_on_enter
+                0x00001f64       0x8b build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .debug_line.text.flipper_share_scene_show_file_on_event
+                0x00001fef       0x7c build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .debug_line.text.flipper_share_scene_show_file_on_exit
+                0x0000206b       0x19 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .debug_line_end
+                0x00002084        0x0 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .debug_line    0x00002084      0x408 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text._parts_bit_set
+                0x0000248c       0x2b build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.subghz_send_bytes
+                0x000024b7       0x59 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.my_write_block
+                0x00002510       0xa1 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.my_read_block
+                0x000025b1       0x98 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_crc8.constprop.0
+                0x00002649       0x53 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_notify_success
+                0x0000269c       0x27 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_notify_error
+                0x000026c3       0x27 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_notify_vibro
+                0x000026ea       0x27 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_notify_led_red
+                0x00002711       0x27 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_notify_led_green
+                0x00002738       0x27 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_notify_led_blue
+                0x0000275f       0x28 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_notify_led_cyan
+                0x00002787       0x28 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_map_init
+                0x000027af       0xa5 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_map_deinit
+                0x00002854       0x34 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_map_set
+                0x00002888       0x88 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_map_get
+                0x00002910       0x6a build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_map_search
+                0x0000297a      0x172 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_parts_init
+                0x00002aec       0xe7 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_parts_deinit
+                0x00002bd3       0x15 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_parts_on_block_set
+                0x00002be8      0x152 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_parts_bitmap_copy
+                0x00002d3a       0x22 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_basename
+                0x00002d5c       0x60 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_ensure_inbox_dir
+                0x00002dbc       0x43 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_file_create_truncate
+                0x00002dff       0xa5 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_init
+                0x00002ea4      0x207 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_init_from_external_transmit
+                0x000030ab       0x72 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_init_from_external_receive
+                0x0000311d       0x27 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_send_announce
+                0x00003144       0x9b build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_send_request
+                0x000031df       0x99 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_send_data
+                0x00003278       0xe7 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_idle
+                0x0000335f      0x1cc build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line.text.fs_receive_callback
+                0x0000352b      0x30c build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line_end
+                0x00003837        0x0 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_line    0x00003837      0x3f2 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .debug_line.text.flipper_share_about_previous
+                0x00003c29       0x1b build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .debug_line.text.flipper_share_custom_event_callback
+                0x00003c44       0x1f build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .debug_line.text.flipper_share_back_event_callback
+                0x00003c63       0x1e build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .debug_line.text.submenu_callback
+                0x00003c81       0x64 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .debug_line.text.file_browser_select_callback
+                0x00003ce5       0x68 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .debug_line.text.flipper_share_app
+                0x00003d4d      0x150 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .debug_line_end
+                0x00003e9d        0x0 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .debug_line    0x00003e9d      0x432 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+ .debug_line.text.ss_subghz_rx_callback
+                0x000042cf       0x3d build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+ .debug_line.text.subghz_cli_radio_device_power_off
+                0x0000430c       0x27 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+ .debug_line.text.subghz_share_send
+                0x00004333       0x6b build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+ .debug_line.text.ss_subghz_deinit
+                0x0000439e       0xb2 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+ .debug_line.text.ss_subghz_init
+                0x00004450       0xc4 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+ .debug_line_end
+                0x00004514        0x0 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+
+.debug_frame    0x00000000      0x994
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x60 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+ .debug_frame   0x00000060       0x48 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+ .debug_frame   0x000000a8      0x128 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .debug_frame   0x000001d0       0xd4 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .debug_frame   0x000002a4       0x7c build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .debug_frame   0x00000320      0x4d0 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_frame   0x000007f0       0xec build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .debug_frame   0x000008dc       0xb8 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+
+.debug_str      0x00000000     0x67f2
+ *(.debug_str)
+ .debug_str     0x00000000      0x66a build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene.o
+ .debug_str     0x0000066a      0x6ad build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+ .debug_str     0x00000d17      0x583 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+ .debug_str     0x0000129a     0x1163 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .debug_str     0x000023fd      0xd8d build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .debug_str     0x0000318a      0x855 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .debug_str     0x000039df     0x14df build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_str     0x00004ebe      0xc1e build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .debug_str     0x00005adc      0xd16 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x14a
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa3 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line_str
+                0x000000a3       0xa7 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+
+.debug_loclists
+                0x00000000     0x1e3f
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000       0xe7 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+ .debug_loclists
+                0x000000e7       0x6c build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+ .debug_loclists
+                0x00000153      0x4f4 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .debug_loclists
+                0x00000647      0x37e build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .debug_loclists
+                0x000009c5      0x1ca build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .debug_loclists
+                0x00000b8f      0xf3e build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_loclists
+                0x00001acd      0x282 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .debug_loclists
+                0x00001d4f       0xf0 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x4df
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x1f build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+ .debug_rnglists
+                0x0000001f       0x1f build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+ .debug_rnglists
+                0x0000003e       0x7f build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .debug_rnglists
+                0x000000bd       0x55 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .debug_rnglists
+                0x00000112       0x26 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .debug_rnglists
+                0x00000138      0x2fd build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .debug_rnglists
+                0x00000435       0x77 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .debug_rnglists
+                0x000004ac       0x33 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_file_browser.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_menu.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_receive.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_send.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/flipper_share/scenes/flipper_share_scene_show_file.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/flipper_share/flipper_share.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/flipper_share/flipper_share_app.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/flipper_share/subghz_share.o
+ .ARM.attributes
+                0x000001d4       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .ARM.attributes
+                0x000001f6       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000218       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x0000024c       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/flipper_share_d.elf elf32-littlearm)
+LOAD linker stubs

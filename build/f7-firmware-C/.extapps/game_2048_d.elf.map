@@ -1,0 +1,303 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/game_2048/array_utils.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/game_2048/array_utils.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/game_2048/array_utils.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/game_2048/array_utils.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/game_2048/game_2048.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/game_2048/array_utils.o
+LOAD build/f7-firmware-C/.extapps/game_2048/game_2048.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xb74
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.reverse_array
+                0x00000000       0x22 build/f7-firmware-C/.extapps/game_2048/array_utils.o
+                0x00000000                reverse_array
+ .text.shift_array_to_left
+                0x00000022       0x26 build/f7-firmware-C/.extapps/game_2048/array_utils.o
+                0x00000022                shift_array_to_left
+ .text.get_column_from_array
+                0x00000048       0x1e build/f7-firmware-C/.extapps/game_2048/array_utils.o
+                0x00000048                get_column_from_array
+ .text.set_column_to_array
+                0x00000066       0x1c build/f7-firmware-C/.extapps/game_2048/array_utils.o
+                0x00000066                set_column_to_array
+ *fill*         0x00000082        0x2 
+ .text.input_callback
+                0x00000084       0x14 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .text.gray_canvas
+                0x00000098       0x34 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .text.draw_callback
+                0x000000cc      0x3ac build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .text.calculate_move_to_left
+                0x00000478       0xb0 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+                0x00000478                calculate_move_to_left
+ .text.move_left
+                0x00000528       0x20 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+                0x00000528                move_left
+ .text.move_right
+                0x00000548       0x38 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+                0x00000548                move_right
+ .text.move_up  0x00000580       0x50 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+                0x00000580                move_up
+ .text.move_down
+                0x000005d0       0x64 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+                0x000005d0                move_down
+ .text.add_new_digit
+                0x00000634       0x7c build/f7-firmware-C/.extapps/game_2048/game_2048.o
+                0x00000634                add_new_digit
+ .text.init_game
+                0x000006b0       0x38 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+                0x000006b0                init_game
+ .text.load_game
+                0x000006e8       0x80 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+                0x000006e8                load_game
+ .text.save_game
+                0x00000768       0x60 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+                0x00000768                save_game
+ .text.is_game_over
+                0x000007c8      0x13c build/f7-firmware-C/.extapps/game_2048/game_2048.o
+                0x000007c8                is_game_over
+ .text.game_2048_app
+                0x00000904      0x270 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+                0x00000904                game_2048_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000b74      0x128
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.draw_callback.str1.1
+                0x00000b74       0x50 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .rodata.load_game.str1.1
+                0x00000bc4       0x3c build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .rodata.is_game_over.str1.1
+                0x00000c00       0x79 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .rodata.game_2048_app.str1.1
+                0x00000c79       0x23 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+
+.data           0x00000c9c      0xc40
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.digits   0x00000c9c      0xc40 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+                0x00000c9c                digits
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xc0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x38 build/f7-firmware-C/.extapps/game_2048/array_utils.o
+ .debug_aranges
+                0x00000038       0x88 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x26db
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x2ab build/f7-firmware-C/.extapps/game_2048/array_utils.o
+ .debug_info    0x000002ab     0x2430 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+
+.debug_abbrev   0x00000000      0x596
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x126 build/f7-firmware-C/.extapps/game_2048/array_utils.o
+ .debug_abbrev  0x00000126      0x470 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+
+.debug_line     0x00000000      0xfee
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x13e build/f7-firmware-C/.extapps/game_2048/array_utils.o
+ .debug_line.text.reverse_array
+                0x0000013e       0x77 build/f7-firmware-C/.extapps/game_2048/array_utils.o
+ .debug_line.text.shift_array_to_left
+                0x000001b5       0x47 build/f7-firmware-C/.extapps/game_2048/array_utils.o
+ .debug_line.text.get_column_from_array
+                0x000001fc       0x60 build/f7-firmware-C/.extapps/game_2048/array_utils.o
+ .debug_line.text.set_column_to_array
+                0x0000025c       0x60 build/f7-firmware-C/.extapps/game_2048/array_utils.o
+ .debug_line_end
+                0x000002bc        0x0 build/f7-firmware-C/.extapps/game_2048/array_utils.o
+ .debug_line    0x000002bc      0x3ff build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .debug_line.text.input_callback
+                0x000006bb       0x25 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .debug_line.text.gray_canvas
+                0x000006e0       0x80 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .debug_line.text.draw_callback
+                0x00000760      0x1db build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .debug_line.text.calculate_move_to_left
+                0x0000093b       0xe6 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .debug_line.text.move_left
+                0x00000a21       0x50 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .debug_line.text.move_right
+                0x00000a71       0x5b build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .debug_line.text.move_up
+                0x00000acc       0x61 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .debug_line.text.move_down
+                0x00000b2d       0x68 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .debug_line.text.add_new_digit
+                0x00000b95       0xbc build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .debug_line.text.init_game
+                0x00000c51       0x59 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .debug_line.text.load_game
+                0x00000caa       0x5c build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .debug_line.text.save_game
+                0x00000d06       0x4f build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .debug_line.text.is_game_over
+                0x00000d55       0xae build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .debug_line.text.game_2048_app
+                0x00000e03      0x1eb build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ .debug_line_end
+                0x00000fee        0x0 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+
+.debug_frame    0x00000000      0x27c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x80 build/f7-firmware-C/.extapps/game_2048/array_utils.o
+ .debug_frame   0x00000080      0x1fc build/f7-firmware-C/.extapps/game_2048/game_2048.o
+
+.debug_str      0x00000000     0x13d7
+ *(.debug_str)
+ .debug_str     0x00000000      0x271 build/f7-firmware-C/.extapps/game_2048/array_utils.o
+ .debug_str     0x00000271     0x1166 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0xb06
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x1f4 build/f7-firmware-C/.extapps/game_2048/array_utils.o
+ .debug_loclists
+                0x000001f4      0x912 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x1ea
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x5e build/f7-firmware-C/.extapps/game_2048/array_utils.o
+ .debug_rnglists
+                0x0000005e      0x18c build/f7-firmware-C/.extapps/game_2048/game_2048.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/game_2048/array_utils.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/game_2048/game_2048.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/game_2048_d.elf elf32-littlearm)
+LOAD linker stubs

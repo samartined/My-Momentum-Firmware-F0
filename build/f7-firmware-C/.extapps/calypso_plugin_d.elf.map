@@ -1,0 +1,364 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o (__aeabi_f2d)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_fixunssfdi.o)
+                              build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o (__aeabi_f2ulz)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_fixunssfdi.o) (__aeabi_dmul)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_fixunssfdi.o) (__aeabi_d2uiz)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .text.close_file
+                0x00000000        0x8 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line.text.close_file
+                0x00000000       0x16 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_fixunssfdi.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_fixunssfdi.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x3fc0
+ *(.text)
+ .text          0x00000000      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000000                __aeabi_drsub
+                0x00000008                __aeabi_dsub
+                0x00000008                __subdf3
+                0x0000000c                __adddf3
+                0x0000000c                __aeabi_dadd
+                0x00000284                __aeabi_ui2d
+                0x00000284                __floatunsidf
+                0x000002a4                __floatsidf
+                0x000002a4                __aeabi_i2d
+                0x000002c8                __extendsfdf2
+                0x000002c8                __aeabi_f2d
+                0x0000030c                __aeabi_ul2d
+                0x0000030c                __floatundidf
+                0x0000031c                __floatdidf
+                0x0000031c                __aeabi_l2d
+ .text          0x00000378       0x40 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_fixunssfdi.o)
+                0x00000378                __aeabi_f2ulz
+                0x00000378                __fixunssfdi
+ .text          0x000003b8      0x254 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+                0x000003b8                __aeabi_dmul
+                0x000003b8                __muldf3
+ .text          0x0000060c       0x40 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+                0x0000060c                __fixunsdfsi
+                0x0000060c                __aeabi_d2uiz
+ *(.stub)
+ *(.text*)
+ .text.calypso_save_button_widget_callback
+                0x0000064c       0x24 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+                0x0000064c                calypso_save_button_widget_callback
+ .text.calypso_on_exit
+                0x00000670       0x70 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .text.calypso_on_event
+                0x000006e0       0x9c build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .text.calypso_on_enter
+                0x0000077c       0xb0 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .text.build_hex_string
+                0x0000082c       0x50 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+                0x0000082c                build_hex_string
+ .text.prepare_file_data
+                0x0000087c       0x64 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+                0x0000087c                prepare_file_data
+ .text.load_file
+                0x000008e0       0x58 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+                0x000008e0                load_file
+ .text.select_new_app
+                0x00000938       0xac build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+                0x00000938                select_new_app
+ .text.read_new_file
+                0x000009e4      0x124 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+                0x000009e4                read_new_file
+ .text.check_response
+                0x00000b08       0xb8 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+                0x00000b08                check_response
+ .text.update_page_info
+                0x00000bc0      0x20c build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+                0x00000bc0                update_page_info
+ .text.update_widget_elements
+                0x00000dcc       0x98 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+                0x00000dcc                update_widget_elements
+ .text.metroflip_back_button_widget_callback
+                0x00000e64      0x150 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+                0x00000e64                metroflip_back_button_widget_callback
+ .text.metroflip_next_button_widget_callback
+                0x00000fb4      0x18c build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+                0x00000fb4                metroflip_next_button_widget_callback
+ .text.delay    0x00001140       0x10 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+                0x00001140                delay
+ .text.calypso_poller_callback
+                0x00001150     0x2e68 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .text.calypso_plugin_ep
+                0x00003fb8        0x8 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+                0x00003fb8                calypso_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00003fc0      0xd6c
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.calypso_on_event.str1.1
+                0x00003fc0       0x3f build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .rodata.calypso_on_enter.str1.1
+                0x00003fff       0x23 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .rodata.build_hex_string.str1.1
+                0x00004022        0x6 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .rodata.prepare_file_data.str1.1
+                0x00004028       0x47 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .rodata.load_file.str1.1
+                0x0000406f       0x3c build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .rodata.select_new_app.str1.1
+                0x000040ab       0x61 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .rodata.read_new_file.str1.1
+                0x0000410c       0x84 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .rodata.check_response.str1.1
+                0x00004190       0x87 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .rodata.update_page_info.str1.1
+                0x00004217       0x96 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .rodata.update_widget_elements.str1.1
+                0x000042ad       0x1b build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .rodata.metroflip_back_button_widget_callback.str1.1
+                0x000042c8       0x12 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .rodata.metroflip_next_button_widget_callback.str1.1
+                0x000042da       0x10 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .rodata.calypso_poller_callback.str1.1
+                0x000042ea      0xa0c build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .rodata.str1.1
+                0x00004cf6       0x1a build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .rodata.calypso_plugin_descriptor
+                0x00004d10        0xc build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .rodata.calypso_plugin
+                0x00004d1c       0x10 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+
+.data           0x00004d2c        0x1
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.beginning
+                0x00004d2c        0x1 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+                0x00004d2c                beginning
+
+.bss            0x00004d2d       0x58
+ *(.bss)
+ *(.bss*)
+ .bss.output.0  0x00004d2d       0x58 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xa8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xa8 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xa33d
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0xa33d build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+
+.debug_abbrev   0x00000000      0x56e
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x56e build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+
+.debug_line     0x00000000     0x3df3
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0xbe2 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line.text.calypso_save_button_widget_callback
+                0x00000be2       0x34 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line.text.calypso_on_exit
+                0x00000c16       0x5e build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line.text.calypso_on_event
+                0x00000c74       0xc1 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line.text.calypso_on_enter
+                0x00000d35       0x52 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line.text.build_hex_string
+                0x00000d87       0x8b build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line.text.prepare_file_data
+                0x00000e12       0x46 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line.text.load_file
+                0x00000e58       0x54 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line.text.select_new_app
+                0x00000eac       0x73 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line.text.read_new_file
+                0x00000f1f       0xd6 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line.text.check_response
+                0x00000ff5       0xb8 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line.text.update_page_info
+                0x000010ad      0x1b1 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line.text.update_widget_elements
+                0x0000125e       0x7b build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line.text.metroflip_back_button_widget_callback
+                0x000012d9      0x18b build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line.text.metroflip_next_button_widget_callback
+                0x00001464      0x1a9 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line.text.delay
+                0x0000160d       0x1e build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line.text.calypso_poller_callback
+                0x0000162b     0x27af build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line.text.calypso_plugin_ep
+                0x00003dda       0x19 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .debug_line_end
+                0x00003df3        0x0 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+
+.debug_frame    0x00000000      0x2e0
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x2e0 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+
+.debug_str      0x00000000     0x3541
+ *(.debug_str)
+ .debug_str     0x00000000     0x3541 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x1f8
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_line_str
+                0x000000a8       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .debug_line_str
+                0x00000150       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+
+.debug_loclists
+                0x00000000     0x3da0
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000     0x3da0 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x3fa
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x3fa build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/calypso_plugin/scenes/plugins/calypso.o
+ .ARM.attributes
+                0x00000034       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000056       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_fixunssfdi.o)
+ .ARM.attributes
+                0x0000008a       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .ARM.attributes
+                0x000000ac       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/calypso_plugin_d.elf elf32-littlearm)
+LOAD linker stubs

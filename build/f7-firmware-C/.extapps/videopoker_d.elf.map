@@ -1,0 +1,347 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/videopoker/poker.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/videopoker/poker.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/videopoker/poker.o
+ .rodata.I_Ten_7x8
+                0x00000000        0xc build/f7-firmware-C/.extapps/videopoker/poker.o
+ .rodata.I_Ace_7x8
+                0x00000000        0xc build/f7-firmware-C/.extapps/videopoker/poker.o
+ .rodata.I_Jack_7x8
+                0x00000000        0xc build/f7-firmware-C/.extapps/videopoker/poker.o
+ .rodata.I_Queen_7x8
+                0x00000000        0xc build/f7-firmware-C/.extapps/videopoker/poker.o
+ .rodata.I_King_7x8
+                0x00000000        0xc build/f7-firmware-C/.extapps/videopoker/poker.o
+ .rodata.I_spade_7x8
+                0x00000000        0xc build/f7-firmware-C/.extapps/videopoker/poker.o
+ .rodata.I_hearts_7x8
+                0x00000000        0xc build/f7-firmware-C/.extapps/videopoker/poker.o
+ .rodata.I_diamond_7x8
+                0x00000000        0xc build/f7-firmware-C/.extapps/videopoker/poker.o
+ .rodata.I_club_7x8
+                0x00000000        0xc build/f7-firmware-C/.extapps/videopoker/poker.o
+ .data.gamenames
+                0x00000000       0x2c build/f7-firmware-C/.extapps/videopoker/poker.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/videopoker/poker.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/videopoker/poker.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x95c
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.recognize
+                0x00000000      0x1e0 build/f7-firmware-C/.extapps/videopoker/poker.o
+ .text.poker_draw_callback
+                0x000001e0      0x384 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x000001e0                poker_draw_callback
+ .text.poker_input_callback
+                0x00000564       0x14 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000564                poker_input_callback
+ .text.playcard
+                0x00000578       0x7c build/f7-firmware-C/.extapps/videopoker/poker.o
+ .text.Shake    0x000005f4       0x30 build/f7-firmware-C/.extapps/videopoker/poker.o
+ .text.poker_player_alloc
+                0x00000624       0xa4 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000624                poker_player_alloc
+ .text.poker_player_free
+                0x000006c8       0x58 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x000006c8                poker_player_free
+ .text.video_poker_app
+                0x00000720      0x23c build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000720                video_poker_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x0000095c      0x626
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.poker_draw_callback.str1.1
+                0x0000095c       0x75 build/f7-firmware-C/.extapps/videopoker/poker.o
+ .rodata.Shake.str1.1
+                0x000009d1        0xd build/f7-firmware-C/.extapps/videopoker/poker.o
+ .rodata.poker_player_alloc.str1.1
+                0x000009de        0x4 build/f7-firmware-C/.extapps/videopoker/poker.o
+ .rodata.str1.1
+                0x000009e2      0x141 build/f7-firmware-C/.extapps/videopoker/poker.o
+ *fill*         0x00000b23        0x1 
+ .rodata.poker_handname
+                0x00000b24       0x28 build/f7-firmware-C/.extapps/videopoker/poker.o
+ .rodata.paytable
+                0x00000b4c       0x28 build/f7-firmware-C/.extapps/videopoker/poker.o
+ .rodata.card_face
+                0x00000b74       0x3c build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000b74                card_face
+ .rodata.card_suit
+                0x00000bb0       0x30 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000bb0                card_suit
+ .rodata._I_Ten_7x8_0
+                0x00000be0       0x2d build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000be0                _I_Ten_7x8_0
+ .rodata._I_Ace_7x8_0
+                0x00000c0d       0x17 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000c0d                _I_Ace_7x8_0
+ .rodata._I_Jack_7x8_0
+                0x00000c24       0x11 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000c24                _I_Jack_7x8_0
+ .rodata._I_Queen_7x8_0
+                0x00000c35       0x17 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000c35                _I_Queen_7x8_0
+ .rodata._I_King_7x8_0
+                0x00000c4c       0x1e build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000c4c                _I_King_7x8_0
+ .rodata._I_spade_7x8_0
+                0x00000c6a        0x9 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000c6a                _I_spade_7x8_0
+ .rodata._I_hearts_7x8_0
+                0x00000c73        0x9 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000c73                _I_hearts_7x8_0
+ .rodata._I_diamond_7x8_0
+                0x00000c7c        0x9 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000c7c                _I_diamond_7x8_0
+ .rodata._I_club_7x8_0
+                0x00000c85        0x9 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000c85                _I_club_7x8_0
+ *fill*         0x00000c8e        0x2 
+ .rodata.I_CardBack_22x35
+                0x00000c90        0xc build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000c90                I_CardBack_22x35
+ .rodata._I_CardBack_22x35_0
+                0x00000c9c       0x27 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000c9c                _I_CardBack_22x35_0
+ *fill*         0x00000cc3        0x1 
+ .rodata.I_Hand_12x10
+                0x00000cc4        0xc build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000cc4                I_Hand_12x10
+ .rodata._I_Hand_12x10_0
+                0x00000cd0       0x15 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000cd0                _I_Hand_12x10_0
+ *fill*         0x00000ce5        0x3 
+ .rodata.I_Splash_128x64
+                0x00000ce8        0xc build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000ce8                I_Splash_128x64
+ .rodata._I_Splash_128x64_0
+                0x00000cf4      0x28e build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000cf4                _I_Splash_128x64_0
+
+.data           0x00000f84      0x440
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data._I_Ten_7x8
+                0x00000f84        0x4 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000f84                _I_Ten_7x8
+ .data._I_Ace_7x8
+                0x00000f88        0x4 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000f88                _I_Ace_7x8
+ .data._I_Jack_7x8
+                0x00000f8c        0x4 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000f8c                _I_Jack_7x8
+ .data._I_Queen_7x8
+                0x00000f90        0x4 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000f90                _I_Queen_7x8
+ .data._I_King_7x8
+                0x00000f94        0x4 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000f94                _I_King_7x8
+ .data._I_spade_7x8
+                0x00000f98        0x4 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000f98                _I_spade_7x8
+ .data._I_hearts_7x8
+                0x00000f9c        0x4 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000f9c                _I_hearts_7x8
+ .data._I_diamond_7x8
+                0x00000fa0        0x4 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000fa0                _I_diamond_7x8
+ .data._I_club_7x8
+                0x00000fa4        0x4 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000fa4                _I_club_7x8
+ .data._I_CardBack_22x35
+                0x00000fa8        0x4 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000fa8                _I_CardBack_22x35
+ .data._I_Hand_12x10
+                0x00000fac        0x4 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000fac                _I_Hand_12x10
+ .data._I_Splash_128x64
+                0x00000fb0        0x4 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000fb0                _I_Splash_128x64
+ .data.deck     0x00000fb4      0x410 build/f7-firmware-C/.extapps/videopoker/poker.o
+                0x00000fb4                deck
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x58
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x58 build/f7-firmware-C/.extapps/videopoker/poker.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1d61
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1d61 build/f7-firmware-C/.extapps/videopoker/poker.o
+
+.debug_abbrev   0x00000000      0x488
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x488 build/f7-firmware-C/.extapps/videopoker/poker.o
+
+.debug_line     0x00000000      0xdd4
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x396 build/f7-firmware-C/.extapps/videopoker/poker.o
+ .debug_line.text.recognize
+                0x00000396      0x34d build/f7-firmware-C/.extapps/videopoker/poker.o
+ .debug_line.text.poker_draw_callback
+                0x000006e3      0x21f build/f7-firmware-C/.extapps/videopoker/poker.o
+ .debug_line.text.poker_input_callback
+                0x00000902       0x22 build/f7-firmware-C/.extapps/videopoker/poker.o
+ .debug_line.text.playcard
+                0x00000924      0x113 build/f7-firmware-C/.extapps/videopoker/poker.o
+ .debug_line.text.Shake
+                0x00000a37       0x27 build/f7-firmware-C/.extapps/videopoker/poker.o
+ .debug_line.text.poker_player_alloc
+                0x00000a5e       0x8d build/f7-firmware-C/.extapps/videopoker/poker.o
+ .debug_line.text.poker_player_free
+                0x00000aeb       0x31 build/f7-firmware-C/.extapps/videopoker/poker.o
+ .debug_line.text.video_poker_app
+                0x00000b1c      0x2b8 build/f7-firmware-C/.extapps/videopoker/poker.o
+ .debug_line_end
+                0x00000dd4        0x0 build/f7-firmware-C/.extapps/videopoker/poker.o
+
+.debug_frame    0x00000000      0x124
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x124 build/f7-firmware-C/.extapps/videopoker/poker.o
+
+.debug_str      0x00000000     0x110e
+ *(.debug_str)
+ .debug_str     0x00000000     0x110e build/f7-firmware-C/.extapps/videopoker/poker.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x4cb
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x4cb build/f7-firmware-C/.extapps/videopoker/poker.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x139
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x139 build/f7-firmware-C/.extapps/videopoker/poker.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/videopoker/poker.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/videopoker_d.elf elf32-littlearm)
+LOAD linker stubs

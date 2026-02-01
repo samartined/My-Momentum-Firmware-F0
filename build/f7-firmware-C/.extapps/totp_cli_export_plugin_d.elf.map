@@ -1,0 +1,260 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .text.totp_cli_force_close_app
+                0x00000000       0x24 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .rodata.totp_cli_read_line.str1.1
+                0x00000000        0x6 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .text.totp_cli_read_line
+                0x00000000      0x104 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .text.args_read_uint8_and_trim
+                0x00000000       0x20 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .text.furi_string_secure_free
+                0x00000000       0x34 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .rodata.totp_cli_printf_missed_argument_value.str1.1
+                0x00000000       0x3a build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .text.totp_cli_printf_missed_argument_value
+                0x00000000       0x18 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .rodata.totp_cli_printf_unknown_argument.str1.1
+                0x00000000       0x18 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .text.totp_cli_printf_unknown_argument
+                0x00000000       0x20 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .debug_line.text.totp_cli_force_close_app
+                0x00000000       0x24 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .debug_line.text.totp_cli_read_line
+                0x00000000       0xcb build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .debug_line.text.args_read_uint8_and_trim
+                0x00000000       0x59 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .debug_line.text.furi_string_secure_free
+                0x00000000       0x59 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .debug_line.text.totp_cli_printf_missed_argument_value
+                0x00000000       0x1e build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .debug_line.text.totp_cli_printf_unknown_argument
+                0x00000000       0x22 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+LOAD build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x320
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.totp_cli_ensure_authenticated
+                0x00000000       0x78 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+                0x00000000                totp_cli_ensure_authenticated
+ .text.handle   0x00000078      0x2a0 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+ .text.totp_cli_export_plugin_ep
+                0x00000318        0x8 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+                0x00000318                totp_cli_export_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000320      0x260
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.totp_cli_ensure_authenticated.str1.1
+                0x00000320       0x53 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .rodata.handle.str1.1
+                0x00000373      0x1d6 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+ .rodata.str1.1
+                0x00000549       0x21 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+ *fill*         0x0000056a        0x2 
+ .rodata.plugin_descriptor
+                0x0000056c        0xc build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+ .rodata.plugin
+                0x00000578        0x8 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x78
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x50 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .debug_aranges
+                0x00000050       0x28 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2202
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1219 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .debug_info    0x00001219      0xfe9 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+
+.debug_abbrev   0x00000000      0x60c
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x35c build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .debug_abbrev  0x0000035c      0x2b0 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+
+.debug_line     0x00000000      0xfc3
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x5ab build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .debug_line.text.totp_cli_ensure_authenticated
+                0x000005ab       0x66 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .debug_line_end
+                0x00000611        0x0 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .debug_line    0x00000611      0x7a5 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+ .debug_line.text.handle
+                0x00000db6      0x1f4 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+ .debug_line.text.totp_cli_export_plugin_ep
+                0x00000faa       0x19 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+ .debug_line_end
+                0x00000fc3        0x0 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+
+.debug_frame    0x00000000      0x150
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xe0 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .debug_frame   0x000000e0       0x70 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+
+.debug_str      0x00000000     0x18d5
+ *(.debug_str)
+ .debug_str     0x00000000      0xdaf build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .debug_str     0x00000daf      0xb26 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x57d
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x192 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .debug_loclists
+                0x00000192      0x3eb build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0xac
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x4a build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .debug_rnglists
+                0x0000004a       0x62 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/cli_shared_methods.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/totp_cli_export_plugin/cli/plugins/export/export.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/totp_cli_export_plugin_d.elf elf32-littlearm)
+LOAD linker stubs

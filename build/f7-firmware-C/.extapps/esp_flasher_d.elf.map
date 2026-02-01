@@ -1,0 +1,1252 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+                              build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o (esp_loader_connect)
+build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+                              build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o) (loader_detect_chip)
+build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+                              build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o) (MD5Init)
+build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+                              build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o) (loader_flash_begin_cmd)
+build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+                              build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o) (loader_initialize_conn)
+build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+                              build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o) (SLIP_receive_packet)
+build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+                              build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o) (esp_stub_get_running)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .rodata.sequential_file_resolve_path.str1.1
+                0x00000000        0xc build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .text.sequential_file_resolve_path
+                0x00000000       0x70 build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .text.sequential_file_open
+                0x00000000       0x50 build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .debug_info    0x00000000      0x3b9 build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .debug_abbrev  0x00000000      0x183 build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .debug_loclists
+                0x00000000      0x197 build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .debug_aranges
+                0x00000000       0x28 build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .debug_rnglists
+                0x00000000       0x19 build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .debug_line    0x00000000      0x1b4 build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .debug_str     0x00000000      0x392 build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .debug_line.text.sequential_file_resolve_path
+                0x00000000       0x68 build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .debug_line.text.sequential_file_open
+                0x00000000       0x6d build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .debug_frame   0x00000000       0x5c build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .text.esp_flasher_scene_about_widget_callback
+                0x00000000       0x14 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .debug_line.text.esp_flasher_scene_about_widget_callback
+                0x00000000       0x21 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .text.loader_port_spi_set_cs
+                0x00000000        0x2 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line.text.loader_port_spi_set_cs
+                0x00000000       0x19 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_icons.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .text.hexify   0x00000000       0x30 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .text.esp_loader_get_target
+                0x00000000        0xc build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .text.esp_loader_connect_with_stub
+                0x00000000       0x54 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .text.esp_loader_connect_secure_download_mode
+                0x00000000       0x88 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .text.esp_loader_flash_finish
+                0x00000000       0x20 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .text.esp_loader_change_transmission_rate_stub
+                0x00000000       0x4c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .rodata.esp_loader_mem_start.str1.1
+                0x00000000       0x65 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .text.esp_loader_mem_start
+                0x00000000       0xbc build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .text.esp_loader_mem_write
+                0x00000000       0x60 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .text.esp_loader_mem_finish
+                0x00000000       0x20 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .text.esp_loader_read_mac
+                0x00000000       0x18 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .text.esp_loader_flash_read
+                0x00000000      0x1d8 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .text.esp_loader_flash_erase
+                0x00000000       0x90 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .text.esp_loader_flash_erase_region
+                0x00000000       0xa8 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .rodata.esp_loader_flash_verify_known_md5.str1.1
+                0x00000000       0x35 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .text.esp_loader_flash_verify_known_md5
+                0x00000000      0x118 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .text.esp_loader_flash_verify
+                0x00000000       0x58 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .text.esp_loader_reset_target
+                0x00000000       0x18 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .rodata.dec_to_hex.0
+                0x00000000       0x10 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.hexify
+                0x00000000       0x78 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_get_target
+                0x00000000       0x19 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_connect_with_stub
+                0x00000000       0x79 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_connect_secure_download_mode
+                0x00000000       0x81 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_flash_finish
+                0x00000000       0x2f build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_change_transmission_rate_stub
+                0x00000000       0x55 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_mem_start
+                0x00000000       0xbd build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_mem_write
+                0x00000000       0xbb build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_mem_finish
+                0x00000000       0x30 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_read_mac
+                0x00000000       0x2d build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_flash_read
+                0x00000000      0x202 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_flash_erase
+                0x00000000       0xdd build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_flash_erase_region
+                0x00000000       0xad build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_flash_verify_known_md5
+                0x00000000       0xf2 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_flash_verify
+                0x00000000       0x42 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_reset_target
+                0x00000000       0x25 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .text.get_esp_target_data
+                0x00000000       0x10 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .text.loader_read_mac
+                0x00000000       0x50 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .debug_line.text.get_esp_target_data
+                0x00000000       0x1a build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .debug_line.text.loader_read_mac
+                0x00000000       0xdf build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .text.MD5Final
+                0x00000000       0x80 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .debug_line.text.MD5Final
+                0x00000000       0x94 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .text.loader_flash_end_cmd
+                0x00000000       0x38 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .text.loader_flash_read_rom_cmd
+                0x00000000       0x44 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .text.loader_flash_read_stub_cmd
+                0x00000000       0x40 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .text.loader_flash_erase_cmd
+                0x00000000       0x34 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .text.loader_flash_erase_region_cmd
+                0x00000000       0x40 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .text.loader_md5_cmd
+                0x00000000       0x54 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .text.loader_mem_begin_cmd
+                0x00000000       0x48 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .text.loader_mem_data_cmd
+                0x00000000       0x6c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .text.loader_mem_end_cmd
+                0x00000000       0x44 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .text.loader_port_debug_print
+                0x00000000        0x2 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_flash_end_cmd
+                0x00000000       0x42 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_flash_read_rom_cmd
+                0x00000000       0x57 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_flash_read_stub_cmd
+                0x00000000       0x50 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_flash_erase_cmd
+                0x00000000       0x3d build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_flash_erase_region_cmd
+                0x00000000       0x4a build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_md5_cmd
+                0x00000000       0x56 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_mem_begin_cmd
+                0x00000000       0x65 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_mem_data_cmd
+                0x00000000       0x80 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_mem_end_cmd
+                0x00000000       0x4d build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_port_debug_print
+                0x00000000       0x19 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .rodata.loader_run_stub.str1.1
+                0x00000000        0x5 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .text.loader_run_stub
+                0x00000000       0xbc build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .debug_line.text.loader_run_stub
+                0x00000000       0xe8 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .text.esp_stub_set_running
+                0x00000000        0xc build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .rodata.esp_stub
+                0x00000000      0x140 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .data.__compound_literal.13
+                0x00000000      0x180 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .data.__compound_literal.12
+                0x00000000     0x4024 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .data.__compound_literal.11
+                0x00000000      0x180 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .data.__compound_literal.10
+                0x00000000     0x29e8 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .data.__compound_literal.9
+                0x00000000      0x194 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .data.__compound_literal.8
+                0x00000000     0x2758 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .data.__compound_literal.7
+                0x00000000      0xf70 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .data.__compound_literal.6
+                0x00000000     0x3628 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .data.__compound_literal.5
+                0x00000000       0xf4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .data.__compound_literal.4
+                0x00000000     0x2ba8 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .data.__compound_literal.3
+                0x00000000      0x208 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .data.__compound_literal.2
+                0x00000000     0x2c98 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .data.__compound_literal.1
+                0x00000000      0x1d4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .data.__compound_literal.0
+                0x00000000     0x3254 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .debug_line.text.esp_stub_set_running
+                0x00000000       0x1b build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+LOAD build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene.o
+LOAD build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+LOAD build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+LOAD build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+LOAD build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+LOAD build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+LOAD build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+LOAD build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+LOAD build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+LOAD build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher
+
+.text           0x00000000     0x2d00
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.esp_flasher_scene_about_on_enter
+                0x00000000       0x80 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+                0x00000000                esp_flasher_scene_about_on_enter
+ .text.esp_flasher_scene_about_on_event
+                0x00000080        0xe build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+                0x00000080                esp_flasher_scene_about_on_event
+ *fill*         0x0000008e        0x2 
+ .text.esp_flasher_scene_about_on_exit
+                0x00000090        0xc build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+                0x00000090                esp_flasher_scene_about_on_exit
+ .text._refresh_submenu
+                0x0000009c      0x1dc build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .text.esp_flasher_scene_browse_callback
+                0x00000278      0x288 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .text.esp_flasher_scene_browse_on_enter
+                0x00000500       0x34 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+                0x00000500                esp_flasher_scene_browse_on_enter
+ .text.esp_flasher_scene_browse_on_event
+                0x00000534       0x2c build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+                0x00000534                esp_flasher_scene_browse_on_event
+ .text.esp_flasher_scene_browse_on_exit
+                0x00000560        0xc build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+                0x00000560                esp_flasher_scene_browse_on_exit
+ .text.esp_flasher_console_output_handle_rx_data_cb
+                0x0000056c       0x58 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+                0x0000056c                esp_flasher_console_output_handle_rx_data_cb
+ .text.esp_flasher_scene_console_output_on_enter
+                0x000005c4       0x78 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+                0x000005c4                esp_flasher_scene_console_output_on_enter
+ .text.esp_flasher_scene_console_output_on_event
+                0x0000063c       0x38 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+                0x0000063c                esp_flasher_scene_console_output_on_event
+ .text.esp_flasher_scene_console_output_on_exit
+                0x00000674       0x1c build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+                0x00000674                esp_flasher_scene_console_output_on_exit
+ .text.esp_flasher_scene_quick_submenu_callback
+                0x00000690        0xc build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+                0x00000690                esp_flasher_scene_quick_submenu_callback
+ .text.esp_flasher_scene_quick_on_enter
+                0x0000069c      0x1dc build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+                0x0000069c                esp_flasher_scene_quick_on_enter
+ .text.esp_flasher_scene_quick_on_event
+                0x00000878      0x258 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+                0x00000878                esp_flasher_scene_quick_on_event
+ .text.esp_flasher_scene_quick_on_exit
+                0x00000ad0        0xc build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+                0x00000ad0                esp_flasher_scene_quick_on_exit
+ .text.esp_flasher_scene_start_submenu_callback
+                0x00000adc        0xc build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+                0x00000adc                esp_flasher_scene_start_submenu_callback
+ .text.esp_flasher_scene_start_on_enter
+                0x00000ae8       0xbc build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+                0x00000ae8                esp_flasher_scene_start_on_enter
+ .text.esp_flasher_scene_start_on_event
+                0x00000ba4       0x84 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+                0x00000ba4                esp_flasher_scene_start_on_event
+ .text.esp_flasher_scene_start_on_exit
+                0x00000c28        0xc build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+                0x00000c28                esp_flasher_scene_start_on_exit
+ .text.esp_flasher_app_tick_event_callback
+                0x00000c34        0xc build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .text.esp_flasher_app_back_event_callback
+                0x00000c40        0xc build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .text.esp_flasher_app_custom_event_callback
+                0x00000c4c        0xc build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .text.esp_flasher_app_alloc
+                0x00000c58      0x148 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+                0x00000c58                esp_flasher_app_alloc
+ .text.esp_flasher_make_app_folder
+                0x00000da0       0x2c build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+                0x00000da0                esp_flasher_make_app_folder
+ .text.esp_flasher_app_free
+                0x00000dcc       0xa8 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+                0x00000dcc                esp_flasher_app_free
+ .text.esp_flasher_app
+                0x00000e74       0xac build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+                0x00000e74                esp_flasher_app
+ .text.uart_worker
+                0x00000f20       0x68 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .text.esp_flasher_uart_on_irq_cb
+                0x00000f88       0x40 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+                0x00000f88                esp_flasher_uart_on_irq_cb
+ .text.esp_flasher_uart_set_handle_rx_data_cb
+                0x00000fc8        0x6 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+                0x00000fc8                esp_flasher_uart_set_handle_rx_data_cb
+ *fill*         0x00000fce        0x2 
+ .text.esp_flasher_uart_tx
+                0x00000fd0        0xc build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+                0x00000fd0                esp_flasher_uart_tx
+ .text.esp_flasher_uart_set_br
+                0x00000fdc        0xc build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+                0x00000fdc                esp_flasher_uart_set_br
+ .text.esp_flasher_uart_init
+                0x00000fe8       0xb4 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+                0x00000fe8                esp_flasher_uart_init
+ .text.esp_flasher_usart_init
+                0x0000109c       0x18 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+                0x0000109c                esp_flasher_usart_init
+ .text.esp_flasher_uart_free
+                0x000010b4       0x60 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+                0x000010b4                esp_flasher_uart_free
+ .text._timer_callback
+                0x00001114       0x10 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .text.furi_hal_gpio_write
+                0x00001124        0xe build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ *fill*         0x00001132        0x2 
+ .text._setDTR  0x00001134       0x20 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .text._setRTS  0x00001154       0x20 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .text.esp_flasher_worker_start_thread
+                0x00001174       0x7c build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+                0x00001174                esp_flasher_worker_start_thread
+ .text.esp_flasher_worker_stop_thread
+                0x000011f0       0x20 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+                0x000011f0                esp_flasher_worker_stop_thread
+ .text.loader_port_read
+                0x00001210       0x28 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+                0x00001210                loader_port_read
+ .text.loader_port_write
+                0x00001238       0x20 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+                0x00001238                loader_port_write
+ .text.loader_port_reset_target
+                0x00001258       0x20 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+                0x00001258                loader_port_reset_target
+ .text.loader_port_enter_bootloader
+                0x00001278       0x78 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+                0x00001278                loader_port_enter_bootloader
+ .text.loader_port_delay_ms
+                0x000012f0        0x8 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+                0x000012f0                loader_port_delay_ms
+ .text.loader_port_start_timer
+                0x000012f8       0x1c build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+                0x000012f8                loader_port_start_timer
+ .text.loader_port_remaining_time
+                0x00001314        0xc build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+                0x00001314                loader_port_remaining_time
+ .text.loader_port_debug_print
+                0x00001320       0x2c build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+                0x00001320                loader_port_debug_print
+ .text.esp_flasher_flash_bin
+                0x0000134c      0x4d0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .text.esp_flasher_reset
+                0x0000181c       0xf4 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .text.esp_flasher_worker_handle_rx_data_cb
+                0x00001910       0x38 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+                0x00001910                esp_flasher_worker_handle_rx_data_cb
+ .text.esp_loader_connect
+                0x00001948       0x88 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+                0x00001948                esp_loader_connect
+ .text.esp_loader_flash_write
+                0x000019d0       0x64 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+                0x000019d0                esp_loader_flash_write
+ .text.esp_loader_get_security_info
+                0x00001a34       0xc4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+                0x00001a34                esp_loader_get_security_info
+ .text.esp_loader_read_register
+                0x00001af8       0x24 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+                0x00001af8                esp_loader_read_register
+ .text.esp_loader_write_register
+                0x00001b1c       0x2c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+                0x00001b1c                esp_loader_write_register
+ .text.esp_loader_flash_detect_size
+                0x00001b48       0xfc build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+                0x00001b48                esp_loader_flash_detect_size
+ .text.init_flash_params
+                0x00001c44       0x48 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .text.esp_loader_flash_start
+                0x00001c8c      0x10c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+                0x00001c8c                esp_loader_flash_start
+ .text.esp_loader_change_transmission_rate
+                0x00001d98       0x3c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+                0x00001d98                esp_loader_change_transmission_rate
+ .text.spi_config_unsupported
+                0x00001dd4        0x6 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ *fill*         0x00001dda        0x2 
+ .text.spi_config_esp32xx
+                0x00001ddc       0x3c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .text.spi_config_esp32
+                0x00001e18       0x98 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .text.loader_detect_chip
+                0x00001eb0       0xa4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+                0x00001eb0                loader_detect_chip
+ .text.loader_read_spi_config
+                0x00001f54       0x14 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+                0x00001f54                loader_read_spi_config
+ .text.encryption_in_begin_flash_cmd
+                0x00001f68       0x14 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+                0x00001f68                encryption_in_begin_flash_cmd
+ .text.target_from_chip_id
+                0x00001f7c       0x20 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+                0x00001f7c                target_from_chip_id
+ .text.MD5Transform
+                0x00001f9c      0x68c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .text.MD5Init  0x00002628       0x2c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+                0x00002628                MD5Init
+ .text.MD5Update
+                0x00002654       0xa4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+                0x00002654                MD5Update
+ .text.loader_flash_begin_cmd
+                0x000026f8       0x5c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+                0x000026f8                loader_flash_begin_cmd
+ .text.loader_flash_data_cmd
+                0x00002754       0x6c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+                0x00002754                loader_flash_data_cmd
+ .text.loader_sync_cmd
+                0x000027c0       0x48 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+                0x000027c0                loader_sync_cmd
+ .text.loader_spi_attach_cmd
+                0x00002808       0x48 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+                0x00002808                loader_spi_attach_cmd
+ .text.loader_spi_parameters
+                0x00002850       0x54 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+                0x00002850                loader_spi_parameters
+ .text.loader_write_reg_cmd
+                0x000028a4       0x40 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+                0x000028a4                loader_write_reg_cmd
+ .text.loader_read_reg_cmd
+                0x000028e4       0x38 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+                0x000028e4                loader_read_reg_cmd
+ .text.loader_change_baudrate_cmd
+                0x0000291c       0x40 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+                0x0000291c                loader_change_baudrate_cmd
+ .text.loader_get_security_info_cmd
+                0x0000295c       0x3c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+                0x0000295c                loader_get_security_info_cmd
+ .text.log_loader_internal_error
+                0x00002998       0xd0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+                0x00002998                log_loader_internal_error
+ .text.loader_initialize_conn
+                0x00002a68       0x34 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+                0x00002a68                loader_initialize_conn
+ .text.send_cmd
+                0x00002a9c       0xe8 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+                0x00002a9c                send_cmd
+ .text.peripheral_write
+                0x00002b84       0x20 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .text.peripheral_read.constprop.0
+                0x00002ba4       0x20 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .text.SLIP_receive_packet
+                0x00002bc4       0xa4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+                0x00002bc4                SLIP_receive_packet
+ .text.SLIP_send
+                0x00002c68       0x7c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+                0x00002c68                SLIP_send
+ .text.SLIP_send_delimiter
+                0x00002ce4       0x10 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+                0x00002ce4                SLIP_send_delimiter
+ .text.esp_stub_get_running
+                0x00002cf4        0xc build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+                0x00002cf4                esp_stub_get_running
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00002d00     0x137c
+ *(.rodata)
+ .rodata        0x00002d00        0x8 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .rodata        0x00002d08       0x2c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.esp_flasher_scene_handlers
+                0x00002d34       0x10 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene.o
+                0x00002d34                esp_flasher_scene_handlers
+ .rodata.esp_flasher_scene_on_exit_handlers
+                0x00002d44       0x14 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene.o
+                0x00002d44                esp_flasher_scene_on_exit_handlers
+ .rodata.esp_flasher_scene_on_event_handlers
+                0x00002d58       0x14 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene.o
+                0x00002d58                esp_flasher_scene_on_event_handlers
+ .rodata.esp_flasher_scene_on_enter_handlers
+                0x00002d6c       0x14 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene.o
+                0x00002d6c                esp_flasher_scene_on_enter_handlers
+ .rodata.esp_flasher_scene_about_on_enter.str1.1
+                0x00002d80      0x21a build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .rodata._refresh_submenu.str1.1
+                0x00002f9a      0x264 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .rodata.esp_flasher_scene_browse_callback.str1.1
+                0x000031fe       0x20 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .rodata.esp_flasher_console_output_handle_rx_data_cb.str1.1
+                0x0000321e        0x3 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .rodata.esp_flasher_scene_quick_on_enter.str1.1
+                0x00003221      0x109 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .rodata.esp_flasher_scene_quick_on_event.str1.1
+                0x0000332a      0x3bc build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .rodata.esp_flasher_scene_start_on_enter.str1.1
+                0x000036e6       0x72 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .rodata.esp_flasher_app_alloc.str1.1
+                0x00003758       0x21 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .rodata.esp_flasher_make_app_folder.str1.1
+                0x00003779       0x34 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .rodata.esp_flasher_app.str1.1
+                0x000037ad        0xa build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .rodata.esp_flasher_usart_init.str1.1
+                0x000037b7       0x17 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .rodata.esp_flasher_worker_start_thread.str1.1
+                0x000037ce       0x16 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .rodata.esp_flasher_flash_bin.str1.1
+                0x000037e4      0x302 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .rodata.esp_flasher_reset.str1.1
+                0x00003ae6       0x26 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .rodata.magic_payload_app_b_set
+                0x00003b0c       0x20 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+                0x00003b0c                magic_payload_app_b_set
+ .rodata.magic_payload_app_b_unset
+                0x00003b2c       0x20 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+                0x00003b2c                magic_payload_app_b_unset
+ .rodata.magic_payload_app_a
+                0x00003b4c       0x20 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+                0x00003b4c                magic_payload_app_a
+ .rodata.I_Text_10x10
+                0x00003b6c        0xc build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_icons.o
+                0x00003b6c                I_Text_10x10
+ .rodata._I_Text_10x10
+                0x00003b78        0x4 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_icons.o
+                0x00003b78                _I_Text_10x10
+ .rodata._I_Text_10x10_0
+                0x00003b7c       0x15 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_icons.o
+                0x00003b7c                _I_Text_10x10_0
+ .rodata.init_flash_params.str1.1
+                0x00003b91       0x35 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ *fill*         0x00003bc6        0x2 
+ .rodata.size_mapping.1
+                0x00003bc8       0xb8 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .rodata.esp_target
+                0x00003c80      0x230 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .rodata.__compound_literal.8
+                0x00003eb0        0x4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .rodata.__compound_literal.7
+                0x00003eb4        0x4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .rodata.__compound_literal.6
+                0x00003eb8        0x4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .rodata.__compound_literal.5
+                0x00003ebc        0x8 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .rodata.__compound_literal.4
+                0x00003ec4        0x4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .rodata.__compound_literal.3
+                0x00003ec8       0x10 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .rodata.__compound_literal.2
+                0x00003ed8        0x4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .rodata.__compound_literal.1
+                0x00003edc        0x4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .rodata.__compound_literal.0
+                0x00003ee0        0x4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .rodata.log_loader_internal_error.str1.1
+                0x00003ee4      0x193 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .rodata.DB_REPLACEMENT
+                0x00004077        0x2 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .rodata.C0_REPLACEMENT
+                0x00004079        0x2 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .rodata.DELIMITER
+                0x0000407b        0x1 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+
+.data           0x0000407c        0x1
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.s_target
+                0x0000407c        0x1 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+
+.bss            0x00004080      0x481
+ *(.bss)
+ *(.bss*)
+ .bss.payload.0
+                0x00004080      0x400 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .bss._remaining_time
+                0x00004480        0x4 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .bss.timer     0x00004484        0x4 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+                0x00004484                timer
+ .bss.global_app
+                0x00004488        0x4 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+                0x00004488                global_app
+ .bss.flash_rx_stream
+                0x0000448c        0x4 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+                0x0000448c                flash_rx_stream
+ .bss.s_image_size
+                0x00004490        0x4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .bss.s_start_address
+                0x00004494        0x4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .bss.s_md5_context
+                0x00004498       0x58 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .bss.s_target_flash_size
+                0x000044f0        0x4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .bss.s_flash_write_size
+                0x000044f4        0x4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .bss.s_reg     0x000044f8        0x4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .bss.s_sequence_number
+                0x000044fc        0x4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .bss.stub_running
+                0x00004500        0x1 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x568
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene.o
+ .debug_aranges
+                0x00000018       0x38 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .debug_aranges
+                0x00000050       0x40 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .debug_aranges
+                0x00000090       0x38 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .debug_aranges
+                0x000000c8       0x38 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .debug_aranges
+                0x00000100       0x38 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .debug_aranges
+                0x00000138       0x50 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .debug_aranges
+                0x00000188       0x58 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .debug_aranges
+                0x000001e0       0xa8 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_aranges
+                0x00000288       0x18 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_icons.o
+ .debug_aranges
+                0x000002a0       0xe0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_aranges
+                0x00000380       0x60 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .debug_aranges
+                0x000003e0       0x38 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .debug_aranges
+                0x00000418       0xb8 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_aranges
+                0x000004d0       0x30 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .debug_aranges
+                0x00000500       0x40 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .debug_aranges
+                0x00000540       0x28 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xefd8
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x363 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene.o
+ .debug_info    0x00000363      0x97b build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .debug_info    0x00000cde     0x1127 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .debug_info    0x00001e05      0xa9d build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .debug_info    0x000028a2      0xf3a build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .debug_info    0x000037dc      0xa99 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .debug_info    0x00004275     0x113b build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .debug_info    0x000053b0     0x1392 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .debug_info    0x00006742     0x2449 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_info    0x00008b8b      0x184 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_icons.o
+ .debug_info    0x00008d0f     0x2d0f build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_info    0x0000ba1e      0xaf2 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .debug_info    0x0000c510      0x3be build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .debug_info    0x0000c8ce     0x1452 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_info    0x0000dd20      0xb12 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .debug_info    0x0000e832      0x553 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .debug_info    0x0000ed85      0x253 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+
+.debug_abbrev   0x00000000     0x2d7d
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x137 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene.o
+ .debug_abbrev  0x00000137      0x21b build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .debug_abbrev  0x00000352      0x31b build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .debug_abbrev  0x0000066d      0x265 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .debug_abbrev  0x000008d2      0x2ae build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .debug_abbrev  0x00000b80      0x23e build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .debug_abbrev  0x00000dbe      0x32a build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .debug_abbrev  0x000010e8      0x3e0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .debug_abbrev  0x000014c8      0x61f build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_abbrev  0x00001ae7       0xb1 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_icons.o
+ .debug_abbrev  0x00001b98      0x549 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_abbrev  0x000020e1      0x282 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .debug_abbrev  0x00002363      0x1b0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .debug_abbrev  0x00002513      0x2b9 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_abbrev  0x000027cc      0x2ab build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .debug_abbrev  0x00002a77      0x1f4 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .debug_abbrev  0x00002c6b      0x112 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+
+.debug_line     0x00000000     0x66dc
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x1b4 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene.o
+ .debug_line_end
+                0x000001b4        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene.o
+ .debug_line    0x000001b4      0x470 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .debug_line.text.esp_flasher_scene_about_on_enter
+                0x00000624       0x38 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .debug_line.text.esp_flasher_scene_about_on_event
+                0x0000065c       0x2a build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .debug_line.text.esp_flasher_scene_about_on_exit
+                0x00000686       0x17 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .debug_line_end
+                0x0000069d        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .debug_line    0x0000069d      0x53a build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .debug_line.text._refresh_submenu
+                0x00000bd7       0xab build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .debug_line.text.esp_flasher_scene_browse_callback
+                0x00000c82      0x218 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .debug_line.text.esp_flasher_scene_browse_on_enter
+                0x00000e9a       0x59 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .debug_line.text.esp_flasher_scene_browse_on_event
+                0x00000ef3       0x40 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .debug_line.text.esp_flasher_scene_browse_on_exit
+                0x00000f33       0x18 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .debug_line_end
+                0x00000f4b        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .debug_line    0x00000f4b      0x480 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .debug_line.text.esp_flasher_console_output_handle_rx_data_cb
+                0x000013cb       0x5e build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .debug_line.text.esp_flasher_scene_console_output_on_enter
+                0x00001429       0x3b build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .debug_line.text.esp_flasher_scene_console_output_on_event
+                0x00001464       0x49 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .debug_line.text.esp_flasher_scene_console_output_on_exit
+                0x000014ad       0x26 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .debug_line_end
+                0x000014d3        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .debug_line    0x000014d3      0x4bf build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .debug_line.text.esp_flasher_scene_quick_submenu_callback
+                0x00001992       0x1c build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .debug_line.text.esp_flasher_scene_quick_on_enter
+                0x000019ae       0xcd build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .debug_line.text.esp_flasher_scene_quick_on_event
+                0x00001a7b      0x265 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .debug_line.text.esp_flasher_scene_quick_on_exit
+                0x00001ce0       0x1c build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .debug_line_end
+                0x00001cfc        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .debug_line    0x00001cfc      0x441 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .debug_line.text.esp_flasher_scene_start_submenu_callback
+                0x0000213d       0x1c build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .debug_line.text.esp_flasher_scene_start_on_enter
+                0x00002159       0x42 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .debug_line.text.esp_flasher_scene_start_on_event
+                0x0000219b       0x8f build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .debug_line.text.esp_flasher_scene_start_on_exit
+                0x0000222a       0x1c build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .debug_line_end
+                0x00002246        0x0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .debug_line    0x00002246      0x4df build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .debug_line.text.esp_flasher_app_tick_event_callback
+                0x00002725       0x1b build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .debug_line.text.esp_flasher_app_back_event_callback
+                0x00002740       0x1e build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .debug_line.text.esp_flasher_app_custom_event_callback
+                0x0000275e       0x1d build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .debug_line.text.esp_flasher_app_alloc
+                0x0000277b       0xe0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .debug_line.text.esp_flasher_make_app_folder
+                0x0000285b       0x3d build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .debug_line.text.esp_flasher_app_free
+                0x00002898       0x43 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .debug_line.text.esp_flasher_app
+                0x000028db       0x9b build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .debug_line_end
+                0x00002976        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .debug_line    0x00002976      0x51d build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .debug_line.text.uart_worker
+                0x00002e93       0xaf build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .debug_line.text.esp_flasher_uart_on_irq_cb
+                0x00002f42       0x42 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .debug_line.text.esp_flasher_uart_set_handle_rx_data_cb
+                0x00002f84       0x1f build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .debug_line.text.esp_flasher_uart_tx
+                0x00002fa3       0x17 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .debug_line.text.esp_flasher_uart_set_br
+                0x00002fba       0x18 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .debug_line.text.esp_flasher_uart_init
+                0x00002fd2       0xaf build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .debug_line.text.esp_flasher_usart_init
+                0x00003081       0x1a build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .debug_line.text.esp_flasher_uart_free
+                0x0000309b       0x30 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .debug_line_end
+                0x000030cb        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .debug_line    0x000030cb      0x592 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line.text._timer_callback
+                0x0000365d       0x25 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line.text.furi_hal_gpio_write
+                0x00003682       0x34 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line.text._setDTR
+                0x000036b6       0x2c build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line.text._setRTS
+                0x000036e2       0x2c build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line.text.esp_flasher_worker_start_thread
+                0x0000370e       0x56 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line.text.esp_flasher_worker_stop_thread
+                0x00003764       0x27 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line.text.loader_port_read
+                0x0000378b       0x2c build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line.text.loader_port_write
+                0x000037b7       0x3e build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line.text.loader_port_reset_target
+                0x000037f5       0x33 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line.text.loader_port_enter_bootloader
+                0x00003828       0xad build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line.text.loader_port_delay_ms
+                0x000038d5       0x17 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line.text.loader_port_start_timer
+                0x000038ec       0x20 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line.text.loader_port_remaining_time
+                0x0000390c       0x19 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line.text.loader_port_debug_print
+                0x00003925       0x34 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line.text.esp_flasher_flash_bin
+                0x00003959      0x3b1 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line.text.esp_flasher_reset
+                0x00003d0a       0xd2 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line.text.esp_flasher_worker_handle_rx_data_cb
+                0x00003ddc       0x56 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line_end
+                0x00003e32        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_line    0x00003e32      0x199 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_icons.o
+ .debug_line_end
+                0x00003fcb        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_icons.o
+ .debug_line    0x00003fcb      0x34f build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_connect
+                0x0000431a       0xae build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_flash_write
+                0x000043c8       0xa2 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_get_security_info
+                0x0000446a      0x18f build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_read_register
+                0x000045f9       0x30 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_write_register
+                0x00004629       0x36 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_flash_detect_size
+                0x0000465f      0x196 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.init_flash_params
+                0x000047f5       0x40 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_flash_start
+                0x00004835      0x15b build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line.text.esp_loader_change_transmission_rate
+                0x00004990       0x46 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line_end
+                0x000049d6        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_line    0x000049d6      0x28a build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .debug_line.text.spi_config_unsupported
+                0x00004c60       0x23 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .debug_line.text.spi_config_esp32xx
+                0x00004c83       0xa7 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .debug_line.text.spi_config_esp32
+                0x00004d2a      0x138 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .debug_line.text.loader_detect_chip
+                0x00004e62       0xe2 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .debug_line.text.loader_read_spi_config
+                0x00004f44       0x1f build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .debug_line.text.encryption_in_begin_flash_cmd
+                0x00004f63       0x1d build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .debug_line.text.target_from_chip_id
+                0x00004f80       0x46 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .debug_line_end
+                0x00004fc6        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .debug_line    0x00004fc6      0x2b1 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .debug_line.text.MD5Transform
+                0x00005277      0x1a7 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .debug_line.text.MD5Init
+                0x0000541e       0x3c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .debug_line.text.MD5Update
+                0x0000545a       0xcb build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .debug_line_end
+                0x00005525        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .debug_line    0x00005525      0x2ba build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_flash_begin_cmd
+                0x000057df       0x5a build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_flash_data_cmd
+                0x00005839       0x80 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_sync_cmd
+                0x000058b9       0x3d build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_spi_attach_cmd
+                0x000058f6       0x47 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_spi_parameters
+                0x0000593d       0x3f build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_write_reg_cmd
+                0x0000597c       0x5a build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_read_reg_cmd
+                0x000059d6       0x44 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_change_baudrate_cmd
+                0x00005a1a       0x4a build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.loader_get_security_info_cmd
+                0x00005a64       0x4a build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line.text.log_loader_internal_error
+                0x00005aae       0x58 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line_end
+                0x00005b06        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_line    0x00005b06      0x345 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .debug_line.text.loader_initialize_conn
+                0x00005e4b       0x56 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .debug_line.text.send_cmd
+                0x00005ea1      0x193 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .debug_line_end
+                0x00006034        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .debug_line    0x00006034      0x23c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .debug_line.text.peripheral_write
+                0x00006270       0x29 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .debug_line.text.peripheral_read.constprop.0
+                0x00006299       0x29 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .debug_line.text.SLIP_receive_packet
+                0x000062c2      0x102 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .debug_line.text.SLIP_send
+                0x000063c4       0xe0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .debug_line.text.SLIP_send_delimiter
+                0x000064a4       0x19 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .debug_line_end
+                0x000064bd        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .debug_line    0x000064bd      0x207 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .debug_line.text.esp_stub_get_running
+                0x000066c4       0x18 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ .debug_line_end
+                0x000066dc        0x0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+
+.debug_frame    0x00000000      0xf1c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x7c build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .debug_frame   0x0000007c       0xa0 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .debug_frame   0x0000011c       0x98 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .debug_frame   0x000001b4       0x88 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .debug_frame   0x0000023c       0x7c build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .debug_frame   0x000002b8       0xc4 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .debug_frame   0x0000037c       0xc8 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .debug_frame   0x00000444      0x1fc build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_frame   0x00000640      0x360 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_frame   0x000009a0       0xe8 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .debug_frame   0x00000a88       0xb0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .debug_frame   0x00000b38      0x268 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_frame   0x00000da0       0x8c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .debug_frame   0x00000e2c       0xc0 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .debug_frame   0x00000eec       0x30 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+
+.debug_str      0x00000000     0xac45
+ *(.debug_str)
+ .debug_str     0x00000000      0x643 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene.o
+ .debug_str     0x00000643      0x84a build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .debug_str     0x00000e8d      0xc54 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .debug_str     0x00001ae1      0x9e3 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .debug_str     0x000024c4      0xb02 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .debug_str     0x00002fc6      0x92c build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .debug_str     0x000038f2      0xd50 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .debug_str     0x00004642     0x10dd build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .debug_str     0x0000571f     0x1736 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_str     0x00006e55      0x284 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_icons.o
+ .debug_str     0x000070d9     0x11ae build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_str     0x00008287      0x79d build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .debug_str     0x00008a24      0x2aa build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .debug_str     0x00008cce      0xd5e build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_str     0x00009a2c      0xa14 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .debug_str     0x0000a440      0x470 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .debug_str     0x0000a8b0      0x395 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x3f7f
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x11e build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .debug_loclists
+                0x0000011e      0x2dc build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .debug_loclists
+                0x000003fa      0x1b6 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .debug_loclists
+                0x000005b0      0x4c6 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .debug_loclists
+                0x00000a76      0x13a build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .debug_loclists
+                0x00000bb0      0x19d build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .debug_loclists
+                0x00000d4d      0x232 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .debug_loclists
+                0x00000f7f      0x6b8 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_loclists
+                0x00001637     0x11e3 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_loclists
+                0x0000281a      0x379 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .debug_loclists
+                0x00002b93      0xa19 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .debug_loclists
+                0x000035ac      0x53c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_loclists
+                0x00003ae8      0x286 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .debug_loclists
+                0x00003d6e      0x211 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x7cf
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x26 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .debug_rnglists
+                0x00000026       0x39 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .debug_rnglists
+                0x0000005f       0x25 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .debug_rnglists
+                0x00000084       0x3b build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .debug_rnglists
+                0x000000bf       0x27 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .debug_rnglists
+                0x000000e6       0x46 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .debug_rnglists
+                0x0000012c       0x4a build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .debug_rnglists
+                0x00000176      0x10a build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .debug_rnglists
+                0x00000280      0x2b9 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .debug_rnglists
+                0x00000539       0x9c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .debug_rnglists
+                0x000005d5       0x37 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .debug_rnglists
+                0x0000060c       0x9e build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .debug_rnglists
+                0x000006aa       0x80 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .debug_rnglists
+                0x0000072a       0x8c build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .debug_rnglists
+                0x000007b6       0x19 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/esp_flasher/file/sequential_file.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_about.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_browse.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_console_output.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_quick.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/esp_flasher/scenes/esp_flasher_scene_start.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_app.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_uart.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_worker.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/esp_flasher/esp_flasher_icons.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_loader.o)
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_targets.o)
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(md5_hash.o)
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_serial.o)
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(protocol_uart.o)
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(slip.o)
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/.extapps/esp_flasher/esp-serial-flasher(esp_stubs.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/esp_flasher_d.elf elf32-littlearm)
+LOAD linker stubs

@@ -1,0 +1,213 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x6ec
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.uart_worker
+                0x00000000      0x120 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+ .text.esp8266_deauth_module_input_callback
+                0x00000120       0x28 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+ .text.esp8266_deauth_module_render_callback
+                0x00000148       0xf0 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+ .text.uart_on_irq_cb
+                0x00000238       0x40 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+ .text.esp8266_deauth_app
+                0x00000278      0x474 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+                0x00000278                esp8266_deauth_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000006ec       0x6e
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.uart_worker.str1.1
+                0x000006ec        0x9 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+ .rodata.esp8266_deauth_module_render_callback.str1.1
+                0x000006f5       0x3c build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+ .rodata.esp8266_deauth_app.str1.1
+                0x00000731       0x29 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x40
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x40 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x276e
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x276e build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+
+.debug_abbrev   0x00000000      0x530
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x530 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+
+.debug_line     0x00000000      0xc54
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x4a1 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+ .debug_line.text.uart_worker
+                0x000004a1      0x178 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+ .debug_line.text.esp8266_deauth_module_input_callback
+                0x00000619       0x30 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+ .debug_line.text.esp8266_deauth_module_render_callback
+                0x00000649       0xc7 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+ .debug_line.text.uart_on_irq_cb
+                0x00000710       0x4f build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+ .debug_line.text.esp8266_deauth_app
+                0x0000075f      0x4f5 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+ .debug_line_end
+                0x00000c54        0x0 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+
+.debug_frame    0x00000000       0xd0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xd0 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+
+.debug_str      0x00000000     0x1aa4
+ *(.debug_str)
+ .debug_str     0x00000000     0x1aa4 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x5fb
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x5fb build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x98
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x98 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/esp8266_deauther/esp8266_deauth.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/esp8266_deauther_d.elf elf32-littlearm)
+LOAD linker stubs

@@ -1,0 +1,230 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x638
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.kazan_read
+                0x00000000      0x1f8 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .text.kazan_verify
+                0x000001f8       0xcc build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .text.get_subscription_type
+                0x000002c4       0x70 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+                0x000002c4                get_subscription_type
+ .text.kazan_parse
+                0x00000334      0x2fc build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .text.kazan_plugin_ep
+                0x00000630        0x8 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+                0x00000630                kazan_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000638      0x5e0
+ *(.rodata)
+ .rodata        0x00000638        0x6 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.kazan_read.str1.1
+                0x0000063e       0x40 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .rodata.kazan_verify.str1.1
+                0x0000067e       0x60 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .rodata.get_subscription_type.str1.1
+                0x000006de       0x84 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .rodata.kazan_parse.str1.1
+                0x00000762      0x180 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .rodata.str1.1
+                0x000008e2       0x17 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ *fill*         0x000008f9        0x3 
+ .rodata.kazan_plugin_descriptor
+                0x000008fc        0xc build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .rodata.kazan_plugin
+                0x00000908       0x10 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .rodata.kazan_1k_keys_v3
+                0x00000918      0x100 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .rodata.kazan_1k_keys_v2
+                0x00000a18      0x100 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .rodata.kazan_1k_keys_v1
+                0x00000b18      0x100 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x40
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x40 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1947
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1947 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+
+.debug_abbrev   0x00000000      0x350
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x350 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+
+.debug_line     0x00000000      0xa22
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3dd build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .debug_line.text.kazan_read
+                0x000003dd      0x1d7 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .debug_line.text.kazan_verify
+                0x000005b4       0xb1 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .debug_line.text.get_subscription_type
+                0x00000665       0x68 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .debug_line.text.kazan_parse
+                0x000006cd      0x33c build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .debug_line.text.kazan_plugin_ep
+                0x00000a09       0x19 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ .debug_line_end
+                0x00000a22        0x0 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+
+.debug_frame    0x00000000       0xc4
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xc4 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+
+.debug_str      0x00000000      0xe09
+ *(.debug_str)
+ .debug_str     0x00000000      0xe09 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x57d
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x57d build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x81
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x81 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/kazan_parser/plugins/supported_cards/kazan.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/kazan_parser_d.elf elf32-littlearm)
+LOAD linker stubs

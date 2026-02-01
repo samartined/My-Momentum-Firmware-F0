@@ -1,0 +1,2208 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                              build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o (ble_profile_hid)
+build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                              build/f7-firmware-C/lib/libble_profile.a(hid_profile.o) (ble_svc_hid_start)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .text.action_model_remove_last_keystroke
+                0x00000000       0x3c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .text.action_model_load
+                0x00000000       0x24 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_remove_last_keystroke
+                0x00000000       0x77 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_load
+                0x00000000       0x3f build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .text.app_menu_get_view
+                0x00000000        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_line.text.app_menu_get_view
+                0x00000000       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .text.bad_usb_hid_ble_remove_pairing
+                0x00000000       0x7c build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.bad_usb_hid_ble_remove_pairing
+                0x00000000       0x66 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .rodata.pin_sw4
+                0x00000000        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .rodata.pin_sw3
+                0x00000000        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .rodata.pin_sw2
+                0x00000000        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .rodata.pin_sw1
+                0x00000000        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .text.flipboard_get_primary_view
+                0x00000000        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .text.flipboard_override_config_view
+                0x00000000       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .text.flipboard_send_custom_event
+                0x00000000        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .debug_line.text.flipboard_get_primary_view
+                0x00000000       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .debug_line.text.flipboard_override_config_view
+                0x00000000       0x39 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .debug_line.text.flipboard_send_custom_event
+                0x00000000       0x26 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .text.flipboard_model_get_resources
+                0x00000000        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .text.flipboard_model_get_speaker
+                0x00000000        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .text.flipboard_model_get_custom_data
+                0x00000000        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .text.flipboard_model_set_custom_data
+                0x00000000        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .text.flipboard_model_set_backlight
+                0x00000000       0x14 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_get_resources
+                0x00000000       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_get_speaker
+                0x00000000       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_get_custom_data
+                0x00000000       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_set_custom_data
+                0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_set_backlight
+                0x00000000       0x24 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .rodata.infrared_signal_load_next.str1.1
+                0x00000000      0x155 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .text.infrared_signal_load_next
+                0x00000000      0x1e0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .rodata.infrared_signal_send.str1.1
+                0x00000000       0x82 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .text.infrared_signal_send
+                0x00000000       0xa0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .rodata.infrared_signal_free.str1.1
+                0x00000000        0x8 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .text.infrared_signal_free
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .rodata.infrared_signal_load_file.str1.1
+                0x00000000       0x3b build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .text.infrared_signal_load_file
+                0x00000000       0x98 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .debug_info    0x00000000      0xb1e build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .debug_abbrev  0x00000000      0x1c9 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .debug_loclists
+                0x00000000      0x136 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .debug_aranges
+                0x00000000       0x38 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .debug_rnglists
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .debug_line    0x00000000      0x361 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .debug_str     0x00000000      0x80e build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .debug_line.text.infrared_signal_load_next
+                0x00000000      0x179 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .debug_line.text.infrared_signal_send
+                0x00000000       0x65 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .debug_line.text.infrared_signal_free
+                0x00000000       0x48 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .debug_line.text.infrared_signal_load_file
+                0x00000000       0x8e build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .debug_frame   0x00000000       0xa4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .text.flipboard_keyboard_send_keycodes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_line.text.flipboard_keyboard_send_keycodes
+                0x00000000       0x4d build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .text.led_driver_get_led
+                0x00000000       0x16 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .debug_line.text.led_driver_get_led
+                0x00000000       0x2b build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .text.flipboard_status_led
+                0x00000000       0x14 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .text.adjust_color_brightness
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .rodata.pin_status_led
+                0x00000000        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .rodata.pin_ws2812_leds
+                0x00000000        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .debug_line.text.flipboard_status_led
+                0x00000000       0x44 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .debug_line.text.adjust_color_brightness
+                0x00000000       0x4c build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .text.speaker_set_volume
+                0x00000000        0x6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .debug_line.text.speaker_set_volume
+                0x00000000       0x1b build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .text.subghz_signal_free
+                0x00000000       0x30 build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .rodata.subghz_signal_load_file.str1.1
+                0x00000000      0x256 build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .text.subghz_signal_load_file
+                0x00000000      0x2bc build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .rodata.subghz_signal_send.str1.1
+                0x00000000       0x16 build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .text.subghz_signal_send
+                0x00000000      0x1c0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .debug_info    0x00000000     0x1aee build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .debug_abbrev  0x00000000      0x3be build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .debug_loclists
+                0x00000000      0x40d build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .debug_rnglists
+                0x00000000       0x6d build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .debug_line    0x00000000      0x4e1 build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .debug_str     0x00000000     0x13d4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .debug_line.text.subghz_signal_free
+                0x00000000       0x4d build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .debug_line.text.subghz_signal_load_file
+                0x00000000      0x23a build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .debug_line.text.subghz_signal_send
+                0x00000000      0x142 build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .debug_frame   0x00000000       0xa0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_mouse_move
+                0x00000000       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_mouse_press
+                0x00000000       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_mouse_release
+                0x00000000       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_mouse_release_all
+                0x00000000       0x38 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_mouse_scroll
+                0x00000000       0x38 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_move
+                0x00000000       0xe4 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_press
+                0x00000000       0xa8 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_release
+                0x00000000       0xa8 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_release_all
+                0x00000000       0xa3 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_scroll
+                0x00000000       0xbf build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+LOAD build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/lib/libble_profile.a
+LOAD build/f7-firmware-C/lib/libble_profile.a
+
+.text           0x00000000     0x3d78
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.message_updated
+                0x00000000       0x38 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .text.message1_updated
+                0x00000038        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .text.message2_updated
+                0x00000044        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .text.message4_updated
+                0x00000050        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .text.message3_updated
+                0x0000005c        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .text.tone_changed
+                0x00000068       0x4c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .text.color_up_changed
+                0x000000b4       0x48 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .text.color_down_changed
+                0x000000fc       0x48 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .text.keystroke_item_index
+                0x00000144       0x5c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .text.keystroke_count_changed
+                0x000001a0       0x84 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .text.keystroke_changed
+                0x00000224       0x8c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .text.populate_variable_item_list_color.isra.0
+                0x000002b0       0x58 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .text.populate_variable_item_list
+                0x00000308      0x2e8 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .text.item_callback
+                0x000005f0       0x90 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .text.item_clicked
+                0x00000680      0x260 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .text.keystroke_selector_callback
+                0x000008e0       0x64 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .text.action_config_alloc
+                0x00000944      0x1bc build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+                0x00000944                action_config_alloc
+ .text.action_config_free
+                0x00000b00       0x60 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+                0x00000b00                action_config_free
+ .text.action_config_get_view
+                0x00000b60        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+                0x00000b60                action_config_get_view
+ .text.action_config_get_view_id
+                0x00000b6c        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+                0x00000b6c                action_config_get_view_id
+ .text.action_config_register_dispatcher
+                0x00000b70        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+                0x00000b70                action_config_register_dispatcher
+ .text.action_config_register_variable_item_list
+                0x00000b74       0x24 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+                0x00000b74                action_config_register_variable_item_list
+ .text.action_config_register_text_input
+                0x00000b98       0x24 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+                0x00000b98                action_config_register_text_input
+ .text.action_config_register_keystroke_selector
+                0x00000bbc       0x2c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+                0x00000bbc                action_config_register_keystroke_selector
+ .text.action_model_load_has_id
+                0x00000be8       0x90 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .text.action_model_alloc
+                0x00000c78       0x38 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000c78                action_model_alloc
+ .text.action_model_free
+                0x00000cb0       0x48 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000cb0                action_model_free
+ .text.action_model_get_action_id
+                0x00000cf8        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000cf8                action_model_get_action_id
+ .text.action_model_get_color_up
+                0x00000cfc        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000cfc                action_model_get_color_up
+ .text.action_model_get_color_down
+                0x00000d00        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000d00                action_model_get_color_down
+ .text.action_model_get_message_index
+                0x00000d04        0x6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000d04                action_model_get_message_index
+ .text.action_model_get_keystroke_index
+                0x00000d0a        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000d0a                action_model_get_keystroke_index
+ .text.action_model_get_temp_buffer
+                0x00000d0e        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000d0e                action_model_get_temp_buffer
+ .text.action_model_get_temp_buffer_size
+                0x00000d12        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000d12                action_model_get_temp_buffer_size
+ .text.action_model_get_temp_index
+                0x00000d16        0x6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000d16                action_model_get_temp_index
+ .text.action_model_get_action_config
+                0x00000d1c        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000d1c                action_model_get_action_config
+ .text.action_model_get_frequency
+                0x00000d20       0x14 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000d20                action_model_get_frequency
+ .text.action_model_get_keystrokes_count
+                0x00000d34        0x6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000d34                action_model_get_keystrokes_count
+ .text.action_model_get_keystroke
+                0x00000d3a       0x3e build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000d3a                action_model_get_keystroke
+ .text.action_model_get_message
+                0x00000d78       0x12 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000d78                action_model_get_message
+ .text.action_model_set_color_up
+                0x00000d8a        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000d8a                action_model_set_color_up
+ .text.action_model_set_color_down
+                0x00000d8e        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000d8e                action_model_set_color_down
+ .text.action_model_set_message_index
+                0x00000d92        0x6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000d92                action_model_set_message_index
+ .text.action_model_set_keystroke_index
+                0x00000d98        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000d98                action_model_set_keystroke_index
+ .text.action_model_set_temp_index
+                0x00000d9c        0x6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000d9c                action_model_set_temp_index
+ .text.action_model_set_action_config
+                0x00000da2        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000da2                action_model_set_action_config
+ .text.action_model_set_frequency
+                0x00000da6        0x6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000da6                action_model_set_frequency
+ .text.action_model_set_keystroke
+                0x00000dac       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000dac                action_model_set_keystroke
+ .text.action_model_append_keystroke
+                0x00000dc8       0x40 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000dc8                action_model_append_keystroke
+ .text.action_model_set_message
+                0x00000e08       0x4c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00000e08                action_model_set_message
+ .text.action_model_load_fields
+                0x00000e54      0x1cc build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .text.action_model_alloc_from_ff
+                0x00001020       0x2c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x00001020                action_model_alloc_from_ff
+ .text.action_model_save
+                0x0000104c      0x1b4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+                0x0000104c                action_model_save
+ .text.navigation_exit
+                0x00001200        0x6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .text.submenu_view_id
+                0x00001206        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ *fill*         0x0000120a        0x2 
+ .text.app_menu_exit_callback
+                0x0000120c       0x14 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .text.app_menu_enter_callback
+                0x00001220       0x14 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .text.app_menu_popup_done
+                0x00001234       0x24 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .text.app_menu_callback
+                0x00001258       0x18 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .text.app_menu_alloc
+                0x00001270       0x80 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+                0x00001270                app_menu_alloc
+ .text.app_menu_free
+                0x000012f0       0x5c build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+                0x000012f0                app_menu_free
+ .text.app_menu_add_item
+                0x0000134c       0x8c build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+                0x0000134c                app_menu_add_item
+ .text.app_menu_set_callback
+                0x000013d8        0x6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+                0x000013d8                app_menu_set_callback
+ *fill*         0x000013de        0x2 
+ .text.app_menu_show
+                0x000013e0       0xc4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+                0x000013e0                app_menu_show
+ .text.backlight_alloc
+                0x000014a4       0x14 build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+                0x000014a4                backlight_alloc
+ .text.backlight_on
+                0x000014b8       0x38 build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+                0x000014b8                backlight_on
+ .text.backlight_off
+                0x000014f0       0x38 build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+                0x000014f0                backlight_off
+ .text.backlight_free
+                0x00001528       0x24 build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+                0x00001528                backlight_free
+ .text.hid_ble_connection_status_callback
+                0x0000154c       0x12 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .text.hid_ble_set_state_callback
+                0x0000155e        0x6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x0000155e                hid_ble_set_state_callback
+ .text.hid_ble_is_connected
+                0x00001564        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x00001564                hid_ble_is_connected
+ .text.hid_usb_init
+                0x00001568       0xc4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x00001568                hid_usb_init
+ .text.hid_usb_set_state_callback
+                0x0000162c        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x0000162c                hid_usb_set_state_callback
+ .text.hid_usb_is_connected
+                0x00001638        0x8 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x00001638                hid_usb_is_connected
+ .text.hid_usb_kb_press
+                0x00001640        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x00001640                hid_usb_kb_press
+ .text.hid_usb_kb_release
+                0x0000164c        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x0000164c                hid_usb_kb_release
+ .text.hid_usb_consumer_press
+                0x00001658        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x00001658                hid_usb_consumer_press
+ .text.hid_usb_consumer_release
+                0x00001664        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x00001664                hid_usb_consumer_release
+ .text.hid_usb_release_all
+                0x00001670       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x00001670                hid_usb_release_all
+ .text.hid_usb_get_led_state
+                0x0000168c        0x8 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x0000168c                hid_usb_get_led_state
+ .text.hid_ble_init
+                0x00001694       0x88 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x00001694                hid_ble_init
+ .text.hid_ble_deinit
+                0x0000171c       0x64 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x0000171c                hid_ble_deinit
+ .text.hid_ble_kb_press
+                0x00001780        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x00001780                hid_ble_kb_press
+ .text.hid_ble_kb_release
+                0x0000178c        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x0000178c                hid_ble_kb_release
+ .text.hid_ble_consumer_press
+                0x00001798        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x00001798                hid_ble_consumer_press
+ .text.hid_ble_consumer_release
+                0x000017a4        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x000017a4                hid_ble_consumer_release
+ .text.hid_ble_release_all
+                0x000017b0       0x20 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x000017b0                hid_ble_release_all
+ .text.hid_ble_get_led_state
+                0x000017d0       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x000017d0                hid_ble_get_led_state
+ .text.hid_usb_deinit
+                0x000017ec       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x000017ec                hid_usb_deinit
+ .text.bad_usb_hid_get_interface
+                0x00001808       0x18 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+                0x00001808                bad_usb_hid_get_interface
+ .text.button_monitor_get_pin_status
+                0x00001820       0x60 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .text.button_monitor_worker
+                0x00001880       0x70 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .text.button_monitor_alloc
+                0x000018f0       0x80 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+                0x000018f0                button_monitor_alloc
+ .text.button_monitor_free
+                0x00001970       0x58 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+                0x00001970                button_monitor_free
+ .text.button_monitor_set_callback
+                0x000019c8        0x6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+                0x000019c8                button_monitor_set_callback
+ .text.button_monitor_get_last_status
+                0x000019ce        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+                0x000019ce                button_monitor_get_last_status
+ *fill*         0x000019d2        0x2 
+ .text.flipboard_cb_model_load
+                0x000019d4        0x8 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .text.flipboard_alloc
+                0x000019dc      0x1b4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+                0x000019dc                flipboard_alloc
+ .text.flipboard_free
+                0x00001b90       0x64 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+                0x00001b90                flipboard_free
+ .text.flipboard_get_model
+                0x00001bf4        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+                0x00001bf4                flipboard_get_model
+ .text.flipboard_get_view_dispatcher
+                0x00001bf8        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+                0x00001bf8                flipboard_get_view_dispatcher
+ .text.flipboard_navigation_show_app_menu
+                0x00001bfc        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+                0x00001bfc                flipboard_navigation_show_app_menu
+ .text.ensure_dir_exists
+                0x00001c00       0x3c build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .text.flipboard_model_save
+                0x00001c3c      0x14c build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+                0x00001c3c                flipboard_model_save
+ .text.flipboard_model_load
+                0x00001d88      0x1a8 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+                0x00001d88                flipboard_model_load
+ .text.flipboard_model_alloc
+                0x00001f30       0x68 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x00001f30                flipboard_model_alloc
+ .text.flipboard_model_free
+                0x00001f98       0x74 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x00001f98                flipboard_model_free
+ .text.flipboard_model_get_name
+                0x0000200c        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x0000200c                flipboard_model_get_name
+ .text.flipboard_model_get_single_button_mode
+                0x00002010        0x6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x00002010                flipboard_model_get_single_button_mode
+ .text.flipboard_model_get_action_model_fields
+                0x00002016        0x6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x00002016                flipboard_model_get_action_model_fields
+ .text.flipboard_model_get_action_model
+                0x0000201c        0x6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x0000201c                flipboard_model_get_action_model
+ .text.flipboard_model_get_button_monitor
+                0x00002022        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x00002022                flipboard_model_get_button_monitor
+ .text.flipboard_model_get_keyboard
+                0x00002026        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x00002026                flipboard_model_get_keyboard
+ .text.flipboard_model_get_leds
+                0x0000202a        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x0000202a                flipboard_model_get_leds
+ *fill*         0x0000202e        0x2 
+ .text.flipboard_model_update_gui
+                0x00002030       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x00002030                flipboard_model_update_gui
+ .text.flipboard_model_tick
+                0x00002064        0x8 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .text.flipboard_model_set_gui_refresh_speed_ms
+                0x0000206c       0x58 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x0000206c                flipboard_model_set_gui_refresh_speed_ms
+ .text.flipboard_model_set_action_model
+                0x000020c4        0x6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x000020c4                flipboard_model_set_action_model
+ *fill*         0x000020ca        0x2 
+ .text.flipboard_model_set_button_monitor
+                0x000020cc       0x38 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x000020cc                flipboard_model_set_button_monitor
+ .text.flipboard_model_play_tone
+                0x00002104       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x00002104                flipboard_model_play_tone
+ .text.flipboard_model_set_colors
+                0x00002120       0xb0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x00002120                flipboard_model_set_colors
+ .text.flipboard_model_send_text
+                0x000021d0       0x30 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x000021d0                flipboard_model_send_text
+ .text.flipboard_model_send_keystrokes
+                0x00002200      0x158 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x00002200                flipboard_model_send_keystrokes
+ .text.flipboard_model_reduce
+                0x00002358       0x28 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x00002358                flipboard_model_reduce
+ .text.flipboard_model_set_defaults_callback
+                0x00002380        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x00002380                flipboard_model_set_defaults_callback
+ .text.flipboard_model_set_defaults
+                0x00002384        0x8 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+                0x00002384                flipboard_model_set_defaults
+ .text.flipboard_keyboard_alloc
+                0x0000238c       0x20 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+                0x0000238c                flipboard_keyboard_alloc
+ .text.flipboard_keyboard_attach
+                0x000023ac       0x8c build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+                0x000023ac                flipboard_keyboard_attach
+ .text.flipboard_keyboard_detatch
+                0x00002438       0x16 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+                0x00002438                flipboard_keyboard_detatch
+ *fill*         0x0000244e        0x2 
+ .text.flipboard_keyboard_free
+                0x00002450       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+                0x00002450                flipboard_keyboard_free
+ .text.flipboard_keyboard_send_char
+                0x0000246c       0x50 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+                0x0000246c                flipboard_keyboard_send_char
+ .text.flipboard_keyboard_send_text
+                0x000024bc       0x38 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+                0x000024bc                flipboard_keyboard_send_text
+ .text.flipboard_keyboard_send_keycode
+                0x000024f4       0x44 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+                0x000024f4                flipboard_keyboard_send_keycode
+ .text.flipboard_keyboard_release_keycode
+                0x00002538       0x44 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+                0x00002538                flipboard_keyboard_release_keycode
+ .text.flipboard_keyboard_release_all
+                0x0000257c       0x3c build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+                0x0000257c                flipboard_keyboard_release_all
+ .text.flipboard_keyboard_get_inteface
+                0x000025b8        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+                0x000025b8                flipboard_keyboard_get_inteface
+ .text.keystroke_selector_model_get_key
+                0x000025bc      0x14c build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .text.keystroke_selector_draw_callback
+                0x00002708      0x164 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .text.keystroke_selector_input_callback
+                0x0000286c      0x13c build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .text.keystroke_selector_alloc
+                0x000029a8       0xac build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+                0x000029a8                keystroke_selector_alloc
+ .text.keystroke_selector_free
+                0x00002a54       0x58 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+                0x00002a54                keystroke_selector_free
+ .text.keystroke_selector_get_view
+                0x00002aac        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+                0x00002aac                keystroke_selector_get_view
+ .text.keystroke_selector_set_key
+                0x00002ab0      0x10c build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+                0x00002ab0                keystroke_selector_set_key
+ .text.keystroke_selector_set_callback
+                0x00002bbc       0x28 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+                0x00002bbc                keystroke_selector_set_callback
+ .text.led_driver_add_period
+                0x00002be4       0x74 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .text.led_driver_alloc
+                0x00002c58       0x88 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+                0x00002c58                led_driver_alloc
+ .text.led_driver_free
+                0x00002ce0       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+                0x00002ce0                led_driver_free
+ .text.led_driver_set_led
+                0x00002cfc       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+                0x00002cfc                led_driver_set_led
+ *fill*         0x00002d16        0x2 
+ .text.led_driver_transmit
+                0x00002d18      0x214 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+                0x00002d18                led_driver_transmit
+ .text.flipboard_leds_alloc
+                0x00002f2c       0x44 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+                0x00002f2c                flipboard_leds_alloc
+ .text.flipboard_leds_reset
+                0x00002f70        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+                0x00002f70                flipboard_leds_reset
+ .text.flipboard_leds_set
+                0x00002f7c       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+                0x00002f7c                flipboard_leds_set
+ *fill*         0x00002f96        0x2 
+ .text.flipboard_leds_update
+                0x00002f98       0x4c build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+                0x00002f98                flipboard_leds_update
+ .text.flipboard_leds_free
+                0x00002fe4       0x50 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+                0x00002fe4                flipboard_leds_free
+ .text.menu_0   0x00003034        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .text.menu_1   0x00003038        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .text.menu_2   0x0000303c        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .text.menu_3   0x00003040        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .text.menu_4   0x00003044        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .text.menu_5   0x00003048        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .text.menu_6   0x0000304c        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .text.menu_7   0x00003050        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .text.menu_8   0x00003054        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .text.menu_9   0x00003058        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .text.menu_10  0x0000305c        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .text.menu_11  0x00003060        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .text.menu_12  0x00003064        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .text.menu_13  0x00003068        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .text.menu_14  0x0000306c        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .text.get_menu_callback
+                0x00003070       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+                0x00003070                get_menu_callback
+ .text.resources_alloc
+                0x000030a4       0x20 build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+                0x000030a4                resources_alloc
+ .text.resources_acquire
+                0x000030c4       0x18 build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+                0x000030c4                resources_acquire
+ .text.resources_release
+                0x000030dc       0x18 build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+                0x000030dc                resources_release
+ .text.resources_free
+                0x000030f4       0x20 build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+                0x000030f4                resources_free
+ .text.speaker_worker
+                0x00003114       0xa4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .text.speaker_alloc
+                0x000031b8       0x44 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+                0x000031b8                speaker_alloc
+ .text.speaker_free
+                0x000031fc       0x2c build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+                0x000031fc                speaker_free
+ .text.speaker_set_frequency
+                0x00003228        0x6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+                0x00003228                speaker_set_frequency
+ .text.flipboard_view_flip_keyboard_input
+                0x0000322e        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+                0x0000322e                flipboard_view_flip_keyboard_input
+ *fill*         0x00003232        0x2 
+ .text.flipboard_view_flip_keyboard_draw
+                0x00003234      0x140 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+                0x00003234                flipboard_view_flip_keyboard_draw
+ .text.flipboard_debounced_switch
+                0x00003374       0xa4 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+                0x00003374                flipboard_debounced_switch
+ .text.flipboard_enter_callback
+                0x00003418       0x50 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+                0x00003418                flipboard_enter_callback
+ .text.flipboard_exit_callback
+                0x00003468       0x48 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+                0x00003468                flipboard_exit_callback
+ .text.get_primary_view
+                0x000034b0       0x90 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+                0x000034b0                get_primary_view
+ .text.custom_event_handler
+                0x00003540       0xf0 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .text.flipboard_defaults
+                0x00003630      0x154 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .text.flipboard_keyboard_app
+                0x00003784       0x8c build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+                0x00003784                flipboard_keyboard_app
+ .text.ble_profile_hid_get_config
+                0x00003810       0x98 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_stop
+                0x000038a8       0x58 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_start
+                0x00003900       0x78 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_kb_press
+                0x00003978       0x54 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00003978                ble_profile_hid_kb_press
+ .text.ble_profile_hid_kb_release
+                0x000039cc       0x58 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x000039cc                ble_profile_hid_kb_release
+ .text.ble_profile_hid_kb_release_all
+                0x00003a24       0x44 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00003a24                ble_profile_hid_kb_release_all
+ .text.ble_profile_hid_consumer_key_press
+                0x00003a68       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00003a68                ble_profile_hid_consumer_key_press
+ .text.ble_profile_hid_consumer_key_release
+                0x00003aa4       0x40 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00003aa4                ble_profile_hid_consumer_key_release
+ .text.ble_profile_hid_consumer_key_release_all
+                0x00003ae4       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00003ae4                ble_profile_hid_consumer_key_release_all
+ .text.ble_svc_hid_char_desc_data_callback
+                0x00003b20        0xc build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .text.ble_svc_hid_report_data_callback
+                0x00003b2c       0x12 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .text.ble_svc_hid_event_handler
+                0x00003b3e       0x26 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .text.ble_svc_hid_start
+                0x00003b64      0x138 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00003b64                ble_svc_hid_start
+ .text.ble_svc_hid_update_report_map
+                0x00003c9c       0x20 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00003c9c                ble_svc_hid_update_report_map
+ .text.ble_svc_hid_update_input_report
+                0x00003cbc       0x20 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00003cbc                ble_svc_hid_update_input_report
+ .text.ble_svc_hid_update_info
+                0x00003cdc       0x1c build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00003cdc                ble_svc_hid_update_info
+ .text.ble_svc_hid_stop
+                0x00003cf8       0x80 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00003cf8                ble_svc_hid_stop
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00003d78     0x1eb0
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.keystroke_item_index.str1.1
+                0x00003d78       0x20 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .rodata.keystroke_count_changed.str1.1
+                0x00003d98       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .rodata.populate_variable_item_list.str1.1
+                0x00003db4       0x9a build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .rodata.item_callback.str1.1
+                0x00003e4e       0x44 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .rodata.item_clicked.str1.1
+                0x00003e92      0x10d build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .rodata.action_config_alloc.str1.1
+                0x00003f9f       0x41 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .rodata.str1.1
+                0x00003fe0      0x97b build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ *fill*         0x0000495b        0x1 
+ .rodata.color_values
+                0x0000495c       0x28 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .rodata.color_names
+                0x00004984       0x28 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .rodata.action_model_load_has_id.str1.1
+                0x000049ac       0x1f build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .rodata.action_model_load_fields.str1.1
+                0x000049cb       0x59 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .rodata.action_model_save.str1.1
+                0x00004a24        0x1 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .rodata.app_menu_show.str1.1
+                0x00004a25       0x32 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .rodata.backlight_on.str1.1
+                0x00004a57        0xd build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .rodata.hid_usb_init.str1.1
+                0x00004a64       0x44 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .rodata.hid_ble_init.str1.1
+                0x00004aa8       0x16 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .rodata.hid_ble_get_led_state.str1.1
+                0x00004abe       0x31 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ *fill*         0x00004aef        0x1 
+ .rodata.hid_api_ble
+                0x00004af0       0x28 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .rodata.str1.1
+                0x00004b18        0x7 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ *fill*         0x00004b1f        0x1 
+ .rodata.ble_hid_params
+                0x00004b20        0x8 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .rodata.hid_api_usb
+                0x00004b28       0x28 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .rodata.button_monitor_worker.str1.1
+                0x00004b50        0xd build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .rodata.button_monitor_alloc.str1.1
+                0x00004b5d       0x14 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .rodata.flipboard_alloc.str1.1
+                0x00004b71       0x78 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .rodata.ensure_dir_exists.str1.1
+                0x00004be9       0x29 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .rodata.flipboard_model_save.str1.1
+                0x00004c12       0xe6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .rodata.flipboard_model_load.str1.1
+                0x00004cf8       0x5b build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .rodata.flipboard_model_update_gui.str1.1
+                0x00004d53        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .rodata.flipboard_keyboard_attach.str1.1
+                0x00004d57       0x45 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .rodata.flipboard_keyboard_send_keycode.str1.1
+                0x00004d9c       0x14 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .rodata.flipboard_keyboard_release_keycode.str1.1
+                0x00004db0       0x14 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .rodata.flipboard_keyboard_release_all.str1.1
+                0x00004dc4       0x11 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ *fill*         0x00004dd5        0x1 
+ .rodata.hid_asciimap
+                0x00004dd6      0x100 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .rodata.keystroke_selector_model_get_key.str1.1
+                0x00004ed6       0x35 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .rodata.led_driver_add_period.str1.1
+                0x00004f0b       0x24 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .rodata.led_driver_transmit.str1.1
+                0x00004f2f       0x29 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .rodata.get_menu_callback.str1.1
+                0x00004f58       0x21 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ *fill*         0x00004f79        0x3 
+ .rodata.CSWTCH.16
+                0x00004f7c       0x38 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .rodata.speaker_alloc.str1.1
+                0x00004fb4       0x11 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .rodata.flipboard_view_flip_keyboard_draw.str1.1
+                0x00004fc5       0x4a build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .rodata.flipboard_debounced_switch.str1.1
+                0x0000500f       0x35 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .rodata.flipboard_defaults.str1.1
+                0x00005044       0x85 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .rodata.flipboard_keyboard_app.str1.1
+                0x000050c9      0x12a build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ *fill*         0x000051f3        0x1 
+ .rodata.I_up_5x10
+                0x000051f4        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000051f4                I_up_5x10
+ .rodata.I_underscore_5x10
+                0x00005200        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005200                I_underscore_5x10
+ .rodata.I_tab_15x10
+                0x0000520c        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x0000520c                I_tab_15x10
+ .rodata.I_sysreq_25x10
+                0x00005218        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005218                I_sysreq_25x10
+ .rodata.I_right_5x10
+                0x00005224        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005224                I_right_5x10
+ .rodata.I_qr_github
+                0x00005230        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005230                I_qr_github
+ .rodata.I_power_25x10
+                0x0000523c        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x0000523c                I_power_25x10
+ .rodata.I_pgup_15x10
+                0x00005248        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005248                I_pgup_15x10
+ .rodata.I_pgdn_15x10
+                0x00005254        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005254                I_pgdn_15x10
+ .rodata.I_left_5x10
+                0x00005260        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005260                I_left_5x10
+ .rodata.I_home_15x10
+                0x0000526c        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x0000526c                I_home_15x10
+ .rodata.I_gui_5x10
+                0x00005278        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005278                I_gui_5x10
+ .rodata.I_flippy
+                0x00005284        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005284                I_flippy
+ .rodata.I_fb_Up_25x27
+                0x00005290        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005290                I_fb_Up_25x27
+ .rodata.I_fb_Down_hvr_25x27
+                0x0000529c        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x0000529c                I_fb_Down_hvr_25x27
+ .rodata.I_f9_5x10
+                0x000052a8        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000052a8                I_f9_5x10
+ .rodata.I_f8_5x10
+                0x000052b4        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000052b4                I_f8_5x10
+ .rodata.I_f7_5x10
+                0x000052c0        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000052c0                I_f7_5x10
+ .rodata.I_f6_5x10
+                0x000052cc        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000052cc                I_f6_5x10
+ .rodata.I_f5_5x10
+                0x000052d8        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000052d8                I_f5_5x10
+ .rodata.I_f4_5x10
+                0x000052e4        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000052e4                I_f4_5x10
+ .rodata.I_f3_5x10
+                0x000052f0        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000052f0                I_f3_5x10
+ .rodata.I_f2_5x10
+                0x000052fc        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000052fc                I_f2_5x10
+ .rodata.I_f1_5x10
+                0x00005308        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005308                I_f1_5x10
+ .rodata.I_f12_5x10
+                0x00005314        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005314                I_f12_5x10
+ .rodata.I_f11_5x10
+                0x00005320        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005320                I_f11_5x10
+ .rodata.I_f10_5x10
+                0x0000532c        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x0000532c                I_f10_5x10
+ .rodata.I_enter_25x10
+                0x00005338        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005338                I_enter_25x10
+ .rodata.I_end_15x10
+                0x00005344        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005344                I_end_15x10
+ .rodata.I_down_5x10
+                0x00005350        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005350                I_down_5x10
+ .rodata.I_delfwsh_5x10
+                0x0000535c        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x0000535c                I_delfwsh_5x10
+ .rodata.I_delfw_5x10
+                0x00005368        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005368                I_delfw_5x10
+ .rodata.I_control_15x10
+                0x00005374        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005374                I_control_15x10
+ .rodata.I_backspace_15x10
+                0x00005380        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005380                I_backspace_15x10
+ .rodata.I_alt_15x10
+                0x0000538c        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x0000538c                I_alt_15x10
+ .rodata.I_Shift_On_15x10
+                0x00005398        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005398                I_Shift_On_15x10
+ .rodata.I_Shift_15x10
+                0x000053a4        0xc build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000053a4                I_Shift_15x10
+ .rodata._I_up_5x10
+                0x000053b0        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000053b0                _I_up_5x10
+ .rodata._I_up_5x10_0
+                0x000053b4        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000053b4                _I_up_5x10_0
+ *fill*         0x000053bf        0x1 
+ .rodata._I_underscore_5x10
+                0x000053c0        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000053c0                _I_underscore_5x10
+ .rodata._I_underscore_5x10_0
+                0x000053c4        0x8 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000053c4                _I_underscore_5x10_0
+ .rodata._I_tab_15x10
+                0x000053cc        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000053cc                _I_tab_15x10
+ .rodata._I_tab_15x10_0
+                0x000053d0       0x15 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000053d0                _I_tab_15x10_0
+ *fill*         0x000053e5        0x3 
+ .rodata._I_sysreq_25x10
+                0x000053e8        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000053e8                _I_sysreq_25x10
+ .rodata._I_sysreq_25x10_0
+                0x000053ec       0x29 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000053ec                _I_sysreq_25x10_0
+ *fill*         0x00005415        0x3 
+ .rodata._I_right_5x10
+                0x00005418        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005418                _I_right_5x10
+ .rodata._I_right_5x10_0
+                0x0000541c        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x0000541c                _I_right_5x10_0
+ *fill*         0x00005427        0x1 
+ .rodata._I_qr_github
+                0x00005428        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005428                _I_qr_github
+ .rodata._I_qr_github_0
+                0x0000542c      0x241 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x0000542c                _I_qr_github_0
+ *fill*         0x0000566d        0x3 
+ .rodata._I_power_25x10
+                0x00005670        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005670                _I_power_25x10
+ .rodata._I_power_25x10_0
+                0x00005674       0x21 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005674                _I_power_25x10_0
+ *fill*         0x00005695        0x3 
+ .rodata._I_pgup_15x10
+                0x00005698        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005698                _I_pgup_15x10
+ .rodata._I_pgup_15x10_0
+                0x0000569c       0x15 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x0000569c                _I_pgup_15x10_0
+ *fill*         0x000056b1        0x3 
+ .rodata._I_pgdn_15x10
+                0x000056b4        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000056b4                _I_pgdn_15x10
+ .rodata._I_pgdn_15x10_0
+                0x000056b8       0x15 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000056b8                _I_pgdn_15x10_0
+ *fill*         0x000056cd        0x3 
+ .rodata._I_left_5x10
+                0x000056d0        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000056d0                _I_left_5x10
+ .rodata._I_left_5x10_0
+                0x000056d4        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000056d4                _I_left_5x10_0
+ *fill*         0x000056df        0x1 
+ .rodata._I_home_15x10
+                0x000056e0        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000056e0                _I_home_15x10
+ .rodata._I_home_15x10_0
+                0x000056e4       0x15 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000056e4                _I_home_15x10_0
+ *fill*         0x000056f9        0x3 
+ .rodata._I_gui_5x10
+                0x000056fc        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000056fc                _I_gui_5x10
+ .rodata._I_gui_5x10_0
+                0x00005700        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005700                _I_gui_5x10_0
+ *fill*         0x0000570b        0x1 
+ .rodata._I_flippy
+                0x0000570c        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x0000570c                _I_flippy
+ .rodata._I_flippy_0
+                0x00005710      0x100 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005710                _I_flippy_0
+ .rodata._I_fb_Up_25x27
+                0x00005810        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005810                _I_fb_Up_25x27
+ .rodata._I_fb_Up_25x27_0
+                0x00005814       0x48 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005814                _I_fb_Up_25x27_0
+ .rodata._I_fb_Down_hvr_25x27
+                0x0000585c        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x0000585c                _I_fb_Down_hvr_25x27
+ .rodata._I_fb_Down_hvr_25x27_0
+                0x00005860       0x3e build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005860                _I_fb_Down_hvr_25x27_0
+ *fill*         0x0000589e        0x2 
+ .rodata._I_f9_5x10
+                0x000058a0        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000058a0                _I_f9_5x10
+ .rodata._I_f9_5x10_0
+                0x000058a4        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000058a4                _I_f9_5x10_0
+ *fill*         0x000058af        0x1 
+ .rodata._I_f8_5x10
+                0x000058b0        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000058b0                _I_f8_5x10
+ .rodata._I_f8_5x10_0
+                0x000058b4        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000058b4                _I_f8_5x10_0
+ *fill*         0x000058bf        0x1 
+ .rodata._I_f7_5x10
+                0x000058c0        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000058c0                _I_f7_5x10
+ .rodata._I_f7_5x10_0
+                0x000058c4        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000058c4                _I_f7_5x10_0
+ *fill*         0x000058cf        0x1 
+ .rodata._I_f6_5x10
+                0x000058d0        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000058d0                _I_f6_5x10
+ .rodata._I_f6_5x10_0
+                0x000058d4        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000058d4                _I_f6_5x10_0
+ *fill*         0x000058df        0x1 
+ .rodata._I_f5_5x10
+                0x000058e0        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000058e0                _I_f5_5x10
+ .rodata._I_f5_5x10_0
+                0x000058e4        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000058e4                _I_f5_5x10_0
+ *fill*         0x000058ef        0x1 
+ .rodata._I_f4_5x10
+                0x000058f0        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000058f0                _I_f4_5x10
+ .rodata._I_f4_5x10_0
+                0x000058f4        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000058f4                _I_f4_5x10_0
+ *fill*         0x000058ff        0x1 
+ .rodata._I_f3_5x10
+                0x00005900        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005900                _I_f3_5x10
+ .rodata._I_f3_5x10_0
+                0x00005904        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005904                _I_f3_5x10_0
+ *fill*         0x0000590f        0x1 
+ .rodata._I_f2_5x10
+                0x00005910        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005910                _I_f2_5x10
+ .rodata._I_f2_5x10_0
+                0x00005914        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005914                _I_f2_5x10_0
+ *fill*         0x0000591f        0x1 
+ .rodata._I_f1_5x10
+                0x00005920        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005920                _I_f1_5x10
+ .rodata._I_f1_5x10_0
+                0x00005924        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005924                _I_f1_5x10_0
+ *fill*         0x0000592f        0x1 
+ .rodata._I_f12_5x10
+                0x00005930        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005930                _I_f12_5x10
+ .rodata._I_f12_5x10_0
+                0x00005934        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005934                _I_f12_5x10_0
+ *fill*         0x0000593f        0x1 
+ .rodata._I_f11_5x10
+                0x00005940        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005940                _I_f11_5x10
+ .rodata._I_f11_5x10_0
+                0x00005944        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005944                _I_f11_5x10_0
+ *fill*         0x0000594f        0x1 
+ .rodata._I_f10_5x10
+                0x00005950        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005950                _I_f10_5x10
+ .rodata._I_f10_5x10_0
+                0x00005954        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005954                _I_f10_5x10_0
+ *fill*         0x0000595f        0x1 
+ .rodata._I_enter_25x10
+                0x00005960        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005960                _I_enter_25x10
+ .rodata._I_enter_25x10_0
+                0x00005964       0x22 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005964                _I_enter_25x10_0
+ *fill*         0x00005986        0x2 
+ .rodata._I_end_15x10
+                0x00005988        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005988                _I_end_15x10
+ .rodata._I_end_15x10_0
+                0x0000598c       0x12 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x0000598c                _I_end_15x10_0
+ *fill*         0x0000599e        0x2 
+ .rodata._I_down_5x10
+                0x000059a0        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000059a0                _I_down_5x10
+ .rodata._I_down_5x10_0
+                0x000059a4        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000059a4                _I_down_5x10_0
+ *fill*         0x000059af        0x1 
+ .rodata._I_delfwsh_5x10
+                0x000059b0        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000059b0                _I_delfwsh_5x10
+ .rodata._I_delfwsh_5x10_0
+                0x000059b4        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000059b4                _I_delfwsh_5x10_0
+ *fill*         0x000059bf        0x1 
+ .rodata._I_delfw_5x10
+                0x000059c0        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000059c0                _I_delfw_5x10
+ .rodata._I_delfw_5x10_0
+                0x000059c4        0xb build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000059c4                _I_delfw_5x10_0
+ *fill*         0x000059cf        0x1 
+ .rodata._I_control_15x10
+                0x000059d0        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000059d0                _I_control_15x10
+ .rodata._I_control_15x10_0
+                0x000059d4       0x15 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000059d4                _I_control_15x10_0
+ *fill*         0x000059e9        0x3 
+ .rodata._I_backspace_15x10
+                0x000059ec        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000059ec                _I_backspace_15x10
+ .rodata._I_backspace_15x10_0
+                0x000059f0       0x15 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x000059f0                _I_backspace_15x10_0
+ *fill*         0x00005a05        0x3 
+ .rodata._I_alt_15x10
+                0x00005a08        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005a08                _I_alt_15x10
+ .rodata._I_alt_15x10_0
+                0x00005a0c       0x15 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005a0c                _I_alt_15x10_0
+ *fill*         0x00005a21        0x3 
+ .rodata._I_Shift_On_15x10
+                0x00005a24        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005a24                _I_Shift_On_15x10
+ .rodata._I_Shift_On_15x10_0
+                0x00005a28       0x15 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005a28                _I_Shift_On_15x10_0
+ *fill*         0x00005a3d        0x3 
+ .rodata._I_Shift_15x10
+                0x00005a40        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005a40                _I_Shift_15x10
+ .rodata._I_Shift_15x10_0
+                0x00005a44       0x15 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+                0x00005a44                _I_Shift_15x10_0
+ .rodata.ble_profile_hid_get_config.str1.1
+                0x00005a59       0x10 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ *fill*         0x00005a69        0x3 
+ .rodata.profile_callbacks
+                0x00005a6c        0xc build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .rodata.ble_profile_hid_report_map_data
+                0x00005a78       0x8a build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .rodata.str1.1
+                0x00005b02       0x42 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .rodata.ble_svc_hid_report_template
+                0x00005b44       0x24 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .rodata.ble_svc_hid_char_descr_template
+                0x00005b68       0x20 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .rodata.ble_svc_hid_chars
+                0x00005b88       0x90 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .rodata.ble_svc_hid_uuid
+                0x00005c18       0x10 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.data           0x00005c28     0x1528
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.tone_names
+                0x00005c28       0xf4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+                0x00005c28                tone_names
+ .data.tone_values
+                0x00005d1c       0xf4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+                0x00005d1c                tone_values
+ .data.keystroke_count_names
+                0x00005e10      0x3ec build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+                0x00005e10                keystroke_count_names
+ .data.keystroke_names
+                0x000061fc      0x3fc build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+                0x000061fc                keystroke_names
+ .data.keystroke_values
+                0x000065f8      0x1fe build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+                0x000065f8                keystroke_values
+ .data.initial_load.0
+                0x000067f6        0x1 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ *fill*         0x000067f7        0x1 
+ .data.keys     0x000067f8      0x480 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+                0x000067f8                keys
+ .data.shift_keys
+                0x00006c78      0x480 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+                0x00006c78                shift_keys
+ .data.ble_profile_hid
+                0x000070f8        0x4 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x000070f8                ble_profile_hid
+ .data.template_config
+                0x000070fc       0x54 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+
+.bss            0x00007150        0x4
+ *(.bss)
+ *(.bss*)
+ .bss.global_view_dispatcher
+                0x00007150        0x4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x8f0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xd8 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_aranges
+                0x000000d8      0x110 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_aranges
+                0x000001e8       0x78 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_aranges
+                0x00000260       0x38 build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .debug_aranges
+                0x00000298       0xd0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_aranges
+                0x00000368       0x48 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .debug_aranges
+                0x000003b0       0x60 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .debug_aranges
+                0x00000410       0x30 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .debug_aranges
+                0x00000440       0xe8 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_aranges
+                0x00000528       0x70 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_aranges
+                0x00000598       0x58 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .debug_aranges
+                0x000005f0       0x48 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .debug_aranges
+                0x00000638       0x50 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .debug_aranges
+                0x00000688       0x98 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_aranges
+                0x00000720       0x38 build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+ .debug_aranges
+                0x00000758       0x40 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .debug_aranges
+                0x00000798       0x60 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .debug_aranges
+                0x000007f8       0x18 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+ .debug_aranges
+                0x00000810       0x88 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_aranges
+                0x00000898       0x58 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x145ac
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x28b9 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_info    0x000028b9     0x1618 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_info    0x00003ed1      0xde2 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_info    0x00004cb3      0x595 build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .debug_info    0x00005248     0x1d6d build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_info    0x00006fb5      0xaea build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .debug_info    0x00007a9f      0xeb6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .debug_info    0x00008955      0xd9a build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .debug_info    0x000096ef     0x1674 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_info    0x0000ad63      0xa92 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_info    0x0000b7f5     0x15a6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .debug_info    0x0000cd9b     0x182d build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .debug_info    0x0000e5c8      0x8fe build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .debug_info    0x0000eec6      0x417 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_info    0x0000f2dd      0x366 build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+ .debug_info    0x0000f643      0x682 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .debug_info    0x0000fcc5     0x1dce build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .debug_info    0x00011a93      0xa33 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+ .debug_info    0x000124c6     0x1333 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_info    0x000137f9      0xdb3 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_abbrev   0x00000000     0x4020
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x489 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_abbrev  0x00000489      0x3e4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_abbrev  0x0000086d      0x38c build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_abbrev  0x00000bf9      0x23f build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .debug_abbrev  0x00000e38      0x40e build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_abbrev  0x00001246      0x38c build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .debug_abbrev  0x000015d2      0x2a5 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .debug_abbrev  0x00001877      0x24d build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .debug_abbrev  0x00001ac4      0x40d build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_abbrev  0x00001ed1      0x326 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_abbrev  0x000021f7      0x491 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .debug_abbrev  0x00002688      0x46e build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .debug_abbrev  0x00002af6      0x31b build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .debug_abbrev  0x00002e11      0x113 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_abbrev  0x00002f24      0x1a4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+ .debug_abbrev  0x000030c8      0x2b4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .debug_abbrev  0x0000337c      0x3e3 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .debug_abbrev  0x0000375f       0xbe build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+ .debug_abbrev  0x0000381d      0x3a5 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_abbrev  0x00003bc2      0x45e build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_line     0x00000000     0x8e96
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x425 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.message_updated
+                0x00000425       0x4c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.message1_updated
+                0x00000471       0x17 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.message2_updated
+                0x00000488       0x17 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.message4_updated
+                0x0000049f       0x17 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.message3_updated
+                0x000004b6       0x17 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.tone_changed
+                0x000004cd       0x4c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.color_up_changed
+                0x00000519       0x4a build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.color_down_changed
+                0x00000563       0x4c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.keystroke_item_index
+                0x000005af       0x6d build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.keystroke_count_changed
+                0x0000061c       0x69 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.keystroke_changed
+                0x00000685       0x68 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.populate_variable_item_list_color.isra.0
+                0x000006ed       0x7c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.populate_variable_item_list
+                0x00000769      0x25f build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.item_callback
+                0x000009c8       0x85 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.item_clicked
+                0x00000a4d      0x197 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.keystroke_selector_callback
+                0x00000be4       0x60 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.action_config_alloc
+                0x00000c44      0x182 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.action_config_free
+                0x00000dc6       0x67 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.action_config_get_view
+                0x00000e2d       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.action_config_get_view_id
+                0x00000e47       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.action_config_register_dispatcher
+                0x00000e61       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.action_config_register_variable_item_list
+                0x00000e7d       0x39 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.action_config_register_text_input
+                0x00000eb6       0x39 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line.text.action_config_register_keystroke_selector
+                0x00000eef       0x40 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line_end
+                0x00000f2f        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_line    0x00000f2f      0x2b4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_load_has_id
+                0x000011e3       0x7d build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_alloc
+                0x00001260       0x78 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_free
+                0x000012d8       0x69 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_get_action_id
+                0x00001341       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_get_color_up
+                0x0000135b       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_get_color_down
+                0x00001375       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_get_message_index
+                0x0000138f       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_get_keystroke_index
+                0x000013a9       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_get_temp_buffer
+                0x000013c3       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_get_temp_buffer_size
+                0x000013dd       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_get_temp_index
+                0x000013f7       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_get_action_config
+                0x00001411       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_get_frequency
+                0x0000142b       0x27 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_get_keystrokes_count
+                0x00001452       0x24 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_get_keystroke
+                0x00001476       0x3a build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_get_message
+                0x000014b0       0x2f build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_set_color_up
+                0x000014df       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_set_color_down
+                0x000014fb       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_set_message_index
+                0x00001517       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_set_keystroke_index
+                0x00001533       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_set_temp_index
+                0x0000154f       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_set_action_config
+                0x0000156b       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_set_frequency
+                0x00001587       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_set_keystroke
+                0x000015a3       0x3e build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_append_keystroke
+                0x000015e1       0x5f build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_set_message
+                0x00001640       0x85 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_load_fields
+                0x000016c5      0x15a build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_alloc_from_ff
+                0x0000181f       0x42 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line.text.action_model_save
+                0x00001861      0x266 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line_end
+                0x00001ac7        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_line    0x00001ac7      0x360 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_line.text.navigation_exit
+                0x00001e27       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_line.text.submenu_view_id
+                0x00001e41       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_line.text.app_menu_exit_callback
+                0x00001e5b       0x18 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_line.text.app_menu_enter_callback
+                0x00001e73       0x17 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_line.text.app_menu_popup_done
+                0x00001e8a       0x28 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_line.text.app_menu_callback
+                0x00001eb2       0x53 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_line.text.app_menu_alloc
+                0x00001f05       0x77 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_line.text.app_menu_free
+                0x00001f7c       0xcd build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_line.text.app_menu_add_item
+                0x00002049       0x7c build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_line.text.app_menu_set_callback
+                0x000020c5       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_line.text.app_menu_show
+                0x000020e1       0x4e build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_line_end
+                0x0000212f        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_line    0x0000212f      0x2ef build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .debug_line.text.backlight_alloc
+                0x0000241e       0x2b build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .debug_line.text.backlight_on
+                0x00002449       0x42 build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .debug_line.text.backlight_off
+                0x0000248b       0x46 build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .debug_line.text.backlight_free
+                0x000024d1       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .debug_line_end
+                0x00002505        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .debug_line    0x00002505      0x456 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_ble_connection_status_callback
+                0x0000295b       0x36 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_ble_set_state_callback
+                0x00002991       0x21 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_ble_is_connected
+                0x000029b2       0x1f build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_usb_init
+                0x000029d1       0x71 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_usb_set_state_callback
+                0x00002a42       0x1e build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_usb_is_connected
+                0x00002a60       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_usb_kb_press
+                0x00002a7a       0x1b build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_usb_kb_release
+                0x00002a95       0x1b build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_usb_consumer_press
+                0x00002ab0       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_usb_consumer_release
+                0x00002acc       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_usb_release_all
+                0x00002ae8       0x37 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_usb_get_led_state
+                0x00002b1f       0x1b build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_ble_init
+                0x00002b3a       0x80 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_ble_deinit
+                0x00002bba       0x6a build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_ble_kb_press
+                0x00002c24       0x20 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_ble_kb_release
+                0x00002c44       0x20 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_ble_consumer_press
+                0x00002c64       0x20 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_ble_consumer_release
+                0x00002c84       0x20 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_ble_release_all
+                0x00002ca4       0x3d build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_ble_get_led_state
+                0x00002ce1       0x24 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.hid_usb_deinit
+                0x00002d05       0x2c build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line.text.bad_usb_hid_get_interface
+                0x00002d31       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line_end
+                0x00002d4b        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_line    0x00002d4b      0x36b build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .debug_line.text.button_monitor_get_pin_status
+                0x000030b6       0x92 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .debug_line.text.button_monitor_worker
+                0x00003148       0xb6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .debug_line.text.button_monitor_alloc
+                0x000031fe       0x58 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .debug_line.text.button_monitor_free
+                0x00003256       0x39 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .debug_line.text.button_monitor_set_callback
+                0x0000328f       0x1b build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .debug_line.text.button_monitor_get_last_status
+                0x000032aa       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .debug_line_end
+                0x000032c4        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .debug_line    0x000032c4      0x3d5 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .debug_line.text.flipboard_cb_model_load
+                0x00003699       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .debug_line.text.flipboard_alloc
+                0x000036b3       0xd8 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .debug_line.text.flipboard_free
+                0x0000378b       0x3c build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .debug_line.text.flipboard_get_model
+                0x000037c7       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .debug_line.text.flipboard_get_view_dispatcher
+                0x000037e1       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .debug_line.text.flipboard_navigation_show_app_menu
+                0x000037fb       0x1b build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .debug_line_end
+                0x00003816        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .debug_line    0x00003816      0x350 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .debug_line.text.ensure_dir_exists
+                0x00003b66       0x36 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .debug_line.text.flipboard_model_save
+                0x00003b9c       0xea build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .debug_line.text.flipboard_model_load
+                0x00003c86      0x18d build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .debug_line_end
+                0x00003e13        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .debug_line    0x00003e13      0x3c8 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_alloc
+                0x000041db       0xa3 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_free
+                0x0000427e       0x88 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_get_name
+                0x00004306       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_get_single_button_mode
+                0x00004320       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_get_action_model_fields
+                0x0000433a       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_get_action_model
+                0x00004354       0x1e build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_get_button_monitor
+                0x00004372       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_get_keyboard
+                0x0000438c       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_get_leds
+                0x000043a6       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_update_gui
+                0x000043c0       0x31 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_tick
+                0x000043f1       0x17 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_set_gui_refresh_speed_ms
+                0x00004408       0x63 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_set_action_model
+                0x0000446b       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_set_button_monitor
+                0x00004487       0x51 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_play_tone
+                0x000044d8       0x3d build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_set_colors
+                0x00004515      0x1e2 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_send_text
+                0x000046f7       0x57 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_send_keystrokes
+                0x0000474e      0x1dc build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_reduce
+                0x0000492a       0x61 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_set_defaults_callback
+                0x0000498b       0x1c build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line.text.flipboard_model_set_defaults
+                0x000049a7       0x24 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line_end
+                0x000049cb        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_line    0x000049cb      0x300 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_line.text.flipboard_keyboard_alloc
+                0x00004ccb       0x3c build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_line.text.flipboard_keyboard_attach
+                0x00004d07       0xc6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_line.text.flipboard_keyboard_detatch
+                0x00004dcd       0x3d build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_line.text.flipboard_keyboard_free
+                0x00004e0a       0x2b build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_line.text.flipboard_keyboard_send_char
+                0x00004e35       0x64 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_line.text.flipboard_keyboard_send_text
+                0x00004e99       0x56 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_line.text.flipboard_keyboard_send_keycode
+                0x00004eef       0x4b build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_line.text.flipboard_keyboard_release_keycode
+                0x00004f3a       0x47 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_line.text.flipboard_keyboard_release_all
+                0x00004f81       0x44 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_line.text.flipboard_keyboard_get_inteface
+                0x00004fc5       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_line_end
+                0x00004fdf        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_line    0x00004fdf      0x394 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .debug_line.text.keystroke_selector_model_get_key
+                0x00005373      0x186 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .debug_line.text.keystroke_selector_draw_callback
+                0x000054f9      0x176 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .debug_line.text.keystroke_selector_input_callback
+                0x0000566f      0x138 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .debug_line.text.keystroke_selector_alloc
+                0x000057a7       0x90 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .debug_line.text.keystroke_selector_free
+                0x00005837       0x80 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .debug_line.text.keystroke_selector_get_view
+                0x000058b7       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .debug_line.text.keystroke_selector_set_key
+                0x000058d1      0x163 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .debug_line.text.keystroke_selector_set_callback
+                0x00005a34       0x38 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .debug_line_end
+                0x00005a6c        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .debug_line    0x00005a6c      0x3b2 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .debug_line.text.led_driver_add_period
+                0x00005e1e       0xd2 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .debug_line.text.led_driver_alloc
+                0x00005ef0      0x10b build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .debug_line.text.led_driver_free
+                0x00005ffb       0x31 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .debug_line.text.led_driver_set_led
+                0x0000602c       0x3b build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .debug_line.text.led_driver_transmit
+                0x00006067      0x3a9 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .debug_line_end
+                0x00006410        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .debug_line    0x00006410      0x355 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .debug_line.text.flipboard_leds_alloc
+                0x00006765       0x62 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .debug_line.text.flipboard_leds_reset
+                0x000067c7       0x24 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .debug_line.text.flipboard_leds_set
+                0x000067eb       0x54 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .debug_line.text.flipboard_leds_update
+                0x0000683f       0x67 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .debug_line.text.flipboard_leds_free
+                0x000068a6       0x71 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .debug_line_end
+                0x00006917        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .debug_line    0x00006917      0x18c build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_line.text.menu_0
+                0x00006aa3       0x18 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_line.text.menu_1
+                0x00006abb       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_line.text.menu_2
+                0x00006ad5       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_line.text.menu_3
+                0x00006aef       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_line.text.menu_4
+                0x00006b09       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_line.text.menu_5
+                0x00006b23       0x1a build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_line.text.menu_6
+                0x00006b3d       0x1b build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_line.text.menu_7
+                0x00006b58       0x1b build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_line.text.menu_8
+                0x00006b73       0x1b build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_line.text.menu_9
+                0x00006b8e       0x1b build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_line.text.menu_10
+                0x00006ba9       0x1b build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_line.text.menu_11
+                0x00006bc4       0x1b build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_line.text.menu_12
+                0x00006bdf       0x1b build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_line.text.menu_13
+                0x00006bfa       0x1b build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_line.text.menu_14
+                0x00006c15       0x1b build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_line.text.get_menu_callback
+                0x00006c30       0x2f build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_line_end
+                0x00006c5f        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_line    0x00006c5f      0x28c build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+ .debug_line.text.resources_alloc
+                0x00006eeb       0x36 build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+ .debug_line.text.resources_acquire
+                0x00006f21       0x2c build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+ .debug_line.text.resources_release
+                0x00006f4d       0x2b build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+ .debug_line.text.resources_free
+                0x00006f78       0x2d build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+ .debug_line_end
+                0x00006fa5        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+ .debug_line    0x00006fa5      0x2f5 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .debug_line.text.speaker_worker
+                0x0000729a       0x98 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .debug_line.text.speaker_alloc
+                0x00007332       0x53 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .debug_line.text.speaker_free
+                0x00007385       0x32 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .debug_line.text.speaker_set_frequency
+                0x000073b7       0x1b build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .debug_line_end
+                0x000073d2        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .debug_line    0x000073d2      0x44d build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .debug_line.text.flipboard_view_flip_keyboard_input
+                0x0000781f       0x1b build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .debug_line.text.flipboard_view_flip_keyboard_draw
+                0x0000783a       0xd0 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .debug_line.text.flipboard_debounced_switch
+                0x0000790a       0x90 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .debug_line.text.flipboard_enter_callback
+                0x0000799a       0x3a build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .debug_line.text.flipboard_exit_callback
+                0x000079d4       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .debug_line.text.get_primary_view
+                0x00007a08       0x57 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .debug_line.text.custom_event_handler
+                0x00007a5f       0xd8 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .debug_line.text.flipboard_defaults
+                0x00007b37       0x8a build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .debug_line.text.flipboard_keyboard_app
+                0x00007bc1       0x3e build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .debug_line_end
+                0x00007bff        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .debug_line    0x00007bff      0x1ae build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+ .debug_line_end
+                0x00007dad        0x0 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+ .debug_line    0x00007dad      0x38a build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_get_config
+                0x00008137       0xb5 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_stop
+                0x000081ec       0x9a build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_start
+                0x00008286       0x84 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_kb_press
+                0x0000830a       0xd2 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_kb_release
+                0x000083dc       0xdc build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_kb_release_all
+                0x000084b8      0x16c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_consumer_key_press
+                0x00008624       0xac build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_consumer_key_release
+                0x000086d0       0xe4 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_consumer_key_release_all
+                0x000087b4       0xc6 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line_end
+                0x0000887a        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line    0x0000887a      0x301 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_char_desc_data_callback
+                0x00008b7b       0x32 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_report_data_callback
+                0x00008bad       0x39 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_event_handler
+                0x00008be6       0x4a build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_start
+                0x00008c30      0x11d build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_update_report_map
+                0x00008d4d       0x37 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_update_input_report
+                0x00008d84       0x3b build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_update_info
+                0x00008dbf       0x2b build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_stop
+                0x00008dea       0xac build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line_end
+                0x00008e96        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_frame    0x00000000     0x192c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x398 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_frame   0x00000398      0x2cc build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_frame   0x00000664      0x138 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_frame   0x0000079c       0x88 build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .debug_frame   0x00000824      0x1e8 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_frame   0x00000a0c       0xb0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .debug_frame   0x00000abc       0xe4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .debug_frame   0x00000ba0       0x98 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .debug_frame   0x00000c38      0x274 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_frame   0x00000eac      0x170 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_frame   0x0000101c      0x150 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .debug_frame   0x0000116c       0xc4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .debug_frame   0x00001230       0xb8 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .debug_frame   0x000012e8      0x118 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_frame   0x00001400       0x78 build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+ .debug_frame   0x00001478       0xa4 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .debug_frame   0x0000151c      0x168 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .debug_frame   0x00001684      0x1c4 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_frame   0x00001848       0xe4 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_str      0x00000000     0xc6fb
+ *(.debug_str)
+ .debug_str     0x00000000     0x127b build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_str     0x0000127b      0x93d build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_str     0x00001bb8      0x78f build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_str     0x00002347      0x813 build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .debug_str     0x00002b5a     0x12b2 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_str     0x00003e0c      0x7e0 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .debug_str     0x000045ec      0xa91 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .debug_str     0x0000507d      0x75c build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .debug_str     0x000057d9      0xd89 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_str     0x00006562      0x777 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_str     0x00006cd9      0xa55 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .debug_str     0x0000772e      0xf47 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .debug_str     0x00008675      0x655 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .debug_str     0x00008cca      0x374 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_str     0x0000903e      0x43e build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+ .debug_str     0x0000947c      0x464 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .debug_str     0x000098e0     0x124a build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .debug_str     0x0000ab2a      0x86e build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+ .debug_str     0x0000b398      0x9f0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_str     0x0000bd88      0x973 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x4c96
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0xcf1 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_loclists
+                0x00000cf1      0x577 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_loclists
+                0x00001268      0x34f build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_loclists
+                0x000015b7       0x96 build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .debug_loclists
+                0x0000164d      0x499 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_loclists
+                0x00001ae6       0xfd build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .debug_loclists
+                0x00001be3      0x296 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .debug_loclists
+                0x00001e79      0x26c build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .debug_loclists
+                0x000020e5      0x7dc build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_loclists
+                0x000028c1      0x2ea build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_loclists
+                0x00002bab      0x93d build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .debug_loclists
+                0x000034e8      0x41c build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .debug_loclists
+                0x00003904      0x1ef build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .debug_loclists
+                0x00003af3      0x194 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_loclists
+                0x00003c87       0xc6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+ .debug_loclists
+                0x00003d4d       0xb9 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .debug_loclists
+                0x00003e06      0x453 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .debug_loclists
+                0x00004259      0x710 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_loclists
+                0x00004969      0x32d build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0xc9d
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x150 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .debug_rnglists
+                0x00000150      0x106 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .debug_rnglists
+                0x00000256       0x8e build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .debug_rnglists
+                0x000002e4       0x31 build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .debug_rnglists
+                0x00000315       0xa6 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .debug_rnglists
+                0x000003bb       0x98 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .debug_rnglists
+                0x00000453       0x44 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .debug_rnglists
+                0x00000497       0x68 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .debug_rnglists
+                0x000004ff      0x11c build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .debug_rnglists
+                0x0000061b       0x92 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .debug_rnglists
+                0x000006ad      0x262 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .debug_rnglists
+                0x0000090f      0x104 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .debug_rnglists
+                0x00000a13       0x5e build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .debug_rnglists
+                0x00000a71       0x6d build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .debug_rnglists
+                0x00000ade       0x25 build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+ .debug_rnglists
+                0x00000b03       0x39 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .debug_rnglists
+                0x00000b3c       0x49 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .debug_rnglists
+                0x00000b85       0xa7 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_rnglists
+                0x00000c2c       0x71 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_config.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/action_model.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/app_menu.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/backlight.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/bad_usb_hid.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/button_monitor.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_file.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/flipboard_model.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/infrared_signal.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keyboard.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/keystroke_selector.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/led_driver.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/leds.o
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/menu_callback.o
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/resources.o
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/speaker.o
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/common/subghz_signal.o
+ .ARM.attributes
+                0x000003a8       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/app.o
+ .ARM.attributes
+                0x000003dc       0x34 build/f7-firmware-C/.extapps/flipboard_keyboard/flipboard_keyboard_icons.o
+ .ARM.attributes
+                0x00000410       0x34 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .ARM.attributes
+                0x00000444       0x34 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/flipboard_keyboard_d.elf elf32-littlearm)
+LOAD linker stubs

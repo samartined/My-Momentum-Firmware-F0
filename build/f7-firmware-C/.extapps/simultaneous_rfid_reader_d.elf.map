@@ -1,0 +1,1921 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .text.uhf_buffer_append
+                0x00000000       0x4a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .debug_line.text.uhf_buffer_append
+                0x00000000       0x84 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .text.m100_get_select_param
+                0x00000000       0x14 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .text.m100_set_freq_hopping
+                0x00000000        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .text.m100_set_power
+                0x00000000        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .text.m100_get_baudrate
+                0x00000000        0x6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_get_select_param
+                0x00000000       0x25 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_set_freq_hopping
+                0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_set_power
+                0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_get_baudrate
+                0x00000000       0x1d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .text.uhf_uart_set_receive_byte_callback
+                0x00000000       0x14 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .debug_line.text.uhf_uart_set_receive_byte_callback
+                0x00000000       0x24 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .text.uhf_worker_change_state
+                0x00000000        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_line.text.uhf_worker_change_state
+                0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/simultaneous_rfid_reader_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/simultaneous_rfid_reader_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/simultaneous_rfid_reader_icons.o
+ .debug_info    0x00000000       0x7a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/simultaneous_rfid_reader_icons.o
+ .debug_abbrev  0x00000000       0x26 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/simultaneous_rfid_reader_icons.o
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/simultaneous_rfid_reader_icons.o
+ .debug_line    0x00000000       0x77 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/simultaneous_rfid_reader_icons.o
+ .debug_str     0x00000000      0x21d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/simultaneous_rfid_reader_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/simultaneous_rfid_reader_icons.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/simultaneous_rfid_reader_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+LOAD build/f7-firmware-C/.extapps/simultaneous_rfid_reader/simultaneous_rfid_reader_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x7664
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.convertToHexString
+                0x00000000       0x78 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+                0x00000000                convertToHexString
+ .text.extract_epc
+                0x00000078       0x44 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+                0x00000078                extract_epc
+ .text.extract_res
+                0x000000bc       0x58 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+                0x000000bc                extract_res
+ .text.extract_pc
+                0x00000114       0x78 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+                0x00000114                extract_pc
+ .text.extract_tid
+                0x0000018c       0x4c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+                0x0000018c                extract_tid
+ .text.extract_mem
+                0x000001d8       0x60 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+                0x000001d8                extract_mem
+ .text.extract_crc
+                0x00000238       0x44 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+                0x00000238                extract_crc
+ .text.extract_name
+                0x0000027c       0x3c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+                0x0000027c                extract_name
+ .text.ring_buffer_alloc
+                0x000002b8       0x24 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+                0x000002b8                ring_buffer_alloc
+ .text.ring_buffer_free
+                0x000002dc       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+                0x000002dc                ring_buffer_free
+ .text.ring_buffer_set_delimiter
+                0x000002f4        0x6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+                0x000002f4                ring_buffer_set_delimiter
+ .text.ring_buffer_available
+                0x000002fa       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+                0x000002fa                ring_buffer_available
+ .text.ring_buffer_add
+                0x00000312       0x4e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+                0x00000312                ring_buffer_add
+ .text.ring_buffer_find_delim
+                0x00000360       0x2c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+                0x00000360                ring_buffer_find_delim
+ .text.ring_buffer_extract_line
+                0x0000038c       0x68 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+                0x0000038c                ring_buffer_extract_line
+ .text.ring_buffer_clear
+                0x000003f4        0x8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+                0x000003f4                ring_buffer_clear
+ .text.update_dictionary_keys
+                0x000003fc      0x140 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+                0x000003fc                update_dictionary_keys
+ .text.delete_and_update_entry
+                0x0000053c      0x1d4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+                0x0000053c                delete_and_update_entry
+ .text.hex_char_to_int
+                0x00000710       0x28 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+                0x00000710                hex_char_to_int
+ .text.hex_string_to_bytes
+                0x00000738       0x50 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+                0x00000738                hex_string_to_bytes
+ .text.hex_string_to_uint16
+                0x00000788       0x68 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+                0x00000788                hex_string_to_uint16
+ .text.uint16_to_hex_string
+                0x000007f0       0x28 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+                0x000007f0                uint16_to_hex_string
+ .text.combineArrays
+                0x00000818       0x28 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+                0x00000818                combineArrays
+ .text.bytes_to_uint32
+                0x00000840       0x1e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+                0x00000840                bytes_to_uint32
+ *fill*         0x0000085e        0x2 
+ .text.uart_helper_worker
+                0x00000860       0xac build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .text.uart_helper_received_byte_callback
+                0x0000090c       0x40 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .text.uart_helper_alloc
+                0x0000094c       0xa8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+                0x0000094c                uart_helper_alloc
+ .text.uart_helper_set_delimiter
+                0x000009f4        0xc build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+                0x000009f4                uart_helper_set_delimiter
+ .text.uart_helper_set_callback
+                0x00000a00        0x6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+                0x00000a00                uart_helper_set_callback
+ *fill*         0x00000a06        0x2 
+ .text.uart_helper_set_baud_rate
+                0x00000a08       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+                0x00000a08                uart_helper_set_baud_rate
+ .text.uart_helper_send
+                0x00000a24        0xc build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+                0x00000a24                uart_helper_send
+ .text.uart_helper_send_string
+                0x00000a30       0x2c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+                0x00000a30                uart_helper_send_string
+ .text.uart_helper_free
+                0x00000a5c       0x68 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+                0x00000a5c                uart_helper_free
+ .text.uart_demo_process_line
+                0x00000ac4      0x774 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+                0x00000ac4                uart_demo_process_line
+ .text.uhf_buffer_alloc
+                0x00001238       0x38 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+                0x00001238                uhf_buffer_alloc
+ .text.uhf_buffer_append_single
+                0x00001270       0x3c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+                0x00001270                uhf_buffer_append_single
+ .text.uhf_buffer_get_data
+                0x000012ac        0x8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+                0x000012ac                uhf_buffer_get_data
+ .text.uhf_buffer_get_size
+                0x000012b4        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+                0x000012b4                uhf_buffer_get_size
+ .text.uhf_is_buffer_closed
+                0x000012b8        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+                0x000012b8                uhf_is_buffer_closed
+ .text.uhf_buffer_close
+                0x000012bc        0x6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+                0x000012bc                uhf_buffer_close
+ .text.uhf_buffer_reset
+                0x000012c2        0xc build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+                0x000012c2                uhf_buffer_reset
+ *fill*         0x000012ce        0x2 
+ .text.uhf_buffer_free
+                0x000012d0       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+                0x000012d0                uhf_buffer_free
+ .text.m100_module_info_alloc
+                0x000012e8        0xc build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x000012e8                m100_module_info_alloc
+ .text.m100_module_info_free
+                0x000012f4       0x28 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x000012f4                m100_module_info_free
+ .text.m100_module_alloc
+                0x0000131c       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x0000131c                m100_module_alloc
+ .text.m100_module_free
+                0x00001350       0x28 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x00001350                m100_module_free
+ .text.checksum
+                0x00001378       0x14 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x00001378                checksum
+ .text.setup_and_send_rx.isra.0
+                0x0000138c       0x90 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .text.crc16_genibus
+                0x0000141c       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x0000141c                crc16_genibus
+ .text._m100_info_helper
+                0x00001450       0xc0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x00001450                _m100_info_helper
+ .text.m100_get_hardware_version
+                0x00001510       0x28 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x00001510                m100_get_hardware_version
+ .text.m100_get_software_version
+                0x00001538       0x28 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x00001538                m100_get_software_version
+ .text.m100_get_manufacturers
+                0x00001560       0x28 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x00001560                m100_get_manufacturers
+ .text.m100_single_poll
+                0x00001588       0x8c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x00001588                m100_single_poll
+ .text.m100_set_select
+                0x00001614       0xa0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x00001614                m100_set_select
+ .text.m100_enable_write_mask
+                0x000016b4        0x8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x000016b4                m100_enable_write_mask
+ .text.m100_disable_write_mask
+                0x000016bc        0xa build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x000016bc                m100_disable_write_mask
+ .text.m100_is_write_mask_enabled
+                0x000016c6        0xc build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x000016c6                m100_is_write_mask_enabled
+ *fill*         0x000016d2        0x2 
+ .text.m100_read_label_data_storage
+                0x000016d4      0x108 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x000016d4                m100_read_label_data_storage
+ .text.get_lock_param
+                0x000017dc       0xcc build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x000017dc                get_lock_param
+ .text.m100_lock_label_data
+                0x000018a8       0xc8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x000018a8                m100_lock_label_data
+ .text.m100_kill_tag
+                0x00001970       0x98 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x00001970                m100_kill_tag
+ .text.m100_write_label_data_storage
+                0x00001a08      0x20c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x00001a08                m100_write_label_data_storage
+ .text.m100_set_baudrate
+                0x00001c14       0x68 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x00001c14                m100_set_baudrate
+ .text.m100_set_working_region
+                0x00001c7c       0x40 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x00001c7c                m100_set_working_region
+ .text.m100_set_transmitting_power
+                0x00001cbc       0x50 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+                0x00001cbc                m100_set_transmitting_power
+ .text.uhf_tag_wrapper_alloc
+                0x00001d0c       0x14 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001d0c                uhf_tag_wrapper_alloc
+ .text.uhf_tag_alloc
+                0x00001d20       0x2c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001d20                uhf_tag_alloc
+ .text.uhf_tag_reset
+                0x00001d4c       0x44 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001d4c                uhf_tag_reset
+ .text.uhf_tag_free
+                0x00001d90       0x28 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001d90                uhf_tag_free
+ .text.uhf_tag_wrapper_set_tag
+                0x00001db8       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001db8                uhf_tag_wrapper_set_tag
+ .text.uhf_tag_wrapper_free
+                0x00001dd0       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001dd0                uhf_tag_wrapper_free
+ .text.uhf_tag_set_epc_pc
+                0x00001dec        0x8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001dec                uhf_tag_set_epc_pc
+ .text.uhf_tag_set_kill_pwd
+                0x00001df4        0xc build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001df4                uhf_tag_set_kill_pwd
+ .text.uhf_tag_set_access_pwd
+                0x00001e00       0x1a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001e00                uhf_tag_set_access_pwd
+ .text.uhf_tag_set_epc_crc
+                0x00001e1a        0x8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001e1a                uhf_tag_set_epc_crc
+ *fill*         0x00001e22        0x2 
+ .text.uhf_tag_set_epc
+                0x00001e24       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001e24                uhf_tag_set_epc
+ .text.uhf_tag_set_epc_size
+                0x00001e3c        0x6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001e3c                uhf_tag_set_epc_size
+ *fill*         0x00001e42        0x2 
+ .text.uhf_tag_set_tid
+                0x00001e44       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001e44                uhf_tag_set_tid
+ .text.uhf_tag_set_tid_size
+                0x00001e5c        0x6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001e5c                uhf_tag_set_tid_size
+ *fill*         0x00001e62        0x2 
+ .text.uhf_tag_set_user
+                0x00001e64       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001e64                uhf_tag_set_user
+ .text.uhf_tag_set_user_size
+                0x00001e7c        0x6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001e7c                uhf_tag_set_user_size
+ .text.uhf_tag_get_epc
+                0x00001e82        0x6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001e82                uhf_tag_get_epc
+ .text.uhf_tag_get_epc_size
+                0x00001e88        0x6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001e88                uhf_tag_get_epc_size
+ .text.uhf_tag_get_epc_pc
+                0x00001e8e        0x8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001e8e                uhf_tag_get_epc_pc
+ .text.uhf_tag_get_epc_crc
+                0x00001e96        0x8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001e96                uhf_tag_get_epc_crc
+ .text.uhf_tag_get_tid
+                0x00001e9e        0x6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001e9e                uhf_tag_get_tid
+ .text.uhf_tag_get_tid_size
+                0x00001ea4        0x6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001ea4                uhf_tag_get_tid_size
+ .text.uhf_tag_get_user
+                0x00001eaa        0x6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001eaa                uhf_tag_get_user
+ .text.uhf_tag_get_user_size
+                0x00001eb0        0x6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001eb0                uhf_tag_get_user_size
+ .text.uhf_tag_get_access_pwd
+                0x00001eb6        0x6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001eb6                uhf_tag_get_access_pwd
+ .text.uhf_tag_get_kill_pwd
+                0x00001ebc        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+                0x00001ebc                uhf_tag_get_kill_pwd
+ .text.uhf_uart_default_rx_callback
+                0x00001ec0       0x68 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+                0x00001ec0                uhf_uart_default_rx_callback
+ .text.uhf_uart_alloc
+                0x00001f28       0x94 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+                0x00001f28                uhf_uart_alloc
+ .text.uhf_uart_free
+                0x00001fbc       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+                0x00001fbc                uhf_uart_free
+ .text.uhf_uart_send
+                0x00001ff0        0xc build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+                0x00001ff0                uhf_uart_send
+ .text.uhf_uart_send_wait
+                0x00001ffc       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+                0x00001ffc                uhf_uart_send_wait
+ .text.uhf_uart_set_baudrate
+                0x00002018       0x14 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+                0x00002018                uhf_uart_set_baudrate
+ .text.uhf_uart_tick
+                0x0000202c       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+                0x0000202c                uhf_uart_tick
+ .text.uhf_uart_tick_reset
+                0x00002044        0x8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+                0x00002044                uhf_uart_tick_reset
+ .text.verify_module_connected
+                0x0000204c       0x38 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+                0x0000204c                verify_module_connected
+ .text.send_polling_command
+                0x00002084       0x38 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+                0x00002084                send_polling_command
+ .text.read_bank_till_max_length
+                0x000020bc       0x54 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+                0x000020bc                read_bank_till_max_length
+ .text.read_single_card
+                0x00002110       0x58 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+                0x00002110                read_single_card
+ .text.write_single_card
+                0x00002168      0x150 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+                0x00002168                write_single_card
+ .text.uhf_worker_task
+                0x000022b8       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+                0x000022b8                uhf_worker_task
+ .text.uhf_worker_alloc
+                0x000022ec       0x4c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+                0x000022ec                uhf_worker_alloc
+ .text.uhf_worker_start
+                0x00002338       0x10 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+                0x00002338                uhf_worker_start
+ .text.uhf_worker_stop
+                0x00002348       0x24 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+                0x00002348                uhf_worker_stop
+ .text.uhf_worker_free
+                0x0000236c       0x30 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+                0x0000236c                uhf_worker_free
+ .text.uhf_reader_navigation_about_submenu_callback
+                0x0000239c        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+                0x0000239c                uhf_reader_navigation_about_submenu_callback
+ .text.view_about_alloc
+                0x000023a0      0x1b0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+                0x000023a0                view_about_alloc
+ .text.view_about_free
+                0x00002550       0x20 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+                0x00002550                view_about_free
+ .text.uhf_reader_navigation_config_submenu_callback
+                0x00002570        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+                0x00002570                uhf_reader_navigation_config_submenu_callback
+ .text.uhf_reader_navigation_configure_callback
+                0x00002574        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+                0x00002574                uhf_reader_navigation_configure_callback
+ .text.uhf_reader_save_setting_change
+                0x00002578       0x3c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+                0x00002578                uhf_reader_save_setting_change
+ .text.uhf_reader_setting_1_change
+                0x000025b4      0x188 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+                0x000025b4                uhf_reader_setting_1_change
+ .text.uhf_reader_setting_2_text_updated
+                0x0000273c       0xc4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+                0x0000273c                uhf_reader_setting_2_text_updated
+ .text.locked_popup_back_callback
+                0x00002800        0xc build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .text.uhf_reader_setting_6_text_updated
+                0x0000280c       0xfc build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+                0x0000280c                uhf_reader_setting_6_text_updated
+ .text.show_locked_notification
+                0x00002908       0x98 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .text.uhf_reader_setting_3_change
+                0x000029a0       0x94 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+                0x000029a0                uhf_reader_setting_3_change
+ .text.uhf_reader_module_setting_change
+                0x00002a34      0x10c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+                0x00002a34                uhf_reader_module_setting_change
+ .text.uhf_reader_baud_setting_change
+                0x00002b40       0x8c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+                0x00002b40                uhf_reader_baud_setting_change
+ .text.uhf_reader_region_setting_change
+                0x00002bcc       0x9c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+                0x00002bcc                uhf_reader_region_setting_change
+ .text.uhf_reader_setting_item_clicked
+                0x00002c68      0x158 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+                0x00002c68                uhf_reader_setting_item_clicked
+ .text.power_menu_alloc
+                0x00002dc0       0x3c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+                0x00002dc0                power_menu_alloc
+ .text.ap_menu_alloc
+                0x00002dfc       0x3c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+                0x00002dfc                ap_menu_alloc
+ .text.view_config_alloc
+                0x00002e38      0x35c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+                0x00002e38                view_config_alloc
+ .text.view_config_free
+                0x00003194       0x58 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+                0x00003194                view_config_free
+ .text.uhf_reader_navigation_delete_exit_callback
+                0x000031ec        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+                0x000031ec                uhf_reader_navigation_delete_exit_callback
+ .text.uhf_reader_view_delete_draw_callback
+                0x000031f0      0x130 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+                0x000031f0                uhf_reader_view_delete_draw_callback
+ .text.uhf_reader_view_delete_exit_callback
+                0x00003320       0x24 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+                0x00003320                uhf_reader_view_delete_exit_callback
+ .text.uhf_reader_view_delete_enter_callback
+                0x00003344      0x184 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+                0x00003344                uhf_reader_view_delete_enter_callback
+ .text.uhf_reader_view_delete_input_callback
+                0x000034c8       0x2c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+                0x000034c8                uhf_reader_view_delete_input_callback
+ .text.view_delete_alloc
+                0x000034f4       0xe8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+                0x000034f4                view_delete_alloc
+ .text.view_delete_free
+                0x000035dc       0x20 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+                0x000035dc                view_delete_free
+ .text.uhf_reader_view_delete_success_draw_callback
+                0x000035fc      0x120 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+                0x000035fc                uhf_reader_view_delete_success_draw_callback
+ .text.uhf_reader_view_delete_success_enter_callback
+                0x0000371c       0x68 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+                0x0000371c                uhf_reader_view_delete_success_enter_callback
+ .text.uhf_reader_view_delete_success_exit_callback
+                0x00003784       0x24 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+                0x00003784                uhf_reader_view_delete_success_exit_callback
+ .text.uhf_reader_view_delete_success_input_callback
+                0x000037a8       0x24 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+                0x000037a8                uhf_reader_view_delete_success_input_callback
+ .text.view_delete_success_alloc
+                0x000037cc       0xd4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+                0x000037cc                view_delete_success_alloc
+ .text.view_delete_success_free
+                0x000038a0       0x20 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+                0x000038a0                view_delete_success_free
+ .text.uhf_reader_navigation_exit_view_epc_callback
+                0x000038c0        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+                0x000038c0                uhf_reader_navigation_exit_view_epc_callback
+ .text.uhf_reader_view_epc_timer_callback
+                0x000038c4       0xc4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+                0x000038c4                uhf_reader_view_epc_timer_callback
+ .text.uhf_reader_view_epc_draw_callback
+                0x00003988      0x1bc build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+                0x00003988                uhf_reader_view_epc_draw_callback
+ .text.uhf_reader_view_epc_enter_callback
+                0x00003b44       0xac build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+                0x00003b44                uhf_reader_view_epc_enter_callback
+ .text.uhf_reader_view_epc_exit_callback
+                0x00003bf0       0x24 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+                0x00003bf0                uhf_reader_view_epc_exit_callback
+ .text.view_epc_alloc
+                0x00003c14      0x11c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+                0x00003c14                view_epc_alloc
+ .text.view_epc_free
+                0x00003d30       0x20 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+                0x00003d30                view_epc_free
+ .text.uhf_reader_navigation_exit_epc_info_callback
+                0x00003d50        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+                0x00003d50                uhf_reader_navigation_exit_epc_info_callback
+ .text.uhf_reader_view_epc_info_draw_callback
+                0x00003d54      0x1bc build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+                0x00003d54                uhf_reader_view_epc_info_draw_callback
+ .text.uhf_reader_view_epc_info_timer_callback
+                0x00003f10       0x88 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+                0x00003f10                uhf_reader_view_epc_info_timer_callback
+ .text.uhf_reader_view_epc_info_enter_callback
+                0x00003f98      0x14c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+                0x00003f98                uhf_reader_view_epc_info_enter_callback
+ .text.uhf_reader_view_epc_info_exit_callback
+                0x000040e4       0x24 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+                0x000040e4                uhf_reader_view_epc_info_exit_callback
+ .text.view_epc_info_alloc
+                0x00004108      0x108 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+                0x00004108                view_epc_info_alloc
+ .text.view_epc_info_free
+                0x00004210       0x20 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+                0x00004210                view_epc_info_free
+ .text.uhf_reader_navigation_kill_callback
+                0x00004230        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+                0x00004230                uhf_reader_navigation_kill_callback
+ .text.uhf_reader_navigation_kill_exit_callback
+                0x00004234        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+                0x00004234                uhf_reader_navigation_kill_exit_callback
+ .text.uhf_reader_submenu_kill_callback
+                0x00004238       0xa0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+                0x00004238                uhf_reader_submenu_kill_callback
+ .text.uhf_kill_tag_worker_callback
+                0x000042d8       0x70 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+                0x000042d8                uhf_kill_tag_worker_callback
+ .text.uhf_reader_fetch_selected_tag
+                0x00004348      0x164 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+                0x00004348                uhf_reader_fetch_selected_tag
+ .text.uhf_reader_kill_password_updated
+                0x000044ac      0x1e8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+                0x000044ac                uhf_reader_kill_password_updated
+ .text.uhf_reader_kill_confirm_password_updated
+                0x00004694      0x204 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+                0x00004694                uhf_reader_kill_confirm_password_updated
+ .text.kill_menu_alloc
+                0x00004898       0x3c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+                0x00004898                kill_menu_alloc
+ .text.kill_confirm_menu_alloc
+                0x000048d4       0x38 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+                0x000048d4                kill_confirm_menu_alloc
+ .text.view_kill_alloc
+                0x0000490c       0xb8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+                0x0000490c                view_kill_alloc
+ .text.view_kill_free
+                0x000049c4       0x4c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+                0x000049c4                view_kill_free
+ .text.uhf_reader_navigation_lock_callback
+                0x00004a10        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+                0x00004a10                uhf_reader_navigation_lock_callback
+ .text.uhf_reader_navigation_lock_exit_callback
+                0x00004a14        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+                0x00004a14                uhf_reader_navigation_lock_exit_callback
+ .text.uhf_reader_access_password_updated
+                0x00004a18      0x1e4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+                0x00004a18                uhf_reader_access_password_updated
+ .text.uhf_reader_setting_lock_bank_change
+                0x00004bfc       0x54 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+                0x00004bfc                uhf_reader_setting_lock_bank_change
+ .text.uhf_reader_setting_lock_action_change
+                0x00004c50       0x4c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+                0x00004c50                uhf_reader_setting_lock_action_change
+ .text.uhf_access_tag_worker_callback
+                0x00004c9c       0x70 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+                0x00004c9c                uhf_access_tag_worker_callback
+ .text.access_password_menu_alloc
+                0x00004d0c       0x38 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+                0x00004d0c                access_password_menu_alloc
+ .text.get_lock_bank_type_string
+                0x00004d44       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+                0x00004d44                get_lock_bank_type_string
+ .text.get_memory_bank_string
+                0x00004d5c       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+                0x00004d5c                get_memory_bank_string
+ .text.uhf_reader_lock_item_clicked
+                0x00004d74      0x15c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+                0x00004d74                uhf_reader_lock_item_clicked
+ .text.view_lock_alloc
+                0x00004ed0      0x228 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+                0x00004ed0                view_lock_alloc
+ .text.view_lock_free
+                0x000050f8       0x4c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+                0x000050f8                view_lock_free
+ .text.uhf_reader_navigation_read_callback
+                0x00005144        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+                0x00005144                uhf_reader_navigation_read_callback
+ .text.uhf_reader_navigation_read_submenu_callback
+                0x00005148        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+                0x00005148                uhf_reader_navigation_read_submenu_callback
+ .text.uhf_reader_view_read_draw_callback
+                0x0000514c      0x188 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+                0x0000514c                uhf_reader_view_read_draw_callback
+ .text.uhf_reader_view_read_timer_callback
+                0x000052d4       0x4c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+                0x000052d4                uhf_reader_view_read_timer_callback
+ .text.uhf_reader_save_text_updated
+                0x00005320      0x258 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+                0x00005320                uhf_reader_save_text_updated
+ .text.uhf_reader_view_read_input_callback
+                0x00005578      0x244 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+                0x00005578                uhf_reader_view_read_input_callback
+ .text.uhf_reader_view_read_exit_callback
+                0x000057bc       0x38 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+                0x000057bc                uhf_reader_view_read_exit_callback
+ .text.uhf_reader_view_read_enter_callback
+                0x000057f4       0x60 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+                0x000057f4                uhf_reader_view_read_enter_callback
+ .text.uhf_reader_view_read_custom_event_callback
+                0x00005854      0x248 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+                0x00005854                uhf_reader_view_read_custom_event_callback
+ .text.uhf_read_tag_worker_callback
+                0x00005a9c       0x6c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+                0x00005a9c                uhf_read_tag_worker_callback
+ .text.convert_to_hex_string
+                0x00005b08       0x78 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+                0x00005b08                convert_to_hex_string
+ .text.saved_input_alloc
+                0x00005b80       0x3c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+                0x00005b80                saved_input_alloc
+ .text.view_read_alloc
+                0x00005bbc      0x130 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+                0x00005bbc                view_read_alloc
+ .text.view_read_free
+                0x00005cec       0x3c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+                0x00005cec                view_read_free
+ .text.uhf_reader_navigation_saved_exit_callback
+                0x00005d28        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+                0x00005d28                uhf_reader_navigation_saved_exit_callback
+ .text.uhf_reader_submenu_saved_callback
+                0x00005d2c       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+                0x00005d2c                uhf_reader_submenu_saved_callback
+ .text.view_saved_menu_alloc
+                0x00005d44      0x1d0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+                0x00005d44                view_saved_menu_alloc
+ .text.view_saved_free
+                0x00005f14       0x20 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+                0x00005f14                view_saved_free
+ .text.uhf_reader_navigation_epc_info_callback
+                0x00005f34        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+                0x00005f34                uhf_reader_navigation_epc_info_callback
+ .text.uhf_reader_navigation_tag_action_exit_callback
+                0x00005f38        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+                0x00005f38                uhf_reader_navigation_tag_action_exit_callback
+ .text.uhf_reader_rename_text_updated
+                0x00005f3c      0x404 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+                0x00005f3c                uhf_reader_rename_text_updated
+ .text.uhf_reader_submenu_tag_info_callback
+                0x00006340       0xc4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+                0x00006340                uhf_reader_submenu_tag_info_callback
+ .text.view_tag_actions_alloc
+                0x00006404       0xd8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+                0x00006404                view_tag_actions_alloc
+ .text.view_tag_actions_free
+                0x000064dc       0x30 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+                0x000064dc                view_tag_actions_free
+ .text.uhf_reader_navigation_write_callback
+                0x0000650c        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+                0x0000650c                uhf_reader_navigation_write_callback
+ .text.uhf_reader_navigation_write_exit_callback
+                0x00006510        0x4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+                0x00006510                uhf_reader_navigation_write_exit_callback
+ .text.uhf_reader_epc_value_text_updated
+                0x00006514       0x38 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+                0x00006514                uhf_reader_epc_value_text_updated
+ .text.uhf_reader_view_write_timer_callback
+                0x0000654c        0xc build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+                0x0000654c                uhf_reader_view_write_timer_callback
+ .text.uhf_reader_view_write_enter_callback
+                0x00006558      0x198 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+                0x00006558                uhf_reader_view_write_enter_callback
+ .text.uhf_reader_view_write_exit_callback
+                0x000066f0       0x24 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+                0x000066f0                uhf_reader_view_write_exit_callback
+ .text.uhf_reader_view_write_custom_event_callback
+                0x00006714      0x420 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+                0x00006714                uhf_reader_view_write_custom_event_callback
+ .text.uhf_reader_view_write_draw_callback
+                0x00006b34       0xf0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+                0x00006b34                uhf_reader_view_write_draw_callback
+ .text.uhf_reader_view_write_input_callback
+                0x00006c24      0x188 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+                0x00006c24                uhf_reader_view_write_input_callback
+ .text.uhf_write_tag_worker_callback
+                0x00006dac      0x244 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+                0x00006dac                uhf_write_tag_worker_callback
+ .text.view_write_alloc
+                0x00006ff0      0x21c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+                0x00006ff0                view_write_alloc
+ .text.view_write_free
+                0x0000720c       0x58 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+                0x0000720c                view_write_free
+ .text.uhf_reader_navigation_exit_callback
+                0x00007264        0x6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+                0x00007264                uhf_reader_navigation_exit_callback
+ *fill*         0x0000726a        0x2 
+ .text.uhf_reader_submenu_callback
+                0x0000726c       0x2c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+                0x0000726c                uhf_reader_submenu_callback
+ .text.main_menu_alloc
+                0x00007298       0xa8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+                0x00007298                main_menu_alloc
+ .text.main_uhf_reader_app
+                0x00007340      0x324 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+                0x00007340                main_uhf_reader_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00007664     0x1a5a
+ *(.rodata)
+ .rodata        0x00007664       0x71 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.convertToHexString.str1.1
+                0x000076d5        0x7 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .rodata.update_dictionary_keys.str1.1
+                0x000076dc       0x5c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .rodata.delete_and_update_entry.str1.1
+                0x00007738       0x9c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .rodata.uint16_to_hex_string.str1.1
+                0x000077d4        0x5 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .rodata.uart_helper_alloc.str1.1
+                0x000077d9       0x11 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .rodata.uart_demo_process_line.str1.1
+                0x000077ea       0xe0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+ *fill*         0x000078ca        0x2 
+ .rodata.uhf_sequence_blink_stop
+                0x000078cc        0x8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+ .rodata._m100_info_helper.str1.1
+                0x000078d4        0x3 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .rodata.CMD_SINGLE_POLLING_DATA
+                0x000078d7        0x7 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .rodata.CMD_MANUFACTURERS_DATA
+                0x000078de        0x8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .rodata.CMD_SW_VERSION_DATA
+                0x000078e6        0x8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .rodata.CMD_HW_VERSION_DATA
+                0x000078ee        0x8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .rodata.uhf_uart_default_rx_callback.str1.1
+                0x000078f6       0x24 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .rodata.uhf_uart_alloc.str1.1
+                0x0000791a       0x2a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .rodata.uhf_worker_alloc.str1.1
+                0x00007944        0xa build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .rodata.view_about_alloc.str1.1
+                0x0000794e      0xac6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+ .rodata.uhf_reader_setting_1_change.str1.1
+                0x00008414        0xd build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .rodata.uhf_reader_setting_2_text_updated.str1.1
+                0x00008421        0x7 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .rodata.uhf_reader_setting_6_text_updated.str1.1
+                0x00008428        0xb build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .rodata.show_locked_notification.str1.1
+                0x00008433       0x19 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .rodata.uhf_reader_setting_3_change.str1.1
+                0x0000844c       0x14 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .rodata.uhf_reader_region_setting_change.str1.1
+                0x00008460        0x8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .rodata.view_config_alloc.str1.1
+                0x00008468      0x108 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .rodata.WORKING_REGIONS
+                0x00008570        0x5 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .rodata.uhf_reader_view_delete_draw_callback.str1.1
+                0x00008575       0x40 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .rodata.uhf_reader_view_delete_enter_callback.str1.1
+                0x000085b5       0x6b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .rodata.view_delete_alloc.str1.1
+                0x00008620       0x2e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .rodata.uhf_reader_view_delete_success_draw_callback.str1.1
+                0x0000864e       0x36 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .rodata.view_delete_success_alloc.str1.1
+                0x00008684       0x23 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .rodata.uhf_reader_view_epc_draw_callback.str1.1
+                0x000086a7       0x38 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .rodata.view_epc_alloc.str1.1
+                0x000086df       0x4d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .rodata.uhf_reader_view_epc_info_draw_callback.str1.1
+                0x0000872c       0x38 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .rodata.uhf_reader_view_epc_info_enter_callback.str1.1
+                0x00008764       0x6b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .rodata.view_epc_info_alloc.str1.1
+                0x000087cf       0x69 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .rodata.uhf_reader_fetch_selected_tag.str1.1
+                0x00008838       0x6b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .rodata.uhf_reader_kill_password_updated.str1.1
+                0x000088a3       0x25 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .rodata.uhf_reader_kill_confirm_password_updated.str1.1
+                0x000088c8       0x1a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .rodata.view_kill_alloc.str1.1
+                0x000088e2       0x6f build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ *fill*         0x00008951        0x3 
+ .rodata.uhf_sequence_blink_stop
+                0x00008954        0x8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .rodata.uhf_sequence_blink_start_cyan
+                0x0000895c       0x10 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .rodata.uhf_reader_access_password_updated.str1.1
+                0x0000896c       0x23 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .rodata.get_lock_bank_type_string.str1.1
+                0x0000898f        0x8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .rodata.get_memory_bank_string.str1.1
+                0x00008997        0xd build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .rodata.uhf_reader_lock_item_clicked.str1.1
+                0x000089a4        0x6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .rodata.view_lock_alloc.str1.1
+                0x000089aa       0x7e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .rodata.str1.1
+                0x00008a28       0x78 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .rodata.CSWTCH.10
+                0x00008aa0       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .rodata.CSWTCH.8
+                0x00008abc       0x10 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .rodata.uhf_sequence_blink_stop
+                0x00008acc        0x8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .rodata.uhf_sequence_blink_start_cyan
+                0x00008ad4       0x10 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .rodata.uhf_reader_view_read_draw_callback.str1.1
+                0x00008ae4       0x4a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .rodata.uhf_reader_save_text_updated.str1.1
+                0x00008b2e       0xb4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .rodata.uhf_reader_view_read_input_callback.str1.1
+                0x00008be2        0x9 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .rodata.uhf_reader_view_read_custom_event_callback.str1.1
+                0x00008beb       0x11 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .rodata.convert_to_hex_string.str1.1
+                0x00008bfc        0x6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .rodata.view_read_alloc.str1.1
+                0x00008c02       0x1b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ *fill*         0x00008c1d        0x3 
+ .rodata.uhf_sequence_blink_stop
+                0x00008c20        0x8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .rodata.uhf_sequence_blink_start_cyan
+                0x00008c28       0x10 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .rodata.view_saved_menu_alloc.str1.1
+                0x00008c38       0xe0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .rodata.uhf_reader_rename_text_updated.str1.1
+                0x00008d18       0xf5 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .rodata.uhf_reader_submenu_tag_info_callback.str1.1
+                0x00008e0d        0xb build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .rodata.view_tag_actions_alloc.str1.1
+                0x00008e18       0x33 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .rodata.uhf_reader_view_write_enter_callback.str1.1
+                0x00008e4b       0x6b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .rodata.uhf_reader_view_write_custom_event_callback.str1.1
+                0x00008eb6       0x72 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .rodata.uhf_reader_view_write_draw_callback.str1.1
+                0x00008f28       0x48 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .rodata.uhf_reader_view_write_input_callback.str1.1
+                0x00008f70       0x36 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .rodata.uhf_write_tag_worker_callback.str1.1
+                0x00008fa6       0x41 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .rodata.view_write_alloc.str1.1
+                0x00008fe7       0x6f build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ *fill*         0x00009056        0x2 
+ .rodata.uhf_sequence_blink_stop
+                0x00009058        0x8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .rodata.uhf_sequence_blink_start_cyan
+                0x00009060       0x10 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .rodata.main_menu_alloc.str1.1
+                0x00009070       0x2b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+ .rodata.main_uhf_reader_app.str1.1
+                0x0000909b       0x23 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x940
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x58 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .debug_aranges
+                0x00000058       0x58 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .debug_aranges
+                0x000000b0       0x58 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .debug_aranges
+                0x00000108       0x60 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .debug_aranges
+                0x00000168       0x20 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+ .debug_aranges
+                0x00000188       0x60 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .debug_aranges
+                0x000001e8       0xf8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_aranges
+                0x000002e0       0xe8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_aranges
+                0x000003c8       0x60 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .debug_aranges
+                0x00000428       0x70 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_aranges
+                0x00000498       0x30 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+ .debug_aranges
+                0x000004c8       0xa0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_aranges
+                0x00000568       0x50 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .debug_aranges
+                0x000005b8       0x48 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .debug_aranges
+                0x00000600       0x50 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .debug_aranges
+                0x00000650       0x50 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .debug_aranges
+                0x000006a0       0x70 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_aranges
+                0x00000710       0x78 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_aranges
+                0x00000788       0x88 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_aranges
+                0x00000810       0x38 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .debug_aranges
+                0x00000848       0x48 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .debug_aranges
+                0x00000890       0x78 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_aranges
+                0x00000908       0x38 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x2f673
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xbeb build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .debug_info    0x00000beb      0x46b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .debug_info    0x00001056     0x23be build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .debug_info    0x00003414      0xfc0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .debug_info    0x000043d4     0x2bed build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+ .debug_info    0x00006fc1      0x376 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .debug_info    0x00007337     0x2581 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_info    0x000098b8      0x972 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_info    0x0000a22a      0xc2c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .debug_info    0x0000ae56     0x1393 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_info    0x0000c1e9     0x1d3e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+ .debug_info    0x0000df27     0x33a7 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_info    0x000112ce     0x27c0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .debug_info    0x00013a8e     0x2502 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .debug_info    0x00015f90     0x27ce build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .debug_info    0x0001875e     0x292b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .debug_info    0x0001b089     0x2fca build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_info    0x0001e053     0x2bac build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_info    0x00020bff     0x3cbf build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_info    0x000248be     0x1ee8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .debug_info    0x000267a6     0x2a9a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .debug_info    0x00029240     0x3f0c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_info    0x0002d14c     0x2527 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+
+.debug_abbrev   0x00000000     0x4e46
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1cb build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .debug_abbrev  0x000001cb      0x1ef build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .debug_abbrev  0x000003ba      0x344 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .debug_abbrev  0x000006fe      0x358 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .debug_abbrev  0x00000a56      0x354 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+ .debug_abbrev  0x00000daa      0x177 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .debug_abbrev  0x00000f21      0x49d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_abbrev  0x000013be      0x1fd build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_abbrev  0x000015bb      0x2b2 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .debug_abbrev  0x0000186d      0x307 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_abbrev  0x00001b74      0x2ad build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+ .debug_abbrev  0x00001e21      0x43c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_abbrev  0x0000225d      0x3e4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .debug_abbrev  0x00002641      0x3b3 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .debug_abbrev  0x000029f4      0x387 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .debug_abbrev  0x00002d7b      0x38d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .debug_abbrev  0x00003108      0x45d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_abbrev  0x00003565      0x452 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_abbrev  0x000039b7      0x4fb build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_abbrev  0x00003eb2      0x37b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .debug_abbrev  0x0000422d      0x362 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .debug_abbrev  0x0000458f      0x4e7 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_abbrev  0x00004a76      0x3d0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+
+.debug_line     0x00000000     0xdf0e
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x27e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .debug_line.text.convertToHexString
+                0x0000027e       0x91 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .debug_line.text.extract_epc
+                0x0000030f       0x71 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .debug_line.text.extract_res
+                0x00000380       0x94 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .debug_line.text.extract_pc
+                0x00000414       0xc2 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .debug_line.text.extract_tid
+                0x000004d6       0x83 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .debug_line.text.extract_mem
+                0x00000559       0xa5 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .debug_line.text.extract_crc
+                0x000005fe       0x6a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .debug_line.text.extract_name
+                0x00000668       0x5e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .debug_line_end
+                0x000006c6        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .debug_line    0x000006c6      0x26d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .debug_line.text.ring_buffer_alloc
+                0x00000933       0x3c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .debug_line.text.ring_buffer_free
+                0x0000096f       0x2c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .debug_line.text.ring_buffer_set_delimiter
+                0x0000099b       0x23 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .debug_line.text.ring_buffer_available
+                0x000009be       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .debug_line.text.ring_buffer_add
+                0x000009f2       0x97 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .debug_line.text.ring_buffer_find_delim
+                0x00000a89       0x55 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .debug_line.text.ring_buffer_extract_line
+                0x00000ade       0x88 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .debug_line.text.ring_buffer_clear
+                0x00000b66       0x1f build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .debug_line_end
+                0x00000b85        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .debug_line    0x00000b85      0x61b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .debug_line.text.update_dictionary_keys
+                0x000011a0       0xcd build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .debug_line.text.delete_and_update_entry
+                0x0000126d      0x13a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .debug_line.text.hex_char_to_int
+                0x000013a7       0x4f build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .debug_line.text.hex_string_to_bytes
+                0x000013f6       0x88 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .debug_line.text.hex_string_to_uint16
+                0x0000147e       0xb4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .debug_line.text.uint16_to_hex_string
+                0x00001532       0x38 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .debug_line.text.combineArrays
+                0x0000156a       0x3e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .debug_line.text.bytes_to_uint32
+                0x000015a8       0x5b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .debug_line_end
+                0x00001603        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .debug_line    0x00001603      0x383 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .debug_line.text.uart_helper_worker
+                0x00001986       0xd0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .debug_line.text.uart_helper_received_byte_callback
+                0x00001a56       0x48 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .debug_line.text.uart_helper_alloc
+                0x00001a9e       0xaa build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .debug_line.text.uart_helper_set_delimiter
+                0x00001b48       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .debug_line.text.uart_helper_set_callback
+                0x00001b60       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .debug_line.text.uart_helper_set_baud_rate
+                0x00001b7c       0x27 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .debug_line.text.uart_helper_send
+                0x00001ba3       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .debug_line.text.uart_helper_send_string
+                0x00001bbb       0x44 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .debug_line.text.uart_helper_free
+                0x00001bff       0x3e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .debug_line_end
+                0x00001c3d        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .debug_line    0x00001c3d      0x621 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+ .debug_line.text.uart_demo_process_line
+                0x0000225e      0x5db build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+ .debug_line_end
+                0x00002839        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+ .debug_line    0x00002839      0x26e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .debug_line.text.uhf_buffer_alloc
+                0x00002aa7       0x5a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .debug_line.text.uhf_buffer_append_single
+                0x00002b01       0x64 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .debug_line.text.uhf_buffer_get_data
+                0x00002b65       0x1b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .debug_line.text.uhf_buffer_get_size
+                0x00002b80       0x19 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .debug_line.text.uhf_is_buffer_closed
+                0x00002b99       0x19 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .debug_line.text.uhf_buffer_close
+                0x00002bb2       0x1b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .debug_line.text.uhf_buffer_reset
+                0x00002bcd       0x2d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .debug_line.text.uhf_buffer_free
+                0x00002bfa       0x2d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .debug_line_end
+                0x00002c27        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .debug_line    0x00002c27      0x42d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_module_info_alloc
+                0x00003054       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_module_info_free
+                0x0000306c       0x57 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_module_alloc
+                0x000030c3       0x52 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_module_free
+                0x00003115       0x28 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.checksum
+                0x0000313d       0x54 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.setup_and_send_rx.isra.0
+                0x00003191       0x8c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.crc16_genibus
+                0x0000321d       0x75 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text._m100_info_helper
+                0x00003292       0xed build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_get_hardware_version
+                0x0000337f       0x2b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_get_software_version
+                0x000033aa       0x2b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_get_manufacturers
+                0x000033d5       0x2b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_single_poll
+                0x00003400       0x84 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_set_select
+                0x00003484       0xa4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_enable_write_mask
+                0x00003528       0x1d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_disable_write_mask
+                0x00003545       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_is_write_mask_enabled
+                0x00003561       0x20 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_read_label_data_storage
+                0x00003581      0x114 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.get_lock_param
+                0x00003695       0xd9 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_lock_label_data
+                0x0000376e       0xdf build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_kill_tag
+                0x0000384d       0xb3 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_write_label_data_storage
+                0x00003900      0x204 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_set_baudrate
+                0x00003b04       0x66 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_set_working_region
+                0x00003b6a       0x54 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line.text.m100_set_transmitting_power
+                0x00003bbe       0x67 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line_end
+                0x00003c25        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_line    0x00003c25      0x274 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_wrapper_alloc
+                0x00003e99       0x2b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_alloc
+                0x00003ec4       0x51 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_reset
+                0x00003f15       0x55 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_free
+                0x00003f6a       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_wrapper_set_tag
+                0x00003f9e       0x31 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_wrapper_free
+                0x00003fcf       0x2c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_set_epc_pc
+                0x00003ffb       0x1b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_set_kill_pwd
+                0x00004016       0x28 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_set_access_pwd
+                0x0000403e       0x3c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_set_epc_crc
+                0x0000407a       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_set_epc
+                0x00004096       0x2e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_set_epc_size
+                0x000040c4       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_set_tid
+                0x000040e0       0x2e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_set_tid_size
+                0x0000410e       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_set_user
+                0x0000412a       0x2e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_set_user_size
+                0x00004158       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_get_epc
+                0x00004174       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_get_epc_size
+                0x00004190       0x1d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_get_epc_pc
+                0x000041ad       0x1d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_get_epc_crc
+                0x000041ca       0x1d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_get_tid
+                0x000041e7       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_get_tid_size
+                0x00004203       0x1d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_get_user
+                0x00004220       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_get_user_size
+                0x0000423c       0x1d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_get_access_pwd
+                0x00004259       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line.text.uhf_tag_get_kill_pwd
+                0x00004275       0x1a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line_end
+                0x0000428f        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_line    0x0000428f      0x35d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .debug_line.text.uhf_uart_default_rx_callback
+                0x000045ec       0x6b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .debug_line.text.uhf_uart_alloc
+                0x00004657       0x7e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .debug_line.text.uhf_uart_free
+                0x000046d5       0x39 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .debug_line.text.uhf_uart_send
+                0x0000470e       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .debug_line.text.uhf_uart_send_wait
+                0x00004726       0x26 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .debug_line.text.uhf_uart_set_baudrate
+                0x0000474c       0x28 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .debug_line.text.uhf_uart_tick
+                0x00004774       0x32 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .debug_line.text.uhf_uart_tick_reset
+                0x000047a6       0x1c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .debug_line_end
+                0x000047c2        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .debug_line    0x000047c2      0x386 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_line.text.verify_module_connected
+                0x00004b48       0x5e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_line.text.send_polling_command
+                0x00004ba6       0x4b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_line.text.read_bank_till_max_length
+                0x00004bf1       0x81 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_line.text.read_single_card
+                0x00004c72       0x8d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_line.text.write_single_card
+                0x00004cff      0x178 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_line.text.uhf_worker_task
+                0x00004e77       0x5f build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_line.text.uhf_worker_alloc
+                0x00004ed6       0x75 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_line.text.uhf_worker_start
+                0x00004f4b       0x2d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_line.text.uhf_worker_stop
+                0x00004f78       0x50 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_line.text.uhf_worker_free
+                0x00004fc8       0x2e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_line_end
+                0x00004ff6        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_line    0x00004ff6      0x514 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+ .debug_line.text.uhf_reader_navigation_about_submenu_callback
+                0x0000550a       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+ .debug_line.text.view_about_alloc
+                0x00005522       0x76 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+ .debug_line.text.view_about_free
+                0x00005598       0x27 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+ .debug_line_end
+                0x000055bf        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+ .debug_line    0x000055bf      0x665 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line.text.uhf_reader_navigation_config_submenu_callback
+                0x00005c24       0x1a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line.text.uhf_reader_navigation_configure_callback
+                0x00005c3e       0x1b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line.text.uhf_reader_save_setting_change
+                0x00005c59       0x47 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line.text.uhf_reader_setting_1_change
+                0x00005ca0      0x175 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line.text.uhf_reader_setting_2_text_updated
+                0x00005e15       0x93 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line.text.locked_popup_back_callback
+                0x00005ea8       0x15 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line.text.uhf_reader_setting_6_text_updated
+                0x00005ebd       0x8f build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line.text.show_locked_notification
+                0x00005f4c       0x37 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line.text.uhf_reader_setting_3_change
+                0x00005f83       0xa8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line.text.uhf_reader_module_setting_change
+                0x0000602b       0xe4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line.text.uhf_reader_baud_setting_change
+                0x0000610f       0x90 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line.text.uhf_reader_region_setting_change
+                0x0000619f       0xa0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line.text.uhf_reader_setting_item_clicked
+                0x0000623f       0xb2 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line.text.power_menu_alloc
+                0x000062f1       0x46 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line.text.ap_menu_alloc
+                0x00006337       0x46 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line.text.view_config_alloc
+                0x0000637d      0x228 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line.text.view_config_free
+                0x000065a5       0x2f build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line_end
+                0x000065d4        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_line    0x000065d4      0x649 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .debug_line.text.uhf_reader_navigation_delete_exit_callback
+                0x00006c1d       0x1b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .debug_line.text.uhf_reader_view_delete_draw_callback
+                0x00006c38       0xb4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .debug_line.text.uhf_reader_view_delete_exit_callback
+                0x00006cec       0x2a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .debug_line.text.uhf_reader_view_delete_enter_callback
+                0x00006d16      0x102 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .debug_line.text.uhf_reader_view_delete_input_callback
+                0x00006e18       0x59 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .debug_line.text.view_delete_alloc
+                0x00006e71       0x8b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .debug_line.text.view_delete_free
+                0x00006efc       0x27 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .debug_line_end
+                0x00006f23        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .debug_line    0x00006f23      0x6d9 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .debug_line.text.uhf_reader_view_delete_success_draw_callback
+                0x000075fc       0xb3 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .debug_line.text.uhf_reader_view_delete_success_enter_callback
+                0x000076af       0x4f build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .debug_line.text.uhf_reader_view_delete_success_exit_callback
+                0x000076fe       0x2a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .debug_line.text.uhf_reader_view_delete_success_input_callback
+                0x00007728       0x44 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .debug_line.text.view_delete_success_alloc
+                0x0000776c       0x78 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .debug_line.text.view_delete_success_free
+                0x000077e4       0x27 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .debug_line_end
+                0x0000780b        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .debug_line    0x0000780b      0x5a6 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .debug_line.text.uhf_reader_navigation_exit_view_epc_callback
+                0x00007db1       0x1b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .debug_line.text.uhf_reader_view_epc_timer_callback
+                0x00007dcc       0x71 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .debug_line.text.uhf_reader_view_epc_draw_callback
+                0x00007e3d      0x1af build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .debug_line.text.uhf_reader_view_epc_enter_callback
+                0x00007fec       0xcb build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .debug_line.text.uhf_reader_view_epc_exit_callback
+                0x000080b7       0x2a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .debug_line.text.view_epc_alloc
+                0x000080e1       0xd9 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .debug_line.text.view_epc_free
+                0x000081ba       0x27 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .debug_line_end
+                0x000081e1        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .debug_line    0x000081e1      0x5ca build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .debug_line.text.uhf_reader_navigation_exit_epc_info_callback
+                0x000087ab       0x1b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .debug_line.text.uhf_reader_view_epc_info_draw_callback
+                0x000087c6      0x1ac build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .debug_line.text.uhf_reader_view_epc_info_timer_callback
+                0x00008972       0x52 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .debug_line.text.uhf_reader_view_epc_info_enter_callback
+                0x000089c4       0xb9 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .debug_line.text.uhf_reader_view_epc_info_exit_callback
+                0x00008a7d       0x2a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .debug_line.text.view_epc_info_alloc
+                0x00008aa7       0xc1 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .debug_line.text.view_epc_info_free
+                0x00008b68       0x27 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .debug_line_end
+                0x00008b8f        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .debug_line    0x00008b8f      0x6d3 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_line.text.uhf_reader_navigation_kill_callback
+                0x00009262       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_line.text.uhf_reader_navigation_kill_exit_callback
+                0x0000927a       0x1b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_line.text.uhf_reader_submenu_kill_callback
+                0x00009295       0x47 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_line.text.uhf_kill_tag_worker_callback
+                0x000092dc       0x66 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_line.text.uhf_reader_fetch_selected_tag
+                0x00009342       0xa2 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_line.text.uhf_reader_kill_password_updated
+                0x000093e4      0x1d8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_line.text.uhf_reader_kill_confirm_password_updated
+                0x000095bc      0x1c5 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_line.text.kill_menu_alloc
+                0x00009781       0x46 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_line.text.kill_confirm_menu_alloc
+                0x000097c7       0x38 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_line.text.view_kill_alloc
+                0x000097ff       0x69 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_line.text.view_kill_free
+                0x00009868       0x2f build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_line_end
+                0x00009897        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_line    0x00009897      0x6c3 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_line.text.uhf_reader_navigation_lock_callback
+                0x00009f5a       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_line.text.uhf_reader_navigation_lock_exit_callback
+                0x00009f72       0x1b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_line.text.uhf_reader_access_password_updated
+                0x00009f8d      0x1b2 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_line.text.uhf_reader_setting_lock_bank_change
+                0x0000a13f       0x69 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_line.text.uhf_reader_setting_lock_action_change
+                0x0000a1a8       0x5f build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_line.text.uhf_access_tag_worker_callback
+                0x0000a207       0x61 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_line.text.access_password_menu_alloc
+                0x0000a268       0x37 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_line.text.get_lock_bank_type_string
+                0x0000a29f       0x1e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_line.text.get_memory_bank_string
+                0x0000a2bd       0x1e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_line.text.uhf_reader_lock_item_clicked
+                0x0000a2db       0xbc build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_line.text.view_lock_alloc
+                0x0000a397      0x165 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_line.text.view_lock_free
+                0x0000a4fc       0x2c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_line_end
+                0x0000a528        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_line    0x0000a528      0x6ec build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_line.text.uhf_reader_navigation_read_callback
+                0x0000ac14       0x1b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_line.text.uhf_reader_navigation_read_submenu_callback
+                0x0000ac2f       0x1b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_line.text.uhf_reader_view_read_draw_callback
+                0x0000ac4a       0xc9 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_line.text.uhf_reader_view_read_timer_callback
+                0x0000ad13       0x6c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_line.text.uhf_reader_save_text_updated
+                0x0000ad7f      0x17f build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_line.text.uhf_reader_view_read_input_callback
+                0x0000aefe      0x1e7 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_line.text.uhf_reader_view_read_exit_callback
+                0x0000b0e5       0x37 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_line.text.uhf_reader_view_read_enter_callback
+                0x0000b11c       0x61 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_line.text.uhf_reader_view_read_custom_event_callback
+                0x0000b17d      0x1bd build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_line.text.uhf_read_tag_worker_callback
+                0x0000b33a       0x60 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_line.text.convert_to_hex_string
+                0x0000b39a       0x91 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_line.text.saved_input_alloc
+                0x0000b42b       0x46 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_line.text.view_read_alloc
+                0x0000b471       0xdf build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_line.text.view_read_free
+                0x0000b550       0x2a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_line_end
+                0x0000b57a        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_line    0x0000b57a      0x5a5 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .debug_line.text.uhf_reader_navigation_saved_exit_callback
+                0x0000bb1f       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .debug_line.text.uhf_reader_submenu_saved_callback
+                0x0000bb37       0x2a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .debug_line.text.view_saved_menu_alloc
+                0x0000bb61      0x134 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .debug_line.text.view_saved_free
+                0x0000bc95       0x27 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .debug_line_end
+                0x0000bcbc        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .debug_line    0x0000bcbc      0x605 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .debug_line.text.uhf_reader_navigation_epc_info_callback
+                0x0000c2c1       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .debug_line.text.uhf_reader_navigation_tag_action_exit_callback
+                0x0000c2d9       0x1b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .debug_line.text.uhf_reader_rename_text_updated
+                0x0000c2f4      0x262 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .debug_line.text.uhf_reader_submenu_tag_info_callback
+                0x0000c556       0x5d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .debug_line.text.view_tag_actions_alloc
+                0x0000c5b3       0x4e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .debug_line.text.view_tag_actions_free
+                0x0000c601       0x29 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .debug_line_end
+                0x0000c62a        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .debug_line    0x0000c62a      0x6ec build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_line.text.uhf_reader_navigation_write_callback
+                0x0000cd16       0x18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_line.text.uhf_reader_navigation_write_exit_callback
+                0x0000cd2e       0x1b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_line.text.uhf_reader_epc_value_text_updated
+                0x0000cd49       0x3a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_line.text.uhf_reader_view_write_timer_callback
+                0x0000cd83       0x17 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_line.text.uhf_reader_view_write_enter_callback
+                0x0000cd9a       0xc7 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_line.text.uhf_reader_view_write_exit_callback
+                0x0000ce61       0x2a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_line.text.uhf_reader_view_write_custom_event_callback
+                0x0000ce8b      0x2b8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_line.text.uhf_reader_view_write_draw_callback
+                0x0000d143       0x64 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_line.text.uhf_reader_view_write_input_callback
+                0x0000d1a7       0xf0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_line.text.uhf_write_tag_worker_callback
+                0x0000d297      0x13c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_line.text.view_write_alloc
+                0x0000d3d3      0x21e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_line.text.view_write_free
+                0x0000d5f1       0x2f build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_line_end
+                0x0000d620        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_line    0x0000d620      0x6c1 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+ .debug_line.text.uhf_reader_navigation_exit_callback
+                0x0000dce1       0x1a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+ .debug_line.text.uhf_reader_submenu_callback
+                0x0000dcfb       0x2b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+ .debug_line.text.main_menu_alloc
+                0x0000dd26       0x3c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+ .debug_line.text.main_uhf_reader_app
+                0x0000dd62      0x1ac build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+ .debug_line_end
+                0x0000df0e        0x0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+
+.debug_frame    0x00000000     0x1d00
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xf4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .debug_frame   0x000000f4       0xd8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .debug_frame   0x000001cc      0x124 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .debug_frame   0x000002f0      0x104 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .debug_frame   0x000003f4       0x68 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+ .debug_frame   0x0000045c       0xcc build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .debug_frame   0x00000528      0x314 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_frame   0x0000083c      0x228 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_frame   0x00000a64       0xec build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .debug_frame   0x00000b50      0x158 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_frame   0x00000ca8       0x74 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+ .debug_frame   0x00000d1c      0x2ac build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_frame   0x00000fc8       0xf8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .debug_frame   0x000010c0       0xd4 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .debug_frame   0x00001194      0x11c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .debug_frame   0x000012b0      0x11c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .debug_frame   0x000013cc      0x1b8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_frame   0x00001584      0x1bc build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_frame   0x00001740      0x21c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_frame   0x0000195c       0x88 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .debug_frame   0x000019e4       0xe0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .debug_frame   0x00001ac4      0x1bc build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_frame   0x00001c80       0x80 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+
+.debug_str      0x00000000    0x2895e
+ *(.debug_str)
+ .debug_str     0x00000000      0x4ed build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .debug_str     0x000004ed      0x3f0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .debug_str     0x000008dd     0x20eb build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .debug_str     0x000029c8      0xd18 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .debug_str     0x000036e0     0x21f2 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+ .debug_str     0x000058d2      0x344 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .debug_str     0x00005c16     0x1807 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_str     0x0000741d      0x52b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_str     0x00007948      0xa62 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .debug_str     0x000083aa      0xe33 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_str     0x000091dd     0x1e02 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+ .debug_str     0x0000afdf     0x2668 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_str     0x0000d647     0x251b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .debug_str     0x0000fb62     0x2778 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .debug_str     0x000122da     0x23d9 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .debug_str     0x000146b3     0x2503 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .debug_str     0x00016bb6     0x2b72 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_str     0x00019728     0x28af build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_str     0x0001bfd7     0x2daa build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_str     0x0001ed81     0x2245 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .debug_str     0x00020fc6     0x2592 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .debug_str     0x00023558     0x2ea5 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_str     0x000263fd     0x2561 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x6c38
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x499 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .debug_loclists
+                0x00000499      0x1b0 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .debug_loclists
+                0x00000649      0x49a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .debug_loclists
+                0x00000ae3      0x306 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .debug_loclists
+                0x00000de9      0x657 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+ .debug_loclists
+                0x00001440      0x183 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .debug_loclists
+                0x000015c3      0xf4a build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_loclists
+                0x0000250d      0x343 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_loclists
+                0x00002850      0x23d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .debug_loclists
+                0x00002a8d      0x34b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_loclists
+                0x00002dd8       0x77 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+ .debug_loclists
+                0x00002e4f      0x6e3 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_loclists
+                0x00003532      0x3d9 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .debug_loclists
+                0x0000390b      0x280 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .debug_loclists
+                0x00003b8b      0x4c7 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .debug_loclists
+                0x00004052      0x4d2 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .debug_loclists
+                0x00004524      0x5f8 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_loclists
+                0x00004b1c      0x54e build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_loclists
+                0x0000506a      0xa6b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_loclists
+                0x00005ad5      0x1b2 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .debug_loclists
+                0x00005c87      0x43c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .debug_loclists
+                0x000060c3      0x9b9 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_loclists
+                0x00006a7c      0x1bc build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0xc3a
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x85 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .debug_rnglists
+                0x00000085       0x5b build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .debug_rnglists
+                0x000000e0       0x8d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .debug_rnglists
+                0x0000016d       0x6c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .debug_rnglists
+                0x000001d9       0xa5 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+ .debug_rnglists
+                0x0000027e       0x4f build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .debug_rnglists
+                0x000002cd      0x10d build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .debug_rnglists
+                0x000003da       0xb5 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .debug_rnglists
+                0x0000048f       0x44 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .debug_rnglists
+                0x000004d3       0x5c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .debug_rnglists
+                0x0000052f       0x20 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+ .debug_rnglists
+                0x0000054f       0xfe build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .debug_rnglists
+                0x0000064d       0x5f build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .debug_rnglists
+                0x000006ac       0x33 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .debug_rnglists
+                0x000006df       0x5f build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .debug_rnglists
+                0x0000073e       0x70 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .debug_rnglists
+                0x000007ae       0xd5 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .debug_rnglists
+                0x00000883       0x85 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .debug_rnglists
+                0x00000908      0x136 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .debug_rnglists
+                0x00000a3e       0x32 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .debug_rnglists
+                0x00000a70       0x58 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .debug_rnglists
+                0x00000ac8      0x13c build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .debug_rnglists
+                0x00000c04       0x36 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/extract_tag_info.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/ring_buffer.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/saved_epc_functions.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_helper.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/uart_process.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_buffer.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_module.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_tag.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_uart.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/helpers/yrm100x_worker.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_about.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_config.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_delete_success.o
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc.o
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_epc_info.o
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_kill.o
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_lock.o
+ .ARM.attributes
+                0x000003a8       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_read.o
+ .ARM.attributes
+                0x000003dc       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_saved.o
+ .ARM.attributes
+                0x00000410       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_tag_actions.o
+ .ARM.attributes
+                0x00000444       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/views/view_write.o
+ .ARM.attributes
+                0x00000478       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/app.o
+ .ARM.attributes
+                0x000004ac       0x34 build/f7-firmware-C/.extapps/simultaneous_rfid_reader/simultaneous_rfid_reader_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/simultaneous_rfid_reader_d.elf elf32-littlearm)
+LOAD linker stubs

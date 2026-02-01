@@ -1,0 +1,261 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+                              build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o (__aeabi_dmul)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o (__aeabi_ui2d)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+                              build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o (__aeabi_ddiv)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+ .text          0x00000000      0x254 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x1048
+ *(.text)
+ .text          0x00000000      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000000                __aeabi_drsub
+                0x00000008                __aeabi_dsub
+                0x00000008                __subdf3
+                0x0000000c                __adddf3
+                0x0000000c                __aeabi_dadd
+                0x00000284                __aeabi_ui2d
+                0x00000284                __floatunsidf
+                0x000002a4                __floatsidf
+                0x000002a4                __aeabi_i2d
+                0x000002c8                __extendsfdf2
+                0x000002c8                __aeabi_f2d
+                0x0000030c                __aeabi_ul2d
+                0x0000030c                __floatundidf
+                0x0000031c                __floatdidf
+                0x0000031c                __aeabi_l2d
+ .text          0x00000378      0x424 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+                0x00000378                __aeabi_dmul
+                0x00000378                __muldf3
+                0x000005cc                __aeabi_ddiv
+                0x000005cc                __divdf3
+ *(.stub)
+ *(.text*)
+ .text.clock_tick
+                0x0000079c       0x40 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+ .text.gpiocallback
+                0x000007dc       0x20 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+ .text.input_callback
+                0x000007fc       0x28 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+ *fill*         0x00000824        0x4 
+ .text.draw_callback
+                0x00000828      0x310 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+ .text.flipper_geiger_app
+                0x00000b38      0x510 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+                0x00000b38                flipper_geiger_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00001048      0x110
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.draw_callback.str1.1
+                0x00001048       0xa9 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+ .rodata.flipper_geiger_app.str1.1
+                0x000010f1       0x67 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x40
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1ee6
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1ee6 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+
+.debug_abbrev   0x00000000      0x3d1
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3d1 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+
+.debug_line     0x00000000      0xc90
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x54b build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+ .debug_line.text.clock_tick
+                0x0000054b       0x50 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+ .debug_line.text.gpiocallback
+                0x0000059b       0x35 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+ .debug_line.text.input_callback
+                0x000005d0       0x30 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+ .debug_line.text.draw_callback
+                0x00000600      0x2aa build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+ .debug_line.text.flipper_geiger_app
+                0x000008aa      0x3e6 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+ .debug_line_end
+                0x00000c90        0x0 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+
+.debug_frame    0x00000000       0xcc
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xcc build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+
+.debug_str      0x00000000     0x1460
+ *(.debug_str)
+ .debug_str     0x00000000     0x1460 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x150
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_line_str
+                0x000000a8       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+
+.debug_loclists
+                0x00000000      0x667
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x667 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x10a
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x10a build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/flipper_geiger/flipper_geiger.o
+ .ARM.attributes
+                0x00000034       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .ARM.attributes
+                0x00000056       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000078       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/flipper_geiger_d.elf elf32-littlearm)
+LOAD linker stubs

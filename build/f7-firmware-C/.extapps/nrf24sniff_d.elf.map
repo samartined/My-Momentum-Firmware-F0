@@ -1,0 +1,563 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                              build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o (nrf24_init)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .bss.preamble_text
+                0x00000000        0xe build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .data.preamble_text_fmt
+                0x00000000        0xf build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .text.nrf24_get_maclen
+                0x00000000       0x20 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .text.nrf24_get_rate
+                0x00000000       0x48 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .text.nrf24_set_rate
+                0x00000000       0x64 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .text.nrf24_get_chan
+                0x00000000       0x20 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .text.nrf24_set_chan
+                0x00000000        0xc build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .text.nrf24_get_src_mac
+                0x00000000       0x24 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .text.nrf24_get_dst_mac
+                0x00000000       0x24 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .text.nrf24_power_up
+                0x00000000       0x44 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .text.nrf24_set_rx_mode
+                0x00000000       0x50 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .rodata.hexlify.str1.1
+                0x00000000        0x5 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .text.hexlify  0x00000000       0x4c build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .text.bytes_to_int64
+                0x00000000       0x2e build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .text.int64_to_bytes
+                0x00000000       0x42 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .text.bytes_to_int16
+                0x00000000        0xc build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .text.int16_to_bytes
+                0x00000000       0x12 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .text.alt_address_old
+                0x00000000       0x64 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_get_maclen
+                0x00000000       0x27 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_get_rate
+                0x00000000       0x4b build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_rate
+                0x00000000       0x88 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_get_chan
+                0x00000000       0x25 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_chan
+                0x00000000       0x1f build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_get_src_mac
+                0x00000000       0x35 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_get_dst_mac
+                0x00000000       0x35 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_power_up
+                0x00000000       0x48 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_rx_mode
+                0x00000000       0x6d build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.hexlify
+                0x00000000       0x66 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.bytes_to_int64
+                0x00000000       0x5a build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.int64_to_bytes
+                0x00000000       0x53 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.bytes_to_int16
+                0x00000000       0x44 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.int16_to_bytes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.alt_address_old
+                0x00000000       0x68 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+LOAD build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/.extapps/nrf24sniff/nrf24
+
+.text           0x00000000     0x1534
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.get_highest_idx
+                0x00000000       0x2c build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .text.input_callback
+                0x0000002c       0x28 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .text.render_callback
+                0x00000054      0x180 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .text.clear_cache
+                0x000001d4       0x6c build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .text.start_sniffing
+                0x00000240       0x3c build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .text.hexlify.constprop.0
+                0x0000027c       0x40 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .text.alt_address
+                0x000002bc       0x60 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x000002bc                alt_address
+ .text.wrap_up  0x0000031c      0x34c build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .text.nrfsniff_app
+                0x00000668      0x520 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x00000668                nrfsniff_app
+ .text.nrf_strcat
+                0x00000b88       0x1e build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+                0x00000b88                nrf_strcat
+ *fill*         0x00000ba6        0x2 
+ .text.nrf_strtok
+                0x00000ba8       0x54 build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+                0x00000ba8                nrf_strtok
+ .text.nrf24_init
+                0x00000bfc       0x88 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00000bfc                nrf24_init
+ .text.nrf24_deinit
+                0x00000c84       0x84 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00000c84                nrf24_deinit
+ .text.nrf24_spi_trx
+                0x00000d08       0x28 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00000d08                nrf24_spi_trx
+ .text.nrf24_write_reg
+                0x00000d30       0x34 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00000d30                nrf24_write_reg
+ .text.nrf24_write_buf_reg
+                0x00000d64       0x78 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00000d64                nrf24_write_buf_reg
+ .text.nrf24_read_reg
+                0x00000ddc       0x80 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00000ddc                nrf24_read_reg
+ .text.nrf24_flush_rx
+                0x00000e5c       0x2c build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00000e5c                nrf24_flush_rx
+ .text.nrf24_flush_tx
+                0x00000e88       0x2c build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00000e88                nrf24_flush_tx
+ .text.nrf24_set_maclen
+                0x00000eb4       0x10 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00000eb4                nrf24_set_maclen
+ .text.nrf24_status
+                0x00000ec4       0x28 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00000ec4                nrf24_status
+ .text.nrf24_set_src_mac
+                0x00000eec       0x44 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00000eec                nrf24_set_src_mac
+ .text.nrf24_set_dst_mac
+                0x00000f30       0x44 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00000f30                nrf24_set_dst_mac
+ .text.nrf24_get_packetlen
+                0x00000f74       0x20 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00000f74                nrf24_get_packetlen
+ .text.nrf24_set_packetlen
+                0x00000f94        0xc build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00000f94                nrf24_set_packetlen
+ .text.nrf24_rxpacket
+                0x00000fa0       0xd0 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00000fa0                nrf24_rxpacket
+ .text.nrf24_set_idle
+                0x00001070       0x40 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00001070                nrf24_set_idle
+ .text.nrf24_set_tx_mode
+                0x000010b0       0x64 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x000010b0                nrf24_set_tx_mode
+ .text.nrf24_txpacket
+                0x00001114       0xc4 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00001114                nrf24_txpacket
+ .text.nrf24_configure
+                0x000011d8       0xf0 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x000011d8                nrf24_configure
+ .text.nrf24_init_promisc_mode
+                0x000012c8       0xb0 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x000012c8                nrf24_init_promisc_mode
+ .text.bytes_to_int32
+                0x00001378       0x26 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00001378                bytes_to_int32
+ .text.int32_to_bytes
+                0x0000139e       0x26 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x0000139e                int32_to_bytes
+ .text.validate_address
+                0x000013c4       0x58 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x000013c4                validate_address
+ .text.nrf24_sniff_address
+                0x0000141c       0x58 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x0000141c                nrf24_sniff_address
+ .text.nrf24_find_channel
+                0x00001474       0xac build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00001474                nrf24_find_channel
+ .text.nrf24_check_connected
+                0x00001520       0x14 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+                0x00001520                nrf24_check_connected
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00001534      0x191
+ *(.rodata)
+ .rodata        0x00001534       0x11 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.render_callback.str1.1
+                0x00001545        0x3 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .rodata.hexlify.constprop.0.str1.1
+                0x00001548        0x5 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .rodata.wrap_up.str1.1
+                0x0000154d       0xff build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .rodata.nrfsniff_app.str1.1
+                0x0000164c       0x51 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .rodata.nrf24_find_channel.str1.1
+                0x0000169d       0x28 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+
+.data           0x000016c8       0x7b
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.target_preamble
+                0x000016c8        0x2 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x000016c8                target_preamble
+ .data.target_rate
+                0x000016ca        0x1 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x000016ca                target_rate
+ *fill*         0x000016cb        0x1 
+ .data.sample_time
+                0x000016cc        0x4 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x000016cc                sample_time
+ .data.sniffed_address_fmt
+                0x000016d0        0x6 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x000016d0                sniffed_address_fmt
+ .data.addresses_header_text
+                0x000016d6        0xd build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x000016d6                addresses_header_text
+ .data.sniff_text_fmt
+                0x000016e3       0x1b build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x000016e3                sniff_text_fmt
+ .data.channel_text_fmt
+                0x000016fe       0x1c build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x000016fe                channel_text_fmt
+ .data.sample_text_fmt
+                0x0000171a       0x13 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x0000171a                sample_text_fmt
+ .data.rate_text_fmt
+                0x0000172d       0x16 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x0000172d                rate_text_fmt
+
+.bss            0x00001744      0x4f8
+ *(.bss)
+ *(.bss*)
+ .bss.candidate_idx
+                0x00001744        0x4 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x00001744                candidate_idx
+ .bss.total_candidates
+                0x00001748        0x4 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x00001748                total_candidates
+ .bss.confirmed_idx
+                0x0000174c        0x1 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x0000174c                confirmed_idx
+ .bss.confirmed
+                0x0000174d       0xa0 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x0000174d                confirmed
+ *fill*         0x000017ed        0x3 
+ .bss.counts    0x000017f0      0x190 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x000017f0                counts
+ .bss.candidates
+                0x00001980      0x1f4 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x00001980                candidates
+ .bss.top_address
+                0x00001b74        0xc build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x00001b74                top_address
+ .bss.sniffing_state
+                0x00001b80        0x1 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x00001b80                sniffing_state
+ *fill*         0x00001b81        0x3 
+ .bss.unique_saved_count
+                0x00001b84        0x4 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x00001b84                unique_saved_count
+ .bss.found_count
+                0x00001b88        0x4 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x00001b88                found_count
+ .bss.target_channel
+                0x00001b8c        0x1 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x00001b8c                target_channel
+ .bss.sniffed_address
+                0x00001b8d        0xe build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x00001b8d                sniffed_address
+ .bss.sniff_text
+                0x00001b9b       0x26 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x00001b9b                sniff_text
+ .bss.sample_text
+                0x00001bc1       0x20 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x00001bc1                sample_text
+ .bss.channel_text
+                0x00001be1       0x26 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x00001be1                channel_text
+ .bss.rate_text
+                0x00001c07       0x2e build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+                0x00001c07                rate_text
+ *fill*         0x00001c35        0x3 
+ .bss.last.0    0x00001c38        0x4 build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x1e8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x60 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .debug_aranges
+                0x00000060       0x28 build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+ .debug_aranges
+                0x00000088      0x160 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x5f91
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2f6b build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .debug_info    0x00002f6b      0x1fa build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+ .debug_info    0x00003165     0x2e2c build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+
+.debug_abbrev   0x00000000      0xc11
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x59d build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .debug_abbrev  0x0000059d      0x17e build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+ .debug_abbrev  0x0000071b      0x4f6 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+
+.debug_line     0x00000000     0x1d1e
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x595 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .debug_line.text.get_highest_idx
+                0x00000595       0x50 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .debug_line.text.input_callback
+                0x000005e5       0x30 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .debug_line.text.render_callback
+                0x00000615       0x82 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .debug_line.text.clear_cache
+                0x00000697       0x65 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .debug_line.text.start_sniffing
+                0x000006fc       0x25 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .debug_line.text.hexlify.constprop.0
+                0x00000721       0x4a build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .debug_line.text.alt_address
+                0x0000076b       0xab build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .debug_line.text.wrap_up
+                0x00000816      0x228 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .debug_line.text.nrfsniff_app
+                0x00000a3e      0x39e build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .debug_line_end
+                0x00000ddc        0x0 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .debug_line    0x00000ddc       0x4d build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+ .debug_line.text.nrf_strcat
+                0x00000e29       0x59 build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+ .debug_line.text.nrf_strtok
+                0x00000e82       0xc4 build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+ .debug_line_end
+                0x00000f46        0x0 build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+ .debug_line    0x00000f46      0x3d9 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_init
+                0x0000131f       0xd8 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_deinit
+                0x000013f7       0x7c build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_spi_trx
+                0x00001473       0x75 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_write_reg
+                0x000014e8       0x31 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_write_buf_reg
+                0x00001519       0x63 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_read_reg
+                0x0000157c       0x61 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_flush_rx
+                0x000015dd       0x2d build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_flush_tx
+                0x0000160a       0x2d build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_maclen
+                0x00001637       0x1d build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_status
+                0x00001654       0x26 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_src_mac
+                0x0000167a       0x49 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_dst_mac
+                0x000016c3       0x49 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_get_packetlen
+                0x0000170c       0x25 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_packetlen
+                0x00001731       0x1f build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_rxpacket
+                0x00001750       0xab build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_idle
+                0x000017fb       0x67 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_set_tx_mode
+                0x00001862       0xbd build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_txpacket
+                0x0000191f       0x93 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_configure
+                0x000019b2       0xa7 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_init_promisc_mode
+                0x00001a59       0x68 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.bytes_to_int32
+                0x00001ac1       0x56 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.int32_to_bytes
+                0x00001b17       0x52 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.validate_address
+                0x00001b69       0x7e build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_sniff_address
+                0x00001be7       0x87 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_find_channel
+                0x00001c6e       0x8b build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line.text.nrf24_check_connected
+                0x00001cf9       0x25 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ .debug_line_end
+                0x00001d1e        0x0 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+
+.debug_frame    0x00000000      0x6e0
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x154 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .debug_frame   0x00000154       0x44 build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+ .debug_frame   0x00000198      0x548 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+
+.debug_str      0x00000000     0x3273
+ *(.debug_str)
+ .debug_str     0x00000000     0x1d89 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .debug_str     0x00001d89      0x231 build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+ .debug_str     0x00001fba     0x12b9 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x180d
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x738 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .debug_loclists
+                0x00000738      0x13b build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+ .debug_loclists
+                0x00000873      0xf9a build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x2e2
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xfe build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .debug_rnglists
+                0x000000fe       0x28 build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+ .debug_rnglists
+                0x00000126      0x1bc build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/nrf24sniff/nrfsniff.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/nrf24sniff/stdstring.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/nrf24sniff/nrf24(nrf24.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/nrf24sniff_d.elf elf32-littlearm)
+LOAD linker stubs

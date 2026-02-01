@@ -1,0 +1,241 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+LOAD build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x204
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.expansion_settings_load
+                0x00000000       0x3c build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+                0x00000000                expansion_settings_load
+ .text.expansion_settings_save
+                0x0000003c       0x3c build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+                0x0000003c                expansion_settings_save
+ .text.expansion_settings_app_exit
+                0x00000078        0x6 build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+ *fill*         0x0000007e        0x2 
+ .text.expansion_settings_app_uart_changed
+                0x00000080       0x54 build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+ .text.expansion_settings_app
+                0x000000d4      0x130 build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+                0x000000d4                expansion_settings_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000204       0x9c
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.expansion_settings_load.str1.1
+                0x00000204       0x4f build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+ .rodata.expansion_settings_save.str1.1
+                0x00000253       0x14 build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+ .rodata.expansion_settings_app.str1.1
+                0x00000267       0x1a build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+ .rodata.str1.1
+                0x00000281       0x12 build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+ *fill*         0x00000293        0x1 
+ .rodata.expansion_uart_text
+                0x00000294        0xc build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x58
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+ .debug_aranges
+                0x00000028       0x30 build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xd0e
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x2e6 build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+ .debug_info    0x000002e6      0xa28 build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+
+.debug_abbrev   0x00000000      0x417
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x13b build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+ .debug_abbrev  0x0000013b      0x2dc build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+
+.debug_line     0x00000000      0x878
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x2db build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+ .debug_line.text.expansion_settings_load
+                0x000002db       0x3d build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+ .debug_line.text.expansion_settings_save
+                0x00000318       0x3e build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+ .debug_line_end
+                0x00000356        0x0 build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+ .debug_line    0x00000356      0x3d5 build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+ .debug_line.text.expansion_settings_app_exit
+                0x0000072b       0x1a build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+ .debug_line.text.expansion_settings_app_uart_changed
+                0x00000745       0x5f build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+ .debug_line.text.expansion_settings_app
+                0x000007a4       0xd4 build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+ .debug_line_end
+                0x00000878        0x0 build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+
+.debug_frame    0x00000000       0xc8
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x54 build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+ .debug_frame   0x00000054       0x74 build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+
+.debug_str      0x00000000      0xb28
+ *(.debug_str)
+ .debug_str     0x00000000      0x369 build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+ .debug_str     0x00000369      0x7bf build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x14e
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000       0x6e build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+ .debug_loclists
+                0x0000006e       0xe0 build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x55
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x19 build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+ .debug_rnglists
+                0x00000019       0x3c build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/expansion_settings/mock_imports/mock_expansion_settings.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/expansion_settings/expansion_settings_app.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/expansion_settings_d.elf elf32-littlearm)
+LOAD linker stubs

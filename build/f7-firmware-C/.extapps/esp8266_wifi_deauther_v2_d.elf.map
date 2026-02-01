@@ -1,0 +1,433 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene.o
+LOAD build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+LOAD build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+LOAD build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+LOAD build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+LOAD build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x974
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.wifi_deauther_console_output_handle_rx_data_cb
+                0x00000000       0x64 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+                0x00000000                wifi_deauther_console_output_handle_rx_data_cb
+ .text.wifi_deauther_scene_console_output_on_enter
+                0x00000064      0x124 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+                0x00000064                wifi_deauther_scene_console_output_on_enter
+ .text.wifi_deauther_scene_console_output_on_event
+                0x00000188       0x38 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+                0x00000188                wifi_deauther_scene_console_output_on_event
+ .text.wifi_deauther_scene_console_output_on_exit
+                0x000001c0       0x34 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+                0x000001c0                wifi_deauther_scene_console_output_on_exit
+ .text.wifi_deauther_scene_start_var_list_change_callback
+                0x000001f4       0x48 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .text.wifi_deauther_scene_start_var_list_enter_callback
+                0x0000023c       0x90 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .text.wifi_deauther_scene_start_on_enter
+                0x000002cc       0xb4 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+                0x000002cc                wifi_deauther_scene_start_on_enter
+ .text.wifi_deauther_scene_start_on_event
+                0x00000380       0x58 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+                0x00000380                wifi_deauther_scene_start_on_event
+ .text.wifi_deauther_scene_start_on_exit
+                0x000003d8        0xc build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+                0x000003d8                wifi_deauther_scene_start_on_exit
+ .text.wifi_deauther_scene_text_input_callback
+                0x000003e4        0xc build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+                0x000003e4                wifi_deauther_scene_text_input_callback
+ .text.wifi_deauther_scene_text_input_on_enter
+                0x000003f0      0x108 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+                0x000003f0                wifi_deauther_scene_text_input_on_enter
+ .text.wifi_deauther_scene_text_input_on_event
+                0x000004f8       0x34 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+                0x000004f8                wifi_deauther_scene_text_input_on_event
+ .text.wifi_deauther_scene_text_input_on_exit
+                0x0000052c        0xc build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+                0x0000052c                wifi_deauther_scene_text_input_on_exit
+ .text.wifi_deauther_app_tick_event_callback
+                0x00000538        0xc build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .text.wifi_deauther_app_back_event_callback
+                0x00000544        0xc build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .text.wifi_deauther_app_custom_event_callback
+                0x00000550        0xc build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .text.wifi_deauther_app_alloc
+                0x0000055c      0x120 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+                0x0000055c                wifi_deauther_app_alloc
+ .text.wifi_deauther_app_free
+                0x0000067c       0x7c build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+                0x0000067c                wifi_deauther_app_free
+ .text.wifi_deauther_app
+                0x000006f8       0xa4 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+                0x000006f8                wifi_deauther_app
+ .text.uart_worker
+                0x0000079c       0x68 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+ .text.wifi_deauther_uart_on_irq_cb
+                0x00000804       0x40 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+                0x00000804                wifi_deauther_uart_on_irq_cb
+ .text.wifi_deauther_uart_set_handle_rx_data_cb
+                0x00000844        0x6 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+                0x00000844                wifi_deauther_uart_set_handle_rx_data_cb
+ *fill*         0x0000084a        0x2 
+ .text.wifi_deauther_uart_tx
+                0x0000084c        0xc build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+                0x0000084c                wifi_deauther_uart_tx
+ .text.wifi_deauther_uart_init
+                0x00000858       0xbc build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+                0x00000858                wifi_deauther_uart_init
+ .text.wifi_deauther_uart_free
+                0x00000914       0x60 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+                0x00000914                wifi_deauther_uart_free
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000974      0x607
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.wifi_deauther_scene_handlers
+                0x00000974       0x10 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene.o
+                0x00000974                wifi_deauther_scene_handlers
+ .rodata.wifi_deauther_scene_on_exit_handlers
+                0x00000984        0xc build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene.o
+                0x00000984                wifi_deauther_scene_on_exit_handlers
+ .rodata.wifi_deauther_scene_on_event_handlers
+                0x00000990        0xc build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene.o
+                0x00000990                wifi_deauther_scene_on_event_handlers
+ .rodata.wifi_deauther_scene_on_enter_handlers
+                0x0000099c        0xc build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene.o
+                0x0000099c                wifi_deauther_scene_on_enter_handlers
+ .rodata.wifi_deauther_console_output_handle_rx_data_cb.str1.1
+                0x000009a8        0x3 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .rodata.wifi_deauther_scene_console_output_on_enter.str1.1
+                0x000009ab       0x3c build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .rodata.wifi_deauther_scene_console_output_on_exit.str1.1
+                0x000009e7        0xa build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .rodata.str1.1
+                0x000009f1      0x205 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ *fill*         0x00000bf6        0x2 
+ .rodata.MenuItems
+                0x00000bf8      0x294 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+                0x00000bf8                MenuItems
+ .rodata.wifi_deauther_scene_text_input_on_enter.str1.1
+                0x00000e8c       0xc8 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .rodata.wifi_deauther_app_alloc.str1.1
+                0x00000f54        0x4 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .rodata.wifi_deauther_app.str1.1
+                0x00000f58        0xa build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .rodata.wifi_deauther_uart_init.str1.1
+                0x00000f62       0x19 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x158
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene.o
+ .debug_aranges
+                0x00000018       0x38 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .debug_aranges
+                0x00000050       0x40 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .debug_aranges
+                0x00000090       0x38 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .debug_aranges
+                0x000000c8       0x48 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .debug_aranges
+                0x00000110       0x48 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x40e2
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x2e5 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene.o
+ .debug_info    0x000002e5      0xa53 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .debug_info    0x00000d38      0xad7 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .debug_info    0x0000180f      0x8d6 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .debug_info    0x000020e5      0xe59 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .debug_info    0x00002f3e     0x11a4 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+
+.debug_abbrev   0x00000000      0xf0c
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x137 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene.o
+ .debug_abbrev  0x00000137      0x27d build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .debug_abbrev  0x000003b4      0x265 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .debug_abbrev  0x00000619      0x24c build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .debug_abbrev  0x00000865      0x2c8 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .debug_abbrev  0x00000b2d      0x3df build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+
+.debug_line     0x00000000     0x1f79
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x1bc build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene.o
+ .debug_line_end
+                0x000001bc        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene.o
+ .debug_line    0x000001bc      0x458 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .debug_line.text.wifi_deauther_console_output_handle_rx_data_cb
+                0x00000614       0x57 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .debug_line.text.wifi_deauther_scene_console_output_on_enter
+                0x0000066b       0xaf build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .debug_line.text.wifi_deauther_scene_console_output_on_event
+                0x0000071a       0x3f build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .debug_line.text.wifi_deauther_scene_console_output_on_exit
+                0x00000759       0x34 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .debug_line_end
+                0x0000078d        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .debug_line    0x0000078d      0x3d1 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .debug_line.text.wifi_deauther_scene_start_var_list_change_callback
+                0x00000b5e       0x59 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .debug_line.text.wifi_deauther_scene_start_var_list_enter_callback
+                0x00000bb7       0xb5 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .debug_line.text.wifi_deauther_scene_start_on_enter
+                0x00000c6c       0x94 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .debug_line.text.wifi_deauther_scene_start_on_event
+                0x00000d00       0x63 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .debug_line.text.wifi_deauther_scene_start_on_exit
+                0x00000d63       0x18 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .debug_line_end
+                0x00000d7b        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .debug_line    0x00000d7b      0x406 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .debug_line.text.wifi_deauther_scene_text_input_callback
+                0x00001181       0x15 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .debug_line.text.wifi_deauther_scene_text_input_on_enter
+                0x00001196       0xcb build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .debug_line.text.wifi_deauther_scene_text_input_on_event
+                0x00001261       0x55 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .debug_line.text.wifi_deauther_scene_text_input_on_exit
+                0x000012b6       0x18 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .debug_line_end
+                0x000012ce        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .debug_line    0x000012ce      0x44d build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .debug_line.text.wifi_deauther_app_tick_event_callback
+                0x0000171b       0x1b build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .debug_line.text.wifi_deauther_app_back_event_callback
+                0x00001736       0x1e build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .debug_line.text.wifi_deauther_app_custom_event_callback
+                0x00001754       0x1d build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .debug_line.text.wifi_deauther_app_alloc
+                0x00001771       0xa4 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .debug_line.text.wifi_deauther_app_free
+                0x00001815       0x35 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .debug_line.text.wifi_deauther_app
+                0x0000184a       0x9a build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .debug_line_end
+                0x000018e4        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .debug_line    0x000018e4      0x493 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+ .debug_line.text.uart_worker
+                0x00001d77       0xaf build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+ .debug_line.text.wifi_deauther_uart_on_irq_cb
+                0x00001e26       0x42 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+ .debug_line.text.wifi_deauther_uart_set_handle_rx_data_cb
+                0x00001e68       0x1f build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+ .debug_line.text.wifi_deauther_uart_tx
+                0x00001e87       0x18 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+ .debug_line.text.wifi_deauther_uart_init
+                0x00001e9f       0xaa build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+ .debug_line.text.wifi_deauther_uart_free
+                0x00001f49       0x30 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+ .debug_line_end
+                0x00001f79        0x0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+
+.debug_frame    0x00000000      0x320
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xa0 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .debug_frame   0x000000a0       0xb4 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .debug_frame   0x00000154       0x84 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .debug_frame   0x000001d8       0xa4 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .debug_frame   0x0000027c       0xa4 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+
+.debug_str      0x00000000     0x3a28
+ *(.debug_str)
+ .debug_str     0x00000000      0x58a build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene.o
+ .debug_str     0x0000058a      0x880 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .debug_str     0x00000e0a      0x9b4 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .debug_str     0x000017be      0x737 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .debug_str     0x00001ef5      0xba2 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .debug_str     0x00002a97      0xf91 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x9d5
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x23a build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .debug_loclists
+                0x0000023a      0x2fc build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .debug_loclists
+                0x00000536      0x170 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .debug_loclists
+                0x000006a6      0x179 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .debug_loclists
+                0x0000081f      0x1b6 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x10e
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x32 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .debug_rnglists
+                0x00000032       0x39 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .debug_rnglists
+                0x0000006b       0x32 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .debug_rnglists
+                0x0000009d       0x33 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .debug_rnglists
+                0x000000d0       0x3e build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_console_output.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_start.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/scenes/wifi_deauther_scene_text_input.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_app.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2/wifi_deauther_uart.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/esp8266_wifi_deauther_v2_d.elf elf32-littlearm)
+LOAD linker stubs

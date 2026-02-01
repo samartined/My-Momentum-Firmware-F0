@@ -1,0 +1,418 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o (__aeabi_ui2d)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x2184
+ *(.text)
+ .text          0x00000000      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000000                __aeabi_drsub
+                0x00000008                __aeabi_dsub
+                0x00000008                __subdf3
+                0x0000000c                __adddf3
+                0x0000000c                __aeabi_dadd
+                0x00000284                __aeabi_ui2d
+                0x00000284                __floatunsidf
+                0x000002a4                __floatsidf
+                0x000002a4                __aeabi_i2d
+                0x000002c8                __extendsfdf2
+                0x000002c8                __aeabi_f2d
+                0x0000030c                __aeabi_ul2d
+                0x0000030c                __floatundidf
+                0x0000031c                __floatdidf
+                0x0000031c                __aeabi_l2d
+ *(.stub)
+ *(.text*)
+ .text.js_storage_destroy
+                0x00000378       0x10 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_create
+                0x00000388      0x2f0 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_file_destructor
+                0x00000678       0x38 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_virtual_quit
+                0x000006b0       0xc0 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_destructor
+                0x00000770       0x8c build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_virtual_mount
+                0x000007fc       0x6c build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_virtual_init
+                0x00000868      0x18c build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_open_file
+                0x000009f4      0x2bc build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_is_subpath_of
+                0x00000cb0       0xc4 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_are_paths_equal
+                0x00000d74       0xc4 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_next_available_filename
+                0x00000e38      0x108 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_fs_info
+                0x00000f40      0x144 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_copy
+                0x00001084       0xcc build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_rename
+                0x00001150       0xc8 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_rmrf
+                0x00001218       0xc0 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_remove
+                0x000012d8       0xc0 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_stat
+                0x00001398      0x1b8 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_file_or_dir_exists
+                0x00001550       0xc0 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_make_directory
+                0x00001610       0xc0 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_directory_exists
+                0x000016d0       0xc0 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_read_directory
+                0x00001790      0x24c build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_file_exists
+                0x000019dc       0xc0 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_file_copy_to
+                0x00001a9c       0xec build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_file_eof
+                0x00001b88       0x60 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_file_size
+                0x00001be8       0x68 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_file_truncate
+                0x00001c50       0x60 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_file_tell
+                0x00001cb0       0x68 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_file_seek_absolute
+                0x00001d18       0xc8 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_file_seek_relative
+                0x00001de0       0xc4 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_file_write
+                0x00001ea4      0x12c build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_file_read
+                0x00001fd0       0xec build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_file_is_open
+                0x000020bc       0x60 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_file_close
+                0x0000211c       0x60 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .text.js_storage_ep
+                0x0000217c        0x8 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+                0x0000217c                js_storage_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00002188      0x4c0
+ *(.rodata)
+ .rodata        0x00002188       0x40 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.js_storage_destroy.str1.1
+                0x000021c8        0x8 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_create.str1.1
+                0x000021d0       0xcf build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_virtual_quit.str1.1
+                0x0000229f       0x17 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_virtual_mount.str1.1
+                0x000022b6       0x15 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_virtual_init.str1.1
+                0x000022cb       0x3b build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_open_file.str1.1
+                0x00002306       0x50 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_fs_info.str1.1
+                0x00002356       0x15 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_stat.str1.1
+                0x0000236b       0x1c build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_read_directory.str1.1
+                0x00002387        0xa build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_file_write.str1.1
+                0x00002391       0x2b build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.str1.1
+                0x000023bc       0x56 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ *fill*         0x00002412        0x2 
+ .rodata.js_storage_read_mode_variants.5
+                0x00002414       0x10 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ *fill*         0x00002424        0x4 
+ .rodata.js_storage_read_arg_list.6
+                0x00002428       0x30 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_read_args.4
+                0x00002458        0x8 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_file_write_arg_list.7
+                0x00002460       0x18 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_file_write_args.3
+                0x00002478        0x8 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_file_write_arg_list.8
+                0x00002480       0x30 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_file_write_args.2
+                0x000024b0        0x8 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_fsam_variants.9
+                0x000024b8       0x18 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_fsom_variants.10
+                0x000024d0       0x28 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_open_file_arg_list.11
+                0x000024f8       0x48 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_open_file_args.1
+                0x00002540        0x8 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_naf_arg_list.12
+                0x00002548       0x60 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_naf_args.0
+                0x000025a8        0x8 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.plugin_descriptor
+                0x000025b0        0xc build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_desc
+                0x000025bc       0x10 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_2_str_args
+                0x000025cc        0x8 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ *fill*         0x000025d4        0x4 
+ .rodata.js_storage_2_str_arg_list
+                0x000025d8       0x30 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_1_str_args
+                0x00002608        0x8 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_1_str_arg_list
+                0x00002610       0x18 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_1_int_args
+                0x00002628        0x8 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .rodata.js_storage_1_int_arg_list
+                0x00002630       0x18 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x128
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000      0x128 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x4c24
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x4c24 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+
+.debug_abbrev   0x00000000      0x413
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x413 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+
+.debug_line     0x00000000     0x15bd
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x40d build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_destroy
+                0x0000040d       0x18 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_create
+                0x00000425       0x78 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_file_destructor
+                0x0000049d       0x2f build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_virtual_quit
+                0x000004cc       0x7d build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_destructor
+                0x00000549       0x64 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_virtual_mount
+                0x000005ad       0x40 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_virtual_init
+                0x000005ed      0x120 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_open_file
+                0x0000070d       0xc9 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_is_subpath_of
+                0x000007d6       0x8f build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_are_paths_equal
+                0x00000865       0x8f build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_next_available_filename
+                0x000008f4       0x80 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_fs_info
+                0x00000974       0xbd build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_copy
+                0x00000a31       0x88 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_rename
+                0x00000ab9       0x88 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_rmrf
+                0x00000b41       0x89 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_remove
+                0x00000bca       0x89 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_stat
+                0x00000c53       0xe4 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_file_or_dir_exists
+                0x00000d37       0x89 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_make_directory
+                0x00000dc0       0x89 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_directory_exists
+                0x00000e49       0x89 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_read_directory
+                0x00000ed2      0x182 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_file_exists
+                0x00001054       0x89 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_file_copy_to
+                0x000010dd       0xcf build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_file_eof
+                0x000011ac       0x3b build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_file_size
+                0x000011e7       0x35 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_file_truncate
+                0x0000121c       0x3b build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_file_tell
+                0x00001257       0x35 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_file_seek_absolute
+                0x0000128c       0x89 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_file_seek_relative
+                0x00001315       0x89 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_file_write
+                0x0000139e       0xc8 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_file_read
+                0x00001466       0xca build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_file_is_open
+                0x00001530       0x3a build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_file_close
+                0x0000156a       0x3a build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line.text.js_storage_ep
+                0x000015a4       0x19 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .debug_line_end
+                0x000015bd        0x0 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+
+.debug_frame    0x00000000      0x5e8
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x5e8 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+
+.debug_str      0x00000000     0x141e
+ *(.debug_str)
+ .debug_str     0x00000000     0x141e build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000       0xa8
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+.debug_loclists
+                0x00000000     0x19ba
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000     0x19ba build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x13a
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x13a build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/js_storage/modules/js_storage.o
+ .ARM.attributes
+                0x00000034       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/js_storage_d.elf elf32-littlearm)
+LOAD linker stubs

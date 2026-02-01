@@ -1,0 +1,247 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                              build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o (__aeabi_uldivmod)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x480
+ *(.text)
+ .text          0x00000000       0x30 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x00000000                __aeabi_uldivmod
+ .text          0x00000030      0x2bc /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x00000030                __udivmoddi4
+ .text          0x000002ec        0x4 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                0x000002ec                __aeabi_ldiv0
+                0x000002ec                __aeabi_idiv0
+ *(.stub)
+ *(.text*)
+ .text.parse_online_card_tariff
+                0x000002f0       0x8c build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+                0x000002f0                parse_online_card_tariff
+ .text.zolotaya_korona_online_parse
+                0x0000037c       0xfc build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+ .text.zolotaya_korona_online_plugin_ep
+                0x00000478        0x8 build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+                0x00000478                zolotaya_korona_online_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000480      0x118
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.parse_online_card_tariff.str1.1
+                0x00000480       0x99 build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+ .rodata.zolotaya_korona_online_parse.str1.1
+                0x00000519       0x4b build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+ .rodata.str1.1
+                0x00000564       0x17 build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+ *fill*         0x0000057b        0x1 
+ .rodata.zolotaya_korona_online_plugin_descriptor
+                0x0000057c        0xc build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+ .rodata.zolotaya_korona_online_plugin
+                0x00000588       0x10 build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+
+.ARM.exidx      0x00000000        0x8
+ .ARM.exidx     0x00000000        0x8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x30
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x81d
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x81d build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+
+.debug_abbrev   0x00000000      0x237
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x237 build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+
+.debug_line     0x00000000      0x3ee
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x295 build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+ .debug_line.text.parse_online_card_tariff
+                0x00000295       0x69 build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+ .debug_line.text.zolotaya_korona_online_parse
+                0x000002fe       0xd7 build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+ .debug_line.text.zolotaya_korona_online_plugin_ep
+                0x000003d5       0x19 build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+ .debug_line_end
+                0x000003ee        0x0 build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+
+.debug_frame    0x00000000       0x68
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x68 build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+
+.debug_str      0x00000000      0x7af
+ *(.debug_str)
+ .debug_str     0x00000000      0x7af build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x14a
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa3 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line_str
+                0x000000a3       0xa7 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+
+.debug_loclists
+                0x00000000      0x176
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x176 build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x2e
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x2e build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/zolotaya_korona_online_parser/plugins/supported_cards/zolotaya_korona_online.o
+ .ARM.attributes
+                0x00000034       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000056       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x0000008a       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/zolotaya_korona_online_parser_d.elf elf32-littlearm)
+LOAD linker stubs

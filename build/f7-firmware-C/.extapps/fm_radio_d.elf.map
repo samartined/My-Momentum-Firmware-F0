@@ -1,0 +1,471 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+                              build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o (__aeabi_dmul)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o (__aeabi_f2d)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+                              build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o (__aeabi_d2iz)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .text.tea5767_is_device_ready
+                0x00000000       0x30 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .text.tea5767_set_stereo
+                0x00000000       0x18 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .text.tea5767_ToggleMute
+                0x00000000       0x2c build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .text.tea5767_SetFreqKHz
+                0x00000000       0x20 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_is_device_ready
+                0x00000000       0x48 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_set_stereo
+                0x00000000       0x35 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_ToggleMute
+                0x00000000       0x3e build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_SetFreqKHz
+                0x00000000       0x30 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .bss.tea5767_registers
+                0x00000000        0x5 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .bss.signal_strength
+                0x00000000        0x4 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .data.volume_values
+                0x00000000        0x2 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/fm_radio/fm_radio_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/fm_radio/fm_radio_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/fm_radio/fm_radio_icons.o
+ .rodata.I_ButtonUp
+                0x00000000        0xc build/f7-firmware-C/.extapps/fm_radio/fm_radio_icons.o
+ .rodata._I_ButtonUp
+                0x00000000        0x4 build/f7-firmware-C/.extapps/fm_radio/fm_radio_icons.o
+ .rodata._I_ButtonUp_0
+                0x00000000        0x5 build/f7-firmware-C/.extapps/fm_radio/fm_radio_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/fm_radio/fm_radio_icons.o
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+LOAD build/f7-firmware-C/.extapps/fm_radio/radio.o
+LOAD build/f7-firmware-C/.extapps/fm_radio/fm_radio_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xfe8
+ *(.text)
+ .text          0x00000000      0x254 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+                0x00000000                __aeabi_dmul
+                0x00000000                __muldf3
+ .text          0x00000254      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000254                __aeabi_drsub
+                0x0000025c                __aeabi_dsub
+                0x0000025c                __subdf3
+                0x00000260                __adddf3
+                0x00000260                __aeabi_dadd
+                0x000004d8                __aeabi_ui2d
+                0x000004d8                __floatunsidf
+                0x000004f8                __floatsidf
+                0x000004f8                __aeabi_i2d
+                0x0000051c                __extendsfdf2
+                0x0000051c                __aeabi_f2d
+                0x00000560                __aeabi_ul2d
+                0x00000560                __floatundidf
+                0x00000570                __floatdidf
+                0x00000570                __aeabi_l2d
+ .text          0x000005cc       0x50 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+                0x000005cc                __fixdfsi
+                0x000005cc                __aeabi_d2iz
+ *(.stub)
+ *(.text*)
+ .text.tea5767_read_registers.part.0
+                0x0000061c       0x4c build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .text.tea5767_read_registers
+                0x00000668        0xc build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+                0x00000668                tea5767_read_registers
+ .text.tea5767_write_registers
+                0x00000674       0x3c build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+                0x00000674                tea5767_write_registers
+ .text.tea5767_init
+                0x000006b0       0x18 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+                0x000006b0                tea5767_init
+ .text.tea5767_set_mute
+                0x000006c8       0x18 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+                0x000006c8                tea5767_set_mute
+ .text.tea5767_seek
+                0x000006e0       0x40 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+                0x000006e0                tea5767_seek
+ .text.tea5767_get_frequency
+                0x00000720       0x40 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+                0x00000720                tea5767_get_frequency
+ .text.tea5767_set_frequency
+                0x00000760       0x54 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+                0x00000760                tea5767_set_frequency
+ .text.tea5767_get_radio_info
+                0x000007b4       0xa8 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+                0x000007b4                tea5767_get_radio_info
+ .text.tea5767_MuteOn
+                0x0000085c       0x20 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+                0x0000085c                tea5767_MuteOn
+ .text.tea5767_SetFreqMHz
+                0x0000087c       0x40 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+                0x0000087c                tea5767_SetFreqMHz
+ .text.tea5767_MuteOff
+                0x000008bc       0x64 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+                0x000008bc                tea5767_MuteOff
+ .text.tea5767_GetFreq
+                0x00000920       0x30 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+                0x00000920                tea5767_GetFreq
+ .text.tea5767_seekUp
+                0x00000950       0x58 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+                0x00000950                tea5767_seekUp
+ .text.tea5767_seekDown
+                0x000009a8       0x58 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+                0x000009a8                tea5767_seekDown
+ .text.tea5767_sleep
+                0x00000a00       0x28 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+                0x00000a00                tea5767_sleep
+ .text.my_app_navigation_submenu_callback
+                0x00000a28        0x4 build/f7-firmware-C/.extapps/fm_radio/radio.o
+                0x00000a28                my_app_navigation_submenu_callback
+ .text.my_app_navigation_exit_callback
+                0x00000a2c       0x18 build/f7-firmware-C/.extapps/fm_radio/radio.o
+                0x00000a2c                my_app_navigation_exit_callback
+ .text.my_app_view_input_callback
+                0x00000a44       0x98 build/f7-firmware-C/.extapps/fm_radio/radio.o
+                0x00000a44                my_app_view_input_callback
+ .text.my_app_frequency_change
+                0x00000adc       0x64 build/f7-firmware-C/.extapps/fm_radio/radio.o
+                0x00000adc                my_app_frequency_change
+ .text.my_app_volume_change
+                0x00000b40       0x3c build/f7-firmware-C/.extapps/fm_radio/radio.o
+                0x00000b40                my_app_volume_change
+ .text.my_app_view_draw_callback
+                0x00000b7c      0x1c8 build/f7-firmware-C/.extapps/fm_radio/radio.o
+                0x00000b7c                my_app_view_draw_callback
+ .text.my_app_submenu_callback
+                0x00000d44       0x20 build/f7-firmware-C/.extapps/fm_radio/radio.o
+                0x00000d44                my_app_submenu_callback
+ .text.my_app_alloc
+                0x00000d64      0x1d8 build/f7-firmware-C/.extapps/fm_radio/radio.o
+                0x00000d64                my_app_alloc
+ .text.my_app_free
+                0x00000f3c       0x88 build/f7-firmware-C/.extapps/fm_radio/radio.o
+                0x00000f3c                my_app_free
+ .text.my_fm_radio
+                0x00000fc4       0x24 build/f7-firmware-C/.extapps/fm_radio/radio.o
+                0x00000fc4                my_fm_radio
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000fe8      0x351
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.tea5767_get_radio_info.str1.1
+                0x00000fe8       0x19 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .rodata.my_app_frequency_change.str1.1
+                0x00001001        0x9 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .rodata.my_app_view_draw_callback.str1.1
+                0x0000100a       0xa2 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .rodata.my_app_alloc.str1.1
+                0x000010ac       0xb3 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .rodata.str1.1
+                0x0000115f      0x1b5 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .rodata.I_radio
+                0x00001314        0xc build/f7-firmware-C/.extapps/fm_radio/fm_radio_icons.o
+                0x00001314                I_radio
+ .rodata._I_radio
+                0x00001320        0x4 build/f7-firmware-C/.extapps/fm_radio/fm_radio_icons.o
+                0x00001320                _I_radio
+ .rodata._I_radio_0
+                0x00001324       0x15 build/f7-firmware-C/.extapps/fm_radio/fm_radio_icons.o
+                0x00001324                _I_radio_0
+
+.data           0x0000133c      0x14c
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.stations
+                0x0000133c      0x140 build/f7-firmware-C/.extapps/fm_radio/radio.o
+                0x0000133c                stations
+ .data.current_volume
+                0x0000147c        0x1 build/f7-firmware-C/.extapps/fm_radio/radio.o
+                0x0000147c                current_volume
+ *fill*         0x0000147d        0x3 
+ .data.volume_names
+                0x00001480        0x8 build/f7-firmware-C/.extapps/fm_radio/radio.o
+                0x00001480                volume_names
+
+.bss            0x00001488      0x1a4
+ *(.bss)
+ *(.bss*)
+ .bss.volume_display
+                0x00001488       0x20 build/f7-firmware-C/.extapps/fm_radio/radio.o
+                0x00001488                volume_display
+ .bss.signal_display
+                0x000014a8       0x40 build/f7-firmware-C/.extapps/fm_radio/radio.o
+                0x000014a8                signal_display
+ .bss.station_display
+                0x000014e8      0x100 build/f7-firmware-C/.extapps/fm_radio/radio.o
+                0x000014e8                station_display
+ .bss.frequency_display
+                0x000015e8       0x40 build/f7-firmware-C/.extapps/fm_radio/radio.o
+                0x000015e8                frequency_display
+ .bss.current_station_index
+                0x00001628        0x4 build/f7-firmware-C/.extapps/fm_radio/radio.o
+                0x00001628                current_station_index
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x138
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xb8 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_aranges
+                0x000000b8       0x68 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .debug_aranges
+                0x00000120       0x18 build/f7-firmware-C/.extapps/fm_radio/fm_radio_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2c81
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xfcd build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_info    0x00000fcd     0x1ae7 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .debug_info    0x00002ab4      0x1cd build/f7-firmware-C/.extapps/fm_radio/fm_radio_icons.o
+
+.debug_abbrev   0x00000000      0x8d3
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3e0 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_abbrev  0x000003e0      0x43e build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .debug_abbrev  0x0000081e       0xb5 build/f7-firmware-C/.extapps/fm_radio/fm_radio_icons.o
+
+.debug_line     0x00000000     0x11bb
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x32b build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_read_registers.part.0
+                0x0000032b       0x60 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_read_registers
+                0x0000038b       0x1b build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_write_registers
+                0x000003a6       0x3c build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_init
+                0x000003e2       0x46 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_set_mute
+                0x00000428       0x35 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_seek
+                0x0000045d       0x69 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_get_frequency
+                0x000004c6       0x5e build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_set_frequency
+                0x00000524       0x72 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_get_radio_info
+                0x00000596       0xb5 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_MuteOn
+                0x0000064b       0x34 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_SetFreqMHz
+                0x0000067f       0x3d build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_MuteOff
+                0x000006bc       0x58 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_GetFreq
+                0x00000714       0x2f build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_seekUp
+                0x00000743       0x47 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_seekDown
+                0x0000078a       0x47 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line.text.tea5767_sleep
+                0x000007d1       0x3c build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line_end
+                0x0000080d        0x0 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_line    0x0000080d      0x489 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .debug_line.text.my_app_navigation_submenu_callback
+                0x00000c96       0x1b build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .debug_line.text.my_app_navigation_exit_callback
+                0x00000cb1       0x25 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .debug_line.text.my_app_view_input_callback
+                0x00000cd6       0x86 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .debug_line.text.my_app_frequency_change
+                0x00000d5c       0x60 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .debug_line.text.my_app_volume_change
+                0x00000dbc       0x4f build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .debug_line.text.my_app_view_draw_callback
+                0x00000e0b       0x9d build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .debug_line.text.my_app_submenu_callback
+                0x00000ea8       0x2b build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .debug_line.text.my_app_alloc
+                0x00000ed3       0xed build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .debug_line.text.my_app_free
+                0x00000fc0       0x3a build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .debug_line.text.my_fm_radio
+                0x00000ffa       0x31 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .debug_line_end
+                0x0000102b        0x0 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .debug_line    0x0000102b      0x190 build/f7-firmware-C/.extapps/fm_radio/fm_radio_icons.o
+ .debug_line_end
+                0x000011bb        0x0 build/f7-firmware-C/.extapps/fm_radio/fm_radio_icons.o
+
+.debug_frame    0x00000000      0x334
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x204 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_frame   0x00000204      0x130 build/f7-firmware-C/.extapps/fm_radio/radio.o
+
+.debug_str      0x00000000     0x1bd5
+ *(.debug_str)
+ .debug_str     0x00000000      0x709 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_str     0x00000709     0x1238 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .debug_str     0x00001941      0x294 build/f7-firmware-C/.extapps/fm_radio/fm_radio_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x1f8
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .debug_line_str
+                0x000000a8       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_line_str
+                0x00000150       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+
+.debug_loclists
+                0x00000000      0x981
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x5d0 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_loclists
+                0x000005d0      0x3b1 build/f7-firmware-C/.extapps/fm_radio/radio.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x10b
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xb0 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .debug_rnglists
+                0x000000b0       0x5b build/f7-firmware-C/.extapps/fm_radio/radio.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/fm_radio/TEA5767/TEA5767.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/fm_radio/radio.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/fm_radio/fm_radio_icons.o
+ .ARM.attributes
+                0x0000009c       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .ARM.attributes
+                0x000000be       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x000000e0       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/fm_radio_d.elf elf32-littlearm)
+LOAD linker stubs

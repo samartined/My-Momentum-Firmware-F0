@@ -1,0 +1,235 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x9f0
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.smartrider_on_exit
+                0x00000000       0x44 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .text.smartrider_on_event
+                0x00000044       0x8c build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .text.smartrider_parse
+                0x000000d0      0x4dc build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .text.smartrider_on_enter
+                0x000005ac      0x194 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .text.smartrider_poller_callback
+                0x00000740      0x2a8 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .text.smartrider_plugin_ep
+                0x000009e8        0x8 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+                0x000009e8                smartrider_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000009f0      0x300
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.smartrider_on_event.str1.1
+                0x000009f0       0x2b build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .rodata.smartrider_parse.str1.1
+                0x00000a1b      0x12b build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .rodata.smartrider_on_enter.str1.1
+                0x00000b46       0x4e build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .rodata.smartrider_poller_callback.str1.1
+                0x00000b94       0x6d build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ *fill*         0x00000c01        0x1 
+ .rodata.days_in_month.0
+                0x00000c02       0x18 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .rodata.required_blocks.1
+                0x00000c1a        0x7 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .rodata.str1.1
+                0x00000c21       0x6f build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .rodata.smartrider_plugin_descriptor
+                0x00000c90        0xc build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .rodata.smartrider_plugin
+                0x00000c9c       0x10 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .rodata.CONCESSION_TYPES
+                0x00000cac       0x44 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss            0x00000cf0        0x1
+ *(.bss)
+ *(.bss*)
+ .bss.smartrider_sector_num
+                0x00000cf0        0x1 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+                0x00000cf0                smartrider_sector_num
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x48
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x48 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3809
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x3809 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+
+.debug_abbrev   0x00000000      0x4b8
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4b8 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+
+.debug_line     0x00000000     0x120e
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0xa31 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .debug_line.text.smartrider_on_exit
+                0x00000a31       0x3f build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .debug_line.text.smartrider_on_event
+                0x00000a70       0x73 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .debug_line.text.smartrider_parse
+                0x00000ae3      0x450 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .debug_line.text.smartrider_on_enter
+                0x00000f33       0xaf build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .debug_line.text.smartrider_poller_callback
+                0x00000fe2      0x213 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .debug_line.text.smartrider_plugin_ep
+                0x000011f5       0x19 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ .debug_line_end
+                0x0000120e        0x0 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+
+.debug_frame    0x00000000       0xf8
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xf8 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+
+.debug_str      0x00000000     0x2db6
+ *(.debug_str)
+ .debug_str     0x00000000     0x2db6 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x8b2
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x8b2 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x116
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x116 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/smartrider_plugin/scenes/plugins/smartrider.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/smartrider_plugin_d.elf elf32-littlearm)
+LOAD linker stubs

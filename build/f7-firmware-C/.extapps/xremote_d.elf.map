@@ -1,0 +1,2341 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o (__aeabi_f2d)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .text.subghz_txrx_hopper_set_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .text.subghz_txrx_speaker_set_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_set_state
+                0x00000000       0x20 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_set_state
+                0x00000000       0x20 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .text.xremote_play_happy_bump
+                0x00000000       0x3c build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .text.xremote_play_bad_bump
+                0x00000000       0x3c build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .text.xremote_play_long_bump
+                0x00000000       0x4c build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .debug_info    0x00000000      0xc0e build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .debug_abbrev  0x00000000      0x248 build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .debug_loclists
+                0x00000000      0x103 build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .debug_rnglists
+                0x00000000       0x2b build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .debug_line    0x00000000      0x635 build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .debug_str     0x00000000      0xcd4 build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .debug_line.text.xremote_play_happy_bump
+                0x00000000       0x31 build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .debug_line.text.xremote_play_bad_bump
+                0x00000000       0x33 build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .debug_line.text.xremote_play_long_bump
+                0x00000000       0x61 build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .debug_frame   0x00000000       0x80 build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+ .text.xremote_led_set_rgb
+                0x00000000       0x60 build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+ .text.xremote_led_reset
+                0x00000000       0x3c build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+ .debug_info    0x00000000      0xc09 build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+ .debug_abbrev  0x00000000      0x255 build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+ .debug_loclists
+                0x00000000       0xbb build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+ .debug_aranges
+                0x00000000       0x28 build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+ .debug_rnglists
+                0x00000000       0x19 build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+ .debug_line    0x00000000      0x632 build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+ .debug_str     0x00000000      0xd4a build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+ .debug_line.text.xremote_led_set_rgb
+                0x00000000       0x93 build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+ .debug_line.text.xremote_led_reset
+                0x00000000       0x29 build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+ .debug_frame   0x00000000       0x54 build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+ .text.xremote_play_input_sound
+                0x00000000       0x3c build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+ .text.xremote_stop_all_sound
+                0x00000000       0x28 build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+ .debug_info    0x00000000      0x8ab build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+ .debug_abbrev  0x00000000      0x222 build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+ .debug_loclists
+                0x00000000       0x78 build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+ .debug_aranges
+                0x00000000       0x28 build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+ .debug_rnglists
+                0x00000000       0x19 build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+ .debug_line    0x00000000      0x5ef build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+ .debug_str     0x00000000      0x7a4 build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+ .debug_line.text.xremote_play_input_sound
+                0x00000000       0x45 build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+ .debug_line.text.xremote_stop_all_sound
+                0x00000000       0x39 build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+ .debug_frame   0x00000000       0x50 build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .text.xremote_ir_remote_get_name
+                0x00000000        0xc build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .text.xremote_ir_remote_free
+                0x00000000       0x20 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .text.xremote_ir_get_button
+                0x00000000        0x8 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .debug_line.text.xremote_ir_remote_get_name
+                0x00000000       0x19 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .debug_line.text.xremote_ir_remote_free
+                0x00000000       0x28 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .debug_line.text.xremote_ir_get_button
+                0x00000000       0x11 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .text.xremote_ir_signal_is_raw
+                0x00000000        0x4 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .rodata.xremote_ir_signal_is_valid.str1.1
+                0x00000000       0x7d build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .text.xremote_ir_signal_is_valid
+                0x00000000       0xb4 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_line.text.xremote_ir_signal_is_raw
+                0x00000000       0x1a build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_line.text.xremote_ir_signal_is_valid
+                0x00000000       0xb8 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .text.xremote_scene_settings_submenu_callback
+                0x00000000        0xc build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_line.text.xremote_scene_settings_submenu_callback
+                0x00000000       0x19 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .text.xremote_scene_ir_signal_is_raw
+                0x00000000        0x4 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_line.text.xremote_scene_ir_signal_is_raw
+                0x00000000       0x19 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .text.xremote_infoscreen_exit
+                0x00000000        0x2 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .text.xremote_infoscreen_enter
+                0x00000000       0x20 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .debug_line.text.xremote_infoscreen_exit
+                0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .debug_line.text.xremote_infoscreen_enter
+                0x00000000       0x46 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .text.xremote_transmit_enter
+                0x00000000       0x24 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_line.text.xremote_transmit_enter
+                0x00000000       0x52 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/xremote.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/xremote.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/xremote.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/xremote.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+ .rodata.I_ir_ani_32x22
+                0x00000000        0xc build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+ .rodata._I_ir_ani_32x22
+                0x00000000        0x4 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+ .rodata._I_ir_ani_32x22_0
+                0x00000000       0x54 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+ .text          0x00000000      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+LOAD build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+LOAD build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+LOAD build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+LOAD build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+LOAD build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+LOAD build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+LOAD build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+LOAD build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+LOAD build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+LOAD build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+LOAD build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+LOAD build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+LOAD build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+LOAD build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+LOAD build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+LOAD build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+LOAD build/f7-firmware-C/.extapps/xremote/xremote.o
+LOAD build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x44e8
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.subghz_scene_transmit_callback_end_tx
+                0x00000000       0x2c build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+                0x00000000                subghz_scene_transmit_callback_end_tx
+ .text.subghz_alloc
+                0x0000002c       0x48 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+                0x0000002c                subghz_alloc
+ .text.subghz_free
+                0x00000074       0x34 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+                0x00000074                subghz_free
+ .text.subghz_send
+                0x000000a8       0xf0 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+                0x000000a8                subghz_send
+ .text.subghz_tx_start
+                0x00000198       0x30 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+                0x00000198                subghz_tx_start
+ .text.subghz_key_load
+                0x000001c8      0x2b0 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+                0x000001c8                subghz_key_load
+ .text.subghz_get_load_type_file
+                0x00000478        0x4 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+                0x00000478                subghz_get_load_type_file
+ .text.subghz_save_protocol_to_file
+                0x0000047c       0xe4 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+                0x0000047c                subghz_save_protocol_to_file
+ .text.subghz_load_protocol_from_file
+                0x00000560        0x8 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+                0x00000560                subghz_load_protocol_from_file
+ .text.subghz_path_is_file
+                0x00000568       0x10 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+                0x00000568                subghz_path_is_file
+ .text.subghz_save_to_file
+                0x00000578       0x3c build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+                0x00000578                subghz_save_to_file
+ .text.subghz_txrx_radio_device_power_off.constprop.0
+                0x000005b4       0x28 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .text.subghz_txrx_radio_device_power_on.constprop.0
+                0x000005dc       0x58 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .text.subghz_txrx_free
+                0x00000634       0x78 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x00000634                subghz_txrx_free
+ .text.subghz_txrx_set_preset
+                0x000006ac       0x20 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x000006ac                subghz_txrx_set_preset
+ .text.subghz_txrx_get_preset_name
+                0x000006cc       0x8c build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x000006cc                subghz_txrx_get_preset_name
+ .text.subghz_txrx_set_need_save_callback
+                0x00000758        0x6 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x00000758                subghz_txrx_set_need_save_callback
+ .text.subghz_txrx_get_fff_data
+                0x0000075e        0x4 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x0000075e                subghz_txrx_get_fff_data
+ .text.subghz_txrx_get_setting
+                0x00000762        0x4 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x00000762                subghz_txrx_get_setting
+ *fill*         0x00000766        0x2 
+ .text.subghz_txrx_speaker_on
+                0x00000768       0x34 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x00000768                subghz_txrx_speaker_on
+ .text.subghz_txrx_speaker_off
+                0x0000079c       0x38 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x0000079c                subghz_txrx_speaker_off
+ .text.subghz_txrx_idle
+                0x000007d4       0x28 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .text.subghz_txrx_speaker_unmute
+                0x000007fc       0x2c build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x000007fc                subghz_txrx_speaker_unmute
+ .text.subghz_txrx_stop
+                0x00000828       0x60 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x00000828                subghz_txrx_stop
+ .text.subghz_txrx_tx_start
+                0x00000888      0x1b8 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x00000888                subghz_txrx_tx_start
+ .text.subghz_txrx_load_decoder_by_name_protocol
+                0x00000a40       0x18 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x00000a40                subghz_txrx_load_decoder_by_name_protocol
+ .text.subghz_txrx_get_decoder
+                0x00000a58        0x4 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x00000a58                subghz_txrx_get_decoder
+ .text.subghz_txrx_set_raw_file_encoder_worker_callback_end
+                0x00000a5c       0x20 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x00000a5c                subghz_txrx_set_raw_file_encoder_worker_callback_end
+ .text.subghz_txrx_radio_device_is_external_connected
+                0x00000a7c       0x4c build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x00000a7c                subghz_txrx_radio_device_is_external_connected
+ .text.subghz_txrx_radio_device_set
+                0x00000ac8       0x68 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x00000ac8                subghz_txrx_radio_device_set
+ .text.subghz_txrx_alloc
+                0x00000b30      0x138 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x00000b30                subghz_txrx_alloc
+ .text.subghz_txrx_radio_device_get_name
+                0x00000c68        0xc build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x00000c68                subghz_txrx_radio_device_get_name
+ .text.subghz_txrx_radio_device_is_frequecy_valid
+                0x00000c74        0xc build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+                0x00000c74                subghz_txrx_radio_device_is_frequecy_valid
+ .text.xremote_close_storage
+                0x00000c80       0x10 build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .text.xremote_close_config_file
+                0x00000c90       0x20 build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .text.xremote_save_settings
+                0x00000cb0      0x1c0 build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+                0x00000cb0                xremote_save_settings
+ .text.xremote_read_settings
+                0x00000e70      0x170 build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+                0x00000e70                xremote_read_settings
+ .text.CrossRemoteItemArray_push_back
+                0x00000fe0       0x50 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .text.xremote_cross_remote_clear_items
+                0x00001030       0x24 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .text.xremote_cross_remote_alloc
+                0x00001054       0x2c build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+                0x00001054                xremote_cross_remote_alloc
+ .text.xremote_cross_remote_set_transmitting
+                0x00001080        0x4 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+                0x00001080                xremote_cross_remote_set_transmitting
+ .text.xremote_cross_remote_get_transmitting
+                0x00001084        0x4 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+                0x00001084                xremote_cross_remote_get_transmitting
+ .text.xremote_cross_remote_free
+                0x00001088       0x30 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+                0x00001088                xremote_cross_remote_free
+ .text.xremote_cross_remote_get_name
+                0x000010b8        0xc build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+                0x000010b8                xremote_cross_remote_get_name
+ .text.xremote_cross_remote_add_ir_item
+                0x000010c4       0x58 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+                0x000010c4                xremote_cross_remote_add_ir_item
+ .text.xremote_cross_remote_add_pause
+                0x0000111c       0x5c build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+                0x0000111c                xremote_cross_remote_add_pause
+ .text.xremote_cross_remote_add_subghz
+                0x00001178       0x80 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+                0x00001178                xremote_cross_remote_add_subghz
+ .text.xremote_cross_remote_get_item_count
+                0x000011f8        0x4 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+                0x000011f8                xremote_cross_remote_get_item_count
+ .text.xremote_cross_remote_get_item
+                0x000011fc        0x8 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+                0x000011fc                xremote_cross_remote_get_item
+ .text.xremote_cross_remote_remove_item
+                0x00001204       0x2c build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+                0x00001204                xremote_cross_remote_remove_item
+ .text.xremote_cross_remote_rename_item
+                0x00001230       0x18 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+                0x00001230                xremote_cross_remote_rename_item
+ .text.xremote_cross_remote_get_item_type
+                0x00001248       0x10 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+                0x00001248                xremote_cross_remote_get_item_type
+ .text.xremote_cross_remote_load
+                0x00001258      0x130 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+                0x00001258                xremote_cross_remote_load
+ .text.xremote_cross_remote_save_new
+                0x00001388      0x270 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+                0x00001388                xremote_cross_remote_save_new
+ .text.xremote_cross_remote_delete
+                0x000015f8       0x60 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+                0x000015f8                xremote_cross_remote_delete
+ .text.xremote_cross_remote_item_alloc
+                0x00001658       0x3c build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+                0x00001658                xremote_cross_remote_item_alloc
+ .text.xremote_cross_remote_item_read
+                0x00001694      0x2b0 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+                0x00001694                xremote_cross_remote_item_read
+ .text.xremote_cross_remote_item_free
+                0x00001944       0x34 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+                0x00001944                xremote_cross_remote_item_free
+ .text.xremote_cross_remote_item_set_type
+                0x00001978        0x4 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+                0x00001978                xremote_cross_remote_item_set_type
+ .text.xremote_cross_remote_item_set_name
+                0x0000197c        0xc build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+                0x0000197c                xremote_cross_remote_item_set_name
+ .text.xremote_cross_remote_item_set_filename
+                0x00001988        0xc build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+                0x00001988                xremote_cross_remote_item_set_filename
+ .text.xremote_cross_remote_item_set_time
+                0x00001994        0x4 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+                0x00001994                xremote_cross_remote_item_set_time
+ .text.xremote_cross_remote_item_set_ir_signal
+                0x00001998        0xc build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+                0x00001998                xremote_cross_remote_item_set_ir_signal
+ .text.xremote_cross_remote_item_set_sg_signal
+                0x000019a4        0x4 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+                0x000019a4                xremote_cross_remote_item_set_sg_signal
+ .text.xremote_cross_remote_item_get_type
+                0x000019a8        0x6 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+                0x000019a8                xremote_cross_remote_item_get_type
+ *fill*         0x000019ae        0x2 
+ .text.xremote_cross_remote_item_get_name
+                0x000019b0        0xc build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+                0x000019b0                xremote_cross_remote_item_get_name
+ .text.xremote_cross_remote_item_get_filename
+                0x000019bc        0xc build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+                0x000019bc                xremote_cross_remote_item_get_filename
+ .text.xremote_cross_remote_item_get_ir_signal
+                0x000019c8        0x4 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+                0x000019c8                xremote_cross_remote_item_get_ir_signal
+ .text.xremote_cross_remote_item_get_sg_signal
+                0x000019cc        0x4 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+                0x000019cc                xremote_cross_remote_item_get_sg_signal
+ .text.xremote_cross_remote_item_get_time
+                0x000019d0        0x4 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+                0x000019d0                xremote_cross_remote_item_get_time
+ .text.xremote_cross_remote_item_ir_signal_save
+                0x000019d4      0x11c build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+                0x000019d4                xremote_cross_remote_item_ir_signal_save
+ .text.xremote_cross_remote_item_pause_save
+                0x00001af0       0x60 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+                0x00001af0                xremote_cross_remote_item_pause_save
+ .text.xremote_cross_remote_item_sg_signal_save
+                0x00001b50       0x5c build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+                0x00001b50                xremote_cross_remote_item_sg_signal_save
+ .text.xremote_ir_remote_alloc
+                0x00001bac       0x28 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+                0x00001bac                xremote_ir_remote_alloc
+ .text.xremote_ir_remote_load
+                0x00001bd4      0x16c build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+                0x00001bd4                xremote_ir_remote_load
+ .text.xremote_ir_remote_get_button_count
+                0x00001d40        0x4 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+                0x00001d40                xremote_ir_remote_get_button_count
+ .text.xremote_ir_remote_get_button
+                0x00001d44        0x8 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+                0x00001d44                xremote_ir_remote_get_button
+ .text.xremote_ir_remote_button_alloc
+                0x00001d4c       0x28 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+                0x00001d4c                xremote_ir_remote_button_alloc
+ .text.xremote_ir_remote_button_free
+                0x00001d74       0x28 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+                0x00001d74                xremote_ir_remote_button_free
+ .text.xremote_ir_remote_button_set_name
+                0x00001d9c        0xc build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+                0x00001d9c                xremote_ir_remote_button_set_name
+ .text.xremote_ir_remote_button_get_name
+                0x00001da8        0xc build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+                0x00001da8                xremote_ir_remote_button_get_name
+ .text.xremote_ir_remote_button_get_signal
+                0x00001db4        0x4 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+                0x00001db4                xremote_ir_remote_button_get_signal
+ .text.xremote_ir_signal_is_message_valid
+                0x00001db8       0x84 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .text.xremote_ir_signal_clear_timings
+                0x00001e3c       0x1c build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .text.xremote_ir_signal_alloc
+                0x00001e58       0x18 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+                0x00001e58                xremote_ir_signal_alloc
+ .text.xremote_ir_signal_free
+                0x00001e70       0x1c build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+                0x00001e70                xremote_ir_signal_free
+ .text.xremote_ir_signal_set_raw_signal
+                0x00001e8c       0x4c build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+                0x00001e8c                xremote_ir_signal_set_raw_signal
+ .text.xremote_ir_signal_get_raw_signal
+                0x00001ed8        0x4 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+                0x00001ed8                xremote_ir_signal_get_raw_signal
+ .text.xremote_ir_signal_set_message
+                0x00001edc       0x20 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+                0x00001edc                xremote_ir_signal_set_message
+ .text.xremote_ir_signal_set_signal
+                0x00001efc       0x2c build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+                0x00001efc                xremote_ir_signal_set_signal
+ .text.xremote_ir_signal_read
+                0x00001f28      0x1ac build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+                0x00001f28                xremote_ir_signal_read
+ .text.xremote_ir_signal_get_message
+                0x000020d4        0x4 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+                0x000020d4                xremote_ir_signal_get_message
+ .text.xremote_sg_remote_get_name
+                0x000020d8        0xc build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+                0x000020d8                xremote_sg_remote_get_name
+ .text.xremote_sg_remote_get_filename
+                0x000020e4        0xc build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+                0x000020e4                xremote_sg_remote_get_filename
+ .text.xremote_sg_remote_alloc
+                0x000020f0       0x20 build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+                0x000020f0                xremote_sg_remote_alloc
+ .text.xremote_sg_remote_free
+                0x00002110       0x20 build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+                0x00002110                xremote_sg_remote_free
+ .text.xremote_sg_remote_load
+                0x00002130       0xf4 build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+                0x00002130                xremote_sg_remote_load
+ .text.xremote_create_callback
+                0x00002224       0x3c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .text.xremote_scene_create_on_enter
+                0x00002260       0xc4 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+                0x00002260                xremote_scene_create_on_enter
+ .text.xremote_scene_create_on_event
+                0x00002324       0x60 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+                0x00002324                xremote_scene_create_on_event
+ .text.xremote_scene_create_on_exit
+                0x00002384        0xc build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+                0x00002384                xremote_scene_create_on_exit
+ .text.xremote_create_add_callback
+                0x00002390       0x38 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .text.xremote_scene_create_add_on_enter
+                0x000023c8       0x94 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+                0x000023c8                xremote_scene_create_add_on_enter
+ .text.xremote_scene_create_add_on_event
+                0x0000245c       0x50 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+                0x0000245c                xremote_scene_create_add_on_event
+ .text.xremote_scene_create_add_on_exit
+                0x000024ac        0xc build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+                0x000024ac                xremote_scene_create_add_on_exit
+ .text.xremote_scene_edit_item_submenu_callback
+                0x000024b8        0xc build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+                0x000024b8                xremote_scene_edit_item_submenu_callback
+ .text.xremote_scene_edit_item_on_enter
+                0x000024c4       0x78 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+                0x000024c4                xremote_scene_edit_item_on_enter
+ .text.xremote_scene_edit_item_on_event
+                0x0000253c       0x58 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+                0x0000253c                xremote_scene_edit_item_on_event
+ .text.xremote_scene_edit_item_on_exit
+                0x00002594        0xc build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+                0x00002594                xremote_scene_edit_item_on_exit
+ .text.xremote_scene_infoscreen_callback
+                0x000025a0       0x10 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+                0x000025a0                xremote_scene_infoscreen_callback
+ .text.xremote_scene_infoscreen_on_enter
+                0x000025b0       0x28 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+                0x000025b0                xremote_scene_infoscreen_on_enter
+ .text.xremote_scene_infoscreen_on_event
+                0x000025d8       0x78 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+                0x000025d8                xremote_scene_infoscreen_on_event
+ .text.xremote_scene_infoscreen_on_exit
+                0x00002650        0x2 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+                0x00002650                xremote_scene_infoscreen_on_exit
+ *fill*         0x00002652        0x2 
+ .text.xremote_scene_ir_list_on_enter
+                0x00002654       0xa0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+                0x00002654                xremote_scene_ir_list_on_enter
+ .text.xremote_scene_ir_list_on_event
+                0x000026f4        0xe build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+                0x000026f4                xremote_scene_ir_list_on_event
+ .text.xremote_scene_ir_list_on_exit
+                0x00002702        0x2 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+                0x00002702                xremote_scene_ir_list_on_exit
+ .text.xremote_scene_ir_remote_button_menu_callback
+                0x00002704       0x38 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .text.xremote_scene_ir_remote_on_enter
+                0x0000273c       0x90 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+                0x0000273c                xremote_scene_ir_remote_on_enter
+ .text.xremote_scene_ir_remote_on_event
+                0x000027cc       0x70 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+                0x000027cc                xremote_scene_ir_remote_on_event
+ .text.xremote_scene_ir_remote_on_exit
+                0x0000283c        0xc build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+                0x0000283c                xremote_scene_ir_remote_on_exit
+ .text.xremote_scene_ir_timer_callback
+                0x00002848       0x24 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+                0x00002848                xremote_scene_ir_timer_callback
+ .text.xremote_scene_ir_timer_on_enter
+                0x0000286c       0x68 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+                0x0000286c                xremote_scene_ir_timer_on_enter
+ .text.xremote_scene_ir_timer_on_event
+                0x000028d4       0x24 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+                0x000028d4                xremote_scene_ir_timer_on_event
+ .text.xremote_scene_ir_timer_on_exit
+                0x000028f8        0x2 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+                0x000028f8                xremote_scene_ir_timer_on_exit
+ *fill*         0x000028fa        0x2 
+ .text.xremote_scene_menu_submenu_callback
+                0x000028fc        0xc build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+                0x000028fc                xremote_scene_menu_submenu_callback
+ .text.xremote_scene_menu_on_enter
+                0x00002908       0x8c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+                0x00002908                xremote_scene_menu_on_enter
+ .text.xremote_scene_menu_on_event
+                0x00002994       0xa0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+                0x00002994                xremote_scene_menu_on_event
+ .text.xremote_scene_menu_on_exit
+                0x00002a34        0xc build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+                0x00002a34                xremote_scene_menu_on_exit
+ .text.xremote_scene_pause_set_callback
+                0x00002a40       0x10 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+                0x00002a40                xremote_scene_pause_set_callback
+ .text.xremote_scene_pause_set_on_enter
+                0x00002a50       0x28 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+                0x00002a50                xremote_scene_pause_set_on_enter
+ .text.xremote_scene_pause_set_on_event
+                0x00002a78       0x64 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+                0x00002a78                xremote_scene_pause_set_on_event
+ .text.xremote_scene_pause_set_on_exit
+                0x00002adc        0x2 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+                0x00002adc                xremote_scene_pause_set_on_exit
+ *fill*         0x00002ade        0x2 
+ .text.xremote_scene_save_remote_on_enter
+                0x00002ae0       0x98 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+                0x00002ae0                xremote_scene_save_remote_on_enter
+ .text.xremote_scene_save_remote_on_event
+                0x00002b78       0x44 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+                0x00002b78                xremote_scene_save_remote_on_event
+ .text.xremote_scene_save_remote_on_exit
+                0x00002bbc       0x48 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+                0x00002bbc                xremote_scene_save_remote_on_exit
+ .text.xremote_scene_save_remote_item_on_enter
+                0x00002c04       0x6c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+                0x00002c04                xremote_scene_save_remote_item_on_enter
+ .text.xremote_scene_save_remote_item_on_event
+                0x00002c70       0x38 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+                0x00002c70                xremote_scene_save_remote_item_on_event
+ .text.xremote_scene_save_remote_item_on_exit
+                0x00002ca8       0x14 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+                0x00002ca8                xremote_scene_save_remote_item_on_exit
+ .text.xremote_scene_settings_set_sg_timing
+                0x00002cbc       0x48 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .text.xremote_scene_settings_set_ir_timing
+                0x00002d04       0x48 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .text.xremote_scene_settings_set_ir_is_otg_enabled
+                0x00002d4c       0x54 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .text.xremote_scene_settings_set_ir_pin
+                0x00002da0       0x4c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .text.xremote_scene_settings_set_save_settings
+                0x00002dec       0x3c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .text.xremote_scene_settings_set_loop
+                0x00002e28       0x3c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .text.xremote_scene_settings_set_led
+                0x00002e64       0x3c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .text.xremote_scene_settings_init
+                0x00002ea0      0x1cc build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+                0x00002ea0                xremote_scene_settings_init
+ .text.xremote_scene_settings_on_enter
+                0x0000306c       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+                0x0000306c                xremote_scene_settings_on_enter
+ .text.xremote_scene_settings_on_event
+                0x00003088       0x50 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+                0x00003088                xremote_scene_settings_on_event
+ .text.xremote_scene_settings_on_exit
+                0x000030d8       0x20 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+                0x000030d8                xremote_scene_settings_on_exit
+ .text.xremote_scene_sg_list_on_enter
+                0x000030f8       0xac build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+                0x000030f8                xremote_scene_sg_list_on_enter
+ .text.xremote_scene_sg_list_on_event
+                0x000031a4        0xe build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+                0x000031a4                xremote_scene_sg_list_on_event
+ .text.xremote_scene_sg_list_on_exit
+                0x000031b2        0x2 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+                0x000031b2                xremote_scene_sg_list_on_exit
+ .text.xremote_scene_transmit_callback
+                0x000031b4       0x2c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+                0x000031b4                xremote_scene_transmit_callback
+ .text.xremote_scene_ir_notification_message
+                0x000031e0       0x1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+                0x000031e0                xremote_scene_ir_notification_message
+ .text.xremote_scene_transmit_end_scene
+                0x000031fc       0x38 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .text.xremote_scene_transmit_stop_ir_signal
+                0x00003234       0x3c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+                0x00003234                xremote_scene_transmit_stop_ir_signal
+ .text.xremote_scene_transmit_send_ir_signal
+                0x00003270       0xa8 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+                0x00003270                xremote_scene_transmit_send_ir_signal
+ .text.xremote_scene_transmit_send_pause
+                0x00003318       0x3c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+                0x00003318                xremote_scene_transmit_send_pause
+ .text.xremote_scene_transmit_send_subghz
+                0x00003354       0x54 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+                0x00003354                xremote_scene_transmit_send_subghz
+ .text.xremote_scene_transmit_send_signal
+                0x000033a8       0x80 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+                0x000033a8                xremote_scene_transmit_send_signal
+ .text.xremote_scene_transmit_on_enter
+                0x00003428       0x2c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+                0x00003428                xremote_scene_transmit_on_enter
+ .text.xremote_scene_transmit_on_event
+                0x00003454      0x138 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+                0x00003454                xremote_scene_transmit_on_event
+ .text.xremote_scene_transmit_on_exit
+                0x0000358c        0xc build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+                0x0000358c                xremote_scene_transmit_on_exit
+ .text.xremote_scene_wip_on_enter
+                0x00003598       0x98 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+                0x00003598                xremote_scene_wip_on_enter
+ .text.xremote_scene_wip_on_event
+                0x00003630       0x16 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+                0x00003630                xremote_scene_wip_on_event
+ .text.xremote_scene_wip_on_exit
+                0x00003646        0x2 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+                0x00003646                xremote_scene_wip_on_exit
+ .text.xremote_scene_xr_list_on_enter
+                0x00003648       0x80 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+                0x00003648                xremote_scene_xr_list_on_enter
+ .text.xremote_scene_xr_list_on_event
+                0x000036c8        0xe build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+                0x000036c8                xremote_scene_xr_list_on_event
+ .text.xremote_scene_xr_list_on_exit
+                0x000036d6        0x2 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+                0x000036d6                xremote_scene_xr_list_on_exit
+ .text.xremote_scene_xr_list_edit_on_enter
+                0x000036d8       0x80 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+                0x000036d8                xremote_scene_xr_list_edit_on_enter
+ .text.xremote_scene_xr_list_edit_on_event
+                0x00003758        0xe build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+                0x00003758                xremote_scene_xr_list_edit_on_event
+ .text.xremote_scene_xr_list_edit_on_exit
+                0x00003766        0x2 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+                0x00003766                xremote_scene_xr_list_edit_on_exit
+ .text.xremote_scene_xr_list_edit_item_submenu_callback
+                0x00003768        0xc build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+                0x00003768                xremote_scene_xr_list_edit_item_submenu_callback
+ .text.xremote_scene_xr_list_edit_item_on_enter
+                0x00003774       0x5c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+                0x00003774                xremote_scene_xr_list_edit_item_on_enter
+ .text.xremote_scene_xr_list_edit_item_on_event
+                0x000037d0       0x70 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+                0x000037d0                xremote_scene_xr_list_edit_item_on_event
+ .text.xremote_scene_xr_list_edit_item_on_exit
+                0x00003840        0xc build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+                0x00003840                xremote_scene_xr_list_edit_item_on_exit
+ .text.xremote_infoscreen_draw
+                0x0000384c       0xb4 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+                0x0000384c                xremote_infoscreen_draw
+ .text.xremote_infoscreen_input
+                0x00003900       0x34 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+                0x00003900                xremote_infoscreen_input
+ .text.xremote_infoscreen_set_callback
+                0x00003934        0x6 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+                0x00003934                xremote_infoscreen_set_callback
+ *fill*         0x0000393a        0x2 
+ .text.xremote_infoscreen_alloc
+                0x0000393c       0x6c build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+                0x0000393c                xremote_infoscreen_alloc
+ .text.xremote_infoscreen_free
+                0x000039a8       0x34 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+                0x000039a8                xremote_infoscreen_free
+ .text.xremote_infoscreen_get_view
+                0x000039dc        0x4 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+                0x000039dc                xremote_infoscreen_get_view
+ .text.xremote_pause_set_draw
+                0x000039e0       0xac build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+                0x000039e0                xremote_pause_set_draw
+ .text.xremote_pause_set_enter
+                0x00003a8c       0x24 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+                0x00003a8c                xremote_pause_set_enter
+ .text.xremote_pause_set_input
+                0x00003ab0       0x80 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+                0x00003ab0                xremote_pause_set_input
+ .text.xremote_pause_set_set_callback
+                0x00003b30        0x6 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+                0x00003b30                xremote_pause_set_set_callback
+ *fill*         0x00003b36        0x2 
+ .text.xremote_pause_set_alloc
+                0x00003b38       0x80 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+                0x00003b38                xremote_pause_set_alloc
+ .text.xremote_pause_set_get_view
+                0x00003bb8        0x4 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+                0x00003bb8                xremote_pause_set_get_view
+ .text.xremote_pause_set_free
+                0x00003bbc       0x34 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+                0x00003bbc                xremote_pause_set_free
+ .text.xremote_transmit_input
+                0x00003bf0       0x38 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+                0x00003bf0                xremote_transmit_input
+ .text.xremote_transmit_model_set_name
+                0x00003c28       0x24 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+                0x00003c28                xremote_transmit_model_set_name
+ .text.xremote_transmit_model_set_type
+                0x00003c4c       0x28 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+                0x00003c4c                xremote_transmit_model_set_type
+ .text.xremote_transmit_set_callback
+                0x00003c74        0x6 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+                0x00003c74                xremote_transmit_set_callback
+ *fill*         0x00003c7a        0x2 
+ .text.xremote_transmit_draw_ir
+                0x00003c7c       0xc4 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+                0x00003c7c                xremote_transmit_draw_ir
+ .text.xremote_transmit_draw_pause
+                0x00003d40       0xc8 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+                0x00003d40                xremote_transmit_draw_pause
+ .text.xremote_transmit_draw_subghz
+                0x00003e08       0xc8 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+                0x00003e08                xremote_transmit_draw_subghz
+ .text.xremote_transmit_draw
+                0x00003ed0       0x48 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+                0x00003ed0                xremote_transmit_draw
+ .text.xremote_transmit_alloc
+                0x00003f18       0x70 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+                0x00003f18                xremote_transmit_alloc
+ .text.xremote_transmit_free
+                0x00003f88       0x34 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+                0x00003f88                xremote_transmit_free
+ .text.xremote_transmit_get_view
+                0x00003fbc        0x4 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+                0x00003fbc                xremote_transmit_get_view
+ .text.xremote_custom_event_callback
+                0x00003fc0        0xc build/f7-firmware-C/.extapps/xremote/xremote.o
+                0x00003fc0                xremote_custom_event_callback
+ .text.xremote_tick_event_callback
+                0x00003fcc        0xc build/f7-firmware-C/.extapps/xremote/xremote.o
+                0x00003fcc                xremote_tick_event_callback
+ .text.xremote_navigation_event_callback
+                0x00003fd8        0xc build/f7-firmware-C/.extapps/xremote/xremote.o
+                0x00003fd8                xremote_navigation_event_callback
+ .text.xremote_app_alloc
+                0x00003fe4      0x294 build/f7-firmware-C/.extapps/xremote/xremote.o
+                0x00003fe4                xremote_app_alloc
+ .text.xremote_app_free
+                0x00004278      0x128 build/f7-firmware-C/.extapps/xremote/xremote.o
+                0x00004278                xremote_app_free
+ .text.xremote_popup_closed_callback
+                0x000043a0        0xc build/f7-firmware-C/.extapps/xremote/xremote.o
+                0x000043a0                xremote_popup_closed_callback
+ .text.xremote_text_input_callback
+                0x000043ac        0xc build/f7-firmware-C/.extapps/xremote/xremote.o
+                0x000043ac                xremote_text_input_callback
+ .text.xremote_ir_enable_otg
+                0x000043b8       0x20 build/f7-firmware-C/.extapps/xremote/xremote.o
+                0x000043b8                xremote_ir_enable_otg
+ .text.xremote_ir_set_tx_pin
+                0x000043d8       0x38 build/f7-firmware-C/.extapps/xremote/xremote.o
+                0x000043d8                xremote_ir_set_tx_pin
+ .text.xremote_app
+                0x00004410       0xd8 build/f7-firmware-C/.extapps/xremote/xremote.o
+                0x00004410                xremote_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000044e8     0x152f
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.subghz_scene_transmit_callback_end_tx.str1.1
+                0x000044e8       0x15 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .rodata.subghz_alloc.str1.1
+                0x000044fd        0x8 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .rodata.subghz_send.str1.1
+                0x00004505       0x5c build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .rodata.subghz_tx_start.str1.1
+                0x00004561       0x29 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .rodata.subghz_key_load.str1.1
+                0x0000458a      0x120 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .rodata.subghz_save_protocol_to_file.str1.1
+                0x000046aa       0x28 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .rodata.subghz_path_is_file.str1.1
+                0x000046d2        0x5 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .rodata.subghz_txrx_radio_device_power_on.constprop.0.str1.1
+                0x000046d7       0x3b build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .rodata.subghz_txrx_get_preset_name.str1.1
+                0x00004712       0xcd build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .rodata.subghz_txrx_tx_start.str1.1
+                0x000047df       0x88 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .rodata.subghz_txrx_radio_device_set.str1.1
+                0x00004867       0x16 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .rodata.subghz_txrx_alloc.str1.1
+                0x0000487d       0xc7 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .rodata.xremote_close_storage.str1.1
+                0x00004944        0x8 build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .rodata.xremote_save_settings.str1.1
+                0x0000494c      0x156 build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .rodata.xremote_read_settings.str1.1
+                0x00004aa2       0x4d build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .rodata.xremote_cross_remote_add_pause.str1.1
+                0x00004aef        0xa build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .rodata.xremote_cross_remote_add_subghz.str1.1
+                0x00004af9       0x17 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .rodata.xremote_cross_remote_load.str1.1
+                0x00004b10       0x2d build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .rodata.xremote_cross_remote_save_new.str1.1
+                0x00004b3d       0x48 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .rodata.xremote_cross_remote_item_read.str1.1
+                0x00004b85      0x109 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .rodata.xremote_cross_remote_item_ir_signal_save.str1.1
+                0x00004c8e        0x1 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .rodata.xremote_ir_remote_load.str1.1
+                0x00004c8f       0x46 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .rodata.xremote_ir_signal_is_message_valid.str1.1
+                0x00004cd5       0x79 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .rodata.xremote_ir_signal_read.str1.1
+                0x00004d4e       0x5c build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .rodata.xremote_sg_remote_load.str1.1
+                0x00004daa       0x40 build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ *fill*         0x00004dea        0x2 
+ .rodata.xremote_scene_handlers
+                0x00004dec       0x10 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene.o
+                0x00004dec                xremote_scene_handlers
+ .rodata.xremote_on_exit_handlers
+                0x00004dfc       0x48 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene.o
+                0x00004dfc                xremote_on_exit_handlers
+ .rodata.xremote_on_event_handlers
+                0x00004e44       0x48 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene.o
+                0x00004e44                xremote_on_event_handlers
+ .rodata.xremote_on_enter_handlers
+                0x00004e8c       0x48 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene.o
+                0x00004e8c                xremote_on_enter_handlers
+ .rodata.xremote_create_callback.str1.1
+                0x00004ed4       0x16 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .rodata.xremote_scene_create_on_enter.str1.1
+                0x00004eea        0xf build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .rodata.xremote_create_add_callback.str1.1
+                0x00004ef9       0x16 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .rodata.xremote_scene_create_add_on_enter.str1.1
+                0x00004f0f       0x22 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .rodata.xremote_scene_edit_item_on_enter.str1.1
+                0x00004f31       0x19 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .rodata.xremote_scene_ir_list_on_enter.str1.1
+                0x00004f4a       0x12 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+ .rodata.xremote_scene_ir_remote_button_menu_callback.str1.1
+                0x00004f5c       0x19 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .rodata.xremote_scene_ir_remote_on_enter.str1.1
+                0x00004f75        0xb build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .rodata.xremote_scene_ir_timer_on_enter.str1.1
+                0x00004f80       0x1b build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .rodata.xremote_scene_menu_on_enter.str1.1
+                0x00004f9b       0x4c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .rodata.xremote_scene_save_remote_on_enter.str1.1
+                0x00004fe7       0x14 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .rodata.xremote_scene_save_remote_on_exit.str1.1
+                0x00004ffb        0x1 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .rodata.xremote_scene_save_remote_item_on_enter.str1.1
+                0x00004ffc       0x12 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .rodata.xremote_scene_save_remote_item_on_exit.str1.1
+                0x0000500e        0x1 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .rodata.xremote_scene_settings_set_sg_timing.str1.1
+                0x0000500f        0x4 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .rodata.xremote_scene_settings_init.str1.1
+                0x00005013       0x5b build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ *fill*         0x0000506e        0x2 
+ .rodata.settings_value
+                0x00005070        0x8 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+                0x00005070                settings_value
+ .rodata.str1.1
+                0x00005078       0x1d build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ *fill*         0x00005095        0x3 
+ .rodata.settings_text
+                0x00005098        0x8 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+                0x00005098                settings_text
+ .rodata.loop_value
+                0x000050a0        0x8 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+                0x000050a0                loop_value
+ .rodata.loop_text
+                0x000050a8        0x8 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+                0x000050a8                loop_text
+ .rodata.led_value
+                0x000050b0        0x8 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+                0x000050b0                led_value
+ .rodata.led_text
+                0x000050b8        0x8 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+                0x000050b8                led_text
+ .rodata.infrared_otg_text
+                0x000050c0        0x8 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .rodata.infrared_pin_text
+                0x000050c8        0xc build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .rodata.xremote_scene_sg_list_on_enter.str1.1
+                0x000050d4       0x11 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+ .rodata.xremote_scene_transmit_callback.str1.1
+                0x000050e5       0x2a build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .rodata.xremote_scene_transmit_on_event.str1.1
+                0x0000510f       0x18 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ *fill*         0x00005127        0x1 
+ .rodata.xremote_notification_sequences
+                0x00005128       0x30 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .rodata.xremote_scene_wip_on_enter.str1.1
+                0x00005158       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+ .rodata.xremote_scene_xr_list_on_enter.str1.1
+                0x0000518c       0x1b build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+ .rodata.xremote_scene_xr_list_edit_on_enter.str1.1
+                0x000051a7       0x1b build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+ .rodata.xremote_scene_xr_list_edit_item_on_enter.str1.1
+                0x000051c2        0xc build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .rodata.xremote_infoscreen_draw.str1.1
+                0x000051ce       0x3f build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .rodata.xremote_pause_set_draw.str1.1
+                0x0000520d       0x17 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .rodata.xremote_transmit_draw_ir.str1.1
+                0x00005224       0x11 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .rodata.xremote_transmit_draw_pause.str1.1
+                0x00005235       0x11 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .rodata.xremote_transmit_draw_subghz.str1.1
+                0x00005246        0x7 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .rodata.xremote_transmit_draw.str1.1
+                0x0000524d        0x5 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .rodata.xremote_app_alloc.str1.1
+                0x00005252       0x22 build/f7-firmware-C/.extapps/xremote/xremote.o
+ .rodata.xremote_app.str1.1
+                0x00005274       0x1f build/f7-firmware-C/.extapps/xremote/xremote.o
+ *fill*         0x00005293        0x1 
+ .rodata.I_xr_10px
+                0x00005294        0xc build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005294                I_xr_10px
+ .rodata.I_sg_transmit_128x64
+                0x000052a0        0xc build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x000052a0                I_sg_transmit_128x64
+ .rodata.I_sg_ani_3_19x13
+                0x000052ac        0xc build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x000052ac                I_sg_ani_3_19x13
+ .rodata.I_sg_ani_2_19x13
+                0x000052b8        0xc build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x000052b8                I_sg_ani_2_19x13
+ .rodata.I_sg_ani_1_19x13
+                0x000052c4        0xc build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x000052c4                I_sg_ani_1_19x13
+ .rodata.I_sg_10px
+                0x000052d0        0xc build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x000052d0                I_sg_10px
+ .rodata.I_pause_ani_3_22x23
+                0x000052dc        0xc build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x000052dc                I_pause_ani_3_22x23
+ .rodata.I_pause_ani_2_22x23
+                0x000052e8        0xc build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x000052e8                I_pause_ani_2_22x23
+ .rodata.I_pause_ani_1_22x23
+                0x000052f4        0xc build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x000052f4                I_pause_ani_1_22x23
+ .rodata.I_pause_128x64
+                0x00005300        0xc build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005300                I_pause_128x64
+ .rodata.I_ir_transmit_128x64
+                0x0000530c        0xc build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x0000530c                I_ir_transmit_128x64
+ .rodata.I_ir_ani_3_32x22
+                0x00005318        0xc build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005318                I_ir_ani_3_32x22
+ .rodata.I_ir_ani_2_32x22
+                0x00005324        0xc build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005324                I_ir_ani_2_32x22
+ .rodata.I_ir_ani_1_32x22
+                0x00005330        0xc build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005330                I_ir_ani_1_32x22
+ .rodata.I_ButtonUp_10x5
+                0x0000533c        0xc build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x0000533c                I_ButtonUp_10x5
+ .rodata.I_ButtonDown_10x5
+                0x00005348        0xc build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005348                I_ButtonDown_10x5
+ .rodata._I_xr_10px
+                0x00005354        0x4 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005354                _I_xr_10px
+ .rodata._I_xr_10px_0
+                0x00005358       0x15 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005358                _I_xr_10px_0
+ *fill*         0x0000536d        0x3 
+ .rodata._I_sg_transmit_128x64
+                0x00005370        0x4 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005370                _I_sg_transmit_128x64
+ .rodata._I_sg_transmit_128x64_0
+                0x00005374      0x178 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005374                _I_sg_transmit_128x64_0
+ .rodata._I_sg_ani_3_19x13
+                0x000054ec        0x4 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x000054ec                _I_sg_ani_3_19x13
+ .rodata._I_sg_ani_3_19x13_0
+                0x000054f0       0x28 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x000054f0                _I_sg_ani_3_19x13_0
+ .rodata._I_sg_ani_2_19x13
+                0x00005518        0x4 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005518                _I_sg_ani_2_19x13
+ .rodata._I_sg_ani_2_19x13_0
+                0x0000551c       0x22 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x0000551c                _I_sg_ani_2_19x13_0
+ *fill*         0x0000553e        0x2 
+ .rodata._I_sg_ani_1_19x13
+                0x00005540        0x4 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005540                _I_sg_ani_1_19x13
+ .rodata._I_sg_ani_1_19x13_0
+                0x00005544       0x16 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005544                _I_sg_ani_1_19x13_0
+ *fill*         0x0000555a        0x2 
+ .rodata._I_sg_10px
+                0x0000555c        0x4 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x0000555c                _I_sg_10px
+ .rodata._I_sg_10px_0
+                0x00005560       0x15 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005560                _I_sg_10px_0
+ *fill*         0x00005575        0x3 
+ .rodata._I_pause_ani_3_22x23
+                0x00005578        0x4 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005578                _I_pause_ani_3_22x23
+ .rodata._I_pause_ani_3_22x23_0
+                0x0000557c       0x46 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x0000557c                _I_pause_ani_3_22x23_0
+ *fill*         0x000055c2        0x2 
+ .rodata._I_pause_ani_2_22x23
+                0x000055c4        0x4 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x000055c4                _I_pause_ani_2_22x23
+ .rodata._I_pause_ani_2_22x23_0
+                0x000055c8       0x46 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x000055c8                _I_pause_ani_2_22x23_0
+ *fill*         0x0000560e        0x2 
+ .rodata._I_pause_ani_1_22x23
+                0x00005610        0x4 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005610                _I_pause_ani_1_22x23
+ .rodata._I_pause_ani_1_22x23_0
+                0x00005614       0x46 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005614                _I_pause_ani_1_22x23_0
+ *fill*         0x0000565a        0x2 
+ .rodata._I_pause_128x64
+                0x0000565c        0x4 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x0000565c                _I_pause_128x64
+ .rodata._I_pause_128x64_0
+                0x00005660      0x13a build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005660                _I_pause_128x64_0
+ *fill*         0x0000579a        0x2 
+ .rodata._I_ir_transmit_128x64
+                0x0000579c        0x4 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x0000579c                _I_ir_transmit_128x64
+ .rodata._I_ir_transmit_128x64_0
+                0x000057a0      0x193 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x000057a0                _I_ir_transmit_128x64_0
+ *fill*         0x00005933        0x1 
+ .rodata._I_ir_ani_3_32x22
+                0x00005934        0x4 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005934                _I_ir_ani_3_32x22
+ .rodata._I_ir_ani_3_32x22_0
+                0x00005938       0x45 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005938                _I_ir_ani_3_32x22_0
+ *fill*         0x0000597d        0x3 
+ .rodata._I_ir_ani_2_32x22
+                0x00005980        0x4 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005980                _I_ir_ani_2_32x22
+ .rodata._I_ir_ani_2_32x22_0
+                0x00005984       0x39 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005984                _I_ir_ani_2_32x22_0
+ *fill*         0x000059bd        0x3 
+ .rodata._I_ir_ani_1_32x22
+                0x000059c0        0x4 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x000059c0                _I_ir_ani_1_32x22
+ .rodata._I_ir_ani_1_32x22_0
+                0x000059c4       0x33 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x000059c4                _I_ir_ani_1_32x22_0
+ *fill*         0x000059f7        0x1 
+ .rodata._I_ButtonUp_10x5
+                0x000059f8        0x4 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x000059f8                _I_ButtonUp_10x5
+ .rodata._I_ButtonUp_10x5_0
+                0x000059fc        0xb build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x000059fc                _I_ButtonUp_10x5_0
+ *fill*         0x00005a07        0x1 
+ .rodata._I_ButtonDown_10x5
+                0x00005a08        0x4 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005a08                _I_ButtonDown_10x5
+ .rodata._I_ButtonDown_10x5_0
+                0x00005a0c        0xb build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+                0x00005a0c                _I_ButtonDown_10x5_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0xa20
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x38 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .debug_aranges
+                0x00000038       0x50 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .debug_aranges
+                0x00000088       0xd8 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_aranges
+                0x00000160       0x38 build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .debug_aranges
+                0x00000198       0xa8 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_aranges
+                0x00000240       0xa8 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_aranges
+                0x000002e8       0x50 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .debug_aranges
+                0x00000338       0x40 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .debug_aranges
+                0x00000378       0x78 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_aranges
+                0x000003f0       0x40 build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .debug_aranges
+                0x00000430       0x18 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene.o
+ .debug_aranges
+                0x00000448       0x38 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .debug_aranges
+                0x00000480       0x38 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .debug_aranges
+                0x000004b8       0x38 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .debug_aranges
+                0x000004f0       0x38 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+ .debug_aranges
+                0x00000528       0x30 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+ .debug_aranges
+                0x00000558       0x38 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .debug_aranges
+                0x00000590       0x38 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .debug_aranges
+                0x000005c8       0x38 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .debug_aranges
+                0x00000600       0x38 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+ .debug_aranges
+                0x00000638       0x30 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .debug_aranges
+                0x00000668       0x30 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .debug_aranges
+                0x00000698       0x78 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_aranges
+                0x00000710       0x30 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+ .debug_aranges
+                0x00000740       0x78 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_aranges
+                0x000007b8       0x30 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+ .debug_aranges
+                0x000007e8       0x30 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+ .debug_aranges
+                0x00000818       0x30 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+ .debug_aranges
+                0x00000848       0x38 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .debug_aranges
+                0x00000880       0x58 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .debug_aranges
+                0x000008d8       0x50 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .debug_aranges
+                0x00000928       0x78 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_aranges
+                0x000009a0       0x68 build/f7-firmware-C/.extapps/xremote/xremote.o
+ .debug_aranges
+                0x00000a08       0x18 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x22a7d
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xd4e build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .debug_info    0x00000d4e     0x1816 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .debug_info    0x00002564     0x267d build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_info    0x00004be1     0x12fd build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .debug_info    0x00005ede     0x2335 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_info    0x00008213     0x18d9 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_info    0x00009aec      0xbee build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .debug_info    0x0000a6da      0x307 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .debug_info    0x0000a9e1     0x10bc build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_info    0x0000ba9d      0x66f build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .debug_info    0x0000c10c      0x696 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene.o
+ .debug_info    0x0000c7a2     0x12c6 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .debug_info    0x0000da68     0x1019 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .debug_info    0x0000ea81      0xc43 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .debug_info    0x0000f6c4      0xe74 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+ .debug_info    0x00010538      0xc98 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+ .debug_info    0x000111d0     0x125f build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .debug_info    0x0001242f      0xd72 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .debug_info    0x000131a1      0xcd6 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .debug_info    0x00013e77      0xbb3 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+ .debug_info    0x00014a2a      0xde6 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .debug_info    0x00015810      0xdd0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .debug_info    0x000165e0     0x170e build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_info    0x00017cee      0xcbc build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+ .debug_info    0x000189aa     0x1ceb build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_info    0x0001a695      0xbfe build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+ .debug_info    0x0001b293      0xb88 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+ .debug_info    0x0001be1b      0xb88 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+ .debug_info    0x0001c9a3      0xc2c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .debug_info    0x0001d5cf      0xd11 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .debug_info    0x0001e2e0     0x132f build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .debug_info    0x0001f60f     0x112b build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_info    0x0002073a     0x1d44 build/f7-firmware-C/.extapps/xremote/xremote.o
+ .debug_info    0x0002247e      0x5ff build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+
+.debug_abbrev   0x00000000     0x6197
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x288 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .debug_abbrev  0x00000288      0x2c6 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .debug_abbrev  0x0000054e      0x4f4 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_abbrev  0x00000a42      0x2d2 build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .debug_abbrev  0x00000d14      0x511 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_abbrev  0x00001225      0x399 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_abbrev  0x000015be      0x39f build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .debug_abbrev  0x0000195d      0x18c build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .debug_abbrev  0x00001ae9      0x3a4 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_abbrev  0x00001e8d      0x1e5 build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .debug_abbrev  0x00002072      0x137 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene.o
+ .debug_abbrev  0x000021a9      0x379 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .debug_abbrev  0x00002522      0x360 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .debug_abbrev  0x00002882      0x230 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .debug_abbrev  0x00002ab2      0x289 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+ .debug_abbrev  0x00002d3b      0x266 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+ .debug_abbrev  0x00002fa1      0x394 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .debug_abbrev  0x00003335      0x2bf build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .debug_abbrev  0x000035f4      0x239 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .debug_abbrev  0x0000382d      0x24a build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+ .debug_abbrev  0x00003a77      0x27a build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .debug_abbrev  0x00003cf1      0x281 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .debug_abbrev  0x00003f72      0x34f build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_abbrev  0x000042c1      0x266 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+ .debug_abbrev  0x00004527      0x44a build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_abbrev  0x00004971      0x215 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+ .debug_abbrev  0x00004b86      0x25e build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+ .debug_abbrev  0x00004de4      0x25e build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+ .debug_abbrev  0x00005042      0x231 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .debug_abbrev  0x00005273      0x359 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .debug_abbrev  0x000055cc      0x3e6 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .debug_abbrev  0x000059b2      0x371 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_abbrev  0x00005d23      0x3b6 build/f7-firmware-C/.extapps/xremote/xremote.o
+ .debug_abbrev  0x000060d9       0xbe build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+
+.debug_line     0x00000000    0x1055b
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x729 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .debug_line.text.subghz_scene_transmit_callback_end_tx
+                0x00000729       0x2b build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .debug_line.text.subghz_alloc
+                0x00000754       0x50 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .debug_line.text.subghz_free
+                0x000007a4       0x29 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .debug_line.text.subghz_send
+                0x000007cd       0x87 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .debug_line_end
+                0x00000854        0x0 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .debug_line    0x00000854      0x48c build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .debug_line.text.subghz_tx_start
+                0x00000ce0       0x36 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .debug_line.text.subghz_key_load
+                0x00000d16      0x199 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .debug_line.text.subghz_get_load_type_file
+                0x00000eaf       0x1e build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .debug_line.text.subghz_save_protocol_to_file
+                0x00000ecd       0xac build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .debug_line.text.subghz_load_protocol_from_file
+                0x00000f79       0x1f build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .debug_line.text.subghz_path_is_file
+                0x00000f98       0x1a build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .debug_line.text.subghz_save_to_file
+                0x00000fb2       0x3a build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .debug_line_end
+                0x00000fec        0x0 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .debug_line    0x00000fec      0x506 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_power_off.constprop.0
+                0x000014f2       0x3f build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_power_on.constprop.0
+                0x00001531       0x4f build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_free
+                0x00001580       0x46 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_preset
+                0x000015c6       0x48 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_preset_name
+                0x0000160e       0x70 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_need_save_callback
+                0x0000167e       0x20 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_fff_data
+                0x0000169e       0x1e build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_setting
+                0x000016bc       0x1e build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_on
+                0x000016da       0x4b build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_off
+                0x00001725       0x4b build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_idle
+                0x00001770       0x3b build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_unmute
+                0x000017ab       0x4c build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_stop
+                0x000017f7       0x79 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_tx_start
+                0x00001870      0x172 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_load_decoder_by_name_protocol
+                0x000019e2       0x3a build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_decoder
+                0x00001a1c       0x1e build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_raw_file_encoder_worker_callback_end
+                0x00001a3a       0x2c build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_is_external_connected
+                0x00001a66       0x7b build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_set
+                0x00001ae1       0x76 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_alloc
+                0x00001b57       0xf2 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_get_name
+                0x00001c49       0x1e build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_is_frequecy_valid
+                0x00001c67       0x1f build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line_end
+                0x00001c86        0x0 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_line    0x00001c86      0x65c build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .debug_line.text.xremote_close_storage
+                0x000022e2       0x12 build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .debug_line.text.xremote_close_config_file
+                0x000022f4       0x2e build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .debug_line.text.xremote_save_settings
+                0x00002322       0xc9 build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .debug_line.text.xremote_read_settings
+                0x000023eb       0xd4 build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .debug_line_end
+                0x000024bf        0x0 build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .debug_line    0x000024bf      0x4ab build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line.text.CrossRemoteItemArray_push_back
+                0x0000296a       0x3f build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line.text.xremote_cross_remote_clear_items
+                0x000029a9       0x96 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line.text.xremote_cross_remote_alloc
+                0x00002a3f       0x64 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line.text.xremote_cross_remote_set_transmitting
+                0x00002aa3       0x1c build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line.text.xremote_cross_remote_get_transmitting
+                0x00002abf       0x1a build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line.text.xremote_cross_remote_free
+                0x00002ad9       0x51 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line.text.xremote_cross_remote_get_name
+                0x00002b2a       0x1a build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line.text.xremote_cross_remote_add_ir_item
+                0x00002b44       0x37 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line.text.xremote_cross_remote_add_pause
+                0x00002b7b       0x3b build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line.text.xremote_cross_remote_add_subghz
+                0x00002bb6       0x3a build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line.text.xremote_cross_remote_get_item_count
+                0x00002bf0       0x29 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line.text.xremote_cross_remote_get_item
+                0x00002c19       0x35 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line.text.xremote_cross_remote_remove_item
+                0x00002c4e       0x51 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line.text.xremote_cross_remote_rename_item
+                0x00002c9f       0x51 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line.text.xremote_cross_remote_get_item_type
+                0x00002cf0       0x46 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line.text.xremote_cross_remote_load
+                0x00002d36      0x111 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line.text.xremote_cross_remote_save_new
+                0x00002e47      0x1f4 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line.text.xremote_cross_remote_delete
+                0x0000303b       0x6b build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line_end
+                0x000030a6        0x0 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_line    0x000030a6      0x411 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line.text.xremote_cross_remote_item_alloc
+                0x000034b7       0x5b build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line.text.xremote_cross_remote_item_read
+                0x00003512      0x2a6 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line.text.xremote_cross_remote_item_free
+                0x000037b8       0x2b build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line.text.xremote_cross_remote_item_set_type
+                0x000037e3       0x1c build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line.text.xremote_cross_remote_item_set_name
+                0x000037ff       0x18 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line.text.xremote_cross_remote_item_set_filename
+                0x00003817       0x18 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line.text.xremote_cross_remote_item_set_time
+                0x0000382f       0x1c build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line.text.xremote_cross_remote_item_set_ir_signal
+                0x0000384b       0x18 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line.text.xremote_cross_remote_item_set_sg_signal
+                0x00003863       0x1c build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line.text.xremote_cross_remote_item_get_type
+                0x0000387f       0x1a build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line.text.xremote_cross_remote_item_get_name
+                0x00003899       0x1a build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line.text.xremote_cross_remote_item_get_filename
+                0x000038b3       0x1a build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line.text.xremote_cross_remote_item_get_ir_signal
+                0x000038cd       0x1a build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line.text.xremote_cross_remote_item_get_sg_signal
+                0x000038e7       0x1a build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line.text.xremote_cross_remote_item_get_time
+                0x00003901       0x1a build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line.text.xremote_cross_remote_item_ir_signal_save
+                0x0000391b       0xbf build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line.text.xremote_cross_remote_item_pause_save
+                0x000039da       0x4c build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line.text.xremote_cross_remote_item_sg_signal_save
+                0x00003a26       0x49 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line_end
+                0x00003a6f        0x0 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_line    0x00003a6f      0x338 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .debug_line.text.xremote_ir_remote_alloc
+                0x00003da7       0x60 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .debug_line.text.xremote_ir_remote_load
+                0x00003e07      0x181 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .debug_line.text.xremote_ir_remote_get_button_count
+                0x00003f88       0x29 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .debug_line.text.xremote_ir_remote_get_button
+                0x00003fb1       0x35 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .debug_line_end
+                0x00003fe6        0x0 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .debug_line    0x00003fe6      0x1b6 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .debug_line.text.xremote_ir_remote_button_alloc
+                0x0000419c       0x43 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .debug_line.text.xremote_ir_remote_button_free
+                0x000041df       0x28 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .debug_line.text.xremote_ir_remote_button_set_name
+                0x00004207       0x17 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .debug_line.text.xremote_ir_remote_button_get_name
+                0x0000421e       0x19 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .debug_line.text.xremote_ir_remote_button_get_signal
+                0x00004237       0x19 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .debug_line_end
+                0x00004250        0x0 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .debug_line    0x00004250      0x38e build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_line.text.xremote_ir_signal_is_message_valid
+                0x000045de       0x87 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_line.text.xremote_ir_signal_clear_timings
+                0x00004665       0x34 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_line.text.xremote_ir_signal_alloc
+                0x00004699       0x34 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_line.text.xremote_ir_signal_free
+                0x000046cd       0x2c build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_line.text.xremote_ir_signal_set_raw_signal
+                0x000046f9       0x5c build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_line.text.xremote_ir_signal_get_raw_signal
+                0x00004755       0x1e build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_line.text.xremote_ir_signal_set_message
+                0x00004773       0x35 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_line.text.xremote_ir_signal_set_signal
+                0x000047a8       0x3b build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_line.text.xremote_ir_signal_read
+                0x000047e3      0x18f build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_line.text.xremote_ir_signal_get_message
+                0x00004972       0x12 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_line_end
+                0x00004984        0x0 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_line    0x00004984      0x2f7 build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .debug_line.text.xremote_sg_remote_get_name
+                0x00004c7b       0x19 build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .debug_line.text.xremote_sg_remote_get_filename
+                0x00004c94       0x19 build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .debug_line.text.xremote_sg_remote_alloc
+                0x00004cad       0x40 build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .debug_line.text.xremote_sg_remote_free
+                0x00004ced       0x28 build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .debug_line.text.xremote_sg_remote_load
+                0x00004d15       0xcd build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .debug_line_end
+                0x00004de2        0x0 build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .debug_line    0x00004de2      0x1a9 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene.o
+ .debug_line_end
+                0x00004f8b        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene.o
+ .debug_line    0x00004f8b      0x75d build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .debug_line.text.xremote_create_callback
+                0x000056e8       0x65 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .debug_line.text.xremote_scene_create_on_enter
+                0x0000574d       0x98 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .debug_line.text.xremote_scene_create_on_event
+                0x000057e5       0xb7 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .debug_line.text.xremote_scene_create_on_exit
+                0x0000589c       0x18 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .debug_line_end
+                0x000058b4        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .debug_line    0x000058b4      0x6ac build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .debug_line.text.xremote_create_add_callback
+                0x00005f60       0x62 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .debug_line.text.xremote_scene_create_add_on_enter
+                0x00005fc2       0x4f build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .debug_line.text.xremote_scene_create_add_on_event
+                0x00006011       0x99 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .debug_line.text.xremote_scene_create_add_on_exit
+                0x000060aa       0x18 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .debug_line_end
+                0x000060c2        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .debug_line    0x000060c2      0x675 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .debug_line.text.xremote_scene_edit_item_submenu_callback
+                0x00006737       0x18 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .debug_line.text.xremote_scene_edit_item_on_enter
+                0x0000674f       0x37 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .debug_line.text.xremote_scene_edit_item_on_event
+                0x00006786       0x7b build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .debug_line.text.xremote_scene_edit_item_on_exit
+                0x00006801       0x17 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .debug_line_end
+                0x00006818        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .debug_line    0x00006818      0x6c1 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+ .debug_line.text.xremote_scene_infoscreen_callback
+                0x00006ed9       0x22 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+ .debug_line.text.xremote_scene_infoscreen_on_enter
+                0x00006efb       0x2b build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+ .debug_line.text.xremote_scene_infoscreen_on_event
+                0x00006f26       0x59 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+ .debug_line.text.xremote_scene_infoscreen_on_exit
+                0x00006f7f       0x19 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+ .debug_line_end
+                0x00006f98        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+ .debug_line    0x00006f98      0x663 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+ .debug_line.text.xremote_scene_ir_list_on_enter
+                0x000075fb       0x7b build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+ .debug_line.text.xremote_scene_ir_list_on_event
+                0x00007676       0x27 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+ .debug_line.text.xremote_scene_ir_list_on_exit
+                0x0000769d       0x18 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+ .debug_line_end
+                0x000076b5        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+ .debug_line    0x000076b5      0x75f build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .debug_line.text.xremote_scene_ir_remote_button_menu_callback
+                0x00007e14       0x62 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .debug_line.text.xremote_scene_ir_remote_on_enter
+                0x00007e76       0x9c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .debug_line.text.xremote_scene_ir_remote_on_event
+                0x00007f12       0xa1 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .debug_line.text.xremote_scene_ir_remote_on_exit
+                0x00007fb3       0x18 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .debug_line_end
+                0x00007fcb        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .debug_line    0x00007fcb      0x6ec build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .debug_line.text.xremote_scene_ir_timer_callback
+                0x000086b7       0x37 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .debug_line.text.xremote_scene_ir_timer_on_enter
+                0x000086ee       0x4a build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .debug_line.text.xremote_scene_ir_timer_on_event
+                0x00008738       0x31 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .debug_line.text.xremote_scene_ir_timer_on_exit
+                0x00008769       0x19 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .debug_line_end
+                0x00008782        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .debug_line    0x00008782      0x69a build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .debug_line.text.xremote_scene_menu_submenu_callback
+                0x00008e1c       0x18 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .debug_line.text.xremote_scene_menu_on_enter
+                0x00008e34       0x31 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .debug_line.text.xremote_scene_menu_on_event
+                0x00008e65       0x76 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .debug_line.text.xremote_scene_menu_on_exit
+                0x00008edb       0x18 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .debug_line_end
+                0x00008ef3        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .debug_line    0x00008ef3      0x679 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+ .debug_line.text.xremote_scene_pause_set_callback
+                0x0000956c       0x22 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+ .debug_line.text.xremote_scene_pause_set_on_enter
+                0x0000958e       0x2b build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+ .debug_line.text.xremote_scene_pause_set_on_event
+                0x000095b9       0x53 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+ .debug_line.text.xremote_scene_pause_set_on_exit
+                0x0000960c       0x18 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+ .debug_line_end
+                0x00009624        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+ .debug_line    0x00009624      0x705 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .debug_line.text.xremote_scene_save_remote_on_enter
+                0x00009d29       0x63 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .debug_line.text.xremote_scene_save_remote_on_event
+                0x00009d8c       0x56 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .debug_line.text.xremote_scene_save_remote_on_exit
+                0x00009de2       0x4e build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .debug_line_end
+                0x00009e30        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .debug_line    0x00009e30      0x73c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .debug_line.text.xremote_scene_save_remote_item_on_enter
+                0x0000a56c       0x45 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .debug_line.text.xremote_scene_save_remote_item_on_event
+                0x0000a5b1       0x40 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .debug_line.text.xremote_scene_save_remote_item_on_exit
+                0x0000a5f1       0x19 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .debug_line_end
+                0x0000a60a        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .debug_line    0x0000a60a      0x6e4 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_line.text.xremote_scene_settings_set_sg_timing
+                0x0000acee       0x45 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_line.text.xremote_scene_settings_set_ir_timing
+                0x0000ad33       0x45 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_line.text.xremote_scene_settings_set_ir_is_otg_enabled
+                0x0000ad78       0x66 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_line.text.xremote_scene_settings_set_ir_pin
+                0x0000adde       0x6b build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_line.text.xremote_scene_settings_set_save_settings
+                0x0000ae49       0x4a build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_line.text.xremote_scene_settings_set_loop
+                0x0000ae93       0x4a build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_line.text.xremote_scene_settings_set_led
+                0x0000aedd       0x49 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_line.text.xremote_scene_settings_init
+                0x0000af26      0x115 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_line.text.xremote_scene_settings_on_enter
+                0x0000b03b       0x26 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_line.text.xremote_scene_settings_on_event
+                0x0000b061       0x54 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_line.text.xremote_scene_settings_on_exit
+                0x0000b0b5       0x28 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_line_end
+                0x0000b0dd        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_line    0x0000b0dd      0x6d1 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+ .debug_line.text.xremote_scene_sg_list_on_enter
+                0x0000b7ae       0x80 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+ .debug_line.text.xremote_scene_sg_list_on_event
+                0x0000b82e       0x27 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+ .debug_line.text.xremote_scene_sg_list_on_exit
+                0x0000b855       0x18 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+ .debug_line_end
+                0x0000b86d        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+ .debug_line    0x0000b86d      0x7c5 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_line.text.xremote_scene_transmit_callback
+                0x0000c032       0x33 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_line.text.xremote_scene_ir_notification_message
+                0x0000c065       0x26 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_line.text.xremote_scene_transmit_end_scene
+                0x0000c08b       0x42 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_line.text.xremote_scene_transmit_stop_ir_signal
+                0x0000c0cd       0x3e build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_line.text.xremote_scene_transmit_send_ir_signal
+                0x0000c10b       0x9f build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_line.text.xremote_scene_transmit_send_pause
+                0x0000c1aa       0x43 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_line.text.xremote_scene_transmit_send_subghz
+                0x0000c1ed       0x51 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_line.text.xremote_scene_transmit_send_signal
+                0x0000c23e       0x70 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_line.text.xremote_scene_transmit_on_enter
+                0x0000c2ae       0x36 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_line.text.xremote_scene_transmit_on_event
+                0x0000c2e4      0x120 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_line.text.xremote_scene_transmit_on_exit
+                0x0000c404       0x25 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_line_end
+                0x0000c429        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_line    0x0000c429      0x638 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+ .debug_line.text.xremote_scene_wip_on_enter
+                0x0000ca61       0x3b build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+ .debug_line.text.xremote_scene_wip_on_event
+                0x0000ca9c       0x2d build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+ .debug_line.text.xremote_scene_wip_on_exit
+                0x0000cac9       0x19 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+ .debug_line_end
+                0x0000cae2        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+ .debug_line    0x0000cae2      0x6c7 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+ .debug_line.text.xremote_scene_xr_list_on_enter
+                0x0000d1a9       0x7f build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+ .debug_line.text.xremote_scene_xr_list_on_event
+                0x0000d228       0x27 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+ .debug_line.text.xremote_scene_xr_list_on_exit
+                0x0000d24f       0x18 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+ .debug_line_end
+                0x0000d267        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+ .debug_line    0x0000d267      0x6cc build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+ .debug_line.text.xremote_scene_xr_list_edit_on_enter
+                0x0000d933       0x7f build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+ .debug_line.text.xremote_scene_xr_list_edit_on_event
+                0x0000d9b2       0x27 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+ .debug_line.text.xremote_scene_xr_list_edit_on_exit
+                0x0000d9d9       0x18 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+ .debug_line_end
+                0x0000d9f1        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+ .debug_line    0x0000d9f1      0x6fb build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .debug_line.text.xremote_scene_xr_list_edit_item_submenu_callback
+                0x0000e0ec       0x16 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .debug_line.text.xremote_scene_xr_list_edit_item_on_enter
+                0x0000e102       0x2e build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .debug_line.text.xremote_scene_xr_list_edit_item_on_event
+                0x0000e130       0x71 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .debug_line.text.xremote_scene_xr_list_edit_item_on_exit
+                0x0000e1a1       0x17 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .debug_line_end
+                0x0000e1b8        0x0 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .debug_line    0x0000e1b8      0x3ab build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .debug_line.text.xremote_infoscreen_draw
+                0x0000e563       0x3c build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .debug_line.text.xremote_infoscreen_input
+                0x0000e59f       0x48 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .debug_line.text.xremote_infoscreen_set_callback
+                0x0000e5e7       0x23 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .debug_line.text.xremote_infoscreen_alloc
+                0x0000e60a       0x5b build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .debug_line.text.xremote_infoscreen_free
+                0x0000e665       0x35 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .debug_line.text.xremote_infoscreen_get_view
+                0x0000e69a       0x1e build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .debug_line_end
+                0x0000e6b8        0x0 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .debug_line    0x0000e6b8      0x7b9 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .debug_line.text.xremote_pause_set_draw
+                0x0000ee71       0x39 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .debug_line.text.xremote_pause_set_enter
+                0x0000eeaa       0x52 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .debug_line.text.xremote_pause_set_input
+                0x0000eefc       0x7c build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .debug_line.text.xremote_pause_set_set_callback
+                0x0000ef78       0x23 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .debug_line.text.xremote_pause_set_alloc
+                0x0000ef9b       0x67 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .debug_line.text.xremote_pause_set_get_view
+                0x0000f002       0x1e build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .debug_line.text.xremote_pause_set_free
+                0x0000f020       0x35 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .debug_line_end
+                0x0000f055        0x0 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .debug_line    0x0000f055      0x435 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_line.text.xremote_transmit_input
+                0x0000f48a       0x55 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_line.text.xremote_transmit_model_set_name
+                0x0000f4df       0x40 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_line.text.xremote_transmit_model_set_type
+                0x0000f51f       0x48 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_line.text.xremote_transmit_set_callback
+                0x0000f567       0x23 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_line.text.xremote_transmit_draw_ir
+                0x0000f58a       0x68 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_line.text.xremote_transmit_draw_pause
+                0x0000f5f2       0x68 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_line.text.xremote_transmit_draw_subghz
+                0x0000f65a       0x6b build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_line.text.xremote_transmit_draw
+                0x0000f6c5       0x60 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_line.text.xremote_transmit_alloc
+                0x0000f725       0x66 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_line.text.xremote_transmit_free
+                0x0000f78b       0x35 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_line.text.xremote_transmit_get_view
+                0x0000f7c0       0x1e build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_line_end
+                0x0000f7de        0x0 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_line    0x0000f7de      0x7d2 build/f7-firmware-C/.extapps/xremote/xremote.o
+ .debug_line.text.xremote_custom_event_callback
+                0x0000ffb0       0x1d build/f7-firmware-C/.extapps/xremote/xremote.o
+ .debug_line.text.xremote_tick_event_callback
+                0x0000ffcd       0x19 build/f7-firmware-C/.extapps/xremote/xremote.o
+ .debug_line.text.xremote_navigation_event_callback
+                0x0000ffe6       0x1e build/f7-firmware-C/.extapps/xremote/xremote.o
+ .debug_line.text.xremote_app_alloc
+                0x00010004      0x1ee build/f7-firmware-C/.extapps/xremote/xremote.o
+ .debug_line.text.xremote_app_free
+                0x000101f2       0x5d build/f7-firmware-C/.extapps/xremote/xremote.o
+ .debug_line.text.xremote_popup_closed_callback
+                0x0001024f       0x1c build/f7-firmware-C/.extapps/xremote/xremote.o
+ .debug_line.text.xremote_text_input_callback
+                0x0001026b       0x1c build/f7-firmware-C/.extapps/xremote/xremote.o
+ .debug_line.text.xremote_ir_enable_otg
+                0x00010287       0x31 build/f7-firmware-C/.extapps/xremote/xremote.o
+ .debug_line.text.xremote_ir_set_tx_pin
+                0x000102b8       0x5f build/f7-firmware-C/.extapps/xremote/xremote.o
+ .debug_line.text.xremote_app
+                0x00010317       0xb7 build/f7-firmware-C/.extapps/xremote/xremote.o
+ .debug_line_end
+                0x000103ce        0x0 build/f7-firmware-C/.extapps/xremote/xremote.o
+ .debug_line    0x000103ce      0x18d build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+ .debug_line_end
+                0x0001055b        0x0 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+
+.debug_frame    0x00000000     0x1a2c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x8c build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .debug_frame   0x0000008c       0xd4 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .debug_frame   0x00000160      0x28c build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_frame   0x000003ec       0xa4 build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .debug_frame   0x00000490      0x1f8 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_frame   0x00000688      0x1b4 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_frame   0x0000083c       0xbc build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .debug_frame   0x000008f8       0x74 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .debug_frame   0x0000096c      0x17c build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_frame   0x00000ae8       0x98 build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .debug_frame   0x00000b80       0x98 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .debug_frame   0x00000c18       0x8c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .debug_frame   0x00000ca4       0x74 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .debug_frame   0x00000d18       0x70 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+ .debug_frame   0x00000d88       0x5c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+ .debug_frame   0x00000de4       0x98 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .debug_frame   0x00000e7c       0x84 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .debug_frame   0x00000f00       0x78 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .debug_frame   0x00000f78       0x6c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+ .debug_frame   0x00000fe4       0x84 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .debug_frame   0x00001068       0x68 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .debug_frame   0x000010d0      0x194 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_frame   0x00001264       0x5c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+ .debug_frame   0x000012c0      0x198 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_frame   0x00001458       0x64 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+ .debug_frame   0x000014bc       0x5c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+ .debug_frame   0x00001518       0x5c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+ .debug_frame   0x00001574       0x78 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .debug_frame   0x000015ec       0xd4 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .debug_frame   0x000016c0       0xc0 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .debug_frame   0x00001780      0x1a4 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_frame   0x00001924      0x108 build/f7-firmware-C/.extapps/xremote/xremote.o
+
+.debug_str      0x00000000    0x1e945
+ *(.debug_str)
+ .debug_str     0x00000000      0xb7d build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .debug_str     0x00000b7d     0x13fe build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .debug_str     0x00001f7b     0x1fec build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_str     0x00003f67      0xae6 build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .debug_str     0x00004a4d     0x1208 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_str     0x00005c55      0xd5e build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_str     0x000069b3      0x7d5 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .debug_str     0x00007188      0x3b6 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .debug_str     0x0000753e      0x941 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_str     0x00007e7f      0x53c build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .debug_str     0x000083bb      0xbfd build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene.o
+ .debug_str     0x00008fb8     0x10f7 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .debug_str     0x0000a0af      0xe68 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .debug_str     0x0000af17      0xc89 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .debug_str     0x0000bba0     0x13e4 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+ .debug_str     0x0000cf84      0xce5 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+ .debug_str     0x0000dc69     0x112b build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .debug_str     0x0000ed94      0xc8a build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .debug_str     0x0000fa1e      0xc12 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .debug_str     0x00010630      0xef2 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+ .debug_str     0x00011522      0xd02 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .debug_str     0x00012224      0xe25 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .debug_str     0x00013049     0x1132 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_str     0x0001417b      0xd05 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+ .debug_str     0x00014e80     0x2183 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_str     0x00017003      0xd23 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+ .debug_str     0x00017d26      0xb08 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+ .debug_str     0x0001882e      0xb1c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+ .debug_str     0x0001934a      0xc47 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .debug_str     0x00019f91      0xaf2 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .debug_str     0x0001aa83      0xfce build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .debug_str     0x0001ba51      0xc75 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_str     0x0001c6c6     0x1c8a build/f7-firmware-C/.extapps/xremote/xremote.o
+ .debug_str     0x0001e350      0x5f5 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x50ff
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000       0xe5 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .debug_loclists
+                0x000000e5      0x316 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .debug_loclists
+                0x000003fb      0x5dd build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_loclists
+                0x000009d8      0x23d build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .debug_loclists
+                0x00000c15      0x91f build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_loclists
+                0x00001534      0x714 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_loclists
+                0x00001c48      0x2cc build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .debug_loclists
+                0x00001f14       0xa8 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .debug_loclists
+                0x00001fbc      0x5a2 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_loclists
+                0x0000255e      0x135 build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .debug_loclists
+                0x00002693      0x36e build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .debug_loclists
+                0x00002a01      0x230 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .debug_loclists
+                0x00002c31      0x1b9 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .debug_loclists
+                0x00002dea      0x139 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+ .debug_loclists
+                0x00002f23       0x6d build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+ .debug_loclists
+                0x00002f90      0x2ba build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .debug_loclists
+                0x0000324a      0x127 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .debug_loclists
+                0x00003371      0x229 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .debug_loclists
+                0x0000359a      0x106 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+ .debug_loclists
+                0x000036a0      0x22e build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .debug_loclists
+                0x000038ce      0x187 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .debug_loclists
+                0x00003a55      0x46c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_loclists
+                0x00003ec1       0x6d build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+ .debug_loclists
+                0x00003f2e      0x50c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_loclists
+                0x0000443a       0xa9 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+ .debug_loclists
+                0x000044e3       0x74 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+ .debug_loclists
+                0x00004557       0x74 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+ .debug_loclists
+                0x000045cb      0x194 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .debug_loclists
+                0x0000475f      0x182 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .debug_loclists
+                0x000048e1      0x236 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .debug_loclists
+                0x00004b17      0x387 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_loclists
+                0x00004e9e      0x261 build/f7-firmware-C/.extapps/xremote/xremote.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0xacc
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x26 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .debug_rnglists
+                0x00000026       0x49 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .debug_rnglists
+                0x0000006f      0x104 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .debug_rnglists
+                0x00000173       0x4e build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .debug_rnglists
+                0x000001c1      0x151 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .debug_rnglists
+                0x00000312       0xb3 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .debug_rnglists
+                0x000003c5       0xa7 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .debug_rnglists
+                0x0000046c       0x2b build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .debug_rnglists
+                0x00000497       0xa1 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .debug_rnglists
+                0x00000538       0x2c build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .debug_rnglists
+                0x00000564       0x61 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .debug_rnglists
+                0x000005c5       0x3e build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .debug_rnglists
+                0x00000603       0x25 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .debug_rnglists
+                0x00000628       0x25 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+ .debug_rnglists
+                0x0000064d       0x20 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+ .debug_rnglists
+                0x0000066d       0x51 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .debug_rnglists
+                0x000006be       0x25 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .debug_rnglists
+                0x000006e3       0x27 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .debug_rnglists
+                0x0000070a       0x25 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+ .debug_rnglists
+                0x0000072f       0x2c build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .debug_rnglists
+                0x0000075b       0x1f build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .debug_rnglists
+                0x0000077a       0x7a build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .debug_rnglists
+                0x000007f4       0x20 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+ .debug_rnglists
+                0x00000814       0x99 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .debug_rnglists
+                0x000008ad       0x20 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+ .debug_rnglists
+                0x000008cd       0x20 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+ .debug_rnglists
+                0x000008ed       0x20 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+ .debug_rnglists
+                0x0000090d       0x25 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .debug_rnglists
+                0x00000932       0x5c build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .debug_rnglists
+                0x0000098e       0x70 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .debug_rnglists
+                0x000009fe       0x76 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .debug_rnglists
+                0x00000a74       0x58 build/f7-firmware-C/.extapps/xremote/xremote.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_i.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/xremote/helpers/subghz/subghz_txrx.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/xremote/helpers/xremote_haptic.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/xremote/helpers/xremote_led.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/xremote/helpers/xremote_speaker.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/xremote/helpers/xremote_storage.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/xremote/models/cross/xremote_cross_remote_item.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_remote_button.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/xremote/models/infrared/xremote_ir_signal.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/xremote/models/subghz/xremote_sg_remote.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene.o
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create.o
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_create_add.o
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_edit_item.o
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_infoscreen.o
+ .ARM.attributes
+                0x000003a8       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_list.o
+ .ARM.attributes
+                0x000003dc       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_remote.o
+ .ARM.attributes
+                0x00000410       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_ir_timer.o
+ .ARM.attributes
+                0x00000444       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_menu.o
+ .ARM.attributes
+                0x00000478       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_pause_set.o
+ .ARM.attributes
+                0x000004ac       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote.o
+ .ARM.attributes
+                0x000004e0       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_save_remote_item.o
+ .ARM.attributes
+                0x00000514       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_settings.o
+ .ARM.attributes
+                0x00000548       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_sg_list.o
+ .ARM.attributes
+                0x0000057c       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_transmit.o
+ .ARM.attributes
+                0x000005b0       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_wip.o
+ .ARM.attributes
+                0x000005e4       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list.o
+ .ARM.attributes
+                0x00000618       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit.o
+ .ARM.attributes
+                0x0000064c       0x34 build/f7-firmware-C/.extapps/xremote/scenes/xremote_scene_xr_list_edit_item.o
+ .ARM.attributes
+                0x00000680       0x34 build/f7-firmware-C/.extapps/xremote/views/xremote_infoscreen.o
+ .ARM.attributes
+                0x000006b4       0x34 build/f7-firmware-C/.extapps/xremote/views/xremote_pause_set.o
+ .ARM.attributes
+                0x000006e8       0x34 build/f7-firmware-C/.extapps/xremote/views/xremote_transmit.o
+ .ARM.attributes
+                0x0000071c       0x34 build/f7-firmware-C/.extapps/xremote/xremote.o
+ .ARM.attributes
+                0x00000750       0x34 build/f7-firmware-C/.extapps/xremote/xremote_icons.o
+ .ARM.attributes
+                0x00000784       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/xremote_d.elf elf32-littlearm)
+LOAD linker stubs

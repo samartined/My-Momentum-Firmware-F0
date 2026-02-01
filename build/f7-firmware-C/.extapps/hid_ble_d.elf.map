@@ -1,0 +1,2441 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                              build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o (ble_profile_hid)
+build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                              build/f7-firmware-C/lib/libble_profile.a(hid_profile.o) (ble_svc_hid_start)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .text.hid_usb_app
+                0x00000000       0x88 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_line.text.hid_usb_app
+                0x00000000       0x8c build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .rodata.I_backspace_hovered_9x11
+                0x00000000        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .rodata.I_Tab_19x12
+                0x00000000        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .rodata.I_Enter_11x7
+                0x00000000        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .rodata._I_backspace_hovered_9x11
+                0x00000000        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .rodata._I_backspace_hovered_9x11_0
+                0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .rodata._I_Tab_19x12
+                0x00000000        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .rodata._I_Tab_19x12_0
+                0x00000000       0x1e build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .rodata._I_Enter_11x7
+                0x00000000        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .rodata._I_Enter_11x7_0
+                0x00000000        0xf build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/hid.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+LOAD build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/lib/libble_profile.a
+LOAD build/f7-firmware-C/lib/libble_profile.a
+
+.text           0x00000000     0x5e24
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.ble_profile_hid_ext_start
+                0x00000000       0x10 build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .text.ble_profile_hid_ext_stop
+                0x00000010        0xc build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .text.ble_profile_hid_ext_get_config
+                0x0000001c       0x40 build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .text.hid_scene_main_on_enter
+                0x0000005c       0x20 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+                0x0000005c                hid_scene_main_on_enter
+ .text.hid_scene_main_on_event
+                0x0000007c        0xe build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+                0x0000007c                hid_scene_main_on_event
+ .text.hid_scene_main_on_exit
+                0x0000008a        0x2 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+                0x0000008a                hid_scene_main_on_exit
+ .text.hid_scene_rename_popup_callback
+                0x0000008c        0xc build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+                0x0000008c                hid_scene_rename_popup_callback
+ .text.hid_scene_rename_text_input_callback
+                0x00000098        0xc build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .text.hid_scene_rename_on_enter
+                0x000000a4       0xb0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+                0x000000a4                hid_scene_rename_on_enter
+ .text.hid_scene_rename_on_event
+                0x00000154       0x78 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+                0x00000154                hid_scene_rename_on_event
+ .text.hid_scene_rename_on_exit
+                0x000001cc       0x1c build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+                0x000001cc                hid_scene_rename_on_exit
+ .text.hid_scene_start_submenu_callback
+                0x000001e8        0xc build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .text.hid_scene_start_on_enter
+                0x000001f4      0x12c build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+                0x000001f4                hid_scene_start_on_enter
+ .text.hid_scene_start_on_event
+                0x00000320       0xb0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+                0x00000320                hid_scene_start_on_event
+ .text.hid_scene_start_on_exit
+                0x000003d0        0xc build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+                0x000003d0                hid_scene_start_on_exit
+ .text.hid_scene_unpair_popup_callback
+                0x000003dc        0xc build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+                0x000003dc                hid_scene_unpair_popup_callback
+ .text.hid_scene_unpair_dialog_callback
+                0x000003e8       0x34 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .text.hid_scene_unpair_on_enter
+                0x0000041c       0xf4 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+                0x0000041c                hid_scene_unpair_on_enter
+ .text.hid_scene_unpair_on_event
+                0x00000510        0xe build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+                0x00000510                hid_scene_unpair_on_event
+ *fill*         0x0000051e        0x2 
+ .text.hid_scene_unpair_on_exit
+                0x00000520       0x1c build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+                0x00000520                hid_scene_unpair_on_exit
+ .text.hid_keyboard_get_select_key
+                0x0000053c       0x88 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .text.hid_keyboard_modifier_set
+                0x000005c4       0x14 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .text.hid_keyboard_input_callback
+                0x000005d8      0x14c build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .text.hid_keyboard_draw_callback
+                0x00000724      0x2b0 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .text.hid_keyboard_alloc
+                0x000009d4       0x70 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+                0x000009d4                hid_keyboard_alloc
+ .text.hid_keyboard_free
+                0x00000a44       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+                0x00000a44                hid_keyboard_free
+ .text.hid_keyboard_get_view
+                0x00000a60        0x4 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+                0x00000a60                hid_keyboard_get_view
+ .text.hid_keyboard_set_connected_status
+                0x00000a64       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+                0x00000a64                hid_keyboard_set_connected_status
+ .text.hid_keynote_input_callback
+                0x00000a88       0xfc build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .text.hid_keynote_draw_arrow
+                0x00000b84       0x64 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .text.hid_keynote_draw_callback
+                0x00000be8      0x208 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .text.hid_keynote_draw_vertical_callback
+                0x00000df0      0x208 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .text.hid_keynote_alloc
+                0x00000ff8       0x58 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+                0x00000ff8                hid_keynote_alloc
+ .text.hid_keynote_free
+                0x00001050       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+                0x00001050                hid_keynote_free
+ .text.hid_keynote_get_view
+                0x0000106c        0x4 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+                0x0000106c                hid_keynote_get_view
+ .text.hid_keynote_set_connected_status
+                0x00001070       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+                0x00001070                hid_keynote_set_connected_status
+ .text.hid_keynote_set_orientation
+                0x00001094       0x38 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+                0x00001094                hid_keynote_set_orientation
+ .text.hid_media_input_callback
+                0x000010cc       0xcc build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .text.hid_media_draw_callback
+                0x00001198      0x2c8 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .text.hid_media_alloc
+                0x00001460       0x58 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+                0x00001460                hid_media_alloc
+ .text.hid_media_free
+                0x000014b8       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+                0x000014b8                hid_media_free
+ .text.hid_media_get_view
+                0x000014d4        0x4 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+                0x000014d4                hid_media_get_view
+ .text.hid_media_set_connected_status
+                0x000014d8       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+                0x000014d8                hid_media_set_connected_status
+ .text.hid_mouse_draw_callback
+                0x000014fc      0x228 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .text.hid_mouse_input_callback
+                0x00001724      0x1e0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .text.hid_mouse_alloc
+                0x00001904       0x58 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+                0x00001904                hid_mouse_alloc
+ .text.hid_mouse_free
+                0x0000195c       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+                0x0000195c                hid_mouse_free
+ .text.hid_mouse_get_view
+                0x00001978        0x4 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+                0x00001978                hid_mouse_get_view
+ .text.hid_mouse_set_connected_status
+                0x0000197c       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+                0x0000197c                hid_mouse_set_connected_status
+ .text.hid_mouse_clicker_timer_callback
+                0x000019a0       0x3c build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .text.hid_mouse_clicker_exit_callback
+                0x000019dc        0xc build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .text.hid_mouse_clicker_start_or_restart_timer
+                0x000019e8       0x58 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .text.hid_mouse_clicker_enter_callback
+                0x00001a40        0x8 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .text.hid_mouse_clicker_draw_callback
+                0x00001a48      0x1ac build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .text.hid_mouse_clicker_input_callback
+                0x00001bf4       0xb8 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .text.hid_mouse_clicker_alloc
+                0x00001cac       0xa8 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+                0x00001cac                hid_mouse_clicker_alloc
+ .text.hid_mouse_clicker_free
+                0x00001d54       0x30 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+                0x00001d54                hid_mouse_clicker_free
+ .text.hid_mouse_clicker_get_view
+                0x00001d84        0x4 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+                0x00001d84                hid_mouse_clicker_get_view
+ .text.hid_mouse_clicker_set_connected_status
+                0x00001d88       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+                0x00001d88                hid_mouse_clicker_set_connected_status
+ .text.hid_mouse_jiggler_timer_callback
+                0x00001dac       0x44 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .text.hid_mouse_jiggler_exit_callback
+                0x00001df0        0xc build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .text.hid_mouse_jiggler_input_callback
+                0x00001dfc       0x88 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .text.hid_mouse_jiggler_draw_callback
+                0x00001e84      0x188 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .text.hid_mouse_jiggler_alloc
+                0x0000200c       0x98 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+                0x0000200c                hid_mouse_jiggler_alloc
+ .text.hid_mouse_jiggler_free
+                0x000020a4       0x30 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+                0x000020a4                hid_mouse_jiggler_free
+ .text.hid_mouse_jiggler_get_view
+                0x000020d4        0x4 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+                0x000020d4                hid_mouse_jiggler_get_view
+ .text.hid_mouse_jiggler_set_connected_status
+                0x000020d8       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+                0x000020d8                hid_mouse_jiggler_set_connected_status
+ .text.hid_mouse_jiggler_stealth_exit_callback
+                0x000020fc        0xc build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .text.hid_mouse_jiggler_stealth_timer_callback
+                0x00002108       0x8c build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .text.hid_mouse_jiggler_stealth_input_callback
+                0x00002194       0xc8 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .text.hid_mouse_jiggler_stealth_draw_callback
+                0x0000225c      0x16c build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .text.hid_mouse_jiggler_stealth_alloc
+                0x000023c8       0x98 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+                0x000023c8                hid_mouse_jiggler_stealth_alloc
+ .text.hid_mouse_jiggler_stealth_free
+                0x00002460       0x30 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+                0x00002460                hid_mouse_jiggler_stealth_free
+ .text.hid_mouse_jiggler_stealth_get_view
+                0x00002490        0x4 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+                0x00002490                hid_mouse_jiggler_stealth_get_view
+ .text.hid_mouse_jiggler_stealth_set_connected_status
+                0x00002494       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+                0x00002494                hid_mouse_jiggler_stealth_set_connected_status
+ .text.hid_movie_input_callback
+                0x000024b8       0xdc build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .text.hid_movie_draw_callback
+                0x00002594      0x2a4 build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .text.hid_movie_alloc
+                0x00002838       0x58 build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+                0x00002838                hid_movie_alloc
+ .text.hid_movie_free
+                0x00002890       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+                0x00002890                hid_movie_free
+ .text.hid_movie_get_view
+                0x000028ac        0x4 build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+                0x000028ac                hid_movie_get_view
+ .text.hid_movie_set_connected_status
+                0x000028b0       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+                0x000028b0                hid_movie_set_connected_status
+ .text.hid_music_macos_input_callback
+                0x000028d4       0xf0 build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .text.hid_music_macos_draw_callback
+                0x000029c4      0x2c8 build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .text.hid_music_macos_alloc
+                0x00002c8c       0x58 build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+                0x00002c8c                hid_music_macos_alloc
+ .text.hid_music_macos_free
+                0x00002ce4       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+                0x00002ce4                hid_music_macos_free
+ .text.hid_music_macos_get_view
+                0x00002d00        0x4 build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+                0x00002d00                hid_music_macos_get_view
+ .text.hid_music_macos_set_connected_status
+                0x00002d04       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+                0x00002d04                hid_music_macos_set_connected_status
+ .text.hid_numpad_get_select_key
+                0x00002d28       0x8c build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .text.hid_numpad_input_callback
+                0x00002db4      0x150 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .text.hid_numpad_draw_callback
+                0x00002f04      0x1f4 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .text.hid_numpad_alloc
+                0x000030f8       0x80 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+                0x000030f8                hid_numpad_alloc
+ .text.hid_numpad_free
+                0x00003178       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+                0x00003178                hid_numpad_free
+ .text.hid_numpad_get_view
+                0x00003194        0x4 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+                0x00003194                hid_numpad_get_view
+ .text.hid_numpad_set_connected_status
+                0x00003198       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+                0x00003198                hid_numpad_set_connected_status
+ .text.hid_ptt_view
+                0x000031bc        0x4 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_menu_callback
+                0x000031c0      0x3dc build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_start_ptt_linux_teamspeak
+                0x0000359c       0x10 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_start_ptt_linux_teams
+                0x000035ac       0x10 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_start_ptt_linux_discord
+                0x000035bc       0x10 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_start_ptt_macos_teamspeak
+                0x000035cc       0x10 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_start_ptt_macos_teams
+                0x000035dc       0x10 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_start_ptt_meet_zoom
+                0x000035ec        0xc build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_start_ptt_macos_discord
+                0x000035f8       0x10 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_hand_linux_webex
+                0x00003608       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_camera_linux_zoom
+                0x0000362c       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_linux_zoom
+                0x00003650       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_linux_slack_hubble
+                0x00003674       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_linux_skype
+                0x00003698       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_stop_ptt_linux_teamspeak
+                0x000036bc       0x10 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_linux_teamspeak
+                0x000036cc       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_stop_ptt_linux_teams
+                0x000036f0       0x10 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_camera_linux_skype
+                0x00003700       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_camera_linux_teams
+                0x00003724       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_linux_teams
+                0x00003748       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_hand_linux_meet
+                0x0000376c       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_camera_linux_meet
+                0x00003790       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_camera_linux_hangouts
+                0x000037b4        0x8 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_linux_meet
+                0x000037bc       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_linux_hangouts
+                0x000037e0        0x8 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_linux_gather
+                0x000037e8       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_stop_ptt_linux_discord
+                0x0000380c       0x10 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_linux_discord
+                0x0000381c       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_hand_zoom_global
+                0x00003840       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_camera_macos_zoom_global
+                0x00003864       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_macos_zoom_global
+                0x00003888       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_hand_zoom
+                0x000038ac       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_camera_macos_zoom
+                0x000038d0       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_camera_macos_gather
+                0x000038f4        0x8 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_macos_zoom
+                0x000038fc       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_macos_gather
+                0x00003920        0x8 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_hand_macos_webex
+                0x00003928       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_camera_webex
+                0x0000394c       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_camera_linux_gather
+                0x00003970        0x8 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_macos_slack_hubble
+                0x00003978       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_camera_slack_call
+                0x0000399c       0x20 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_slack_call
+                0x000039bc       0x20 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_camera_signal
+                0x000039dc       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_signal
+                0x00003a00       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_stop_ptt_macos_teamspeak
+                0x00003a24       0x10 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_macos_teamspeak
+                0x00003a34       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_stop_ptt_macos_teams
+                0x00003a58       0x10 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_camera_macos_skype
+                0x00003a68       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_camera_macos_teams
+                0x00003a8c       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_jamulus
+                0x00003ab0       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_hand_macos_meet_global
+                0x00003ad4       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_camera_macos_meet_global
+                0x00003af8       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_macos_meet_global
+                0x00003b1c       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_stop_ptt_meet_zoom
+                0x00003b40        0xc build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_hand_macos_meet
+                0x00003b4c       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_camera_macos_meet
+                0x00003b70       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_camera_macos_hangouts
+                0x00003b94        0x8 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_macos_meet
+                0x00003b9c       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_macos_hangouts
+                0x00003bc0        0x8 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_hand_gather
+                0x00003bc8       0x20 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_cmd_shift_m
+                0x00003be8       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_stop_ptt_macos_discord
+                0x00003c0c       0x10 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_trigger_mute_macos_discord
+                0x00003c1c       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_draw_text_centered
+                0x00003c40       0x74 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_input_callback
+                0x00003cb4      0x1a0 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_draw_callback
+                0x00003e54      0x2d0 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .text.hid_ptt_get_view
+                0x00004124        0x4 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+                0x00004124                hid_ptt_get_view
+ .text.hid_ptt_alloc
+                0x00004128      0x318 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+                0x00004128                hid_ptt_alloc
+ .text.hid_ptt_free
+                0x00004440       0x6c build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+                0x00004440                hid_ptt_free
+ .text.hid_ptt_set_connected_status
+                0x000044ac       0x3c build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+                0x000044ac                hid_ptt_set_connected_status
+ .text.hid_ptt_menu_draw_callback
+                0x000044e8      0x180 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .text.hid_ptt_menu_get_list_at_index
+                0x00004668       0x22 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+                0x00004668                hid_ptt_menu_get_list_at_index
+ *fill*         0x0000468a        0x2 
+ .text.ptt_menu_add_list
+                0x0000468c       0x94 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+                0x0000468c                ptt_menu_add_list
+ .text.ptt_menu_add_item_to_list
+                0x00004720       0xdc build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+                0x00004720                ptt_menu_add_item_to_list
+ .text.ptt_menu_shift_list
+                0x000047fc       0xb0 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+                0x000047fc                ptt_menu_shift_list
+ .text.ptt_menu_process_up
+                0x000048ac       0x50 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+                0x000048ac                ptt_menu_process_up
+ .text.ptt_menu_process_down
+                0x000048fc       0x54 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+                0x000048fc                ptt_menu_process_down
+ .text.ptt_menu_process_ok
+                0x00004950       0x68 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+                0x00004950                ptt_menu_process_ok
+ .text.hid_ptt_menu_input_callback
+                0x000049b8       0x5c build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .text.hid_ptt_menu_get_view
+                0x00004a14        0x4 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+                0x00004a14                hid_ptt_menu_get_view
+ .text.hid_ptt_menu_alloc
+                0x00004a18       0x78 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+                0x00004a18                hid_ptt_menu_alloc
+ .text.hid_ptt_menu_free
+                0x00004a90       0x94 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+                0x00004a90                hid_ptt_menu_free
+ .text.hid_tiktok_draw_callback
+                0x00004b24      0x220 build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .text.hid_tiktok_input_callback
+                0x00004d44      0x1cc build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .text.hid_tiktok_alloc
+                0x00004f10       0x58 build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+                0x00004f10                hid_tiktok_alloc
+ .text.hid_tiktok_free
+                0x00004f68       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+                0x00004f68                hid_tiktok_free
+ .text.hid_tiktok_get_view
+                0x00004f84        0x4 build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+                0x00004f84                hid_tiktok_get_view
+ .text.hid_tiktok_set_connected_status
+                0x00004f88       0x28 build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+                0x00004f88                hid_tiktok_set_connected_status
+ .text.hid_ptt_menu_view
+                0x00004fb0        0x4 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .text.hid_custom_event_callback
+                0x00004fb4        0xc build/f7-firmware-C/.extapps/hid_ble/hid.o
+                0x00004fb4                hid_custom_event_callback
+ .text.hid_back_event_callback
+                0x00004fc0        0xc build/f7-firmware-C/.extapps/hid_ble/hid.o
+                0x00004fc0                hid_back_event_callback
+ .text.bt_hid_connection_status_changed_callback
+                0x00004fcc       0xbc build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .text.bt_hid_remove_pairing
+                0x00005088       0x38 build/f7-firmware-C/.extapps/hid_ble/hid.o
+                0x00005088                bt_hid_remove_pairing
+ .text.bt_hid_save_cfg
+                0x000050c0       0x6c build/f7-firmware-C/.extapps/hid_ble/hid.o
+                0x000050c0                bt_hid_save_cfg
+ .text.hid_alloc
+                0x0000512c      0x298 build/f7-firmware-C/.extapps/hid_ble/hid.o
+                0x0000512c                hid_alloc
+ .text.hid_free
+                0x000053c4      0x170 build/f7-firmware-C/.extapps/hid_ble/hid.o
+                0x000053c4                hid_free
+ .text.hid_ble_app
+                0x00005534      0x1e0 build/f7-firmware-C/.extapps/hid_ble/hid.o
+                0x00005534                hid_ble_app
+ .text.hid_hal_keyboard_press
+                0x00005714        0xc build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+                0x00005714                hid_hal_keyboard_press
+ .text.hid_hal_keyboard_release
+                0x00005720        0xc build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+                0x00005720                hid_hal_keyboard_release
+ .text.hid_hal_keyboard_release_all
+                0x0000572c        0xc build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+                0x0000572c                hid_hal_keyboard_release_all
+ .text.hid_hal_consumer_key_press
+                0x00005738        0xc build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+                0x00005738                hid_hal_consumer_key_press
+ .text.hid_hal_consumer_key_release
+                0x00005744        0xc build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+                0x00005744                hid_hal_consumer_key_release
+ .text.hid_hal_consumer_key_release_all
+                0x00005750        0xc build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+                0x00005750                hid_hal_consumer_key_release_all
+ .text.hid_hal_mouse_move
+                0x0000575c        0xc build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+                0x0000575c                hid_hal_mouse_move
+ .text.hid_hal_mouse_scroll
+                0x00005768        0xc build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+                0x00005768                hid_hal_mouse_scroll
+ .text.hid_hal_mouse_press
+                0x00005774        0xc build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+                0x00005774                hid_hal_mouse_press
+ .text.hid_hal_mouse_release
+                0x00005780        0xc build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+                0x00005780                hid_hal_mouse_release
+ .text.hid_hal_mouse_release_all
+                0x0000578c        0xc build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+                0x0000578c                hid_hal_mouse_release_all
+ .text.ble_profile_hid_get_config
+                0x00005798       0x98 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_stop
+                0x00005830       0x58 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_start
+                0x00005888       0x78 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_kb_press
+                0x00005900       0x54 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00005900                ble_profile_hid_kb_press
+ .text.ble_profile_hid_kb_release
+                0x00005954       0x58 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00005954                ble_profile_hid_kb_release
+ .text.ble_profile_hid_kb_release_all
+                0x000059ac       0x44 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x000059ac                ble_profile_hid_kb_release_all
+ .text.ble_profile_hid_consumer_key_press
+                0x000059f0       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x000059f0                ble_profile_hid_consumer_key_press
+ .text.ble_profile_hid_consumer_key_release
+                0x00005a2c       0x40 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00005a2c                ble_profile_hid_consumer_key_release
+ .text.ble_profile_hid_consumer_key_release_all
+                0x00005a6c       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00005a6c                ble_profile_hid_consumer_key_release_all
+ .text.ble_profile_hid_mouse_move
+                0x00005aa8       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00005aa8                ble_profile_hid_mouse_move
+ .text.ble_profile_hid_mouse_press
+                0x00005ae4       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00005ae4                ble_profile_hid_mouse_press
+ .text.ble_profile_hid_mouse_release
+                0x00005b20       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00005b20                ble_profile_hid_mouse_release
+ .text.ble_profile_hid_mouse_release_all
+                0x00005b5c       0x38 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00005b5c                ble_profile_hid_mouse_release_all
+ .text.ble_profile_hid_mouse_scroll
+                0x00005b94       0x38 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00005b94                ble_profile_hid_mouse_scroll
+ .text.ble_svc_hid_char_desc_data_callback
+                0x00005bcc        0xc build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .text.ble_svc_hid_report_data_callback
+                0x00005bd8       0x12 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .text.ble_svc_hid_event_handler
+                0x00005bea       0x26 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .text.ble_svc_hid_start
+                0x00005c10      0x138 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00005c10                ble_svc_hid_start
+ .text.ble_svc_hid_update_report_map
+                0x00005d48       0x20 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00005d48                ble_svc_hid_update_report_map
+ .text.ble_svc_hid_update_input_report
+                0x00005d68       0x20 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00005d68                ble_svc_hid_update_input_report
+ .text.ble_svc_hid_update_info
+                0x00005d88       0x1c build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00005d88                ble_svc_hid_update_info
+ .text.ble_svc_hid_stop
+                0x00005da4       0x80 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00005da4                ble_svc_hid_stop
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00005e24     0x2018
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.profile_callbacks
+                0x00005e24        0xc build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .rodata.hid_scene_handlers
+                0x00005e30       0x10 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene.o
+                0x00005e30                hid_scene_handlers
+ .rodata.hid_on_exit_handlers
+                0x00005e40       0x10 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene.o
+                0x00005e40                hid_on_exit_handlers
+ .rodata.hid_on_event_handlers
+                0x00005e50       0x10 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene.o
+                0x00005e50                hid_on_event_handlers
+ .rodata.hid_on_enter_handlers
+                0x00005e60       0x10 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene.o
+                0x00005e60                hid_on_enter_handlers
+ .rodata.hid_scene_rename_on_enter.str1.1
+                0x00005e70       0x14 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .rodata.hid_scene_start_on_enter.str1.1
+                0x00005e84       0xc7 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .rodata.hid_scene_unpair_on_enter.str1.1
+                0x00005f4b       0x49 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .rodata.hid_keyboard_draw_callback.str1.1
+                0x00005f94       0x30 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .rodata.hid_keyboard_keyset
+                0x00005fc4      0x690 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+                0x00005fc4                hid_keyboard_keyset
+ .rodata.hid_keynote_draw_callback.str1.1
+                0x00006654       0x20 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .rodata.hid_media_draw_callback.str1.1
+                0x00006674       0x13 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .rodata.hid_mouse_draw_callback.str1.1
+                0x00006687       0x20 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .rodata.hid_mouse_clicker_draw_callback.str1.1
+                0x000066a7       0x49 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .rodata.hid_mouse_jiggler_draw_callback.str1.1
+                0x000066f0       0x46 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ *fill*         0x00006736        0x2 
+ .rodata.intervals
+                0x00006738       0x18 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+                0x00006738                intervals
+ .rodata.hid_mouse_jiggler_stealth_draw_callback.str1.1
+                0x00006750       0x54 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .rodata.hid_movie_draw_callback.str1.1
+                0x000067a4       0x13 build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .rodata.hid_music_macos_draw_callback.str1.1
+                0x000067b7       0x13 build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .rodata.hid_numpad_draw_callback.str1.1
+                0x000067ca       0x2e build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .rodata.str1.1
+                0x000067f8       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .rodata.hid_numpad_keyset
+                0x0000681c      0x168 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+                0x0000681c                hid_numpad_keyset
+ .rodata.hid_ptt_menu_callback.str1.1
+                0x00006984      0x56c build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .rodata.hid_ptt_draw_callback.str1.1
+                0x00006ef0        0x4 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .rodata.hid_ptt_alloc.str1.1
+                0x00006ef4       0xbf build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .rodata.hid_ptt_menu_draw_callback.str1.1
+                0x00006fb3        0x4 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .rodata.ptt_menu_add_list.str1.1
+                0x00006fb7       0x32 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .rodata.ptt_menu_add_item_to_list.str1.1
+                0x00006fe9       0x24 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .rodata.hid_tiktok_draw_callback.str1.1
+                0x0000700d       0x20 build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .rodata.bt_hid_save_cfg.str1.1
+                0x0000702d       0x3f build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .rodata.hid_alloc.str1.1
+                0x0000706c       0x14 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .rodata.hid_usb_app.str1.1
+                0x00007080       0x18 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .rodata.hid_ble_app.str1.1
+                0x00007098       0x44 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .rodata.I_underscore_button_9x11
+                0x000070dc        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000070dc                I_underscore_button_9x11
+ .rodata.I_sq_bracket_right_button_9x11
+                0x000070e8        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000070e8                I_sq_bracket_right_button_9x11
+ .rodata.I_sq_bracket_left_button_9x11
+                0x000070f4        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000070f4                I_sq_bracket_left_button_9x11
+ .rodata.I_slash_button_9x11
+                0x00007100        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007100                I_slash_button_9x11
+ .rodata.I_quote_button_9x11
+                0x0000710c        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000710c                I_quote_button_9x11
+ .rodata.I_percent_button_9x11
+                0x00007118        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007118                I_percent_button_9x11
+ .rodata.I_hash_button_9x11
+                0x00007124        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007124                I_hash_button_9x11
+ .rodata.I_for_help_27x5
+                0x00007130        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007130                I_for_help_27x5
+ .rodata.I_equals_button_9x11
+                0x0000713c        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000713c                I_equals_button_9x11
+ .rodata.I_brace_right_button_9x11
+                0x00007148        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007148                I_brace_right_button_9x11
+ .rodata.I_brace_left_button_9x11
+                0x00007154        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007154                I_brace_left_button_9x11
+ .rodata.I_backtick_button_9x11
+                0x00007160        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007160                I_backtick_button_9x11
+ .rodata.I_backspace_19x11
+                0x0000716c        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000716c                I_backspace_19x11
+ .rodata.I_backslash_button_9x11
+                0x00007178        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007178                I_backslash_button_9x11
+ .rodata.I_apostrophe_button_9x11
+                0x00007184        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007184                I_apostrophe_button_9x11
+ .rodata.I_Tab_17x10
+                0x00007190        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007190                I_Tab_17x10
+ .rodata.I_Space_60x18
+                0x0000719c        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000719c                I_Space_60x18
+ .rodata.I_Shift_inactive_7x9
+                0x000071a8        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000071a8                I_Shift_inactive_7x9
+ .rodata.I_Shift_active_7x9
+                0x000071b4        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000071b4                I_Shift_active_7x9
+ .rodata.I_S_UP_31x15
+                0x000071c0        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000071c0                I_S_UP_31x15
+ .rodata.I_S_RIGHT_15x31
+                0x000071cc        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000071cc                I_S_RIGHT_15x31
+ .rodata.I_S_LEFT_15x31
+                0x000071d8        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000071d8                I_S_LEFT_15x31
+ .rodata.I_S_DOWN_31x15
+                0x000071e4        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000071e4                I_S_DOWN_31x15
+ .rodata.I_RoundButtonUnpressed_16x16
+                0x000071f0        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000071f0                I_RoundButtonUnpressed_16x16
+ .rodata.I_Return_10x7
+                0x000071fc        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000071fc                I_Return_10x7
+ .rodata.I_Pressed_Button_19x19
+                0x00007208        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007208                I_Pressed_Button_19x19
+ .rodata.I_Pin_back_arrow_10x10
+                0x00007214        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007214                I_Pin_back_arrow_10x10
+ .rodata.I_Pin_arrow_right_9x7
+                0x00007220        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007220                I_Pin_arrow_right_9x7
+ .rodata.I_Pin_arrow_left_9x7
+                0x0000722c        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000722c                I_Pin_arrow_left_9x7
+ .rodata.I_Pin_arrow_down_7x9
+                0x00007238        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007238                I_Pin_arrow_down_7x9
+ .rodata.I_Pause_icon_9x9
+                0x00007244        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007244                I_Pause_icon_9x9
+ .rodata.I_OutCircles_70x51
+                0x00007250        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007250                I_OutCircles_70x51
+ .rodata.I_MicrophonePressedCrossedBtn_16x16
+                0x0000725c        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000725c                I_MicrophonePressedCrossedBtn_16x16
+ .rodata.I_MicrophonePressedBtn_16x16
+                0x00007268        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007268                I_MicrophonePressedBtn_16x16
+ .rodata.I_MicrophoneCrossed_16x16
+                0x00007274        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007274                I_MicrophoneCrossed_16x16
+ .rodata.I_Mic_7x11
+                0x00007280        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007280                I_Mic_7x11
+ .rodata.I_Like_def_11x9
+                0x0000728c        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000728c                I_Like_def_11x9
+ .rodata.I_Hold_15x5
+                0x00007298        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007298                I_Hold_15x5
+ .rodata.I_Help_top_64x17
+                0x000072a4        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000072a4                I_Help_top_64x17
+ .rodata.I_Help_exit_64x9
+                0x000072b0        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000072b0                I_Help_exit_64x9
+ .rodata.I_Hand_8x10
+                0x000072bc        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000072bc                I_Hand_8x10
+ .rodata.I_Esc_17x10
+                0x000072c8        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000072c8                I_Esc_17x10
+ .rodata.I_Del_17x10
+                0x000072d4        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000072d4                I_Del_17x10
+ .rodata.I_Ctrl_active_17x9
+                0x000072e0        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000072e0                I_Ctrl_active_17x9
+ .rodata.I_Ctrl_17x10
+                0x000072ec        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000072ec                I_Ctrl_17x10
+ .rodata.I_Cmd_active_17x9
+                0x000072f8        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000072f8                I_Cmd_active_17x9
+ .rodata.I_Cmd_17x10
+                0x00007304        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007304                I_Cmd_17x10
+ .rodata.I_ButtonF9_5x8
+                0x00007310        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007310                I_ButtonF9_5x8
+ .rodata.I_ButtonF8_5x8
+                0x0000731c        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000731c                I_ButtonF8_5x8
+ .rodata.I_ButtonF7_5x8
+                0x00007328        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007328                I_ButtonF7_5x8
+ .rodata.I_ButtonF6_5x8
+                0x00007334        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007334                I_ButtonF6_5x8
+ .rodata.I_ButtonF5_5x8
+                0x00007340        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007340                I_ButtonF5_5x8
+ .rodata.I_ButtonF4_5x8
+                0x0000734c        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000734c                I_ButtonF4_5x8
+ .rodata.I_ButtonF3_5x8
+                0x00007358        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007358                I_ButtonF3_5x8
+ .rodata.I_ButtonF2_5x8
+                0x00007364        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007364                I_ButtonF2_5x8
+ .rodata.I_ButtonF1_5x8
+                0x00007370        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007370                I_ButtonF1_5x8
+ .rodata.I_ButtonF12_5x8
+                0x0000737c        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000737c                I_ButtonF12_5x8
+ .rodata.I_ButtonF11_5x8
+                0x00007388        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007388                I_ButtonF11_5x8
+ .rodata.I_ButtonF10_5x8
+                0x00007394        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007394                I_ButtonF10_5x8
+ .rodata.I_BtnLeft_9x9
+                0x000073a0        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000073a0                I_BtnLeft_9x9
+ .rodata.I_BtnFrameRight_2x18
+                0x000073ac        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000073ac                I_BtnFrameRight_2x18
+ .rodata.I_BtnFrameLeft_3x18
+                0x000073b8        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000073b8                I_BtnFrameLeft_3x18
+ .rodata.I_BtnBackV_9x9
+                0x000073c4        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000073c4                I_BtnBackV_9x9
+ .rodata.I_BrokenButton_15x15
+                0x000073d0        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000073d0                I_BrokenButton_15x15
+ .rodata.I_Arr_up_7x9
+                0x000073dc        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000073dc                I_Arr_up_7x9
+ .rodata.I_Arr_dwn_7x9
+                0x000073e8        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000073e8                I_Arr_dwn_7x9
+ .rodata.I_Alt_active_17x9
+                0x000073f4        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000073f4                I_Alt_active_17x9
+ .rodata.I_Alt_17x10
+                0x00007400        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007400                I_Alt_17x10
+ .rodata._I_underscore_button_9x11
+                0x0000740c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000740c                _I_underscore_button_9x11
+ .rodata._I_underscore_button_9x11_0
+                0x00007410        0x9 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007410                _I_underscore_button_9x11_0
+ *fill*         0x00007419        0x3 
+ .rodata._I_sq_bracket_right_button_9x11
+                0x0000741c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000741c                _I_sq_bracket_right_button_9x11
+ .rodata._I_sq_bracket_right_button_9x11_0
+                0x00007420        0xe build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007420                _I_sq_bracket_right_button_9x11_0
+ *fill*         0x0000742e        0x2 
+ .rodata._I_sq_bracket_left_button_9x11
+                0x00007430        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007430                _I_sq_bracket_left_button_9x11
+ .rodata._I_sq_bracket_left_button_9x11_0
+                0x00007434        0xe build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007434                _I_sq_bracket_left_button_9x11_0
+ *fill*         0x00007442        0x2 
+ .rodata._I_slash_button_9x11
+                0x00007444        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007444                _I_slash_button_9x11
+ .rodata._I_slash_button_9x11_0
+                0x00007448       0x13 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007448                _I_slash_button_9x11_0
+ *fill*         0x0000745b        0x1 
+ .rodata._I_quote_button_9x11
+                0x0000745c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000745c                _I_quote_button_9x11
+ .rodata._I_quote_button_9x11_0
+                0x00007460        0xa build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007460                _I_quote_button_9x11_0
+ *fill*         0x0000746a        0x2 
+ .rodata._I_percent_button_9x11
+                0x0000746c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000746c                _I_percent_button_9x11
+ .rodata._I_percent_button_9x11_0
+                0x00007470       0x17 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007470                _I_percent_button_9x11_0
+ *fill*         0x00007487        0x1 
+ .rodata._I_hash_button_9x11
+                0x00007488        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007488                _I_hash_button_9x11
+ .rodata._I_hash_button_9x11_0
+                0x0000748c        0xd build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000748c                _I_hash_button_9x11_0
+ *fill*         0x00007499        0x3 
+ .rodata._I_for_help_27x5
+                0x0000749c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000749c                _I_for_help_27x5
+ .rodata._I_for_help_27x5_0
+                0x000074a0       0x15 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000074a0                _I_for_help_27x5_0
+ *fill*         0x000074b5        0x3 
+ .rodata._I_equals_button_9x11
+                0x000074b8        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000074b8                _I_equals_button_9x11
+ .rodata._I_equals_button_9x11_0
+                0x000074bc        0xa build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000074bc                _I_equals_button_9x11_0
+ *fill*         0x000074c6        0x2 
+ .rodata._I_brace_right_button_9x11
+                0x000074c8        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000074c8                _I_brace_right_button_9x11
+ .rodata._I_brace_right_button_9x11_0
+                0x000074cc       0x11 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000074cc                _I_brace_right_button_9x11_0
+ *fill*         0x000074dd        0x3 
+ .rodata._I_brace_left_button_9x11
+                0x000074e0        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000074e0                _I_brace_left_button_9x11
+ .rodata._I_brace_left_button_9x11_0
+                0x000074e4       0x11 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000074e4                _I_brace_left_button_9x11_0
+ *fill*         0x000074f5        0x3 
+ .rodata._I_backtick_button_9x11
+                0x000074f8        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000074f8                _I_backtick_button_9x11
+ .rodata._I_backtick_button_9x11_0
+                0x000074fc        0xb build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000074fc                _I_backtick_button_9x11_0
+ *fill*         0x00007507        0x1 
+ .rodata._I_backspace_19x11
+                0x00007508        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007508                _I_backspace_19x11
+ .rodata._I_backspace_19x11_0
+                0x0000750c       0x19 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000750c                _I_backspace_19x11_0
+ *fill*         0x00007525        0x3 
+ .rodata._I_backslash_button_9x11
+                0x00007528        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007528                _I_backslash_button_9x11
+ .rodata._I_backslash_button_9x11_0
+                0x0000752c       0x13 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000752c                _I_backslash_button_9x11_0
+ *fill*         0x0000753f        0x1 
+ .rodata._I_apostrophe_button_9x11
+                0x00007540        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007540                _I_apostrophe_button_9x11
+ .rodata._I_apostrophe_button_9x11_0
+                0x00007544        0xa build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007544                _I_apostrophe_button_9x11_0
+ *fill*         0x0000754e        0x2 
+ .rodata._I_Tab_17x10
+                0x00007550        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007550                _I_Tab_17x10
+ .rodata._I_Tab_17x10_0
+                0x00007554       0x16 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007554                _I_Tab_17x10_0
+ *fill*         0x0000756a        0x2 
+ .rodata._I_Space_60x18
+                0x0000756c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000756c                _I_Space_60x18
+ .rodata._I_Space_60x18_0
+                0x00007570       0x25 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007570                _I_Space_60x18_0
+ *fill*         0x00007595        0x3 
+ .rodata._I_Shift_inactive_7x9
+                0x00007598        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007598                _I_Shift_inactive_7x9
+ .rodata._I_Shift_inactive_7x9_0
+                0x0000759c        0xa build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000759c                _I_Shift_inactive_7x9_0
+ *fill*         0x000075a6        0x2 
+ .rodata._I_Shift_active_7x9
+                0x000075a8        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000075a8                _I_Shift_active_7x9
+ .rodata._I_Shift_active_7x9_0
+                0x000075ac        0xa build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000075ac                _I_Shift_active_7x9_0
+ *fill*         0x000075b6        0x2 
+ .rodata._I_S_UP_31x15
+                0x000075b8        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000075b8                _I_S_UP_31x15
+ .rodata._I_S_UP_31x15_0
+                0x000075bc       0x37 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000075bc                _I_S_UP_31x15_0
+ *fill*         0x000075f3        0x1 
+ .rodata._I_S_RIGHT_15x31
+                0x000075f4        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000075f4                _I_S_RIGHT_15x31
+ .rodata._I_S_RIGHT_15x31_0
+                0x000075f8       0x2e build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000075f8                _I_S_RIGHT_15x31_0
+ *fill*         0x00007626        0x2 
+ .rodata._I_S_LEFT_15x31
+                0x00007628        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007628                _I_S_LEFT_15x31
+ .rodata._I_S_LEFT_15x31_0
+                0x0000762c       0x30 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000762c                _I_S_LEFT_15x31_0
+ .rodata._I_S_DOWN_31x15
+                0x0000765c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000765c                _I_S_DOWN_31x15
+ .rodata._I_S_DOWN_31x15_0
+                0x00007660       0x37 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007660                _I_S_DOWN_31x15_0
+ *fill*         0x00007697        0x1 
+ .rodata._I_RoundButtonUnpressed_16x16
+                0x00007698        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007698                _I_RoundButtonUnpressed_16x16
+ .rodata._I_RoundButtonUnpressed_16x16_0
+                0x0000769c       0x1d build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000769c                _I_RoundButtonUnpressed_16x16_0
+ *fill*         0x000076b9        0x3 
+ .rodata._I_Return_10x7
+                0x000076bc        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000076bc                _I_Return_10x7
+ .rodata._I_Return_10x7_0
+                0x000076c0        0xf build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000076c0                _I_Return_10x7_0
+ *fill*         0x000076cf        0x1 
+ .rodata._I_Pressed_Button_19x19
+                0x000076d0        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000076d0                _I_Pressed_Button_19x19
+ .rodata._I_Pressed_Button_19x19_0
+                0x000076d4       0x26 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000076d4                _I_Pressed_Button_19x19_0
+ *fill*         0x000076fa        0x2 
+ .rodata._I_Pin_back_arrow_10x10
+                0x000076fc        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000076fc                _I_Pin_back_arrow_10x10
+ .rodata._I_Pin_back_arrow_10x10_0
+                0x00007700       0x13 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007700                _I_Pin_back_arrow_10x10_0
+ *fill*         0x00007713        0x1 
+ .rodata._I_Pin_arrow_right_9x7
+                0x00007714        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007714                _I_Pin_arrow_right_9x7
+ .rodata._I_Pin_arrow_right_9x7_0
+                0x00007718        0xf build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007718                _I_Pin_arrow_right_9x7_0
+ *fill*         0x00007727        0x1 
+ .rodata._I_Pin_arrow_left_9x7
+                0x00007728        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007728                _I_Pin_arrow_left_9x7
+ .rodata._I_Pin_arrow_left_9x7_0
+                0x0000772c        0xf build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000772c                _I_Pin_arrow_left_9x7_0
+ *fill*         0x0000773b        0x1 
+ .rodata._I_Pin_arrow_down_7x9
+                0x0000773c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000773c                _I_Pin_arrow_down_7x9
+ .rodata._I_Pin_arrow_down_7x9_0
+                0x00007740        0xa build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007740                _I_Pin_arrow_down_7x9_0
+ *fill*         0x0000774a        0x2 
+ .rodata._I_Pause_icon_9x9
+                0x0000774c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000774c                _I_Pause_icon_9x9
+ .rodata._I_Pause_icon_9x9_0
+                0x00007750        0x7 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007750                _I_Pause_icon_9x9_0
+ *fill*         0x00007757        0x1 
+ .rodata._I_OutCircles_70x51
+                0x00007758        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007758                _I_OutCircles_70x51
+ .rodata._I_OutCircles_70x51_0
+                0x0000775c      0x129 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000775c                _I_OutCircles_70x51_0
+ *fill*         0x00007885        0x3 
+ .rodata._I_MicrophonePressedCrossedBtn_16x16
+                0x00007888        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007888                _I_MicrophonePressedCrossedBtn_16x16
+ .rodata._I_MicrophonePressedCrossedBtn_16x16_0
+                0x0000788c       0x21 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000788c                _I_MicrophonePressedCrossedBtn_16x16_0
+ *fill*         0x000078ad        0x3 
+ .rodata._I_MicrophonePressedBtn_16x16
+                0x000078b0        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000078b0                _I_MicrophonePressedBtn_16x16
+ .rodata._I_MicrophonePressedBtn_16x16_0
+                0x000078b4       0x21 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000078b4                _I_MicrophonePressedBtn_16x16_0
+ *fill*         0x000078d5        0x3 
+ .rodata._I_MicrophoneCrossed_16x16
+                0x000078d8        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000078d8                _I_MicrophoneCrossed_16x16
+ .rodata._I_MicrophoneCrossed_16x16_0
+                0x000078dc       0x21 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000078dc                _I_MicrophoneCrossed_16x16_0
+ *fill*         0x000078fd        0x3 
+ .rodata._I_Mic_7x11
+                0x00007900        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007900                _I_Mic_7x11
+ .rodata._I_Mic_7x11_0
+                0x00007904        0xc build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007904                _I_Mic_7x11_0
+ .rodata._I_Like_def_11x9
+                0x00007910        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007910                _I_Like_def_11x9
+ .rodata._I_Like_def_11x9_0
+                0x00007914       0x13 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007914                _I_Like_def_11x9_0
+ *fill*         0x00007927        0x1 
+ .rodata._I_Hold_15x5
+                0x00007928        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007928                _I_Hold_15x5
+ .rodata._I_Hold_15x5_0
+                0x0000792c        0xb build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000792c                _I_Hold_15x5_0
+ *fill*         0x00007937        0x1 
+ .rodata._I_Help_top_64x17
+                0x00007938        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007938                _I_Help_top_64x17
+ .rodata._I_Help_top_64x17_0
+                0x0000793c       0x7b build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x0000793c                _I_Help_top_64x17_0
+ *fill*         0x000079b7        0x1 
+ .rodata._I_Help_exit_64x9
+                0x000079b8        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000079b8                _I_Help_exit_64x9
+ .rodata._I_Help_exit_64x9_0
+                0x000079bc       0x3e build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000079bc                _I_Help_exit_64x9_0
+ *fill*         0x000079fa        0x2 
+ .rodata._I_Hand_8x10
+                0x000079fc        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x000079fc                _I_Hand_8x10
+ .rodata._I_Hand_8x10_0
+                0x00007a00       0x19 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007a00                _I_Hand_8x10_0
+ *fill*         0x00007a19        0x3 
+ .rodata._I_Esc_17x10
+                0x00007a1c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007a1c                _I_Esc_17x10
+ .rodata._I_Esc_17x10_0
+                0x00007a20       0x1c build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007a20                _I_Esc_17x10_0
+ .rodata._I_Del_17x10
+                0x00007a3c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007a3c                _I_Del_17x10
+ .rodata._I_Del_17x10_0
+                0x00007a40       0x1b build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007a40                _I_Del_17x10_0
+ *fill*         0x00007a5b        0x1 
+ .rodata._I_Ctrl_active_17x9
+                0x00007a5c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007a5c                _I_Ctrl_active_17x9
+ .rodata._I_Ctrl_active_17x9_0
+                0x00007a60       0x1c build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007a60                _I_Ctrl_active_17x9_0
+ .rodata._I_Ctrl_17x10
+                0x00007a7c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007a7c                _I_Ctrl_17x10
+ .rodata._I_Ctrl_17x10_0
+                0x00007a80       0x1a build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007a80                _I_Ctrl_17x10_0
+ *fill*         0x00007a9a        0x2 
+ .rodata._I_Cmd_active_17x9
+                0x00007a9c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007a9c                _I_Cmd_active_17x9
+ .rodata._I_Cmd_active_17x9_0
+                0x00007aa0       0x1c build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007aa0                _I_Cmd_active_17x9_0
+ .rodata._I_Cmd_17x10
+                0x00007abc        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007abc                _I_Cmd_17x10
+ .rodata._I_Cmd_17x10_0
+                0x00007ac0       0x1a build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007ac0                _I_Cmd_17x10_0
+ *fill*         0x00007ada        0x2 
+ .rodata._I_ButtonF9_5x8
+                0x00007adc        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007adc                _I_ButtonF9_5x8
+ .rodata._I_ButtonF9_5x8_0
+                0x00007ae0        0x9 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007ae0                _I_ButtonF9_5x8_0
+ *fill*         0x00007ae9        0x3 
+ .rodata._I_ButtonF8_5x8
+                0x00007aec        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007aec                _I_ButtonF8_5x8
+ .rodata._I_ButtonF8_5x8_0
+                0x00007af0        0x9 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007af0                _I_ButtonF8_5x8_0
+ *fill*         0x00007af9        0x3 
+ .rodata._I_ButtonF7_5x8
+                0x00007afc        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007afc                _I_ButtonF7_5x8
+ .rodata._I_ButtonF7_5x8_0
+                0x00007b00        0x9 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b00                _I_ButtonF7_5x8_0
+ *fill*         0x00007b09        0x3 
+ .rodata._I_ButtonF6_5x8
+                0x00007b0c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b0c                _I_ButtonF6_5x8
+ .rodata._I_ButtonF6_5x8_0
+                0x00007b10        0x9 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b10                _I_ButtonF6_5x8_0
+ *fill*         0x00007b19        0x3 
+ .rodata._I_ButtonF5_5x8
+                0x00007b1c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b1c                _I_ButtonF5_5x8
+ .rodata._I_ButtonF5_5x8_0
+                0x00007b20        0x9 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b20                _I_ButtonF5_5x8_0
+ *fill*         0x00007b29        0x3 
+ .rodata._I_ButtonF4_5x8
+                0x00007b2c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b2c                _I_ButtonF4_5x8
+ .rodata._I_ButtonF4_5x8_0
+                0x00007b30        0x9 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b30                _I_ButtonF4_5x8_0
+ *fill*         0x00007b39        0x3 
+ .rodata._I_ButtonF3_5x8
+                0x00007b3c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b3c                _I_ButtonF3_5x8
+ .rodata._I_ButtonF3_5x8_0
+                0x00007b40        0x9 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b40                _I_ButtonF3_5x8_0
+ *fill*         0x00007b49        0x3 
+ .rodata._I_ButtonF2_5x8
+                0x00007b4c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b4c                _I_ButtonF2_5x8
+ .rodata._I_ButtonF2_5x8_0
+                0x00007b50        0x9 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b50                _I_ButtonF2_5x8_0
+ *fill*         0x00007b59        0x3 
+ .rodata._I_ButtonF1_5x8
+                0x00007b5c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b5c                _I_ButtonF1_5x8
+ .rodata._I_ButtonF1_5x8_0
+                0x00007b60        0x9 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b60                _I_ButtonF1_5x8_0
+ *fill*         0x00007b69        0x3 
+ .rodata._I_ButtonF12_5x8
+                0x00007b6c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b6c                _I_ButtonF12_5x8
+ .rodata._I_ButtonF12_5x8_0
+                0x00007b70        0x9 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b70                _I_ButtonF12_5x8_0
+ *fill*         0x00007b79        0x3 
+ .rodata._I_ButtonF11_5x8
+                0x00007b7c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b7c                _I_ButtonF11_5x8
+ .rodata._I_ButtonF11_5x8_0
+                0x00007b80        0x9 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b80                _I_ButtonF11_5x8_0
+ *fill*         0x00007b89        0x3 
+ .rodata._I_ButtonF10_5x8
+                0x00007b8c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b8c                _I_ButtonF10_5x8
+ .rodata._I_ButtonF10_5x8_0
+                0x00007b90        0x9 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b90                _I_ButtonF10_5x8_0
+ *fill*         0x00007b99        0x3 
+ .rodata._I_BtnLeft_9x9
+                0x00007b9c        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007b9c                _I_BtnLeft_9x9
+ .rodata._I_BtnLeft_9x9_0
+                0x00007ba0       0x13 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007ba0                _I_BtnLeft_9x9_0
+ *fill*         0x00007bb3        0x1 
+ .rodata._I_BtnFrameRight_2x18
+                0x00007bb4        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007bb4                _I_BtnFrameRight_2x18
+ .rodata._I_BtnFrameRight_2x18_0
+                0x00007bb8        0xd build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007bb8                _I_BtnFrameRight_2x18_0
+ *fill*         0x00007bc5        0x3 
+ .rodata._I_BtnFrameLeft_3x18
+                0x00007bc8        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007bc8                _I_BtnFrameLeft_3x18
+ .rodata._I_BtnFrameLeft_3x18_0
+                0x00007bcc        0xd build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007bcc                _I_BtnFrameLeft_3x18_0
+ *fill*         0x00007bd9        0x3 
+ .rodata._I_BtnBackV_9x9
+                0x00007bdc        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007bdc                _I_BtnBackV_9x9
+ .rodata._I_BtnBackV_9x9_0
+                0x00007be0       0x13 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007be0                _I_BtnBackV_9x9_0
+ *fill*         0x00007bf3        0x1 
+ .rodata._I_BrokenButton_15x15
+                0x00007bf4        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007bf4                _I_BrokenButton_15x15
+ .rodata._I_BrokenButton_15x15_0
+                0x00007bf8       0x1f build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007bf8                _I_BrokenButton_15x15_0
+ *fill*         0x00007c17        0x1 
+ .rodata._I_Arr_up_7x9
+                0x00007c18        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007c18                _I_Arr_up_7x9
+ .rodata._I_Arr_up_7x9_0
+                0x00007c1c        0xa build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007c1c                _I_Arr_up_7x9_0
+ *fill*         0x00007c26        0x2 
+ .rodata._I_Arr_dwn_7x9
+                0x00007c28        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007c28                _I_Arr_dwn_7x9
+ .rodata._I_Arr_dwn_7x9_0
+                0x00007c2c        0xa build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007c2c                _I_Arr_dwn_7x9_0
+ *fill*         0x00007c36        0x2 
+ .rodata._I_Alt_active_17x9
+                0x00007c38        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007c38                _I_Alt_active_17x9
+ .rodata._I_Alt_active_17x9_0
+                0x00007c3c       0x18 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007c3c                _I_Alt_active_17x9_0
+ .rodata._I_Alt_17x10
+                0x00007c54        0x4 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007c54                _I_Alt_17x10
+ .rodata._I_Alt_17x10_0
+                0x00007c58       0x16 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+                0x00007c58                _I_Alt_17x10_0
+ .rodata.ble_profile_hid_get_config.str1.1
+                0x00007c6e       0x10 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ *fill*         0x00007c7e        0x2 
+ .rodata.profile_callbacks
+                0x00007c80        0xc build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .rodata.ble_profile_hid_report_map_data
+                0x00007c8c       0x8a build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .rodata.str1.1
+                0x00007d16       0x42 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .rodata.ble_svc_hid_report_template
+                0x00007d58       0x24 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .rodata.ble_svc_hid_char_descr_template
+                0x00007d7c       0x20 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .rodata.ble_svc_hid_chars
+                0x00007d9c       0x90 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .rodata.ble_svc_hid_uuid
+                0x00007e2c       0x10 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.data           0x00007e3c       0x5c
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.ble_profile_hid_ext
+                0x00007e3c        0x4 build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+                0x00007e3c                ble_profile_hid_ext
+ .data.ble_profile_hid
+                0x00007e40        0x4 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00007e40                ble_profile_hid
+ .data.template_config
+                0x00007e44       0x54 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x948
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .debug_aranges
+                0x00000030       0x18 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene.o
+ .debug_aranges
+                0x00000048       0x30 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+ .debug_aranges
+                0x00000078       0x40 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .debug_aranges
+                0x000000b8       0x38 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .debug_aranges
+                0x000000f0       0x40 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .debug_aranges
+                0x00000130       0x58 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .debug_aranges
+                0x00000188       0x60 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .debug_aranges
+                0x000001e8       0x48 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .debug_aranges
+                0x00000230       0x48 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .debug_aranges
+                0x00000278       0x68 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_aranges
+                0x000002e0       0x58 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .debug_aranges
+                0x00000338       0x58 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .debug_aranges
+                0x00000390       0x48 build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .debug_aranges
+                0x000003d8       0x48 build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .debug_aranges
+                0x00000420       0x50 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .debug_aranges
+                0x00000470      0x248 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_aranges
+                0x000006b8       0x78 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_aranges
+                0x00000730       0x48 build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .debug_aranges
+                0x00000778       0x68 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_aranges
+                0x000007e0       0x70 build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_aranges
+                0x00000850       0x18 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .debug_aranges
+                0x00000868       0x88 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_aranges
+                0x000008f0       0x58 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x211d2
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x549 build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .debug_info    0x00000549      0x324 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene.o
+ .debug_info    0x0000086d      0x965 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+ .debug_info    0x000011d2      0xdd0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .debug_info    0x00001fa2      0xeac build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .debug_info    0x00002e4e      0xe7e build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .debug_info    0x00003ccc     0x19bb build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .debug_info    0x00005687     0x1c32 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .debug_info    0x000072b9     0x1938 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .debug_info    0x00008bf1     0x1724 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .debug_info    0x0000a315     0x16d7 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_info    0x0000b9ec     0x1507 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .debug_info    0x0000cef3     0x1587 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .debug_info    0x0000e47a     0x190e build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .debug_info    0x0000fd88     0x19d1 build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .debug_info    0x00011759     0x16aa build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .debug_info    0x00012e03     0x3ab4 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_info    0x000168b7     0x21ee build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_info    0x00018aa5     0x185d build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .debug_info    0x0001a302     0x2ef9 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_info    0x0001d1fb      0xb9e build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_info    0x0001dd99     0x1353 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .debug_info    0x0001f0ec     0x1333 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_info    0x0002041f      0xdb3 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_abbrev   0x00000000     0x4dc7
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x255 build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .debug_abbrev  0x00000255      0x137 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene.o
+ .debug_abbrev  0x0000038c      0x20f build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+ .debug_abbrev  0x0000059b      0x289 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .debug_abbrev  0x00000824      0x274 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .debug_abbrev  0x00000a98      0x29d build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .debug_abbrev  0x00000d35      0x46b build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .debug_abbrev  0x000011a0      0x39e build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .debug_abbrev  0x0000153e      0x36c build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .debug_abbrev  0x000018aa      0x3b8 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .debug_abbrev  0x00001c62      0x441 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_abbrev  0x000020a3      0x30a build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .debug_abbrev  0x000023ad      0x302 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .debug_abbrev  0x000026af      0x36c build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .debug_abbrev  0x00002a1b      0x38a build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .debug_abbrev  0x00002da5      0x408 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .debug_abbrev  0x000031ad      0x47f build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_abbrev  0x0000362c      0x50e build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_abbrev  0x00003b3a      0x383 build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .debug_abbrev  0x00003ebd      0x47d build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_abbrev  0x0000433a      0x1bb build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_abbrev  0x000044f5       0xcf build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .debug_abbrev  0x000045c4      0x3a5 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_abbrev  0x00004969      0x45e build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_line     0x00000000     0xcfcf
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x2ed build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .debug_line.text.ble_profile_hid_ext_start
+                0x000002ed       0x1b build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .debug_line.text.ble_profile_hid_ext_stop
+                0x00000308       0x1c build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .debug_line.text.ble_profile_hid_ext_get_config
+                0x00000324       0x7f build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .debug_line_end
+                0x000003a3        0x0 build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .debug_line    0x000003a3      0x196 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene.o
+ .debug_line_end
+                0x00000539        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene.o
+ .debug_line    0x00000539      0x49d build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+ .debug_line.text.hid_scene_main_on_enter
+                0x000009d6       0x21 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+ .debug_line.text.hid_scene_main_on_event
+                0x000009f7       0x2a build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+ .debug_line.text.hid_scene_main_on_exit
+                0x00000a21       0x19 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+ .debug_line_end
+                0x00000a3a        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+ .debug_line    0x00000a3a      0x547 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .debug_line.text.hid_scene_rename_popup_callback
+                0x00000f81       0x17 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .debug_line.text.hid_scene_rename_text_input_callback
+                0x00000f98       0x17 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .debug_line.text.hid_scene_rename_on_enter
+                0x00000faf       0x39 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .debug_line.text.hid_scene_rename_on_event
+                0x00000fe8       0x95 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .debug_line.text.hid_scene_rename_on_exit
+                0x0000107d       0x28 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .debug_line_end
+                0x000010a5        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .debug_line    0x000010a5      0x4be build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .debug_line.text.hid_scene_start_submenu_callback
+                0x00001563       0x1c build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .debug_line.text.hid_scene_start_on_enter
+                0x0000157f       0x3b build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .debug_line.text.hid_scene_start_on_event
+                0x000015ba       0xe7 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .debug_line.text.hid_scene_start_on_exit
+                0x000016a1       0x18 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .debug_line_end
+                0x000016b9        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .debug_line    0x000016b9      0x4a2 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .debug_line.text.hid_scene_unpair_popup_callback
+                0x00001b5b       0x17 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .debug_line.text.hid_scene_unpair_dialog_callback
+                0x00001b72       0x48 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .debug_line.text.hid_scene_unpair_on_enter
+                0x00001bba       0x3e build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .debug_line.text.hid_scene_unpair_on_event
+                0x00001bf8       0x2a build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .debug_line.text.hid_scene_unpair_on_exit
+                0x00001c22       0x27 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .debug_line_end
+                0x00001c49        0x0 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .debug_line    0x00001c49      0x637 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .debug_line.text.hid_keyboard_get_select_key
+                0x00002280       0xc5 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .debug_line.text.hid_keyboard_modifier_set
+                0x00002345       0x21 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .debug_line.text.hid_keyboard_input_callback
+                0x00002366       0xd6 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .debug_line.text.hid_keyboard_draw_callback
+                0x0000243c      0x248 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .debug_line.text.hid_keyboard_alloc
+                0x00002684       0x4b build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .debug_line.text.hid_keyboard_free
+                0x000026cf       0x31 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .debug_line.text.hid_keyboard_get_view
+                0x00002700       0x1e build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .debug_line.text.hid_keyboard_set_connected_status
+                0x0000271e       0x39 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .debug_line_end
+                0x00002757        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .debug_line    0x00002757      0x62a build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .debug_line.text.hid_keynote_input_callback
+                0x00002d81       0x92 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .debug_line.text.hid_keynote_draw_arrow
+                0x00002e13       0x60 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .debug_line.text.hid_keynote_draw_callback
+                0x00002e73       0xa2 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .debug_line.text.hid_keynote_draw_vertical_callback
+                0x00002f15       0xa8 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .debug_line.text.hid_keynote_alloc
+                0x00002fbd       0x3f build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .debug_line.text.hid_keynote_free
+                0x00002ffc       0x31 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .debug_line.text.hid_keynote_get_view
+                0x0000302d       0x1e build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .debug_line.text.hid_keynote_set_connected_status
+                0x0000304b       0x39 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .debug_line.text.hid_keynote_set_orientation
+                0x00003084       0x3d build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .debug_line_end
+                0x000030c1        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .debug_line    0x000030c1      0x628 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .debug_line.text.hid_media_input_callback
+                0x000036e9       0xa9 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .debug_line.text.hid_media_draw_callback
+                0x00003792      0x13b build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .debug_line.text.hid_media_alloc
+                0x000038cd       0x3f build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .debug_line.text.hid_media_free
+                0x0000390c       0x31 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .debug_line.text.hid_media_get_view
+                0x0000393d       0x1e build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .debug_line.text.hid_media_set_connected_status
+                0x0000395b       0x39 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .debug_line_end
+                0x00003994        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .debug_line    0x00003994      0x628 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .debug_line.text.hid_mouse_draw_callback
+                0x00003fbc       0xc0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .debug_line.text.hid_mouse_input_callback
+                0x0000407c       0xf3 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .debug_line.text.hid_mouse_alloc
+                0x0000416f       0x3f build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .debug_line.text.hid_mouse_free
+                0x000041ae       0x31 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .debug_line.text.hid_mouse_get_view
+                0x000041df       0x1e build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .debug_line.text.hid_mouse_set_connected_status
+                0x000041fd       0x39 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .debug_line_end
+                0x00004236        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .debug_line    0x00004236      0x63d build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_line.text.hid_mouse_clicker_timer_callback
+                0x00004873       0x58 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_line.text.hid_mouse_clicker_exit_callback
+                0x000048cb       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_line.text.hid_mouse_clicker_start_or_restart_timer
+                0x000048e7       0x42 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_line.text.hid_mouse_clicker_enter_callback
+                0x00004929       0x17 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_line.text.hid_mouse_clicker_draw_callback
+                0x00004940       0xac build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_line.text.hid_mouse_clicker_input_callback
+                0x000049ec       0xad build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_line.text.hid_mouse_clicker_alloc
+                0x00004a99       0x67 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_line.text.hid_mouse_clicker_free
+                0x00004b00       0x2e build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_line.text.hid_mouse_clicker_get_view
+                0x00004b2e       0x1e build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_line.text.hid_mouse_clicker_set_connected_status
+                0x00004b4c       0x39 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_line_end
+                0x00004b85        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_line    0x00004b85      0x627 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .debug_line.text.hid_mouse_jiggler_timer_callback
+                0x000051ac       0x58 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .debug_line.text.hid_mouse_jiggler_exit_callback
+                0x00005204       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .debug_line.text.hid_mouse_jiggler_input_callback
+                0x00005220       0xc3 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .debug_line.text.hid_mouse_jiggler_draw_callback
+                0x000052e3       0xa7 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .debug_line.text.hid_mouse_jiggler_alloc
+                0x0000538a       0x65 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .debug_line.text.hid_mouse_jiggler_free
+                0x000053ef       0x2e build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .debug_line.text.hid_mouse_jiggler_get_view
+                0x0000541d       0x1e build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .debug_line.text.hid_mouse_jiggler_set_connected_status
+                0x0000543b       0x39 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .debug_line_end
+                0x00005474        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .debug_line    0x00005474      0x62f build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .debug_line.text.hid_mouse_jiggler_stealth_exit_callback
+                0x00005aa3       0x1c build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .debug_line.text.hid_mouse_jiggler_stealth_timer_callback
+                0x00005abf       0x7a build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .debug_line.text.hid_mouse_jiggler_stealth_input_callback
+                0x00005b39       0xec build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .debug_line.text.hid_mouse_jiggler_stealth_draw_callback
+                0x00005c25       0x9c build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .debug_line.text.hid_mouse_jiggler_stealth_alloc
+                0x00005cc1       0x65 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .debug_line.text.hid_mouse_jiggler_stealth_free
+                0x00005d26       0x2e build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .debug_line.text.hid_mouse_jiggler_stealth_get_view
+                0x00005d54       0x1e build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .debug_line.text.hid_mouse_jiggler_stealth_set_connected_status
+                0x00005d72       0x39 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .debug_line_end
+                0x00005dab        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .debug_line    0x00005dab      0x628 build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .debug_line.text.hid_movie_input_callback
+                0x000063d3       0xb3 build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .debug_line.text.hid_movie_draw_callback
+                0x00006486      0x138 build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .debug_line.text.hid_movie_alloc
+                0x000065be       0x3f build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .debug_line.text.hid_movie_free
+                0x000065fd       0x31 build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .debug_line.text.hid_movie_get_view
+                0x0000662e       0x1e build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .debug_line.text.hid_movie_set_connected_status
+                0x0000664c       0x39 build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .debug_line_end
+                0x00006685        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .debug_line    0x00006685      0x62e build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .debug_line.text.hid_music_macos_input_callback
+                0x00006cb3       0xb4 build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .debug_line.text.hid_music_macos_draw_callback
+                0x00006d67      0x13b build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .debug_line.text.hid_music_macos_alloc
+                0x00006ea2       0x3f build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .debug_line.text.hid_music_macos_free
+                0x00006ee1       0x31 build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .debug_line.text.hid_music_macos_get_view
+                0x00006f12       0x1e build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .debug_line.text.hid_music_macos_set_connected_status
+                0x00006f30       0x39 build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .debug_line_end
+                0x00006f69        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .debug_line    0x00006f69      0x60d build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .debug_line.text.hid_numpad_get_select_key
+                0x00007576       0xc4 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .debug_line.text.hid_numpad_input_callback
+                0x0000763a       0xca build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .debug_line.text.hid_numpad_draw_callback
+                0x00007704      0x1d1 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .debug_line.text.hid_numpad_alloc
+                0x000078d5       0x4c build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .debug_line.text.hid_numpad_free
+                0x00007921       0x31 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .debug_line.text.hid_numpad_get_view
+                0x00007952       0x1e build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .debug_line.text.hid_numpad_set_connected_status
+                0x00007970       0x39 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .debug_line_end
+                0x000079a9        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .debug_line    0x000079a9      0x677 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_view
+                0x00008020       0x1b build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_menu_callback
+                0x0000803b      0x2cf build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_start_ptt_linux_teamspeak
+                0x0000830a       0x17 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_start_ptt_linux_teams
+                0x00008321       0x17 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_start_ptt_linux_discord
+                0x00008338       0x17 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_start_ptt_macos_teamspeak
+                0x0000834f       0x17 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_start_ptt_macos_teams
+                0x00008366       0x17 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_start_ptt_meet_zoom
+                0x0000837d       0x16 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_start_ptt_macos_discord
+                0x00008393       0x17 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_hand_linux_webex
+                0x000083aa       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_camera_linux_zoom
+                0x000083d1       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_linux_zoom
+                0x000083f8       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_linux_slack_hubble
+                0x0000841f       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_linux_skype
+                0x00008446       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_stop_ptt_linux_teamspeak
+                0x0000846d       0x17 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_linux_teamspeak
+                0x00008484       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_stop_ptt_linux_teams
+                0x000084ab       0x17 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_camera_linux_skype
+                0x000084c2       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_camera_linux_teams
+                0x000084e9       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_linux_teams
+                0x00008510       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_hand_linux_meet
+                0x00008537       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_camera_linux_meet
+                0x0000855e       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_camera_linux_hangouts
+                0x00008585       0x12 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_linux_meet
+                0x00008597       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_linux_hangouts
+                0x000085be       0x12 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_linux_gather
+                0x000085d0       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_stop_ptt_linux_discord
+                0x000085f7       0x17 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_linux_discord
+                0x0000860e       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_hand_zoom_global
+                0x00008635       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_camera_macos_zoom_global
+                0x0000865c       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_macos_zoom_global
+                0x00008683       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_hand_zoom
+                0x000086aa       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_camera_macos_zoom
+                0x000086d1       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_camera_macos_gather
+                0x000086f8       0x12 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_macos_zoom
+                0x0000870a       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_macos_gather
+                0x00008731       0x12 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_hand_macos_webex
+                0x00008743       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_camera_webex
+                0x0000876a       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_camera_linux_gather
+                0x00008791       0x12 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_macos_slack_hubble
+                0x000087a3       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_camera_slack_call
+                0x000087ca       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_slack_call
+                0x000087f1       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_camera_signal
+                0x00008818       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_signal
+                0x0000883f       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_stop_ptt_macos_teamspeak
+                0x00008866       0x17 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_macos_teamspeak
+                0x0000887d       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_stop_ptt_macos_teams
+                0x000088a4       0x17 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_camera_macos_skype
+                0x000088bb       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_camera_macos_teams
+                0x000088e2       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_jamulus
+                0x00008909       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_hand_macos_meet_global
+                0x00008930       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_camera_macos_meet_global
+                0x00008957       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_macos_meet_global
+                0x0000897e       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_stop_ptt_meet_zoom
+                0x000089a5       0x17 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_hand_macos_meet
+                0x000089bc       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_camera_macos_meet
+                0x000089e3       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_camera_macos_hangouts
+                0x00008a0a       0x12 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_macos_meet
+                0x00008a1c       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_macos_hangouts
+                0x00008a43       0x12 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_hand_gather
+                0x00008a55       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_cmd_shift_m
+                0x00008a7c       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_stop_ptt_macos_discord
+                0x00008aa3       0x17 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_trigger_mute_macos_discord
+                0x00008aba       0x27 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_draw_text_centered
+                0x00008ae1       0x55 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_input_callback
+                0x00008b36       0xbe build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_draw_callback
+                0x00008bf4      0x114 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_get_view
+                0x00008d08       0x1e build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_alloc
+                0x00008d26       0xec build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_free
+                0x00008e12       0x3e build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line.text.hid_ptt_set_connected_status
+                0x00008e50       0x65 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line_end
+                0x00008eb5        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_line    0x00008eb5      0x5ee build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_line.text.hid_ptt_menu_draw_callback
+                0x000094a3      0x16e build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_line.text.hid_ptt_menu_get_list_at_index
+                0x00009611       0x5e build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_line.text.ptt_menu_add_list
+                0x0000966f       0xe8 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_line.text.ptt_menu_add_item_to_list
+                0x00009757       0xfb build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_line.text.ptt_menu_shift_list
+                0x00009852      0x279 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_line.text.ptt_menu_process_up
+                0x00009acb       0xa3 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_line.text.ptt_menu_process_down
+                0x00009b6e       0x92 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_line.text.ptt_menu_process_ok
+                0x00009c00      0x105 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_line.text.hid_ptt_menu_input_callback
+                0x00009d05       0x82 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_line.text.hid_ptt_menu_get_view
+                0x00009d87       0x1e build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_line.text.hid_ptt_menu_alloc
+                0x00009da5       0x50 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_line.text.hid_ptt_menu_free
+                0x00009df5       0xd4 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_line_end
+                0x00009ec9        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_line    0x00009ec9      0x63f build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .debug_line.text.hid_tiktok_draw_callback
+                0x0000a508       0xaa build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .debug_line.text.hid_tiktok_input_callback
+                0x0000a5b2      0x232 build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .debug_line.text.hid_tiktok_alloc
+                0x0000a7e4       0x43 build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .debug_line.text.hid_tiktok_free
+                0x0000a827       0x31 build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .debug_line.text.hid_tiktok_get_view
+                0x0000a858       0x1e build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .debug_line.text.hid_tiktok_set_connected_status
+                0x0000a876       0x3c build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .debug_line_end
+                0x0000a8b2        0x0 build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .debug_line    0x0000a8b2      0x713 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_line.text.hid_ptt_menu_view
+                0x0000afc5       0x1b build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_line.text.hid_custom_event_callback
+                0x0000afe0       0x1f build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_line.text.hid_back_event_callback
+                0x0000afff       0x1e build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_line.text.bt_hid_connection_status_changed_callback
+                0x0000b01d       0x47 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_line.text.bt_hid_remove_pairing
+                0x0000b064       0x2d build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_line.text.bt_hid_save_cfg
+                0x0000b091       0x61 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_line.text.hid_alloc
+                0x0000b0f2      0x16f build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_line.text.hid_free
+                0x0000b261       0x73 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_line.text.hid_ble_app
+                0x0000b2d4      0x184 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_line_end
+                0x0000b458        0x0 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_line    0x0000b458      0x44f build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_line.text.hid_hal_keyboard_press
+                0x0000b8a7       0x19 build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_line.text.hid_hal_keyboard_release
+                0x0000b8c0       0x1b build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_line.text.hid_hal_keyboard_release_all
+                0x0000b8db       0x1a build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_line.text.hid_hal_consumer_key_press
+                0x0000b8f5       0x1b build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_line.text.hid_hal_consumer_key_release
+                0x0000b910       0x1b build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_line.text.hid_hal_consumer_key_release_all
+                0x0000b92b       0x1a build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_line.text.hid_hal_mouse_move
+                0x0000b945       0x1b build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_line.text.hid_hal_mouse_scroll
+                0x0000b960       0x1b build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_line.text.hid_hal_mouse_press
+                0x0000b97b       0x1b build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_line.text.hid_hal_mouse_release
+                0x0000b996       0x1b build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_line.text.hid_hal_mouse_release_all
+                0x0000b9b1       0x1a build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_line_end
+                0x0000b9cb        0x0 build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_line    0x0000b9cb      0x185 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .debug_line_end
+                0x0000bb50        0x0 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .debug_line    0x0000bb50      0x38a build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_get_config
+                0x0000beda       0xb5 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_stop
+                0x0000bf8f       0x9a build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_start
+                0x0000c029       0x84 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_kb_press
+                0x0000c0ad       0xd2 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_kb_release
+                0x0000c17f       0xdc build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_kb_release_all
+                0x0000c25b      0x16c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_consumer_key_press
+                0x0000c3c7       0xac build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_consumer_key_release
+                0x0000c473       0xe4 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_consumer_key_release_all
+                0x0000c557       0xc6 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_move
+                0x0000c61d       0xe4 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_press
+                0x0000c701       0xa8 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_release
+                0x0000c7a9       0xa8 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_release_all
+                0x0000c851       0xa3 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_scroll
+                0x0000c8f4       0xbf build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line_end
+                0x0000c9b3        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line    0x0000c9b3      0x301 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_char_desc_data_callback
+                0x0000ccb4       0x32 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_report_data_callback
+                0x0000cce6       0x39 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_event_handler
+                0x0000cd1f       0x4a build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_start
+                0x0000cd69      0x11d build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_update_report_map
+                0x0000ce86       0x37 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_update_input_report
+                0x0000cebd       0x3b build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_update_info
+                0x0000cef8       0x2b build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_stop
+                0x0000cf23       0xac build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line_end
+                0x0000cfcf        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_frame    0x00000000     0x1a48
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x58 build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .debug_frame   0x00000058       0x54 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+ .debug_frame   0x000000ac       0x90 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .debug_frame   0x0000013c       0x7c build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .debug_frame   0x000001b8       0xa8 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .debug_frame   0x00000260      0x104 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .debug_frame   0x00000364      0x140 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .debug_frame   0x000004a4       0xc8 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .debug_frame   0x0000056c       0xd0 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .debug_frame   0x0000063c      0x12c build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_frame   0x00000768       0xf4 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .debug_frame   0x0000085c       0xfc build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .debug_frame   0x00000958       0xc8 build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .debug_frame   0x00000a20       0xc8 build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .debug_frame   0x00000ae8       0xf4 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .debug_frame   0x00000bdc      0x70c build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_frame   0x000012e8      0x200 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_frame   0x000014e8       0xc8 build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .debug_frame   0x000015b0      0x130 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_frame   0x000016e0       0xc0 build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_frame   0x000017a0      0x1c4 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_frame   0x00001964       0xe4 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_str      0x00000000    0x1556c
+ *(.debug_str)
+ .debug_str     0x00000000      0x53a build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .debug_str     0x0000053a      0x4e6 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene.o
+ .debug_str     0x00000a20      0x7e1 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+ .debug_str     0x00001201      0xb51 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .debug_str     0x00001d52      0xbb7 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .debug_str     0x00002909      0xb93 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .debug_str     0x0000349c     0x1108 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .debug_str     0x000045a4      0xdbf build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .debug_str     0x00005363      0xd28 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .debug_str     0x0000608b      0xd1a build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .debug_str     0x00006da5      0xed1 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_str     0x00007c76      0xde4 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .debug_str     0x00008a5a      0xe49 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .debug_str     0x000098a3      0xd58 build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .debug_str     0x0000a5fb      0xe3b build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .debug_str     0x0000b436      0xdb4 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .debug_str     0x0000c1ea     0x22db build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_str     0x0000e4c5     0x1041 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_str     0x0000f506      0xd82 build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .debug_str     0x00010288     0x23df build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_str     0x00012667      0x8f7 build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_str     0x00012f5e     0x12ab build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .debug_str     0x00014209      0x9f0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_str     0x00014bf9      0x973 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x5f9b
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x11a build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .debug_loclists
+                0x0000011a       0x73 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+ .debug_loclists
+                0x0000018d      0x1c5 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .debug_loclists
+                0x00000352      0x33c build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .debug_loclists
+                0x0000068e      0x1ab build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .debug_loclists
+                0x00000839      0x843 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .debug_loclists
+                0x0000107c      0x38a build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .debug_loclists
+                0x00001406      0x3a1 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .debug_loclists
+                0x000017a7      0x47d build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .debug_loclists
+                0x00001c24      0x438 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_loclists
+                0x0000205c      0x270 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .debug_loclists
+                0x000022cc      0x2ee build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .debug_loclists
+                0x000025ba      0x3af build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .debug_loclists
+                0x00002969      0x3d6 build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .debug_loclists
+                0x00002d3f      0x597 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .debug_loclists
+                0x000032d6      0xc2e build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_loclists
+                0x00003f04      0xe9d build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_loclists
+                0x00004da1      0x343 build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .debug_loclists
+                0x000050e4      0x2a2 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_loclists
+                0x00005386      0x1d8 build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_loclists
+                0x0000555e      0x710 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_loclists
+                0x00005c6e      0x32d build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0xdad
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x1f build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .debug_rnglists
+                0x0000001f       0x1f build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+ .debug_rnglists
+                0x0000003e       0x2c build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .debug_rnglists
+                0x0000006a       0x33 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .debug_rnglists
+                0x0000009d       0x38 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .debug_rnglists
+                0x000000d5      0x107 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .debug_rnglists
+                0x000001dc       0x79 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .debug_rnglists
+                0x00000255       0x7a build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .debug_rnglists
+                0x000002cf       0x6e build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .debug_rnglists
+                0x0000033d       0xab build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .debug_rnglists
+                0x000003e8       0x85 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .debug_rnglists
+                0x0000046d       0x8b build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .debug_rnglists
+                0x000004f8       0x7a build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .debug_rnglists
+                0x00000572       0x7d build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .debug_rnglists
+                0x000005ef       0xfe build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .debug_rnglists
+                0x000006ed      0x223 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .debug_rnglists
+                0x00000910      0x251 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .debug_rnglists
+                0x00000b61       0x8a build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .debug_rnglists
+                0x00000beb       0x5b build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .debug_rnglists
+                0x00000c46       0x4f build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .debug_rnglists
+                0x00000c95       0xa7 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_rnglists
+                0x00000d3c       0x71 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/hid_ble/helpers/ble_hid_ext_profile.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_main.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_rename.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_start.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/hid_ble/scenes/hid_scene_unpair.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/hid_ble/views/hid_keyboard.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/hid_ble/views/hid_keynote.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/hid_ble/views/hid_media.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_clicker.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/hid_ble/views/hid_mouse_jiggler_stealth.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/hid_ble/views/hid_movie.o
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/hid_ble/views/hid_music_macos.o
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/hid_ble/views/hid_numpad.o
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt.o
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/.extapps/hid_ble/views/hid_ptt_menu.o
+ .ARM.attributes
+                0x000003a8       0x34 build/f7-firmware-C/.extapps/hid_ble/views/hid_tiktok.o
+ .ARM.attributes
+                0x000003dc       0x34 build/f7-firmware-C/.extapps/hid_ble/hid.o
+ .ARM.attributes
+                0x00000410       0x34 build/f7-firmware-C/.extapps/hid_ble/transport_ble.o
+ .ARM.attributes
+                0x00000444       0x34 build/f7-firmware-C/.extapps/hid_ble/hid_icons.o
+ .ARM.attributes
+                0x00000478       0x34 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .ARM.attributes
+                0x000004ac       0x34 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/hid_ble_d.elf elf32-littlearm)
+LOAD linker stubs

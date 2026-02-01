@@ -1,0 +1,460 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o (__aeabi_ui2d)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+                              build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o (__aeabi_ddiv)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .text.nfc_rfid_detector_scene_field_presence_callback
+                0x00000000       0x10 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .debug_line.text.nfc_rfid_detector_scene_field_presence_callback
+                0x00000000       0x22 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_icons.o
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene.o
+LOAD build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+LOAD build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+LOAD build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+LOAD build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+LOAD build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xc74
+ *(.text)
+ .text          0x00000000      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000000                __aeabi_drsub
+                0x00000008                __aeabi_dsub
+                0x00000008                __subdf3
+                0x0000000c                __adddf3
+                0x0000000c                __aeabi_dadd
+                0x00000284                __aeabi_ui2d
+                0x00000284                __floatunsidf
+                0x000002a4                __floatsidf
+                0x000002a4                __aeabi_i2d
+                0x000002c8                __extendsfdf2
+                0x000002c8                __aeabi_f2d
+                0x0000030c                __aeabi_ul2d
+                0x0000030c                __floatundidf
+                0x0000031c                __floatdidf
+                0x0000031c                __aeabi_l2d
+ .text          0x00000378      0x424 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+                0x00000378                __aeabi_dmul
+                0x00000378                __muldf3
+                0x000005cc                __aeabi_ddiv
+                0x000005cc                __divdf3
+ *(.stub)
+ *(.text*)
+ .text.nfc_rfid_detector_scene_field_presence_on_enter
+                0x0000079c       0x1c build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+                0x0000079c                nfc_rfid_detector_scene_field_presence_on_enter
+ .text.nfc_rfid_detector_scene_field_presence_on_event
+                0x000007b8       0x58 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+                0x000007b8                nfc_rfid_detector_scene_field_presence_on_event
+ .text.nfc_rfid_detector_scene_field_presence_on_exit
+                0x00000810        0x8 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+                0x00000810                nfc_rfid_detector_scene_field_presence_on_exit
+ .text.nfc_rfid_detector_view_field_presence_input
+                0x00000818        0xa build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+                0x00000818                nfc_rfid_detector_view_field_presence_input
+ .text.nfc_rfid_detector_view_field_presence_exit
+                0x00000822        0x2 build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+                0x00000822                nfc_rfid_detector_view_field_presence_exit
+ .text.nfc_rfid_detector_view_field_presence_enter
+                0x00000824       0x24 build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+                0x00000824                nfc_rfid_detector_view_field_presence_enter
+ .text.nfc_rfid_detector_view_field_presence_draw
+                0x00000848      0x120 build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+                0x00000848                nfc_rfid_detector_view_field_presence_draw
+ .text.nfc_rfid_detector_view_field_presence_update
+                0x00000968       0x4c build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+                0x00000968                nfc_rfid_detector_view_field_presence_update
+ .text.nfc_rfid_detector_view_field_presence_alloc
+                0x000009b4       0x90 build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+                0x000009b4                nfc_rfid_detector_view_field_presence_alloc
+ .text.nfc_rfid_detector_view_field_presence_free
+                0x00000a44       0x1c build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+                0x00000a44                nfc_rfid_detector_view_field_presence_free
+ .text.nfc_rfid_detector_view_field_presence_get_view
+                0x00000a60        0x4 build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+                0x00000a60                nfc_rfid_detector_view_field_presence_get_view
+ .text.nfc_rfid_detector_app_tick_event_callback
+                0x00000a64        0xc build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .text.nfc_rfid_detector_app_back_event_callback
+                0x00000a70        0xc build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .text.nfc_rfid_detector_app_custom_event_callback
+                0x00000a7c        0xc build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .text.nfc_rfid_detector_app_alloc
+                0x00000a88       0xfc build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+                0x00000a88                nfc_rfid_detector_app_alloc
+ .text.nfc_rfid_detector_app_free
+                0x00000b84       0x78 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+                0x00000b84                nfc_rfid_detector_app_free
+ .text.nfc_rfid_detector_app
+                0x00000bfc       0x24 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+                0x00000bfc                nfc_rfid_detector_app
+ .text.nfc_rfid_detector_app_field_presence_start
+                0x00000c20       0x20 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+                0x00000c20                nfc_rfid_detector_app_field_presence_start
+ .text.nfc_rfid_detector_app_field_presence_stop
+                0x00000c40       0x20 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+                0x00000c40                nfc_rfid_detector_app_field_presence_stop
+ .text.nfc_rfid_detector_app_field_presence_is_nfc
+                0x00000c60        0x8 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+                0x00000c60                nfc_rfid_detector_app_field_presence_is_nfc
+ .text.nfc_rfid_detector_app_field_presence_is_rfid
+                0x00000c68        0xc build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+                0x00000c68                nfc_rfid_detector_app_field_presence_is_rfid
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000c74      0x115
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.nfc_rfid_detector_scene_handlers
+                0x00000c74       0x10 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene.o
+                0x00000c74                nfc_rfid_detector_scene_handlers
+ .rodata.nfc_rfid_detector_scene_on_exit_handlers
+                0x00000c84        0x4 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene.o
+                0x00000c84                nfc_rfid_detector_scene_on_exit_handlers
+ .rodata.nfc_rfid_detector_scene_on_event_handlers
+                0x00000c88        0x4 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene.o
+                0x00000c88                nfc_rfid_detector_scene_on_event_handlers
+ .rodata.nfc_rfid_detector_scene_on_enter_handlers
+                0x00000c8c        0x4 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene.o
+                0x00000c8c                nfc_rfid_detector_scene_on_enter_handlers
+ .rodata.notification_app_display_on
+                0x00000c90        0x8 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .rodata.nfc_rfid_detector_view_field_presence_draw.str1.1
+                0x00000c98       0x31 build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .rodata.nfc_rfid_detector_app_alloc.str1.1
+                0x00000cc9       0x11 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ *fill*         0x00000cda        0x2 
+ .rodata.I_Rfid_detect_45x30
+                0x00000cdc        0xc build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_icons.o
+                0x00000cdc                I_Rfid_detect_45x30
+ .rodata.I_NFC_detect_45x30
+                0x00000ce8        0xc build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_icons.o
+                0x00000ce8                I_NFC_detect_45x30
+ .rodata._I_Rfid_detect_45x30
+                0x00000cf4        0x4 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_icons.o
+                0x00000cf4                _I_Rfid_detect_45x30
+ .rodata._I_Rfid_detect_45x30_0
+                0x00000cf8       0x46 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_icons.o
+                0x00000cf8                _I_Rfid_detect_45x30_0
+ *fill*         0x00000d3e        0x2 
+ .rodata._I_NFC_detect_45x30
+                0x00000d40        0x4 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_icons.o
+                0x00000d40                _I_NFC_detect_45x30
+ .rodata._I_NFC_detect_45x30_0
+                0x00000d44       0x45 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_icons.o
+                0x00000d44                _I_NFC_detect_45x30_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x140
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene.o
+ .debug_aranges
+                0x00000018       0x38 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .debug_aranges
+                0x00000050       0x58 build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .debug_aranges
+                0x000000a8       0x48 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .debug_aranges
+                0x000000f0       0x38 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+ .debug_aranges
+                0x00000128       0x18 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2dbd
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x458 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene.o
+ .debug_info    0x00000458      0x9cd build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .debug_info    0x00000e25      0xccb build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .debug_info    0x00001af0      0xbb3 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .debug_info    0x000026a3      0x54d build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+ .debug_info    0x00002bf0      0x1cd build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_icons.o
+
+.debug_abbrev   0x00000000      0xc6d
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x156 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene.o
+ .debug_abbrev  0x00000156      0x2e6 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .debug_abbrev  0x0000043c      0x2e4 build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .debug_abbrev  0x00000720      0x2a9 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .debug_abbrev  0x000009c9      0x1ef build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+ .debug_abbrev  0x00000bb8       0xb5 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_icons.o
+
+.debug_line     0x00000000     0x183a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x25e build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene.o
+ .debug_line_end
+                0x0000025e        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene.o
+ .debug_line    0x0000025e      0x3ee build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .debug_line.text.nfc_rfid_detector_scene_field_presence_on_enter
+                0x0000064c       0x29 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .debug_line.text.nfc_rfid_detector_scene_field_presence_on_event
+                0x00000675       0x73 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .debug_line.text.nfc_rfid_detector_scene_field_presence_on_exit
+                0x000006e8       0x1b build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .debug_line_end
+                0x00000703        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .debug_line    0x00000703      0x3ee build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .debug_line.text.nfc_rfid_detector_view_field_presence_input
+                0x00000af1       0x22 build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .debug_line.text.nfc_rfid_detector_view_field_presence_exit
+                0x00000b13       0x1e build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .debug_line.text.nfc_rfid_detector_view_field_presence_enter
+                0x00000b31       0x3a build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .debug_line.text.nfc_rfid_detector_view_field_presence_draw
+                0x00000b6b       0x7b build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .debug_line.text.nfc_rfid_detector_view_field_presence_update
+                0x00000be6       0x75 build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .debug_line.text.nfc_rfid_detector_view_field_presence_alloc
+                0x00000c5b       0x4d build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .debug_line.text.nfc_rfid_detector_view_field_presence_free
+                0x00000ca8       0x31 build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .debug_line.text.nfc_rfid_detector_view_field_presence_get_view
+                0x00000cd9       0x1e build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .debug_line_end
+                0x00000cf7        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .debug_line    0x00000cf7      0x495 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .debug_line.text.nfc_rfid_detector_app_tick_event_callback
+                0x0000118c       0x1b build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .debug_line.text.nfc_rfid_detector_app_back_event_callback
+                0x000011a7       0x1e build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .debug_line.text.nfc_rfid_detector_app_custom_event_callback
+                0x000011c5       0x1d build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .debug_line.text.nfc_rfid_detector_app_alloc
+                0x000011e2       0x94 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .debug_line.text.nfc_rfid_detector_app_free
+                0x00001276       0x43 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .debug_line.text.nfc_rfid_detector_app
+                0x000012b9       0x31 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .debug_line_end
+                0x000012ea        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .debug_line    0x000012ea      0x31a build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+ .debug_line.text.nfc_rfid_detector_app_field_presence_start
+                0x00001604       0x27 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+ .debug_line.text.nfc_rfid_detector_app_field_presence_stop
+                0x0000162b       0x29 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+ .debug_line.text.nfc_rfid_detector_app_field_presence_is_nfc
+                0x00001654       0x1d build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+ .debug_line.text.nfc_rfid_detector_app_field_presence_is_rfid
+                0x00001671       0x1e build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+ .debug_line_end
+                0x0000168f        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+ .debug_line    0x0000168f      0x1ab build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_icons.o
+ .debug_line_end
+                0x0000183a        0x0 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_icons.o
+
+.debug_frame    0x00000000      0x260
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x6c build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .debug_frame   0x0000006c       0xf4 build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .debug_frame   0x00000160       0x98 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .debug_frame   0x000001f8       0x68 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+
+.debug_str      0x00000000     0x2cf6
+ *(.debug_str)
+ .debug_str     0x00000000      0x535 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene.o
+ .debug_str     0x00000535      0xbd6 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .debug_str     0x0000110b      0x8dd build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .debug_str     0x000019e8      0xa28 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .debug_str     0x00002410      0x604 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+ .debug_str     0x00002a14      0x2e2 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x150
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_line_str
+                0x000000a8       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+
+.debug_loclists
+                0x00000000      0x4cb
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x157 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .debug_loclists
+                0x00000157      0x1da build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .debug_loclists
+                0x00000331      0x11b build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .debug_loclists
+                0x0000044c       0x7f build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0xdf
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x25 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .debug_rnglists
+                0x00000025       0x63 build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .debug_rnglists
+                0x00000088       0x32 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .debug_rnglists
+                0x000000ba       0x25 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/nfc_rfid_detector/scenes/nfc_rfid_detector_scene_field_presence.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/nfc_rfid_detector/views/nfc_rfid_detector_view_field_presence.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_app_i.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/nfc_rfid_detector/nfc_rfid_detector_icons.o
+ .ARM.attributes
+                0x00000138       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x0000015a       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/nfc_rfid_detector_d.elf elf32-littlearm)
+LOAD linker stubs

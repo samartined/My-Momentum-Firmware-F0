@@ -1,0 +1,769 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .text.hex_viewer_play_happy_bump
+                0x00000000       0x3c build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .text.hex_viewer_play_bad_bump
+                0x00000000       0x3c build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .text.hex_viewer_play_long_bump
+                0x00000000       0x4c build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .debug_info    0x00000000      0x98a build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .debug_abbrev  0x00000000      0x215 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .debug_loclists
+                0x00000000      0x103 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .debug_rnglists
+                0x00000000       0x2b build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .debug_line    0x00000000      0x3f4 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .debug_str     0x00000000      0xa20 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .debug_line.text.hex_viewer_play_happy_bump
+                0x00000000       0x31 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .debug_line.text.hex_viewer_play_bad_bump
+                0x00000000       0x33 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .debug_line.text.hex_viewer_play_long_bump
+                0x00000000       0x61 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .debug_frame   0x00000000       0x80 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+ .text.hex_viewer_led_set_rgb
+                0x00000000       0x60 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+ .text.hex_viewer_led_reset
+                0x00000000       0x3c build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+ .debug_info    0x00000000      0x985 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+ .debug_abbrev  0x00000000      0x222 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+ .debug_loclists
+                0x00000000       0xbb build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+ .debug_aranges
+                0x00000000       0x28 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+ .debug_rnglists
+                0x00000000       0x19 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+ .debug_line    0x00000000      0x3f1 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+ .debug_str     0x00000000      0xa93 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+ .debug_line.text.hex_viewer_led_set_rgb
+                0x00000000       0x93 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+ .debug_line.text.hex_viewer_led_reset
+                0x00000000       0x29 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+ .debug_frame   0x00000000       0x54 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+ .text.hex_viewer_play_input_sound
+                0x00000000       0x3c build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+ .text.hex_viewer_stop_all_sound
+                0x00000000       0x28 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+ .debug_info    0x00000000      0x60e build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+ .debug_abbrev  0x00000000      0x1e2 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+ .debug_loclists
+                0x00000000       0x78 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+ .debug_aranges
+                0x00000000       0x28 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+ .debug_rnglists
+                0x00000000       0x19 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+ .debug_line    0x00000000      0x3ae build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+ .debug_str     0x00000000      0x4ed build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+ .debug_line.text.hex_viewer_play_input_sound
+                0x00000000       0x45 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+ .debug_line.text.hex_viewer_stop_all_sound
+                0x00000000       0x39 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+ .debug_frame   0x00000000       0x50 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .text.hex_viewer_scene_settings_submenu_callback
+                0x00000000        0xc build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .debug_line.text.hex_viewer_scene_settings_submenu_callback
+                0x00000000       0x19 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hex_viewer/hex_viewer_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+LOAD build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+LOAD build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+LOAD build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+LOAD build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene.o
+LOAD build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+LOAD build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+LOAD build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+LOAD build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+LOAD build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+LOAD build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+LOAD build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+LOAD build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+LOAD build/f7-firmware-C/.extapps/hex_viewer/hex_viewer_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x1080
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.hex_viewer_close_storage
+                0x00000000       0x10 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .text.hex_viewer_close_config_file
+                0x00000010       0x20 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .text.hex_viewer_save_settings
+                0x00000030      0x168 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+                0x00000030                hex_viewer_save_settings
+ .text.hex_viewer_read_settings
+                0x00000198      0x128 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+                0x00000198                hex_viewer_read_settings
+ .text.hex_viewer_open_file
+                0x000002c0       0x78 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+                0x000002c0                hex_viewer_open_file
+ .text.hex_viewer_read_file
+                0x00000338       0x54 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+                0x00000338                hex_viewer_read_file
+ .text.hex_viewer_scene_info_on_enter
+                0x0000038c       0xd4 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+                0x0000038c                hex_viewer_scene_info_on_enter
+ .text.hex_viewer_scene_info_on_event
+                0x00000460        0xe build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+                0x00000460                hex_viewer_scene_info_on_event
+ .text.hex_viewer_scene_info_on_exit
+                0x0000046e        0x2 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+                0x0000046e                hex_viewer_scene_info_on_exit
+ .text.hex_viewer_scene_menu_submenu_callback
+                0x00000470        0xc build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+                0x00000470                hex_viewer_scene_menu_submenu_callback
+ .text.hex_viewer_scene_menu_on_enter
+                0x0000047c       0x7c build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+                0x0000047c                hex_viewer_scene_menu_on_enter
+ .text.hex_viewer_scene_menu_on_event
+                0x000004f8       0x6c build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+                0x000004f8                hex_viewer_scene_menu_on_event
+ .text.hex_viewer_scene_menu_on_exit
+                0x00000564        0xc build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+                0x00000564                hex_viewer_scene_menu_on_exit
+ .text.hex_viewer_scene_open_on_enter
+                0x00000570       0x98 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+                0x00000570                hex_viewer_scene_open_on_enter
+ .text.hex_viewer_scene_open_on_event
+                0x00000608        0xe build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+                0x00000608                hex_viewer_scene_open_on_event
+ .text.hex_viewer_scene_open_on_exit
+                0x00000616        0x2 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+                0x00000616                hex_viewer_scene_open_on_exit
+ .text.hex_viewer_scene_scroll_callback
+                0x00000618        0xc build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+                0x00000618                hex_viewer_scene_scroll_callback
+ .text.hex_viewer_scene_scroll_on_enter
+                0x00000624       0x48 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+                0x00000624                hex_viewer_scene_scroll_on_enter
+ .text.hex_viewer_scene_scroll_on_event
+                0x0000066c       0x90 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+                0x0000066c                hex_viewer_scene_scroll_on_event
+ .text.hex_viewer_scene_scroll_on_exit
+                0x000006fc        0x2 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+                0x000006fc                hex_viewer_scene_scroll_on_exit
+ *fill*         0x000006fe        0x2 
+ .text.hex_viewer_scene_settings_set_save_settings
+                0x00000700       0x3c build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .text.hex_viewer_scene_settings_set_led
+                0x0000073c       0x3c build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .text.hex_viewer_scene_settings_set_speaker
+                0x00000778       0x3c build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .text.hex_viewer_scene_settings_set_haptic
+                0x000007b4       0x3c build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .text.hex_viewer_scene_settings_on_enter
+                0x000007f0      0x118 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+                0x000007f0                hex_viewer_scene_settings_on_enter
+ .text.hex_viewer_scene_settings_on_event
+                0x00000908        0xe build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+                0x00000908                hex_viewer_scene_settings_on_event
+ *fill*         0x00000916        0x2 
+ .text.hex_viewer_scene_settings_on_exit
+                0x00000918       0x20 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+                0x00000918                hex_viewer_scene_settings_on_exit
+ .text.hex_viewer_scene_startscreen_callback
+                0x00000938       0x10 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+                0x00000938                hex_viewer_scene_startscreen_callback
+ .text.hex_viewer_scene_startscreen_on_enter
+                0x00000948       0x28 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+                0x00000948                hex_viewer_scene_startscreen_on_enter
+ .text.hex_viewer_scene_startscreen_on_event
+                0x00000970       0x84 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+                0x00000970                hex_viewer_scene_startscreen_on_event
+ .text.hex_viewer_scene_startscreen_on_exit
+                0x000009f4        0x2 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+                0x000009f4                hex_viewer_scene_startscreen_on_exit
+ .text.hex_viewer_startscreen_exit
+                0x000009f6        0x2 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+                0x000009f6                hex_viewer_startscreen_exit
+ .text.update_local_model_from_app
+                0x000009f8       0x26 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ *fill*         0x00000a1e        0x2 
+ .text.hex_viewer_startscreen_draw
+                0x00000a20      0x1dc build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+                0x00000a20                hex_viewer_startscreen_draw
+ .text.hex_viewer_startscreen_enter
+                0x00000bfc       0x2c build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+                0x00000bfc                hex_viewer_startscreen_enter
+ .text.hex_viewer_startscreen_input
+                0x00000c28       0xc0 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+                0x00000c28                hex_viewer_startscreen_input
+ .text.hex_viewer_startscreen_set_callback
+                0x00000ce8        0x6 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+                0x00000ce8                hex_viewer_startscreen_set_callback
+ *fill*         0x00000cee        0x2 
+ .text.hex_viewer_startscreen_alloc
+                0x00000cf0       0xa4 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+                0x00000cf0                hex_viewer_startscreen_alloc
+ .text.hex_viewer_startscreen_free
+                0x00000d94       0x34 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+                0x00000d94                hex_viewer_startscreen_free
+ .text.hex_viewer_startscreen_get_view
+                0x00000dc8        0x4 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+                0x00000dc8                hex_viewer_startscreen_get_view
+ .text.hex_viewer_custom_event_callback
+                0x00000dcc        0xc build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+                0x00000dcc                hex_viewer_custom_event_callback
+ .text.hex_viewer_tick_event_callback
+                0x00000dd8        0xc build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+                0x00000dd8                hex_viewer_tick_event_callback
+ .text.hex_viewer_navigation_event_callback
+                0x00000de4        0xc build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+                0x00000de4                hex_viewer_navigation_event_callback
+ .text.hex_viewer_app_alloc
+                0x00000df0      0x150 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+                0x00000df0                hex_viewer_app_alloc
+ .text.hex_viewer_app_free
+                0x00000f40       0xbc build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+                0x00000f40                hex_viewer_app_free
+ .text.hex_viewer_app
+                0x00000ffc       0x84 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+                0x00000ffc                hex_viewer_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00001080      0x3b5
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.hex_viewer_close_storage.str1.1
+                0x00001080        0x8 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .rodata.hex_viewer_save_settings.str1.1
+                0x00001088      0x133 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .rodata.hex_viewer_read_settings.str1.1
+                0x000011bb       0x4d build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .rodata.hex_viewer_open_file.str1.1
+                0x00001208       0x1a build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .rodata.hex_viewer_read_file.str1.1
+                0x00001222       0x16 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .rodata.hex_viewer_scene_handlers
+                0x00001238       0x10 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene.o
+                0x00001238                hex_viewer_scene_handlers
+ .rodata.hex_viewer_on_exit_handlers
+                0x00001248       0x18 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene.o
+                0x00001248                hex_viewer_on_exit_handlers
+ .rodata.hex_viewer_on_event_handlers
+                0x00001260       0x18 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene.o
+                0x00001260                hex_viewer_on_event_handlers
+ .rodata.hex_viewer_on_enter_handlers
+                0x00001278       0x18 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene.o
+                0x00001278                hex_viewer_on_enter_handlers
+ .rodata.hex_viewer_scene_info_on_enter.str1.1
+                0x00001290       0x3a build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+ .rodata.hex_viewer_scene_menu_on_enter.str1.1
+                0x000012ca       0x38 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .rodata.hex_viewer_scene_open_on_enter.str1.1
+                0x00001302        0x7 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+ .rodata.hex_viewer_scene_scroll_on_enter.str1.1
+                0x00001309       0x1e build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .rodata.hex_viewer_scene_settings_on_enter.str1.1
+                0x00001327       0x2b build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ *fill*         0x00001352        0x2 
+ .rodata.settings_value
+                0x00001354        0x8 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+                0x00001354                settings_value
+ .rodata.str1.1
+                0x0000135c        0x7 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ *fill*         0x00001363        0x1 
+ .rodata.settings_text
+                0x00001364        0x8 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+                0x00001364                settings_text
+ .rodata.led_value
+                0x0000136c        0x8 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+                0x0000136c                led_value
+ .rodata.led_text
+                0x00001374        0x8 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+                0x00001374                led_text
+ .rodata.speaker_value
+                0x0000137c        0x8 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+                0x0000137c                speaker_value
+ .rodata.speaker_text
+                0x00001384        0x8 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+                0x00001384                speaker_text
+ .rodata.haptic_value
+                0x0000138c        0x8 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+                0x0000138c                haptic_value
+ .rodata.haptic_text
+                0x00001394        0x8 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+                0x00001394                haptic_text
+ .rodata.hex_viewer_startscreen_draw.str1.1
+                0x0000139c       0x51 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .rodata.hex_viewer_app_alloc.str1.1
+                0x000013ed       0x21 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+ *fill*         0x0000140e        0x2 
+ .rodata.I_hex_10px
+                0x00001410        0xc build/f7-firmware-C/.extapps/hex_viewer/hex_viewer_icons.o
+                0x00001410                I_hex_10px
+ .rodata._I_hex_10px
+                0x0000141c        0x4 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer_icons.o
+                0x0000141c                _I_hex_10px
+ .rodata._I_hex_10px_0
+                0x00001420       0x15 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer_icons.o
+                0x00001420                _I_hex_10px_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x280
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x48 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .debug_aranges
+                0x00000048       0x18 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene.o
+ .debug_aranges
+                0x00000060       0x30 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+ .debug_aranges
+                0x00000090       0x38 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .debug_aranges
+                0x000000c8       0x30 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+ .debug_aranges
+                0x000000f8       0x38 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .debug_aranges
+                0x00000130       0x58 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .debug_aranges
+                0x00000188       0x38 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+ .debug_aranges
+                0x000001c0       0x60 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .debug_aranges
+                0x00000220       0x48 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+ .debug_aranges
+                0x00000268       0x18 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x7b91
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x120c build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .debug_info    0x0000120c      0x3a2 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene.o
+ .debug_info    0x000015ae      0x99f build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+ .debug_info    0x00001f4d      0x955 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .debug_info    0x000028a2      0x90c build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+ .debug_info    0x000031ae      0x943 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .debug_info    0x00003af1      0xdb4 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .debug_info    0x000048a5      0xb2d build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+ .debug_info    0x000053d2     0x140d build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .debug_info    0x000067df     0x122e build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+ .debug_info    0x00007a0d      0x184 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer_icons.o
+
+.debug_abbrev   0x00000000     0x1846
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x2db build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .debug_abbrev  0x000002db      0x137 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene.o
+ .debug_abbrev  0x00000412      0x239 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+ .debug_abbrev  0x0000064b      0x209 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .debug_abbrev  0x00000854      0x22b build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+ .debug_abbrev  0x00000a7f      0x22c build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .debug_abbrev  0x00000cab      0x24e build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .debug_abbrev  0x00000ef9      0x257 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+ .debug_abbrev  0x00001150      0x3ad build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .debug_abbrev  0x000014fd      0x298 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+ .debug_abbrev  0x00001795       0xb1 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer_icons.o
+
+.debug_line     0x00000000     0x3d23
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x507 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .debug_line.text.hex_viewer_close_storage
+                0x00000507       0x12 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .debug_line.text.hex_viewer_close_config_file
+                0x00000519       0x2e build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .debug_line.text.hex_viewer_save_settings
+                0x00000547       0xc1 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .debug_line.text.hex_viewer_read_settings
+                0x00000608       0xcf build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .debug_line.text.hex_viewer_open_file
+                0x000006d7       0x85 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .debug_line.text.hex_viewer_read_file
+                0x0000075c       0x68 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .debug_line_end
+                0x000007c4        0x0 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .debug_line    0x000007c4      0x1b0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene.o
+ .debug_line_end
+                0x00000974        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene.o
+ .debug_line    0x00000974      0x3ec build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+ .debug_line.text.hex_viewer_scene_info_on_enter
+                0x00000d60       0x54 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+ .debug_line.text.hex_viewer_scene_info_on_event
+                0x00000db4       0x2a build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+ .debug_line.text.hex_viewer_scene_info_on_exit
+                0x00000dde       0x19 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+ .debug_line_end
+                0x00000df7        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+ .debug_line    0x00000df7      0x3e0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .debug_line.text.hex_viewer_scene_menu_submenu_callback
+                0x000011d7       0x18 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .debug_line.text.hex_viewer_scene_menu_on_enter
+                0x000011ef       0x33 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .debug_line.text.hex_viewer_scene_menu_on_event
+                0x00001222       0x7d build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .debug_line.text.hex_viewer_scene_menu_on_exit
+                0x0000129f       0x18 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .debug_line_end
+                0x000012b7        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .debug_line    0x000012b7      0x43d build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+ .debug_line.text.hex_viewer_scene_open_on_enter
+                0x000016f4       0x96 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+ .debug_line.text.hex_viewer_scene_open_on_event
+                0x0000178a       0x27 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+ .debug_line.text.hex_viewer_scene_open_on_exit
+                0x000017b1       0x18 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+ .debug_line_end
+                0x000017c9        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+ .debug_line    0x000017c9      0x575 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .debug_line.text.hex_viewer_scene_scroll_callback
+                0x00001d3e       0x15 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .debug_line.text.hex_viewer_scene_scroll_on_enter
+                0x00001d53       0x3b build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .debug_line.text.hex_viewer_scene_scroll_on_event
+                0x00001d8e       0xc0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .debug_line.text.hex_viewer_scene_scroll_on_exit
+                0x00001e4e       0x18 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .debug_line_end
+                0x00001e66        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .debug_line    0x00001e66      0x43a build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .debug_line.text.hex_viewer_scene_settings_set_save_settings
+                0x000022a0       0x4a build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .debug_line.text.hex_viewer_scene_settings_set_led
+                0x000022ea       0x49 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .debug_line.text.hex_viewer_scene_settings_set_speaker
+                0x00002333       0x49 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .debug_line.text.hex_viewer_scene_settings_set_haptic
+                0x0000237c       0x49 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .debug_line.text.hex_viewer_scene_settings_on_enter
+                0x000023c5       0xc8 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .debug_line.text.hex_viewer_scene_settings_on_event
+                0x0000248d       0x2c build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .debug_line.text.hex_viewer_scene_settings_on_exit
+                0x000024b9       0x28 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .debug_line_end
+                0x000024e1        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .debug_line    0x000024e1      0x487 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+ .debug_line.text.hex_viewer_scene_startscreen_callback
+                0x00002968       0x22 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+ .debug_line.text.hex_viewer_scene_startscreen_on_enter
+                0x0000298a       0x2b build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+ .debug_line.text.hex_viewer_scene_startscreen_on_event
+                0x000029b5       0x72 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+ .debug_line.text.hex_viewer_scene_startscreen_on_exit
+                0x00002a27       0x19 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+ .debug_line_end
+                0x00002a40        0x0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+ .debug_line    0x00002a40      0x5ce build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .debug_line.text.hex_viewer_startscreen_exit
+                0x0000300e       0x1c build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .debug_line.text.update_local_model_from_app
+                0x0000302a       0x3f build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .debug_line.text.hex_viewer_startscreen_draw
+                0x00003069      0x1ac build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .debug_line.text.hex_viewer_startscreen_enter
+                0x00003215       0x37 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .debug_line.text.hex_viewer_startscreen_input
+                0x0000324c       0xd2 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .debug_line.text.hex_viewer_startscreen_set_callback
+                0x0000331e       0x23 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .debug_line.text.hex_viewer_startscreen_alloc
+                0x00003341       0x89 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .debug_line.text.hex_viewer_startscreen_free
+                0x000033ca       0x35 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .debug_line.text.hex_viewer_startscreen_get_view
+                0x000033ff       0x1e build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .debug_line_end
+                0x0000341d        0x0 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .debug_line    0x0000341d      0x564 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+ .debug_line.text.hex_viewer_custom_event_callback
+                0x00003981       0x1d build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+ .debug_line.text.hex_viewer_tick_event_callback
+                0x0000399e       0x19 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+ .debug_line.text.hex_viewer_navigation_event_callback
+                0x000039b7       0x1e build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+ .debug_line.text.hex_viewer_app_alloc
+                0x000039d5       0xee build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+ .debug_line.text.hex_viewer_app_free
+                0x00003ac3       0x65 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+ .debug_line.text.hex_viewer_app
+                0x00003b28       0x65 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+ .debug_line_end
+                0x00003b8d        0x0 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+ .debug_line    0x00003b8d      0x196 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer_icons.o
+ .debug_line_end
+                0x00003d23        0x0 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer_icons.o
+
+.debug_frame    0x00000000      0x5a4
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xdc build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .debug_frame   0x000000dc       0x6c build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+ .debug_frame   0x00000148       0x78 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .debug_frame   0x000001c0       0x60 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+ .debug_frame   0x00000220       0x74 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .debug_frame   0x00000294       0xf8 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .debug_frame   0x0000038c       0x70 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+ .debug_frame   0x000003fc      0x10c build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .debug_frame   0x00000508       0x9c build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+
+.debug_str      0x00000000     0x6630
+ *(.debug_str)
+ .debug_str     0x00000000      0x9cd build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .debug_str     0x000009cd      0x67e build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene.o
+ .debug_str     0x0000104b      0x77e build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+ .debug_str     0x000017c9      0x789 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .debug_str     0x00001f52      0x761 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+ .debug_str     0x000026b3      0x7e0 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .debug_str     0x00002e93      0x8c5 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .debug_str     0x00003758      0xe89 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+ .debug_str     0x000045e1      0xcf7 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .debug_str     0x000052d8     0x10dc build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+ .debug_str     0x000063b4      0x27c build/f7-firmware-C/.extapps/hex_viewer/hex_viewer_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x116e
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x2e9 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .debug_loclists
+                0x000002e9       0xaf build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+ .debug_loclists
+                0x00000398      0x23b build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .debug_loclists
+                0x000005d3       0x7e build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+ .debug_loclists
+                0x00000651      0x230 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .debug_loclists
+                0x00000881      0x29c build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .debug_loclists
+                0x00000b1d      0x134 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+ .debug_loclists
+                0x00000c51      0x403 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .debug_loclists
+                0x00001054      0x11a build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x2b2
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x66 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .debug_rnglists
+                0x00000066       0x20 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+ .debug_rnglists
+                0x00000086       0x25 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .debug_rnglists
+                0x000000ab       0x20 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+ .debug_rnglists
+                0x000000cb       0x3e build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .debug_rnglists
+                0x00000109       0x3e build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .debug_rnglists
+                0x00000147       0x26 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+ .debug_rnglists
+                0x0000016d      0x111 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .debug_rnglists
+                0x0000027e       0x34 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_haptic.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_led.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_speaker.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/hex_viewer/helpers/hex_viewer_storage.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_info.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_menu.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_open.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_scroll.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_settings.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/hex_viewer/scenes/hex_viewer_scene_startscreen.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/hex_viewer/views/hex_viewer_startscreen.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/hex_viewer/hex_viewer_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/hex_viewer_d.elf elf32-littlearm)
+LOAD linker stubs

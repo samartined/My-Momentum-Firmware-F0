@@ -1,0 +1,244 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x438
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.get_agency_zone_name
+                0x00000000       0x54 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .text.get_u16be
+                0x00000054       0x10 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .text.furi_string_cat_timestamp
+                0x00000064       0xa4 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .text.get_file_contents
+                0x00000108       0x50 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .text.clipper_parse
+                0x00000158      0x2d8 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .text.clipper_plugin_ep
+                0x00000430        0x8 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+                0x00000430                clipper_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000438      0x7cc
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.furi_string_cat_timestamp.str1.1
+                0x00000438       0x11 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .rodata.clipper_parse.str1.1
+                0x00000449      0x11b build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .rodata.str1.1
+                0x00000564      0x3cf build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ *fill*         0x00000933        0x1 
+ .rodata.clipper_plugin_descriptor
+                0x00000934        0xc build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .rodata.clipper_plugin
+                0x00000940       0x10 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .rodata.clipper_history_file_id
+                0x00000950        0x1 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .rodata.clipper_identity_file_id
+                0x00000951        0x1 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .rodata.clipper_histidx_file_id
+                0x00000952        0x1 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .rodata.clipper_ecash_file_id
+                0x00000953        0x1 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .rodata.agency_zone_map
+                0x00000954       0x30 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .rodata.caltrain_zones
+                0x00000984       0x30 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .rodata.actransit_zones
+                0x000009b4        0x8 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .rodata.muni_zones
+                0x000009bc       0x68 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .rodata.bart_zones
+                0x00000a24      0x180 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .rodata.agency_names
+                0x00000ba4       0x50 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .rodata.clipper_types
+                0x00000bf4       0x10 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x48
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x48 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1ecf
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1ecf build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+
+.debug_abbrev   0x00000000      0x4b6
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4b6 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+
+.debug_line     0x00000000      0x8f5
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3f3 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .debug_line.text.get_agency_zone_name
+                0x000003f3       0xb3 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .debug_line.text.get_u16be
+                0x000004a6       0x1f build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .debug_line.text.furi_string_cat_timestamp
+                0x000004c5       0x69 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .debug_line.text.get_file_contents
+                0x0000052e       0x6e build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .debug_line.text.clipper_parse
+                0x0000059c      0x340 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .debug_line.text.clipper_plugin_ep
+                0x000008dc       0x19 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ .debug_line_end
+                0x000008f5        0x0 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+
+.debug_frame    0x00000000       0xd0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xd0 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+
+.debug_str      0x00000000     0x1150
+ *(.debug_str)
+ .debug_str     0x00000000     0x1150 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x73f
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x73f build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0xeb
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xeb build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/clipper_parser/plugins/supported_cards/clipper.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/clipper_parser_d.elf elf32-littlearm)
+LOAD linker stubs

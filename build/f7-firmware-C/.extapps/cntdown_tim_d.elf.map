@@ -1,0 +1,330 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .text.notification_beep_once
+                0x00000000       0x2c build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .rodata.sequence_beep
+                0x00000000       0x14 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .debug_line.text.notification_beep_once
+                0x00000000       0x27 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/cntdown_tim/app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/cntdown_tim/app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/cntdown_tim/app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/cntdown_tim/app.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+LOAD build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+LOAD build/f7-firmware-C/.extapps/cntdown_tim/app.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x4d8
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.notification_off
+                0x00000000       0x10 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+                0x00000000                notification_off
+ .text.notification_timeup
+                0x00000010       0x24 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+                0x00000010                notification_timeup
+ .text.parse_sec_to_time_str
+                0x00000034       0x44 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+                0x00000034                parse_sec_to_time_str
+ .text.countdown_timer_view_on_enter
+                0x00000078       0x24 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .text.handle_time_setting_updown
+                0x0000009c       0x58 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .text.timer_cb
+                0x000000f4       0x40 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .text.countdown_timer_view_on_draw
+                0x00000134       0xac build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .text.countdown_timer_view_new
+                0x000001e0       0x80 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+                0x000001e0                countdown_timer_view_new
+ .text.countdown_timer_view_delete
+                0x00000260       0x30 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+                0x00000260                countdown_timer_view_delete
+ .text.countdown_timer_view_get_view
+                0x00000290        0x4 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+                0x00000290                countdown_timer_view_get_view
+ .text.countdown_timer_view_state_reset
+                0x00000294       0x28 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+                0x00000294                countdown_timer_view_state_reset
+ .text.countdown_timer_state_toggle
+                0x000002bc       0x3c build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+                0x000002bc                countdown_timer_state_toggle
+ .text.countdown_timer_view_on_input
+                0x000002f8       0xf0 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .text.view_exit
+                0x000003e8        0x6 build/f7-firmware-C/.extapps/cntdown_tim/app.o
+ *fill*         0x000003ee        0x2 
+ .text.countdown_app_new
+                0x000003f0       0x78 build/f7-firmware-C/.extapps/cntdown_tim/app.o
+                0x000003f0                countdown_app_new
+ .text.countdown_app_delete
+                0x00000468       0x40 build/f7-firmware-C/.extapps/cntdown_tim/app.o
+                0x00000468                countdown_app_delete
+ .text.countdown_app_run
+                0x000004a8        0xc build/f7-firmware-C/.extapps/cntdown_tim/app.o
+                0x000004a8                countdown_app_run
+ .text.app_main
+                0x000004b4       0x24 build/f7-firmware-C/.extapps/cntdown_tim/app.o
+                0x000004b4                app_main
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000004d8       0xa6
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.notification_off.str1.1
+                0x000004d8        0xd build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .rodata.parse_sec_to_time_str.str1.1
+                0x000004e5       0x12 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ *fill*         0x000004f7        0x1 
+ .rodata.sequence_timeup
+                0x000004f8       0x6c build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .rodata.countdown_timer_view_on_draw.str1.1
+                0x00000564       0x13 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .rodata.CSWTCH.3
+                0x00000577        0x3 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .rodata.countdown_app_new.str1.1
+                0x0000057a        0x4 build/f7-firmware-C/.extapps/cntdown_tim/app.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xe0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x38 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .debug_aranges
+                0x00000038       0x68 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_aranges
+                0x000000a0       0x40 build/f7-firmware-C/.extapps/cntdown_tim/app.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1f01
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x620 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .debug_info    0x00000620     0x115a build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_info    0x0000177a      0x787 build/f7-firmware-C/.extapps/cntdown_tim/app.o
+
+.debug_abbrev   0x00000000      0x89a
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1f6 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .debug_abbrev  0x000001f6      0x426 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_abbrev  0x0000061c      0x27e build/f7-firmware-C/.extapps/cntdown_tim/app.o
+
+.debug_line     0x00000000      0xfb2
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x2f6 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .debug_line.text.notification_off
+                0x000002f6       0x14 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .debug_line.text.notification_timeup
+                0x0000030a       0x21 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .debug_line.text.parse_sec_to_time_str
+                0x0000032b       0x2d build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .debug_line_end
+                0x00000358        0x0 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .debug_line    0x00000358      0x3bf build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_line.text.countdown_timer_view_on_enter
+                0x00000717       0x3a build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_line.text.handle_time_setting_updown
+                0x00000751       0xb1 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_line.text.timer_cb
+                0x00000802       0x6f build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_line.text.countdown_timer_view_on_draw
+                0x00000871       0xba build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_line.text.countdown_timer_view_new
+                0x0000092b       0x53 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_line.text.countdown_timer_view_delete
+                0x0000097e       0x2d build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_line.text.countdown_timer_view_get_view
+                0x000009ab       0x19 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_line.text.countdown_timer_view_state_reset
+                0x000009c4       0x31 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_line.text.countdown_timer_state_toggle
+                0x000009f5       0x65 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_line.text.countdown_timer_view_on_input
+                0x00000a5a      0x11c build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_line_end
+                0x00000b76        0x0 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_line    0x00000b76      0x33f build/f7-firmware-C/.extapps/cntdown_tim/app.o
+ .debug_line.text.view_exit
+                0x00000eb5       0x1d build/f7-firmware-C/.extapps/cntdown_tim/app.o
+ .debug_line.text.countdown_app_new
+                0x00000ed2       0x71 build/f7-firmware-C/.extapps/cntdown_tim/app.o
+ .debug_line.text.countdown_app_delete
+                0x00000f43       0x2e build/f7-firmware-C/.extapps/cntdown_tim/app.o
+ .debug_line.text.countdown_app_run
+                0x00000f71       0x16 build/f7-firmware-C/.extapps/cntdown_tim/app.o
+ .debug_line.text.app_main
+                0x00000f87       0x2b build/f7-firmware-C/.extapps/cntdown_tim/app.o
+ .debug_line_end
+                0x00000fb2        0x0 build/f7-firmware-C/.extapps/cntdown_tim/app.o
+
+.debug_frame    0x00000000      0x238
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x78 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .debug_frame   0x00000078      0x140 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_frame   0x000001b8       0x80 build/f7-firmware-C/.extapps/cntdown_tim/app.o
+
+.debug_str      0x00000000     0x1971
+ *(.debug_str)
+ .debug_str     0x00000000      0x8e4 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .debug_str     0x000008e4      0xb1a build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_str     0x000013fe      0x573 build/f7-firmware-C/.extapps/cntdown_tim/app.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x658
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000       0x51 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .debug_loclists
+                0x00000051      0x52f build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_loclists
+                0x00000580       0xd8 build/f7-firmware-C/.extapps/cntdown_tim/app.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x106
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x25 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .debug_rnglists
+                0x00000025       0xaa build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .debug_rnglists
+                0x000000cf       0x37 build/f7-firmware-C/.extapps/cntdown_tim/app.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/cntdown_tim/utils/utils.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/cntdown_tim/views/countdown_view.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/cntdown_tim/app.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/cntdown_tim_d.elf elf32-littlearm)
+LOAD linker stubs

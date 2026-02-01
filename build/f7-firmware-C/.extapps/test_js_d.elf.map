@@ -1,0 +1,411 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+                              build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o (__aeabi_dcmpeq)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .rodata.minunit_printf_warning.str1.1
+                0x00000000       0x10 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .text.minunit_printf_warning
+                0x00000000       0x50 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .debug_line.text.minunit_printf_warning
+                0x00000000       0x3a build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+LOAD build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x122c
+ *(.text)
+ .text          0x00000000      0x110 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+                0x00000000                __gtdf2
+                0x00000000                __gedf2
+                0x00000008                __ltdf2
+                0x00000008                __ledf2
+                0x00000010                __cmpdf2
+                0x00000010                __eqdf2
+                0x00000010                __nedf2
+                0x0000008c                __aeabi_cdrcmple
+                0x0000009c                __aeabi_cdcmple
+                0x0000009c                __aeabi_cdcmpeq
+                0x000000ac                __aeabi_dcmpeq
+                0x000000c0                __aeabi_dcmplt
+                0x000000d4                __aeabi_dcmple
+                0x000000e8                __aeabi_dcmpge
+                0x000000fc                __aeabi_dcmpgt
+ *(.stub)
+ *(.text*)
+ .text.minunit_print_progress
+                0x00000110       0x5c build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+                0x00000110                minunit_print_progress
+ .text.minunit_print_fail
+                0x0000016c       0x10 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+                0x0000016c                minunit_print_fail
+ .text.get_minunit_run
+                0x0000017c        0xc build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+                0x0000017c                get_minunit_run
+ .text.get_minunit_assert
+                0x00000188        0xc build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+                0x00000188                get_minunit_assert
+ .text.get_minunit_status
+                0x00000194        0xc build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+                0x00000194                get_minunit_status
+ .text.js_value_test_enum
+                0x000001a0       0x74 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .text.js_value_test_args_fn
+                0x00000214      0x108 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .text.js_value_test_primitive
+                0x0000031c      0x1a8 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .text.js_test_run
+                0x000004c4       0xc8 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ *fill*         0x0000058c        0x4 
+ .text.run_minunit_test_js
+                0x00000590      0xc44 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+                0x00000590                run_minunit_test_js
+ .text.js_test_callback
+                0x000011d4       0x50 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .text.get_api  0x00001224        0x8 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+                0x00001224                get_api
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00001230      0x580
+ *(.rodata)
+ .rodata        0x00001230        0x8 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.minunit_print_progress.str1.1
+                0x00001238        0x9 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .rodata.minunit_print_fail.str1.1
+                0x00001241       0x10 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .rodata.progress.0
+                0x00001251        0x4 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .rodata.js_value_test_args_fn.str1.1
+                0x00001255       0x5c build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.js_value_test_primitive.str1.1
+                0x000012b1       0x81 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.js_test_run.str1.1
+                0x00001332       0x17 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.run_minunit_test_js.str1.1
+                0x00001349      0x15f build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.js_test_callback.str1.1
+                0x000014a8        0xb build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.__func__.1
+                0x000014b3        0xc build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ *fill*         0x000014bf        0x1 
+ .rodata.arg_list.2
+                0x000014c0       0x48 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.args.0
+                0x00001508        0x8 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.__func__.3
+                0x00001510       0x16 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.__func__.4
+                0x00001526       0x13 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ *fill*         0x00001539        0x7 
+ .rodata.int_decl.5
+                0x00001540       0x18 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.str_decl.6
+                0x00001558       0x18 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.fields.7
+                0x00001570       0x10 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.__func__.8
+                0x00001580       0x16 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ *fill*         0x00001596        0x2 
+ .rodata.object_decl.9
+                0x00001598       0x18 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.int_decl.10
+                0x000015b0       0x18 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.str_decl.11
+                0x000015c8       0x18 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.enum_variants.12
+                0x000015e0       0x18 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.enum_decl.13
+                0x000015f8       0x18 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.fields.14
+                0x00001610       0x18 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.__func__.15
+                0x00001628       0x15 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ *fill*         0x0000163d        0x3 
+ .rodata.object_decl.16
+                0x00001640       0x18 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.enum_1_variants.17
+                0x00001658       0x18 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.enum_2_variants.18
+                0x00001670       0x10 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.enum_2.19
+                0x00001680       0x18 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.__func__.20
+                0x00001698       0x14 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ *fill*         0x000016ac        0x4 
+ .rodata.enum_1.21
+                0x000016b0       0x18 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.__func__.22
+                0x000016c8       0x18 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.types.23
+                0x000016e0        0xc build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.__func__.24
+                0x000016ec       0x16 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.__func__.25
+                0x00001702       0x23 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.success_matrix.26
+                0x00001725       0x3f build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.types.27
+                0x00001764       0x24 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .rodata.str1.1
+                0x00001788        0x9 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ *fill*         0x00001791        0x3 
+ .rodata.app_descriptor
+                0x00001794        0xc build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+                0x00001794                app_descriptor
+ .rodata.test_api
+                0x000017a0       0x10 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+                0x000017a0                test_api
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss            0x000017b0      0x430
+ *(.bss)
+ *(.bss*)
+ .bss.progress_counter.1
+                0x000017b0        0x1 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ *fill*         0x000017b1        0x3 
+ .bss.last_tick.2
+                0x000017b4        0x4 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .bss.minunit_last_message
+                0x000017b8      0x400 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+                0x000017b8                minunit_last_message
+ .bss.minunit_proc_timer
+                0x00001bb8        0x8 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+                0x00001bb8                minunit_proc_timer
+ .bss.minunit_real_timer
+                0x00001bc0        0x8 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+                0x00001bc0                minunit_real_timer
+ .bss.minunit_status
+                0x00001bc8        0x4 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+                0x00001bc8                minunit_status
+ .bss.minunit_fail
+                0x00001bcc        0x4 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+                0x00001bcc                minunit_fail
+ .bss.minunit_assert
+                0x00001bd0        0x4 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+                0x00001bd0                minunit_assert
+ .bss.minunit_run
+                0x00001bd4        0x4 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+                0x00001bd4                minunit_run
+ .bss.minunit_teardown
+                0x00001bd8        0x4 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .bss.minunit_setup
+                0x00001bdc        0x4 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x98
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x48 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .debug_aranges
+                0x00000048       0x50 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x433d
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xacb build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .debug_info    0x00000acb     0x3872 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+
+.debug_abbrev   0x00000000      0x9e2
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x30f build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .debug_abbrev  0x0000030f      0x6d3 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+
+.debug_line     0x00000000     0x1181
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x2f6 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .debug_line.text.minunit_print_progress
+                0x000002f6       0x58 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .debug_line.text.minunit_print_fail
+                0x0000034e       0x1d build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .debug_line.text.get_minunit_run
+                0x0000036b       0x18 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .debug_line.text.get_minunit_assert
+                0x00000383       0x18 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .debug_line.text.get_minunit_status
+                0x0000039b       0x18 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .debug_line_end
+                0x000003b3        0x0 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .debug_line    0x000003b3      0x487 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .debug_line.text.js_value_test_enum
+                0x0000083a       0x5d build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .debug_line.text.js_value_test_args_fn
+                0x00000897      0x14b build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .debug_line.text.js_value_test_primitive
+                0x000009e2      0x131 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .debug_line.text.js_test_run
+                0x00000b13       0x88 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .debug_line.text.run_minunit_test_js
+                0x00000b9b      0x581 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .debug_line.text.js_test_callback
+                0x0000111c       0x52 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .debug_line.text.get_api
+                0x0000116e       0x13 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .debug_line_end
+                0x00001181        0x0 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+
+.debug_frame    0x00000000      0x1e8
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xa8 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .debug_frame   0x000000a8      0x140 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+
+.debug_str      0x00000000     0x1a1b
+ *(.debug_str)
+ .debug_str     0x00000000      0x733 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .debug_str     0x00000733     0x12e8 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000       0xa8
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+
+.debug_loclists
+                0x00000000      0xf81
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000       0x5d build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .debug_loclists
+                0x0000005d      0xf24 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x2ae
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x31 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .debug_rnglists
+                0x00000031      0x27d build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/test_js/tests/common/common.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/test_js/tests/js/js_test.o
+ .ARM.attributes
+                0x00000068       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/test_js_d.elf elf32-littlearm)
+LOAD linker stubs

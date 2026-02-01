@@ -1,0 +1,1719 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_chip_arr.o)
+                              build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o (avr_isp_chip_arr_size)
+build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+                              build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o (avr_isp_prog_init)
+build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+                              build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o (avr_isp_spi_sw_init)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .text.avr_isp_set_tx_callback
+                0x00000000        0x6 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_set_tx_callback
+                0x00000000       0x23 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .text.flipper_i32hex_file_bin_to_i32hex_set_addr
+                0x00000000        0x4 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_line.text.flipper_i32hex_file_bin_to_i32hex_set_addr
+                0x00000000       0x20 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .text.avr_isp_scene_about_widget_callback
+                0x00000000       0x14 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .debug_line.text.avr_isp_scene_about_widget_callback
+                0x00000000       0x25 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app_i.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app_i.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app_i.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/avr_isp_app_i.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+ .rodata.I_chip_not_found_83x37
+                0x00000000        0xc build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+ .rodata._I_chip_not_found_83x37
+                0x00000000        0x4 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+ .rodata._I_chip_not_found_83x37_0
+                0x00000000       0xa0 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_chip_arr.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_chip_arr.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_chip_arr.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_chip_arr.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/avr_isp_app_i.o
+LOAD build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/.extapps/avr_isp/driver
+
+.text           0x00000000     0x4ac8
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.avr_isp_current_page.constprop.0
+                0x00000000       0x34 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .text.avr_isp_start_pmode
+                0x00000034       0x80 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .text.avr_isp_alloc
+                0x000000b4        0xc build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+                0x000000b4                avr_isp_alloc
+ .text.avr_isp_spi_transaction
+                0x000000c0       0x30 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+                0x000000c0                avr_isp_spi_transaction
+ .text.avr_isp_commit
+                0x000000f0       0x64 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .text.avr_isp_end_pmode
+                0x00000154       0x2c build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+                0x00000154                avr_isp_end_pmode
+ .text.avr_isp_free
+                0x00000180       0x20 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+                0x00000180                avr_isp_free
+ .text.avr_isp_write_page
+                0x000001a0       0xf0 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+                0x000001a0                avr_isp_write_page
+ .text.avr_isp_read_page
+                0x00000290       0x98 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+                0x00000290                avr_isp_read_page
+ .text.avr_isp_read_signature
+                0x00000328       0x4c build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+                0x00000328                avr_isp_read_signature
+ .text.avr_isp_auto_set_spi_speed_start_pmode
+                0x00000374      0x104 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+                0x00000374                avr_isp_auto_set_spi_speed_start_pmode
+ .text.avr_isp_erase_chip
+                0x00000478       0x44 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+                0x00000478                avr_isp_erase_chip
+ .text.avr_isp_read_lock_byte
+                0x000004bc       0x54 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+                0x000004bc                avr_isp_read_lock_byte
+ .text.avr_isp_write_lock_byte
+                0x00000510       0x60 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+                0x00000510                avr_isp_write_lock_byte
+ .text.avr_isp_read_fuse_low
+                0x00000570       0x54 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+                0x00000570                avr_isp_read_fuse_low
+ .text.avr_isp_write_fuse_low
+                0x000005c4       0x60 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+                0x000005c4                avr_isp_write_fuse_low
+ .text.avr_isp_read_fuse_high
+                0x00000624       0x54 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+                0x00000624                avr_isp_read_fuse_high
+ .text.avr_isp_write_fuse_high
+                0x00000678       0x60 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+                0x00000678                avr_isp_write_fuse_high
+ .text.avr_isp_read_fuse_extended
+                0x000006d8       0x54 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+                0x000006d8                avr_isp_read_fuse_extended
+ .text.avr_isp_write_fuse_extended
+                0x0000072c       0x60 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+                0x0000072c                avr_isp_write_fuse_extended
+ .text.avr_isp_write_extended_addr
+                0x0000078c       0x24 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+                0x0000078c                avr_isp_write_extended_addr
+ .text.vcp_on_cdc_control_line
+                0x000007b0        0x2 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .text.vcp_on_line_config
+                0x000007b2        0x2 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .text.avr_isp_worker_prog_tx_data
+                0x000007b4       0x1c build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .text.vcp_state_callback
+                0x000007d0       0x1c build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .text.vcp_on_cdc_rx
+                0x000007ec       0x1c build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .text.vcp_on_cdc_tx_complete
+                0x00000808       0x1c build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .text.avr_isp_worker_prog_thread
+                0x00000824       0x44 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .text.avr_isp_worker_thread
+                0x00000868      0x1fc build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .text.avr_isp_worker_alloc
+                0x00000a64       0x30 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+                0x00000a64                avr_isp_worker_alloc
+ .text.avr_isp_worker_free
+                0x00000a94       0x2c build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+                0x00000a94                avr_isp_worker_free
+ .text.avr_isp_worker_set_callback
+                0x00000ac0        0x6 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+                0x00000ac0                avr_isp_worker_set_callback
+ *fill*         0x00000ac6        0x2 
+ .text.avr_isp_worker_start
+                0x00000ac8       0x10 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+                0x00000ac8                avr_isp_worker_start
+ .text.avr_isp_worker_stop
+                0x00000ad8       0x2c build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+                0x00000ad8                avr_isp_worker_stop
+ .text.avr_isp_worker_is_running
+                0x00000b04        0x4 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+                0x00000b04                avr_isp_worker_is_running
+ .text.avr_isp_worker_rw_get_dump_flash
+                0x00000b08      0x16c build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .text.avr_isp_worker_rw_verification_flash
+                0x00000c74      0x1cc build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .text.avr_isp_worker_rw_verification_eeprom
+                0x00000e40      0x194 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .text.avr_isp_worker_rw_write_flash
+                0x00000fd4      0x140 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .text.avr_isp_worker_rw_write_eeprom
+                0x00001114       0xfc build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .text.avr_isp_worker_rw_detect_chip
+                0x00001210      0x200 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+                0x00001210                avr_isp_worker_rw_detect_chip
+ .text.avr_isp_worker_rw_alloc
+                0x00001410       0x44 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+                0x00001410                avr_isp_worker_rw_alloc
+ .text.avr_isp_worker_rw_free
+                0x00001454       0x38 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+                0x00001454                avr_isp_worker_rw_free
+ .text.avr_isp_worker_rw_start
+                0x0000148c       0x10 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+                0x0000148c                avr_isp_worker_rw_start
+ .text.avr_isp_worker_rw_stop
+                0x0000149c       0x2c build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+                0x0000149c                avr_isp_worker_rw_stop
+ .text.avr_isp_worker_rw_is_running
+                0x000014c8        0x4 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+                0x000014c8                avr_isp_worker_rw_is_running
+ .text.avr_isp_worker_rw_set_callback
+                0x000014cc        0x6 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+                0x000014cc                avr_isp_worker_rw_set_callback
+ .text.avr_isp_worker_rw_set_callback_status
+                0x000014d2        0x6 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+                0x000014d2                avr_isp_worker_rw_set_callback_status
+ .text.avr_isp_worker_rw_get_progress_flash
+                0x000014d8        0x6 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+                0x000014d8                avr_isp_worker_rw_get_progress_flash
+ .text.avr_isp_worker_rw_get_progress_eeprom
+                0x000014de        0x6 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+                0x000014de                avr_isp_worker_rw_get_progress_eeprom
+ .text.avr_isp_worker_rw_read_dump
+                0x000014e4      0x3f8 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+                0x000014e4                avr_isp_worker_rw_read_dump
+ .text.avr_isp_worker_rw_read_dump_start
+                0x000018dc       0x20 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+                0x000018dc                avr_isp_worker_rw_read_dump_start
+ .text.avr_isp_worker_rw_verification
+                0x000018fc       0xd0 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+                0x000018fc                avr_isp_worker_rw_verification
+ .text.avr_isp_worker_rw_verification_start
+                0x000019cc       0x20 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+                0x000019cc                avr_isp_worker_rw_verification_start
+ .text.avr_isp_worker_rw_write_dump
+                0x000019ec      0x354 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+                0x000019ec                avr_isp_worker_rw_write_dump
+ .text.avr_isp_worker_rw_write_dump_start
+                0x00001d40       0x20 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+                0x00001d40                avr_isp_worker_rw_write_dump_start
+ .text.avr_isp_worker_rw_write_fuse
+                0x00001d60      0x344 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+                0x00001d60                avr_isp_worker_rw_write_fuse
+ .text.avr_isp_worker_rw_thread
+                0x000020a4      0x120 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .text.avr_isp_worker_rw_write_fuse_start
+                0x000021c4       0x20 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+                0x000021c4                avr_isp_worker_rw_write_fuse_start
+ .text.flipper_i32hex_file_check_data
+                0x000021e4       0x2e build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ *fill*         0x00002212        0x2 
+ .text.flipper_i32hex_file_parse.isra.0
+                0x00002214       0xec build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .text.flipper_i32hex_file_open_write
+                0x00002300       0x80 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+                0x00002300                flipper_i32hex_file_open_write
+ .text.flipper_i32hex_file_open_read
+                0x00002380       0x80 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+                0x00002380                flipper_i32hex_file_open_read
+ .text.flipper_i32hex_file_close
+                0x00002400       0x34 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+                0x00002400                flipper_i32hex_file_close
+ .text.flipper_i32hex_file_bin_to_i32hex_set_data
+                0x00002434       0xe4 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+                0x00002434                flipper_i32hex_file_bin_to_i32hex_set_data
+ .text.flipper_i32hex_file_bin_to_i32hex_set_end_line
+                0x00002518       0x48 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+                0x00002518                flipper_i32hex_file_bin_to_i32hex_set_end_line
+ .text.flipper_i32hex_file_get_string
+                0x00002560        0xc build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+                0x00002560                flipper_i32hex_file_get_string
+ .text.flipper_i32hex_file_check
+                0x0000256c       0x8c build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+                0x0000256c                flipper_i32hex_file_check
+ .text.flipper_i32hex_file_i32hex_to_bin_get_data
+                0x000025f8       0x4c build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+                0x000025f8                flipper_i32hex_file_i32hex_to_bin_get_data
+ .text.avr_isp_scene_about_on_enter
+                0x00002644      0x168 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+                0x00002644                avr_isp_scene_about_on_enter
+ .text.avr_isp_scene_about_on_event
+                0x000027ac        0xe build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+                0x000027ac                avr_isp_scene_about_on_event
+ *fill*         0x000027ba        0x2 
+ .text.avr_isp_scene_about_on_exit
+                0x000027bc        0xc build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+                0x000027bc                avr_isp_scene_about_on_exit
+ .text.avr_isp_scene_chip_detect_callback
+                0x000027c8       0x10 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+                0x000027c8                avr_isp_scene_chip_detect_callback
+ .text.avr_isp_scene_chip_detect_on_enter
+                0x000027d8       0x54 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+                0x000027d8                avr_isp_scene_chip_detect_on_enter
+ .text.avr_isp_scene_chip_detect_on_event
+                0x0000282c       0x58 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+                0x0000282c                avr_isp_scene_chip_detect_on_event
+ .text.avr_isp_scene_chip_detect_on_exit
+                0x00002884        0x2 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+                0x00002884                avr_isp_scene_chip_detect_on_exit
+ *fill*         0x00002886        0x2 
+ .text.avr_isp_scene_input_name_text_callback
+                0x00002888        0xc build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+                0x00002888                avr_isp_scene_input_name_text_callback
+ .text.avr_isp_scene_input_name_get_timefilename
+                0x00002894       0x50 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+                0x00002894                avr_isp_scene_input_name_get_timefilename
+ .text.avr_isp_scene_input_name_on_enter
+                0x000028e4       0xbc build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+                0x000028e4                avr_isp_scene_input_name_on_enter
+ .text.avr_isp_scene_input_name_on_event
+                0x000029a0       0x44 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+                0x000029a0                avr_isp_scene_input_name_on_event
+ .text.avr_isp_scene_input_name_on_exit
+                0x000029e4       0x38 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+                0x000029e4                avr_isp_scene_input_name_on_exit
+ .text.avr_isp_scene_load_on_enter
+                0x00002a1c       0x2c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+                0x00002a1c                avr_isp_scene_load_on_enter
+ .text.avr_isp_scene_load_on_event
+                0x00002a48        0xe build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+                0x00002a48                avr_isp_scene_load_on_event
+ .text.avr_isp_scene_load_on_exit
+                0x00002a56        0x2 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+                0x00002a56                avr_isp_scene_load_on_exit
+ .text.avr_isp_scene_programmer_callback
+                0x00002a58       0x10 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+                0x00002a58                avr_isp_scene_programmer_callback
+ .text.avr_isp_scene_programmer_on_enter
+                0x00002a68       0x28 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+                0x00002a68                avr_isp_scene_programmer_on_enter
+ .text.avr_isp_scene_programmer_on_event
+                0x00002a90        0xe build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+                0x00002a90                avr_isp_scene_programmer_on_event
+ .text.avr_isp_scene_programmer_on_exit
+                0x00002a9e        0x2 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+                0x00002a9e                avr_isp_scene_programmer_on_exit
+ .text.avr_isp_scene_reader_callback
+                0x00002aa0       0x10 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+                0x00002aa0                avr_isp_scene_reader_callback
+ .text.avr_isp_scene_reader_on_enter
+                0x00002ab0       0x44 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+                0x00002ab0                avr_isp_scene_reader_on_enter
+ .text.avr_isp_scene_reader_on_event
+                0x00002af4       0x68 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+                0x00002af4                avr_isp_scene_reader_on_event
+ .text.avr_isp_scene_reader_on_exit
+                0x00002b5c        0x2 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+                0x00002b5c                avr_isp_scene_reader_on_exit
+ *fill*         0x00002b5e        0x2 
+ .text.avr_isp_scene_start_submenu_callback
+                0x00002b60        0xc build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+                0x00002b60                avr_isp_scene_start_submenu_callback
+ .text.avr_isp_scene_start_on_enter
+                0x00002b6c       0x8c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+                0x00002b6c                avr_isp_scene_start_on_enter
+ .text.avr_isp_scene_start_on_event
+                0x00002bf8       0x68 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+                0x00002bf8                avr_isp_scene_start_on_event
+ .text.avr_isp_scene_start_on_exit
+                0x00002c60        0xc build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+                0x00002c60                avr_isp_scene_start_on_exit
+ .text.avr_isp_scene_success_popup_callback
+                0x00002c6c        0xc build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+                0x00002c6c                avr_isp_scene_success_popup_callback
+ .text.avr_isp_scene_success_on_enter
+                0x00002c78       0x7c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+                0x00002c78                avr_isp_scene_success_on_enter
+ .text.avr_isp_scene_success_on_event
+                0x00002cf4       0x2c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+                0x00002cf4                avr_isp_scene_success_on_event
+ .text.avr_isp_scene_success_on_exit
+                0x00002d20        0xc build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+                0x00002d20                avr_isp_scene_success_on_exit
+ .text.avr_isp_scene_wiring_on_enter
+                0x00002d2c       0x28 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+                0x00002d2c                avr_isp_scene_wiring_on_enter
+ .text.avr_isp_scene_wiring_on_event
+                0x00002d54        0xe build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+                0x00002d54                avr_isp_scene_wiring_on_event
+ *fill*         0x00002d62        0x2 
+ .text.avr_isp_scene_wiring_on_exit
+                0x00002d64        0xc build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+                0x00002d64                avr_isp_scene_wiring_on_exit
+ .text.avr_isp_scene_writer_callback
+                0x00002d70       0x10 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+                0x00002d70                avr_isp_scene_writer_callback
+ .text.avr_isp_scene_writer_on_enter
+                0x00002d80       0x44 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+                0x00002d80                avr_isp_scene_writer_on_enter
+ .text.avr_isp_scene_writer_on_event
+                0x00002dc4       0x60 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+                0x00002dc4                avr_isp_scene_writer_on_event
+ .text.avr_isp_scene_writer_on_exit
+                0x00002e24        0x2 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+                0x00002e24                avr_isp_scene_writer_on_exit
+ *fill*         0x00002e26        0x2 
+ .text.avr_isp_chip_detect_detect_chip_callback
+                0x00002e28       0x30 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .text.avr_isp_chip_detect_view_draw
+                0x00002e58      0x174 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+                0x00002e58                avr_isp_chip_detect_view_draw
+ .text.avr_isp_chip_detect_view_enter
+                0x00002fcc       0x50 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+                0x00002fcc                avr_isp_chip_detect_view_enter
+ .text.avr_isp_chip_detect_view_exit
+                0x0000301c       0x20 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+                0x0000301c                avr_isp_chip_detect_view_exit
+ .text.avr_isp_chip_detect_view_input
+                0x0000303c       0x74 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+                0x0000303c                avr_isp_chip_detect_view_input
+ .text.avr_isp_chip_detect_view_set_callback
+                0x000030b0        0x6 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+                0x000030b0                avr_isp_chip_detect_view_set_callback
+ *fill*         0x000030b6        0x2 
+ .text.avr_isp_chip_detect_set_state
+                0x000030b8       0x24 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+                0x000030b8                avr_isp_chip_detect_set_state
+ .text.avr_isp_chip_detect_view_alloc
+                0x000030dc       0x8c build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+                0x000030dc                avr_isp_chip_detect_view_alloc
+ .text.avr_isp_chip_detect_view_free
+                0x00003168       0x1c build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+                0x00003168                avr_isp_chip_detect_view_free
+ .text.avr_isp_chip_detect_view_get_view
+                0x00003184        0x4 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+                0x00003184                avr_isp_chip_detect_view_get_view
+ .text.avr_isp_programmer_view_input
+                0x00003188       0x14 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+                0x00003188                avr_isp_programmer_view_input
+ .text.avr_isp_programmer_usb_connect_callback
+                0x0000319c       0x24 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .text.avr_isp_programmer_view_enter
+                0x000031c0       0x48 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+                0x000031c0                avr_isp_programmer_view_enter
+ .text.avr_isp_programmer_view_exit
+                0x00003208       0x38 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+                0x00003208                avr_isp_programmer_view_exit
+ .text.avr_isp_programmer_view_draw
+                0x00003240       0x70 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+                0x00003240                avr_isp_programmer_view_draw
+ .text.avr_isp_programmer_view_set_callback
+                0x000032b0        0x6 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+                0x000032b0                avr_isp_programmer_view_set_callback
+ *fill*         0x000032b6        0x2 
+ .text.avr_isp_programmer_view_alloc
+                0x000032b8       0x8c build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+                0x000032b8                avr_isp_programmer_view_alloc
+ .text.avr_isp_programmer_view_free
+                0x00003344       0x1c build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+                0x00003344                avr_isp_programmer_view_free
+ .text.avr_isp_programmer_view_get_view
+                0x00003360        0x4 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+                0x00003360                avr_isp_programmer_view_get_view
+ .text.avr_isp_reader_view_draw
+                0x00003364      0x138 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+                0x00003364                avr_isp_reader_view_draw
+ .text.avr_isp_reader_view_input
+                0x0000349c       0x6c build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+                0x0000349c                avr_isp_reader_view_input
+ .text.avr_isp_reader_view_enter
+                0x00003508       0x50 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+                0x00003508                avr_isp_reader_view_enter
+ .text.avr_isp_reader_callback_status
+                0x00003558       0x64 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .text.avr_isp_reader_view_exit
+                0x000035bc       0x28 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+                0x000035bc                avr_isp_reader_view_exit
+ .text.avr_isp_reader_update_progress
+                0x000035e4       0x3c build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+                0x000035e4                avr_isp_reader_update_progress
+ .text.avr_isp_reader_view_set_callback
+                0x00003620        0x6 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+                0x00003620                avr_isp_reader_view_set_callback
+ .text.avr_isp_reader_set_file_path
+                0x00003626        0x6 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+                0x00003626                avr_isp_reader_set_file_path
+ .text.avr_isp_reader_view_alloc
+                0x0000362c       0x74 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+                0x0000362c                avr_isp_reader_view_alloc
+ .text.avr_isp_reader_view_free
+                0x000036a0       0x1c build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+                0x000036a0                avr_isp_reader_view_free
+ .text.avr_isp_reader_view_get_view
+                0x000036bc        0x4 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+                0x000036bc                avr_isp_reader_view_get_view
+ .text.avr_isp_writer_view_draw
+                0x000036c0      0x228 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+                0x000036c0                avr_isp_writer_view_draw
+ .text.avr_isp_writer_view_input
+                0x000038e8       0x98 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+                0x000038e8                avr_isp_writer_view_input
+ .text.avr_isp_writer_view_enter
+                0x00003980       0x50 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+                0x00003980                avr_isp_writer_view_enter
+ .text.avr_isp_writer_callback_status
+                0x000039d0       0x88 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .text.avr_isp_writer_view_exit
+                0x00003a58       0x28 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+                0x00003a58                avr_isp_writer_view_exit
+ .text.avr_isp_writer_update_progress
+                0x00003a80       0x3c build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+                0x00003a80                avr_isp_writer_update_progress
+ .text.avr_isp_writer_view_set_callback
+                0x00003abc        0x6 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+                0x00003abc                avr_isp_writer_view_set_callback
+ .text.avr_isp_writer_set_file_path
+                0x00003ac2        0x6 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+                0x00003ac2                avr_isp_writer_set_file_path
+ .text.avr_isp_writer_view_alloc
+                0x00003ac8       0x74 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+                0x00003ac8                avr_isp_writer_view_alloc
+ .text.avr_isp_writer_view_free
+                0x00003b3c       0x1c build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+                0x00003b3c                avr_isp_writer_view_free
+ .text.avr_isp_writer_view_get_view
+                0x00003b58        0x4 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+                0x00003b58                avr_isp_writer_view_get_view
+ .text.avr_isp_app_tick_event_callback
+                0x00003b5c        0xc build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .text.avr_isp_app_back_event_callback
+                0x00003b68        0xc build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .text.avr_isp_app_custom_event_callback
+                0x00003b74        0xc build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .text.avr_isp_app_alloc
+                0x00003b80      0x1dc build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+                0x00003b80                avr_isp_app_alloc
+ .text.avr_isp_app_free
+                0x00003d5c       0xec build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+                0x00003d5c                avr_isp_app_free
+ .text.avr_isp_app
+                0x00003e48       0xc8 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+                0x00003e48                avr_isp_app
+ .text.avr_isp_load_from_file
+                0x00003f10       0x98 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app_i.o
+                0x00003f10                avr_isp_load_from_file
+ .text.avr_isp_prog_current_page
+                0x00003fa8       0x38 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .text.avr_isp_prog_end_pmode
+                0x00003fe0       0x30 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .text.avr_isp_prog_getch
+                0x00004010       0x2c build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .text.avr_isp_prog_fill
+                0x0000403c       0x24 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .text.avr_isp_prog_spi_transaction
+                0x00004060       0x30 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .text.avr_isp_prog_check_signature
+                0x00004090       0x4c build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .text.avr_isp_prog_commit
+                0x000040dc       0x64 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .text.avr_isp_prog_write_eeprom_chunk.isra.0
+                0x00004140       0x50 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .text.avr_isp_prog_tx_ch.isra.0
+                0x00004190       0x1c build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .text.avr_isp_prog_empty_reply
+                0x000041ac       0x34 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .text.avr_isp_prog_breply
+                0x000041e0       0x3c build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .text.avr_isp_prog_start_pmode
+                0x0000421c       0x84 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .text.avr_isp_prog_init
+                0x000042a0       0x3c build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+                0x000042a0                avr_isp_prog_init
+ .text.avr_isp_prog_free
+                0x000042dc       0x34 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+                0x000042dc                avr_isp_prog_free
+ .text.avr_isp_prog_spaces_rx
+                0x00004310        0xc build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+                0x00004310                avr_isp_prog_spaces_rx
+ .text.avr_isp_prog_rx
+                0x0000431c       0x18 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+                0x0000431c                avr_isp_prog_rx
+ .text.avr_isp_prog_tx
+                0x00004334       0x14 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+                0x00004334                avr_isp_prog_tx
+ .text.avr_isp_prog_exit
+                0x00004348        0x6 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+                0x00004348                avr_isp_prog_exit
+ .text.avr_isp_prog_set_tx_callback
+                0x0000434e        0x6 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+                0x0000434e                avr_isp_prog_set_tx_callback
+ .text.avr_isp_prog_avrisp
+                0x00004354      0x628 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+                0x00004354                avr_isp_prog_avrisp
+ .text.furi_hal_gpio_write
+                0x0000497c        0xe build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+ *fill*         0x0000498a        0x2 
+ .text.avr_isp_spi_sw_init
+                0x0000498c       0x74 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+                0x0000498c                avr_isp_spi_sw_init
+ .text.avr_isp_spi_sw_free
+                0x00004a00       0x40 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+                0x00004a00                avr_isp_spi_sw_free
+ .text.avr_isp_spi_sw_txrx
+                0x00004a40       0x70 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+                0x00004a40                avr_isp_spi_sw_txrx
+ .text.avr_isp_spi_sw_res_set
+                0x00004ab0        0xc build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+                0x00004ab0                avr_isp_spi_sw_res_set
+ .text.avr_isp_spi_sw_sck_set
+                0x00004abc        0xc build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+                0x00004abc                avr_isp_spi_sw_sck_set
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00004ac8     0x7276
+ *(.rodata)
+ .rodata        0x00004ac8       0x14 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .rodata        0x00004adc       0x14 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.avr_isp_write_page.str1.1
+                0x00004af0       0x1b build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .rodata.avr_isp_worker_prog_thread.str1.1
+                0x00004b0b       0x3a build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .rodata.avr_isp_worker_thread.str1.1
+                0x00004b45       0x24 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ *fill*         0x00004b69        0x3 
+ .rodata.cdc_cb
+                0x00004b6c       0x14 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .rodata.avr_isp_worker_rw_get_dump_flash.str1.1
+                0x00004b80       0x20 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .rodata.avr_isp_worker_rw_verification_flash.str1.1
+                0x00004ba0       0x46 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .rodata.avr_isp_worker_rw_verification_eeprom.str1.1
+                0x00004be6       0x31 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .rodata.avr_isp_worker_rw_write_flash.str1.1
+                0x00004c17        0xf build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .rodata.avr_isp_worker_rw_write_eeprom.str1.1
+                0x00004c26       0x10 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .rodata.avr_isp_worker_rw_detect_chip.str1.1
+                0x00004c36       0xe0 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .rodata.avr_isp_worker_rw_read_dump.str1.1
+                0x00004d16      0x198 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .rodata.avr_isp_worker_rw_verification.str1.1
+                0x00004eae       0x12 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .rodata.avr_isp_worker_rw_write_dump.str1.1
+                0x00004ec0      0x167 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .rodata.avr_isp_worker_rw_write_fuse.str1.1
+                0x00005027       0xa7 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .rodata.avr_isp_worker_rw_thread.str1.1
+                0x000050ce        0xb build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .rodata.flipper_i32hex_file_open_write.str1.1
+                0x000050d9       0x44 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .rodata.flipper_i32hex_file_open_read.str1.1
+                0x0000511d       0x12 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .rodata.flipper_i32hex_file_bin_to_i32hex_set_data.str1.1
+                0x0000512f       0x2e build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .rodata.flipper_i32hex_file_bin_to_i32hex_set_end_line.str1.1
+                0x0000515d        0xe build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .rodata.flipper_i32hex_file_check.str1.1
+                0x0000516b       0x11 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .rodata.avr_isp_scene_handlers
+                0x0000517c       0x10 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene.o
+                0x0000517c                avr_isp_scene_handlers
+ .rodata.avr_isp_scene_on_exit_handlers
+                0x0000518c       0x28 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene.o
+                0x0000518c                avr_isp_scene_on_exit_handlers
+ .rodata.avr_isp_scene_on_event_handlers
+                0x000051b4       0x28 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene.o
+                0x000051b4                avr_isp_scene_on_event_handlers
+ .rodata.avr_isp_scene_on_enter_handlers
+                0x000051dc       0x28 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene.o
+                0x000051dc                avr_isp_scene_on_enter_handlers
+ .rodata.avr_isp_scene_about_on_enter.str1.1
+                0x00005204      0x41a build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .rodata.avr_isp_scene_input_name_get_timefilename.str1.1
+                0x0000561e       0x23 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .rodata.avr_isp_scene_input_name_on_enter.str1.1
+                0x00005641       0x16 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .rodata.avr_isp_scene_start_on_enter.str1.1
+                0x00005657       0x2f build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .rodata.avr_isp_scene_success_on_enter.str1.1
+                0x00005686        0x9 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .rodata.avr_isp_chip_detect_view_draw.str1.1
+                0x0000568f       0xa2 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .rodata.avr_isp_programmer_view_draw.str1.1
+                0x00005731       0x30 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .rodata.avr_isp_reader_view_draw.str1.1
+                0x00005761       0x47 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .rodata.avr_isp_writer_view_draw.str1.1
+                0x000057a8       0x80 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .rodata.avr_isp_app_alloc.str1.1
+                0x00005828       0x1f build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .rodata.avr_isp_app.str1.1
+                0x00005847       0x45 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .rodata.avr_isp_load_from_file.str1.1
+                0x0000588c        0xb build/f7-firmware-C/.extapps/avr_isp/avr_isp_app_i.o
+ *fill*         0x00005897        0x1 
+ .rodata.I_link_waiting_77x56
+                0x00005898        0xc build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x00005898                I_link_waiting_77x56
+ .rodata.I_isp_active_128x53
+                0x000058a4        0xc build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x000058a4                I_isp_active_128x53
+ .rodata.I_dolphin_nice_96x59
+                0x000058b0        0xc build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x000058b0                I_dolphin_nice_96x59
+ .rodata.I_chip_long_70x22
+                0x000058bc        0xc build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x000058bc                I_chip_long_70x22
+ .rodata.I_chip_error_70x22
+                0x000058c8        0xc build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x000058c8                I_chip_error_70x22
+ .rodata.I_chif_not_found_83x37
+                0x000058d4        0xc build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x000058d4                I_chif_not_found_83x37
+ .rodata.I_avr_wiring
+                0x000058e0        0xc build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x000058e0                I_avr_wiring
+ .rodata.I_avr_app_icon_10x10
+                0x000058ec        0xc build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x000058ec                I_avr_app_icon_10x10
+ .rodata._I_link_waiting_77x56
+                0x000058f8        0x4 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x000058f8                _I_link_waiting_77x56
+ .rodata._I_link_waiting_77x56_0
+                0x000058fc      0x11d build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x000058fc                _I_link_waiting_77x56_0
+ *fill*         0x00005a19        0x3 
+ .rodata._I_isp_active_128x53
+                0x00005a1c        0x4 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x00005a1c                _I_isp_active_128x53
+ .rodata._I_isp_active_128x53_0
+                0x00005a20      0x168 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x00005a20                _I_isp_active_128x53_0
+ .rodata._I_dolphin_nice_96x59
+                0x00005b88        0x4 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x00005b88                _I_dolphin_nice_96x59
+ .rodata._I_dolphin_nice_96x59_0
+                0x00005b8c      0x18e build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x00005b8c                _I_dolphin_nice_96x59_0
+ *fill*         0x00005d1a        0x2 
+ .rodata._I_chip_long_70x22
+                0x00005d1c        0x4 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x00005d1c                _I_chip_long_70x22
+ .rodata._I_chip_long_70x22_0
+                0x00005d20       0x3c build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x00005d20                _I_chip_long_70x22_0
+ .rodata._I_chip_error_70x22
+                0x00005d5c        0x4 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x00005d5c                _I_chip_error_70x22
+ .rodata._I_chip_error_70x22_0
+                0x00005d60       0x4e build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x00005d60                _I_chip_error_70x22_0
+ *fill*         0x00005dae        0x2 
+ .rodata._I_chif_not_found_83x37
+                0x00005db0        0x4 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x00005db0                _I_chif_not_found_83x37
+ .rodata._I_chif_not_found_83x37_0
+                0x00005db4       0xa0 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x00005db4                _I_chif_not_found_83x37_0
+ .rodata._I_avr_wiring
+                0x00005e54        0x4 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x00005e54                _I_avr_wiring
+ .rodata._I_avr_wiring_0
+                0x00005e58      0x26b build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x00005e58                _I_avr_wiring_0
+ *fill*         0x000060c3        0x1 
+ .rodata._I_avr_app_icon_10x10
+                0x000060c4        0x4 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x000060c4                _I_avr_app_icon_10x10
+ .rodata._I_avr_app_icon_10x10_0
+                0x000060c8       0x15 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+                0x000060c8                _I_avr_app_icon_10x10_0
+ *fill*         0x000060dd        0x3 
+ .rodata.avr_isp_chip_arr_size
+                0x000060e0        0x4 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_chip_arr.o)
+                0x000060e0                avr_isp_chip_arr_size
+ .rodata.str1.1
+                0x000060e4      0xf8b build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_chip_arr.o)
+ *fill*         0x0000706f        0x1 
+ .rodata.avr_isp_chip_arr
+                0x00007070     0x4b90 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_chip_arr.o)
+                0x00007070                avr_isp_chip_arr
+ .rodata.avr_isp_prog_avrisp.str1.1
+                0x0000bc00      0x13e build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x818
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xc8 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_aranges
+                0x000000c8       0x88 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_aranges
+                0x00000150       0xd8 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_aranges
+                0x00000228       0x70 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_aranges
+                0x00000298       0x18 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene.o
+ .debug_aranges
+                0x000002b0       0x38 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .debug_aranges
+                0x000002e8       0x38 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+ .debug_aranges
+                0x00000320       0x40 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .debug_aranges
+                0x00000360       0x30 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+ .debug_aranges
+                0x00000390       0x38 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+ .debug_aranges
+                0x000003c8       0x38 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+ .debug_aranges
+                0x00000400       0x38 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .debug_aranges
+                0x00000438       0x38 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .debug_aranges
+                0x00000470       0x30 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+ .debug_aranges
+                0x000004a0       0x38 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+ .debug_aranges
+                0x000004d8       0x68 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_aranges
+                0x00000540       0x60 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .debug_aranges
+                0x000005a0       0x70 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_aranges
+                0x00000610       0x70 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_aranges
+                0x00000680       0x48 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .debug_aranges
+                0x000006c8       0x20 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app_i.o
+ .debug_aranges
+                0x000006e8       0x18 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+ .debug_aranges
+                0x00000700       0x18 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_chip_arr.o)
+ .debug_aranges
+                0x00000718       0xb8 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_aranges
+                0x000007d0       0x48 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x16777
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1943 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_info    0x00001943     0x1802 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_info    0x00003145     0x36b4 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_info    0x000067f9      0xf36 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_info    0x0000772f      0x68b build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene.o
+ .debug_info    0x00007dba      0xb82 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .debug_info    0x0000893c      0x8b7 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+ .debug_info    0x000091f3      0xc30 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .debug_info    0x00009e23      0x692 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+ .debug_info    0x0000a4b5      0x76f build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+ .debug_info    0x0000ac24      0x8c2 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+ .debug_info    0x0000b4e6      0x9ce build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .debug_info    0x0000beb4      0x9bd build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .debug_info    0x0000c871      0x6c6 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+ .debug_info    0x0000cf37      0x88f build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+ .debug_info    0x0000d7c6     0x115f build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_info    0x0000e925      0xcb0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .debug_info    0x0000f5d5     0x1092 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_info    0x00010667     0x1297 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_info    0x000118fe     0x1367 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .debug_info    0x00012c65      0x809 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app_i.o
+ .debug_info    0x0001346e      0x3d7 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+ .debug_info    0x00013845      0x41a build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_chip_arr.o)
+ .debug_info    0x00013c5f     0x212a build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_info    0x00015d89      0x9ee build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+
+.debug_abbrev   0x00000000     0x41ec
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x478 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_abbrev  0x00000478      0x415 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_abbrev  0x0000088d      0x482 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_abbrev  0x00000d0f      0x38f build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_abbrev  0x0000109e      0x15a build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene.o
+ .debug_abbrev  0x000011f8      0x237 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .debug_abbrev  0x0000142f      0x218 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+ .debug_abbrev  0x00001647      0x24a build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .debug_abbrev  0x00001891      0x1e9 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+ .debug_abbrev  0x00001a7a      0x1dc build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+ .debug_abbrev  0x00001c56      0x20f build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+ .debug_abbrev  0x00001e65      0x208 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .debug_abbrev  0x0000206d      0x224 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .debug_abbrev  0x00002291      0x1e3 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+ .debug_abbrev  0x00002474      0x20f build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+ .debug_abbrev  0x00002683      0x39b build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_abbrev  0x00002a1e      0x320 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .debug_abbrev  0x00002d3e      0x2e3 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_abbrev  0x00003021      0x357 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_abbrev  0x00003378      0x2b7 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .debug_abbrev  0x0000362f      0x200 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app_i.o
+ .debug_abbrev  0x0000382f       0xbe build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+ .debug_abbrev  0x000038ed       0xe0 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_chip_arr.o)
+ .debug_abbrev  0x000039cd      0x4e8 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_abbrev  0x00003eb5      0x337 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+
+.debug_line     0x00000000     0xac1b
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x31d build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_current_page.constprop.0
+                0x0000031d       0x51 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_start_pmode
+                0x0000036e       0x94 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_alloc
+                0x00000402       0x18 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_spi_transaction
+                0x0000041a       0x34 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_commit
+                0x0000044e       0x6c build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_end_pmode
+                0x000004ba       0x4d build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_free
+                0x00000507       0x36 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_write_page
+                0x0000053d       0xe3 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_read_page
+                0x00000620       0xd2 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_read_signature
+                0x000006f2       0x4b build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_auto_set_spi_speed_start_pmode
+                0x0000073d       0xfc build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_erase_chip
+                0x00000839       0x58 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_read_lock_byte
+                0x00000891       0x60 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_write_lock_byte
+                0x000008f1       0x6e build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_read_fuse_low
+                0x0000095f       0x60 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_write_fuse_low
+                0x000009bf       0x6e build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_read_fuse_high
+                0x00000a2d       0x60 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_write_fuse_high
+                0x00000a8d       0x6e build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_read_fuse_extended
+                0x00000afb       0x60 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_write_fuse_extended
+                0x00000b5b       0x6e build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line.text.avr_isp_write_extended_addr
+                0x00000bc9       0x30 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line_end
+                0x00000bf9        0x0 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_line    0x00000bf9      0x3fb build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_line.text.vcp_on_cdc_control_line
+                0x00000ff4       0x1a build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_line.text.vcp_on_line_config
+                0x0000100e       0x1a build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_line.text.avr_isp_worker_prog_tx_data
+                0x00001028       0x28 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_line.text.vcp_state_callback
+                0x00001050       0x2d build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_line.text.vcp_on_cdc_rx
+                0x0000107d       0x28 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_line.text.vcp_on_cdc_tx_complete
+                0x000010a5       0x27 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_line.text.avr_isp_worker_prog_thread
+                0x000010cc       0x4c build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_line.text.avr_isp_worker_thread
+                0x00001118      0x143 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_line.text.avr_isp_worker_alloc
+                0x0000125b       0x43 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_line.text.avr_isp_worker_free
+                0x0000129e       0x6d build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_line.text.avr_isp_worker_set_callback
+                0x0000130b       0x20 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_line.text.avr_isp_worker_start
+                0x0000132b       0x27 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_line.text.avr_isp_worker_stop
+                0x00001352       0x3e build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_line.text.avr_isp_worker_is_running
+                0x00001390       0x20 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_line_end
+                0x000013b0        0x0 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_line    0x000013b0      0x3fc build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_get_dump_flash
+                0x000017ac      0x18a build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_verification_flash
+                0x00001936      0x1d0 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_verification_eeprom
+                0x00001b06      0x195 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_write_flash
+                0x00001c9b      0x1be build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_write_eeprom
+                0x00001e59      0x16b build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_detect_chip
+                0x00001fc4      0x1b3 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_alloc
+                0x00002177       0x70 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_free
+                0x000021e7       0x61 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_start
+                0x00002248       0x27 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_stop
+                0x0000226f       0x3e build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_is_running
+                0x000022ad       0x20 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_set_callback
+                0x000022cd       0x20 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_set_callback_status
+                0x000022ed       0x20 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_get_progress_flash
+                0x0000230d       0x1d build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_get_progress_eeprom
+                0x0000232a       0x1d build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_read_dump
+                0x00002347      0x293 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_read_dump_start
+                0x000025da       0x2f build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_verification
+                0x00002609       0x9e build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_verification_start
+                0x000026a7       0x2f build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_write_dump
+                0x000026d6      0x211 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_write_dump_start
+                0x000028e7       0x2f build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_write_fuse
+                0x00002916      0x237 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_thread
+                0x00002b4d      0x12f build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line.text.avr_isp_worker_rw_write_fuse_start
+                0x00002c7c       0x2f build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line_end
+                0x00002cab        0x0 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_line    0x00002cab      0x383 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_line.text.flipper_i32hex_file_check_data
+                0x0000302e       0x4e build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_line.text.flipper_i32hex_file_parse.isra.0
+                0x0000307c      0x146 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_line.text.flipper_i32hex_file_open_write
+                0x000031c2       0x9d build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_line.text.flipper_i32hex_file_open_read
+                0x0000325f       0x86 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_line.text.flipper_i32hex_file_close
+                0x000032e5       0x2d build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_line.text.flipper_i32hex_file_bin_to_i32hex_set_data
+                0x00003312      0x13b build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_line.text.flipper_i32hex_file_bin_to_i32hex_set_end_line
+                0x0000344d       0x4b build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_line.text.flipper_i32hex_file_get_string
+                0x00003498       0x1e build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_line.text.flipper_i32hex_file_check
+                0x000034b6       0x6d build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_line.text.flipper_i32hex_file_i32hex_to_bin_get_data
+                0x00003523       0x54 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_line_end
+                0x00003577        0x0 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_line    0x00003577      0x22c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene.o
+ .debug_line_end
+                0x000037a3        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene.o
+ .debug_line    0x000037a3      0x452 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .debug_line.text.avr_isp_scene_about_on_enter
+                0x00003bf5       0x63 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .debug_line.text.avr_isp_scene_about_on_event
+                0x00003c58       0x25 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .debug_line.text.avr_isp_scene_about_on_exit
+                0x00003c7d       0x1c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .debug_line_end
+                0x00003c99        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .debug_line    0x00003c99      0x46d build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+ .debug_line.text.avr_isp_scene_chip_detect_callback
+                0x00004106       0x22 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+ .debug_line.text.avr_isp_scene_chip_detect_on_enter
+                0x00004128       0x59 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+ .debug_line.text.avr_isp_scene_chip_detect_on_event
+                0x00004181       0x70 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+ .debug_line.text.avr_isp_scene_chip_detect_on_exit
+                0x000041f1       0x19 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+ .debug_line_end
+                0x0000420a        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+ .debug_line    0x0000420a      0x5ba build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .debug_line.text.avr_isp_scene_input_name_text_callback
+                0x000047c4       0x19 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .debug_line.text.avr_isp_scene_input_name_get_timefilename
+                0x000047dd       0x31 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .debug_line.text.avr_isp_scene_input_name_on_enter
+                0x0000480e       0x64 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .debug_line.text.avr_isp_scene_input_name_on_event
+                0x00004872       0x57 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .debug_line.text.avr_isp_scene_input_name_on_exit
+                0x000048c9       0x3e build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .debug_line_end
+                0x00004907        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .debug_line    0x00004907      0x41a build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+ .debug_line.text.avr_isp_scene_load_on_enter
+                0x00004d21       0x3f build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+ .debug_line.text.avr_isp_scene_load_on_event
+                0x00004d60       0x24 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+ .debug_line.text.avr_isp_scene_load_on_exit
+                0x00004d84       0x18 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+ .debug_line_end
+                0x00004d9c        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+ .debug_line    0x00004d9c      0x42a build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+ .debug_line.text.avr_isp_scene_programmer_callback
+                0x000051c6       0x22 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+ .debug_line.text.avr_isp_scene_programmer_on_enter
+                0x000051e8       0x2b build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+ .debug_line.text.avr_isp_scene_programmer_on_event
+                0x00005213       0x24 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+ .debug_line.text.avr_isp_scene_programmer_on_exit
+                0x00005237       0x18 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+ .debug_line_end
+                0x0000524f        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+ .debug_line    0x0000524f      0x468 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+ .debug_line.text.avr_isp_scene_reader_callback
+                0x000056b7       0x22 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+ .debug_line.text.avr_isp_scene_reader_on_enter
+                0x000056d9       0x31 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+ .debug_line.text.avr_isp_scene_reader_on_event
+                0x0000570a       0x7b build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+ .debug_line.text.avr_isp_scene_reader_on_exit
+                0x00005785       0x18 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+ .debug_line_end
+                0x0000579d        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+ .debug_line    0x0000579d      0x467 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .debug_line.text.avr_isp_scene_start_submenu_callback
+                0x00005c04       0x1a build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .debug_line.text.avr_isp_scene_start_on_enter
+                0x00005c1e       0x3a build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .debug_line.text.avr_isp_scene_start_on_event
+                0x00005c58       0x5b build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .debug_line.text.avr_isp_scene_start_on_exit
+                0x00005cb3       0x1c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .debug_line_end
+                0x00005ccf        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .debug_line    0x00005ccf      0x4b7 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .debug_line.text.avr_isp_scene_success_popup_callback
+                0x00006186       0x19 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .debug_line.text.avr_isp_scene_success_on_enter
+                0x0000619f       0x3a build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .debug_line.text.avr_isp_scene_success_on_event
+                0x000061d9       0x3e build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .debug_line.text.avr_isp_scene_success_on_exit
+                0x00006217       0x1d build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .debug_line_end
+                0x00006234        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .debug_line    0x00006234      0x41c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+ .debug_line.text.avr_isp_scene_wiring_on_enter
+                0x00006650       0x2e build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+ .debug_line.text.avr_isp_scene_wiring_on_event
+                0x0000667e       0x24 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+ .debug_line.text.avr_isp_scene_wiring_on_exit
+                0x000066a2       0x1b build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+ .debug_line_end
+                0x000066bd        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+ .debug_line    0x000066bd      0x468 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+ .debug_line.text.avr_isp_scene_writer_callback
+                0x00006b25       0x22 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+ .debug_line.text.avr_isp_scene_writer_on_enter
+                0x00006b47       0x31 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+ .debug_line.text.avr_isp_scene_writer_on_event
+                0x00006b78       0x82 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+ .debug_line.text.avr_isp_scene_writer_on_exit
+                0x00006bfa       0x19 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+ .debug_line_end
+                0x00006c13        0x0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+ .debug_line    0x00006c13      0x3ff build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_line.text.avr_isp_chip_detect_detect_chip_callback
+                0x00007012       0x3c build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_line.text.avr_isp_chip_detect_view_draw
+                0x0000704e       0x69 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_line.text.avr_isp_chip_detect_view_enter
+                0x000070b7       0x6b build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_line.text.avr_isp_chip_detect_view_exit
+                0x00007122       0x31 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_line.text.avr_isp_chip_detect_view_input
+                0x00007153       0x96 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_line.text.avr_isp_chip_detect_view_set_callback
+                0x000071e9       0x23 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_line.text.avr_isp_chip_detect_set_state
+                0x0000720c       0x38 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_line.text.avr_isp_chip_detect_view_alloc
+                0x00007244       0x4b build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_line.text.avr_isp_chip_detect_view_free
+                0x0000728f       0x31 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_line.text.avr_isp_chip_detect_view_get_view
+                0x000072c0       0x1e build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_line_end
+                0x000072de        0x0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_line    0x000072de      0x3ef build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .debug_line.text.avr_isp_programmer_view_input
+                0x000076cd       0x2f build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .debug_line.text.avr_isp_programmer_usb_connect_callback
+                0x000076fc       0x3d build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .debug_line.text.avr_isp_programmer_view_enter
+                0x00007739       0x4b build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .debug_line.text.avr_isp_programmer_view_exit
+                0x00007784       0x3a build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .debug_line.text.avr_isp_programmer_view_draw
+                0x000077be       0x3a build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .debug_line.text.avr_isp_programmer_view_set_callback
+                0x000077f8       0x23 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .debug_line.text.avr_isp_programmer_view_alloc
+                0x0000781b       0x4b build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .debug_line.text.avr_isp_programmer_view_free
+                0x00007866       0x31 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .debug_line.text.avr_isp_programmer_view_get_view
+                0x00007897       0x1e build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .debug_line_end
+                0x000078b5        0x0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .debug_line    0x000078b5      0x3b3 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_line.text.avr_isp_reader_view_draw
+                0x00007c68       0x98 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_line.text.avr_isp_reader_view_input
+                0x00007d00       0xa8 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_line.text.avr_isp_reader_view_enter
+                0x00007da8       0x4d build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_line.text.avr_isp_reader_callback_status
+                0x00007df5       0xa6 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_line.text.avr_isp_reader_view_exit
+                0x00007e9b       0x39 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_line.text.avr_isp_reader_update_progress
+                0x00007ed4       0x35 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_line.text.avr_isp_reader_view_set_callback
+                0x00007f09       0x23 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_line.text.avr_isp_reader_set_file_path
+                0x00007f2c       0x1f build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_line.text.avr_isp_reader_view_alloc
+                0x00007f4b       0x3f build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_line.text.avr_isp_reader_view_free
+                0x00007f8a       0x31 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_line.text.avr_isp_reader_view_get_view
+                0x00007fbb       0x1e build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_line_end
+                0x00007fd9        0x0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_line    0x00007fd9      0x3d0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_line.text.avr_isp_writer_view_draw
+                0x000083a9       0xf0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_line.text.avr_isp_writer_view_input
+                0x00008499       0xe1 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_line.text.avr_isp_writer_view_enter
+                0x0000857a       0x4d build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_line.text.avr_isp_writer_callback_status
+                0x000085c7       0xca build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_line.text.avr_isp_writer_view_exit
+                0x00008691       0x39 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_line.text.avr_isp_writer_update_progress
+                0x000086ca       0x35 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_line.text.avr_isp_writer_view_set_callback
+                0x000086ff       0x23 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_line.text.avr_isp_writer_set_file_path
+                0x00008722       0x1f build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_line.text.avr_isp_writer_view_alloc
+                0x00008741       0x3f build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_line.text.avr_isp_writer_view_free
+                0x00008780       0x31 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_line.text.avr_isp_writer_view_get_view
+                0x000087b1       0x1e build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_line_end
+                0x000087cf        0x0 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_line    0x000087cf      0x53f build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .debug_line.text.avr_isp_app_tick_event_callback
+                0x00008d0e       0x1b build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .debug_line.text.avr_isp_app_back_event_callback
+                0x00008d29       0x1c build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .debug_line.text.avr_isp_app_custom_event_callback
+                0x00008d45       0x1d build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .debug_line.text.avr_isp_app_alloc
+                0x00008d62      0x149 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .debug_line.text.avr_isp_app_free
+                0x00008eab       0x5e build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .debug_line.text.avr_isp_app
+                0x00008f09       0x79 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .debug_line_end
+                0x00008f82        0x0 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .debug_line    0x00008f82      0x4f9 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app_i.o
+ .debug_line.text.avr_isp_load_from_file
+                0x0000947b       0x6d build/f7-firmware-C/.extapps/avr_isp/avr_isp_app_i.o
+ .debug_line_end
+                0x000094e8        0x0 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app_i.o
+ .debug_line    0x000094e8      0x18d build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+ .debug_line_end
+                0x00009675        0x0 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+ .debug_line    0x00009675      0x23f build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_chip_arr.o)
+ .debug_line_end
+                0x000098b4        0x0 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_chip_arr.o)
+ .debug_line    0x000098b4      0x321 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_current_page
+                0x00009bd5       0x57 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_end_pmode
+                0x00009c2c       0x61 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_getch
+                0x00009c8d       0x4d build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_fill
+                0x00009cda       0x58 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_spi_transaction
+                0x00009d32       0x35 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_check_signature
+                0x00009d67       0x4b build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_commit
+                0x00009db2       0x6c build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_write_eeprom_chunk.isra.0
+                0x00009e1e       0x43 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_tx_ch.isra.0
+                0x00009e61       0x2a build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_empty_reply
+                0x00009e8b       0x44 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_breply
+                0x00009ecf       0x45 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_start_pmode
+                0x00009f14       0xd5 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_init
+                0x00009fe9       0x5d build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_free
+                0x0000a046       0x3a build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_spaces_rx
+                0x0000a080       0x1a build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_rx
+                0x0000a09a       0x39 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_tx
+                0x0000a0d3       0x28 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_exit
+                0x0000a0fb       0x20 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_set_tx_callback
+                0x0000a11b       0x24 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line.text.avr_isp_prog_avrisp
+                0x0000a13f      0x54a build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line_end
+                0x0000a689        0x0 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_line    0x0000a689      0x339 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+ .debug_line.text.furi_hal_gpio_write
+                0x0000a9c2       0x34 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+ .debug_line.text.avr_isp_spi_sw_init
+                0x0000a9f6       0xac build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+ .debug_line.text.avr_isp_spi_sw_free
+                0x0000aaa2       0x33 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+ .debug_line.text.avr_isp_spi_sw_txrx
+                0x0000aad5      0x111 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+ .debug_line.text.avr_isp_spi_sw_res_set
+                0x0000abe6       0x1a build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+ .debug_line.text.avr_isp_spi_sw_sck_set
+                0x0000ac00       0x1b build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+ .debug_line_end
+                0x0000ac1b        0x0 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+
+.debug_frame    0x00000000     0x168c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x328 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_frame   0x00000328      0x174 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_frame   0x0000049c      0x32c build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_frame   0x000007c8      0x150 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_frame   0x00000918       0x80 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .debug_frame   0x00000998       0x70 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+ .debug_frame   0x00000a08       0xb0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .debug_frame   0x00000ab8       0x5c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+ .debug_frame   0x00000b14       0x64 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+ .debug_frame   0x00000b78       0x70 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+ .debug_frame   0x00000be8       0x7c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .debug_frame   0x00000c64       0x74 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .debug_frame   0x00000cd8       0x5c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+ .debug_frame   0x00000d34       0x70 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+ .debug_frame   0x00000da4      0x13c build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_frame   0x00000ee0       0xf8 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .debug_frame   0x00000fd8      0x150 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_frame   0x00001128      0x150 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_frame   0x00001278       0xac build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .debug_frame   0x00001324       0x38 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app_i.o
+ .debug_frame   0x0000135c      0x290 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_frame   0x000015ec       0xa0 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+
+.debug_str      0x00000000     0xfc63
+ *(.debug_str)
+ .debug_str     0x00000000      0x7d5 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_str     0x000007d5      0xeff build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_str     0x000016d4     0x14e7 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_str     0x00002bbb      0x9c2 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_str     0x0000357d      0x893 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene.o
+ .debug_str     0x00003e10      0x820 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .debug_str     0x00004630      0xacc build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+ .debug_str     0x000050fc      0xbd5 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .debug_str     0x00005cd1      0x68d build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+ .debug_str     0x0000635e      0x8cb build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+ .debug_str     0x00006c29      0xa1f build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+ .debug_str     0x00007648      0x9e2 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .debug_str     0x0000802a      0xa47 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .debug_str     0x00008a71      0x666 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+ .debug_str     0x000090d7      0xa06 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+ .debug_str     0x00009add      0xc1d build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_str     0x0000a6fa      0xacb build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .debug_str     0x0000b1c5      0xd9b build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_str     0x0000bf60      0xe4f build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_str     0x0000cdaf      0xf11 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .debug_str     0x0000dcc0      0x62e build/f7-firmware-C/.extapps/avr_isp/avr_isp_app_i.o
+ .debug_str     0x0000e2ee      0x48e build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+ .debug_str     0x0000e77c      0x39a build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_chip_arr.o)
+ .debug_str     0x0000eb16      0xaa1 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_str     0x0000f5b7      0x6ac build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x4252
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0xa09 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_loclists
+                0x00000a09      0x289 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_loclists
+                0x00000c92      0xdc7 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_loclists
+                0x00001a59      0x58c build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_loclists
+                0x00001fe5      0x120 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .debug_loclists
+                0x00002105       0xfe build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+ .debug_loclists
+                0x00002203      0x1c5 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .debug_loclists
+                0x000023c8       0x81 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+ .debug_loclists
+                0x00002449       0xc0 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+ .debug_loclists
+                0x00002509      0x18e build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+ .debug_loclists
+                0x00002697      0x133 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .debug_loclists
+                0x000027ca      0x136 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .debug_loclists
+                0x00002900       0x8d build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+ .debug_loclists
+                0x0000298d      0x15c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+ .debug_loclists
+                0x00002ae9      0x365 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_loclists
+                0x00002e4e      0x1db build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .debug_loclists
+                0x00003029      0x2b8 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_loclists
+                0x000032e1      0x30e build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_loclists
+                0x000035ef      0x170 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .debug_loclists
+                0x0000375f       0x5e build/f7-firmware-C/.extapps/avr_isp/avr_isp_app_i.o
+ .debug_loclists
+                0x000037bd      0x8e4 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_loclists
+                0x000040a1      0x1b1 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x94e
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x119 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .debug_rnglists
+                0x00000119       0x90 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .debug_rnglists
+                0x000001a9      0x16a build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .debug_rnglists
+                0x00000313       0x7b build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .debug_rnglists
+                0x0000038e       0x26 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .debug_rnglists
+                0x000003b4       0x25 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+ .debug_rnglists
+                0x000003d9       0x2c build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .debug_rnglists
+                0x00000405       0x1f build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+ .debug_rnglists
+                0x00000424       0x25 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+ .debug_rnglists
+                0x00000449       0x25 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+ .debug_rnglists
+                0x0000046e       0x26 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .debug_rnglists
+                0x00000494       0x25 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .debug_rnglists
+                0x000004b9       0x1f build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+ .debug_rnglists
+                0x000004d8       0x25 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+ .debug_rnglists
+                0x000004fd       0xa8 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .debug_rnglists
+                0x000005a5       0x68 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .debug_rnglists
+                0x0000060d       0x92 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .debug_rnglists
+                0x0000069f       0xa4 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .debug_rnglists
+                0x00000743       0x34 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .debug_rnglists
+                0x00000777       0x14 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app_i.o
+ .debug_rnglists
+                0x0000078b      0x150 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .debug_rnglists
+                0x000008db       0x73 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/avr_isp/helpers/avr_isp_worker_rw.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/avr_isp/helpers/flipper_i32hex_file.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_about.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_chip_detect.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_input_name.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_load.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_programmer.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_reader.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_start.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_success.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_wiring.o
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/avr_isp/scenes/avr_isp_scene_writer.o
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_chip_detect.o
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_programmer.o
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_reader.o
+ .ARM.attributes
+                0x000003a8       0x34 build/f7-firmware-C/.extapps/avr_isp/views/avr_isp_view_writer.o
+ .ARM.attributes
+                0x000003dc       0x34 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app.o
+ .ARM.attributes
+                0x00000410       0x34 build/f7-firmware-C/.extapps/avr_isp/avr_isp_app_i.o
+ .ARM.attributes
+                0x00000444       0x34 build/f7-firmware-C/.extapps/avr_isp/avr_isp_icons.o
+ .ARM.attributes
+                0x00000478       0x34 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_chip_arr.o)
+ .ARM.attributes
+                0x000004ac       0x34 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_prog.o)
+ .ARM.attributes
+                0x000004e0       0x34 build/f7-firmware-C/.extapps/avr_isp/driver(avr_isp_spi_sw.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/avr_isp_d.elf elf32-littlearm)
+LOAD linker stubs

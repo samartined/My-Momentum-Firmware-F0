@@ -1,0 +1,133 @@
+Seader DEFINITIONS IMPLICIT TAGS ::=
+BEGIN
+
+Protocol ::= OCTET STRING
+RfStatus ::= OCTET STRING
+SamResponse ::= OCTET STRING
+-- omnikey_5326_dfr_softwaredeveloperguide 4.2
+PAC ::= BIT STRING
+NoArguments ::= NULL
+
+-- omnikey_5326_dfr_softwaredeveloperguide 3.3
+Payload ::= CHOICE {
+  samCommand [0] SamCommand, --aka SioAPI
+  nfcCommand [1] NFCCommand,
+  response [29] Response,
+  errorResponse [30] ErrorResponse
+}
+
+ErrorResponse ::= SEQUENCE {
+  errorCode [0] INTEGER,
+  data [1] OCTET STRING
+}
+
+SamCommand ::= CHOICE {
+  requestPacs [1] RequestPacs,
+  version [2] NULL,
+  cardDetected [13] CardDetected,
+  serialNumber [22] NoArguments,
+  requestPacs2 [30] RequestPacs,
+  processConfigCard [26] NoArguments
+}
+
+CardDetected ::= SEQUENCE {
+  detectedCardDetails [0] CardDetails
+}
+
+CardDetails ::= SEQUENCE {
+  protocol [0] Protocol,
+  csn [1] OCTET STRING,
+  atqa [2] OCTET STRING OPTIONAL,
+  sak [3] OCTET STRING OPTIONAL
+}
+
+Pacs2 ::= SEQUENCE {
+  bits [0] OCTET STRING OPTIONAL,
+  oid [1] OCTET STRING OPTIONAL,
+  type [2] INTEGER OPTIONAL
+}
+
+SamResponse2 ::= CHOICE {
+  pacs [0] Pacs2
+}
+
+Response ::= CHOICE {
+  nfcResponse [0] NFCResponse,
+  samResponse [10] SamResponse,
+  samResponse2 [19] SamResponse2
+}
+
+NFCResponse ::= CHOICE {
+  nfcRx [0] NFCRx,
+  nfcAck [2] NULL
+}
+
+NFCRx ::= SEQUENCE {
+  data [0] OCTET STRING OPTIONAL,
+  rfStatus [1] RfStatus
+}
+
+NFCCommand ::= CHOICE {
+  nfcSend [1] NFCSend,
+  nfcOff [2] NULL
+}
+
+NFCSend ::= SEQUENCE {
+  data [0] OCTET STRING,
+  protocol [1] Protocol,
+  timeOut [2] INTEGER,
+  format [5] OCTET STRING OPTIONAL
+}
+
+-- omnikey_5326_dfr_softwaredeveloperguide 4.2
+RequestPacs ::= SEQUENCE {
+  contentElementTag [0] ContentElementTag,
+  oid [4] OCTET STRING OPTIONAL
+}
+
+-- omnikey_5326_dfr_softwaredeveloperguide 4.2
+-- omnikey_5025_cl_software_developer_guide_mn_en 6.2
+ContentElementTag ::= ENUMERATED {
+  implicitFormatPhysicalAccessBits (4)
+}
+
+FrameProtocol ::= ENUMERATED {
+  nfc (2),
+  iclass (4)
+}
+
+SamVerionDetails ::= SEQUENCE {
+  zero [0] OCTET STRING,
+  one [1] OCTET STRING,
+  two [2] OCTET STRING,
+  three [3] OCTET STRING
+}
+
+SamVersion ::= SEQUENCE {
+  version [0] OCTET STRING,
+  firmware [1] OCTET STRING,
+  type [2] OCTET STRING,
+  extra [5] SamVerionDetails OPTIONAL
+}
+
+-- Black Hat Asia 25: Dismantling-the-seos-protocol.
+
+Key ::= SEQUENCE {
+  referenceId [1] OCTET STRING,
+  crypto OCTET STRING
+}
+
+PACS ::= SEQUENCE {
+  payload [5] OCTET STRING
+}
+
+SIO ::= SEQUENCE {
+  rid [1] OCTET STRING,
+  unknown3 [3] OCTET STRING OPTIONAL,
+  unknown5 [5] NULL,
+  key [6] Key,
+  pacs [7] PACS,
+  unknown9 [9] NULL
+}
+
+END

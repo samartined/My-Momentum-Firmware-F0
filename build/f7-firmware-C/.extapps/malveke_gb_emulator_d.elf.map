@@ -1,0 +1,259 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .rodata.I_DolphinCommon_56x48
+                0x00000000        0xc build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .rodata._I_DolphinCommon_56x48
+                0x00000000        0x4 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .rodata._I_DolphinCommon_56x48_0
+                0x00000000       0xe3 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator_icons.o
+ .rodata.I_icon
+                0x00000000        0xc build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator_icons.o
+ .rodata._I_icon
+                0x00000000        0x4 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator_icons.o
+ .rodata._I_icon_0
+                0x00000000       0x15 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+LOAD build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x528
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.malveke_gb_emulator_worker
+                0x00000000      0x100 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .text.malveke_gb_emulator_exit
+                0x00000100       0x40 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .text.malveke_gb_emulator_view_draw_callback
+                0x00000140       0xe0 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .text.malveke_gb_emulator_on_irq_cb
+                0x00000220       0x40 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .text.malveke_gb_emulator_view_input_callback
+                0x00000260       0x8c build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .text.malveke_gb_emulator_app
+                0x000002ec      0x23c build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+                0x000002ec                malveke_gb_emulator_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000528      0x1c5
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.malveke_gb_emulator_exit.str1.1
+                0x00000528       0x12 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .rodata.malveke_gb_emulator_view_draw_callback.str1.1
+                0x0000053a       0x20 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .rodata.malveke_gb_emulator_view_input_callback.str1.1
+                0x0000055a        0xf build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .rodata.malveke_gb_emulator_app.str1.1
+                0x00000569       0x29 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ *fill*         0x00000592        0x2 
+ .rodata.sequence_notification
+                0x00000594        0xc build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+                0x00000594                sequence_notification
+ .rodata.I_malveke_67x49
+                0x000005a0        0xc build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator_icons.o
+                0x000005a0                I_malveke_67x49
+ .rodata._I_malveke_67x49
+                0x000005ac        0x4 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator_icons.o
+                0x000005ac                _I_malveke_67x49
+ .rodata._I_malveke_67x49_0
+                0x000005b0      0x13d build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator_icons.o
+                0x000005b0                _I_malveke_67x49_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x60
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x48 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .debug_aranges
+                0x00000048       0x18 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1f2a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1d5c build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .debug_info    0x00001d5c      0x1ce build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator_icons.o
+
+.debug_abbrev   0x00000000      0x5a5
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4e7 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .debug_abbrev  0x000004e7       0xbe build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator_icons.o
+
+.debug_line     0x00000000      0xb99
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x566 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .debug_line.text.malveke_gb_emulator_worker
+                0x00000566      0x188 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .debug_line.text.malveke_gb_emulator_exit
+                0x000006ee       0x38 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .debug_line.text.malveke_gb_emulator_view_draw_callback
+                0x00000726       0xb6 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .debug_line.text.malveke_gb_emulator_on_irq_cb
+                0x000007dc       0x47 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .debug_line.text.malveke_gb_emulator_view_input_callback
+                0x00000823       0x77 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .debug_line.text.malveke_gb_emulator_app
+                0x0000089a      0x14e build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .debug_line_end
+                0x000009e8        0x0 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .debug_line    0x000009e8      0x1b1 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator_icons.o
+ .debug_line_end
+                0x00000b99        0x0 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator_icons.o
+
+.debug_frame    0x00000000       0xf8
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xf8 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+
+.debug_str      0x00000000     0x1743
+ *(.debug_str)
+ .debug_str     0x00000000     0x148d build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .debug_str     0x0000148d      0x2b6 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x40b
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x40b build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x100
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x100 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/malveke_gb_emulator/malveke_gb_emulator_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/malveke_gb_emulator_d.elf elf32-littlearm)
+LOAD linker stubs

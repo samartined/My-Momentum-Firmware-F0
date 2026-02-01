@@ -1,0 +1,390 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+LOAD build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+LOAD build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x1250
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.js_usbdisk_internal_stop_free
+                0x00000000       0x44 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .text.js_usbdisk_destroy
+                0x00000044       0x1c build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .text.js_usbdisk_create
+                0x00000060       0xf0 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .text.js_usbdisk_stop
+                0x00000150       0x70 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .text.js_usbdisk_was_ejected
+                0x000001c0       0x78 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .text.js_usbdisk_start
+                0x00000238      0x1a0 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .text.file_eject
+                0x000003d8       0x20 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .text.file_num_blocks
+                0x000003f8       0x14 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .text.file_write
+                0x0000040c       0x88 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .text.file_read
+                0x00000494       0x90 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .text.js_usbdisk_create_image
+                0x00000524      0x184 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .text.js_usbdisk_ep
+                0x000006a8        0x8 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+                0x000006a8                js_usbdisk_ep
+ .text.scsi_cmd_start
+                0x000006b0       0x8c build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+                0x000006b0                scsi_cmd_start
+ .text.scsi_cmd_rx_data
+                0x0000073c       0x78 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+                0x0000073c                scsi_cmd_rx_data
+ .text.scsi_cmd_tx_data
+                0x000007b4      0x23c build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+                0x000007b4                scsi_cmd_tx_data
+ .text.scsi_cmd_end
+                0x000009f0      0x114 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+                0x000009f0                scsi_cmd_end
+ .text.usbd_ep_stall
+                0x00000b04        0xc build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .text.usb_wakeup
+                0x00000b10        0x2 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ *fill*         0x00000b12        0x2 
+ .text.usb_suspend
+                0x00000b14       0x2c build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .text.usb_rxtx_ep_callback
+                0x00000b40       0x2c build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .text.usb_deinit
+                0x00000b6c       0x74 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .text.usb_control
+                0x00000be0       0x58 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .text.usb_init
+                0x00000c38       0x78 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .text.mass_thread_worker
+                0x00000cb0      0x40c build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .text.usb_ep_config
+                0x000010bc       0x48 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .text.mass_storage_usb_start
+                0x00001104      0x140 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+                0x00001104                mass_storage_usb_start
+ .text.mass_storage_usb_stop
+                0x00001244        0xc build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+                0x00001244                mass_storage_usb_stop
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00001250      0x54a
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.js_usbdisk_internal_stop_free.str1.1
+                0x00001250        0x8 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .rodata.js_usbdisk_create.str1.1
+                0x00001258       0x24 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .rodata.js_usbdisk_stop.str1.1
+                0x0000127c       0x14 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .rodata.js_usbdisk_start.str1.1
+                0x00001290       0x58 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .rodata.file_eject.str1.1
+                0x000012e8       0x10 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .rodata.file_write.str1.1
+                0x000012f8       0x58 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .rodata.file_read.str1.1
+                0x00001350       0x35 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .rodata.js_usbdisk_create_image.str1.1
+                0x00001385       0x2e build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .rodata.str1.1
+                0x000013b3        0xb build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ *fill*         0x000013be        0x2 
+ .rodata.plugin_descriptor
+                0x000013c0        0xc build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .rodata.js_usbdisk_desc
+                0x000013cc       0x10 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .rodata.scsi_cmd_start.str1.1
+                0x000013dc       0x4c build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .rodata.scsi_cmd_rx_data.str1.1
+                0x00001428       0x31 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .rodata.scsi_cmd_tx_data.str1.1
+                0x00001459       0xd2 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .rodata.scsi_cmd_end.str1.1
+                0x0000152b       0x85 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .rodata.usb_deinit.str1.1
+                0x000015b0       0x24 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .rodata.mass_thread_worker.str1.1
+                0x000015d4      0x134 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .rodata.mass_storage_usb_start.str1.1
+                0x00001708       0x33 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .rodata.usb_mass_cfg_descr
+                0x0000173b       0x20 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .rodata.usb_mass_dev_descr
+                0x0000175b       0x12 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ *fill*         0x0000176d        0x1 
+ .rodata.dev_manuf_desc
+                0x0000176e       0x2c build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss            0x0000179c        0x8
+ *(.bss)
+ *(.bss*)
+ .bss.max_lun.0
+                0x0000179c        0x1 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ *fill*         0x0000179d        0x3 
+ .bss.mass_cur  0x000017a0        0x4 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x120
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x78 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_aranges
+                0x00000078       0x38 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .debug_aranges
+                0x000000b0       0x70 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x4568
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x172f build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_info    0x0000172f      0x8d6 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .debug_info    0x00002005     0x2563 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+
+.debug_abbrev   0x00000000      0xa11
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x2c0 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_abbrev  0x000002c0      0x1fc build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .debug_abbrev  0x000004bc      0x555 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+
+.debug_line     0x00000000     0x1f6c
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x464 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_line.text.js_usbdisk_internal_stop_free
+                0x00000464       0x55 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_line.text.js_usbdisk_destroy
+                0x000004b9       0x2c build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_line.text.js_usbdisk_create
+                0x000004e5       0x60 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_line.text.js_usbdisk_stop
+                0x00000545       0x4d build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_line.text.js_usbdisk_was_ejected
+                0x00000592       0x4d build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_line.text.js_usbdisk_start
+                0x000005df      0x15e build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_line.text.file_eject
+                0x0000073d       0x2e build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_line.text.file_num_blocks
+                0x0000076b       0x23 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_line.text.file_write
+                0x0000078e       0x6a build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_line.text.file_read
+                0x000007f8       0x6f build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_line.text.js_usbdisk_create_image
+                0x00000867      0x19c build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_line.text.js_usbdisk_ep
+                0x00000a03       0x19 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_line_end
+                0x00000a1c        0x0 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_line    0x00000a1c      0x27e build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .debug_line.text.scsi_cmd_start
+                0x00000c9a       0xb8 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .debug_line.text.scsi_cmd_rx_data
+                0x00000d52       0x97 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .debug_line.text.scsi_cmd_tx_data
+                0x00000de9      0x34f build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .debug_line.text.scsi_cmd_end
+                0x00001138       0xfc build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .debug_line_end
+                0x00001234        0x0 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .debug_line    0x00001234      0x367 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .debug_line.text.usbd_ep_stall
+                0x0000159b       0x23 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .debug_line.text.usb_wakeup
+                0x000015be       0x19 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .debug_line.text.usb_suspend
+                0x000015d7       0x3b build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .debug_line.text.usb_rxtx_ep_callback
+                0x00001612       0x42 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .debug_line.text.usb_deinit
+                0x00001654       0x9c build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .debug_line.text.usb_control
+                0x000016f0       0x80 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .debug_line.text.usb_init
+                0x00001770       0xa1 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .debug_line.text.mass_thread_worker
+                0x00001811      0x4c8 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .debug_line.text.usb_ep_config
+                0x00001cd9       0xe4 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .debug_line.text.mass_storage_usb_start
+                0x00001dbd      0x198 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .debug_line.text.mass_storage_usb_stop
+                0x00001f55       0x17 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ .debug_line_end
+                0x00001f6c        0x0 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+
+.debug_frame    0x00000000      0x3e0
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1c8 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_frame   0x000001c8       0xac build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .debug_frame   0x00000274      0x16c build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+
+.debug_str      0x00000000     0x1d93
+ *(.debug_str)
+ .debug_str     0x00000000      0xac4 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_str     0x00000ac4      0x402 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .debug_str     0x00000ec6      0xecd build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x1393
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x64d build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_loclists
+                0x0000064d      0x2df build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .debug_loclists
+                0x0000092c      0xa67 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x24b
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xb4 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .debug_rnglists
+                0x000000b4       0x55 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .debug_rnglists
+                0x00000109      0x142 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/js_usbdisk.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_scsi.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/js_usbdisk/modules/js_usbdisk/mass_storage_usb.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/js_usbdisk_d.elf elf32-littlearm)
+LOAD linker stubs

@@ -1,0 +1,310 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .text.text_viewer_scene_show_widget_callback
+                0x00000000       0x14 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .debug_line.text.text_viewer_scene_show_widget_callback
+                0x00000000       0x25 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/text_viewer/text_viewer_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/text_viewer/text_viewer_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/text_viewer/text_viewer_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/text_viewer/text_viewer_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene.o
+LOAD build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+LOAD build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+LOAD build/f7-firmware-C/.extapps/text_viewer/text_viewer_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x3ac
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.text_show_read_lines
+                0x00000000       0x58 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .text.text_viewer_scene_show_on_enter
+                0x00000058      0x178 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+                0x00000058                text_viewer_scene_show_on_enter
+ .text.text_viewer_scene_show_on_event
+                0x000001d0       0x24 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+                0x000001d0                text_viewer_scene_show_on_event
+ .text.text_viewer_scene_show_on_exit
+                0x000001f4        0xc build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+                0x000001f4                text_viewer_scene_show_on_exit
+ .text.text_viewer_back_event_callback
+                0x00000200        0xc build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .text.text_viewer_custom_event_callback
+                0x0000020c        0xc build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .text.text_viewer_alloc
+                0x00000218       0xa4 build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+                0x00000218                text_viewer_alloc
+ .text.text_viewer_free
+                0x000002bc       0x54 build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+                0x000002bc                text_viewer_free
+ .text.text_viewer
+                0x00000310       0x9c build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+                0x00000310                text_viewer
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000003ac       0xe1
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.text_viewer_scene_handlers
+                0x000003ac       0x10 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene.o
+                0x000003ac                text_viewer_scene_handlers
+ .rodata.text_viewer_on_exit_handlers
+                0x000003bc        0x4 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene.o
+                0x000003bc                text_viewer_on_exit_handlers
+ .rodata.text_viewer_on_event_handlers
+                0x000003c0        0x4 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene.o
+                0x000003c0                text_viewer_on_event_handlers
+ .rodata.text_viewer_on_enter_handlers
+                0x000003c4        0x4 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene.o
+                0x000003c4                text_viewer_on_enter_handlers
+ .rodata.text_viewer_scene_show_on_enter.str1.1
+                0x000003c8       0x8a build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .rodata.text_viewer_alloc.str1.1
+                0x00000452        0x4 build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .rodata.text_viewer.str1.1
+                0x00000456        0xf build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ *fill*         0x00000465        0x3 
+ .rodata.I_text_10px
+                0x00000468        0xc build/f7-firmware-C/.extapps/text_viewer/text_viewer_icons.o
+                0x00000468                I_text_10px
+ .rodata._I_text_10px
+                0x00000474        0x4 build/f7-firmware-C/.extapps/text_viewer/text_viewer_icons.o
+                0x00000474                _I_text_10px
+ .rodata._I_text_10px_0
+                0x00000478       0x15 build/f7-firmware-C/.extapps/text_viewer/text_viewer_icons.o
+                0x00000478                _I_text_10px_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xb0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene.o
+ .debug_aranges
+                0x00000018       0x40 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .debug_aranges
+                0x00000058       0x40 build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .debug_aranges
+                0x00000098       0x18 build/f7-firmware-C/.extapps/text_viewer/text_viewer_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1903
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x26b build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene.o
+ .debug_info    0x0000026b      0xad2 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .debug_info    0x00000d3d      0xa42 build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .debug_info    0x0000177f      0x184 build/f7-firmware-C/.extapps/text_viewer/text_viewer_icons.o
+
+.debug_abbrev   0x00000000      0x693
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x133 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene.o
+ .debug_abbrev  0x00000133      0x266 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .debug_abbrev  0x00000399      0x249 build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .debug_abbrev  0x000005e2       0xb1 build/f7-firmware-C/.extapps/text_viewer/text_viewer_icons.o
+
+.debug_line     0x00000000      0xd84
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x1b4 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene.o
+ .debug_line_end
+                0x000001b4        0x0 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene.o
+ .debug_line    0x000001b4      0x36e build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .debug_line.text.text_show_read_lines
+                0x00000522       0x74 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .debug_line.text.text_viewer_scene_show_on_enter
+                0x00000596       0xe2 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .debug_line.text.text_viewer_scene_show_on_event
+                0x00000678       0x35 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .debug_line.text.text_viewer_scene_show_on_exit
+                0x000006ad       0x1c build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .debug_line_end
+                0x000006c9        0x0 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .debug_line    0x000006c9      0x3bf build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .debug_line.text.text_viewer_back_event_callback
+                0x00000a88       0x1c build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .debug_line.text.text_viewer_custom_event_callback
+                0x00000aa4       0x1d build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .debug_line.text.text_viewer_alloc
+                0x00000ac1       0x71 build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .debug_line.text.text_viewer_free
+                0x00000b32       0x30 build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .debug_line.text.text_viewer
+                0x00000b62       0x89 build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .debug_line_end
+                0x00000beb        0x0 build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .debug_line    0x00000beb      0x199 build/f7-firmware-C/.extapps/text_viewer/text_viewer_icons.o
+ .debug_line_end
+                0x00000d84        0x0 build/f7-firmware-C/.extapps/text_viewer/text_viewer_icons.o
+
+.debug_frame    0x00000000      0x12c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xa4 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .debug_frame   0x000000a4       0x88 build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+
+.debug_str      0x00000000     0x17b3
+ *(.debug_str)
+ .debug_str     0x00000000      0x42a build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene.o
+ .debug_str     0x0000042a      0x863 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .debug_str     0x00000c8d      0x8a5 build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .debug_str     0x00001532      0x281 build/f7-firmware-C/.extapps/text_viewer/text_viewer_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x316
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x1ee build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .debug_loclists
+                0x000001ee      0x128 build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x75
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x48 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .debug_rnglists
+                0x00000048       0x2d build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/text_viewer/scenes/text_viewer_scene_show.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/text_viewer/text_viewer.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/text_viewer/text_viewer_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/text_viewer_d.elf elf32-littlearm)
+LOAD linker stubs

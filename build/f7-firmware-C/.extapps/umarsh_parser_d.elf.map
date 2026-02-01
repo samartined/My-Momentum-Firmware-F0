@@ -1,0 +1,209 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x1f4
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.parse_datetime
+                0x00000000       0x1c build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+                0x00000000                parse_datetime
+ .text.umarsh_parse
+                0x0000001c      0x1d0 build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+ .text.umarsh_plugin_ep
+                0x000001ec        0x8 build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+                0x000001ec                umarsh_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000001f4       0xc8
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.umarsh_parse.str1.1
+                0x000001f4       0x94 build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+ .rodata.str1.1
+                0x00000288       0x17 build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+ *fill*         0x0000029f        0x1 
+ .rodata.umarsh_plugin_descriptor
+                0x000002a0        0xc build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+ .rodata.umarsh_plugin
+                0x000002ac       0x10 build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x30
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xd4e
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xd4e build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+
+.debug_abbrev   0x00000000      0x253
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x253 build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+
+.debug_line     0x00000000      0x56f
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x322 build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+ .debug_line.text.parse_datetime
+                0x00000322       0x3c build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+ .debug_line.text.umarsh_parse
+                0x0000035e      0x1f8 build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+ .debug_line.text.umarsh_plugin_ep
+                0x00000556       0x19 build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+ .debug_line_end
+                0x0000056f        0x0 build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+
+.debug_frame    0x00000000       0x60
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x60 build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+
+.debug_str      0x00000000      0x940
+ *(.debug_str)
+ .debug_str     0x00000000      0x940 build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x232
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x232 build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x2d
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x2d build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/umarsh_parser/plugins/supported_cards/umarsh.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/umarsh_parser_d.elf elf32-littlearm)
+LOAD linker stubs

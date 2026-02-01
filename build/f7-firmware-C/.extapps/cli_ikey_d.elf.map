@@ -1,0 +1,241 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x530
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.ibutton_cli_print_usage
+                0x00000000       0x58 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .text.ibutton_cli_worker_write_cb
+                0x00000058       0x10 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .text.ibutton_cli_worker_read_cb
+                0x00000068        0xc build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .text.ibutton_cli_parse_key
+                0x00000074       0xa4 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .text.ibutton_cli_print_key
+                0x00000118       0x84 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .text.ibutton_cli_write
+                0x0000019c      0x148 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+                0x0000019c                ibutton_cli_write
+ .text.ibutton_cli_emulate
+                0x000002e4       0xdc build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+                0x000002e4                ibutton_cli_emulate
+ .text.execute  0x000003c0      0x168 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .text.cli_ikey_ep
+                0x00000528        0x8 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+                0x00000528                cli_ikey_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000530      0x1c8
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.ibutton_cli_print_usage.str1.1
+                0x00000530      0x100 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .rodata.ibutton_cli_print_key.str1.1
+                0x00000630       0x15 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .rodata.ibutton_cli_write.str1.1
+                0x00000645       0x3f build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .rodata.ibutton_cli_emulate.str1.1
+                0x00000684        0xf build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .rodata.execute.str1.1
+                0x00000693       0x3e build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .rodata.str1.1
+                0x000006d1        0x9 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ *fill*         0x000006da        0x2 
+ .rodata.plugin_descriptor_ikey
+                0x000006dc        0xc build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .rodata.cli_ikey_desc
+                0x000006e8       0x10 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x60
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x60 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1546
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1546 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+
+.debug_abbrev   0x00000000      0x353
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x353 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+
+.debug_line     0x00000000      0x7dc
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3dc build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .debug_line.text.ibutton_cli_print_usage
+                0x000003dc       0x2b build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .debug_line.text.ibutton_cli_worker_write_cb
+                0x00000407       0x26 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .debug_line.text.ibutton_cli_worker_read_cb
+                0x0000042d       0x1c build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .debug_line.text.ibutton_cli_parse_key
+                0x00000449       0x87 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .debug_line.text.ibutton_cli_print_key
+                0x000004d0       0x74 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .debug_line.text.ibutton_cli_write
+                0x00000544       0xda build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .debug_line.text.ibutton_cli_emulate
+                0x0000061e       0x9b build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .debug_line.text.execute
+                0x000006b9      0x110 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .debug_line.text.cli_ikey_ep
+                0x000007c9       0x13 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ .debug_line_end
+                0x000007dc        0x0 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+
+.debug_frame    0x00000000      0x14c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x14c build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+
+.debug_str      0x00000000      0xb2c
+ *(.debug_str)
+ .debug_str     0x00000000      0xb2c build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x490
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x490 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x8e
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x8e build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/cli_ikey/ibutton_cli.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/cli_ikey_d.elf elf32-littlearm)
+LOAD linker stubs

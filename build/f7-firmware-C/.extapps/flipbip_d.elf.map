@@ -1,0 +1,2991 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+                              build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o (hdnode_fill_public_key)
+build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+                              build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o (mnemonic_generate)
+build/f7-firmware-C/.extapps/flipbip/crypto(bip39_english.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o) (BIP39_WORDLIST_ENGLISH)
+build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o) (CURVE25519_NAME)
+build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o) (point_is_infinity)
+build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o) (hasher_Raw)
+build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o) (hmac_sha512_Init)
+build/f7-firmware-C/.extapps/flipbip/crypto(memzero.o)
+                              build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o (memzero)
+build/f7-firmware-C/.extapps/flipbip/crypto(nist256p1.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o) (nist256p1_info)
+build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o) (pbkdf2_hmac_sha512_Init)
+build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o) (random32)
+build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+                              build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o (rc4_init)
+build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o) (init_rfc6979)
+build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o) (ripemd160)
+build/f7-firmware-C/.extapps/flipbip/crypto(secp256k1.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o) (secp256k1_smart_info)
+build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o) (sha256_initial_hash_value)
+build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o) (sha3_256_Init)
+build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o) (ed25519_sign)
+build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_basepoint_table.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o) (ge25519_niels_base_multiples)
+build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o) (ed25519_verify)
+build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o) (ed25519_sign_keccak)
+build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o) (ed25519_sign_sha3)
+build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o) (add256_modm)
+build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o) (address_prefix_bytes_len)
+build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o) (base58_encode_check)
+build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o) (bn_read_be)
+build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o) (blake256_Init)
+build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o) (blake2b_Init)
+build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o) (groestl512_Init)
+build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o) (hmac_drbg_init)
+build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o) (curve25519_copy)
+build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o) (curve25519_recip)
+build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_scalarmult_base.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o) (curve25519_scalarmult_donna)
+build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_32bit_tables.o)
+                              build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o) (ge25519_niels_sliding_multiples)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .text.flipbip_scene_settings_submenu_callback
+                0x00000000        0xc build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .debug_line.text.flipbip_scene_settings_submenu_callback
+                0x00000000       0x18 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .text.flipbip_scene_1_free
+                0x00000000       0x90 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_line.text.flipbip_scene_1_free
+                0x00000000       0x3f build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/flipbip_coins.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/flipbip_coins.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/flipbip_coins.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/flipbip_coins.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .text.read_be  0x00000000        0x6 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .text.hdnode_public_ckd_cp
+                0x00000000      0x140 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .text.hdnode_public_ckd
+                0x00000000       0x9c build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .text.hdnode_public_ckd_address_optimized
+                0x00000000       0x94 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .text.hdnode_get_address_raw
+                0x00000000       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .text.hdnode_get_address
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .text.hdnode_sign
+                0x00000000       0x8c build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .text.hdnode_sign_digest
+                0x00000000       0x4c build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .text.hdnode_get_shared_key
+                0x00000000       0x5c build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .text.hdnode_from_xpub
+                0x00000000       0x78 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .text.hdnode_from_xprv
+                0x00000000       0xc4 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .text.hdnode_deserialize
+                0x00000000       0xfc build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .text.hdnode_deserialize_public
+                0x00000000       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .text.hdnode_deserialize_private
+                0x00000000       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.read_be
+                0x00000000       0x1a build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_public_ckd_cp
+                0x00000000       0xf9 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_public_ckd
+                0x00000000       0x7b build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_public_ckd_address_optimized
+                0x00000000       0x5b build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_get_address_raw
+                0x00000000       0x3a build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_get_address
+                0x00000000       0x3d build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_sign
+                0x00000000       0x74 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_sign_digest
+                0x00000000       0x4c build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_get_shared_key
+                0x00000000       0x7d build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_from_xpub
+                0x00000000       0x5a build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_from_xprv
+                0x00000000       0x8b build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_deserialize
+                0x00000000       0xb7 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_deserialize_public
+                0x00000000       0x22 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_deserialize_private
+                0x00000000       0x22 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .text.mnemonic_complete_word
+                0x00000000       0x38 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .text.mnemonic_get_word
+                0x00000000       0x14 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .text.mnemonic_word_completion_mask
+                0x00000000       0x54 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_line.text.mnemonic_complete_word
+                0x00000000       0x4d build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_line.text.mnemonic_get_word
+                0x00000000       0x27 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_line.text.mnemonic_word_completion_mask
+                0x00000000       0x85 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(bip39_english.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(bip39_english.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(bip39_english.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(bip39_english.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text.ecdsa_sign_digest
+                0x00000000      0x1dc build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text.ecdsa_sign
+                0x00000000       0x58 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text.ecdsa_get_address_segwit_p2sh_raw
+                0x00000000       0x60 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text.ecdsa_get_address_segwit_p2sh
+                0x00000000       0x64 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text.ecdsa_get_wif
+                0x00000000       0x80 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text.ecdsa_address_decode
+                0x00000000       0x44 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text.compress_coords
+                0x00000000       0x14 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text.uncompress_coords
+                0x00000000       0x84 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text.ecdsa_validate_pubkey
+                0x00000000       0xf0 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text.ecdsa_read_pubkey
+                0x00000000       0x6c build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text.ecdh_multiply
+                0x00000000       0xb0 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text.ecdsa_uncompress_pubkey
+                0x00000000       0x48 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text.ecdsa_recover_pub_from_sig
+                0x00000000      0x18c build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text.ecdsa_verify_digest
+                0x00000000      0x164 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text.ecdsa_verify
+                0x00000000       0x50 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text.ecdsa_sig_to_der
+                0x00000000       0xb4 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text.ecdsa_sig_from_der
+                0x00000000       0x8c build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_sign_digest
+                0x00000000      0x167 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_sign
+                0x00000000       0x3e build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_get_address_segwit_p2sh_raw
+                0x00000000       0x4c build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_get_address_segwit_p2sh
+                0x00000000       0x43 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_get_wif
+                0x00000000       0x4f build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_address_decode
+                0x00000000       0x41 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.compress_coords
+                0x00000000       0x30 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.uncompress_coords
+                0x00000000       0x4a build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_validate_pubkey
+                0x00000000       0x76 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_read_pubkey
+                0x00000000       0x57 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdh_multiply
+                0x00000000       0x80 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_uncompress_pubkey
+                0x00000000       0x49 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_recover_pub_from_sig
+                0x00000000       0xe9 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_verify_digest
+                0x00000000      0x100 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_verify
+                0x00000000       0x3e build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_sig_to_der
+                0x00000000      0x158 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_sig_from_der
+                0x00000000      0x10d build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .text.hasher_Reset
+                0x00000000       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .debug_line.text.hasher_Reset
+                0x00000000       0x23 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .text.hmac_sha256_Init
+                0x00000000       0x84 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .text.hmac_sha256_Update
+                0x00000000        0xc build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .text.hmac_sha256_Final
+                0x00000000       0x50 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .text.hmac_sha256
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .text.hmac_sha256_prepare
+                0x00000000       0xa4 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .text.hmac_sha512
+                0x00000000       0x48 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .bss.context.3
+                0x00000000       0x68 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .bss.key_pad.4
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .bss.hctx.5    0x00000000       0xa8 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .bss.i_key_pad.6
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_line.text.hmac_sha256_Init
+                0x00000000       0x8b build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_line.text.hmac_sha256_Update
+                0x00000000       0x17 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_line.text.hmac_sha256_Final
+                0x00000000       0x37 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_line.text.hmac_sha256
+                0x00000000       0x3e build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_line.text.hmac_sha256_prepare
+                0x00000000       0xfc build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_line.text.hmac_sha512
+                0x00000000       0x39 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(memzero.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(memzero.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(memzero.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(memzero.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(nist256p1.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(nist256p1.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(nist256p1.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(nist256p1.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .text.pbkdf2_hmac_sha256_Init
+                0x00000000       0xdc build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .text.pbkdf2_hmac_sha256_Update
+                0x00000000       0x58 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .text.pbkdf2_hmac_sha256_Final
+                0x00000000       0x38 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .text.pbkdf2_hmac_sha256
+                0x00000000       0xc0 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .text.pbkdf2_hmac_sha512
+                0x00000000       0xc4 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .debug_line.text.pbkdf2_hmac_sha256_Init
+                0x00000000       0xb2 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .debug_line.text.pbkdf2_hmac_sha256_Update
+                0x00000000       0x8b build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .debug_line.text.pbkdf2_hmac_sha256_Final
+                0x00000000       0x65 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .debug_line.text.pbkdf2_hmac_sha256
+                0x00000000       0xa2 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .debug_line.text.pbkdf2_hmac_sha512
+                0x00000000       0xa1 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .text.random_reseed
+                0x00000000        0x2 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .text.random_uniform
+                0x00000000       0x24 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .text.random_permute
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .debug_line.text.random_reseed
+                0x00000000       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .debug_line.text.random_uniform
+                0x00000000       0x6a build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .debug_line.text.random_permute
+                0x00000000       0x93 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .text.init_rfc6979
+                0x00000000       0x90 build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .text.generate_rfc6979
+                0x00000000       0x10 build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .text.generate_k_rfc6979
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .debug_info    0x00000000      0x577 build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .debug_abbrev  0x00000000      0x172 build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .debug_loclists
+                0x00000000      0x12b build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .debug_rnglists
+                0x00000000       0x20 build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .debug_line    0x00000000      0x215 build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .debug_str     0x00000000      0x349 build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .debug_line.text.init_rfc6979
+                0x00000000       0x51 build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .debug_line.text.generate_rfc6979
+                0x00000000       0x1f build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .debug_line.text.generate_k_rfc6979
+                0x00000000       0x2e build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .debug_frame   0x00000000       0x6c build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(secp256k1.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(secp256k1.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(secp256k1.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(secp256k1.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .text.sha1_Init
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .text.sha1_Transform
+                0x00000000      0x29c build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .text.sha1_Update
+                0x00000000       0xfc build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .text.sha1_Final
+                0x00000000       0xb4 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .rodata.sha1_End.str1.1
+                0x00000000       0x11 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .text.sha1_End
+                0x00000000       0x78 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .text.sha1_Raw
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .text.sha1_Data
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .text.sha256_End
+                0x00000000       0x78 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .text.sha256_Data
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .text.sha512_End
+                0x00000000       0x78 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .text.sha512_Data
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .rodata.sha1_initial_hash_value
+                0x00000000       0x14 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha1_Init
+                0x00000000       0x2e build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha1_Transform
+                0x00000000      0x4a6 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha1_Update
+                0x00000000      0x123 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha1_Final
+                0x00000000      0x135 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha1_End
+                0x00000000       0xb0 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha1_Raw
+                0x00000000       0x2b build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha1_Data
+                0x00000000       0x2e build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha256_End
+                0x00000000       0xac build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha256_Data
+                0x00000000       0x3d build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha512_End
+                0x00000000       0xac build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha512_Data
+                0x00000000       0x3d build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .text.sha3_224_Init
+                0x00000000       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .text.sha3_384_Init
+                0x00000000       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .text.sha3_512_Init
+                0x00000000       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .text.keccak_256
+                0x00000000       0x44 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .text.keccak_512
+                0x00000000       0x44 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .text.sha3_256
+                0x00000000       0x44 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .text.sha3_512
+                0x00000000       0x44 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_line.text.sha3_224_Init
+                0x00000000       0x3d build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_line.text.sha3_384_Init
+                0x00000000       0x3e build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_line.text.sha3_512_Init
+                0x00000000       0x3e build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_line.text.keccak_256
+                0x00000000       0x2b build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_line.text.keccak_512
+                0x00000000       0x2b build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_line.text.sha3_256
+                0x00000000       0x2b build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_line.text.sha3_512
+                0x00000000       0x2b build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .text.ed25519_extsk
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .text.ed25519_hram
+                0x00000000       0x44 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .text.ed25519_cosi_commit
+                0x00000000       0x8c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .text.ed25519_cosi_sign
+                0x00000000       0xe0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .text.ed25519_sign_ext
+                0x00000000      0x188 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .text.ed25519_sign
+                0x00000000       0x4c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .text.ed25519_sign_open
+                0x00000000       0xec build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .text.ed25519_scalarmult
+                0x00000000       0xb0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .text.ed25519_publickey_ext
+                0x00000000       0x6c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .text.ed25519_publickey
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .text.ed25519_cosi_combine_publickeys
+                0x00000000       0xd0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .text.ed25519_cosi_combine_signatures
+                0x00000000       0x84 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .text.curve25519_scalarmult_basepoint
+                0x00000000       0xf8 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .text.curve25519_scalarmult
+                0x00000000       0x58 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_info    0x00000000     0x1d18 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_abbrev  0x00000000      0x27e build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_loclists
+                0x00000000      0x5ff build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_aranges
+                0x00000000       0x88 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_rnglists
+                0x00000000       0x69 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_line    0x00000000      0x384 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_str     0x00000000      0x70d build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_line.text.ed25519_extsk
+                0x00000000       0x37 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_line.text.ed25519_hram
+                0x00000000       0x31 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_line.text.ed25519_cosi_commit
+                0x00000000       0x5a build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_line.text.ed25519_cosi_sign
+                0x00000000       0x69 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_line.text.ed25519_sign_ext
+                0x00000000       0x98 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_line.text.ed25519_sign
+                0x00000000       0x2f build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_line.text.ed25519_sign_open
+                0x00000000       0x87 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_line.text.ed25519_scalarmult
+                0x00000000       0x6a build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_line.text.ed25519_publickey_ext
+                0x00000000       0x3e build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_line.text.ed25519_publickey
+                0x00000000       0x2e build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_line.text.ed25519_cosi_combine_publickeys
+                0x00000000       0xb7 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_line.text.ed25519_cosi_combine_signatures
+                0x00000000       0x5e build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_line.text.curve25519_scalarmult_basepoint
+                0x00000000       0x77 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_line.text.curve25519_scalarmult
+                0x00000000       0x44 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .debug_frame   0x00000000      0x244 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_basepoint_table.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_basepoint_table.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_basepoint_table.o)
+ .rodata.ge25519_niels_base_multiples
+                0x00000000     0x6000 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_basepoint_table.o)
+ .debug_info    0x00000000       0xc6 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_basepoint_table.o)
+ .debug_abbrev  0x00000000       0x73 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_basepoint_table.o)
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_basepoint_table.o)
+ .debug_line    0x00000000      0x18f build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_basepoint_table.o)
+ .debug_str     0x00000000      0x246 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_basepoint_table.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_basepoint_table.o)
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_basepoint_table.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ed25519_verify
+                0x00000000       0x20 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_p1p1_to_partial
+                0x00000000       0x38 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_p1p1_to_full
+                0x00000000       0x44 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_full_to_pniels
+                0x00000000       0x50 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_double_p1p1
+                0x00000000       0xa4 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_nielsadd2_p1p1
+                0x00000000       0xe0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_pnielsadd_p1p1
+                0x00000000       0xf0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_double_partial
+                0x00000000       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_double
+                0x00000000       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_nielsadd2
+                0x00000000       0xf4 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_pnielsadd
+                0x00000000      0x12c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_pack
+                0x00000000       0x78 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_unpack_negative_vartime
+                0x00000000      0x198 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_set_neutral
+                0x00000000       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_double_scalarmult_vartime
+                0x00000000      0x194 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_move_conditional_pniels_array
+                0x00000000       0x7c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_move_conditional_niels_array
+                0x00000000       0x78 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_scalarmult
+                0x00000000      0x13c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_scalarmult_base_choose_niels
+                0x00000000       0x98 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_scalarmult_base_niels
+                0x00000000      0x110 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_check
+                0x00000000       0xe0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_eq
+                0x00000000       0xb0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_copy
+                0x00000000       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_set_base
+                0x00000000       0x10 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_mul8
+                0x00000000       0x24 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_neg_partial
+                0x00000000        0xc build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_neg_full
+                0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_reduce
+                0x00000000       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_norm
+                0x00000000       0x5c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_add
+                0x00000000       0x60 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_fromfe_frombytes_vartime
+                0x00000000      0x190 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_unpack_vartime
+                0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text.ge25519_scalarmult_base_wrapper
+                0x00000000       0x10 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .rodata.fe_fffb4
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .rodata.fe_fffb3
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .rodata.fe_fffb2
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .rodata.fe_fffb1
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .rodata.fe_ma  0x00000000       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .rodata.fe_ma2
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .rodata.fe_sqrtm1
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_info    0x00000000     0x3d01 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_abbrev  0x00000000      0x352 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_loclists
+                0x00000000     0x1016 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_aranges
+                0x00000000      0x120 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_rnglists
+                0x00000000      0x113 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line    0x00000000      0x2e0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_str     0x00000000      0x928 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ed25519_verify
+                0x00000000       0x5c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_p1p1_to_partial
+                0x00000000       0x39 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_p1p1_to_full
+                0x00000000       0x3b build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_full_to_pniels
+                0x00000000       0x2f build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_double_p1p1
+                0x00000000       0x55 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_nielsadd2_p1p1
+                0x00000000       0x8b build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_pnielsadd_p1p1
+                0x00000000       0x92 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_double_partial
+                0x00000000       0x2e build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_double
+                0x00000000       0x2e build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_nielsadd2
+                0x00000000       0x6c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_pnielsadd
+                0x00000000       0x74 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_pack
+                0x00000000       0x56 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_unpack_negative_vartime
+                0x00000000       0xbe build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_set_neutral
+                0x00000000       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_double_scalarmult_vartime
+                0x00000000      0x12a build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_move_conditional_pniels_array
+                0x00000000       0xd7 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_move_conditional_niels_array
+                0x00000000       0xd3 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_scalarmult
+                0x00000000      0x12b build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_scalarmult_base_choose_niels
+                0x00000000       0x81 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_scalarmult_base_niels
+                0x00000000       0xca build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_check
+                0x00000000       0x8f build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_eq
+                0x00000000       0x86 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_copy
+                0x00000000       0x2e build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_set_base
+                0x00000000       0x17 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_mul8
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_neg_partial
+                0x00000000       0x1d build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_neg_full
+                0x00000000       0x32 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_reduce
+                0x00000000       0x2e build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_norm
+                0x00000000       0x3a build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_add
+                0x00000000       0x46 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_fromfe_frombytes_vartime
+                0x00000000       0xc8 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_unpack_vartime
+                0x00000000       0x35 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line.text.ge25519_scalarmult_base_wrapper
+                0x00000000       0x1e build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .debug_frame   0x00000000      0x4ec build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .text.ed25519_extsk
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .text.ed25519_hram
+                0x00000000       0x44 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .text.ed25519_publickey_keccak
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .text.ed25519_cosi_commit_keccak
+                0x00000000       0x8c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .text.ed25519_cosi_sign_keccak
+                0x00000000       0xe0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .text.ed25519_sign_ext_keccak
+                0x00000000      0x188 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .text.ed25519_sign_keccak
+                0x00000000       0x4c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .text.ed25519_sign_open_keccak
+                0x00000000       0xec build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .text.ed25519_scalarmult_keccak
+                0x00000000       0xb0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .debug_info    0x00000000     0x1488 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .debug_abbrev  0x00000000      0x1f5 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .debug_loclists
+                0x00000000      0x3ac build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .debug_aranges
+                0x00000000       0x60 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .debug_rnglists
+                0x00000000       0x48 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .debug_line    0x00000000      0x354 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .debug_str     0x00000000      0x56d build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .debug_line.text.ed25519_extsk
+                0x00000000       0x39 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .debug_line.text.ed25519_hram
+                0x00000000       0x33 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .debug_line.text.ed25519_publickey_keccak
+                0x00000000       0x30 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .debug_line.text.ed25519_cosi_commit_keccak
+                0x00000000       0x5c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .debug_line.text.ed25519_cosi_sign_keccak
+                0x00000000       0x6b build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .debug_line.text.ed25519_sign_ext_keccak
+                0x00000000       0x9a build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .debug_line.text.ed25519_sign_keccak
+                0x00000000       0x31 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .debug_line.text.ed25519_sign_open_keccak
+                0x00000000       0x89 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .debug_line.text.ed25519_scalarmult_keccak
+                0x00000000       0x6c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .debug_frame   0x00000000      0x174 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .text.ed25519_extsk
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .text.ed25519_hram
+                0x00000000       0x44 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .text.ed25519_publickey_sha3
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .text.ed25519_cosi_commit_sha3
+                0x00000000       0x8c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .text.ed25519_cosi_sign_sha3
+                0x00000000       0xe0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .text.ed25519_sign_ext_sha3
+                0x00000000      0x188 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .text.ed25519_sign_sha3
+                0x00000000       0x4c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .text.ed25519_sign_open_sha3
+                0x00000000       0xec build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .text.ed25519_scalarmult_sha3
+                0x00000000       0xb0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .debug_info    0x00000000     0x1488 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .debug_abbrev  0x00000000      0x1f5 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .debug_loclists
+                0x00000000      0x3ac build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .debug_aranges
+                0x00000000       0x60 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .debug_rnglists
+                0x00000000       0x48 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .debug_line    0x00000000      0x352 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .debug_str     0x00000000      0x559 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .debug_line.text.ed25519_extsk
+                0x00000000       0x39 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .debug_line.text.ed25519_hram
+                0x00000000       0x33 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .debug_line.text.ed25519_publickey_sha3
+                0x00000000       0x30 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .debug_line.text.ed25519_cosi_commit_sha3
+                0x00000000       0x5c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .debug_line.text.ed25519_cosi_sign_sha3
+                0x00000000       0x6b build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .debug_line.text.ed25519_sign_ext_sha3
+                0x00000000       0x9a build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .debug_line.text.ed25519_sign_sha3
+                0x00000000       0x31 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .debug_line.text.ed25519_sign_open_sha3
+                0x00000000       0x89 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .debug_line.text.ed25519_scalarmult_sha3
+                0x00000000       0x6c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .debug_frame   0x00000000      0x174 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.U32TO8_LE
+                0x00000000       0x10 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.U8TO32_LE
+                0x00000000        0x4 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.reduce256_modm
+                0x00000000      0x120 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.barrett_reduce256_modm
+                0x00000000      0x560 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.add256_modm
+                0x00000000       0x94 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.neg256_modm
+                0x00000000       0xa4 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.sub256_modm
+                0x00000000       0xc8 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.mul256_modm
+                0x00000000      0x400 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.expand256_modm
+                0x00000000      0x1a4 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.expand_raw256_modm
+                0x00000000       0xb0 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.is_reduced256_modm
+                0x00000000       0x3c build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.contract256_modm
+                0x00000000       0x8c build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.contract256_window4_modm
+                0x00000000       0xa0 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.contract256_slidingwindow_modm
+                0x00000000       0xd0 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.set256_modm
+                0x00000000       0x26 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.get256_modm
+                0x00000000       0x90 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.eq256_modm
+                0x00000000       0x24 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.cmp256_modm
+                0x00000000       0x48 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.iszero256_modm
+                0x00000000       0x1a build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.copy256_modm
+                0x00000000       0x26 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.check256_modm
+                0x00000000       0x54 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.mulsub256_modm
+                0x00000000       0x3c build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text.muladd256_modm
+                0x00000000       0x3c build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .rodata.modm_m
+                0x00000000       0x24 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_info    0x00000000     0x158b build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_abbrev  0x00000000      0x300 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_loclists
+                0x00000000     0x3c85 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_aranges
+                0x00000000       0xd0 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_rnglists
+                0x00000000      0x1e8 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line    0x00000000      0x28e build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_str     0x00000000      0x484 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.U32TO8_LE
+                0x00000000       0x3c build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.U8TO32_LE
+                0x00000000       0x1b build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.reduce256_modm
+                0x00000000      0x1a1 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.barrett_reduce256_modm
+                0x00000000      0x54a build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.add256_modm
+                0x00000000       0xf0 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.neg256_modm
+                0x00000000      0x193 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.sub256_modm
+                0x00000000       0xf1 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.mul256_modm
+                0x00000000      0x397 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.expand256_modm
+                0x00000000      0x208 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.expand_raw256_modm
+                0x00000000       0xd9 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.is_reduced256_modm
+                0x00000000       0x7d build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.contract256_modm
+                0x00000000       0x6b build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.contract256_window4_modm
+                0x00000000      0x182 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.contract256_slidingwindow_modm
+                0x00000000      0x195 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.set256_modm
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.get256_modm
+                0x00000000       0xbe build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.eq256_modm
+                0x00000000       0x41 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.cmp256_modm
+                0x00000000       0x81 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.iszero256_modm
+                0x00000000       0x3b build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.copy256_modm
+                0x00000000       0x77 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.check256_modm
+                0x00000000       0x4f build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.mulsub256_modm
+                0x00000000       0x2b build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line.text.muladd256_modm
+                0x00000000       0x2b build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .debug_frame   0x00000000      0x300 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .text.address_check_prefix
+                0x00000000       0x3a build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .rodata.ethereum_address_checksum.str1.1
+                0x00000000       0x14 build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .text.ethereum_address_checksum
+                0x00000000      0x100 build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .debug_line.text.address_check_prefix
+                0x00000000       0x5f build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .debug_line.text.ethereum_address_checksum
+                0x00000000      0x17a build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .text.b58tobin
+                0x00000000      0x134 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .text.b58check
+                0x00000000       0x70 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .text.base58_decode_check
+                0x00000000       0x80 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .rodata.b58digits_map
+                0x00000000       0x80 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .debug_line.text.b58tobin
+                0x00000000      0x200 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .debug_line.text.b58check
+                0x00000000       0x81 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .debug_line.text.base58_decode_check
+                0x00000000       0x75 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_read_le
+                0x00000000       0x2c build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_write_le
+                0x00000000       0x36 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_read_uint32
+                0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_read_uint64
+                0x00000000       0x26 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_bitcount
+                0x00000000       0x20 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_setbit
+                0x00000000       0x20 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_clearbit
+                0x00000000       0x22 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_testbit
+                0x00000000       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_xor   0x00000000       0x1a build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_power_mod
+                0x00000000       0x74 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_normalize
+                0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_addi  0x00000000       0x1a build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_sqrt  0x00000000       0x5c build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_long_division
+                0x00000000       0x4e build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_divmod58
+                0x00000000       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_divmod1000
+                0x00000000       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_digitcount
+                0x00000000       0x5c build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_divmod10
+                0x00000000       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text.bn_format
+                0x00000000      0x260 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_read_le
+                0x00000000       0xba build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_write_le
+                0x00000000      0x113 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_read_uint32
+                0x00000000       0x61 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_read_uint64
+                0x00000000       0x65 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_bitcount
+                0x00000000       0x5a build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_setbit
+                0x00000000       0x30 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_clearbit
+                0x00000000       0x30 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_testbit
+                0x00000000       0x27 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_xor
+                0x00000000       0x4c build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_power_mod
+                0x00000000       0xdf build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_normalize
+                0x00000000       0x77 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_addi
+                0x00000000       0x76 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_sqrt
+                0x00000000       0x69 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_long_division
+                0x00000000       0xb6 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_divmod58
+                0x00000000       0x2c build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_divmod1000
+                0x00000000       0x2c build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_digitcount
+                0x00000000       0xb7 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_divmod10
+                0x00000000       0x2c build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_format
+                0x00000000      0x387 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .text.blake256
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .debug_line.text.blake256
+                0x00000000       0x2b build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .text.blake2b_InitKey
+                0x00000000       0xac build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .text.blake2b  0x00000000       0x4c build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .text.blake2b_Key
+                0x00000000       0x4c build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_line.text.blake2b_InitKey
+                0x00000000       0xb5 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_line.text.blake2b
+                0x00000000       0x45 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_line.text.blake2b_Key
+                0x00000000       0x45 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .text.update_v
+                0x00000000       0x24 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .text.update_k
+                0x00000000      0x134 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .text.hmac_drbg_reseed
+                0x00000000       0x54 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .text.hmac_drbg_init
+                0x00000000       0x94 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .text.hmac_drbg_generate
+                0x00000000       0x74 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .debug_info    0x00000000      0x948 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .debug_abbrev  0x00000000      0x264 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .debug_loclists
+                0x00000000      0x476 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .debug_aranges
+                0x00000000       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .debug_rnglists
+                0x00000000       0x90 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .debug_line    0x00000000      0x26d build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .debug_str     0x00000000      0x395 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .debug_line.text.update_v
+                0x00000000       0x30 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .debug_line.text.update_k
+                0x00000000      0x1a8 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .debug_line.text.hmac_drbg_reseed
+                0x00000000       0x47 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .debug_line.text.hmac_drbg_init
+                0x00000000       0x81 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .debug_line.text.hmac_drbg_generate
+                0x00000000       0xb3 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .debug_frame   0x00000000       0xfc build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_copy
+                0x00000000       0x2a build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_add
+                0x00000000       0x54 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_add_after_basic
+                0x00000000       0xaa build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_add_reduce
+                0x00000000        0x8 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_sub
+                0x00000000       0xb0 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_scalar_product
+                0x00000000       0xd2 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_sub_after_basic
+                0x00000000       0xe6 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_sub_reduce
+                0x00000000        0x8 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_neg
+                0x00000000       0xa8 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_mul
+                0x00000000      0x474 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_square
+                0x00000000      0x2d2 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_square_times
+                0x00000000      0x2e4 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_expand
+                0x00000000       0x7a build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_contract
+                0x00000000      0x274 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_swap_conditional
+                0x00000000       0xba build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_set
+                0x00000000       0x1e build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_set_d
+                0x00000000       0x10 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_set_2d
+                0x00000000       0x10 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_set_sqrtneg1
+                0x00000000       0x10 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_isnegative
+                0x00000000       0x20 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_isnonzero
+                0x00000000       0xdc build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_reduce
+                0x00000000       0x82 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_divpowm1
+                0x00000000      0x140 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text.curve25519_expand_reduce
+                0x00000000       0x82 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_info    0x00000000     0x14d0 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_abbrev  0x00000000      0x232 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_loclists
+                0x00000000     0x2d84 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_aranges
+                0x00000000       0xd8 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_rnglists
+                0x00000000       0xab build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line    0x00000000      0x1a1 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_str     0x00000000      0x4d3 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_copy
+                0x00000000       0x81 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_add
+                0x00000000       0x88 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_add_after_basic
+                0x00000000       0xeb build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_add_reduce
+                0x00000000       0x12 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_sub
+                0x00000000       0xaf build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_scalar_product
+                0x00000000      0x132 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_sub_after_basic
+                0x00000000       0xec build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_sub_reduce
+                0x00000000       0x12 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_neg
+                0x00000000       0xce build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_mul
+                0x00000000      0x36e build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_square
+                0x00000000      0x2e0 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_square_times
+                0x00000000      0x58f build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_expand
+                0x00000000       0xce build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_contract
+                0x00000000      0x2b5 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_swap_conditional
+                0x00000000      0x159 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_set
+                0x00000000       0x3a build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_set_d
+                0x00000000       0x15 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_set_2d
+                0x00000000       0x15 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_set_sqrtneg1
+                0x00000000       0x15 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_isnegative
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_isnonzero
+                0x00000000       0x31 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_reduce
+                0x00000000       0xce build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_divpowm1
+                0x00000000      0x15a build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line.text.curve25519_expand_reduce
+                0x00000000       0xcd build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .debug_frame   0x00000000      0x2b8 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .text.curve25519_pow_two5mtwo0_two250mtwo0
+                0x00000000       0xb4 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .text.curve25519_recip
+                0x00000000       0x9c build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .text.curve25519_pow_two252m3
+                0x00000000       0x78 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .debug_info    0x00000000      0x667 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .debug_abbrev  0x00000000      0x104 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .debug_loclists
+                0x00000000       0xb0 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .debug_rnglists
+                0x00000000       0x21 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .debug_line    0x00000000      0x191 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .debug_str     0x00000000      0x2c8 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .debug_line.text.curve25519_pow_two5mtwo0_two250mtwo0
+                0x00000000       0x5e build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .debug_line.text.curve25519_recip
+                0x00000000       0x4c build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .debug_line.text.curve25519_pow_two252m3
+                0x00000000       0x43 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .debug_frame   0x00000000       0x90 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_scalarmult_base.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_scalarmult_base.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_scalarmult_base.o)
+ .text.curve25519_scalarmult_donna
+                0x00000000      0x1dc build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_scalarmult_base.o)
+ .debug_info    0x00000000      0x8ab build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_scalarmult_base.o)
+ .debug_abbrev  0x00000000      0x138 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_scalarmult_base.o)
+ .debug_loclists
+                0x00000000      0x110 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_scalarmult_base.o)
+ .debug_aranges
+                0x00000000       0x20 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_scalarmult_base.o)
+ .debug_rnglists
+                0x00000000       0x14 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_scalarmult_base.o)
+ .debug_line    0x00000000      0x236 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_scalarmult_base.o)
+ .debug_str     0x00000000      0x375 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_scalarmult_base.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_scalarmult_base.o)
+ .debug_line.text.curve25519_scalarmult_donna
+                0x00000000      0x192 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_scalarmult_base.o)
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_scalarmult_base.o)
+ .debug_frame   0x00000000       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_scalarmult_base.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_32bit_tables.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_32bit_tables.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_32bit_tables.o)
+ .rodata.ge25519_niels_sliding_multiples
+                0x00000000      0xf00 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_32bit_tables.o)
+ .rodata.ge25519_sqrtneg1
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_32bit_tables.o)
+ .rodata.ge25519_ec2d
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_32bit_tables.o)
+ .rodata.ge25519_ecd
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_32bit_tables.o)
+ .rodata.ge25519_basepoint
+                0x00000000       0xa0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_32bit_tables.o)
+ .debug_info    0x00000000      0x1bd build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_32bit_tables.o)
+ .debug_abbrev  0x00000000       0xae build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_32bit_tables.o)
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_32bit_tables.o)
+ .debug_line    0x00000000      0x1b8 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_32bit_tables.o)
+ .debug_str     0x00000000      0x2cc build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_32bit_tables.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_32bit_tables.o)
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_32bit_tables.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+LOAD build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+LOAD build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene.o
+LOAD build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+LOAD build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+LOAD build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+LOAD build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+LOAD build/f7-firmware-C/.extapps/flipbip/flipbip.o
+LOAD build/f7-firmware-C/.extapps/flipbip/flipbip_coins.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/.extapps/flipbip/crypto
+
+.text           0x00000000     0xbef8
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.flipbip_load_file
+                0x00000000      0x148 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+                0x00000000                flipbip_load_file
+ .text.flipbip_has_file
+                0x00000148       0x94 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+                0x00000148                flipbip_has_file
+ .text.flipbip_save_file
+                0x000001dc      0x140 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+                0x000001dc                flipbip_save_file
+ .text.flipbip_save_qrfile
+                0x0000031c       0x68 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+                0x0000031c                flipbip_save_qrfile
+ .text.flipbip_load_file_secure
+                0x00000384      0x17c build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+                0x00000384                flipbip_load_file_secure
+ .text.flipbip_save_file_secure
+                0x00000500      0x108 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+                0x00000500                flipbip_save_file_secure
+ .text.flipbip_strtok_r
+                0x00000608       0x48 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+                0x00000608                flipbip_strtok_r
+ .text.flipbip_strtok
+                0x00000650       0x10 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+                0x00000650                flipbip_strtok
+ .text.flipbip_btox
+                0x00000660       0x38 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+                0x00000660                flipbip_btox
+ .text.flipbip_xtob
+                0x00000698       0x74 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+                0x00000698                flipbip_xtob
+ .text.flipbip_cipher
+                0x0000070c       0x74 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+                0x0000070c                flipbip_cipher
+ .text.flipbip_scene_menu_submenu_callback
+                0x00000780        0xc build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+                0x00000780                flipbip_scene_menu_submenu_callback
+ .text.flipbip_scene_menu_on_enter
+                0x0000078c      0x104 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+                0x0000078c                flipbip_scene_menu_on_enter
+ .text.flipbip_scene_menu_on_event
+                0x00000890       0xa0 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+                0x00000890                flipbip_scene_menu_on_event
+ .text.flipbip_scene_menu_on_exit
+                0x00000930        0xc build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+                0x00000930                flipbip_scene_menu_on_exit
+ .text.flipbip_scene_1_callback
+                0x0000093c       0x10 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+                0x0000093c                flipbip_scene_1_callback
+ .text.flipbip_scene_scene_1_on_enter
+                0x0000094c       0x48 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+                0x0000094c                flipbip_scene_scene_1_on_enter
+ .text.flipbip_scene_scene_1_on_event
+                0x00000994       0x44 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+                0x00000994                flipbip_scene_scene_1_on_event
+ .text.flipbip_scene_scene_1_on_exit
+                0x000009d8        0x2 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+                0x000009d8                flipbip_scene_scene_1_on_exit
+ *fill*         0x000009da        0x2 
+ .text.flipbip_scene_settings_set_bip39_strength
+                0x000009dc       0x3c build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .text.flipbip_scene_settings_set_passphrase
+                0x00000a18       0x70 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .text.flipbip_scene_settings_on_enter
+                0x00000a88       0xa8 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+                0x00000a88                flipbip_scene_settings_on_enter
+ .text.flipbip_scene_settings_on_event
+                0x00000b30        0xe build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+                0x00000b30                flipbip_scene_settings_on_event
+ *fill*         0x00000b3e        0x2 
+ .text.flipbip_scene_settings_on_exit
+                0x00000b40       0x20 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+                0x00000b40                flipbip_scene_settings_on_exit
+ .text.flipbip_scene_1_clear_text
+                0x00000b60       0x58 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .text.flipbip_scene_1_draw_generic
+                0x00000bb8       0xc8 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .text.flipbip_scene_1_draw
+                0x00000c80      0x41c build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+                0x00000c80                flipbip_scene_1_draw
+ .text.flipbip_scene_1_exit
+                0x0000109c       0xe0 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+                0x0000109c                flipbip_scene_1_exit
+ .text.flipbip_scene_1_enter
+                0x0000117c      0x454 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+                0x0000117c                flipbip_scene_1_enter
+ .text.flipbip_scene_1_input
+                0x000015d0       0x78 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+                0x000015d0                flipbip_scene_1_input
+ .text.flipbip_scene_1_set_callback
+                0x00001648        0x6 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+                0x00001648                flipbip_scene_1_set_callback
+ *fill*         0x0000164e        0x2 
+ .text.flipbip_scene_1_alloc
+                0x00001650       0xc8 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+                0x00001650                flipbip_scene_1_alloc
+ .text.flipbip_scene_1_get_view
+                0x00001718        0x4 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+                0x00001718                flipbip_scene_1_get_view
+ .text.flipbip_custom_event_callback
+                0x0000171c        0xc build/f7-firmware-C/.extapps/flipbip/flipbip.o
+                0x0000171c                flipbip_custom_event_callback
+ .text.flipbip_tick_event_callback
+                0x00001728        0xc build/f7-firmware-C/.extapps/flipbip/flipbip.o
+                0x00001728                flipbip_tick_event_callback
+ .text.flipbip_navigation_event_callback
+                0x00001734        0xc build/f7-firmware-C/.extapps/flipbip/flipbip.o
+                0x00001734                flipbip_navigation_event_callback
+ .text.flipbip_wallet_create
+                0x00001740       0x24 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .text.text_input_callback
+                0x00001764       0xc0 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .text.flipbip_scene_renew_dialog_callback
+                0x00001824       0x1c build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .text.flipbip_app_alloc
+                0x00001840      0x1b4 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+                0x00001840                flipbip_app_alloc
+ .text.flipbip_app_free
+                0x000019f4       0x88 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+                0x000019f4                flipbip_app_free
+ .text.flipbip_app
+                0x00001a7c       0x50 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+                0x00001a7c                flipbip_app
+ .text.hdnode_serialize
+                0x00001acc       0xcc build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .text.hdnode_fill_public_key
+                0x00001b98       0x2c build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+                0x00001b98                hdnode_fill_public_key
+ .text.hdnode_fingerprint
+                0x00001bc4       0x4c build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+                0x00001bc4                hdnode_fingerprint
+ .text.hdnode_private_ckd_bip32
+                0x00001c10      0x1d4 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+                0x00001c10                hdnode_private_ckd_bip32
+ .text.hdnode_private_ckd
+                0x00001de4        0x8 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+                0x00001de4                hdnode_private_ckd
+ .text.hdnode_get_ethereum_pubkeyhash
+                0x00001dec       0xbc build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+                0x00001dec                hdnode_get_ethereum_pubkeyhash
+ .text.hdnode_serialize_public
+                0x00001ea8       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+                0x00001ea8                hdnode_serialize_public
+ .text.hdnode_serialize_private
+                0x00001ec0       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+                0x00001ec0                hdnode_serialize_private
+ .text.get_curve_by_name
+                0x00001ed8       0xc4 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+                0x00001ed8                get_curve_by_name
+ .text.hdnode_from_seed
+                0x00001f9c      0x130 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+                0x00001f9c                hdnode_from_seed
+ .text.mnemonic_from_data
+                0x000020cc       0xf4 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+                0x000020cc                mnemonic_from_data
+ .text.mnemonic_generate
+                0x000021c0       0x58 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+                0x000021c0                mnemonic_generate
+ .text.mnemonic_clear
+                0x00002218       0x10 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+                0x00002218                mnemonic_clear
+ .text.mnemonic_to_seed
+                0x00002228       0xc8 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+                0x00002228                mnemonic_to_seed
+ .text.mnemonic_find_word
+                0x000022f0       0x44 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+                0x000022f0                mnemonic_find_word
+ .text.mnemonic_to_bits
+                0x00002334      0x114 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+                0x00002334                mnemonic_to_bits
+ .text.mnemonic_check
+                0x00002448       0x8c build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+                0x00002448                mnemonic_check
+ .text.generate_k_random
+                0x000024d4       0x50 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .text.point_copy
+                0x00002524       0x14 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                0x00002524                point_copy
+ .text.point_set_infinity
+                0x00002538       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                0x00002538                point_set_infinity
+ .text.point_is_infinity
+                0x00002550       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                0x00002550                point_is_infinity
+ .text.point_double
+                0x0000256c      0x1b0 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                0x0000256c                point_double
+ .text.point_is_equal
+                0x0000271c       0x24 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                0x0000271c                point_is_equal
+ .text.point_is_negative_of
+                0x00002740       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                0x00002740                point_is_negative_of
+ .text.point_add
+                0x00002774      0x17c build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                0x00002774                point_add
+ .text.curve_to_jacobian
+                0x000028f0       0x70 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                0x000028f0                curve_to_jacobian
+ .text.jacobian_to_curve
+                0x00002960       0x80 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                0x00002960                jacobian_to_curve
+ .text.point_jacobian_add
+                0x000029e0      0x288 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                0x000029e0                point_jacobian_add
+ .text.point_jacobian_double
+                0x00002c68      0x170 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                0x00002c68                point_jacobian_double
+ .text.point_multiply
+                0x00002dd8      0x1f0 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                0x00002dd8                point_multiply
+ .text.scalar_multiply
+                0x00002fc8       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                0x00002fc8                scalar_multiply
+ .text.ecdsa_get_public_key33
+                0x00002fe0       0xa4 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                0x00002fe0                ecdsa_get_public_key33
+ .text.ecdsa_get_public_key65
+                0x00003084       0xa4 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                0x00003084                ecdsa_get_public_key65
+ .text.ecdsa_get_pubkeyhash
+                0x00003128       0x6c build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                0x00003128                ecdsa_get_pubkeyhash
+ .text.ecdsa_get_address_raw
+                0x00003194       0x38 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                0x00003194                ecdsa_get_address_raw
+ .text.ecdsa_get_address
+                0x000031cc       0x64 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+                0x000031cc                ecdsa_get_address
+ .text.hasher_InitParam
+                0x00003230       0x8c build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+                0x00003230                hasher_InitParam
+ .text.hasher_Init
+                0x000032bc       0x14 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+                0x000032bc                hasher_Init
+ .text.hasher_Update
+                0x000032d0       0x58 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+                0x000032d0                hasher_Update
+ .text.hasher_Raw
+                0x00003328       0x48 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+                0x00003328                hasher_Raw
+ .text.hasher_Final
+                0x00003370       0xac build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+                0x00003370                hasher_Final
+ .text.hmac_sha512_Init
+                0x0000341c       0x84 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+                0x0000341c                hmac_sha512_Init
+ .text.hmac_sha512_Update
+                0x000034a0        0xc build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+                0x000034a0                hmac_sha512_Update
+ .text.hmac_sha512_Final
+                0x000034ac       0x50 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+                0x000034ac                hmac_sha512_Final
+ .text.hmac_sha512_prepare
+                0x000034fc       0xbc build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+                0x000034fc                hmac_sha512_prepare
+ .text.memzero  0x000035b8       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(memzero.o)
+                0x000035b8                memzero
+ .text.pbkdf2_hmac_sha512_Init
+                0x000035d0       0xf0 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+                0x000035d0                pbkdf2_hmac_sha512_Init
+ .text.pbkdf2_hmac_sha512_Update
+                0x000036c0       0x68 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+                0x000036c0                pbkdf2_hmac_sha512_Update
+ .text.pbkdf2_hmac_sha512_Final
+                0x00003728       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+                0x00003728                pbkdf2_hmac_sha512_Final
+ .text.random32
+                0x00003768        0x8 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+                0x00003768                random32
+ .text.random_buffer
+                0x00003770        0x8 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+                0x00003770                random_buffer
+ .text.rc4_init
+                0x00003778       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+                0x00003778                rc4_init
+ .text.rc4_encrypt
+                0x000037b8       0x3c build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+                0x000037b8                rc4_encrypt
+ .text.ripemd160_Init
+                0x000037f4       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+                0x000037f4                ripemd160_Init
+ .text.ripemd160_process
+                0x00003834     0x124c build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+                0x00003834                ripemd160_process
+ .text.ripemd160_Update.part.0
+                0x00004a80       0x8c build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .text.ripemd160_Update
+                0x00004b0c        0xc build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+                0x00004b0c                ripemd160_Update
+ .text.ripemd160_Final
+                0x00004b18       0xac build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+                0x00004b18                ripemd160_Final
+ .text.ripemd160
+                0x00004bc4       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+                0x00004bc4                ripemd160
+ .text.sha256_Init.part.0
+                0x00004c04       0x3c build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .text.sha512_Init.part.0
+                0x00004c40       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .text.sha256_Init
+                0x00004c80        0xc build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+                0x00004c80                sha256_Init
+ .text.sha256_Init_ex
+                0x00004c8c       0x30 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+                0x00004c8c                sha256_Init_ex
+ .text.sha256_Transform
+                0x00004cbc      0x1cc build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+                0x00004cbc                sha256_Transform
+ .text.sha256_Update
+                0x00004e88       0xfc build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+                0x00004e88                sha256_Update
+ .text.sha256_Final
+                0x00004f84       0xb4 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+                0x00004f84                sha256_Final
+ .text.sha256_Raw
+                0x00005038       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+                0x00005038                sha256_Raw
+ .text.sha512_Init
+                0x00005078        0xc build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+                0x00005078                sha512_Init
+ .text.sha512_Transform
+                0x00005084      0x4b8 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+                0x00005084                sha512_Transform
+ .text.sha512_Update
+                0x0000553c      0x15c build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+                0x0000553c                sha512_Update
+ .text.sha512_Final
+                0x00005698       0xcc build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+                0x00005698                sha512_Final
+ .text.sha512_Raw
+                0x00005764       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+                0x00005764                sha512_Raw
+ .text.sha3_process_block
+                0x000057a4      0x5e0 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .text.sha3_256_Init
+                0x00005d84       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+                0x00005d84                sha3_256_Init
+ .text.sha3_Update
+                0x00005d9c       0xa8 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+                0x00005d9c                sha3_Update
+ .text.sha3_Final
+                0x00005e44       0x70 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+                0x00005e44                sha3_Final
+ .text.keccak_Final
+                0x00005eb4       0x70 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+                0x00005eb4                keccak_Final
+ .text.address_prefix_bytes_len
+                0x00005f24       0x1e build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+                0x00005f24                address_prefix_bytes_len
+ .text.address_write_prefix_bytes
+                0x00005f42       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+                0x00005f42                address_write_prefix_bytes
+ *fill*         0x00005f6a        0x2 
+ .text.b58enc   0x00005f6c      0x118 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+                0x00005f6c                b58enc
+ .text.base58_encode_check
+                0x00006084       0x88 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+                0x00006084                base58_encode_check
+ .text.bn_read_be
+                0x0000610c       0x30 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x0000610c                bn_read_be
+ .text.bn_write_be
+                0x0000613c       0x36 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x0000613c                bn_write_be
+ *fill*         0x00006172        0x2 
+ .text.bn_zero  0x00006174        0xc build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x00006174                bn_zero
+ .text.bn_one   0x00006180       0x14 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x00006180                bn_one
+ .text.bn_is_zero
+                0x00006194       0x1a build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x00006194                bn_is_zero
+ .text.bn_is_one
+                0x000061ae       0x1e build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x000061ae                bn_is_one
+ .text.bn_is_less
+                0x000061cc       0x38 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x000061cc                bn_is_less
+ .text.bn_is_equal
+                0x00006204       0x22 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x00006204                bn_is_equal
+ .text.bn_cmov  0x00006226       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x00006226                bn_cmov
+ .text.bn_lshift
+                0x0000624e       0x24 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x0000624e                bn_lshift
+ .text.bn_rshift
+                0x00006272       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x00006272                bn_rshift
+ .text.bn_mult_half
+                0x0000629a       0x3e build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x0000629a                bn_mult_half
+ .text.bn_multiply_long
+                0x000062d8       0x76 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x000062d8                bn_multiply_long
+ .text.bn_multiply_reduce_step
+                0x0000634e       0x74 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x0000634e                bn_multiply_reduce_step
+ *fill*         0x000063c2        0x2 
+ .text.bn_multiply_reduce
+                0x000063c4       0x2c build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x000063c4                bn_multiply_reduce
+ .text.bn_multiply
+                0x000063f0       0x48 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x000063f0                bn_multiply
+ .text.bn_fast_mod
+                0x00006438       0x52 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x00006438                bn_fast_mod
+ *fill*         0x0000648a        0x2 
+ .text.bn_mult_k
+                0x0000648c       0x24 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x0000648c                bn_mult_k
+ .text.inverse_mod_power_two
+                0x000064b0       0x36 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x000064b0                inverse_mod_power_two
+ *fill*         0x000064e6        0x2 
+ .text.bn_divide_base
+                0x000064e8       0x70 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x000064e8                bn_divide_base
+ .text.bn_add   0x00006558       0x26 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x00006558                bn_add
+ *fill*         0x0000657e        0x2 
+ .text.bn_addmod
+                0x00006580       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x00006580                bn_addmod
+ .text.bn_subi  0x000065a8       0x26 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x000065a8                bn_subi
+ .text.bn_subtractmod
+                0x000065ce       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x000065ce                bn_subtractmod
+ .text.bn_subtract
+                0x00006602       0x2c build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x00006602                bn_subtract
+ *fill*         0x0000662e        0x2 
+ .text.bn_mod   0x00006630       0x50 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x00006630                bn_mod
+ .text.bn_cnegate
+                0x00006680       0x68 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x00006680                bn_cnegate
+ .text.bn_inverse
+                0x000066e8      0x244 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+                0x000066e8                bn_inverse
+ .text.blake256_compress
+                0x0000692c      0x47c build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .text.blake256_Init
+                0x00006da8       0x60 build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+                0x00006da8                blake256_Init
+ .text.blake256_Update
+                0x00006e08       0x9c build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+                0x00006e08                blake256_Update
+ .text.blake256_Final
+                0x00006ea4      0x144 build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+                0x00006ea4                blake256_Final
+ .text.blake2b_compress
+                0x00006fe8     0x3834 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .text.blake2b_Update.part.0
+                0x0000a81c       0xc0 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .text.blake2b_init_param
+                0x0000a8dc       0x60 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+                0x0000a8dc                blake2b_init_param
+ .text.blake2b_Init
+                0x0000a93c       0x58 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+                0x0000a93c                blake2b_Init
+ .text.blake2b_InitPersonal
+                0x0000a994       0x74 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+                0x0000a994                blake2b_InitPersonal
+ .text.blake2b_Update
+                0x0000aa08       0x10 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+                0x0000aa08                blake2b_Update
+ .text.blake2b_Final
+                0x0000aa18       0xc8 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+                0x0000aa18                blake2b_Final
+ .text.groestl_big_core
+                0x0000aae0      0xd14 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+ .text.groestl_big_close.constprop.0
+                0x0000b7f4      0x678 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+ .text.groestl512_Init
+                0x0000be6c       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+                0x0000be6c                groestl512_Init
+ .text.groestl512_Update
+                0x0000be94        0x8 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+                0x0000be94                groestl512_Update
+ .text.groestl512_Final
+                0x0000be9c        0x8 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+                0x0000be9c                groestl512_Final
+ .text.groestl512_DoubleTrunc
+                0x0000bea4       0x54 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+                0x0000bea4                groestl512_DoubleTrunc
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x0000bef8     0x7290
+ *(.rodata)
+ .rodata        0x0000bef8        0x3 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.flipbip_load_file.str1.1
+                0x0000befb       0x69 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .rodata.flipbip_save_file.str1.1
+                0x0000bf64       0x52 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .rodata.str1.1
+                0x0000bfb6       0xac build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .rodata.flipbip_btox.str1.1
+                0x0000c062       0x11 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ *fill*         0x0000c073        0x1 
+ .rodata.flipbip_scene_handlers
+                0x0000c074       0x10 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene.o
+                0x0000c074                flipbip_scene_handlers
+ .rodata.flipbip_on_exit_handlers
+                0x0000c084        0xc build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene.o
+                0x0000c084                flipbip_on_exit_handlers
+ .rodata.flipbip_on_event_handlers
+                0x0000c090        0xc build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene.o
+                0x0000c090                flipbip_on_event_handlers
+ .rodata.flipbip_on_enter_handlers
+                0x0000c09c        0xc build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene.o
+                0x0000c09c                flipbip_on_enter_handlers
+ .rodata.flipbip_scene_menu_on_enter.str1.1
+                0x0000c0a8       0x40 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .rodata.flipbip_scene_scene_1_on_enter.str1.1
+                0x0000c0e8       0x16 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .rodata.flipbip_scene_settings_set_passphrase.str1.1
+                0x0000c0fe       0x17 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .rodata.flipbip_scene_settings_on_enter.str1.1
+                0x0000c115       0x1f build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .rodata.passphrase_value
+                0x0000c134        0x8 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+                0x0000c134                passphrase_value
+ .rodata.str1.1
+                0x0000c13c       0x10 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .rodata.passphrase_text
+                0x0000c14c        0x8 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+                0x0000c14c                passphrase_text
+ .rodata.bip39_strength_value
+                0x0000c154        0xc build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+                0x0000c154                bip39_strength_value
+ .rodata.bip39_strength_text
+                0x0000c160        0xc build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+                0x0000c160                bip39_strength_text
+ .rodata.flipbip_scene_1_draw.str1.1
+                0x0000c16c       0x56 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .rodata.flipbip_scene_1_enter.str1.1
+                0x0000c1c2       0x4c build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .rodata.str1.1
+                0x0000c20e       0xa3 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .rodata.text_input_callback.str1.1
+                0x0000c2b1       0x2c build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .rodata.flipbip_app_alloc.str1.1
+                0x0000c2dd       0x49 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .rodata.str1.1
+                0x0000c326       0x74 build/f7-firmware-C/.extapps/flipbip/flipbip_coins.o
+ *fill*         0x0000c39a        0x2 
+ .rodata.COIN_INFO_ARRAY
+                0x0000c39c       0x60 build/f7-firmware-C/.extapps/flipbip/flipbip_coins.o
+                0x0000c39c                COIN_INFO_ARRAY
+ .rodata.str1.1
+                0x0000c3fc       0x36 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ *fill*         0x0000c432        0x2 
+ .rodata.curve25519_info
+                0x0000c434        0xc build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+                0x0000c434                curve25519_info
+ .rodata.ed25519_keccak_info
+                0x0000c440        0xc build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+                0x0000c440                ed25519_keccak_info
+ .rodata.ed25519_sha3_info
+                0x0000c44c        0xc build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+                0x0000c44c                ed25519_sha3_info
+ .rodata.ed25519_info
+                0x0000c458        0xc build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+                0x0000c458                ed25519_info
+ .rodata.mnemonic_to_seed.str1.1
+                0x0000c464        0x9 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .rodata.str1.1
+                0x0000c46d     0x333c build/f7-firmware-C/.extapps/flipbip/crypto(bip39_english.o)
+ *fill*         0x0000f7a9        0x3 
+ .rodata.BIP39_WORDLIST_ENGLISH
+                0x0000f7ac     0x2000 build/f7-firmware-C/.extapps/flipbip/crypto(bip39_english.o)
+                0x0000f7ac                BIP39_WORDLIST_ENGLISH
+ .rodata.CURVE25519_NAME
+                0x000117ac        0xb build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+                0x000117ac                CURVE25519_NAME
+ .rodata.ED25519_KECCAK_NAME
+                0x000117b7        0xf build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+                0x000117b7                ED25519_KECCAK_NAME
+ .rodata.ED25519_SHA3_NAME
+                0x000117c6        0xd build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+                0x000117c6                ED25519_SHA3_NAME
+ .rodata.ED25519_SEED_NAME
+                0x000117d3        0xd build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+                0x000117d3                ED25519_SEED_NAME
+ .rodata.ED25519_NAME
+                0x000117e0        0x8 build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+                0x000117e0                ED25519_NAME
+ .rodata.NIST256P1_NAME
+                0x000117e8        0xa build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+                0x000117e8                NIST256P1_NAME
+ .rodata.SECP256K1_SMART_NAME
+                0x000117f2       0x10 build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+                0x000117f2                SECP256K1_SMART_NAME
+ .rodata.SECP256K1_GROESTL_NAME
+                0x00011802       0x12 build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+                0x00011802                SECP256K1_GROESTL_NAME
+ .rodata.SECP256K1_DECRED_NAME
+                0x00011814       0x11 build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+                0x00011814                SECP256K1_DECRED_NAME
+ .rodata.SECP256K1_NAME
+                0x00011825        0xa build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+                0x00011825                SECP256K1_NAME
+ *fill*         0x0001182f        0x1 
+ .rodata.sha256_initial_tapsighash_state
+                0x00011830       0x20 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+                0x00011830                sha256_initial_tapsighash_state
+ .rodata.str1.1
+                0x00011850        0xf build/f7-firmware-C/.extapps/flipbip/crypto(nist256p1.o)
+ *fill*         0x0001185f        0x1 
+ .rodata.nist256p1_info
+                0x00011860        0xc build/f7-firmware-C/.extapps/flipbip/crypto(nist256p1.o)
+                0x00011860                nist256p1_info
+ .rodata.nist256p1
+                0x0001186c       0xdc build/f7-firmware-C/.extapps/flipbip/crypto(nist256p1.o)
+                0x0001186c                nist256p1
+ .rodata.ripemd160_padding
+                0x00011948       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .rodata.str1.1
+                0x00011988        0xd build/f7-firmware-C/.extapps/flipbip/crypto(secp256k1.o)
+ *fill*         0x00011995        0x3 
+ .rodata.secp256k1_smart_info
+                0x00011998        0xc build/f7-firmware-C/.extapps/flipbip/crypto(secp256k1.o)
+                0x00011998                secp256k1_smart_info
+ .rodata.secp256k1_groestl_info
+                0x000119a4        0xc build/f7-firmware-C/.extapps/flipbip/crypto(secp256k1.o)
+                0x000119a4                secp256k1_groestl_info
+ .rodata.secp256k1_decred_info
+                0x000119b0        0xc build/f7-firmware-C/.extapps/flipbip/crypto(secp256k1.o)
+                0x000119b0                secp256k1_decred_info
+ .rodata.secp256k1_info
+                0x000119bc        0xc build/f7-firmware-C/.extapps/flipbip/crypto(secp256k1.o)
+                0x000119bc                secp256k1_info
+ .rodata.secp256k1
+                0x000119c8       0xdc build/f7-firmware-C/.extapps/flipbip/crypto(secp256k1.o)
+                0x000119c8                secp256k1
+ *fill*         0x00011aa4        0x4 
+ .rodata.sha512_initial_hash_value
+                0x00011aa8       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+                0x00011aa8                sha512_initial_hash_value
+ .rodata.K512   0x00011ae8      0x280 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .rodata.sha256_initial_hash_value
+                0x00011d68       0x20 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+                0x00011d68                sha256_initial_hash_value
+ .rodata.K256   0x00011d88      0x100 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .rodata.keccak_round_constants
+                0x00011e88       0xc0 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .rodata.b58digits_ordered
+                0x00011f48       0x3b build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+                0x00011f48                b58digits_ordered
+ .rodata.padding
+                0x00011f83       0x81 build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .rodata.u256   0x00012004       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .rodata.sigma  0x00012044      0x100 build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ *fill*         0x00012144        0x4 
+ .rodata.blake2b_IV
+                0x00012148       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .rodata.T1dn   0x00012188      0x400 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+ .rodata.T1up   0x00012588      0x400 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+ .rodata.T0dn   0x00012988      0x400 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+ .rodata.T0up   0x00012d88      0x400 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+
+.data           0x00013188       0x54
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.FILE_K1  0x00013188        0x4 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+                0x00013188                FILE_K1
+ .data.FILE_HSTR
+                0x0001318c        0x4 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+                0x0001318c                FILE_HSTR
+ .data.TEXT_QRFILE
+                0x00013190        0x4 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+                0x00013190                TEXT_QRFILE
+ .data.s_derivation_text
+                0x00013194        0x4 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .data.TEXT_INFO
+                0x00013198        0x4 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+                0x00013198                TEXT_INFO
+ .data.COIN_TEXT_ARRAY
+                0x0001319c       0x40 build/f7-firmware-C/.extapps/flipbip/flipbip_coins.o
+                0x0001319c                COIN_TEXT_ARRAY
+
+.bss            0x000131e0      0x850
+ *(.bss)
+ *(.bss*)
+ .bss.last.0    0x000131e0        0x4 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .bss.s_warn_insecure
+                0x000131e4        0x1 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ *fill*         0x000131e5        0x3 
+ .bss.s_disp_text6
+                0x000131e8        0x4 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .bss.s_disp_text5
+                0x000131ec        0x4 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .bss.s_disp_text4
+                0x000131f0        0x4 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .bss.s_disp_text3
+                0x000131f4        0x4 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .bss.s_disp_text2
+                0x000131f8        0x4 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .bss.s_disp_text1
+                0x000131fc        0x4 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .bss.s_addr_node
+                0x00013200        0x4 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .bss.b.0       0x00013204       0x24 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .bss.I.1       0x00013228       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .bss.ctx.2     0x00013268      0x150 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .bss.a.3       0x000133b8       0x24 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .bss.data.4    0x000133dc       0x25 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .bss.I.5       0x00013401       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ *fill*         0x00013441        0x7 
+ .bss.ctx.6     0x00013448      0x150 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .bss.pctx.0    0x00013598      0x148 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .bss.mnemo     0x000136e0       0xf0 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .bss.jres.0    0x000137d0       0x6c build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .bss.a.1       0x0001383c       0x24 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .bss.context.0
+                0x00013860       0xd0 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .bss.key_pad.1
+                0x00013930       0x80 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .bss.i_key_pad.2
+                0x000139b0       0x80 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0xb30
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x48 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .debug_aranges
+                0x00000048       0x40 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .debug_aranges
+                0x00000088       0x18 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene.o
+ .debug_aranges
+                0x000000a0       0x38 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .debug_aranges
+                0x000000d8       0x38 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .debug_aranges
+                0x00000110       0x48 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .debug_aranges
+                0x00000158       0x68 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_aranges
+                0x000001c0       0x60 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .debug_aranges
+                0x00000220       0x18 build/f7-firmware-C/.extapps/flipbip/flipbip_coins.o
+ .debug_aranges
+                0x00000238       0xd8 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_aranges
+                0x00000310       0x68 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_aranges
+                0x00000378       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(bip39_english.o)
+ .debug_aranges
+                0x00000390       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+ .debug_aranges
+                0x000003a8      0x138 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_aranges
+                0x000004e0       0x48 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .debug_aranges
+                0x00000528       0x68 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_aranges
+                0x00000590       0x20 build/f7-firmware-C/.extapps/flipbip/crypto(memzero.o)
+ .debug_aranges
+                0x000005b0       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(nist256p1.o)
+ .debug_aranges
+                0x000005c8       0x58 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .debug_aranges
+                0x00000620       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .debug_aranges
+                0x00000660       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+ .debug_aranges
+                0x00000688       0x48 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .debug_aranges
+                0x000006d0       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(secp256k1.o)
+ .debug_aranges
+                0x000006e8       0xd8 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_aranges
+                0x000007c0       0x78 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_aranges
+                0x00000838       0x38 build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .debug_aranges
+                0x00000870       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .debug_aranges
+                0x000008b0      0x190 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_aranges
+                0x00000a40       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .debug_aranges
+                0x00000a80       0x68 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_aranges
+                0x00000ae8       0x48 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x1e774
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x137b build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .debug_info    0x0000137b      0x508 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .debug_info    0x00001883      0x2e5 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene.o
+ .debug_info    0x00001b68      0xa2b build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .debug_info    0x00002593      0x7bd build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .debug_info    0x00002d50      0xb28 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .debug_info    0x00003878     0x2bc3 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_info    0x0000643b     0x134f build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .debug_info    0x0000778a      0x11c build/f7-firmware-C/.extapps/flipbip/flipbip_coins.o
+ .debug_info    0x000078a6     0x25fd build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_info    0x00009ea3      0xb4e build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_info    0x0000a9f1       0xac build/f7-firmware-C/.extapps/flipbip/crypto(bip39_english.o)
+ .debug_info    0x0000aa9d      0x1ee build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+ .debug_info    0x0000ac8b     0x4254 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_info    0x0000eedf      0xa11 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .debug_info    0x0000f8f0      0xefa build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_info    0x000107ea       0xfd build/f7-firmware-C/.extapps/flipbip/crypto(memzero.o)
+ .debug_info    0x000108e7      0x285 build/f7-firmware-C/.extapps/flipbip/crypto(nist256p1.o)
+ .debug_info    0x00010b6c      0xd38 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .debug_info    0x000118a4      0x286 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .debug_info    0x00011b2a      0x2b6 build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+ .debug_info    0x00011de0      0x672 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .debug_info    0x00012452      0x2cd build/f7-firmware-C/.extapps/flipbip/crypto(secp256k1.o)
+ .debug_info    0x0001271f     0x1c0a build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_info    0x00014329      0xc59 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_info    0x00014f82      0x633 build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .debug_info    0x000155b5      0x9e1 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .debug_info    0x00015f96     0x2201 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_info    0x00018197      0x5c0 build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .debug_info    0x00018757     0x4c30 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_info    0x0001d387     0x13ed build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+
+.debug_abbrev   0x00000000     0x475f
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x2a4 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .debug_abbrev  0x000002a4      0x206 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .debug_abbrev  0x000004aa      0x137 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene.o
+ .debug_abbrev  0x000005e1      0x264 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .debug_abbrev  0x00000845      0x22c build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .debug_abbrev  0x00000a71      0x269 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .debug_abbrev  0x00000cda      0x551 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_abbrev  0x0000122b      0x343 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .debug_abbrev  0x0000156e       0x97 build/f7-firmware-C/.extapps/flipbip/flipbip_coins.o
+ .debug_abbrev  0x00001605      0x3e3 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_abbrev  0x000019e8      0x292 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_abbrev  0x00001c7a       0x6a build/f7-firmware-C/.extapps/flipbip/crypto(bip39_english.o)
+ .debug_abbrev  0x00001ce4       0x61 build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+ .debug_abbrev  0x00001d45      0x37f build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_abbrev  0x000020c4      0x236 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .debug_abbrev  0x000022fa      0x268 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_abbrev  0x00002562       0xbc build/f7-firmware-C/.extapps/flipbip/crypto(memzero.o)
+ .debug_abbrev  0x0000261e       0xdf build/f7-firmware-C/.extapps/flipbip/crypto(nist256p1.o)
+ .debug_abbrev  0x000026fd      0x203 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .debug_abbrev  0x00002900      0x171 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .debug_abbrev  0x00002a71      0x188 build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+ .debug_abbrev  0x00002bf9      0x285 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .debug_abbrev  0x00002e7e       0xdf build/f7-firmware-C/.extapps/flipbip/crypto(secp256k1.o)
+ .debug_abbrev  0x00002f5d      0x342 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_abbrev  0x0000329f      0x37e build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_abbrev  0x0000361d      0x253 build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .debug_abbrev  0x00003870      0x1e6 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .debug_abbrev  0x00003a56      0x449 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_abbrev  0x00003e9f      0x1a9 build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .debug_abbrev  0x00004048      0x3c0 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_abbrev  0x00004408      0x357 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+
+.debug_line     0x00000000    0x108fa
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x352 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .debug_line.text.flipbip_load_file
+                0x00000352      0x11f build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .debug_line.text.flipbip_has_file
+                0x00000471       0x96 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .debug_line.text.flipbip_save_file
+                0x00000507       0xf0 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .debug_line.text.flipbip_save_qrfile
+                0x000005f7       0x4e build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .debug_line.text.flipbip_load_file_secure
+                0x00000645       0xf7 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .debug_line.text.flipbip_save_file_secure
+                0x0000073c       0x84 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .debug_line_end
+                0x000007c0        0x0 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .debug_line    0x000007c0      0x288 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .debug_line.text.flipbip_strtok_r
+                0x00000a48       0xc9 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .debug_line.text.flipbip_strtok
+                0x00000b11       0x1a build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .debug_line.text.flipbip_btox
+                0x00000b2b       0x81 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .debug_line.text.flipbip_xtob
+                0x00000bac       0xdd build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .debug_line.text.flipbip_cipher
+                0x00000c89       0x3c build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .debug_line_end
+                0x00000cc5        0x0 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .debug_line    0x00000cc5      0x1a4 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene.o
+ .debug_line_end
+                0x00000e69        0x0 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene.o
+ .debug_line    0x00000e69      0x465 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .debug_line.text.flipbip_scene_menu_submenu_callback
+                0x000012ce       0x1a build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .debug_line.text.flipbip_scene_menu_on_enter
+                0x000012e8       0xa4 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .debug_line.text.flipbip_scene_menu_on_event
+                0x0000138c       0xa2 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .debug_line.text.flipbip_scene_menu_on_exit
+                0x0000142e       0x18 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .debug_line_end
+                0x00001446        0x0 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .debug_line    0x00001446      0x369 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .debug_line.text.flipbip_scene_1_callback
+                0x000017af       0x22 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .debug_line.text.flipbip_scene_scene_1_on_enter
+                0x000017d1       0x42 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .debug_line.text.flipbip_scene_scene_1_on_event
+                0x00001813       0x4e build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .debug_line.text.flipbip_scene_scene_1_on_exit
+                0x00001861       0x19 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .debug_line_end
+                0x0000187a        0x0 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .debug_line    0x0000187a      0x3a9 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .debug_line.text.flipbip_scene_settings_set_bip39_strength
+                0x00001c23       0x49 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .debug_line.text.flipbip_scene_settings_set_passphrase
+                0x00001c6c       0x64 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .debug_line.text.flipbip_scene_settings_on_enter
+                0x00001cd0       0x7f build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .debug_line.text.flipbip_scene_settings_on_event
+                0x00001d4f       0x2c build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .debug_line.text.flipbip_scene_settings_on_exit
+                0x00001d7b       0x28 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .debug_line_end
+                0x00001da3        0x0 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .debug_line    0x00001da3      0x59f build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_line.text.flipbip_scene_1_clear_text
+                0x00002342       0x29 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_line.text.flipbip_scene_1_draw_generic
+                0x0000236b       0xc7 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_line.text.flipbip_scene_1_draw
+                0x00002432      0x281 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_line.text.flipbip_scene_1_exit
+                0x000026b3       0xb1 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_line.text.flipbip_scene_1_enter
+                0x00002764      0x40d build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_line.text.flipbip_scene_1_input
+                0x00002b71       0x80 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_line.text.flipbip_scene_1_set_callback
+                0x00002bf1       0x24 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_line.text.flipbip_scene_1_alloc
+                0x00002c15       0x8c build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_line.text.flipbip_scene_1_get_view
+                0x00002ca1       0x1e build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_line_end
+                0x00002cbf        0x0 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_line    0x00002cbf      0x49a build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .debug_line.text.flipbip_custom_event_callback
+                0x00003159       0x1f build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .debug_line.text.flipbip_tick_event_callback
+                0x00003178       0x1b build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .debug_line.text.flipbip_navigation_event_callback
+                0x00003193       0x1e build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .debug_line.text.flipbip_wallet_create
+                0x000031b1       0x2c build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .debug_line.text.text_input_callback
+                0x000031dd       0xd3 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .debug_line.text.flipbip_scene_renew_dialog_callback
+                0x000032b0       0x31 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .debug_line.text.flipbip_app_alloc
+                0x000032e1       0xd7 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .debug_line.text.flipbip_app_free
+                0x000033b8       0x40 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .debug_line.text.flipbip_app
+                0x000033f8       0x30 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .debug_line_end
+                0x00003428        0x0 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .debug_line    0x00003428      0x156 build/f7-firmware-C/.extapps/flipbip/flipbip_coins.o
+ .debug_line_end
+                0x0000357e        0x0 build/f7-firmware-C/.extapps/flipbip/flipbip_coins.o
+ .debug_line    0x0000357e      0x355 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_serialize
+                0x000038d3       0xe7 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_fill_public_key
+                0x000039ba       0x36 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_fingerprint
+                0x000039f0       0x37 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_private_ckd_bip32
+                0x00003a27      0x159 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_private_ckd
+                0x00003b80       0x1a build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_get_ethereum_pubkeyhash
+                0x00003b9a       0x72 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_serialize_public
+                0x00003c0c       0x21 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_serialize_private
+                0x00003c2d       0x21 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.get_curve_by_name
+                0x00003c4e       0xa4 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line.text.hdnode_from_seed
+                0x00003cf2       0xc3 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line_end
+                0x00003db5        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_line    0x00003db5      0x27b build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_line.text.mnemonic_from_data
+                0x00004030      0x12c build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_line.text.mnemonic_generate
+                0x0000415c       0x53 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_line.text.mnemonic_clear
+                0x000041af       0x15 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_line.text.mnemonic_to_seed
+                0x000041c4       0x93 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_line.text.mnemonic_find_word
+                0x00004257       0x6a build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_line.text.mnemonic_to_bits
+                0x000042c1      0x152 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_line.text.mnemonic_check
+                0x00004413       0xa1 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_line_end
+                0x000044b4        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_line    0x000044b4       0x64 build/f7-firmware-C/.extapps/flipbip/crypto(bip39_english.o)
+ .debug_line_end
+                0x00004518        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(bip39_english.o)
+ .debug_line    0x00004518       0x5e build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+ .debug_line_end
+                0x00004576        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+ .debug_line    0x00004576      0x2c1 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.generate_k_random
+                0x00004837       0x84 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.point_copy
+                0x000048bb       0x22 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.point_set_infinity
+                0x000048dd       0x2c build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.point_is_infinity
+                0x00004909       0x37 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.point_double
+                0x00004940       0xd1 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.point_is_equal
+                0x00004a11       0x37 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.point_is_negative_of
+                0x00004a48       0x44 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.point_add
+                0x00004a8c       0xda build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.curve_to_jacobian
+                0x00004b66       0x53 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.jacobian_to_curve
+                0x00004bb9       0x4b build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.point_jacobian_add
+                0x00004c04      0x11c build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.point_jacobian_double
+                0x00004d20       0xdd build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.point_multiply
+                0x00004dfd      0x28a build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.scalar_multiply
+                0x00005087       0x29 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_get_public_key33
+                0x000050b0       0x8e build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_get_public_key65
+                0x0000513e       0x83 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_get_pubkeyhash
+                0x000051c1       0x52 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_get_address_raw
+                0x00005213       0x3a build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line.text.ecdsa_get_address
+                0x0000524d       0x43 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line_end
+                0x00005290        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_line    0x00005290      0x22b build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .debug_line.text.hasher_InitParam
+                0x000054bb       0x6d build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .debug_line.text.hasher_Init
+                0x00005528       0x23 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .debug_line.text.hasher_Update
+                0x0000554b       0x44 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .debug_line.text.hasher_Raw
+                0x0000558f       0x2c build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .debug_line.text.hasher_Final
+                0x000055bb       0x83 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .debug_line_end
+                0x0000563e        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .debug_line    0x0000563e      0x263 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_line.text.hmac_sha512_Init
+                0x000058a1       0x8c build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_line.text.hmac_sha512_Update
+                0x0000592d       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_line.text.hmac_sha512_Final
+                0x00005945       0x38 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_line.text.hmac_sha512_prepare
+                0x0000597d      0x11d build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_line_end
+                0x00005a9a        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_line    0x00005a9a       0xd2 build/f7-firmware-C/.extapps/flipbip/crypto(memzero.o)
+ .debug_line.text.memzero
+                0x00005b6c       0x48 build/f7-firmware-C/.extapps/flipbip/crypto(memzero.o)
+ .debug_line_end
+                0x00005bb4        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(memzero.o)
+ .debug_line    0x00005bb4      0x194 build/f7-firmware-C/.extapps/flipbip/crypto(nist256p1.o)
+ .debug_line_end
+                0x00005d48        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(nist256p1.o)
+ .debug_line    0x00005d48      0x271 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .debug_line.text.pbkdf2_hmac_sha512_Init
+                0x00005fb9       0xc0 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .debug_line.text.pbkdf2_hmac_sha512_Update
+                0x00006079       0x8c build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .debug_line.text.pbkdf2_hmac_sha512_Final
+                0x00006105       0x6a build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .debug_line_end
+                0x0000616f        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .debug_line    0x0000616f      0x1f2 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .debug_line.text.random32
+                0x00006361       0x18 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .debug_line.text.random_buffer
+                0x00006379       0x16 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .debug_line_end
+                0x0000638f        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .debug_line    0x0000638f      0x1cc build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+ .debug_line.text.rc4_init
+                0x0000655b       0xe8 build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+ .debug_line.text.rc4_encrypt
+                0x00006643       0xed build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+ .debug_line_end
+                0x00006730        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+ .debug_line    0x00006730      0x263 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .debug_line.text.ripemd160_Init
+                0x00006993       0x54 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .debug_line.text.ripemd160_process
+                0x000069e7      0x830 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .debug_line.text.ripemd160_Update.part.0
+                0x00007217       0xa2 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .debug_line.text.ripemd160_Update
+                0x000072b9       0x20 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .debug_line.text.ripemd160_Final
+                0x000072d9       0x99 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .debug_line.text.ripemd160
+                0x00007372       0x2b build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .debug_line_end
+                0x0000739d        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .debug_line    0x0000739d      0x194 build/f7-firmware-C/.extapps/flipbip/crypto(secp256k1.o)
+ .debug_line_end
+                0x00007531        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(secp256k1.o)
+ .debug_line    0x00007531      0x259 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha256_Init.part.0
+                0x0000778a       0x2e build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha512_Init.part.0
+                0x000077b8       0x31 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha256_Init
+                0x000077e9       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha256_Init_ex
+                0x00007805       0x2e build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha256_Transform
+                0x00007833      0x3ad build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha256_Update
+                0x00007be0      0x123 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha256_Final
+                0x00007d03      0x135 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha256_Raw
+                0x00007e38       0x3a build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha512_Init
+                0x00007e72       0x1c build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha512_Transform
+                0x00007e8e      0x47e build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha512_Update
+                0x0000830c      0x106 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha512_Final
+                0x00008412      0x10d build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line.text.sha512_Raw
+                0x0000851f       0x3a build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line_end
+                0x00008559        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_line    0x00008559      0x259 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_line.text.sha3_process_block
+                0x000087b2      0x3e8 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_line.text.sha3_256_Init
+                0x00008b9a       0x3e build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_line.text.sha3_Update
+                0x00008bd8       0xc9 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_line.text.sha3_Final
+                0x00008ca1       0x82 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_line.text.keccak_Final
+                0x00008d23       0x82 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_line_end
+                0x00008da5        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_line    0x00008da5      0x1eb build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .debug_line.text.address_prefix_bytes_len
+                0x00008f90       0x33 build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .debug_line.text.address_write_prefix_bytes
+                0x00008fc3       0x8b build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .debug_line_end
+                0x0000904e        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .debug_line    0x0000904e      0x276 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .debug_line.text.b58enc
+                0x000092c4      0x1c2 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .debug_line.text.base58_encode_check
+                0x00009486       0x6e build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .debug_line_end
+                0x000094f4        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .debug_line    0x000094f4      0x25d build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_read_be
+                0x00009751       0xa6 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_write_be
+                0x000097f7      0x10f build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_zero
+                0x00009906       0x20 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_one
+                0x00009926       0x28 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_is_zero
+                0x0000994e       0x55 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_is_one
+                0x000099a3       0x56 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_is_less
+                0x000099f9       0x82 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_is_equal
+                0x00009a7b       0x69 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_cmov
+                0x00009ae4       0x74 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_lshift
+                0x00009b58       0x73 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_rshift
+                0x00009bcb       0x64 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_mult_half
+                0x00009c2f       0xdb build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_multiply_long
+                0x00009d0a      0x165 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_multiply_reduce_step
+                0x00009e6f       0xc6 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_multiply_reduce
+                0x00009f35       0x7c build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_multiply
+                0x00009fb1       0x31 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_fast_mod
+                0x00009fe2       0xbd build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_mult_k
+                0x0000a09f       0x59 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.inverse_mod_power_two
+                0x0000a0f8       0x9f build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_divide_base
+                0x0000a197       0xd4 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_add
+                0x0000a26b       0x84 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_addmod
+                0x0000a2ef       0x5c build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_subi
+                0x0000a34b       0x8b build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_subtractmod
+                0x0000a3d6       0x96 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_subtract
+                0x0000a46c       0x8a build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_mod
+                0x0000a4f6       0x40 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_cnegate
+                0x0000a536       0xf5 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line.text.bn_inverse
+                0x0000a62b      0x258 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line_end
+                0x0000a883        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_line    0x0000a883      0x254 build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .debug_line.text.blake256_compress
+                0x0000aad7      0x3cf build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .debug_line.text.blake256_Init
+                0x0000aea6       0x56 build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .debug_line.text.blake256_Update
+                0x0000aefc       0xd6 build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .debug_line.text.blake256_Final
+                0x0000afd2      0x14b build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .debug_line_end
+                0x0000b11d        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .debug_line    0x0000b11d      0x272 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_line.text.blake2b_compress
+                0x0000b38f     0x456a build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_line.text.blake2b_Update.part.0
+                0x0000f8f9       0xc8 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_line.text.blake2b_init_param
+                0x0000f9c1       0xbc build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_line.text.blake2b_Init
+                0x0000fa7d       0x5f build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_line.text.blake2b_InitPersonal
+                0x0000fadc       0x6f build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_line.text.blake2b_Update
+                0x0000fb4b       0x27 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_line.text.blake2b_Final
+                0x0000fb72       0xd1 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_line_end
+                0x0000fc43        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_line    0x0000fc43      0x275 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+ .debug_line.text.groestl_big_core
+                0x0000feb8      0x6f8 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+ .debug_line.text.groestl_big_close.constprop.0
+                0x000105b0      0x278 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+ .debug_line.text.groestl512_Init
+                0x00010828       0x5f build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+ .debug_line.text.groestl512_Update
+                0x00010887       0x17 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+ .debug_line.text.groestl512_Final
+                0x0001089e       0x17 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+ .debug_line.text.groestl512_DoubleTrunc
+                0x000108b5       0x45 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+ .debug_line_end
+                0x000108fa        0x0 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+
+.debug_frame    0x00000000     0x24e0
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x120 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .debug_frame   0x00000120       0xa4 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .debug_frame   0x000001c4       0x88 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .debug_frame   0x0000024c       0x78 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .debug_frame   0x000002c4       0xcc build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .debug_frame   0x00000390      0x17c build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_frame   0x0000050c      0x104 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .debug_frame   0x00000610      0x350 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_frame   0x00000960      0x16c build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_frame   0x00000acc      0x594 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_frame   0x00001060      0x104 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .debug_frame   0x00001164      0x17c build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_frame   0x000012e0       0x2c build/f7-firmware-C/.extapps/flipbip/crypto(memzero.o)
+ .debug_frame   0x0000130c      0x144 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .debug_frame   0x00001450       0x7c build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .debug_frame   0x000014cc       0x4c build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+ .debug_frame   0x00001518       0xe0 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .debug_frame   0x000015f8      0x36c build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_frame   0x00001964      0x1bc build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_frame   0x00001b20       0x68 build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .debug_frame   0x00001b88      0x100 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .debug_frame   0x00001c88      0x538 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_frame   0x000021c0       0xbc build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .debug_frame   0x0000227c      0x194 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_frame   0x00002410       0xd0 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+
+.debug_str      0x00000000     0xaec8
+ *(.debug_str)
+ .debug_str     0x00000000      0x6ec build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .debug_str     0x000006ec      0x2d1 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .debug_str     0x000009bd      0x4e4 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene.o
+ .debug_str     0x00000ea1      0x7fe build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .debug_str     0x0000169f      0x7d8 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .debug_str     0x00001e77      0x883 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .debug_str     0x000026fa     0x128e build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_str     0x00003988      0xf84 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .debug_str     0x0000490c      0x24e build/f7-firmware-C/.extapps/flipbip/flipbip_coins.o
+ .debug_str     0x00004b5a      0xbce build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_str     0x00005728      0x4f9 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_str     0x00005c21      0x204 build/f7-firmware-C/.extapps/flipbip/crypto(bip39_english.o)
+ .debug_str     0x00005e25      0x224 build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+ .debug_str     0x00006049      0x951 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_str     0x0000699a      0x633 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .debug_str     0x00006fcd      0x4ae build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_str     0x0000747b      0x207 build/f7-firmware-C/.extapps/flipbip/crypto(memzero.o)
+ .debug_str     0x00007682      0x3ef build/f7-firmware-C/.extapps/flipbip/crypto(nist256p1.o)
+ .debug_str     0x00007a71      0x4c1 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .debug_str     0x00007f32      0x298 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .debug_str     0x000081ca      0x23c build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+ .debug_str     0x00008406      0x32c build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .debug_str     0x00008732      0x431 build/f7-firmware-C/.extapps/flipbip/crypto(secp256k1.o)
+ .debug_str     0x00008b63      0x4a8 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_str     0x0000900b      0x3c9 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_str     0x000093d4      0x3c6 build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .debug_str     0x0000979a      0x52e build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .debug_str     0x00009cc8      0x69d build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_str     0x0000a365      0x2e3 build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .debug_str     0x0000a648      0x505 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_str     0x0000ab4d      0x37b build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000    0x12357
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x45f build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .debug_loclists
+                0x0000045f      0x2af build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .debug_loclists
+                0x0000070e      0x272 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .debug_loclists
+                0x00000980      0x13f build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .debug_loclists
+                0x00000abf      0x1d3 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .debug_loclists
+                0x00000c92      0x932 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_loclists
+                0x000015c4      0x2e1 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .debug_loclists
+                0x000018a5      0xea6 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_loclists
+                0x0000274b      0x4cf build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_loclists
+                0x00002c1a     0x180f build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_loclists
+                0x00004429      0x535 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .debug_loclists
+                0x0000495e      0x7a4 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_loclists
+                0x00005102       0x48 build/f7-firmware-C/.extapps/flipbip/crypto(memzero.o)
+ .debug_loclists
+                0x0000514a      0x52f build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .debug_loclists
+                0x00005679      0x104 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .debug_loclists
+                0x0000577d      0x13b build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+ .debug_loclists
+                0x000058b8     0x3ade build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .debug_loclists
+                0x00009396     0x22b5 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_loclists
+                0x0000b64b      0x577 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_loclists
+                0x0000bbc2      0x22e build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .debug_loclists
+                0x0000bdf0      0x7fc build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .debug_loclists
+                0x0000c5ec     0x155f build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_loclists
+                0x0000db4b      0x38b build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .debug_loclists
+                0x0000ded6     0x1823 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_loclists
+                0x0000f6f9     0x2c5e build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000     0x227e
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x43 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .debug_rnglists
+                0x00000043       0x61 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .debug_rnglists
+                0x000000a4       0x36 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .debug_rnglists
+                0x000000da       0x25 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .debug_rnglists
+                0x000000ff       0x32 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .debug_rnglists
+                0x00000131      0x1a4 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .debug_rnglists
+                0x000002d5       0x52 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .debug_rnglists
+                0x00000327      0x11a build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .debug_rnglists
+                0x00000441       0x99 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .debug_rnglists
+                0x000004da      0x123 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .debug_rnglists
+                0x000005fd       0x33 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .debug_rnglists
+                0x00000630       0xc0 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .debug_rnglists
+                0x000006f0       0x13 build/f7-firmware-C/.extapps/flipbip/crypto(memzero.o)
+ .debug_rnglists
+                0x00000703      0x105 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .debug_rnglists
+                0x00000808       0x58 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .debug_rnglists
+                0x00000860       0x43 build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+ .debug_rnglists
+                0x000008a3       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .debug_rnglists
+                0x000008d7      0x191 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .debug_rnglists
+                0x00000a68       0xba build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .debug_rnglists
+                0x00000b22       0x47 build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .debug_rnglists
+                0x00000b69       0x2f build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .debug_rnglists
+                0x00000b98      0x3d5 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .debug_rnglists
+                0x00000f6d       0x2e build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .debug_rnglists
+                0x00000f9b     0x1175 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .debug_rnglists
+                0x00002110      0x16e build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_file.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/flipbip/helpers/flipbip_string.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_menu.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_scene_1.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/flipbip/scenes/flipbip_scene_settings.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/flipbip/views/flipbip_scene_1.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/flipbip/flipbip.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/flipbip/flipbip_coins.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(bip32.o)
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(bip39.o)
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(bip39_english.o)
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(curves.o)
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(ecdsa.o)
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(hasher.o)
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(hmac.o)
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(memzero.o)
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(nist256p1.o)
+ .ARM.attributes
+                0x000003a8       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(pbkdf2.o)
+ .ARM.attributes
+                0x000003dc       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(rand.o)
+ .ARM.attributes
+                0x00000410       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(rc4.o)
+ .ARM.attributes
+                0x00000444       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(rfc6979.o)
+ .ARM.attributes
+                0x00000478       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(ripemd160.o)
+ .ARM.attributes
+                0x000004ac       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(secp256k1.o)
+ .ARM.attributes
+                0x000004e0       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(sha2.o)
+ .ARM.attributes
+                0x00000514       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(sha3.o)
+ .ARM.attributes
+                0x00000548       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519.o)
+ .ARM.attributes
+                0x0000057c       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_basepoint_table.o)
+ .ARM.attributes
+                0x000005b0       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_impl_base.o)
+ .ARM.attributes
+                0x000005e4       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_keccak.o)
+ .ARM.attributes
+                0x00000618       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_sha3.o)
+ .ARM.attributes
+                0x0000064c       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(modm_donna_32bit.o)
+ .ARM.attributes
+                0x00000680       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(address.o)
+ .ARM.attributes
+                0x000006b4       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(base58.o)
+ .ARM.attributes
+                0x000006e8       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(bignum.o)
+ .ARM.attributes
+                0x0000071c       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(blake256.o)
+ .ARM.attributes
+                0x00000750       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(blake2b.o)
+ .ARM.attributes
+                0x00000784       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(groestl.o)
+ .ARM.attributes
+                0x000007b8       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(hmac_drbg.o)
+ .ARM.attributes
+                0x000007ec       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_32bit.o)
+ .ARM.attributes
+                0x00000820       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_helpers.o)
+ .ARM.attributes
+                0x00000854       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(curve25519_donna_scalarmult_base.o)
+ .ARM.attributes
+                0x00000888       0x34 build/f7-firmware-C/.extapps/flipbip/crypto(ed25519_donna_32bit_tables.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/flipbip_d.elf elf32-littlearm)
+LOAD linker stubs

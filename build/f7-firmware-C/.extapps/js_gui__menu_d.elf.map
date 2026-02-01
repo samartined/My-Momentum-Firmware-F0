@@ -1,0 +1,265 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o (__aeabi_ui2d)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x58c
+ *(.text)
+ .text          0x00000000      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000000                __aeabi_drsub
+                0x00000008                __aeabi_dsub
+                0x00000008                __subdf3
+                0x0000000c                __adddf3
+                0x0000000c                __aeabi_dadd
+                0x00000284                __aeabi_ui2d
+                0x00000284                __floatunsidf
+                0x000002a4                __floatsidf
+                0x000002a4                __aeabi_i2d
+                0x000002c8                __extendsfdf2
+                0x000002c8                __aeabi_f2d
+                0x0000030c                __aeabi_ul2d
+                0x0000030c                __floatundidf
+                0x0000031c                __floatdidf
+                0x0000031c                __aeabi_l2d
+ *(.stub)
+ *(.text*)
+ .text.view_mod_ctor
+                0x00000378       0x1c build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .text.js_menu_reset_children
+                0x00000394       0x20 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .text.js_menu_add_child
+                0x000003b4       0xa0 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .text.ctx_destroy
+                0x00000454       0x44 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .text.ctx_make
+                0x00000498       0x88 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .text.choose_transformer
+                0x00000520       0x3c build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .text.choose_callback
+                0x0000055c       0x28 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .text.js_view_menu_ep
+                0x00000584        0x8 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+                0x00000584                js_view_menu_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000590       0xb4
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.ctx_make.str1.1
+                0x00000590        0x7 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ *fill*         0x00000597        0x1 
+ .rodata.js_menu_string.0
+                0x00000598       0x18 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .rodata.js_menu_pointer.1
+                0x000005b0       0x18 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .rodata.str1.1
+                0x000005c8       0x18 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .rodata.js_menu_child_fields.2
+                0x000005e0       0x10 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .rodata.js_menu_child.3
+                0x000005f0       0x18 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .rodata.plugin_descriptor
+                0x00000608        0xc build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .rodata.js_mod_desc
+                0x00000614       0x10 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .rodata.view_descriptor
+                0x00000624       0x20 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x58
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x58 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x142a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x142a build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+
+.debug_abbrev   0x00000000      0x3ed
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3ed build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+
+.debug_line     0x00000000      0x696
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x474 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .debug_line.text.view_mod_ctor
+                0x00000474       0x1c build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .debug_line.text.js_menu_reset_children
+                0x00000490       0x28 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .debug_line.text.js_menu_add_child
+                0x000004b8       0x75 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .debug_line.text.ctx_destroy
+                0x0000052d       0x69 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .debug_line.text.ctx_make
+                0x00000596       0x54 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .debug_line.text.choose_transformer
+                0x000005ea       0x64 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .debug_line.text.choose_callback
+                0x0000064e       0x35 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .debug_line.text.js_view_menu_ep
+                0x00000683       0x13 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .debug_line_end
+                0x00000696        0x0 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+
+.debug_frame    0x00000000      0x108
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x108 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+
+.debug_str      0x00000000     0x106e
+ *(.debug_str)
+ .debug_str     0x00000000     0x106e build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000       0xa8
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+.debug_loclists
+                0x00000000      0x369
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x369 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x4e
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x4e build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/js_gui__menu/modules/js_gui/menu.o
+ .ARM.attributes
+                0x00000034       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/js_gui__menu_d.elf elf32-littlearm)
+LOAD linker stubs

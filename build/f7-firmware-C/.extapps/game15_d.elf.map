@@ -1,0 +1,334 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/game15/game15.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/game15/game15.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/game15/game15.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/game15/game15.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/game15/sandbox.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/game15/sandbox.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/game15/sandbox.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/game15/sandbox.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/game15/game15.o
+LOAD build/f7-firmware-C/.extapps/game15/sandbox.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xb0c
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.storage_game_state_save
+                0x00000000       0x64 build/f7-firmware-C/.extapps/game15/game15.o
+ .text.draw_cell
+                0x00000064       0x60 build/f7-firmware-C/.extapps/game15/game15.o
+ .text.plate_draw
+                0x000000c4       0xa4 build/f7-firmware-C/.extapps/game15/game15.o
+ .text.gray_screen
+                0x00000168       0x34 build/f7-firmware-C/.extapps/game15/game15.o
+ .text.render_callback
+                0x0000019c      0x2e8 build/f7-firmware-C/.extapps/game15/game15.o
+ .text.game_init
+                0x00000484       0xc8 build/f7-firmware-C/.extapps/game15/game15.o
+ .text.key_stack_push.isra.0
+                0x0000054c       0x1c build/f7-firmware-C/.extapps/game15/game15.o
+ .text.game_event_handler
+                0x00000568      0x234 build/f7-firmware-C/.extapps/game15/game15.o
+ .text.game15_app
+                0x0000079c      0x128 build/f7-firmware-C/.extapps/game15/game15.o
+                0x0000079c                game15_app
+ .text.sandbox_timer_callback
+                0x000008c4       0x24 build/f7-firmware-C/.extapps/game15/sandbox.o
+ .text.sandbox_input_callback
+                0x000008e8       0x2c build/f7-firmware-C/.extapps/game15/sandbox.o
+ .text.sandbox_render_callback
+                0x00000914       0x38 build/f7-firmware-C/.extapps/game15/sandbox.o
+ .text.sandbox_loop
+                0x0000094c       0x70 build/f7-firmware-C/.extapps/game15/sandbox.o
+                0x0000094c                sandbox_loop
+ .text.sandbox_loop_exit
+                0x000009bc        0xc build/f7-firmware-C/.extapps/game15/sandbox.o
+                0x000009bc                sandbox_loop_exit
+ .text.sandbox_init
+                0x000009c8       0xcc build/f7-firmware-C/.extapps/game15/sandbox.o
+                0x000009c8                sandbox_init
+ .text.sandbox_free
+                0x00000a94       0x78 build/f7-firmware-C/.extapps/game15/sandbox.o
+                0x00000a94                sandbox_free
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000b0c      0x249
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.storage_game_state_save.str1.1
+                0x00000b0c       0x1a build/f7-firmware-C/.extapps/game15/game15.o
+ .rodata.render_callback.str1.1
+                0x00000b26       0x22 build/f7-firmware-C/.extapps/game15/game15.o
+ .rodata.game15_app.str1.1
+                0x00000b48       0x29 build/f7-firmware-C/.extapps/game15/game15.o
+ .rodata.pic_puzzled
+                0x00000b71       0x82 build/f7-firmware-C/.extapps/game15/game15.o
+ .rodata.pic_time
+                0x00000bf3        0xa build/f7-firmware-C/.extapps/game15/game15.o
+ .rodata.pic_move
+                0x00000bfd        0xe build/f7-firmware-C/.extapps/game15/game15.o
+ .rodata.pic_top
+                0x00000c0b        0xa build/f7-firmware-C/.extapps/game15/game15.o
+ .rodata.pic_digits
+                0x00000c15       0x3c build/f7-firmware-C/.extapps/game15/game15.o
+ .rodata.pic_cells
+                0x00000c51      0x100 build/f7-firmware-C/.extapps/game15/game15.o
+ .rodata.sandbox_init.str1.1
+                0x00000d51        0x4 build/f7-firmware-C/.extapps/game15/sandbox.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss            0x00000d58       0x58
+ *(.bss)
+ *(.bss*)
+ .bss.key_stack_head
+                0x00000d58        0x1 build/f7-firmware-C/.extapps/game15/game15.o
+ .bss.keys      0x00000d59       0x10 build/f7-firmware-C/.extapps/game15/game15.o
+ .bss.popup_menu_selected_item
+                0x00000d69        0x1 build/f7-firmware-C/.extapps/game15/game15.o
+ .bss.loaded_saving_ticks
+                0x00000d6a        0x1 build/f7-firmware-C/.extapps/game15/game15.o
+ .bss.moving_cell
+                0x00000d6b        0x4 build/f7-firmware-C/.extapps/game15/game15.o
+ *fill*         0x00000d6f        0x1 
+ .bss.notification
+                0x00000d70        0x4 build/f7-firmware-C/.extapps/game15/game15.o
+ .bss.game_state
+                0x00000d74       0x1c build/f7-firmware-C/.extapps/game15/game15.o
+ .bss.sandbox_user_event_handler
+                0x00000d90        0x4 build/f7-firmware-C/.extapps/game15/sandbox.o
+                0x00000d90                sandbox_user_event_handler
+ .bss.sandbox_user_render_callback
+                0x00000d94        0x4 build/f7-firmware-C/.extapps/game15/sandbox.o
+                0x00000d94                sandbox_user_render_callback
+ .bss.sandbox_loop_processing
+                0x00000d98        0x1 build/f7-firmware-C/.extapps/game15/sandbox.o
+                0x00000d98                sandbox_loop_processing
+ *fill*         0x00000d99        0x3 
+ .bss.sandbox_timer
+                0x00000d9c        0x4 build/f7-firmware-C/.extapps/game15/sandbox.o
+                0x00000d9c                sandbox_timer
+ .bss.sandbox_gui
+                0x00000da0        0x4 build/f7-firmware-C/.extapps/game15/sandbox.o
+                0x00000da0                sandbox_gui
+ .bss.sandbox_view_port
+                0x00000da4        0x4 build/f7-firmware-C/.extapps/game15/sandbox.o
+                0x00000da4                sandbox_view_port
+ .bss.sandbox_mutex
+                0x00000da8        0x4 build/f7-firmware-C/.extapps/game15/sandbox.o
+                0x00000da8                sandbox_mutex
+ .bss.sandbox_event_queue
+                0x00000dac        0x4 build/f7-firmware-C/.extapps/game15/sandbox.o
+                0x00000dac                sandbox_event_queue
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xb0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x60 build/f7-firmware-C/.extapps/game15/game15.o
+ .debug_aranges
+                0x00000060       0x50 build/f7-firmware-C/.extapps/game15/sandbox.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2722
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1d2e build/f7-firmware-C/.extapps/game15/game15.o
+ .debug_info    0x00001d2e      0x9f4 build/f7-firmware-C/.extapps/game15/sandbox.o
+
+.debug_abbrev   0x00000000      0x7d6
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4f5 build/f7-firmware-C/.extapps/game15/game15.o
+ .debug_abbrev  0x000004f5      0x2e1 build/f7-firmware-C/.extapps/game15/sandbox.o
+
+.debug_line     0x00000000     0x1106
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3c0 build/f7-firmware-C/.extapps/game15/game15.o
+ .debug_line.text.storage_game_state_save
+                0x000003c0       0x4b build/f7-firmware-C/.extapps/game15/game15.o
+ .debug_line.text.draw_cell
+                0x0000040b       0x2f build/f7-firmware-C/.extapps/game15/game15.o
+ .debug_line.text.plate_draw
+                0x0000043a       0xb2 build/f7-firmware-C/.extapps/game15/game15.o
+ .debug_line.text.gray_screen
+                0x000004ec       0x80 build/f7-firmware-C/.extapps/game15/game15.o
+ .debug_line.text.render_callback
+                0x0000056c      0x1a5 build/f7-firmware-C/.extapps/game15/game15.o
+ .debug_line.text.game_init
+                0x00000711      0x136 build/f7-firmware-C/.extapps/game15/game15.o
+ .debug_line.text.key_stack_push.isra.0
+                0x00000847       0x34 build/f7-firmware-C/.extapps/game15/game15.o
+ .debug_line.text.game_event_handler
+                0x0000087b      0x34a build/f7-firmware-C/.extapps/game15/game15.o
+ .debug_line.text.game15_app
+                0x00000bc5       0xf6 build/f7-firmware-C/.extapps/game15/game15.o
+ .debug_line_end
+                0x00000cbb        0x0 build/f7-firmware-C/.extapps/game15/game15.o
+ .debug_line    0x00000cbb      0x23f build/f7-firmware-C/.extapps/game15/sandbox.o
+ .debug_line.text.sandbox_timer_callback
+                0x00000efa       0x34 build/f7-firmware-C/.extapps/game15/sandbox.o
+ .debug_line.text.sandbox_input_callback
+                0x00000f2e       0x25 build/f7-firmware-C/.extapps/game15/sandbox.o
+ .debug_line.text.sandbox_render_callback
+                0x00000f53       0x48 build/f7-firmware-C/.extapps/game15/sandbox.o
+ .debug_line.text.sandbox_loop
+                0x00000f9b       0x67 build/f7-firmware-C/.extapps/game15/sandbox.o
+ .debug_line.text.sandbox_loop_exit
+                0x00001002       0x1b build/f7-firmware-C/.extapps/game15/sandbox.o
+ .debug_line.text.sandbox_init
+                0x0000101d       0x9f build/f7-firmware-C/.extapps/game15/sandbox.o
+ .debug_line.text.sandbox_free
+                0x000010bc       0x4a build/f7-firmware-C/.extapps/game15/sandbox.o
+ .debug_line_end
+                0x00001106        0x0 build/f7-firmware-C/.extapps/game15/sandbox.o
+
+.debug_frame    0x00000000      0x270
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x18c build/f7-firmware-C/.extapps/game15/game15.o
+ .debug_frame   0x0000018c       0xe4 build/f7-firmware-C/.extapps/game15/sandbox.o
+
+.debug_str      0x00000000     0x1bb4
+ *(.debug_str)
+ .debug_str     0x00000000     0x1309 build/f7-firmware-C/.extapps/game15/game15.o
+ .debug_str     0x00001309      0x8ab build/f7-firmware-C/.extapps/game15/sandbox.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x7cd
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x6b3 build/f7-firmware-C/.extapps/game15/game15.o
+ .debug_loclists
+                0x000006b3      0x11a build/f7-firmware-C/.extapps/game15/sandbox.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x183
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x133 build/f7-firmware-C/.extapps/game15/game15.o
+ .debug_rnglists
+                0x00000133       0x50 build/f7-firmware-C/.extapps/game15/sandbox.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/game15/game15.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/game15/sandbox.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/game15_d.elf elf32-littlearm)
+LOAD linker stubs

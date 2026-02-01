@@ -1,0 +1,342 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+LOAD build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xe44
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.gpio_explorer_navigation_exit_callback
+                0x00000000        0x6 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.gpio_explorer_navigation_submenu_callback
+                0x00000006        0x4 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ *fill*         0x0000000a        0x2 
+ .text.gpio_explorer_view_gpio_reader_exit_callback
+                0x0000000c       0x20 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.gpio_explorer_view_gpio_reader_enter_callback
+                0x0000002c       0x34 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.gpio_explorer_view_gpio_reader_timer_callback
+                0x00000060       0x3c build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.gpio_explorer_gpio_reader_navigation_submenu_callback
+                0x0000009c       0x28 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.gpio_explorer_view_gpio_reader_draw_callback
+                0x000000c4       0x94 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.gpio_explorer_view_led_draw_callback
+                0x00000158       0xb0 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.gpio_explorer_view_rgb_draw_callback
+                0x00000208       0x90 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.furi_hal_gpio_write.part.0
+                0x00000298        0xa build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ *fill*         0x000002a2        0x2 
+ .text.set_rgb_light_color
+                0x000002a4      0x104 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.gpio_explorer_view_rgb_input_callback
+                0x000003a8       0xbc build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.gpio_explorer_led_navigation_submenu_callback
+                0x00000464       0x40 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.gpio_explorer_rgb_navigation_submenu_callback
+                0x000004a4       0x68 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.gpio_explorer_led_setting_1_change
+                0x0000050c       0x78 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.gpio_explorer_rgb_setting_3_change
+                0x00000584       0x78 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.gpio_explorer_rgb_setting_2_change
+                0x000005fc       0x78 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.gpio_explorer_rgb_setting_1_change
+                0x00000674       0x78 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.gpio_explorer_view_led_input_callback
+                0x000006ec       0x54 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.gpio_explorer_submenu_callback
+                0x00000740       0xb0 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.gpio_reader_switch_pin
+                0x000007f0       0x48 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.gpio_explorer_view_gpio_reader_input_callback
+                0x00000838       0x58 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .text.main_gpio_explorer_app
+                0x00000890      0x42c build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+                0x00000890                main_gpio_explorer_app
+ .text.configuration_file_init
+                0x00000cbc       0x68 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+                0x00000cbc                configuration_file_init
+ .text.configuration_file_read
+                0x00000d24       0x88 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+                0x00000d24                configuration_file_read
+ .text.configuration_file_write
+                0x00000dac       0x88 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+                0x00000dac                configuration_file_write
+ .text.free_storage_manager
+                0x00000e34       0x10 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+                0x00000e34                free_storage_manager
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000e44      0x363
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.gpio_explorer_view_gpio_reader_draw_callback.str1.1
+                0x00000e44       0x3e build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .rodata.gpio_explorer_view_led_draw_callback.str1.1
+                0x00000e82       0x1a build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .rodata.gpio_explorer_view_rgb_draw_callback.str1.1
+                0x00000e9c       0x24 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .rodata.main_gpio_explorer_app.str1.1
+                0x00000ec0      0x1b7 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ *fill*         0x00001077        0x1 
+ .rodata.pins   0x00001078       0x20 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .rodata.str1.1
+                0x00001098       0x48 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .rodata.rgb_colors
+                0x000010e0       0x1c build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .rodata.rgb_setting_pins
+                0x000010fc       0x20 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .rodata.configuration_file_init.str1.1
+                0x0000111c       0x55 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+ .rodata.configuration_file_write.str1.1
+                0x00001171       0x36 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss            0x000011a8        0x4
+ *(.bss)
+ *(.bss*)
+ .bss.storage   0x000011a8        0x4 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x108
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xd0 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_aranges
+                0x000000d0       0x38 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x39e1
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x33bc build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_info    0x000033bc      0x625 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+
+.debug_abbrev   0x00000000      0x757
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x59e build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_abbrev  0x0000059e      0x1b9 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+
+.debug_line     0x00000000     0x17c3
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x563 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_navigation_exit_callback
+                0x00000563       0x1b build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_navigation_submenu_callback
+                0x0000057e       0x1b build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_view_gpio_reader_exit_callback
+                0x00000599       0x2a build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_view_gpio_reader_enter_callback
+                0x000005c3       0x49 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_view_gpio_reader_timer_callback
+                0x0000060c       0x51 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_gpio_reader_navigation_submenu_callback
+                0x0000065d       0x2d build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_view_gpio_reader_draw_callback
+                0x0000068a       0x4d build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_view_led_draw_callback
+                0x000006d7       0x4e build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_view_rgb_draw_callback
+                0x00000725       0x4e build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.furi_hal_gpio_write.part.0
+                0x00000773       0x27 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.set_rgb_light_color
+                0x0000079a      0x2cd build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_view_rgb_input_callback
+                0x00000a67      0x18a build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_led_navigation_submenu_callback
+                0x00000bf1       0x5b build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_rgb_navigation_submenu_callback
+                0x00000c4c       0xa3 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_led_setting_1_change
+                0x00000cef       0x85 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_rgb_setting_3_change
+                0x00000d74       0x8a build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_rgb_setting_2_change
+                0x00000dfe       0x8a build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_rgb_setting_1_change
+                0x00000e88       0x8a build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_view_led_input_callback
+                0x00000f12       0x90 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_submenu_callback
+                0x00000fa2       0xd6 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_reader_switch_pin
+                0x00001078       0x5d build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.gpio_explorer_view_gpio_reader_input_callback
+                0x000010d5       0x6b build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line.text.main_gpio_explorer_app
+                0x00001140      0x25e build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line_end
+                0x0000139e        0x0 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_line    0x0000139e      0x2e5 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+ .debug_line.text.configuration_file_init
+                0x00001683       0x56 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+ .debug_line.text.configuration_file_read
+                0x000016d9       0x7d build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+ .debug_line.text.configuration_file_write
+                0x00001756       0x59 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+ .debug_line.text.free_storage_manager
+                0x000017af       0x14 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+ .debug_line_end
+                0x000017c3        0x0 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+
+.debug_frame    0x00000000      0x38c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x30c build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_frame   0x0000030c       0x80 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+
+.debug_str      0x00000000     0x1f1a
+ *(.debug_str)
+ .debug_str     0x00000000     0x19f6 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_str     0x000019f6      0x524 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x10c9
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000     0x101b build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_loclists
+                0x0000101b       0xae build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x265
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x23e build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .debug_rnglists
+                0x0000023e       0x27 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/gpio_explorer_app/app.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/gpio_explorer_app/storage_manager.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/gpio_explorer_app_d.elf elf32-littlearm)
+LOAD linker stubs

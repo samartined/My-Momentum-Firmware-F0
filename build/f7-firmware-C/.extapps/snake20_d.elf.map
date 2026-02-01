@@ -1,0 +1,257 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              build/f7-firmware-C/.extapps/snake20/snake_20.o (__aeabi_f2d)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/snake20/snake_20.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xf70
+ *(.text)
+ .text          0x00000000      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000000                __aeabi_drsub
+                0x00000008                __aeabi_dsub
+                0x00000008                __subdf3
+                0x0000000c                __adddf3
+                0x0000000c                __aeabi_dadd
+                0x00000284                __aeabi_ui2d
+                0x00000284                __floatunsidf
+                0x000002a4                __floatsidf
+                0x000002a4                __aeabi_i2d
+                0x000002c8                __extendsfdf2
+                0x000002c8                __aeabi_f2d
+                0x0000030c                __aeabi_ul2d
+                0x0000030c                __floatundidf
+                0x0000031c                __floatdidf
+                0x0000031c                __aeabi_l2d
+ *(.stub)
+ *(.text*)
+ .text.snake_game_update_timer_callback
+                0x00000378       0x1c build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .text.snake_game_input_callback
+                0x00000394       0x28 build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .text.snake_game_render_callback
+                0x000003bc      0x4c4 build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .text.load_game
+                0x00000880       0x6c build/f7-firmware-C/.extapps/snake20/snake_20.o
+                0x00000880                load_game
+ .text.save_game
+                0x000008ec       0x64 build/f7-firmware-C/.extapps/snake20/snake_20.o
+                0x000008ec                save_game
+ .text.snake_game_init_game
+                0x00000950       0x74 build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .text.snake_20_app
+                0x000009c4      0x5ac build/f7-firmware-C/.extapps/snake20/snake_20.o
+                0x000009c4                snake_20_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000f70      0x128
+ *(.rodata)
+ .rodata        0x00000f70        0xe build/f7-firmware-C/.extapps/snake20/snake_20.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.snake_game_render_callback.str1.1
+                0x00000f7e       0x7b build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .rodata.load_game.str1.1
+                0x00000ff9       0x1a build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .rodata.snake_20_app.str1.1
+                0x00001013       0x31 build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .rodata.sequence_eat
+                0x00001044       0x18 build/f7-firmware-C/.extapps/snake20/snake_20.o
+                0x00001044                sequence_eat
+ .rodata.sequence_fail
+                0x0000105c       0x3c build/f7-firmware-C/.extapps/snake20/snake_20.o
+                0x0000105c                sequence_fail
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x50
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x50 build/f7-firmware-C/.extapps/snake20/snake_20.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2d11
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2d11 build/f7-firmware-C/.extapps/snake20/snake_20.o
+
+.debug_abbrev   0x00000000      0x506
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x506 build/f7-firmware-C/.extapps/snake20/snake_20.o
+
+.debug_line     0x00000000      0xd67
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x4f2 build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .debug_line.text.snake_game_update_timer_callback
+                0x000004f2       0x35 build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .debug_line.text.snake_game_input_callback
+                0x00000527       0x30 build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .debug_line.text.snake_game_render_callback
+                0x00000557      0x1a0 build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .debug_line.text.load_game
+                0x000006f7       0x57 build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .debug_line.text.save_game
+                0x0000074e       0x4f build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .debug_line.text.snake_game_init_game
+                0x0000079d       0x60 build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .debug_line.text.snake_20_app
+                0x000007fd      0x56a build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .debug_line_end
+                0x00000d67        0x0 build/f7-firmware-C/.extapps/snake20/snake_20.o
+
+.debug_frame    0x00000000      0x110
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x110 build/f7-firmware-C/.extapps/snake20/snake_20.o
+
+.debug_str      0x00000000     0x1834
+ *(.debug_str)
+ .debug_str     0x00000000     0x1834 build/f7-firmware-C/.extapps/snake20/snake_20.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000       0xa8
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+.debug_loclists
+                0x00000000      0x69f
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x69f build/f7-firmware-C/.extapps/snake20/snake_20.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x10c
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x10c build/f7-firmware-C/.extapps/snake20/snake_20.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/snake20/snake_20.o
+ .ARM.attributes
+                0x00000034       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/snake20_d.elf elf32-littlearm)
+LOAD linker stubs

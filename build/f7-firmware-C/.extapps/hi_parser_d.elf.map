@@ -1,0 +1,229 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x340
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.hi_parse
+                0x00000000       0xa0 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .text.hi_verify
+                0x000000a0       0x8c build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .text.hi_generate_key
+                0x0000012c       0x6c build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+                0x0000012c                hi_generate_key
+ .text.hi_read  0x00000198      0x1a0 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .text.hi_plugin_ep
+                0x00000338        0x8 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+                0x00000338                hi_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000340      0x108
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.hi_parse.str1.1
+                0x00000340       0x19 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .rodata.hi_verify.str1.1
+                0x00000359       0x5c build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .rodata.hi_read.str1.1
+                0x000003b5       0x24 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .rodata.xor_table_keyB.0
+                0x000003d9       0x18 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .rodata.xorOrderB.1
+                0x000003f1        0x6 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .rodata.xor_table_keyA.2
+                0x000003f7       0x18 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .rodata.xorOrderA.3
+                0x0000040f        0x6 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .rodata.str1.1
+                0x00000415       0x17 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .rodata.hi_plugin_descriptor
+                0x0000042c        0xc build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .rodata.hi_plugin
+                0x00000438       0x10 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+
+.data           0x00000448      0x100
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.hi_1k_keys
+                0x00000448      0x100 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x40
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x40 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x11b1
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x11b1 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+
+.debug_abbrev   0x00000000      0x3b5
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3b5 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+
+.debug_line     0x00000000      0x703
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x33d build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .debug_line.text.hi_parse
+                0x0000033d       0xdd build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .debug_line.text.hi_verify
+                0x0000041a       0xa7 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .debug_line.text.hi_generate_key
+                0x000004c1       0x8c build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .debug_line.text.hi_read
+                0x0000054d      0x19d build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .debug_line.text.hi_plugin_ep
+                0x000006ea       0x19 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ .debug_line_end
+                0x00000703        0x0 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+
+.debug_frame    0x00000000       0xc8
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xc8 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+
+.debug_str      0x00000000      0xa52
+ *(.debug_str)
+ .debug_str     0x00000000      0xa52 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x431
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x431 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0xb4
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xb4 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/hi_parser/plugins/supported_cards/hi.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/hi_parser_d.elf elf32-littlearm)
+LOAD linker stubs

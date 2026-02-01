@@ -1,0 +1,1328 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+                              build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o (__aeabi_dmul)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o (__aeabi_f2d)
+build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+                              build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o (WIZCHIP_WRITE_BUF)
+build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                              build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o) (WIZCHIP)
+build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                              build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o (reg_dhcp_cbfunc)
+build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+                              build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o (ping_auto)
+build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+                              build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_traceroute.o (traceroute)
+build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+                              build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o) (close)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .text.ethernet_view_process_autofill
+                0x00000000        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .text.evp_printf
+                0x00000000       0x40 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_line.text.ethernet_view_process_autofill
+                0x00000000       0x20 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_line.text.evp_printf
+                0x00000000       0x3e build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .text.eth_worker_change_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .text.eth_worker_log
+                0x00000000        0xc build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .text.eth_set_state
+                0x00000000        0x2 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.eth_worker_change_state
+                0x00000000       0x20 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.eth_worker_log
+                0x00000000       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.eth_set_state
+                0x00000000       0x15 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_dhcp.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_dhcp.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_dhcp.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_dhcp.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_traceroute.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_traceroute.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_traceroute.o
+ .text.traceroute_auto
+                0x00000000        0xc build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_traceroute.o
+ .debug_info    0x00000000      0x2c8 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_traceroute.o
+ .debug_abbrev  0x00000000       0xe1 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_traceroute.o
+ .debug_loclists
+                0x00000000       0x2a build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_traceroute.o
+ .debug_aranges
+                0x00000000       0x20 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_traceroute.o
+ .debug_rnglists
+                0x00000000       0x13 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_traceroute.o
+ .debug_line    0x00000000      0x20b build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_traceroute.o
+ .debug_str     0x00000000      0x2b6 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_traceroute.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_traceroute.o
+ .debug_line.text.traceroute_auto
+                0x00000000       0x1b build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_traceroute.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_traceroute.o
+ .debug_frame   0x00000000       0x20 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_traceroute.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+ .rodata.I_ethernet_icon_10x10px
+                0x00000000        0xc build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+ .rodata._I_ethernet_icon_10x10px
+                0x00000000        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+ .rodata._I_ethernet_icon_10x10px_0
+                0x00000000       0x12 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .text.reg_wizchip_cris_cbfunc
+                0x00000000       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .text.reg_wizchip_bus_cbfunc
+                0x00000000       0x24 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .text.wizphy_getphystat
+                0x00000000       0x20 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.reg_wizchip_cris_cbfunc
+                0x00000000       0x2e build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.reg_wizchip_bus_cbfunc
+                0x00000000       0x3b build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizphy_getphystat
+                0x00000000       0x3d build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .rodata.ping_count.str1.1
+                0x00000000       0x1e build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .text.ping_count
+                0x00000000      0x150 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .text.htons    0x00000000        0x6 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .bss.PingReply
+                0x00000000       0x28 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .debug_line.text.ping_count
+                0x00000000      0x127 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .debug_line.text.htons
+                0x00000000       0x1f build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .rodata.receive_traceroute_reply.str1.1
+                0x00000000       0x36 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .text.receive_traceroute_reply
+                0x00000000       0x54 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .text.set_ttl  0x00000000       0x10 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .rodata.send_traceroute_request.str1.1
+                0x00000000       0x31 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .text.send_traceroute_request
+                0x00000000       0xac build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .rodata.traceroute.str1.1
+                0x00000000       0x65 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .text.traceroute
+                0x00000000      0x140 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .data.port     0x00000000        0x2 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .data.RandomSeqNum
+                0x00000000        0x2 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .data.RandomID
+                0x00000000        0x2 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .debug_info    0x00000000      0x7d8 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .debug_abbrev  0x00000000      0x283 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .debug_loclists
+                0x00000000      0x1ee build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .debug_aranges
+                0x00000000       0x38 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .debug_rnglists
+                0x00000000       0x75 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .debug_line    0x00000000      0x330 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .debug_str     0x00000000      0x3d4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .debug_line.text.receive_traceroute_reply
+                0x00000000       0x4d build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .debug_line.text.set_ttl
+                0x00000000       0x18 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .debug_line.text.send_traceroute_request
+                0x00000000       0xab build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .debug_line.text.traceroute
+                0x00000000      0x119 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .debug_frame   0x00000000       0x98 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .text.listen   0x00000000       0x70 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .text.connect  0x00000000       0xf4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .text.disconnect
+                0x00000000       0x8c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .text.send     0x00000000      0x124 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .text.recv     0x00000000       0xf8 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .text.ctlsocket
+                0x00000000       0xc0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .text.setsockopt
+                0x00000000      0x10c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .text.getsockopt
+                0x00000000      0x110 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .debug_line.text.listen
+                0x00000000       0x9d build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .debug_line.text.connect
+                0x00000000      0x141 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .debug_line.text.disconnect
+                0x00000000       0xad build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .debug_line.text.send
+                0x00000000      0x175 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .debug_line.text.recv
+                0x00000000      0x132 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .debug_line.text.ctlsocket
+                0x00000000      0x102 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .debug_line.text.setsockopt
+                0x00000000       0xeb build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .debug_line.text.getsockopt
+                0x00000000       0xfa build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+LOAD build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+LOAD build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+LOAD build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+LOAD build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_dhcp.o
+LOAD build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+LOAD build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_traceroute.o
+LOAD build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver
+
+.text           0x00000000     0x441c
+ *(.text)
+ .text          0x00000000      0x254 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+                0x00000000                __aeabi_dmul
+                0x00000000                __muldf3
+ .text          0x00000254      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000254                __aeabi_drsub
+                0x0000025c                __aeabi_dsub
+                0x0000025c                __subdf3
+                0x00000260                __adddf3
+                0x00000260                __aeabi_dadd
+                0x000004d8                __aeabi_ui2d
+                0x000004d8                __floatunsidf
+                0x000004f8                __floatsidf
+                0x000004f8                __aeabi_i2d
+                0x0000051c                __extendsfdf2
+                0x0000051c                __aeabi_f2d
+                0x00000560                __aeabi_ul2d
+                0x00000560                __floatundidf
+                0x00000570                __floatdidf
+                0x00000570                __aeabi_l2d
+ *(.stub)
+ *(.text*)
+ .text.read_02X
+                0x000005cc       0x3c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .text.read_ip  0x00000608       0x68 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .text.storage_printf
+                0x00000670       0x68 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .text.storage_read_config
+                0x000006d8      0x17c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+                0x000006d8                storage_read_config
+ .text.ethernet_save_process_write
+                0x00000854      0x148 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+                0x00000854                ethernet_save_process_write
+ .text.ethernet_save_process_read
+                0x0000099c       0x8c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+                0x0000099c                ethernet_save_process_read
+ .text.ethernet_save_process_malloc
+                0x00000a28       0xd0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+                0x00000a28                ethernet_save_process_malloc
+ .text.ethernet_save_process_print
+                0x00000af8       0x54 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+                0x00000af8                ethernet_save_process_print
+ .text.ethernet_save_process_free
+                0x00000b4c       0x54 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+                0x00000b4c                ethernet_save_process_free
+ .text.eth_troubleshooter_app_input_callback
+                0x00000ba0       0x14 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .text.eth_troubleshooter_app_draw_callback
+                0x00000bb4      0x2bc build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .text.eth_troubleshooter_app_alloc
+                0x00000e70       0x88 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+                0x00000e70                eth_troubleshooter_app_alloc
+ .text.eth_troubleshooter_app_free
+                0x00000ef8       0x60 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+                0x00000ef8                eth_troubleshooter_app_free
+ .text.eth_troubleshooter_app_key_handler
+                0x00000f58      0x100 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+                0x00000f58                eth_troubleshooter_app_key_handler
+ .text.eth_troubleshooter_app
+                0x00001058       0xa0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+                0x00001058                eth_troubleshooter_app
+ .text.mac_change_hex_digit
+                0x000010f8       0x2e build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .text.address_change_dec_digit
+                0x00001126       0x4e build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .text.draw_dec_number
+                0x00001174       0x70 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .text.draw_static_mode
+                0x000011e4       0xc0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .text.draw_hex_digit.constprop.0
+                0x000012a4       0x28 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .text.ethernet_view_process_malloc
+                0x000012cc       0xa0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+                0x000012cc                ethernet_view_process_malloc
+ .text.ethernet_view_process_free
+                0x0000136c       0x28 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+                0x0000136c                ethernet_view_process_free
+ .text.ethernet_view_process_draw
+                0x00001394      0x328 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+                0x00001394                ethernet_view_process_draw
+ .text.ethernet_view_process_move
+                0x000016bc       0x36 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+                0x000016bc                ethernet_view_process_move
+ *fill*         0x000016f2        0x2 
+ .text.ethernet_view_process_keyevent
+                0x000016f4      0x1a4 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+                0x000016f4                ethernet_view_process_keyevent
+ .text.ethernet_view_process_print
+                0x00001898      0x108 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+                0x00001898                ethernet_view_process_print
+ .text.eth_set_force_state
+                0x000019a0       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .text.W5500_Unselect
+                0x000019bc       0x10 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .text.W5500_WriteBuff
+                0x000019cc       0x20 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .text.W5500_WriteByte
+                0x000019ec       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .text.W5500_ReadBuff
+                0x00001a08       0x20 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .text.W5500_ReadByte
+                0x00001a28       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .text.W5500_Select
+                0x00001a44       0x10 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .text.eth_worker_set_active_process
+                0x00001a54       0x24 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+                0x00001a54                eth_worker_set_active_process
+ .text.eth_log  0x00001a78       0xa8 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+                0x00001a78                eth_log
+ .text.eth_worker_alloc
+                0x00001b20       0x90 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+                0x00001b20                eth_worker_alloc
+ .text.Callback_IPConflict
+                0x00001bb0       0x10 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .text.Callback_IPAssigned
+                0x00001bc0       0x20 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .text.eth_printf
+                0x00001be0       0x4c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+                0x00001be0                eth_printf
+ .text.eth_set_next_state
+                0x00001c2c       0x44 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+                0x00001c2c                eth_set_next_state
+ .text.eth_run  0x00001c70       0xe8 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+                0x00001c70                eth_run
+ .text.eth_worker_free
+                0x00001d58       0x74 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+                0x00001d58                eth_worker_free
+ .text.update_WIZNETINFO
+                0x00001dcc       0x60 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+                0x00001dcc                update_WIZNETINFO
+ .text.check_phylink
+                0x00001e2c       0xb8 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+                0x00001e2c                check_phylink
+ .text.eth_worker_task
+                0x00001ee4      0x574 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+                0x00001ee4                eth_worker_task
+ .text.dhcp_timer_callback
+                0x00002458        0x8 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_dhcp.o
+                0x00002458                dhcp_timer_callback
+ .text.ping_wait_ms
+                0x00002460        0x8 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+                0x00002460                ping_wait_ms
+ .text.ping_auto_interface
+                0x00002468        0xc build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+                0x00002468                ping_auto_interface
+ .text.WIZCHIP_READ
+                0x00002474       0x5c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+                0x00002474                WIZCHIP_READ
+ .text.WIZCHIP_WRITE
+                0x000024d0       0x64 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+                0x000024d0                WIZCHIP_WRITE
+ .text.WIZCHIP_READ_BUF
+                0x00002534       0x74 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+                0x00002534                WIZCHIP_READ_BUF
+ .text.WIZCHIP_WRITE_BUF
+                0x000025a8       0x74 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+                0x000025a8                WIZCHIP_WRITE_BUF
+ .text.getSn_TX_FSR
+                0x0000261c       0x44 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+                0x0000261c                getSn_TX_FSR
+ .text.getSn_RX_RSR
+                0x00002660       0x44 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+                0x00002660                getSn_RX_RSR
+ .text.wiz_send_data
+                0x000026a4       0x68 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+                0x000026a4                wiz_send_data
+ .text.wiz_recv_data
+                0x0000270c       0x68 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+                0x0000270c                wiz_recv_data
+ .text.wiz_recv_ignore
+                0x00002774       0x48 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+                0x00002774                wiz_recv_ignore
+ .text.wizchip_cris_enter
+                0x000027bc        0x2 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x000027bc                wizchip_cris_enter
+ .text.wizchip_bus_readdata
+                0x000027be        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x000027be                wizchip_bus_readdata
+ .text.wizchip_bus_writedata
+                0x000027c2        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x000027c2                wizchip_bus_writedata
+ .text.wizchip_cs_deselect
+                0x000027c6        0x2 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x000027c6                wizchip_cs_deselect
+ .text.wizchip_cris_exit
+                0x000027c8        0x2 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x000027c8                wizchip_cris_exit
+ .text.wizchip_cs_select
+                0x000027ca        0x2 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x000027ca                wizchip_cs_select
+ .text.reg_wizchip_cs_cbfunc
+                0x000027cc       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x000027cc                reg_wizchip_cs_cbfunc
+ .text.reg_wizchip_spi_cbfunc
+                0x000027e8       0x18 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x000027e8                reg_wizchip_spi_cbfunc
+ .text.reg_wizchip_spiburst_cbfunc
+                0x00002800       0x18 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x00002800                reg_wizchip_spiburst_cbfunc
+ .text.wizchip_sw_reset
+                0x00002818       0x80 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x00002818                wizchip_sw_reset
+ .text.wizchip_init
+                0x00002898       0x98 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x00002898                wizchip_init
+ .text.wizchip_clrinterrupt
+                0x00002930       0x30 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x00002930                wizchip_clrinterrupt
+ .text.wizchip_getinterrupt
+                0x00002960       0x24 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x00002960                wizchip_getinterrupt
+ .text.wizchip_setinterruptmask
+                0x00002984       0x20 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x00002984                wizchip_setinterruptmask
+ .text.wizchip_getinterruptmask
+                0x000029a4       0x20 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x000029a4                wizchip_getinterruptmask
+ .text.wizphy_getphylink
+                0x000029c4       0x14 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x000029c4                wizphy_getphylink
+ .text.wizphy_getphypmode
+                0x000029d8       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x000029d8                wizphy_getphypmode
+ .text.wizphy_reset
+                0x000029f4       0x38 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x000029f4                wizphy_reset
+ .text.wizphy_setphyconf
+                0x00002a2c       0x50 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x00002a2c                wizphy_setphyconf
+ .text.wizphy_getphyconf
+                0x00002a7c       0x70 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x00002a7c                wizphy_getphyconf
+ .text.wizphy_setphypmode
+                0x00002aec       0x5c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x00002aec                wizphy_setphypmode
+ .text.ctlwizchip
+                0x00002b48      0x108 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x00002b48                ctlwizchip
+ .text.wizchip_setnetinfo
+                0x00002c50       0x58 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x00002c50                wizchip_setnetinfo
+ .text.wizchip_getnetinfo
+                0x00002ca8       0x58 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x00002ca8                wizchip_getnetinfo
+ .text.wizchip_setnetmode
+                0x00002d00       0x30 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x00002d00                wizchip_setnetmode
+ .text.wizchip_getnetmode
+                0x00002d30        0xc build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x00002d30                wizchip_getnetmode
+ .text.wizchip_settimeout
+                0x00002d3c       0x2c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x00002d3c                wizchip_settimeout
+ .text.wizchip_gettimeout
+                0x00002d68       0x28 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x00002d68                wizchip_gettimeout
+ .text.ctlnetwork
+                0x00002d90       0x60 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x00002d90                ctlnetwork
+ .text.default_ip_assign
+                0x00002df0       0x38 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00002df0                default_ip_assign
+ .text.default_ip_update
+                0x00002e28       0x38 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00002e28                default_ip_update
+ .text.default_ip_conflict
+                0x00002e60       0x30 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00002e60                default_ip_conflict
+ .text.reg_dhcp_cbfunc
+                0x00002e90       0x40 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00002e90                reg_dhcp_cbfunc
+ .text.makeDHCPMSG
+                0x00002ed0       0x9c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00002ed0                makeDHCPMSG
+ .text.send_DHCP_DECLINE
+                0x00002f6c       0xec build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00002f6c                send_DHCP_DECLINE
+ .text.parseDHCPMSG
+                0x00003058      0x230 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00003058                parseDHCPMSG
+ .text.DHCP_stop
+                0x00003288       0x20 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00003288                DHCP_stop
+ .text.check_DHCP_leasedIP
+                0x000032a8       0x80 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x000032a8                check_DHCP_leasedIP
+ .text.reset_DHCP_timeout
+                0x00003328       0x20 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00003328                reset_DHCP_timeout
+ .text.DHCP_init
+                0x00003348       0xb8 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00003348                DHCP_init
+ .text.DHCP_time_handler
+                0x00003400       0x10 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00003400                DHCP_time_handler
+ .text.getIPfromDHCP
+                0x00003410       0x18 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00003410                getIPfromDHCP
+ .text.getGWfromDHCP
+                0x00003428       0x18 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00003428                getGWfromDHCP
+ .text.getSNfromDHCP
+                0x00003440       0x18 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00003440                getSNfromDHCP
+ .text.getDNSfromDHCP
+                0x00003458       0x18 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00003458                getDNSfromDHCP
+ .text.getDHCPLeasetime
+                0x00003470        0xc build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00003470                getDHCPLeasetime
+ .text.NibbleToHex
+                0x0000347c        0xe build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x0000347c                NibbleToHex
+ *fill*         0x0000348a        0x2 
+ .text.send_DHCP_DISCOVER
+                0x0000348c      0x1d8 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x0000348c                send_DHCP_DISCOVER
+ .text.send_DHCP_REQUEST
+                0x00003664      0x280 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00003664                send_DHCP_REQUEST
+ .text.check_DHCP_timeout
+                0x000038e4       0x8c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x000038e4                check_DHCP_timeout
+ .text.DHCP_run
+                0x00003970      0x1e0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00003970                DHCP_run
+ .text.checksum
+                0x00003b50       0x3a build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+                0x00003b50                checksum
+ *fill*         0x00003b8a        0x2 
+ .text.ping_request
+                0x00003b8c       0xb8 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+                0x00003b8c                ping_request
+ .text.ping_reply
+                0x00003c44      0x168 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+                0x00003c44                ping_reply
+ .text.ping_auto
+                0x00003dac      0x144 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+                0x00003dac                ping_auto
+ .text.close    0x00003ef0       0x88 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+                0x00003ef0                close
+ .text.socket   0x00003f78      0x130 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+                0x00003f78                socket
+ .text.sendto   0x000040a8      0x150 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+                0x000040a8                sendto
+ .text.recvfrom
+                0x000041f8      0x224 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+                0x000041f8                recvfrom
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x0000441c      0xa7e
+ *(.rodata)
+ .rodata        0x0000441c       0x10 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.read_ip.str1.1
+                0x0000442c       0x27 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .rodata.storage_printf.str1.1
+                0x00004453        0x2 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .rodata.storage_read_config.str1.1
+                0x00004455       0x2c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .rodata.ethernet_save_process_write.str1.1
+                0x00004481       0xcc build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .rodata.ethernet_save_process_read.str1.1
+                0x0000454d       0x47 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .rodata.ethernet_save_process_malloc.str1.1
+                0x00004594       0x32 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .rodata.ethernet_save_process_print.str1.1
+                0x000045c6       0x22 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .rodata.ethernet_save_process_free.str1.1
+                0x000045e8       0x1b build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .rodata.eth_troubleshooter_app_draw_callback.str1.1
+                0x00004603       0x8e build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .rodata.eth_troubleshooter_app_alloc.str1.1
+                0x00004691       0x17 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .rodata.draw_static_mode.str1.1
+                0x000046a8        0xf build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .rodata.eth_log.str1.1
+                0x000046b7        0xd build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .rodata.eth_worker_alloc.str1.1
+                0x000046c4       0x17 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .rodata.Callback_IPConflict.str1.1
+                0x000046db       0x17 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .rodata.Callback_IPAssigned.str1.1
+                0x000046f2       0x2b build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .rodata.eth_run.str1.1
+                0x0000471d        0xd build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .rodata.eth_worker_free.str1.1
+                0x0000472a       0x16 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .rodata.check_phylink.str1.1
+                0x00004740       0x66 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .rodata.eth_worker_task.str1.1
+                0x000047a6      0x171 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ *fill*         0x00004917        0x1 
+ .rodata.I_main_128x64px
+                0x00004918        0xc build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+                0x00004918                I_main_128x64px
+ .rodata.I_init_100x19px
+                0x00004924        0xc build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+                0x00004924                I_init_100x19px
+ .rodata.I_exit_128x64px
+                0x00004930        0xc build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+                0x00004930                I_exit_128x64px
+ .rodata._I_main_128x64px
+                0x0000493c        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+                0x0000493c                _I_main_128x64px
+ .rodata._I_main_128x64px_0
+                0x00004940       0xe0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+                0x00004940                _I_main_128x64px_0
+ .rodata._I_init_100x19px
+                0x00004a20        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+                0x00004a20                _I_init_100x19px
+ .rodata._I_init_100x19px_0
+                0x00004a24       0x44 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+                0x00004a24                _I_init_100x19px_0
+ .rodata._I_exit_128x64px
+                0x00004a68        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+                0x00004a68                _I_exit_128x64px
+ .rodata._I_exit_128x64px_0
+                0x00004a6c       0xf4 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+                0x00004a6c                _I_exit_128x64px_0
+ .rodata.send_DHCP_DECLINE.str1.1
+                0x00004b60       0x16 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .rodata.parseDHCPMSG.str1.1
+                0x00004b76       0x96 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .rodata.check_DHCP_leasedIP.str1.1
+                0x00004c0c       0x2b build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .rodata.send_DHCP_DISCOVER.str1.1
+                0x00004c37       0x15 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .rodata.send_DHCP_REQUEST.str1.1
+                0x00004c4c       0x14 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .rodata.DHCP_run.str1.1
+                0x00004c60       0xa2 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .rodata.ping_request.str1.1
+                0x00004d02       0x70 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .rodata.ping_reply.str1.1
+                0x00004d72       0xd6 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .rodata.ping_auto.str1.1
+                0x00004e48       0x52 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+
+.data           0x00004e9c       0x4e
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.WIZCHIP  0x00004e9c       0x2c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+                0x00004e9c                WIZCHIP
+ .data.dhcp_ip_conflict
+                0x00004ec8        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004ec8                dhcp_ip_conflict
+ .data.dhcp_ip_update
+                0x00004ecc        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004ecc                dhcp_ip_update
+ .data.dhcp_ip_assign
+                0x00004ed0        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004ed0                dhcp_ip_assign
+ .data.HOST_NAME
+                0x00004ed4        0x8 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004ed4                HOST_NAME
+ .data.dhcp_tick_next
+                0x00004edc        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004edc                dhcp_tick_next
+ .data.dhcp_lease_time
+                0x00004ee0        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004ee0                dhcp_lease_time
+ .data.RandomSeqNum
+                0x00004ee4        0x2 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .data.RandomID
+                0x00004ee6        0x2 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .data.sock_any_port
+                0x00004ee8        0x2 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+
+.bss            0x00004eec       0x9a
+ *(.bss)
+ *(.bss*)
+ .bss.gWIZNETINFO
+                0x00004eec       0x17 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ *fill*         0x00004f03        0x1 
+ .bss.static_worker
+                0x00004f04        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .bss._DHCP_    0x00004f08        0x1 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .bss._DNS_     0x00004f09        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .bss.DHCP_CHADDR
+                0x00004f0d        0x6 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004f0d                DHCP_CHADDR
+ *fill*         0x00004f13        0x1 
+ .bss.pDHCPMSG  0x00004f14        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004f14                pDHCPMSG
+ .bss.DHCP_XID  0x00004f18        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004f18                DHCP_XID
+ .bss.dhcp_tick_1s
+                0x00004f1c        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004f1c                dhcp_tick_1s
+ .bss.dhcp_retry_count
+                0x00004f20        0x1 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004f20                dhcp_retry_count
+ .bss.dhcp_state
+                0x00004f21        0x1 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004f21                dhcp_state
+ .bss.DHCP_allocated_dns
+                0x00004f22        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004f22                DHCP_allocated_dns
+ .bss.DHCP_allocated_sn
+                0x00004f26        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004f26                DHCP_allocated_sn
+ .bss.DHCP_allocated_gw
+                0x00004f2a        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004f2a                DHCP_allocated_gw
+ .bss.DHCP_allocated_ip
+                0x00004f2e        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004f2e                DHCP_allocated_ip
+ .bss.OLD_allocated_ip
+                0x00004f32        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004f32                OLD_allocated_ip
+ .bss.DHCP_REAL_SIP
+                0x00004f36        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004f36                DHCP_REAL_SIP
+ .bss.DHCP_SIP  0x00004f3a        0x4 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004f3a                DHCP_SIP
+ .bss.DHCP_SOCKET
+                0x00004f3e        0x1 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+                0x00004f3e                DHCP_SOCKET
+ .bss.rep       0x00004f3f        0x1 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+                0x00004f3f                rep
+ .bss.req       0x00004f40        0x1 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+                0x00004f40                req
+ .bss.ping_reply_received
+                0x00004f41        0x1 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+                0x00004f41                ping_reply_received
+ .bss.PingRequest
+                0x00004f42       0x28 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+                0x00004f42                PingRequest
+ .bss.sock_pack_info
+                0x00004f6a        0x8 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+                0x00004f6a                sock_pack_info
+ .bss.sock_remained_size
+                0x00004f72       0x10 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .bss.sock_is_sending
+                0x00004f82        0x2 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .bss.sock_io_mode
+                0x00004f84        0x2 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x550
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x60 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .debug_aranges
+                0x00000060       0x48 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .debug_aranges
+                0x000000a8       0x80 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_aranges
+                0x00000128       0xc8 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_aranges
+                0x000001f0       0x20 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_dhcp.o
+ .debug_aranges
+                0x00000210       0x28 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+ .debug_aranges
+                0x00000238       0x18 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+ .debug_aranges
+                0x00000250       0x60 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .debug_aranges
+                0x000002b0      0x118 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_aranges
+                0x000003c8       0xc8 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_aranges
+                0x00000490       0x48 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .debug_aranges
+                0x000004d8       0x78 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xc411
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1407 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .debug_info    0x00001407     0x1653 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .debug_info    0x00002a5a     0x2135 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_info    0x00004b8f     0x2669 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_info    0x000071f8      0x2a0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_dhcp.o
+ .debug_info    0x00007498      0x32d build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+ .debug_info    0x000077c5      0x267 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+ .debug_info    0x00007a2c      0x8aa build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .debug_info    0x000082d6     0x11af build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_info    0x00009485     0x112d build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_info    0x0000a5b2      0xc3b build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .debug_info    0x0000b1ed     0x1224 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+
+.debug_abbrev   0x00000000     0x23af
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x431 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .debug_abbrev  0x00000431      0x39d build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .debug_abbrev  0x000007ce      0x4d9 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_abbrev  0x00000ca7      0x5c0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_abbrev  0x00001267       0xc9 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_dhcp.o
+ .debug_abbrev  0x00001330      0x125 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+ .debug_abbrev  0x00001455       0xb5 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+ .debug_abbrev  0x0000150a      0x299 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .debug_abbrev  0x000017a3      0x399 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_abbrev  0x00001b3c      0x35c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_abbrev  0x00001e98      0x2bc build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .debug_abbrev  0x00002154      0x25b build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+
+.debug_line     0x00000000     0x6664
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x393 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .debug_line.text.read_02X
+                0x00000393       0x7d build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .debug_line.text.read_ip
+                0x00000410       0xae build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .debug_line.text.storage_printf
+                0x000004be       0x6b build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .debug_line.text.storage_read_config
+                0x00000529      0x147 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .debug_line.text.ethernet_save_process_write
+                0x00000670       0xd3 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .debug_line.text.ethernet_save_process_read
+                0x00000743       0x66 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .debug_line.text.ethernet_save_process_malloc
+                0x000007a9       0xb2 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .debug_line.text.ethernet_save_process_print
+                0x0000085b       0x3d build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .debug_line.text.ethernet_save_process_free
+                0x00000898       0x31 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .debug_line_end
+                0x000008c9        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .debug_line    0x000008c9      0x4ea build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .debug_line.text.eth_troubleshooter_app_input_callback
+                0x00000db3       0x26 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .debug_line.text.eth_troubleshooter_app_draw_callback
+                0x00000dd9      0x19a build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .debug_line.text.eth_troubleshooter_app_alloc
+                0x00000f73       0x86 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .debug_line.text.eth_troubleshooter_app_free
+                0x00000ff9       0x3a build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .debug_line.text.eth_troubleshooter_app_key_handler
+                0x00001033       0xe9 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .debug_line.text.eth_troubleshooter_app
+                0x0000111c       0xd7 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .debug_line_end
+                0x000011f3        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .debug_line    0x000011f3      0x44c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_line.text.mac_change_hex_digit
+                0x0000163f       0x49 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_line.text.address_change_dec_digit
+                0x00001688       0xe5 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_line.text.draw_dec_number
+                0x0000176d       0x72 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_line.text.draw_static_mode
+                0x000017df       0x7b build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_line.text.draw_hex_digit.constprop.0
+                0x0000185a       0x3e build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_line.text.ethernet_view_process_malloc
+                0x00001898      0x125 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_line.text.ethernet_view_process_free
+                0x000019bd       0x3c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_line.text.ethernet_view_process_draw
+                0x000019f9      0x33b build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_line.text.ethernet_view_process_move
+                0x00001d34       0x72 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_line.text.ethernet_view_process_keyevent
+                0x00001da6      0x2ad build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_line.text.ethernet_view_process_print
+                0x00002053      0x121 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_line_end
+                0x00002174        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_line    0x00002174      0x560 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.eth_set_force_state
+                0x000026d4       0x38 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.W5500_Unselect
+                0x0000270c       0x32 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.W5500_WriteBuff
+                0x0000273e       0x2a build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.W5500_WriteByte
+                0x00002768       0x26 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.W5500_ReadBuff
+                0x0000278e       0x2a build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.W5500_ReadByte
+                0x000027b8       0x23 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.W5500_Select
+                0x000027db       0x36 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.eth_worker_set_active_process
+                0x00002811       0x4d build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.eth_log
+                0x0000285e       0xd3 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.eth_worker_alloc
+                0x00002931       0xac build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.Callback_IPConflict
+                0x000029dd       0x15 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.Callback_IPAssigned
+                0x000029f2       0x22 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.eth_printf
+                0x00002a14       0x53 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.eth_set_next_state
+                0x00002a67       0x74 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.eth_run
+                0x00002adb       0x90 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.eth_worker_free
+                0x00002b6b       0x4b build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.update_WIZNETINFO
+                0x00002bb6       0x55 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.check_phylink
+                0x00002c0b       0xbb build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line.text.eth_worker_task
+                0x00002cc6      0x3fe build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line_end
+                0x000030c4        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_line    0x000030c4      0x1ff build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_dhcp.o
+ .debug_line.text.dhcp_timer_callback
+                0x000032c3       0x15 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_dhcp.o
+ .debug_line_end
+                0x000032d8        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_dhcp.o
+ .debug_line    0x000032d8      0x215 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+ .debug_line.text.ping_wait_ms
+                0x000034ed       0x14 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+ .debug_line.text.ping_auto_interface
+                0x00003501       0x1b build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+ .debug_line_end
+                0x0000351c        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+ .debug_line    0x0000351c      0x1ae build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+ .debug_line_end
+                0x000036ca        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+ .debug_line    0x000036ca      0x1c3 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .debug_line.text.WIZCHIP_READ
+                0x0000388d       0x81 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .debug_line.text.WIZCHIP_WRITE
+                0x0000390e       0x72 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .debug_line.text.WIZCHIP_READ_BUF
+                0x00003980       0xa9 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .debug_line.text.WIZCHIP_WRITE_BUF
+                0x00003a29       0x95 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .debug_line.text.getSn_TX_FSR
+                0x00003abe       0x73 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .debug_line.text.getSn_RX_RSR
+                0x00003b31       0x73 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .debug_line.text.wiz_send_data
+                0x00003ba4       0x56 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .debug_line.text.wiz_recv_data
+                0x00003bfa       0x56 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .debug_line.text.wiz_recv_ignore
+                0x00003c50       0x3e build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .debug_line_end
+                0x00003c8e        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .debug_line    0x00003c8e      0x254 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizchip_cris_enter
+                0x00003ee2       0x15 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizchip_bus_readdata
+                0x00003ef7       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizchip_bus_writedata
+                0x00003f13       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizchip_cs_deselect
+                0x00003f2f       0x12 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizchip_cris_exit
+                0x00003f41       0x12 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizchip_cs_select
+                0x00003f53       0x12 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.reg_wizchip_cs_cbfunc
+                0x00003f65       0x2e build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.reg_wizchip_spi_cbfunc
+                0x00003f93       0x39 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.reg_wizchip_spiburst_cbfunc
+                0x00003fcc       0x39 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizchip_sw_reset
+                0x00004005       0x36 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizchip_init
+                0x0000403b      0x126 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizchip_clrinterrupt
+                0x00004161       0x60 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizchip_getinterrupt
+                0x000041c1       0x4c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizchip_setinterruptmask
+                0x0000420d       0x38 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizchip_getinterruptmask
+                0x00004245       0x3d build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizphy_getphylink
+                0x00004282       0x28 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizphy_getphypmode
+                0x000042aa       0x2c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizphy_reset
+                0x000042d6       0x42 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizphy_setphyconf
+                0x00004318       0x7a build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizphy_getphyconf
+                0x00004392       0x81 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizphy_setphypmode
+                0x00004413       0x79 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.ctlwizchip
+                0x0000448c      0x122 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizchip_setnetinfo
+                0x000045ae       0x50 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizchip_getnetinfo
+                0x000045fe       0x53 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizchip_setnetmode
+                0x00004651       0x48 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizchip_getnetmode
+                0x00004699       0x19 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizchip_settimeout
+                0x000046b2       0x28 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.wizchip_gettimeout
+                0x000046da       0x35 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line.text.ctlnetwork
+                0x0000470f       0x60 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line_end
+                0x0000476f        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_line    0x0000476f      0x22b build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.default_ip_assign
+                0x0000499a       0x26 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.default_ip_update
+                0x000049c0       0x27 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.default_ip_conflict
+                0x000049e7       0x26 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.reg_dhcp_cbfunc
+                0x00004a0d       0x48 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.makeDHCPMSG
+                0x00004a55       0xbf build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.send_DHCP_DECLINE
+                0x00004b14       0xb2 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.parseDHCPMSG
+                0x00004bc6      0x24d build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.DHCP_stop
+                0x00004e13       0x25 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.check_DHCP_leasedIP
+                0x00004e38       0x73 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.reset_DHCP_timeout
+                0x00004eab       0x2c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.DHCP_init
+                0x00004ed7       0xb2 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.DHCP_time_handler
+                0x00004f89       0x1c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.getIPfromDHCP
+                0x00004fa5       0x40 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.getGWfromDHCP
+                0x00004fe5       0x40 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.getSNfromDHCP
+                0x00005025       0x40 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.getDNSfromDHCP
+                0x00005065       0x40 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.getDHCPLeasetime
+                0x000050a5       0x19 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.NibbleToHex
+                0x000050be       0x34 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.send_DHCP_DISCOVER
+                0x000050f2      0x215 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.send_DHCP_REQUEST
+                0x00005307      0x2ae build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.check_DHCP_timeout
+                0x000055b5       0x8d build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line.text.DHCP_run
+                0x00005642      0x1c2 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line_end
+                0x00005804        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_line    0x00005804      0x21d build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .debug_line.text.checksum
+                0x00005a21       0xa8 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .debug_line.text.ping_request
+                0x00005ac9      0x12f build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .debug_line.text.ping_reply
+                0x00005bf8      0x1b6 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .debug_line.text.ping_auto
+                0x00005dae      0x13b build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .debug_line_end
+                0x00005ee9        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .debug_line    0x00005ee9      0x1c9 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .debug_line.text.close
+                0x000060b2       0x7a build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .debug_line.text.socket
+                0x0000612c      0x162 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .debug_line.text.sendto
+                0x0000628e      0x19f build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .debug_line.text.recvfrom
+                0x0000642d      0x237 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ .debug_line_end
+                0x00006664        0x0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+
+.debug_frame    0x00000000     0x10cc
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x16c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .debug_frame   0x0000016c       0xe8 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .debug_frame   0x00000254      0x1dc build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_frame   0x00000430      0x278 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_frame   0x000006a8       0x20 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_dhcp.o
+ .debug_frame   0x000006c8       0x30 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+ .debug_frame   0x000006f8      0x178 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .debug_frame   0x00000870      0x32c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_frame   0x00000b9c      0x274 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_frame   0x00000e10       0xf0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .debug_frame   0x00000f00      0x1cc build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+
+.debug_str      0x00000000     0x6a03
+ *(.debug_str)
+ .debug_str     0x00000000      0x894 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .debug_str     0x00000894     0x116c build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .debug_str     0x00001a00     0x1044 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_str     0x00002a44     0x16d5 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_str     0x00004119      0x2bc build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_dhcp.o
+ .debug_str     0x000043d5      0x2e2 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+ .debug_str     0x000046b7      0x34f build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+ .debug_str     0x00004a06      0x38a build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .debug_str     0x00004d90      0x946 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_str     0x000056d6      0xa1f build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_str     0x000060f5      0x3c7 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .debug_str     0x000064bc      0x547 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x150
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .debug_line_str
+                0x000000a8       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+.debug_loclists
+                0x00000000     0x43a9
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x459 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .debug_loclists
+                0x00000459      0x481 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .debug_loclists
+                0x000008da      0xb05 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_loclists
+                0x000013df      0x562 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_loclists
+                0x00001941       0x23 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_dhcp.o
+ .debug_loclists
+                0x00001964       0x41 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+ .debug_loclists
+                0x000019a5      0x431 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .debug_loclists
+                0x00001dd6      0x860 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_loclists
+                0x00002636      0x85c build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_loclists
+                0x00002e92      0x6a2 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .debug_loclists
+                0x00003534      0xe75 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x66f
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xac build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .debug_rnglists
+                0x000000ac       0x73 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .debug_rnglists
+                0x0000011f      0x149 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .debug_rnglists
+                0x00000268      0x143 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .debug_rnglists
+                0x000003ab       0x13 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_dhcp.o
+ .debug_rnglists
+                0x000003be       0x19 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+ .debug_rnglists
+                0x000003d7       0x43 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .debug_rnglists
+                0x0000041a       0xd0 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .debug_rnglists
+                0x000004ea       0xa6 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .debug_rnglists
+                0x00000590       0x65 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .debug_rnglists
+                0x000005f5       0x7a build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_save_process.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_app.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_view_process.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_dhcp.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_ping.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_worker_traceroute.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/eth_troubleshooter/eth_troubleshooter_icons.o
+ .ARM.attributes
+                0x000001a0       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .ARM.attributes
+                0x000001c2       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x000001e4       0x34 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(w5500.o)
+ .ARM.attributes
+                0x00000218       0x34 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(wizchip_conf.o)
+ .ARM.attributes
+                0x0000024c       0x34 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(dhcp.o)
+ .ARM.attributes
+                0x00000280       0x34 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(ping.o)
+ .ARM.attributes
+                0x000002b4       0x34 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(traceroute.o)
+ .ARM.attributes
+                0x000002e8       0x34 build/f7-firmware-C/.extapps/eth_troubleshooter/ioLibrary_Driver(socket.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/eth_troubleshooter_d.elf elf32-littlearm)
+LOAD linker stubs

@@ -1,0 +1,611 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_pow.o)
+                              build/f7-firmware-C/.extapps/usb_midi/usb_midi.o (powf)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_finite.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_pow.o) (finitef)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_pow.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_pow.o) (__ieee754_powf)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_pow.o) (scalbnf)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_pow.o) (__math_uflowf)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_pow.o) (fabsf)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_sqrt.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_pow.o) (__ieee754_sqrtf)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsNoteOff
+                0x00000000        0xa build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsNoteOn
+                0x00000000        0xa build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsPolyphonicKeyPressure
+                0x00000000        0xa build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsControlChange
+                0x00000000        0xa build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsProgramChange
+                0x00000000        0xa build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsChannelPressure
+                0x00000000        0xa build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsPitchBend
+                0x00000000       0x16 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsSystemExclusive
+                0x00000000       0x44 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsMTCQuarterFrame
+                0x00000000       0x1a build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsSongPositionPointer
+                0x00000000        0xa build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsSongSelect
+                0x00000000        0x4 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsAllSoundOff
+                0x00000000        0x4 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsResetAllControllers
+                0x00000000        0xa build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsLocalControl
+                0x00000000       0x1a build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsAllNotesOff
+                0x00000000        0x4 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsOmniModeOff
+                0x00000000        0x4 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsOmniModeOn
+                0x00000000        0x4 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsMonoModeOn
+                0x00000000        0xa build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text.AsPolyModeOn
+                0x00000000        0x4 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_info    0x00000000      0xa98 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_abbrev  0x00000000      0x109 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_loclists
+                0x00000000      0x581 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_aranges
+                0x00000000       0xb0 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_rnglists
+                0x00000000       0x8b build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line    0x00000000      0x15e build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_str     0x00000000      0x7c1 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsNoteOff
+                0x00000000       0x25 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsNoteOn
+                0x00000000       0x27 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsPolyphonicKeyPressure
+                0x00000000       0x27 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsControlChange
+                0x00000000       0x27 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsProgramChange
+                0x00000000       0x26 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsChannelPressure
+                0x00000000       0x26 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsPitchBend
+                0x00000000       0x32 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsSystemExclusive
+                0x00000000       0x5e build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsMTCQuarterFrame
+                0x00000000       0x2d build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsSongPositionPointer
+                0x00000000       0x21 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsSongSelect
+                0x00000000       0x1c build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsAllSoundOff
+                0x00000000       0x1c build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsResetAllControllers
+                0x00000000       0x27 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsLocalControl
+                0x00000000       0x36 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsAllNotesOff
+                0x00000000       0x1c build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsOmniModeOff
+                0x00000000       0x1c build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsOmniModeOn
+                0x00000000       0x1c build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsMonoModeOn
+                0x00000000       0x27 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line.text.AsPolyModeOn
+                0x00000000       0x1c build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .debug_frame   0x00000000      0x164 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .rodata.kSystemRealTimeMask
+                0x00000000        0x1 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .rodata.kRealTimeMask
+                0x00000000        0x1 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .rodata.kChannelMask
+                0x00000000        0x1 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .rodata.kSystemCommonMask
+                0x00000000        0x1 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .rodata.kDataByteMask
+                0x00000000        0x1 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .rodata.kMessageMask
+                0x00000000        0x1 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .rodata.kStatusByteMask
+                0x00000000        0x1 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+ .text.cable_id_from_data
+                0x00000000        0x4 build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+ .debug_line.text.cable_id_from_data
+                0x00000000       0x17 build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .text.midi_usb_tx
+                0x00000000       0x48 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_line.text.midi_usb_tx
+                0x00000000       0x95 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/usb_midi_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/usb_midi_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/usb_midi_icons.o
+ .rodata.I_icon
+                0x00000000        0xc build/f7-firmware-C/.extapps/usb_midi/usb_midi_icons.o
+ .rodata._I_icon
+                0x00000000        0x4 build/f7-firmware-C/.extapps/usb_midi/usb_midi_icons.o
+ .rodata._I_icon_0
+                0x00000000       0x15 build/f7-firmware-C/.extapps/usb_midi/usb_midi_icons.o
+ .debug_info    0x00000000      0x184 build/f7-firmware-C/.extapps/usb_midi/usb_midi_icons.o
+ .debug_abbrev  0x00000000       0xb1 build/f7-firmware-C/.extapps/usb_midi/usb_midi_icons.o
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/usb_midi/usb_midi_icons.o
+ .debug_line    0x00000000      0x190 build/f7-firmware-C/.extapps/usb_midi/usb_midi_icons.o
+ .debug_str     0x00000000      0x26c build/f7-firmware-C/.extapps/usb_midi/usb_midi_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/usb_midi/usb_midi_icons.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/usb_midi/usb_midi_icons.o
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_pow.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_pow.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_pow.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_finite.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_finite.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_finite.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_pow.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_pow.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_pow.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+ .text.__math_divzerof
+                0x00000000       0x24 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+ .text.__math_invalidf
+                0x00000000       0x1e /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_sqrt.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_sqrt.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_sqrt.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+LOAD build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+LOAD build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+LOAD build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+LOAD build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+LOAD build/f7-firmware-C/.extapps/usb_midi/usb_midi_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xe78
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.midi_parser_alloc
+                0x00000000       0x18 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+                0x00000000                midi_parser_alloc
+ .text.midi_parser_free
+                0x00000018        0x8 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+                0x00000018                midi_parser_free
+ .text.midi_parser_parse
+                0x00000020       0xca build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+                0x00000020                midi_parser_parse
+ .text.midi_parser_get_message
+                0x000000ea        0x4 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+                0x000000ea                midi_parser_get_message
+ .text.code_index_from_data
+                0x000000ee        0x6 build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+                0x000000ee                code_index_from_data
+ .text.usb_message_data_size
+                0x000000f4       0x34 build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+                0x000000f4                usb_message_data_size
+ .text.midi_on_wakeup
+                0x00000128       0x10 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .text.midi_on_suspend
+                0x00000138       0x10 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .text.midi_control
+                0x00000148        0x4 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .text.midi_deinit
+                0x0000014c       0x20 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .text.midi_tx_rx
+                0x0000016c       0x28 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .text.midi_init
+                0x00000194       0x68 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .text.midi_ep_config
+                0x000001fc       0x48 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .text.midi_usb_set_context
+                0x00000244        0xc build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+                0x00000244                midi_usb_set_context
+ .text.midi_usb_set_rx_callback
+                0x00000250        0xc build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+                0x00000250                midi_usb_set_rx_callback
+ .text.midi_usb_rx
+                0x0000025c       0x14 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+                0x0000025c                midi_usb_rx
+ .text.input_callback
+                0x00000270       0x60 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .text.usb_midi_app_reader
+                0x000002d0      0x11c build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+                0x000002d0                usb_midi_app_reader
+ .text.midi_rx_callback
+                0x000003ec        0xc build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .text.draw_callback
+                0x000003f8       0x98 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .text.usb_midi_app_alloc
+                0x00000490       0x9c build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+                0x00000490                usb_midi_app_alloc
+ .text.usb_midi_app_process_note_on
+                0x0000052c       0x70 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+                0x0000052c                usb_midi_app_process_note_on
+ .text.usb_midi_app_process_note_off
+                0x0000059c       0x34 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+                0x0000059c                usb_midi_app_process_note_off
+ .text.usb_midi_app_run
+                0x000005d0       0x78 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+                0x000005d0                usb_midi_app_run
+ .text.usb_midi_app_free
+                0x00000648       0x40 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+                0x00000648                usb_midi_app_free
+ .text.usb_midi_app
+                0x00000688       0x24 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+                0x00000688                usb_midi_app
+ .text.powf     0x000006ac       0xae /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_pow.o)
+                0x000006ac                powf
+ .text.finitef  0x0000075a       0x14 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_finite.o)
+                0x0000075a                finitef
+ *fill*         0x0000076e        0x2 
+ .text.__ieee754_powf
+                0x00000770      0x5dc /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_pow.o)
+                0x00000770                __ieee754_powf
+ .text.scalbnf  0x00000d4c       0xcc /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+                0x00000d4c                scalbnf
+ .text.with_errnof
+                0x00000e18       0x1c /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+ .text.xflowf   0x00000e34       0x16 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+ *fill*         0x00000e4a        0x2 
+ .text.__math_uflowf
+                0x00000e4c        0xc /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+                0x00000e4c                __math_uflowf
+ .text.__math_oflowf
+                0x00000e58        0xc /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+                0x00000e58                __math_oflowf
+ .text.fabsf    0x00000e64        0xe /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+                0x00000e64                fabsf
+ .text.__ieee754_sqrtf
+                0x00000e72        0x6 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_sqrt.o)
+                0x00000e72                __ieee754_sqrtf
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000e78      0x14c
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.dev_serial_number_string
+                0x00000e78       0x1e build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .rodata.dev_product_string
+                0x00000e96       0x2a build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .rodata.dev_manufacturer_string
+                0x00000ec0       0x2c build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .rodata.config_descriptor
+                0x00000eec       0x61 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .rodata.device_descriptor
+                0x00000f4d       0x12 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .rodata.draw_callback.str1.1
+                0x00000f5f       0x24 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .rodata.usb_midi_app_alloc.str1.1
+                0x00000f83        0xb build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .rodata.str1.1
+                0x00000f8e       0x1d build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ *fill*         0x00000fab        0x1 
+ .rodata.dp_l   0x00000fac        0x8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_pow.o)
+ .rodata.dp_h   0x00000fb4        0x8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_pow.o)
+ .rodata.bp     0x00000fbc        0x8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_pow.o)
+
+.data           0x00000fc4       0x54
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.midi_usb_interface
+                0x00000fc4       0x24 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+                0x00000fc4                midi_usb_interface
+ .data.NOTES    0x00000fe8       0x30 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+                0x00000fe8                NOTES
+
+.bss            0x00001018       0x14
+ *(.bss)
+ *(.bss*)
+ .bss.midi_usb  0x00001018       0x14 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x140
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x38 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .debug_aranges
+                0x00000038       0x30 build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+ .debug_aranges
+                0x00000068       0x70 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_aranges
+                0x000000d8       0x68 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3974
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x4bf build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .debug_info    0x000004bf      0x19c build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+ .debug_info    0x0000065b     0x16eb build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_info    0x00001d46     0x1c2e build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+
+.debug_abbrev   0x00000000      0xaaf
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x18f build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .debug_abbrev  0x0000018f       0xb8 build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+ .debug_abbrev  0x00000247      0x3ee build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_abbrev  0x00000635      0x47a build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+
+.debug_line     0x00000000     0x14ba
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x258 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .debug_line.text.midi_parser_alloc
+                0x00000258       0x33 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .debug_line.text.midi_parser_free
+                0x0000028b       0x16 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .debug_line.text.midi_parser_parse
+                0x000002a1      0x1c3 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .debug_line.text.midi_parser_get_message
+                0x00000464       0x1a build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .debug_line_end
+                0x0000047e        0x0 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .debug_line    0x0000047e      0x158 build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+ .debug_line.text.code_index_from_data
+                0x000005d6       0x17 build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+ .debug_line.text.usb_message_data_size
+                0x000005ed       0x2d build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+ .debug_line_end
+                0x0000061a        0x0 build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+ .debug_line    0x0000061a      0x29d build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_line.text.midi_on_wakeup
+                0x000008b7       0x28 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_line.text.midi_on_suspend
+                0x000008df       0x28 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_line.text.midi_control
+                0x00000907       0x1d build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_line.text.midi_deinit
+                0x00000924       0x58 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_line.text.midi_tx_rx
+                0x0000097c       0x39 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_line.text.midi_init
+                0x000009b5       0xd4 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_line.text.midi_ep_config
+                0x00000a89       0xc6 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_line.text.midi_usb_set_context
+                0x00000b4f       0x1c build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_line.text.midi_usb_set_rx_callback
+                0x00000b6b       0x1c build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_line.text.midi_usb_rx
+                0x00000b87       0x3a build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_line_end
+                0x00000bc1        0x0 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_line    0x00000bc1      0x48e build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .debug_line.text.input_callback
+                0x0000104f       0x89 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .debug_line.text.usb_midi_app_reader
+                0x000010d8      0x124 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .debug_line.text.midi_rx_callback
+                0x000011fc       0x1c build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .debug_line.text.draw_callback
+                0x00001218       0x66 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .debug_line.text.usb_midi_app_alloc
+                0x0000127e       0x8c build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .debug_line.text.usb_midi_app_process_note_on
+                0x0000130a       0x78 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .debug_line.text.usb_midi_app_process_note_off
+                0x00001382       0x42 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .debug_line.text.usb_midi_app_run
+                0x000013c4       0x8e build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .debug_line.text.usb_midi_app_free
+                0x00001452       0x2a build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .debug_line.text.usb_midi_app
+                0x0000147c       0x3e build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .debug_line_end
+                0x000014ba        0x0 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+
+.debug_frame    0x00000000      0x2fc
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x60 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .debug_frame   0x00000060       0x40 build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+ .debug_frame   0x000000a0      0x104 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_frame   0x000001a4      0x158 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+
+.debug_str      0x00000000     0x2cf4
+ *(.debug_str)
+ .debug_str     0x00000000      0x5f3 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .debug_str     0x000005f3      0x3b8 build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+ .debug_str     0x000009ab      0xecc build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_str     0x00001877     0x147d build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x92a
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x114 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .debug_loclists
+                0x00000114       0x77 build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+ .debug_loclists
+                0x0000018b      0x3e7 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_loclists
+                0x00000572      0x3b8 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x142
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x26 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .debug_rnglists
+                0x00000026       0x1f build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+ .debug_rnglists
+                0x00000045       0x8b build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .debug_rnglists
+                0x000000d0       0x72 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/usb_midi/midi/message.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/usb_midi/midi/parser.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/usb_midi/midi/usb_message.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/usb_midi/usb/usb_midi_driver.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/usb_midi/usb_midi.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/usb_midi/usb_midi_icons.o
+ .ARM.attributes
+                0x00000138       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-wf_pow.o)
+ .ARM.attributes
+                0x0000016c       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_finite.o)
+ .ARM.attributes
+                0x000001a0       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_pow.o)
+ .ARM.attributes
+                0x000001d4       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+ .ARM.attributes
+                0x00000208       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_errf.o)
+ .ARM.attributes
+                0x0000023c       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .ARM.attributes
+                0x00000270       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_sqrt.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/usb_midi_d.elf elf32-littlearm)
+LOAD linker stubs

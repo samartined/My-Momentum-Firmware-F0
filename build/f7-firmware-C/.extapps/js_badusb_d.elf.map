@@ -1,0 +1,276 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xb48
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.js_badusb_create
+                0x00000000      0x1bc build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .text.js_badusb_is_connected
+                0x000001bc       0x84 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .text.js_badusb_setup
+                0x00000240      0x28c build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .text.js_badusb_quit_free
+                0x000004cc       0x48 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .text.js_badusb_destroy
+                0x00000514       0x1c build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .text.js_badusb_quit
+                0x00000530       0x74 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .text.get_keycode_by_name
+                0x000005a4       0x64 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+                0x000005a4                get_keycode_by_name
+ .text.badusb_print
+                0x00000608      0x208 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .text.js_badusb_alt_println
+                0x00000810        0xc build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .text.js_badusb_alt_print
+                0x0000081c        0xc build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .text.js_badusb_println
+                0x00000828        0xc build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .text.js_badusb_print
+                0x00000834        0xc build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .text.parse_keycode.constprop.0
+                0x00000840       0xa0 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .text.js_badusb_press
+                0x000008e0       0xb8 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .text.js_badusb_hold
+                0x00000998       0xdc build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .text.js_badusb_release
+                0x00000a74       0xcc build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .text.js_badusb_ep
+                0x00000b40        0x8 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+                0x00000b40                js_badusb_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000b48      0x4e4
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.js_badusb_create.str1.1
+                0x00000b48       0x4e build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .rodata.js_badusb_is_connected.str1.1
+                0x00000b96       0x13 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .rodata.js_badusb_setup.str1.1
+                0x00000ba9       0x44 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .rodata.badusb_print.str1.1
+                0x00000bed        0x3 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .rodata.js_badusb_hold.str1.1
+                0x00000bf0       0x17 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .rodata.str1.1
+                0x00000c07      0x131 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .rodata.plugin_descriptor
+                0x00000d38        0xc build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .rodata.js_badusb_desc
+                0x00000d44       0x10 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .rodata.key_codes
+                0x00000d54      0x1d8 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .rodata.hid_asciimap
+                0x00000f2c      0x100 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xa0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xa0 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2985
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2985 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+
+.debug_abbrev   0x00000000      0x584
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x584 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+
+.debug_line     0x00000000      0xdde
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x48a build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .debug_line.text.js_badusb_create
+                0x0000048a       0x62 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .debug_line.text.js_badusb_is_connected
+                0x000004ec       0x5b build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .debug_line.text.js_badusb_setup
+                0x00000547      0x20e build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .debug_line.text.js_badusb_quit_free
+                0x00000755       0x61 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .debug_line.text.js_badusb_destroy
+                0x000007b6       0x2c build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .debug_line.text.js_badusb_quit
+                0x000007e2       0x4d build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .debug_line.text.get_keycode_by_name
+                0x0000082f       0x84 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .debug_line.text.badusb_print
+                0x000008b3      0x1fe build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .debug_line.text.js_badusb_alt_println
+                0x00000ab1       0x17 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .debug_line.text.js_badusb_alt_print
+                0x00000ac8       0x17 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .debug_line.text.js_badusb_println
+                0x00000adf       0x17 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .debug_line.text.js_badusb_print
+                0x00000af6       0x17 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .debug_line.text.parse_keycode.constprop.0
+                0x00000b0d       0xcb build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .debug_line.text.js_badusb_press
+                0x00000bd8       0x86 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .debug_line.text.js_badusb_hold
+                0x00000c5e       0xad build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .debug_line.text.js_badusb_release
+                0x00000d0b       0xba build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .debug_line.text.js_badusb_ep
+                0x00000dc5       0x19 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ .debug_line_end
+                0x00000dde        0x0 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+
+.debug_frame    0x00000000      0x26c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x26c build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+
+.debug_str      0x00000000     0x1095
+ *(.debug_str)
+ .debug_str     0x00000000     0x1095 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x989
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x989 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x13d
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x13d build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/js_badusb/modules/js_badusb.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/js_badusb_d.elf elf32-littlearm)
+LOAD linker stubs

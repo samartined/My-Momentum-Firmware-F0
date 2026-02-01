@@ -1,0 +1,257 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/combo_cracker/combo_cracker_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+LOAD build/f7-firmware-C/.extapps/combo_cracker/combo_cracker_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x930
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.combo_navigation_exit_callback
+                0x00000000        0x6 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .text.combo_navigation_submenu_callback
+                0x00000006        0x4 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ *fill*         0x0000000a        0x2 
+ .text.combo_view_cracker_input_callback
+                0x0000000c      0x104 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .text.combo_submenu_callback
+                0x00000110       0x20 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .text.combo_view_cracker_draw_callback
+                0x00000130      0x1e0 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .text.combo_view_cracker_custom_event_callback
+                0x00000310      0x390 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .text.combo_cracker_app
+                0x000006a0      0x290 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+                0x000006a0                combo_cracker_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000930      0xcf0
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.combo_view_cracker_draw_callback.str1.1
+                0x00000930       0x68 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .rodata.combo_view_cracker_custom_event_callback.str1.1
+                0x00000998       0x77 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .rodata.combo_cracker_app.str1.1
+                0x00000a0f       0xe4 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .rodata.gc_instructions_numeric
+                0x00000af3      0x69b build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .rodata.gc_lock_labels_alpha
+                0x0000118e       0xa0 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .rodata.gc_resistance_labels_alpha
+                0x0000122e      0x190 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .rodata.gc_lock_labels_numeric
+                0x000013be       0x78 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .rodata.gc_resistance_labels_numeric
+                0x00001436      0x190 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ *fill*         0x000015c6        0x2 
+ .rodata.I_lock32x32
+                0x000015c8        0xc build/f7-firmware-C/.extapps/combo_cracker/combo_cracker_icons.o
+                0x000015c8                I_lock32x32
+ .rodata._I_lock32x32
+                0x000015d4        0x4 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker_icons.o
+                0x000015d4                _I_lock32x32
+ .rodata._I_lock32x32_0
+                0x000015d8       0x48 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker_icons.o
+                0x000015d8                _I_lock32x32_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x68
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x50 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .debug_aranges
+                0x00000050       0x18 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2597
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2413 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .debug_info    0x00002413      0x184 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker_icons.o
+
+.debug_abbrev   0x00000000      0x591
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4e0 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .debug_abbrev  0x000004e0       0xb1 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker_icons.o
+
+.debug_line     0x00000000      0xe64
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x451 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .debug_line.text.combo_navigation_exit_callback
+                0x00000451       0x1b build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .debug_line.text.combo_navigation_submenu_callback
+                0x0000046c       0x1b build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .debug_line.text.combo_view_cracker_input_callback
+                0x00000487      0x15a build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .debug_line.text.combo_submenu_callback
+                0x000005e1       0x2b build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .debug_line.text.combo_view_cracker_draw_callback
+                0x0000060c      0x113 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .debug_line.text.combo_view_cracker_custom_event_callback
+                0x0000071f      0x45c build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .debug_line.text.combo_cracker_app
+                0x00000b7b      0x14a build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .debug_line_end
+                0x00000cc5        0x0 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .debug_line    0x00000cc5      0x19f build/f7-firmware-C/.extapps/combo_cracker/combo_cracker_icons.o
+ .debug_line_end
+                0x00000e64        0x0 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker_icons.o
+
+.debug_frame    0x00000000       0xdc
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xdc build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+
+.debug_str      0x00000000     0x1590
+ *(.debug_str)
+ .debug_str     0x00000000     0x130b build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .debug_str     0x0000130b      0x285 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0xbb3
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0xbb3 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x1eb
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x1eb build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/combo_cracker/combo_cracker_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/combo_cracker_d.elf elf32-littlearm)
+LOAD linker stubs

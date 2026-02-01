@@ -1,0 +1,238 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+ .rodata.brush_size
+                0x00000000        0x4 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/etch/etch_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/etch/etch_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/etch/etch_icons.o
+ .debug_info    0x00000000       0x7a build/f7-firmware-C/.extapps/etch/etch_icons.o
+ .debug_abbrev  0x00000000       0x26 build/f7-firmware-C/.extapps/etch/etch_icons.o
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/etch/etch_icons.o
+ .debug_line    0x00000000       0x4f build/f7-firmware-C/.extapps/etch/etch_icons.o
+ .debug_str     0x00000000      0x1f5 build/f7-firmware-C/.extapps/etch/etch_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/etch/etch_icons.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/etch/etch_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+LOAD build/f7-firmware-C/.extapps/etch/etch_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x3b0
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.etch_draw_callback
+                0x00000000      0x15c build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+                0x00000000                etch_draw_callback
+ .text.etch_input_callback
+                0x0000015c       0x14 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+                0x0000015c                etch_input_callback
+ .text.etch_a_sketch_app
+                0x00000170      0x240 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+                0x00000170                etch_a_sketch_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000003b0       0xdc
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.etch_draw_callback.str1.1
+                0x000003b0       0x2e build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+ .rodata.etch_a_sketch_app.str1.1
+                0x000003de       0x2c build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+ *fill*         0x0000040a        0x2 
+ .rodata.sequence_cleanup
+                0x0000040c       0x18 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+                0x0000040c                sequence_cleanup
+ .rodata.sequence_draw_disabled
+                0x00000424        0xc build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+                0x00000424                sequence_draw_disabled
+ .rodata.sequence_draw_enabled
+                0x00000430        0xc build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+                0x00000430                sequence_draw_enabled
+ .rodata.sequence_end_draw
+                0x0000043c       0x28 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+                0x0000043c                sequence_end_draw
+ .rodata.sequence_begin_draw
+                0x00000464       0x28 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+                0x00000464                sequence_begin_draw
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x30
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x13f1
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x13f1 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+
+.debug_abbrev   0x00000000      0x33b
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x33b build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+
+.debug_line     0x00000000      0x716
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x420 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+ .debug_line.text.etch_draw_callback
+                0x00000420       0xad build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+ .debug_line.text.etch_input_callback
+                0x000004cd       0x26 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+ .debug_line.text.etch_a_sketch_app
+                0x000004f3      0x223 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+ .debug_line_end
+                0x00000716        0x0 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+
+.debug_frame    0x00000000       0x84
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x84 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+
+.debug_str      0x00000000      0xfa9
+ *(.debug_str)
+ .debug_str     0x00000000      0xfa9 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x1a8
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x1a8 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x57
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x57 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/etch/etch_a_sketch.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/etch/etch_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/etch_d.elf elf32-littlearm)
+LOAD linker stubs

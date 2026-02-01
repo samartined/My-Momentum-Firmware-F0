@@ -1,0 +1,191 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_fap/subghz_fap.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_fap/subghz_fap.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_fap/subghz_fap.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_fap/subghz_fap.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/subghz_fap/subghz_fap.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000        0x8
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.subghz_fap
+                0x00000000        0x8 build/f7-firmware-C/.extapps/subghz_fap/subghz_fap.o
+                0x00000000                subghz_fap
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x20
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 build/f7-firmware-C/.extapps/subghz_fap/subghz_fap.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000       0xe2
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0xe2 build/f7-firmware-C/.extapps/subghz_fap/subghz_fap.o
+
+.debug_abbrev   0x00000000       0xa4
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xa4 build/f7-firmware-C/.extapps/subghz_fap/subghz_fap.o
+
+.debug_line     0x00000000      0x162
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x14b build/f7-firmware-C/.extapps/subghz_fap/subghz_fap.o
+ .debug_line.text.subghz_fap
+                0x0000014b       0x17 build/f7-firmware-C/.extapps/subghz_fap/subghz_fap.o
+ .debug_line_end
+                0x00000162        0x0 build/f7-firmware-C/.extapps/subghz_fap/subghz_fap.o
+
+.debug_frame    0x00000000       0x20
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x20 build/f7-firmware-C/.extapps/subghz_fap/subghz_fap.o
+
+.debug_str      0x00000000      0x202
+ *(.debug_str)
+ .debug_str     0x00000000      0x202 build/f7-firmware-C/.extapps/subghz_fap/subghz_fap.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000       0x23
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000       0x23 build/f7-firmware-C/.extapps/subghz_fap/subghz_fap.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x13
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x13 build/f7-firmware-C/.extapps/subghz_fap/subghz_fap.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/subghz_fap/subghz_fap.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/subghz_fap_d.elf elf32-littlearm)
+LOAD linker stubs

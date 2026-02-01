@@ -1,0 +1,9 @@
+#include "seader_icons.h"
+
+#include <gui/icon_i.h>
+
+const uint8_t _I_logo_0[] = {0x01,0x00,0x0c,0x00,0x90,0x40,0x2e,0x10,0x0f,0xc4,0x02,0x49,0x01,0xb9,0x01,0x68,};
+const uint8_t* const _I_logo[] = {_I_logo_0};
+
+const Icon I_logo = {.width=10,.height=10,.frame_count=1,.frame_rate=0,.frames=_I_logo};
+

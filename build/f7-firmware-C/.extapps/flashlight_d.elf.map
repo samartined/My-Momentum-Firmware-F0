@@ -1,0 +1,227 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flashlight/flashlight.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flashlight/flashlight.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flashlight/flashlight.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flashlight/flashlight.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flashlight/flashlight_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flashlight/flashlight_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flashlight/flashlight_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flashlight/flashlight_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/flashlight/flashlight.o
+LOAD build/f7-firmware-C/.extapps/flashlight/flashlight_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x258
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.input_callback
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flashlight/flashlight.o
+ .text.render_callback
+                0x00000028       0xa8 build/f7-firmware-C/.extapps/flashlight/flashlight.o
+ .text.flashlight_app
+                0x000000d0      0x188 build/f7-firmware-C/.extapps/flashlight/flashlight.o
+                0x000000d0                flashlight_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000258      0x116
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.render_callback.str1.1
+                0x00000258       0x47 build/f7-firmware-C/.extapps/flashlight/flashlight.o
+ .rodata.flashlight_app.str1.1
+                0x0000029f       0x25 build/f7-firmware-C/.extapps/flashlight/flashlight.o
+ .rodata.I_led_connections
+                0x000002c4        0xc build/f7-firmware-C/.extapps/flashlight/flashlight_icons.o
+                0x000002c4                I_led_connections
+ .rodata._I_led_connections
+                0x000002d0        0x4 build/f7-firmware-C/.extapps/flashlight/flashlight_icons.o
+                0x000002d0                _I_led_connections
+ .rodata._I_led_connections_0
+                0x000002d4       0x9a build/f7-firmware-C/.extapps/flashlight/flashlight_icons.o
+                0x000002d4                _I_led_connections_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x48
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/flashlight/flashlight.o
+ .debug_aranges
+                0x00000030       0x18 build/f7-firmware-C/.extapps/flashlight/flashlight_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1055
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xed1 build/f7-firmware-C/.extapps/flashlight/flashlight.o
+ .debug_info    0x00000ed1      0x184 build/f7-firmware-C/.extapps/flashlight/flashlight_icons.o
+
+.debug_abbrev   0x00000000      0x42c
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x37b build/f7-firmware-C/.extapps/flashlight/flashlight.o
+ .debug_abbrev  0x0000037b       0xb1 build/f7-firmware-C/.extapps/flashlight/flashlight_icons.o
+
+.debug_line     0x00000000      0x767
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3bc build/f7-firmware-C/.extapps/flashlight/flashlight.o
+ .debug_line.text.input_callback
+                0x000003bc       0x2f build/f7-firmware-C/.extapps/flashlight/flashlight.o
+ .debug_line.text.render_callback
+                0x000003eb       0x4c build/f7-firmware-C/.extapps/flashlight/flashlight.o
+ .debug_line.text.flashlight_app
+                0x00000437      0x19a build/f7-firmware-C/.extapps/flashlight/flashlight.o
+ .debug_line_end
+                0x000005d1        0x0 build/f7-firmware-C/.extapps/flashlight/flashlight.o
+ .debug_line    0x000005d1      0x196 build/f7-firmware-C/.extapps/flashlight/flashlight_icons.o
+ .debug_line_end
+                0x00000767        0x0 build/f7-firmware-C/.extapps/flashlight/flashlight_icons.o
+
+.debug_frame    0x00000000       0x88
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x88 build/f7-firmware-C/.extapps/flashlight/flashlight.o
+
+.debug_str      0x00000000      0xdae
+ *(.debug_str)
+ .debug_str     0x00000000      0xb1d build/f7-firmware-C/.extapps/flashlight/flashlight.o
+ .debug_str     0x00000b1d      0x291 build/f7-firmware-C/.extapps/flashlight/flashlight_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x1b9
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x1b9 build/f7-firmware-C/.extapps/flashlight/flashlight.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x64
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x64 build/f7-firmware-C/.extapps/flashlight/flashlight.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/flashlight/flashlight.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/flashlight/flashlight_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/flashlight_d.elf elf32-littlearm)
+LOAD linker stubs

@@ -1,0 +1,256 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+                              build/f7-firmware-C/.extapps/bpm_tapper/bpm.o (__aeabi_dmul)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              build/f7-firmware-C/.extapps/bpm_tapper/bpm.o (__aeabi_dadd)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bpm_tapper/bpm_tapper_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bpm_tapper/bpm_tapper_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bpm_tapper/bpm_tapper_icons.o
+ .debug_info    0x00000000       0x7a build/f7-firmware-C/.extapps/bpm_tapper/bpm_tapper_icons.o
+ .debug_abbrev  0x00000000       0x26 build/f7-firmware-C/.extapps/bpm_tapper/bpm_tapper_icons.o
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/bpm_tapper/bpm_tapper_icons.o
+ .debug_line    0x00000000       0x5b build/f7-firmware-C/.extapps/bpm_tapper/bpm_tapper_icons.o
+ .debug_str     0x00000000      0x201 build/f7-firmware-C/.extapps/bpm_tapper/bpm_tapper_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bpm_tapper/bpm_tapper_icons.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/bpm_tapper/bpm_tapper_icons.o
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+LOAD build/f7-firmware-C/.extapps/bpm_tapper/bpm_tapper_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xa4c
+ *(.text)
+ .text          0x00000000      0x254 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+                0x00000000                __aeabi_dmul
+                0x00000000                __muldf3
+ .text          0x00000254      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000254                __aeabi_drsub
+                0x0000025c                __aeabi_dsub
+                0x0000025c                __subdf3
+                0x00000260                __adddf3
+                0x00000260                __aeabi_dadd
+                0x000004d8                __aeabi_ui2d
+                0x000004d8                __floatunsidf
+                0x000004f8                __floatsidf
+                0x000004f8                __aeabi_i2d
+                0x0000051c                __extendsfdf2
+                0x0000051c                __aeabi_f2d
+                0x00000560                __aeabi_ul2d
+                0x00000560                __floatundidf
+                0x00000570                __floatdidf
+                0x00000570                __aeabi_l2d
+ *(.stub)
+ *(.text*)
+ .text.input_callback
+                0x000005cc       0x28 build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+ .text.render_callback
+                0x000005f4      0x160 build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+ .text.bpm_tapper_app
+                0x00000754      0x2f8 build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+                0x00000754                bpm_tapper_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000a4c       0x9c
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.render_callback.str1.1
+                0x00000a4c       0x38 build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+ .rodata.bpm_tapper_app.str1.1
+                0x00000a84       0x64 build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x30
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x15cb
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x15cb build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+
+.debug_abbrev   0x00000000      0x3bd
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3bd build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+
+.debug_line     0x00000000      0x791
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3e4 build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+ .debug_line.text.input_callback
+                0x000003e4       0x30 build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+ .debug_line.text.render_callback
+                0x00000414       0x6e build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+ .debug_line.text.bpm_tapper_app
+                0x00000482      0x30f build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+ .debug_line_end
+                0x00000791        0x0 build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+
+.debug_frame    0x00000000       0xa0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xa0 build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+
+.debug_str      0x00000000      0xbd0
+ *(.debug_str)
+ .debug_str     0x00000000      0xbd0 build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x150
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .debug_line_str
+                0x000000a8       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+.debug_loclists
+                0x00000000      0x358
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x358 build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0xa8
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xa8 build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/bpm_tapper/bpm.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/bpm_tapper/bpm_tapper_icons.o
+ .ARM.attributes
+                0x00000068       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .ARM.attributes
+                0x0000008a       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/bpm_tapper_d.elf elf32-littlearm)
+LOAD linker stubs

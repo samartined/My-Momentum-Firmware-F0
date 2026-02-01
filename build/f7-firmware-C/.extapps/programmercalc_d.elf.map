@@ -1,0 +1,481 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .text.hexDigitToBinary
+                0x00000000       0x44 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_line.text.hexDigitToBinary
+                0x00000000       0x62 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/calculator.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/calculator.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/calculator.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/programmercalc/calculator.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/calculator_state.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/calculator_state.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/calculator_state.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/programmercalc/calculator_state.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .text.drawElement
+                0x00000000       0x48 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .debug_line.text.drawElement
+                0x00000000       0x35 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/utilities.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/utilities.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/programmercalc/utilities.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/programmercalc/utilities.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+LOAD build/f7-firmware-C/.extapps/programmercalc/calculator.o
+LOAD build/f7-firmware-C/.extapps/programmercalc/calculator_state.o
+LOAD build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+LOAD build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+LOAD build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+LOAD build/f7-firmware-C/.extapps/programmercalc/utilities.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xe38
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.decToBin
+                0x00000000       0x84 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+                0x00000000                decToBin
+ .text.decToHex
+                0x00000084       0x8c build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+                0x00000084                decToHex
+ .text.decToChar
+                0x00000110       0x3c build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+                0x00000110                decToChar
+ .text.hexToBin
+                0x0000014c       0x78 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+                0x0000014c                hexToBin
+ .text.hexToDec
+                0x000001c4       0x68 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+                0x000001c4                hexToDec
+ .text.binToDec
+                0x0000022c       0x38 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+                0x0000022c                binToDec
+ .text.binaryToHexDigit
+                0x00000264       0x22 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+                0x00000264                binaryToHexDigit
+ *fill*         0x00000286        0x2 
+ .text.binToHex
+                0x00000288       0xb4 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+                0x00000288                binToHex
+ .text.calculate
+                0x0000033c      0x124 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+                0x0000033c                calculate
+ .text.calculator_app
+                0x00000460       0x80 build/f7-firmware-C/.extapps/programmercalc/calculator.o
+                0x00000460                calculator_app
+ .text.toggle_mode
+                0x000004e0       0x34 build/f7-firmware-C/.extapps/programmercalc/calculator_state.o
+                0x000004e0                toggle_mode
+ .text.initialize_event_queue
+                0x00000514        0xc build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+                0x00000514                initialize_event_queue
+ .text.initialize_calculator_state
+                0x00000520       0x30 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+                0x00000520                initialize_calculator_state
+ .text.initialize_view_port
+                0x00000550       0x44 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+                0x00000550                initialize_view_port
+ .text.initialize_gui
+                0x00000594       0x24 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+                0x00000594                initialize_gui
+ .text.cleanup_resources
+                0x000005b8       0x54 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+                0x000005b8                cleanup_resources
+ .text.calculator_input_callback
+                0x0000060c       0x14 build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+                0x0000060c                calculator_input_callback
+ .text.handle_long_press
+                0x00000620       0x4c build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+                0x00000620                handle_long_press
+ .text.handle_key_press
+                0x0000066c       0xa4 build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+                0x0000066c                handle_key_press
+ .text.handle_short_press
+                0x00000710       0xbc build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+                0x00000710                handle_short_press
+ .text.handle_event
+                0x000007cc       0x2c build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+                0x000007cc                handle_event
+ .text.generate_calculator_layout
+                0x000007f8      0x28c build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+                0x000007f8                generate_calculator_layout
+ .text.draw_highlighted_cell
+                0x00000a84       0x34 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+                0x00000a84                draw_highlighted_cell
+ .text.displayInput
+                0x00000ab8       0x78 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+                0x00000ab8                displayInput
+ .text.displayResult
+                0x00000b30       0xa0 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+                0x00000b30                displayResult
+ .text.calculator_draw_callback
+                0x00000bd0      0x1d0 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+                0x00000bd0                calculator_draw_callback
+ .text.getKeyAtPosition
+                0x00000da0       0x50 build/f7-firmware-C/.extapps/programmercalc/utilities.o
+                0x00000da0                getKeyAtPosition
+ .text.calculateStringWidth
+                0x00000df0       0x48 build/f7-firmware-C/.extapps/programmercalc/utilities.o
+                0x00000df0                calculateStringWidth
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000e38      0x29e
+ *(.rodata)
+ .rodata        0x00000e38       0x64 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.decToBin.str1.1
+                0x00000e9c        0x2 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .rodata.binToHex.str1.1
+                0x00000e9e       0x14 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .rodata.calculate.str1.1
+                0x00000eb2       0x92 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .rodata.str1.1
+                0x00000f44       0x4b build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ *fill*         0x00000f8f        0x1 
+ .rodata.HEX_TO_BINARY_TABLE
+                0x00000f90       0x40 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .rodata.initialize_gui.str1.1
+                0x00000fd0        0x4 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .rodata.cleanup_resources.str1.1
+                0x00000fd4        0xd build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .rodata.handle_long_press.str1.1
+                0x00000fe1       0x11 build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .rodata.generate_calculator_layout.str1.1
+                0x00000ff2       0x2a build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .rodata.calculator_draw_callback.str1.1
+                0x0000101c       0x36 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .rodata.str1.1
+                0x00001052       0x4e build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .rodata.CSWTCH.24
+                0x000010a0       0x1c build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .rodata.getKeyAtPosition.str1.1
+                0x000010bc       0x1a build/f7-firmware-C/.extapps/programmercalc/utilities.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x198
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x68 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_aranges
+                0x00000068       0x20 build/f7-firmware-C/.extapps/programmercalc/calculator.o
+ .debug_aranges
+                0x00000088       0x20 build/f7-firmware-C/.extapps/programmercalc/calculator_state.o
+ .debug_aranges
+                0x000000a8       0x40 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .debug_aranges
+                0x000000e8       0x40 build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .debug_aranges
+                0x00000128       0x48 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .debug_aranges
+                0x00000170       0x28 build/f7-firmware-C/.extapps/programmercalc/utilities.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x51eb
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xb47 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_info    0x00000b47      0x793 build/f7-firmware-C/.extapps/programmercalc/calculator.o
+ .debug_info    0x000012da      0x40b build/f7-firmware-C/.extapps/programmercalc/calculator_state.o
+ .debug_info    0x000016e5      0xa59 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .debug_info    0x0000213e      0x932 build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .debug_info    0x00002a70     0x2446 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .debug_info    0x00004eb6      0x335 build/f7-firmware-C/.extapps/programmercalc/utilities.o
+
+.debug_abbrev   0x00000000     0x10b6
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x2ed build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_abbrev  0x000002ed      0x26a build/f7-firmware-C/.extapps/programmercalc/calculator.o
+ .debug_abbrev  0x00000557      0x146 build/f7-firmware-C/.extapps/programmercalc/calculator_state.o
+ .debug_abbrev  0x0000069d      0x29e build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .debug_abbrev  0x0000093b      0x316 build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .debug_abbrev  0x00000c51      0x35b build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .debug_abbrev  0x00000fac      0x10a build/f7-firmware-C/.extapps/programmercalc/utilities.o
+
+.debug_line     0x00000000     0x2589
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x2f2 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_line.text.decToBin
+                0x000002f2       0xea build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_line.text.decToHex
+                0x000003dc       0xbe build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_line.text.decToChar
+                0x0000049a       0x67 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_line.text.hexToBin
+                0x00000501       0xbf build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_line.text.hexToDec
+                0x000005c0       0x92 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_line.text.binToDec
+                0x00000652       0x86 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_line.text.binaryToHexDigit
+                0x000006d8       0x5f build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_line.text.binToHex
+                0x00000737      0x114 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_line.text.calculate
+                0x0000084b       0xf3 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_line_end
+                0x0000093e        0x0 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_line    0x0000093e      0x29f build/f7-firmware-C/.extapps/programmercalc/calculator.o
+ .debug_line.text.calculator_app
+                0x00000bdd       0x85 build/f7-firmware-C/.extapps/programmercalc/calculator.o
+ .debug_line_end
+                0x00000c62        0x0 build/f7-firmware-C/.extapps/programmercalc/calculator.o
+ .debug_line    0x00000c62      0x1dd build/f7-firmware-C/.extapps/programmercalc/calculator_state.o
+ .debug_line.text.toggle_mode
+                0x00000e3f       0x30 build/f7-firmware-C/.extapps/programmercalc/calculator_state.o
+ .debug_line_end
+                0x00000e6f        0x0 build/f7-firmware-C/.extapps/programmercalc/calculator_state.o
+ .debug_line    0x00000e6f      0x3b5 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .debug_line.text.initialize_event_queue
+                0x00001224       0x16 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .debug_line.text.initialize_calculator_state
+                0x0000123a       0x41 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .debug_line.text.initialize_view_port
+                0x0000127b       0x33 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .debug_line.text.initialize_gui
+                0x000012ae       0x2d build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .debug_line.text.cleanup_resources
+                0x000012db       0x30 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .debug_line_end
+                0x0000130b        0x0 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .debug_line    0x0000130b      0x397 build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .debug_line.text.calculator_input_callback
+                0x000016a2       0x25 build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .debug_line.text.handle_long_press
+                0x000016c7       0x5b build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .debug_line.text.handle_key_press
+                0x00001722       0xf4 build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .debug_line.text.handle_short_press
+                0x00001816      0x10a build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .debug_line.text.handle_event
+                0x00001920       0x42 build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .debug_line_end
+                0x00001962        0x0 build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .debug_line    0x00001962      0x329 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .debug_line.text.generate_calculator_layout
+                0x00001c8b      0x2b5 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .debug_line.text.draw_highlighted_cell
+                0x00001f40       0x30 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .debug_line.text.displayInput
+                0x00001f70       0xfa build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .debug_line.text.displayResult
+                0x0000206a      0x145 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .debug_line.text.calculator_draw_callback
+                0x000021af      0x165 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .debug_line_end
+                0x00002314        0x0 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .debug_line    0x00002314      0x1a6 build/f7-firmware-C/.extapps/programmercalc/utilities.o
+ .debug_line.text.getKeyAtPosition
+                0x000024ba       0x40 build/f7-firmware-C/.extapps/programmercalc/utilities.o
+ .debug_line.text.calculateStringWidth
+                0x000024fa       0x8f build/f7-firmware-C/.extapps/programmercalc/utilities.o
+ .debug_line_end
+                0x00002589        0x0 build/f7-firmware-C/.extapps/programmercalc/utilities.o
+
+.debug_frame    0x00000000      0x464
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x14c build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_frame   0x0000014c       0x38 build/f7-firmware-C/.extapps/programmercalc/calculator.o
+ .debug_frame   0x00000184       0x20 build/f7-firmware-C/.extapps/programmercalc/calculator_state.o
+ .debug_frame   0x000001a4       0x98 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .debug_frame   0x0000023c       0xa8 build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .debug_frame   0x000002e4      0x12c build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .debug_frame   0x00000410       0x54 build/f7-firmware-C/.extapps/programmercalc/utilities.o
+
+.debug_str      0x00000000     0x2a57
+ *(.debug_str)
+ .debug_str     0x00000000      0x590 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_str     0x00000590      0x697 build/f7-firmware-C/.extapps/programmercalc/calculator.o
+ .debug_str     0x00000c27      0x3f5 build/f7-firmware-C/.extapps/programmercalc/calculator_state.o
+ .debug_str     0x0000101c      0x890 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .debug_str     0x000018ac      0x6eb build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .debug_str     0x00001f97      0x7fd build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .debug_str     0x00002794      0x2c3 build/f7-firmware-C/.extapps/programmercalc/utilities.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x1a5d
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x6e3 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_loclists
+                0x000006e3       0x9e build/f7-firmware-C/.extapps/programmercalc/calculator.o
+ .debug_loclists
+                0x00000781      0x128 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .debug_loclists
+                0x000008a9      0x294 build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .debug_loclists
+                0x00000b3d      0xe81 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .debug_loclists
+                0x000019be       0x9f build/f7-firmware-C/.extapps/programmercalc/utilities.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x285
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xab build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .debug_rnglists
+                0x000000ab       0x14 build/f7-firmware-C/.extapps/programmercalc/calculator.o
+ .debug_rnglists
+                0x000000bf       0x13 build/f7-firmware-C/.extapps/programmercalc/calculator_state.o
+ .debug_rnglists
+                0x000000d2       0x2b build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .debug_rnglists
+                0x000000fd       0x45 build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .debug_rnglists
+                0x00000142      0x118 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .debug_rnglists
+                0x0000025a       0x2b build/f7-firmware-C/.extapps/programmercalc/utilities.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/programmercalc/calculation_logic.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/programmercalc/calculator.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/programmercalc/calculator_state.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/programmercalc/init_cleanup.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/programmercalc/input_handling.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/programmercalc/ui_drawing.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/programmercalc/utilities.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/programmercalc_d.elf elf32-littlearm)
+LOAD linker stubs

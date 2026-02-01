@@ -1,0 +1,289 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .text.time_now
+                0x00000000        0x8 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .debug_line.text.time_now
+                0x00000000       0x19 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xac4
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.pos_to_num
+                0x00000000       0x34 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .text.date_parse
+                0x00000034       0x70 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .text.charliecard_read
+                0x000000a4      0x120 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ *fill*         0x000001c4        0x4 
+ .text.charliecard_verify
+                0x000001c8       0x88 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .text.end_validity_parse
+                0x00000250       0x78 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .text.locale_format_dt_cat
+                0x000002c8       0x80 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+                0x000002c8                locale_format_dt_cat
+ .text.type_format_cat
+                0x00000348       0x48 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+                0x00000348                type_format_cat
+ .text.pass_format_cat
+                0x00000390       0x58 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+                0x00000390                pass_format_cat
+ .text.passes_format_cat
+                0x000003e8       0x84 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+                0x000003e8                passes_format_cat
+ .text.money_format_cat
+                0x0000046c       0x20 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+                0x0000046c                money_format_cat
+ .text.transaction_format_cat
+                0x0000048c       0xdc build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+                0x0000048c                transaction_format_cat
+ .text.transactions_format_cat
+                0x00000568       0x54 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+                0x00000568                transactions_format_cat
+ .text.charliecard_parse
+                0x000005bc      0x500 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .text.charliecard_plugin_ep
+                0x00000abc        0x8 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+                0x00000abc                charliecard_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000ac8     0x1948
+ *(.rodata)
+ .rodata        0x00000ac8       0x10 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.charliecard_read.str1.1
+                0x00000ad8       0x20 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .rodata.charliecard_verify.str1.1
+                0x00000af8       0x30 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .rodata.locale_format_dt_cat.str1.1
+                0x00000b28        0x7 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .rodata.type_format_cat.str1.1
+                0x00000b2f        0xc build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .rodata.pass_format_cat.str1.1
+                0x00000b3b       0x1c build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .rodata.passes_format_cat.str1.1
+                0x00000b57       0x22 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .rodata.money_format_cat.str1.1
+                0x00000b79        0x9 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .rodata.transaction_format_cat.str1.1
+                0x00000b82       0x1b build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .rodata.transactions_format_cat.str1.1
+                0x00000b9d        0xf build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .rodata.charliecard_parse.str1.1
+                0x00000bac       0x50 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .rodata.str1.1
+                0x00000bfc      0xb57 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ *fill*         0x00001753        0x1 
+ .rodata.charliecard_plugin_descriptor
+                0x00001754        0xc build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .rodata.charliecard_plugin
+                0x00001760       0x10 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .rodata.charliecard_fare_gate_ids
+                0x00001770      0x8c8 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .rodata.charliecard_types
+                0x00002038      0x2d8 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .rodata.charliecard_1k_keys
+                0x00002310      0x100 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x90
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x90 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2c82
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2c82 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+
+.debug_abbrev   0x00000000      0x4e9
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4e9 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+
+.debug_line     0x00000000      0xe77
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x479 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .debug_line.text.pos_to_num
+                0x00000479       0x49 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .debug_line.text.date_parse
+                0x000004c2       0x5e build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .debug_line.text.charliecard_read
+                0x00000520      0x11c build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .debug_line.text.charliecard_verify
+                0x0000063c       0x75 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .debug_line.text.end_validity_parse
+                0x000006b1       0x6b build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .debug_line.text.locale_format_dt_cat
+                0x0000071c       0x56 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .debug_line.text.type_format_cat
+                0x00000772       0x74 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .debug_line.text.pass_format_cat
+                0x000007e6       0x27 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .debug_line.text.passes_format_cat
+                0x0000080d       0xba build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .debug_line.text.money_format_cat
+                0x000008c7       0x23 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .debug_line.text.transaction_format_cat
+                0x000008ea       0xa7 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .debug_line.text.transactions_format_cat
+                0x00000991       0x63 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .debug_line.text.charliecard_parse
+                0x000009f4      0x46a build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .debug_line.text.charliecard_plugin_ep
+                0x00000e5e       0x19 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ .debug_line_end
+                0x00000e77        0x0 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+
+.debug_frame    0x00000000      0x234
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x234 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+
+.debug_str      0x00000000     0x10ff
+ *(.debug_str)
+ .debug_str     0x00000000     0x10ff build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0xb47
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0xb47 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x22b
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x22b build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/charliecard_parser/plugins/supported_cards/charliecard.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/charliecard_parser_d.elf elf32-littlearm)
+LOAD linker stubs

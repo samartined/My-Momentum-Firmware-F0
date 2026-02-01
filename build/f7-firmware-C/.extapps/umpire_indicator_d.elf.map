@@ -1,0 +1,225 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x368
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.input_callback
+                0x00000000       0xc8 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+                0x00000000                input_callback
+ .text.int_to_char
+                0x000000c8       0x20 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+                0x000000c8                int_to_char
+ .text.draw_instructions
+                0x000000e8       0x70 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+                0x000000e8                draw_instructions
+ .text.draw_counter
+                0x00000158      0x150 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+                0x00000158                draw_counter
+ .text.draw_callback
+                0x000002a8       0x14 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+                0x000002a8                draw_callback
+ .text.umpire_indicator_app
+                0x000002bc       0xac build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+                0x000002bc                umpire_indicator_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000368       0x78
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.int_to_char.str1.1
+                0x00000368        0x3 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+ .rodata.draw_instructions.str1.1
+                0x0000036b       0x6b build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+ .rodata.draw_counter.str1.1
+                0x000003d6        0x6 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+ .rodata.umpire_indicator_app.str1.1
+                0x000003dc        0x4 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss            0x000003e0        0x2
+ *(.bss)
+ *(.bss*)
+ .bss.buffer.0  0x000003e0        0x2 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x48
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x48 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xc75
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xc75 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+
+.debug_abbrev   0x00000000      0x348
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x348 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+
+.debug_line     0x00000000      0x67f
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x30a build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+ .debug_line.text.input_callback
+                0x0000030a      0x15c build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+ .debug_line.text.int_to_char
+                0x00000466       0x29 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+ .debug_line.text.draw_instructions
+                0x0000048f       0x33 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+ .debug_line.text.draw_counter
+                0x000004c2      0x125 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+ .debug_line.text.draw_callback
+                0x000005e7       0x21 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+ .debug_line.text.umpire_indicator_app
+                0x00000608       0x77 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+ .debug_line_end
+                0x0000067f        0x0 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+
+.debug_frame    0x00000000       0xb4
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xb4 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+
+.debug_str      0x00000000      0x6e6
+ *(.debug_str)
+ .debug_str     0x00000000      0x6e6 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x24c
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x24c build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x5a
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x5a build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/umpire_indicator/umpire_indicator.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/umpire_indicator_d.elf elf32-littlearm)
+LOAD linker stubs

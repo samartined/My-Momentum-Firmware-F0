@@ -1,0 +1,211 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x3ec
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.input_callback
+                0x00000000       0x14 build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+ .text.canvas_draw_str_outline.constprop.0
+                0x00000014       0x50 build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+ .text.render_callback
+                0x00000064       0xfc build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+ .text.ir_received_callback
+                0x00000160       0x80 build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+ .text.ir_scope_app
+                0x000001e0      0x20c build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+                0x000001e0                ir_scope_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000003ec       0x3e
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.render_callback.str1.1
+                0x000003ec        0xa build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+ .rodata.ir_scope_app.str1.1
+                0x000003f6       0x34 build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x40
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x40 build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x12f5
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x12f5 build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+
+.debug_abbrev   0x00000000      0x3e4
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3e4 build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+
+.debug_line     0x00000000      0x842
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3d3 build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+ .debug_line.text.input_callback
+                0x000003d3       0x22 build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+ .debug_line.text.canvas_draw_str_outline.constprop.0
+                0x000003f5       0x61 build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+ .debug_line.text.render_callback
+                0x00000456      0x120 build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+ .debug_line.text.ir_received_callback
+                0x00000576      0x10e build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+ .debug_line.text.ir_scope_app
+                0x00000684      0x1be build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+ .debug_line_end
+                0x00000842        0x0 build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+
+.debug_frame    0x00000000       0xdc
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xdc build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+
+.debug_str      0x00000000      0xb54
+ *(.debug_str)
+ .debug_str     0x00000000      0xb54 build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x494
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x494 build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0xbd
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xbd build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/ir_scope/ir_scope.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/ir_scope_d.elf elf32-littlearm)
+LOAD linker stubs

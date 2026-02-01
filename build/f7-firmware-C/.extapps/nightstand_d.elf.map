@@ -1,0 +1,273 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_round.o)
+                              build/f7-firmware-C/.extapps/nightstand/clock_app.o (roundf)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .rodata.dspBrightnessBarDisplayFrames
+                0x00000000        0x4 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_round.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_round.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_round.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/nightstand/clock_app.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x7d4
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.clock_tick
+                0x00000000       0x1c build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .text.clock_input_callback
+                0x0000001c       0x28 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .text.set_backlight_brightness
+                0x00000044       0x1c build/f7-firmware-C/.extapps/nightstand/clock_app.o
+                0x00000044                set_backlight_brightness
+ .text.handle_up
+                0x00000060       0x60 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+                0x00000060                handle_up
+ .text.handle_down
+                0x000000c0       0x80 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+                0x000000c0                handle_down
+ .text.elements_progress_bar_vertical
+                0x00000140       0xa8 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+                0x00000140                elements_progress_bar_vertical
+ .text.clock_render_callback
+                0x000001e8      0x2e8 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .text.timer_start_stop
+                0x000004d0       0x2c build/f7-firmware-C/.extapps/nightstand/clock_app.o
+                0x000004d0                timer_start_stop
+ .text.timer_reset_seconds
+                0x000004fc        0xe build/f7-firmware-C/.extapps/nightstand/clock_app.o
+                0x000004fc                timer_reset_seconds
+ *fill*         0x0000050a        0x2 
+ .text.clock_app
+                0x0000050c      0x280 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+                0x0000050c                clock_app
+ .text.roundf   0x0000078c       0x48 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_round.o)
+                0x0000078c                roundf
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000007d4       0xf8
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.clock_render_callback.str1.1
+                0x000007d4       0x5f build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .rodata.clock_app.str1.1
+                0x00000833       0x59 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .rodata.led_reset
+                0x0000088c        0x8 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .rodata.led_off
+                0x00000894        0xc build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .rodata.led_on
+                0x000008a0        0xc build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .rodata.message_red_off
+                0x000008ac       0x10 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+                0x000008ac                message_red_off
+ .rodata.message_red_dim
+                0x000008bc       0x10 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+                0x000008bc                message_red_dim
+
+.data           0x000008cc        0x4
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.brightness
+                0x000008cc        0x4 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+                0x000008cc                brightness
+
+.bss            0x000008d0        0x9
+ *(.bss)
+ *(.bss*)
+ .bss.dspBrightnessBarFrames
+                0x000008d0        0x4 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+                0x000008d0                dspBrightnessBarFrames
+ .bss.notif     0x000008d4        0x4 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+                0x000008d4                notif
+ .bss.led       0x000008d8        0x1 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+                0x000008d8                led
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x68
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x68 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2354
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2354 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+
+.debug_abbrev   0x00000000      0x49b
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x49b build/f7-firmware-C/.extapps/nightstand/clock_app.o
+
+.debug_line     0x00000000      0xae8
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x50f build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .debug_line.text.clock_tick
+                0x0000050f       0x35 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .debug_line.text.clock_input_callback
+                0x00000544       0x30 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .debug_line.text.set_backlight_brightness
+                0x00000574       0x2a build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .debug_line.text.handle_up
+                0x0000059e       0x4b build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .debug_line.text.handle_down
+                0x000005e9       0x80 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .debug_line.text.elements_progress_bar_vertical
+                0x00000669       0x7e build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .debug_line.text.clock_render_callback
+                0x000006e7      0x1dc build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .debug_line.text.timer_start_stop
+                0x000008c3       0x56 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .debug_line.text.timer_reset_seconds
+                0x00000919       0x33 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .debug_line.text.clock_app
+                0x0000094c      0x19c build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .debug_line_end
+                0x00000ae8        0x0 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+
+.debug_frame    0x00000000      0x170
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x170 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+
+.debug_str      0x00000000     0x1a9f
+ *(.debug_str)
+ .debug_str     0x00000000     0x1a9f build/f7-firmware-C/.extapps/nightstand/clock_app.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x375
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x375 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x66
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x66 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/nightstand/clock_app.o
+ .ARM.attributes
+                0x00000034       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_round.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/nightstand_d.elf elf32-littlearm)
+LOAD linker stubs

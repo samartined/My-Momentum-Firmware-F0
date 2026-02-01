@@ -1,0 +1,223 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x3cc
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.hworld_parse
+                0x00000000      0x138 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+                0x00000000                hworld_parse
+ .text.hworld_read
+                0x00000138      0x1c4 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ *fill*         0x000002fc        0x4 
+ .text.hworld_verify
+                0x00000300       0xc4 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ .text.hworld_plugin_ep
+                0x000003c4        0x8 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+                0x000003c4                hworld_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000003d0      0x368
+ *(.rodata)
+ .rodata        0x000003d0        0x6 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.hworld_parse.str1.1
+                0x000003d6       0x9c build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ .rodata.hworld_read.str1.1
+                0x00000472       0x43 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ .rodata.hworld_verify.str1.1
+                0x000004b5       0x4e build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ .rodata.str1.1
+                0x00000503       0x17 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ *fill*         0x0000051a        0x2 
+ .rodata.hworld_plugin_descriptor
+                0x0000051c        0xc build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ .rodata.hworld_plugin
+                0x00000528       0x10 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ .rodata.hworld_vip_keys
+                0x00000538      0x100 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ .rodata.hworld_standard_keys
+                0x00000638      0x100 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x38
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x38 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x10d6
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x10d6 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+
+.debug_abbrev   0x00000000      0x2a3
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x2a3 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+
+.debug_line     0x00000000      0x687
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x341 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ .debug_line.text.hworld_parse
+                0x00000341       0xd1 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ .debug_line.text.hworld_read
+                0x00000412      0x1b7 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ .debug_line.text.hworld_verify
+                0x000005c9       0xa5 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ .debug_line.text.hworld_plugin_ep
+                0x0000066e       0x19 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ .debug_line_end
+                0x00000687        0x0 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+
+.debug_frame    0x00000000       0xb0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xb0 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+
+.debug_str      0x00000000      0xafe
+ *(.debug_str)
+ .debug_str     0x00000000      0xafe build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x3b3
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x3b3 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x79
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x79 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/hworld_parser/plugins/supported_cards/hworld.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/hworld_parser_d.elf elf32-littlearm)
+LOAD linker stubs

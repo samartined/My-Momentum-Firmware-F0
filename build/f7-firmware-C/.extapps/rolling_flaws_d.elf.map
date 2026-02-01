@@ -1,0 +1,716 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_send_keeloq.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_send_keeloq.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_send_keeloq.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_send_keeloq.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .text.rolling_flaws_setting_fix_display_name_get
+                0x00000000       0x10 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_fix_display_name_get
+                0x00000000       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+LOAD build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+LOAD build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_send_keeloq.o
+LOAD build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+LOAD build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+LOAD build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+LOAD build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x1a7c
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.rolling_flaws_navigation_exit_callback
+                0x00000000        0x6 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+                0x00000000                rolling_flaws_navigation_exit_callback
+ .text.rolling_flaws_navigation_submenu_callback
+                0x00000006        0x4 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+                0x00000006                rolling_flaws_navigation_submenu_callback
+ .text.rolling_flaws_view_input_ignore_callback
+                0x0000000a        0x4 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+                0x0000000a                rolling_flaws_view_input_ignore_callback
+ *fill*         0x0000000e        0x2 
+ .text.rolling_flaws_navigation_submenu_stop_receiving_callback
+                0x00000010       0x10 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+                0x00000010                rolling_flaws_navigation_submenu_stop_receiving_callback
+ .text.rolling_flaws_view_dispatcher_custom_event_callback
+                0x00000020       0x98 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+                0x00000020                rolling_flaws_view_dispatcher_custom_event_callback
+ .text.rolling_flaws_submenu_callback
+                0x000000b8       0xf8 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+                0x000000b8                rolling_flaws_submenu_callback
+ .text.sync_packet
+                0x000001b0       0x68 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .text.rolling_flaws_receive_sync_draw_callback
+                0x00000218       0x3c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+                0x00000218                rolling_flaws_receive_sync_draw_callback
+ .text.rolling_flaws_receive_signal_draw_callback
+                0x00000254      0x1b4 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+                0x00000254                rolling_flaws_receive_signal_draw_callback
+ .text.rolling_flaws_view_input_callback
+                0x00000408       0x84 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+                0x00000408                rolling_flaws_view_input_callback
+ .text.decode_packet
+                0x0000048c       0x74 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .text.rolling_flaws_navigation_submenu_stop_sync_callback
+                0x00000500       0x10 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+                0x00000500                rolling_flaws_navigation_submenu_stop_sync_callback
+ .text.rolling_flaws_alloc
+                0x00000510      0x27c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+                0x00000510                rolling_flaws_alloc
+ .text.rolling_flaws_free
+                0x0000078c       0xa0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+                0x0000078c                rolling_flaws_free
+ .text.rolling_flaws_app
+                0x0000082c       0x24 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+                0x0000082c                rolling_flaws_app
+ .text.keeloq_data_alloc
+                0x00000850       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+                0x00000850                keeloq_data_alloc
+ .text.keeloq_data_free
+                0x0000086c       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+                0x0000086c                keeloq_data_free
+ .text.decode_keeloq
+                0x00000888      0x480 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+                0x00000888                decode_keeloq
+ .text.send_keeloq_count
+                0x00000d08      0x1f8 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_send_keeloq.o
+                0x00000d08                send_keeloq_count
+ .text.rolling_flaws_setting_change
+                0x00000f00       0x28 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00000f00                rolling_flaws_setting_change
+ .text.rolling_flaws_setting_frequency_change
+                0x00000f28       0x24 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00000f28                rolling_flaws_setting_frequency_change
+ .text.rolling_flaws_setting_fix_change
+                0x00000f4c       0x24 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00000f4c                rolling_flaws_setting_fix_change
+ .text.rolling_flaws_setting_protocol_change
+                0x00000f70       0x24 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00000f70                rolling_flaws_setting_protocol_change
+ .text.rolling_flaws_setting_replay_change
+                0x00000f94       0x24 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00000f94                rolling_flaws_setting_replay_change
+ .text.rolling_flaws_setting_window_next_change
+                0x00000fb8       0x24 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00000fb8                rolling_flaws_setting_window_next_change
+ .text.rolling_flaws_setting_window_future_change
+                0x00000fdc       0x24 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00000fdc                rolling_flaws_setting_window_future_change
+ .text.rolling_flaws_setting_window_future_gap_change
+                0x00001000       0x24 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00001000                rolling_flaws_setting_window_future_gap_change
+ .text.rolling_flaws_setting_sn_zero_change
+                0x00001024       0x24 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00001024                rolling_flaws_setting_sn_zero_change
+ .text.rolling_flaws_setting_sn_bits_change
+                0x00001048       0x24 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00001048                rolling_flaws_setting_sn_bits_change
+ .text.rolling_flaws_setting_count_zero_change
+                0x0000106c       0x24 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x0000106c                rolling_flaws_setting_count_zero_change
+ .text.rolling_flaws_setting_frequency_name_get
+                0x00001090       0x10 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00001090                rolling_flaws_setting_frequency_name_get
+ .text.rolling_flaws_setting_frequency_get
+                0x000010a0       0x10 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x000010a0                rolling_flaws_setting_frequency_get
+ .text.rolling_flaws_setting_fix_get
+                0x000010b0       0x14 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x000010b0                rolling_flaws_setting_fix_get
+ .text.rolling_flaws_setting_protocol_base_name_get
+                0x000010c4       0x10 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x000010c4                rolling_flaws_setting_protocol_base_name_get
+ .text.rolling_flaws_setting_protocol_display_name_get
+                0x000010d4       0x10 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x000010d4                rolling_flaws_setting_protocol_display_name_get
+ .text.rolling_flaws_setting_protocol_mf_name_get
+                0x000010e4       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x000010e4                rolling_flaws_setting_protocol_mf_name_get
+ .text.rolling_flaws_setting_protocol_custom_mf_set
+                0x00001100       0x60 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00001100                rolling_flaws_setting_protocol_custom_mf_set
+ .text.rolling_flaws_setting_replay_get
+                0x00001160        0xc build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00001160                rolling_flaws_setting_replay_get
+ .text.rolling_flaws_setting_window_next_get
+                0x0000116c       0x10 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x0000116c                rolling_flaws_setting_window_next_get
+ .text.rolling_flaws_setting_window_future_get
+                0x0000117c       0x10 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x0000117c                rolling_flaws_setting_window_future_get
+ .text.rolling_flaws_setting_window_future_gap_get
+                0x0000118c       0x10 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x0000118c                rolling_flaws_setting_window_future_gap_get
+ .text.rolling_flaws_setting_sn_zero_get
+                0x0000119c        0xc build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x0000119c                rolling_flaws_setting_sn_zero_get
+ .text.rolling_flaws_setting_sn_bits_get
+                0x000011a8        0xc build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x000011a8                rolling_flaws_setting_sn_bits_get
+ .text.rolling_flaws_setting_count_zero_get
+                0x000011b4        0xc build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x000011b4                rolling_flaws_setting_count_zero_get
+ .text.rolling_flaw_populate_variable_item_list
+                0x000011c0      0x230 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x000011c0                rolling_flaw_populate_variable_item_list
+ .text.listen_rx
+                0x000013f0       0x84 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .text.rx_capture_callback
+                0x00001474       0x44 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .text.rx_callback
+                0x000014b8       0x6c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .text.rolling_flaws_subghz_alloc
+                0x00001524       0x8c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+                0x00001524                rolling_flaws_subghz_alloc
+ .text.rolling_flaws_subghz_free
+                0x000015b0       0x28 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+                0x000015b0                rolling_flaws_subghz_free
+ .text.start_listening
+                0x000015d8      0x104 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+                0x000015d8                start_listening
+ .text.stop_listening
+                0x000016dc       0x70 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+                0x000016dc                stop_listening
+ .text.__furi_string_extract_string
+                0x0000174c       0xc0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+                0x0000174c                __furi_string_extract_string
+ .text.__furi_string_extract_string_until
+                0x0000180c       0xdc build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+                0x0000180c                __furi_string_extract_string_until
+ .text.__furi_string_hex_to_uint32
+                0x000018e8       0x7c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+                0x000018e8                __furi_string_hex_to_uint32
+ .text.__furi_string_extract_int
+                0x00001964       0xf0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+                0x00001964                __furi_string_extract_int
+ .text.__gui_redraw
+                0x00001a54       0x28 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+                0x00001a54                __gui_redraw
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00001a7c      0xd8d
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.rolling_flaws_view_dispatcher_custom_event_callback.str1.1
+                0x00001a7c       0x31 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .rodata.sync_packet.str1.1
+                0x00001aad       0x43 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .rodata.rolling_flaws_receive_sync_draw_callback.str1.1
+                0x00001af0       0x2f build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .rodata.rolling_flaws_receive_signal_draw_callback.str1.1
+                0x00001b1f       0x69 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .rodata.rolling_flaws_view_input_callback.str1.1
+                0x00001b88       0x27 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .rodata.rolling_flaws_alloc.str1.1
+                0x00001baf      0x430 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .rodata.decode_keeloq.str1.1
+                0x00001fdf      0x39c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+ .rodata.send_keeloq_count.str1.1
+                0x0000237b      0x105 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_send_keeloq.o
+ .rodata.rolling_flaw_populate_variable_item_list.str1.1
+                0x00002480       0x7e build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .rodata.str1.1
+                0x000024fe       0xbe build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .rodata.listen_rx.str1.1
+                0x000025bc       0x44 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .rodata.rx_callback.str1.1
+                0x00002600        0xc build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .rodata.rolling_flaws_subghz_alloc.str1.1
+                0x0000260c       0x89 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .rodata.start_listening.str1.1
+                0x00002695       0x4a build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .rodata.stop_listening.str1.1
+                0x000026df       0x16 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .rodata.__furi_string_extract_string.str1.1
+                0x000026f5       0x5f build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .rodata.__furi_string_extract_string_until.str1.1
+                0x00002754       0x3a build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .rodata.__furi_string_hex_to_uint32.str1.1
+                0x0000278e       0x19 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .rodata.__furi_string_extract_int.str1.1
+                0x000027a7       0x26 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .rodata.__gui_redraw.str1.1
+                0x000027cd        0x4 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ *fill*         0x000027d1        0x3 
+ .rodata.I_Unlock_10x8
+                0x000027d4        0xc build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_icons.o
+                0x000027d4                I_Unlock_10x8
+ .rodata.I_Lock_10x8
+                0x000027e0        0xc build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_icons.o
+                0x000027e0                I_Lock_10x8
+ .rodata._I_Unlock_10x8
+                0x000027ec        0x4 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_icons.o
+                0x000027ec                _I_Unlock_10x8
+ .rodata._I_Unlock_10x8_0
+                0x000027f0        0x9 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_icons.o
+                0x000027f0                _I_Unlock_10x8_0
+ *fill*         0x000027f9        0x3 
+ .rodata._I_Lock_10x8
+                0x000027fc        0x4 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_icons.o
+                0x000027fc                _I_Lock_10x8
+ .rodata._I_Lock_10x8_0
+                0x00002800        0x9 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_icons.o
+                0x00002800                _I_Lock_10x8_0
+
+.data           0x0000280c      0x13c
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.setting_count_zero_names
+                0x0000280c        0x8 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x0000280c                setting_count_zero_names
+ .data.setting_count_zero_values
+                0x00002814        0x2 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00002814                setting_count_zero_values
+ *fill*         0x00002816        0x2 
+ .data.setting_sn_bits_names
+                0x00002818        0x8 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00002818                setting_sn_bits_names
+ .data.setting_sn_bits_values
+                0x00002820        0x2 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00002820                setting_sn_bits_values
+ *fill*         0x00002822        0x2 
+ .data.setting_sn_zero_names
+                0x00002824        0x8 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00002824                setting_sn_zero_names
+ .data.setting_sn_zero_values
+                0x0000282c        0x2 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x0000282c                setting_sn_zero_values
+ *fill*         0x0000282e        0x2 
+ .data.setting_window_future_gap_names
+                0x00002830       0x10 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00002830                setting_window_future_gap_names
+ .data.setting_window_future_gap_values
+                0x00002840       0x10 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00002840                setting_window_future_gap_values
+ .data.setting_window_future_names
+                0x00002850       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00002850                setting_window_future_names
+ .data.setting_window_future_values
+                0x0000286c       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x0000286c                setting_window_future_values
+ .data.setting_window_next_names
+                0x00002888       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00002888                setting_window_next_names
+ .data.setting_window_next_values
+                0x000028a4       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x000028a4                setting_window_next_values
+ .data.setting_replay_names
+                0x000028c0        0x8 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x000028c0                setting_replay_names
+ .data.setting_replay_values
+                0x000028c8        0x2 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x000028c8                setting_replay_values
+ *fill*         0x000028ca        0x2 
+ .data.setting_protocol_names
+                0x000028cc        0xc build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x000028cc                setting_protocol_names
+ .data.setting_protocol_values_base_name
+                0x000028d8        0xc build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x000028d8                setting_protocol_values_base_name
+ .data.setting_protocol_values_mf_name
+                0x000028e4        0xc build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x000028e4                setting_protocol_values_mf_name
+ .data.setting_fix_names
+                0x000028f0       0x10 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x000028f0                setting_fix_names
+ .data.setting_fix_values
+                0x00002900       0x10 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00002900                setting_fix_values
+ .data.setting_frequency_names
+                0x00002910       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x00002910                setting_frequency_names
+ .data.setting_frequency_values
+                0x0000292c       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+                0x0000292c                setting_frequency_values
+
+.bss            0x00002948        0x4
+ *(.bss)
+ *(.bss*)
+ .bss.last_decode
+                0x00002948        0x4 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+                0x00002948                last_decode
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x278
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x90 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_aranges
+                0x00000090       0x30 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+ .debug_aranges
+                0x000000c0       0x20 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_send_keeloq.o
+ .debug_aranges
+                0x000000e0       0xf0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_aranges
+                0x000001d0       0x50 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .debug_aranges
+                0x00000220       0x40 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .debug_aranges
+                0x00000260       0x18 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x867f
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2365 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_info    0x00002365     0x1094 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+ .debug_info    0x000033f9     0x164b build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_send_keeloq.o
+ .debug_info    0x00004a44     0x14c3 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_info    0x00005f07     0x1b61 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .debug_info    0x00007a68      0xa5f build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .debug_info    0x000084c7      0x1b8 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_icons.o
+
+.debug_abbrev   0x00000000     0x142d
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x498 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_abbrev  0x00000498      0x2d1 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+ .debug_abbrev  0x00000769      0x37b build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_send_keeloq.o
+ .debug_abbrev  0x00000ae4      0x28c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_abbrev  0x00000d70      0x429 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .debug_abbrev  0x00001199      0x1df build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .debug_abbrev  0x00001378       0xb5 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_icons.o
+
+.debug_line     0x00000000     0x3041
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x592 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_line.text.rolling_flaws_navigation_exit_callback
+                0x00000592       0x1b build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_line.text.rolling_flaws_navigation_submenu_callback
+                0x000005ad       0x1b build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_line.text.rolling_flaws_view_input_ignore_callback
+                0x000005c8       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_line.text.rolling_flaws_navigation_submenu_stop_receiving_callback
+                0x000005e4       0x24 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_line.text.rolling_flaws_view_dispatcher_custom_event_callback
+                0x00000608       0x76 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_line.text.rolling_flaws_submenu_callback
+                0x0000067e       0xc2 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_line.text.sync_packet
+                0x00000740       0x5c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_line.text.rolling_flaws_receive_sync_draw_callback
+                0x0000079c       0x31 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_line.text.rolling_flaws_receive_signal_draw_callback
+                0x000007cd       0x9c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_line.text.rolling_flaws_view_input_callback
+                0x00000869       0xa1 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_line.text.decode_packet
+                0x0000090a       0x59 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_line.text.rolling_flaws_navigation_submenu_stop_sync_callback
+                0x00000963       0x12 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_line.text.rolling_flaws_alloc
+                0x00000975      0x16c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_line.text.rolling_flaws_free
+                0x00000ae1       0x40 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_line.text.rolling_flaws_app
+                0x00000b21       0x31 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_line_end
+                0x00000b52        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_line    0x00000b52      0x381 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+ .debug_line.text.keeloq_data_alloc
+                0x00000ed3       0x35 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+ .debug_line.text.keeloq_data_free
+                0x00000f08       0x2c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+ .debug_line.text.decode_keeloq
+                0x00000f34      0x36a build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+ .debug_line_end
+                0x0000129e        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+ .debug_line    0x0000129e      0x4b1 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_send_keeloq.o
+ .debug_line.text.send_keeloq_count
+                0x0000174f      0x13d build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_send_keeloq.o
+ .debug_line_end
+                0x0000188c        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_send_keeloq.o
+ .debug_line    0x0000188c      0x304 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_change
+                0x00001b90       0x35 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_frequency_change
+                0x00001bc5       0x2e build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_fix_change
+                0x00001bf3       0x2e build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_protocol_change
+                0x00001c21       0x2d build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_replay_change
+                0x00001c4e       0x2f build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_window_next_change
+                0x00001c7d       0x2f build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_window_future_change
+                0x00001cac       0x2f build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_window_future_gap_change
+                0x00001cdb       0x2f build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_sn_zero_change
+                0x00001d0a       0x2f build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_sn_bits_change
+                0x00001d39       0x2f build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_count_zero_change
+                0x00001d68       0x2f build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_frequency_name_get
+                0x00001d97       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_frequency_get
+                0x00001db3       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_fix_get
+                0x00001dcf       0x31 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_protocol_base_name_get
+                0x00001e00       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_protocol_display_name_get
+                0x00001e1c       0x1c build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_protocol_mf_name_get
+                0x00001e38       0x2d build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_protocol_custom_mf_set
+                0x00001e65       0x68 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_replay_get
+                0x00001ecd       0x1d build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_window_next_get
+                0x00001eea       0x1d build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_window_future_get
+                0x00001f07       0x1d build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_window_future_gap_get
+                0x00001f24       0x1d build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_sn_zero_get
+                0x00001f41       0x1d build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_sn_bits_get
+                0x00001f5e       0x1d build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaws_setting_count_zero_get
+                0x00001f7b       0x1d build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line.text.rolling_flaw_populate_variable_item_list
+                0x00001f98      0x18e build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line_end
+                0x00002126        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_line    0x00002126      0x4da build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .debug_line.text.listen_rx
+                0x00002600       0xb4 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .debug_line.text.rx_capture_callback
+                0x000026b4       0x64 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .debug_line.text.rx_callback
+                0x00002718       0x62 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .debug_line.text.rolling_flaws_subghz_alloc
+                0x0000277a       0xaa build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .debug_line.text.rolling_flaws_subghz_free
+                0x00002824       0x28 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .debug_line.text.start_listening
+                0x0000284c       0x9b build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .debug_line.text.stop_listening
+                0x000028e7       0x4e build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .debug_line_end
+                0x00002935        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .debug_line    0x00002935      0x2a6 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .debug_line.text.__furi_string_extract_string
+                0x00002bdb       0x8f build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .debug_line.text.__furi_string_extract_string_until
+                0x00002c6a       0x9e build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .debug_line.text.__furi_string_hex_to_uint32
+                0x00002d08       0xb1 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .debug_line.text.__furi_string_extract_int
+                0x00002db9       0xba build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .debug_line.text.__gui_redraw
+                0x00002e73       0x2f build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .debug_line_end
+                0x00002ea2        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .debug_line    0x00002ea2      0x19f build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_icons.o
+ .debug_line_end
+                0x00003041        0x0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_icons.o
+
+.debug_frame    0x00000000      0x72c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1e8 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_frame   0x000001e8       0x88 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+ .debug_frame   0x00000270       0x60 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_send_keeloq.o
+ .debug_frame   0x000002d0      0x288 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_frame   0x00000558       0xfc build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .debug_frame   0x00000654       0xd8 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+
+.debug_str      0x00000000     0x6082
+ *(.debug_str)
+ .debug_str     0x00000000     0x1761 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_str     0x00001761      0x7cc build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+ .debug_str     0x00001f2d     0x14d9 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_send_keeloq.o
+ .debug_str     0x00003406      0xd6f build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_str     0x00004175     0x17a3 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .debug_str     0x00005918      0x4b7 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .debug_str     0x00005dcf      0x2b3 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x16f4
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x4f8 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_loclists
+                0x000004f8      0x328 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+ .debug_loclists
+                0x00000820      0x369 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_send_keeloq.o
+ .debug_loclists
+                0x00000b89      0x4d6 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_loclists
+                0x0000105f      0x2fb build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .debug_loclists
+                0x0000135a      0x39a build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x28a
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x79 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .debug_rnglists
+                0x00000079       0x78 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+ .debug_rnglists
+                0x000000f1       0x45 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_send_keeloq.o
+ .debug_rnglists
+                0x00000136       0xb0 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .debug_rnglists
+                0x000001e6       0x55 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .debug_rnglists
+                0x0000023b       0x4f build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_keeloq.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_send_keeloq.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_settings.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_subghz_receive.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_utils.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/rolling_flaws/rolling_flaws_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/rolling_flaws_d.elf elf32-littlearm)
+LOAD linker stubs

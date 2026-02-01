@@ -1,0 +1,338 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_nfc_writer_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_nfc_writer_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_nfc_writer_icons.o
+ .debug_info    0x00000000       0x7a build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_nfc_writer_icons.o
+ .debug_abbrev  0x00000000       0x26 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_nfc_writer_icons.o
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_nfc_writer_icons.o
+ .debug_line    0x00000000       0x6d build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_nfc_writer_icons.o
+ .debug_str     0x00000000      0x213 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_nfc_writer_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_nfc_writer_icons.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_nfc_writer_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+LOAD build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+LOAD build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_nfc_writer_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x1722
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.iso15693_byte_input_done_callback
+                0x00000000        0xc build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .text.iso15693_navigation_callback
+                0x0000000c       0x20 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .text.iso15693_text_input_callback
+                0x0000002c        0xc build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .text.iso15693_input_callback
+                0x00000038       0xb0 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .text.iso15693_draw_callback
+                0x000000e8      0x314 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .text.iso15693_start_scan
+                0x000003fc       0xac build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .text.iso15693_worker_callback
+                0x000004a8       0x64 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .text.iso15693_submenu_callback
+                0x0000050c      0x39c build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .text.iso15693_save_to_file.isra.0
+                0x000008a8      0x128 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .text.iso15693_custom_event_callback
+                0x000009d0      0x2a8 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .text.iso15693_writer_app
+                0x00000c78      0x2e8 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+                0x00000c78                iso15693_writer_app
+ .text.iso15693_send_read
+                0x00000f60       0xa4 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .text.iso15693_send_lock
+                0x00001004       0x88 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .text.iso15693_send_write
+                0x0000108c       0xa8 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .text.iso15693_send_read_with_status.constprop.0
+                0x00001134       0xac build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .text.iso15693_writer_poller_callback
+                0x000011e0      0x438 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .text.iso15693_writer_worker_alloc
+                0x00001618        0xc build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+                0x00001618                iso15693_writer_worker_alloc
+ .text.iso15693_writer_worker_start
+                0x00001624       0x9c build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+                0x00001624                iso15693_writer_worker_start
+ .text.iso15693_writer_worker_stop
+                0x000016c0       0x34 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+                0x000016c0                iso15693_writer_worker_stop
+ .text.iso15693_writer_worker_free
+                0x000016f4       0x1c build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+                0x000016f4                iso15693_writer_worker_free
+ .text.iso15693_writer_worker_get_progress
+                0x00001710        0x6 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+                0x00001710                iso15693_writer_worker_get_progress
+ .text.iso15693_writer_worker_get_block_count
+                0x00001716        0x6 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+                0x00001716                iso15693_writer_worker_get_block_count
+ .text.iso15693_writer_worker_get_block_size
+                0x0000171c        0x6 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+                0x0000171c                iso15693_writer_worker_get_block_size
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00001724      0x40c
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.iso15693_draw_callback.str1.1
+                0x00001724      0x1ab build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .rodata.iso15693_submenu_callback.str1.1
+                0x000018cf       0x8a build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .rodata.iso15693_save_to_file.isra.0.str1.1
+                0x00001959       0x26 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .rodata.iso15693_custom_event_callback.str1.1
+                0x0000197f       0x12 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .rodata.iso15693_writer_app.str1.1
+                0x00001991       0xe5 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .rodata.str1.1
+                0x00001a76       0x6f build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ *fill*         0x00001ae5        0x3 
+ .rodata.CSWTCH.18
+                0x00001ae8       0x28 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .rodata.ff_data.0
+                0x00001b10       0x20 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xe8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x70 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_aranges
+                0x00000070       0x78 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x4ad7
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x3027 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_info    0x00003027     0x1ab0 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+
+.debug_abbrev   0x00000000      0x8ff
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x501 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_abbrev  0x00000501      0x3fe build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+
+.debug_line     0x00000000     0x1cbc
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x475 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_line.text.iso15693_byte_input_done_callback
+                0x00000475       0x18 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_line.text.iso15693_navigation_callback
+                0x0000048d       0x34 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_line.text.iso15693_text_input_callback
+                0x000004c1       0x18 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_line.text.iso15693_input_callback
+                0x000004d9       0xc7 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_line.text.iso15693_draw_callback
+                0x000005a0      0x1df build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_line.text.iso15693_start_scan
+                0x0000077f       0x9b build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_line.text.iso15693_worker_callback
+                0x0000081a       0x87 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_line.text.iso15693_submenu_callback
+                0x000008a1      0x346 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_line.text.iso15693_save_to_file.isra.0
+                0x00000be7       0xc7 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_line.text.iso15693_custom_event_callback
+                0x00000cae      0x1ad build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_line.text.iso15693_writer_app
+                0x00000e5b      0x12e build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_line_end
+                0x00000f89        0x0 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_line    0x00000f89      0x34f build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .debug_line.text.iso15693_send_read
+                0x000012d8       0xca build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .debug_line.text.iso15693_send_lock
+                0x000013a2       0x92 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .debug_line.text.iso15693_send_write
+                0x00001434       0xa4 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .debug_line.text.iso15693_send_read_with_status.constprop.0
+                0x000014d8       0xa6 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .debug_line.text.iso15693_writer_poller_callback
+                0x0000157e      0x5c7 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .debug_line.text.iso15693_writer_worker_alloc
+                0x00001b45       0x19 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .debug_line.text.iso15693_writer_worker_start
+                0x00001b5e       0xab build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .debug_line.text.iso15693_writer_worker_stop
+                0x00001c09       0x39 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .debug_line.text.iso15693_writer_worker_free
+                0x00001c42       0x2c build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .debug_line.text.iso15693_writer_worker_get_progress
+                0x00001c6e       0x1a build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .debug_line.text.iso15693_writer_worker_get_block_count
+                0x00001c88       0x1a build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .debug_line.text.iso15693_writer_worker_get_block_size
+                0x00001ca2       0x1a build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .debug_line_end
+                0x00001cbc        0x0 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+
+.debug_frame    0x00000000      0x344
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1cc build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_frame   0x000001cc      0x178 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+
+.debug_str      0x00000000     0x2a08
+ *(.debug_str)
+ .debug_str     0x00000000     0x1c75 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_str     0x00001c75      0xd93 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x15eb
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0xba8 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_loclists
+                0x00000ba8      0xa43 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x2b2
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x16d build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .debug_rnglists
+                0x0000016d      0x145 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_app.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_writer_worker.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/iso15693_nfc_writer/iso15693_nfc_writer_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/iso15693_nfc_writer_d.elf elf32-littlearm)
+LOAD linker stubs

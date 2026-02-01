@@ -1,0 +1,2454 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_log.o)
+                              build/f7-firmware-C/.extapps/unitemp/unitemp.o (log)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_log.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_log.o) (__ieee754_log)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_nan.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_log.o) (nan)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_log.o) (__aeabi_dmul)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_log.o) (__aeabi_dsub)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_log.o) (__aeabi_ddiv)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_log.o) (__aeabi_dcmpeq)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_unorddf2.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_log.o) (__aeabi_dcmpun)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+                              build/f7-firmware-C/.extapps/unitemp/unitemp.o (__aeabi_d2f)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .text.unitemp_onewire_sensor_readID
+                0x00000000       0x4c build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_sensor_readID
+                0x00000000       0x4c build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .text.unitemp_spi_sensor_init
+                0x00000000        0x6 build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .text.unitemp_spi_sensor_deinit
+                0x00000000        0x4 build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .debug_line.text.unitemp_spi_sensor_init
+                0x00000000       0x1b build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .debug_line.text.unitemp_spi_sensor_deinit
+                0x00000000       0x1b build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .text.unitemp_MAX31725_alloc
+                0x00000000        0xc build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .text.unitemp_MAX31725_free
+                0x00000000        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .text.unitemp_MAX31725_init
+                0x00000000       0x10 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .text.unitemp_MAX31725_deinit
+                0x00000000       0x10 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .text.unitemp_MAX31725_update
+                0x00000000       0x34 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .rodata.str1.1
+                0x00000000        0x9 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .rodata.MAX31725
+                0x00000000       0x28 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .debug_info    0x00000000      0x817 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .debug_abbrev  0x00000000      0x243 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .debug_loclists
+                0x00000000       0xe3 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .debug_aranges
+                0x00000000       0x40 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .debug_rnglists
+                0x00000000       0x2b build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .debug_line    0x00000000      0x231 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .debug_str     0x00000000      0x772 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .debug_line.text.unitemp_MAX31725_alloc
+                0x00000000       0x2b build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .debug_line.text.unitemp_MAX31725_free
+                0x00000000       0x1b build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .debug_line.text.unitemp_MAX31725_init
+                0x00000000       0x1d build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .debug_line.text.unitemp_MAX31725_deinit
+                0x00000000       0x1d build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .debug_line.text.unitemp_MAX31725_update
+                0x00000000       0x3d build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .debug_frame   0x00000000       0x70 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .text.unitemp_sensors_getTypeFromInt
+                0x00000000       0x14 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .text.unitemp_getIntFromType
+                0x00000000       0x2c build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .text.unitemp_gpio_getFromIndex
+                0x00000000       0x10 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensors_getTypeFromInt
+                0x00000000       0x27 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_getIntFromType
+                0x00000000       0x4a build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_gpio_getFromIndex
+                0x00000000       0x1f build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_log.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_log.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_log.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_log.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_log.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_log.o)
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_nan.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_nan.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_nan.o)
+ .text          0x00000000      0x254 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_unorddf2.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_unorddf2.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+LOAD build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+LOAD build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+LOAD build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+LOAD build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+LOAD build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+LOAD build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+LOAD build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+LOAD build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+LOAD build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+LOAD build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+LOAD build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+LOAD build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+LOAD build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+LOAD build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+LOAD build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+LOAD build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+LOAD build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+LOAD build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+LOAD build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+LOAD build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+LOAD build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+LOAD build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+LOAD build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+LOAD build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+LOAD build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+LOAD build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+LOAD build/f7-firmware-C/.extapps/unitemp/Sensors.o
+LOAD build/f7-firmware-C/.extapps/unitemp/unitemp.o
+LOAD build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/lib/libassets.a
+LOAD build/f7-firmware-C/lib/libassets.a
+
+.text           0x00000000     0x7480
+ *(.text)
+ .text          0x00000000      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000000                __aeabi_drsub
+                0x00000008                __aeabi_dsub
+                0x00000008                __subdf3
+                0x0000000c                __adddf3
+                0x0000000c                __aeabi_dadd
+                0x00000284                __aeabi_ui2d
+                0x00000284                __floatunsidf
+                0x000002a4                __floatsidf
+                0x000002a4                __aeabi_i2d
+                0x000002c8                __extendsfdf2
+                0x000002c8                __aeabi_f2d
+                0x0000030c                __aeabi_ul2d
+                0x0000030c                __floatundidf
+                0x0000031c                __floatdidf
+                0x0000031c                __aeabi_l2d
+ .text          0x00000378      0x424 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+                0x00000378                __aeabi_dmul
+                0x00000378                __muldf3
+                0x000005cc                __aeabi_ddiv
+                0x000005cc                __divdf3
+ .text          0x0000079c      0x110 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+                0x0000079c                __gtdf2
+                0x0000079c                __gedf2
+                0x000007a4                __ltdf2
+                0x000007a4                __ledf2
+                0x000007ac                __cmpdf2
+                0x000007ac                __eqdf2
+                0x000007ac                __nedf2
+                0x00000828                __aeabi_cdrcmple
+                0x00000838                __aeabi_cdcmple
+                0x00000838                __aeabi_cdcmpeq
+                0x00000848                __aeabi_dcmpeq
+                0x0000085c                __aeabi_dcmplt
+                0x00000870                __aeabi_dcmple
+                0x00000884                __aeabi_dcmpge
+                0x00000898                __aeabi_dcmpgt
+ .text          0x000008ac       0x2c /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_unorddf2.o)
+                0x000008ac                __aeabi_dcmpun
+                0x000008ac                __unorddf2
+ .text          0x000008d8       0xa0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+                0x000008d8                __aeabi_d2f
+                0x000008d8                __truncdfsf2
+ *(.stub)
+ *(.text*)
+ .text.LL_GPIO_SetPinPull.constprop.0
+                0x00000978       0x2c build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .text.unitemp_i2c_acquire
+                0x000009a4       0x30 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+                0x000009a4                unitemp_i2c_acquire
+ .text.unitemp_i2c_isDeviceReady
+                0x000009d4       0x2c build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+                0x000009d4                unitemp_i2c_isDeviceReady
+ .text.unitemp_i2c_readReg
+                0x00000a00       0x44 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+                0x00000a00                unitemp_i2c_readReg
+ .text.unitemp_i2c_readArray
+                0x00000a44       0x38 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+                0x00000a44                unitemp_i2c_readArray
+ .text.unitemp_i2c_readRegArray
+                0x00000a7c       0x3c build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+                0x00000a7c                unitemp_i2c_readRegArray
+ .text.unitemp_i2c_writeReg
+                0x00000ab8       0x40 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+                0x00000ab8                unitemp_i2c_writeReg
+ .text.unitemp_i2c_writeArray
+                0x00000af8       0x38 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+                0x00000af8                unitemp_i2c_writeArray
+ .text.unitemp_i2c_writeRegArray
+                0x00000b30       0x3c build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+                0x00000b30                unitemp_i2c_writeRegArray
+ .text.unitemp_I2C_sensor_alloc
+                0x00000b6c       0x9c build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+                0x00000b6c                unitemp_I2C_sensor_alloc
+ .text.unitemp_I2C_sensor_free
+                0x00000c08       0x44 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+                0x00000c08                unitemp_I2C_sensor_free
+ .text.unitemp_I2C_sensor_update
+                0x00000c4c       0x1a build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+                0x00000c4c                unitemp_I2C_sensor_update
+ *fill*         0x00000c66        0x2 
+ .text.unitemp_onewire_sensor_free
+                0x00000c68       0x20 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x00000c68                unitemp_onewire_sensor_free
+ .text.unitemp_onewire_bus_alloc
+                0x00000c88       0x6c build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x00000c88                unitemp_onewire_bus_alloc
+ .text.unitemp_onewire_sensor_alloc
+                0x00000cf4       0xac build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x00000cf4                unitemp_onewire_sensor_alloc
+ .text.unitemp_onewire_bus_init
+                0x00000da0       0x40 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x00000da0                unitemp_onewire_bus_init
+ .text.unitemp_onewire_bus_deinit
+                0x00000de0       0x48 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x00000de0                unitemp_onewire_bus_deinit
+ .text.unitemp_onewire_sensor_deinit
+                0x00000e28       0x18 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x00000e28                unitemp_onewire_sensor_deinit
+ .text.unitemp_onewire_bus_start
+                0x00000e40       0x70 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x00000e40                unitemp_onewire_bus_start
+ .text.unitemp_onewire_bus_send_bit
+                0x00000eb0       0x6c build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x00000eb0                unitemp_onewire_bus_send_bit
+ .text.unitemp_onewire_bus_send_byte
+                0x00000f1c       0x24 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x00000f1c                unitemp_onewire_bus_send_byte
+ .text.unitemp_onewire_bus_send_byteArray
+                0x00000f40       0x20 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x00000f40                unitemp_onewire_bus_send_byteArray
+ .text.unitemp_onewire_bus_read_bit
+                0x00000f60       0x4c build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x00000f60                unitemp_onewire_bus_read_bit
+ .text.unitemp_onewire_bus_read_byte
+                0x00000fac       0x28 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x00000fac                unitemp_onewire_bus_read_byte
+ .text.unitemp_onewire_bus_read_byteArray
+                0x00000fd4       0x20 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x00000fd4                unitemp_onewire_bus_read_byteArray
+ .text.unitemp_onewire_CRC_check
+                0x00000ff4       0x3e build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x00000ff4                unitemp_onewire_CRC_check
+ *fill*         0x00001032        0x2 
+ .text.unitemp_onewire_sensor_getModel
+                0x00001034       0x20 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x00001034                unitemp_onewire_sensor_getModel
+ .text.unitemp_onewire_bus_enum_init
+                0x00001054       0x18 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x00001054                unitemp_onewire_bus_enum_init
+ .text.unitemp_onewire_bus_enum_next
+                0x0000106c       0xd0 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x0000106c                unitemp_onewire_bus_enum_next
+ .text.unitemp_onewire_bus_select_sensor
+                0x0000113c       0x28 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x0000113c                unitemp_onewire_bus_select_sensor
+ .text.unitemp_onewire_sensor_init
+                0x00001164       0x9c build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x00001164                unitemp_onewire_sensor_init
+ .text.unitemp_onewire_sensor_update
+                0x00001200      0x16c build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x00001200                unitemp_onewire_sensor_update
+ .text.unitemp_onewire_id_compare
+                0x0000136c       0x24 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x0000136c                unitemp_onewire_id_compare
+ .text.unitemp_spi_sensor_alloc
+                0x00001390       0xe8 build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+                0x00001390                unitemp_spi_sensor_alloc
+ .text.unitemp_spi_sensor_free
+                0x00001478       0x54 build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+                0x00001478                unitemp_spi_sensor_free
+ .text.unitemp_spi_sensor_update
+                0x000014cc        0x6 build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+                0x000014cc                unitemp_spi_sensor_update
+ .text.furi_hal_gpio_read
+                0x000014d2       0x10 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ *fill*         0x000014e2        0x2 
+ .text.unitemp_singlewire_free
+                0x000014e4       0x10 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+                0x000014e4                unitemp_singlewire_free
+ .text.unitemp_singlewire_update
+                0x000014f4      0x21c build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+                0x000014f4                unitemp_singlewire_update
+ .text.unitemp_singlewire_init
+                0x00001710       0x50 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+                0x00001710                unitemp_singlewire_init
+ .text.unitemp_singlewire_deinit
+                0x00001760       0x34 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+                0x00001760                unitemp_singlewire_deinit
+ .text.unitemp_singlewire_sensorSetGPIO
+                0x00001794       0x10 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+                0x00001794                unitemp_singlewire_sensorSetGPIO
+ .text.unitemp_singlewire_alloc
+                0x000017a4       0x84 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+                0x000017a4                unitemp_singlewire_alloc
+ .text.unitemp_singlewire_sensorGetGPIO
+                0x00001828        0x8 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+                0x00001828                unitemp_singlewire_sensorGetGPIO
+ .text.unitemp_AM2320_I2C_alloc
+                0x00001830        0xc build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+                0x00001830                unitemp_AM2320_I2C_alloc
+ .text.unitemp_AM2320_init
+                0x0000183c        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+                0x0000183c                unitemp_AM2320_init
+ .text.unitemp_AM2320_I2C_update
+                0x00001840       0xec build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+                0x00001840                unitemp_AM2320_I2C_update
+ .text.unitemp_AM2320_I2C_deinit
+                0x0000192c        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+                0x0000192c                unitemp_AM2320_I2C_deinit
+ .text.unitemp_AM2320_I2C_free
+                0x00001930        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+                0x00001930                unitemp_AM2320_I2C_free
+ .text.unitemp_BME680_deinit
+                0x00001934       0x14 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+                0x00001934                unitemp_BME680_deinit
+ .text.BME680_readCalValues
+                0x00001948      0x190 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .text.unitemp_BME680_init
+                0x00001ad8       0x8c build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+                0x00001ad8                unitemp_BME680_init
+ .text.unitemp_BME680_free
+                0x00001b64       0x14 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+                0x00001b64                unitemp_BME680_free
+ .text.unitemp_BME680_alloc
+                0x00001b78       0x50 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+                0x00001b78                unitemp_BME680_alloc
+ .text.unitemp_BME680_update
+                0x00001bc8      0x3e4 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+                0x00001bc8                unitemp_BME680_update
+ .text.unitemp_BMP180_I2C_deinit
+                0x00001fac        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+                0x00001fac                unitemp_BMP180_I2C_deinit
+ .text.unitemp_BMP180_I2C_alloc
+                0x00001fb0       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+                0x00001fb0                unitemp_BMP180_I2C_alloc
+ .text.unitemp_BMP180_I2C_free
+                0x00001fcc       0x14 build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+                0x00001fcc                unitemp_BMP180_I2C_free
+ .text.unitemp_BMP180_init
+                0x00001fe0       0xd4 build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+                0x00001fe0                unitemp_BMP180_init
+ .text.unitemp_BMP180_I2C_update
+                0x000020b4      0x16c build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+                0x000020b4                unitemp_BMP180_I2C_update
+ .text.unitemp_BMx280_deinit
+                0x00002220       0x14 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+                0x00002220                unitemp_BMx280_deinit
+ .text.bmx280_readCalValues
+                0x00002234       0x9c build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .text.unitemp_BMx280_init
+                0x000022d0       0x98 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+                0x000022d0                unitemp_BMx280_init
+ .text.unitemp_BMx280_free
+                0x00002368       0x14 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+                0x00002368                unitemp_BMx280_free
+ .text.unitemp_BMx280_alloc
+                0x0000237c       0x5c build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+                0x0000237c                unitemp_BMx280_alloc
+ .text.unitemp_BMx280_update
+                0x000023d8      0x278 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+                0x000023d8                unitemp_BMx280_update
+ .text.unitemp_DHT20_I2C_alloc
+                0x00002650       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+                0x00002650                unitemp_DHT20_I2C_alloc
+ .text.unitemp_DHT20_I2C_deinit
+                0x0000266c        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+                0x0000266c                unitemp_DHT20_I2C_deinit
+ .text.unitemp_DHT20_init
+                0x00002670       0x68 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+                0x00002670                unitemp_DHT20_init
+ .text.DHT20_reset_reg
+                0x000026d8       0x50 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .text.unitemp_DHT20_I2C_free
+                0x00002728        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+                0x00002728                unitemp_DHT20_I2C_free
+ .text.unitemp_DHT20_I2C_update
+                0x0000272c      0x164 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+                0x0000272c                unitemp_DHT20_I2C_update
+ .text.unitemp_HDC1080_alloc
+                0x00002890        0xc build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+                0x00002890                unitemp_HDC1080_alloc
+ .text.unitemp_HDC1080_deinit
+                0x0000289c        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+                0x0000289c                unitemp_HDC1080_deinit
+ .text.unitemp_HDC1080_init
+                0x000028a0       0x64 build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+                0x000028a0                unitemp_HDC1080_init
+ .text.unitemp_HDC1080_update
+                0x00002904       0xcc build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+                0x00002904                unitemp_HDC1080_update
+ .text.unitemp_HDC1080_free
+                0x000029d0        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+                0x000029d0                unitemp_HDC1080_free
+ .text.unitemp_HTU21x_alloc
+                0x000029d4        0xc build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+                0x000029d4                unitemp_HTU21x_alloc
+ .text.unitemp_HTU21x_init
+                0x000029e0        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+                0x000029e0                unitemp_HTU21x_init
+ .text.unitemp_HTU21x_update
+                0x000029e4       0xd4 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+                0x000029e4                unitemp_HTU21x_update
+ .text.unitemp_HTU21x_deinit
+                0x00002ab8        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+                0x00002ab8                unitemp_HTU21x_deinit
+ .text.unitemp_HTU21x_free
+                0x00002abc        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+                0x00002abc                unitemp_HTU21x_free
+ .text.unitemp_LM75_alloc
+                0x00002ac0        0xc build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+                0x00002ac0                unitemp_LM75_alloc
+ .text.unitemp_LM75_free
+                0x00002acc        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+                0x00002acc                unitemp_LM75_free
+ .text.unitemp_LM75_init
+                0x00002ad0       0x10 build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+                0x00002ad0                unitemp_LM75_init
+ .text.unitemp_LM75_deinit
+                0x00002ae0       0x10 build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+                0x00002ae0                unitemp_LM75_deinit
+ .text.unitemp_LM75_update
+                0x00002af0       0x3c build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+                0x00002af0                unitemp_LM75_update
+ .text.unitemp_MAX31855_alloc
+                0x00002b2c        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+                0x00002b2c                unitemp_MAX31855_alloc
+ .text.unitemp_MAX31855_deinit
+                0x00002b30        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+                0x00002b30                unitemp_MAX31855_deinit
+ .text.unitemp_MAX31855_init
+                0x00002b34       0x14 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+                0x00002b34                unitemp_MAX31855_init
+ .text.unitemp_MAX31855_update
+                0x00002b48       0x74 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+                0x00002b48                unitemp_MAX31855_update
+ .text.unitemp_MAX31855_free
+                0x00002bbc        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+                0x00002bbc                unitemp_MAX31855_free
+ .text.unitemp_MAX6675_alloc
+                0x00002bc0        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+                0x00002bc0                unitemp_MAX6675_alloc
+ .text.unitemp_MAX6675_deinit
+                0x00002bc4        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+                0x00002bc4                unitemp_MAX6675_deinit
+ .text.unitemp_MAX6675_init
+                0x00002bc8       0x14 build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+                0x00002bc8                unitemp_MAX6675_init
+ .text.unitemp_MAX6675_update
+                0x00002bdc       0x6c build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+                0x00002bdc                unitemp_MAX6675_update
+ .text.unitemp_MAX6675_free
+                0x00002c48        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+                0x00002c48                unitemp_MAX6675_free
+ .text.unitemp_SCD30_alloc
+                0x00002c4c        0xc build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+                0x00002c4c                unitemp_SCD30_alloc
+ .text.unitemp_SCD30_free
+                0x00002c58        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+                0x00002c58                unitemp_SCD30_free
+ .text.sendCommand
+                0x00002c5c       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .text.unitemp_SCD30_deinit
+                0x00002c78        0xc build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+                0x00002c78                unitemp_SCD30_deinit
+ .text.readRegister
+                0x00002c84       0x3c build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .text.computeCRC8.constprop.0
+                0x00002cc0       0x42 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ *fill*         0x00002d02        0x2 
+ .text.loadFloat.constprop.0
+                0x00002d04       0x44 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .text.sendCommandWithCRC
+                0x00002d48       0x34 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .text.unitemp_SCD30_init
+                0x00002d7c       0x58 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+                0x00002d7c                unitemp_SCD30_init
+ .text.unitemp_SCD30_update
+                0x00002dd4       0xc4 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+                0x00002dd4                unitemp_SCD30_update
+ .text.unitemp_SCD40_alloc
+                0x00002e98        0xc build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+                0x00002e98                unitemp_SCD40_alloc
+ .text.unitemp_SCD40_free
+                0x00002ea4        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+                0x00002ea4                unitemp_SCD40_free
+ .text.sendCommand
+                0x00002ea8       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .text.computeCRC8.constprop.0
+                0x00002ec4       0x42 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ *fill*         0x00002f06        0x2 
+ .text.loadWord
+                0x00002f08       0x20 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .text.unitemp_SCD40_calibrate
+                0x00002f28       0xd0 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+                0x00002f28                unitemp_SCD40_calibrate
+ .text.unitemp_SCD40_update
+                0x00002ff8      0x10c build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+                0x00002ff8                unitemp_SCD40_update
+ .text.unitemp_SCD40_deinit
+                0x00003104        0xc build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+                0x00003104                unitemp_SCD40_deinit
+ .text.unitemp_SCD40_init
+                0x00003110        0xc build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+                0x00003110                unitemp_SCD40_init
+ .text.unitemp_SHT30_I2C_alloc
+                0x0000311c        0xc build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+                0x0000311c                unitemp_SHT30_I2C_alloc
+ .text.unitemp_SHT30_I2C_deinit
+                0x00003128        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+                0x00003128                unitemp_SHT30_I2C_deinit
+ .text.unitemp_GXHT30_init
+                0x0000312c       0x20 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+                0x0000312c                unitemp_GXHT30_init
+ .text.unitemp_SHT30_crc8.constprop.0
+                0x0000314c       0x42 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .text.unitemp_SHT30_I2C_free
+                0x0000318e        0x4 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+                0x0000318e                unitemp_SHT30_I2C_free
+ *fill*         0x00003192        0x2 
+ .text.unitemp_SHT30_I2C_update
+                0x00003194       0xcc build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+                0x00003194                unitemp_SHT30_I2C_update
+ .text.unitemp_SHT30_init
+                0x00003260       0xc4 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+                0x00003260                unitemp_SHT30_init
+ .text._input_callback
+                0x00003324      0x1a0 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .text._draw_pressure
+                0x000034c4      0x168 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .text._draw_humidity
+                0x0000362c      0x194 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .text._draw_temperature.constprop.0
+                0x000037c0      0x204 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .text._draw_callback
+                0x000039c4      0xa8c build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .text.unitemp_General_alloc
+                0x00004450       0x58 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+                0x00004450                unitemp_General_alloc
+ .text.unitemp_General_switch
+                0x000044a8       0x14 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+                0x000044a8                unitemp_General_switch
+ .text.unitemp_General_free
+                0x000044bc       0x2c build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+                0x000044bc                unitemp_General_free
+ .text._exit_callback
+                0x000044e8        0x4 build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .text._enter_callback
+                0x000044ec       0x30 build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .text.unitemp_MainMenu_alloc
+                0x0000451c       0xb0 build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+                0x0000451c                unitemp_MainMenu_alloc
+ .text.unitemp_MainMenu_switch
+                0x000045cc       0x2c build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+                0x000045cc                unitemp_MainMenu_switch
+ .text.unitemp_MainMenu_free
+                0x000045f8       0x3c build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+                0x000045f8                unitemp_MainMenu_free
+ .text._popup_callback
+                0x00004634       0x1c build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+ .text.unitemp_popup
+                0x00004650       0xd8 build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+                0x00004650                unitemp_popup
+ .text._exit_callback
+                0x00004728        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .text._enter_callback
+                0x0000472c       0x60 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .text.unitemp_SensorActions_alloc
+                0x0000478c       0xe0 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+                0x0000478c                unitemp_SensorActions_alloc
+ .text.unitemp_SensorActions_switch
+                0x0000486c       0x34 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+                0x0000486c                unitemp_SensorActions_switch
+ .text.unitemp_SensorActions_free
+                0x000048a0       0x3c build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+                0x000048a0                unitemp_SensorActions_free
+ .text._exit_callback
+                0x000048dc       0x30 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .text._calibrate_callback
+                0x0000490c       0x28 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .text._name_change_callback
+                0x00004934       0x20 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .text._i2caddr_change_callback
+                0x00004954       0x44 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .text._gpio_change_callback
+                0x00004998       0xa0 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .text._offset_change_callback
+                0x00004a38       0x68 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .text._onewire_id_exist
+                0x00004aa0       0x58 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+                0x00004aa0                _onewire_id_exist
+ .text._onewire_scan
+                0x00004af8       0xf8 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .text._enter_callback
+                0x00004bf0       0xd0 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .text._onwire_addr_change_callback
+                0x00004cc0       0x18 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .text.unitemp_SensorEdit_alloc
+                0x00004cd8       0x78 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+                0x00004cd8                unitemp_SensorEdit_alloc
+ .text.unitemp_SensorEdit_switch
+                0x00004d50      0x354 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+                0x00004d50                unitemp_SensorEdit_switch
+ .text.unitemp_SensorEdit_free
+                0x000050a4       0x4c build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+                0x000050a4                unitemp_SensorEdit_free
+ .text._sensor_name_changed_callback
+                0x000050f0       0x10 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .text.unitemp_SensorNameEdit_alloc
+                0x00005100       0x48 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+                0x00005100                unitemp_SensorNameEdit_alloc
+ .text.unitemp_SensorNameEdit_switch
+                0x00005148       0x48 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+                0x00005148                unitemp_SensorNameEdit_switch
+ .text.unitemp_SensorNameEdit_free
+                0x00005190       0x2c build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+                0x00005190                unitemp_SensorNameEdit_free
+ .text._exit_callback
+                0x000051bc        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .text._enter_callback
+                0x000051c0      0x170 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .text.unitemp_SensorsList_alloc
+                0x00005330       0xe4 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+                0x00005330                unitemp_SensorsList_alloc
+ .text.unitemp_SensorsList_switch
+                0x00005414       0x2c build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+                0x00005414                unitemp_SensorsList_switch
+ .text.unitemp_SensorsList_free
+                0x00005440       0x3c build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+                0x00005440                unitemp_SensorsList_free
+ .text._enter_callback
+                0x0000547c        0x2 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ *fill*         0x0000547e        0x2 
+ .text._exit_callback
+                0x00005480       0xa8 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .text._setting_change_callback
+                0x00005528       0xd0 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .text.unitemp_Settings_alloc
+                0x000055f8       0xf8 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+                0x000055f8                unitemp_Settings_alloc
+ .text.unitemp_Settings_switch
+                0x000056f0      0x118 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+                0x000056f0                unitemp_Settings_switch
+ .text.unitemp_Settings_free
+                0x00005808       0x3c build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+                0x00005808                unitemp_Settings_free
+ .text._delete_exit_callback
+                0x00005844        0x4 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .text._help_exit_callback
+                0x00005848        0x4 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .text._delete_click_callback
+                0x0000584c       0x40 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .text.unitemp_widgets_alloc
+                0x0000588c       0x34 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+                0x0000588c                unitemp_widgets_alloc
+ .text.unitemp_widgets_free
+                0x000058c0       0x28 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+                0x000058c0                unitemp_widgets_free
+ .text.unitemp_widget_delete_switch
+                0x000058e8      0x268 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+                0x000058e8                unitemp_widget_delete_switch
+ .text.unitemp_widget_help_switch
+                0x00005b50       0xc0 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+                0x00005b50                unitemp_widget_help_switch
+ .text.unitemp_widget_about_switch
+                0x00005c10       0xd0 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+                0x00005c10                unitemp_widget_about_switch
+ .text.unitemp_sensors_getTypeFromStr
+                0x00005ce0       0x38 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00005ce0                unitemp_sensors_getTypeFromStr
+ .text.unitemp_sensors_getTypesCount
+                0x00005d18        0x4 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00005d18                unitemp_sensors_getTypesCount
+ .text.unitemp_sensors_getTypes
+                0x00005d1c        0x8 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00005d1c                unitemp_sensors_getTypes
+ .text.unitemp_gpio_getFromInt
+                0x00005d24       0x24 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00005d24                unitemp_gpio_getFromInt
+ .text.unitemp_gpio_toInt
+                0x00005d48       0x38 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00005d48                unitemp_gpio_toInt
+ .text.unitemp_gpio_to_index
+                0x00005d80       0x30 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00005d80                unitemp_gpio_to_index
+ .text.unitemp_gpio_getAviablePortsCount
+                0x00005db0       0x88 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00005db0                unitemp_gpio_getAviablePortsCount
+ .text.unitemp_gpio_lock
+                0x00005e38       0x20 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00005e38                unitemp_gpio_lock
+ .text.unitemp_gpio_unlock
+                0x00005e58       0x20 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00005e58                unitemp_gpio_unlock
+ .text.unitemp_gpio_getAviablePort
+                0x00005e78       0xc8 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00005e78                unitemp_gpio_getAviablePort
+ .text.unitemp_sensor_getActive
+                0x00005f40       0x34 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00005f40                unitemp_sensor_getActive
+ .text.unitemp_sensors_getCount
+                0x00005f74       0x10 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00005f74                unitemp_sensors_getCount
+ .text.unitemp_sensors_getActiveCount
+                0x00005f84       0x38 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00005f84                unitemp_sensors_getActiveCount
+ .text.unitemp_sensors_add
+                0x00005fbc       0x3c build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00005fbc                unitemp_sensors_add
+ .text.unitemp_sensors_save
+                0x00005ff8      0x1d4 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00005ff8                unitemp_sensors_save
+ .text.unitemp_sensor_isContains
+                0x000061cc       0x34 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x000061cc                unitemp_sensor_isContains
+ .text.unitemp_sensor_alloc
+                0x00006200       0xbc build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00006200                unitemp_sensor_alloc
+ .text.unitemp_sensors_load
+                0x000062bc      0x24c build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x000062bc                unitemp_sensors_load
+ .text.unitemp_sensor_free
+                0x00006508       0x60 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00006508                unitemp_sensor_free
+ .text.unitemp_sensors_free
+                0x00006568       0x34 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00006568                unitemp_sensors_free
+ .text.unitemp_sensors_init
+                0x0000659c       0x94 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x0000659c                unitemp_sensors_init
+ .text.unitemp_sensors_deInit
+                0x00006630       0x74 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00006630                unitemp_sensors_deInit
+ .text.unitemp_sensors_reload
+                0x000066a4       0x28 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x000066a4                unitemp_sensors_reload
+ .text.unitemp_sensor_delete
+                0x000066cc       0x3c build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x000066cc                unitemp_sensor_delete
+ .text.unitemp_sensor_updateData
+                0x00006708      0x118 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00006708                unitemp_sensor_updateData
+ .text.unitemp_sensors_updateValues
+                0x00006820       0x2c build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00006820                unitemp_sensors_updateValues
+ .text.view_dispatcher_tick_event_callback
+                0x0000684c       0x1c build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .text.unitemp_free
+                0x00006868       0xb0 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .text.unitemp_celsiusToFahrenheit
+                0x00006918       0x30 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+                0x00006918                unitemp_celsiusToFahrenheit
+ .text.unitemp_calculate_heat_index
+                0x00006948       0xc8 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+                0x00006948                unitemp_calculate_heat_index
+ .text.calculateDewPoint
+                0x00006a10       0x70 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+                0x00006a10                calculateDewPoint
+ .text.unitemp_rhToDewpointC
+                0x00006a80       0x1c build/f7-firmware-C/.extapps/unitemp/unitemp.o
+                0x00006a80                unitemp_rhToDewpointC
+ .text.unitemp_rhToDewpointF
+                0x00006a9c       0x30 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+                0x00006a9c                unitemp_rhToDewpointF
+ .text.unitemp_pascalToMmHg
+                0x00006acc       0x18 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+                0x00006acc                unitemp_pascalToMmHg
+ .text.unitemp_pascalToKPa
+                0x00006ae4       0x18 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+                0x00006ae4                unitemp_pascalToKPa
+ .text.unitemp_pascalToHPa
+                0x00006afc       0x18 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+                0x00006afc                unitemp_pascalToHPa
+ .text.unitemp_pascalToInHg
+                0x00006b14       0x18 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+                0x00006b14                unitemp_pascalToInHg
+ .text.unitemp_saveSettings
+                0x00006b2c      0x118 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+                0x00006b2c                unitemp_saveSettings
+ .text.unitemp_loadSettings
+                0x00006c44      0x2ac build/f7-firmware-C/.extapps/unitemp/unitemp.o
+                0x00006c44                unitemp_loadSettings
+ .text.unitemp_app
+                0x00006ef0      0x18c build/f7-firmware-C/.extapps/unitemp/unitemp.o
+                0x00006ef0                unitemp_app
+ *fill*         0x0000707c        0x4 
+ .text.log      0x00007080       0x7c /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_log.o)
+                0x00007080                log
+ *fill*         0x000070fc        0x4 
+ .text.__ieee754_log
+                0x00007100      0x36c /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_log.o)
+                0x00007100                __ieee754_log
+ *fill*         0x0000746c        0x4 
+ .text.nan      0x00007470       0x10 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_nan.o)
+                0x00007470                nan
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00007480     0x1c70
+ *(.rodata)
+ .rodata        0x00007480        0x3 build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .rodata        0x00007483        0x3 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ *fill*         0x00007486        0x2 
+ .rodata        0x00007488        0xc build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.unitemp_I2C_sensor_alloc.str1.1
+                0x00007494       0x2f build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .rodata.unitemp_onewire_sensor_alloc.str1.1
+                0x000074c3       0x48 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .rodata.unitemp_onewire_sensor_getModel.str1.1
+                0x0000750b        0x8 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .rodata.unitemp_onewire_sensor_init.str1.1
+                0x00007513       0x18 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .rodata.str1.1
+                0x0000752b       0x2f build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ *fill*         0x0000755a        0x2 
+ .rodata.CSWTCH.42
+                0x0000755c       0x64 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .rodata.Dallas
+                0x000075c0       0x28 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+                0x000075c0                Dallas
+ .rodata.unitemp_spi_sensor_alloc.str1.1
+                0x000075e8       0x4c build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .rodata.unitemp_singlewire_init.str1.1
+                0x00007634       0x20 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .rodata.unitemp_singlewire_alloc.str1.1
+                0x00007654       0x44 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .rodata.str1.1
+                0x00007698       0x4e build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ *fill*         0x000076e6        0x2 
+ .rodata.AM2320_SW
+                0x000076e8       0x28 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+                0x000076e8                AM2320_SW
+ .rodata.DHT22  0x00007710       0x28 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+                0x00007710                DHT22
+ .rodata.DHT21  0x00007738       0x28 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+                0x00007738                DHT21
+ .rodata.DHT12_SW
+                0x00007760       0x28 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+                0x00007760                DHT12_SW
+ .rodata.DHT11  0x00007788       0x28 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+                0x00007788                DHT11
+ .rodata.str1.1
+                0x000077b0       0x18 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .rodata.AM2320_I2C
+                0x000077c8       0x28 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+                0x000077c8                AM2320_I2C
+ .rodata.BME680_readCalValues.str1.1
+                0x000077f0       0xb9 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .rodata.unitemp_BME680_init.str1.1
+                0x000078a9       0x60 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .rodata.unitemp_BME680_alloc.str1.1
+                0x00007909       0x28 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .rodata.unitemp_BME680_update.str1.1
+                0x00007931       0x1e build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .rodata.str1.1
+                0x0000794f        0x7 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ *fill*         0x00007956        0x2 
+ .rodata.BME680
+                0x00007958       0x28 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+                0x00007958                BME680
+ .rodata.unitemp_BMP180_init.str1.1
+                0x00007980       0x3a build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .rodata.str1.1
+                0x000079ba        0x7 build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ *fill*         0x000079c1        0x3 
+ .rodata.BMP180
+                0x000079c4       0x28 build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+                0x000079c4                BMP180
+ .rodata.unitemp_BMx280_init.str1.1
+                0x000079ec       0x72 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .rodata.unitemp_BMx280_alloc.str1.1
+                0x00007a5e       0x28 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .rodata.unitemp_BMx280_update.str1.1
+                0x00007a86       0x1e build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .rodata.str1.1
+                0x00007aa4        0xe build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ *fill*         0x00007ab2        0x2 
+ .rodata.BME280
+                0x00007ab4       0x28 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+                0x00007ab4                BME280
+ .rodata.BMP280
+                0x00007adc       0x28 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+                0x00007adc                BMP280
+ .rodata.str1.1
+                0x00007b04       0x1f build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ *fill*         0x00007b23        0x1 
+ .rodata.AHT10  0x00007b24       0x28 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+                0x00007b24                AHT10
+ .rodata.DHT20  0x00007b4c       0x28 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+                0x00007b4c                DHT20
+ .rodata.unitemp_HDC1080_init.str1.1
+                0x00007b74       0x3c build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .rodata.str1.1
+                0x00007bb0        0x8 build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .rodata.HDC1080
+                0x00007bb8       0x28 build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+                0x00007bb8                HDC1080
+ .rodata.str1.1
+                0x00007be0       0x1b build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ *fill*         0x00007bfb        0x1 
+ .rodata.HTU21x
+                0x00007bfc       0x28 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+                0x00007bfc                HTU21x
+ .rodata.str1.1
+                0x00007c24        0x5 build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ *fill*         0x00007c29        0x3 
+ .rodata.LM75   0x00007c2c       0x28 build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+                0x00007c2c                LM75
+ .rodata.str1.1
+                0x00007c54       0x21 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ *fill*         0x00007c75        0x3 
+ .rodata.MAX31855
+                0x00007c78       0x28 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+                0x00007c78                MAX31855
+ .rodata.str1.1
+                0x00007ca0       0x1f build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ *fill*         0x00007cbf        0x1 
+ .rodata.MAX6675
+                0x00007cc0       0x28 build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+                0x00007cc0                MAX6675
+ .rodata.unitemp_SCD30_init.str1.1
+                0x00007ce8       0x2a build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .rodata.unitemp_SCD30_update.str1.1
+                0x00007d12       0x86 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .rodata.str1.1
+                0x00007d98        0x6 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ *fill*         0x00007d9e        0x2 
+ .rodata.SCD30  0x00007da0       0x28 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+                0x00007da0                SCD30
+ .rodata.unitemp_SCD40_calibrate.str1.1
+                0x00007dc8       0x34 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .rodata.unitemp_SCD40_update.str1.1
+                0x00007dfc       0x86 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .rodata.str1.1
+                0x00007e82        0x6 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .rodata.SCD40  0x00007e88       0x2c build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+                0x00007e88                SCD40
+ .rodata.unitemp_SHT30_init.str1.1
+                0x00007eb4       0x55 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .rodata.str1.1
+                0x00007f09       0x26 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ *fill*         0x00007f2f        0x1 
+ .rodata.GXHT30
+                0x00007f30       0x28 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+                0x00007f30                GXHT30
+ .rodata.SHT30  0x00007f58       0x28 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+                0x00007f58                SHT30
+ .rodata._draw_pressure.str1.1
+                0x00007f80        0xf build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .rodata._draw_humidity.str1.1
+                0x00007f8f        0x2 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .rodata._draw_temperature.constprop.0.str1.1
+                0x00007f91        0x7 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .rodata._draw_callback.str1.1
+                0x00007f98      0x124 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .rodata.hum_positions.0
+                0x000080bc        0x4 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .rodata.unitemp_MainMenu_alloc.str1.1
+                0x000080c0       0x23 build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .rodata.unitemp_SensorActions_alloc.str1.1
+                0x000080e3       0x34 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .rodata._i2caddr_change_callback.str1.1
+                0x00008117        0x6 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .rodata._offset_change_callback.str1.1
+                0x0000811d        0x7 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .rodata._onewire_scan.str1.1
+                0x00008124       0x13 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .rodata.unitemp_SensorEdit_switch.str1.1
+                0x00008137       0x44 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .rodata.unitemp_SensorNameEdit_alloc.str1.1
+                0x0000817b        0xc build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .rodata._enter_callback.str1.1
+                0x00008187       0x71 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .rodata.unitemp_SensorsList_alloc.str1.1
+                0x000081f8       0x1c build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .rodata.unitemp_Settings_alloc.str1.1
+                0x00008214       0x45 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .rodata.heat_index_bool
+                0x00008259        0x8 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .rodata.pressure_units
+                0x00008261       0x18 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .rodata.humidity_units
+                0x00008279       0x18 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .rodata.temp_units
+                0x00008291        0x6 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .rodata.states
+                0x00008297       0x12 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .rodata.unitemp_widget_delete_switch.str1.1
+                0x000082a9       0x75 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .rodata.unitemp_widget_help_switch.str1.1
+                0x0000831e       0x18 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .rodata.unitemp_widget_about_switch.str1.1
+                0x00008336       0xc4 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .rodata.unitemp_sensors_save.str1.1
+                0x000083fa       0xc1 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .rodata.unitemp_sensor_alloc.str1.1
+                0x000084bb       0x5a build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .rodata.unitemp_sensors_load.str1.1
+                0x00008515      0x103 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .rodata.unitemp_sensor_free.str1.1
+                0x00008618       0x6b build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .rodata.unitemp_sensors_init.str1.1
+                0x00008683       0x55 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .rodata.unitemp_sensors_deInit.str1.1
+                0x000086d8       0x34 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .rodata.str1.1
+                0x0000870c       0x82 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ *fill*         0x0000878e        0x2 
+ .rodata.SPI    0x00008790       0x10 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00008790                SPI
+ .rodata.ONE_WIRE
+                0x000087a0       0x10 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x000087a0                ONE_WIRE
+ .rodata.I2C    0x000087b0       0x10 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x000087b0                I2C
+ .rodata.SINGLE_WIRE
+                0x000087c0       0x10 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x000087c0                SINGLE_WIRE
+ .rodata.GPIOList
+                0x000087d0       0x9c build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .rodata.ibutton_gpio
+                0x0000886c        0x8 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x0000886c                ibutton_gpio
+ .rodata.RX_14  0x00008874        0x8 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00008874                RX_14
+ .rodata.TX_13  0x0000887c        0x8 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x0000887c                TX_13
+ .rodata.SIO_12
+                0x00008884        0x8 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x00008884                SIO_12
+ .rodata.SWC_10
+                0x0000888c        0x8 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+                0x0000888c                SWC_10
+ .rodata.unitemp_free.str1.1
+                0x00008894       0x19 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .rodata.unitemp_saveSettings.str1.1
+                0x000088ad       0xe5 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .rodata.unitemp_loadSettings.str1.1
+                0x00008992      0x1a6 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .rodata.unitemp_app.str1.1
+                0x00008b38        0xd build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ *fill*         0x00008b45        0x3 
+ .rodata.I_temp_F_11x14
+                0x00008b48        0xc build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008b48                I_temp_F_11x14
+ .rodata.I_temp_C_11x14
+                0x00008b54        0xc build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008b54                I_temp_C_11x14
+ .rodata.I_sherlok_53x45
+                0x00008b60        0xc build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008b60                I_sherlok_53x45
+ .rodata.I_repo_qr_50x50
+                0x00008b6c        0xc build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008b6c                I_repo_qr_50x50
+ .rodata.I_pressure_7x13
+                0x00008b78        0xc build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008b78                I_pressure_7x13
+ .rodata.I_mm_hg_15x15
+                0x00008b84        0xc build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008b84                I_mm_hg_15x15
+ .rodata.I_in_hg_15x15
+                0x00008b90        0xc build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008b90                I_in_hg_15x15
+ .rodata.I_hum_9x15
+                0x00008b9c        0xc build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008b9c                I_hum_9x15
+ .rodata.I_heat_index_11x14
+                0x00008ba8        0xc build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008ba8                I_heat_index_11x14
+ .rodata.I_flipper_sad_60x38
+                0x00008bb4        0xc build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008bb4                I_flipper_sad_60x38
+ .rodata.I_flipper_happy_60x38
+                0x00008bc0        0xc build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008bc0                I_flipper_happy_60x38
+ .rodata.I_flipper_happy_2_60x38
+                0x00008bcc        0xc build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008bcc                I_flipper_happy_2_60x38
+ .rodata.I_co2_11x14
+                0x00008bd8        0xc build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008bd8                I_co2_11x14
+ .rodata._I_temp_F_11x14
+                0x00008be4        0x4 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008be4                _I_temp_F_11x14
+ .rodata._I_temp_F_11x14_0
+                0x00008be8       0x1d build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008be8                _I_temp_F_11x14_0
+ *fill*         0x00008c05        0x3 
+ .rodata._I_temp_C_11x14
+                0x00008c08        0x4 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008c08                _I_temp_C_11x14
+ .rodata._I_temp_C_11x14_0
+                0x00008c0c       0x1d build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008c0c                _I_temp_C_11x14_0
+ *fill*         0x00008c29        0x3 
+ .rodata._I_sherlok_53x45
+                0x00008c2c        0x4 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008c2c                _I_sherlok_53x45
+ .rodata._I_sherlok_53x45_0
+                0x00008c30       0xf5 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008c30                _I_sherlok_53x45_0
+ *fill*         0x00008d25        0x3 
+ .rodata._I_repo_qr_50x50
+                0x00008d28        0x4 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008d28                _I_repo_qr_50x50
+ .rodata._I_repo_qr_50x50_0
+                0x00008d2c       0xc2 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008d2c                _I_repo_qr_50x50_0
+ *fill*         0x00008dee        0x2 
+ .rodata._I_pressure_7x13
+                0x00008df0        0x4 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008df0                _I_pressure_7x13
+ .rodata._I_pressure_7x13_0
+                0x00008df4        0xe build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008df4                _I_pressure_7x13_0
+ *fill*         0x00008e02        0x2 
+ .rodata._I_mm_hg_15x15
+                0x00008e04        0x4 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008e04                _I_mm_hg_15x15
+ .rodata._I_mm_hg_15x15_0
+                0x00008e08       0x1b build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008e08                _I_mm_hg_15x15_0
+ *fill*         0x00008e23        0x1 
+ .rodata._I_in_hg_15x15
+                0x00008e24        0x4 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008e24                _I_in_hg_15x15
+ .rodata._I_in_hg_15x15_0
+                0x00008e28       0x1f build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008e28                _I_in_hg_15x15_0
+ *fill*         0x00008e47        0x1 
+ .rodata._I_hum_9x15
+                0x00008e48        0x4 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008e48                _I_hum_9x15
+ .rodata._I_hum_9x15_0
+                0x00008e4c       0x1f build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008e4c                _I_hum_9x15_0
+ *fill*         0x00008e6b        0x1 
+ .rodata._I_heat_index_11x14
+                0x00008e6c        0x4 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008e6c                _I_heat_index_11x14
+ .rodata._I_heat_index_11x14_0
+                0x00008e70       0x1d build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008e70                _I_heat_index_11x14_0
+ *fill*         0x00008e8d        0x3 
+ .rodata._I_flipper_sad_60x38
+                0x00008e90        0x4 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008e90                _I_flipper_sad_60x38
+ .rodata._I_flipper_sad_60x38_0
+                0x00008e94       0xb7 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008e94                _I_flipper_sad_60x38_0
+ *fill*         0x00008f4b        0x1 
+ .rodata._I_flipper_happy_60x38
+                0x00008f4c        0x4 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008f4c                _I_flipper_happy_60x38
+ .rodata._I_flipper_happy_60x38_0
+                0x00008f50       0xbd build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00008f50                _I_flipper_happy_60x38_0
+ *fill*         0x0000900d        0x3 
+ .rodata._I_flipper_happy_2_60x38
+                0x00009010        0x4 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00009010                _I_flipper_happy_2_60x38
+ .rodata._I_flipper_happy_2_60x38_0
+                0x00009014       0xbc build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x00009014                _I_flipper_happy_2_60x38_0
+ .rodata._I_co2_11x14
+                0x000090d0        0x4 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x000090d0                _I_co2_11x14
+ .rodata._I_co2_11x14_0
+                0x000090d4       0x1b build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+                0x000090d4                _I_co2_11x14_0
+ .rodata.log.str1.1
+                0x000090ef        0x1 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_log.o)
+
+.data           0x000090f0       0x5c
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.onewire_enum_fork_bit
+                0x000090f0        0x1 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ *fill*         0x000090f1        0x3 
+ .data.sensorTypes
+                0x000090f4       0x58 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+
+.bss            0x0000914c       0xbc
+ *(.bss)
+ *(.bss*)
+ .bss.sensors_count
+                0x0000914c        0x1 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .bss.onewire_enum
+                0x0000914d        0x8 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .bss.sensors_count
+                0x00009155        0x1 build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .bss.temp_hum.0
+                0x00009156        0x1 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .bss.generalview_sensor_index
+                0x00009157        0x1 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+                0x00009157                generalview_sensor_index
+ .bss.carousel_info_selector
+                0x00009158        0x1 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+                0x00009158                carousel_info_selector
+ .bss.current_view
+                0x00009159        0x1 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ *fill*         0x0000915a        0x2 
+ .bss.view      0x0000915c        0x4 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .bss.variable_item_list
+                0x00009160        0x4 build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .bss.view      0x00009164        0x4 build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .bss._prev_view_id
+                0x00009168        0x4 build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+                0x00009168                _prev_view_id
+ .bss.current_sensor
+                0x0000916c        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .bss.variable_item_list
+                0x00009170        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .bss.view      0x00009174        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .bss.offset_buff
+                0x00009178        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .bss.calibration_item
+                0x0000917c        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+                0x0000917c                calibration_item
+ .bss.temp_offset_item
+                0x00009180        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+                0x00009180                temp_offset_item
+ .bss.onewire_type_item
+                0x00009184        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .bss.onewire_addr_item
+                0x00009188        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .bss.sensor_name_item
+                0x0000918c        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .bss.initial_gpio
+                0x00009190        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .bss.editable_sensor
+                0x00009194        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .bss.variable_item_list
+                0x00009198        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .bss.view      0x0000919c        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .bss.editable_sensor
+                0x000091a0        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .bss.text_input
+                0x000091a4        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .bss.variable_item_list
+                0x000091a8        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .bss.view      0x000091ac        0x4 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .bss.heat_index_item
+                0x000091b0        0x4 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+                0x000091b0                heat_index_item
+ .bss.pressure_unit_item
+                0x000091b4        0x4 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+                0x000091b4                pressure_unit_item
+ .bss.humidity_unit_item
+                0x000091b8        0x4 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+                0x000091b8                humidity_unit_item
+ .bss.temperature_unit_item
+                0x000091bc        0x4 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+                0x000091bc                temperature_unit_item
+ .bss.infinity_backlight_item
+                0x000091c0        0x4 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+                0x000091c0                infinity_backlight_item
+ .bss.variable_item_list
+                0x000091c4        0x4 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .bss.view      0x000091c8        0x4 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .bss.current_sensor
+                0x000091cc        0x4 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+                0x000091cc                current_sensor
+ .bss.gpio_interfaces_list
+                0x000091d0       0x34 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .bss.app       0x00009204        0x4 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+                0x00009204                app
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x9c0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x78 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_aranges
+                0x00000078       0xc8 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_aranges
+                0x00000140       0x40 build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .debug_aranges
+                0x00000180       0x58 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .debug_aranges
+                0x000001d8       0x40 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .debug_aranges
+                0x00000218       0x48 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .debug_aranges
+                0x00000260       0x40 build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .debug_aranges
+                0x000002a0       0x48 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .debug_aranges
+                0x000002e8       0x48 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .debug_aranges
+                0x00000330       0x40 build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .debug_aranges
+                0x00000370       0x40 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .debug_aranges
+                0x000003b0       0x40 build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .debug_aranges
+                0x000003f0       0x40 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .debug_aranges
+                0x00000430       0x40 build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .debug_aranges
+                0x00000470       0x68 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_aranges
+                0x000004d8       0x60 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .debug_aranges
+                0x00000538       0x50 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .debug_aranges
+                0x00000588       0x58 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .debug_aranges
+                0x000005e0       0x40 build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .debug_aranges
+                0x00000620       0x28 build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+ .debug_aranges
+                0x00000648       0x40 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .debug_aranges
+                0x00000688       0x80 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_aranges
+                0x00000708       0x38 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .debug_aranges
+                0x00000740       0x40 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .debug_aranges
+                0x00000780       0x48 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .debug_aranges
+                0x000007c8       0x58 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .debug_aranges
+                0x00000820      0x100 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_aranges
+                0x00000920       0x88 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_aranges
+                0x000009a8       0x18 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x1d410
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x10fb build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_info    0x000010fb     0x1cee build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_info    0x00002de9      0xcd6 build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .debug_info    0x00003abf      0xdd9 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .debug_info    0x00004898      0x873 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .debug_info    0x0000510b     0x1250 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .debug_info    0x0000635b      0xc04 build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .debug_info    0x00006f5f     0x10d9 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .debug_info    0x00008038      0xb30 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .debug_info    0x00008b68      0x972 build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .debug_info    0x000094da      0x830 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .debug_info    0x00009d0a      0x801 build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .debug_info    0x0000a50b      0x97f build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .debug_info    0x0000ae8a      0x97d build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .debug_info    0x0000b807     0x1242 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_info    0x0000ca49     0x10bc build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .debug_info    0x0000db05      0xc0c build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .debug_info    0x0000e711     0x30d7 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .debug_info    0x000117e8      0xa14 build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .debug_info    0x000121fc      0x95c build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+ .debug_info    0x00012b58      0xb0c build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .debug_info    0x00013664     0x1c37 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_info    0x0001529b      0x89b build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .debug_info    0x00015b36      0xecc build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .debug_info    0x00016a02     0x1043 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .debug_info    0x00017a45     0x15fa build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .debug_info    0x0001903f     0x24cc build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_info    0x0001b50b     0x1a3d build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_info    0x0001cf48      0x4c8 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+
+.debug_abbrev   0x00000000     0x5ad2
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x362 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_abbrev  0x00000362      0x549 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_abbrev  0x000008ab      0x27b build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .debug_abbrev  0x00000b26      0x388 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .debug_abbrev  0x00000eae      0x2c8 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .debug_abbrev  0x00001176      0x394 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .debug_abbrev  0x0000150a      0x24a build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .debug_abbrev  0x00001754      0x37b build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .debug_abbrev  0x00001acf      0x358 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .debug_abbrev  0x00001e27      0x28e build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .debug_abbrev  0x000020b5      0x2d1 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .debug_abbrev  0x00002386      0x230 build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .debug_abbrev  0x000025b6      0x2ae build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .debug_abbrev  0x00002864      0x2af build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .debug_abbrev  0x00002b13      0x408 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_abbrev  0x00002f1b      0x453 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .debug_abbrev  0x0000336e      0x357 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .debug_abbrev  0x000036c5      0x576 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .debug_abbrev  0x00003c3b      0x20e build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .debug_abbrev  0x00003e49      0x1d7 build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+ .debug_abbrev  0x00004020      0x224 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .debug_abbrev  0x00004244      0x3d5 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_abbrev  0x00004619      0x1eb build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .debug_abbrev  0x00004804      0x322 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .debug_abbrev  0x00004b26      0x27e build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .debug_abbrev  0x00004da4      0x327 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .debug_abbrev  0x000050cb      0x578 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_abbrev  0x00005643      0x3da build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_abbrev  0x00005a1d       0xb5 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+
+.debug_line     0x00000000     0xc8bd
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3bc build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_line.text.LL_GPIO_SetPinPull.constprop.0
+                0x000003bc       0x98 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_line.text.unitemp_i2c_acquire
+                0x00000454       0x35 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_line.text.unitemp_i2c_isDeviceReady
+                0x00000489       0x33 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_line.text.unitemp_i2c_readReg
+                0x000004bc       0x39 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_line.text.unitemp_i2c_readArray
+                0x000004f5       0x3e build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_line.text.unitemp_i2c_readRegArray
+                0x00000533       0x39 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_line.text.unitemp_i2c_writeReg
+                0x0000056c       0x43 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_line.text.unitemp_i2c_writeArray
+                0x000005af       0x3f build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_line.text.unitemp_i2c_writeRegArray
+                0x000005ee       0x3a build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_line.text.unitemp_I2C_sensor_alloc
+                0x00000628       0xb7 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_line.text.unitemp_I2C_sensor_free
+                0x000006df       0x47 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_line.text.unitemp_I2C_sensor_update
+                0x00000726       0x3d build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_line_end
+                0x00000763        0x0 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_line    0x00000763      0x378 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_sensor_free
+                0x00000adb       0x3a build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_bus_alloc
+                0x00000b15       0x8b build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_sensor_alloc
+                0x00000ba0       0x9a build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_bus_init
+                0x00000c3a       0x73 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_bus_deinit
+                0x00000cad       0x8c build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_sensor_deinit
+                0x00000d39       0x3e build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_bus_start
+                0x00000d77      0x108 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_bus_send_bit
+                0x00000e7f      0x13b build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_bus_send_byte
+                0x00000fba       0x61 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_bus_send_byteArray
+                0x0000101b       0x4b build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_bus_read_bit
+                0x00001066       0xa6 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_bus_read_byte
+                0x0000110c       0x77 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_bus_read_byteArray
+                0x00001183       0x54 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_CRC_check
+                0x000011d7       0x90 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_sensor_getModel
+                0x00001267       0x20 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_bus_enum_init
+                0x00001287       0x2b build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_bus_enum_next
+                0x000012b2      0x139 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_bus_select_sensor
+                0x000013eb       0x2d build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_sensor_init
+                0x00001418       0x8d build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_sensor_update
+                0x000014a5      0x1c0 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line.text.unitemp_onewire_id_compare
+                0x00001665       0x4a build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line_end
+                0x000016af        0x0 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_line    0x000016af      0x395 build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .debug_line.text.unitemp_spi_sensor_alloc
+                0x00001a44       0xcc build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .debug_line.text.unitemp_spi_sensor_free
+                0x00001b10       0x57 build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .debug_line.text.unitemp_spi_sensor_update
+                0x00001b67       0x1b build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .debug_line_end
+                0x00001b82        0x0 build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .debug_line    0x00001b82      0x337 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .debug_line.text.furi_hal_gpio_read
+                0x00001eb9       0x28 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .debug_line.text.unitemp_singlewire_free
+                0x00001ee1       0x23 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .debug_line.text.unitemp_singlewire_update
+                0x00001f04      0x2c7 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .debug_line.text.unitemp_singlewire_init
+                0x000021cb       0x7b build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .debug_line.text.unitemp_singlewire_deinit
+                0x00002246       0x78 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .debug_line.text.unitemp_singlewire_sensorSetGPIO
+                0x000022be       0x3d build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .debug_line.text.unitemp_singlewire_alloc
+                0x000022fb       0x74 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .debug_line.text.unitemp_singlewire_sensorGetGPIO
+                0x0000236f       0x25 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .debug_line_end
+                0x00002394        0x0 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .debug_line    0x00002394      0x243 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .debug_line.text.unitemp_AM2320_I2C_alloc
+                0x000025d7       0x2b build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .debug_line.text.unitemp_AM2320_init
+                0x00002602       0x1b build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .debug_line.text.unitemp_AM2320_I2C_update
+                0x0000261d       0xee build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .debug_line.text.unitemp_AM2320_I2C_deinit
+                0x0000270b       0x12 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .debug_line.text.unitemp_AM2320_I2C_free
+                0x0000271d       0x11 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .debug_line_end
+                0x0000272e        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .debug_line    0x0000272e      0x349 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .debug_line.text.unitemp_BME680_deinit
+                0x00002a77       0x24 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .debug_line.text.BME680_readCalValues
+                0x00002a9b      0x14a build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .debug_line.text.unitemp_BME680_init
+                0x00002be5       0x73 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .debug_line.text.unitemp_BME680_free
+                0x00002c58       0x24 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .debug_line.text.unitemp_BME680_alloc
+                0x00002c7c       0x77 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .debug_line.text.unitemp_BME680_update
+                0x00002cf3      0x394 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .debug_line_end
+                0x00003087        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .debug_line    0x00003087      0x349 build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .debug_line.text.unitemp_BMP180_I2C_deinit
+                0x000033d0       0x1b build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .debug_line.text.unitemp_BMP180_I2C_alloc
+                0x000033eb       0x40 build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .debug_line.text.unitemp_BMP180_I2C_free
+                0x0000342b       0x24 build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .debug_line.text.unitemp_BMP180_init
+                0x0000344f       0xdb build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .debug_line.text.unitemp_BMP180_I2C_update
+                0x0000352a      0x18c build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .debug_line_end
+                0x000036b6        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .debug_line    0x000036b6      0x349 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .debug_line.text.unitemp_BMx280_deinit
+                0x000039ff       0x24 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .debug_line.text.bmx280_readCalValues
+                0x00003a23       0xcd build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .debug_line.text.unitemp_BMx280_init
+                0x00003af0       0x7d build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .debug_line.text.unitemp_BMx280_free
+                0x00003b6d       0x24 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .debug_line.text.unitemp_BMx280_alloc
+                0x00003b91       0xa1 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .debug_line.text.unitemp_BMx280_update
+                0x00003c32      0x2f7 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .debug_line_end
+                0x00003f29        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .debug_line    0x00003f29      0x241 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .debug_line.text.unitemp_DHT20_I2C_alloc
+                0x0000416a       0x34 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .debug_line.text.unitemp_DHT20_I2C_deinit
+                0x0000419e       0x1b build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .debug_line.text.unitemp_DHT20_init
+                0x000041b9       0x73 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .debug_line.text.DHT20_reset_reg
+                0x0000422c       0x4d build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .debug_line.text.unitemp_DHT20_I2C_free
+                0x00004279       0x12 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .debug_line.text.unitemp_DHT20_I2C_update
+                0x0000428b      0x19a build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .debug_line_end
+                0x00004425        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .debug_line    0x00004425      0x24e build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .debug_line.text.unitemp_HDC1080_alloc
+                0x00004673       0x2b build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .debug_line.text.unitemp_HDC1080_deinit
+                0x0000469e       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .debug_line.text.unitemp_HDC1080_init
+                0x000046ba       0x66 build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .debug_line.text.unitemp_HDC1080_update
+                0x00004720       0xba build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .debug_line.text.unitemp_HDC1080_free
+                0x000047da       0x11 build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .debug_line_end
+                0x000047eb        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .debug_line    0x000047eb      0x22d build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .debug_line.text.unitemp_HTU21x_alloc
+                0x00004a18       0x2b build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .debug_line.text.unitemp_HTU21x_init
+                0x00004a43       0x1b build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .debug_line.text.unitemp_HTU21x_update
+                0x00004a5e      0x103 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .debug_line.text.unitemp_HTU21x_deinit
+                0x00004b61       0x12 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .debug_line.text.unitemp_HTU21x_free
+                0x00004b73       0x11 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .debug_line_end
+                0x00004b84        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .debug_line    0x00004b84      0x229 build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .debug_line.text.unitemp_LM75_alloc
+                0x00004dad       0x2b build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .debug_line.text.unitemp_LM75_free
+                0x00004dd8       0x1a build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .debug_line.text.unitemp_LM75_init
+                0x00004df2       0x1b build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .debug_line.text.unitemp_LM75_deinit
+                0x00004e0d       0x1c build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .debug_line.text.unitemp_LM75_update
+                0x00004e29       0x3d build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .debug_line_end
+                0x00004e66        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .debug_line    0x00004e66      0x2ee build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .debug_line.text.unitemp_MAX31855_alloc
+                0x00005154       0x1b build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .debug_line.text.unitemp_MAX31855_deinit
+                0x0000516f       0x1a build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .debug_line.text.unitemp_MAX31855_init
+                0x00005189       0x27 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .debug_line.text.unitemp_MAX31855_update
+                0x000051b0       0x99 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .debug_line.text.unitemp_MAX31855_free
+                0x00005249       0x11 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .debug_line_end
+                0x0000525a        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .debug_line    0x0000525a      0x2ec build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .debug_line.text.unitemp_MAX6675_alloc
+                0x00005546       0x1b build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .debug_line.text.unitemp_MAX6675_deinit
+                0x00005561       0x1a build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .debug_line.text.unitemp_MAX6675_init
+                0x0000557b       0x27 build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .debug_line.text.unitemp_MAX6675_update
+                0x000055a2       0x98 build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .debug_line.text.unitemp_MAX6675_free
+                0x0000563a       0x11 build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .debug_line_end
+                0x0000564b        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .debug_line    0x0000564b      0x30d build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_line.text.unitemp_SCD30_alloc
+                0x00005958       0x2c build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_line.text.unitemp_SCD30_free
+                0x00005984       0x1b build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_line.text.sendCommand
+                0x0000599f       0x3d build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_line.text.unitemp_SCD30_deinit
+                0x000059dc       0x23 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_line.text.readRegister
+                0x000059ff       0x5a build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_line.text.computeCRC8.constprop.0
+                0x00005a59       0x7f build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_line.text.loadFloat.constprop.0
+                0x00005ad8       0xab build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_line.text.sendCommandWithCRC
+                0x00005b83       0x8d build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_line.text.unitemp_SCD30_init
+                0x00005c10       0x9d build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_line.text.unitemp_SCD30_update
+                0x00005cad       0xf4 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_line_end
+                0x00005da1        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_line    0x00005da1      0x28e build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .debug_line.text.unitemp_SCD40_alloc
+                0x0000602f       0x2c build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .debug_line.text.unitemp_SCD40_free
+                0x0000605b       0x1b build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .debug_line.text.sendCommand
+                0x00006076       0x3d build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .debug_line.text.computeCRC8.constprop.0
+                0x000060b3       0x7f build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .debug_line.text.loadWord
+                0x00006132       0x67 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .debug_line.text.unitemp_SCD40_calibrate
+                0x00006199      0x112 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .debug_line.text.unitemp_SCD40_update
+                0x000062ab       0xec build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .debug_line.text.unitemp_SCD40_deinit
+                0x00006397       0x23 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .debug_line.text.unitemp_SCD40_init
+                0x000063ba       0x23 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .debug_line_end
+                0x000063dd        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .debug_line    0x000063dd      0x2c9 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .debug_line.text.unitemp_SHT30_I2C_alloc
+                0x000066a6       0x2b build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .debug_line.text.unitemp_SHT30_I2C_deinit
+                0x000066d1       0x1b build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .debug_line.text.unitemp_GXHT30_init
+                0x000066ec       0x3a build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .debug_line.text.unitemp_SHT30_crc8.constprop.0
+                0x00006726       0x7a build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .debug_line.text.unitemp_SHT30_I2C_free
+                0x000067a0       0x11 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .debug_line.text.unitemp_SHT30_I2C_update
+                0x000067b1       0xdc build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .debug_line.text.unitemp_SHT30_init
+                0x0000688d       0xce build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .debug_line_end
+                0x0000695b        0x0 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .debug_line    0x0000695b      0x59a build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .debug_line.text._input_callback
+                0x00006ef5      0x21f build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .debug_line.text._draw_pressure
+                0x00007114       0xe1 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .debug_line.text._draw_humidity
+                0x000071f5      0x123 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .debug_line.text._draw_temperature.constprop.0
+                0x00007318      0x117 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .debug_line.text._draw_callback
+                0x0000742f      0x5e1 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .debug_line.text.unitemp_General_alloc
+                0x00007a10       0x39 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .debug_line.text.unitemp_General_switch
+                0x00007a49       0x15 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .debug_line.text.unitemp_General_free
+                0x00007a5e       0x25 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .debug_line_end
+                0x00007a83        0x0 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .debug_line    0x00007a83      0x2ae build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .debug_line.text._exit_callback
+                0x00007d31       0x1a build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .debug_line.text._enter_callback
+                0x00007d4b       0x49 build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .debug_line.text.unitemp_MainMenu_alloc
+                0x00007d94       0x55 build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .debug_line.text.unitemp_MainMenu_switch
+                0x00007de9       0x25 build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .debug_line.text.unitemp_MainMenu_free
+                0x00007e0e       0x25 build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .debug_line_end
+                0x00007e33        0x0 build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .debug_line    0x00007e33      0x29f build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+ .debug_line.text._popup_callback
+                0x000080d2       0x17 build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+ .debug_line.text.unitemp_popup
+                0x000080e9       0x70 build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+ .debug_line_end
+                0x00008159        0x0 build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+ .debug_line    0x00008159      0x2b3 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .debug_line.text._exit_callback
+                0x0000840c       0x1a build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .debug_line.text._enter_callback
+                0x00008426       0x38 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .debug_line.text.unitemp_SensorActions_alloc
+                0x0000845e       0x57 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .debug_line.text.unitemp_SensorActions_switch
+                0x000084b5       0x2e build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .debug_line.text.unitemp_SensorActions_free
+                0x000084e3       0x25 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .debug_line_end
+                0x00008508        0x0 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .debug_line    0x00008508      0x500 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_line.text._exit_callback
+                0x00008a08       0x3b build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_line.text._calibrate_callback
+                0x00008a43       0x37 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_line.text._name_change_callback
+                0x00008a7a       0x25 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_line.text._i2caddr_change_callback
+                0x00008a9f       0x3f build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_line.text._gpio_change_callback
+                0x00008ade       0xbc build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_line.text._offset_change_callback
+                0x00008b9a       0x3e build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_line.text._onewire_id_exist
+                0x00008bd8       0x5e build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_line.text._onewire_scan
+                0x00008c36      0x12d build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_line.text._enter_callback
+                0x00008d63       0xef build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_line.text._onwire_addr_change_callback
+                0x00008e52       0x25 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_line.text.unitemp_SensorEdit_alloc
+                0x00008e77       0x51 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_line.text.unitemp_SensorEdit_switch
+                0x00008ec8      0x257 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_line.text.unitemp_SensorEdit_free
+                0x0000911f       0x27 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_line_end
+                0x00009146        0x0 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_line    0x00009146      0x32b build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .debug_line.text._sensor_name_changed_callback
+                0x00009471       0x17 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .debug_line.text.unitemp_SensorNameEdit_alloc
+                0x00009488       0x33 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .debug_line.text.unitemp_SensorNameEdit_switch
+                0x000094bb       0x30 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .debug_line.text.unitemp_SensorNameEdit_free
+                0x000094eb       0x24 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .debug_line_end
+                0x0000950f        0x0 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .debug_line    0x0000950f      0x427 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .debug_line.text._exit_callback
+                0x00009936       0x1a build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .debug_line.text._enter_callback
+                0x00009950      0x114 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .debug_line.text.unitemp_SensorsList_alloc
+                0x00009a64       0xb1 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .debug_line.text.unitemp_SensorsList_switch
+                0x00009b15       0x25 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .debug_line.text.unitemp_SensorsList_free
+                0x00009b3a       0x25 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .debug_line_end
+                0x00009b5f        0x0 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .debug_line    0x00009b5f      0x2f5 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .debug_line.text._enter_callback
+                0x00009e54       0x1a build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .debug_line.text._exit_callback
+                0x00009e6e       0x9f build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .debug_line.text._setting_change_callback
+                0x00009f0d       0xae build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .debug_line.text.unitemp_Settings_alloc
+                0x00009fbb       0xa2 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .debug_line.text.unitemp_Settings_switch
+                0x0000a05d       0xaa build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .debug_line.text.unitemp_Settings_free
+                0x0000a107       0x25 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .debug_line_end
+                0x0000a12c        0x0 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .debug_line    0x0000a12c      0x57f build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .debug_line.text._delete_exit_callback
+                0x0000a6ab       0x1a build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .debug_line.text._help_exit_callback
+                0x0000a6c5       0x1b build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .debug_line.text._delete_click_callback
+                0x0000a6e0       0x5c build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .debug_line.text.unitemp_widgets_alloc
+                0x0000a73c       0x35 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .debug_line.text.unitemp_widgets_free
+                0x0000a771       0x24 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .debug_line.text.unitemp_widget_delete_switch
+                0x0000a795      0x11e build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .debug_line.text.unitemp_widget_help_switch
+                0x0000a8b3       0x37 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .debug_line.text.unitemp_widget_about_switch
+                0x0000a8ea       0x3c build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .debug_line_end
+                0x0000a926        0x0 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .debug_line    0x0000a926      0x612 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensors_getTypeFromStr
+                0x0000af38       0x51 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensors_getTypesCount
+                0x0000af89       0x19 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensors_getTypes
+                0x0000afa2       0x19 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_gpio_getFromInt
+                0x0000afbb       0x49 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_gpio_toInt
+                0x0000b004       0x60 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_gpio_to_index
+                0x0000b064       0x41 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_gpio_getAviablePortsCount
+                0x0000b0a5       0xcc build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_gpio_lock
+                0x0000b171       0x34 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_gpio_unlock
+                0x0000b1a5       0x30 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_gpio_getAviablePort
+                0x0000b1d5      0x13e build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensor_getActive
+                0x0000b313       0x6f build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensors_getCount
+                0x0000b382       0x27 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensors_getActiveCount
+                0x0000b3a9       0x54 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensors_add
+                0x0000b3fd       0x55 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensors_save
+                0x0000b452      0x144 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensor_isContains
+                0x0000b596       0x4a build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensor_alloc
+                0x0000b5e0       0xbe build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensors_load
+                0x0000b69e      0x1d7 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensor_free
+                0x0000b875       0x6b build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensors_free
+                0x0000b8e0       0x73 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensors_init
+                0x0000b953       0xad build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensors_deInit
+                0x0000ba00       0x91 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensors_reload
+                0x0000ba91       0x27 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensor_delete
+                0x0000bab8       0x51 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensor_updateData
+                0x0000bb09      0x127 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line.text.unitemp_sensors_updateValues
+                0x0000bc30       0x5a build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line_end
+                0x0000bc8a        0x0 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_line    0x0000bc8a      0x47f build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_line.text.view_dispatcher_tick_event_callback
+                0x0000c109       0x2c build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_line.text.unitemp_free
+                0x0000c135       0x51 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_line.text.unitemp_celsiusToFahrenheit
+                0x0000c186       0x29 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_line.text.unitemp_calculate_heat_index
+                0x0000c1af       0x73 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_line.text.calculateDewPoint
+                0x0000c222       0x58 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_line.text.unitemp_rhToDewpointC
+                0x0000c27a       0x28 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_line.text.unitemp_rhToDewpointF
+                0x0000c2a2       0x2b build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_line.text.unitemp_pascalToMmHg
+                0x0000c2cd       0x1f build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_line.text.unitemp_pascalToKPa
+                0x0000c2ec       0x1f build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_line.text.unitemp_pascalToHPa
+                0x0000c30b       0x1f build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_line.text.unitemp_pascalToInHg
+                0x0000c32a       0x1f build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_line.text.unitemp_saveSettings
+                0x0000c349       0x8b build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_line.text.unitemp_loadSettings
+                0x0000c3d4      0x23a build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_line.text.unitemp_app
+                0x0000c60e      0x122 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_line_end
+                0x0000c730        0x0 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_line    0x0000c730      0x18d build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+ .debug_line_end
+                0x0000c8bd        0x0 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+
+.debug_frame    0x00000000     0x1bd0
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x17c build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_frame   0x0000017c      0x2b4 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_frame   0x00000430       0x8c build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .debug_frame   0x000004bc       0xd8 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .debug_frame   0x00000594       0x74 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .debug_frame   0x00000608       0xd4 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .debug_frame   0x000006dc       0xa0 build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .debug_frame   0x0000077c       0xd8 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .debug_frame   0x00000854       0xb0 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .debug_frame   0x00000904       0xa0 build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .debug_frame   0x000009a4       0x70 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .debug_frame   0x00000a14       0x70 build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .debug_frame   0x00000a84       0x7c build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .debug_frame   0x00000b00       0x7c build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .debug_frame   0x00000b7c      0x108 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_frame   0x00000c84       0xe8 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .debug_frame   0x00000d6c       0xb0 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .debug_frame   0x00000e1c      0x224 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .debug_frame   0x00001040       0x90 build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .debug_frame   0x000010d0       0x54 build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+ .debug_frame   0x00001124       0x90 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .debug_frame   0x000011b4      0x1ec build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_frame   0x000013a0       0x84 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .debug_frame   0x00001424       0xd0 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .debug_frame   0x000014f4       0xd0 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .debug_frame   0x000015c4      0x128 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .debug_frame   0x000016ec      0x368 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_frame   0x00001a54      0x17c build/f7-firmware-C/.extapps/unitemp/unitemp.o
+
+.debug_str      0x00000000    0x14479
+ *(.debug_str)
+ .debug_str     0x00000000      0xa58 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_str     0x00000a58      0xc97 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_str     0x000016ef      0x92f build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .debug_str     0x0000201e      0x93e build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .debug_str     0x0000295c      0x79d build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .debug_str     0x000030f9      0xabd build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .debug_str     0x00003bb6      0x8d9 build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .debug_str     0x0000448f      0xa21 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .debug_str     0x00004eb0      0x7c8 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .debug_str     0x00005678      0x843 build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .debug_str     0x00005ebb      0x763 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .debug_str     0x0000661e      0x756 build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .debug_str     0x00006d74      0x804 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .debug_str     0x00007578      0x7fd build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .debug_str     0x00007d75      0x9ce build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_str     0x00008743      0x93b build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .debug_str     0x0000907e      0x89b build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .debug_str     0x00009919     0x1517 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .debug_str     0x0000ae30      0xa3f build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .debug_str     0x0000b86f      0x8eb build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+ .debug_str     0x0000c15a      0xafa build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .debug_str     0x0000cc54     0x1334 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_str     0x0000df88      0x941 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .debug_str     0x0000e8c9      0xba5 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .debug_str     0x0000f46e     0x102e build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .debug_str     0x0001049c      0xef8 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .debug_str     0x00011394     0x1645 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_str     0x000129d9     0x1599 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .debug_str     0x00013f72      0x507 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x348
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_line_str
+                0x000000a8       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .debug_line_str
+                0x00000150       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .debug_line_str
+                0x000001f8       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_unorddf2.o)
+ .debug_line_str
+                0x000002a0       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+
+.debug_loclists
+                0x00000000     0x4e9c
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x39c build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_loclists
+                0x0000039c      0x98e build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_loclists
+                0x00000d2a       0xcb build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .debug_loclists
+                0x00000df5      0x373 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .debug_loclists
+                0x00001168       0xe6 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .debug_loclists
+                0x0000124e      0x682 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .debug_loclists
+                0x000018d0      0x56b build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .debug_loclists
+                0x00001e3b      0x489 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .debug_loclists
+                0x000022c4      0x1bb build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .debug_loclists
+                0x0000247f      0x137 build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .debug_loclists
+                0x000025b6       0xe7 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .debug_loclists
+                0x0000269d       0xe3 build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .debug_loclists
+                0x00002780      0x12d build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .debug_loclists
+                0x000028ad       0xd4 build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .debug_loclists
+                0x00002981      0x585 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_loclists
+                0x00002f06      0x54b build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .debug_loclists
+                0x00003451      0x1d3 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .debug_loclists
+                0x00003624      0x832 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .debug_loclists
+                0x00003e56       0x5f build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .debug_loclists
+                0x00003eb5       0xae build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+ .debug_loclists
+                0x00003f63       0xb4 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .debug_loclists
+                0x00004017      0x302 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_loclists
+                0x00004319       0x45 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .debug_loclists
+                0x0000435e      0x109 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .debug_loclists
+                0x00004467       0x63 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .debug_loclists
+                0x000044ca      0x119 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .debug_loclists
+                0x000045e3      0x723 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_loclists
+                0x00004d06      0x196 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0xcc7
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x86 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .debug_rnglists
+                0x00000086      0x166 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .debug_rnglists
+                0x000001ec       0x2c build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .debug_rnglists
+                0x00000218       0x72 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .debug_rnglists
+                0x0000028a       0x38 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .debug_rnglists
+                0x000002c2       0xa6 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .debug_rnglists
+                0x00000368       0x2d build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .debug_rnglists
+                0x00000395       0x95 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .debug_rnglists
+                0x0000042a       0x41 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .debug_rnglists
+                0x0000046b       0x2c build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .debug_rnglists
+                0x00000497       0x56 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .debug_rnglists
+                0x000004ed       0x2b build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .debug_rnglists
+                0x00000518       0x2b build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .debug_rnglists
+                0x00000543       0x2b build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .debug_rnglists
+                0x0000056e       0xc9 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .debug_rnglists
+                0x00000637       0xae build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .debug_rnglists
+                0x000006e5       0x75 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .debug_rnglists
+                0x0000075a      0x111 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .debug_rnglists
+                0x0000086b       0x2c build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .debug_rnglists
+                0x00000897       0x1a build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+ .debug_rnglists
+                0x000008b1       0x2c build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .debug_rnglists
+                0x000008dd       0x8a build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .debug_rnglists
+                0x00000967       0x25 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .debug_rnglists
+                0x0000098c       0x53 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .debug_rnglists
+                0x000009df       0x35 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .debug_rnglists
+                0x00000a14       0x4c build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .debug_rnglists
+                0x00000a60      0x1e1 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .debug_rnglists
+                0x00000c41       0x86 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/unitemp/interfaces/I2CSensor.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/unitemp/interfaces/OneWireSensor.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/unitemp/interfaces/SPISensor.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/unitemp/interfaces/SingleWireSensor.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/unitemp/sensors/AM2320.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/unitemp/sensors/BME680.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/unitemp/sensors/BMP180.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/unitemp/sensors/BMx280.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/unitemp/sensors/DHT20.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/unitemp/sensors/HDC1080.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/unitemp/sensors/HTU21x.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/unitemp/sensors/LM75.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31725.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/unitemp/sensors/MAX31855.o
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/unitemp/sensors/MAX6675.o
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/unitemp/sensors/SCD30.o
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/unitemp/sensors/SCD40.o
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/.extapps/unitemp/sensors/SHT30.o
+ .ARM.attributes
+                0x000003a8       0x34 build/f7-firmware-C/.extapps/unitemp/views/General_view.o
+ .ARM.attributes
+                0x000003dc       0x34 build/f7-firmware-C/.extapps/unitemp/views/MainMenu_view.o
+ .ARM.attributes
+                0x00000410       0x34 build/f7-firmware-C/.extapps/unitemp/views/Popup_view.o
+ .ARM.attributes
+                0x00000444       0x34 build/f7-firmware-C/.extapps/unitemp/views/SensorActions_view.o
+ .ARM.attributes
+                0x00000478       0x34 build/f7-firmware-C/.extapps/unitemp/views/SensorEdit_view.o
+ .ARM.attributes
+                0x000004ac       0x34 build/f7-firmware-C/.extapps/unitemp/views/SensorNameEdit_view.o
+ .ARM.attributes
+                0x000004e0       0x34 build/f7-firmware-C/.extapps/unitemp/views/SensorsList_view.o
+ .ARM.attributes
+                0x00000514       0x34 build/f7-firmware-C/.extapps/unitemp/views/Settings_view.o
+ .ARM.attributes
+                0x00000548       0x34 build/f7-firmware-C/.extapps/unitemp/views/Widgets_view.o
+ .ARM.attributes
+                0x0000057c       0x34 build/f7-firmware-C/.extapps/unitemp/Sensors.o
+ .ARM.attributes
+                0x000005b0       0x34 build/f7-firmware-C/.extapps/unitemp/unitemp.o
+ .ARM.attributes
+                0x000005e4       0x34 build/f7-firmware-C/.extapps/unitemp/unitemp_icons.o
+ .ARM.attributes
+                0x00000618       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_log.o)
+ .ARM.attributes
+                0x0000064c       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_log.o)
+ .ARM.attributes
+                0x00000680       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_nan.o)
+ .ARM.attributes
+                0x000006b4       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .ARM.attributes
+                0x000006d6       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x000006f8       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x0000071a       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x0000073c       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_unorddf2.o)
+ .ARM.attributes
+                0x0000075e       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/unitemp_d.elf elf32-littlearm)
+LOAD linker stubs

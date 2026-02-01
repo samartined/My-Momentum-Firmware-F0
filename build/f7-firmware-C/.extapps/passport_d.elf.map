@@ -1,0 +1,290 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_alloc
+                0x00000000        0xc build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_free
+                0x00000000        0x8 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .rodata.dolphin_state_save.str1.1
+                0x00000000       0x42 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_save
+                0x00000000       0x58 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .rodata.dolphin_state_load.str1.1
+                0x00000000       0x14 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_load
+                0x00000000       0x54 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_timestamp
+                0x00000000       0x20 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_is_levelup
+                0x00000000       0x20 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .rodata.dolphin_state_on_deed.str1.1
+                0x00000000       0x1b build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_on_deed
+                0x00000000      0x120 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_butthurted
+                0x00000000       0x24 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_increase_level
+                0x00000000        0xe build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .text.dolphin_state_clear_limits
+                0x00000000        0xe build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_alloc
+                0x00000000       0x1a build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_free
+                0x00000000       0x18 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_save
+                0x00000000       0x4c build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_load
+                0x00000000       0x42 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_timestamp
+                0x00000000       0x28 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_is_levelup
+                0x00000000       0x47 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_on_deed
+                0x00000000      0x191 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_butthurted
+                0x00000000       0x44 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_increase_level
+                0x00000000       0x23 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_clear_limits
+                0x00000000       0x72 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/passport/passport.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/passport/passport.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/passport/passport.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/passport/passport.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+LOAD build/f7-firmware-C/.extapps/passport/passport.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x328
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.dolphin_get_level
+                0x00000000       0x20 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+                0x00000000                dolphin_get_level
+ .text.dolphin_state_xp_above_last_levelup
+                0x00000020       0x28 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+                0x00000020                dolphin_state_xp_above_last_levelup
+ .text.dolphin_state_xp_to_levelup
+                0x00000048       0x28 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+                0x00000048                dolphin_state_xp_to_levelup
+ .text.render_callback
+                0x00000070      0x188 build/f7-firmware-C/.extapps/passport/passport.o
+ .text.input_callback
+                0x000001f8       0x3c build/f7-firmware-C/.extapps/passport/passport.o
+ .text.passport_app
+                0x00000234       0xf4 build/f7-firmware-C/.extapps/passport/passport.o
+                0x00000234                passport_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000328       0xcd
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.DOLPHIN_LEVEL_COUNT
+                0x00000328        0x4 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+                0x00000328                DOLPHIN_LEVEL_COUNT
+ .rodata.DOLPHIN_LEVELS
+                0x0000032c       0x74 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+                0x0000032c                DOLPHIN_LEVELS
+ .rodata.render_callback.str1.1
+                0x000003a0       0x49 build/f7-firmware-C/.extapps/passport/passport.o
+ .rodata.passport_app.str1.1
+                0x000003e9        0xc build/f7-firmware-C/.extapps/passport/passport.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xb0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x80 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_aranges
+                0x00000080       0x30 build/f7-firmware-C/.extapps/passport/passport.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1afc
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xd9f build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_info    0x00000d9f      0xd5d build/f7-firmware-C/.extapps/passport/passport.o
+
+.debug_abbrev   0x00000000      0x617
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x2ac build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_abbrev  0x000002ac      0x36b build/f7-firmware-C/.extapps/passport/passport.o
+
+.debug_line     0x00000000      0xa82
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x392 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_get_level
+                0x00000392       0x4c build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_xp_above_last_levelup
+                0x000003de       0x3e build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_line.text.dolphin_state_xp_to_levelup
+                0x0000041c       0x44 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_line_end
+                0x00000460        0x0 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_line    0x00000460      0x3e5 build/f7-firmware-C/.extapps/passport/passport.o
+ .debug_line.text.render_callback
+                0x00000845      0x10b build/f7-firmware-C/.extapps/passport/passport.o
+ .debug_line.text.input_callback
+                0x00000950       0x4e build/f7-firmware-C/.extapps/passport/passport.o
+ .debug_line.text.passport_app
+                0x0000099e       0xe4 build/f7-firmware-C/.extapps/passport/passport.o
+ .debug_line_end
+                0x00000a82        0x0 build/f7-firmware-C/.extapps/passport/passport.o
+
+.debug_frame    0x00000000      0x1c8
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x138 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_frame   0x00000138       0x90 build/f7-firmware-C/.extapps/passport/passport.o
+
+.debug_str      0x00000000     0x145c
+ *(.debug_str)
+ .debug_str     0x00000000      0xb11 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_str     0x00000b11      0x94b build/f7-firmware-C/.extapps/passport/passport.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x720
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x406 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_loclists
+                0x00000406      0x31a build/f7-firmware-C/.extapps/passport/passport.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0xfe
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xd1 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .debug_rnglists
+                0x000000d1       0x2d build/f7-firmware-C/.extapps/passport/passport.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/passport/mock_imports/mock_dolphin_state.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/passport/passport.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/passport_d.elf elf32-littlearm)
+LOAD linker stubs

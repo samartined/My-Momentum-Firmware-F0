@@ -1,0 +1,251 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xde4
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.ndef_print
+                0x00000000       0x84 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .text.hex_to_int
+                0x00000084       0x28 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .text.ndef_get
+                0x000000ac       0xa8 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .text.ndef_dump
+                0x00000154       0xec build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .text.ndef_parse_message
+                0x00000240      0x25c build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+                0x00000240                ndef_parse_message
+ .text.ndef_parse_record
+                0x0000049c      0x67c build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+                0x0000049c                ndef_parse_record
+ .text.ndef_parse_tlv
+                0x00000b18       0xe4 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+                0x00000b18                ndef_parse_tlv
+ .text.ndef_mfc_parse
+                0x00000bfc      0x1e0 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .text.ndef_plugin_ep
+                0x00000ddc        0x8 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+                0x00000ddc                ndef_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000de4      0x5e4
+ *(.rodata)
+ .rodata        0x00000de4       0x10 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.ndef_print.str1.1
+                0x00000df4        0xf build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .rodata.ndef_parse_message.str1.1
+                0x00000e03      0x103 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .rodata.ndef_parse_record.str1.1
+                0x00000f06      0x1a8 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .rodata.ndef_parse_tlv.str1.1
+                0x000010ae        0xa build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .rodata.ndef_mfc_parse.str1.1
+                0x000010b8       0x38 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .rodata.str1.1
+                0x000010f0      0x19f build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ *fill*         0x0000128f        0x1 
+ .rodata.CSWTCH.59
+                0x00001290       0x88 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .rodata.ndef_plugin_descriptor
+                0x00001318        0xc build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .rodata.ndef_plugin
+                0x00001324       0x10 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .rodata.ndef_aid
+                0x00001334        0x2 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ *fill*         0x00001336        0x2 
+ .rodata.ndef_uri_prepends
+                0x00001338       0x90 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x60
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x60 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2915
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2915 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+
+.debug_abbrev   0x00000000      0x509
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x509 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+
+.debug_line     0x00000000     0x1118
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3ea build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .debug_line.text.ndef_print
+                0x000003ea       0x82 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .debug_line.text.hex_to_int
+                0x0000046c       0x55 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .debug_line.text.ndef_get
+                0x000004c1      0x12b build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .debug_line.text.ndef_dump
+                0x000005ec      0x12b build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .debug_line.text.ndef_parse_message
+                0x00000717      0x1eb build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .debug_line.text.ndef_parse_record
+                0x00000902      0x535 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .debug_line.text.ndef_parse_tlv
+                0x00000e37       0xc9 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .debug_line.text.ndef_mfc_parse
+                0x00000f00      0x1ff build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .debug_line.text.ndef_plugin_ep
+                0x000010ff       0x19 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ .debug_line_end
+                0x00001118        0x0 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+
+.debug_frame    0x00000000      0x178
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x178 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+
+.debug_str      0x00000000      0xee2
+ *(.debug_str)
+ .debug_str     0x00000000      0xee2 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x107e
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000     0x107e build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x1e9
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x1e9 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/ndef_mfc_parser/plugins/supported_cards/ndef.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/ndef_mfc_parser_d.elf elf32-littlearm)
+LOAD linker stubs

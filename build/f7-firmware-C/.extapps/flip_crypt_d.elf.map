@@ -1,0 +1,1936 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_ceil.o)
+                              build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o (ceil)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_ceil.o) (__aeabi_dadd)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+                              build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o (__aeabi_ddiv)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_ceil.o) (__aeabi_dcmpgt)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+                              build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o (__aeabi_d2iz)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .text.InvCipher
+                0x00000000      0x19c build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .text.AES_init_ctx
+                0x00000000        0x8 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .text.AES_ctx_set_iv
+                0x00000000       0x14 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .text.AES_ECB_encrypt
+                0x00000000       0x10 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .text.AES_ECB_decrypt
+                0x00000000       0x10 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .text.AES_CBC_encrypt_buffer
+                0x00000000       0x5c build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .text.AES_CBC_decrypt_buffer
+                0x00000000       0x80 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .rodata.rsbox  0x00000000      0x100 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_line.text.InvCipher
+                0x00000000      0x19d build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_line.text.AES_init_ctx
+                0x00000000       0x17 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_line.text.AES_ctx_set_iv
+                0x00000000       0x1b build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_line.text.AES_ECB_encrypt
+                0x00000000       0x20 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_line.text.AES_ECB_decrypt
+                0x00000000       0x20 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_line.text.AES_CBC_encrypt_buffer
+                0x00000000       0x90 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_line.text.AES_CBC_decrypt_buffer
+                0x00000000       0x99 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .text.xtime    0x00000000       0x12 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .text.KeyExpansion
+                0x00000000       0x88 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .text.AddRoundKey
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .text.SubBytes
+                0x00000000       0x20 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .text.ShiftRows
+                0x00000000       0x32 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .text.MixColumns
+                0x00000000       0x5c build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .text.AES_encrypt_block
+                0x00000000       0x78 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .text.pad_input
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .rodata.print_hex.str1.1
+                0x00000000        0x5 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .text.print_hex
+                0x00000000       0x30 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .rodata.to_hex_string.str1.1
+                0x00000000       0x11 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .text.to_hex_string
+                0x00000000       0x68 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .text.InvSubBytes
+                0x00000000       0x20 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .text.InvShiftRows
+                0x00000000       0x32 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .text.mul      0x00000000       0x20 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .text.InvMixColumns
+                0x00000000       0xc0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .text.AES_decrypt_block
+                0x00000000       0x78 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .rodata.rsbox  0x00000000      0x100 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .rodata.Rcon   0x00000000        0xb build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .rodata.sbox   0x00000000      0x100 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_info    0x00000000      0xb96 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_abbrev  0x00000000      0x245 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_loclists
+                0x00000000      0x57f build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_aranges
+                0x00000000       0x90 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_rnglists
+                0x00000000      0x100 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_line    0x00000000      0x24f build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_str     0x00000000      0x36a build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_line.text.xtime
+                0x00000000       0x1b build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_line.text.KeyExpansion
+                0x00000000       0xc2 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_line.text.AddRoundKey
+                0x00000000       0x6e build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_line.text.SubBytes
+                0x00000000       0x5d build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_line.text.ShiftRows
+                0x00000000       0x84 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_line.text.MixColumns
+                0x00000000       0xd9 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_line.text.AES_encrypt_block
+                0x00000000       0x87 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_line.text.pad_input
+                0x00000000       0x5b build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_line.text.print_hex
+                0x00000000       0x4e build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_line.text.to_hex_string
+                0x00000000       0x8f build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_line.text.InvSubBytes
+                0x00000000       0x5d build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_line.text.InvShiftRows
+                0x00000000       0x84 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_line.text.mul
+                0x00000000       0x4c build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_line.text.InvMixColumns
+                0x00000000      0x1a8 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_line.text.AES_decrypt_block
+                0x00000000       0x7e build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .debug_frame   0x00000000      0x1dc build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/atbash.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/atbash.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/atbash.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/atbash.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/beaufort.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/beaufort.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/beaufort.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/beaufort.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .text.blowfish_encrypt
+                0x00000000      0x390 build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .text.blowfish_decrypt
+                0x00000000      0x390 build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .text.blowfish_key_setup
+                0x00000000       0xd8 build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .rodata.s_perm
+                0x00000000     0x1000 build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .rodata.p_perm
+                0x00000000       0x48 build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .debug_info    0x00000000      0x3bb build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .debug_abbrev  0x00000000      0x16d build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .debug_loclists
+                0x00000000      0xbaf build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .debug_rnglists
+                0x00000000       0x22 build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .debug_line    0x00000000      0x15f build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .debug_str     0x00000000      0x292 build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .debug_line.text.blowfish_encrypt
+                0x00000000      0x1a8 build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .debug_line.text.blowfish_decrypt
+                0x00000000      0x1a8 build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .debug_line.text.blowfish_key_setup
+                0x00000000      0x149 build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .debug_frame   0x00000000       0x6c build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .text.IP       0x00000000      0x2d4 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .text.InvIP    0x00000000      0x200 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .text.f        0x00000000      0x34c build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .text.des_key_setup
+                0x00000000      0x164 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .text.des_crypt
+                0x00000000       0x50 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .text.three_des_key_setup
+                0x00000000       0x4c build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .text.three_des_crypt
+                0x00000000       0x28 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .rodata.sbox8  0x00000000       0x40 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .rodata.sbox7  0x00000000       0x40 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .rodata.sbox6  0x00000000       0x40 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .rodata.sbox5  0x00000000       0x40 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .rodata.sbox4  0x00000000       0x40 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .rodata.sbox3  0x00000000       0x40 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .rodata.sbox2  0x00000000       0x40 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .rodata.sbox1  0x00000000       0x40 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .rodata        0x00000000      0x1e0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .debug_info    0x00000000      0x68a build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .debug_abbrev  0x00000000      0x1cd build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .debug_loclists
+                0x00000000     0x1e04 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .debug_aranges
+                0x00000000       0x50 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .debug_rnglists
+                0x00000000       0x3b build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .debug_line    0x00000000       0x66 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .debug_str     0x00000000      0x2fc build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .debug_line.text.IP
+                0x00000000      0x223 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .debug_line.text.InvIP
+                0x00000000      0x208 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .debug_line.text.f
+                0x00000000      0x20e build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .debug_line.text.des_key_setup
+                0x00000000      0x1d3 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .debug_line.text.des_crypt
+                0x00000000       0x9b build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .debug_line.text.three_des_key_setup
+                0x00000000       0x3c build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .debug_line.text.three_des_crypt
+                0x00000000       0x2e build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .debug_frame   0x00000000      0x120 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/porta.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/porta.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/porta.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/porta.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .text.fnv_32_buf
+                0x00000000       0x2c build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .text.fnv_32_str
+                0x00000000       0x26 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .text.fnv_32a_buf
+                0x00000000       0x2c build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .text.fnv_64_buf
+                0x00000000       0x6e build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .text.fnv_64_str
+                0x00000000       0x6c build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .text.fnv_64a_buf
+                0x00000000       0x70 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .text.fnv_64a_str
+                0x00000000       0x60 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .debug_line.text.fnv_32_buf
+                0x00000000       0x4d build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .debug_line.text.fnv_32_str
+                0x00000000       0x42 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .debug_line.text.fnv_32a_buf
+                0x00000000       0x4d build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .debug_line.text.fnv_64_buf
+                0x00000000       0x65 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .debug_line.text.fnv_64_str
+                0x00000000       0x58 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .debug_line.text.fnv_64a_buf
+                0x00000000       0x61 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .debug_line.text.fnv_64a_str
+                0x00000000       0x59 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/murmur3.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/murmur3.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/murmur3.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/hashes/murmur3.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .text.sha256_update
+                0x00000000       0x10 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .text.sha512_update
+                0x00000000       0x10 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line.text.sha256_update
+                0x00000000       0x12 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line.text.sha512_update
+                0x00000000       0x12 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/siphash.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/siphash.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/siphash.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/hashes/siphash.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+ .text.XXH_rotl64
+                0x00000000       0x44 build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+ .debug_line.text.XXH_rotl64
+                0x00000000       0x1f build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.qrcodegen_encodeBinary
+                0x00000000       0x50 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.qrcodegen_encodeSegments
+                0x00000000       0x24 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.qrcodegen_makeBytes
+                0x00000000       0x38 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.qrcodegen_makeEci
+                0x00000000       0x80 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.qrcodegen_encodeBinary
+                0x00000000       0x60 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.qrcodegen_encodeSegments
+                0x00000000       0x21 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.qrcodegen_makeBytes
+                0x00000000       0x46 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.qrcodegen_makeEci
+                0x00000000       0x93 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/storage.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/storage.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/storage.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/storage.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/flip_crypt_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/flip_crypt_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/flip_crypt_icons.o
+ .debug_info    0x00000000       0x7a build/f7-firmware-C/.extapps/flip_crypt/flip_crypt_icons.o
+ .debug_abbrev  0x00000000       0x26 build/f7-firmware-C/.extapps/flip_crypt/flip_crypt_icons.o
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/flip_crypt/flip_crypt_icons.o
+ .debug_line    0x00000000       0x5b build/f7-firmware-C/.extapps/flip_crypt/flip_crypt_icons.o
+ .debug_str     0x00000000      0x201 build/f7-firmware-C/.extapps/flip_crypt/flip_crypt_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/flip_crypt/flip_crypt_icons.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/flip_crypt/flip_crypt_icons.o
+ .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_ceil.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_ceil.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_ceil.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/ciphers/atbash.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/ciphers/beaufort.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/ciphers/porta.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/hashes/murmur3.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/hashes/siphash.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/main.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/storage.o
+LOAD build/f7-firmware-C/.extapps/flip_crypt/flip_crypt_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x8958
+ *(.text)
+ .text          0x00000000      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000000                __aeabi_drsub
+                0x00000008                __aeabi_dsub
+                0x00000008                __subdf3
+                0x0000000c                __adddf3
+                0x0000000c                __aeabi_dadd
+                0x00000284                __aeabi_ui2d
+                0x00000284                __floatunsidf
+                0x000002a4                __floatsidf
+                0x000002a4                __aeabi_i2d
+                0x000002c8                __extendsfdf2
+                0x000002c8                __aeabi_f2d
+                0x0000030c                __aeabi_ul2d
+                0x0000030c                __floatundidf
+                0x0000031c                __floatdidf
+                0x0000031c                __aeabi_l2d
+ .text          0x00000378      0x424 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+                0x00000378                __aeabi_dmul
+                0x00000378                __muldf3
+                0x000005cc                __aeabi_ddiv
+                0x000005cc                __divdf3
+ .text          0x0000079c      0x110 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+                0x0000079c                __gtdf2
+                0x0000079c                __gedf2
+                0x000007a4                __ltdf2
+                0x000007a4                __ledf2
+                0x000007ac                __cmpdf2
+                0x000007ac                __eqdf2
+                0x000007ac                __nedf2
+                0x00000828                __aeabi_cdrcmple
+                0x00000838                __aeabi_cdcmple
+                0x00000838                __aeabi_cdcmpeq
+                0x00000848                __aeabi_dcmpeq
+                0x0000085c                __aeabi_dcmplt
+                0x00000870                __aeabi_dcmple
+                0x00000884                __aeabi_dcmpge
+                0x00000898                __aeabi_dcmpgt
+ .text          0x000008ac       0x50 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+                0x000008ac                __fixdfsi
+                0x000008ac                __aeabi_d2iz
+ *(.stub)
+ *(.text*)
+ .text.KeyExpansion
+                0x000008fc       0x78 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .text.AddRoundKey
+                0x00000974       0x28 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .text.xtime    0x0000099c       0x12 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ *fill*         0x000009ae        0x2 
+ .text.Cipher   0x000009b0      0x104 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .text.aes_bytes_to_hex
+                0x00000ab4       0x68 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+                0x00000ab4                aes_bytes_to_hex
+ .text.aes_hex_to_bytes
+                0x00000b1c       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+                0x00000b1c                aes_hex_to_bytes
+ .text.AES_init_ctx_iv
+                0x00000b50       0x28 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+                0x00000b50                AES_init_ctx_iv
+ .text.AES_CTR_xcrypt_buffer
+                0x00000b78       0x74 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+                0x00000b78                AES_CTR_xcrypt_buffer
+ .text.letter_to_index
+                0x00000bec       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+                0x00000bec                letter_to_index
+ .text.index_to_letter
+                0x00000c08       0x18 build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+                0x00000c08                index_to_letter
+ .text.mod_inverse
+                0x00000c20       0x2a build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+                0x00000c20                mod_inverse
+ *fill*         0x00000c4a        0x2 
+ .text.encode_affine
+                0x00000c4c       0x9c build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+                0x00000c4c                encode_affine
+ .text.decode_affine
+                0x00000ce8       0xb8 build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+                0x00000ce8                decode_affine
+ .text.atbash_encrypt_or_decrypt
+                0x00000da0       0x58 build/f7-firmware-C/.extapps/flip_crypt/ciphers/atbash.o
+                0x00000da0                atbash_encrypt_or_decrypt
+ .text.baconian_encrypt
+                0x00000df8       0x80 build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+                0x00000df8                baconian_encrypt
+ .text.baconian_decrypt
+                0x00000e78       0xcc build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+                0x00000e78                baconian_decrypt
+ .text.beaufort_cipher_encrypt_and_decrypt
+                0x00000f44       0xa4 build/f7-firmware-C/.extapps/flip_crypt/ciphers/beaufort.o
+                0x00000f44                beaufort_cipher_encrypt_and_decrypt
+ .text.encode_caesar
+                0x00000fe8       0x88 build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+                0x00000fe8                encode_caesar
+ .text.decode_caesar
+                0x00001070       0x88 build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+                0x00001070                decode_caesar
+ .text.playfair_make_table
+                0x000010f8       0xa8 build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+                0x000010f8                playfair_make_table
+ .text.find_position
+                0x000011a0       0x30 build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+                0x000011a0                find_position
+ .text.playfair_encrypt
+                0x000011d0      0x164 build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+                0x000011d0                playfair_encrypt
+ .text.playfair_decrypt
+                0x00001334      0x13c build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+                0x00001334                playfair_decrypt
+ .text.find_coords
+                0x00001470       0x3c build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+                0x00001470                find_coords
+ .text.encrypt_polybius
+                0x000014ac       0x7c build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+                0x000014ac                encrypt_polybius
+ .text.decrypt_polybius
+                0x00001528       0x88 build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+                0x00001528                decrypt_polybius
+ .text.porta_encrypt_and_decrypt
+                0x000015b0       0xec build/f7-firmware-C/.extapps/flip_crypt/ciphers/porta.o
+                0x000015b0                porta_encrypt_and_decrypt
+ .text.rail_fence_encrypt
+                0x0000169c      0x108 build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+                0x0000169c                rail_fence_encrypt
+ .text.rail_fence_decrypt
+                0x000017a4      0x100 build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+                0x000017a4                rail_fence_decrypt
+ .text.rc4_encrypt_and_decrypt
+                0x000018a4       0x94 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+                0x000018a4                rc4_encrypt_and_decrypt
+ .text.rc4_to_hex
+                0x00001938       0x50 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+                0x00001938                rc4_to_hex
+ .text.rc4_hex_to_bytes
+                0x00001988       0x68 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+                0x00001988                rc4_hex_to_bytes
+ .text.encrypt_rot13
+                0x000019f0       0x78 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+                0x000019f0                encrypt_rot13
+ .text.decrypt_rot13
+                0x00001a68       0x64 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+                0x00001a68                decrypt_rot13
+ .text.scytale_encrypt
+                0x00001acc       0xb8 build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+                0x00001acc                scytale_encrypt
+ .text.scytale_decrypt
+                0x00001b84       0xb4 build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+                0x00001b84                scytale_decrypt
+ .text.vigenere_encrypt
+                0x00001c38       0xa4 build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+                0x00001c38                vigenere_encrypt
+ .text.vigenere_decrypt
+                0x00001cdc       0xa4 build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+                0x00001cdc                vigenere_decrypt
+ .text.base32_encode
+                0x00001d80       0xa0 build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+                0x00001d80                base32_encode
+ .text.base32_char_to_value
+                0x00001e20       0x1e build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+                0x00001e20                base32_char_to_value
+ *fill*         0x00001e3e        0x2 
+ .text.base32_decode
+                0x00001e40       0x98 build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+                0x00001e40                base32_decode
+ .text.base58_encode
+                0x00001ed8       0xf8 build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+                0x00001ed8                base58_encode
+ .text.base58_char_value
+                0x00001fd0       0x20 build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+                0x00001fd0                base58_char_value
+ .text.base58_decode
+                0x00001ff0       0xc4 build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+                0x00001ff0                base58_decode
+ .text.base64_encode
+                0x000020b4      0x134 build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+                0x000020b4                base64_encode
+ .text.base64_decode
+                0x000021e8      0x170 build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+                0x000021e8                base64_decode
+ .text.blake2s_compress
+                0x00002358      0x354 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .text.blake2s_init
+                0x000026ac       0x60 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+                0x000026ac                blake2s_init
+ .text.blake2s_update
+                0x0000270c       0x68 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+                0x0000270c                blake2s_update
+ .text.blake2s_finalize
+                0x00002774       0x64 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+                0x00002774                blake2s_finalize
+ .text.blake2s_to_hex
+                0x000027d8       0x3c build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+                0x000027d8                blake2s_to_hex
+ .text.fnv_32a_str
+                0x00002814       0x26 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+                0x00002814                fnv_32a_str
+ *fill*         0x0000283a        0x2 
+ .text.md2_transform
+                0x0000283c       0x6c build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+                0x0000283c                md2_transform
+ .text.md2_init
+                0x000028a8       0x24 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+                0x000028a8                md2_init
+ .text.md2_update
+                0x000028cc       0x38 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+                0x000028cc                md2_update
+ .text.md2_final
+                0x00002904       0x44 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+                0x00002904                md2_final
+ .text.md5_process
+                0x00002948       0xe4 build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .text.md5_init
+                0x00002a2c       0x2c build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+                0x00002a2c                md5_init
+ .text.md5_update
+                0x00002a58       0x48 build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+                0x00002a58                md5_update
+ .text.md5_finalize
+                0x00002aa0       0xb4 build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+                0x00002aa0                md5_finalize
+ .text.md5_to_hex
+                0x00002b54       0x3c build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+                0x00002b54                md5_to_hex
+ .text.MurmurHash3_x86_32
+                0x00002b90       0xc8 build/f7-firmware-C/.extapps/flip_crypt/hashes/murmur3.o
+                0x00002b90                MurmurHash3_x86_32
+ .text.sha1_transform
+                0x00002c58       0xfc build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .text.sha1_init
+                0x00002d54       0x34 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+                0x00002d54                sha1_init
+ .text.sha1_update
+                0x00002d88       0x88 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+                0x00002d88                sha1_update
+ .text.sha1_finalize
+                0x00002e10       0xa4 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+                0x00002e10                sha1_finalize
+ .text.sha1_to_hex
+                0x00002eb4       0x3c build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+                0x00002eb4                sha1_to_hex
+ .text.sha256_transf
+                0x00002ef0      0x168 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .text.sha512_transf
+                0x00003058      0x2f8 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .text.sha224_init
+                0x00003350       0x60 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+                0x00003350                sha224_init
+ .text.sha224_update
+                0x000033b0       0xbc build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+                0x000033b0                sha224_update
+ .text.sha224_final
+                0x0000346c       0xb8 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+                0x0000346c                sha224_final
+ .text.sha224   0x00003524       0x34 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+                0x00003524                sha224
+ .text.sha256_init
+                0x00003558       0x5c build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+                0x00003558                sha256_init
+ .text.sha256_final
+                0x000035b4       0xb8 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+                0x000035b4                sha256_final
+ .text.sha256   0x0000366c       0x34 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+                0x0000366c                sha256
+ .text.sha384_init
+                0x000036a0       0x34 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+                0x000036a0                sha384_init
+ .text.sha384_update
+                0x000036d4       0xbc build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+                0x000036d4                sha384_update
+ .text.sha384_final
+                0x00003790       0xcc build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+                0x00003790                sha384_final
+ .text.sha384   0x0000385c       0x34 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+                0x0000385c                sha384
+ .text.sha512_init
+                0x00003890       0x34 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+                0x00003890                sha512_init
+ .text.sha512_final
+                0x000038c4       0xcc build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+                0x000038c4                sha512_final
+ .text.sha512   0x00003990       0x34 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+                0x00003990                sha512
+ .text.siphash  0x000039c4      0x484 build/f7-firmware-C/.extapps/flip_crypt/hashes/siphash.o
+                0x000039c4                siphash
+ .text.XXH64    0x00003e48      0x4b8 build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+                0x00003e48                XXH64
+ .text.appendBitsToBuffer
+                0x00004300       0x2e build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.getNumRawDataModules
+                0x0000432e       0x2e build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.getNumDataCodewords
+                0x0000435c       0x38 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.reedSolomonMultiply
+                0x00004394       0x30 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.getAlignmentPatternPositions
+                0x000043c4       0x3e build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.getModuleBounded
+                0x00004402       0x18 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.setModuleBounded
+                0x0000441a       0x28 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ *fill*         0x00004442        0x2 
+ .text.fillRectangle
+                0x00004444       0x3c build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.applyMask
+                0x00004480       0xe8 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.drawFormatBits
+                0x00004568       0xd8 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.calcSegmentBitLength
+                0x00004640       0x60 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.numCharCountBits
+                0x000046a0       0x48 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.initializeFunctionModules
+                0x000046e8       0xf0 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.finderPenaltyAddHistory
+                0x000047d8       0x20 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.setModuleUnbounded.constprop.0
+                0x000047f8       0x24 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.finderPenaltyCountPatterns.constprop.0
+                0x0000481c       0x54 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .text.qrcodegen_encodeSegmentsAdvanced
+                0x00004870      0x71c build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+                0x00004870                qrcodegen_encodeSegmentsAdvanced
+ .text.qrcodegen_getSize
+                0x00004f8c        0x4 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+                0x00004f8c                qrcodegen_getSize
+ .text.qrcodegen_getModule
+                0x00004f90       0x20 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+                0x00004f90                qrcodegen_getModule
+ .text.qrcodegen_isNumeric
+                0x00004fb0       0x16 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+                0x00004fb0                qrcodegen_isNumeric
+ *fill*         0x00004fc6        0x2 
+ .text.qrcodegen_isAlphanumeric
+                0x00004fc8       0x24 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+                0x00004fc8                qrcodegen_isAlphanumeric
+ .text.qrcodegen_calcSegmentBufferSize
+                0x00004fec       0x14 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+                0x00004fec                qrcodegen_calcSegmentBufferSize
+ .text.qrcodegen_makeNumeric
+                0x00005000       0x90 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+                0x00005000                qrcodegen_makeNumeric
+ .text.qrcodegen_makeAlphanumeric
+                0x00005090       0xac build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+                0x00005090                qrcodegen_makeAlphanumeric
+ .text.qrcodegen_encodeText
+                0x0000513c       0xe8 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+                0x0000513c                qrcodegen_encodeText
+ .text.flip_crypt_generic_event_handler
+                0x00005224        0xe build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x00005224                flip_crypt_generic_event_handler
+ .text.flip_crypt_generic_on_exit
+                0x00005232        0x2 build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x00005232                flip_crypt_generic_on_exit
+ .text.flip_crypt_menu_callback
+                0x00005234       0xb8 build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x00005234                flip_crypt_menu_callback
+ .text.basic_scene_custom_callback
+                0x000052ec        0xc build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .text.flip_crypt_main_menu_scene_on_exit
+                0x000052f8        0xc build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x000052f8                flip_crypt_main_menu_scene_on_exit
+ .text.flip_crypt_main_menu_scene_on_enter
+                0x00005304       0x7c build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x00005304                flip_crypt_main_menu_scene_on_enter
+ .text.flip_crypt_cipher_submenu_scene_on_enter
+                0x00005380      0x11c build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x00005380                flip_crypt_cipher_submenu_scene_on_enter
+ .text.flip_crypt_hash_submenu_scene_on_enter
+                0x0000549c       0xfc build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x0000549c                flip_crypt_hash_submenu_scene_on_enter
+ .text.flip_crypt_other_submenu_scene_on_enter
+                0x00005598       0x6c build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x00005598                flip_crypt_other_submenu_scene_on_enter
+ .text.flip_crypt_main_menu_scene_on_event
+                0x00005604       0xd4 build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x00005604                flip_crypt_main_menu_scene_on_event
+ .text.dialog_ex_callback
+                0x000056d8       0x34 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .text.cipher_encrypt_submenu_callback
+                0x0000570c      0x118 build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x0000570c                cipher_encrypt_submenu_callback
+ .text.cipher_decrypt_submenu_callback
+                0x00005824       0xb0 build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x00005824                cipher_decrypt_submenu_callback
+ .text.cipher_learn_submenu_callback
+                0x000058d4      0x118 build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x000058d4                cipher_learn_submenu_callback
+ .text.number_input_scene_callback
+                0x000059ec       0x94 build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x000059ec                number_input_scene_callback
+ .text.cipher_submenu_scene_on_enter
+                0x00005a80      0x234 build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x00005a80                cipher_submenu_scene_on_enter
+ .text.flip_crypt_text_input_callback
+                0x00005cb4      0x1d4 build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x00005cb4                flip_crypt_text_input_callback
+ .text.number_input_scene_on_enter
+                0x00005e88      0x14c build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x00005e88                number_input_scene_on_enter
+ .text.cipher_input_scene_on_enter
+                0x00005fd4      0x1e0 build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x00005fd4                cipher_input_scene_on_enter
+ .text.dialog_cipher_output_scene_on_enter
+                0x000061b4     0x11fc build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x000061b4                dialog_cipher_output_scene_on_enter
+ .text.flip_crypt_qr_scene_on_exit
+                0x000073b0        0xc build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x000073b0                flip_crypt_qr_scene_on_exit
+ .text.cipher_learn_scene_on_enter
+                0x000073bc      0x1b4 build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x000073bc                cipher_learn_scene_on_enter
+ .text.flip_crypt_about_scene_on_enter
+                0x00007570       0x3c build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x00007570                flip_crypt_about_scene_on_enter
+ .text.flip_crypt_nfc_scene_on_exit
+                0x000075ac       0x48 build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x000075ac                flip_crypt_nfc_scene_on_exit
+ .text.flip_crypt_qr_scene_on_enter
+                0x000075f4      0x4cc build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x000075f4                flip_crypt_qr_scene_on_enter
+ .text.flip_crypt_save_scene_on_enter
+                0x00007ac0      0x41c build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x00007ac0                flip_crypt_save_scene_on_enter
+ .text.basic_scene_back_event_callback
+                0x00007edc        0xc build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x00007edc                basic_scene_back_event_callback
+ .text.create_nfc_tag
+                0x00007ee8      0x100 build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x00007ee8                create_nfc_tag
+ .text.flip_crypt_nfc_scene_on_enter
+                0x00007fe8      0x464 build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x00007fe8                flip_crypt_nfc_scene_on_enter
+ .text.flip_crypt_app
+                0x0000844c      0x288 build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x0000844c                flip_crypt_app
+ .text.save_result
+                0x000086d4       0x94 build/f7-firmware-C/.extapps/flip_crypt/storage.o
+                0x000086d4                save_result
+ .text.save_result_generic
+                0x00008768       0x68 build/f7-firmware-C/.extapps/flip_crypt/storage.o
+                0x00008768                save_result_generic
+ .text.load_result_generic
+                0x000087d0       0x90 build/f7-firmware-C/.extapps/flip_crypt/storage.o
+                0x000087d0                load_result_generic
+ .text.ceil     0x00008860       0xf8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_ceil.o)
+                0x00008860                ceil
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00008958     0x6943
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.aes_bytes_to_hex.str1.1
+                0x00008958       0x11 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .rodata.aes_hex_to_bytes.str1.1
+                0x00008969        0x6 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .rodata.Rcon   0x0000896f        0xb build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .rodata.sbox   0x0000897a      0x100 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .rodata.encode_affine.str1.1
+                0x00008a7a       0x51 build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .rodata.decode_affine.str1.1
+                0x00008acb       0x5e build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .rodata.atbash_encrypt_or_decrypt.str1.1
+                0x00008b29       0x24 build/f7-firmware-C/.extapps/flip_crypt/ciphers/atbash.o
+ .rodata.baconian_encrypt.str1.1
+                0x00008b4d       0x2b build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+ .rodata.str1.1
+                0x00008b78       0x9c build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+ .rodata.beaufort_cipher_encrypt_and_decrypt.str1.1
+                0x00008c14       0x24 build/f7-firmware-C/.extapps/flip_crypt/ciphers/beaufort.o
+ .rodata.encode_caesar.str1.1
+                0x00008c38       0x24 build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+ .rodata.playfair_make_table.str1.1
+                0x00008c5c       0x19 build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .rodata.playfair_decrypt.str1.1
+                0x00008c75       0x44 build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .rodata.encrypt_polybius.str1.1
+                0x00008cb9       0x24 build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .rodata.str1.1
+                0x00008cdd       0x32 build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .rodata.porta_encrypt_and_decrypt.str1.1
+                0x00008d0f       0x24 build/f7-firmware-C/.extapps/flip_crypt/ciphers/porta.o
+ .rodata.rail_fence_encrypt.str1.1
+                0x00008d33       0x1a build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+ .rodata.rc4_to_hex.str1.1
+                0x00008d4d        0x5 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .rodata.rc4_hex_to_bytes.str1.1
+                0x00008d52        0x4 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .rodata.encrypt_rot13.str1.1
+                0x00008d56       0x24 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+ .rodata.scytale_encrypt.str1.1
+                0x00008d7a       0x65 build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+ .rodata.scytale_decrypt.str1.1
+                0x00008ddf       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+ .rodata.vigenere_encrypt.str1.1
+                0x00008dfb       0x24 build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+ .rodata.base32_encode.str1.1
+                0x00008e1f       0x45 build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+ .rodata.base58_encode.str1.1
+                0x00008e64       0x5f build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+ .rodata.base64_encode.str1.1
+                0x00008ec3       0x24 build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+ .rodata.base64_chars
+                0x00008ee7       0x41 build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+ .rodata.blake2s_to_hex.str1.1
+                0x00008f28        0x5 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .rodata.sigma  0x00008f2d       0xa0 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .rodata.s      0x00008fcd      0x100 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .rodata.md5_to_hex.str1.1
+                0x000090cd        0x5 build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ *fill*         0x000090d2        0x2 
+ .rodata.r      0x000090d4      0x100 build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .rodata.k      0x000091d4      0x100 build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .rodata.MurmurHash3_x86_32.str1.1
+                0x000092d4        0x4 build/f7-firmware-C/.extapps/flip_crypt/hashes/murmur3.o
+ .rodata.sha1_to_hex.str1.1
+                0x000092d8        0x5 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ *fill*         0x000092dd        0x3 
+ .rodata.sha512_k
+                0x000092e0      0x280 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .rodata.sha256_k
+                0x00009560      0x100 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .rodata.sha512_h0
+                0x00009660       0x40 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .rodata.sha384_h0
+                0x000096a0       0x40 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .rodata.qrcodegen_isAlphanumeric.str1.1
+                0x000096e0       0x2e build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ *fill*         0x0000970e        0x2 
+ .rodata.table.0
+                0x00009710       0x10 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .rodata.temp.1
+                0x00009720        0xc build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .rodata.temp.2
+                0x0000972c        0xc build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .rodata.temp.3
+                0x00009738        0xc build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .rodata.temp.4
+                0x00009744        0xc build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .rodata.NUM_ERROR_CORRECTION_BLOCKS
+                0x00009750       0xa4 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .rodata.ECC_CODEWORDS_PER_BLOCK
+                0x000097f4       0xa4 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .rodata.flip_crypt_main_menu_scene_on_enter.str1.1
+                0x00009898       0x25 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .rodata.flip_crypt_cipher_submenu_scene_on_enter.str1.1
+                0x000098bd       0xcf build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .rodata.flip_crypt_hash_submenu_scene_on_enter.str1.1
+                0x0000998c       0x88 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .rodata.flip_crypt_other_submenu_scene_on_enter.str1.1
+                0x00009a14       0x30 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .rodata.cipher_submenu_scene_on_enter.str1.1
+                0x00009a44       0x2f build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .rodata.number_input_scene_on_enter.str1.1
+                0x00009a73       0x2f build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .rodata.cipher_input_scene_on_enter.str1.1
+                0x00009aa2       0x55 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .rodata.dialog_cipher_output_scene_on_enter.str1.1
+                0x00009af7      0x5c8 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .rodata.cipher_learn_scene_on_enter.str1.1
+                0x0000a0bf     0x3f67 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .rodata.flip_crypt_about_scene_on_enter.str1.1
+                0x0000e026      0x94b build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .rodata.flip_crypt_nfc_scene_on_exit.str1.1
+                0x0000e971        0xd build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .rodata.flip_crypt_qr_scene_on_enter.str1.1
+                0x0000e97e       0x16 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .rodata.flip_crypt_save_scene_on_enter.str1.1
+                0x0000e994        0x7 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .rodata.flip_crypt_nfc_scene_on_enter.str1.1
+                0x0000e99b        0xd build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .rodata.flip_crypt_app.str1.1
+                0x0000e9a8        0x4 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .rodata.sha_hex_chars.0
+                0x0000e9ac       0x11 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ *fill*         0x0000e9bd        0x3 
+ .rodata.flip_crypt_scene_manager_handlers
+                0x0000e9c0       0x10 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .rodata.flip_crypt_scene_on_exit_handlers
+                0x0000e9d0      0x2d8 build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x0000e9d0                flip_crypt_scene_on_exit_handlers
+ .rodata.flip_crypt_scene_on_event_handlers
+                0x0000eca8      0x2d8 build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x0000eca8                flip_crypt_scene_on_event_handlers
+ .rodata.flip_crypt_scene_on_enter_handlers
+                0x0000ef80      0x2d8 build/f7-firmware-C/.extapps/flip_crypt/main.o
+                0x0000ef80                flip_crypt_scene_on_enter_handlers
+ .rodata.save_result.str1.1
+                0x0000f258       0x3b build/f7-firmware-C/.extapps/flip_crypt/storage.o
+ .rodata.load_result_generic.str1.1
+                0x0000f293        0x8 build/f7-firmware-C/.extapps/flip_crypt/storage.o
+
+.data           0x0000f29c       0xcc
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.baconian_table
+                0x0000f29c       0x68 build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+                0x0000f29c                baconian_table
+ .data.polybius_square
+                0x0000f304       0x64 build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+                0x0000f304                polybius_square
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x7d8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x90 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_aranges
+                0x00000090       0x40 build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .debug_aranges
+                0x000000d0       0x20 build/f7-firmware-C/.extapps/flip_crypt/ciphers/atbash.o
+ .debug_aranges
+                0x000000f0       0x28 build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+ .debug_aranges
+                0x00000118       0x20 build/f7-firmware-C/.extapps/flip_crypt/ciphers/beaufort.o
+ .debug_aranges
+                0x00000138       0x28 build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+ .debug_aranges
+                0x00000160       0x38 build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .debug_aranges
+                0x00000198       0x30 build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .debug_aranges
+                0x000001c8       0x20 build/f7-firmware-C/.extapps/flip_crypt/ciphers/porta.o
+ .debug_aranges
+                0x000001e8       0x28 build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+ .debug_aranges
+                0x00000210       0x30 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .debug_aranges
+                0x00000240       0x28 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+ .debug_aranges
+                0x00000268       0x28 build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+ .debug_aranges
+                0x00000290       0x28 build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+ .debug_aranges
+                0x000002b8       0x30 build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+ .debug_aranges
+                0x000002e8       0x30 build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+ .debug_aranges
+                0x00000318       0x28 build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+ .debug_aranges
+                0x00000340       0x40 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .debug_aranges
+                0x00000380       0x58 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .debug_aranges
+                0x000003d8       0x38 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .debug_aranges
+                0x00000410       0x40 build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .debug_aranges
+                0x00000450       0x20 build/f7-firmware-C/.extapps/flip_crypt/hashes/murmur3.o
+ .debug_aranges
+                0x00000470       0x40 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .debug_aranges
+                0x000004b0       0xa8 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_aranges
+                0x00000558       0x20 build/f7-firmware-C/.extapps/flip_crypt/hashes/siphash.o
+ .debug_aranges
+                0x00000578       0x28 build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+ .debug_aranges
+                0x000005a0      0x100 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_aranges
+                0x000006a0      0x108 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_aranges
+                0x000007a8       0x30 build/f7-firmware-C/.extapps/flip_crypt/storage.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x11e8f
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xd41 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_info    0x00000d41      0x493 build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .debug_info    0x000011d4      0x19e build/f7-firmware-C/.extapps/flip_crypt/ciphers/atbash.o
+ .debug_info    0x00001372      0x3af build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+ .debug_info    0x00001721      0x232 build/f7-firmware-C/.extapps/flip_crypt/ciphers/beaufort.o
+ .debug_info    0x00001953      0x262 build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+ .debug_info    0x00001bb5      0x621 build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .debug_info    0x000021d6      0x370 build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .debug_info    0x00002546      0x37c build/f7-firmware-C/.extapps/flip_crypt/ciphers/porta.o
+ .debug_info    0x000028c2      0x494 build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+ .debug_info    0x00002d56      0x417 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .debug_info    0x0000316d      0x222 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+ .debug_info    0x0000338f      0x378 build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+ .debug_info    0x00003707      0x366 build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+ .debug_info    0x00003a6d      0x3c8 build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+ .debug_info    0x00003e35      0x4e0 build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+ .debug_info    0x00004315      0x437 build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+ .debug_info    0x0000474c      0x525 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .debug_info    0x00004c71      0x3f9 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .debug_info    0x0000506a      0x339 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .debug_info    0x000053a3      0x4eb build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .debug_info    0x0000588e      0x386 build/f7-firmware-C/.extapps/flip_crypt/hashes/murmur3.o
+ .debug_info    0x00005c14      0x55e build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .debug_info    0x00006172      0xdd8 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_info    0x00006f4a      0x247 build/f7-firmware-C/.extapps/flip_crypt/hashes/siphash.o
+ .debug_info    0x00007191      0x53a build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+ .debug_info    0x000076cb     0x3230 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_info    0x0000a8fb     0x6edb build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_info    0x000117d6      0x6b9 build/f7-firmware-C/.extapps/flip_crypt/storage.o
+
+.debug_abbrev   0x00000000     0x339e
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x348 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_abbrev  0x00000348      0x1ad build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .debug_abbrev  0x000004f5      0x12a build/f7-firmware-C/.extapps/flip_crypt/ciphers/atbash.o
+ .debug_abbrev  0x0000061f      0x170 build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+ .debug_abbrev  0x0000078f      0x148 build/f7-firmware-C/.extapps/flip_crypt/ciphers/beaufort.o
+ .debug_abbrev  0x000008d7      0x10e build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+ .debug_abbrev  0x000009e5      0x19d build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .debug_abbrev  0x00000b82      0x1ac build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .debug_abbrev  0x00000d2e      0x1c0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/porta.o
+ .debug_abbrev  0x00000eee      0x136 build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+ .debug_abbrev  0x00001024      0x19a build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .debug_abbrev  0x000011be      0x10f build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+ .debug_abbrev  0x000012cd      0x147 build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+ .debug_abbrev  0x00001414      0x14e build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+ .debug_abbrev  0x00001562      0x1a0 build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+ .debug_abbrev  0x00001702      0x167 build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+ .debug_abbrev  0x00001869      0x17a build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+ .debug_abbrev  0x000019e3      0x202 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .debug_abbrev  0x00001be5      0x123 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .debug_abbrev  0x00001d08      0x168 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .debug_abbrev  0x00001e70      0x1aa build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .debug_abbrev  0x0000201a      0x1d3 build/f7-firmware-C/.extapps/flip_crypt/hashes/murmur3.o
+ .debug_abbrev  0x000021ed      0x1da build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .debug_abbrev  0x000023c7      0x2b2 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_abbrev  0x00002679       0xe0 build/f7-firmware-C/.extapps/flip_crypt/hashes/siphash.o
+ .debug_abbrev  0x00002759      0x164 build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+ .debug_abbrev  0x000028bd      0x4b0 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_abbrev  0x00002d6d      0x48d build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_abbrev  0x000031fa      0x1a4 build/f7-firmware-C/.extapps/flip_crypt/storage.o
+
+.debug_line     0x00000000     0xc392
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x255 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_line.text.KeyExpansion
+                0x00000255      0x198 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_line.text.AddRoundKey
+                0x000003ed       0x60 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_line.text.xtime
+                0x0000044d       0x1c build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_line.text.Cipher
+                0x00000469      0x1ce build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_line.text.aes_bytes_to_hex
+                0x00000637       0x8f build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_line.text.aes_hex_to_bytes
+                0x000006c6       0x4a build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_line.text.AES_init_ctx_iv
+                0x00000710       0x2b build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_line.text.AES_CTR_xcrypt_buffer
+                0x0000073b       0xd7 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_line_end
+                0x00000812        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_line    0x00000812      0x250 build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .debug_line.text.letter_to_index
+                0x00000a62       0x39 build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .debug_line.text.index_to_letter
+                0x00000a9b       0x2a build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .debug_line.text.mod_inverse
+                0x00000ac5       0x4e build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .debug_line.text.encode_affine
+                0x00000b13       0xc7 build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .debug_line.text.decode_affine
+                0x00000bda       0xe6 build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .debug_line_end
+                0x00000cc0        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .debug_line    0x00000cc0      0x166 build/f7-firmware-C/.extapps/flip_crypt/ciphers/atbash.o
+ .debug_line.text.atbash_encrypt_or_decrypt
+                0x00000e26       0x9d build/f7-firmware-C/.extapps/flip_crypt/ciphers/atbash.o
+ .debug_line_end
+                0x00000ec3        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/atbash.o
+ .debug_line    0x00000ec3      0x168 build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+ .debug_line.text.baconian_encrypt
+                0x0000102b       0xed build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+ .debug_line.text.baconian_decrypt
+                0x00001118      0x130 build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+ .debug_line_end
+                0x00001248        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+ .debug_line    0x00001248      0x168 build/f7-firmware-C/.extapps/flip_crypt/ciphers/beaufort.o
+ .debug_line.text.beaufort_cipher_encrypt_and_decrypt
+                0x000013b0       0xeb build/f7-firmware-C/.extapps/flip_crypt/ciphers/beaufort.o
+ .debug_line_end
+                0x0000149b        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/beaufort.o
+ .debug_line    0x0000149b      0x250 build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+ .debug_line.text.encode_caesar
+                0x000016eb       0xc1 build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+ .debug_line.text.decode_caesar
+                0x000017ac       0xc1 build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+ .debug_line_end
+                0x0000186d        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+ .debug_line    0x0000186d      0x168 build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .debug_line.text.playfair_make_table
+                0x000019d5      0x120 build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .debug_line.text.find_position
+                0x00001af5       0x6e build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .debug_line.text.playfair_encrypt
+                0x00001b63      0x195 build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .debug_line.text.playfair_decrypt
+                0x00001cf8      0x144 build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .debug_line_end
+                0x00001e3c        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .debug_line    0x00001e3c      0x168 build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .debug_line.text.find_coords
+                0x00001fa4       0x80 build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .debug_line.text.encrypt_polybius
+                0x00002024       0x9c build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .debug_line.text.decrypt_polybius
+                0x000020c0       0xcf build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .debug_line_end
+                0x0000218f        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .debug_line    0x0000218f      0x165 build/f7-firmware-C/.extapps/flip_crypt/ciphers/porta.o
+ .debug_line.text.porta_encrypt_and_decrypt
+                0x000022f4      0x18d build/f7-firmware-C/.extapps/flip_crypt/ciphers/porta.o
+ .debug_line_end
+                0x00002481        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/porta.o
+ .debug_line    0x00002481      0x15e build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+ .debug_line.text.rail_fence_encrypt
+                0x000025df      0x1a8 build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+ .debug_line.text.rail_fence_decrypt
+                0x00002787      0x1a6 build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+ .debug_line_end
+                0x0000292d        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+ .debug_line    0x0000292d      0x163 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .debug_line.text.rc4_encrypt_and_decrypt
+                0x00002a90      0x18e build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .debug_line.text.rc4_to_hex
+                0x00002c1e       0x63 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .debug_line.text.rc4_hex_to_bytes
+                0x00002c81       0x7f build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .debug_line_end
+                0x00002d00        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .debug_line    0x00002d00      0x15a build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+ .debug_line.text.encrypt_rot13
+                0x00002e5a       0xb9 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+ .debug_line.text.decrypt_rot13
+                0x00002f13       0xad build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+ .debug_line_end
+                0x00002fc0        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+ .debug_line    0x00002fc0      0x25b build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+ .debug_line.text.scytale_encrypt
+                0x0000321b      0x10a build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+ .debug_line.text.scytale_decrypt
+                0x00003325      0x11f build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+ .debug_line_end
+                0x00003444        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+ .debug_line    0x00003444      0x168 build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+ .debug_line.text.vigenere_encrypt
+                0x000035ac       0xeb build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+ .debug_line.text.vigenere_decrypt
+                0x00003697       0xed build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+ .debug_line_end
+                0x00003784        0x0 build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+ .debug_line    0x00003784      0x25c build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+ .debug_line.text.base32_encode
+                0x000039e0       0xcd build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+ .debug_line.text.base32_char_to_value
+                0x00003aad       0x36 build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+ .debug_line.text.base32_decode
+                0x00003ae3       0xce build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+ .debug_line_end
+                0x00003bb1        0x0 build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+ .debug_line    0x00003bb1      0x251 build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+ .debug_line.text.base58_encode
+                0x00003e02      0x15b build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+ .debug_line.text.base58_char_value
+                0x00003f5d       0x36 build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+ .debug_line.text.base58_decode
+                0x00003f93      0x145 build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+ .debug_line_end
+                0x000040d8        0x0 build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+ .debug_line    0x000040d8      0x251 build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+ .debug_line.text.base64_encode
+                0x00004329      0x189 build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+ .debug_line.text.base64_decode
+                0x000044b2      0x1aa build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+ .debug_line_end
+                0x0000465c        0x0 build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+ .debug_line    0x0000465c      0x25a build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .debug_line.text.blake2s_compress
+                0x000048b6      0x3a8 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .debug_line.text.blake2s_init
+                0x00004c5e       0x85 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .debug_line.text.blake2s_update
+                0x00004ce3       0x92 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .debug_line.text.blake2s_finalize
+                0x00004d75       0xd0 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .debug_line.text.blake2s_to_hex
+                0x00004e45       0x4d build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .debug_line_end
+                0x00004e92        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .debug_line    0x00004e92      0x1c9 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .debug_line.text.fnv_32a_str
+                0x0000505b       0x42 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .debug_line_end
+                0x0000509d        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .debug_line    0x0000509d      0x154 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .debug_line.text.md2_transform
+                0x000051f1      0x140 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .debug_line.text.md2_init
+                0x00005331       0x36 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .debug_line.text.md2_update
+                0x00005367       0x67 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .debug_line.text.md2_final
+                0x000053ce       0x4e build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .debug_line_end
+                0x0000541c        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .debug_line    0x0000541c      0x248 build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .debug_line.text.md5_process
+                0x00005664      0x195 build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .debug_line.text.md5_init
+                0x000057f9       0x3b build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .debug_line.text.md5_update
+                0x00005834       0x81 build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .debug_line.text.md5_finalize
+                0x000058b5      0x12d build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .debug_line.text.md5_to_hex
+                0x000059e2       0x4d build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .debug_line_end
+                0x00005a2f        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .debug_line    0x00005a2f      0x24f build/f7-firmware-C/.extapps/flip_crypt/hashes/murmur3.o
+ .debug_line.text.MurmurHash3_x86_32
+                0x00005c7e      0x1c7 build/f7-firmware-C/.extapps/flip_crypt/hashes/murmur3.o
+ .debug_line_end
+                0x00005e45        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/murmur3.o
+ .debug_line    0x00005e45      0x256 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .debug_line.text.sha1_transform
+                0x0000609b      0x1ec build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .debug_line.text.sha1_init
+                0x00006287       0x43 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .debug_line.text.sha1_update
+                0x000062ca       0x98 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .debug_line.text.sha1_finalize
+                0x00006362      0x100 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .debug_line.text.sha1_to_hex
+                0x00006462       0x4d build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .debug_line_end
+                0x000064af        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .debug_line    0x000064af      0x156 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line.text.sha256_transf
+                0x00006605      0x1e0 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line.text.sha512_transf
+                0x000067e5      0x205 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line.text.sha224_init
+                0x000069ea       0x7d build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line.text.sha224_update
+                0x00006a67       0xac build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line.text.sha224_final
+                0x00006b13       0xb5 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line.text.sha224
+                0x00006bc8       0x2f build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line.text.sha256_init
+                0x00006bf7       0x7d build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line.text.sha256_final
+                0x00006c74       0xb5 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line.text.sha256
+                0x00006d29       0x2f build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line.text.sha384_init
+                0x00006d58       0x3c build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line.text.sha384_update
+                0x00006d94       0xac build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line.text.sha384_final
+                0x00006e40       0xc9 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line.text.sha384
+                0x00006f09       0x2a build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line.text.sha512_init
+                0x00006f33       0x3c build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line.text.sha512_final
+                0x00006f6f       0xc9 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line.text.sha512
+                0x00007038       0x2a build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line_end
+                0x00007062        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_line    0x00007062      0x1c6 build/f7-firmware-C/.extapps/flip_crypt/hashes/siphash.o
+ .debug_line.text.siphash
+                0x00007228      0x3bb build/f7-firmware-C/.extapps/flip_crypt/hashes/siphash.o
+ .debug_line_end
+                0x000075e3        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/siphash.o
+ .debug_line    0x000075e3      0x1c5 build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+ .debug_line.text.XXH64
+                0x000077a8      0x50f build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+ .debug_line_end
+                0x00007cb7        0x0 build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+ .debug_line    0x00007cb7      0x255 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.appendBitsToBuffer
+                0x00007f0c       0x89 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.getNumRawDataModules
+                0x00007f95       0x70 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.getNumDataCodewords
+                0x00008005       0x3f build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.reedSolomonMultiply
+                0x00008044       0x89 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.getAlignmentPatternPositions
+                0x000080cd       0xa6 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.getModuleBounded
+                0x00008173       0x3d build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.setModuleBounded
+                0x000081b0       0x4c build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.fillRectangle
+                0x000081fc       0x5b build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.applyMask
+                0x00008257      0x108 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.drawFormatBits
+                0x0000835f      0x20c build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.calcSegmentBitLength
+                0x0000856b       0x74 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.numCharCountBits
+                0x000085df       0x59 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.initializeFunctionModules
+                0x00008638       0xe4 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.finderPenaltyAddHistory
+                0x0000871c       0x3b build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.setModuleUnbounded.constprop.0
+                0x00008757       0x2e build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.finderPenaltyCountPatterns.constprop.0
+                0x00008785       0x68 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.qrcodegen_encodeSegmentsAdvanced
+                0x000087ed      0x988 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.qrcodegen_getSize
+                0x00009175       0x1d build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.qrcodegen_getModule
+                0x00009192       0x37 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.qrcodegen_isNumeric
+                0x000091c9       0x3e build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.qrcodegen_isAlphanumeric
+                0x00009207       0x46 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.qrcodegen_calcSegmentBufferSize
+                0x0000924d       0x34 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.qrcodegen_makeNumeric
+                0x00009281       0xf5 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.qrcodegen_makeAlphanumeric
+                0x00009376       0xf3 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line.text.qrcodegen_encodeText
+                0x00009469       0xfa build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line_end
+                0x00009563        0x0 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_line    0x00009563      0x6ee build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.flip_crypt_generic_event_handler
+                0x00009c51       0x25 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.flip_crypt_generic_on_exit
+                0x00009c76       0x19 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.flip_crypt_menu_callback
+                0x00009c8f       0xa6 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.basic_scene_custom_callback
+                0x00009d35       0x20 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.flip_crypt_main_menu_scene_on_exit
+                0x00009d55       0x18 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.flip_crypt_main_menu_scene_on_enter
+                0x00009d6d       0x2e build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.flip_crypt_cipher_submenu_scene_on_enter
+                0x00009d9b       0x38 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.flip_crypt_hash_submenu_scene_on_enter
+                0x00009dd3       0x36 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.flip_crypt_other_submenu_scene_on_enter
+                0x00009e09       0x2d build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.flip_crypt_main_menu_scene_on_event
+                0x00009e36       0x6a build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.dialog_ex_callback
+                0x00009ea0       0x34 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.cipher_encrypt_submenu_callback
+                0x00009ed4       0xb1 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.cipher_decrypt_submenu_callback
+                0x00009f85       0x88 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.cipher_learn_submenu_callback
+                0x0000a00d       0xb1 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.number_input_scene_callback
+                0x0000a0be       0xbc build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.cipher_submenu_scene_on_enter
+                0x0000a17a       0xe7 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.flip_crypt_text_input_callback
+                0x0000a261       0x81 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.number_input_scene_on_enter
+                0x0000a2e2       0x96 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.cipher_input_scene_on_enter
+                0x0000a378       0xb2 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.dialog_cipher_output_scene_on_enter
+                0x0000a42a      0xb55 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.flip_crypt_qr_scene_on_exit
+                0x0000af7f       0x18 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.cipher_learn_scene_on_enter
+                0x0000af97       0xbf build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.flip_crypt_about_scene_on_enter
+                0x0000b056       0x31 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.flip_crypt_nfc_scene_on_exit
+                0x0000b087       0x39 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.flip_crypt_qr_scene_on_enter
+                0x0000b0c0      0x435 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.flip_crypt_save_scene_on_enter
+                0x0000b4f5      0x3b5 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.basic_scene_back_event_callback
+                0x0000b8aa       0x1f build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.create_nfc_tag
+                0x0000b8c9      0x14a build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.flip_crypt_nfc_scene_on_enter
+                0x0000ba13      0x3d5 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line.text.flip_crypt_app
+                0x0000bde8      0x1ca build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line_end
+                0x0000bfb2        0x0 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_line    0x0000bfb2      0x2b1 build/f7-firmware-C/.extapps/flip_crypt/storage.o
+ .debug_line.text.save_result
+                0x0000c263       0x5b build/f7-firmware-C/.extapps/flip_crypt/storage.o
+ .debug_line.text.save_result_generic
+                0x0000c2be       0x51 build/f7-firmware-C/.extapps/flip_crypt/storage.o
+ .debug_line.text.load_result_generic
+                0x0000c30f       0x83 build/f7-firmware-C/.extapps/flip_crypt/storage.o
+ .debug_line_end
+                0x0000c392        0x0 build/f7-firmware-C/.extapps/flip_crypt/storage.o
+
+.debug_frame    0x00000000     0x174c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1e8 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_frame   0x000001e8       0x98 build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .debug_frame   0x00000280       0x2c build/f7-firmware-C/.extapps/flip_crypt/ciphers/atbash.o
+ .debug_frame   0x000002ac       0x60 build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+ .debug_frame   0x0000030c       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/beaufort.o
+ .debug_frame   0x00000340       0x50 build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+ .debug_frame   0x00000390       0xac build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .debug_frame   0x0000043c       0x78 build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .debug_frame   0x000004b4       0x38 build/f7-firmware-C/.extapps/flip_crypt/ciphers/porta.o
+ .debug_frame   0x000004ec       0x64 build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+ .debug_frame   0x00000550       0x88 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .debug_frame   0x000005d8       0x48 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+ .debug_frame   0x00000620       0x78 build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+ .debug_frame   0x00000698       0x58 build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+ .debug_frame   0x000006f0       0x68 build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+ .debug_frame   0x00000758       0x74 build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+ .debug_frame   0x000007cc       0x64 build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+ .debug_frame   0x00000830       0xc0 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .debug_frame   0x000008f0       0xf8 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .debug_frame   0x000009e8       0x88 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .debug_frame   0x00000a70       0xb4 build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .debug_frame   0x00000b24       0x30 build/f7-firmware-C/.extapps/flip_crypt/hashes/murmur3.o
+ .debug_frame   0x00000b54       0xd0 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .debug_frame   0x00000c24      0x270 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_frame   0x00000e94       0x40 build/f7-firmware-C/.extapps/flip_crypt/hashes/siphash.o
+ .debug_frame   0x00000ed4       0x5c build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+ .debug_frame   0x00000f30      0x394 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_frame   0x000012c4      0x414 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_frame   0x000016d8       0x74 build/f7-firmware-C/.extapps/flip_crypt/storage.o
+
+.debug_str      0x00000000     0x993d
+ *(.debug_str)
+ .debug_str     0x00000000      0x3dd build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_str     0x000003dd      0x2c8 build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .debug_str     0x000006a5      0x258 build/f7-firmware-C/.extapps/flip_crypt/ciphers/atbash.o
+ .debug_str     0x000008fd      0x2b2 build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+ .debug_str     0x00000baf      0x27b build/f7-firmware-C/.extapps/flip_crypt/ciphers/beaufort.o
+ .debug_str     0x00000e2a      0x27a build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+ .debug_str     0x000010a4      0x31e build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .debug_str     0x000013c2      0x28c build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .debug_str     0x0000164e      0x2a7 build/f7-firmware-C/.extapps/flip_crypt/ciphers/porta.o
+ .debug_str     0x000018f5      0x2ac build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+ .debug_str     0x00001ba1      0x2e4 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .debug_str     0x00001e85      0x260 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+ .debug_str     0x000020e5      0x2b5 build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+ .debug_str     0x0000239a      0x287 build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+ .debug_str     0x00002621      0x2f6 build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+ .debug_str     0x00002917      0x31d build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+ .debug_str     0x00002c34      0x2e4 build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+ .debug_str     0x00002f18      0x307 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .debug_str     0x0000321f      0x290 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .debug_str     0x000034af      0x26d build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .debug_str     0x0000371c      0x2ec build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .debug_str     0x00003a08      0x2a9 build/f7-firmware-C/.extapps/flip_crypt/hashes/murmur3.o
+ .debug_str     0x00003cb1      0x30a build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .debug_str     0x00003fbb      0x3d9 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_str     0x00004394      0x24d build/f7-firmware-C/.extapps/flip_crypt/hashes/siphash.o
+ .debug_str     0x000045e1      0x277 build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+ .debug_str     0x00004858      0xa3f build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_str     0x00005297     0x4260 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_str     0x000094f7      0x446 build/f7-firmware-C/.extapps/flip_crypt/storage.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x2a0
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_line_str
+                0x000000a8       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .debug_line_str
+                0x00000150       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .debug_line_str
+                0x000001f8       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+
+.debug_loclists
+                0x00000000     0x89e3
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x8d1 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_loclists
+                0x000008d1      0x2e8 build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .debug_loclists
+                0x00000bb9       0x93 build/f7-firmware-C/.extapps/flip_crypt/ciphers/atbash.o
+ .debug_loclists
+                0x00000c4c      0x3c5 build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+ .debug_loclists
+                0x00001011      0x163 build/f7-firmware-C/.extapps/flip_crypt/ciphers/beaufort.o
+ .debug_loclists
+                0x00001174      0x146 build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+ .debug_loclists
+                0x000012ba      0x430 build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .debug_loclists
+                0x000016ea      0x221 build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .debug_loclists
+                0x0000190b      0x1ba build/f7-firmware-C/.extapps/flip_crypt/ciphers/porta.o
+ .debug_loclists
+                0x00001ac5      0x339 build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+ .debug_loclists
+                0x00001dfe      0x23f build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .debug_loclists
+                0x0000203d      0x140 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+ .debug_loclists
+                0x0000217d      0x1e4 build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+ .debug_loclists
+                0x00002361      0x332 build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+ .debug_loclists
+                0x00002693      0x393 build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+ .debug_loclists
+                0x00002a26      0x301 build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+ .debug_loclists
+                0x00002d27      0x33f build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+ .debug_loclists
+                0x00003066      0x1fa build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .debug_loclists
+                0x00003260      0x3c7 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .debug_loclists
+                0x00003627      0x225 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .debug_loclists
+                0x0000384c      0x2f3 build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .debug_loclists
+                0x00003b3f      0x342 build/f7-firmware-C/.extapps/flip_crypt/hashes/murmur3.o
+ .debug_loclists
+                0x00003e81      0x3bd build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .debug_loclists
+                0x0000423e      0x7dc build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_loclists
+                0x00004a1a      0x741 build/f7-firmware-C/.extapps/flip_crypt/hashes/siphash.o
+ .debug_loclists
+                0x0000515b      0x479 build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+ .debug_loclists
+                0x000055d4     0x1e5e build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_loclists
+                0x00007432     0x1451 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_loclists
+                0x00008883      0x160 build/f7-firmware-C/.extapps/flip_crypt/storage.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000     0x112e
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xe4 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .debug_rnglists
+                0x000000e4       0x84 build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .debug_rnglists
+                0x00000168       0x2e build/f7-firmware-C/.extapps/flip_crypt/ciphers/atbash.o
+ .debug_rnglists
+                0x00000196       0x64 build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+ .debug_rnglists
+                0x000001fa       0x3e build/f7-firmware-C/.extapps/flip_crypt/ciphers/beaufort.o
+ .debug_rnglists
+                0x00000238       0x51 build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+ .debug_rnglists
+                0x00000289       0xf6 build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .debug_rnglists
+                0x0000037f       0x74 build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .debug_rnglists
+                0x000003f3       0x4f build/f7-firmware-C/.extapps/flip_crypt/ciphers/porta.o
+ .debug_rnglists
+                0x00000442       0x9c build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+ .debug_rnglists
+                0x000004de       0x56 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .debug_rnglists
+                0x00000534       0x4f build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+ .debug_rnglists
+                0x00000583       0x5a build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+ .debug_rnglists
+                0x000005dd       0x6f build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+ .debug_rnglists
+                0x0000064c       0x57 build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+ .debug_rnglists
+                0x000006a3       0x40 build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+ .debug_rnglists
+                0x000006e3       0x29 build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+ .debug_rnglists
+                0x0000070c       0x79 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .debug_rnglists
+                0x00000785       0x3d build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .debug_rnglists
+                0x000007c2       0x25 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .debug_rnglists
+                0x000007e7       0x73 build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .debug_rnglists
+                0x0000085a       0x44 build/f7-firmware-C/.extapps/flip_crypt/hashes/murmur3.o
+ .debug_rnglists
+                0x0000089e       0x65 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .debug_rnglists
+                0x00000903       0x81 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .debug_rnglists
+                0x00000984       0x14 build/f7-firmware-C/.extapps/flip_crypt/hashes/siphash.o
+ .debug_rnglists
+                0x00000998      0x125 build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+ .debug_rnglists
+                0x00000abd      0x4f3 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .debug_rnglists
+                0x00000fb0      0x151 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .debug_rnglists
+                0x00001101       0x2d build/f7-firmware-C/.extapps/flip_crypt/storage.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/aes128.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/affine.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/atbash.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/baconian.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/beaufort.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/blowfish.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/caesar.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/des.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/playfair.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/polybius.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/porta.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/railfence.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rc4.o
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/rot13.o
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/scytale.o
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/flip_crypt/ciphers/vigenere.o
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/.extapps/flip_crypt/encoders/base32.o
+ .ARM.attributes
+                0x000003a8       0x34 build/f7-firmware-C/.extapps/flip_crypt/encoders/base58.o
+ .ARM.attributes
+                0x000003dc       0x34 build/f7-firmware-C/.extapps/flip_crypt/encoders/base64.o
+ .ARM.attributes
+                0x00000410       0x34 build/f7-firmware-C/.extapps/flip_crypt/hashes/blake2.o
+ .ARM.attributes
+                0x00000444       0x34 build/f7-firmware-C/.extapps/flip_crypt/hashes/fnv.o
+ .ARM.attributes
+                0x00000478       0x34 build/f7-firmware-C/.extapps/flip_crypt/hashes/md2.o
+ .ARM.attributes
+                0x000004ac       0x34 build/f7-firmware-C/.extapps/flip_crypt/hashes/md5.o
+ .ARM.attributes
+                0x000004e0       0x34 build/f7-firmware-C/.extapps/flip_crypt/hashes/murmur3.o
+ .ARM.attributes
+                0x00000514       0x34 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha1.o
+ .ARM.attributes
+                0x00000548       0x34 build/f7-firmware-C/.extapps/flip_crypt/hashes/sha2.o
+ .ARM.attributes
+                0x0000057c       0x34 build/f7-firmware-C/.extapps/flip_crypt/hashes/siphash.o
+ .ARM.attributes
+                0x000005b0       0x34 build/f7-firmware-C/.extapps/flip_crypt/hashes/xxhash.o
+ .ARM.attributes
+                0x000005e4       0x34 build/f7-firmware-C/.extapps/flip_crypt/qrcode/qrcodegen.o
+ .ARM.attributes
+                0x00000618       0x34 build/f7-firmware-C/.extapps/flip_crypt/main.o
+ .ARM.attributes
+                0x0000064c       0x34 build/f7-firmware-C/.extapps/flip_crypt/storage.o
+ .ARM.attributes
+                0x00000680       0x34 build/f7-firmware-C/.extapps/flip_crypt/flip_crypt_icons.o
+ .ARM.attributes
+                0x000006b4       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_ceil.o)
+ .ARM.attributes
+                0x000006e8       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x0000070a       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x0000072c       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x0000074e       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixdfsi.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/flip_crypt_d.elf elf32-littlearm)
+LOAD linker stubs

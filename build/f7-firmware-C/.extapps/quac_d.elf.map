@@ -1,0 +1,1485 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              build/f7-firmware-C/.extapps/quac/actions/action_ir.o (__aeabi_f2d)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_is_database_loaded
+                0x00000000        0x6 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_get_preset
+                0x00000000       0x18 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .rodata.subghz_txrx_get_frequency_and_modulation.str1.1
+                0x00000000       0x11 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_get_frequency_and_modulation
+                0x00000000       0x68 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_sleep
+                0x00000000       0x18 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_hopper_get_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_hopper_set_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_hopper_unpause
+                0x00000000       0x10 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_hopper_pause
+                0x00000000       0x10 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_rx.isra.0
+                0x00000000       0x54 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_hopper_update
+                0x00000000       0xbc build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_rx_start
+                0x00000000       0x64 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_speaker_set_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_speaker_get_state
+                0x00000000        0x6 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_protocol_is_serializable
+                0x00000000        0xc build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_protocol_is_transmittable
+                0x00000000       0x2c build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_receiver_set_filter
+                0x00000000        0xc build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_set_rx_calback
+                0x00000000        0xc build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_radio_device_get
+                0x00000000        0x6 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_radio_device_get_rssi
+                0x00000000        0xc build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_is_database_loaded
+                0x00000000       0x1e build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_preset
+                0x00000000       0x2a build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_frequency_and_modulation
+                0x00000000       0x59 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_sleep
+                0x00000000       0x31 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_get_state
+                0x00000000       0x1e build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_set_state
+                0x00000000       0x20 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_unpause
+                0x00000000       0x28 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_pause
+                0x00000000       0x28 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_rx.isra.0
+                0x00000000       0x4a build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_hopper_update
+                0x00000000       0xd4 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_rx_start
+                0x00000000       0x6d build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_set_state
+                0x00000000       0x20 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_get_state
+                0x00000000       0x1e build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_protocol_is_serializable
+                0x00000000       0x26 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_protocol_is_transmittable
+                0x00000000       0x61 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_receiver_set_filter
+                0x00000000       0x1c build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_rx_calback
+                0x00000000       0x18 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_get
+                0x00000000       0x1e build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_get_rssi
+                0x00000000       0x1e build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/actions/action.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_ibutton.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_ibutton.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_ibutton.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/actions/action_ibutton.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_nfc.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_nfc.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_nfc.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/actions/action_nfc.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_qpl.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_qpl.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_qpl.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/actions/action_qpl.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_rfid.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_rfid.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_rfid.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/actions/action_rfid.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .text.scene_about_callback
+                0x00000000        0xc build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .debug_line.text.scene_about_callback
+                0x00000000       0x17 build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .text.scene_action_settings_import
+                0x00000000      0x144 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .text.scene_action_settings_create_group
+                0x00000000        0x4 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .debug_line.text.scene_action_settings_import
+                0x00000000      0x100 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .debug_line.text.scene_action_settings_create_group
+                0x00000000       0x1b build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .text.action_menu_set_selected_item
+                0x00000000       0x9c build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.action_menu_set_selected_item
+                0x00000000      0x1d3 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/item.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/item.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/item.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/item.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/quac.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/quac.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/quac.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/quac.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/quac_settings.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/quac_settings.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/quac_settings.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/quac_settings.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/quac_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/quac/quac_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/quac/quac_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/quac/quac_icons.o
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+LOAD build/f7-firmware-C/.extapps/quac/actions/action.o
+LOAD build/f7-firmware-C/.extapps/quac/actions/action_ibutton.o
+LOAD build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+LOAD build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+LOAD build/f7-firmware-C/.extapps/quac/actions/action_nfc.o
+LOAD build/f7-firmware-C/.extapps/quac/actions/action_qpl.o
+LOAD build/f7-firmware-C/.extapps/quac/actions/action_rfid.o
+LOAD build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+LOAD build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+LOAD build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+LOAD build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+LOAD build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+LOAD build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+LOAD build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+LOAD build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+LOAD build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+LOAD build/f7-firmware-C/.extapps/quac/views/action_menu.o
+LOAD build/f7-firmware-C/.extapps/quac/item.o
+LOAD build/f7-firmware-C/.extapps/quac/quac.o
+LOAD build/f7-firmware-C/.extapps/quac/quac_settings.o
+LOAD build/f7-firmware-C/.extapps/quac/quac_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x49b8
+ *(.text)
+ .text          0x00000000      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000000                __aeabi_drsub
+                0x00000008                __aeabi_dsub
+                0x00000008                __subdf3
+                0x0000000c                __adddf3
+                0x0000000c                __aeabi_dadd
+                0x00000284                __aeabi_ui2d
+                0x00000284                __floatunsidf
+                0x000002a4                __floatsidf
+                0x000002a4                __aeabi_i2d
+                0x000002c8                __extendsfdf2
+                0x000002c8                __aeabi_f2d
+                0x0000030c                __aeabi_ul2d
+                0x0000030c                __floatundidf
+                0x0000031c                __floatdidf
+                0x0000031c                __aeabi_l2d
+ *(.stub)
+ *(.text*)
+ .text.subghz_txrx_radio_device_power_off.constprop.0
+                0x00000378       0x1c build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_radio_device_power_on.constprop.0
+                0x00000394       0x58 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_free
+                0x000003ec       0x78 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x000003ec                subghz_txrx_free
+ .text.subghz_txrx_set_preset
+                0x00000464       0x20 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x00000464                subghz_txrx_set_preset
+ .text.subghz_txrx_get_preset_name
+                0x00000484       0x8c build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x00000484                subghz_txrx_get_preset_name
+ .text.subghz_txrx_set_need_save_callback
+                0x00000510        0x6 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x00000510                subghz_txrx_set_need_save_callback
+ .text.subghz_txrx_get_fff_data
+                0x00000516        0x4 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x00000516                subghz_txrx_get_fff_data
+ .text.subghz_txrx_get_setting
+                0x0000051a        0x4 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x0000051a                subghz_txrx_get_setting
+ *fill*         0x0000051e        0x2 
+ .text.subghz_txrx_speaker_on
+                0x00000520       0x34 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x00000520                subghz_txrx_speaker_on
+ .text.subghz_txrx_speaker_off
+                0x00000554       0x38 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x00000554                subghz_txrx_speaker_off
+ .text.subghz_txrx_idle
+                0x0000058c       0x28 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_rx_end
+                0x000005b4       0x40 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .text.subghz_txrx_speaker_mute
+                0x000005f4       0x28 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x000005f4                subghz_txrx_speaker_mute
+ .text.subghz_txrx_speaker_unmute
+                0x0000061c       0x2c build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x0000061c                subghz_txrx_speaker_unmute
+ .text.subghz_txrx_stop
+                0x00000648       0x78 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x00000648                subghz_txrx_stop
+ .text.subghz_txrx_tx_start
+                0x000006c0      0x1a0 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x000006c0                subghz_txrx_tx_start
+ .text.subghz_txrx_load_decoder_by_name_protocol
+                0x00000860       0x18 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x00000860                subghz_txrx_load_decoder_by_name_protocol
+ .text.subghz_txrx_get_decoder
+                0x00000878        0x4 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x00000878                subghz_txrx_get_decoder
+ .text.subghz_txrx_set_raw_file_encoder_worker_callback_end
+                0x0000087c       0x20 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x0000087c                subghz_txrx_set_raw_file_encoder_worker_callback_end
+ .text.subghz_txrx_radio_device_is_external_connected
+                0x0000089c       0x4c build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x0000089c                subghz_txrx_radio_device_is_external_connected
+ .text.subghz_txrx_radio_device_set
+                0x000008e8       0x68 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x000008e8                subghz_txrx_radio_device_set
+ .text.subghz_txrx_alloc
+                0x00000950      0x160 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x00000950                subghz_txrx_alloc
+ .text.subghz_txrx_radio_device_get_name
+                0x00000ab0        0xc build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x00000ab0                subghz_txrx_radio_device_get_name
+ .text.subghz_txrx_radio_device_is_frequecy_valid
+                0x00000abc        0xc build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+                0x00000abc                subghz_txrx_radio_device_is_frequecy_valid
+ .text.action_ql_resolve
+                0x00000ac8      0x10c build/f7-firmware-C/.extapps/quac/actions/action.o
+                0x00000ac8                action_ql_resolve
+ .text.action_tx
+                0x00000bd4      0x124 build/f7-firmware-C/.extapps/quac/actions/action.o
+                0x00000bd4                action_tx
+ .text.action_ibutton_tx
+                0x00000cf8      0x108 build/f7-firmware-C/.extapps/quac/actions/action_ibutton.o
+                0x00000cf8                action_ibutton_tx
+ .text.action_ir_power_otg
+                0x00000e00       0x34 build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+                0x00000e00                action_ir_power_otg
+ .text.action_ir_tx
+                0x00000e34      0x140 build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+                0x00000e34                action_ir_tx
+ .text.infrared_utils_signal_alloc
+                0x00000f74       0x18 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+                0x00000f74                infrared_utils_signal_alloc
+ .text.infrared_utils_signal_free
+                0x00000f8c       0x1c build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+                0x00000f8c                infrared_utils_signal_free
+ .text.infrared_utils_read_signal_at_index
+                0x00000fa8      0x1d4 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+                0x00000fa8                infrared_utils_read_signal_at_index
+ .text.infrared_utils_write_signal
+                0x0000117c      0x160 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+                0x0000117c                infrared_utils_write_signal
+ .text.action_nfc_tx
+                0x000012dc      0x138 build/f7-firmware-C/.extapps/quac/actions/action_nfc.o
+                0x000012dc                action_nfc_tx
+ .text.action_qpl_tx
+                0x00001414      0x3ec build/f7-firmware-C/.extapps/quac/actions/action_qpl.o
+                0x00001414                action_qpl_tx
+ .text.action_rfid_tx
+                0x00001800      0x1f8 build/f7-firmware-C/.extapps/quac/actions/action_rfid.o
+                0x00001800                action_rfid_tx
+ .text.action_subghz_need_save_callback
+                0x000019f8       0xc0 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+                0x000019f8                action_subghz_need_save_callback
+ .text.action_subghz_raw_end_callback
+                0x00001ab8       0x34 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .text.action_subghz_tx
+                0x00001aec      0x438 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+                0x00001aec                action_subghz_tx
+ .text.scene_about_on_enter
+                0x00001f24       0x68 build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+                0x00001f24                scene_about_on_enter
+ .text.scene_about_on_event
+                0x00001f8c        0xe build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+                0x00001f8c                scene_about_on_event
+ *fill*         0x00001f9a        0x2 
+ .text.scene_about_on_exit
+                0x00001f9c        0xc build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+                0x00001f9c                scene_about_on_exit
+ .text.scene_action_create_group_callback
+                0x00001fa8        0xc build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+                0x00001fa8                scene_action_create_group_callback
+ .text.scene_action_create_group_on_enter
+                0x00001fb4       0x48 build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+                0x00001fb4                scene_action_create_group_on_enter
+ .text.scene_action_create_group_on_event
+                0x00001ffc      0x124 build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+                0x00001ffc                scene_action_create_group_on_event
+ .text.scene_action_create_group_on_exit
+                0x00002120        0xc build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+                0x00002120                scene_action_create_group_on_exit
+ .text.scene_action_ir_list_callback
+                0x0000212c        0xc build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+                0x0000212c                scene_action_ir_list_callback
+ .text.scene_action_ir_list_on_enter
+                0x00002138      0x10c build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+                0x00002138                scene_action_ir_list_on_enter
+ .text.scene_action_ir_list_on_event
+                0x00002244      0x1f0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+                0x00002244                scene_action_ir_list_on_event
+ .text.scene_action_ir_list_on_exit
+                0x00002434        0xc build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+                0x00002434                scene_action_ir_list_on_exit
+ .text.scene_action_rename_callback
+                0x00002440        0xc build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+                0x00002440                scene_action_rename_callback
+ .text.scene_action_rename_on_enter
+                0x0000244c       0xa0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+                0x0000244c                scene_action_rename_on_enter
+ .text.scene_action_rename_on_event
+                0x000024ec      0x198 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+                0x000024ec                scene_action_rename_on_event
+ .text.scene_action_rename_on_exit
+                0x00002684        0xc build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+                0x00002684                scene_action_rename_on_exit
+ .text.scene_action_settings_import_file_browser_callback
+                0x00002690      0x138 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .text.scene_action_settings_callback
+                0x000027c8        0xc build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+                0x000027c8                scene_action_settings_callback
+ .text.scene_action_settings_delete
+                0x000027d4      0x168 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+                0x000027d4                scene_action_settings_delete
+ .text.scene_action_get_file_to_import_alloc
+                0x0000293c       0x5c build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+                0x0000293c                scene_action_get_file_to_import_alloc
+ .text.scene_action_settings_on_enter
+                0x00002998       0xb0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+                0x00002998                scene_action_settings_on_enter
+ .text.scene_action_settings_on_event
+                0x00002a48      0x338 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+                0x00002a48                scene_action_settings_on_event
+ .text.scene_action_settings_on_exit
+                0x00002d80       0x2c build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+                0x00002d80                scene_action_settings_on_exit
+ .text.scene_items_item_callback
+                0x00002dac       0x20 build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+                0x00002dac                scene_items_item_callback
+ .text.scene_items_on_enter
+                0x00002dcc      0x13c build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+                0x00002dcc                scene_items_on_enter
+ .text.scene_items_on_event
+                0x00002f08      0x150 build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+                0x00002f08                scene_items_on_event
+ .text.scene_items_on_exit
+                0x00003058        0xc build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+                0x00003058                scene_items_on_exit
+ .text.scene_settings_enter_callback
+                0x00003064        0xc build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .text.scene_settings_show_hidden_changed
+                0x00003070       0x44 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .text.scene_settings_ir_ext_changed
+                0x000030b4       0x44 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .text.scene_settings_ibutton_duration_changed
+                0x000030f8       0x40 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .text.scene_settings_nfc_duration_changed
+                0x00003138       0x40 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .text.scene_settings_rfid_duration_changed
+                0x00003178       0x40 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .text.scene_settings_subghz_duration_changed
+                0x000031b8       0x40 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .text.scene_settings_show_headers_changed
+                0x000031f8       0x44 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .text.scene_settings_show_icons_changed
+                0x0000323c       0x44 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .text.scene_settings_layout_changed
+                0x00003280       0x40 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .text.scene_settings_on_enter
+                0x000032c0      0x25c build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+                0x000032c0                scene_settings_on_enter
+ .text.scene_settings_on_event
+                0x0000351c       0x2c build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+                0x0000351c                scene_settings_on_event
+ .text.scene_settings_on_exit
+                0x00003548       0x1c build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+                0x00003548                scene_settings_on_exit
+ .text.app_scene_custom_callback
+                0x00003564        0xc build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+                0x00003564                app_scene_custom_callback
+ .text.app_back_event_callback
+                0x00003570        0xc build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+                0x00003570                app_back_event_callback
+ .text.action_menu_process_ok
+                0x0000357c       0x3c build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .text.action_menu_view_input_callback
+                0x000035b8       0xfc build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .text.action_menu_scroll_timer_callback.part.0
+                0x000036b4       0x10 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .text.action_menu_scroll_timer_callback
+                0x000036c4       0x30 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .text.action_menu_view_exit_callback
+                0x000036f4       0x1c build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .text.action_menu_view_enter_callback
+                0x00003710       0x3c build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .text.get_adjusted_scroll_counter
+                0x0000374c        0xc build/f7-firmware-C/.extapps/quac/views/action_menu.o
+                0x0000374c                get_adjusted_scroll_counter
+ .text.action_menu_view_draw_callback
+                0x00003758      0x3f0 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .text.action_menu_get_view
+                0x00003b48        0x4 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+                0x00003b48                action_menu_get_view
+ .text.action_menu_reset
+                0x00003b4c       0x30 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+                0x00003b4c                action_menu_reset
+ .text.action_menu_set_layout
+                0x00003b7c       0x34 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+                0x00003b7c                action_menu_set_layout
+ .text.action_menu_set_header
+                0x00003bb0       0x3c build/f7-firmware-C/.extapps/quac/views/action_menu.o
+                0x00003bb0                action_menu_set_header
+ .text.action_menu_set_show_icons
+                0x00003bec       0x24 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+                0x00003bec                action_menu_set_show_icons
+ .text.action_menu_set_show_headers
+                0x00003c10       0x24 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+                0x00003c10                action_menu_set_show_headers
+ .text.action_menu_add_item
+                0x00003c34       0x98 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+                0x00003c34                action_menu_add_item
+ .text.action_menu_alloc
+                0x00003ccc       0xcc build/f7-firmware-C/.extapps/quac/views/action_menu.o
+                0x00003ccc                action_menu_alloc
+ .text.action_menu_free
+                0x00003d98       0x60 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+                0x00003d98                action_menu_free
+ .text.action_menu_item_set_link
+                0x00003df8        0x4 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+                0x00003df8                action_menu_item_set_link
+ .text.item_items_view_free
+                0x00003dfc       0x4c build/f7-firmware-C/.extapps/quac/item.o
+                0x00003dfc                item_items_view_free
+ .text.item_prettify_name
+                0x00003e48       0x64 build/f7-firmware-C/.extapps/quac/item.o
+                0x00003e48                item_prettify_name
+ .text.item_get_item_type_from_extension
+                0x00003eac       0x68 build/f7-firmware-C/.extapps/quac/item.o
+                0x00003eac                item_get_item_type_from_extension
+ .text.item_path_extract_filename
+                0x00003f14       0x78 build/f7-firmware-C/.extapps/quac/item.o
+                0x00003f14                item_path_extract_filename
+ .text.item_get_items_view_from_path
+                0x00003f8c      0x378 build/f7-firmware-C/.extapps/quac/item.o
+                0x00003f8c                item_get_items_view_from_path
+ .text.app_alloc
+                0x00004304      0x124 build/f7-firmware-C/.extapps/quac/quac.o
+                0x00004304                app_alloc
+ .text.app_free
+                0x00004428       0xa4 build/f7-firmware-C/.extapps/quac/quac.o
+                0x00004428                app_free
+ .text.quac_app
+                0x000044cc       0xac build/f7-firmware-C/.extapps/quac/quac.o
+                0x000044cc                quac_app
+ .text.quac_set_default_settings
+                0x00004578       0x2a build/f7-firmware-C/.extapps/quac/quac_settings.o
+                0x00004578                quac_set_default_settings
+ *fill*         0x000045a2        0x2 
+ .text.quac_load_settings
+                0x000045a4      0x278 build/f7-firmware-C/.extapps/quac/quac_settings.o
+                0x000045a4                quac_load_settings
+ .text.quac_save_settings
+                0x0000481c      0x19c build/f7-firmware-C/.extapps/quac/quac_settings.o
+                0x0000481c                quac_save_settings
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000049b8     0x19ad
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.subghz_txrx_radio_device_power_on.constprop.0.str1.1
+                0x000049b8       0x3b build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .rodata.subghz_txrx_get_preset_name.str1.1
+                0x000049f3       0xcd build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .rodata.subghz_txrx_tx_start.str1.1
+                0x00004ac0       0x5f build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .rodata.subghz_txrx_radio_device_set.str1.1
+                0x00004b1f       0x16 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .rodata.subghz_txrx_alloc.str1.1
+                0x00004b35       0xf0 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .rodata.action_ql_resolve.str1.1
+                0x00004c25       0x78 build/f7-firmware-C/.extapps/quac/actions/action.o
+ .rodata.action_tx.str1.1
+                0x00004c9d       0x5e build/f7-firmware-C/.extapps/quac/actions/action.o
+ .rodata.action_ibutton_tx.str1.1
+                0x00004cfb       0x66 build/f7-firmware-C/.extapps/quac/actions/action_ibutton.o
+ .rodata.action_ir_tx.str1.1
+                0x00004d61       0xa8 build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+ .rodata.infrared_utils_read_signal_at_index.str1.1
+                0x00004e09       0xd4 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .rodata.infrared_utils_write_signal.str1.1
+                0x00004edd       0xdf build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .rodata.action_nfc_tx.str1.1
+                0x00004fbc       0x65 build/f7-firmware-C/.extapps/quac/actions/action_nfc.o
+ .rodata.action_qpl_tx.str1.1
+                0x00005021      0x137 build/f7-firmware-C/.extapps/quac/actions/action_qpl.o
+ .rodata.action_rfid_tx.str1.1
+                0x00005158      0x104 build/f7-firmware-C/.extapps/quac/actions/action_rfid.o
+ .rodata.action_subghz_need_save_callback.str1.1
+                0x0000525c       0x83 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .rodata.action_subghz_raw_end_callback.str1.1
+                0x000052df       0x13 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .rodata.action_subghz_tx.str1.1
+                0x000052f2      0x281 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .rodata.scene_about_on_enter.str1.1
+                0x00005573       0x40 build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .rodata.scene_action_create_group_on_enter.str1.1
+                0x000055b3       0x16 build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .rodata.scene_action_create_group_on_event.str1.1
+                0x000055c9       0x42 build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .rodata.scene_action_ir_list_on_enter.str1.1
+                0x0000560b       0x5a build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .rodata.scene_action_ir_list_on_event.str1.1
+                0x00005665       0xc7 build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .rodata.scene_action_rename_on_enter.str1.1
+                0x0000572c       0x10 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .rodata.scene_action_rename_on_event.str1.1
+                0x0000573c       0x73 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .rodata.scene_action_settings_import_file_browser_callback.str1.1
+                0x000057af       0x1f build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .rodata.scene_action_settings_delete.str1.1
+                0x000057ce       0x74 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .rodata.scene_action_get_file_to_import_alloc.str1.1
+                0x00005842        0x6 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .rodata.scene_action_settings_import.str1.1
+                0x00005848       0x37 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .rodata.scene_action_settings_on_enter.str1.1
+                0x0000587f       0x38 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .rodata.scene_action_settings_on_event.str1.1
+                0x000058b7      0x16f build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .rodata.scene_items_on_enter.str1.1
+                0x00005a26       0x53 build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .rodata.scene_items_on_event.str1.1
+                0x00005a79       0x34 build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .rodata.ItemToMenuItem
+                0x00005aad        0x9 build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .rodata.scene_settings_on_enter.str1.1
+                0x00005ab6       0x7b build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ *fill*         0x00005b31        0x3 
+ .rodata.disabled_enabled_value
+                0x00005b34        0x8 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .rodata.str1.1
+                0x00005b3c       0x59 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ *fill*         0x00005b95        0x3 
+ .rodata.disabled_enabled_text
+                0x00005b98        0x8 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .rodata.duration_value
+                0x00005ba0       0x20 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .rodata.duration_text
+                0x00005bc0       0x20 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .rodata.show_offon_value
+                0x00005be0        0x8 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .rodata.show_offon_text
+                0x00005be8        0x8 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .rodata.layout_value
+                0x00005bf0        0x8 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .rodata.layout_text
+                0x00005bf8        0x8 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .rodata.app_scene_handlers
+                0x00005c00       0x10 build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+                0x00005c00                app_scene_handlers
+ .rodata.app_on_exit_handlers
+                0x00005c10       0x1c build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+                0x00005c10                app_on_exit_handlers
+ .rodata.app_on_event_handlers
+                0x00005c2c       0x1c build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+                0x00005c2c                app_on_event_handlers
+ .rodata.app_on_enter_handlers
+                0x00005c48       0x1c build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+                0x00005c48                app_on_enter_handlers
+ .rodata.ActionMenuIcons
+                0x00005c64       0x24 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .rodata.item_prettify_name.str1.1
+                0x00005c88        0x4 build/f7-firmware-C/.extapps/quac/item.o
+ .rodata.item_get_item_type_from_extension.str1.1
+                0x00005c8c       0x1f build/f7-firmware-C/.extapps/quac/item.o
+ .rodata.item_path_extract_filename.str1.1
+                0x00005cab        0x4 build/f7-firmware-C/.extapps/quac/item.o
+ .rodata.item_get_items_view_from_path.str1.1
+                0x00005caf       0x39 build/f7-firmware-C/.extapps/quac/item.o
+ .rodata.app_alloc.str1.1
+                0x00005ce8       0x1d build/f7-firmware-C/.extapps/quac/quac.o
+ .rodata.quac_app.str1.1
+                0x00005d05       0x30 build/f7-firmware-C/.extapps/quac/quac.o
+ .rodata.quac_load_settings.str1.1
+                0x00005d35      0x279 build/f7-firmware-C/.extapps/quac/quac_settings.o
+ .rodata.quac_save_settings.str1.1
+                0x00005fae      0x1fc build/f7-firmware-C/.extapps/quac/quac_settings.o
+ *fill*         0x000061aa        0x2 
+ .rodata.I_quac
+                0x000061ac        0xc build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x000061ac                I_quac
+ .rodata.I_iButton_10px
+                0x000061b8        0xc build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x000061b8                I_iButton_10px
+ .rodata.I_Unknown_10px
+                0x000061c4        0xc build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x000061c4                I_Unknown_10px
+ .rodata.I_SubGHz_10px
+                0x000061d0        0xc build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x000061d0                I_SubGHz_10px
+ .rodata.I_Settings_10px
+                0x000061dc        0xc build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x000061dc                I_Settings_10px
+ .rodata.I_RFID_10px
+                0x000061e8        0xc build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x000061e8                I_RFID_10px
+ .rodata.I_Playlist_10px
+                0x000061f4        0xc build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x000061f4                I_Playlist_10px
+ .rodata.I_NFC_10px
+                0x00006200        0xc build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x00006200                I_NFC_10px
+ .rodata.I_IR_10px
+                0x0000620c        0xc build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x0000620c                I_IR_10px
+ .rodata.I_Directory_10px
+                0x00006218        0xc build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x00006218                I_Directory_10px
+ .rodata.I_ArrowUp_8x4
+                0x00006224        0xc build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x00006224                I_ArrowUp_8x4
+ .rodata.I_ArrowDown_8x4
+                0x00006230        0xc build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x00006230                I_ArrowDown_8x4
+ .rodata._I_quac
+                0x0000623c        0x4 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x0000623c                _I_quac
+ .rodata._I_quac_0
+                0x00006240       0x15 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x00006240                _I_quac_0
+ *fill*         0x00006255        0x3 
+ .rodata._I_iButton_10px
+                0x00006258        0x4 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x00006258                _I_iButton_10px
+ .rodata._I_iButton_10px_0
+                0x0000625c       0x15 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x0000625c                _I_iButton_10px_0
+ *fill*         0x00006271        0x3 
+ .rodata._I_Unknown_10px
+                0x00006274        0x4 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x00006274                _I_Unknown_10px
+ .rodata._I_Unknown_10px_0
+                0x00006278       0x15 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x00006278                _I_Unknown_10px_0
+ *fill*         0x0000628d        0x3 
+ .rodata._I_SubGHz_10px
+                0x00006290        0x4 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x00006290                _I_SubGHz_10px
+ .rodata._I_SubGHz_10px_0
+                0x00006294       0x15 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x00006294                _I_SubGHz_10px_0
+ *fill*         0x000062a9        0x3 
+ .rodata._I_Settings_10px
+                0x000062ac        0x4 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x000062ac                _I_Settings_10px
+ .rodata._I_Settings_10px_0
+                0x000062b0       0x15 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x000062b0                _I_Settings_10px_0
+ *fill*         0x000062c5        0x3 
+ .rodata._I_RFID_10px
+                0x000062c8        0x4 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x000062c8                _I_RFID_10px
+ .rodata._I_RFID_10px_0
+                0x000062cc       0x15 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x000062cc                _I_RFID_10px_0
+ *fill*         0x000062e1        0x3 
+ .rodata._I_Playlist_10px
+                0x000062e4        0x4 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x000062e4                _I_Playlist_10px
+ .rodata._I_Playlist_10px_0
+                0x000062e8       0x11 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x000062e8                _I_Playlist_10px_0
+ *fill*         0x000062f9        0x3 
+ .rodata._I_NFC_10px
+                0x000062fc        0x4 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x000062fc                _I_NFC_10px
+ .rodata._I_NFC_10px_0
+                0x00006300       0x15 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x00006300                _I_NFC_10px_0
+ *fill*         0x00006315        0x3 
+ .rodata._I_IR_10px
+                0x00006318        0x4 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x00006318                _I_IR_10px
+ .rodata._I_IR_10px_0
+                0x0000631c       0x15 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x0000631c                _I_IR_10px_0
+ *fill*         0x00006331        0x3 
+ .rodata._I_Directory_10px
+                0x00006334        0x4 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x00006334                _I_Directory_10px
+ .rodata._I_Directory_10px_0
+                0x00006338       0x15 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x00006338                _I_Directory_10px_0
+ *fill*         0x0000634d        0x3 
+ .rodata._I_ArrowUp_8x4
+                0x00006350        0x4 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x00006350                _I_ArrowUp_8x4
+ .rodata._I_ArrowUp_8x4_0
+                0x00006354        0x5 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x00006354                _I_ArrowUp_8x4_0
+ *fill*         0x00006359        0x3 
+ .rodata._I_ArrowDown_8x4
+                0x0000635c        0x4 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x0000635c                _I_ArrowDown_8x4
+ .rodata._I_ArrowDown_8x4_0
+                0x00006360        0x5 build/f7-firmware-C/.extapps/quac/quac_icons.o
+                0x00006360                _I_ArrowDown_8x4_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x630
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000      0x170 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_aranges
+                0x00000170       0x28 build/f7-firmware-C/.extapps/quac/actions/action.o
+ .debug_aranges
+                0x00000198       0x20 build/f7-firmware-C/.extapps/quac/actions/action_ibutton.o
+ .debug_aranges
+                0x000001b8       0x28 build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+ .debug_aranges
+                0x000001e0       0x38 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .debug_aranges
+                0x00000218       0x20 build/f7-firmware-C/.extapps/quac/actions/action_nfc.o
+ .debug_aranges
+                0x00000238       0x20 build/f7-firmware-C/.extapps/quac/actions/action_qpl.o
+ .debug_aranges
+                0x00000258       0x20 build/f7-firmware-C/.extapps/quac/actions/action_rfid.o
+ .debug_aranges
+                0x00000278       0x30 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .debug_aranges
+                0x000002a8       0x38 build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .debug_aranges
+                0x000002e0       0x38 build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .debug_aranges
+                0x00000318       0x38 build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .debug_aranges
+                0x00000350       0x38 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .debug_aranges
+                0x00000388       0x60 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .debug_aranges
+                0x000003e8       0x38 build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .debug_aranges
+                0x00000420       0x80 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_aranges
+                0x000004a0       0x28 build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+ .debug_aranges
+                0x000004c8       0xb0 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_aranges
+                0x00000578       0x40 build/f7-firmware-C/.extapps/quac/item.o
+ .debug_aranges
+                0x000005b8       0x30 build/f7-firmware-C/.extapps/quac/quac.o
+ .debug_aranges
+                0x000005e8       0x30 build/f7-firmware-C/.extapps/quac/quac_settings.o
+ .debug_aranges
+                0x00000618       0x18 build/f7-firmware-C/.extapps/quac/quac_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x19cb1
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2dbb build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_info    0x00002dbb      0xe1a build/f7-firmware-C/.extapps/quac/actions/action.o
+ .debug_info    0x00003bd5      0xb3c build/f7-firmware-C/.extapps/quac/actions/action_ibutton.o
+ .debug_info    0x00004711      0xd3c build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+ .debug_info    0x0000544d      0xd29 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .debug_info    0x00006176      0xcea build/f7-firmware-C/.extapps/quac/actions/action_nfc.o
+ .debug_info    0x00006e60     0x12cf build/f7-firmware-C/.extapps/quac/actions/action_qpl.o
+ .debug_info    0x0000812f     0x11ae build/f7-firmware-C/.extapps/quac/actions/action_rfid.o
+ .debug_info    0x000092dd     0x1eb3 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .debug_info    0x0000b190      0x822 build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .debug_info    0x0000b9b2      0xc04 build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .debug_info    0x0000c5b6     0x14d8 build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .debug_info    0x0000da8e      0xe9a build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .debug_info    0x0000e928     0x2080 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .debug_info    0x000109a8     0x13f9 build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .debug_info    0x00011da1     0x1414 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_info    0x000131b5      0x93c build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+ .debug_info    0x00013af1     0x26d3 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_info    0x000161c4     0x1ab1 build/f7-firmware-C/.extapps/quac/item.o
+ .debug_info    0x00017c75      0xe7a build/f7-firmware-C/.extapps/quac/quac.o
+ .debug_info    0x00018aef      0xdb0 build/f7-firmware-C/.extapps/quac/quac_settings.o
+ .debug_info    0x0001989f      0x412 build/f7-firmware-C/.extapps/quac/quac_icons.o
+
+.debug_abbrev   0x00000000     0x3c9a
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x526 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_abbrev  0x00000526      0x242 build/f7-firmware-C/.extapps/quac/actions/action.o
+ .debug_abbrev  0x00000768      0x20a build/f7-firmware-C/.extapps/quac/actions/action_ibutton.o
+ .debug_abbrev  0x00000972      0x2e8 build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+ .debug_abbrev  0x00000c5a      0x263 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .debug_abbrev  0x00000ebd      0x231 build/f7-firmware-C/.extapps/quac/actions/action_nfc.o
+ .debug_abbrev  0x000010ee      0x267 build/f7-firmware-C/.extapps/quac/actions/action_qpl.o
+ .debug_abbrev  0x00001355      0x28c build/f7-firmware-C/.extapps/quac/actions/action_rfid.o
+ .debug_abbrev  0x000015e1      0x2f0 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .debug_abbrev  0x000018d1      0x1ed build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .debug_abbrev  0x00001abe      0x280 build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .debug_abbrev  0x00001d3e      0x325 build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .debug_abbrev  0x00002063      0x2cd build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .debug_abbrev  0x00002330      0x3ce build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .debug_abbrev  0x000026fe      0x36c build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .debug_abbrev  0x00002a6a      0x22c build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_abbrev  0x00002c96      0x1f7 build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+ .debug_abbrev  0x00002e8d      0x54d build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_abbrev  0x000033da      0x3ed build/f7-firmware-C/.extapps/quac/item.o
+ .debug_abbrev  0x000037c7      0x22c build/f7-firmware-C/.extapps/quac/quac.o
+ .debug_abbrev  0x000039f3      0x1f2 build/f7-firmware-C/.extapps/quac/quac_settings.o
+ .debug_abbrev  0x00003be5       0xb5 build/f7-firmware-C/.extapps/quac/quac_icons.o
+
+.debug_line     0x00000000     0x991e
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x4e8 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_power_off.constprop.0
+                0x000004e8       0x2d build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_power_on.constprop.0
+                0x00000515       0x4d build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_free
+                0x00000562       0x46 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_preset
+                0x000005a8       0x48 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_preset_name
+                0x000005f0       0x70 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_need_save_callback
+                0x00000660       0x20 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_fff_data
+                0x00000680       0x1e build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_setting
+                0x0000069e       0x1e build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_on
+                0x000006bc       0x4b build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_off
+                0x00000707       0x4b build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_idle
+                0x00000752       0x3b build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_rx_end
+                0x0000078d       0x40 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_mute
+                0x000007cd       0x44 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_speaker_unmute
+                0x00000811       0x4c build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_stop
+                0x0000085d       0x85 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_tx_start
+                0x000008e2      0x172 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_load_decoder_by_name_protocol
+                0x00000a54       0x3a build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_get_decoder
+                0x00000a8e       0x1e build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_set_raw_file_encoder_worker_callback_end
+                0x00000aac       0x2c build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_is_external_connected
+                0x00000ad8       0x7b build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_set
+                0x00000b53       0x76 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_alloc
+                0x00000bc9       0xfe build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_get_name
+                0x00000cc7       0x1e build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line.text.subghz_txrx_radio_device_is_frequecy_valid
+                0x00000ce5       0x1f build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line_end
+                0x00000d04        0x0 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_line    0x00000d04      0x470 build/f7-firmware-C/.extapps/quac/actions/action.o
+ .debug_line.text.action_ql_resolve
+                0x00001174       0xc4 build/f7-firmware-C/.extapps/quac/actions/action.o
+ .debug_line.text.action_tx
+                0x00001238       0xb6 build/f7-firmware-C/.extapps/quac/actions/action.o
+ .debug_line_end
+                0x000012ee        0x0 build/f7-firmware-C/.extapps/quac/actions/action.o
+ .debug_line    0x000012ee      0x424 build/f7-firmware-C/.extapps/quac/actions/action_ibutton.o
+ .debug_line.text.action_ibutton_tx
+                0x00001712       0xc0 build/f7-firmware-C/.extapps/quac/actions/action_ibutton.o
+ .debug_line_end
+                0x000017d2        0x0 build/f7-firmware-C/.extapps/quac/actions/action_ibutton.o
+ .debug_line    0x000017d2      0x488 build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+ .debug_line.text.action_ir_power_otg
+                0x00001c5a       0x55 build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+ .debug_line.text.action_ir_tx
+                0x00001caf       0xd2 build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+ .debug_line_end
+                0x00001d81        0x0 build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+ .debug_line    0x00001d81      0x326 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .debug_line.text.infrared_utils_signal_alloc
+                0x000020a7       0x31 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .debug_line.text.infrared_utils_signal_free
+                0x000020d8       0x32 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .debug_line.text.infrared_utils_read_signal_at_index
+                0x0000210a      0x151 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .debug_line.text.infrared_utils_write_signal
+                0x0000225b       0xd5 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .debug_line_end
+                0x00002330        0x0 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .debug_line    0x00002330      0x45b build/f7-firmware-C/.extapps/quac/actions/action_nfc.o
+ .debug_line.text.action_nfc_tx
+                0x0000278b       0xab build/f7-firmware-C/.extapps/quac/actions/action_nfc.o
+ .debug_line_end
+                0x00002836        0x0 build/f7-firmware-C/.extapps/quac/actions/action_nfc.o
+ .debug_line    0x00002836      0x4db build/f7-firmware-C/.extapps/quac/actions/action_qpl.o
+ .debug_line.text.action_qpl_tx
+                0x00002d11      0x2f4 build/f7-firmware-C/.extapps/quac/actions/action_qpl.o
+ .debug_line_end
+                0x00003005        0x0 build/f7-firmware-C/.extapps/quac/actions/action_qpl.o
+ .debug_line    0x00003005      0x530 build/f7-firmware-C/.extapps/quac/actions/action_rfid.o
+ .debug_line.text.action_rfid_tx
+                0x00003535      0x18a build/f7-firmware-C/.extapps/quac/actions/action_rfid.o
+ .debug_line_end
+                0x000036bf        0x0 build/f7-firmware-C/.extapps/quac/actions/action_rfid.o
+ .debug_line    0x000036bf      0x5cb build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .debug_line.text.action_subghz_need_save_callback
+                0x00003c8a       0x70 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .debug_line.text.action_subghz_raw_end_callback
+                0x00003cfa       0x30 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .debug_line.text.action_subghz_tx
+                0x00003d2a      0x22b build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .debug_line_end
+                0x00003f55        0x0 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .debug_line    0x00003f55      0x3be build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .debug_line.text.scene_about_on_enter
+                0x00004313       0x36 build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .debug_line.text.scene_about_on_event
+                0x00004349       0x24 build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .debug_line.text.scene_about_on_exit
+                0x0000436d       0x17 build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .debug_line_end
+                0x00004384        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .debug_line    0x00004384      0x3c1 build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .debug_line.text.scene_action_create_group_callback
+                0x00004745       0x17 build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .debug_line.text.scene_action_create_group_on_enter
+                0x0000475c       0x3d build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .debug_line.text.scene_action_create_group_on_event
+                0x00004799       0xe5 build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .debug_line.text.scene_action_create_group_on_exit
+                0x0000487e       0x18 build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .debug_line_end
+                0x00004896        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .debug_line    0x00004896      0x4d4 build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .debug_line.text.scene_action_ir_list_callback
+                0x00004d6a       0x18 build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .debug_line.text.scene_action_ir_list_on_enter
+                0x00004d82       0x9f build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .debug_line.text.scene_action_ir_list_on_event
+                0x00004e21      0x19e build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .debug_line.text.scene_action_ir_list_on_exit
+                0x00004fbf       0x18 build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .debug_line_end
+                0x00004fd7        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .debug_line    0x00004fd7      0x439 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .debug_line.text.scene_action_rename_callback
+                0x00005410       0x17 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .debug_line.text.scene_action_rename_on_enter
+                0x00005427       0x97 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .debug_line.text.scene_action_rename_on_event
+                0x000054be      0x140 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .debug_line.text.scene_action_rename_on_exit
+                0x000055fe       0x18 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .debug_line_end
+                0x00005616        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .debug_line    0x00005616      0x495 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .debug_line.text.scene_action_settings_import_file_browser_callback
+                0x00005aab       0xdf build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .debug_line.text.scene_action_settings_callback
+                0x00005b8a       0x19 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .debug_line.text.scene_action_settings_delete
+                0x00005ba3       0xe2 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .debug_line.text.scene_action_get_file_to_import_alloc
+                0x00005c85       0x64 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .debug_line.text.scene_action_settings_on_enter
+                0x00005ce9       0x74 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .debug_line.text.scene_action_settings_on_event
+                0x00005d5d      0x255 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .debug_line.text.scene_action_settings_on_exit
+                0x00005fb2       0x3e build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .debug_line_end
+                0x00005ff0        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .debug_line    0x00005ff0      0x43e build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .debug_line.text.scene_items_item_callback
+                0x0000642e       0x4a build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .debug_line.text.scene_items_on_enter
+                0x00006478      0x117 build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .debug_line.text.scene_items_on_event
+                0x0000658f      0x176 build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .debug_line.text.scene_items_on_exit
+                0x00006705       0x1a build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .debug_line_end
+                0x0000671f        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .debug_line    0x0000671f      0x3ce build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_line.text.scene_settings_enter_callback
+                0x00006aed       0x19 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_line.text.scene_settings_show_hidden_changed
+                0x00006b06       0x47 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_line.text.scene_settings_ir_ext_changed
+                0x00006b4d       0x47 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_line.text.scene_settings_ibutton_duration_changed
+                0x00006b94       0x4a build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_line.text.scene_settings_nfc_duration_changed
+                0x00006bde       0x4a build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_line.text.scene_settings_rfid_duration_changed
+                0x00006c28       0x4a build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_line.text.scene_settings_subghz_duration_changed
+                0x00006c72       0x4a build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_line.text.scene_settings_show_headers_changed
+                0x00006cbc       0x47 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_line.text.scene_settings_show_icons_changed
+                0x00006d03       0x46 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_line.text.scene_settings_layout_changed
+                0x00006d49       0x46 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_line.text.scene_settings_on_enter
+                0x00006d8f      0x15e build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_line.text.scene_settings_on_event
+                0x00006eed       0x44 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_line.text.scene_settings_on_exit
+                0x00006f31       0x2f build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_line_end
+                0x00006f60        0x0 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_line    0x00006f60      0x414 build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+ .debug_line.text.app_scene_custom_callback
+                0x00007374       0x1b build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+ .debug_line.text.app_back_event_callback
+                0x0000738f       0x1a build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+ .debug_line_end
+                0x000073a9        0x0 build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+ .debug_line    0x000073a9      0x361 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.action_menu_process_ok
+                0x0000770a       0xc7 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.action_menu_view_input_callback
+                0x000077d1      0x124 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.action_menu_scroll_timer_callback.part.0
+                0x000078f5       0x20 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.action_menu_scroll_timer_callback
+                0x00007915       0x5c build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.action_menu_view_exit_callback
+                0x00007971       0x46 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.action_menu_view_enter_callback
+                0x000079b7       0x6c build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.get_adjusted_scroll_counter
+                0x00007a23       0x25 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.action_menu_view_draw_callback
+                0x00007a48      0x37d build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.action_menu_get_view
+                0x00007dc5       0x1e build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.action_menu_reset
+                0x00007de3       0x67 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.action_menu_set_layout
+                0x00007e4a       0x42 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.action_menu_set_header
+                0x00007e8c       0x5e build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.action_menu_set_show_icons
+                0x00007eea       0x35 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.action_menu_set_show_headers
+                0x00007f1f       0x35 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.action_menu_add_item
+                0x00007f54       0x86 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.action_menu_alloc
+                0x00007fda       0x7d build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.action_menu_free
+                0x00008057       0x85 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line.text.action_menu_item_set_link
+                0x000080dc       0x20 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line_end
+                0x000080fc        0x0 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_line    0x000080fc      0x41f build/f7-firmware-C/.extapps/quac/item.o
+ .debug_line.text.item_items_view_free
+                0x0000851b       0xf4 build/f7-firmware-C/.extapps/quac/item.o
+ .debug_line.text.item_prettify_name
+                0x0000860f       0x75 build/f7-firmware-C/.extapps/quac/item.o
+ .debug_line.text.item_get_item_type_from_extension
+                0x00008684       0x79 build/f7-firmware-C/.extapps/quac/item.o
+ .debug_line.text.item_path_extract_filename
+                0x000086fd       0xbd build/f7-firmware-C/.extapps/quac/item.o
+ .debug_line.text.item_get_items_view_from_path
+                0x000087ba      0x36e build/f7-firmware-C/.extapps/quac/item.o
+ .debug_line_end
+                0x00008b28        0x0 build/f7-firmware-C/.extapps/quac/item.o
+ .debug_line    0x00008b28      0x434 build/f7-firmware-C/.extapps/quac/quac.o
+ .debug_line.text.app_alloc
+                0x00008f5c       0xc5 build/f7-firmware-C/.extapps/quac/quac.o
+ .debug_line.text.app_free
+                0x00009021       0x43 build/f7-firmware-C/.extapps/quac/quac.o
+ .debug_line.text.quac_app
+                0x00009064       0x7d build/f7-firmware-C/.extapps/quac/quac.o
+ .debug_line_end
+                0x000090e1        0x0 build/f7-firmware-C/.extapps/quac/quac.o
+ .debug_line    0x000090e1      0x3f8 build/f7-firmware-C/.extapps/quac/quac_settings.o
+ .debug_line.text.quac_set_default_settings
+                0x000094d9       0x34 build/f7-firmware-C/.extapps/quac/quac_settings.o
+ .debug_line.text.quac_load_settings
+                0x0000950d      0x182 build/f7-firmware-C/.extapps/quac/quac_settings.o
+ .debug_line.text.quac_save_settings
+                0x0000968f      0x10b build/f7-firmware-C/.extapps/quac/quac_settings.o
+ .debug_line_end
+                0x0000979a        0x0 build/f7-firmware-C/.extapps/quac/quac_settings.o
+ .debug_line    0x0000979a      0x184 build/f7-firmware-C/.extapps/quac/quac_icons.o
+ .debug_line_end
+                0x0000991e        0x0 build/f7-firmware-C/.extapps/quac/quac_icons.o
+
+.debug_frame    0x00000000     0x113c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x434 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_frame   0x00000434       0x80 build/f7-firmware-C/.extapps/quac/actions/action.o
+ .debug_frame   0x000004b4       0x44 build/f7-firmware-C/.extapps/quac/actions/action_ibutton.o
+ .debug_frame   0x000004f8       0x74 build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+ .debug_frame   0x0000056c       0x98 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .debug_frame   0x00000604       0x48 build/f7-firmware-C/.extapps/quac/actions/action_nfc.o
+ .debug_frame   0x0000064c       0x4c build/f7-firmware-C/.extapps/quac/actions/action_qpl.o
+ .debug_frame   0x00000698       0x40 build/f7-firmware-C/.extapps/quac/actions/action_rfid.o
+ .debug_frame   0x000006d8       0x88 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .debug_frame   0x00000760       0x74 build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .debug_frame   0x000007d4       0x80 build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .debug_frame   0x00000854       0x98 build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .debug_frame   0x000008ec       0x88 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .debug_frame   0x00000974      0x148 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .debug_frame   0x00000abc       0x94 build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .debug_frame   0x00000b50      0x18c build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_frame   0x00000cdc       0x30 build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+ .debug_frame   0x00000d0c      0x278 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_frame   0x00000f84       0xd4 build/f7-firmware-C/.extapps/quac/item.o
+ .debug_frame   0x00001058       0x74 build/f7-firmware-C/.extapps/quac/quac.o
+ .debug_frame   0x000010cc       0x70 build/f7-firmware-C/.extapps/quac/quac_settings.o
+
+.debug_str      0x00000000    0x11294
+ *(.debug_str)
+ .debug_str     0x00000000     0x230a build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_str     0x0000230a      0x8b5 build/f7-firmware-C/.extapps/quac/actions/action.o
+ .debug_str     0x00002bbf      0x7d8 build/f7-firmware-C/.extapps/quac/actions/action_ibutton.o
+ .debug_str     0x00003397      0xa83 build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+ .debug_str     0x00003e1a      0x873 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .debug_str     0x0000468d      0x997 build/f7-firmware-C/.extapps/quac/actions/action_nfc.o
+ .debug_str     0x00005024      0x94d build/f7-firmware-C/.extapps/quac/actions/action_qpl.o
+ .debug_str     0x00005971      0xd13 build/f7-firmware-C/.extapps/quac/actions/action_rfid.o
+ .debug_str     0x00006684     0x1700 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .debug_str     0x00007d84      0x6d4 build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .debug_str     0x00008458      0xa4e build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .debug_str     0x00008ea6     0x109f build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .debug_str     0x00009f45      0xa88 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .debug_str     0x0000a9cd     0x1019 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .debug_str     0x0000b9e6     0x10ea build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .debug_str     0x0000cad0      0xa25 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_str     0x0000d4f5      0x97d build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+ .debug_str     0x0000de72     0x111b build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_str     0x0000ef8d      0xb92 build/f7-firmware-C/.extapps/quac/item.o
+ .debug_str     0x0000fb1f      0xba2 build/f7-firmware-C/.extapps/quac/quac.o
+ .debug_str     0x000106c1      0x76f build/f7-firmware-C/.extapps/quac/quac_settings.o
+ .debug_str     0x00010e30      0x464 build/f7-firmware-C/.extapps/quac/quac_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000       0xa8
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+.debug_loclists
+                0x00000000     0x4872
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x911 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_loclists
+                0x00000911      0x25d build/f7-firmware-C/.extapps/quac/actions/action.o
+ .debug_loclists
+                0x00000b6e      0x15c build/f7-firmware-C/.extapps/quac/actions/action_ibutton.o
+ .debug_loclists
+                0x00000cca      0x166 build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+ .debug_loclists
+                0x00000e30      0x1b2 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .debug_loclists
+                0x00000fe2      0x14e build/f7-firmware-C/.extapps/quac/actions/action_nfc.o
+ .debug_loclists
+                0x00001130      0x260 build/f7-firmware-C/.extapps/quac/actions/action_qpl.o
+ .debug_loclists
+                0x00001390      0x182 build/f7-firmware-C/.extapps/quac/actions/action_rfid.o
+ .debug_loclists
+                0x00001512      0x27a build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .debug_loclists
+                0x0000178c       0xcf build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .debug_loclists
+                0x0000185b      0x1ae build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .debug_loclists
+                0x00001a09      0x38a build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .debug_loclists
+                0x00001d93      0x248 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .debug_loclists
+                0x00001fdb      0x791 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .debug_loclists
+                0x0000276c      0x45a build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .debug_loclists
+                0x00002bc6      0x521 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_loclists
+                0x000030e7       0x7f build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+ .debug_loclists
+                0x00003166      0xe53 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_loclists
+                0x00003fb9      0x76d build/f7-firmware-C/.extapps/quac/item.o
+ .debug_loclists
+                0x00004726       0xc0 build/f7-firmware-C/.extapps/quac/quac.o
+ .debug_loclists
+                0x000047e6       0x8c build/f7-firmware-C/.extapps/quac/quac_settings.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x94f
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x183 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .debug_rnglists
+                0x00000183       0x2b build/f7-firmware-C/.extapps/quac/actions/action.o
+ .debug_rnglists
+                0x000001ae       0x14 build/f7-firmware-C/.extapps/quac/actions/action_ibutton.o
+ .debug_rnglists
+                0x000001c2       0x39 build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+ .debug_rnglists
+                0x000001fb       0x37 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .debug_rnglists
+                0x00000232       0x20 build/f7-firmware-C/.extapps/quac/actions/action_nfc.o
+ .debug_rnglists
+                0x00000252       0x44 build/f7-firmware-C/.extapps/quac/actions/action_qpl.o
+ .debug_rnglists
+                0x00000296       0x27 build/f7-firmware-C/.extapps/quac/actions/action_rfid.o
+ .debug_rnglists
+                0x000002bd       0x34 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .debug_rnglists
+                0x000002f1       0x25 build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .debug_rnglists
+                0x00000316       0x34 build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .debug_rnglists
+                0x0000034a       0x56 build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .debug_rnglists
+                0x000003a0       0x45 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .debug_rnglists
+                0x000003e5       0xcc build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .debug_rnglists
+                0x000004b1       0x4d build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .debug_rnglists
+                0x000004fe       0x5c build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .debug_rnglists
+                0x0000055a       0x19 build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+ .debug_rnglists
+                0x00000573      0x2c5 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .debug_rnglists
+                0x00000838       0xd4 build/f7-firmware-C/.extapps/quac/item.o
+ .debug_rnglists
+                0x0000090c       0x22 build/f7-firmware-C/.extapps/quac/quac.o
+ .debug_rnglists
+                0x0000092e       0x21 build/f7-firmware-C/.extapps/quac/quac_settings.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/quac/actions/helpers/subghz_txrx.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/quac/actions/action.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/quac/actions/action_ibutton.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/quac/actions/action_ir.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/quac/actions/action_ir_utils.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/quac/actions/action_nfc.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/quac/actions/action_qpl.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/quac/actions/action_rfid.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/quac/actions/action_subghz.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/quac/scenes/scene_about.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/quac/scenes/scene_action_create_group.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/quac/scenes/scene_action_ir_list.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/quac/scenes/scene_action_rename.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/quac/scenes/scene_action_settings.o
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/quac/scenes/scene_items.o
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/quac/scenes/scene_settings.o
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/quac/scenes/scenes.o
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/.extapps/quac/views/action_menu.o
+ .ARM.attributes
+                0x000003a8       0x34 build/f7-firmware-C/.extapps/quac/item.o
+ .ARM.attributes
+                0x000003dc       0x34 build/f7-firmware-C/.extapps/quac/quac.o
+ .ARM.attributes
+                0x00000410       0x34 build/f7-firmware-C/.extapps/quac/quac_settings.o
+ .ARM.attributes
+                0x00000444       0x34 build/f7-firmware-C/.extapps/quac/quac_icons.o
+ .ARM.attributes
+                0x00000478       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/quac_d.elf elf32-littlearm)
+LOAD linker stubs

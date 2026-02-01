@@ -1,0 +1,1451 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .text.main_menu_change_item_label
+                0x00000000       0x64 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .text.main_menu_get_selected_item
+                0x00000000       0x44 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .text.main_menu_set_selected_item
+                0x00000000       0x70 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .text.main_menu_set_orientation
+                0x00000000       0x6c build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line.text.main_menu_change_item_label
+                0x00000000      0x123 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line.text.main_menu_get_selected_item
+                0x00000000      0x131 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line.text.main_menu_set_selected_item
+                0x00000000      0x16f build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line.text.main_menu_set_orientation
+                0x00000000      0x149 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .rodata.on_rgb_mode_changed.str1.1
+                0x00000000       0x16 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .text.on_rgb_mode_changed
+                0x00000000       0x78 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .rodata.on_channelswitchdelay_changed.str1.1
+                0x00000000       0x17 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .text.on_channelswitchdelay_changed
+                0x00000000       0x58 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .rodata.on_togglechannelhopping_changed.str1.1
+                0x00000000       0x17 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .text.on_togglechannelhopping_changed
+                0x00000000       0x58 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .rodata.on_ble_mac_changed.str1.1
+                0x00000000       0x17 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .text.on_ble_mac_changed
+                0x00000000       0x58 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .text.on_stop_on_back_changed
+                0x00000000       0x34 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .rodata.on_reboot_esp_changed.str1.1
+                0x00000000        0xf build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .text.on_reboot_esp_changed
+                0x00000000       0x40 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .rodata.on_clear_logs_changed.str1.1
+                0x00000000       0x52 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .text.on_clear_logs_changed
+                0x00000000       0x58 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .rodata.on_clear_nvs_changed.str1.1
+                0x00000000       0x50 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .text.on_clear_nvs_changed
+                0x00000000       0x58 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .rodata.on_clear_wardrive_changed.str1.1
+                0x00000000       0x61 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .text.on_clear_wardrive_changed
+                0x00000000       0x58 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .rodata.on_clear_pcaps_changed.str1.1
+                0x00000000       0x59 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .text.on_clear_pcaps_changed
+                0x00000000       0x58 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .text.on_disable_esp_check_changed
+                0x00000000       0x34 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .rodata.str1.1
+                0x00000000       0x10 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .rodata        0x00000000        0xc build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.on_rgb_mode_changed
+                0x00000000       0x63 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.on_channelswitchdelay_changed
+                0x00000000       0x49 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.on_togglechannelhopping_changed
+                0x00000000       0x49 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.on_ble_mac_changed
+                0x00000000       0x49 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.on_stop_on_back_changed
+                0x00000000       0x43 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.on_reboot_esp_changed
+                0x00000000       0x42 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.on_clear_logs_changed
+                0x00000000       0x48 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.on_clear_nvs_changed
+                0x00000000       0x48 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.on_clear_wardrive_changed
+                0x00000000       0x48 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.on_clear_pcaps_changed
+                0x00000000       0x48 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.on_disable_esp_check_changed
+                0x00000000       0x44 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/log_manager.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/log_manager.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/log_manager.o
+ .rodata.get_latest_log_file.str1.1
+                0x00000000       0x62 build/f7-firmware-C/.extapps/ghost_esp/src/log_manager.o
+ .text.get_latest_log_file
+                0x00000000      0x220 build/f7-firmware-C/.extapps/ghost_esp/src/log_manager.o
+ .debug_info    0x00000000      0x9a3 build/f7-firmware-C/.extapps/ghost_esp/src/log_manager.o
+ .debug_abbrev  0x00000000      0x28a build/f7-firmware-C/.extapps/ghost_esp/src/log_manager.o
+ .debug_loclists
+                0x00000000      0x21b build/f7-firmware-C/.extapps/ghost_esp/src/log_manager.o
+ .debug_aranges
+                0x00000000       0x20 build/f7-firmware-C/.extapps/ghost_esp/src/log_manager.o
+ .debug_rnglists
+                0x00000000       0x2f build/f7-firmware-C/.extapps/ghost_esp/src/log_manager.o
+ .debug_line    0x00000000      0x2b5 build/f7-firmware-C/.extapps/ghost_esp/src/log_manager.o
+ .debug_str     0x00000000      0x5b0 build/f7-firmware-C/.extapps/ghost_esp/src/log_manager.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ghost_esp/src/log_manager.o
+ .debug_line.text.get_latest_log_file
+                0x00000000      0x220 build/f7-firmware-C/.extapps/ghost_esp/src/log_manager.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/log_manager.o
+ .debug_frame   0x00000000       0x40 build/f7-firmware-C/.extapps/ghost_esp/src/log_manager.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/main.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/main.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/main.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ghost_esp/src/main.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.send_uart_command_with_bytes
+                0x00000000       0x24 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.handle_wifi_menu
+                0x00000000       0x84 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.send_uart_command_with_bytes
+                0x00000000       0x29 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.handle_wifi_menu
+                0x00000000       0xbd build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+ .rodata.SETTING_VALUE_NAMES_ACTION
+                0x00000000        0x8 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .text.uart_storage_sync_file
+                0x00000000       0x10 build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .debug_line.text.uart_storage_sync_file
+                0x00000000       0x2e build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .text.uart_storage_reset_logs
+                0x00000000       0x70 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .debug_line.text.uart_storage_reset_logs
+                0x00000000       0x5d build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .text.uart_stop_thread
+                0x00000000       0x20 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line.text.uart_stop_thread
+                0x00000000       0x38 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+LOAD build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+LOAD build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+LOAD build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+LOAD build/f7-firmware-C/.extapps/ghost_esp/src/log_manager.o
+LOAD build/f7-firmware-C/.extapps/ghost_esp/src/main.o
+LOAD build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+LOAD build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+LOAD build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+LOAD build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+LOAD build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+LOAD build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+LOAD build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+LOAD build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+LOAD build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x7090
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.main_menu_timer_callback
+                0x00000000       0x24 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+                0x00000000                main_menu_timer_callback
+ .text.main_menu_process_up
+                0x00000024       0x48 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .text.main_menu_process_down
+                0x0000006c       0x44 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .text.main_menu_view_input_callback
+                0x000000b0       0xe8 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .text.MainMenuItemArray_reset
+                0x00000198       0x38 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .text.main_menu_view_draw_callback
+                0x000001d0      0x284 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .text.main_menu_set_help_callback
+                0x00000454        0x6 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+                0x00000454                main_menu_set_help_callback
+ *fill*         0x0000045a        0x2 
+ .text.main_menu_alloc
+                0x0000045c       0x9c build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+                0x0000045c                main_menu_alloc
+ .text.main_menu_free
+                0x000004f8       0x78 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+                0x000004f8                main_menu_free
+ .text.main_menu_get_view
+                0x00000570       0x14 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+                0x00000570                main_menu_get_view
+ .text.main_menu_add_lockable_item
+                0x00000584       0xf0 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+                0x00000584                main_menu_add_lockable_item
+ .text.main_menu_add_item
+                0x00000674       0x18 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+                0x00000674                main_menu_add_item
+ .text.main_menu_reset
+                0x0000068c       0x58 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+                0x0000068c                main_menu_reset
+ .text.main_menu_set_header
+                0x000006e4       0x48 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+                0x000006e4                main_menu_set_header
+ .text.logs_clear_confirmed_callback
+                0x0000072c       0xc8 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+                0x0000072c                logs_clear_confirmed_callback
+ .text.logs_clear_cancelled_callback
+                0x000007f4       0xc0 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+                0x000007f4                logs_clear_cancelled_callback
+ .text.nvs_clear_confirmed_callback
+                0x000008b4       0x60 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+                0x000008b4                nvs_clear_confirmed_callback
+ .text.nvs_clear_cancelled_callback
+                0x00000914       0x50 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+                0x00000914                nvs_clear_cancelled_callback
+ .text.app_info_ok_callback
+                0x00000964       0x80 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+                0x00000964                app_info_ok_callback
+ .text.app_info_cancel_callback
+                0x000009e4        0x8 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+                0x000009e4                app_info_cancel_callback
+ .text.wardrive_clear_cancelled_callback
+                0x000009ec       0x74 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+                0x000009ec                wardrive_clear_cancelled_callback
+ .text.pcap_clear_cancelled_callback
+                0x00000a60       0x74 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+                0x00000a60                pcap_clear_cancelled_callback
+ .text.wardrive_clear_confirmed_callback
+                0x00000ad4       0xb0 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+                0x00000ad4                wardrive_clear_confirmed_callback
+ .text.pcap_clear_confirmed_callback
+                0x00000b84       0xb0 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+                0x00000b84                pcap_clear_confirmed_callback
+ .text.show_app_info
+                0x00000c34       0xd0 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+                0x00000c34                show_app_info
+ .text.confirmation_view_input_callback
+                0x00000d04       0x80 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .text.confirmation_view_draw_callback
+                0x00000d84      0x11c build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .text.confirmation_view_alloc
+                0x00000ea0       0x88 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+                0x00000ea0                confirmation_view_alloc
+ .text.confirmation_view_free
+                0x00000f28       0x24 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+                0x00000f28                confirmation_view_free
+ .text.confirmation_view_get_view
+                0x00000f4c        0x6 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+                0x00000f4c                confirmation_view_get_view
+ *fill*         0x00000f52        0x2 
+ .text.confirmation_view_set_header
+                0x00000f54       0x28 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+                0x00000f54                confirmation_view_set_header
+ .text.confirmation_view_set_text
+                0x00000f7c       0x54 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+                0x00000f7c                confirmation_view_set_text
+ .text.confirmation_view_set_ok_callback
+                0x00000fd0       0x40 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+                0x00000fd0                confirmation_view_set_ok_callback
+ .text.confirmation_view_set_cancel_callback
+                0x00001010       0x40 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+                0x00001010                confirmation_view_set_cancel_callback
+ .text.ghost_esp_ep_read_html_file
+                0x00001050      0x160 build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+                0x00001050                ghost_esp_ep_read_html_file
+ .text.ghost_esp_ep_read_ir_file
+                0x000011b0      0x120 build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+                0x000011b0                ghost_esp_ep_read_ir_file
+ .text.ghost_esp_app
+                0x000012d0      0x9a0 build/f7-firmware-C/.extapps/ghost_esp/src/main.o
+                0x000012d0                ghost_esp_app
+ .text.next_line
+                0x00001c70       0x3e build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ *fill*         0x00001cae        0x2 
+ .text.show_menu
+                0x00001cb0      0x104 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.show_result_dialog
+                0x00001db4       0x5c build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.ir_show_error
+                0x00001e10       0x64 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.show_menu_help
+                0x00001e74       0x64 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.app_info_ok_callback
+                0x00001ed8       0x20 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.error_callback
+                0x00001ef8        0x8 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.ir_show_buttons_menu
+                0x00001f00       0x90 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.ir_show_remotes_menu
+                0x00001f90       0x8c build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.ir_show_universals_menu
+                0x0000201c       0x80 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.cycle_menu_item.isra.0
+                0x0000209c       0x68 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.send_uart_command
+                0x00002104       0x20 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x00002104                send_uart_command
+ .text.handle_ir_command_feedback_ex
+                0x00002124      0x7d8 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.execute_menu_command
+                0x000028fc      0x760 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.ir_sweep_stop_callback
+                0x0000305c       0x28 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.ir_query_and_parse_list
+                0x00003084      0x18c build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.ir_query_and_parse_universals
+                0x00003210      0x150 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.text_view_input_handler
+                0x00003360       0x94 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x00003360                text_view_input_handler
+ .text.send_uart_command_with_text
+                0x000033f4       0x3c build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x000033f4                send_uart_command_with_text
+ .text.text_input_result_callback
+                0x00003430      0x168 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.show_wifi_scanning_menu
+                0x00003598       0x94 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x00003598                show_wifi_scanning_menu
+ .text.show_wifi_capture_menu
+                0x0000362c       0x24 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x0000362c                show_wifi_capture_menu
+ .text.show_wifi_attack_menu
+                0x00003650       0x48 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x00003650                show_wifi_attack_menu
+ .text.show_wifi_network_menu
+                0x00003698       0x24 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x00003698                show_wifi_network_menu
+ .text.show_wifi_settings_menu
+                0x000036bc       0x48 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x000036bc                show_wifi_settings_menu
+ .text.show_status_idle_menu
+                0x00003704       0x24 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x00003704                show_status_idle_menu
+ .text.show_ble_scanning_menu
+                0x00003728       0x24 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x00003728                show_ble_scanning_menu
+ .text.show_ble_capture_menu
+                0x0000374c       0x24 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x0000374c                show_ble_capture_menu
+ .text.show_ble_attack_menu
+                0x00003770       0x48 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x00003770                show_ble_attack_menu
+ .text.show_wifi_menu
+                0x000037b8       0xb0 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x000037b8                show_wifi_menu
+ .text.show_aerial_menu
+                0x00003868       0x24 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x00003868                show_aerial_menu
+ .text.show_ble_menu
+                0x0000388c       0x90 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x0000388c                show_ble_menu
+ .text.show_gps_menu
+                0x0000391c       0x30 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x0000391c                show_gps_menu
+ .text.show_ir_menu
+                0x0000394c       0x24 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x0000394c                show_ir_menu
+ .text.handle_ble_menu
+                0x00003970       0x54 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x00003970                handle_ble_menu
+ .text.handle_aerial_menu
+                0x000039c4       0x20 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x000039c4                handle_aerial_menu
+ .text.handle_gps_menu
+                0x000039e4       0x20 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x000039e4                handle_gps_menu
+ .text.handle_ir_menu
+                0x00003a04       0x70 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x00003a04                handle_ir_menu
+ .text.submenu_callback
+                0x00003a74      0x724 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x00003a74                submenu_callback
+ .text.show_main_menu
+                0x00004198       0xac build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x00004198                show_main_menu
+ .text.menu_input_handler
+                0x00004244      0x478 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.confirmation_cancel_callback
+                0x000046bc       0x54 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.confirmation_ok_callback
+                0x00004710       0xdc build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .text.back_event_callback
+                0x000047ec      0x3a4 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x000047ec                back_event_callback
+ .text.text_view_attach_input_handler
+                0x00004b90       0x44 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+                0x00004b90                text_view_attach_input_handler
+ .text.sequential_file_resolve_path
+                0x00004bd4      0x1a4 build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+                0x00004bd4                sequential_file_resolve_path
+ .text.sequential_file_open
+                0x00004d78       0x80 build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+                0x00004d78                sequential_file_open
+ .text.setting_is_visible
+                0x00004df8       0x14 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+                0x00004df8                setting_is_visible
+ .text.settings_get_metadata
+                0x00004e0c       0x14 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+                0x00004e0c                settings_get_metadata
+ .text.settings_storage_init
+                0x00004e20       0x9c build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+                0x00004e20                settings_storage_init
+ .text.settings_storage_save
+                0x00004ebc       0xdc build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+                0x00004ebc                settings_storage_save
+ .text.settings_storage_load
+                0x00004f98      0x100 build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+                0x00004f98                settings_storage_load
+ .text.settings_menu_callback
+                0x00005098       0x18 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .text.status_idle_menu_callback
+                0x000050b0       0x1c build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .text.wifi_settings_menu_callback
+                0x000050cc       0x1c build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .text.clear_log_files
+                0x000050e8      0x120 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+                0x000050e8                clear_log_files
+ .text.clear_pcap_files
+                0x00005208       0xf0 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+                0x00005208                clear_pcap_files
+ .text.clear_wardrive_files
+                0x000052f8       0xdc build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+                0x000052f8                clear_wardrive_files
+ .text.settings_set
+                0x000053d4      0x13c build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+                0x000053d4                settings_set
+ .text.settings_item_change_callback
+                0x00005510      0x1c4 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .text.settings_action_callback
+                0x000056d4       0x18 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .text.settings_get
+                0x000056ec       0x58 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+                0x000056ec                settings_get
+ .text.settings_setup_gui
+                0x00005744      0x130 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+                0x00005744                settings_setup_gui
+ .text.settings_custom_event_callback
+                0x00005874      0x144 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+                0x00005874                settings_custom_event_callback
+ .text.uart_storage_safe_cleanup
+                0x000059b8       0x48 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+                0x000059b8                uart_storage_safe_cleanup
+ .text.uart_storage_rx_callback
+                0x00005a00      0x150 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+                0x00005a00                uart_storage_rx_callback
+ .text.uart_storage_free
+                0x00005b50       0x9c build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+                0x00005b50                uart_storage_free
+ .text.uart_storage_init
+                0x00005bec      0x324 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+                0x00005bec                uart_storage_init
+ .text.text_buffer_mark_view_terminator
+                0x00005f10       0x1a build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .text.text_buffer_restore_view_terminator
+                0x00005f2a       0x16 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .text.uart_rx_callback
+                0x00005f40      0x26c build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .text.text_buffer_update_view
+                0x000061ac       0x44 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .text.text_buffer_add
+                0x000061f0       0xb8 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .text.handle_uart_rx_data
+                0x000062a8      0x140 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+                0x000062a8                handle_uart_rx_data
+ .text.uart_worker
+                0x000063e8      0x15c build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .text.uart_reset_text_buffers
+                0x00006544       0x4c build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+                0x00006544                uart_reset_text_buffers
+ .text.uart_copy_text_buffer
+                0x00006590       0xa4 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+                0x00006590                uart_copy_text_buffer
+ .text.uart_copy_text_buffer_tail
+                0x00006634       0xb0 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+                0x00006634                uart_copy_text_buffer_tail
+ .text.update_text_box_view
+                0x000066e4       0x94 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+                0x000066e4                update_text_box_view
+ .text.uart_free
+                0x00006778      0x158 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+                0x00006778                uart_free
+ .text.uart_init
+                0x000068d0      0x1d4 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+                0x000068d0                uart_init
+ .text.uart_send
+                0x00006aa4       0x2c build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+                0x00006aa4                uart_send
+ .text.uart_is_esp_connected
+                0x00006ad0      0x18c build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+                0x00006ad0                uart_is_esp_connected
+ .text.uart_cleanup_capture_streams
+                0x00006c5c       0x80 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+                0x00006c5c                uart_cleanup_capture_streams
+ .text.uart_receive_data
+                0x00006cdc      0x2a0 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+                0x00006cdc                uart_receive_data
+ .text.show_confirmation_dialog_ex
+                0x00006f7c       0xfc build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+                0x00006f7c                show_confirmation_dialog_ex
+ .text.show_confirmation_view_wrapper
+                0x00007078       0x18 build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+                0x00007078                show_confirmation_view_wrapper
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00007090     0x8e67
+ *(.rodata)
+ .rodata        0x00007090        0x8 build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .rodata        0x00007098        0xc build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.main_menu_view_draw_callback.str1.1
+                0x000070a4        0x5 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ *fill*         0x000070a9        0x3 
+ .rodata.CSWTCH.39
+                0x000070ac       0x10 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .rodata.logs_clear_confirmed_callback.str1.1
+                0x000070bc       0x93 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .rodata.logs_clear_cancelled_callback.str1.1
+                0x0000714f       0x25 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .rodata.nvs_clear_confirmed_callback.str1.1
+                0x00007174       0x11 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .rodata.app_info_ok_callback.str1.1
+                0x00007185       0x45 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .rodata.wardrive_clear_cancelled_callback.str1.1
+                0x000071ca       0x1e build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .rodata.pcap_clear_cancelled_callback.str1.1
+                0x000071e8        0xa build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .rodata.show_app_info.str1.1
+                0x000071f2       0xb2 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .rodata.confirmation_view_draw_callback.str1.1
+                0x000072a4        0x7 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .rodata.confirmation_view_set_ok_callback.str1.1
+                0x000072ab       0x53 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .rodata.confirmation_view_set_cancel_callback.str1.1
+                0x000072fe       0x52 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .rodata.ghost_esp_ep_read_html_file.str1.1
+                0x00007350       0x73 build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+ .rodata.ghost_esp_ep_read_ir_file.str1.1
+                0x000073c3       0x12 build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+ .rodata.ghost_esp_app.str1.1
+                0x000073d5      0x309 build/f7-firmware-C/.extapps/ghost_esp/src/main.o
+ .rodata.ir_show_error.str1.1
+                0x000076de        0x9 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.show_menu_help.str1.1
+                0x000076e7      0x17e build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.ir_show_buttons_menu.str1.1
+                0x00007865       0x1d build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.ir_show_remotes_menu.str1.1
+                0x00007882        0xb build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.ir_show_universals_menu.str1.1
+                0x0000788d        0xe build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.handle_ir_command_feedback_ex.str1.1
+                0x0000789b      0x563 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.execute_menu_command.str1.1
+                0x00007dfe      0x19e build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.ir_sweep_stop_callback.str1.1
+                0x00007f9c        0x6 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.ir_query_and_parse_list.str1.1
+                0x00007fa2       0x2f build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.ir_query_and_parse_universals.str1.1
+                0x00007fd1       0x60 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.text_view_input_handler.str1.1
+                0x00008031       0x47 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.send_uart_command_with_text.str1.1
+                0x00008078        0x7 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.text_input_result_callback.str1.1
+                0x0000807f       0x28 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.show_wifi_scanning_menu.str1.1
+                0x000080a7       0x13 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.show_wifi_capture_menu.str1.1
+                0x000080ba        0xf build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.show_wifi_attack_menu.str1.1
+                0x000080c9        0x8 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.show_wifi_network_menu.str1.1
+                0x000080d1       0x11 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.show_wifi_settings_menu.str1.1
+                0x000080e2       0x14 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.show_status_idle_menu.str1.1
+                0x000080f6       0x14 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.show_ble_scanning_menu.str1.1
+                0x0000810a       0x15 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.show_ble_attack_menu.str1.1
+                0x0000811f       0x13 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.show_wifi_menu.str1.1
+                0x00008132       0x79 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.show_aerial_menu.str1.1
+                0x000081ab       0x11 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.show_ble_menu.str1.1
+                0x000081bc       0x57 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.show_gps_menu.str1.1
+                0x00008213        0xe build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.show_ir_menu.str1.1
+                0x00008221        0xd build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.handle_ir_menu.str1.1
+                0x0000822e       0x31 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.submenu_callback.str1.1
+                0x0000825f       0xdb build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.show_main_menu.str1.1
+                0x0000833a       0x17 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.confirmation_ok_callback.str1.1
+                0x00008351       0x93 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.back_event_callback.str1.1
+                0x000083e4       0x26 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.str1.1
+                0x0000840a     0x411f build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ *fill*         0x0000c529        0x3 
+ .rodata.ir_commands
+                0x0000c52c      0x240 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.aerial_commands
+                0x0000c76c      0x1e0 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.gps_commands
+                0x0000c94c      0x150 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.ble_stop_command
+                0x0000ca9c       0x30 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.ble_attack_commands
+                0x0000cacc       0xc0 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.ble_capture_commands
+                0x0000cb8c       0x30 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.ble_scanning_commands
+                0x0000cbbc      0x2a0 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.status_idle_commands
+                0x0000ce5c      0x1b0 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.wifi_stop_command
+                0x0000d00c       0x30 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.wifi_settings_commands
+                0x0000d03c      0x480 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.wifi_network_commands
+                0x0000d4bc      0x2a0 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.wifi_attack_commands
+                0x0000d75c      0x360 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.wifi_capture_commands
+                0x0000dabc       0x30 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.wifi_scanning_commands
+                0x0000daec      0x300 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.wifi_listen_modes
+                0x0000ddec       0x30 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.wifi_select_modes
+                0x0000de1c       0x30 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.wifi_list_modes
+                0x0000de4c       0x30 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.wifi_scan_modes
+                0x0000de7c       0x60 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.rgbmode_commands
+                0x0000dedc      0x138 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.ble_spam_commands
+                0x0000e014       0x78 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.beacon_spam_commands
+                0x0000e08c       0x60 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.sniff_commands
+                0x0000e0ec       0x54 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .rodata.sequential_file_resolve_path.str1.1
+                0x0000e140       0xde build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+ .rodata.sequential_file_open.str1.1
+                0x0000e21e       0x6e build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+ .rodata.str1.1
+                0x0000e28c      0x19d build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+ *fill*         0x0000e429        0x3 
+ .rodata.SETTING_METADATA
+                0x0000e42c      0x118 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+                0x0000e42c                SETTING_METADATA
+ .rodata.SETTING_VALUE_NAMES_LOG_VIEW
+                0x0000e544        0x8 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+                0x0000e544                SETTING_VALUE_NAMES_LOG_VIEW
+ .rodata.SETTING_VALUE_NAMES_BOOL
+                0x0000e54c        0x8 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+                0x0000e54c                SETTING_VALUE_NAMES_BOOL
+ .rodata.SETTING_VALUE_NAMES_CHANNEL_HOP
+                0x0000e554       0x14 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+                0x0000e554                SETTING_VALUE_NAMES_CHANNEL_HOP
+ .rodata.SETTING_VALUE_NAMES_RGB_MODE
+                0x0000e568        0xc build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+                0x0000e568                SETTING_VALUE_NAMES_RGB_MODE
+ .rodata.settings_storage_init.str1.1
+                0x0000e574       0xf1 build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .rodata.settings_storage_save.str1.1
+                0x0000e665       0xad build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .rodata.settings_storage_load.str1.1
+                0x0000e712       0x8a build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .rodata.clear_log_files.str1.1
+                0x0000e79c       0x74 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .rodata.clear_pcap_files.str1.1
+                0x0000e810       0x49 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .rodata.clear_wardrive_files.str1.1
+                0x0000e859       0x52 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .rodata.settings_set.str1.1
+                0x0000e8ab      0x111 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .rodata.settings_item_change_callback.str1.1
+                0x0000e9bc      0x1dd build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .rodata.settings_get.str1.1
+                0x0000eb99       0x28 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .rodata.settings_setup_gui.str1.1
+                0x0000ebc1       0x92 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .rodata.settings_custom_event_callback.str1.1
+                0x0000ec53      0x24c build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .rodata.str1.1
+                0x0000ee9f       0x10 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .rodata.uart_storage_rx_callback.str1.1
+                0x0000eeaf      0x1aa build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .rodata.uart_storage_reset_logs.str1.1
+                0x0000f059       0x46 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .rodata.uart_storage_free.str1.1
+                0x0000f09f       0x8a build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .rodata.uart_storage_init.str1.1
+                0x0000f129      0x519 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .rodata.str1.1
+                0x0000f642       0x19 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ *fill*         0x0000f65b        0x1 
+ .rodata.GHOST_DIRECTORIES
+                0x0000f65c       0x10 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .rodata.uart_rx_callback.str1.1
+                0x0000f66c       0x30 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .rodata.text_buffer_add.str1.1
+                0x0000f69c       0x22 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .rodata.handle_uart_rx_data.str1.1
+                0x0000f6be       0x77 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .rodata.uart_worker.str1.1
+                0x0000f735      0x11c build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .rodata.uart_free.str1.1
+                0x0000f851      0x100 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .rodata.uart_init.str1.1
+                0x0000f951      0x11a build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .rodata.uart_is_esp_connected.str1.1
+                0x0000fa6b       0xbb build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .rodata.uart_cleanup_capture_streams.str1.1
+                0x0000fb26       0x33 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .rodata.uart_receive_data.str1.1
+                0x0000fb59      0x169 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .rodata.show_confirmation_dialog_ex.str1.1
+                0x0000fcc2       0xf2 build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+ .rodata.I_infrared
+                0x0000fdb4        0xc build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+                0x0000fdb4                I_infrared
+ .rodata.I_Wifi_icon
+                0x0000fdc0        0xc build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+                0x0000fdc0                I_Wifi_icon
+ .rodata.I_GPS  0x0000fdcc        0xc build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+                0x0000fdcc                I_GPS
+ .rodata.I_Cog  0x0000fdd8        0xc build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+                0x0000fdd8                I_Cog
+ .rodata.I_BLE_icon
+                0x0000fde4        0xc build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+                0x0000fde4                I_BLE_icon
+ .rodata._I_infrared
+                0x0000fdf0        0x4 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+                0x0000fdf0                _I_infrared
+ .rodata._I_infrared_0
+                0x0000fdf4       0x28 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+                0x0000fdf4                _I_infrared_0
+ .rodata._I_Wifi_icon
+                0x0000fe1c        0x4 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+                0x0000fe1c                _I_Wifi_icon
+ .rodata._I_Wifi_icon_0
+                0x0000fe20       0x38 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+                0x0000fe20                _I_Wifi_icon_0
+ .rodata._I_GPS
+                0x0000fe58        0x4 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+                0x0000fe58                _I_GPS
+ .rodata._I_GPS_0
+                0x0000fe5c       0x2d build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+                0x0000fe5c                _I_GPS_0
+ *fill*         0x0000fe89        0x3 
+ .rodata._I_Cog
+                0x0000fe8c        0x4 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+                0x0000fe8c                _I_Cog
+ .rodata._I_Cog_0
+                0x0000fe90       0x30 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+                0x0000fe90                _I_Cog_0
+ .rodata._I_BLE_icon
+                0x0000fec0        0x4 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+                0x0000fec0                _I_BLE_icon
+ .rodata._I_BLE_icon_0
+                0x0000fec4       0x33 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+                0x0000fec4                _I_BLE_icon_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss            0x0000fef8       0x38
+ *(.bss)
+ *(.bss*)
+ .bss.current_wifi_listen_index
+                0x0000fef8        0x4 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .bss.current_wifi_select_index
+                0x0000fefc        0x4 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .bss.current_wifi_list_index
+                0x0000ff00        0x4 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .bss.current_wifi_scan_index
+                0x0000ff04        0x4 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .bss.current_ble_spam_index
+                0x0000ff08        0x4 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .bss.current_beacon_index
+                0x0000ff0c        0x4 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .bss.current_sniff_index
+                0x0000ff10        0x4 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .bss.current_rgb_index
+                0x0000ff14        0x4 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .bss.storage   0x0000ff18        0x4 build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .bss.bytes_since_sync.0
+                0x0000ff1c        0x4 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .bss.bytes_since_sync.0
+                0x0000ff20        0x4 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .bss.g_uart_callback_count
+                0x0000ff24        0x4 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+                0x0000ff24                g_uart_callback_count
+ .bss.g_uart_rx_session_started
+                0x0000ff28        0x1 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+                0x0000ff28                g_uart_rx_session_started
+ *fill*         0x0000ff29        0x3 
+ .bss.g_uart_rx_session_bytes
+                0x0000ff2c        0x4 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+                0x0000ff2c                g_uart_rx_session_bytes
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x5d0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xa8 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_aranges
+                0x000000a8       0xc8 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_aranges
+                0x00000170       0x60 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .debug_aranges
+                0x000001d0       0x28 build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+ .debug_aranges
+                0x000001f8       0x20 build/f7-firmware-C/.extapps/ghost_esp/src/main.o
+ .debug_aranges
+                0x00000218      0x190 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_aranges
+                0x000003a8       0x28 build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+ .debug_aranges
+                0x000003d0       0x28 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+ .debug_aranges
+                0x000003f8       0x38 build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .debug_aranges
+                0x00000430       0x78 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_aranges
+                0x000004a8       0x40 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .debug_aranges
+                0x000004e8       0xa8 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_aranges
+                0x00000590       0x28 build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+ .debug_aranges
+                0x000005b8       0x18 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x19fd2
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2639 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_info    0x00002639     0x26c4 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_info    0x00004cfd      0xd3d build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .debug_info    0x00005a3a     0x1343 build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+ .debug_info    0x00006d7d     0x23f3 build/f7-firmware-C/.extapps/ghost_esp/src/main.o
+ .debug_info    0x00009170     0x665a build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_info    0x0000f7ca      0x8b3 build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+ .debug_info    0x0001007d      0x3e1 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+ .debug_info    0x0001045e      0xce2 build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .debug_info    0x00011140     0x2890 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_info    0x000139d0     0x1cbf build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .debug_info    0x0001568f     0x3668 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_info    0x00018cf7     0x1027 build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+ .debug_info    0x00019d1e      0x2b4 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+
+.debug_abbrev   0x00000000     0x2e3c
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x591 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_abbrev  0x00000591      0x328 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_abbrev  0x000008b9      0x351 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .debug_abbrev  0x00000c0a      0x253 build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+ .debug_abbrev  0x00000e5d      0x2c2 build/f7-firmware-C/.extapps/ghost_esp/src/main.o
+ .debug_abbrev  0x0000111f      0x5a0 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_abbrev  0x000016bf      0x1b7 build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+ .debug_abbrev  0x00001876      0x179 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+ .debug_abbrev  0x000019ef      0x2f0 build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .debug_abbrev  0x00001cdf      0x4eb build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_abbrev  0x000021ca      0x393 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .debug_abbrev  0x0000255d      0x5e6 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_abbrev  0x00002b43      0x244 build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+ .debug_abbrev  0x00002d87       0xb5 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+
+.debug_line     0x00000000     0xa3ba
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x370 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line.text.main_menu_timer_callback
+                0x00000370       0x34 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line.text.main_menu_process_up
+                0x000003a4       0xa3 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line.text.main_menu_process_down
+                0x00000447       0x84 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line.text.main_menu_view_input_callback
+                0x000004cb      0x13e build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line.text.MainMenuItemArray_reset
+                0x00000609       0x77 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line.text.main_menu_view_draw_callback
+                0x00000680      0x27a build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line.text.main_menu_set_help_callback
+                0x000008fa       0x20 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line.text.main_menu_alloc
+                0x0000091a       0x8d build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line.text.main_menu_free
+                0x000009a7       0xed build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line.text.main_menu_get_view
+                0x00000a94       0x55 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line.text.main_menu_add_lockable_item
+                0x00000ae9      0x16a build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line.text.main_menu_add_item
+                0x00000c53       0x20 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line.text.main_menu_reset
+                0x00000c73       0x8a build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line.text.main_menu_set_header
+                0x00000cfd       0x8a build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line_end
+                0x00000d87        0x0 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_line    0x00000d87      0x533 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.logs_clear_confirmed_callback
+                0x000012ba       0x7c build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.logs_clear_cancelled_callback
+                0x00001336       0x7b build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.nvs_clear_confirmed_callback
+                0x000013b1       0x53 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.nvs_clear_cancelled_callback
+                0x00001404       0x52 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.app_info_ok_callback
+                0x00001456       0x62 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.app_info_cancel_callback
+                0x000014b8       0x17 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.wardrive_clear_cancelled_callback
+                0x000014cf       0x64 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.pcap_clear_cancelled_callback
+                0x00001533       0x64 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.wardrive_clear_confirmed_callback
+                0x00001597       0x7a build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.pcap_clear_confirmed_callback
+                0x00001611       0x7a build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line.text.show_app_info
+                0x0000168b       0x7f build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line_end
+                0x0000170a        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_line    0x0000170a      0x305 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .debug_line.text.confirmation_view_input_callback
+                0x00001a0f       0xd4 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .debug_line.text.confirmation_view_draw_callback
+                0x00001ae3       0xf0 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .debug_line.text.confirmation_view_alloc
+                0x00001bd3       0x67 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .debug_line.text.confirmation_view_free
+                0x00001c3a       0x3c build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .debug_line.text.confirmation_view_get_view
+                0x00001c76       0x25 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .debug_line.text.confirmation_view_set_header
+                0x00001c9b       0x3f build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .debug_line.text.confirmation_view_set_text
+                0x00001cda       0x9e build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .debug_line.text.confirmation_view_set_ok_callback
+                0x00001d78       0x3f build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .debug_line.text.confirmation_view_set_cancel_callback
+                0x00001db7       0x3f build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .debug_line_end
+                0x00001df6        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .debug_line    0x00001df6      0x494 build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+ .debug_line.text.ghost_esp_ep_read_html_file
+                0x0000228a      0x16d build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+ .debug_line.text.ghost_esp_ep_read_ir_file
+                0x000023f7      0x127 build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+ .debug_line_end
+                0x0000251e        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+ .debug_line    0x0000251e      0x5a9 build/f7-firmware-C/.extapps/ghost_esp/src/main.o
+ .debug_line.text.ghost_esp_app
+                0x00002ac7      0xaab build/f7-firmware-C/.extapps/ghost_esp/src/main.o
+ .debug_line_end
+                0x00003572        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/main.o
+ .debug_line    0x00003572      0x55b build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.next_line
+                0x00003acd       0x7b build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.show_menu
+                0x00003b48      0x10c build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.show_result_dialog
+                0x00003c54       0x44 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.ir_show_error
+                0x00003c98       0x4a build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.show_menu_help
+                0x00003ce2       0x38 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.app_info_ok_callback
+                0x00003d1a       0x31 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.error_callback
+                0x00003d4b       0x12 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.ir_show_buttons_menu
+                0x00003d5d       0x7c build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.ir_show_remotes_menu
+                0x00003dd9       0x7c build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.ir_show_universals_menu
+                0x00003e55       0x77 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.cycle_menu_item.isra.0
+                0x00003ecc       0x97 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.send_uart_command
+                0x00003f63       0x32 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.handle_ir_command_feedback_ex
+                0x00003f95      0x671 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.execute_menu_command
+                0x00004606      0x69b build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.ir_sweep_stop_callback
+                0x00004ca1       0x33 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.ir_query_and_parse_list
+                0x00004cd4      0x17a build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.ir_query_and_parse_universals
+                0x00004e4e      0x14b build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.text_view_input_handler
+                0x00004f99       0xc2 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.send_uart_command_with_text
+                0x0000505b       0x28 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.text_input_result_callback
+                0x00005083       0xf4 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.show_wifi_scanning_menu
+                0x00005177       0x7e build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.show_wifi_capture_menu
+                0x000051f5       0x1f build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.show_wifi_attack_menu
+                0x00005214       0x39 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.show_wifi_network_menu
+                0x0000524d       0x1f build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.show_wifi_settings_menu
+                0x0000526c       0x39 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.show_status_idle_menu
+                0x000052a5       0x1f build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.show_ble_scanning_menu
+                0x000052c4       0x1f build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.show_ble_capture_menu
+                0x000052e3       0x1f build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.show_ble_attack_menu
+                0x00005302       0x39 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.show_wifi_menu
+                0x0000533b       0x32 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.show_aerial_menu
+                0x0000536d       0x1f build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.show_ble_menu
+                0x0000538c       0x30 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.show_gps_menu
+                0x000053bc       0x24 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.show_ir_menu
+                0x000053e0       0x1f build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.handle_ble_menu
+                0x000053ff       0x86 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.handle_aerial_menu
+                0x00005485       0x2f build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.handle_gps_menu
+                0x000054b4       0x2f build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.handle_ir_menu
+                0x000054e3       0x71 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.submenu_callback
+                0x00005554      0x594 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.show_main_menu
+                0x00005ae8       0x39 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.menu_input_handler
+                0x00005b21      0x40e build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.confirmation_cancel_callback
+                0x00005f2f       0x5a build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.confirmation_ok_callback
+                0x00005f89       0xb9 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.back_event_callback
+                0x00006042      0x1b4 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line.text.text_view_attach_input_handler
+                0x000061f6       0x58 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line_end
+                0x0000624e        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_line    0x0000624e      0x2b9 build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+ .debug_line.text.sequential_file_resolve_path
+                0x00006507      0x171 build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+ .debug_line.text.sequential_file_open
+                0x00006678       0x8d build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+ .debug_line_end
+                0x00006705        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+ .debug_line    0x00006705      0x185 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+ .debug_line.text.setting_is_visible
+                0x0000688a       0x2b build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+ .debug_line.text.settings_get_metadata
+                0x000068b5       0x27 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+ .debug_line_end
+                0x000068dc        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+ .debug_line    0x000068dc      0x344 build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .debug_line.text.settings_storage_init
+                0x00006c20       0x85 build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .debug_line.text.settings_storage_save
+                0x00006ca5       0xc5 build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .debug_line.text.settings_storage_load
+                0x00006d6a       0xda build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .debug_line_end
+                0x00006e44        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .debug_line    0x00006e44      0x57b build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_line.text.settings_menu_callback
+                0x000073bf       0x30 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_line.text.status_idle_menu_callback
+                0x000073ef       0x36 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_line.text.wifi_settings_menu_callback
+                0x00007425       0x36 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_line.text.clear_log_files
+                0x0000745b       0xd8 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_line.text.clear_pcap_files
+                0x00007533       0xb8 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_line.text.clear_wardrive_files
+                0x000075eb       0x8f build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_line.text.settings_set
+                0x0000767a      0x197 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_line.text.settings_item_change_callback
+                0x00007811      0x154 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_line.text.settings_action_callback
+                0x00007965       0x2b build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_line.text.settings_get
+                0x00007990       0x71 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_line.text.settings_setup_gui
+                0x00007a01       0xe0 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_line.text.settings_custom_event_callback
+                0x00007ae1       0xb9 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_line_end
+                0x00007b9a        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_line    0x00007b9a      0x538 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .debug_line.text.uart_storage_safe_cleanup
+                0x000080d2       0x63 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .debug_line.text.uart_storage_rx_callback
+                0x00008135      0x158 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .debug_line.text.uart_storage_free
+                0x0000828d       0x70 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .debug_line.text.uart_storage_init
+                0x000082fd      0x317 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .debug_line_end
+                0x00008614        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .debug_line    0x00008614      0x5cd build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line.text.text_buffer_mark_view_terminator
+                0x00008be1       0x4a build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line.text.text_buffer_restore_view_terminator
+                0x00008c2b       0x37 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line.text.uart_rx_callback
+                0x00008c62      0x30c build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line.text.text_buffer_update_view
+                0x00008f6e       0x69 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line.text.text_buffer_add
+                0x00008fd7       0xdf build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line.text.handle_uart_rx_data
+                0x000090b6      0x112 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line.text.uart_worker
+                0x000091c8      0x14a build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line.text.uart_reset_text_buffers
+                0x00009312       0x5d build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line.text.uart_copy_text_buffer
+                0x0000936f      0x107 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line.text.uart_copy_text_buffer_tail
+                0x00009476      0x101 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line.text.update_text_box_view
+                0x00009577       0x74 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line.text.uart_free
+                0x000095eb      0x110 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line.text.uart_init
+                0x000096fb      0x19f build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line.text.uart_send
+                0x0000989a       0x53 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line.text.uart_is_esp_connected
+                0x000098ed      0x142 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line.text.uart_cleanup_capture_streams
+                0x00009a2f       0x7f build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line.text.uart_receive_data
+                0x00009aae      0x236 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line_end
+                0x00009ce4        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_line    0x00009ce4      0x47f build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+ .debug_line.text.show_confirmation_dialog_ex
+                0x0000a163       0xa3 build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+ .debug_line.text.show_confirmation_view_wrapper
+                0x0000a206       0x21 build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+ .debug_line_end
+                0x0000a227        0x0 build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+ .debug_line    0x0000a227      0x193 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+ .debug_line_end
+                0x0000a3ba        0x0 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+
+.debug_frame    0x00000000     0x1588
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x288 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_frame   0x00000288      0x360 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_frame   0x000005e8      0x158 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .debug_frame   0x00000740       0x70 build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+ .debug_frame   0x000007b0       0x38 build/f7-firmware-C/.extapps/ghost_esp/src/main.o
+ .debug_frame   0x000007e8      0x65c build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_frame   0x00000e44       0x5c build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+ .debug_frame   0x00000ea0       0x30 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+ .debug_frame   0x00000ed0       0xa4 build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .debug_frame   0x00000f74      0x1e8 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_frame   0x0000115c       0xf0 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .debug_frame   0x0000124c      0x2dc build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_frame   0x00001528       0x60 build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+
+.debug_str      0x00000000     0xe7a8
+ *(.debug_str)
+ .debug_str     0x00000000      0xf61 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_str     0x00000f61     0x14c8 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_str     0x00002429      0x89a build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .debug_str     0x00002cc3     0x10ba build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+ .debug_str     0x00003d7d     0x168d build/f7-firmware-C/.extapps/ghost_esp/src/main.o
+ .debug_str     0x0000540a     0x22b7 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_str     0x000076c1      0x5c9 build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+ .debug_str     0x00007c8a      0x5a6 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+ .debug_str     0x00008230      0x8e1 build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .debug_str     0x00008b11     0x173b build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_str     0x0000a24c     0x122a build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .debug_str     0x0000b476     0x20f4 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_str     0x0000d56a      0xf4b build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+ .debug_str     0x0000e4b5      0x2f3 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x6b26
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0xea2 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_loclists
+                0x00000ea2      0x889 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_loclists
+                0x0000172b      0x613 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .debug_loclists
+                0x00001d3e      0x392 build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+ .debug_loclists
+                0x000020d0       0xf6 build/f7-firmware-C/.extapps/ghost_esp/src/main.o
+ .debug_loclists
+                0x000021c6     0x2a31 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_loclists
+                0x00004bf7      0x2b5 build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+ .debug_loclists
+                0x00004eac       0x4b build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+ .debug_loclists
+                0x00004ef7      0x1dd build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .debug_loclists
+                0x000050d4      0x821 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_loclists
+                0x000058f5      0x4f3 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .debug_loclists
+                0x00005de8      0xc12 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_loclists
+                0x000069fa      0x12c build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0xb0b
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x289 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .debug_rnglists
+                0x00000289       0xa3 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .debug_rnglists
+                0x0000032c       0x93 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .debug_rnglists
+                0x000003bf       0x4f build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+ .debug_rnglists
+                0x0000040e       0x30 build/f7-firmware-C/.extapps/ghost_esp/src/main.o
+ .debug_rnglists
+                0x0000043e      0x3a4 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .debug_rnglists
+                0x000007e2       0x1b build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+ .debug_rnglists
+                0x000007fd       0x19 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+ .debug_rnglists
+                0x00000816       0x4c build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .debug_rnglists
+                0x00000862       0xaf build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .debug_rnglists
+                0x00000911       0x95 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .debug_rnglists
+                0x000009a6      0x14b build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .debug_rnglists
+                0x00000af1       0x1a build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/ghost_esp/gui_modules/mainmenu.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/ghost_esp/src/callbacks.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/ghost_esp/src/confirmation_view.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/ghost_esp/src/ghost_esp_ep.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/ghost_esp/src/log_manager.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/ghost_esp/src/main.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/ghost_esp/src/menu.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/ghost_esp/src/sequential_file.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/ghost_esp/src/settings_def.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/ghost_esp/src/settings_storage.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/ghost_esp/src/settings_ui.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/ghost_esp/src/uart_storage.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/ghost_esp/src/uart_utils.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/ghost_esp/src/utils.o
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/ghost_esp/ghost_esp_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/ghost_esp_d.elf elf32-littlearm)
+LOAD linker stubs

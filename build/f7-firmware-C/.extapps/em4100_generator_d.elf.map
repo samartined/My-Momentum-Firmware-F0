@@ -1,0 +1,242 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/em4100_generator/key_generator_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/em4100_generator/key_generator_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/em4100_generator/key_generator_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/em4100_generator/key_generator_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+LOAD build/f7-firmware-C/.extapps/em4100_generator/key_generator_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x614
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.app_input_callback
+                0x00000000       0x14 build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+ .text.app_draw_callback
+                0x00000014       0x58 build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+ .text.key_generator_main
+                0x0000006c      0x5a8 build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+                0x0000006c                key_generator_main
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000614      0x2dd
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.app_draw_callback.str1.1
+                0x00000614       0x27 build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+ .rodata.key_generator_main.str1.1
+                0x0000063b      0x1ec build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+ *fill*         0x00000827        0x1 
+ .rodata.I_ok_64x64
+                0x00000828        0xc build/f7-firmware-C/.extapps/em4100_generator/key_generator_icons.o
+                0x00000828                I_ok_64x64
+ .rodata.I_icon_10x10
+                0x00000834        0xc build/f7-firmware-C/.extapps/em4100_generator/key_generator_icons.o
+                0x00000834                I_icon_10x10
+ .rodata._I_ok_64x64
+                0x00000840        0x4 build/f7-firmware-C/.extapps/em4100_generator/key_generator_icons.o
+                0x00000840                _I_ok_64x64
+ .rodata._I_ok_64x64_0
+                0x00000844       0x94 build/f7-firmware-C/.extapps/em4100_generator/key_generator_icons.o
+                0x00000844                _I_ok_64x64_0
+ .rodata._I_icon_10x10
+                0x000008d8        0x4 build/f7-firmware-C/.extapps/em4100_generator/key_generator_icons.o
+                0x000008d8                _I_icon_10x10
+ .rodata._I_icon_10x10_0
+                0x000008dc       0x15 build/f7-firmware-C/.extapps/em4100_generator/key_generator_icons.o
+                0x000008dc                _I_icon_10x10_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss            0x000008f4        0x8
+ *(.bss)
+ *(.bss*)
+ .bss.key       0x000008f4        0x4 build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+                0x000008f4                key
+ .bss.file_path
+                0x000008f8        0x4 build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+                0x000008f8                file_path
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x48
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+ .debug_aranges
+                0x00000030       0x18 build/f7-firmware-C/.extapps/em4100_generator/key_generator_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1ed3
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1d06 build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+ .debug_info    0x00001d06      0x1cd build/f7-firmware-C/.extapps/em4100_generator/key_generator_icons.o
+
+.debug_abbrev   0x00000000      0x40f
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x35a build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+ .debug_abbrev  0x0000035a       0xb5 build/f7-firmware-C/.extapps/em4100_generator/key_generator_icons.o
+
+.debug_line     0x00000000      0xa1c
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x472 build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+ .debug_line.text.app_input_callback
+                0x00000472       0x25 build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+ .debug_line.text.app_draw_callback
+                0x00000497       0x30 build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+ .debug_line.text.key_generator_main
+                0x000004c7      0x3b3 build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+ .debug_line_end
+                0x0000087a        0x0 build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+ .debug_line    0x0000087a      0x1a2 build/f7-firmware-C/.extapps/em4100_generator/key_generator_icons.o
+ .debug_line_end
+                0x00000a1c        0x0 build/f7-firmware-C/.extapps/em4100_generator/key_generator_icons.o
+
+.debug_frame    0x00000000       0x74
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x74 build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+
+.debug_str      0x00000000     0x11dd
+ *(.debug_str)
+ .debug_str     0x00000000      0xf2d build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+ .debug_str     0x00000f2d      0x2b0 build/f7-firmware-C/.extapps/em4100_generator/key_generator_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x1ab
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x1ab build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x2f
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x2f build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/em4100_generator/key_generator.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/em4100_generator/key_generator_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/em4100_generator_d.elf elf32-littlearm)
+LOAD linker stubs

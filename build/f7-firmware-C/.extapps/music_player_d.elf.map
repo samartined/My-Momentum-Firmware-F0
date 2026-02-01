@@ -1,0 +1,360 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+                              build/f7-firmware-C/.extapps/music_player/music_player.o (music_worker_alloc)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/music_player/music_player.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/music_player/music_player_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/music_player/music_player_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/music_player/music_player_icons.o
+ .debug_info    0x00000000       0x7a build/f7-firmware-C/.extapps/music_player/music_player_icons.o
+ .debug_abbrev  0x00000000       0x26 build/f7-firmware-C/.extapps/music_player/music_player_icons.o
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/music_player/music_player_icons.o
+ .debug_line    0x00000000       0x5f build/f7-firmware-C/.extapps/music_player/music_player_icons.o
+ .debug_str     0x00000000      0x205 build/f7-firmware-C/.extapps/music_player/music_player_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/music_player/music_player_icons.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/music_player/music_player_icons.o
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .text.music_worker_is_playing
+                0x00000000        0x4 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .debug_line.text.music_worker_is_playing
+                0x00000000       0x1e build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/music_player/music_player.o
+LOAD build/f7-firmware-C/.extapps/music_player/music_player_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/lib/libmusic_worker.a
+LOAD build/f7-firmware-C/lib/libmusic_worker.a
+
+.text           0x00000000      0xe10
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.render_callback
+                0x00000000      0x2f8 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .text.input_callback
+                0x000002f8       0x18 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .text.music_worker_callback
+                0x00000310       0x88 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .text.music_player_clear
+                0x00000398       0x18 build/f7-firmware-C/.extapps/music_player/music_player.o
+                0x00000398                music_player_clear
+ .text.music_player_alloc
+                0x000003b0       0xc0 build/f7-firmware-C/.extapps/music_player/music_player.o
+                0x000003b0                music_player_alloc
+ .text.music_player_free
+                0x00000470       0x5c build/f7-firmware-C/.extapps/music_player/music_player.o
+                0x00000470                music_player_free
+ .text.music_player_app
+                0x000004cc      0x1ec build/f7-firmware-C/.extapps/music_player/music_player.o
+                0x000004cc                music_player_app
+ .text.extract_number
+                0x000006b8       0x34 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .text.skip_till
+                0x000006ec       0x16 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ *fill*         0x00000702        0x2 
+ .text.music_worker_thread_callback
+                0x00000704      0x17c build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .text.music_worker_parse_notes
+                0x00000880      0x1fc build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .text.music_worker_alloc
+                0x00000a7c       0x3c build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+                0x00000a7c                music_worker_alloc
+ .text.music_worker_clear
+                0x00000ab8        0x6 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+                0x00000ab8                music_worker_clear
+ *fill*         0x00000abe        0x2 
+ .text.music_worker_free
+                0x00000ac0       0x24 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+                0x00000ac0                music_worker_free
+ .text.music_worker_load_fmf_from_file
+                0x00000ae4      0x128 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+                0x00000ae4                music_worker_load_fmf_from_file
+ .text.music_worker_load_rtttl_from_string
+                0x00000c0c       0xa0 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+                0x00000c0c                music_worker_load_rtttl_from_string
+ .text.music_worker_load_rtttl_from_file
+                0x00000cac      0x104 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+                0x00000cac                music_worker_load_rtttl_from_file
+ .text.music_worker_load
+                0x00000db0       0x34 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+                0x00000db0                music_worker_load
+ .text.music_worker_set_callback
+                0x00000de4        0x6 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+                0x00000de4                music_worker_set_callback
+ .text.music_worker_set_volume
+                0x00000dea        0x6 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+                0x00000dea                music_worker_set_volume
+ .text.music_worker_start
+                0x00000df0       0x10 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+                0x00000df0                music_worker_start
+ .text.music_worker_stop
+                0x00000e00       0x10 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+                0x00000e00                music_worker_stop
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000e10      0x257
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.render_callback.str1.1
+                0x00000e10       0x12 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .rodata.music_player_alloc.str1.1
+                0x00000e22        0x4 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .rodata.music_player_app.str1.1
+                0x00000e26       0x83 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .rodata.str1.1
+                0x00000ea9       0x1d build/f7-firmware-C/.extapps/music_player/music_player.o
+ *fill*         0x00000ec6        0x2 
+ .rodata.CSWTCH.3
+                0x00000ec8       0x30 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .rodata.MUSIC_PLAYER_VOLUMES
+                0x00000ef8       0x14 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .rodata.music_worker_thread_callback.str1.1
+                0x00000f0c       0x39 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .rodata.music_worker_parse_notes.str1.1
+                0x00000f45       0x3e build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .rodata.music_worker_load_fmf_from_file.str1.1
+                0x00000f83       0x9e build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .rodata.music_worker_load_rtttl_from_file.str1.1
+                0x00001021       0x3a build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .rodata.music_worker_load.str1.1
+                0x0000105b        0x5 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .rodata.CSWTCH.64
+                0x00001060        0x7 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xe8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x50 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .debug_aranges
+                0x00000050       0x98 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x36cf
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1b6c build/f7-firmware-C/.extapps/music_player/music_player.o
+ .debug_info    0x00001b6c     0x1b63 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+
+.debug_abbrev   0x00000000      0x9fe
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x517 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .debug_abbrev  0x00000517      0x4e7 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+
+.debug_line     0x00000000     0x1868
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x4a4 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .debug_line.text.render_callback
+                0x000004a4      0x2d6 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .debug_line.text.input_callback
+                0x0000077a       0x33 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .debug_line.text.music_worker_callback
+                0x000007ad      0x190 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .debug_line.text.music_player_clear
+                0x0000093d       0x19 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .debug_line.text.music_player_alloc
+                0x00000956       0x91 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .debug_line.text.music_player_free
+                0x000009e7       0x37 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .debug_line.text.music_player_app
+                0x00000a1e      0x1b3 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .debug_line_end
+                0x00000bd1        0x0 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .debug_line    0x00000bd1      0x387 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .debug_line.text.extract_number
+                0x00000f58       0x71 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .debug_line.text.skip_till
+                0x00000fc9       0x42 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .debug_line.text.music_worker_thread_callback
+                0x0000100b      0x186 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .debug_line.text.music_worker_parse_notes
+                0x00001191      0x276 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .debug_line.text.music_worker_alloc
+                0x00001407       0x64 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .debug_line.text.music_worker_clear
+                0x0000146b       0x31 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .debug_line.text.music_worker_free
+                0x0000149c       0x51 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .debug_line.text.music_worker_load_fmf_from_file
+                0x000014ed       0xe5 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .debug_line.text.music_worker_load_rtttl_from_string
+                0x000015d2       0xdc build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .debug_line.text.music_worker_load_rtttl_from_file
+                0x000016ae       0xe3 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .debug_line.text.music_worker_load
+                0x00001791       0x49 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .debug_line.text.music_worker_set_callback
+                0x000017da       0x20 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .debug_line.text.music_worker_set_volume
+                0x000017fa       0x20 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .debug_line.text.music_worker_start
+                0x0000181a       0x27 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .debug_line.text.music_worker_stop
+                0x00001841       0x27 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ .debug_line_end
+                0x00001868        0x0 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+
+.debug_frame    0x00000000      0x308
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x104 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .debug_frame   0x00000104      0x204 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+
+.debug_str      0x00000000     0x198f
+ *(.debug_str)
+ .debug_str     0x00000000      0xdfa build/f7-firmware-C/.extapps/music_player/music_player.o
+ .debug_str     0x00000dfa      0xb95 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0xede
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x531 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .debug_loclists
+                0x00000531      0x9ad build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x264
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xeb build/f7-firmware-C/.extapps/music_player/music_player.o
+ .debug_rnglists
+                0x000000eb      0x179 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/music_player/music_player.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/music_player/music_player_icons.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/lib/libmusic_worker.a(music_worker.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/music_player_d.elf elf32-littlearm)
+LOAD linker stubs

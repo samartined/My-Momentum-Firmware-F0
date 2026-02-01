@@ -1,0 +1,406 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+LOAD build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene.o
+LOAD build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+LOAD build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+LOAD build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+LOAD build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x5d8
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.bt_get_settings
+                0x00000000       0x68 build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+                0x00000000                bt_get_settings
+ .text.bt_set_settings
+                0x00000068       0x68 build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+                0x00000068                bt_set_settings
+ .text.bt_settings_scene_forget_dev_confirm_dialog_callback
+                0x000000d0       0x10 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+                0x000000d0                bt_settings_scene_forget_dev_confirm_dialog_callback
+ .text.bt_settings_scene_forget_dev_confirm_on_enter
+                0x000000e0       0x8c build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+                0x000000e0                bt_settings_scene_forget_dev_confirm_on_enter
+ .text.bt_settings_scene_forget_dev_confirm_on_event
+                0x0000016c       0xa4 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+                0x0000016c                bt_settings_scene_forget_dev_confirm_on_event
+ .text.bt_settings_scene_forget_dev_confirm_on_exit
+                0x00000210        0xc build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+                0x00000210                bt_settings_scene_forget_dev_confirm_on_exit
+ .text.bt_settings_app_scene_forget_dev_success_popup_callback
+                0x0000021c        0xc build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+                0x0000021c                bt_settings_app_scene_forget_dev_success_popup_callback
+ .text.bt_settings_scene_forget_dev_success_on_enter
+                0x00000228       0x7c build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+                0x00000228                bt_settings_scene_forget_dev_success_on_enter
+ .text.bt_settings_scene_forget_dev_success_on_event
+                0x000002a4       0x3c build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+                0x000002a4                bt_settings_scene_forget_dev_success_on_event
+ .text.bt_settings_scene_forget_dev_success_on_exit
+                0x000002e0        0xc build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+                0x000002e0                bt_settings_scene_forget_dev_success_on_exit
+ .text.bt_settings_scene_start_var_list_change_callback
+                0x000002ec       0x40 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .text.bt_settings_scene_start_var_list_enter_callback
+                0x0000032c       0x14 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .text.bt_settings_scene_start_on_enter
+                0x00000340       0xa4 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+                0x00000340                bt_settings_scene_start_on_enter
+ .text.bt_settings_scene_start_on_event
+                0x000003e4       0x38 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+                0x000003e4                bt_settings_scene_start_on_event
+ .text.bt_settings_scene_start_on_exit
+                0x0000041c        0xc build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+                0x0000041c                bt_settings_scene_start_on_exit
+ .text.bt_settings_back_event_callback
+                0x00000428        0xc build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+ .text.bt_settings_custom_event_callback
+                0x00000434        0xc build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+ .text.bt_settings_app_alloc
+                0x00000440       0xf4 build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+                0x00000440                bt_settings_app_alloc
+ .text.bt_settings_app_free
+                0x00000534       0x80 build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+                0x00000534                bt_settings_app_free
+ .text.bt_settings_app
+                0x000005b4       0x24 build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+                0x000005b4                bt_settings_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000005d8      0x1bf
+ *(.rodata)
+ .rodata        0x000005d8       0x18 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.bt_settings_scene_handlers
+                0x000005f0       0x10 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene.o
+                0x000005f0                bt_settings_scene_handlers
+ .rodata.bt_settings_on_exit_handlers
+                0x00000600        0xc build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene.o
+                0x00000600                bt_settings_on_exit_handlers
+ .rodata.bt_settings_on_event_handlers
+                0x0000060c        0xc build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene.o
+                0x0000060c                bt_settings_on_event_handlers
+ .rodata.bt_settings_on_enter_handlers
+                0x00000618        0xc build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene.o
+                0x00000618                bt_settings_on_enter_handlers
+ .rodata.bt_settings_scene_forget_dev_confirm_on_enter.str1.1
+                0x00000624       0x46 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .rodata.bt_settings_scene_forget_dev_confirm_on_event.str1.1
+                0x0000066a        0x8 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .rodata.str1.1
+                0x00000672       0xe5 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .rodata.bt_settings_scene_forget_dev_success_on_enter.str1.1
+                0x00000757        0x5 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .rodata.bt_settings_scene_start_on_enter.str1.1
+                0x0000075c       0x2b build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ *fill*         0x00000787        0x1 
+ .rodata.bt_settings_text
+                0x00000788        0x8 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+                0x00000788                bt_settings_text
+ .rodata.bt_settings_app_alloc.str1.1
+                0x00000790        0x7 build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x130
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+ .debug_aranges
+                0x00000028       0x18 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene.o
+ .debug_aranges
+                0x00000040       0x38 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .debug_aranges
+                0x00000078       0x38 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .debug_aranges
+                0x000000b0       0x40 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .debug_aranges
+                0x000000f0       0x40 build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2ee9
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xbff build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+ .debug_info    0x00000bff      0x2e5 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene.o
+ .debug_info    0x00000ee4      0x7dd build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .debug_info    0x000016c1      0x679 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .debug_info    0x00001d3a      0x7e5 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .debug_info    0x0000251f      0x9ca build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+
+.debug_abbrev   0x00000000      0xc90
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x269 build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+ .debug_abbrev  0x00000269      0x137 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene.o
+ .debug_abbrev  0x000003a0      0x21f build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .debug_abbrev  0x000005bf      0x20b build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .debug_abbrev  0x000007ca      0x2aa build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .debug_abbrev  0x00000a74      0x21c build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+
+.debug_line     0x00000000     0x1949
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x41d build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+ .debug_line.text.bt_get_settings
+                0x0000041d       0x81 build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+ .debug_line.text.bt_set_settings
+                0x0000049e       0x83 build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+ .debug_line_end
+                0x00000521        0x0 build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+ .debug_line    0x00000521      0x1b8 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene.o
+ .debug_line_end
+                0x000006d9        0x0 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene.o
+ .debug_line    0x000006d9      0x3cb build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .debug_line.text.bt_settings_scene_forget_dev_confirm_dialog_callback
+                0x00000aa4       0x22 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .debug_line.text.bt_settings_scene_forget_dev_confirm_on_enter
+                0x00000ac6       0x36 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .debug_line.text.bt_settings_scene_forget_dev_confirm_on_event
+                0x00000afc       0xbc build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .debug_line.text.bt_settings_scene_forget_dev_confirm_on_exit
+                0x00000bb8       0x17 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .debug_line_end
+                0x00000bcf        0x0 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .debug_line    0x00000bcf      0x333 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .debug_line.text.bt_settings_app_scene_forget_dev_success_popup_callback
+                0x00000f02       0x15 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .debug_line.text.bt_settings_scene_forget_dev_success_on_enter
+                0x00000f17       0x35 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .debug_line.text.bt_settings_scene_forget_dev_success_on_event
+                0x00000f4c       0x51 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .debug_line.text.bt_settings_scene_forget_dev_success_on_exit
+                0x00000f9d       0x17 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .debug_line_end
+                0x00000fb4        0x0 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .debug_line    0x00000fb4      0x31c build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .debug_line.text.bt_settings_scene_start_var_list_change_callback
+                0x000012d0       0x45 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .debug_line.text.bt_settings_scene_start_var_list_enter_callback
+                0x00001315       0x2b build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .debug_line.text.bt_settings_scene_start_on_enter
+                0x00001340       0x70 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .debug_line.text.bt_settings_scene_start_on_event
+                0x000013b0       0x6c build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .debug_line.text.bt_settings_scene_start_on_exit
+                0x0000141c       0x18 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .debug_line_end
+                0x00001434        0x0 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .debug_line    0x00001434      0x3dd build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+ .debug_line.text.bt_settings_back_event_callback
+                0x00001811       0x1c build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+ .debug_line.text.bt_settings_custom_event_callback
+                0x0000182d       0x1d build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+ .debug_line.text.bt_settings_app_alloc
+                0x0000184a       0x91 build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+ .debug_line.text.bt_settings_app_free
+                0x000018db       0x3d build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+ .debug_line.text.bt_settings_app
+                0x00001918       0x31 build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+ .debug_line_end
+                0x00001949        0x0 build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+
+.debug_frame    0x00000000      0x28c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x50 build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+ .debug_frame   0x00000050       0x94 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .debug_frame   0x000000e4       0x80 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .debug_frame   0x00000164       0xa0 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .debug_frame   0x00000204       0x88 build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+
+.debug_str      0x00000000     0x2f9f
+ *(.debug_str)
+ .debug_str     0x00000000      0xb10 build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+ .debug_str     0x00000b10      0x590 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene.o
+ .debug_str     0x000010a0      0x7d2 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .debug_str     0x00001872      0x6e5 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .debug_str     0x00001f57      0x798 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .debug_str     0x000026ef      0x8b0 build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x68c
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000       0x84 build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+ .debug_loclists
+                0x00000084      0x1d7 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .debug_loclists
+                0x0000025b      0x10d build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .debug_loclists
+                0x00000368      0x22f build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .debug_loclists
+                0x00000597       0xf5 build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0xca
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x19 build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+ .debug_rnglists
+                0x00000019       0x33 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .debug_rnglists
+                0x0000004c       0x25 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .debug_rnglists
+                0x00000071       0x2c build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .debug_rnglists
+                0x0000009d       0x2d build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/bt_settings/mock_imports/mock_bt_settings_api.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_confirm.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_forget_dev_success.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/bt_settings/scenes/bt_settings_scene_start.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/bt_settings/bt_settings_app.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/bt_settings_d.elf elf32-littlearm)
+LOAD linker stubs

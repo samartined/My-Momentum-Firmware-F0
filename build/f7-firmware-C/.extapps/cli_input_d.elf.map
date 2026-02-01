@@ -1,0 +1,216 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/cli_input/input_cli.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/cli_input/input_cli.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x3b8
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.input_cli_usage
+                0x00000000       0x40 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+ .text.input_cli_dump_events_callback
+                0x00000040       0x14 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+ .text.fake_input
+                0x00000054       0x44 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+ .text.execute  0x00000098      0x318 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+ .text.cli_input_ep
+                0x000003b0        0x8 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+                0x000003b0                cli_input_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000003b8      0x2d4
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.input_cli_usage.str1.1
+                0x000003b8       0xa5 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+ .rodata.execute.str1.1
+                0x0000045d      0x209 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+ .rodata.str1.1
+                0x00000666        0xa build/f7-firmware-C/.extapps/cli_input/input_cli.o
+ .rodata.plugin_descriptor_input
+                0x00000670        0xc build/f7-firmware-C/.extapps/cli_input/input_cli.o
+ .rodata.cli_input_desc
+                0x0000067c       0x10 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x40
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x40 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x10dd
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x10dd build/f7-firmware-C/.extapps/cli_input/input_cli.o
+
+.debug_abbrev   0x00000000      0x336
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x336 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+
+.debug_line     0x00000000      0x6d7
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x34d build/f7-firmware-C/.extapps/cli_input/input_cli.o
+ .debug_line.text.input_cli_usage
+                0x0000034d       0x28 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+ .debug_line.text.input_cli_dump_events_callback
+                0x00000375       0x29 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+ .debug_line.text.fake_input
+                0x0000039e       0x6a build/f7-firmware-C/.extapps/cli_input/input_cli.o
+ .debug_line.text.execute
+                0x00000408      0x2bc build/f7-firmware-C/.extapps/cli_input/input_cli.o
+ .debug_line.text.cli_input_ep
+                0x000006c4       0x13 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+ .debug_line_end
+                0x000006d7        0x0 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+
+.debug_frame    0x00000000       0xac
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xac build/f7-firmware-C/.extapps/cli_input/input_cli.o
+
+.debug_str      0x00000000      0xb86
+ *(.debug_str)
+ .debug_str     0x00000000      0xb86 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x4cb
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x4cb build/f7-firmware-C/.extapps/cli_input/input_cli.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x64
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x64 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/cli_input/input_cli.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/cli_input_d.elf elf32-littlearm)
+LOAD linker stubs

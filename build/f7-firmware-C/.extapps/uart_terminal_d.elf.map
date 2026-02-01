@@ -1,0 +1,845 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .text.uart_terminal_scene_help_widget_callback
+                0x00000000       0x14 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .debug_line.text.uart_terminal_scene_help_widget_callback
+                0x00000000       0x21 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .text.uart_hex_input_set_validator
+                0x00000000       0x28 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .text.uart_hex_input_get_validator_callback
+                0x00000000       0x20 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .text.uart_hex_input_get_validator_callback_context
+                0x00000000       0x20 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line.text.uart_hex_input_set_validator
+                0x00000000       0x38 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line.text.uart_hex_input_get_validator_callback
+                0x00000000       0x31 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line.text.uart_hex_input_get_validator_callback_context
+                0x00000000       0x31 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.get_row_size
+                0x00000000       0x10 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.uart_text_input_timer_callback
+                0x00000000       0x24 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.uart_text_input_backspace_cb
+                0x00000000       0x28 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.char_to_uppercase
+                0x00000000       0x5e build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .rodata.uart_text_input_view_draw_callback.str1.1
+                0x00000000       0x1e build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.uart_text_input_view_draw_callback
+                0x00000000      0x2d0 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.uart_text_input_handle_right.constprop.0
+                0x00000000       0x20 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.uart_text_input_handle_left.constprop.0
+                0x00000000       0x20 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.uart_text_input_handle_down.constprop.0
+                0x00000000       0x28 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.uart_text_input_handle_up.constprop.0
+                0x00000000       0x24 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.uart_text_input_handle_ok
+                0x00000000      0x13c build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.uart_text_input_view_input_callback
+                0x00000000       0xe0 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.uart_text_input_free
+                0x00000000       0x50 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.uart_text_input_alloc
+                0x00000000       0x94 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.uart_text_input_get_view
+                0x00000000        0x4 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.uart_text_input_set_result_callback
+                0x00000000       0x48 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.uart_text_input_set_validator
+                0x00000000       0x28 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.uart_text_input_get_validator_callback
+                0x00000000       0x20 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.uart_text_input_get_validator_callback_context
+                0x00000000       0x20 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text.uart_text_input_set_header_text
+                0x00000000       0x24 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .rodata.CSWTCH.5
+                0x00000000       0x10 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .rodata.CSWTCH.3
+                0x00000000        0x4 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .rodata.keyboard_keys_row_4
+                0x00000000       0x2a build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .rodata.keyboard_keys_row_3
+                0x00000000       0x2d build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .rodata.keyboard_keys_row_2
+                0x00000000       0x30 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .rodata.keyboard_keys_row_1
+                0x00000000       0x30 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.get_row_size
+                0x00000000       0x24 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.uart_text_input_timer_callback
+                0x00000000       0x34 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.uart_text_input_backspace_cb
+                0x00000000       0x52 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.char_to_uppercase
+                0x00000000       0x7a build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.uart_text_input_view_draw_callback
+                0x00000000      0x20f build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.uart_text_input_handle_right.constprop.0
+                0x00000000       0x32 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.uart_text_input_handle_left.constprop.0
+                0x00000000       0x3e build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.uart_text_input_handle_down.constprop.0
+                0x00000000       0x4a build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.uart_text_input_handle_up.constprop.0
+                0x00000000       0x47 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.uart_text_input_handle_ok
+                0x00000000      0x17e build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.uart_text_input_view_input_callback
+                0x00000000       0xb3 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.uart_text_input_free
+                0x00000000       0x3f build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.uart_text_input_alloc
+                0x00000000       0x58 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.uart_text_input_get_view
+                0x00000000       0x1e build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.uart_text_input_set_result_callback
+                0x00000000       0x62 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.uart_text_input_set_validator
+                0x00000000       0x38 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.uart_text_input_get_validator_callback
+                0x00000000       0x31 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.uart_text_input_get_validator_callback_context
+                0x00000000       0x31 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.uart_text_input_set_header_text
+                0x00000000       0x36 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene.o
+LOAD build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+LOAD build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+LOAD build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+LOAD build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+LOAD build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+LOAD build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+LOAD build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+LOAD build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+LOAD build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+LOAD build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+LOAD build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x14b8
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.uart_terminal_console_output_handle_rx_data_cb
+                0x00000000       0xb0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+                0x00000000                uart_terminal_console_output_handle_rx_data_cb
+ .text.uart_terminal_scene_console_output_on_enter
+                0x000000b0      0x1a8 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+                0x000000b0                uart_terminal_scene_console_output_on_enter
+ .text.uart_terminal_scene_console_output_on_event
+                0x00000258       0x38 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+                0x00000258                uart_terminal_scene_console_output_on_event
+ .text.uart_terminal_scene_console_output_on_exit
+                0x00000290       0x10 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+                0x00000290                uart_terminal_scene_console_output_on_exit
+ .text.uart_terminal_scene_help_on_enter
+                0x000002a0       0xc0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+                0x000002a0                uart_terminal_scene_help_on_enter
+ .text.uart_terminal_scene_help_on_event
+                0x00000360        0xe build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+                0x00000360                uart_terminal_scene_help_on_event
+ *fill*         0x0000036e        0x2 
+ .text.uart_terminal_scene_help_on_exit
+                0x00000370        0xc build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+                0x00000370                uart_terminal_scene_help_on_exit
+ .text.uart_terminal_scene_hex_input_callback
+                0x0000037c        0xc build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+                0x0000037c                uart_terminal_scene_hex_input_callback
+ .text.uart_terminal_scene_hex_input_on_enter
+                0x00000388       0x4c build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+                0x00000388                uart_terminal_scene_hex_input_on_enter
+ .text.uart_terminal_scene_hex_input_on_event
+                0x000003d4       0x34 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+                0x000003d4                uart_terminal_scene_hex_input_on_event
+ .text.uart_terminal_scene_hex_input_on_exit
+                0x00000408        0xc build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+                0x00000408                uart_terminal_scene_hex_input_on_exit
+ .text.uart_terminal_scene_setup_var_list_enter_callback
+                0x00000414        0x6 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ *fill*         0x0000041a        0x2 
+ .text.uart_terminal_scene_setup_var_list_change_callback
+                0x0000041c       0xa4 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .text.uart_terminal_scene_setup_on_enter
+                0x000004c0       0xb0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+                0x000004c0                uart_terminal_scene_setup_on_enter
+ .text.uart_terminal_scene_setup_on_event
+                0x00000570       0x30 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+                0x00000570                uart_terminal_scene_setup_on_event
+ .text.uart_terminal_scene_setup_on_exit
+                0x000005a0        0xc build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+                0x000005a0                uart_terminal_scene_setup_on_exit
+ .text.uart_terminal_scene_start_var_list_change_callback
+                0x000005ac       0x50 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .text.uart_terminal_scene_start_var_list_enter_callback
+                0x000005fc       0x90 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .text.uart_terminal_scene_start_on_enter
+                0x0000068c      0x108 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+                0x0000068c                uart_terminal_scene_start_on_enter
+ .text.uart_terminal_scene_start_on_event
+                0x00000794       0xa0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+                0x00000794                uart_terminal_scene_start_on_event
+ .text.uart_terminal_scene_start_on_exit
+                0x00000834        0xc build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+                0x00000834                uart_terminal_scene_start_on_exit
+ .text.uart_terminal_scene_text_input_callback
+                0x00000840        0xc build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+                0x00000840                uart_terminal_scene_text_input_callback
+ .text.uart_terminal_scene_text_input_on_enter
+                0x0000084c       0xc8 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+                0x0000084c                uart_terminal_scene_text_input_on_enter
+ .text.uart_terminal_scene_text_input_on_event
+                0x00000914       0x34 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+                0x00000914                uart_terminal_scene_text_input_on_event
+ .text.uart_terminal_scene_text_input_on_exit
+                0x00000948        0xc build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+                0x00000948                uart_terminal_scene_text_input_on_exit
+ .text.uart_hex_input_timer_callback
+                0x00000954       0x24 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+                0x00000954                uart_hex_input_timer_callback
+ .text.uart_hex_input_backspace_cb
+                0x00000978       0x28 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .text.uart_hex_input_handle_left.constprop.0
+                0x000009a0       0x16 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .text.uart_hex_input_handle_down.constprop.0
+                0x000009b6       0x16 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .text.uart_hex_input_handle_ok.constprop.0
+                0x000009cc       0xb4 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .text.uart_hex_input_handle_up.constprop.0
+                0x00000a80       0x18 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .text.uart_hex_input_handle_right.constprop.0
+                0x00000a98       0x18 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .text.uart_hex_input_view_input_callback
+                0x00000ab0       0xdc build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .text.uart_hex_input_view_draw_callback
+                0x00000b8c      0x2c4 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .text.uart_hex_input_alloc
+                0x00000e50       0x94 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+                0x00000e50                uart_hex_input_alloc
+ .text.uart_hex_input_free
+                0x00000ee4       0x50 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+                0x00000ee4                uart_hex_input_free
+ .text.uart_hex_input_reset
+                0x00000f34       0x48 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+                0x00000f34                uart_hex_input_reset
+ .text.uart_hex_input_get_view
+                0x00000f7c        0x4 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+                0x00000f7c                uart_hex_input_get_view
+ .text.uart_hex_input_set_result_callback
+                0x00000f80       0x48 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+                0x00000f80                uart_hex_input_set_result_callback
+ .text.uart_hex_input_set_header_text
+                0x00000fc8       0x24 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+                0x00000fc8                uart_hex_input_set_header_text
+ .text.uart_terminal_app_tick_event_callback
+                0x00000fec        0xc build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .text.uart_terminal_app_back_event_callback
+                0x00000ff8        0xc build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .text.uart_terminal_app_custom_event_callback
+                0x00001004        0xc build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .text.uart_terminal_app_alloc
+                0x00001010      0x174 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+                0x00001010                uart_terminal_app_alloc
+ .text.uart_terminal_app_free
+                0x00001184       0xac build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+                0x00001184                uart_terminal_app_free
+ .text.uart_terminal_app
+                0x00001230       0x60 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+                0x00001230                uart_terminal_app
+ .text.uart_worker
+                0x00001290       0x68 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .text.uart_terminal_uart_on_irq_cb
+                0x000012f8       0x40 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+                0x000012f8                uart_terminal_uart_on_irq_cb
+ .text.uart_terminal_uart_set_handle_rx_data_cb
+                0x00001338        0x6 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+                0x00001338                uart_terminal_uart_set_handle_rx_data_cb
+ *fill*         0x0000133e        0x2 
+ .text.uart_terminal_uart_tx
+                0x00001340        0xc build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+                0x00001340                uart_terminal_uart_tx
+ .text.uart_terminal_uart_init
+                0x0000134c       0xc4 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+                0x0000134c                uart_terminal_uart_init
+ .text.uart_terminal_uart_free
+                0x00001410       0x60 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+                0x00001410                uart_terminal_uart_free
+ .text.uart_text_input_reset
+                0x00001470       0x48 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+                0x00001470                uart_text_input_reset
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000014b8      0x74f
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.uart_terminal_scene_handlers
+                0x000014b8       0x10 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene.o
+                0x000014b8                uart_terminal_scene_handlers
+ .rodata.uart_terminal_scene_on_exit_handlers
+                0x000014c8       0x18 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene.o
+                0x000014c8                uart_terminal_scene_on_exit_handlers
+ .rodata.uart_terminal_scene_on_event_handlers
+                0x000014e0       0x18 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene.o
+                0x000014e0                uart_terminal_scene_on_event_handlers
+ .rodata.uart_terminal_scene_on_enter_handlers
+                0x000014f8       0x18 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene.o
+                0x000014f8                uart_terminal_scene_on_enter_handlers
+ .rodata.uart_terminal_console_output_handle_rx_data_cb.str1.1
+                0x00001510        0x9 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .rodata.uart_terminal_scene_console_output_on_enter.str1.1
+                0x00001519        0x5 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .rodata.uart_terminal_scene_help_on_enter.str1.1
+                0x0000151e      0x15c build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .rodata.uart_terminal_scene_hex_input_on_enter.str1.1
+                0x0000167a       0x18 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .rodata.str1.1
+                0x00001692       0xd1 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ *fill*         0x00001763        0x1 
+ .rodata.items  0x00001764      0x1b0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .rodata.str1.1
+                0x00001914       0x78 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .rodata.items  0x0000198c      0x134 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .rodata.at_str
+                0x00001ac0        0x3 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .rodata.uart_terminal_scene_text_input_on_enter.str1.1
+                0x00001ac3       0x30 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .rodata.uart_hex_input_view_draw_callback.str1.1
+                0x00001af3        0x6 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .rodata.uart_hex_input_reset.str1.1
+                0x00001af9        0x1 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .rodata.keyboard_keys_row_2
+                0x00001afa       0x1b build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .rodata.keyboard_keys_row_1
+                0x00001b15       0x1b build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .rodata.uart_terminal_app_alloc.str1.1
+                0x00001b30        0x4 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .rodata.uart_terminal_app.str1.1
+                0x00001b34        0xa build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .rodata.uart_terminal_uart_init.str1.1
+                0x00001b3e       0x1a build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .rodata.uart_text_input_reset.str1.1
+                0x00001b58        0x1 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ *fill*         0x00001b59        0x3 
+ .rodata.I_KeySave_24x11
+                0x00001b5c        0xc build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+                0x00001b5c                I_KeySave_24x11
+ .rodata.I_KeySaveSelected_24x11
+                0x00001b68        0xc build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+                0x00001b68                I_KeySaveSelected_24x11
+ .rodata.I_KeyBackspace_16x9
+                0x00001b74        0xc build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+                0x00001b74                I_KeyBackspace_16x9
+ .rodata.I_KeyBackspaceSelected_16x9
+                0x00001b80        0xc build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+                0x00001b80                I_KeyBackspaceSelected_16x9
+ .rodata._I_KeySave_24x11
+                0x00001b8c        0x4 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+                0x00001b8c                _I_KeySave_24x11
+ .rodata._I_KeySave_24x11_0
+                0x00001b90       0x22 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+                0x00001b90                _I_KeySave_24x11_0
+ *fill*         0x00001bb2        0x2 
+ .rodata._I_KeySaveSelected_24x11
+                0x00001bb4        0x4 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+                0x00001bb4                _I_KeySaveSelected_24x11
+ .rodata._I_KeySaveSelected_24x11_0
+                0x00001bb8       0x1e build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+                0x00001bb8                _I_KeySaveSelected_24x11_0
+ *fill*         0x00001bd6        0x2 
+ .rodata._I_KeyBackspace_16x9
+                0x00001bd8        0x4 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+                0x00001bd8                _I_KeyBackspace_16x9
+ .rodata._I_KeyBackspace_16x9_0
+                0x00001bdc       0x13 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+                0x00001bdc                _I_KeyBackspace_16x9_0
+ *fill*         0x00001bef        0x1 
+ .rodata._I_KeyBackspaceSelected_16x9
+                0x00001bf0        0x4 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+                0x00001bf0                _I_KeyBackspaceSelected_16x9
+ .rodata._I_KeyBackspaceSelected_16x9_0
+                0x00001bf4       0x13 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+                0x00001bf4                _I_KeyBackspaceSelected_16x9_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss            0x00001c07        0x8
+ *(.bss)
+ *(.bss*)
+ .bss.item_indexes
+                0x00001c07        0x7 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .bss.menu_items_num
+                0x00001c0e        0x1 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x380
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene.o
+ .debug_aranges
+                0x00000018       0x38 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .debug_aranges
+                0x00000050       0x38 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .debug_aranges
+                0x00000088       0x38 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .debug_aranges
+                0x000000c0       0x40 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .debug_aranges
+                0x00000100       0x40 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .debug_aranges
+                0x00000140       0x38 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .debug_aranges
+                0x00000178       0xa8 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_aranges
+                0x00000220       0x48 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .debug_aranges
+                0x00000268       0x48 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .debug_aranges
+                0x000002b0       0xb8 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_aranges
+                0x00000368       0x18 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x98f4
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x3a2 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene.o
+ .debug_info    0x000003a2      0xc3c build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .debug_info    0x00000fde      0x9f7 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .debug_info    0x000019d5      0x867 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .debug_info    0x0000223c      0xb04 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .debug_info    0x00002d40      0xcce build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .debug_info    0x00003a0e      0x990 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .debug_info    0x0000439e     0x1a27 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_info    0x00005dc5      0xf8b build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .debug_info    0x00006d50      0xe17 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .debug_info    0x00007b67     0x1b3b build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_info    0x000096a2      0x252 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+
+.debug_abbrev   0x00000000     0x1fb0
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x137 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene.o
+ .debug_abbrev  0x00000137      0x2f5 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .debug_abbrev  0x0000042c      0x272 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .debug_abbrev  0x0000069e      0x223 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .debug_abbrev  0x000008c1      0x27f build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .debug_abbrev  0x00000b40      0x274 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .debug_abbrev  0x00000db4      0x23e build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .debug_abbrev  0x00000ff2      0x468 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_abbrev  0x0000145a      0x2cd build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .debug_abbrev  0x00001727      0x383 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .debug_abbrev  0x00001aaa      0x451 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_abbrev  0x00001efb       0xb5 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+
+.debug_line     0x00000000     0x4248
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x1bc build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene.o
+ .debug_line_end
+                0x000001bc        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene.o
+ .debug_line    0x000001bc      0x478 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .debug_line.text.uart_terminal_console_output_handle_rx_data_cb
+                0x00000634       0xad build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .debug_line.text.uart_terminal_scene_console_output_on_enter
+                0x000006e1      0x162 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .debug_line.text.uart_terminal_scene_console_output_on_event
+                0x00000843       0x3f build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .debug_line.text.uart_terminal_scene_console_output_on_exit
+                0x00000882       0x18 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .debug_line_end
+                0x0000089a        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .debug_line    0x0000089a      0x3fb build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .debug_line.text.uart_terminal_scene_help_on_enter
+                0x00000c95       0x50 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .debug_line.text.uart_terminal_scene_help_on_event
+                0x00000ce5       0x28 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .debug_line.text.uart_terminal_scene_help_on_exit
+                0x00000d0d       0x17 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .debug_line_end
+                0x00000d24        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .debug_line    0x00000d24      0x3f5 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .debug_line.text.uart_terminal_scene_hex_input_callback
+                0x00001119       0x15 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .debug_line.text.uart_terminal_scene_hex_input_on_enter
+                0x0000112e       0x35 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .debug_line.text.uart_terminal_scene_hex_input_on_event
+                0x00001163       0x55 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .debug_line.text.uart_terminal_scene_hex_input_on_exit
+                0x000011b8       0x17 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .debug_line_end
+                0x000011cf        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .debug_line    0x000011cf      0x441 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .debug_line.text.uart_terminal_scene_setup_var_list_enter_callback
+                0x00001610       0x2a build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .debug_line.text.uart_terminal_scene_setup_var_list_change_callback
+                0x0000163a       0xf7 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .debug_line.text.uart_terminal_scene_setup_on_enter
+                0x00001731       0x92 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .debug_line.text.uart_terminal_scene_setup_on_event
+                0x000017c3       0x4c build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .debug_line.text.uart_terminal_scene_setup_on_exit
+                0x0000180f       0x18 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .debug_line_end
+                0x00001827        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .debug_line    0x00001827      0x3f1 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .debug_line.text.uart_terminal_scene_start_var_list_change_callback
+                0x00001c18       0x61 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .debug_line.text.uart_terminal_scene_start_var_list_enter_callback
+                0x00001c79       0xaf build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .debug_line.text.uart_terminal_scene_start_on_enter
+                0x00001d28      0x136 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .debug_line.text.uart_terminal_scene_start_on_event
+                0x00001e5e       0x79 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .debug_line.text.uart_terminal_scene_start_on_exit
+                0x00001ed7       0x18 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .debug_line_end
+                0x00001eef        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .debug_line    0x00001eef      0x474 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .debug_line.text.uart_terminal_scene_text_input_callback
+                0x00002363       0x15 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .debug_line.text.uart_terminal_scene_text_input_on_enter
+                0x00002378       0x9e build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .debug_line.text.uart_terminal_scene_text_input_on_event
+                0x00002416       0x55 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .debug_line.text.uart_terminal_scene_text_input_on_exit
+                0x0000246b       0x18 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .debug_line_end
+                0x00002483        0x0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .debug_line    0x00002483      0x409 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line.text.uart_hex_input_timer_callback
+                0x0000288c       0x34 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line.text.uart_hex_input_backspace_cb
+                0x000028c0       0x52 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line.text.uart_hex_input_handle_left.constprop.0
+                0x00002912       0x47 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line.text.uart_hex_input_handle_down.constprop.0
+                0x00002959       0x3d build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line.text.uart_hex_input_handle_ok.constprop.0
+                0x00002996       0xfe build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line.text.uart_hex_input_handle_up.constprop.0
+                0x00002a94       0x5b build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line.text.uart_hex_input_handle_right.constprop.0
+                0x00002aef       0x43 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line.text.uart_hex_input_view_input_callback
+                0x00002b32       0xaf build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line.text.uart_hex_input_view_draw_callback
+                0x00002be1      0x216 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line.text.uart_hex_input_alloc
+                0x00002df7       0x58 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line.text.uart_hex_input_free
+                0x00002e4f       0x3f build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line.text.uart_hex_input_reset
+                0x00002e8e       0x44 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line.text.uart_hex_input_get_view
+                0x00002ed2       0x1e build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line.text.uart_hex_input_set_result_callback
+                0x00002ef0       0x62 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line.text.uart_hex_input_set_header_text
+                0x00002f52       0x36 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line_end
+                0x00002f88        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_line    0x00002f88      0x44d build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .debug_line.text.uart_terminal_app_tick_event_callback
+                0x000033d5       0x1b build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .debug_line.text.uart_terminal_app_back_event_callback
+                0x000033f0       0x1e build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .debug_line.text.uart_terminal_app_custom_event_callback
+                0x0000340e       0x1d build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .debug_line.text.uart_terminal_app_alloc
+                0x0000342b      0x146 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .debug_line.text.uart_terminal_app_free
+                0x00003571       0x3a build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .debug_line.text.uart_terminal_app
+                0x000035ab       0x4e build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .debug_line_end
+                0x000035f9        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .debug_line    0x000035f9      0x46a build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .debug_line.text.uart_worker
+                0x00003a63       0xaf build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .debug_line.text.uart_terminal_uart_on_irq_cb
+                0x00003b12       0x42 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .debug_line.text.uart_terminal_uart_set_handle_rx_data_cb
+                0x00003b54       0x1f build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .debug_line.text.uart_terminal_uart_tx
+                0x00003b73       0x17 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .debug_line.text.uart_terminal_uart_init
+                0x00003b8a       0xb5 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .debug_line.text.uart_terminal_uart_free
+                0x00003c3f       0x30 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .debug_line_end
+                0x00003c6f        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .debug_line    0x00003c6f      0x3f6 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line.text.uart_text_input_reset
+                0x00004065       0x44 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line_end
+                0x000040a9        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_line    0x000040a9      0x19f build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+ .debug_line_end
+                0x00004248        0x0 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+
+.debug_frame    0x00000000      0x938
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xa8 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .debug_frame   0x000000a8       0x7c build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .debug_frame   0x00000124       0x70 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .debug_frame   0x00000194       0xa8 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .debug_frame   0x0000023c       0xc0 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .debug_frame   0x000002fc       0x7c build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .debug_frame   0x00000378      0x21c build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_frame   0x00000594       0xa0 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .debug_frame   0x00000634       0xa4 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .debug_frame   0x000006d8      0x260 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+
+.debug_str      0x00000000     0x7615
+ *(.debug_str)
+ .debug_str     0x00000000      0x719 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene.o
+ .debug_str     0x00000719      0xa5c build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .debug_str     0x00001175      0x85b build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .debug_str     0x000019d0      0x8ba build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .debug_str     0x0000228a      0x98a build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .debug_str     0x00002c14      0xb56 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .debug_str     0x0000376a      0x939 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .debug_str     0x000040a3      0xd2c build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_str     0x00004dcf      0xcb0 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .debug_str     0x00005a7f      0xa69 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .debug_str     0x000064e8      0xdb8 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .debug_str     0x000072a0      0x375 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x2237
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x2ef build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .debug_loclists
+                0x000002ef      0x134 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .debug_loclists
+                0x00000423      0x139 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .debug_loclists
+                0x0000055c      0x23e build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .debug_loclists
+                0x0000079a      0x58f build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .debug_loclists
+                0x00000d29      0x16d build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .debug_loclists
+                0x00000e96      0x7a3 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_loclists
+                0x00001639      0x17e build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .debug_loclists
+                0x000017b7      0x1b6 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .debug_loclists
+                0x0000196d      0x8ca build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x536
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x4e build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .debug_rnglists
+                0x0000004e       0x26 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .debug_rnglists
+                0x00000074       0x25 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .debug_rnglists
+                0x00000099       0x39 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .debug_rnglists
+                0x000000d2       0x63 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .debug_rnglists
+                0x00000135       0x32 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .debug_rnglists
+                0x00000167      0x1b3 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .debug_rnglists
+                0x0000031a       0x4e build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .debug_rnglists
+                0x00000368       0x3e build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .debug_rnglists
+                0x000003a6      0x190 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_console_output.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_help.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_hex_input.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_setup.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_start.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/uart_terminal/scenes/uart_terminal_scene_text_input.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/uart_terminal/uart_hex_input.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_app.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_uart.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/uart_terminal/uart_text_input.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/uart_terminal/uart_terminal_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/uart_terminal_d.elf elf32-littlearm)
+LOAD linker stubs

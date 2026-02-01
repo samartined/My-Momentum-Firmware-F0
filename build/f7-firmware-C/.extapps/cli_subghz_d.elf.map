@@ -1,0 +1,399 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o (__aeabi_f2d)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+LOAD build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x1fdc
+ *(.text)
+ .text          0x00000000      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000000                __aeabi_drsub
+                0x00000008                __aeabi_dsub
+                0x00000008                __subdf3
+                0x0000000c                __adddf3
+                0x0000000c                __aeabi_dadd
+                0x00000284                __aeabi_ui2d
+                0x00000284                __floatunsidf
+                0x000002a4                __floatsidf
+                0x000002a4                __aeabi_i2d
+                0x000002c8                __extendsfdf2
+                0x000002c8                __aeabi_f2d
+                0x0000030c                __aeabi_ul2d
+                0x0000030c                __floatundidf
+                0x0000031c                __floatdidf
+                0x0000031c                __aeabi_l2d
+ *(.stub)
+ *(.text*)
+ .text.subghz_chat_worker_thread
+                0x00000378       0x7c build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .text.subghz_chat_worker_update_rx_event_chat
+                0x000003f4       0x48 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .text.subghz_chat_worker_alloc
+                0x0000043c       0x4c build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+                0x0000043c                subghz_chat_worker_alloc
+ .text.subghz_chat_worker_free
+                0x00000488       0x34 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+                0x00000488                subghz_chat_worker_free
+ .text.subghz_chat_worker_start
+                0x000004bc       0x48 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+                0x000004bc                subghz_chat_worker_start
+ .text.subghz_chat_worker_stop
+                0x00000504       0x30 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+                0x00000504                subghz_chat_worker_stop
+ .text.subghz_chat_worker_is_running
+                0x00000534        0x4 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+                0x00000534                subghz_chat_worker_is_running
+ .text.subghz_chat_worker_get_event_chat
+                0x00000538       0x34 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+                0x00000538                subghz_chat_worker_get_event_chat
+ .text.subghz_chat_worker_put_event_chat
+                0x0000056c       0x10 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+                0x0000056c                subghz_chat_worker_put_event_chat
+ .text.subghz_chat_worker_available
+                0x0000057c        0xc build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+                0x0000057c                subghz_chat_worker_available
+ .text.subghz_chat_worker_read
+                0x00000588        0xc build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+                0x00000588                subghz_chat_worker_read
+ .text.subghz_chat_worker_write
+                0x00000594        0xc build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+                0x00000594                subghz_chat_worker_write
+ .text.subghz_cli_radio_device_power_off
+                0x000005a0       0x2c build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .text.subghz_cli_command_rx_capture_callback
+                0x000005cc       0x44 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .text.subghz_cli_command_rx_callback
+                0x00000610       0x54 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .text.subghz_cli_environment_init
+                0x00000664       0x84 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .text.subghz_cli_command_print_usage
+                0x000006e8       0x94 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .text.subghz_cli_command_get_device
+                0x0000077c       0x64 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .text.subghz_cli_get_preset_name
+                0x000007e0       0x7c build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .text.subghz_cli_command_tx_carrier
+                0x0000085c      0x118 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+                0x0000085c                subghz_cli_command_tx_carrier
+ .text.subghz_cli_command_rx_carrier
+                0x00000974      0x128 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+                0x00000974                subghz_cli_command_rx_carrier
+ .text.subghz_cli_command_tx
+                0x00000a9c      0x284 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+                0x00000a9c                subghz_cli_command_tx
+ .text.subghz_cli_command_rx
+                0x00000d20      0x220 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+                0x00000d20                subghz_cli_command_rx
+ .text.subghz_cli_command_rx_raw
+                0x00000f40      0x1a0 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+                0x00000f40                subghz_cli_command_rx_raw
+ .text.subghz_cli_command_decode_raw
+                0x000010e0      0x228 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+                0x000010e0                subghz_cli_command_decode_raw
+ .text.subghz_cli_command_tx_from_file
+                0x00001308      0x550 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+                0x00001308                subghz_cli_command_tx_from_file
+ .text.execute  0x00001858      0x77c build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .text.cli_subghz_ep
+                0x00001fd4        0x8 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+                0x00001fd4                cli_subghz_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00001fdc     0x10e0
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.subghz_chat_worker_thread.str1.1
+                0x00001fdc       0x24 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .rodata.subghz_cli_radio_device_power_off.str1.1
+                0x00002000        0x6 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .rodata.subghz_cli_command_rx_callback.str1.1
+                0x00002006        0x3 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .rodata.subghz_cli_environment_init.str1.1
+                0x00002009      0x14a build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .rodata.subghz_cli_command_print_usage.str1.1
+                0x00002153      0x37b build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .rodata.subghz_cli_command_get_device.str1.1
+                0x000024ce       0x16 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .rodata.subghz_cli_get_preset_name.str1.1
+                0x000024e4       0xe5 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .rodata.subghz_cli_command_tx_carrier.str1.1
+                0x000025c9      0x10c build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .rodata.subghz_cli_command_rx_carrier.str1.1
+                0x000026d5       0x43 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .rodata.subghz_cli_command_tx.str1.1
+                0x00002718      0x16a build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .rodata.subghz_cli_command_rx.str1.1
+                0x00002882       0x9f build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .rodata.subghz_cli_command_rx_raw.str1.1
+                0x00002921       0x45 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .rodata.subghz_cli_command_decode_raw.str1.1
+                0x00002966      0x161 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .rodata.subghz_cli_command_tx_from_file.str1.1
+                0x00002ac7      0x406 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .rodata.execute.str1.1
+                0x00002ecd      0x1c5 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .rodata.str1.1
+                0x00003092        0xb build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ *fill*         0x0000309d        0x3 
+ .rodata.plugin_descriptor_subghz
+                0x000030a0        0xc build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .rodata.cli_subghz_desc
+                0x000030ac       0x10 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x110
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x78 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_aranges
+                0x00000078       0x98 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x7435
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1214 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_info    0x00001214     0x6221 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+
+.debug_abbrev   0x00000000      0x940
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x314 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_abbrev  0x00000314      0x62c build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+
+.debug_line     0x00000000     0x20d2
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3c5 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_line.text.subghz_chat_worker_thread
+                0x000003c5       0x6f build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_line.text.subghz_chat_worker_update_rx_event_chat
+                0x00000434       0x5d build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_line.text.subghz_chat_worker_alloc
+                0x00000491       0x57 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_line.text.subghz_chat_worker_free
+                0x000004e8       0x34 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_line.text.subghz_chat_worker_start
+                0x0000051c       0x53 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_line.text.subghz_chat_worker_stop
+                0x0000056f       0x49 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_line.text.subghz_chat_worker_is_running
+                0x000005b8       0x20 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_line.text.subghz_chat_worker_get_event_chat
+                0x000005d8       0x38 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_line.text.subghz_chat_worker_put_event_chat
+                0x00000610       0x1c build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_line.text.subghz_chat_worker_available
+                0x0000062c       0x1e build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_line.text.subghz_chat_worker_read
+                0x0000064a       0x1f build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_line.text.subghz_chat_worker_write
+                0x00000669       0x1f build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_line_end
+                0x00000688        0x0 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_line    0x00000688      0x766 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .debug_line.text.subghz_cli_radio_device_power_off
+                0x00000dee       0x27 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .debug_line.text.subghz_cli_command_rx_capture_callback
+                0x00000e15       0x65 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .debug_line.text.subghz_cli_command_rx_callback
+                0x00000e7a       0x46 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .debug_line.text.subghz_cli_environment_init
+                0x00000ec0       0x5b build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .debug_line.text.subghz_cli_command_print_usage
+                0x00000f1b       0x40 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .debug_line.text.subghz_cli_command_get_device
+                0x00000f5b       0x8c build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .debug_line.text.subghz_cli_get_preset_name
+                0x00000fe7       0x81 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .debug_line.text.subghz_cli_command_tx_carrier
+                0x00001068       0xd3 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .debug_line.text.subghz_cli_command_rx_carrier
+                0x0000113b       0xaa build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .debug_line.text.subghz_cli_command_tx
+                0x000011e5      0x187 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .debug_line.text.subghz_cli_command_rx
+                0x0000136c      0x184 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .debug_line.text.subghz_cli_command_rx_raw
+                0x000014f0      0x150 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .debug_line.text.subghz_cli_command_decode_raw
+                0x00001640      0x1b6 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .debug_line.text.subghz_cli_command_tx_from_file
+                0x000017f6      0x3d5 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .debug_line.text.execute
+                0x00001bcb      0x4f4 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .debug_line.text.cli_subghz_ep
+                0x000020bf       0x13 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .debug_line_end
+                0x000020d2        0x0 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+
+.debug_frame    0x00000000      0x3b8
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x130 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_frame   0x00000130      0x288 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+
+.debug_str      0x00000000     0x4128
+ *(.debug_str)
+ .debug_str     0x00000000      0xe7e build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_str     0x00000e7e     0x32aa build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000       0xa8
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+.debug_loclists
+                0x00000000     0x1254
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x261 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_loclists
+                0x00000261      0xff3 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x19e
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x55 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .debug_rnglists
+                0x00000055      0x149 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/cli_subghz/helpers/subghz_chat.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/cli_subghz/subghz_cli.o
+ .ARM.attributes
+                0x00000068       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/cli_subghz_d.elf elf32-littlearm)
+LOAD linker stubs

@@ -1,0 +1,344 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                              build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o (__aeabi_uldivmod)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                              /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .text.nfc_render_emv_pan
+                0x00000000       0x8c build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .text.nfc_render_emv_data
+                0x00000000       0x28 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .rodata.nfc_render_emv_transactions.str1.1
+                0x00000000       0xc4 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .text.nfc_render_emv_transactions
+                0x00000000      0x1d0 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .debug_line.text.nfc_render_emv_pan
+                0x00000000       0x6b build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .debug_line.text.nfc_render_emv_data
+                0x00000000       0x2d build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .debug_line.text.nfc_render_emv_transactions
+                0x00000000      0x11c build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .text          0x00000000       0x30 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line_str
+                0x00000000       0xa3 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .text          0x00000000      0x2bc /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x00000000        0x8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .text          0x00000000        0x4 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .debug_line_str
+                0x00000000       0xa7 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+LOAD build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x338
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.nfc_scene_read_success_on_enter_emv
+                0x00000000       0x60 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .text.nfc_scene_info_on_enter_emv
+                0x00000060       0x60 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .text.nfc_scene_read_menu_on_enter_emv
+                0x000000c0       0x3c build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .text.nfc_scene_read_on_enter_emv
+                0x000000fc       0x14 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .text.nfc_scene_read_poller_callback_emv
+                0x00000110       0x44 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .text.nfc_scene_read_menu_on_event_emv
+                0x00000154       0x2c build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .text.nfc_emv_ep
+                0x00000180        0x8 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+                0x00000180                nfc_emv_ep
+ .text.nfc_render_emv_header
+                0x00000188       0x14 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+                0x00000188                nfc_render_emv_header
+ .text.nfc_render_emv_uid
+                0x0000019c       0x4c build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+                0x0000019c                nfc_render_emv_uid
+ .text.nfc_render_emv_currency
+                0x000001e8       0x18 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+                0x000001e8                nfc_render_emv_currency
+ .text.nfc_render_emv_country
+                0x00000200       0x18 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+                0x00000200                nfc_render_emv_country
+ .text.nfc_render_emv_application
+                0x00000218       0x50 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+                0x00000218                nfc_render_emv_application
+ .text.nfc_render_emv_application_interchange_profile
+                0x00000268       0x58 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+                0x00000268                nfc_render_emv_application_interchange_profile
+ .text.nfc_render_emv_extra
+                0x000002c0       0x40 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+                0x000002c0                nfc_render_emv_extra
+ .text.nfc_render_emv_info
+                0x00000300       0x38 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+                0x00000300                nfc_render_emv_info
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000338      0x10c
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.nfc_scene_read_menu_on_enter_emv.str1.1
+                0x00000338        0xd build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .rodata.str1.1
+                0x00000345       0x19 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ *fill*         0x0000035e        0x2 
+ .rodata.plugin_descriptor_emv
+                0x00000360        0xc build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .rodata.nfc_protocol_support_emv_desc
+                0x0000036c        0x8 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .rodata.nfc_protocol_support_emv
+                0x00000374       0x4c build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+                0x00000374                nfc_protocol_support_emv
+ .rodata.nfc_render_emv_header.str1.1
+                0x000003c0        0xa build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .rodata.nfc_render_emv_uid.str1.1
+                0x000003ca        0xe build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .rodata.nfc_render_emv_pan.str1.1
+                0x000003d8        0x9 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .rodata.nfc_render_emv_currency.str1.1
+                0x000003e1       0x15 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .rodata.nfc_render_emv_country.str1.1
+                0x000003f6       0x14 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .rodata.nfc_render_emv_application.str1.1
+                0x0000040a        0x6 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .rodata.nfc_render_emv_application_interchange_profile.str1.1
+                0x00000410       0x34 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xc0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x50 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .debug_aranges
+                0x00000050       0x70 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3059
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1c87 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .debug_info    0x00001c87     0x13d2 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+
+.debug_abbrev   0x00000000      0x6c6
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x352 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .debug_abbrev  0x00000352      0x374 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+
+.debug_line     0x00000000     0x1069
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x999 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .debug_line.text.nfc_scene_read_success_on_enter_emv
+                0x00000999       0x4c build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .debug_line.text.nfc_scene_info_on_enter_emv
+                0x000009e5       0x4b build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .debug_line.text.nfc_scene_read_menu_on_enter_emv
+                0x00000a30       0x3d build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .debug_line.text.nfc_scene_read_on_enter_emv
+                0x00000a6d       0x1d build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .debug_line.text.nfc_scene_read_poller_callback_emv
+                0x00000a8a       0x3a build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .debug_line.text.nfc_scene_read_menu_on_event_emv
+                0x00000ac4       0x45 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .debug_line.text.nfc_emv_ep
+                0x00000b09       0x13 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .debug_line_end
+                0x00000b1c        0x0 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .debug_line    0x00000b1c      0x35c build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .debug_line.text.nfc_render_emv_header
+                0x00000e78       0x16 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .debug_line.text.nfc_render_emv_uid
+                0x00000e8e       0x50 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .debug_line.text.nfc_render_emv_currency
+                0x00000ede       0x28 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .debug_line.text.nfc_render_emv_country
+                0x00000f06       0x28 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .debug_line.text.nfc_render_emv_application
+                0x00000f2e       0x62 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .debug_line.text.nfc_render_emv_application_interchange_profile
+                0x00000f90       0x60 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .debug_line.text.nfc_render_emv_extra
+                0x00000ff0       0x2f build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .debug_line.text.nfc_render_emv_info
+                0x0000101f       0x4a build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .debug_line_end
+                0x00001069        0x0 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+
+.debug_frame    0x00000000      0x2a8
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xdc build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .debug_frame   0x000000dc      0x1cc build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+
+.debug_str      0x00000000     0x289b
+ *(.debug_str)
+ .debug_str     0x00000000     0x2005 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .debug_str     0x00002005      0x896 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x7d7
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x1cb build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .debug_loclists
+                0x000001cb      0x60c build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0xd6
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x37 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .debug_rnglists
+                0x00000037       0x9f build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/nfc_emv/helpers/protocol_support/emv/emv_render.o
+ .ARM.attributes
+                0x00000068       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000008a       0x34 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x000000be       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/nfc_emv_d.elf elf32-littlearm)
+LOAD linker stubs

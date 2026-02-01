@@ -1,0 +1,237 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x3a8
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.mizip_parse
+                0x00000000       0xf8 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .text.mizip_verify_type
+                0x000000f8       0x98 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .text.mizip_verify
+                0x00000190       0x20 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .text.mizip_generate_key
+                0x000001b0       0x6c build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+                0x000001b0                mizip_generate_key
+ .text.mizip_read
+                0x0000021c      0x184 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .text.mizip_plugin_ep
+                0x000003a0        0x8 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+                0x000003a0                mizip_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x000003a8      0x150
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.mizip_parse.str1.1
+                0x000003a8       0x53 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .rodata.mizip_verify_type.str1.1
+                0x000003fb       0x64 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .rodata.mizip_read.str1.1
+                0x0000045f       0x27 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .rodata.xor_table_keyB.0
+                0x00000486       0x18 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .rodata.xorOrderB.1
+                0x0000049e        0x6 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .rodata.xor_table_keyA.2
+                0x000004a4       0x18 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .rodata.xorOrderA.3
+                0x000004bc        0x6 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .rodata.str1.1
+                0x000004c2       0x17 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ *fill*         0x000004d9        0x3 
+ .rodata.mizip_plugin_descriptor
+                0x000004dc        0xc build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .rodata.mizip_plugin
+                0x000004e8       0x10 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+
+.data           0x000004f8      0x150
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.mizip_mini_keys
+                0x000004f8       0x50 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .data.mizip_1k_keys
+                0x00000548      0x100 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x48
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x48 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x125a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x125a build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+
+.debug_abbrev   0x00000000      0x355
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x355 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+
+.debug_line     0x00000000      0x757
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x340 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .debug_line.text.mizip_parse
+                0x00000340      0x11a build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .debug_line.text.mizip_verify_type
+                0x0000045a       0x9d build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .debug_line.text.mizip_verify
+                0x000004f7       0x36 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .debug_line.text.mizip_generate_key
+                0x0000052d       0x8c build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .debug_line.text.mizip_read
+                0x000005b9      0x185 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .debug_line.text.mizip_plugin_ep
+                0x0000073e       0x19 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ .debug_line_end
+                0x00000757        0x0 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+
+.debug_frame    0x00000000       0xe8
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xe8 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+
+.debug_str      0x00000000      0xada
+ *(.debug_str)
+ .debug_str     0x00000000      0xada build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x3de
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x3de build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0xc1
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xc1 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/mizip_parser/plugins/supported_cards/mizip.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/mizip_parser_d.elf elf32-littlearm)
+LOAD linker stubs

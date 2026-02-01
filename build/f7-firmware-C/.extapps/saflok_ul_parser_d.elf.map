@@ -1,0 +1,231 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+ .text.generate_saflok_key
+                0x00000000       0x74 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+ .rodata.magic_table.1
+                0x00000000       0xc0 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+ .debug_line.text.generate_saflok_key
+                0x00000000       0xd6 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x424
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.DecryptCard
+                0x00000000       0x74 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+                0x00000000                DecryptCard
+ .text.CalculateCheckSum
+                0x00000074       0x16 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+                0x00000074                CalculateCheckSum
+ *fill*         0x0000008a        0x2 
+ .text.saflok_parse
+                0x0000008c      0x390 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+                0x0000008c                saflok_parse
+ .text.saflok_plugin_ep
+                0x0000041c        0x8 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+                0x0000041c                saflok_plugin_ep
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000424      0x480
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.saflok_parse.str1.1
+                0x00000424      0x1a3 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+ .rodata.days_in_month.0
+                0x000005c7        0xc build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+ .rodata.str1.1
+                0x000005d3      0x134 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+ *fill*         0x00000707        0x1 
+ .rodata.saflok_plugin_descriptor
+                0x00000708        0xc build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+ .rodata.saflok_plugin
+                0x00000714       0x10 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+ .rodata.c_aDecode
+                0x00000724      0x100 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+ .rodata.key_levels
+                0x00000824       0x80 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+
+.data           0x000008a4       0x1c
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.weekdays
+                0x000008a4       0x1c build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+                0x000008a4                weekdays
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x40
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x40 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1405
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x1405 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+
+.debug_abbrev   0x00000000      0x35f
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x35f build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+
+.debug_line     0x00000000      0x7c9
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x2ff build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+ .debug_line.text.DecryptCard
+                0x000002ff      0x115 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+ .debug_line.text.CalculateCheckSum
+                0x00000414       0x56 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+ .debug_line.text.saflok_parse
+                0x0000046a      0x346 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+ .debug_line.text.saflok_plugin_ep
+                0x000007b0       0x19 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+ .debug_line_end
+                0x000007c9        0x0 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+
+.debug_frame    0x00000000       0xa4
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xa4 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+
+.debug_str      0x00000000      0xc91
+ *(.debug_str)
+ .debug_str     0x00000000      0xc91 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x696
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x696 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0xaa
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xaa build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/saflok_ul_parser/plugins/supported_cards/saflok.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/saflok_ul_parser_d.elf elf32-littlearm)
+LOAD linker stubs

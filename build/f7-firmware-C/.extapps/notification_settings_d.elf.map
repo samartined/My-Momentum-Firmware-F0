@@ -1,0 +1,339 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .text.notification_is_any_led_layer_internal_and_not_empty
+                0x00000000       0x2a build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .text.ascii_event_callback
+                0x00000000       0x10 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .text.notification_display_timer
+                0x00000000       0x10 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .rodata.notification_apply_lcd_contrast.str1.1
+                0x00000000        0x4 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .text.notification_apply_lcd_contrast
+                0x00000000       0x30 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .text.notification_reset_notification_led_layer
+                0x00000000       0x14 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .text.notification_storage_callback
+                0x00000000       0x38 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .text.input_event_callback
+                0x00000000       0x1c build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .text.notification_sound_off
+                0x00000000       0x24 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .text.notification_apply_internal_led_layer
+                0x00000000       0x14 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .text.notification_apply_notification_leds
+                0x00000000       0x50 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .rodata.notification_srv.str1.1
+                0x00000000       0x9f build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .text.notification_srv
+                0x00000000      0x64c build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .rodata.led_off_values
+                0x00000000        0x3 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .rodata        0x00000000        0x3 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_line.text.notification_is_any_led_layer_internal_and_not_empty
+                0x00000000       0x4a build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_line.text.ascii_event_callback
+                0x00000000       0x2b build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_line.text.notification_display_timer
+                0x00000000       0x1e build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_line.text.notification_apply_lcd_contrast
+                0x00000000       0x33 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_line.text.notification_reset_notification_led_layer
+                0x00000000       0x31 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_line.text.notification_storage_callback
+                0x00000000       0x4e build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_line.text.input_event_callback
+                0x00000000       0x3c build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_line.text.notification_sound_off
+                0x00000000       0x33 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_line.text.notification_apply_internal_led_layer
+                0x00000000       0x3b build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_line.text.notification_apply_notification_leds
+                0x00000000       0xf6 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_line.text.notification_srv
+                0x00000000      0x6f0 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+LOAD build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x510
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.notification_message_save_settings
+                0x00000000       0x5c build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+                0x00000000                notification_message_save_settings
+ .text.notification_app_settings_exit
+                0x0000005c        0x6 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ *fill*         0x00000062        0x2 
+ .text.vibro_changed
+                0x00000064       0x50 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .text.volume_changed
+                0x000000b4       0x50 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .text.screen_changed
+                0x00000104       0x50 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .text.backlight_changed
+                0x00000154       0x50 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .text.contrast_changed
+                0x000001a4       0x50 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .text.led_changed
+                0x000001f4       0x6c build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .text.notification_settings_app
+                0x00000260      0x2b0 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+                0x00000260                notification_settings_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000510      0x390
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.notification_settings_app.str1.1
+                0x00000510       0x5f build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ *fill*         0x0000056f        0x1 
+ .rodata.apply_sequence
+                0x00000570        0x8 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+                0x00000570                apply_sequence
+ .rodata.apply_message
+                0x00000578       0x10 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+                0x00000578                apply_message
+ .rodata.vibro_value
+                0x00000588        0x2 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+                0x00000588                vibro_value
+ .rodata.str1.1
+                0x0000058a       0xc6 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .rodata.vibro_text
+                0x00000650        0x8 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+                0x00000650                vibro_text
+ .rodata.delay_value
+                0x00000658       0x30 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+                0x00000658                delay_value
+ .rodata.delay_text
+                0x00000688       0x30 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+                0x00000688                delay_text
+ .rodata.volume_value
+                0x000006b8       0x54 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+                0x000006b8                volume_value
+ .rodata.volume_text
+                0x0000070c       0x54 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+                0x0000070c                volume_text
+ .rodata.backlight_value
+                0x00000760       0x54 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+                0x00000760                backlight_value
+ .rodata.backlight_text
+                0x000007b4       0x54 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+                0x000007b4                backlight_text
+ .rodata.contrast_value
+                0x00000808       0x44 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+                0x00000808                contrast_value
+ .rodata.contrast_text
+                0x0000084c       0x44 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+                0x0000084c                contrast_text
+ .rodata.sequence_note_c
+                0x00000890       0x10 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xd0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x78 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_aranges
+                0x00000078       0x58 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x4438
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2d3e build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_info    0x00002d3e     0x16fa build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+
+.debug_abbrev   0x00000000      0x99f
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x634 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_abbrev  0x00000634      0x36b build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+
+.debug_line     0x00000000      0xe5f
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x599 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_line.text.notification_message_save_settings
+                0x00000599       0x6b build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_line_end
+                0x00000604        0x0 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_line    0x00000604      0x450 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .debug_line.text.notification_app_settings_exit
+                0x00000a54       0x1b build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .debug_line.text.vibro_changed
+                0x00000a6f       0x54 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .debug_line.text.volume_changed
+                0x00000ac3       0x56 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .debug_line.text.screen_changed
+                0x00000b19       0x54 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .debug_line.text.backlight_changed
+                0x00000b6d       0x56 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .debug_line.text.contrast_changed
+                0x00000bc3       0x53 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .debug_line.text.led_changed
+                0x00000c16       0x65 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .debug_line.text.notification_settings_app
+                0x00000c7b      0x1e4 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ .debug_line_end
+                0x00000e5f        0x0 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+
+.debug_frame    0x00000000      0x274
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x14c build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_frame   0x0000014c      0x128 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+
+.debug_str      0x00000000     0x3146
+ *(.debug_str)
+ .debug_str     0x00000000     0x21c0 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_str     0x000021c0      0xf86 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0xbb1
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x85a build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_loclists
+                0x0000085a      0x357 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x1c6
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x162 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .debug_rnglists
+                0x00000162       0x64 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/notification_settings/mock_imports/mock_notification_app.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/notification_settings/notification_settings_app.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/notification_settings_d.elf elf32-littlearm)
+LOAD linker stubs

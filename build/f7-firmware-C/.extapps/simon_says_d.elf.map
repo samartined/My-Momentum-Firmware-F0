@@ -1,0 +1,440 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .text.load_game
+                0x00000000       0xc0 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .text.getRandomIntInRange
+                0x00000000       0x20 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .text.onPlayerAnsweredCorrect
+                0x00000000        0xc build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .text.isRoundComplete
+                0x00000000        0xe build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .text.getCurrentSimonMove
+                0x00000000        0xc build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .rodata.sequence_right
+                0x00000000       0x10 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .rodata.sequence_left
+                0x00000000       0x10 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .rodata.sequence_down
+                0x00000000       0x10 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .rodata.sequence_up
+                0x00000000       0x10 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .rodata.sequence_player_submit_move
+                0x00000000       0x28 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .rodata.sequence_wrong_move
+                0x00000000       0x18 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.load_game
+                0x00000000       0x7a build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.getRandomIntInRange
+                0x00000000       0x2f build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.onPlayerAnsweredCorrect
+                0x00000000       0x1c build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.isRoundComplete
+                0x00000000       0x1c build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.getCurrentSimonMove
+                0x00000000       0x1c build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+ .rodata.I_DolphinRight_56x48
+                0x00000000        0xc build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+ .rodata.I_DolphinNiceRight_96x59
+                0x00000000        0xc build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+ .rodata.I_DolphinNiceLeft_96x59
+                0x00000000        0xc build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+ .rodata.I_DolphinLeft_56x48
+                0x00000000        0xc build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+ .rodata._I_DolphinRight_56x48
+                0x00000000        0x4 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+ .rodata._I_DolphinRight_56x48_0
+                0x00000000       0xe1 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+ .rodata._I_DolphinNiceRight_96x59
+                0x00000000        0x4 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+ .rodata._I_DolphinNiceRight_96x59_0
+                0x00000000      0x190 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+ .rodata._I_DolphinNiceLeft_96x59
+                0x00000000        0x4 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+ .rodata._I_DolphinNiceLeft_96x59_0
+                0x00000000      0x18e build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+ .rodata._I_DolphinLeft_56x48
+                0x00000000        0x4 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+ .rodata._I_DolphinLeft_56x48_0
+                0x00000000       0xe3 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/simon_says/simon_says.o
+LOAD build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0x838
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.simon_input_callback
+                0x00000000       0x14 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x00000000                simon_input_callback
+ .text.draw_remaining_lives
+                0x00000014       0x50 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x00000014                draw_remaining_lives
+ .text.draw_current_score
+                0x00000064       0x4c build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x00000064                draw_current_score
+ .text.play_sound_up
+                0x000000b0       0x38 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x000000b0                play_sound_up
+ .text.play_sound_down
+                0x000000e8       0x38 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x000000e8                play_sound_down
+ .text.play_sound_left
+                0x00000120       0x38 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x00000120                play_sound_left
+ .text.play_sound_right
+                0x00000158       0x38 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x00000158                play_sound_right
+ .text.stop_sound
+                0x00000190       0x24 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x00000190                stop_sound
+ .text.simon_draw_callback
+                0x000001b4      0x248 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x000001b4                simon_draw_callback
+ .text.save_game
+                0x000003fc       0x64 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x000003fc                save_game
+ .text.play_sound_sequence_correct
+                0x00000460       0x24 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x00000460                play_sound_sequence_correct
+ .text.play_sound_wrong_move
+                0x00000484       0x24 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x00000484                play_sound_wrong_move
+ .text.resetGame
+                0x000004a8       0x1a build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x000004a8                resetGame
+ *fill*         0x000004c2        0x2 
+ .text.game_over
+                0x000004c4       0x1c build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x000004c4                game_over
+ .text.restart_game_after_gameover
+                0x000004e0       0x40 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x000004e0                restart_game_after_gameover
+ .text.addNewSimonMove
+                0x00000520       0x24 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x00000520                addNewSimonMove
+ .text.startNewRound
+                0x00000544       0x1c build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x00000544                startNewRound
+ .text.onPlayerAnsweredWrong
+                0x00000560       0x34 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x00000560                onPlayerAnsweredWrong
+ .text.onPlayerSelectedShapeCallback
+                0x00000594       0x20 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x00000594                onPlayerSelectedShapeCallback
+ .text.game_tick
+                0x000005b4       0x9c build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x000005b4                game_tick
+ .text.simon_says_app_entry
+                0x00000650      0x1e8 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x00000650                simon_says_app_entry
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000838      0x6f1
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.draw_remaining_lives.str1.1
+                0x00000838        0x2 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .rodata.draw_current_score.str1.1
+                0x0000083a        0x3 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .rodata.simon_draw_callback.str1.1
+                0x0000083d       0x79 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .rodata.load_game.str1.1
+                0x000008b6       0x92 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .rodata.play_sound_sequence_correct.str1.1
+                0x00000948        0xd build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .rodata.simon_says_app_entry.str1.1
+                0x00000955       0x1a build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ *fill*         0x0000096f        0x1 
+ .rodata.sequence_cleanup
+                0x00000970       0x18 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x00000970                sequence_cleanup
+ .rodata.sequence_player_is_playing
+                0x00000988        0xc build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x00000988                sequence_player_is_playing
+ .rodata.sequence_simon_is_playing
+                0x00000994        0xc build/f7-firmware-C/.extapps/simon_says/simon_says.o
+                0x00000994                sequence_simon_is_playing
+ .rodata.I_up   0x000009a0        0xc build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+                0x000009a0                I_up
+ .rodata.I_right
+                0x000009ac        0xc build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+                0x000009ac                I_right
+ .rodata.I_left
+                0x000009b8        0xc build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+                0x000009b8                I_left
+ .rodata.I_down
+                0x000009c4        0xc build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+                0x000009c4                I_down
+ .rodata.I_board
+                0x000009d0        0xc build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+                0x000009d0                I_board
+ .rodata.I_DolphinTalking_59x63
+                0x000009dc        0xc build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+                0x000009dc                I_DolphinTalking_59x63
+ .rodata._I_up  0x000009e8        0x4 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+                0x000009e8                _I_up
+ .rodata._I_up_0
+                0x000009ec       0xe5 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+                0x000009ec                _I_up_0
+ *fill*         0x00000ad1        0x3 
+ .rodata._I_right
+                0x00000ad4        0x4 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+                0x00000ad4                _I_right
+ .rodata._I_right_0
+                0x00000ad8       0xb9 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+                0x00000ad8                _I_right_0
+ *fill*         0x00000b91        0x3 
+ .rodata._I_left
+                0x00000b94        0x4 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+                0x00000b94                _I_left
+ .rodata._I_left_0
+                0x00000b98       0xba build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+                0x00000b98                _I_left_0
+ *fill*         0x00000c52        0x2 
+ .rodata._I_down
+                0x00000c54        0x4 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+                0x00000c54                _I_down
+ .rodata._I_down_0
+                0x00000c58       0xe8 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+                0x00000c58                _I_down_0
+ .rodata._I_board
+                0x00000d40        0x4 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+                0x00000d40                _I_board
+ .rodata._I_board_0
+                0x00000d44       0xc4 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+                0x00000d44                _I_board_0
+ .rodata._I_DolphinTalking_59x63
+                0x00000e08        0x4 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+                0x00000e08                _I_DolphinTalking_59x63
+ .rodata._I_DolphinTalking_59x63_0
+                0x00000e0c      0x11d build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+                0x00000e0c                _I_DolphinTalking_59x63_0
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x100
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xe8 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_aranges
+                0x000000e8       0x18 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x284f
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2417 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_info    0x00002417      0x438 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+
+.debug_abbrev   0x00000000      0x5c1
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x503 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_abbrev  0x00000503       0xbe build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+
+.debug_line     0x00000000      0xddf
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x4bf build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.simon_input_callback
+                0x000004bf       0x26 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.draw_remaining_lives
+                0x000004e5       0x45 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.draw_current_score
+                0x0000052a       0x35 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.play_sound_up
+                0x0000055f       0x42 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.play_sound_down
+                0x000005a1       0x42 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.play_sound_left
+                0x000005e3       0x42 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.play_sound_right
+                0x00000625       0x42 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.stop_sound
+                0x00000667       0x31 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.simon_draw_callback
+                0x00000698       0xe5 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.save_game
+                0x0000077d       0x4f build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.play_sound_sequence_correct
+                0x000007cc       0x22 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.play_sound_wrong_move
+                0x000007ee       0x22 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.resetGame
+                0x00000810       0x40 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.game_over
+                0x00000850       0x3c build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.restart_game_after_gameover
+                0x0000088c       0x5e build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.addNewSimonMove
+                0x000008ea       0x44 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.startNewRound
+                0x0000092e       0x38 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.onPlayerAnsweredWrong
+                0x00000966       0x4a build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.onPlayerSelectedShapeCallback
+                0x000009b0       0x41 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.game_tick
+                0x000009f1       0xee build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line.text.simon_says_app_entry
+                0x00000adf      0x16a build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line_end
+                0x00000c49        0x0 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_line    0x00000c49      0x196 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+ .debug_line_end
+                0x00000ddf        0x0 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+
+.debug_frame    0x00000000      0x300
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x300 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+
+.debug_str      0x00000000     0x1aab
+ *(.debug_str)
+ .debug_str     0x00000000     0x1670 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .debug_str     0x00001670      0x43b build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0x5ec
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x5ec build/f7-firmware-C/.extapps/simon_says/simon_says.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0xfc
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0xfc build/f7-firmware-C/.extapps/simon_says/simon_says.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/simon_says/simon_says.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/simon_says/simon_says_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/simon_says_d.elf elf32-littlearm)
+LOAD linker stubs

@@ -1,0 +1,127 @@
+This is openocd.info, produced by makeinfo version 6.7 from
+openocd.texi.
+
+This User's Guide documents release 0.12.0+dev, dated 10 July 2024, of
+the Open On-Chip Debugger (OpenOCD).
+
+   * Copyright (C) 2008-2022 The OpenOCD Project
+   * Copyright (C) 2007-2008 Spencer Oliver <spen@spen-soft.co.uk>
+   * Copyright (C) 2008-2010 Oyvind Harboe <oyvind.harboe@zylin.com>
+   * Copyright (C) 2008 Duane Ellis <openocd@duaneellis.com>
+   * Copyright (C) 2009-2010 David Brownell
+
+     Permission is granted to copy, distribute and/or modify this
+     document under the terms of the GNU Free Documentation License,
+     Version 1.2 or any later version published by the Free Software
+     Foundation; with no Invariant Sections, no Front-Cover Texts, and
+     no Back-Cover Texts.  A copy of the license is included in the
+     section entitled "GNU Free Documentation License".
+INFO-DIR-SECTION Development
+START-INFO-DIR-ENTRY
+* OpenOCD: (openocd).      OpenOCD User's Guide
+END-INFO-DIR-ENTRY
+
+
+Indirect:
+openocd.info-1: 992
+openocd.info-2: 348730
+
+Tag Table:
+(Indirect)
+Node: Top992
+Node: About3455
+Node: Developers7787
+Node: Debug Adapter Hardware11127
+Node: About Jim-Tcl23710
+Node: Running25855
+Node: OpenOCD Project Setup31251
+Ref: OpenOCD Project Setup-Footnote-151203
+Ref: OpenOCD Project Setup-Footnote-251543
+Ref: OpenOCD Project Setup-Footnote-351811
+Node: Config File Guidelines52139
+Ref: theinitboardprocedure63318
+Ref: theinittargetsprocedure74658
+Ref: translatingconfigurationfiles78330
+Ref: Config File Guidelines-Footnote-179581
+Node: Server Configuration79656
+Ref: configurationstage79978
+Ref: enteringtherunstage81453
+Ref: tcpipports84906
+Ref: gdb_port85538
+Ref: gdbconfiguration87796
+Ref: gdbbreakpointoverride88111
+Ref: gdbflashprogram88486
+Ref: eventpolling89995
+Node: Debug Adapter Configuration92431
+Ref: adapter gpio94657
+Ref: hla_interface126995
+Ref: st_link_dap_interface128554
+Ref: swimtransport149307
+Ref: jtagspeed150074
+Node: Reset Configuration153036
+Ref: srstandtrstissues155964
+Ref: reset_config160146
+Node: TAP Declaration168058
+Ref: enablinganddisablingtaps180259
+Ref: autoprobing182906
+Ref: dapdeclaration185561
+Ref: dap_create186075
+Ref: DAP subcommand apreg188901
+Ref: TAP Declaration-Footnote-1192290
+Node: CPU Configuration192490
+Ref: targettypes195384
+Ref: targetconfiguration199591
+Ref: rtostype205385
+Ref: gdbportoverride206674
+Ref: targetcurstate211701
+Ref: targetevents213944
+Node: Flash Commands220990
+Ref: norconfiguration222523
+Ref: flashprogrammingcommands225760
+Ref: flashprotect233540
+Ref: program234366
+Ref: flashdriverlist234646
+Ref: jtagspi237396
+Ref: at91sam3259332
+Ref: atsame5262688
+Ref: nandconfiguration332623
+Ref: nanddriverlist343009
+Node: Flash Programming348730
+Node: PLD/FPGA Commands350343
+Node: General Commands358090
+Ref: debuglevel361062
+Ref: targetstatehandling362390
+Ref: resetcommand368155
+Ref: memoryaccess370574
+Ref: imageaccess372442
+Node: Architecture and Core Commands380882
+Ref: armhardwaretracing381352
+Ref: traceportdrivers389266
+Ref: armcrosstrigger390997
+Ref: arm9vectorcatch400615
+Ref: xscalevectorcatch408520
+Ref: add-reg-type-struct452931
+Ref: softwaredebugmessagesandtracing470041
+Node: JTAG Commands473510
+Node: Boundary Scan Commands481000
+Node: Utility Commands490182
+Node: GDB and OpenOCD492027
+Ref: programmingusinggdb497139
+Ref: gdbmeminspect498785
+Ref: gdbrtossupport500722
+Ref: usingopenocdsmpwithgdb503353
+Node: Tcl Scripting API504027
+Node: FAQ507543
+Ref: faqrtck507653
+Ref: faqtaporder519544
+Node: Tcl Crash Course521310
+Node: License533318
+Node: OpenOCD Concept Index555730
+Node: Command and Driver Index580230
+
+End Tag Table
+
+
+Local Variables:
+coding: utf-8
+End:

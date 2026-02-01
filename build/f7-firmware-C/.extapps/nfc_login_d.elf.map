@@ -1,0 +1,1212 @@
+Archive member included to satisfy reference by file (symbol)
+
+build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                              build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o (ble_profile_hid)
+build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                              build/f7-firmware-C/lib/libble_profile.a(hid_profile.o) (ble_svc_hid_start)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .rodata.reset_passcode_preserve_cards.str1.1
+                0x00000000       0xff build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .text.reset_passcode_preserve_cards
+                0x00000000       0x70 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_line.text.reset_passcode_preserve_cards
+                0x00000000       0x53 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .text.initialize_hid_and_wait
+                0x00000000        0x8 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .text.deinitialize_hid_with_restore
+                0x00000000        0x8 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .debug_line.text.initialize_hid_and_wait
+                0x00000000       0x21 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .debug_line.text.deinitialize_hid_with_restore
+                0x00000000       0x1f build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .text.ble_hid_is_ready
+                0x00000000       0x24 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_line.text.ble_hid_is_ready
+                0x00000000       0x38 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .rodata.usb_hid_deinit.str1.1
+                0x00000000       0x17 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .text.usb_hid_deinit
+                0x00000000       0x54 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .text.usb_hid_get_previous_config
+                0x00000000        0xc build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .text.usb_hid_set_previous_config
+                0x00000000        0xc build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .text.usb_hid_press_key
+                0x00000000        0x8 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .text.usb_hid_release_key
+                0x00000000        0x8 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .debug_line.text.usb_hid_deinit
+                0x00000000       0x4f build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .debug_line.text.usb_hid_get_previous_config
+                0x00000000       0x18 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .debug_line.text.usb_hid_set_previous_config
+                0x00000000       0x1b build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .debug_line.text.usb_hid_press_key
+                0x00000000       0x17 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .debug_line.text.usb_hid_release_key
+                0x00000000       0x17 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scan/nfc_login_scan.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scan/nfc_login_scan.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scan/nfc_login_scan.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_login/scan/nfc_login_scan.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .text.widget_custom_draw_callback
+                0x00000000       0x84 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .text.app_render_passcode_dots
+                0x00000000       0x24 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .rodata.app_render_lockscreen.str1.1
+                0x00000000       0x49 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .text.app_render_lockscreen
+                0x00000000       0xc0 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .debug_line.text.widget_custom_draw_callback
+                0x00000000       0xc1 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .debug_line.text.app_render_passcode_dots
+                0x00000000       0x34 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .debug_line.text.app_render_lockscreen
+                0x00000000       0x75 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/main.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/main.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/main.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_login/main.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/nfc_login_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/nfc_login_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/nfc_login_icons.o
+ .rodata.I_icon
+                0x00000000        0xc build/f7-firmware-C/.extapps/nfc_login/nfc_login_icons.o
+ .rodata._I_icon
+                0x00000000        0x4 build/f7-firmware-C/.extapps/nfc_login/nfc_login_icons.o
+ .rodata._I_icon_0
+                0x00000000       0x15 build/f7-firmware-C/.extapps/nfc_login/nfc_login_icons.o
+ .debug_info    0x00000000      0x184 build/f7-firmware-C/.extapps/nfc_login/nfc_login_icons.o
+ .debug_abbrev  0x00000000       0xb1 build/f7-firmware-C/.extapps/nfc_login/nfc_login_icons.o
+ .debug_aranges
+                0x00000000       0x18 build/f7-firmware-C/.extapps/nfc_login/nfc_login_icons.o
+ .debug_line    0x00000000      0x193 build/f7-firmware-C/.extapps/nfc_login/nfc_login_icons.o
+ .debug_str     0x00000000      0x26e build/f7-firmware-C/.extapps/nfc_login/nfc_login_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_login/nfc_login_icons.o
+ .debug_line_end
+                0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_login/nfc_login_icons.o
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_consumer_key_press
+                0x00000000       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_consumer_key_release
+                0x00000000       0x40 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_consumer_key_release_all
+                0x00000000       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_mouse_move
+                0x00000000       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_mouse_press
+                0x00000000       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_mouse_release
+                0x00000000       0x3c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_mouse_release_all
+                0x00000000       0x38 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_mouse_scroll
+                0x00000000       0x38 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_consumer_key_press
+                0x00000000       0xac build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_consumer_key_release
+                0x00000000       0xe4 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_consumer_key_release_all
+                0x00000000       0xc6 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_move
+                0x00000000       0xe4 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_press
+                0x00000000       0xa8 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_release
+                0x00000000       0xa8 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_release_all
+                0x00000000       0xa3 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_mouse_scroll
+                0x00000000       0xbf build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text          0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .data          0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .bss           0x00000000        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .comment       0x00000000       0x1c build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+LOAD build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+LOAD build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+LOAD build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+LOAD build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+LOAD build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+LOAD build/f7-firmware-C/.extapps/nfc_login/scan/nfc_login_scan.o
+LOAD build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+LOAD build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+LOAD build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+LOAD build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+LOAD build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+LOAD build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+LOAD build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+LOAD build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+LOAD build/f7-firmware-C/.extapps/nfc_login/main.o
+LOAD build/f7-firmware-C/.extapps/nfc_login/nfc_login_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/lib/libble_profile.a
+LOAD build/f7-firmware-C/lib/libassets.a
+LOAD build/f7-firmware-C/lib/libble_profile.a
+LOAD build/f7-firmware-C/lib/libassets.a
+
+.text           0x00000000     0x5c78
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.cli_free_app
+                0x00000000       0x18 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .text.cli_get_app
+                0x00000018      0x1e4 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .text.nfc_login_cli_help.constprop.0
+                0x000001fc       0xcc build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .text.nfc_login_cli_command
+                0x000002c8      0x8f0 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .text.nfc_login_cli_set_app_instance
+                0x00000bb8        0xc build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+                0x00000bb8                nfc_login_cli_set_app_instance
+ .text.nfc_login_cli_clear_app_instance
+                0x00000bc4        0xc build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+                0x00000bc4                nfc_login_cli_clear_app_instance
+ .text.nfc_login_cli_register_commands
+                0x00000bd0       0x3c build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+                0x00000bd0                nfc_login_cli_register_commands
+ .text.nfc_login_cli_unregister_commands
+                0x00000c0c       0x30 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+                0x00000c0c                nfc_login_cli_unregister_commands
+ .text.generate_iv_from_device_uid
+                0x00000c3c       0x54 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .text.ensure_crypto_key
+                0x00000c90       0x2c build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+                0x00000c90                ensure_crypto_key
+ .text.encrypt_data
+                0x00000cbc       0xe4 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+                0x00000cbc                encrypt_data
+ .text.decrypt_data
+                0x00000da0       0xb4 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+                0x00000da0                decrypt_data
+ .text.encrypt_data_with_passcode_sequence
+                0x00000e54      0x164 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+                0x00000e54                encrypt_data_with_passcode_sequence
+ .text.decrypt_data_with_passcode_sequence
+                0x00000fb8      0x164 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+                0x00000fb8                decrypt_data_with_passcode_sequence
+ .text.get_passcode_sequence.part.0
+                0x0000111c      0x14c build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .text.count_buttons_in_sequence
+                0x00001268       0x2a build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+                0x00001268                count_buttons_in_sequence
+ *fill*         0x00001292        0x2 
+ .text.get_passcode_sequence
+                0x00001294       0x2c build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+                0x00001294                get_passcode_sequence
+ .text.set_passcode_sequence
+                0x000012c0      0x250 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+                0x000012c0                set_passcode_sequence
+ .text.has_passcode
+                0x00001510       0x18 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+                0x00001510                has_passcode
+ .text.verify_passcode_sequence
+                0x00001528       0x2c build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+                0x00001528                verify_passcode_sequence
+ .text.sequence_to_bytes
+                0x00001554       0x34 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+                0x00001554                sequence_to_bytes
+ .text.delete_cards_and_reset_passcode
+                0x00001588       0x5c build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+                0x00001588                delete_cards_and_reset_passcode
+ .text.derive_key_from_passcode_sequence
+                0x000015e4      0x20c build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+                0x000015e4                derive_key_from_passcode_sequence
+ .text.get_passcode_disabled
+                0x000017f0       0x80 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+                0x000017f0                get_passcode_disabled
+ .text.set_passcode_disabled
+                0x00001870      0x13c build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+                0x00001870                set_passcode_disabled
+ .text.is_ble_hid_ready
+                0x000019ac        0x4 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+                0x000019ac                is_ble_hid_ready
+ .text.release_all_keys_with_mode
+                0x000019b0       0x14 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+                0x000019b0                release_all_keys_with_mode
+ .text.initialize_hid_and_wait_with_mode
+                0x000019c4       0x14 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+                0x000019c4                initialize_hid_and_wait_with_mode
+ .text.deinitialize_hid_with_restore_and_mode
+                0x000019d8       0x24 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+                0x000019d8                deinitialize_hid_with_restore_and_mode
+ .text.app_type_password
+                0x000019fc       0x24 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+                0x000019fc                app_type_password
+ .text.app_start_ble_advertising
+                0x00001a20        0x8 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+                0x00001a20                app_start_ble_advertising
+ .text.app_stop_ble_advertising
+                0x00001a28        0x8 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+                0x00001a28                app_stop_ble_advertising
+ .text.ble_connection_status_callback
+                0x00001a30       0x38 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .text.ble_hid_init
+                0x00001a68       0xc4 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+                0x00001a68                ble_hid_init
+ .text.ble_hid_deinit
+                0x00001b2c       0x88 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+                0x00001b2c                ble_hid_deinit
+ .text.ble_hid_is_connected
+                0x00001bb4        0xc build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+                0x00001bb4                ble_hid_is_connected
+ .text.ble_hid_release_all_keys
+                0x00001bc0       0x14 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+                0x00001bc0                ble_hid_release_all_keys
+ .text.ble_hid_press_key
+                0x00001bd4       0x4c build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+                0x00001bd4                ble_hid_press_key
+ .text.ble_hid_release_key
+                0x00001c20       0x4c build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+                0x00001c20                ble_hid_release_key
+ .text.ble_hid_type_password
+                0x00001c6c       0xfc build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+                0x00001c6c                ble_hid_type_password
+ .text.ble_hid_start_advertising
+                0x00001d68       0x44 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+                0x00001d68                ble_hid_start_advertising
+ .text.ble_hid_stop_advertising
+                0x00001dac        0x8 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+                0x00001dac                ble_hid_stop_advertising
+ .text.usb_hid_init
+                0x00001db4       0x90 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+                0x00001db4                usb_hid_init
+ .text.usb_hid_deinit_with_restore
+                0x00001e44       0x4c build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+                0x00001e44                usb_hid_deinit_with_restore
+ .text.usb_hid_release_all_keys
+                0x00001e90        0x8 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+                0x00001e90                usb_hid_release_all_keys
+ .text.usb_hid_type_password
+                0x00001e98       0xa0 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+                0x00001e98                usb_hid_type_password
+ .text.app_scan_thread
+                0x00001f38      0x280 build/f7-firmware-C/.extapps/nfc_login/scan/nfc_login_scan.o
+                0x00001f38                app_scan_thread
+ .text.app_render_edit_menu
+                0x000021b8       0xa8 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+                0x000021b8                app_render_edit_menu
+ .text.app_render_card_list
+                0x00002260      0x110 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+                0x00002260                app_render_card_list
+ .text.app_edit_text_result_callback
+                0x00002370      0x200 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+                0x00002370                app_edit_text_result_callback
+ .text.app_edit_uid_byte_input_done
+                0x00002570       0xa0 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+                0x00002570                app_edit_uid_byte_input_done
+ .text.iso14443_3a_async_callback
+                0x00002610       0x78 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+                0x00002610                iso14443_3a_async_callback
+ .text.app_enroll_scan_thread
+                0x00002688      0x120 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+                0x00002688                app_enroll_scan_thread
+ .text.app_text_input_result_callback
+                0x000027a8       0xf4 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+                0x000027a8                app_text_input_result_callback
+ .text.app_enroll_uid_byte_input_done
+                0x0000289c       0x5c build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+                0x0000289c                app_enroll_uid_byte_input_done
+ .text.app_import_nfc_file
+                0x000028f8      0x1c4 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+                0x000028f8                app_import_nfc_file
+ .text.app_custom_event_callback
+                0x00002abc      0x318 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+                0x00002abc                app_custom_event_callback
+ .text.passcode_canvas_input_callback
+                0x00002dd4       0x48 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .text.passcode_canvas_draw_callback
+                0x00002e1c      0x214 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .text.passcode_canvas_view_alloc
+                0x00003030       0x50 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+                0x00003030                passcode_canvas_view_alloc
+ .text.passcode_canvas_view_free
+                0x00003080       0x14 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+                0x00003080                passcode_canvas_view_free
+ .text.app_render_credits
+                0x00003094      0x138 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+                0x00003094                app_render_credits
+ .text.app_render_settings
+                0x000031cc      0x204 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+                0x000031cc                app_render_settings
+ .text.app_switch_to_view
+                0x000033d0       0x1c build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+                0x000033d0                app_switch_to_view
+ .text.app_file_browser_callback
+                0x000033ec      0x130 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .text.submenu_callback
+                0x0000351c      0x138 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .text.app_navigation_callback
+                0x00003654      0x188 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .text.app_handle_edit_menu_input
+                0x000037dc      0x220 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .text.app_widget_view_input_handler
+                0x000039fc      0xa1c build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+                0x000039fc                app_widget_view_input_handler
+ .text.scene_manager_init
+                0x00004418      0x1b0 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+                0x00004418                scene_manager_init
+ .text.app_load_keyboard_layout
+                0x000045c8      0x1b8 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+                0x000045c8                app_load_keyboard_layout
+ .text.app_save_settings
+                0x00004780      0x144 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+                0x00004780                app_save_settings
+ .text.app_load_settings
+                0x000048c4      0x400 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+                0x000048c4                app_load_settings
+ .text.app_ensure_data_dir
+                0x00004cc4       0x10 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+                0x00004cc4                app_ensure_data_dir
+ .text.app_save_cards
+                0x00004cd4      0x3e8 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+                0x00004cd4                app_save_cards
+ .text.app_load_cards
+                0x000050bc      0x4f4 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+                0x000050bc                app_load_cards
+ .text.nfc_login
+                0x000055b0      0x218 build/f7-firmware-C/.extapps/nfc_login/main.o
+                0x000055b0                nfc_login
+ .text.ble_profile_hid_get_config
+                0x000057c8       0x98 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_stop
+                0x00005860       0x58 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_start
+                0x000058b8       0x78 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .text.ble_profile_hid_kb_press
+                0x00005930       0x54 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00005930                ble_profile_hid_kb_press
+ .text.ble_profile_hid_kb_release
+                0x00005984       0x58 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00005984                ble_profile_hid_kb_release
+ .text.ble_profile_hid_kb_release_all
+                0x000059dc       0x44 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x000059dc                ble_profile_hid_kb_release_all
+ .text.ble_svc_hid_char_desc_data_callback
+                0x00005a20        0xc build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .text.ble_svc_hid_report_data_callback
+                0x00005a2c       0x12 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .text.ble_svc_hid_event_handler
+                0x00005a3e       0x26 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .text.ble_svc_hid_start
+                0x00005a64      0x138 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00005a64                ble_svc_hid_start
+ .text.ble_svc_hid_update_report_map
+                0x00005b9c       0x20 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00005b9c                ble_svc_hid_update_report_map
+ .text.ble_svc_hid_update_input_report
+                0x00005bbc       0x20 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00005bbc                ble_svc_hid_update_input_report
+ .text.ble_svc_hid_update_info
+                0x00005bdc       0x1c build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00005bdc                ble_svc_hid_update_info
+ .text.ble_svc_hid_stop
+                0x00005bf8       0x80 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+                0x00005bf8                ble_svc_hid_stop
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00005c78     0x271c
+ *(.rodata)
+ .rodata        0x00005c78       0x10 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .rodata        0x00005c88       0x10 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .rodata        0x00005c98       0x10 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .rodata        0x00005ca8        0x3 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.cli_get_app.str1.1
+                0x00005cab       0xa7 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .rodata.nfc_login_cli_help.constprop.0.str1.1
+                0x00005d52      0x371 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .rodata.nfc_login_cli_command.str1.1
+                0x000060c3      0x605 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .rodata.nfc_login_cli_register_commands.str1.1
+                0x000066c8        0xa build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .rodata.ensure_crypto_key.str1.1
+                0x000066d2       0x48 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .rodata.encrypt_data.str1.1
+                0x0000671a       0xc1 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .rodata.decrypt_data.str1.1
+                0x000067db       0xba build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .rodata.encrypt_data_with_passcode_sequence.str1.1
+                0x00006895       0xe9 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .rodata.decrypt_data_with_passcode_sequence.str1.1
+                0x0000697e      0x121 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .rodata.get_passcode_sequence.part.0.str1.1
+                0x00006a9f      0x107 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .rodata.get_passcode_sequence.str1.1
+                0x00006ba6       0x2a build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .rodata.set_passcode_sequence.str1.1
+                0x00006bd0      0x1b5 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .rodata.delete_cards_and_reset_passcode.str1.1
+                0x00006d85       0x93 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .rodata.derive_key_from_passcode_sequence.str1.1
+                0x00006e18       0x74 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .rodata.ble_connection_status_callback.str1.1
+                0x00006e8c       0x31 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .rodata.ble_hid_init.str1.1
+                0x00006ebd       0x47 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .rodata.ble_hid_deinit.str1.1
+                0x00006f04       0x16 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .rodata.ble_hid_press_key.str1.1
+                0x00006f1a       0x54 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .rodata.ble_hid_release_key.str1.1
+                0x00006f6e       0x58 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .rodata.ble_hid_type_password.str1.1
+                0x00006fc6       0x71 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .rodata.usb_hid_init.str1.1
+                0x00007037       0x5b build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .rodata.usb_hid_deinit_with_restore.str1.1
+                0x00007092       0x24 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .rodata.app_scan_thread.str1.1
+                0x000070b6       0x21 build/f7-firmware-C/.extapps/nfc_login/scan/nfc_login_scan.o
+ .rodata.app_render_edit_menu.str1.1
+                0x000070d7       0x14 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .rodata.app_render_card_list.str1.1
+                0x000070eb       0x43 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .rodata.str1.1
+                0x0000712e       0x19 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .rodata.app_edit_text_result_callback.str1.1
+                0x00007147       0x64 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .rodata.app_edit_uid_byte_input_done.str1.1
+                0x000071ab       0x28 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .rodata.str1.1
+                0x000071d3       0x19 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .rodata.app_text_input_result_callback.str1.1
+                0x000071ec       0xd4 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .rodata.app_import_nfc_file.str1.1
+                0x000072c0       0x11 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .rodata.app_custom_event_callback.str1.1
+                0x000072d1       0x8e build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .rodata.str1.1
+                0x0000735f       0x20 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .rodata.passcode_canvas_draw_callback.str1.1
+                0x0000737f       0xdf build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .rodata.app_render_credits.str1.1
+                0x0000745e       0xaf build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .rodata.app_render_settings.str1.1
+                0x0000750d      0x125 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .rodata.app_file_browser_callback.str1.1
+                0x00007632       0x13 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .rodata.submenu_callback.str1.1
+                0x00007645       0x43 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .rodata.app_handle_edit_menu_input.str1.1
+                0x00007688       0x54 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .rodata.app_widget_view_input_handler.str1.1
+                0x000076dc      0x17c build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .rodata.scene_manager_init.str1.1
+                0x00007858       0x31 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .rodata.app_load_keyboard_layout.str1.1
+                0x00007889       0x29 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .rodata.app_save_settings.str1.1
+                0x000078b2       0xb0 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .rodata.app_load_settings.str1.1
+                0x00007962      0x36c build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .rodata.app_ensure_data_dir.str1.1
+                0x00007cce       0x19 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .rodata.app_save_cards.str1.1
+                0x00007ce7      0x1ce build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .rodata.app_load_cards.str1.1
+                0x00007eb5      0x302 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .rodata.nfc_login.str1.1
+                0x000081b7       0x11 build/f7-firmware-C/.extapps/nfc_login/main.o
+ .rodata.ble_profile_hid_get_config.str1.1
+                0x000081c8       0x10 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .rodata.profile_callbacks
+                0x000081d8        0xc build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .rodata.ble_profile_hid_report_map_data
+                0x000081e4       0x8a build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .rodata.str1.1
+                0x0000826e       0x42 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .rodata.ble_svc_hid_report_template
+                0x000082b0       0x24 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .rodata.ble_svc_hid_char_descr_template
+                0x000082d4       0x20 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .rodata.ble_svc_hid_chars
+                0x000082f4       0x90 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .rodata.ble_svc_hid_uuid
+                0x00008384       0x10 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.data           0x00008394       0x58
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.ble_profile_hid
+                0x00008394        0x4 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+                0x00008394                ble_profile_hid
+ .data.template_config
+                0x00008398       0x54 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+
+.bss            0x000083ec       0x18
+ *(.bss)
+ *(.bss*)
+ .bss.g_running_app
+                0x000083ec        0x4 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .bss.g_ble_is_connected
+                0x000083f0        0x1 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ *fill*         0x000083f1        0x3 
+ .bss.g_bt_service
+                0x000083f4        0x4 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .bss.g_ble_hid_profile
+                0x000083f8        0x4 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .bss.g_usb_previous_config
+                0x000083fc        0x4 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .bss.g_app_context
+                0x00008400        0x4 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x528
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x58 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .debug_aranges
+                0x00000058       0x48 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .debug_aranges
+                0x000000a0       0x78 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_aranges
+                0x00000118       0x60 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .debug_aranges
+                0x00000178       0x70 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_aranges
+                0x000001e8       0x60 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .debug_aranges
+                0x00000248       0x20 build/f7-firmware-C/.extapps/nfc_login/scan/nfc_login_scan.o
+ .debug_aranges
+                0x00000268       0x28 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .debug_aranges
+                0x00000290       0x28 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .debug_aranges
+                0x000002b8       0x48 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .debug_aranges
+                0x00000300       0x38 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .debug_aranges
+                0x00000338       0x40 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .debug_aranges
+                0x00000378       0x50 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .debug_aranges
+                0x000003c8       0x30 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .debug_aranges
+                0x000003f8       0x30 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .debug_aranges
+                0x00000428       0x20 build/f7-firmware-C/.extapps/nfc_login/main.o
+ .debug_aranges
+                0x00000448       0x88 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_aranges
+                0x000004d0       0x58 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x1db57
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2e99 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .debug_info    0x00002e99      0xaff build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .debug_info    0x00003998     0x276a build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_info    0x00006102     0x10c3 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .debug_info    0x000071c5     0x188a build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_info    0x00008a4f     0x1381 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .debug_info    0x00009dd0     0x194d build/f7-firmware-C/.extapps/nfc_login/scan/nfc_login_scan.o
+ .debug_info    0x0000b71d     0x114f build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .debug_info    0x0000c86c     0x15e0 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .debug_info    0x0000de4c     0x26e4 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .debug_info    0x00010530     0x174f build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .debug_info    0x00011c7f     0x177c build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .debug_info    0x000133fb     0x31f7 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .debug_info    0x000165f2     0x1b6f build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .debug_info    0x00018161     0x25e4 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .debug_info    0x0001a745     0x132c build/f7-firmware-C/.extapps/nfc_login/main.o
+ .debug_info    0x0001ba71     0x1333 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_info    0x0001cda4      0xdb3 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_abbrev   0x00000000     0x421b
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x517 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .debug_abbrev  0x00000517      0x1eb build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .debug_abbrev  0x00000702      0x46d build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_abbrev  0x00000b6f      0x340 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .debug_abbrev  0x00000eaf      0x3df build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_abbrev  0x0000128e      0x3c8 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .debug_abbrev  0x00001656      0x343 build/f7-firmware-C/.extapps/nfc_login/scan/nfc_login_scan.o
+ .debug_abbrev  0x00001999      0x295 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .debug_abbrev  0x00001c2e      0x326 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .debug_abbrev  0x00001f54      0x4a5 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .debug_abbrev  0x000023f9      0x3c0 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .debug_abbrev  0x000027b9      0x337 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .debug_abbrev  0x00002af0      0x521 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .debug_abbrev  0x00003011      0x300 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .debug_abbrev  0x00003311      0x451 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .debug_abbrev  0x00003762      0x2b6 build/f7-firmware-C/.extapps/nfc_login/main.o
+ .debug_abbrev  0x00003a18      0x3a5 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_abbrev  0x00003dbd      0x45e build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_line     0x00000000     0xb0ff
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x5b5 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .debug_line.text.cli_free_app
+                0x000005b5       0x2c build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .debug_line.text.cli_get_app
+                0x000005e1      0x1b2 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .debug_line.text.nfc_login_cli_help.constprop.0
+                0x00000793       0x42 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .debug_line.text.nfc_login_cli_command
+                0x000007d5      0x824 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .debug_line.text.nfc_login_cli_set_app_instance
+                0x00000ff9       0x1b build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .debug_line.text.nfc_login_cli_clear_app_instance
+                0x00001014       0x1b build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .debug_line.text.nfc_login_cli_register_commands
+                0x0000102f       0x33 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .debug_line.text.nfc_login_cli_unregister_commands
+                0x00001062       0x29 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .debug_line_end
+                0x0000108b        0x0 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .debug_line    0x0000108b      0x2c7 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .debug_line.text.generate_iv_from_device_uid
+                0x00001352       0x8d build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .debug_line.text.ensure_crypto_key
+                0x000013df       0x27 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .debug_line.text.encrypt_data
+                0x00001406       0xda build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .debug_line.text.decrypt_data
+                0x000014e0       0xc2 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .debug_line.text.encrypt_data_with_passcode_sequence
+                0x000015a2      0x1ef build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .debug_line.text.decrypt_data_with_passcode_sequence
+                0x00001791      0x1ea build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .debug_line_end
+                0x0000197b        0x0 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .debug_line    0x0000197b      0x526 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_line.text.get_passcode_sequence.part.0
+                0x00001ea1      0x133 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_line.text.count_buttons_in_sequence
+                0x00001fd4       0x5f build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_line.text.get_passcode_sequence
+                0x00002033       0x3b build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_line.text.set_passcode_sequence
+                0x0000206e      0x26f build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_line.text.has_passcode
+                0x000022dd       0x2c build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_line.text.verify_passcode_sequence
+                0x00002309       0x3f build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_line.text.sequence_to_bytes
+                0x00002348       0x61 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_line.text.delete_cards_and_reset_passcode
+                0x000023a9       0x50 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_line.text.derive_key_from_passcode_sequence
+                0x000023f9      0x38c build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_line.text.get_passcode_disabled
+                0x00002785       0x7a build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_line.text.set_passcode_disabled
+                0x000027ff      0x13d build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_line_end
+                0x0000293c        0x0 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_line    0x0000293c      0x3de build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .debug_line.text.is_ble_hid_ready
+                0x00002d1a       0x16 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .debug_line.text.release_all_keys_with_mode
+                0x00002d30       0x1f build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .debug_line.text.initialize_hid_and_wait_with_mode
+                0x00002d4f       0x29 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .debug_line.text.deinitialize_hid_with_restore_and_mode
+                0x00002d78       0x40 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .debug_line.text.app_type_password
+                0x00002db8       0x3e build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .debug_line.text.app_start_ble_advertising
+                0x00002df6       0x15 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .debug_line.text.app_stop_ble_advertising
+                0x00002e0b       0x15 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .debug_line_end
+                0x00002e20        0x0 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .debug_line    0x00002e20      0x4cf build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_line.text.ble_connection_status_callback
+                0x000032ef       0x45 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_line.text.ble_hid_init
+                0x00003334       0xa5 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_line.text.ble_hid_deinit
+                0x000033d9       0x69 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_line.text.ble_hid_is_connected
+                0x00003442       0x19 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_line.text.ble_hid_release_all_keys
+                0x0000345b       0x24 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_line.text.ble_hid_press_key
+                0x0000347f       0x52 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_line.text.ble_hid_release_key
+                0x000034d1       0x52 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_line.text.ble_hid_type_password
+                0x00003523      0x113 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_line.text.ble_hid_start_advertising
+                0x00003636       0x52 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_line.text.ble_hid_stop_advertising
+                0x00003688       0x15 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_line_end
+                0x0000369d        0x0 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_line    0x0000369d      0x405 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .debug_line.text.usb_hid_init
+                0x00003aa2       0x80 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .debug_line.text.usb_hid_deinit_with_restore
+                0x00003b22       0x3b build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .debug_line.text.usb_hid_release_all_keys
+                0x00003b5d       0x15 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .debug_line.text.usb_hid_type_password
+                0x00003b72      0x111 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .debug_line_end
+                0x00003c83        0x0 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .debug_line    0x00003c83      0x5b4 build/f7-firmware-C/.extapps/nfc_login/scan/nfc_login_scan.o
+ .debug_line.text.app_scan_thread
+                0x00004237      0x2d8 build/f7-firmware-C/.extapps/nfc_login/scan/nfc_login_scan.o
+ .debug_line_end
+                0x0000450f        0x0 build/f7-firmware-C/.extapps/nfc_login/scan/nfc_login_scan.o
+ .debug_line    0x0000450f      0x42d build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .debug_line.text.app_render_edit_menu
+                0x0000493c       0x59 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .debug_line.text.app_render_card_list
+                0x00004995       0xd1 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .debug_line_end
+                0x00004a66        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .debug_line    0x00004a66      0x4ff build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .debug_line.text.app_edit_text_result_callback
+                0x00004f65      0x178 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .debug_line.text.app_edit_uid_byte_input_done
+                0x000050dd       0x83 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .debug_line_end
+                0x00005160        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .debug_line    0x00005160      0x649 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .debug_line.text.iso14443_3a_async_callback
+                0x000057a9       0xbc build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .debug_line.text.app_enroll_scan_thread
+                0x00005865      0x101 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .debug_line.text.app_text_input_result_callback
+                0x00005966       0xd0 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .debug_line.text.app_enroll_uid_byte_input_done
+                0x00005a36       0x9a build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .debug_line.text.app_import_nfc_file
+                0x00005ad0      0x209 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .debug_line.text.app_custom_event_callback
+                0x00005cd9      0x17f build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .debug_line_end
+                0x00005e58        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .debug_line    0x00005e58      0x522 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .debug_line.text.passcode_canvas_input_callback
+                0x0000637a       0x6a build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .debug_line.text.passcode_canvas_draw_callback
+                0x000063e4      0x1e3 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .debug_line.text.passcode_canvas_view_alloc
+                0x000065c7       0x5f build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .debug_line.text.passcode_canvas_view_free
+                0x00006626       0x1f build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .debug_line_end
+                0x00006645        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .debug_line    0x00006645      0x494 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .debug_line.text.app_render_credits
+                0x00006ad9       0x68 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .debug_line.text.app_render_settings
+                0x00006b41       0xbf build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .debug_line_end
+                0x00006c00        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .debug_line    0x00006c00      0x766 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .debug_line.text.app_switch_to_view
+                0x00007366       0x38 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .debug_line.text.app_file_browser_callback
+                0x0000739e       0xdd build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .debug_line.text.submenu_callback
+                0x0000747b       0xc1 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .debug_line.text.app_navigation_callback
+                0x0000753c      0x1a2 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .debug_line.text.app_handle_edit_menu_input
+                0x000076de      0x1e1 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .debug_line.text.app_widget_view_input_handler
+                0x000078bf      0x901 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .debug_line.text.scene_manager_init
+                0x000081c0       0xdb build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .debug_line_end
+                0x0000829b        0x0 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .debug_line    0x0000829b      0x4f4 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .debug_line.text.app_load_keyboard_layout
+                0x0000878f      0x1a7 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .debug_line.text.app_save_settings
+                0x00008936       0x8e build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .debug_line.text.app_load_settings
+                0x000089c4      0x3c7 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .debug_line_end
+                0x00008d8b        0x0 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .debug_line    0x00008d8b      0x512 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .debug_line.text.app_ensure_data_dir
+                0x0000929d       0x17 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .debug_line.text.app_save_cards
+                0x000092b4      0x3d5 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .debug_line.text.app_load_cards
+                0x00009689      0x49d build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .debug_line_end
+                0x00009b26        0x0 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .debug_line    0x00009b26      0x5cd build/f7-firmware-C/.extapps/nfc_login/main.o
+ .debug_line.text.nfc_login
+                0x0000a0f3      0x179 build/f7-firmware-C/.extapps/nfc_login/main.o
+ .debug_line_end
+                0x0000a26c        0x0 build/f7-firmware-C/.extapps/nfc_login/main.o
+ .debug_line    0x0000a26c      0x38a build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_get_config
+                0x0000a5f6       0xb5 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_stop
+                0x0000a6ab       0x9a build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_start
+                0x0000a745       0x84 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_kb_press
+                0x0000a7c9       0xd2 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_kb_release
+                0x0000a89b       0xdc build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line.text.ble_profile_hid_kb_release_all
+                0x0000a977      0x16c build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line_end
+                0x0000aae3        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_line    0x0000aae3      0x301 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_char_desc_data_callback
+                0x0000ade4       0x32 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_report_data_callback
+                0x0000ae16       0x39 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_event_handler
+                0x0000ae4f       0x4a build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_start
+                0x0000ae99      0x11d build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_update_report_map
+                0x0000afb6       0x37 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_update_input_report
+                0x0000afed       0x3b build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_update_info
+                0x0000b028       0x2b build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line.text.ble_svc_hid_stop
+                0x0000b053       0xac build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ .debug_line_end
+                0x0000b0ff        0x0 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_frame    0x00000000     0x100c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x118 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .debug_frame   0x00000118      0x100 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .debug_frame   0x00000218      0x1b4 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_frame   0x000003cc       0xb0 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .debug_frame   0x0000047c      0x148 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_frame   0x000005c4      0x100 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .debug_frame   0x000006c4       0x40 build/f7-firmware-C/.extapps/nfc_login/scan/nfc_login_scan.o
+ .debug_frame   0x00000704       0x6c build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .debug_frame   0x00000770       0x78 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .debug_frame   0x000007e8      0x11c build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .debug_frame   0x00000904       0x9c build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .debug_frame   0x000009a0       0xe4 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .debug_frame   0x00000a84      0x14c build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .debug_frame   0x00000bd0       0xa8 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .debug_frame   0x00000c78       0xb8 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .debug_frame   0x00000d30       0x34 build/f7-firmware-C/.extapps/nfc_login/main.o
+ .debug_frame   0x00000d64      0x1c4 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_frame   0x00000f28       0xe4 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_str      0x00000000    0x126a5
+ *(.debug_str)
+ .debug_str     0x00000000     0x12f5 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .debug_str     0x000012f5      0x539 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .debug_str     0x0000182e     0x124a build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_str     0x00002a78      0xd01 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .debug_str     0x00003779     0x10fe build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_str     0x00004877      0xdc7 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .debug_str     0x0000563e     0x16f2 build/f7-firmware-C/.extapps/nfc_login/scan/nfc_login_scan.o
+ .debug_str     0x00006d30      0xc64 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .debug_str     0x00007994     0x12a3 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .debug_str     0x00008c37     0x1cff build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .debug_str     0x0000a936      0xf73 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .debug_str     0x0000b8a9      0xe0d build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .debug_str     0x0000c6b6     0x1e72 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .debug_str     0x0000e528      0xe84 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .debug_str     0x0000f3ac     0x116f build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .debug_str     0x0001051b      0xe27 build/f7-firmware-C/.extapps/nfc_login/main.o
+ .debug_str     0x00011342      0x9f0 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_str     0x00011d32      0x973 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000     0x4fd9
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x986 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .debug_loclists
+                0x00000986      0x681 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .debug_loclists
+                0x00001007      0xa55 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_loclists
+                0x00001a5c      0x119 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .debug_loclists
+                0x00001b75      0x1ef build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_loclists
+                0x00001d64      0x15d build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .debug_loclists
+                0x00001ec1      0x1c9 build/f7-firmware-C/.extapps/nfc_login/scan/nfc_login_scan.o
+ .debug_loclists
+                0x0000208a       0xda build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .debug_loclists
+                0x00002164      0x17c build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .debug_loclists
+                0x000022e0      0x520 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .debug_loclists
+                0x00002800      0x40f build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .debug_loclists
+                0x00002c0f      0x231 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .debug_loclists
+                0x00002e40      0x909 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .debug_loclists
+                0x00003749      0x333 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .debug_loclists
+                0x00003a7c      0xad3 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .debug_loclists
+                0x0000454f       0x4d build/f7-firmware-C/.extapps/nfc_login/main.o
+ .debug_loclists
+                0x0000459c      0x710 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_loclists
+                0x00004cac      0x32d build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0xc3d
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000      0x13a build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .debug_rnglists
+                0x0000013a       0xcc build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .debug_rnglists
+                0x00000206      0x17a build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .debug_rnglists
+                0x00000380       0x43 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .debug_rnglists
+                0x000003c3       0x87 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .debug_rnglists
+                0x0000044a       0x9f build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .debug_rnglists
+                0x000004e9       0x8e build/f7-firmware-C/.extapps/nfc_login/scan/nfc_login_scan.o
+ .debug_rnglists
+                0x00000577       0x62 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .debug_rnglists
+                0x000005d9       0x3f build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .debug_rnglists
+                0x00000618       0xe3 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .debug_rnglists
+                0x000006fb       0x8c build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .debug_rnglists
+                0x00000787       0x59 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .debug_rnglists
+                0x000007e0      0x103 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .debug_rnglists
+                0x000008e3       0xa2 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .debug_rnglists
+                0x00000985      0x17e build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .debug_rnglists
+                0x00000b03       0x22 build/f7-firmware-C/.extapps/nfc_login/main.o
+ .debug_rnglists
+                0x00000b25       0xa7 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .debug_rnglists
+                0x00000bcc       0x71 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/nfc_login/cli/nfc_login_cli.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_crypto.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/nfc_login/crypto/nfc_login_passcode.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_ble.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/nfc_login/hid/nfc_login_hid_usb.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/nfc_login/scan/nfc_login_scan.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/cards_scene.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/nfc_login/scenes/cards/edit_callbacks.o
+ .ARM.attributes
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/nfc_login/scenes/enroll/enroll_scene.o
+ .ARM.attributes
+                0x00000208       0x34 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/passcode_canvas.o
+ .ARM.attributes
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/nfc_login/scenes/settings/settings_scene.o
+ .ARM.attributes
+                0x00000270       0x34 build/f7-firmware-C/.extapps/nfc_login/scenes/scene_manager.o
+ .ARM.attributes
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/nfc_login/settings/nfc_login_settings.o
+ .ARM.attributes
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/nfc_login/storage/nfc_login_card_storage.o
+ .ARM.attributes
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/nfc_login/main.o
+ .ARM.attributes
+                0x00000340       0x34 build/f7-firmware-C/.extapps/nfc_login/nfc_login_icons.o
+ .ARM.attributes
+                0x00000374       0x34 build/f7-firmware-C/lib/libble_profile.a(hid_profile.o)
+ .ARM.attributes
+                0x000003a8       0x34 build/f7-firmware-C/lib/libble_profile.a(hid_service.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/nfc_login_d.elf elf32-littlearm)
+LOAD linker stubs

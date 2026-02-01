@@ -1,0 +1,670 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/game_state.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/game_state.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/game_state.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/jetpack_joyride/includes/game_state.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+ .rodata.I_bg3  0x00000000        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+ .rodata.I_bg2  0x00000000        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+ .rodata.I_bg1  0x00000000        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+ .rodata._I_bg3
+                0x00000000        0x4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+ .rodata._I_bg3_0
+                0x00000000       0xeb build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+ .rodata._I_bg2
+                0x00000000        0x4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+ .rodata._I_bg2_0
+                0x00000000      0x10a build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+ .rodata._I_bg1
+                0x00000000        0x4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+ .rodata._I_bg1_0
+                0x00000000       0xe4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+LOAD build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+LOAD build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+LOAD build/f7-firmware-C/.extapps/jetpack_joyride/includes/game_state.o
+LOAD build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+LOAD build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+LOAD build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+LOAD build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+LOAD build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xee4
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.background_assets_tick
+                0x00000000       0x24 build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+                0x00000000                background_assets_tick
+ .text.spawn_random_background_asset
+                0x00000024       0x74 build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+                0x00000024                spawn_random_background_asset
+ .text.draw_background_assets
+                0x00000098       0x88 build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+                0x00000098                draw_background_assets
+ .text.barry_tick
+                0x00000120       0x58 build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+                0x00000120                barry_tick
+ .text.draw_barry
+                0x00000178       0x44 build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+                0x00000178                draw_barry
+ .text.coin_colides
+                0x000001bc       0x2c build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+                0x000001bc                coin_colides
+ .text.coin_tick
+                0x000001e8       0x3c build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+                0x000001e8                coin_tick
+ .text.spawn_random_coin
+                0x00000224       0xb0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+                0x00000224                spawn_random_coin
+ .text.draw_coins
+                0x000002d4       0x54 build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+                0x000002d4                draw_coins
+ .text.game_state_tick
+                0x00000328        0x8 build/f7-firmware-C/.extapps/jetpack_joyride/includes/game_state.o
+                0x00000328                game_state_tick
+ .text.spawn_random_missile
+                0x00000330       0x34 build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+                0x00000330                spawn_random_missile
+ .text.draw_missiles
+                0x00000364       0x64 build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+                0x00000364                draw_missiles
+ .text.missile_colides
+                0x000003c8       0x30 build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+                0x000003c8                missile_colides
+ .text.missile_tick
+                0x000003f8       0x4c build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+                0x000003f8                missile_tick
+ .text.get_rocket_spawn_distance
+                0x00000444       0x40 build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+                0x00000444                get_rocket_spawn_distance
+ .text.particle_tick
+                0x00000484       0x9e build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+                0x00000484                particle_tick
+ *fill*         0x00000522        0x2 
+ .text.spawn_random_particles
+                0x00000524       0x3c build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+                0x00000524                spawn_random_particles
+ .text.draw_particles
+                0x00000560       0x44 build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+                0x00000560                draw_particles
+ .text.scientist_tick
+                0x000005a4       0x68 build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+                0x000005a4                scientist_tick
+ .text.spawn_random_scientist
+                0x0000060c       0x7c build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+                0x0000060c                spawn_random_scientist
+ .text.draw_scientists
+                0x00000688       0xf8 build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+                0x00000688                draw_scientists
+ .text.storage_game_state_save
+                0x00000780       0x64 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .text.handle_death
+                0x000007e4       0x34 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+                0x000007e4                handle_death
+ .text.jetpack_game_update_timer_callback
+                0x00000818       0x1c build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .text.jetpack_game_input_callback
+                0x00000834       0x28 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .text.jetpack_game_render_callback
+                0x0000085c      0x204 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .text.jetpack_game_state_init
+                0x00000a60       0xf8 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .text.jetpack_game_app
+                0x00000b58      0x38c build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+                0x00000b58                jetpack_game_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000ee4      0x556
+ *(.rodata)
+ .rodata        0x00000ee4       0x10 build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.coin_patterns
+                0x00000ef4      0x174 build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+                0x00000ef4                coin_patterns
+ .rodata.storage_game_state_save.str1.1
+                0x00001068       0x1b build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .rodata.jetpack_game_render_callback.str1.1
+                0x00001083       0x45 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .rodata.jetpack_game_app.str1.1
+                0x000010c8       0x44 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .rodata.A_missile
+                0x0000110c        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x0000110c                A_missile
+ .rodata.A_barry
+                0x00001118        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001118                A_barry
+ .rodata.A_alert
+                0x00001124        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001124                A_alert
+ .rodata.I_scientist_right_infill
+                0x00001130        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001130                I_scientist_right_infill
+ .rodata.I_scientist_right
+                0x0000113c        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x0000113c                I_scientist_right
+ .rodata.I_scientist_left_infill
+                0x00001148        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001148                I_scientist_left_infill
+ .rodata.I_scientist_left
+                0x00001154        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001154                I_scientist_left
+ .rodata.I_pillar
+                0x00001160        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001160                I_pillar
+ .rodata.I_missile_infill
+                0x0000116c        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x0000116c                I_missile_infill
+ .rodata.I_door
+                0x00001178        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001178                I_door
+ .rodata.I_dead_scientist_infill
+                0x00001184        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001184                I_dead_scientist_infill
+ .rodata.I_dead_scientist
+                0x00001190        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001190                I_dead_scientist
+ .rodata.I_coin_infill
+                0x0000119c        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x0000119c                I_coin_infill
+ .rodata.I_coin
+                0x000011a8        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x000011a8                I_coin
+ .rodata.I_barry_infill
+                0x000011b4        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x000011b4                I_barry_infill
+ .rodata.I_air_vent
+                0x000011c0        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x000011c0                I_air_vent
+ .rodata._A_missile
+                0x000011cc        0x4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x000011cc                _A_missile
+ .rodata._A_missile_0
+                0x000011d0       0x31 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x000011d0                _A_missile_0
+ *fill*         0x00001201        0x3 
+ .rodata._A_barry
+                0x00001204        0xc build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001204                _A_barry
+ .rodata._A_barry_2
+                0x00001210       0x1f build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001210                _A_barry_2
+ .rodata._A_barry_1
+                0x0000122f       0x1f build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x0000122f                _A_barry_1
+ .rodata._A_barry_0
+                0x0000124e       0x1f build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x0000124e                _A_barry_0
+ *fill*         0x0000126d        0x3 
+ .rodata._A_alert
+                0x00001270        0x8 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001270                _A_alert
+ .rodata._A_alert_1
+                0x00001278        0x6 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001278                _A_alert_1
+ .rodata._A_alert_0
+                0x0000127e        0xd build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x0000127e                _A_alert_0
+ *fill*         0x0000128b        0x1 
+ .rodata._I_scientist_right_infill
+                0x0000128c        0x4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x0000128c                _I_scientist_right_infill
+ .rodata._I_scientist_right_infill_0
+                0x00001290       0x1c build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001290                _I_scientist_right_infill_0
+ .rodata._I_scientist_right
+                0x000012ac        0x4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x000012ac                _I_scientist_right
+ .rodata._I_scientist_right_0
+                0x000012b0       0x1d build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x000012b0                _I_scientist_right_0
+ *fill*         0x000012cd        0x3 
+ .rodata._I_scientist_left_infill
+                0x000012d0        0x4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x000012d0                _I_scientist_left_infill
+ .rodata._I_scientist_left_infill_0
+                0x000012d4       0x1c build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x000012d4                _I_scientist_left_infill_0
+ .rodata._I_scientist_left
+                0x000012f0        0x4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x000012f0                _I_scientist_left
+ .rodata._I_scientist_left_0
+                0x000012f4       0x1d build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x000012f4                _I_scientist_left_0
+ *fill*         0x00001311        0x3 
+ .rodata._I_pillar
+                0x00001314        0x4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001314                _I_pillar
+ .rodata._I_pillar_0
+                0x00001318       0x23 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001318                _I_pillar_0
+ *fill*         0x0000133b        0x1 
+ .rodata._I_missile_infill
+                0x0000133c        0x4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x0000133c                _I_missile_infill
+ .rodata._I_missile_infill_0
+                0x00001340       0x27 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001340                _I_missile_infill_0
+ *fill*         0x00001367        0x1 
+ .rodata._I_door
+                0x00001368        0x4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001368                _I_door
+ .rodata._I_door_0
+                0x0000136c       0x52 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x0000136c                _I_door_0
+ *fill*         0x000013be        0x2 
+ .rodata._I_dead_scientist_infill
+                0x000013c0        0x4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x000013c0                _I_dead_scientist_infill
+ .rodata._I_dead_scientist_infill_0
+                0x000013c4       0x13 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x000013c4                _I_dead_scientist_infill_0
+ *fill*         0x000013d7        0x1 
+ .rodata._I_dead_scientist
+                0x000013d8        0x4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x000013d8                _I_dead_scientist
+ .rodata._I_dead_scientist_0
+                0x000013dc       0x13 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x000013dc                _I_dead_scientist_0
+ *fill*         0x000013ef        0x1 
+ .rodata._I_coin_infill
+                0x000013f0        0x4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x000013f0                _I_coin_infill
+ .rodata._I_coin_infill_0
+                0x000013f4        0x8 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x000013f4                _I_coin_infill_0
+ .rodata._I_coin
+                0x000013fc        0x4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x000013fc                _I_coin
+ .rodata._I_coin_0
+                0x00001400        0x8 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001400                _I_coin_0
+ .rodata._I_barry_infill
+                0x00001408        0x4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001408                _I_barry_infill
+ .rodata._I_barry_infill_0
+                0x0000140c       0x15 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x0000140c                _I_barry_infill_0
+ *fill*         0x00001421        0x3 
+ .rodata._I_air_vent
+                0x00001424        0x4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001424                _I_air_vent
+ .rodata._I_air_vent_0
+                0x00001428       0x12 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+                0x00001428                _I_air_vent_0
+
+.data           0x0000143c       0x3c
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.assetProperties
+                0x0000143c       0x3c build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+
+.bss            0x00001478        0xc
+ *(.bss)
+ *(.bss*)
+ .bss.save_game
+                0x00001478        0x8 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .bss.global_state
+                0x00001480        0x4 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x1b8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+ .debug_aranges
+                0x00000030       0x28 build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+ .debug_aranges
+                0x00000058       0x38 build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+ .debug_aranges
+                0x00000090       0x20 build/f7-firmware-C/.extapps/jetpack_joyride/includes/game_state.o
+ .debug_aranges
+                0x000000b0       0x40 build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .debug_aranges
+                0x000000f0       0x30 build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+ .debug_aranges
+                0x00000120       0x30 build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+ .debug_aranges
+                0x00000150       0x50 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .debug_aranges
+                0x000001a0       0x18 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x4749
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x4bd build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+ .debug_info    0x000004bd      0x362 build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+ .debug_info    0x0000081f      0x5a1 build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+ .debug_info    0x00000dc0      0x520 build/f7-firmware-C/.extapps/jetpack_joyride/includes/game_state.o
+ .debug_info    0x000012e0      0x526 build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .debug_info    0x00001806      0x3b6 build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+ .debug_info    0x00001bbc      0x48a build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+ .debug_info    0x00002046     0x1ffa build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .debug_info    0x00004040      0x709 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+
+.debug_abbrev   0x00000000     0x101f
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1ed build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+ .debug_abbrev  0x000001ed      0x13a build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+ .debug_abbrev  0x00000327      0x1e9 build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+ .debug_abbrev  0x00000510      0x11f build/f7-firmware-C/.extapps/jetpack_joyride/includes/game_state.o
+ .debug_abbrev  0x0000062f      0x1d9 build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .debug_abbrev  0x00000808      0x16e build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+ .debug_abbrev  0x00000976      0x1c1 build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+ .debug_abbrev  0x00000b37      0x42a build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .debug_abbrev  0x00000f61       0xbe build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+
+.debug_line     0x00000000     0x23af
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x2dd build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+ .debug_line.text.background_assets_tick
+                0x000002dd       0x55 build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+ .debug_line.text.spawn_random_background_asset
+                0x00000332      0x10f build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+ .debug_line.text.draw_background_assets
+                0x00000441       0x8c build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+ .debug_line_end
+                0x000004cd        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+ .debug_line    0x000004cd      0x1b8 build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+ .debug_line.text.barry_tick
+                0x00000685       0x6c build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+ .debug_line.text.draw_barry
+                0x000006f1       0x2d build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+ .debug_line_end
+                0x0000071e        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+ .debug_line    0x0000071e      0x231 build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+ .debug_line.text.coin_colides
+                0x0000094f       0x4e build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+ .debug_line.text.coin_tick
+                0x0000099d       0x68 build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+ .debug_line.text.spawn_random_coin
+                0x00000a05       0xfc build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+ .debug_line.text.draw_coins
+                0x00000b01       0x57 build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+ .debug_line_end
+                0x00000b58        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+ .debug_line    0x00000b58      0x148 build/f7-firmware-C/.extapps/jetpack_joyride/includes/game_state.o
+ .debug_line.text.game_state_tick
+                0x00000ca0       0x19 build/f7-firmware-C/.extapps/jetpack_joyride/includes/game_state.o
+ .debug_line_end
+                0x00000cb9        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/game_state.o
+ .debug_line    0x00000cb9      0x237 build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .debug_line.text.spawn_random_missile
+                0x00000ef0       0x5f build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .debug_line.text.draw_missiles
+                0x00000f4f       0x5c build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .debug_line.text.missile_colides
+                0x00000fab       0x52 build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .debug_line.text.missile_tick
+                0x00000ffd       0x7d build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .debug_line.text.get_rocket_spawn_distance
+                0x0000107a       0x3a build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .debug_line_end
+                0x000010b4        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .debug_line    0x000010b4      0x218 build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+ .debug_line.text.particle_tick
+                0x000012cc       0xd1 build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+ .debug_line.text.spawn_random_particles
+                0x0000139d       0x63 build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+ .debug_line.text.draw_particles
+                0x00001400       0x5f build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+ .debug_line_end
+                0x0000145f        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+ .debug_line    0x0000145f      0x275 build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+ .debug_line.text.scientist_tick
+                0x000016d4       0xbe build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+ .debug_line.text.spawn_random_scientist
+                0x00001792       0x8e build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+ .debug_line.text.draw_scientists
+                0x00001820       0x9a build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+ .debug_line_end
+                0x000018ba        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+ .debug_line    0x000018ba      0x4c0 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .debug_line.text.storage_game_state_save
+                0x00001d7a       0x4a build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .debug_line.text.handle_death
+                0x00001dc4       0x45 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .debug_line.text.jetpack_game_update_timer_callback
+                0x00001e09       0x35 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .debug_line.text.jetpack_game_input_callback
+                0x00001e3e       0x30 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .debug_line.text.jetpack_game_render_callback
+                0x00001e6e       0x87 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .debug_line.text.jetpack_game_state_init
+                0x00001ef5       0x95 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .debug_line.text.jetpack_game_app
+                0x00001f8a      0x286 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .debug_line_end
+                0x00002210        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .debug_line    0x00002210      0x19f build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+ .debug_line_end
+                0x000023af        0x0 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+
+.debug_frame    0x00000000      0x3f0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x60 build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+ .debug_frame   0x00000060       0x48 build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+ .debug_frame   0x000000a8       0x90 build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+ .debug_frame   0x00000138       0x20 build/f7-firmware-C/.extapps/jetpack_joyride/includes/game_state.o
+ .debug_frame   0x00000158       0x98 build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .debug_frame   0x000001f0       0x70 build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+ .debug_frame   0x00000260       0x88 build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+ .debug_frame   0x000002e8      0x108 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+
+.debug_str      0x00000000     0x328d
+ *(.debug_str)
+ .debug_str     0x00000000      0x3de build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+ .debug_str     0x000003de      0x37b build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+ .debug_str     0x00000759      0x409 build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+ .debug_str     0x00000b62      0x47f build/f7-firmware-C/.extapps/jetpack_joyride/includes/game_state.o
+ .debug_str     0x00000fe1      0x42d build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .debug_str     0x0000140e      0x356 build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+ .debug_str     0x00001764      0x40f build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+ .debug_str     0x00001b73     0x1164 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .debug_str     0x00002cd7      0x5b6 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+                0x00000000      0xa50
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x220 build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+ .debug_loclists
+                0x00000220       0x74 build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+ .debug_loclists
+                0x00000294      0x181 build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+ .debug_loclists
+                0x00000415      0x14e build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .debug_loclists
+                0x00000563       0xd2 build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+ .debug_loclists
+                0x00000635       0xa9 build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+ .debug_loclists
+                0x000006de      0x372 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x26c
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x56 build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+ .debug_rnglists
+                0x00000056       0x19 build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+ .debug_rnglists
+                0x0000006f       0x5c build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+ .debug_rnglists
+                0x000000cb       0x13 build/f7-firmware-C/.extapps/jetpack_joyride/includes/game_state.o
+ .debug_rnglists
+                0x000000de       0x5e build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .debug_rnglists
+                0x0000013c       0x58 build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+ .debug_rnglists
+                0x00000194       0x68 build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+ .debug_rnglists
+                0x000001fc       0x70 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/jetpack_joyride/includes/background_asset.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/jetpack_joyride/includes/barry.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/jetpack_joyride/includes/coin.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/jetpack_joyride/includes/game_state.o
+ .ARM.attributes
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/jetpack_joyride/includes/missile.o
+ .ARM.attributes
+                0x00000104       0x34 build/f7-firmware-C/.extapps/jetpack_joyride/includes/particle.o
+ .ARM.attributes
+                0x00000138       0x34 build/f7-firmware-C/.extapps/jetpack_joyride/includes/scientist.o
+ .ARM.attributes
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack.o
+ .ARM.attributes
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/jetpack_joyride/jetpack_game_icons.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/jetpack_joyride_d.elf elf32-littlearm)
+LOAD linker stubs

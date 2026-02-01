@@ -1,0 +1,439 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+                              build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o (__aeabi_dmul)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o (__aeabi_dsub)
+/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+                              build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o (__aeabi_ddiv)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+ .text          0x00000000      0x254 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+LOAD build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+LOAD build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+LOAD build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000     0x1680
+ *(.text)
+ .text          0x00000000      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000000                __aeabi_drsub
+                0x00000008                __aeabi_dsub
+                0x00000008                __subdf3
+                0x0000000c                __adddf3
+                0x0000000c                __aeabi_dadd
+                0x00000284                __aeabi_ui2d
+                0x00000284                __floatunsidf
+                0x000002a4                __floatsidf
+                0x000002a4                __aeabi_i2d
+                0x000002c8                __extendsfdf2
+                0x000002c8                __aeabi_f2d
+                0x0000030c                __aeabi_ul2d
+                0x0000030c                __floatundidf
+                0x0000031c                __floatdidf
+                0x0000031c                __aeabi_l2d
+ .text          0x00000378      0x424 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+                0x00000378                __aeabi_dmul
+                0x00000378                __muldf3
+                0x000005cc                __aeabi_ddiv
+                0x000005cc                __divdf3
+ *(.stub)
+ *(.text*)
+ .text.multi_converter_input_callback
+                0x0000079c       0x28 build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .text.multi_converter_render_callback
+                0x000007c4       0x3c build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .text.multi_converter_app
+                0x00000800      0x238 build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+                0x00000800                multi_converter_app
+ .text.multi_converter_mode_display_convert
+                0x00000a38       0x4c build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+                0x00000a38                multi_converter_mode_display_convert
+ .text.multi_converter_mode_display_draw
+                0x00000a84      0x1ec build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+                0x00000a84                multi_converter_mode_display_draw
+ .text.multi_converter_mode_display_navigation
+                0x00000c70       0x80 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+                0x00000c70                multi_converter_mode_display_navigation
+ .text.multi_converter_mode_display_reset
+                0x00000cf0       0x1e build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+                0x00000cf0                multi_converter_mode_display_reset
+ *fill*         0x00000d0e        0x2 
+ .text.multi_converter_mode_display_toggle_negative
+                0x00000d10       0x60 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+                0x00000d10                multi_converter_mode_display_toggle_negative
+ .text.multi_converter_mode_display_add_comma
+                0x00000d70       0x2c build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+                0x00000d70                multi_converter_mode_display_add_comma
+ .text.multi_converter_mode_display_add_number
+                0x00000d9c       0x38 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+                0x00000d9c                multi_converter_mode_display_add_number
+ .text.multi_converter_mode_display_ok
+                0x00000dd4       0x74 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+                0x00000dd4                multi_converter_mode_display_ok
+ .text.multi_converter_mode_select_draw_destination_offset
+                0x00000e48       0x80 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+                0x00000e48                multi_converter_mode_select_draw_destination_offset
+ .text.multi_converter_mode_select_draw_selected_unit
+                0x00000ec8       0x68 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+                0x00000ec8                multi_converter_mode_select_draw_selected_unit
+ .text.multi_converter_mode_select_draw
+                0x00000f30      0x18c build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+                0x00000f30                multi_converter_mode_select_draw
+ .text.multi_converter_mode_select_reset
+                0x000010bc       0x12 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+                0x000010bc                multi_converter_mode_select_reset
+ .text.multi_converter_mode_select_exit
+                0x000010ce       0x1a build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+                0x000010ce                multi_converter_mode_select_exit
+ .text.multi_converter_mode_select_switch
+                0x000010e8        0xe build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+                0x000010e8                multi_converter_mode_select_switch
+ *fill*         0x000010f6        0x2 
+ .text.multi_converter_mode_select_change_unit
+                0x000010f8       0x84 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+                0x000010f8                multi_converter_mode_select_change_unit
+ .text.multi_converter_unit_dec_hex_bin_convert
+                0x0000117c       0xb8 build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+                0x0000117c                multi_converter_unit_dec_hex_bin_convert
+ .text.multi_converter_unit_dec_hex_bin_allowed
+                0x00001234        0xa build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+                0x00001234                multi_converter_unit_dec_hex_bin_allowed
+ *fill*         0x0000123e        0x2 
+ .text.multi_converter_unit_temperature_convert
+                0x00001240       0xdc build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+                0x00001240                multi_converter_unit_temperature_convert
+ .text.multi_converter_unit_temperature_allowed
+                0x0000131c        0xc build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+                0x0000131c                multi_converter_unit_temperature_allowed
+ .text.multi_converter_unit_distance_convert
+                0x00001328      0x2bc build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+                0x00001328                multi_converter_unit_distance_convert
+ .text.multi_converter_unit_distance_allowed
+                0x000015e4        0xc build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+                0x000015e4                multi_converter_unit_distance_allowed
+ .text.multi_converter_unit_angle_convert
+                0x000015f0       0x84 build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+                0x000015f0                multi_converter_unit_angle_convert
+ .text.multi_converter_unit_angle_allowed
+                0x00001674        0xc build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+                0x00001674                multi_converter_unit_angle_allowed
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00001680      0x36a
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.multi_converter_app.str1.1
+                0x00001680       0x29 build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ *fill*         0x000016a9        0x3 
+ .rodata.multi_converter_available_units
+                0x000016ac      0x188 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .rodata.multi_converter_mode_select_draw.str1.1
+                0x00001834       0x24 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .rodata.multi_converter_available_units
+                0x00001858      0x188 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .rodata.multi_converter_unit_temperature_convert.str1.1
+                0x000019e0        0x6 build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+ .rodata.multi_converter_unit_distance_convert.str1.1
+                0x000019e6        0x4 build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+
+.data
+ *(.data)
+ *(.data1)
+ *(.data.*)
+
+.bss
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x130
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .debug_aranges
+                0x00000030       0x58 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .debug_aranges
+                0x00000088       0x50 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .debug_aranges
+                0x000000d8       0x58 build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3050
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xedd build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .debug_info    0x00000edd      0xc95 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .debug_info    0x00001b72      0xc33 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .debug_info    0x000027a5      0x8ab build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+
+.debug_abbrev   0x00000000      0xb31
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x31b build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .debug_abbrev  0x0000031b      0x349 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .debug_abbrev  0x00000664      0x234 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .debug_abbrev  0x00000898      0x299 build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+
+.debug_line     0x00000000     0x1a85
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3b1 build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .debug_line.text.multi_converter_input_callback
+                0x000003b1       0x2f build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .debug_line.text.multi_converter_render_callback
+                0x000003e0       0x4b build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .debug_line.text.multi_converter_app
+                0x0000042b      0x20e build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .debug_line_end
+                0x00000639        0x0 build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .debug_line    0x00000639      0x2ff build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .debug_line.text.multi_converter_mode_display_convert
+                0x00000938       0x6c build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .debug_line.text.multi_converter_mode_display_draw
+                0x000009a4      0x203 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .debug_line.text.multi_converter_mode_display_navigation
+                0x00000ba7       0xd1 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .debug_line.text.multi_converter_mode_display_reset
+                0x00000c78       0x35 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .debug_line.text.multi_converter_mode_display_toggle_negative
+                0x00000cad       0x92 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .debug_line.text.multi_converter_mode_display_add_comma
+                0x00000d3f       0x4d build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .debug_line.text.multi_converter_mode_display_add_number
+                0x00000d8c       0x64 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .debug_line.text.multi_converter_mode_display_ok
+                0x00000df0       0xc5 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .debug_line_end
+                0x00000eb5        0x0 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .debug_line    0x00000eb5      0x254 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .debug_line.text.multi_converter_mode_select_draw_destination_offset
+                0x00001109       0x80 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .debug_line.text.multi_converter_mode_select_draw_selected_unit
+                0x00001189       0x3c build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .debug_line.text.multi_converter_mode_select_draw
+                0x000011c5       0xb1 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .debug_line.text.multi_converter_mode_select_reset
+                0x00001276       0x2c build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .debug_line.text.multi_converter_mode_select_exit
+                0x000012a2       0x4c build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .debug_line.text.multi_converter_mode_select_switch
+                0x000012ee       0x1c build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .debug_line.text.multi_converter_mode_select_change_unit
+                0x0000130a       0x9a build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .debug_line_end
+                0x000013a4        0x0 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .debug_line    0x000013a4      0x2b1 build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+ .debug_line.text.multi_converter_unit_dec_hex_bin_convert
+                0x00001655       0xe2 build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+ .debug_line.text.multi_converter_unit_dec_hex_bin_allowed
+                0x00001737       0x1a build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+ .debug_line.text.multi_converter_unit_temperature_convert
+                0x00001751       0xb2 build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+ .debug_line.text.multi_converter_unit_temperature_allowed
+                0x00001803       0x1c build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+ .debug_line.text.multi_converter_unit_distance_convert
+                0x0000181f      0x19d build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+ .debug_line.text.multi_converter_unit_distance_allowed
+                0x000019bc       0x1c build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+ .debug_line.text.multi_converter_unit_angle_convert
+                0x000019d8       0x91 build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+ .debug_line.text.multi_converter_unit_angle_allowed
+                0x00001a69       0x1c build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+ .debug_line_end
+                0x00001a85        0x0 build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+
+.debug_frame    0x00000000      0x340
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x84 build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .debug_frame   0x00000084       0xe4 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .debug_frame   0x00000168      0x100 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .debug_frame   0x00000268       0xd8 build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+
+.debug_str      0x00000000     0x2a3f
+ *(.debug_str)
+ .debug_str     0x00000000      0xdcc build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .debug_str     0x00000dcc      0xab2 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .debug_str     0x0000187e      0x9f6 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .debug_str     0x00002274      0x7cb build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x150
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_line_str
+                0x000000a8       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+
+.debug_loclists
+                0x00000000      0xad5
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x1f1 build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .debug_loclists
+                0x000001f1      0x2e4 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .debug_loclists
+                0x000004d5      0x2d2 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .debug_loclists
+                0x000007a7      0x32e build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x193
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x5c build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .debug_rnglists
+                0x0000005c       0x9d build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .debug_rnglists
+                0x000000f9       0x4c build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .debug_rnglists
+                0x00000145       0x4e build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-C/.extapps/multi_converter/multi_converter.o
+ .ARM.attributes
+                0x00000034       0x34 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_display.o
+ .ARM.attributes
+                0x00000068       0x34 build/f7-firmware-C/.extapps/multi_converter/multi_converter_mode_select.o
+ .ARM.attributes
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/multi_converter/multi_converter_units.o
+ .ARM.attributes
+                0x000000d0       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .ARM.attributes
+                0x000000f2       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000114       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-C/.extapps/multi_converter_d.elf elf32-littlearm)
+LOAD linker stubs
