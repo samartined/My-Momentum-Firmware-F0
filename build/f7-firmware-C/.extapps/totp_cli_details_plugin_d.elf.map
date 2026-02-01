@@ -1,10 +1,10 @@
 
 Discarded input sections
 
- .text          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
  .text          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
@@ -43,10 +43,10 @@ Discarded input sections
                 0x00000000       0x1e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
  .debug_line.text.totp_cli_printf_unknown_argument
                 0x00000000       0x22 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
- .text          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
- .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
 
 Memory Configuration
 
@@ -55,10 +55,10 @@ Name             Origin             Length             Attributes
 
 Linker script and memory map
 
-LOAD build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+LOAD build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
 LOAD build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
 LOAD build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
-LOAD build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+LOAD build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
 LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
 LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
 LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
@@ -68,98 +68,98 @@ LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolc
  *(.text)
  *(.stub)
  *(.text*)
- .text.details_output_formatter_print_header_table
-                0x00000000       0x38 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
-                0x00000000                details_output_formatter_print_header_table
- .text.details_output_formatter_print_footer_table
-                0x00000038       0x10 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
-                0x00000038                details_output_formatter_print_footer_table
- .text.details_output_formatter_print_automation_feature_table
-                0x00000048       0x2c build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
-                0x00000048                details_output_formatter_print_automation_feature_table
- .text.details_output_formatter_print_cstr_table
-                0x00000074       0x14 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
-                0x00000074                details_output_formatter_print_cstr_table
- .text.details_output_formatter_print_uint8t_table
-                0x00000088       0x14 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
-                0x00000088                details_output_formatter_print_uint8t_table
- .text.details_output_formatter_print_sizet_table
-                0x0000009c       0x14 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
-                0x0000009c                details_output_formatter_print_sizet_table
- .text.details_output_formatter_print_uint64t_table
-                0x000000b0       0x18 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
-                0x000000b0                details_output_formatter_print_uint64t_table
- .text.handle   0x000000c8      0x200 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
- .text.totp_cli_details_plugin_ep
-                0x000002c8        0x8 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
-                0x000002c8                totp_cli_details_plugin_ep
- .text.totp_cli_ensure_authenticated
-                0x000002d0       0x78 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
-                0x000002d0                totp_cli_ensure_authenticated
  .text.details_output_formatter_print_header_tsv
-                0x00000348       0x1c build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
-                0x00000348                details_output_formatter_print_header_tsv
+                0x00000000       0x1c build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x00000000                details_output_formatter_print_header_tsv
  .text.details_output_formatter_print_footer_tsv
-                0x00000364        0x2 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
-                0x00000364                details_output_formatter_print_footer_tsv
- *fill*         0x00000366        0x2 
+                0x0000001c        0x2 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x0000001c                details_output_formatter_print_footer_tsv
+ *fill*         0x0000001e        0x2 
  .text.details_output_formatter_print_automation_feature_tsv
-                0x00000368       0x2c build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
-                0x00000368                details_output_formatter_print_automation_feature_tsv
+                0x00000020       0x2c build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x00000020                details_output_formatter_print_automation_feature_tsv
  .text.details_output_formatter_print_cstr_tsv
-                0x00000394       0x14 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
-                0x00000394                details_output_formatter_print_cstr_tsv
+                0x0000004c       0x14 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x0000004c                details_output_formatter_print_cstr_tsv
  .text.details_output_formatter_print_uint8t_tsv
-                0x000003a8       0x14 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
-                0x000003a8                details_output_formatter_print_uint8t_tsv
+                0x00000060       0x14 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x00000060                details_output_formatter_print_uint8t_tsv
  .text.details_output_formatter_print_sizet_tsv
-                0x000003bc       0x14 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
-                0x000003bc                details_output_formatter_print_sizet_tsv
+                0x00000074       0x14 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x00000074                details_output_formatter_print_sizet_tsv
  .text.details_output_formatter_print_uint64t_tsv
-                0x000003d0       0x18 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
-                0x000003d0                details_output_formatter_print_uint64t_tsv
+                0x00000088       0x18 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x00000088                details_output_formatter_print_uint64t_tsv
+ .text.handle   0x000000a0      0x200 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
+ .text.totp_cli_details_plugin_ep
+                0x000002a0        0x8 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
+                0x000002a0                totp_cli_details_plugin_ep
+ .text.totp_cli_ensure_authenticated
+                0x000002a8       0x78 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
+                0x000002a8                totp_cli_ensure_authenticated
+ .text.details_output_formatter_print_header_table
+                0x00000320       0x38 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+                0x00000320                details_output_formatter_print_header_table
+ .text.details_output_formatter_print_footer_table
+                0x00000358       0x10 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+                0x00000358                details_output_formatter_print_footer_table
+ .text.details_output_formatter_print_automation_feature_table
+                0x00000368       0x2c build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+                0x00000368                details_output_formatter_print_automation_feature_table
+ .text.details_output_formatter_print_cstr_table
+                0x00000394       0x14 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+                0x00000394                details_output_formatter_print_cstr_table
+ .text.details_output_formatter_print_uint8t_table
+                0x000003a8       0x14 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+                0x000003a8                details_output_formatter_print_uint8t_table
+ .text.details_output_formatter_print_sizet_table
+                0x000003bc       0x14 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+                0x000003bc                details_output_formatter_print_sizet_table
+ .text.details_output_formatter_print_uint64t_table
+                0x000003d0       0x18 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+                0x000003d0                details_output_formatter_print_uint64t_table
  *(.text.*)
  *(.text._*)
  *(.init)
  *(.fini)
 
-.rodata         0x000003e8      0x2fc
+.rodata         0x000003e8      0x2fd
  *(.rodata)
  *(.rodata1)
  *(.rodata.*)
- .rodata.details_output_formatter_print_header_table.str1.1
-                0x000003e8       0x5d build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .rodata.details_output_formatter_print_automation_feature_table.str1.1
-                0x00000445       0x18 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .rodata.details_output_formatter_print_uint8t_table.str1.1
-                0x0000045d       0x16 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .rodata.details_output_formatter_print_sizet_table.str1.1
-                0x00000473       0x15 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .rodata.details_output_formatter_print_uint64t_table.str1.1
-                0x00000488       0x16 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .rodata.handle.str1.1
-                0x0000049e      0x14e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
- .rodata.str1.1
-                0x000005ec       0x22 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
- *fill*         0x0000060e        0x2 
- .rodata.plugin_descriptor
-                0x00000610        0xc build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
- .rodata.plugin
-                0x0000061c        0x8 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
- .rodata.available_formatters
-                0x00000624       0x38 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
- .rodata.totp_cli_ensure_authenticated.str1.1
-                0x0000065c       0x53 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
  .rodata.details_output_formatter_print_header_tsv.str1.1
-                0x000006af       0x17 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x000003e8       0x17 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
  .rodata.details_output_formatter_print_automation_feature_tsv.str1.1
-                0x000006c6        0x1 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x000003ff        0x1 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
  .rodata.details_output_formatter_print_uint8t_tsv.str1.1
-                0x000006c7        0xa build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x00000400        0xa build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
  .rodata.details_output_formatter_print_sizet_tsv.str1.1
-                0x000006d1        0x9 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x0000040a        0x9 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
  .rodata.details_output_formatter_print_uint64t_tsv.str1.1
-                0x000006da        0xa build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x00000413        0xa build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+ .rodata.handle.str1.1
+                0x0000041d      0x14e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
+ .rodata.str1.1
+                0x0000056b       0x22 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
+ *fill*         0x0000058d        0x3 
+ .rodata.plugin_descriptor
+                0x00000590        0xc build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
+ .rodata.plugin
+                0x0000059c        0x8 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
+ .rodata.available_formatters
+                0x000005a4       0x38 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
+ .rodata.totp_cli_ensure_authenticated.str1.1
+                0x000005dc       0x53 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
+ .rodata.details_output_formatter_print_header_table.str1.1
+                0x0000062f       0x5d build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+ .rodata.details_output_formatter_print_automation_feature_table.str1.1
+                0x0000068c       0x18 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+ .rodata.details_output_formatter_print_uint8t_table.str1.1
+                0x000006a4       0x16 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+ .rodata.details_output_formatter_print_sizet_table.str1.1
+                0x000006ba       0x15 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+ .rodata.details_output_formatter_print_uint64t_table.str1.1
+                0x000006cf       0x16 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
 
 .data
  *(.data)
@@ -209,93 +209,93 @@ LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolc
 .debug_aranges  0x00000000      0x118
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x50 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+                0x00000000       0x50 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
  .debug_aranges
                 0x00000050       0x28 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
  .debug_aranges
                 0x00000078       0x50 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
  .debug_aranges
-                0x000000c8       0x50 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x000000c8       0x50 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
 .debug_info     0x00000000     0x26e7
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x37e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .debug_info    0x0000037e      0xe1a build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
- .debug_info    0x00001198     0x1219 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
- .debug_info    0x000023b1      0x336 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+ .debug_info    0x00000000      0x336 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+ .debug_info    0x00000336      0xe1a build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
+ .debug_info    0x00001150     0x1219 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
+ .debug_info    0x00002369      0x37e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
 
 .debug_abbrev   0x00000000      0x800
  *(.debug_abbrev)
- .debug_abbrev  0x00000000       0xf0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .debug_abbrev  0x000000f0      0x2b8 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
- .debug_abbrev  0x000003a8      0x35c build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
- .debug_abbrev  0x00000704       0xfc build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+ .debug_abbrev  0x00000000       0xfc build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+ .debug_abbrev  0x000000fc      0x2b8 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
+ .debug_abbrev  0x000003b4      0x35c build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
+ .debug_abbrev  0x00000710       0xf0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
 
 .debug_line     0x00000000     0x1640
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x00000000      0x272 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .debug_line.text.details_output_formatter_print_header_table
-                0x00000272       0x23 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .debug_line.text.details_output_formatter_print_footer_table
-                0x00000295       0x14 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .debug_line.text.details_output_formatter_print_automation_feature_table
-                0x000002a9       0x2e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .debug_line.text.details_output_formatter_print_cstr_table
-                0x000002d7       0x1e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .debug_line.text.details_output_formatter_print_uint8t_table
-                0x000002f5       0x1e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .debug_line.text.details_output_formatter_print_sizet_table
-                0x00000313       0x1e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .debug_line.text.details_output_formatter_print_uint64t_table
-                0x00000331       0x28 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .debug_line_end
-                0x00000359        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .debug_line    0x00000359      0x7c6 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
- .debug_line.text.handle
-                0x00000b1f      0x1b5 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
- .debug_line.text.totp_cli_details_plugin_ep
-                0x00000cd4       0x19 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
- .debug_line_end
-                0x00000ced        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
- .debug_line    0x00000ced      0x5ab build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
- .debug_line.text.totp_cli_ensure_authenticated
-                0x00001298       0x66 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
- .debug_line_end
-                0x000012fe        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
- .debug_line    0x000012fe      0x26e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+ .debug_line    0x00000000      0x26e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
  .debug_line.text.details_output_formatter_print_header_tsv
-                0x0000156c       0x12 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x0000026e       0x12 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
  .debug_line.text.details_output_formatter_print_footer_tsv
-                0x0000157e       0x12 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x00000280       0x12 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
  .debug_line.text.details_output_formatter_print_automation_feature_tsv
-                0x00001590       0x2e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x00000292       0x2e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
  .debug_line.text.details_output_formatter_print_cstr_tsv
-                0x000015be       0x1e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x000002c0       0x1e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
  .debug_line.text.details_output_formatter_print_uint8t_tsv
-                0x000015dc       0x1e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x000002de       0x1e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
  .debug_line.text.details_output_formatter_print_sizet_tsv
-                0x000015fa       0x1e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x000002fc       0x1e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
  .debug_line.text.details_output_formatter_print_uint64t_tsv
-                0x00001618       0x28 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x0000031a       0x28 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
  .debug_line_end
-                0x00001640        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x00000342        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+ .debug_line    0x00000342      0x7c6 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
+ .debug_line.text.handle
+                0x00000b08      0x1b5 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
+ .debug_line.text.totp_cli_details_plugin_ep
+                0x00000cbd       0x19 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
+ .debug_line_end
+                0x00000cd6        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
+ .debug_line    0x00000cd6      0x5ab build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
+ .debug_line.text.totp_cli_ensure_authenticated
+                0x00001281       0x66 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
+ .debug_line_end
+                0x000012e7        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
+ .debug_line    0x000012e7      0x272 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+ .debug_line.text.details_output_formatter_print_header_table
+                0x00001559       0x23 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+ .debug_line.text.details_output_formatter_print_footer_table
+                0x0000157c       0x14 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+ .debug_line.text.details_output_formatter_print_automation_feature_table
+                0x00001590       0x2e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+ .debug_line.text.details_output_formatter_print_cstr_table
+                0x000015be       0x1e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+ .debug_line.text.details_output_formatter_print_uint8t_table
+                0x000015dc       0x1e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+ .debug_line.text.details_output_formatter_print_sizet_table
+                0x000015fa       0x1e build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+ .debug_line.text.details_output_formatter_print_uint64t_table
+                0x00001618       0x28 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+ .debug_line_end
+                0x00001640        0x0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
 
 .debug_frame    0x00000000      0x274
  *(.debug_frame)
- .debug_frame   0x00000000       0xac build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .debug_frame   0x000000ac       0x50 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
- .debug_frame   0x000000fc       0xe0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
- .debug_frame   0x000001dc       0x98 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+ .debug_frame   0x00000000       0x98 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+ .debug_frame   0x00000098       0x50 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
+ .debug_frame   0x000000e8       0xe0 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
+ .debug_frame   0x000001c8       0xac build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
 
 .debug_str      0x00000000     0x239c
  *(.debug_str)
- .debug_str     0x00000000      0x3e8 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
- .debug_str     0x000003e8      0xe43 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
- .debug_str     0x0000122b      0xdaf build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
- .debug_str     0x00001fda      0x3c2 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+ .debug_str     0x00000000      0x3c2 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+ .debug_str     0x000003c2      0xe43 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
+ .debug_str     0x00001205      0xdaf build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
+ .debug_str     0x00001fb4      0x3e8 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
 
 .debug_loc
  *(.debug_loc)
@@ -331,13 +331,13 @@ LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolc
                 0x00000000      0x5ab
  *(.debug_loclists)
  .debug_loclists
-                0x00000000      0x148 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+                0x00000000      0x148 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
  .debug_loclists
                 0x00000148      0x189 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
  .debug_loclists
                 0x000002d1      0x192 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
  .debug_loclists
-                0x00000463      0x148 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x00000463      0x148 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
 
 .debug_macro
  *(.debug_macro)
@@ -349,13 +349,13 @@ LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolc
                 0x00000000       0xec
  *(.debug_rnglists)
  .debug_rnglists
-                0x00000000       0x37 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+                0x00000000       0x37 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
  .debug_rnglists
                 0x00000037       0x34 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
  .debug_rnglists
                 0x0000006b       0x4a build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
  .debug_rnglists
-                0x000000b5       0x37 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x000000b5       0x37 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
 
 .debug_str_offsets
  *(.debug_str_offsets)
@@ -367,13 +367,13 @@ LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolc
                 0x00000000       0x34
  *(.ARM.attributes)
  .ARM.attributes
-                0x00000000       0x34 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
+                0x00000000       0x34 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
  .ARM.attributes
                 0x00000034       0x34 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/details.o
  .ARM.attributes
                 0x00000068       0x34 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/cli_shared_methods.o
  .ARM.attributes
-                0x0000009c       0x34 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/tsv/details_output_formatter_tsv.o
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/totp_cli_details_plugin/cli/plugins/details/formatters/table/details_output_formatter_table.o
  *(.gnu.attributes)
 
 .note.gnu.arm.ident

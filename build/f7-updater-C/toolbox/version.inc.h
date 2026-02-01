@@ -1,4 +1,4 @@
-#define GIT_COMMIT "87dd4f93"
+#define GIT_COMMIT "49ca3b6e"
 #define GIT_BRANCH "my-momentum-firmware"
 #define VERSION "mntm-dev"
 #define BUILD_DIRTY 1
