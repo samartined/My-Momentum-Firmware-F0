@@ -45,7 +45,6 @@ typedef enum {
     MfClassicPollerModeRead, /**< Poller reading mode. */
     MfClassicPollerModeWrite, /**< Poller writing mode. */
     MfClassicPollerModeDictAttackStandard, /**< Poller dictionary attack mode. */
-    MfClassicPollerModeDictAttackCUID, /**< Poller CUID dictionary attack mode. */
     MfClassicPollerModeDictAttackEnhanced, /**< Poller enhanced dictionary attack mode. */
 } MfClassicPollerMode;
 
@@ -130,7 +129,6 @@ typedef struct {
  */
 typedef struct {
     MfClassicKey key; /**< Key to be used by poller. */
-    MfClassicKeyType key_type; /**< Key type (A or B) for CUID dict attack mode. */
     bool key_provided; /**< Flag indicating if key is provided. */
 } MfClassicPollerEventDataKeyRequest;
 
