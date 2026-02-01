@@ -9,6 +9,14 @@ build/f7-firmware-C/lib/libassets.a(_assets_icons_dropin.o)
 
 Discarded input sections
 
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_app/js_modules.o
  .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/views/console_view.o
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/views/console_view.o
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/views/console_view.o
@@ -17,52 +25,6 @@ Discarded input sections
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
  .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
- .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_app/js_modules.o
- .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_app.o
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_app.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_app.o
- .rodata.js_cli_execute.str1.1
-                0x00000000       0x5c build/f7-firmware-C/.extapps/js_app/js_app.o
- .text.js_cli_execute
-                0x00000000       0xd0 build/f7-firmware-C/.extapps/js_app/js_app.o
- .text.js_cli_exit.isra.0
-                0x00000000       0x1c build/f7-firmware-C/.extapps/js_app/js_app.o
- .text.js_cli_print.isra.0
-                0x00000000       0x24 build/f7-firmware-C/.extapps/js_app/js_app.o
- .rodata.js_cli_callback.str1.1
-                0x00000000       0x2d build/f7-firmware-C/.extapps/js_app/js_app.o
- .text.js_cli_callback
-                0x00000000       0x7c build/f7-firmware-C/.extapps/js_app/js_app.o
- .text.cli_js_ep
-                0x00000000        0x8 build/f7-firmware-C/.extapps/js_app/js_app.o
- .rodata.str1.1
-                0x00000000        0x7 build/f7-firmware-C/.extapps/js_app/js_app.o
- .rodata.plugin_descriptor_js
-                0x00000000        0xc build/f7-firmware-C/.extapps/js_app/js_app.o
- .rodata.cli_js_desc
-                0x00000000       0x10 build/f7-firmware-C/.extapps/js_app/js_app.o
- .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_app/js_app.o
- .debug_line.text.js_cli_execute
-                0x00000000       0xc3 build/f7-firmware-C/.extapps/js_app/js_app.o
- .debug_line.text.js_cli_exit.isra.0
-                0x00000000       0x2c build/f7-firmware-C/.extapps/js_app/js_app.o
- .debug_line.text.js_cli_print.isra.0
-                0x00000000       0x32 build/f7-firmware-C/.extapps/js_app/js_app.o
- .debug_line.text.js_cli_callback
-                0x00000000       0x58 build/f7-firmware-C/.extapps/js_app/js_app.o
- .debug_line.text.cli_js_ep
-                0x00000000       0x13 build/f7-firmware-C/.extapps/js_app/js_app.o
- .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
- .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
- .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_thread.o
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_thread.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_thread.o
- .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_app/js_thread.o
  .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/modules/js_tests.o
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/modules/js_tests.o
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/modules/js_tests.o
@@ -104,10 +66,48 @@ Discarded input sections
  .debug_line_end
                 0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/modules/js_tests.o
  .debug_frame   0x00000000       0xb4 build/f7-firmware-C/.extapps/js_app/modules/js_tests.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_thread.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_thread.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_thread.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_app/js_thread.o
  .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_value.o
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_value.o
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_value.o
  .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_app/js_value.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_app.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/js_app/js_app.o
+ .rodata.js_cli_execute.str1.1
+                0x00000000       0x5c build/f7-firmware-C/.extapps/js_app/js_app.o
+ .text.js_cli_execute
+                0x00000000       0xd0 build/f7-firmware-C/.extapps/js_app/js_app.o
+ .text.js_cli_exit.isra.0
+                0x00000000       0x1c build/f7-firmware-C/.extapps/js_app/js_app.o
+ .text.js_cli_print.isra.0
+                0x00000000       0x24 build/f7-firmware-C/.extapps/js_app/js_app.o
+ .rodata.js_cli_callback.str1.1
+                0x00000000       0x2d build/f7-firmware-C/.extapps/js_app/js_app.o
+ .text.js_cli_callback
+                0x00000000       0x7c build/f7-firmware-C/.extapps/js_app/js_app.o
+ .text.cli_js_ep
+                0x00000000        0x8 build/f7-firmware-C/.extapps/js_app/js_app.o
+ .rodata.str1.1
+                0x00000000        0x7 build/f7-firmware-C/.extapps/js_app/js_app.o
+ .rodata.plugin_descriptor_js
+                0x00000000        0xc build/f7-firmware-C/.extapps/js_app/js_app.o
+ .rodata.cli_js_desc
+                0x00000000       0x10 build/f7-firmware-C/.extapps/js_app/js_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/js_app/js_app.o
+ .debug_line.text.js_cli_execute
+                0x00000000       0xc3 build/f7-firmware-C/.extapps/js_app/js_app.o
+ .debug_line.text.js_cli_exit.isra.0
+                0x00000000       0x2c build/f7-firmware-C/.extapps/js_app/js_app.o
+ .debug_line.text.js_cli_print.isra.0
+                0x00000000       0x32 build/f7-firmware-C/.extapps/js_app/js_app.o
+ .debug_line.text.js_cli_callback
+                0x00000000       0x58 build/f7-firmware-C/.extapps/js_app/js_app.o
+ .debug_line.text.cli_js_ep
+                0x00000000       0x13 build/f7-firmware-C/.extapps/js_app/js_app.o
  .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
  .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
  .text          0x00000000      0x110 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
@@ -259,14 +259,14 @@ Name             Origin             Length             Attributes
 
 Linker script and memory map
 
+LOAD build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+LOAD build/f7-firmware-C/.extapps/js_app/js_modules.o
 LOAD build/f7-firmware-C/.extapps/js_app/views/console_view.o
 LOAD build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
-LOAD build/f7-firmware-C/.extapps/js_app/js_modules.o
-LOAD build/f7-firmware-C/.extapps/js_app/js_app.o
-LOAD build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
-LOAD build/f7-firmware-C/.extapps/js_app/js_thread.o
 LOAD build/f7-firmware-C/.extapps/js_app/modules/js_tests.o
+LOAD build/f7-firmware-C/.extapps/js_app/js_thread.o
 LOAD build/f7-firmware-C/.extapps/js_app/js_value.o
+LOAD build/f7-firmware-C/.extapps/js_app/js_app.o
 LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
 LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
 LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
@@ -294,233 +294,231 @@ LOAD build/f7-firmware-C/lib/libassets.a
                 0x0000031c                __aeabi_l2d
  *(.stub)
  *(.text*)
- .text.console_view_input_callback
-                0x00000378        0x4 build/f7-firmware-C/.extapps/js_app/views/console_view.o
- .text.console_view_draw_callback
-                0x0000037c       0x9c build/f7-firmware-C/.extapps/js_app/views/console_view.o
- .text.console_view_push_line
-                0x00000418       0x60 build/f7-firmware-C/.extapps/js_app/views/console_view.o
-                0x00000418                console_view_push_line
- .text.console_view_print
-                0x00000478      0x150 build/f7-firmware-C/.extapps/js_app/views/console_view.o
-                0x00000478                console_view_print
- .text.console_view_alloc
-                0x000005c8       0x74 build/f7-firmware-C/.extapps/js_app/views/console_view.o
-                0x000005c8                console_view_alloc
- .text.console_view_free
-                0x0000063c       0x4c build/f7-firmware-C/.extapps/js_app/views/console_view.o
-                0x0000063c                console_view_free
- .text.console_view_get_view
-                0x00000688        0x4 build/f7-firmware-C/.extapps/js_app/views/console_view.o
-                0x00000688                console_view_get_view
- .text.js_internal_compat_ask_user
-                0x0000068c       0xac build/f7-firmware-C/.extapps/js_app/js_modules.o
- .text.js_internal_supports_all_of
-                0x00000738       0x8c build/f7-firmware-C/.extapps/js_app/js_modules.o
- .text.JsModuleArray_push_at.constprop.0
-                0x000007c4       0x80 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .text.js_modules_create
-                0x00000844       0x40 build/f7-firmware-C/.extapps/js_app/js_modules.o
-                0x00000844                js_modules_create
- .text.js_modules_destroy
-                0x00000884       0x7c build/f7-firmware-C/.extapps/js_app/js_modules.o
-                0x00000884                js_modules_destroy
- .text.js_find_loaded_module
-                0x00000900       0x38 build/f7-firmware-C/.extapps/js_app/js_modules.o
-                0x00000900                js_find_loaded_module
- .text.js_module_require
-                0x00000938      0x21c build/f7-firmware-C/.extapps/js_app/js_modules.o
-                0x00000938                js_module_require
- .text.js_module_get
-                0x00000b54       0x34 build/f7-firmware-C/.extapps/js_app/js_modules.o
-                0x00000b54                js_module_get
- .text.js_sdk_compatibility_status
-                0x00000b88       0xb0 build/f7-firmware-C/.extapps/js_app/js_modules.o
-                0x00000b88                js_sdk_compatibility_status
- .text.js_is_sdk_compatible
-                0x00000c38       0xa4 build/f7-firmware-C/.extapps/js_app/js_modules.o
-                0x00000c38                js_is_sdk_compatible
- .text.js_check_sdk_compatibility
-                0x00000cdc       0xe0 build/f7-firmware-C/.extapps/js_app/js_modules.o
-                0x00000cdc                js_check_sdk_compatibility
- .text.js_does_sdk_support
-                0x00000dbc       0x90 build/f7-firmware-C/.extapps/js_app/js_modules.o
-                0x00000dbc                js_does_sdk_support
- .text.js_check_sdk_features
-                0x00000e4c       0xc0 build/f7-firmware-C/.extapps/js_app/js_modules.o
-                0x00000e4c                js_check_sdk_features
- .text.js_view_exit
-                0x00000f0c        0x6 build/f7-firmware-C/.extapps/js_app/js_app.o
- *fill*         0x00000f12        0x2 
- .text.js_callback
-                0x00000f14       0xf4 build/f7-firmware-C/.extapps/js_app/js_app.o
- .text.js_app   0x00001008      0x1d8 build/f7-firmware-C/.extapps/js_app/js_app.o
-                0x00001008                js_app
  .text.js_flipper_get_battery
-                0x000011e0       0x58 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+                0x00000378       0x58 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
  .text.js_flipper_get_name
-                0x00001238       0x3c build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+                0x000003d0       0x3c build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
  .text.js_flipper_get_model
-                0x00001274       0x30 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
- *fill*         0x000012a4        0x4 
+                0x0000040c       0x30 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+ *fill*         0x0000043c        0x4 
  .text.js_flipper_create
-                0x000012a8      0x130 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
-                0x000012a8                js_flipper_create
+                0x00000440      0x130 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+                0x00000440                js_flipper_create
+ .text.js_internal_compat_ask_user
+                0x00000570       0xac build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .text.js_internal_supports_all_of
+                0x0000061c       0x8c build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .text.JsModuleArray_push_at.constprop.0
+                0x000006a8       0x80 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .text.js_modules_create
+                0x00000728       0x40 build/f7-firmware-C/.extapps/js_app/js_modules.o
+                0x00000728                js_modules_create
+ .text.js_modules_destroy
+                0x00000768       0x7c build/f7-firmware-C/.extapps/js_app/js_modules.o
+                0x00000768                js_modules_destroy
+ .text.js_find_loaded_module
+                0x000007e4       0x38 build/f7-firmware-C/.extapps/js_app/js_modules.o
+                0x000007e4                js_find_loaded_module
+ .text.js_module_require
+                0x0000081c      0x21c build/f7-firmware-C/.extapps/js_app/js_modules.o
+                0x0000081c                js_module_require
+ .text.js_module_get
+                0x00000a38       0x34 build/f7-firmware-C/.extapps/js_app/js_modules.o
+                0x00000a38                js_module_get
+ .text.js_sdk_compatibility_status
+                0x00000a6c       0xb0 build/f7-firmware-C/.extapps/js_app/js_modules.o
+                0x00000a6c                js_sdk_compatibility_status
+ .text.js_is_sdk_compatible
+                0x00000b1c       0xa4 build/f7-firmware-C/.extapps/js_app/js_modules.o
+                0x00000b1c                js_is_sdk_compatible
+ .text.js_check_sdk_compatibility
+                0x00000bc0       0xe0 build/f7-firmware-C/.extapps/js_app/js_modules.o
+                0x00000bc0                js_check_sdk_compatibility
+ .text.js_does_sdk_support
+                0x00000ca0       0x90 build/f7-firmware-C/.extapps/js_app/js_modules.o
+                0x00000ca0                js_does_sdk_support
+ .text.js_check_sdk_features
+                0x00000d30       0xc0 build/f7-firmware-C/.extapps/js_app/js_modules.o
+                0x00000d30                js_check_sdk_features
+ .text.console_view_input_callback
+                0x00000df0        0x4 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+ .text.console_view_draw_callback
+                0x00000df4       0x9c build/f7-firmware-C/.extapps/js_app/views/console_view.o
+ .text.console_view_push_line
+                0x00000e90       0x60 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+                0x00000e90                console_view_push_line
+ .text.console_view_print
+                0x00000ef0      0x150 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+                0x00000ef0                console_view_print
+ .text.console_view_alloc
+                0x00001040       0x74 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+                0x00001040                console_view_alloc
+ .text.console_view_free
+                0x000010b4       0x4c build/f7-firmware-C/.extapps/js_app/views/console_view.o
+                0x000010b4                console_view_free
+ .text.console_view_get_view
+                0x00001100        0x4 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+                0x00001100                console_view_get_view
  .text.js_exit_flag_poll
-                0x000013d8       0x2c build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00001104       0x2c build/f7-firmware-C/.extapps/js_app/js_thread.o
  .text.js_thread
-                0x00001404      0x3c4 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00001130      0x3c4 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .text.js_str_print
-                0x000017c8       0x90 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x000014f4       0x90 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .text.js_console_debug
-                0x00001858       0x5c build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00001584       0x5c build/f7-firmware-C/.extapps/js_app/js_thread.o
  .text.js_console_error
-                0x000018b4       0x5c build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x000015e0       0x5c build/f7-firmware-C/.extapps/js_app/js_thread.o
  .text.js_console_warn
-                0x00001910       0x5c build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x0000163c       0x5c build/f7-firmware-C/.extapps/js_app/js_thread.o
  .text.js_console_log
-                0x0000196c       0x5c build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00001698       0x5c build/f7-firmware-C/.extapps/js_app/js_thread.o
  .text.js_print
-                0x000019c8       0x78 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x000016f4       0x78 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .text.js_require
-                0x00001a40       0x70 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x0000176c       0x70 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .text.js_ffi_address
-                0x00001ab0       0x4c build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x000017dc       0x4c build/f7-firmware-C/.extapps/js_app/js_thread.o
  .text.js_parse_int
-                0x00001afc       0xb0 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00001828       0xb0 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .text.js_dlsym
-                0x00001bac       0x50 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x000018d8       0x50 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .text.js_delay_with_flags
-                0x00001bfc       0x30 build/f7-firmware-C/.extapps/js_app/js_thread.o
-                0x00001bfc                js_delay_with_flags
+                0x00001928       0x30 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00001928                js_delay_with_flags
  .text.js_delay
-                0x00001c2c       0x74 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00001958       0x74 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .text.js_flags_set
-                0x00001ca0       0x24 build/f7-firmware-C/.extapps/js_app/js_thread.o
-                0x00001ca0                js_flags_set
+                0x000019cc       0x24 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x000019cc                js_flags_set
  .text.js_flags_wait
-                0x00001cc4       0x60 build/f7-firmware-C/.extapps/js_app/js_thread.o
-                0x00001cc4                js_flags_wait
+                0x000019f0       0x60 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x000019f0                js_flags_wait
  .text.js_thread_run
-                0x00001d24       0x4c build/f7-firmware-C/.extapps/js_app/js_thread.o
-                0x00001d24                js_thread_run
+                0x00001a50       0x4c build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00001a50                js_thread_run
  .text.js_thread_stop
-                0x00001d70       0x44 build/f7-firmware-C/.extapps/js_app/js_thread.o
-                0x00001d70                js_thread_stop
+                0x00001a9c       0x44 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00001a9c                js_thread_stop
  .text.js_value_is_null_or_undefined
-                0x00001db4       0x2c build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x00001ae0       0x2c build/f7-firmware-C/.extapps/js_app/js_value.o
  .text.js_value_maybe_assign_default
-                0x00001de0       0x38 build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x00001b0c       0x38 build/f7-firmware-C/.extapps/js_app/js_value.o
  .text.js_value_parse_literal
-                0x00001e18       0x3c build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x00001b44       0x3c build/f7-firmware-C/.extapps/js_app/js_value.o
  .text.js_value_parse_va.isra.0
-                0x00001e54      0x3ac build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x00001b80      0x3ac build/f7-firmware-C/.extapps/js_app/js_value.o
  .text.js_value_buffer_size
-                0x00002200       0x86 build/f7-firmware-C/.extapps/js_app/js_value.o
-                0x00002200                js_value_buffer_size
- *fill*         0x00002286        0x2 
+                0x00001f2c       0x86 build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x00001f2c                js_value_buffer_size
+ *fill*         0x00001fb2        0x2 
  .text.js_value_parse
-                0x00002288       0x5c build/f7-firmware-C/.extapps/js_app/js_value.o
-                0x00002288                js_value_parse
+                0x00001fb4       0x5c build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x00001fb4                js_value_parse
+ .text.js_view_exit
+                0x00002010        0x6 build/f7-firmware-C/.extapps/js_app/js_app.o
+ *fill*         0x00002016        0x2 
+ .text.js_callback
+                0x00002018       0xf4 build/f7-firmware-C/.extapps/js_app/js_app.o
+ .text.js_app   0x0000210c      0x1d8 build/f7-firmware-C/.extapps/js_app/js_app.o
+                0x0000210c                js_app
  *(.text.*)
  *(.text._*)
  *(.init)
  *(.fini)
 
-.rodata         0x000022e8      0xadf
+.rodata         0x000022e8      0xadb
  *(.rodata)
  .rodata        0x000022e8       0x10 build/f7-firmware-C/.extapps/js_app/js_modules.o
  .rodata        0x000022f8        0x8 build/f7-firmware-C/.extapps/js_app/js_thread.o
  *(.rodata1)
  *(.rodata.*)
- .rodata.console_view_draw_callback.str1.1
-                0x00002300        0x4 build/f7-firmware-C/.extapps/js_app/views/console_view.o
- .rodata.console_view_push_line.str1.1
-                0x00002304        0xc build/f7-firmware-C/.extapps/js_app/views/console_view.o
- .rodata.u8g2_font_spleen5x8_mr
-                0x00002310      0x3f2 build/f7-firmware-C/.extapps/js_app/views/console_view.o
- *fill*         0x00002702        0x2 
- .rodata.application_api_interface
-                0x00002704        0x4 build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
-                0x00002704                application_api_interface
- .rodata._ZL34applicaton_hashtable_api_interface
-                0x00002708       0x10 build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
- .rodata._ZL13app_api_table
-                0x00002718       0x30 build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
- .rodata.js_internal_compat_ask_user.str1.1
-                0x00002748       0x40 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .rodata.js_modules_create.str1.1
-                0x00002788        0x3 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .rodata.js_modules_destroy.str1.1
-                0x0000278b       0x1b build/f7-firmware-C/.extapps/js_app/js_modules.o
- .rodata.js_module_require.str1.1
-                0x000027a6      0x154 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .rodata.js_sdk_compatibility_status.str1.1
-                0x000028fa       0x29 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .rodata.js_check_sdk_compatibility.str1.1
-                0x00002923       0x75 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .rodata.js_check_sdk_features.str1.1
-                0x00002998       0x39 build/f7-firmware-C/.extapps/js_app/js_modules.o
- *fill*         0x000029d1        0x3 
- .rodata.js_sdk_features_args
-                0x000029d4        0x8 build/f7-firmware-C/.extapps/js_app/js_modules.o
- *fill*         0x000029dc        0x4 
- .rodata.js_sdk_features_arg_list
-                0x000029e0       0x18 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .rodata.str1.1
-                0x000029f8       0x6f build/f7-firmware-C/.extapps/js_app/js_modules.o
- *fill*         0x00002a67        0x1 
- .rodata.extra_features
-                0x00002a68       0x28 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .rodata.js_sdk_version_args
-                0x00002a90        0x8 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .rodata.js_sdk_version_arg_list
-                0x00002a98       0x30 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .rodata.js_callback.str1.1
-                0x00002ac8       0x4c build/f7-firmware-C/.extapps/js_app/js_app.o
- .rodata.js_app.str1.1
-                0x00002b14       0x3b build/f7-firmware-C/.extapps/js_app/js_app.o
  .rodata.js_flipper_get_battery.str1.1
-                0x00002b4f        0x6 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+                0x00002300        0x6 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
  .rodata.js_flipper_get_name.str1.1
-                0x00002b55        0x8 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+                0x00002306        0x8 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
  .rodata.js_flipper_create.str1.1
-                0x00002b5d       0x47 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+                0x0000230e       0x47 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+ .rodata.js_internal_compat_ask_user.str1.1
+                0x00002355       0x40 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .rodata.js_modules_create.str1.1
+                0x00002395        0x3 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .rodata.js_modules_destroy.str1.1
+                0x00002398       0x1b build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .rodata.js_module_require.str1.1
+                0x000023b3      0x154 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .rodata.js_sdk_compatibility_status.str1.1
+                0x00002507       0x29 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .rodata.js_check_sdk_compatibility.str1.1
+                0x00002530       0x75 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .rodata.js_check_sdk_features.str1.1
+                0x000025a5       0x39 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ *fill*         0x000025de        0x2 
+ .rodata.js_sdk_features_args
+                0x000025e0        0x8 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .rodata.js_sdk_features_arg_list
+                0x000025e8       0x18 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .rodata.str1.1
+                0x00002600       0x6f build/f7-firmware-C/.extapps/js_app/js_modules.o
+ *fill*         0x0000266f        0x1 
+ .rodata.extra_features
+                0x00002670       0x28 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .rodata.js_sdk_version_args
+                0x00002698        0x8 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .rodata.js_sdk_version_arg_list
+                0x000026a0       0x30 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .rodata.console_view_draw_callback.str1.1
+                0x000026d0        0x4 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+ .rodata.console_view_push_line.str1.1
+                0x000026d4        0xc build/f7-firmware-C/.extapps/js_app/views/console_view.o
+ .rodata.u8g2_font_spleen5x8_mr
+                0x000026e0      0x3f2 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+ *fill*         0x00002ad2        0x2 
+ .rodata.application_api_interface
+                0x00002ad4        0x4 build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
+                0x00002ad4                application_api_interface
+ .rodata._ZL34applicaton_hashtable_api_interface
+                0x00002ad8       0x10 build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
+ .rodata._ZL13app_api_table
+                0x00002ae8       0x30 build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
  .rodata.js_thread.str1.1
-                0x00002ba4       0xdb build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00002b18       0xdb build/f7-firmware-C/.extapps/js_app/js_thread.o
  .rodata.js_str_print.str1.1
-                0x00002c7f        0xc build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00002bf3        0xc build/f7-firmware-C/.extapps/js_app/js_thread.o
  .rodata.js_console_debug.str1.1
-                0x00002c8b        0x3 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00002bff        0x3 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .rodata.js_print.str1.1
-                0x00002c8e        0x5 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00002c02        0x5 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .rodata.js_require.str1.1
-                0x00002c93       0x1c build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00002c07       0x1c build/f7-firmware-C/.extapps/js_app/js_thread.o
  .rodata.js_dlsym.str1.1
-                0x00002caf       0x16 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00002c23       0x16 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .rodata.js_delay.str1.1
-                0x00002cc5        0x1 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00002c39        0x1 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .rodata.js_thread_run.str1.1
-                0x00002cc6        0x9 build/f7-firmware-C/.extapps/js_app/js_thread.o
- *fill*         0x00002ccf        0x1 
+                0x00002c3a        0x9 build/f7-firmware-C/.extapps/js_app/js_thread.o
+ *fill*         0x00002c43        0x5 
  .rodata.js_parse_int_arg_list.1
-                0x00002cd0       0x30 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00002c48       0x30 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .rodata.js_parse_int_args.0
-                0x00002d00        0x8 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00002c78        0x8 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .rodata.js_value_parse_literal.str1.1
-                0x00002d08        0xc build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x00002c80        0xc build/f7-firmware-C/.extapps/js_app/js_value.o
  .rodata.js_value_parse_va.isra.0.str1.1
-                0x00002d14       0x55 build/f7-firmware-C/.extapps/js_app/js_value.o
- *fill*         0x00002d69        0x3 
+                0x00002c8c       0x55 build/f7-firmware-C/.extapps/js_app/js_value.o
+ .rodata.js_callback.str1.1
+                0x00002ce1       0x4c build/f7-firmware-C/.extapps/js_app/js_app.o
+ .rodata.js_app.str1.1
+                0x00002d2d       0x3b build/f7-firmware-C/.extapps/js_app/js_app.o
  .rodata.I_Warning_30x23
-                0x00002d6c        0xc build/f7-firmware-C/lib/libassets.a(_assets_icons_dropin.o)
-                0x00002d6c                I_Warning_30x23
+                0x00002d68        0xc build/f7-firmware-C/lib/libassets.a(_assets_icons_dropin.o)
+                0x00002d68                I_Warning_30x23
  .rodata._I_Warning_30x23
-                0x00002d78        0x4 build/f7-firmware-C/lib/libassets.a(_assets_icons_dropin.o)
-                0x00002d78                _I_Warning_30x23
+                0x00002d74        0x4 build/f7-firmware-C/lib/libassets.a(_assets_icons_dropin.o)
+                0x00002d74                _I_Warning_30x23
  .rodata._I_Warning_30x23_0
-                0x00002d7c       0x4b build/f7-firmware-C/lib/libassets.a(_assets_icons_dropin.o)
-                0x00002d7c                _I_Warning_30x23_0
+                0x00002d78       0x4b build/f7-firmware-C/lib/libassets.a(_assets_icons_dropin.o)
+                0x00002d78                _I_Warning_30x23_0
 
 .data
  *(.data)
@@ -570,19 +568,19 @@ LOAD build/f7-firmware-C/lib/libassets.a
 .debug_aranges  0x00000000      0x280
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x50 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+                0x00000000       0x38 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
  .debug_aranges
-                0x00000050       0x18 build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
+                0x00000038       0x80 build/f7-firmware-C/.extapps/js_app/js_modules.o
  .debug_aranges
-                0x00000068       0x80 build/f7-firmware-C/.extapps/js_app/js_modules.o
+                0x000000b8       0x50 build/f7-firmware-C/.extapps/js_app/views/console_view.o
  .debug_aranges
-                0x000000e8       0x58 build/f7-firmware-C/.extapps/js_app/js_app.o
+                0x00000108       0x18 build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
  .debug_aranges
-                0x00000140       0x38 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+                0x00000120       0xa8 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_aranges
-                0x00000178       0xa8 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x000001c8       0x48 build/f7-firmware-C/.extapps/js_app/js_value.o
  .debug_aranges
-                0x00000220       0x48 build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x00000210       0x58 build/f7-firmware-C/.extapps/js_app/js_app.o
  .debug_aranges
                 0x00000268       0x18 build/f7-firmware-C/lib/libassets.a(_assets_icons_dropin.o)
 
@@ -591,173 +589,173 @@ LOAD build/f7-firmware-C/lib/libassets.a
 
 .debug_info     0x00000000     0xc961
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0xadc build/f7-firmware-C/.extapps/js_app/views/console_view.o
- .debug_info    0x00000adc     0x4169 build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
- .debug_info    0x00004c45     0x2269 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_info    0x00006eae     0x14fc build/f7-firmware-C/.extapps/js_app/js_app.o
- .debug_info    0x000083aa      0x7f4 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
- .debug_info    0x00008b9e     0x2540 build/f7-firmware-C/.extapps/js_app/js_thread.o
- .debug_info    0x0000b0de     0x1123 build/f7-firmware-C/.extapps/js_app/js_value.o
+ .debug_info    0x00000000      0x7f4 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+ .debug_info    0x000007f4     0x2269 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_info    0x00002a5d      0xadc build/f7-firmware-C/.extapps/js_app/views/console_view.o
+ .debug_info    0x00003539     0x4169 build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
+ .debug_info    0x000076a2     0x2540 build/f7-firmware-C/.extapps/js_app/js_thread.o
+ .debug_info    0x00009be2     0x1123 build/f7-firmware-C/.extapps/js_app/js_value.o
+ .debug_info    0x0000ad05     0x14fc build/f7-firmware-C/.extapps/js_app/js_app.o
  .debug_info    0x0000c201      0x760 build/f7-firmware-C/lib/libassets.a(_assets_icons_dropin.o)
 
 .debug_abbrev   0x00000000     0x1cd3
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x2a0 build/f7-firmware-C/.extapps/js_app/views/console_view.o
- .debug_abbrev  0x000002a0      0x4ff build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
- .debug_abbrev  0x0000079f      0x56c build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_abbrev  0x00000d0b      0x400 build/f7-firmware-C/.extapps/js_app/js_app.o
- .debug_abbrev  0x0000110b      0x215 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
- .debug_abbrev  0x00001320      0x4e3 build/f7-firmware-C/.extapps/js_app/js_thread.o
- .debug_abbrev  0x00001803      0x412 build/f7-firmware-C/.extapps/js_app/js_value.o
+ .debug_abbrev  0x00000000      0x215 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+ .debug_abbrev  0x00000215      0x56c build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_abbrev  0x00000781      0x2a0 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+ .debug_abbrev  0x00000a21      0x4ff build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
+ .debug_abbrev  0x00000f20      0x4e3 build/f7-firmware-C/.extapps/js_app/js_thread.o
+ .debug_abbrev  0x00001403      0x412 build/f7-firmware-C/.extapps/js_app/js_value.o
+ .debug_abbrev  0x00001815      0x400 build/f7-firmware-C/.extapps/js_app/js_app.o
  .debug_abbrev  0x00001c15       0xbe build/f7-firmware-C/lib/libassets.a(_assets_icons_dropin.o)
 
 .debug_line     0x00000000     0x3c58
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x00000000      0x335 build/f7-firmware-C/.extapps/js_app/views/console_view.o
- .debug_line.text.console_view_input_callback
-                0x00000335       0x1b build/f7-firmware-C/.extapps/js_app/views/console_view.o
- .debug_line.text.console_view_draw_callback
-                0x00000350       0x71 build/f7-firmware-C/.extapps/js_app/views/console_view.o
- .debug_line.text.console_view_push_line
-                0x000003c1       0x66 build/f7-firmware-C/.extapps/js_app/views/console_view.o
- .debug_line.text.console_view_print
-                0x00000427      0x1ee build/f7-firmware-C/.extapps/js_app/views/console_view.o
- .debug_line.text.console_view_alloc
-                0x00000615       0x76 build/f7-firmware-C/.extapps/js_app/views/console_view.o
- .debug_line.text.console_view_free
-                0x0000068b       0x67 build/f7-firmware-C/.extapps/js_app/views/console_view.o
- .debug_line.text.console_view_get_view
-                0x000006f2       0x1a build/f7-firmware-C/.extapps/js_app/views/console_view.o
- .debug_line_end
-                0x0000070c        0x0 build/f7-firmware-C/.extapps/js_app/views/console_view.o
- .debug_line    0x0000070c      0x749 build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
- .debug_line_end
-                0x00000e55        0x0 build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
- .debug_line    0x00000e55      0x427 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_line.text.js_internal_compat_ask_user
-                0x0000127c       0x57 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_line.text.js_internal_supports_all_of
-                0x000012d3       0xa8 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_line.text.JsModuleArray_push_at.constprop.0
-                0x0000137b       0x32 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_line.text.js_modules_create
-                0x000013ad       0x6b build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_line.text.js_modules_destroy
-                0x00001418      0x172 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_line.text.js_find_loaded_module
-                0x0000158a       0xa1 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_line.text.js_module_require
-                0x0000162b      0x190 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_line.text.js_module_get
-                0x000017bb       0x52 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_line.text.js_sdk_compatibility_status
-                0x0000180d       0xa8 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_line.text.js_is_sdk_compatible
-                0x000018b5       0x89 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_line.text.js_check_sdk_compatibility
-                0x0000193e       0xb7 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_line.text.js_does_sdk_support
-                0x000019f5       0x7d build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_line.text.js_check_sdk_features
-                0x00001a72       0x91 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_line_end
-                0x00001b03        0x0 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_line    0x00001b03      0x471 build/f7-firmware-C/.extapps/js_app/js_app.o
- .debug_line.text.js_view_exit
-                0x00001f74       0x1a build/f7-firmware-C/.extapps/js_app/js_app.o
- .debug_line.text.js_callback
-                0x00001f8e       0xb1 build/f7-firmware-C/.extapps/js_app/js_app.o
- .debug_line.text.js_app
-                0x0000203f      0x136 build/f7-firmware-C/.extapps/js_app/js_app.o
- .debug_line_end
-                0x00002175        0x0 build/f7-firmware-C/.extapps/js_app/js_app.o
- .debug_line    0x00002175      0x2ef build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+ .debug_line    0x00000000      0x2ef build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
  .debug_line.text.js_flipper_get_battery
-                0x00002464       0x2f build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+                0x000002ef       0x2f build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
  .debug_line.text.js_flipper_get_name
-                0x00002493       0x3b build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+                0x0000031e       0x3b build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
  .debug_line.text.js_flipper_get_model
-                0x000024ce       0x2c build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+                0x00000359       0x2c build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
  .debug_line.text.js_flipper_create
-                0x000024fa       0x68 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+                0x00000385       0x68 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
  .debug_line_end
-                0x00002562        0x0 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
- .debug_line    0x00002562      0x4fb build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x000003ed        0x0 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+ .debug_line    0x000003ed      0x427 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_line.text.js_internal_compat_ask_user
+                0x00000814       0x57 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_line.text.js_internal_supports_all_of
+                0x0000086b       0xa8 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_line.text.JsModuleArray_push_at.constprop.0
+                0x00000913       0x32 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_line.text.js_modules_create
+                0x00000945       0x6b build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_line.text.js_modules_destroy
+                0x000009b0      0x172 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_line.text.js_find_loaded_module
+                0x00000b22       0xa1 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_line.text.js_module_require
+                0x00000bc3      0x190 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_line.text.js_module_get
+                0x00000d53       0x52 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_line.text.js_sdk_compatibility_status
+                0x00000da5       0xa8 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_line.text.js_is_sdk_compatible
+                0x00000e4d       0x89 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_line.text.js_check_sdk_compatibility
+                0x00000ed6       0xb7 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_line.text.js_does_sdk_support
+                0x00000f8d       0x7d build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_line.text.js_check_sdk_features
+                0x0000100a       0x91 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_line_end
+                0x0000109b        0x0 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_line    0x0000109b      0x335 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+ .debug_line.text.console_view_input_callback
+                0x000013d0       0x1b build/f7-firmware-C/.extapps/js_app/views/console_view.o
+ .debug_line.text.console_view_draw_callback
+                0x000013eb       0x71 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+ .debug_line.text.console_view_push_line
+                0x0000145c       0x66 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+ .debug_line.text.console_view_print
+                0x000014c2      0x1ee build/f7-firmware-C/.extapps/js_app/views/console_view.o
+ .debug_line.text.console_view_alloc
+                0x000016b0       0x76 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+ .debug_line.text.console_view_free
+                0x00001726       0x67 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+ .debug_line.text.console_view_get_view
+                0x0000178d       0x1a build/f7-firmware-C/.extapps/js_app/views/console_view.o
+ .debug_line_end
+                0x000017a7        0x0 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+ .debug_line    0x000017a7      0x749 build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
+ .debug_line_end
+                0x00001ef0        0x0 build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
+ .debug_line    0x00001ef0      0x4fb build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line.text.js_exit_flag_poll
-                0x00002a5d       0x43 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x000023eb       0x43 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line.text.js_thread
-                0x00002aa0      0x196 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x0000242e      0x196 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line.text.js_str_print
-                0x00002c36       0xa5 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x000025c4       0xa5 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line.text.js_console_debug
-                0x00002cdb       0x3a build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00002669       0x3a build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line.text.js_console_error
-                0x00002d15       0x3a build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x000026a3       0x3a build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line.text.js_console_warn
-                0x00002d4f       0x3a build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x000026dd       0x3a build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line.text.js_console_log
-                0x00002d89       0x39 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00002717       0x39 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line.text.js_print
-                0x00002dc2       0x5b build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00002750       0x5b build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line.text.js_require
-                0x00002e1d       0x72 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x000027ab       0x72 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line.text.js_ffi_address
-                0x00002e8f       0x4f build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x0000281d       0x4f build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line.text.js_parse_int
-                0x00002ede       0x86 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x0000286c       0x86 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line.text.js_dlsym
-                0x00002f64       0x67 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x000028f2       0x67 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line.text.js_delay_with_flags
-                0x00002fcb       0x4a build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00002959       0x4a build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line.text.js_delay
-                0x00003015       0x6d build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x000029a3       0x6d build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line.text.js_flags_set
-                0x00003082       0x33 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00002a10       0x33 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line.text.js_flags_wait
-                0x000030b5       0xaa build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00002a43       0xaa build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line.text.js_thread_run
-                0x0000315f       0x52 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00002aed       0x52 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line.text.js_thread_stop
-                0x000031b1       0x30 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00002b3f       0x30 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_line_end
-                0x000031e1        0x0 build/f7-firmware-C/.extapps/js_app/js_thread.o
- .debug_line    0x000031e1      0x2ed build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x00002b6f        0x0 build/f7-firmware-C/.extapps/js_app/js_thread.o
+ .debug_line    0x00002b6f      0x2ed build/f7-firmware-C/.extapps/js_app/js_value.o
  .debug_line.text.js_value_is_null_or_undefined
-                0x000034ce       0x3e build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x00002e5c       0x3e build/f7-firmware-C/.extapps/js_app/js_value.o
  .debug_line.text.js_value_maybe_assign_default
-                0x0000350c       0x44 build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x00002e9a       0x44 build/f7-firmware-C/.extapps/js_app/js_value.o
  .debug_line.text.js_value_parse_literal
-                0x00003550       0x6f build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x00002ede       0x6f build/f7-firmware-C/.extapps/js_app/js_value.o
  .debug_line.text.js_value_parse_va.isra.0
-                0x000035bf      0x31c build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x00002f4d      0x31c build/f7-firmware-C/.extapps/js_app/js_value.o
  .debug_line.text.js_value_buffer_size
-                0x000038db       0xf2 build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x00003269       0xf2 build/f7-firmware-C/.extapps/js_app/js_value.o
  .debug_line.text.js_value_parse
-                0x000039cd       0xf1 build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x0000335b       0xf1 build/f7-firmware-C/.extapps/js_app/js_value.o
  .debug_line_end
-                0x00003abe        0x0 build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x0000344c        0x0 build/f7-firmware-C/.extapps/js_app/js_value.o
+ .debug_line    0x0000344c      0x471 build/f7-firmware-C/.extapps/js_app/js_app.o
+ .debug_line.text.js_view_exit
+                0x000038bd       0x1a build/f7-firmware-C/.extapps/js_app/js_app.o
+ .debug_line.text.js_callback
+                0x000038d7       0xb1 build/f7-firmware-C/.extapps/js_app/js_app.o
+ .debug_line.text.js_app
+                0x00003988      0x136 build/f7-firmware-C/.extapps/js_app/js_app.o
+ .debug_line_end
+                0x00003abe        0x0 build/f7-firmware-C/.extapps/js_app/js_app.o
  .debug_line    0x00003abe      0x19a build/f7-firmware-C/lib/libassets.a(_assets_icons_dropin.o)
  .debug_line_end
                 0x00003c58        0x0 build/f7-firmware-C/lib/libassets.a(_assets_icons_dropin.o)
 
 .debug_frame    0x00000000      0x894
  *(.debug_frame)
- .debug_frame   0x00000000      0x104 build/f7-firmware-C/.extapps/js_app/views/console_view.o
- .debug_frame   0x00000104      0x234 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_frame   0x00000338      0x124 build/f7-firmware-C/.extapps/js_app/js_app.o
- .debug_frame   0x0000045c       0xa4 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
- .debug_frame   0x00000500      0x298 build/f7-firmware-C/.extapps/js_app/js_thread.o
- .debug_frame   0x00000798       0xfc build/f7-firmware-C/.extapps/js_app/js_value.o
+ .debug_frame   0x00000000       0xa4 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+ .debug_frame   0x000000a4      0x234 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_frame   0x000002d8      0x104 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+ .debug_frame   0x000003dc      0x298 build/f7-firmware-C/.extapps/js_app/js_thread.o
+ .debug_frame   0x00000674       0xfc build/f7-firmware-C/.extapps/js_app/js_value.o
+ .debug_frame   0x00000770      0x124 build/f7-firmware-C/.extapps/js_app/js_app.o
 
 .debug_str      0x00000000     0x7378
  *(.debug_str)
- .debug_str     0x00000000      0x74c build/f7-firmware-C/.extapps/js_app/views/console_view.o
- .debug_str     0x0000074c     0x26ad build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
- .debug_str     0x00002df9     0x1200 build/f7-firmware-C/.extapps/js_app/js_modules.o
- .debug_str     0x00003ff9      0xc7a build/f7-firmware-C/.extapps/js_app/js_app.o
- .debug_str     0x00004c73      0x5ae build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
- .debug_str     0x00005221     0x10dc build/f7-firmware-C/.extapps/js_app/js_thread.o
- .debug_str     0x000062fd      0x967 build/f7-firmware-C/.extapps/js_app/js_value.o
+ .debug_str     0x00000000      0x5ae build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+ .debug_str     0x000005ae     0x1200 build/f7-firmware-C/.extapps/js_app/js_modules.o
+ .debug_str     0x000017ae      0x74c build/f7-firmware-C/.extapps/js_app/views/console_view.o
+ .debug_str     0x00001efa     0x26ad build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
+ .debug_str     0x000045a7     0x10dc build/f7-firmware-C/.extapps/js_app/js_thread.o
+ .debug_str     0x00005683      0x967 build/f7-firmware-C/.extapps/js_app/js_value.o
+ .debug_str     0x00005fea      0xc7a build/f7-firmware-C/.extapps/js_app/js_app.o
  .debug_str     0x00006c64      0x714 build/f7-firmware-C/lib/libassets.a(_assets_icons_dropin.o)
 
 .debug_loc
@@ -797,17 +795,17 @@ LOAD build/f7-firmware-C/lib/libassets.a
                 0x00000000     0x240f
  *(.debug_loclists)
  .debug_loclists
-                0x00000000      0x3b4 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+                0x00000000      0x1e5 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
  .debug_loclists
-                0x000003b4      0xa42 build/f7-firmware-C/.extapps/js_app/js_modules.o
+                0x000001e5      0xa42 build/f7-firmware-C/.extapps/js_app/js_modules.o
  .debug_loclists
-                0x00000df6      0x4e5 build/f7-firmware-C/.extapps/js_app/js_app.o
+                0x00000c27      0x3b4 build/f7-firmware-C/.extapps/js_app/views/console_view.o
  .debug_loclists
-                0x000012db      0x1e5 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+                0x00000fdb      0x7a5 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_loclists
-                0x000014c0      0x7a5 build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x00001780      0x7aa build/f7-firmware-C/.extapps/js_app/js_value.o
  .debug_loclists
-                0x00001c65      0x7aa build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x00001f2a      0x4e5 build/f7-firmware-C/.extapps/js_app/js_app.o
 
 .debug_macro
  *(.debug_macro)
@@ -819,17 +817,17 @@ LOAD build/f7-firmware-C/lib/libassets.a
                 0x00000000      0x436
  *(.debug_rnglists)
  .debug_rnglists
-                0x00000000       0xc1 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+                0x00000000       0x33 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
  .debug_rnglists
-                0x000000c1      0x115 build/f7-firmware-C/.extapps/js_app/js_modules.o
+                0x00000033      0x115 build/f7-firmware-C/.extapps/js_app/js_modules.o
  .debug_rnglists
-                0x000001d6       0x86 build/f7-firmware-C/.extapps/js_app/js_app.o
+                0x00000148       0xc1 build/f7-firmware-C/.extapps/js_app/views/console_view.o
  .debug_rnglists
-                0x0000025c       0x33 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+                0x00000209       0xba build/f7-firmware-C/.extapps/js_app/js_thread.o
  .debug_rnglists
-                0x0000028f       0xba build/f7-firmware-C/.extapps/js_app/js_thread.o
+                0x000002c3       0xed build/f7-firmware-C/.extapps/js_app/js_value.o
  .debug_rnglists
-                0x00000349       0xed build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x000003b0       0x86 build/f7-firmware-C/.extapps/js_app/js_app.o
 
 .debug_str_offsets
  *(.debug_str_offsets)
@@ -841,21 +839,21 @@ LOAD build/f7-firmware-C/lib/libassets.a
                 0x00000000       0x34
  *(.ARM.attributes)
  .ARM.attributes
-                0x00000000       0x34 build/f7-firmware-C/.extapps/js_app/views/console_view.o
+                0x00000000       0x34 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
  .ARM.attributes
-                0x00000034       0x34 build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
+                0x00000034       0x34 build/f7-firmware-C/.extapps/js_app/js_modules.o
  .ARM.attributes
-                0x00000068       0x34 build/f7-firmware-C/.extapps/js_app/js_modules.o
+                0x00000068       0x34 build/f7-firmware-C/.extapps/js_app/views/console_view.o
  .ARM.attributes
-                0x0000009c       0x34 build/f7-firmware-C/.extapps/js_app/js_app.o
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/js_app/plugin_api/app_api_table.o
  .ARM.attributes
-                0x000000d0       0x34 build/f7-firmware-C/.extapps/js_app/modules/js_flipper.o
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/js_app/modules/js_tests.o
  .ARM.attributes
                 0x00000104       0x34 build/f7-firmware-C/.extapps/js_app/js_thread.o
  .ARM.attributes
-                0x00000138       0x34 build/f7-firmware-C/.extapps/js_app/modules/js_tests.o
+                0x00000138       0x34 build/f7-firmware-C/.extapps/js_app/js_value.o
  .ARM.attributes
-                0x0000016c       0x34 build/f7-firmware-C/.extapps/js_app/js_value.o
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/js_app/js_app.o
  .ARM.attributes
                 0x000001a0       0x22 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes

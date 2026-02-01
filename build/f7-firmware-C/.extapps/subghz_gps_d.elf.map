@@ -51,6 +51,10 @@ Archive member included to satisfy reference by file (symbol)
 
 Discarded input sections
 
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
@@ -107,10 +111,6 @@ Discarded input sections
                 0x00000000       0x98 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
  .debug_line.text.minmea_gettime
                 0x00000000       0x61 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .text          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
- .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .text          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_sin.o)
  .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_sin.o)
  .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_sin.o)
@@ -187,8 +187,8 @@ Name             Origin             Length             Attributes
 
 Linker script and memory map
 
-LOAD build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
 LOAD build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+LOAD build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
 LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
 LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
 LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
@@ -244,42 +244,42 @@ LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolc
                 0x00000928                __truncdfsf2
  *(.stub)
  *(.text*)
- .text.minmea_isfield
-                0x000009c8       0x24 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .text.hex2int  0x000009ec       0x2c build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .text.minmea_check
-                0x00000a18       0x6c build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
-                0x00000a18                minmea_check
- .text.minmea_scan
-                0x00000a84      0x4b8 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
-                0x00000a84                minmea_scan
- .text.minmea_sentence_id
-                0x00000f3c       0xd8 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
-                0x00000f3c                minmea_sentence_id
- .text.minmea_parse_rmc
-                0x00001014       0x98 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
-                0x00001014                minmea_parse_rmc
- .text.minmea_parse_gga
-                0x000010ac       0x90 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
-                0x000010ac                minmea_parse_gga
- .text.minmea_parse_gll
-                0x0000113c       0x6c build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
-                0x0000113c                minmea_parse_gll
  .text.minmea_tocoord
-                0x000011a8       0x54 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x000009c8       0x54 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .text.subghz_gps_init
-                0x000011fc       0xb4 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x00000a1c       0xb4 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .text.subghz_gps_cat_realtime
-                0x000012b0      0x334 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x00000ad0      0x334 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .text.subghz_gps_deinit
-                0x000015e4       0x60 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x00000e04       0x60 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .text.subghz_gps_uart_worker
-                0x00001644      0x174 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x00000e64      0x174 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .text.subghz_gps_uart_on_irq_cb
-                0x000017b8       0x40 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x00000fd8       0x40 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .text.subghz_gps_plugin_ep
-                0x000017f8        0x8 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
-                0x000017f8                subghz_gps_plugin_ep
+                0x00001018        0x8 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x00001018                subghz_gps_plugin_ep
+ .text.minmea_isfield
+                0x00001020       0x24 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+ .text.hex2int  0x00001044       0x2c build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+ .text.minmea_check
+                0x00001070       0x6c build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+                0x00001070                minmea_check
+ .text.minmea_scan
+                0x000010dc      0x4b8 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+                0x000010dc                minmea_scan
+ .text.minmea_sentence_id
+                0x00001594       0xd8 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+                0x00001594                minmea_sentence_id
+ .text.minmea_parse_rmc
+                0x0000166c       0x98 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+                0x0000166c                minmea_parse_rmc
+ .text.minmea_parse_gga
+                0x00001704       0x90 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+                0x00001704                minmea_parse_gga
+ .text.minmea_parse_gll
+                0x00001794       0x6c build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+                0x00001794                minmea_parse_gll
  .text.sin      0x00001800       0xa8 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_sin.o)
                 0x00001800                sin
  .text.atan2    0x000018a8        0x4 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_atan2.o)
@@ -336,30 +336,30 @@ LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolc
  *(.rodata)
  *(.rodata1)
  *(.rodata.*)
- .rodata.minmea_talker_id.str1.1
-                0x00003480        0x2 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .rodata.minmea_sentence_id.str1.1
-                0x00003482       0x24 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .rodata.minmea_parse_rmc.str1.1
-                0x000034a6        0xd build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .rodata.minmea_parse_gga.str1.1
-                0x000034b3       0x10 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .rodata.minmea_parse_gll.str1.1
-                0x000034c3        0xa build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
  .rodata.subghz_gps_init.str1.1
-                0x000034cd       0x10 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x00003480       0x10 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .rodata.subghz_gps_cat_realtime.str1.1
-                0x000034dd       0x67 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x00003490       0x67 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .rodata.str1.1
-                0x00003544        0xb build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
- *fill*         0x0000354f        0x1 
+                0x000034f7        0xb build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+ *fill*         0x00003502        0x2 
  .rodata.plugin_descriptor
-                0x00003550        0xc build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x00003504        0xc build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+ .rodata.minmea_talker_id.str1.1
+                0x00003510        0x2 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+ .rodata.minmea_sentence_id.str1.1
+                0x00003512       0x24 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+ .rodata.minmea_parse_rmc.str1.1
+                0x00003536        0xd build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+ .rodata.minmea_parse_gga.str1.1
+                0x00003543       0x10 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+ .rodata.minmea_parse_gll.str1.1
+                0x00003553        0xa build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+ *fill*         0x0000355d        0x3 
  .rodata.npio2_hw
-                0x0000355c       0x80 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_rem_pio2.o)
+                0x00003560       0x80 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_rem_pio2.o)
  .rodata.two_over_pi
-                0x000035dc      0x108 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_rem_pio2.o)
- *fill*         0x000036e4        0x4 
+                0x000035e0      0x108 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_rem_pio2.o)
  .rodata.PIo2   0x000036e8       0x40 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-k_rem_pio2.o)
  .rodata.init_jk
                 0x00003728       0x10 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-k_rem_pio2.o)
@@ -425,71 +425,71 @@ LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolc
 .debug_aranges  0x00000000       0xf8
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0xa8 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+                0x00000000       0x50 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .debug_aranges
-                0x000000a8       0x50 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x00000050       0xa8 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
 .debug_info     0x00000000     0x33a1
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000     0x1a4d build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .debug_info    0x00001a4d     0x1954 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+ .debug_info    0x00000000     0x1954 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+ .debug_info    0x00001954     0x1a4d build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
 
 .debug_abbrev   0x00000000      0x821
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x34b build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .debug_abbrev  0x0000034b      0x4d6 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+ .debug_abbrev  0x00000000      0x4d6 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+ .debug_abbrev  0x000004d6      0x34b build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
 
 .debug_line     0x00000000     0x1454
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x00000000      0x29e build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .debug_line.text.minmea_isfield
-                0x0000029e       0x3b build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .debug_line.text.hex2int
-                0x000002d9       0x50 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .debug_line.text.minmea_check
-                0x00000329       0xb8 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .debug_line.text.minmea_scan
-                0x000003e1      0x50b build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .debug_line.text.minmea_sentence_id
-                0x000008ec       0xab build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .debug_line.text.minmea_parse_rmc
-                0x00000997       0x6b build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .debug_line.text.minmea_parse_gga
-                0x00000a02       0x59 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .debug_line.text.minmea_parse_gll
-                0x00000a5b       0x58 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .debug_line_end
-                0x00000ab3        0x0 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .debug_line    0x00000ab3      0x40b build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+ .debug_line    0x00000000      0x40b build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .debug_line.text.minmea_tocoord
-                0x00000ebe       0x55 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x0000040b       0x55 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .debug_line.text.subghz_gps_init
-                0x00000f13       0xbf build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x00000460       0xbf build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .debug_line.text.subghz_gps_cat_realtime
-                0x00000fd2      0x1f1 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x0000051f      0x1f1 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .debug_line.text.subghz_gps_deinit
-                0x000011c3       0x35 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x00000710       0x35 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .debug_line.text.subghz_gps_uart_worker
-                0x000011f8      0x200 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x00000745      0x200 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .debug_line.text.subghz_gps_uart_on_irq_cb
-                0x000013f8       0x43 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x00000945       0x43 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .debug_line.text.subghz_gps_plugin_ep
-                0x0000143b       0x19 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x00000988       0x19 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .debug_line_end
-                0x00001454        0x0 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x000009a1        0x0 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+ .debug_line    0x000009a1      0x29e build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+ .debug_line.text.minmea_isfield
+                0x00000c3f       0x3b build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+ .debug_line.text.hex2int
+                0x00000c7a       0x50 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+ .debug_line.text.minmea_check
+                0x00000cca       0xb8 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+ .debug_line.text.minmea_scan
+                0x00000d82      0x50b build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+ .debug_line.text.minmea_sentence_id
+                0x0000128d       0xab build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+ .debug_line.text.minmea_parse_rmc
+                0x00001338       0x6b build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+ .debug_line.text.minmea_parse_gga
+                0x000013a3       0x59 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+ .debug_line.text.minmea_parse_gll
+                0x000013fc       0x58 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+ .debug_line_end
+                0x00001454        0x0 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
 
 .debug_frame    0x00000000      0x374
  *(.debug_frame)
- .debug_frame   0x00000000      0x258 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .debug_frame   0x00000258      0x11c build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+ .debug_frame   0x00000000      0x11c build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+ .debug_frame   0x0000011c      0x258 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
 
 .debug_str      0x00000000     0x1c6b
  *(.debug_str)
- .debug_str     0x00000000      0xa43 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
- .debug_str     0x00000a43     0x1228 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+ .debug_str     0x00000000     0x1228 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+ .debug_str     0x00001228      0xa43 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
 
 .debug_loc
  *(.debug_loc)
@@ -538,9 +538,9 @@ LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolc
                 0x00000000      0xdc3
  *(.debug_loclists)
  .debug_loclists
-                0x00000000      0x896 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+                0x00000000      0x52d build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .debug_loclists
-                0x00000896      0x52d build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x0000052d      0x896 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
 
 .debug_macro
  *(.debug_macro)
@@ -552,9 +552,9 @@ LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolc
                 0x00000000      0x254
  *(.debug_rnglists)
  .debug_rnglists
-                0x00000000      0x130 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+                0x00000000      0x124 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .debug_rnglists
-                0x00000130      0x124 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x00000124      0x130 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
 
 .debug_str_offsets
  *(.debug_str_offsets)
@@ -566,9 +566,9 @@ LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolc
                 0x00000000       0x34
  *(.ARM.attributes)
  .ARM.attributes
-                0x00000000       0x34 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
+                0x00000000       0x34 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
  .ARM.attributes
-                0x00000034       0x34 build/f7-firmware-C/.extapps/subghz_gps/helpers/subghz_gps.o
+                0x00000034       0x34 build/f7-firmware-C/.extapps/subghz_gps/helpers/minmea.o
  .ARM.attributes
                 0x00000068       0x34 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_sin.o)
  .ARM.attributes

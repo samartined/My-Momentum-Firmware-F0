@@ -7,6 +7,18 @@ build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
 
 Discarded input sections
 
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+ .text.mf_ultralight_auth_alloc
+                0x00000000        0xc build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+ .text.mf_ultralight_auth_free
+                0x00000000        0x8 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+ .debug_line.text.mf_ultralight_auth_alloc
+                0x00000000       0x16 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+ .debug_line.text.mf_ultralight_auth_free
+                0x00000000       0x1a build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
  .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a.o
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a.o
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a.o
@@ -76,18 +88,6 @@ Discarded input sections
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
  .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
- .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
- .text.mf_ultralight_auth_alloc
-                0x00000000        0xc build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
- .text.mf_ultralight_auth_free
-                0x00000000        0x8 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
- .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
- .debug_line.text.mf_ultralight_auth_alloc
-                0x00000000       0x16 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
- .debug_line.text.mf_ultralight_auth_free
-                0x00000000       0x1a build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
  .text          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
  .data          0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
  .bss           0x00000000        0x0 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
@@ -112,11 +112,11 @@ Name             Origin             Length             Attributes
 
 Linker script and memory map
 
+LOAD build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
 LOAD build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a.o
 LOAD build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
 LOAD build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
 LOAD build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
-LOAD build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
 LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
 LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
 LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
@@ -128,69 +128,69 @@ LOAD build/f7-firmware-C/lib/libmbedtls.a
  *(.text)
  *(.stub)
  *(.text*)
- .text.nfc_render_iso14443_3a_format_bytes
-                0x00000000       0x2c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
-                0x00000000                nfc_render_iso14443_3a_format_bytes
- .text.nfc_render_iso14443_tech_type
-                0x0000002c       0x28 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
-                0x0000002c                nfc_render_iso14443_tech_type
- .text.nfc_render_iso14443_3a_brief
-                0x00000054       0x28 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
-                0x00000054                nfc_render_iso14443_3a_brief
- .text.nfc_render_iso14443_3a_extra
-                0x0000007c       0x2c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
-                0x0000007c                nfc_render_iso14443_3a_extra
- .text.nfc_render_iso14443_3a_info
-                0x000000a8       0x34 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
-                0x000000a8                nfc_render_iso14443_3a_info
- .text.nfc_scene_read_on_event_mf_ultralight
-                0x000000dc       0x94 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
-                0x000000dc                nfc_scene_read_on_event_mf_ultralight
- .text.nfc_scene_write_on_enter_mf_ultralight
-                0x00000170       0x3c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .text.nfc_scene_write_poller_callback_mf_ultralight
-                0x000001ac       0xc0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .text.nfc_scene_emulate_on_enter_mf_ultralight
-                0x0000026c       0x38 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .text.nfc_scene_read_success_on_enter_mf_ultralight
-                0x000002a4       0xc8 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .text.nfc_scene_read_and_saved_menu_on_event_mf_ultralight
-                0x0000036c       0x58 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .text.nfc_scene_read_and_saved_menu_on_enter_mf_ultralight
-                0x000003c4       0x7c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .text.nfc_scene_read_on_enter_mf_ultralight
-                0x00000440       0x24 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .text.nfc_scene_read_poller_callback_mf_ultralight
-                0x00000464      0x120 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .text.nfc_scene_more_info_on_event_mf_ultralight
-                0x00000584       0x54 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .text.nfc_scene_more_info_on_enter_mf_ultralight
-                0x000005d8       0xf0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .text.nfc_scene_info_on_enter_mf_ultralight
-                0x000006c8       0xa4 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .text.nfc_mf_ultralight_ep
-                0x0000076c        0x8 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
-                0x0000076c                nfc_mf_ultralight_ep
- .text.nfc_render_mf_ultralight_pages_count
-                0x00000774       0x3c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
- .text.nfc_render_mf_ultralight_pwd_pack
-                0x000007b0       0x8c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
-                0x000007b0                nfc_render_mf_ultralight_pwd_pack
- .text.nfc_render_mf_ultralight_info
-                0x0000083c       0x48 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
-                0x0000083c                nfc_render_mf_ultralight_info
- .text.nfc_render_mf_ultralight_dump
-                0x00000884       0x58 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
-                0x00000884                nfc_render_mf_ultralight_dump
  .text.mf_ultralight_auth_reset
-                0x000008dc       0x20 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
-                0x000008dc                mf_ultralight_auth_reset
+                0x00000000       0x20 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+                0x00000000                mf_ultralight_auth_reset
  .text.mf_ultralight_generate_amiibo_pass
-                0x000008fc       0x3c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
-                0x000008fc                mf_ultralight_generate_amiibo_pass
+                0x00000020       0x3c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+                0x00000020                mf_ultralight_generate_amiibo_pass
  .text.mf_ultralight_generate_xiaomi_pass
-                0x00000938       0x7c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
-                0x00000938                mf_ultralight_generate_xiaomi_pass
+                0x0000005c       0x7c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+                0x0000005c                mf_ultralight_generate_xiaomi_pass
+ .text.nfc_render_iso14443_3a_format_bytes
+                0x000000d8       0x2c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x000000d8                nfc_render_iso14443_3a_format_bytes
+ .text.nfc_render_iso14443_tech_type
+                0x00000104       0x28 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000104                nfc_render_iso14443_tech_type
+ .text.nfc_render_iso14443_3a_brief
+                0x0000012c       0x28 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x0000012c                nfc_render_iso14443_3a_brief
+ .text.nfc_render_iso14443_3a_extra
+                0x00000154       0x2c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000154                nfc_render_iso14443_3a_extra
+ .text.nfc_render_iso14443_3a_info
+                0x00000180       0x34 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000180                nfc_render_iso14443_3a_info
+ .text.nfc_scene_read_on_event_mf_ultralight
+                0x000001b4       0x94 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+                0x000001b4                nfc_scene_read_on_event_mf_ultralight
+ .text.nfc_scene_write_on_enter_mf_ultralight
+                0x00000248       0x3c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .text.nfc_scene_write_poller_callback_mf_ultralight
+                0x00000284       0xc0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .text.nfc_scene_emulate_on_enter_mf_ultralight
+                0x00000344       0x38 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .text.nfc_scene_read_success_on_enter_mf_ultralight
+                0x0000037c       0xc8 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .text.nfc_scene_read_and_saved_menu_on_event_mf_ultralight
+                0x00000444       0x58 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .text.nfc_scene_read_and_saved_menu_on_enter_mf_ultralight
+                0x0000049c       0x7c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .text.nfc_scene_read_on_enter_mf_ultralight
+                0x00000518       0x24 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .text.nfc_scene_read_poller_callback_mf_ultralight
+                0x0000053c      0x120 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .text.nfc_scene_more_info_on_event_mf_ultralight
+                0x0000065c       0x54 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .text.nfc_scene_more_info_on_enter_mf_ultralight
+                0x000006b0       0xf0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .text.nfc_scene_info_on_enter_mf_ultralight
+                0x000007a0       0xa4 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .text.nfc_mf_ultralight_ep
+                0x00000844        0x8 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+                0x00000844                nfc_mf_ultralight_ep
+ .text.nfc_render_mf_ultralight_pages_count
+                0x0000084c       0x3c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
+ .text.nfc_render_mf_ultralight_pwd_pack
+                0x00000888       0x8c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
+                0x00000888                nfc_render_mf_ultralight_pwd_pack
+ .text.nfc_render_mf_ultralight_info
+                0x00000914       0x48 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
+                0x00000914                nfc_render_mf_ultralight_info
+ .text.nfc_render_mf_ultralight_dump
+                0x0000095c       0x58 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
+                0x0000095c                nfc_render_mf_ultralight_dump
  .text.mbedtls_sha1_init
                 0x000009b4        0xc build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
                 0x000009b4                mbedtls_sha1_init
@@ -311,13 +311,13 @@ LOAD build/f7-firmware-C/lib/libmbedtls.a
 .debug_aranges  0x00000000      0x1b8
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x40 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000000       0x40 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
  .debug_aranges
-                0x00000040       0x80 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+                0x00000040       0x40 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .debug_aranges
-                0x000000c0       0x38 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
+                0x00000080       0x80 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
  .debug_aranges
-                0x000000f8       0x40 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+                0x00000100       0x38 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
  .debug_aranges
                 0x00000138       0x58 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
  .debug_aranges
@@ -328,86 +328,86 @@ LOAD build/f7-firmware-C/lib/libmbedtls.a
 
 .debug_info     0x00000000     0x4a0c
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x3ed build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
- .debug_info    0x000003ed     0x2a97 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_info    0x00002e84      0xa72 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
- .debug_info    0x000038f6      0x42f build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+ .debug_info    0x00000000      0x42f build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+ .debug_info    0x0000042f      0x3ed build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_info    0x0000081c     0x2a97 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_info    0x000032b3      0xa72 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
  .debug_info    0x00003d25      0xae3 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
  .debug_info    0x00004808      0x204 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
 
 .debug_abbrev   0x00000000      0xf25
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x1ca build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
- .debug_abbrev  0x000001ca      0x417 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_abbrev  0x000005e1      0x2bd build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
- .debug_abbrev  0x0000089e      0x1af build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+ .debug_abbrev  0x00000000      0x1af build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+ .debug_abbrev  0x000001af      0x1ca build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_abbrev  0x00000379      0x417 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_abbrev  0x00000790      0x2bd build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
  .debug_abbrev  0x00000a4d      0x372 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
  .debug_abbrev  0x00000dbf      0x166 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
 
 .debug_line     0x00000000     0x2a33
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x00000000      0x28f build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
- .debug_line.text.nfc_render_iso14443_3a_format_bytes
-                0x0000028f       0x48 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
- .debug_line.text.nfc_render_iso14443_tech_type
-                0x000002d7       0x2c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
- .debug_line.text.nfc_render_iso14443_3a_brief
-                0x00000303       0x28 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
- .debug_line.text.nfc_render_iso14443_3a_extra
-                0x0000032b       0x2d build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
- .debug_line.text.nfc_render_iso14443_3a_info
-                0x00000358       0x3b build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
- .debug_line_end
-                0x00000393        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
- .debug_line    0x00000393      0xadf build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_line.text.nfc_scene_read_on_event_mf_ultralight
-                0x00000e72       0x91 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_line.text.nfc_scene_write_on_enter_mf_ultralight
-                0x00000f03       0x35 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_line.text.nfc_scene_write_poller_callback_mf_ultralight
-                0x00000f38       0x81 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_line.text.nfc_scene_emulate_on_enter_mf_ultralight
-                0x00000fb9       0x43 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_line.text.nfc_scene_read_success_on_enter_mf_ultralight
-                0x00000ffc       0x75 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_line.text.nfc_scene_read_and_saved_menu_on_event_mf_ultralight
-                0x00001071       0x70 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_line.text.nfc_scene_read_and_saved_menu_on_enter_mf_ultralight
-                0x000010e1       0x7c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_line.text.nfc_scene_read_on_enter_mf_ultralight
-                0x0000115d       0x27 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_line.text.nfc_scene_read_poller_callback_mf_ultralight
-                0x00001184      0x131 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_line.text.nfc_scene_more_info_on_event_mf_ultralight
-                0x000012b5       0x63 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_line.text.nfc_scene_more_info_on_enter_mf_ultralight
-                0x00001318       0x6f build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_line.text.nfc_scene_info_on_enter_mf_ultralight
-                0x00001387       0x59 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_line.text.nfc_mf_ultralight_ep
-                0x000013e0       0x13 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_line_end
-                0x000013f3        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_line    0x000013f3      0x32e build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
- .debug_line.text.nfc_render_mf_ultralight_pages_count
-                0x00001721       0x35 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
- .debug_line.text.nfc_render_mf_ultralight_pwd_pack
-                0x00001756       0x6b build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
- .debug_line.text.nfc_render_mf_ultralight_info
-                0x000017c1       0x5c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
- .debug_line.text.nfc_render_mf_ultralight_dump
-                0x0000181d       0x6a build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
- .debug_line_end
-                0x00001887        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
- .debug_line    0x00001887      0x2c4 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+ .debug_line    0x00000000      0x2c4 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
  .debug_line.text.mf_ultralight_auth_reset
-                0x00001b4b       0x33 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+                0x000002c4       0x33 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
  .debug_line.text.mf_ultralight_generate_amiibo_pass
-                0x00001b7e       0x5a build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+                0x000002f7       0x5a build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
  .debug_line.text.mf_ultralight_generate_xiaomi_pass
-                0x00001bd8       0x93 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+                0x00000351       0x93 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
  .debug_line_end
-                0x00001c6b        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+                0x000003e4        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+ .debug_line    0x000003e4      0x28f build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_line.text.nfc_render_iso14443_3a_format_bytes
+                0x00000673       0x48 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_line.text.nfc_render_iso14443_tech_type
+                0x000006bb       0x2c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_line.text.nfc_render_iso14443_3a_brief
+                0x000006e7       0x28 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_line.text.nfc_render_iso14443_3a_extra
+                0x0000070f       0x2d build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_line.text.nfc_render_iso14443_3a_info
+                0x0000073c       0x3b build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_line_end
+                0x00000777        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_line    0x00000777      0xadf build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_line.text.nfc_scene_read_on_event_mf_ultralight
+                0x00001256       0x91 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_line.text.nfc_scene_write_on_enter_mf_ultralight
+                0x000012e7       0x35 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_line.text.nfc_scene_write_poller_callback_mf_ultralight
+                0x0000131c       0x81 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_line.text.nfc_scene_emulate_on_enter_mf_ultralight
+                0x0000139d       0x43 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_line.text.nfc_scene_read_success_on_enter_mf_ultralight
+                0x000013e0       0x75 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_line.text.nfc_scene_read_and_saved_menu_on_event_mf_ultralight
+                0x00001455       0x70 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_line.text.nfc_scene_read_and_saved_menu_on_enter_mf_ultralight
+                0x000014c5       0x7c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_line.text.nfc_scene_read_on_enter_mf_ultralight
+                0x00001541       0x27 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_line.text.nfc_scene_read_poller_callback_mf_ultralight
+                0x00001568      0x131 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_line.text.nfc_scene_more_info_on_event_mf_ultralight
+                0x00001699       0x63 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_line.text.nfc_scene_more_info_on_enter_mf_ultralight
+                0x000016fc       0x6f build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_line.text.nfc_scene_info_on_enter_mf_ultralight
+                0x0000176b       0x59 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_line.text.nfc_mf_ultralight_ep
+                0x000017c4       0x13 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_line_end
+                0x000017d7        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_line    0x000017d7      0x32e build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
+ .debug_line.text.nfc_render_mf_ultralight_pages_count
+                0x00001b05       0x35 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
+ .debug_line.text.nfc_render_mf_ultralight_pwd_pack
+                0x00001b3a       0x6b build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
+ .debug_line.text.nfc_render_mf_ultralight_info
+                0x00001ba5       0x5c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
+ .debug_line.text.nfc_render_mf_ultralight_dump
+                0x00001c01       0x6a build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
+ .debug_line_end
+                0x00001c6b        0x0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
  .debug_line    0x00001c6b      0x275 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
  .debug_line.text.mbedtls_sha1_init
                 0x00001ee0       0x16 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
@@ -433,19 +433,19 @@ LOAD build/f7-firmware-C/lib/libmbedtls.a
 
 .debug_frame    0x00000000      0x4dc
  *(.debug_frame)
- .debug_frame   0x00000000       0xbc build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
- .debug_frame   0x000000bc      0x1cc build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_frame   0x00000288       0xa0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
- .debug_frame   0x00000328       0x7c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+ .debug_frame   0x00000000       0x7c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+ .debug_frame   0x0000007c       0xbc build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_frame   0x00000138      0x1cc build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_frame   0x00000304       0xa0 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
  .debug_frame   0x000003a4       0xf4 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
  .debug_frame   0x00000498       0x44 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
 
 .debug_str      0x00000000     0x477e
  *(.debug_str)
- .debug_str     0x00000000      0x39d build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
- .debug_str     0x0000039d     0x31af build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
- .debug_str     0x0000354c      0x845 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
- .debug_str     0x00003d91      0x447 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+ .debug_str     0x00000000      0x447 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+ .debug_str     0x00000447      0x39d build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+ .debug_str     0x000007e4     0x31af build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+ .debug_str     0x00003993      0x845 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
  .debug_str     0x000041d8      0x36e build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
  .debug_str     0x00004546      0x238 build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
 
@@ -483,13 +483,13 @@ LOAD build/f7-firmware-C/lib/libmbedtls.a
                 0x00000000      0xf47
  *(.debug_loclists)
  .debug_loclists
-                0x00000000      0x1c2 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000000      0x12a build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
  .debug_loclists
-                0x000001c2      0x5e7 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+                0x0000012a      0x1c2 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .debug_loclists
-                0x000007a9      0x216 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
+                0x000002ec      0x5e7 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
  .debug_loclists
-                0x000009bf      0x12a build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+                0x000008d3      0x216 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
  .debug_loclists
                 0x00000ae9      0x3a8 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
  .debug_loclists
@@ -505,13 +505,13 @@ LOAD build/f7-firmware-C/lib/libmbedtls.a
                 0x00000000      0x287
  *(.debug_rnglists)
  .debug_rnglists
-                0x00000000       0x3a build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000000       0x2b build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
  .debug_rnglists
-                0x0000003a       0x8a build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+                0x0000002b       0x3a build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .debug_rnglists
-                0x000000c4       0x5c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
+                0x00000065       0x8a build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
  .debug_rnglists
-                0x00000120       0x2b build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+                0x000000ef       0x5c build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
  .debug_rnglists
                 0x0000014b      0x123 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
  .debug_rnglists
@@ -527,15 +527,15 @@ LOAD build/f7-firmware-C/lib/libmbedtls.a
                 0x00000000       0x34
  *(.ARM.attributes)
  .ARM.attributes
-                0x00000000       0x34 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a.o
+                0x00000000       0x34 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
  .ARM.attributes
-                0x00000034       0x34 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
+                0x00000034       0x34 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a.o
  .ARM.attributes
-                0x00000068       0x34 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
+                0x00000068       0x34 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/iso14443_3a/iso14443_3a_render.o
  .ARM.attributes
-                0x0000009c       0x34 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight.o
  .ARM.attributes
-                0x000000d0       0x34 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/mf_ultralight_auth.o
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/nfc_mf_ultralight/helpers/protocol_support/mf_ultralight/mf_ultralight_render.o
  .ARM.attributes
                 0x00000104       0x34 build/f7-firmware-C/lib/libmbedtls.a(sha1.o)
  .ARM.attributes
