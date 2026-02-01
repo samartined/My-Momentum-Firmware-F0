@@ -31,7 +31,6 @@ typedef enum {
     ArchiveFileTypeDiskImage,
     ArchiveFileTypeFolder,
     ArchiveFileTypeSetting,
-    ArchiveFileTypeProtoPirate,
     ArchiveFileTypeUnknown,
     ArchiveFileTypeAppOrJs,
     ArchiveFileTypeLoading,
