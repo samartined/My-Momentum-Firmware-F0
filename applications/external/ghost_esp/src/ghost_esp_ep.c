@@ -11,7 +11,9 @@
 #include <storage/storage.h>
 #include <toolbox/path.h>
 
-#define GHOST_APP_FOLDER_HTML "/ext/apps_data/ghost/html"
+#define GHOST_APP_FOLDER_HTML  "/ext/apps_data/ghost/html"
+#define GHOST_IR_FOLDER        "/ext/infrared"
+#define GHOST_IR_MAX_FILE_SIZE (8 * 1024)
 
 bool ghost_esp_ep_read_html_file(AppState* app, uint8_t** the_html, size_t* html_size) {
     // Initialize output parameters to safe defaults
@@ -87,6 +89,61 @@ bool ghost_esp_ep_read_html_file(AppState* app, uint8_t** the_html, size_t* html
     if(index_html) {
         storage_file_close(index_html);
         storage_file_free(index_html);
+    }
+    if(storage) {
+        furi_record_close(RECORD_STORAGE);
+    }
+    furi_string_free(selected_filepath);
+    furi_string_free(predefined_filepath);
+
+    return success;
+}
+
+bool ghost_esp_ep_read_ir_file(AppState* app, uint8_t** ir_data, size_t* ir_size) {
+    *ir_data = NULL;
+    *ir_size = 0;
+    if(!app) return false;
+    app->ir_file_path[0] = '\0';
+
+    FuriString* predefined_filepath = furi_string_alloc_set_str(GHOST_IR_FOLDER);
+    FuriString* selected_filepath = furi_string_alloc();
+    DialogsFileBrowserOptions browser_options;
+    dialog_file_browser_set_basic_options(&browser_options, ".ir", NULL);
+
+    bool success = false;
+    File* ir_file = NULL;
+    Storage* storage = NULL;
+
+    do {
+        if(!dialog_file_browser_show(
+               app->dialogs, selected_filepath, predefined_filepath, &browser_options)) {
+            break;
+        }
+
+        storage = furi_record_open(RECORD_STORAGE);
+        ir_file = storage_file_alloc(storage);
+        const char* chosen_path = furi_string_get_cstr(selected_filepath);
+        if(!storage_file_open(ir_file, chosen_path, FSAM_READ, FSOM_OPEN_EXISTING)) {
+            dialog_message_show_storage_error(app->dialogs, "Cannot open file");
+            break;
+        }
+
+        uint64_t size = storage_file_size(ir_file);
+        if(size == 0) {
+            dialog_message_show_storage_error(app->dialogs, "File is empty");
+            break;
+        }
+
+        // Store path for streamed parsing/sending; no large allocations
+        strncpy(app->ir_file_path, chosen_path, sizeof(app->ir_file_path) - 1);
+        app->ir_file_path[sizeof(app->ir_file_path) - 1] = '\0';
+        *ir_size = (size_t)size;
+        success = true;
+    } while(false);
+
+    if(ir_file) {
+        storage_file_close(ir_file);
+        storage_file_free(ir_file);
     }
     if(storage) {
         furi_record_close(RECORD_STORAGE);

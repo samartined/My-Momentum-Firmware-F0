@@ -6,7 +6,6 @@ A Flipper Zero application for interfacing with the [GhostESP: Revival firmware]
 
 <img width="512" height="256" alt="mainmenu" src="https://github.com/user-attachments/assets/84d4cd50-b981-4d42-bee4-7d1cda8fb387" />
 
-
 ## Download Latest Release [Here](https://github.com/jaylikesbunda/ghost_esp_app/releases/latest)
 
 ## Features
@@ -113,7 +112,7 @@ A Flipper Zero application for interfacing with the [GhostESP: Revival firmware]
 ## Credits
 
 - Made by Spooky (<https://github.com/Spooks4576>)
-- Additional contributions by Jay Candel (<https://github.com/jaylikesbunda>) and @tototo3 (<https://github.com/tototo3>)
+- Additional contributions by Jay Candel (<https://github.com/jaylikesbunda>) and @tototo31 (<https://github.com/tototo31>)
 
 ## Support
 

@@ -124,6 +124,8 @@ const char* subghz_txrx_get_preset_name(SubGhzTxRx* instance, const char* preset
         preset_name = "AM650";
     } else if(!strcmp(preset, "FuriHalSubGhzPreset2FSKDev238Async")) {
         preset_name = "FM238";
+    } else if(!strcmp(preset, "FuriHalSubGhzPreset2FSKDev12KAsync")) {
+        preset_name = "FM12K";
     } else if(!strcmp(preset, "FuriHalSubGhzPreset2FSKDev476Async")) {
         preset_name = "FM476";
     } else if(!strcmp(preset, "FuriHalSubGhzPresetCustom")) {
@@ -244,12 +246,14 @@ static SubGhzProtocolStatus subghz_txrx_deserialize_transmitter_set_button(
         return ret;
     }
 
+#ifndef FW_ORIGIN_Official
     uint8_t button = subghz_txrx_custom_button_get(instance);
     if(subghz_custom_btn_is_allowed()) {
         subghz_custom_btn_set(button);
         // Call deserialize a second time to apply button changes.
         ret = subghz_transmitter_deserialize(instance->transmitter, flipper_format);
     }
+#endif
 
     return ret;
 }

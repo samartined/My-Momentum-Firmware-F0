@@ -1,6 +1,18 @@
 
 Discarded input sections
 
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+ .text.felica_auth_alloc
+                0x00000000       0x24 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+ .text.felica_auth_free
+                0x00000000        0x8 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+ .debug_line.text.felica_auth_alloc
+                0x00000000       0x34 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+ .debug_line.text.felica_auth_free
+                0x00000000       0x1a build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
  .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
@@ -31,18 +43,6 @@ Discarded input sections
                 0x00000000       0x60 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
  .debug_line.text.nfc_more_info_render_felica_blocks
                 0x00000000      0x139 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
- .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
- .text.felica_auth_alloc
-                0x00000000       0x24 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
- .text.felica_auth_free
-                0x00000000        0x8 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
- .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
- .debug_line.text.felica_auth_alloc
-                0x00000000       0x34 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
- .debug_line.text.felica_auth_free
-                0x00000000       0x1a build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
 
 Memory Configuration
 
@@ -51,54 +51,54 @@ Name             Origin             Length             Attributes
 
 Linker script and memory map
 
+LOAD build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
 LOAD build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
 LOAD build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
-LOAD build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
 
 .text           0x00000000      0x50c
  *(.text)
  *(.stub)
  *(.text*)
- .text.nfc_scene_more_info_on_enter_felica
-                0x00000000        0xc build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .text.nfc_scene_emulate_on_enter_felica
-                0x0000000c       0x38 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .text.nfc_scene_read_success_on_enter_felica
-                0x00000044      0x118 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .text.nfc_scene_read_on_enter_felica
-                0x0000015c       0x24 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .text.nfc_scene_read_poller_callback_felica
-                0x00000180       0x94 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .text.nfc_scene_info_on_enter_felica
-                0x00000214       0x8c build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .text.nfc_scene_read_on_event_felica
-                0x000002a0       0x50 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
-                0x000002a0                nfc_scene_read_on_event_felica
- .text.nfc_scene_read_menu_on_enter_felica
-                0x000002f0       0x3c build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .text.nfc_scene_info_on_event_felica
-                0x0000032c       0x2c build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .text.nfc_scene_read_menu_on_event_felica
-                0x00000358       0x2c build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .text.nfc_felica_ep
-                0x00000384        0x8 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
-                0x00000384                nfc_felica_ep
- .text.nfc_render_felica_blocks_count
-                0x0000038c       0x50 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
-                0x0000038c                nfc_render_felica_blocks_count
- .text.nfc_render_felica_idm
-                0x000003dc       0x50 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
-                0x000003dc                nfc_render_felica_idm
- .text.nfc_render_felica_info
-                0x0000042c       0xc0 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
-                0x0000042c                nfc_render_felica_info
  .text.felica_auth_reset
-                0x000004ec       0x20 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
-                0x000004ec                felica_auth_reset
+                0x00000000       0x20 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+                0x00000000                felica_auth_reset
+ .text.nfc_scene_more_info_on_enter_felica
+                0x00000020        0xc build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .text.nfc_scene_emulate_on_enter_felica
+                0x0000002c       0x38 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .text.nfc_scene_read_success_on_enter_felica
+                0x00000064      0x118 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .text.nfc_scene_read_on_enter_felica
+                0x0000017c       0x24 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .text.nfc_scene_read_poller_callback_felica
+                0x000001a0       0x94 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .text.nfc_scene_info_on_enter_felica
+                0x00000234       0x8c build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .text.nfc_scene_read_on_event_felica
+                0x000002c0       0x50 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+                0x000002c0                nfc_scene_read_on_event_felica
+ .text.nfc_scene_read_menu_on_enter_felica
+                0x00000310       0x3c build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .text.nfc_scene_info_on_event_felica
+                0x0000034c       0x2c build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .text.nfc_scene_read_menu_on_event_felica
+                0x00000378       0x2c build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .text.nfc_felica_ep
+                0x000003a4        0x8 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+                0x000003a4                nfc_felica_ep
+ .text.nfc_render_felica_blocks_count
+                0x000003ac       0x50 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
+                0x000003ac                nfc_render_felica_blocks_count
+ .text.nfc_render_felica_idm
+                0x000003fc       0x50 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
+                0x000003fc                nfc_render_felica_idm
+ .text.nfc_render_felica_info
+                0x0000044c       0xc0 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
+                0x0000044c                nfc_render_felica_info
  *(.text.*)
  *(.text._*)
  *(.init)
@@ -178,80 +178,80 @@ LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-lin
 .debug_aranges  0x00000000       0xf0
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x70 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+                0x00000000       0x30 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
  .debug_aranges
-                0x00000070       0x50 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
+                0x00000030       0x70 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
  .debug_aranges
-                0x000000c0       0x30 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+                0x000000a0       0x50 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
 .debug_info     0x00000000     0x3b9b
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000     0x2477 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .debug_info    0x00002477     0x149c build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
- .debug_info    0x00003913      0x288 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+ .debug_info    0x00000000      0x288 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+ .debug_info    0x00000288     0x2477 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .debug_info    0x000026ff     0x149c build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
 
 .debug_abbrev   0x00000000      0x91d
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x435 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .debug_abbrev  0x00000435      0x382 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
- .debug_abbrev  0x000007b7      0x166 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+ .debug_abbrev  0x00000000      0x166 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+ .debug_abbrev  0x00000166      0x435 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .debug_abbrev  0x0000059b      0x382 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
 
 .debug_line     0x00000000     0x147a
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x00000000      0xb19 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .debug_line.text.nfc_scene_more_info_on_enter_felica
-                0x00000b19       0x16 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .debug_line.text.nfc_scene_emulate_on_enter_felica
-                0x00000b2f       0x43 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .debug_line.text.nfc_scene_read_success_on_enter_felica
-                0x00000b72       0xa4 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .debug_line.text.nfc_scene_read_on_enter_felica
-                0x00000c16       0x27 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .debug_line.text.nfc_scene_read_poller_callback_felica
-                0x00000c3d       0x92 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .debug_line.text.nfc_scene_info_on_enter_felica
-                0x00000ccf       0x54 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .debug_line.text.nfc_scene_read_on_event_felica
-                0x00000d23       0x4e build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .debug_line.text.nfc_scene_read_menu_on_enter_felica
-                0x00000d71       0x39 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .debug_line.text.nfc_scene_info_on_event_felica
-                0x00000daa       0x37 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .debug_line.text.nfc_scene_read_menu_on_event_felica
-                0x00000de1       0x37 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .debug_line.text.nfc_felica_ep
-                0x00000e18       0x13 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .debug_line_end
-                0x00000e2b        0x0 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .debug_line    0x00000e2b      0x296 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
- .debug_line.text.nfc_render_felica_blocks_count
-                0x000010c1       0x4a build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
- .debug_line.text.nfc_render_felica_idm
-                0x0000110b       0x46 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
- .debug_line.text.nfc_render_felica_info
-                0x00001151       0x7f build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
- .debug_line_end
-                0x000011d0        0x0 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
- .debug_line    0x000011d0      0x271 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+ .debug_line    0x00000000      0x271 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
  .debug_line.text.felica_auth_reset
-                0x00001441       0x39 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+                0x00000271       0x39 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
  .debug_line_end
-                0x0000147a        0x0 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+                0x000002aa        0x0 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+ .debug_line    0x000002aa      0xb19 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .debug_line.text.nfc_scene_more_info_on_enter_felica
+                0x00000dc3       0x16 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .debug_line.text.nfc_scene_emulate_on_enter_felica
+                0x00000dd9       0x43 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .debug_line.text.nfc_scene_read_success_on_enter_felica
+                0x00000e1c       0xa4 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .debug_line.text.nfc_scene_read_on_enter_felica
+                0x00000ec0       0x27 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .debug_line.text.nfc_scene_read_poller_callback_felica
+                0x00000ee7       0x92 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .debug_line.text.nfc_scene_info_on_enter_felica
+                0x00000f79       0x54 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .debug_line.text.nfc_scene_read_on_event_felica
+                0x00000fcd       0x4e build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .debug_line.text.nfc_scene_read_menu_on_enter_felica
+                0x0000101b       0x39 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .debug_line.text.nfc_scene_info_on_event_felica
+                0x00001054       0x37 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .debug_line.text.nfc_scene_read_menu_on_event_felica
+                0x0000108b       0x37 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .debug_line.text.nfc_felica_ep
+                0x000010c2       0x13 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .debug_line_end
+                0x000010d5        0x0 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .debug_line    0x000010d5      0x296 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
+ .debug_line.text.nfc_render_felica_blocks_count
+                0x0000136b       0x4a build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
+ .debug_line.text.nfc_render_felica_idm
+                0x000013b5       0x46 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
+ .debug_line.text.nfc_render_felica_info
+                0x000013fb       0x7f build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
+ .debug_line_end
+                0x0000147a        0x0 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
 
 .debug_frame    0x00000000      0x2f0
  *(.debug_frame)
- .debug_frame   0x00000000      0x15c build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .debug_frame   0x0000015c      0x144 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
- .debug_frame   0x000002a0       0x50 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+ .debug_frame   0x00000000       0x50 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+ .debug_frame   0x00000050      0x15c build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .debug_frame   0x000001ac      0x144 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
 
 .debug_str      0x00000000     0x3454
  *(.debug_str)
- .debug_str     0x00000000     0x2a6e build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
- .debug_str     0x00002a6e      0x6d1 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
- .debug_str     0x0000313f      0x315 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+ .debug_str     0x00000000      0x315 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+ .debug_str     0x00000315     0x2a6e build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+ .debug_str     0x00002d83      0x6d1 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
 
 .debug_loc
  *(.debug_loc)
@@ -287,11 +287,11 @@ LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-lin
                 0x00000000      0x9b0
  *(.debug_loclists)
  .debug_loclists
-                0x00000000      0x322 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+                0x00000000       0x5c build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
  .debug_loclists
-                0x00000322      0x632 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
+                0x0000005c      0x322 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
  .debug_loclists
-                0x00000954       0x5c build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+                0x0000037e      0x632 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
 
 .debug_macro
  *(.debug_macro)
@@ -303,11 +303,11 @@ LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-lin
                 0x00000000      0x17e
  *(.debug_rnglists)
  .debug_rnglists
-                0x00000000       0x5e build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+                0x00000000       0x1f build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
  .debug_rnglists
-                0x0000005e      0x101 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
+                0x0000001f       0x5e build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
  .debug_rnglists
-                0x0000015f       0x1f build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+                0x0000007d      0x101 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
 
 .debug_str_offsets
  *(.debug_str_offsets)
@@ -319,11 +319,11 @@ LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-lin
                 0x00000000       0x34
  *(.ARM.attributes)
  .ARM.attributes
-                0x00000000       0x34 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
+                0x00000000       0x34 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
  .ARM.attributes
-                0x00000034       0x34 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
+                0x00000034       0x34 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica.o
  .ARM.attributes
-                0x00000068       0x34 build/f7-firmware-C/.extapps/nfc_felica/helpers/felica_auth.o
+                0x00000068       0x34 build/f7-firmware-C/.extapps/nfc_felica/helpers/protocol_support/felica/felica_render.o
  *(.gnu.attributes)
 
 .note.gnu.arm.ident
