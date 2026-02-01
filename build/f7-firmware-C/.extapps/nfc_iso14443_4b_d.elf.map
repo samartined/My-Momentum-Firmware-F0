@@ -1,10 +1,18 @@
 Archive member included to satisfy reference by file (symbol)
 
-/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+/home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
                               build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o (__aeabi_f2d)
 
 Discarded input sections
 
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
  .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b.o
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b.o
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b.o
@@ -56,16 +64,8 @@ Discarded input sections
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
  .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
- .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
- .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
- .text          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
- .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
- .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
- .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
 
 Memory Configuration
 
@@ -74,18 +74,18 @@ Name             Origin             Length             Attributes
 
 Linker script and memory map
 
-LOAD build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b.o
-LOAD build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
 LOAD build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
 LOAD build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b.o
+LOAD build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
 
 .text           0x00000000      0x6f4
  *(.text)
- .text          0x00000000      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .text          0x00000000      0x378 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
                 0x00000000                __aeabi_drsub
                 0x00000008                __aeabi_dsub
                 0x00000008                __subdf3
@@ -103,46 +103,46 @@ LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-lin
                 0x0000031c                __aeabi_l2d
  *(.stub)
  *(.text*)
- .text.nfc_render_iso14443_3b_info
-                0x00000378      0x1ec build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
-                0x00000378                nfc_render_iso14443_3b_info
  .text.nfc_scene_read_success_on_enter_iso14443_4b
-                0x00000564       0x80 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+                0x00000378       0x80 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
  .text.nfc_scene_read_on_enter_iso14443_4b
-                0x000005e4       0x14 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+                0x000003f8       0x14 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
  .text.nfc_scene_info_on_enter_iso14443_4b
-                0x000005f8       0x8c build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+                0x0000040c       0x8c build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
  .text.nfc_scene_read_poller_callback_iso14443_4b
-                0x00000684       0x48 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+                0x00000498       0x48 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
  .text.nfc_iso14443_4b_ep
-                0x000006cc        0x8 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
-                0x000006cc                nfc_iso14443_4b_ep
+                0x000004e0        0x8 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+                0x000004e0                nfc_iso14443_4b_ep
  .text.nfc_render_iso14443_4b_info
-                0x000006d4       0x20 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
-                0x000006d4                nfc_render_iso14443_4b_info
+                0x000004e8       0x20 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+                0x000004e8                nfc_render_iso14443_4b_info
+ .text.nfc_render_iso14443_3b_info
+                0x00000508      0x1ec build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
+                0x00000508                nfc_render_iso14443_3b_info
  *(.text.*)
  *(.text._*)
  *(.init)
  *(.fini)
 
-.rodata         0x000006f4      0x218
+.rodata         0x000006f4      0x216
  *(.rodata)
  *(.rodata1)
  *(.rodata.*)
- .rodata.nfc_render_iso14443_3b_info.str1.1
-                0x000006f4      0x196 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
  .rodata.nfc_scene_read_success_on_enter_iso14443_4b.str1.1
-                0x0000088a        0x6 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+                0x000006f4        0x6 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
  .rodata.str1.1
-                0x00000890       0x19 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
- *fill*         0x000008a9        0x3 
+                0x000006fa       0x19 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+ *fill*         0x00000713        0x1 
  .rodata.plugin_descriptor_iso14443_4b
-                0x000008ac        0xc build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+                0x00000714        0xc build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
  .rodata.nfc_protocol_support_iso14443_4b_desc
-                0x000008b8        0x8 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+                0x00000720        0x8 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
  .rodata.nfc_protocol_support_iso14443_4b
-                0x000008c0       0x4c build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
-                0x000008c0                nfc_protocol_support_iso14443_4b
+                0x00000728       0x4c build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+                0x00000728                nfc_protocol_support_iso14443_4b
+ .rodata.nfc_render_iso14443_3b_info.str1.1
+                0x00000774      0x196 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
 
 .data
  *(.data)
@@ -192,64 +192,64 @@ LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-lin
 .debug_aranges  0x00000000       0x80
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x20 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
+                0x00000000       0x40 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
  .debug_aranges
-                0x00000020       0x40 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+                0x00000040       0x20 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
  .debug_aranges
-                0x00000060       0x20 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+                0x00000060       0x20 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
 .debug_info     0x00000000     0x1f78
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x74a build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
- .debug_info    0x0000074a     0x1681 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
- .debug_info    0x00001dcb      0x1ad build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+ .debug_info    0x00000000     0x1681 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+ .debug_info    0x00001681      0x1ad build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+ .debug_info    0x0000182e      0x74a build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
 
 .debug_abbrev   0x00000000      0x5b7
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x179 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
- .debug_abbrev  0x00000179      0x33a build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
- .debug_abbrev  0x000004b3      0x104 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+ .debug_abbrev  0x00000000      0x33a build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+ .debug_abbrev  0x0000033a      0x104 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+ .debug_abbrev  0x0000043e      0x179 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
 
 .debug_line     0x00000000     0x107c
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x00000000      0x28f build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
- .debug_line.text.nfc_render_iso14443_3b_info
-                0x0000028f      0x18b build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
- .debug_line_end
-                0x0000041a        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
- .debug_line    0x0000041a      0x97c build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+ .debug_line    0x00000000      0x97c build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
  .debug_line.text.nfc_scene_read_success_on_enter_iso14443_4b
-                0x00000d96       0x53 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+                0x0000097c       0x53 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
  .debug_line.text.nfc_scene_read_on_enter_iso14443_4b
-                0x00000de9       0x1d build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+                0x000009cf       0x1d build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
  .debug_line.text.nfc_scene_info_on_enter_iso14443_4b
-                0x00000e06       0x54 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+                0x000009ec       0x54 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
  .debug_line.text.nfc_scene_read_poller_callback_iso14443_4b
-                0x00000e5a       0x3a build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+                0x00000a40       0x3a build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
  .debug_line.text.nfc_iso14443_4b_ep
-                0x00000e94       0x13 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+                0x00000a7a       0x13 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
  .debug_line_end
-                0x00000ea7        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
- .debug_line    0x00000ea7      0x1ac build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+                0x00000a8d        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+ .debug_line    0x00000a8d      0x1ac build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
  .debug_line.text.nfc_render_iso14443_4b_info
-                0x00001053       0x29 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+                0x00000c39       0x29 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
  .debug_line_end
-                0x0000107c        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+                0x00000c62        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+ .debug_line    0x00000c62      0x28f build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
+ .debug_line.text.nfc_render_iso14443_3b_info
+                0x00000ef1      0x18b build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
+ .debug_line_end
+                0x0000107c        0x0 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
 
 .debug_frame    0x00000000      0x114
  *(.debug_frame)
- .debug_frame   0x00000000       0x3c build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
- .debug_frame   0x0000003c       0xa4 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
- .debug_frame   0x000000e0       0x34 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+ .debug_frame   0x00000000       0xa4 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+ .debug_frame   0x000000a4       0x34 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+ .debug_frame   0x000000d8       0x3c build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
 
 .debug_str      0x00000000     0x200e
  *(.debug_str)
- .debug_str     0x00000000      0x597 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
- .debug_str     0x00000597     0x177b build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
- .debug_str     0x00001d12      0x2fc build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+ .debug_str     0x00000000     0x177b build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+ .debug_str     0x0000177b      0x2fc build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+ .debug_str     0x00001a77      0x597 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
 
 .debug_loc
  *(.debug_loc)
@@ -282,17 +282,17 @@ LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-lin
                 0x00000000       0xa8
  *(.debug_line_str)
  .debug_line_str
-                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
 
 .debug_loclists
                 0x00000000      0x2d6
  *(.debug_loclists)
  .debug_loclists
-                0x00000000      0x155 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
+                0x00000000      0x122 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
  .debug_loclists
-                0x00000155      0x122 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+                0x00000122       0x5f build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
  .debug_loclists
-                0x00000277       0x5f build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+                0x00000181      0x155 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
 
 .debug_macro
  *(.debug_macro)
@@ -304,11 +304,11 @@ LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-lin
                 0x00000000       0x7c
  *(.debug_rnglists)
  .debug_rnglists
-                0x00000000       0x3c build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
+                0x00000000       0x2d build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
  .debug_rnglists
-                0x0000003c       0x2d build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+                0x0000002d       0x13 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
  .debug_rnglists
-                0x00000069       0x13 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+                0x00000040       0x3c build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
 
 .debug_str_offsets
  *(.debug_str_offsets)
@@ -320,15 +320,15 @@ LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-lin
                 0x00000000       0x34
  *(.ARM.attributes)
  .ARM.attributes
-                0x00000000       0x34 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b.o
+                0x00000000       0x34 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
  .ARM.attributes
-                0x00000034       0x34 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
+                0x00000034       0x34 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
  .ARM.attributes
-                0x00000068       0x34 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b.o
+                0x00000068       0x34 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b.o
  .ARM.attributes
-                0x0000009c       0x34 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_4b/iso14443_4b_render.o
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/nfc_iso14443_4b/helpers/protocol_support/iso14443_3b/iso14443_3b_render.o
  .ARM.attributes
-                0x000000d0       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x000000d0       0x22 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
  *(.gnu.attributes)
 
 .note.gnu.arm.ident
