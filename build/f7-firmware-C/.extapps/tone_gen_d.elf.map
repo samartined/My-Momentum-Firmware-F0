@@ -27,6 +27,14 @@ Archive member included to satisfy reference by file (symbol)
 
 Discarded input sections
 
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/app_context.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/app_context.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/app_context.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/tone_gen/src/app_context.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/tone_gen.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/tone_gen.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/tone_gen.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/tone_gen/src/tone_gen.o
  .text          0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/utils/linked_list.o
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/utils/linked_list.o
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/utils/linked_list.o
@@ -63,14 +71,6 @@ Discarded input sections
  .debug_line_end
                 0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/utils/linked_list.o
  .debug_frame   0x00000000       0x80 build/f7-firmware-C/.extapps/tone_gen/src/utils/linked_list.o
- .text          0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/app_context.o
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/app_context.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/app_context.o
- .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/tone_gen/src/app_context.o
- .text          0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/tone_gen.o
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/tone_gen.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/tone_gen.o
- .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/tone_gen/src/tone_gen.o
  .text          0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/scenes/playback_scene.o
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/scenes/playback_scene.o
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/tone_gen/src/scenes/playback_scene.o
@@ -135,9 +135,9 @@ Name             Origin             Length             Attributes
 
 Linker script and memory map
 
-LOAD build/f7-firmware-C/.extapps/tone_gen/src/utils/linked_list.o
 LOAD build/f7-firmware-C/.extapps/tone_gen/src/app_context.o
 LOAD build/f7-firmware-C/.extapps/tone_gen/src/tone_gen.o
+LOAD build/f7-firmware-C/.extapps/tone_gen/src/utils/linked_list.o
 LOAD build/f7-firmware-C/.extapps/tone_gen/src/scenes/playback_scene.o
 LOAD build/f7-firmware-C/.extapps/tone_gen/src/scenes/settings_scene.o
 LOAD build/f7-firmware-C/.extapps/tone_gen/src/scenes/starting_scene.o
@@ -666,11 +666,11 @@ LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolc
                 0x00000000       0x34
  *(.ARM.attributes)
  .ARM.attributes
-                0x00000000       0x34 build/f7-firmware-C/.extapps/tone_gen/src/utils/linked_list.o
+                0x00000000       0x34 build/f7-firmware-C/.extapps/tone_gen/src/app_context.o
  .ARM.attributes
-                0x00000034       0x34 build/f7-firmware-C/.extapps/tone_gen/src/app_context.o
+                0x00000034       0x34 build/f7-firmware-C/.extapps/tone_gen/src/tone_gen.o
  .ARM.attributes
-                0x00000068       0x34 build/f7-firmware-C/.extapps/tone_gen/src/tone_gen.o
+                0x00000068       0x34 build/f7-firmware-C/.extapps/tone_gen/src/utils/linked_list.o
  .ARM.attributes
                 0x0000009c       0x34 build/f7-firmware-C/.extapps/tone_gen/src/scenes/playback_scene.o
  .ARM.attributes

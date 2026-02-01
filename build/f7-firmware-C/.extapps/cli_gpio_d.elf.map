@@ -1,10 +1,14 @@
 Archive member included to satisfy reference by file (symbol)
 
-/home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+/home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
                               build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o (__aeabi_f2d)
 
 Discarded input sections
 
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .text          0x00000000        0x0 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
@@ -223,15 +227,11 @@ Discarded input sections
                 0x00000000       0x13 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
  .debug_line.text.cli_on_system_start
                 0x00000000       0x2f build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
- .text          0x00000000        0x0 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
- .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
- .text          0x00000000      0x378 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
- .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
- .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .text          0x00000000      0x378 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
  .debug_line_str
-                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000000       0xa8 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
 
 Memory Configuration
 
@@ -240,73 +240,73 @@ Name             Origin             Length             Attributes
 
 Linker script and memory map
 
-LOAD build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
 LOAD build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
-LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
 
 .text           0x00000000      0x474
  *(.text)
  *(.stub)
  *(.text*)
- .text.cli_gpio_ep
-                0x00000000        0x8 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
-                0x00000000                cli_gpio_ep
  .text.gpio_print_pins
-                0x00000008       0x58 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x00000000       0x58 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .text.pin_name_to_int
-                0x00000060       0x58 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x00000058       0x58 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .text.LL_GPIO_GetPinMode
-                0x000000b8       0x20 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x000000b0       0x20 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .text.gpio_command_parse.constprop.0
-                0x000000d8       0x64 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x000000d0       0x64 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .text.cli_command_gpio_print_usage
-                0x0000013c       0x40 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
-                0x0000013c                cli_command_gpio_print_usage
+                0x00000134       0x40 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x00000134                cli_command_gpio_print_usage
  .text.cli_command_gpio_mode
-                0x0000017c       0xf0 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
-                0x0000017c                cli_command_gpio_mode
+                0x00000174       0xf0 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x00000174                cli_command_gpio_mode
  .text.cli_command_gpio_read
-                0x0000026c       0x74 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
-                0x0000026c                cli_command_gpio_read
+                0x00000264       0x74 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x00000264                cli_command_gpio_read
  .text.cli_command_gpio_set
-                0x000002e0      0x100 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
-                0x000002e0                cli_command_gpio_set
+                0x000002d8      0x100 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x000002d8                cli_command_gpio_set
  .text.cli_command_gpio
-                0x000003e0       0x94 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
-                0x000003e0                cli_command_gpio
+                0x000003d8       0x94 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x000003d8                cli_command_gpio
+ .text.cli_gpio_ep
+                0x0000046c        0x8 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
+                0x0000046c                cli_gpio_ep
  *(.text.*)
  *(.text._*)
  *(.init)
  *(.fini)
 
-.rodata         0x00000474      0x307
+.rodata         0x00000474      0x308
  *(.rodata)
  *(.rodata1)
  *(.rodata.*)
- .rodata.cli_on_system_start.str1.1
-                0x00000474        0x4 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
- .rodata.str1.1
-                0x00000478       0x2a build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
- *fill*         0x000004a2        0x2 
- .rodata.plugin_descriptor_gpio
-                0x000004a4        0xc build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
- .rodata.cli_gpio_desc
-                0x000004b0       0x10 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
  .rodata.gpio_print_pins.str1.1
-                0x000004c0       0x25 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x00000474       0x25 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .rodata.cli_command_gpio_print_usage.str1.1
-                0x000004e5       0xb4 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x00000499       0xb4 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .rodata.cli_command_gpio_mode.str1.1
-                0x00000599       0xe7 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x0000054d       0xe7 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .rodata.cli_command_gpio_read.str1.1
-                0x00000680       0x31 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x00000634       0x31 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .rodata.cli_command_gpio_set.str1.1
-                0x000006b1       0xbc build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x00000665       0xbc build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .rodata.cli_command_gpio.str1.1
-                0x0000076d        0xe build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x00000721        0xe build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+ .rodata.cli_on_system_start.str1.1
+                0x0000072f        0x4 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
+ .rodata.str1.1
+                0x00000733       0x2a build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
+ *fill*         0x0000075d        0x3 
+ .rodata.plugin_descriptor_gpio
+                0x00000760        0xc build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
+ .rodata.cli_gpio_desc
+                0x0000076c       0x10 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
 
 .data
  *(.data)
@@ -356,61 +356,61 @@ LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-lin
 .debug_aranges  0x00000000      0x190
  *(.debug_aranges)
  .debug_aranges
-                0x00000000      0x130 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
+                0x00000000       0x60 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .debug_aranges
-                0x00000130       0x60 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x00000060      0x130 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
 .debug_info     0x00000000     0x4ac8
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000     0x3a60 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
- .debug_info    0x00003a60     0x1068 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+ .debug_info    0x00000000     0x1068 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+ .debug_info    0x00001068     0x3a60 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
 
 .debug_abbrev   0x00000000      0xa84
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x5dc build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
- .debug_abbrev  0x000005dc      0x4a8 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+ .debug_abbrev  0x00000000      0x4a8 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+ .debug_abbrev  0x000004a8      0x5dc build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
 
 .debug_line     0x00000000      0xe9c
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x00000000      0x583 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
- .debug_line.text.cli_gpio_ep
-                0x00000583       0x13 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
- .debug_line_end
-                0x00000596        0x0 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
- .debug_line    0x00000596      0x3d1 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+ .debug_line    0x00000000      0x3d1 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .debug_line.text.gpio_print_pins
-                0x00000967       0x64 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x000003d1       0x64 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .debug_line.text.pin_name_to_int
-                0x000009cb       0x86 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x00000435       0x86 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .debug_line.text.LL_GPIO_GetPinMode
-                0x00000a51       0x96 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x000004bb       0x96 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .debug_line.text.gpio_command_parse.constprop.0
-                0x00000ae7       0x79 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x00000551       0x79 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .debug_line.text.cli_command_gpio_print_usage
-                0x00000b60       0x26 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x000005ca       0x26 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .debug_line.text.cli_command_gpio_mode
-                0x00000b86       0xf2 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x000005f0       0xf2 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .debug_line.text.cli_command_gpio_read
-                0x00000c78       0x92 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x000006e2       0x92 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .debug_line.text.cli_command_gpio_set
-                0x00000d0a      0x111 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x00000774      0x111 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .debug_line.text.cli_command_gpio
-                0x00000e1b       0x81 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x00000885       0x81 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .debug_line_end
-                0x00000e9c        0x0 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x00000906        0x0 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+ .debug_line    0x00000906      0x583 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
+ .debug_line.text.cli_gpio_ep
+                0x00000e89       0x13 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
+ .debug_line_end
+                0x00000e9c        0x0 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
 
 .debug_frame    0x00000000      0x604
  *(.debug_frame)
- .debug_frame   0x00000000      0x438 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
- .debug_frame   0x00000438      0x1cc build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+ .debug_frame   0x00000000      0x1cc build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+ .debug_frame   0x000001cc      0x438 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
 
 .debug_str      0x00000000     0x296d
  *(.debug_str)
- .debug_str     0x00000000     0x1f47 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
- .debug_str     0x00001f47      0xa26 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+ .debug_str     0x00000000      0xa26 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+ .debug_str     0x00000a26     0x1f47 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
 
 .debug_loc
  *(.debug_loc)
@@ -446,9 +446,9 @@ LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-lin
                 0x00000000      0xf47
  *(.debug_loclists)
  .debug_loclists
-                0x00000000      0xb0e build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
+                0x00000000      0x439 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .debug_loclists
-                0x00000b0e      0x439 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x00000439      0xb0e build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
 
 .debug_macro
  *(.debug_macro)
@@ -460,9 +460,9 @@ LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-lin
                 0x00000000      0x2be
  *(.debug_rnglists)
  .debug_rnglists
-                0x00000000      0x1d3 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
+                0x00000000       0xeb build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .debug_rnglists
-                0x000001d3       0xeb build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x000000eb      0x1d3 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
 
 .debug_str_offsets
  *(.debug_str_offsets)
@@ -474,11 +474,11 @@ LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-lin
                 0x00000000       0x34
  *(.ARM.attributes)
  .ARM.attributes
-                0x00000000       0x34 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
+                0x00000000       0x34 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
  .ARM.attributes
-                0x00000034       0x34 build/f7-firmware-C/.extapps/cli_gpio/cli_command_gpio.o
+                0x00000034       0x34 build/f7-firmware-C/.extapps/cli_gpio/cli_main_commands.o
  .ARM.attributes
-                0x00000068       0x22 /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000068       0x22 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
  *(.gnu.attributes)
 
 .note.gnu.arm.ident

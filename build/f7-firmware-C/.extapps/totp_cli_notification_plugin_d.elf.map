@@ -1,10 +1,6 @@
 
 Discarded input sections
 
- .text          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
- .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
  .text          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
@@ -39,6 +35,10 @@ Discarded input sections
                 0x00000000       0x1e build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
  .debug_line.text.totp_cli_printf_unknown_argument
                 0x00000000       0x22 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+ .text          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+ .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
 
 Memory Configuration
 
@@ -47,48 +47,48 @@ Name             Origin             Length             Attributes
 
 Linker script and memory map
 
-LOAD build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
 LOAD build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
-LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
-LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
-LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
-LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+LOAD build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /home/edgar/dev/f0/momentum-firmware/Momentum-Firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
 
 .text           0x00000000      0x1f8
  *(.text)
  *(.stub)
  *(.text*)
- .text.totp_cli_command_notification_print_method
-                0x00000000       0x44 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
- .text.handle   0x00000044      0x134 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
- .text.totp_cli_notification_plugin_ep
-                0x00000178        0x8 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
-                0x00000178                totp_cli_notification_plugin_ep
  .text.totp_cli_ensure_authenticated
-                0x00000180       0x78 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
-                0x00000180                totp_cli_ensure_authenticated
+                0x00000000       0x78 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+                0x00000000                totp_cli_ensure_authenticated
+ .text.totp_cli_command_notification_print_method
+                0x00000078       0x44 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+ .text.handle   0x000000bc      0x134 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+ .text.totp_cli_notification_plugin_ep
+                0x000001f0        0x8 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+                0x000001f0                totp_cli_notification_plugin_ep
  *(.text.*)
  *(.text._*)
  *(.init)
  *(.fini)
 
-.rodata         0x000001f8      0x1cf
+.rodata         0x000001f8      0x1d0
  *(.rodata)
  *(.rodata1)
  *(.rodata.*)
- .rodata.totp_cli_command_notification_print_method.str1.1
-                0x000001f8       0x3d build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
- .rodata.handle.str1.1
-                0x00000235      0x102 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
- .rodata.str1.1
-                0x00000337       0x27 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
- *fill*         0x0000035e        0x2 
- .rodata.plugin_descriptor
-                0x00000360        0xc build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
- .rodata.plugin
-                0x0000036c        0x8 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
  .rodata.totp_cli_ensure_authenticated.str1.1
-                0x00000374       0x53 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+                0x000001f8       0x53 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+ .rodata.totp_cli_command_notification_print_method.str1.1
+                0x0000024b       0x3d build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+ .rodata.handle.str1.1
+                0x00000288      0x102 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+ .rodata.str1.1
+                0x0000038a       0x27 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+ *fill*         0x000003b1        0x3 
+ .rodata.plugin_descriptor
+                0x000003b4        0xc build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+ .rodata.plugin
+                0x000003c0        0x8 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
 
 .data
  *(.data)
@@ -138,49 +138,49 @@ LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolc
 .debug_aranges  0x00000000       0x80
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x30 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+                0x00000000       0x50 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
  .debug_aranges
-                0x00000030       0x50 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+                0x00000050       0x30 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
 .debug_info     0x00000000     0x1b86
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x96d build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
- .debug_info    0x0000096d     0x1219 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+ .debug_info    0x00000000     0x1219 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+ .debug_info    0x00001219      0x96d build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
 
 .debug_abbrev   0x00000000      0x5ab
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x24f build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
- .debug_abbrev  0x0000024f      0x35c build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+ .debug_abbrev  0x00000000      0x35c build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+ .debug_abbrev  0x0000035c      0x24f build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
 
 .debug_line     0x00000000      0xe95
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x00000000      0x70b build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
- .debug_line.text.totp_cli_command_notification_print_method
-                0x0000070b       0x63 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
- .debug_line.text.handle
-                0x0000076e       0xfd build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
- .debug_line.text.totp_cli_notification_plugin_ep
-                0x0000086b       0x19 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
- .debug_line_end
-                0x00000884        0x0 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
- .debug_line    0x00000884      0x5ab build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+ .debug_line    0x00000000      0x5ab build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
  .debug_line.text.totp_cli_ensure_authenticated
-                0x00000e2f       0x66 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+                0x000005ab       0x66 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
  .debug_line_end
-                0x00000e95        0x0 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+                0x00000611        0x0 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+ .debug_line    0x00000611      0x70b build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+ .debug_line.text.totp_cli_command_notification_print_method
+                0x00000d1c       0x63 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+ .debug_line.text.handle
+                0x00000d7f       0xfd build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+ .debug_line.text.totp_cli_notification_plugin_ep
+                0x00000e7c       0x19 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+ .debug_line_end
+                0x00000e95        0x0 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
 
 .debug_frame    0x00000000      0x164
  *(.debug_frame)
- .debug_frame   0x00000000       0x84 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
- .debug_frame   0x00000084       0xe0 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+ .debug_frame   0x00000000       0xe0 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+ .debug_frame   0x000000e0       0x84 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
 
 .debug_str      0x00000000     0x159d
  *(.debug_str)
- .debug_str     0x00000000      0x7ee build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
- .debug_str     0x000007ee      0xdaf build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+ .debug_str     0x00000000      0xdaf build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+ .debug_str     0x00000daf      0x7ee build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
 
 .debug_loc
  *(.debug_loc)
@@ -216,9 +216,9 @@ LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolc
                 0x00000000      0x39f
  *(.debug_loclists)
  .debug_loclists
-                0x00000000      0x20d build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+                0x00000000      0x192 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
  .debug_loclists
-                0x0000020d      0x192 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+                0x00000192      0x20d build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
 
 .debug_macro
  *(.debug_macro)
@@ -230,9 +230,9 @@ LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolc
                 0x00000000       0x91
  *(.debug_rnglists)
  .debug_rnglists
-                0x00000000       0x47 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+                0x00000000       0x4a build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
  .debug_rnglists
-                0x00000047       0x4a build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+                0x0000004a       0x47 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
 
 .debug_str_offsets
  *(.debug_str_offsets)
@@ -244,9 +244,9 @@ LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolc
                 0x00000000       0x34
  *(.ARM.attributes)
  .ARM.attributes
-                0x00000000       0x34 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
+                0x00000000       0x34 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
  .ARM.attributes
-                0x00000034       0x34 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/cli_shared_methods.o
+                0x00000034       0x34 build/f7-firmware-C/.extapps/totp_cli_notification_plugin/cli/plugins/notification/notification.o
  *(.gnu.attributes)
 
 .note.gnu.arm.ident

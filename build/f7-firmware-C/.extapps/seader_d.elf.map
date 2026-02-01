@@ -133,8 +133,6 @@ build/f7-firmware-C/lib/libmbedtls.a(platform_util.o)
 
 Discarded input sections
 
- .data          0x00000000        0x0 build/f7-firmware-C/.extapps/seader/aeabi_uldivmod.o
- .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/seader/aeabi_uldivmod.o
  .text          0x00000000        0x0 build/f7-firmware-C/.extapps/seader/plugin/wiegand.o
  .data          0x00000000        0x0 build/f7-firmware-C/.extapps/seader/plugin/wiegand.o
  .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/seader/plugin/wiegand.o
@@ -378,6 +376,8 @@ Discarded input sections
  .comment       0x00000000       0x1c build/f7-firmware-C/.extapps/seader/seader_icons.o
  .debug_line_end
                 0x00000000        0x0 build/f7-firmware-C/.extapps/seader/seader_icons.o
+ .data          0x00000000        0x0 build/f7-firmware-C/.extapps/seader/aeabi_uldivmod.o
+ .bss           0x00000000        0x0 build/f7-firmware-C/.extapps/seader/aeabi_uldivmod.o
  .data          0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
  .bss           0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
  .ARM.extab     0x00000000        0x0 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
@@ -1144,7 +1144,6 @@ Name             Origin             Length             Attributes
 
 Linker script and memory map
 
-LOAD build/f7-firmware-C/.extapps/seader/aeabi_uldivmod.o
 LOAD build/f7-firmware-C/.extapps/seader/plugin/wiegand.o
 LOAD build/f7-firmware-C/.extapps/seader/protocol/picopass_poller.o
 LOAD build/f7-firmware-C/.extapps/seader/protocol/picopass_poller_i.o
@@ -1183,6 +1182,7 @@ LOAD build/f7-firmware-C/.extapps/seader/seader_worker.o
 LOAD build/f7-firmware-C/.extapps/seader/t_1.o
 LOAD build/f7-firmware-C/.extapps/seader/uart.o
 LOAD build/f7-firmware-C/.extapps/seader/seader_icons.o
+LOAD build/f7-firmware-C/.extapps/seader/aeabi_uldivmod.o
 LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
 LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
 LOAD /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
@@ -5003,86 +5003,86 @@ LOAD build/f7-firmware-C/lib/libmbedtls.a
  *(.debug_sup)
 
 .ARM.attributes
-                0x00000000       0x32
+                0x00000000       0x34
  *(.ARM.attributes)
  .ARM.attributes
-                0x00000000       0x1a build/f7-firmware-C/.extapps/seader/aeabi_uldivmod.o
+                0x00000000       0x34 build/f7-firmware-C/.extapps/seader/plugin/wiegand.o
  .ARM.attributes
-                0x0000001a       0x34 build/f7-firmware-C/.extapps/seader/plugin/wiegand.o
+                0x00000034       0x34 build/f7-firmware-C/.extapps/seader/protocol/picopass_poller.o
  .ARM.attributes
-                0x0000004e       0x34 build/f7-firmware-C/.extapps/seader/protocol/picopass_poller.o
+                0x00000068       0x34 build/f7-firmware-C/.extapps/seader/protocol/picopass_poller_i.o
  .ARM.attributes
-                0x00000082       0x34 build/f7-firmware-C/.extapps/seader/protocol/picopass_poller_i.o
+                0x0000009c       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene.o
  .ARM.attributes
-                0x000000b6       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene.o
+                0x000000d0       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_apdu_runner.o
  .ARM.attributes
-                0x000000ea       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_apdu_runner.o
+                0x00000104       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_card_menu.o
  .ARM.attributes
-                0x0000011e       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_card_menu.o
+                0x00000138       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_credential_info.o
  .ARM.attributes
-                0x00000152       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_credential_info.o
+                0x0000016c       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_delete.o
  .ARM.attributes
-                0x00000186       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_delete.o
+                0x000001a0       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_delete_success.o
  .ARM.attributes
-                0x000001ba       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_delete_success.o
+                0x000001d4       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_file_select.o
  .ARM.attributes
-                0x000001ee       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_file_select.o
+                0x00000208       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_formats.o
  .ARM.attributes
-                0x00000222       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_formats.o
+                0x0000023c       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_read_14a.o
  .ARM.attributes
-                0x00000256       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_read_14a.o
+                0x00000270       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_read_card_success.o
  .ARM.attributes
-                0x0000028a       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_read_card_success.o
+                0x000002a4       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_read_config_card.o
  .ARM.attributes
-                0x000002be       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_read_config_card.o
+                0x000002d8       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_read_config_card_success.o
  .ARM.attributes
-                0x000002f2       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_read_config_card_success.o
+                0x0000030c       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_read_mfc.o
  .ARM.attributes
-                0x00000326       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_read_mfc.o
+                0x00000340       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_read_picopass.o
  .ARM.attributes
-                0x0000035a       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_read_picopass.o
+                0x00000374       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_sam_info.o
  .ARM.attributes
-                0x0000038e       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_sam_info.o
+                0x000003a8       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_sam_missing.o
  .ARM.attributes
-                0x000003c2       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_sam_missing.o
+                0x000003dc       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_sam_present.o
  .ARM.attributes
-                0x000003f6       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_sam_present.o
+                0x00000410       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_sam_wrong.o
  .ARM.attributes
-                0x0000042a       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_sam_wrong.o
+                0x00000444       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_save_name.o
  .ARM.attributes
-                0x0000045e       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_save_name.o
+                0x00000478       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_save_success.o
  .ARM.attributes
-                0x00000492       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_save_success.o
+                0x000004ac       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_saved_menu.o
  .ARM.attributes
-                0x000004c6       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_saved_menu.o
+                0x000004e0       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_start.o
  .ARM.attributes
-                0x000004fa       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_start.o
+                0x00000514       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_virtual_credential.o
  .ARM.attributes
-                0x0000052e       0x34 build/f7-firmware-C/.extapps/seader/scenes/seader_scene_virtual_credential.o
+                0x00000548       0x34 build/f7-firmware-C/.extapps/seader/apdu_log.o
  .ARM.attributes
-                0x00000562       0x34 build/f7-firmware-C/.extapps/seader/apdu_log.o
+                0x0000057c       0x34 build/f7-firmware-C/.extapps/seader/apdu_runner.o
  .ARM.attributes
-                0x00000596       0x34 build/f7-firmware-C/.extapps/seader/apdu_runner.o
+                0x000005b0       0x34 build/f7-firmware-C/.extapps/seader/bsearch.o
  .ARM.attributes
-                0x000005ca       0x34 build/f7-firmware-C/.extapps/seader/bsearch.o
+                0x000005e4       0x34 build/f7-firmware-C/.extapps/seader/ccid.o
  .ARM.attributes
-                0x000005fe       0x34 build/f7-firmware-C/.extapps/seader/ccid.o
+                0x00000618       0x34 build/f7-firmware-C/.extapps/seader/lrc.o
  .ARM.attributes
-                0x00000632       0x34 build/f7-firmware-C/.extapps/seader/lrc.o
+                0x0000064c       0x34 build/f7-firmware-C/.extapps/seader/sam_api.o
  .ARM.attributes
-                0x00000666       0x34 build/f7-firmware-C/.extapps/seader/sam_api.o
+                0x00000680       0x34 build/f7-firmware-C/.extapps/seader/seader.o
  .ARM.attributes
-                0x0000069a       0x34 build/f7-firmware-C/.extapps/seader/seader.o
+                0x000006b4       0x34 build/f7-firmware-C/.extapps/seader/seader_credential.o
  .ARM.attributes
-                0x000006ce       0x34 build/f7-firmware-C/.extapps/seader/seader_credential.o
+                0x000006e8       0x34 build/f7-firmware-C/.extapps/seader/seader_worker.o
  .ARM.attributes
-                0x00000702       0x34 build/f7-firmware-C/.extapps/seader/seader_worker.o
+                0x0000071c       0x34 build/f7-firmware-C/.extapps/seader/t_1.o
  .ARM.attributes
-                0x00000736       0x34 build/f7-firmware-C/.extapps/seader/t_1.o
+                0x00000750       0x34 build/f7-firmware-C/.extapps/seader/uart.o
  .ARM.attributes
-                0x0000076a       0x34 build/f7-firmware-C/.extapps/seader/uart.o
+                0x00000784       0x34 build/f7-firmware-C/.extapps/seader/seader_icons.o
  .ARM.attributes
-                0x0000079e       0x34 build/f7-firmware-C/.extapps/seader/seader_icons.o
+                0x000007b8       0x1a build/f7-firmware-C/.extapps/seader/aeabi_uldivmod.o
  .ARM.attributes
                 0x000007d2       0x34 /home/edgar/dev/f0/momentum-firmware/My-personal-momentum-F0-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
  .ARM.attributes
