@@ -1,0 +1,18 @@
+# Pre-commit framework config (D22)
+# Activa los git hooks versionados de .githooks/.
+# Instalación: ejecutar `./.claude/scripts/setup.sh` tras git clone.
+#
+# Por ahora solo activa el pre-push bloqueante para Next-Flip.
+# En Fase 2+ pueden añadirse más hooks (linters, format checks, etc.).
+
+repos:
+  - repo: local
+    hooks:
+      - id: prevent-next-flip-push
+        name: Bloquear push a Next-Flip/Momentum-Firmware (D25)
+        entry: bash ./.githooks/pre-push
+        language: system
+        stages: [pre-push]
+        pass_filenames: false
+        always_run: true
+        verbose: true

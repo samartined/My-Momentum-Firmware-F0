@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+# pre-push hook — bloqueante para Next-Flip/Momentum-Firmware (D25)
+#
+# Resolución del Concilio: G9 → D25.
+# Capa 2 de los 5 guardrails (ver system-design.md > "Operaciones destructivas").
+#
+# Comportamiento:
+#   - Si el remote URL matchea Next-Flip/Momentum-Firmware: exit != 0.
+#     El mensaje en stderr incluye el comando de override en la PRIMERA LÍNEA
+#     para que el usuario consciente lo copie-pegue y siga (D25 condición de A).
+#   - Override consciente: variable de entorno MOMENTUM_ALLOW_NEXT_FLIP_PUSH=1.
+#   - En cualquier otro caso: exit 0 (permite el push).
+#
+# Argumentos que git pasa al hook:
+#   $1: nombre del remote (ej. "origin")
+#   $2: URL del remote (ej. "git@github.com:samartined/My-Momentum-Firmware-F0.git")
+# stdin: una línea por ref a pushear: "<local_ref> <local_sha> <remote_ref> <remote_sha>"
+#
+# Instalación: via 'pre-commit install --hook-type pre-push' (ejecutado por setup.sh).
+
+set -uo pipefail
+
+remote="${1:-?}"
+url="${2:-?}"
+
+# Override consciente
+if [[ "${MOMENTUM_ALLOW_NEXT_FLIP_PUSH:-0}" == "1" ]]; then
+  exit 0
+fi
+
+# Matching del URL contra Next-Flip/Momentum-Firmware
+# Cubre formas: https://github.com/Next-Flip/Momentum-Firmware, git@github.com:Next-Flip/Momentum-Firmware,
+# variantes de capitalización, con o sin sufijo .git
+if [[ "$url" =~ [Nn]ext-[Ff]lip/[Mm]omentum-?[Ff]irmware ]]; then
+  cat >&2 <<EOF
+MOMENTUM_ALLOW_NEXT_FLIP_PUSH=1 git push $remote
+---
+PUSH BLOQUEADO — el remote '$remote' apunta a Next-Flip/Momentum-Firmware ($url).
+
+Política del fork personal (D25 del system-design):
+  nunca se pushea trabajo asistido por IA al repositorio oficial.
+
+Si tienes una razón legítima y consciente para hacer este push:
+  - Copia la PRIMERA LÍNEA de esta salida (arriba) y ejecútala.
+
+Si llegaste aquí por error:
+  - Revisa 'git remote -v' y elimina/renombra el remote '$remote'.
+  - Recuerda: el clone para upstream contributions vive en otro directorio
+    (Momentum-Firmware/) sin sistema agente.
+
+Si esto es un falso positivo (URL legítima que matchea sin querer):
+  - Reporta el caso para refinar el regex en .githooks/pre-push.
+EOF
+  exit 1
+fi
+
+exit 0
