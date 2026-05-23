@@ -72,3 +72,7 @@ node_modules/
 # cli_perf script output in case of errors
 /block.bin
 /return_block.bin
+
+# Multi-agent system runtime state (gitignored — local to each clone).
+# Schema: see .claude/design/decisions-schema.md and cost-policy.md.
+.claude/state/
