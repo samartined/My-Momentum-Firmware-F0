@@ -28,6 +28,7 @@ Una línea = un objeto JSON = una decisión clasificada. Codificación UTF-8, se
 | `council_id` | string (UUIDv7) \| null | Si `level == "L3"`, ID del Concilio asociado |
 | `cost_estimate_tokens` | integer \| null | Estimación de tokens consumidos por esta decisión |
 | `cost_estimate_usd` | float \| null | Estimación monetaria derivada de la tabla en `cost-policy.md` |
+| `eligible_for_cor` | boolean \| null | `true` si la decisión cumple los criterios objetivos para invocar el ángulo `COR` (ver `council-angles.md` → "Definición operacional de 'elegible para `COR`'"). `false` si no. `null` si la clasificación es anterior a la introducción del campo (ADR-0001, 2026-05-23). Su agregado alimenta la auditoría de retirada empírica programada para `2026-08-23`. |
 
 ## Activación de auditor automatizado (Fase 2+)
 

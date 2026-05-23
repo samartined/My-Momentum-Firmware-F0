@@ -6,6 +6,47 @@ Formato basado en Keep-a-Changelog. Fechas en formato YYYY-MM-DD.
 
 ---
 
+## [0.1.5] — 2026-05-23
+
+### Añadido
+
+- `.claude/decisions/ADR-0001-add-cor-angle.md`: primer ADR cerrado del sistema. Decisión sintética para validación funcional V2 de Fase 1.G — el Concilio Tripartito deliberó en 3 rondas si añadir un ángulo `COR` (Correctness) al catálogo cerrado. Resultado: unanimidad 3/3 SÍ con 11 condiciones obligatorias (4 de síntesis + 7 nuevas aceptadas en ronda 3 sin vetos). Materialización decidida por el usuario (opción (a), 2026-05-23).
+- `.claude/decisions/pending/62978df1-.../`: artefactos completos del Concilio (dossier, 3 veredictos ronda 1, síntesis del master ronda 2, 3 votos ronda 2, 3 votos ronda 3). Documentación de auditoría longitudinal.
+- `.claude/state/decisions.jsonl`: entrada V2 con `level: "L3"`, `criterion_invoked: "IRREV-2"`, `council_id: 62978df1-...` (cerrando V2 de los 4 criterios funcionales de Fase 1.G).
+
+### Modificado
+
+- `.claude/design/council-angles.md`:
+  - Catálogo de **12 → 13 ángulos vigentes** (añadido `COR` — Correctness).
+  - `ROB` reformulado para excluir explícitamente correctitud funcional y centrarse en invariantes estructurales (lifecycle, estado, recuperación de fallos).
+  - Pregunta clave de `COR` operacional: "¿Existe un caso de entrada concreto donde el output sea distinto del esperado en ≥1 bit, ≥1 byte, o ≥1 registro, y ese caso no esté cubierto por un test o invariante existente?".
+  - Sección nueva "Notas operacionales para `COR`" con rail disjunto, definición operacional de "elegible para COR" y guard de co-invocación `ROB`+`COR`.
+  - Sección "Historial de cambios al catálogo" inaugurada con **Entrada 1**: definición congelada de `COR`, delimitación frente a `ROB`, cláusula de retirada empírica con disparadores OR (C3-N2 uso bajo + C1-N1 alto solape), comparador semántico (checklist cerrada de 7 subtemas o diff de tokens).
+- `.claude/design/decisions-schema.md`: añadido campo opcional `eligible_for_cor: boolean | null` (C2-N1) para que el master marque elegibilidad de cada L3 y la auditoría a 3 meses sea reproducible sobre el log.
+- `.claude/design/phases.md`: sección nueva "Calendario activo de revisiones" con **Revisión 1** programada para `2026-08-23` (3 meses), owner `agent-architect`, disparadores y sink especificados.
+
+### Cerrado
+
+- **Validación funcional V2 de Fase 1.G**: el Concilio se ejercitó end-to-end con una decisión sintética que matchea G3 (IRREV-2 — modifica `.claude/design/`). El script `check-irreversibility.sh` forzó L3 estructuralmente, el master no pudo degradar a L2, y el flujo completo (dossier → 3 concejales paralelos ronda 1 → síntesis ronda 2 → 3 votos ronda 2 → 3 votos cruzados ronda 3 → ADR cerrado → log decisions.jsonl) funcionó.
+- **Fase 1.G completa**: los 4 criterios funcionales (V1 L1, V2 L3, V3 G3-forzado, V4 push bloqueado) están cerrados.
+
+### Motivación
+
+V2 era el último criterio funcional de Fase 1.G por validar. Tras V1, V3 y V4 pasados en sesiones previas, faltaba ejecutar el Concilio completo sobre una decisión que matcheara G3. La decisión sobre `COR` se diseñó como ejercicio sintético — su contenido podía haber sido descartado tras la validación, pero el usuario eligió materializarla porque (a) el firmware Momentum vive principalmente en dominios de I/O de bits (NFC, SubGHz, RFID, IR, parsing, migraciones), exactamente el territorio donde `COR` aplica; (b) la cláusula de retirada empírica a 3 meses actúa como red de seguridad reversible si el ángulo no se amortiza.
+
+### Aprendizajes meta de V2 (material para futuro `system-design.md`)
+
+- **3 rondas del Concilio sobre L3 funcionó**: ronda 1 (independencia), ronda 2 (síntesis del master + reconsideración), ronda 3 (validación cruzada de condiciones — preserva independencia razonada al leer solo condiciones, no razones de los otros).
+- **Voto minoritario rebatido por mecanismo, no por argumento**: el Concejal 2 (SIM) votó NO en ronda 1 con YAGNI; cambió a SÍ en ronda 2 porque la síntesis añadió la cláusula de retirada empírica. La objeción se incorporó al diseño, no se rebatió retóricamente. Patrón replicable.
+- **Bug del `Write` mid-sesión** (en sesión previa): documentado en RESUME.md como precedente de continuidad inter-sesión cuando el harness presenta fallos puntuales.
+
+### Pendiente
+
+- Arrancar **Fase 2** (especialistas críticos: `flipper-rf-subghz`, `flipper-nfc`, `flipper-app-builder`, `flipper-build-fbt`) — espera orden expresa del usuario.
+- Ejecutar **Revisión 1** el `2026-08-23` (auditoría a 3 meses del ángulo `COR`).
+
+---
+
 ## [0.1.4] — 2026-05-20
 
 ### Modificado

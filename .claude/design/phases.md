@@ -136,3 +136,20 @@ No aplica una fase de "done" cerrada: esta es operación continua. Cada propuest
 - Cada fase termina con un commit limpio y una actualización de `CHANGELOG.md` que registra qué se completó y por qué.
 - Al iniciar una nueva sesión, Claude Code carga `CLAUDE.md` automáticamente; desde ahí navega a `.claude/design/` para recuperar el estado del sistema.
 - El archivo `system-design.md` se mantiene como referencia actualizada al final de cada fase; nunca queda desincronizado con la implementación real.
+
+---
+
+## Calendario activo de revisiones
+
+Esta sección registra revisiones obligatorias calendarizadas derivadas de ADRs cerrados. Cada entrada queda activa hasta que se ejecute la revisión y se loguee el resultado en el archivo correspondiente.
+
+### Revisión 1 — Auditoría a 3 meses del ángulo `COR`
+
+- **Fecha**: `2026-08-23` (3 meses desde aprobación de ADR-0001).
+- **Owner**: `agent-architect`.
+- **Referencia**: [`ADR-0001-add-cor-angle.md`](../decisions/ADR-0001-add-cor-angle.md), follow-up F3.
+- **Tarea**: ejecutar auditoría sobre `.claude/state/decisions.jsonl` aplicando los disparadores de retirada (lógica OR) fijados en `council-angles.md` → "Historial de cambios al catálogo" → Entrada 1:
+  - **C3-N2**: < 2 invocaciones reales de `COR` en ventana de 3 meses.
+  - **C1-N1**: > 30% de Concilios que co-asignaron `ROB`+`COR` con razones solapantes >70% (comparador semántico definido en la misma entrada).
+- **Sink del resultado**: nueva entrada en "Historial de cambios al catálogo" de `council-angles.md` con formato `{fecha, council_id_origen, invocaciones_observadas, decisión: mantener | retirar | reevaluar-a-6m}`, incluso si la decisión es mantener.
+- **Estado**: pendiente.
