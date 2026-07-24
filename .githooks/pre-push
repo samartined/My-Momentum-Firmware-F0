@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+# pre-push hook — blocking guard for Next-Flip/Momentum-Firmware (D25)
+#
+# Council resolution: G9 -> D25.
+# Layer 2 of the 5 guardrails (see system-design.md > "Destructive operations").
+#
+# Behavior:
+#   - If the remote URL matches Next-Flip/Momentum-Firmware: exit != 0.
+#     The stderr message includes the override command on the FIRST LINE so a
+#     conscious user can copy-paste it and proceed (D25, condition of A).
+#   - Conscious override: environment variable MOMENTUM_ALLOW_NEXT_FLIP_PUSH=1.
+#   - In any other case: exit 0 (allow the push).
+#
+# Arguments git passes to the hook:
+#   $1: remote name (e.g. "origin")
+#   $2: remote URL (e.g. "git@github.com:samartined/My-Momentum-Firmware-F0.git")
+# stdin: one line per ref to push: "<local_ref> <local_sha> <remote_ref> <remote_sha>"
+#
+# Installation: via 'core.hooksPath .githooks' (set by bootstrap.sh) or
+# 'pre-commit install --hook-type pre-push' (run by setup.sh).
+
+set -uo pipefail
+
+remote="${1:-?}"
+url="${2:-?}"
+
+# Conscious override
+if [[ "${MOMENTUM_ALLOW_NEXT_FLIP_PUSH:-0}" == "1" ]]; then
+  exit 0
+fi
+
+# Match the URL against Next-Flip/Momentum-Firmware
+# Covers forms: https://github.com/Next-Flip/Momentum-Firmware, git@github.com:Next-Flip/Momentum-Firmware,
+# capitalization variants, with or without the .git suffix
+if [[ "$url" =~ [Nn]ext-[Ff]lip/[Mm]omentum-?[Ff]irmware ]]; then
+  cat >&2 <<EOF
+MOMENTUM_ALLOW_NEXT_FLIP_PUSH=1 git push $remote
+---
+PUSH BLOCKED — the remote '$remote' points to Next-Flip/Momentum-Firmware ($url).
+
+Personal fork policy (D25 of the system-design):
+  never push AI-assisted work to the official repository.
+
+If you have a legitimate, conscious reason to make this push:
+  - Copy the FIRST LINE of this output (above) and run it.
+
+If you got here by mistake:
+  - Check 'git remote -v' and remove/rename the remote '$remote'.
+  - Remember: the clone for upstream contributions lives in another directory
+    (Momentum-Firmware/) without the agent system.
+
+If this is a false positive (a legitimate URL that matches by accident):
+  - Report the case to refine the regex in .githooks/pre-push.
+EOF
+  exit 1
+fi
+
+exit 0
