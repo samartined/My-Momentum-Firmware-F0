@@ -6,6 +6,22 @@ Format based on Keep-a-Changelog. Dates in YYYY-MM-DD format.
 
 ---
 
+## [0.1.9] — 2026-07-24
+
+### Fixed
+
+- **Restored `.githooks/pre-push` + `.pre-commit-config.yaml`** on `my-momentum-firmware` (commit `b2f9e4291`). The Layer-2 push guardrail (blocks pushes to `Next-Flip/*`) had been dropped during the re-founding, leaving it inactive on the default branch. Restored with logic byte-identical to the original (same regex, override var `MOMENTUM_ALLOW_NEXT_FLIP_PUSH`, exit codes); comments/messages in English per the language policy. Verified: `bootstrap.sh` sets `core.hooksPath .githooks`, hook present/executable/tracked, blocks Next-Flip / allows the fork / respects the override. Layer 2 active again.
+
+### Changed
+
+- **Disabled the inherited Momentum `Webhook` workflow** (`gh workflow disable`, state `disabled_manually`, no commit). It is Momentum's Discord notification bot (`webhook.py`, needs `BUILD_WEBHOOK`/`DEV_WEBHOOK` secrets that the fork lacks) and failed on every push, emailing the owner (~21 failure emails accumulated). The `disabled_manually` state is GitHub-side metadata separate from the file and persists across upstream syncs that update `webhook.yml`. `Build` and `Lint` kept active as real CI. Reversible via `gh workflow enable "Webhook"`.
+
+### Note
+
+- Orphaned `advtest-pr-probe*` workflow entries remain visible (from the adversarial PR-block investigation); their branches were deleted so they cannot trigger. GitHub does not allow easy deletion of orphaned workflow entries.
+
+---
+
 ## [0.1.8] — 2026-07-24
 
 ### Changed

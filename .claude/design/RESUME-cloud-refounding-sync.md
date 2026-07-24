@@ -61,6 +61,14 @@ File: `.github/workflows/sync-upstream.yml`. Trigger: `schedule` (Monday 06:00 U
 
 ---
 
+## Language policy & guardrail/CI hardening (CHANGELOG 0.1.8–0.1.9)
+
+- **The whole project corpus is now in English** (`CLAUDE.md`, all `.claude/**`, `custom/**`, workflow/script comments). A mandatory **Language policy** in `CLAUDE.md` + both agent definitions requires everything written to disk/repo to be in English, regardless of the language used to converse with the operator. `settings.json` untouched.
+- **`.githooks/pre-push` restored** on the default branch (commit `b2f9e4291`): the Layer-2 push guardrail (blocks pushes to `Next-Flip/*`) is active again. It had been dropped during the re-founding.
+- **Inherited `Webhook` workflow disabled** (`gh workflow disable`, `disabled_manually`): it is Momentum's Discord notification bot, needs secrets the fork lacks, and failed on every push (email spam). The disabled state persists across upstream syncs. `Build`/`Lint` kept active as real CI.
+
+---
+
 ## Pending items
 
 1. **Exercise the full sync** (push+PR with a real delta) on the next upstream change. If PR creation fails, the planned fallback is to print the compare URL.
@@ -75,3 +83,4 @@ File: `.github/workflows/sync-upstream.yml`. Trigger: `schedule` (Monday 06:00 U
 - **Memory files** (`~/.claude/.../memory/`) are LOCAL to the machine, they don't travel. This RESUME + CHANGELOG + ADR are the source that does travel.
 - **GitHub eventual consistency:** both the default-branch rename and enabling the PR setting showed propagation latency. If something "should work according to the API" but fails, retry after a few minutes before diagnosing.
 - **Guardrail intact:** the `Next-Flip` remote was never added to the clone; the sync does it only inside the GitHub runner.
+- **Inherited CI:** the Momentum `Webhook` workflow is disabled (Discord bot, useless in the fork). `Build`/`Lint` stay active and may email on genuine failures. Only re-enable `Webhook` if you add the `BUILD_WEBHOOK`/`DEV_WEBHOOK` secrets. Orphaned `advtest-pr-probe*` workflow entries are inert (branches deleted).
