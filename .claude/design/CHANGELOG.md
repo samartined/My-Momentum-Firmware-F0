@@ -6,6 +6,36 @@ Formato basado en Keep-a-Changelog. Fechas en formato YYYY-MM-DD.
 
 ---
 
+## [0.1.7] — 2026-07-24
+
+### Añadido
+
+- **Re-fundación del fork sobre upstream** (ver [`ADR-0002`](../decisions/ADR-0002-fork-refounding-and-pat-sync.md)): la rama por defecto `my-momentum-firmware` pasa a basarse en la historia real de `upstream/dev` (antes era un snapshot aplanado sin ancestro común con el oficial → no sincronizable). El fork viejo se conserva como `legacy/snapshot-2026-02`.
+- `custom/ghostesp-s2/`: binarios GhostESP ESP32-S2 (`bootloader.bin`, `partition-table.bin`, `Ghost_ESP_IDF.bin`) + `README.md` + `deploy-to-esp-flasher.sh`. Única personalización de firmware real, preservada fuera del submódulo `applications/external`.
+- `.github/workflows/sync-upstream.yml`: workflow de sincronización inbound con `Next-Flip/Momentum-Firmware@dev` (schedule lunes 06:00 UTC + manual). El remote de upstream vive solo en el runner efímero → respeta D9/D25.
+- `.claude/design/RESUME-cloud-refounding-sync.md`: RESUME autocontenido de esta sesión para continuidad inter-sesión/inter-máquina.
+
+### Modificado
+
+- `.github/workflows/sync-upstream.yml`: usa un PAT (`secrets.SYNC_PAT`, fine-grained: Contents+PullRequests+Workflows RW, solo este repo) para el push del mirror y `gh pr create`, en vez del `GITHUB_TOKEN` del bot.
+
+### Verificado (investigación adversarial)
+
+- Causa del fallo inicial `createPullRequest: Resource not accessible by integration`: el ajuste repo "Allow GitHub Actions to create and approve pull requests" está OFF por defecto en cuenta personal, + latencia de propagación al activarlo. Refutada la hipótesis de "inconsistencia irresoluble" y la de tope a nivel de cuenta (5 experimentos controlados).
+- **Bug latente identificado y corregido:** el `GITHUB_TOKEN` no puede empujar cambios en `.github/workflows/*` (no existe scope `workflows`); el mirror de upstream los incluye → habría roto el sync. De ahí el PAT.
+- Fork re-fundado validado en hardware: `./fbt` OK, FAPs `ghost_esp`/`esp_flasher` compilan, flasheado al Flipper con éxito.
+
+### Deliberación
+
+- Nivel **L4** (aprobación directa del usuario). Operaciones irreversibles (reescritura de default, force-push, renombrado, flasheo) confirmadas paso a paso. Ver ADR-0002.
+
+### Pendiente
+
+- Ejercitar el sync completo (push+PR con delta real) en el próximo cambio de upstream.
+- Fase 2 (especialistas) sigue sin empezar.
+
+---
+
 ## [0.1.6] — 2026-07-24
 
 ### Añadido
