@@ -24,3 +24,5 @@ jobs:
 
       - name: "Check formatting"
         run: ./fbt lint_all
+
+# advtest marker comment (safe to delete)
