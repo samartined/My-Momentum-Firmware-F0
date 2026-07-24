@@ -45,6 +45,11 @@ jobs:
         with:
           ref: ${{ env.FORK_BRANCH }}
           fetch-depth: 0   # historia completa: necesaria para calcular el ancestro común
+          # PAT en vez del GITHUB_TOKEN: el token del bot NO puede empujar cambios en
+          # .github/workflows/* (no existe scope 'workflows' para GITHUB_TOKEN). El mirror
+          # de upstream/dev incluye ficheros de workflow, así que el push del bot se
+          # rompería en cuanto upstream los tocara. El PAT (identidad de usuario) sí puede.
+          token: ${{ secrets.SYNC_PAT }}
 
       - name: "Añadir upstream (solo en el runner) y hacer fetch de dev"
         run: |
@@ -74,7 +79,7 @@ jobs:
       - name: "Abrir o actualizar el Pull Request de sync"
         if: steps.check.outputs.new_commits != '0'
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.SYNC_PAT }}   # PAT: crea el PR como usuario (evita el gate del bot)
         run: |
           set -euo pipefail
           # Si ya hay un PR abierto con esta rama espejo, el push anterior ya lo actualizó.
