@@ -1,76 +1,76 @@
 ---
 council_id: 62978df1-a1f9-4e2d-8706-750d0ac18c3c
 ronda: 2
-synthesized_by: master (conversación principal Opus)
+synthesized_by: master (main conversation, Opus)
 synthesized_at: 2026-05-23T16:45:00Z
 note: |
-  Reconstruido retroactivamente vía Bash heredoc tras fallo sistemático de
-  la tool Write en esta sesión. El contenido coincide con la descripción
-  pasada en los prompts de los 3 concejales de ronda 2, sobre la que
-  emitieron sus votos.
+  Retroactively reconstructed via Bash heredoc after the systematic failure of
+  the Write tool in this session. The content matches the description passed
+  in the prompts of the 3 round-2 council members, on which they cast their
+  votes.
 ---
 
-# Síntesis del master para ronda 2
+# Master's synthesis for round 2
 
-## Propuesta refinada
+## Refined proposal
 
-Adoptar la **Alternativa A** (añadir `COR` al catálogo cerrado de ángulos del Concilio) **con las siguientes condiciones obligatorias incorporadas al PR de modificación de `.claude/design/council-angles.md`**:
+Adopt **Alternative A** (add `COR` to the Council's closed angle catalog) **with the following mandatory conditions incorporated into the PR that modifies `.claude/design/council-angles.md`**:
 
-### 1. Reformulación simultánea de `ROB`
+### 1. Simultaneous reformulation of `ROB`
 
-La entrada de `ROB` se actualiza en el mismo PR para excluir explícitamente correctitud funcional:
+The `ROB` entry is updated in the same PR to explicitly exclude functional correctness:
 
-> **ROB — Robustez**: ¿Qué invariante estructural del sistema (lifecycle, estado, recuperación de fallos, manejo de errores) queda verificable tras este cambio? No cubre correctitud del resultado funcional — ver `COR`.
+> **ROB — Robustness**: Which structural invariant of the system (lifecycle, state, failure recovery, error handling) remains verifiable after this change? Does not cover correctness of the functional result — see `COR`.
 
-Si esta reformulación no se incluye en el PR, la propuesta entera no procede (precondición dura).
+If this reformulation is not included in the PR, the entire proposal does not proceed (hard precondition).
 
-### 2. Pregunta clave operacional para `COR`
+### 2. Operational key question for `COR`
 
-> **COR — Correctness**: ¿Existe un caso de entrada concreto donde el output sea distinto del esperado en ≥1 bit, ≥1 byte, o ≥1 registro, y ese caso no esté cubierto por un test o invariante existente?
+> **COR — Correctness**: Is there a concrete input case where the output differs from the expected one by ≥1 bit, ≥1 byte, or ≥1 record, and that case is not covered by an existing test or invariant?
 
-Predicado verificable (existe contraejemplo: sí/no) que se distingue mecánicamente de `ROB` (que pregunta por la existencia de la garantía, no del contraejemplo).
+Verifiable predicate (a counterexample exists: yes/no) that is mechanically distinguished from `ROB` (which asks about the existence of the guarantee, not of the counterexample).
 
-### 3. Rail de aplicabilidad disjunto con `ROB`
+### 3. Applicability rail disjoint from `ROB`
 
-`COR` aplica solo cuando el resultado de la operación es comparable bit-a-bit o byte-a-byte con un esperado:
+`COR` applies only when the result of the operation is comparable bit-by-bit or byte-by-byte with an expected value:
 
-- Deserialización de formatos estructurados (FAT, NFC dumps, SubGHz keystore, archivos `.sub`/`.nfc`/`.ir`).
-- Migraciones de archivos con esquema definido.
-- Parsing de protocolos con frame definido.
+- Deserialization of structured formats (FAT, NFC dumps, SubGHz keystore, `.sub`/`.nfc`/`.ir` files).
+- File migrations with a defined schema.
+- Parsing of protocols with a defined frame.
 
-Se excluye explícitamente (escrito en el catálogo, no solo en el ADR):
+Explicitly excluded (written in the catalog, not only in the ADR):
 
-- Lógica de control.
-- Máquinas de estado.
+- Control logic.
+- State machines.
 - UI / scenes / views.
-- Scheduling / threading / timing (esto último es `THR`).
+- Scheduling / threading / timing (the latter is `THR`).
 
-Estos casos permanecen en territorio de `ROB`.
+These cases remain in `ROB` territory.
 
-### 4. Entrada congelada en el historial del catálogo
+### 4. Frozen entry in the catalog history
 
-La sección "Historial de cambios al catálogo" de `council-angles.md` recibe una entrada con:
+The "Catalog change history" section of `council-angles.md` receives an entry with:
 
-- Fecha: `2026-05-23`.
+- Date: `2026-05-23`.
 - `council_id`: `62978df1-a1f9-4e2d-8706-750d0ac18c3c`.
-- ID del ADR de cierre: `ADR-0001`.
-- Definición exacta congelada de `COR` aprobada (texto completo, no por referencia).
-- Delimitación explícita frente a `ROB`.
+- Closing ADR ID: `ADR-0001`.
+- Exact frozen definition of the approved `COR` (full text, not by reference).
+- Explicit delimitation against `ROB`.
 
-Entrada inmutable; refinamientos futuros generan nueva entrada de historial, no edición in-place.
+Immutable entry; future refinements generate a new history entry, not in-place editing.
 
-## Sobre el voto minoritario del Concejal 2
+## On Council Member 2's minority vote
 
-El Concejal 2 votó NO en ronda 1 (YAGNI). La síntesis incorpora la objeción como criterio de retirada empírica documentado en el ADR de cierre:
+Council Member 2 voted NO in round 1 (YAGNI). The synthesis incorporates the objection as an empirical withdrawal criterion documented in the closing ADR:
 
-> Cláusula de retirada: si tras 3 meses de operación del sistema (medido en `decisions.jsonl`) el ángulo `COR` se ha invocado en menos del 10% de las decisiones L3 que tocan dominios elegibles (NFC, SubGHz, storage, parsing), el `agent-architect` debe proponer su retirada del catálogo vía PR humano.
+> Withdrawal clause: if after 3 months of system operation (measured in `decisions.jsonl`) the `COR` angle has been invoked in fewer than 10% of the L3 decisions touching eligible domains (NFC, SubGHz, storage, parsing), the `agent-architect` must propose its withdrawal from the catalog via human PR.
 
-Esto convierte el riesgo en mecanismo de auto-corrección observable.
+This turns the risk into an observable self-correction mechanism.
 
-## Resumen ejecutivo
+## Executive summary
 
-- Procede la Alternativa A con 4 condiciones obligatorias.
-- `ROB` y `COR` se redefinen simultáneamente para garantizar disjunción operacional.
-- El catálogo crece a 13 ángulos.
-- El voto NO del Concejal 2 se documenta como riesgo conocido + cláusula de retirada empírica a 3 meses.
-- Si los 4 puntos no se incluyen íntegros en el PR, la propuesta no procede.
+- Alternative A proceeds with 4 mandatory conditions.
+- `ROB` and `COR` are redefined simultaneously to guarantee operational disjunction.
+- The catalog grows to 13 angles.
+- Council Member 2's NO vote is documented as a known risk + 3-month empirical withdrawal clause.
+- If the 4 points are not fully included in the PR, the proposal does not proceed.

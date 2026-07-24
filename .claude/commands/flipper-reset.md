@@ -1,37 +1,37 @@
 ---
-description: Limpia el contexto conversacional del master cuando el usuario sospecha contaminación severa (decisiones afectadas por historial irrelevante). Opt-in del usuario; NO se invoca automáticamente. NO destruye archivos en disco — solo señala al master que debe operar como si el historial conversacional no existiera.
+description: Clears the master's conversational context when the user suspects severe contamination (decisions affected by irrelevant history). User opt-in; NOT invoked automatically. Does NOT destroy any files on disk — it only signals to the master that it must operate as if the conversational history did not exist.
 ---
 
-# Flipper Reset (limpieza de contexto)
+# Flipper Reset (context cleanup)
 
-Has sido invocado vía `/flipper-reset`. El usuario ha decidido que tu contexto conversacional puede estar contaminado y quiere que operes con disciplina amnésica para la siguiente tarea.
+You have been invoked via `/flipper-reset`. The user has decided that your conversational context may be contaminated and wants you to operate with amnesic discipline for the next task.
 
-## Lo que significa "reset"
+## What "reset" means
 
-Este comando **NO destruye nada en disco**:
+This command does **NOT destroy anything on disk**:
 
-- `.claude/decisions/`, `.claude/state/`, `.claude/agents/`, ADRs, dossieres previos — todo permanece intacto.
-- La sesión de Claude Code sigue activa.
+- `.claude/decisions/`, `.claude/state/`, `.claude/agents/`, ADRs, previous dossiers — everything remains intact.
+- The Claude Code session remains active.
 
-Lo que cambia es **tu disciplina operativa**:
+What changes is **your operational discipline**:
 
-1. **A partir de ahora**, opera como si el historial conversacional previo a este comando no existiera.
-2. La siguiente tarea que recibas se procesa desde cero. Si necesitas contexto, **leélo del disco** (archivos en `.claude/design/`, código del firmware, etc.), no de tu memoria conversacional.
-3. Si una decisión llega a L3 tras este reset, el dossier debe reconstruirse íntegramente desde archivos, sin referencias al historial previo. Esta es la disciplina ya obligatoria por D27, pero `/flipper-reset` la refuerza para tareas inmediatamente posteriores.
+1. **From now on**, operate as if the conversational history prior to this command did not exist.
+2. The next task you receive is processed from scratch. If you need context, **read it from disk** (files in `.claude/design/`, firmware code, etc.), not from your conversational memory.
+3. If a decision reaches L3 after this reset, the dossier must be rebuilt entirely from files, without references to previous history. This is the discipline already mandatory under D27, but `/flipper-reset` reinforces it for immediately subsequent tasks.
 
-## Cuándo el usuario invoca esto
+## When the user invokes this
 
-- Conversación larga con muchos temas distintos, y el usuario percibe que tus respuestas están sesgadas por temas anteriores irrelevantes a la pregunta actual.
-- Tras una sesión de debugging que terminó mal y el usuario quiere arrancar limpio.
-- Antes de una decisión L3 importante donde el usuario quiere garantizar que tu razonamiento parta solo de archivos, no de conversación.
+- A long conversation with many different topics, and the user perceives that your responses are biased by earlier topics irrelevant to the current question.
+- After a debugging session that ended badly and the user wants to start clean.
+- Before an important L3 decision where the user wants to guarantee that your reasoning starts only from files, not from conversation.
 
-## Lo que NO hace este comando
+## What this command does NOT do
 
-- NO borra archivos del sistema.
-- NO interrumpe la sesión de Claude Code (eso lo hace el usuario manualmente).
-- NO afecta a logs en `.claude/state/` (decisions, costs, etc.).
-- NO invoca al Concilio ni a especialistas — es un comando puramente sobre tu disciplina cognitiva.
+- Does NOT delete files from the system.
+- Does NOT interrupt the Claude Code session (the user does that manually).
+- Does NOT affect logs in `.claude/state/` (decisions, costs, etc.).
+- Does NOT invoke the Council or specialists — it is a command purely about your cognitive discipline.
 
-## Tu respuesta
+## Your response
 
-Confirma al usuario: "Reset reconocido. Opero desde cero desde aquí. ¿Cuál es la tarea?"
+Confirm to the user: "Reset acknowledged. I am operating from scratch from here. What is the task?"

@@ -1,113 +1,112 @@
-# Catálogo de ángulos del Concilio Tripartito
+# Catalog of Tripartite Council angles
 
-Este documento es el catálogo cerrado de ángulos que el master puede asignar a los 3 concejales al convocar al Concilio (nivel L3). Cada ángulo tiene un ID estable para que los logs de deliberación sean parseables longitudinalmente.
+This document is the closed catalog of angles that the master can assign to the 3 council members when convening the Council (level L3). Each angle has a stable ID so deliberation logs are parseable longitudinally.
 
-Resolución del Concilio: D18.
+Council resolution: D18.
 
-## Reglas de uso
+## Usage rules
 
-- El master selecciona exactamente 3 ángulos del catálogo cuando convoca al Concilio.
-- Cada concejal recibe un único ángulo asignado y debe argumentar desde él.
-- Máximo 1 ángulo wildcard ad-hoc (fuera de catálogo) por sesión, con justificación expandida de 3-5 líneas escrita al log de deliberaciones.
-- Promoción de wildcard al catálogo: comando `/flipper-review-wildcards` opt-in del usuario.
-- Extensión del catálogo: vía PR humano. No se permite añadir ángulos en runtime.
+- The master selects exactly 3 angles from the catalog when convening the Council.
+- Each council member receives a single assigned angle and must argue from it.
+- Maximum 1 ad-hoc wildcard angle (outside the catalog) per session, with an expanded 3-5 line justification written to the deliberation log.
+- Promotion of a wildcard to the catalog: opt-in user command `/flipper-review-wildcards`.
+- Catalog extension: via human PR. Adding angles at runtime is not allowed.
 
-## Catálogo (13 ángulos vigentes)
+## Catalog (13 current angles)
 
-| ID | Ángulo | Pregunta clave | Aplicable cuando |
+| ID | Angle | Key question | Applicable when |
 |----|--------|----------------|------------------|
-| ROB | Robustez | ¿Qué invariante estructural del sistema (lifecycle, estado, recuperación de fallos, manejo de errores) queda verificable tras este cambio? No cubre correctitud del resultado funcional — ver `COR`. | Decisiones que tocan el runtime del firmware o el sistema agente, exceptuando transformaciones input→output con esperado comparable |
-| COR | Correctness | ¿Existe un caso de entrada concreto donde el output sea distinto del esperado en ≥1 bit, ≥1 byte, o ≥1 registro, y ese caso no esté cubierto por un test o invariante existente? | Deserialización de formatos estructurados (FAT, NFC dumps, SubGHz keystore, archivos `.sub`/`.nfc`/`.ir`); migraciones de archivos con esquema; parsing de protocolos con frame definido. Ver "Notas operacionales para `COR`". |
-| SIM | Simplicidad | ¿Cuál es la implementación mínima que cubre el caso? | Refactors, nuevas features, mecanismos de control |
-| SEC | Seguridad | ¿Qué vector de ataque o fuga abre o cierra esta decisión? | Cualquier cosa que toque credenciales, criptografía, ACL |
-| REV | Reversibilidad | ¿Cuánto cuesta deshacer esta decisión si resulta mala? | Decisiones con impacto > 1 día de trabajo |
-| COS | Coste-token | ¿Cuántas llamadas a modelo añade y de qué tier? | Cualquier mecanismo que invoca subagentes |
-| UPS | Compatibilidad upstream | ¿Esto cierra la puerta a contribuir al firmware oficial? | Refactors que tocan código compartido con Next-Flip |
-| MNT | Mantenibilidad | ¿Quién mantiene esto dentro de 6 meses? | Decisiones con nuevas dependencias o frameworks |
-| UX | Ergonomía de usuario | ¿Añade fricción para el operador del Flipper? | Cualquier UI, slash command, flujo del usuario |
-| ORT | Ortogonalidad | ¿Esta feature se ortogona con las existentes o las acopla? | Decisiones de arquitectura del firmware |
-| ENE | Energía/batería | ¿Afecta consumo del dispositivo? | Código que toca radio, display, GPIO |
-| BIN | Tamaño binario | ¿Cabe en flash y RAM disponibles? | Nuevas apps, librerías, assets |
-| THR | Threading/timing | ¿Hay condiciones de carrera o violaciones de timing? | Código que toca FreeRTOS, interrupciones, hardware |
+| ROB | Robustness | What structural invariant of the system (lifecycle, state, failure recovery, error handling) remains verifiable after this change? Does not cover functional-result correctness — see `COR`. | Decisions that touch the firmware runtime or the agent system, except input→output transformations with a comparable expected result |
+| COR | Correctness | Is there a concrete input case where the output differs from the expected value by ≥1 bit, ≥1 byte, or ≥1 record, and that case is not covered by an existing test or invariant? | Deserialization of structured formats (FAT, NFC dumps, SubGHz keystore, `.sub`/`.nfc`/`.ir` files); schema-based file migrations; parsing of protocols with a defined frame. See "Operational notes for `COR`". |
+| SIM | Simplicity | What is the minimal implementation that covers the case? | Refactors, new features, control mechanisms |
+| SEC | Security | What attack vector or leak does this decision open or close? | Anything that touches credentials, cryptography, ACLs |
+| REV | Reversibility | How much does it cost to undo this decision if it turns out to be bad? | Decisions with impact > 1 day of work |
+| COS | Token cost | How many model calls does this add and at what tier? | Any mechanism that invokes subagents |
+| UPS | Upstream compatibility | Does this close the door to contributing to the official firmware? | Refactors that touch code shared with Next-Flip |
+| MNT | Maintainability | Who maintains this in 6 months? | Decisions with new dependencies or frameworks |
+| UX | User ergonomics | Does it add friction for the Flipper operator? | Any UI, slash command, user flow |
+| ORT | Orthogonality | Is this feature orthogonal to existing ones, or does it couple them? | Firmware architecture decisions |
+| ENE | Energy/battery | Does it affect device consumption? | Code that touches radio, display, GPIO |
+| BIN | Binary size | Does it fit within available flash and RAM? | New apps, libraries, assets |
+| THR | Threading/timing | Are there race conditions or timing violations? | Code that touches FreeRTOS, interrupts, hardware |
 
-## Notas operacionales para `COR`
+## Operational notes for `COR`
 
-Añadido por ADR-0001 (`2026-05-23`). Estas notas son parte de la definición congelada del ángulo y deben leerse siempre que el master considere asignarlo.
+Added by ADR-0001 (`2026-05-23`). These notes are part of the frozen definition of the angle and must always be read whenever the master considers assigning it.
 
-### Excluido explícitamente de `COR`
+### Explicitly excluded from `COR`
 
-`COR` **no aplica** a:
+`COR` **does not apply** to:
 
-- Lógica de control y máquinas de estado.
+- Control logic and state machines.
 - UI, scenes, views.
-- Scheduling, threading, timing (esto último cae en `THR`).
-- Lifecycle de recursos, recuperación de fallos, manejo de errores estructurales (eso es `ROB`).
+- Scheduling, threading, timing (the latter falls under `THR`).
+- Resource lifecycle, failure recovery, structural error handling (that is `ROB`).
 
-`COR` aplica solo cuando el resultado de la operación es comparable bit-a-bit o byte-a-byte con un esperado concreto.
+`COR` applies only when the result of the operation is comparable bit-for-bit or byte-for-byte against a concrete expected value.
 
-### Definición operacional de "elegible para `COR`"
+### Operational definition of "eligible for `COR`"
 
-Una decisión L3 es **elegible para `COR`** (campo `eligible_for_cor: true` en `decisions.jsonl`) si y solo si su enunciado del dossier menciona, de manera verificable por inspección, al menos uno de los siguientes criterios objetivos:
+An L3 decision is **eligible for `COR`** (field `eligible_for_cor: true` in `decisions.jsonl`) if and only if its dossier statement mentions, verifiably by inspection, at least one of the following objective criteria:
 
-- Involucra **I/O de protocolos físicos**: NFC, SubGHz, RFID, iButton, IR, BLE en su capa de frame/payload.
-- Involucra **parsing** de archivos estructurados con esquema (FAT, archivos `.sub`/`.nfc`/`.ir`, dumps de assets).
-- Involucra **migración** de archivos o estructuras con esquema definido.
-- Involucra **serialización/deserialización** entre representaciones (keystore, slots guardados, configuraciones persistidas).
+- Involves **physical protocol I/O**: NFC, SubGHz, RFID, iButton, IR, BLE at its frame/payload layer.
+- Involves **parsing** of structured files with a schema (FAT, `.sub`/`.nfc`/`.ir` files, asset dumps).
+- Involves **migration** of files or structures with a defined schema.
+- Involves **serialization/deserialization** between representations (keystore, saved slots, persisted configurations).
 
-Si una decisión L3 no cae en ninguno de los criterios anteriores, **no es elegible para `COR`** y el master debe marcar `eligible_for_cor: false` en su entrada del log.
+If an L3 decision does not fall under any of the above criteria, it is **not eligible for `COR`** and the master must mark `eligible_for_cor: false` in its log entry.
 
-### Guard de co-invocación `ROB`+`COR`
+### `ROB`+`COR` co-invocation guard
 
-Hasta la primera auditoría a 3 meses (`2026-08-23`, ver "Historial de cambios al catálogo"), si el master asigna **simultáneamente** `ROB` y `COR` al mismo Concilio, el dossier debe incluir una **justificación de una línea** explicando por qué la decisión requiere las dos lentes y no es expresable como una sola.
+Until the first 3-month audit (`2026-08-23`, see "Catalog change history"), if the master assigns `ROB` and `COR` **simultaneously** to the same Council, the dossier must include a **one-line justification** explaining why the decision requires both lenses and is not expressible as a single one.
 
 ## Wildcard
 
-Si ninguno de los 12 ángulos captura adecuadamente la perspectiva crítica para una decisión, el master puede definir un wildcard ad-hoc para esa sesión. Requisitos:
+If none of the 12 angles adequately captures the critical perspective for a decision, the master may define an ad-hoc wildcard for that session. Requirements:
 
-- Identificador temporal: `WILD-<timestamp>`.
-- Justificación expandida (3-5 líneas) sobre por qué los ángulos del catálogo no aplican.
-- La justificación se escribe a `.claude/state/wildcards.jsonl` con timestamp, ID del Concilio, ángulo wildcard, justificación.
-- Si `/flipper-review-wildcards` detecta el mismo wildcard recurrente, el usuario decide si promoverlo al catálogo mediante PR.
+- Temporary identifier: `WILD-<timestamp>`.
+- Expanded justification (3-5 lines) explaining why the catalog angles do not apply.
+- The justification is written to `.claude/state/wildcards.jsonl` with timestamp, Council ID, wildcard angle, justification.
+- If `/flipper-review-wildcards` detects the same wildcard recurring, the user decides whether to promote it to the catalog via PR.
 
-## Historial de cambios al catálogo
+## Catalog change history
 
-Esta sección es **append-only**. Cada entrada queda congelada con la fecha, el `council_id` de origen, el ID del ADR de cierre y la definición exacta aprobada. Refinamientos futuros generan **nueva entrada**, no edición in-place.
+This section is **append-only**. Each entry is frozen with the date, the originating `council_id`, the closing ADR ID, and the exact approved definition. Future refinements generate a **new entry**, not an in-place edit.
 
 ---
 
-### Entrada 1 — 2026-05-23 — Adición del ángulo `COR`
+### Entry 1 — 2026-05-23 — Addition of the `COR` angle
 
-- **Fecha**: `2026-05-23`
-- **`council_id` de origen**: `62978df1-a1f9-4e2d-8706-750d0ac18c3c`
-- **ADR de cierre**: [`ADR-0001-add-cor-angle.md`](../decisions/ADR-0001-add-cor-angle.md)
-- **Cambio**: añadido ángulo `COR` (Correctness); reformulación simultánea de `ROB` para excluir correctitud funcional.
+- **Date**: `2026-05-23`
+- **Originating `council_id`**: `62978df1-a1f9-4e2d-8706-750d0ac18c3c`
+- **Closing ADR**: [`ADR-0001-add-cor-angle.md`](../decisions/ADR-0001-add-cor-angle.md)
+- **Change**: added angle `COR` (Correctness); simultaneous reformulation of `ROB` to exclude functional correctness.
 
-**Definición congelada de `COR` aprobada en esta entrada:**
+**Frozen definition of `COR` approved in this entry:**
 
-> **Pregunta clave**: ¿Existe un caso de entrada concreto donde el output sea distinto del esperado en ≥1 bit, ≥1 byte, o ≥1 registro, y ese caso no esté cubierto por un test o invariante existente?
+> **Key question**: Is there a concrete input case where the output differs from the expected value by ≥1 bit, ≥1 byte, or ≥1 record, and that case is not covered by an existing test or invariant?
 >
-> **Aplicable cuando**: Deserialización de formatos estructurados (FAT, NFC dumps, SubGHz keystore, archivos `.sub`/`.nfc`/`.ir`); migraciones de archivos con esquema; parsing de protocolos con frame definido.
+> **Applicable when**: Deserialization of structured formats (FAT, NFC dumps, SubGHz keystore, `.sub`/`.nfc`/`.ir` files); schema-based file migrations; parsing of protocols with a defined frame.
 
-**Delimitación frente a `ROB`** (frase canónica):
+**Delimitation against `ROB`** (canonical phrase):
 
-> `COR` aplica cuando hay un esperado concreto comparable; `ROB` aplica cuando se afirma una propiedad sin contraejemplo concreto.
+> `COR` applies when there is a concrete comparable expected value; `ROB` applies when a property is asserted without a concrete counterexample.
 
-**Cláusula de retirada empírica (auditoría a 3 meses)**:
+**Empirical withdrawal clause (3-month audit)**:
 
 - **Owner**: `agent-architect`.
-- **Fecha de auditoría**: `2026-08-23` (3 meses desde aprobación).
-- **Disparadores de retirada (lógica OR — basta con que falle uno)**:
-  - **C3-N2 (uso bajo)**: menos de **2 invocaciones reales** de `COR` en la ventana de 3 meses.
-  - **C1-N1 (alto solape)**: más del **30% de los Concilios que co-asignaron `ROB`+`COR`** producen veredictos con razones textualmente solapantes en >70%.
-- **Comparador semántico para "razones solapantes"**: checklist de subtemas argumentados (lista cerrada: garantía estructural, contraejemplo concreto, lifecycle, parsing, integridad de datos, manejo de error, esquema/frame). Dos veredictos solapan si comparten >70% de la lista de subtemas argumentados. Comparador alternativo permitido: diff de tokens significativos con umbral 70%. La auditoría documenta cuál usó.
-- **Sink del resultado** (formato fijo, entrada futura en este historial):
-  - `{fecha, council_id_origen, invocaciones_observadas, decisión: mantener | retirar | reevaluar-a-6m}`
-- La entrada de auditoría debe registrarse **incluso si la decisión es mantener sin cambios** — la trazabilidad longitudinal del catálogo lo exige.
+- **Audit date**: `2026-08-23` (3 months from approval).
+- **Withdrawal triggers (OR logic — failing one is enough)**:
+  - **C3-N2 (low usage)**: fewer than **2 real invocations** of `COR` in the 3-month window.
+  - **C1-N1 (high overlap)**: more than **30% of Councils that co-assigned `ROB`+`COR`** produce verdicts with reasons textually overlapping by >70%.
+- **Semantic comparator for "overlapping reasons"**: checklist of argued sub-topics (closed list: structural guarantee, concrete counterexample, lifecycle, parsing, data integrity, error handling, schema/frame). Two verdicts overlap if they share >70% of the argued sub-topic list. Alternative comparator allowed: significant-token diff with a 70% threshold. The audit documents which one was used.
+- **Result sink** (fixed format, future entry in this history):
+  - `{date, originating_council_id, observed_invocations, decision: keep | withdraw | reevaluate-in-6m}`
+- The audit entry must be logged **even if the decision is to keep it unchanged** — the catalog's longitudinal traceability requires it.
 
-**Sobre el umbral 70%/30% (nota técnica de ronda 3)**: en la primera auditoría, el `agent-architect` debe calibrar el umbral manualmente sobre el corpus real (esperablemente <20 dossieres) antes de mecanizarlo. El umbral 70%/30% es la propuesta inicial; ajustes razonados se documentan en la entrada de auditoría.
+**On the 70%/30% threshold (round-3 technical note)**: at the first audit, `agent-architect` must manually calibrate the threshold against the real corpus (expected <20 dossiers) before mechanizing it. The 70%/30% threshold is the initial proposal; reasoned adjustments are documented in the audit entry.
 
-**Estado de materialización**: aplicado en este commit. Modificaciones acompañantes:
-- `.claude/design/decisions-schema.md`: añadido campo opcional `eligible_for_cor`.
-- `.claude/design/phases.md`: añadida entrada de calendario activo para `2026-08-23`.
-
+**Materialization status**: applied in this commit. Accompanying modifications:
+- `.claude/design/decisions-schema.md`: added optional field `eligible_for_cor`.
+- `.claude/design/phases.md`: added an active calendar entry for `2026-08-23`.
 

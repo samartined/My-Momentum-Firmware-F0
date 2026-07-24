@@ -1,38 +1,38 @@
-# Lista de operaciones irreversibles
+# List of irreversible operations
 
-Este documento es la lista cerrada de operaciones consideradas "irreversibles" por el sistema agente. Cualquier operación que matchee uno de los patrones aquí descritos dispara automáticamente clasificación L3 (Concilio Tripartito) y deshabilita L1 (master solo) y L2 (`/devils-advocate`).
+This document is the closed list of operations considered "irreversible" by the agent system. Any operation that matches one of the patterns described here automatically triggers L3 classification (Tripartite Council) and disables L1 (master alone) and L2 (`/devils-advocate`).
 
-Resolución del Concilio: D19.
+Council resolution: D19.
 
-## Patrón de uso
+## Matching pattern
 
-- El matching es automático vía script (regex sobre el comando o la operación que el master propone ejecutar).
-- El script vive en `.claude/scripts/check-irreversibility.sh` (creado en Fase 1).
-- Si el script reporta match positivo, el master debe convocar al Concilio (L3) o escalar al usuario (L4); no puede decidir solo (L1) ni invocar `/devils-advocate` (L2).
-- Extensión de la lista: vía PR humano. No se permite añadir patrones en runtime.
+- Matching is automatic via script (regex over the command or operation that the master proposes to execute).
+- The script lives at `.claude/scripts/check-irreversibility.sh` (created in Phase 1).
+- If the script reports a positive match, the master must convene the Council (L3) or escalate to the user (L4); it cannot decide alone (L1) nor invoke `/devils-advocate` (L2).
+- Extending the list: via human PR. Adding patterns at runtime is not allowed.
 
-## Lista cerrada (9 entradas)
+## Closed list (9 entries)
 
-| # | Operación | Patrón regex (orientativo) | Razón |
+| # | Operation | Regex pattern (indicative) | Reason |
 |---|-----------|----------------------------|-------|
-| 1 | `git push --force` o reescritura de historia publicada | `git\s+push\s+.*--force` o `git\s+push\s+-f` | Pérdida irrecuperable del historial remoto. |
-| 2 | Modificación o eliminación de archivos en `.claude/design/` | path matches `\.claude/design/.*` | Auto-modificación del sistema agente. |
-| 3 | Borrado de archivos versionados sin equivalente en backup obvio | `rm\s+.*` sobre paths versionados | Pérdida sin trazabilidad. |
-| 4 | Cambio en `targets/` o `furi/` que afecte ABI o layout de memoria del firmware | path matches `targets/.*` o `furi/.*` (con análisis adicional) | Rompe binarios desplegados. |
-| 5 | Creación o eliminación de subagente | path matches `\.claude/agents/.*\.md` | Delta sobre el registry, afecta routing. |
-| 6 | Modificación de hooks o `settings.json` que altere policy de permisos | path matches `\.claude/settings\.json` o `\.githooks/.*` | Cambia el modelo de seguridad. |
-| 7 | Flash del dispositivo Flipper físico (bootloader, fuses, secure region) | `./fbt flash.*` o `dfu-util.*` | Brick potencial del hardware. |
-| 8 | Push a remote `Next-Flip/Momentum-Firmware` | URL matches `Next-Flip/` | Exposición de código al repo oficial bloqueado. |
-| 9 | Eliminación de logs de auditoría (`.claude/state/*.jsonl`) | `rm.*\.claude/state/.*\.jsonl` | Destruye observabilidad del sistema. |
+| 1 | `git push --force` or rewriting published history | `git\s+push\s+.*--force` or `git\s+push\s+-f` | Unrecoverable loss of remote history. |
+| 2 | Modification or deletion of files in `.claude/design/` | path matches `\.claude/design/.*` | Self-modification of the agent system. |
+| 3 | Deletion of versioned files with no obvious backup equivalent | `rm\s+.*` on versioned paths | Loss without traceability. |
+| 4 | Change in `targets/` or `furi/` that affects ABI or firmware memory layout | path matches `targets/.*` or `furi/.*` (with additional analysis) | Breaks deployed binaries. |
+| 5 | Creation or deletion of a subagent | path matches `\.claude/agents/.*\.md` | Delta over the registry, affects routing. |
+| 6 | Modification of hooks or `settings.json` that alters permission policy | path matches `\.claude/settings\.json` or `\.githooks/.*` | Changes the security model. |
+| 7 | Flashing the physical Flipper device (bootloader, fuses, secure region) | `./fbt flash.*` or `dfu-util.*` | Potential hardware brick. |
+| 8 | Push to the `Next-Flip/Momentum-Firmware` remote | URL matches `Next-Flip/` | Exposes code to the blocked official repo. |
+| 9 | Deletion of audit logs (`.claude/state/*.jsonl`) | `rm.*\.claude/state/.*\.jsonl` | Destroys system observability. |
 
-## Extensión de la lista
+## Extending the list
 
-Para añadir una nueva entrada:
+To add a new entry:
 
-1. Abrir PR al fork personal modificando este archivo y `.claude/scripts/check-irreversibility.sh`.
-2. La justificación del PR debe incluir un incidente concreto o riesgo identificado, no hipótesis genéricas.
-3. El PR pasa por el Concilio (L3) antes de mergear.
+1. Open a PR to the personal fork modifying this file and `.claude/scripts/check-irreversibility.sh`.
+2. The PR's justification must include a concrete incident or identified risk, not generic hypotheses.
+3. The PR goes through the Council (L3) before merging.
 
-## Historial de extensiones
+## Extension history
 
-(Esta sección se actualiza al final de cada PR que extienda la lista.)
+(This section is updated at the end of each PR that extends the list.)

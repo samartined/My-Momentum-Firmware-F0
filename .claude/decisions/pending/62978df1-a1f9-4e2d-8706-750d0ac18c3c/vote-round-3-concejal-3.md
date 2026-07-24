@@ -6,29 +6,29 @@ ronda: 3
 timestamp: 2026-05-23T19:35:00Z
 ---
 
-# Validación cruzada del concejal 3 — ronda 3
+# Council Member 3 cross-validation — round 3
 
-## Evaluación de condiciones de los otros concejales
+## Evaluation of the other council members' conditions
 
-### Condición C1-N1 (auditoría a 3m con métrica de disjunción: co-asignación ROB+COR con >70% razones solapantes; si >30% de casos → retirar)
-- Decisión: accepted-with-note
-- Razón: Aditivamente útil desde MNT (instrumenta la cláusula de retirada con criterio objetivo), pero el predicado "razones textualmente solapantes >70%" requiere comparación semántica entre veredictos en prosa y, sin herramienta automatizada, el architect a 3 meses recaerá en juicio subjetivo — la nota es que la implementación del comparador debe quedar especificada (diff de tokens, embedding, o checklist de subtemas) en la misma entrada de historial, no diferida.
+### Condition C1-N1 (3-month audit with a disjunction metric: ROB+COR co-assignment with >70% overlapping reasons; if >30% of cases → withdraw)
+- Decision: accepted-with-note
+- Reason: additively useful from MNT (it instruments the withdrawal clause with an objective criterion), but the predicate "textually overlapping reasons >70%" requires semantic comparison between prose verdicts and, without an automated tool, the architect at 3 months will fall back on subjective judgment — the note is that the implementation of the comparator must be specified (token diff, embeddings, or a sub-topic checklist) in the same history entry, not deferred.
 
-### Condición C1-N2 (guard de auto-veto: justificación de una línea en dossier cuando master co-invoca ROB+COR, hasta auditoría a 3m)
-- Decisión: accepted
-- Razón: Trazabilidad ligera y proporcionada; produce exactamente los datapoints que la auditoría empírica necesita, sin sobrecargar el flujo del master. Refuerza la propiedad de catálogo cerrado disjunto.
+### Condition C1-N2 (auto-veto guard: 1-line justification in the dossier when the master co-invokes ROB+COR, until the 3-month audit)
+- Decision: accepted
+- Reason: light and proportionate traceability; produces exactly the datapoints the empirical audit needs, without overloading the master's flow. Reinforces the closed, disjoint catalog property.
 
-### Condición C2-N1 (umbral de retirada como query reproducible sobre `decisions.jsonl`, con campo `eligible_for_cor` marcado en clasificación)
-- Decisión: accepted
-- Razón: Convierte la cláusula de retirada en un mecanismo operacional verificable, no en prosa interpretable. Esto es exactamente lo que mi condición nueva 1 de ronda 2 demandaba (owner + sink + métrica); C2-N1 cubre el sink con precisión técnica.
+### Condition C2-N1 (withdrawal threshold as a reproducible query over `decisions.jsonl`, with an `eligible_for_cor` field marked at classification time)
+- Decision: accepted
+- Reason: turns the withdrawal clause into a verifiable operational mechanism, not interpretable prose. This is exactly what my round 2 new condition 1 demanded (owner + sink + metric); C2-N1 covers the sink with technical precision.
 
-### Condición C2-N2 (definición operacional de "elegible para COR" documentada en `council-angles.md` junto a la entrada)
-- Decisión: accepted
-- Razón: Sin esta definición, el divisor del cociente "<10%" es indeterminado y la cláusula colapsa. Además, mantiene la trazabilidad longitudinal del catálogo (la definición vive junto al ángulo, no en código disperso).
+### Condition C2-N2 (operational definition of "eligible for COR" documented in `council-angles.md` next to the entry)
+- Decision: accepted
+- Reason: without this definition, the divisor in the "<10%" ratio is indeterminate and the clause collapses. It also maintains the catalog's longitudinal traceability (the definition lives next to the angle, not scattered in code).
 
-### Condición C2-N3 (revisión obligatoria a 3m con calendario activo, no opcional)
-- Decisión: accepted
-- Razón: Las cláusulas de retirada que dependen de iniciativa proactiva sistemáticamente no se ejecutan — esto es deuda de mantenimiento conocida. El calendario activo (cron, recordatorio en `phases.md`) es el mecanismo correcto para garantizar que la cláusula se materialice. Complementa mi propia condición nueva 1 de ronda 2 (architect como owner) con el disparador temporal.
+### Condition C2-N3 (mandatory 3-month review with an active schedule, not optional)
+- Decision: accepted
+- Reason: withdrawal clauses that depend on proactive initiative systematically go unexecuted — this is known maintenance debt. The active schedule (cron, reminder in `phases.md`) is the correct mechanism to guarantee the clause materializes. Complements my own round 2 new condition 1 (architect as owner) with the temporal trigger.
 
-## Voto final de ronda 3
-SÍ (todas las condiciones aceptadas; C1-N1 con nota técnica de implementación, no veto)
+## Final round 3 vote
+YES (all conditions accepted; C1-N1 with a technical implementation note, not a veto)

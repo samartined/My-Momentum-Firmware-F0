@@ -1,51 +1,51 @@
-# Política de coste y techo presupuestario
+# Cost policy and budget ceiling
 
-Este documento define el techo de coste por sesión del sistema multi-agente y la tabla de conversión tokens→USD usada por los hooks de logging.
+This document defines the per-session cost ceiling for the multi-agent system and the tokens→USD conversion table used by the logging hooks.
 
-Resolución del Concilio: D24.
+Council resolution: D24.
 
-## Niveles de actuación
+## Action levels
 
-| Umbral | Acción | Mecanismo |
+| Threshold | Action | Mechanism |
 |--------|--------|-----------|
-| 60% del presupuesto | Soft warning | Hook `PostToolUse` imprime aviso al usuario tras la siguiente respuesta |
-| 100% del presupuesto | (Fase 1) Continúa con warning persistente | Hook sigue emitiendo cada N invocaciones |
-| 200% del presupuesto (hard cap) | Bloqueo de invocaciones a subagentes Opus (architect, concilio) — solo Sonnet permitido | Hook `PreToolUse` aborta invocaciones que excederían el cap |
+| 60% of budget | Soft warning | `PostToolUse` hook prints a notice to the user after the next response |
+| 100% of budget | (Phase 1) Continues with persistent warning | Hook keeps emitting every N invocations |
+| 200% of budget (hard cap) | Blocks invocations to Opus subagents (architect, council) — only Sonnet allowed | `PreToolUse` hook aborts invocations that would exceed the cap |
 
-En Fase 1, el hard cap solo dispara en patologías. La calibración de soft warning y hard cap se ajusta empíricamente en Fase 2+ con datos reales del log.
+In Phase 1, the hard cap only triggers on pathological cases. Calibration of the soft warning and hard cap is adjusted empirically in Phase 2+ with real log data.
 
-## Presupuesto
+## Budget
 
-| Parámetro | Valor por defecto | Configurable |
+| Parameter | Default value | Configurable |
 |-----------|-------------------|--------------|
-| `session_budget_usd` | 50.00 | Sí, en este archivo |
-| `warning_threshold_pct` | 0.60 | Sí |
-| `hard_cap_pct` | 2.00 (es decir, 2x del budget) | Sí |
+| `session_budget_usd` | 50.00 | Yes, in this file |
+| `warning_threshold_pct` | 0.60 | Yes |
+| `hard_cap_pct` | 2.00 (i.e. 2x the budget) | Yes |
 
-## Tabla tokens→USD
+## Tokens→USD table
 
-**Última actualización**: 2026-05-20  
-**Fuente**: https://docs.anthropic.com/en/docs/about-claude/pricing (a confirmar manualmente)
+**Last updated**: 2026-05-20  
+**Source**: https://docs.anthropic.com/en/docs/about-claude/pricing (to be confirmed manually)
 
-| Modelo | Input ($/M tokens) | Output ($/M tokens) | Cache write ($/M) | Cache read ($/M) |
+| Model | Input ($/M tokens) | Output ($/M tokens) | Cache write ($/M) | Cache read ($/M) |
 |--------|---------------------|---------------------|-------------------|------------------|
-| claude-opus-4-7 | (pendiente) | (pendiente) | (pendiente) | (pendiente) |
-| claude-sonnet-4-6 | (pendiente) | (pendiente) | (pendiente) | (pendiente) |
-| claude-haiku-4-5-20251001 | (pendiente) | (pendiente) | (pendiente) | (pendiente) |
+| claude-opus-4-7 | (pending) | (pending) | (pending) | (pending) |
+| claude-sonnet-4-6 | (pending) | (pending) | (pending) | (pending) |
+| claude-haiku-4-5-20251001 | (pending) | (pending) | (pending) | (pending) |
 
-(Los valores numéricos los completa el usuario manualmente desde la pricing page actual.)
+(The numeric values are filled in manually by the user from the current pricing page.)
 
-## Schema del log de costes
+## Cost log schema
 
-Una línea = un objeto JSON = una invocación de subagente. Archivo: `.claude/state/costs.jsonl` (append-only, gitignored).
+One line = one JSON object = one subagent invocation. File: `.claude/state/costs.jsonl` (append-only, gitignored).
 
-| Campo | Tipo | Descripción |
+| Field | Type | Description |
 |-------|------|-------------|
 | `timestamp` | string (ISO 8601) | |
 | `invocation_id` | string (UUIDv7) | |
-| `agent_name` | string | Nombre del subagente invocado |
-| `model` | string | Identificador del modelo |
+| `agent_name` | string | Name of the invoked subagent |
+| `model` | string | Model identifier |
 | `tokens_in` | integer | |
 | `tokens_out` | integer | |
-| `cost_usd` | float | Calculado vía tabla arriba |
-| `parent_context` | string | Sesión / decisión / task ID padre |
+| `cost_usd` | float | Calculated via the table above |
+| `parent_context` | string | Parent session / decision / task ID |

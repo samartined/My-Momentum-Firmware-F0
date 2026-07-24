@@ -1,57 +1,58 @@
 #!/usr/bin/env bash
-# setup.sh — setup COMPLETO/manual del sistema multi-agente tras git clone (D22)
+# setup.sh — FULL/manual setup of the multi-agent system after git clone (D22)
 #
-# Uso:
+# Usage:
 #   ./.claude/scripts/setup.sh
 #
-# NOTA: el arranque MÍNIMO e idempotente lo hace ahora bootstrap.sh, que además
-# corre automáticamente en cada SessionStart de Claude Code (hook en
-# settings.json). setup.sh es el superset MANUAL: hace todo lo de bootstrap.sh
-# + validación exhaustiva + instalación OPCIONAL del framework pre-commit.
+# NOTE: the MINIMAL, idempotent startup is now handled by bootstrap.sh, which
+# also runs automatically on every SessionStart of Claude Code (hook in
+# settings.json). setup.sh is the MANUAL superset: it does everything
+# bootstrap.sh does + exhaustive validation + OPTIONAL installation of the
+# pre-commit framework.
 #
-# Hace:
-#   1. Ejecuta bootstrap.sh (core.hooksPath, permisos, siembra de state/).
-#   2. Verifica que TODOS los archivos esperados del sistema agente existen.
-#   3. Instala pre-commit si está disponible (OPCIONAL — no falla si no lo está;
-#      el guardrail pre-push ya queda activo vía core.hooksPath en el paso 1).
+# Does:
+#   1. Runs bootstrap.sh (core.hooksPath, permissions, seeding of state/).
+#   2. Verifies that ALL expected files of the agent system exist.
+#   3. Installs pre-commit if available (OPTIONAL — does not fail if it isn't;
+#      the pre-push guardrail is already active via core.hooksPath in step 1).
 #
-# Salida:
-#   - exit 0: setup completado, sistema agente listo.
-#   - exit != 0: diagnóstico claro en stderr indicando qué falla.
+# Output:
+#   - exit 0: setup complete, agent system ready.
+#   - exit != 0: clear diagnostics on stderr indicating what is failing.
 
 set -uo pipefail
 
 REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null)" || {
-  echo "ERROR: este script debe ejecutarse dentro de un repositorio git." >&2
+  echo "ERROR: this script must be run inside a git repository." >&2
   exit 2
 }
 
 cd "$REPO_ROOT"
 
-echo "==> Setup del sistema multi-agente Momentum Firmware"
+echo "==> Setup of the Momentum Firmware multi-agent system"
 
-# 1. Arranque idempotente (activa git hooks vía core.hooksPath, permisos, state/)
-echo "    [1/3] Ejecutando bootstrap idempotente..."
+# 1. Idempotent startup (activates git hooks via core.hooksPath, permissions, state/)
+echo "    [1/3] Running idempotent bootstrap..."
 if [[ -x ".claude/scripts/bootstrap.sh" ]]; then
   ./.claude/scripts/bootstrap.sh
 else
   bash ".claude/scripts/bootstrap.sh"
 fi
-echo "          OK (core.hooksPath -> .githooks, state/ sembrado)"
+echo "          OK (core.hooksPath -> .githooks, state/ seeded)"
 
-# 1b. pre-commit OPCIONAL — el guardrail ya está activo vía core.hooksPath.
+# 1b. OPTIONAL pre-commit — the guardrail is already active via core.hooksPath.
 if command -v pre-commit >/dev/null 2>&1; then
-  echo "    [1b] pre-commit detectado — instalando hooks adicionales..."
+  echo "    [1b] pre-commit detected — installing additional hooks..."
   pre-commit install --install-hooks --hook-type pre-commit --hook-type pre-push >/dev/null 2>&1 \
     && echo "          OK" \
-    || echo "          AVISO: 'pre-commit install' falló (no crítico; core.hooksPath ya cubre el guardrail)." >&2
+    || echo "          WARNING: 'pre-commit install' failed (not critical; core.hooksPath already covers the guardrail)." >&2
 else
-  echo "    [1b] 'pre-commit' no instalado — se omite (opcional)." >&2
-  echo "          El guardrail pre-push ya está activo vía core.hooksPath." >&2
+  echo "    [1b] 'pre-commit' not installed — skipping (optional)." >&2
+  echo "          The pre-push guardrail is already active via core.hooksPath." >&2
 fi
 
-# 2. Validación binaria: existen los archivos esperados del sistema agente
-echo "    [2/3] Verificando archivos del sistema agente..."
+# 2. Binary validation: expected agent-system files exist
+echo "    [2/3] Verifying agent system files..."
 
 EXPECTED_FILES=(
   "CLAUDE.md"
@@ -89,18 +90,18 @@ for f in "${EXPECTED_FILES[@]}"; do
 done
 
 if [[ ${#MISSING[@]} -gt 0 ]]; then
-  echo "ERROR: faltan los siguientes archivos esperados del sistema agente:" >&2
+  echo "ERROR: the following expected agent-system files are missing:" >&2
   for f in "${MISSING[@]}"; do
     echo "  - $f" >&2
   done
   echo "" >&2
-  echo "Posible causa: clone parcial, .gitignore mal configurado, o estás en una rama anterior a la Fase 1." >&2
+  echo "Possible cause: partial clone, misconfigured .gitignore, or you are on a branch predating Phase 1." >&2
   exit 5
 fi
-echo "          OK (${#EXPECTED_FILES[@]} archivos verificados)"
+echo "          OK (${#EXPECTED_FILES[@]} files verified)"
 
-# 3. Permisos de ejecución
-echo "    [3/3] Otorgando permisos de ejecución..."
+# 3. Execute permissions
+echo "    [3/3] Granting execute permissions..."
 EXEC_FILES=(
   ".claude/scripts/check-irreversibility.sh"
   ".claude/scripts/check-git-checkout-clean.sh"
@@ -115,8 +116,8 @@ done
 echo "          OK"
 
 echo ""
-echo "==> Setup completado. El sistema multi-agente está listo."
-echo "    Próximos pasos:"
-echo "      - Lee CLAUDE.md para entender tu rol como master de la conversación principal."
-echo "      - Lee .claude/design/system-design.md para el diseño completo (D1-D27)."
+echo "==> Setup complete. The multi-agent system is ready."
+echo "    Next steps:"
+echo "      - Read CLAUDE.md to understand your role as master of the main conversation."
+echo "      - Read .claude/design/system-design.md for the full design (D1-D27)."
 exit 0

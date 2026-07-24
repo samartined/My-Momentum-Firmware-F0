@@ -1,69 +1,69 @@
 #!/usr/bin/env bash
-# Wrapper de Claude Code PreToolUse hook sobre Bash.
+# Claude Code PreToolUse hook wrapper over Bash.
 #
-# Filtra a `git checkout <branch-existente>` (excluyendo `git checkout -b/-B`)
-# y verifica que el árbol git esté limpio antes de permitir el comando.
+# Filters for `git checkout <existing-branch>` (excluding `git checkout -b/-B`)
+# and verifies that the git tree is clean before allowing the command.
 #
-# Resolución del Concilio: D14 (capa 4 de guardrails — git checkout condicional).
+# Council resolution: D14 (guardrail layer 4 — conditional git checkout).
 #
-# Input: stdin JSON con campos session_id, cwd, hook_event_name, tool_name,
-#        tool_input.command (el comando bash completo).
+# Input: stdin JSON with fields session_id, cwd, hook_event_name, tool_name,
+#        tool_input.command (the full bash command).
 #
-# Salida:
-# - exit 0: permitir el comando (no es git checkout, o es git checkout -b,
-#   o el árbol está limpio).
-# - exit 2: bloquear el comando con mensaje a stderr; Claude Code lo mostrará
-#   al usuario que decide si reformular la operación.
+# Output:
+# - exit 0: allow the command (it's not git checkout, or it is git checkout -b,
+#   or the tree is clean).
+# - exit 2: block the command with a message to stderr; Claude Code will show
+#   it to the user, who decides whether to reformulate the operation.
 
 set -uo pipefail
 
-# Leer JSON del hook desde stdin
+# Read hook JSON from stdin
 INPUT="$(cat 2>/dev/null || echo '{}')"
 
-# Extraer el comando bash con jq
+# Extract the bash command with jq
 COMMAND="$(echo "$INPUT" | jq -r '.tool_input.command // empty' 2>/dev/null)"
 
 if [[ -z "$COMMAND" ]]; then
-  # Sin comando, no podemos validar. Permitir por defecto.
+  # No command, we can't validate. Allow by default.
   exit 0
 fi
 
-# Filtrar: solo procesar comandos que contienen `git checkout`
+# Filter: only process commands that contain `git checkout`
 if ! echo "$COMMAND" | grep -qE '(^|[[:space:]&|;])git[[:space:]]+checkout([[:space:]]|$)'; then
   exit 0
 fi
 
-# Excluir creación de branch: `git checkout -b <name>` o `git checkout -B <name>`
+# Exclude branch creation: `git checkout -b <name>` or `git checkout -B <name>`
 if echo "$COMMAND" | grep -qE 'git[[:space:]]+checkout[[:space:]]+(-b|-B)([[:space:]]|$)'; then
   exit 0
 fi
 
-# Excluir checkout de archivos específicos (no de branch): `git checkout -- <file>` o `git checkout <branch> -- <file>`
-# Estos sí son potencialmente destructivos sobre archivos, pero el guardrail principal
-# es para el cambio de branch. Los matcheamos al script estándar pero permitimos por ahora.
-# (Heurística: si hay un `--` se asume restore de archivos, no de branch.)
+# Exclude checkout of specific files (not a branch): `git checkout -- <file>` or `git checkout <branch> -- <file>`
+# These are potentially destructive on files too, but the main guardrail
+# is for branch switching. We match them against the standard script but allow for now.
+# (Heuristic: if there's a `--` we assume file restore, not branch checkout.)
 if echo "$COMMAND" | grep -qE 'git[[:space:]]+checkout[[:space:]]+.*--[[:space:]]'; then
   exit 0
 fi
 
-# Llegamos aquí: es `git checkout <branch-existente>`. Validar árbol limpio.
+# We got here: it's `git checkout <existing-branch>`. Validate clean tree.
 SCRIPT_DIR="$(dirname "$(realpath "$0")")"
 HELPER="$SCRIPT_DIR/../scripts/check-git-checkout-clean.sh"
 
 if [[ ! -x "$HELPER" ]]; then
-  echo "WARN: $HELPER no encontrado o no ejecutable. Permitiendo por defecto." >&2
+  echo "WARN: $HELPER not found or not executable. Allowing by default." >&2
   exit 0
 fi
 
-# Cambiar al cwd que viene en el input para que el helper opere en el repo correcto
+# Change to the cwd that comes in the input so the helper operates on the correct repo
 CWD="$(echo "$INPUT" | jq -r '.cwd // empty' 2>/dev/null)"
 if [[ -n "$CWD" && -d "$CWD" ]]; then
   cd "$CWD" || exit 0
 fi
 
-# Invocar helper. Si exit != 0, bloqueamos con exit 2 (Claude Code mostrará el stderr).
+# Invoke helper. If exit != 0, we block with exit 2 (Claude Code will show the stderr).
 if ! "$HELPER"; then
-  # El helper ya imprimió diagnóstico en stderr. Propagamos como exit 2.
+  # The helper already printed diagnostics to stderr. We propagate as exit 2.
   exit 2
 fi
 

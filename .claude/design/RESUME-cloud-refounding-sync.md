@@ -1,77 +1,77 @@
-# RESUME — Portabilidad a la nube, re-fundación del fork y sync con upstream
+# RESUME — Cloud portability, fork refounding, and upstream sync
 
-## Resumen ultracorto
+## Ultra-short summary
 
-Sesión centrada en que el fork sea **usable desde Claude Code Cloud** y **sincronizable con el firmware oficial**. Se logró: (1) auto-bootstrap en cada arranque de sesión; (2) diagnóstico de que el fork era un snapshot sin historia compartida con upstream; (3) **re-fundación** del fork sobre la historia real de `upstream/dev`; (4) renombrado de ramas para que la default limpia se llame `my-momentum-firmware`; (5) preservación de la única personalización real (binarios GhostESP ESP32-S2); (6) validación en hardware (compiló + flasheado); (7) workflow de sincronización con upstream vía PR, endurecido con un PAT tras investigación adversarial.
+Session focused on making the fork **usable from Claude Code Cloud** and **syncable with the official firmware**. Achieved: (1) auto-bootstrap on every session start; (2) diagnosis that the fork was a snapshot with no history shared with upstream; (3) **refounding** of the fork on the real history of `upstream/dev`; (4) branch renaming so the clean default is called `my-momentum-firmware`; (5) preservation of the only real customization (GhostESP ESP32-S2 binaries); (6) validation on hardware (compiled + flashed); (7) upstream sync workflow via PR, hardened with a PAT after adversarial investigation.
 
-Este RESUME es autocontenido: una sesión nueva (local o nube) puede leer `CLAUDE.md` + este archivo y continuar sin más historial.
+This RESUME is self-contained: a new session (local or cloud) can read `CLAUDE.md` + this file and continue without any further history.
 
 ---
 
-## Estado del repo (a 2026-07-24)
+## Repo status (as of 2026-07-24)
 
-### Ramas (remoto `origin` = `samartined/My-Momentum-Firmware-F0`, ÚNICO remote)
+### Branches (remote `origin` = `samartined/My-Momentum-Firmware-F0`, the ONLY remote)
 
-| Rama | Rol | Base de historia |
+| Branch | Role | History base |
 |---|---|---|
-| **`my-momentum-firmware`** (DEFAULT) | Línea go-forward. Base limpia de upstream + personalizaciones. | Historia real de `upstream/dev` (comparte ancestro → sincronizable) |
-| `legacy/snapshot-2026-02` | Archivo del fork viejo (snapshot aplanado feb-2026). NO borrar sin motivo. | Historia huérfana, sin relación con upstream |
-| `sync/upstream-dev` | Rama espejo de `upstream/dev` que mantiene el workflow de sync. | Espejo de upstream |
-| `my-momentum/feature/multi-agent-system-v1` | Rama de trabajo histórica del sistema agente. **Basada en la historia vieja huérfana** → NO fusionar contra la default. | Historia vieja |
+| **`my-momentum-firmware`** (DEFAULT) | Go-forward line. Clean base from upstream + customizations. | Real history of `upstream/dev` (shares an ancestor → syncable) |
+| `legacy/snapshot-2026-02` | Archive of the old fork (flattened snapshot, Feb 2026). Do NOT delete without cause. | Orphan history, unrelated to upstream |
+| `sync/upstream-dev` | Mirror branch of `upstream/dev` maintained by the sync workflow. | Mirror of upstream |
+| `my-momentum/feature/multi-agent-system-v1` | Historical working branch of the agent system. **Based on the old orphan history** → do NOT merge against the default. | Old history |
 
-**IMPORTANTE:** el trabajo nuevo del sistema agente va sobre **`my-momentum-firmware`** (la default re-fundada), NO sobre la vieja feature branch (que quedó anclada a la historia huérfana).
+**IMPORTANT:** new agent-system work goes on **`my-momentum-firmware`** (the refounded default), NOT the old feature branch (which stayed anchored to the orphan history).
 
-### Contenido clave presente en `my-momentum-firmware`
+### Key content present on `my-momentum-firmware`
 
-- `.claude/**` + `CLAUDE.md` — sistema multi-agente completo.
-- `.github/workflows/sync-upstream.yml` — workflow de sync (ver abajo).
-- `custom/ghostesp-s2/` — binarios GhostESP ESP32-S2 (`bootloader.bin`, `partition-table.bin`, `Ghost_ESP_IDF.bin`) + `README.md` + `deploy-to-esp-flasher.sh`. Es la ÚNICA personalización de firmware real; vive fuera del submódulo `applications/external` (que apunta al oficial `Next-Flip/Momentum-Apps`).
-- Sin `build/` ni `toolchain/` versionados (usa la estructura del oficial con 14 submódulos).
+- `.claude/**` + `CLAUDE.md` — full multi-agent system.
+- `.github/workflows/sync-upstream.yml` — sync workflow (see below).
+- `custom/ghostesp-s2/` — GhostESP ESP32-S2 binaries (`bootloader.bin`, `partition-table.bin`, `Ghost_ESP_IDF.bin`) + `README.md` + `deploy-to-esp-flasher.sh`. This is the ONLY real firmware customization; it lives outside the `applications/external` submodule (which points to the official `Next-Flip/Momentum-Apps`).
+- No `build/` or `toolchain/` under version control (uses the official structure with 14 submodules).
 
-### Validación en hardware (hecha)
+### Hardware validation (done)
 
-Worktree limpio + `git submodule update --init --recursive` + `./fbt` → `firmware.dfu` OK. FAPs `ghost_esp` y `esp_flasher` compilan (APPCHK OK). Flasheado al Flipper con `./fbt flash_usb` con éxito.
-Gotcha del host Linux: `cdc_acm` no estaba cargado → `sudo modprobe cdc_acm` + replug físico para que aparezca `/dev/ttyACM0`.
-
----
-
-## Auto-bootstrap para la nube (CHANGELOG 0.1.6)
-
-- Hook `SessionStart` en `.claude/settings.json` → ejecuta `.claude/scripts/bootstrap.sh` en cada arranque.
-- `bootstrap.sh` (idempotente, dependency-free): `git config core.hooksPath .githooks` (activa el guardrail pre-push sin `pre-commit`), permisos +x, siembra `.claude/state/` (gitignored).
-- Salvedad: no está 100% garantizado que todos los modos headless de la nube disparen `SessionStart`; degradación benigna (correr `bootstrap.sh`/`setup.sh` a mano).
+Clean worktree + `git submodule update --init --recursive` + `./fbt` → `firmware.dfu` OK. The `ghost_esp` and `esp_flasher` FAPs build (APPCHK OK). Flashed to the Flipper with `./fbt flash_usb` successfully.
+Linux host gotcha: `cdc_acm` wasn't loaded → `sudo modprobe cdc_acm` + a physical replug for `/dev/ttyACM0` to appear.
 
 ---
 
-## Workflow de sincronización con upstream (CHANGELOG 0.1.7)
+## Auto-bootstrap for the cloud (CHANGELOG 0.1.6)
 
-Archivo: `.github/workflows/sync-upstream.yml`. Trigger: `schedule` (lunes 06:00 UTC) + `workflow_dispatch`.
-
-**Qué hace:** en un runner efímero de GitHub añade el remote `Next-Flip/Momentum-Firmware` (SOLO en el runner, nunca en el clon → respeta D9/D25), hace `git fetch dev`, cuenta commits nuevos vs `my-momentum-firmware`, empuja la rama espejo `sync/upstream-dev`, y abre/actualiza un PR `sync/upstream-dev → my-momentum-firmware` para revisión humana. Dirección estrictamente inbound.
-
-**Autenticación (clave):** usa un **PAT** guardado como secret **`SYNC_PAT`** (fine-grained: Contents RW + Pull requests RW + Workflows RW, solo este repo) tanto en el `checkout` (para el push del mirror) como en `gh pr create`.
-
-**Por qué PAT y no el `GITHUB_TOKEN` del bot** (resultado de investigación adversarial, ver ADR-0002):
-1. El bot no puede crear PRs por defecto (ajuste repo "Allow GitHub Actions to create and approve pull requests"; estaba OFF por defecto en cuenta personal; ya activado — hubo latencia de propagación que explicó los fallos iniciales).
-2. **Bug latente decisivo:** el bot NUNCA puede empujar cambios en `.github/workflows/*` (no existe scope `workflows` para el `GITHUB_TOKEN`). El mirror de upstream incluye ficheros de workflow → el push del bot se rompería en cuanto upstream los tocara. El PAT (identidad de usuario) sí puede.
-
-**Estado de verificación:** smoke test verde (checkout con PAT OK, detecta "al día"). El camino completo push+PR con delta real **aún no se ha ejercitado** (el fork está en la punta de upstream → 0 commits nuevos). Se ejercitará en el próximo delta real del oficial o al pulsar "Run workflow" cuando haya novedades.
-
-**Activación ya hecha:** repo Settings → Actions → General → "Allow GitHub Actions to create and approve pull requests" activado; `default_workflow_permissions: write`.
+- `SessionStart` hook in `.claude/settings.json` → runs `.claude/scripts/bootstrap.sh` on every startup.
+- `bootstrap.sh` (idempotent, dependency-free): `git config core.hooksPath .githooks` (activates the pre-push guardrail without `pre-commit`), +x permissions, seeds `.claude/state/` (gitignored).
+- Caveat: it's not 100% guaranteed that every headless cloud mode triggers `SessionStart`; benign degradation (run `bootstrap.sh`/`setup.sh` by hand).
 
 ---
 
-## Pendientes
+## Upstream sync workflow (CHANGELOG 0.1.7)
 
-1. **Ejercitar el sync completo** (push+PR con delta real) en el próximo cambio de upstream. Si falla la creación del PR, el fallback previsto es imprimir la URL de compare.
-2. **Fase 2 del sistema agente** (NO empezada): 4 especialistas (`flipper-rf-subghz`, `flipper-nfc`, `flipper-app-builder`, `flipper-build-fbt`) + 4 docs curados. Ver `phases.md` y `RESUME-phase2-bootstrap.md`.
-3. **Revisión 1 calendarizada:** `2026-08-23`, auditoría a 3 meses del ángulo `COR` (ver `phases.md` → "Calendario activo de revisiones").
+File: `.github/workflows/sync-upstream.yml`. Trigger: `schedule` (Monday 06:00 UTC) + `workflow_dispatch`.
+
+**What it does:** on an ephemeral GitHub runner it adds the `Next-Flip/Momentum-Firmware` remote (ONLY on the runner, never in the clone → respects D9/D25), runs `git fetch dev`, counts new commits vs `my-momentum-firmware`, pushes the mirror branch `sync/upstream-dev`, and opens/updates a `sync/upstream-dev → my-momentum-firmware` PR for human review. Strictly inbound direction.
+
+**Authentication (key point):** uses a **PAT** stored as the secret **`SYNC_PAT`** (fine-grained: Contents RW + Pull requests RW + Workflows RW, this repo only) both for the `checkout` (to push the mirror) and for `gh pr create`.
+
+**Why a PAT and not the bot's `GITHUB_TOKEN`** (result of adversarial investigation, see ADR-0002):
+1. The bot cannot create PRs by default (repo setting "Allow GitHub Actions to create and approve pull requests"; was OFF by default on the personal account; already enabled now — there was propagation latency that explained the initial failures).
+2. **Decisive latent bug:** the bot can NEVER push changes to `.github/workflows/*` (there is no `workflows` scope for the `GITHUB_TOKEN`). The upstream mirror includes workflow files → the bot's push would break as soon as upstream touched them. The PAT (a user identity) can.
+
+**Verification status:** smoke test green (checkout with PAT OK, detects "up to date"). The full push+PR path with a real delta **has not been exercised yet** (the fork is at the tip of upstream → 0 new commits). It will be exercised on the next real upstream delta, or by pressing "Run workflow" once there's something new.
+
+**Activation already done:** repo Settings → Actions → General → "Allow GitHub Actions to create and approve pull requests" enabled; `default_workflow_permissions: write`.
 
 ---
 
-## Trampas y notas de continuidad
+## Pending items
 
-- **`decisions.jsonl` es gitignored → NO viaja** entre máquinas. La narrativa importante está en CHANGELOG + ADRs (que sí viajan). Decisión de mantenerlo gitignored (2026-07-24) por riesgo de conflictos de merge en un log append-only.
-- **Ficheros de memoria** (`~/.claude/.../memory/`) son LOCALES a la máquina, no viajan. Este RESUME + CHANGELOG + ADR son la fuente que sí viaja.
-- **Consistencia eventual de GitHub:** tanto el renombrado de la default como la activación del ajuste de PRs mostraron latencia de propagación. Si algo "debería funcionar según el API" pero falla, reintenta tras unos minutos antes de diagnosticar.
-- **Guardrail intacto:** nunca se añadió el remote `Next-Flip` al clon; el sync lo hace solo dentro del runner de GitHub.
+1. **Exercise the full sync** (push+PR with a real delta) on the next upstream change. If PR creation fails, the planned fallback is to print the compare URL.
+2. **Phase 2 of the agent system** (NOT started): 4 specialists (`flipper-rf-subghz`, `flipper-nfc`, `flipper-app-builder`, `flipper-build-fbt`) + 4 curated docs. See `phases.md` and `RESUME-phase2-bootstrap.md`.
+3. **Scheduled Review 1:** `2026-08-23`, 3-month audit of the `COR` angle (see `phases.md` → "Active review calendar").
+
+---
+
+## Traps and continuity notes
+
+- **`decisions.jsonl` is gitignored → does NOT travel** between machines. The important narrative is in the CHANGELOG + ADRs (which do travel). Decision to keep it gitignored (2026-07-24) due to the risk of merge conflicts in an append-only log.
+- **Memory files** (`~/.claude/.../memory/`) are LOCAL to the machine, they don't travel. This RESUME + CHANGELOG + ADR are the source that does travel.
+- **GitHub eventual consistency:** both the default-branch rename and enabling the PR setting showed propagation latency. If something "should work according to the API" but fails, retry after a few minutes before diagnosing.
+- **Guardrail intact:** the `Next-Flip` remote was never added to the clone; the sync does it only inside the GitHub runner.

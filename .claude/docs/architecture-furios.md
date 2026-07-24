@@ -1,39 +1,39 @@
-# FuriOS — runtime del firmware Momentum (Flipper Zero)
+# FuriOS — Momentum firmware runtime (Flipper Zero)
 
-Este documento es el **first-pass de alto nivel** sobre el runtime FuriOS que ejecuta el firmware Momentum/Flipper Zero. Sirve de contexto curado para los subagentes especialistas y para Claude Code en general cuando opera sobre `furi/`, `applications/`, o cualquier servicio que dependa del runtime.
+This document is a **high-level first pass** on the FuriOS runtime that powers the Momentum/Flipper Zero firmware. It serves as curated context for specialist subagents and for Claude Code in general when operating on `furi/`, `applications/`, or any service that depends on the runtime.
 
-Profundizaciones específicas (`subghz-internals.md`, `nfc-stack.md`, `build-system.md`, etc.) se añaden en Fases 2-3 conforme los especialistas los necesiten.
-
----
-
-## 1. Contexto y propósito
-
-**FuriOS** (Flipper Universal Registry Implementation) es la capa de runtime que envuelve **FreeRTOS** sobre el MCU **STM32WB55** del Flipper Zero. No es un kernel desde cero: es una capa de abstracción C que normaliza primitivas de FreeRTOS bajo una API coherente con naming `furi_*` y añade conceptos propios del producto (records, log unificado, app lifecycle, heap-tracing per-thread, etc.).
-
-**Hardware**: STM32WB55 dual-core (Cortex-M4 para aplicación, Cortex-M0+ dedicado al stack BLE). El firmware Momentum es un fork del firmware oficial Flipper con features adicionales (apps, SubGHz extendido, parches NFC, etc.).
-
-**Por qué FuriOS y no FreeRTOS pelado**: FreeRTOS provee primitivas crudas (xTaskCreate, xQueueCreate, xSemaphoreCreateMutex, etc.). FuriOS las envuelve para:
-- Naming consistente (`furi_thread_alloc` en lugar de `xTaskCreate`).
-- Encapsulación: tipos opacos (`FuriThread*` en lugar de `TaskHandle_t`).
-- Convenciones de error: `FuriStatus` enum en lugar de `BaseType_t`.
-- Features adicionales: heap tracing por thread, signal callbacks, application IDs.
-- Records: registro global de servicios accesible por nombre.
+Deeper dives (`subghz-internals.md`, `nfc-stack.md`, `build-system.md`, etc.) will be added in Phases 2-3 as the specialists need them.
 
 ---
 
-## 2. Arquitectura global y entry points
+## 1. Context and purpose
 
-### El boot
+**FuriOS** (Flipper Universal Registry Implementation) is the runtime layer that wraps **FreeRTOS** on the Flipper Zero's **STM32WB55** MCU. It is not a kernel built from scratch: it's a C abstraction layer that normalizes FreeRTOS primitives under a coherent API with `furi_*` naming and adds product-specific concepts (records, unified logging, app lifecycle, per-thread heap tracing, etc.).
 
-1. **`main()`** (no en `furi/`, en `targets/<board>/Src/main.c`): inicializa HAL del MCU, RAM, clocks, peripherals básicos. Llama a `furi_init()`.
-2. **`furi_init()`** (`furi/furi.c`): inicializa el runtime — log, memmgr, records, kernel hooks. Tras esto, FreeRTOS scheduler está listo pero no corriendo.
-3. **`flipper_init()`** (`furi/flipper.c:169`): crea threads de **servicios del sistema**. El primero es siempre `storage` (porque otros dependen de él), después el resto del array `FLIPPER_SERVICES`.
-4. **`furi_run()`** (`furi/furi.c`): arranca el scheduler de FreeRTOS (`vTaskStartScheduler`). A partir de aquí, todo es event-driven y los servicios corren.
-5. **`furi_background()`** (`furi/furi.c`): hook llamado desde el idle task de FreeRTOS para tareas de fondo (housekeeping del heap, watchdog, etc.).
+**Hardware**: dual-core STM32WB55 (Cortex-M4 for the application, a dedicated Cortex-M0+ for the BLE stack). The Momentum firmware is a fork of the official Flipper firmware with additional features (apps, extended SubGHz, NFC patches, etc.).
 
-### El modelo de servicios
+**Why FuriOS instead of plain FreeRTOS**: FreeRTOS provides raw primitives (xTaskCreate, xQueueCreate, xSemaphoreCreateMutex, etc.). FuriOS wraps them to provide:
+- Consistent naming (`furi_thread_alloc` instead of `xTaskCreate`).
+- Encapsulation: opaque types (`FuriThread*` instead of `TaskHandle_t`).
+- Error conventions: `FuriStatus` enum instead of `BaseType_t`.
+- Additional features: per-thread heap tracing, signal callbacks, application IDs.
+- Records: a global registry of services accessible by name.
 
-Un **servicio** es un thread perpetuo (no termina) que ofrece una API vía **record** registrado en el registry global. Definidos en `applications.h` como un array:
+---
+
+## 2. Global architecture and entry points
+
+### The boot
+
+1. **`main()`** (not in `furi/`, in `targets/<board>/Src/main.c`): initializes the MCU's HAL, RAM, clocks, basic peripherals. Calls `furi_init()`.
+2. **`furi_init()`** (`furi/furi.c`): initializes the runtime — log, memmgr, records, kernel hooks. After this, the FreeRTOS scheduler is ready but not yet running.
+3. **`flipper_init()`** (`furi/flipper.c:169`): creates the **system service** threads. The first one is always `storage` (since others depend on it), then the rest of the `FLIPPER_SERVICES` array.
+4. **`furi_run()`** (`furi/furi.c`): starts the FreeRTOS scheduler (`vTaskStartScheduler`). From here on, everything is event-driven and the services run.
+5. **`furi_background()`** (`furi/furi.c`): hook called from the FreeRTOS idle task for background tasks (heap housekeeping, watchdog, etc.).
+
+### The service model
+
+A **service** is a perpetual thread (never terminates) that offers an API via a **record** registered in the global registry. Defined in `applications.h` as an array:
 
 ```c
 typedef struct {
@@ -48,50 +48,50 @@ extern const FlipperInternalApplication FLIPPER_SERVICES[];
 extern const size_t FLIPPER_SERVICES_COUNT;
 ```
 
-Servicios típicos: `storage`, `gui`, `notification`, `power`, `bt`, `dolphin`, `expansion`, `loader`, `cli`, etc.
+Typical services: `storage`, `gui`, `notification`, `power`, `bt`, `dolphin`, `expansion`, `loader`, `cli`, etc.
 
-`flipper_init()` itera el array y arranca cada uno con `flipper_start_service()` que llama a `furi_thread_alloc_service()`.
+`flipper_init()` iterates the array and starts each one with `flipper_start_service()`, which calls `furi_thread_alloc_service()`.
 
-**Diferencia clave**: los servicios usan `furi_thread_alloc_service()` (no `furi_thread_alloc_ex()`). Service threads son más eficientes en memoria pero tienen restricciones: no pueden retornar de su callback (loop infinito obligatorio), no pueden ser joined ni freed, stack size es fijo. Razón: arrancan al boot y mueren con el dispositivo.
+**Key difference**: services use `furi_thread_alloc_service()` (not `furi_thread_alloc_ex()`). Service threads are more memory-efficient but have restrictions: they cannot return from their callback (an infinite loop is mandatory), cannot be joined or freed, and have a fixed stack size. Reason: they start at boot and die only with the device.
 
 ---
 
-## 3. Primitivas core (`furi/core/`)
+## 3. Core primitives (`furi/core/`)
 
-Todas se incluyen vía `#include <furi.h>` que reagrupa los headers individuales. Ver `furi/furi.h` para la lista canónica.
+All are included via `#include <furi.h>`, which regroups the individual headers. See `furi/furi.h` for the canonical list.
 
 ### 3.1 Threads — `FuriThread`
 
-API en `furi/core/thread.h`. Patrón de uso típico para threads regulares (no servicios):
+API in `furi/core/thread.h`. Typical usage pattern for regular (non-service) threads:
 
 ```c
 FuriThread* t = furi_thread_alloc_ex("MyThread", 1024, my_callback, my_context);
 furi_thread_set_priority(t, FuriThreadPriorityNormal);
 furi_thread_start(t);
 // ...
-furi_thread_join(t);            // espera a que termine
-furi_thread_free(t);            // libera estructura
+furi_thread_join(t);            // waits for it to finish
+furi_thread_free(t);            // frees the structure
 ```
 
-**Estados**: `FuriThreadStateStopped`, `Starting`, `Running`, `Stopping`. Transiciones reportadas vía `furi_thread_set_state_callback()`.
+**States**: `FuriThreadStateStopped`, `Starting`, `Running`, `Stopping`. Transitions reported via `furi_thread_set_state_callback()`.
 
-**Prioridades**: `FuriThreadPriorityIdle` (0), `Init` (4), `Lowest` (14), `Low` (15), `Normal` (16, default), `High` (17), `Highest` (18), `Isr` (max - 1, para deferred ISR).
+**Priorities**: `FuriThreadPriorityIdle` (0), `Init` (4), `Lowest` (14), `Low` (15), `Normal` (16, default), `High` (17), `Highest` (18), `Isr` (max - 1, for deferred ISR).
 
-**Comunicación entre threads** (más allá de message queues):
+**Inter-thread communication** (beyond message queues):
 
-- **Signals**: `furi_thread_signal(thread, signal, arg)` invoca el `signal_callback` del thread destinatario.
-- **Thread flags**: `furi_thread_flags_set/clear/get/wait` — bitmask 32-bit per-thread para señalización ligera.
+- **Signals**: `furi_thread_signal(thread, signal, arg)` invokes the target thread's `signal_callback`.
+- **Thread flags**: `furi_thread_flags_set/clear/get/wait` — a 32-bit per-thread bitmask for lightweight signaling.
 
-**Stdio per-thread**: cada thread tiene callbacks de stdout/stdin opcionales (`furi_thread_set_stdout_callback`). Esto permite que `printf` desde una app vaya a la pantalla, mientras el mismo `printf` desde el servicio CLI vaya al UART.
+**Per-thread stdio**: each thread has optional stdout/stdin callbacks (`furi_thread_set_stdout_callback`). This lets `printf` from an app go to the screen, while the same `printf` from the CLI service goes to the UART.
 
-**Heap tracing**: `furi_thread_enable_heap_trace(thread)` activa contabilidad de heap para ese thread. `furi_thread_get_heap_size(thread)` reporta cuánto usa. Útil para diagnosticar leaks por app.
+**Heap tracing**: `furi_thread_enable_heap_trace(thread)` enables heap accounting for that thread. `furi_thread_get_heap_size(thread)` reports how much it uses. Useful for diagnosing per-app leaks.
 
 ### 3.2 Mutex — `FuriMutex`
 
-API en `furi/core/mutex.h`. Dos tipos:
+API in `furi/core/mutex.h`. Two types:
 
-- `FuriMutexTypeNormal`: mutex binario. NO recursivo. Intentar adquirirlo dos veces desde el mismo thread es deadlock.
-- `FuriMutexTypeRecursive`: el mismo thread puede acquirelo N veces, debe release N veces.
+- `FuriMutexTypeNormal`: binary mutex. NOT recursive. Acquiring it twice from the same thread is a deadlock.
+- `FuriMutexTypeRecursive`: the same thread may acquire it N times, and must release it N times.
 
 ```c
 FuriMutex* m = furi_mutex_alloc(FuriMutexTypeNormal);
@@ -102,134 +102,134 @@ if(furi_mutex_acquire(m, FuriWaitForever) == FuriStatusOk) {
 furi_mutex_free(m);
 ```
 
-**Preferencia**: usar `Normal` por defecto. `Recursive` solo cuando hay diseño explícito que lo necesita (callbacks que llaman a la misma sección crítica). Recursive es más caro en RAM y CPU.
+**Preference**: use `Normal` by default. `Recursive` only when there is an explicit design that needs it (callbacks that call into the same critical section). Recursive is more expensive in RAM and CPU.
 
 ### 3.3 Semaphore — `FuriSemaphore`
 
-API en `furi/core/semaphore.h`. Counting y binary. Patrón clásico productor-consumidor o señalización ISR→thread (vía `furi_semaphore_release_from_isr`).
+API in `furi/core/semaphore.h`. Counting and binary. Classic producer-consumer pattern, or ISR→thread signaling (via `furi_semaphore_release_from_isr`).
 
 ### 3.4 Event Flag — `FuriEventFlag`
 
-API en `furi/core/event_flag.h`. Bitmask compartido entre threads. Más expresivo que un solo semaphore cuando hay varias señales distintas (ej. "datos listos" + "abortar" + "timeout").
+API in `furi/core/event_flag.h`. Bitmask shared between threads. More expressive than a single semaphore when there are several distinct signals (e.g. "data ready" + "abort" + "timeout").
 
 ### 3.5 Message Queue — `FuriMessageQueue`
 
-API en `furi/core/message_queue.h`. Cola FIFO de tamaño fijo con mensajes de tamaño fijo. La primitiva más usada para comunicación inter-thread en el firmware.
+API in `furi/core/message_queue.h`. Fixed-size FIFO queue of fixed-size messages. The most-used primitive for inter-thread communication in the firmware.
 
 ```c
 typedef struct { uint8_t op; uint16_t data; } MyMsg;
 FuriMessageQueue* q = furi_message_queue_alloc(8, sizeof(MyMsg));
 furi_message_queue_put(q, &msg, FuriWaitForever);
-furi_message_queue_get(q, &msg_out, 100);  // timeout en ms (vía ticks)
+furi_message_queue_get(q, &msg_out, 100);  // timeout in ms (via ticks)
 furi_message_queue_free(q);
 ```
 
-`FuriWait` es un alias de `uint32_t`; valores especiales: `FuriWaitForever` (block indefinido), `0` (no espera, returns immediately).
+`FuriWait` is an alias for `uint32_t`; special values: `FuriWaitForever` (block indefinitely), `0` (no wait, returns immediately).
 
 ### 3.6 Stream Buffer — `FuriStreamBuffer`
 
-API en `furi/core/stream_buffer.h`. Buffer de bytes para transferencias streaming (no message-oriented). Útil para datos de tamaño variable (e.g. logs, UART RX).
+API in `furi/core/stream_buffer.h`. Byte buffer for streaming transfers (not message-oriented). Useful for variable-size data (e.g. logs, UART RX).
 
 ### 3.7 Event Loop — `FuriEventLoop`
 
-API en `furi/core/event_loop.h`. Loop de eventos con primitivas combinables: timers, mensajes de queue, flags, custom callbacks. Permite escribir threads event-driven sin loops `while(1) { msg_queue_get(); switch(msg) }` manuales.
+API in `furi/core/event_loop.h`. Event loop with combinable primitives: timers, queue messages, flags, custom callbacks. Lets you write event-driven threads without manual `while(1) { msg_queue_get(); switch(msg) }` loops.
 
 ```c
 FuriEventLoop* loop = furi_event_loop_alloc();
 furi_event_loop_subscribe_message_queue(loop, q, FuriEventLoopEventIn, on_message, NULL);
-furi_event_loop_run(loop);  // bloquea hasta furi_event_loop_stop
+furi_event_loop_run(loop);  // blocks until furi_event_loop_stop
 furi_event_loop_free(loop);
 ```
 
-Patrón recomendado en código nuevo. Apps modernas (storage, gui, expansion) lo usan.
+Recommended pattern in new code. Modern apps (storage, gui, expansion) use it.
 
-### 3.8 Timer — `FuriTimer` y Event Loop Timer
+### 3.8 Timer — `FuriTimer` and Event Loop Timer
 
-API en `furi/core/timer.h` (`FuriTimer` clásico, basado en FreeRTOS timer task) y `furi/core/event_loop_timer.h` (timers integrados en un event loop específico).
+API in `furi/core/timer.h` (the classic `FuriTimer`, based on the FreeRTOS timer task) and `furi/core/event_loop_timer.h` (timers integrated into a specific event loop).
 
-- **`FuriTimer`**: timers globales gestionados por el FreeRTOS timer service task. Útil cuando el callback debe correr en un contexto independiente.
-- **`FuriEventLoopTimer`**: timers que corren en el thread dueño del event loop. Más predecibles, sin race con el timer task global.
+- **`FuriTimer`**: global timers managed by the FreeRTOS timer service task. Useful when the callback needs to run in an independent context.
+- **`FuriEventLoopTimer`**: timers that run on the thread owning the event loop. More predictable, no race with the global timer task.
 
 ### 3.9 PubSub — `FuriPubSub`
 
-API en `furi/core/pubsub.h`. Patrón publisher-subscriber tipo broker dentro del firmware. Usado por servicios para notificar eventos (ej. `storage` publica `StorageEventTypeCardMount` cuando la SD se inserta; otros servicios se suscriben).
+API in `furi/core/pubsub.h`. A broker-style publisher-subscriber pattern within the firmware. Used by services to notify events (e.g. `storage` publishes `StorageEventTypeCardMount` when the SD card is inserted; other services subscribe).
 
-### 3.10 Records — `FuriRecord` (registry global)
+### 3.10 Records — `FuriRecord` (global registry)
 
-API en `furi/core/record.h`. **La pieza más característica de FuriOS.**
+API in `furi/core/record.h`. **The most distinctive piece of FuriOS.**
 
-Un record es un singleton registrado por nombre (string) en un registry global. Servicios exponen sus APIs registrando un objeto. Apps obtienen acceso al servicio abriendo el record.
+A record is a singleton registered by name (string) in a global registry. Services expose their APIs by registering an object. Apps get access to a service by opening the record.
 
 ```c
-// Servicio (al boot):
+// Service (at boot):
 Storage* storage = storage_alloc();
 furi_record_create(RECORD_STORAGE, storage);
 
-// App (durante ejecución):
+// App (at runtime):
 Storage* storage = furi_record_open(RECORD_STORAGE);
-// ... usar storage ...
+// ... use storage ...
 furi_record_close(RECORD_STORAGE);
 ```
 
-Records típicos: `RECORD_STORAGE`, `RECORD_GUI`, `RECORD_NOTIFICATION`, `RECORD_DIALOGS`, `RECORD_LOADER`, `RECORD_POWER`, `RECORD_BT`, `RECORD_INPUT`, `RECORD_CLI`, etc.
+Typical records: `RECORD_STORAGE`, `RECORD_GUI`, `RECORD_NOTIFICATION`, `RECORD_DIALOGS`, `RECORD_LOADER`, `RECORD_POWER`, `RECORD_BT`, `RECORD_INPUT`, `RECORD_CLI`, etc.
 
-**Importante**: `furi_record_open()` es bloqueante — si el record aún no está creado (servicio aún no boot), suspende el thread hasta que aparezca. **Esto es por qué `storage` arranca primero**: muchos servicios lo abren en su `_init`.
+**Important**: `furi_record_open()` is blocking — if the record hasn't been created yet (the service hasn't booted yet), it suspends the thread until it appears. **This is why `storage` boots first**: many services open it in their `_init`.
 
-`furi_record_close()` decrementa un refcount. `furi_record_destroy()` solo procede si el refcount está a 0 y el thread es el dueño.
+`furi_record_close()` decrements a refcount. `furi_record_destroy()` only proceeds if the refcount is 0 and the calling thread is the owner.
 
-**Anti-patrón clásico**: `furi_record_open()` sin `furi_record_close()` correspondiente — el record nunca puede destruirse y el refcount queda inflado. Detectable con `furi_thread_enable_heap_trace`.
+**Classic anti-pattern**: `furi_record_open()` without a matching `furi_record_close()` — the record can never be destroyed and the refcount stays inflated. Detectable with `furi_thread_enable_heap_trace`.
 
-### 3.11 Time y delays — `furi_kernel_*`, `furi_delay_*`
+### 3.11 Time and delays — `furi_kernel_*`, `furi_delay_*`
 
-API en `furi/core/kernel.h`:
+API in `furi/core/kernel.h`:
 
-- `furi_get_tick()` → ticks desde boot (ms, puede overflow).
-- `furi_kernel_get_tick_frequency()` → ticks por segundo (típicamente 1000).
-- `furi_ms_to_ticks(ms)` → conversión.
-- `furi_delay_tick(ticks)`, `furi_delay_ms(ms)` → bloquean el thread, **NUNCA usar desde ISR**.
-- `furi_delay_us(us)` → busy-wait usando el DWT cycle counter del Cortex-M4. No aliased a ticks. Útil para timing fino.
-- `furi_kernel_is_irq_or_masked()` → chequea contexto ISR.
-- `furi_kernel_lock()` / `furi_kernel_unlock()` → suspende/reanuda el scheduler (operaciones críticas).
+- `furi_get_tick()` → ticks since boot (ms, may overflow).
+- `furi_kernel_get_tick_frequency()` → ticks per second (typically 1000).
+- `furi_ms_to_ticks(ms)` → conversion.
+- `furi_delay_tick(ticks)`, `furi_delay_ms(ms)` → block the thread, **NEVER use from an ISR**.
+- `furi_delay_us(us)` → busy-wait using the Cortex-M4's DWT cycle counter. Not aliased to ticks. Useful for fine-grained timing.
+- `furi_kernel_is_irq_or_masked()` → checks for ISR context.
+- `furi_kernel_lock()` / `furi_kernel_unlock()` → suspends/resumes the scheduler (critical operations).
 
-### 3.12 Memory — `FuriMemmgr` y heap
+### 3.12 Memory — `FuriMemmgr` and heap
 
-API en `furi/core/memmgr.h` y `furi/core/memmgr_heap.h`. Wrappers sobre el heap de FreeRTOS (typically heap_4) con tracing y canary opcionales.
+API in `furi/core/memmgr.h` and `furi/core/memmgr_heap.h`. Wrappers over the FreeRTOS heap (typically heap_4) with optional tracing and canaries.
 
-- `malloc`/`free` estándar funcionan (redirigen a `memmgr`).
-- `aligned_malloc`/`aligned_free` para alineamiento específico.
-- `memmgr_alloc_from_pool` — alloca desde un pool especial (visible en `flipper.c` para los `vApplicationGet*Memory` callbacks de FreeRTOS).
-- `HEAP_CANARY_VALUE` = `0x8BADF00D` (en `flipper.c:15`) — detecta corrupciones de heap.
+- Standard `malloc`/`free` work (redirect to `memmgr`).
+- `aligned_malloc`/`aligned_free` for specific alignment.
+- `memmgr_alloc_from_pool` — allocates from a special pool (visible in `flipper.c` for FreeRTOS's `vApplicationGet*Memory` callbacks).
+- `HEAP_CANARY_VALUE` = `0x8BADF00D` (in `flipper.c:15`) — detects heap corruption.
 
 ### 3.13 Logging — `FuriLog`
 
-API en `furi/core/log.h`. Niveles `FuriLogLevelError/Warn/Info/Debug/Trace`. Macros:
+API in `furi/core/log.h`. Levels `FuriLogLevelError/Warn/Info/Debug/Trace`. Macros:
 
 ```c
 #define TAG "MyApp"
-FURI_LOG_E(TAG, "Error %d", err);   // rojo
-FURI_LOG_W(TAG, "Warning");          // marrón
-FURI_LOG_I(TAG, "Info");             // verde
-FURI_LOG_D(TAG, "Debug %x", val);    // azul
-FURI_LOG_T(TAG, "Trace");            // morado
+FURI_LOG_E(TAG, "Error %d", err);   // red
+FURI_LOG_W(TAG, "Warning");          // brown
+FURI_LOG_I(TAG, "Info");             // green
+FURI_LOG_D(TAG, "Debug %x", val);    // blue
+FURI_LOG_T(TAG, "Trace");            // purple
 ```
 
-Los logs van por defecto al UART de debug. Pueden añadirse handlers extra (`furi_log_add_handler`) para dirigirlos a otros sinks (pantalla, archivo, CLI, etc.).
+Logs go to the debug UART by default. Extra handlers can be added (`furi_log_add_handler`) to route them to other sinks (screen, file, CLI, etc.).
 
-Nivel global ajustable en runtime via `furi_log_set_level(level)`. Default suele ser `Info` en release, `Debug` en debug builds.
+The global level is adjustable at runtime via `furi_log_set_level(level)`. Default is usually `Info` in release, `Debug` in debug builds.
 
-### 3.14 Asserts y checks — `furi_check`, `furi_assert`, `furi_crash`
+### 3.14 Asserts and checks — `furi_check`, `furi_assert`, `furi_crash`
 
-Macros en `furi/core/check.h`:
+Macros in `furi/core/check.h`:
 
-- `furi_check(cond)` — chequea en build release Y debug. Si falla, llama a `furi_crash` que halta el sistema con un mensaje.
-- `furi_assert(cond)` — solo en debug builds. En release se compila a nada.
-- `furi_crash("msg")` — halta el sistema deliberadamente. Útil para invariantes que NO deben fallar.
+- `furi_check(cond)` — checked in both release AND debug builds. If it fails, it calls `furi_crash`, which halts the system with a message.
+- `furi_assert(cond)` — debug builds only. Compiles to nothing in release.
+- `furi_crash("msg")` — deliberately halts the system. Useful for invariants that must NEVER fail.
 
-**Convención del firmware**: usar `furi_check` para invariantes runtime que dependen de input externo o estado del sistema; usar `furi_assert` para invariantes de diseño que solo fallarían por bug interno.
+**Firmware convention**: use `furi_check` for runtime invariants that depend on external input or system state; use `furi_assert` for design invariants that would only fail due to an internal bug.
 
 ### 3.15 String — `FuriString`
 
-API en `furi/core/string.h`. Wrapper sobre la librería **mlib m-string**. Strings dinámicos de longitud variable.
+API in `furi/core/string.h`. Wrapper over the **mlib m-string** library. Dynamic, variable-length strings.
 
 ```c
 FuriString* s = furi_string_alloc();
@@ -238,24 +238,24 @@ const char* cstr = furi_string_get_cstr(s);
 furi_string_free(s);
 ```
 
-Preferir `FuriString` sobre `char[N]` cuando el tamaño no es trivialmente acotado.
+Prefer `FuriString` over `char[N]` when the size is not trivially bounded.
 
 ---
 
-## 4. El pattern service-record (cómo arrancan los servicios)
+## 4. The service-record pattern (how services boot)
 
-Visible directamente en `furi/flipper.c`:
+Visible directly in `furi/flipper.c`:
 
-1. **Definir el servicio**: una función `void my_service(void* context)` que es loop infinito.
-2. **Registrarlo en `FLIPPER_SERVICES`**: array externo (en `applications.h` generado por SCons desde manifests `.fam`).
-3. **`flipper_start_service()`** itera el array y arranca cada uno con `furi_thread_alloc_service()` + `furi_thread_set_appid()` + `furi_thread_start()`.
-4. **Dentro del servicio**:
-   - Alloca su estado.
-   - Registra el record: `furi_record_create(RECORD_NAME, state)`.
-   - Entra al loop principal (event loop o message queue blocking).
-5. **Apps externas**: abren records con `furi_record_open()`, los usan, los cierran con `furi_record_close()`.
+1. **Define the service**: a `void my_service(void* context)` function that is an infinite loop.
+2. **Register it in `FLIPPER_SERVICES`**: an external array (in `applications.h`, generated by SCons from `.fam` manifests).
+3. **`flipper_start_service()`** iterates the array and starts each one with `furi_thread_alloc_service()` + `furi_thread_set_appid()` + `furi_thread_start()`.
+4. **Inside the service**:
+   - Allocates its state.
+   - Registers the record: `furi_record_create(RECORD_NAME, state)`.
+   - Enters the main loop (event loop or blocking message queue).
+5. **External apps**: open records with `furi_record_open()`, use them, close them with `furi_record_close()`.
 
-**Ejemplo concreto en `flipper.c:159`**:
+**Concrete example in `flipper.c:159`**:
 
 ```c
 void flipper_start_service(const FlipperInternalApplication* service) {
@@ -267,17 +267,17 @@ void flipper_start_service(const FlipperInternalApplication* service) {
 }
 ```
 
-Nótese que el thread se "fuga" (no se guarda referencia) — es intencional, los servicios viven hasta el shutdown del dispositivo.
+Note that the thread "leaks" (no reference is kept) — this is intentional; services live until the device shuts down.
 
 ---
 
-## 5. App lifecycle (apps externas y main)
+## 5. App lifecycle (external apps and main)
 
-### Apps externas (FAPs)
+### External apps (FAPs)
 
-Las apps externas viven en `applications/external/` (oficiales) y `applications_user/` (de usuario). Cada una tiene un `application.fam` (manifest) que SCons procesa para generar `applications.h` y compilar el `.fap` (Flipper App Pack).
+External apps live in `applications/external/` (official) and `applications_user/` (user-made). Each has an `application.fam` (manifest) that SCons processes to generate `applications.h` and build the `.fap` (Flipper App Pack).
 
-Estructura típica de manifest (referencia rápida; detalle completo en `.claude/docs/adding-an-app-checklist.md` cuando lo creemos):
+Typical manifest structure (quick reference; full detail in `.claude/docs/adding-an-app-checklist.md` once we create it):
 
 ```python
 App(
@@ -292,97 +292,97 @@ App(
 )
 ```
 
-### Ciclo de vida
+### Lifecycle
 
-1. Usuario navega menú → `loader` service detecta selección.
-2. `loader` carga el `.fap` desde SD, resuelve symbols dinámicamente, alloca el thread con `stack_size` del manifest.
-3. Llama al `entry_point` con argumentos (típicamente `void* context` o un parámetro de string).
-4. La app corre — típicamente abre records (`gui`, `storage`, etc.), crea su event loop, gestiona scenes/views.
-5. Cuando la app termina, cierra sus records, libera estado, retorna del entry_point.
-6. `loader` joinea el thread y descarga el `.fap`.
+1. User navigates the menu → the `loader` service detects the selection.
+2. `loader` loads the `.fap` from the SD card, resolves symbols dynamically, allocates the thread with the `stack_size` from the manifest.
+3. Calls the `entry_point` with arguments (typically `void* context` or a string parameter).
+4. The app runs — typically opens records (`gui`, `storage`, etc.), creates its event loop, manages scenes/views.
+5. When the app finishes, it closes its records, frees its state, and returns from the entry_point.
+6. `loader` joins the thread and unloads the `.fap`.
 
-### Scenes y Views (GUI)
+### Scenes and Views (GUI)
 
-Apps con UI usan el framework `gui/scene_manager` + `view_dispatcher`:
+Apps with UI use the `gui/scene_manager` + `view_dispatcher` framework:
 
-- **Scene**: un "pantalla" con on_enter/on_event/on_exit.
-- **View**: el render concreto (canvas, input handling).
-- **ViewDispatcher**: cambia entre views, rutea input.
+- **Scene**: a "screen" with on_enter/on_event/on_exit.
+- **View**: the concrete render (canvas, input handling).
+- **ViewDispatcher**: switches between views, routes input.
 
-Esto se documenta más a fondo en `flipper-app-builder.md` (especialista Fase 2).
+This will be documented in more depth in `flipper-app-builder.md` (Phase 2 specialist).
 
 ---
 
 ## 6. HAL bridge — `furi_hal_*`
 
-`furi/` provee primitivas de OS. **`furi_hal_*`** (en `targets/<board>/furi_hal/`) provee acceso al hardware.
+`furi/` provides OS primitives. **`furi_hal_*`** (in `targets/<board>/furi_hal/`) provides access to the hardware.
 
-Convención: drivers de hardware exponen API `furi_hal_<peripheral>_*`. Ejemplos:
+Convention: hardware drivers expose a `furi_hal_<peripheral>_*` API. Examples:
 
-- `furi_hal_gpio` — GPIO config y read/write.
-- `furi_hal_subghz` — radio CC1101.
-- `furi_hal_nfc` — chip NFC.
-- `furi_hal_bt` — Bluetooth (via STM32WB55 Cortex-M0+).
+- `furi_hal_gpio` — GPIO config and read/write.
+- `furi_hal_subghz` — CC1101 radio.
+- `furi_hal_nfc` — NFC chip.
+- `furi_hal_bt` — Bluetooth (via the STM32WB55 Cortex-M0+).
 - `furi_hal_rtc` — real-time clock.
 - `furi_hal_random` — TRNG.
 - `furi_hal_power` — battery, charging, sleep.
 - `furi_hal_light` — RGB LED.
 
-Las apps y servicios NO deben acceder directamente a registros del MCU — siempre vía `furi_hal_*`.
+Apps and services must NOT access MCU registers directly — always go through `furi_hal_*`.
 
 ---
 
-## 7. Convenciones (resumen de `CODING_STYLE.md`)
+## 7. Conventions (summary of `CODING_STYLE.md`)
 
-- **Tab = 4 espacios.** `./fbt format` aplica el estilo.
-- **Funciones**: `snake_case`. `furi_thread_alloc`, `subghz_keystore_read`.
-- **Tipos**: `PascalCase`. `FuriThread`, `SubGhzKeystore`.
-- **Prefix por package**: archivos en `subghz/` exponen tipos `SubGhz*` y funciones `subghz_*`.
-- **Constructor/destructor**: `_alloc()` retorna pointer; `_free(ptr)` libera.
-- **Encapsulación**: tipos opacos (`struct FuriThread;` en header sin contenido) + funciones que los manejan. No exponer raw data.
+- **Tab = 4 spaces.** `./fbt format` applies the style.
+- **Functions**: `snake_case`. `furi_thread_alloc`, `subghz_keystore_read`.
+- **Types**: `PascalCase`. `FuriThread`, `SubGhzKeystore`.
+- **Per-package prefix**: files in `subghz/` expose `SubGhz*` types and `subghz_*` functions.
+- **Constructor/destructor**: `_alloc()` returns a pointer; `_free(ptr)` frees it.
+- **Encapsulation**: opaque types (`struct FuriThread;` in a header with no body) + functions that operate on them. Raw data is not exposed.
 - **Files**: `[0-9A-Za-z_]+.{c,h,cpp,cxx,hpp}`. Linter enforced.
 
 ---
 
-## 8. Anti-patrones comunes a evitar
+## 8. Common anti-patterns to avoid
 
-1. **Records leaks**: `furi_record_open(...)` sin `furi_record_close(...)` correspondiente. Si la app crashea entre medias, el refcount queda inflado para siempre. **Patrón seguro**: open en `_alloc` de tu estado, close en `_free`.
-2. **`furi_delay_ms` en hot path / event loop**: bloquea el thread. Si tu thread tiene un event loop o procesa una queue, `furi_delay_ms(50)` mata responsiveness. Usar timers en su lugar.
-3. **Threads sin nombre o sin appid**: dificultan debug y crash dumps. Siempre `furi_thread_set_name` y `furi_thread_set_appid` si la app es identificable.
-4. **`FuriMutexTypeRecursive` por defecto**: es más caro. Usar `Normal` salvo que el diseño explícitamente requiera reentry.
-5. **`furi_delay_ms` desde ISR**: prohibido (`furi_kernel_is_irq_or_masked` lo detecta). Usar `furi_*_release_from_isr` y dejar al thread procesar.
-6. **`malloc` directo sin chequear NULL**: usar `furi_check` o `furi_assert` sobre el resultado.
-7. **Mantener references a `FuriThread*` de servicios**: los servicios no joinables. Solo guardar el ID si necesario, no la struct.
-8. **Modificar prioridades de threads ajenos sin coordinación**: lleva a inversión de prioridad y deadlocks en cascada.
-9. **Usar `printf` directo sin `FURI_LOG_*`**: los `FURI_LOG_*` añaden tag, timestamp y color; respetan el log level global; tienen color.
-10. **Asumir `FuriString` y `char*` son intercambiables**: la conversión es explícita vía `furi_string_get_cstr()`. No `strcpy` directo sobre el buffer interno.
+1. **Record leaks**: `furi_record_open(...)` without a matching `furi_record_close(...)`. If the app crashes in between, the refcount stays inflated forever. **Safe pattern**: open in your state's `_alloc`, close in its `_free`.
+2. **`furi_delay_ms` in a hot path / event loop**: blocks the thread. If your thread has an event loop or processes a queue, `furi_delay_ms(50)` kills responsiveness. Use timers instead.
+3. **Threads with no name or no appid**: makes debugging and crash dumps harder. Always call `furi_thread_set_name` and `furi_thread_set_appid` if the app is identifiable.
+4. **`FuriMutexTypeRecursive` by default**: it's more expensive. Use `Normal` unless the design explicitly requires reentry.
+5. **`furi_delay_ms` from an ISR**: forbidden (`furi_kernel_is_irq_or_masked` detects it). Use `furi_*_release_from_isr` and let the thread process it.
+6. **Direct `malloc` without checking for NULL**: use `furi_check` or `furi_assert` on the result.
+7. **Holding references to a service's `FuriThread*`**: services are not joinable. Only keep the ID if needed, not the struct.
+8. **Modifying other threads' priorities without coordination**: leads to priority inversion and cascading deadlocks.
+9. **Using raw `printf` instead of `FURI_LOG_*`**: the `FURI_LOG_*` macros add a tag, timestamp, and color; they respect the global log level; they have color.
+10. **Assuming `FuriString` and `char*` are interchangeable**: the conversion is explicit via `furi_string_get_cstr()`. No direct `strcpy` onto the internal buffer.
 
 ---
 
-## 9. Archivos clave para profundizar
+## 9. Key files for deeper investigation
 
-Para investigaciones profundas, los headers más relevantes en orden de utilidad:
+For deep dives, the most useful headers in order of relevance:
 
-- `furi/furi.h` — punto de entrada del runtime (lista de includes).
-- `furi/flipper.c` — boot sequence completo (ver `flipper_init` línea 169).
-- `furi/core/thread.h` — API completa de threads.
-- `furi/core/record.h` — registry global.
-- `furi/core/message_queue.h`, `mutex.h`, `semaphore.h`, `event_flag.h` — sincronización.
-- `furi/core/event_loop.h` — event loops (12 KB, el más complejo).
-- `furi/core/kernel.h` — time y kernel utilities.
+- `furi/furi.h` — the runtime's entry point (list of includes).
+- `furi/flipper.c` — the full boot sequence (see `flipper_init` line 169).
+- `furi/core/thread.h` — full thread API.
+- `furi/core/record.h` — global registry.
+- `furi/core/message_queue.h`, `mutex.h`, `semaphore.h`, `event_flag.h` — synchronization.
+- `furi/core/event_loop.h` — event loops (12 KB, the most complex one).
+- `furi/core/kernel.h` — time and kernel utilities.
 - `furi/core/log.h` — logging macros.
 - `furi/core/check.h` — asserts.
 - `furi/core/string.h` — FuriString.
 
-Para HAL: `targets/<board>/furi_hal/furi_hal_*.h`.
+For HAL: `targets/<board>/furi_hal/furi_hal_*.h`.
 
-Para apps: `applications/services/` (servicios oficiales), `applications/main/` (apps main del menú), `applications/external/` (FAPs oficiales), `applications_user/` (FAPs de usuario).
+For apps: `applications/services/` (official services), `applications/main/` (main menu apps), `applications/external/` (official FAPs), `applications_user/` (user FAPs).
 
 ---
 
-## 10. Referencias externas
+## 10. External references
 
-- **CODING_STYLE.md** del repo — convenciones de naming y estilo.
-- **`documentation/` del repo** — docs oficiales por feature (SubGHz, NFC, OTA, etc.).
-- **`developer.flipper.net`** — docs públicas del SDK (versionadas, pueden estar desactualizadas respecto al fork Momentum).
-- **FreeRTOS docs** — para entender la capa subyacente. Útil sobre todo para entender heap_4 y los hooks `vApplicationGet*Memory`.
+- **CODING_STYLE.md** in the repo — naming and style conventions.
+- **`documentation/` in the repo** — official per-feature docs (SubGHz, NFC, OTA, etc.).
+- **`developer.flipper.net`** — public SDK docs (versioned, may be out of date relative to the Momentum fork).
+- **FreeRTOS docs** — to understand the underlying layer. Especially useful for understanding heap_4 and the `vApplicationGet*Memory` hooks.

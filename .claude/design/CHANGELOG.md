@@ -1,254 +1,269 @@
-# Changelog del sistema agente
+# Agent system changelog
 
-Este documento registra los cambios al sistema multi-agente de Claude para este repo (`.claude/**`, `CLAUDE.md`). NO documenta cambios al firmware del Flipper Zero — esos van en el CHANGELOG.md del firmware.
+This document records changes to the Claude multi-agent system for this repo (`.claude/**`, `CLAUDE.md`). It does NOT document changes to the Flipper Zero firmware itself — those go in the firmware's CHANGELOG.md.
 
-Formato basado en Keep-a-Changelog. Fechas en formato YYYY-MM-DD.
+Format based on Keep-a-Changelog. Dates in YYYY-MM-DD format.
+
+---
+
+## [0.1.8] — 2026-07-24
+
+### Changed
+
+- **Full corpus translated to English.** All project-authored text (`CLAUDE.md`, every `.claude/**` file, `custom/**` docs, workflow YAML comments, shell script comments) was translated Spanish → English. Done via 6 Sonnet/medium subagents that produced proposals into a separate directory; the master reviewed every proposal (no logic altered, functional tokens preserved) before applying. Verified: guardrail `check-irreversibility.sh` regex byte-identical and behavior confirmed, all scripts pass `bash -n`, YAML/JSON valid, 0 residual accented characters, all decision/angle/IRREV codes preserved. `settings.json` untouched (JSON config, no prose).
+
+### Added
+
+- **Language policy (mandatory)** in `CLAUDE.md` and in both agent definitions (`agent-architect`, `council-member`): everything written to disk/repo (code, comments, docs, commit messages) MUST be in English, regardless of the language used to converse with the operator. Keeps the codebase single-language and portable.
+
+### Note
+
+- Collateral finding (not fixed here): `.githooks/pre-push` is absent from `my-momentum-firmware` (not carried over during the re-founding), so the Layer-2 push guardrail is currently inactive on this branch. Tracked as a follow-up.
 
 ---
 
 ## [0.1.7] — 2026-07-24
 
-### Añadido
+### Added
 
-- **Re-fundación del fork sobre upstream** (ver [`ADR-0002`](../decisions/ADR-0002-fork-refounding-and-pat-sync.md)): la rama por defecto `my-momentum-firmware` pasa a basarse en la historia real de `upstream/dev` (antes era un snapshot aplanado sin ancestro común con el oficial → no sincronizable). El fork viejo se conserva como `legacy/snapshot-2026-02`.
-- `custom/ghostesp-s2/`: binarios GhostESP ESP32-S2 (`bootloader.bin`, `partition-table.bin`, `Ghost_ESP_IDF.bin`) + `README.md` + `deploy-to-esp-flasher.sh`. Única personalización de firmware real, preservada fuera del submódulo `applications/external`.
-- `.github/workflows/sync-upstream.yml`: workflow de sincronización inbound con `Next-Flip/Momentum-Firmware@dev` (schedule lunes 06:00 UTC + manual). El remote de upstream vive solo en el runner efímero → respeta D9/D25.
-- `.claude/design/RESUME-cloud-refounding-sync.md`: RESUME autocontenido de esta sesión para continuidad inter-sesión/inter-máquina.
+- **Fork refounding on top of upstream** (see [`ADR-0002`](../decisions/ADR-0002-fork-refounding-and-pat-sync.md)): the default branch `my-momentum-firmware` now builds on the real history of `upstream/dev` (previously it was a flattened snapshot with no common ancestor with the official repo → not syncable). The old fork is kept as `legacy/snapshot-2026-02`.
+- `custom/ghostesp-s2/`: GhostESP ESP32-S2 binaries (`bootloader.bin`, `partition-table.bin`, `Ghost_ESP_IDF.bin`) + `README.md` + `deploy-to-esp-flasher.sh`. The only real firmware customization, preserved outside the `applications/external` submodule.
+- `.github/workflows/sync-upstream.yml`: inbound sync workflow with `Next-Flip/Momentum-Firmware@dev` (Monday 06:00 UTC schedule + manual trigger). The upstream remote lives only in the ephemeral runner → respects D9/D25.
+- `.claude/design/RESUME-cloud-refounding-sync.md`: self-contained RESUME of this session for inter-session/inter-machine continuity.
 
-### Modificado
+### Changed
 
-- `.github/workflows/sync-upstream.yml`: usa un PAT (`secrets.SYNC_PAT`, fine-grained: Contents+PullRequests+Workflows RW, solo este repo) para el push del mirror y `gh pr create`, en vez del `GITHUB_TOKEN` del bot.
+- `.github/workflows/sync-upstream.yml`: uses a PAT (`secrets.SYNC_PAT`, fine-grained: Contents+PullRequests+Workflows RW, this repo only) for the mirror push and `gh pr create`, instead of the bot's `GITHUB_TOKEN`.
 
-### Verificado (investigación adversarial)
+### Verified (adversarial investigation)
 
-- Causa del fallo inicial `createPullRequest: Resource not accessible by integration`: el ajuste repo "Allow GitHub Actions to create and approve pull requests" está OFF por defecto en cuenta personal, + latencia de propagación al activarlo. Refutada la hipótesis de "inconsistencia irresoluble" y la de tope a nivel de cuenta (5 experimentos controlados).
-- **Bug latente identificado y corregido:** el `GITHUB_TOKEN` no puede empujar cambios en `.github/workflows/*` (no existe scope `workflows`); el mirror de upstream los incluye → habría roto el sync. De ahí el PAT.
-- Fork re-fundado validado en hardware: `./fbt` OK, FAPs `ghost_esp`/`esp_flasher` compilan, flasheado al Flipper con éxito.
+- Root cause of the initial `createPullRequest: Resource not accessible by integration` failure: the repo setting "Allow GitHub Actions to create and approve pull requests" is OFF by default on personal accounts, plus propagation latency after enabling it. The "unresolvable inconsistency" hypothesis and the account-level cap hypothesis were both refuted (5 controlled experiments).
+- **Latent bug identified and fixed:** the `GITHUB_TOKEN` cannot push changes to `.github/workflows/*` (no `workflows` scope exists); the upstream mirror includes them → this would have broken the sync. Hence the PAT.
+- Refounded fork validated on hardware: `./fbt` OK, the `ghost_esp`/`esp_flasher` FAPs build, flashed to the Flipper successfully.
 
-### Deliberación
+### Deliberation
 
-- Nivel **L4** (aprobación directa del usuario). Operaciones irreversibles (reescritura de default, force-push, renombrado, flasheo) confirmadas paso a paso. Ver ADR-0002.
+- Level **L4** (direct user approval). Irreversible operations (rewriting the default branch, force-push, renaming, flashing) confirmed step by step. See ADR-0002.
 
-### Pendiente
+### Pending
 
-- Ejercitar el sync completo (push+PR con delta real) en el próximo cambio de upstream.
-- Fase 2 (especialistas) sigue sin empezar.
+- Exercise the full sync (push+PR with a real delta) on the next upstream change.
+- Phase 2 (specialists) still hasn't started.
 
 ---
 
 ## [0.1.6] — 2026-07-24
 
-### Añadido
+### Added
 
-- `.claude/scripts/bootstrap.sh`: arranque idempotente y dependency-free del sistema agente. Activa los git hooks versionados vía `git config core.hooksPath .githooks` (sin depender del framework `pre-commit`), otorga permisos de ejecución, y siembra `.claude/state/` (`counters.json` + `decisions.jsonl`). Contrato: `exit 0` siempre (hook no bloqueante), stdout limpio en éxito para no contaminar el contexto del master, diagnóstico a stderr.
-- Hook `SessionStart` en `.claude/settings.json` → ejecuta `bootstrap.sh` automáticamente en cada arranque de sesión. Como `settings.json` está versionado, el bootstrap se dispara solo en cualquier clon nuevo (local, Codespaces, Claude Code Cloud) sin pasos manuales.
+- `.claude/scripts/bootstrap.sh`: idempotent, dependency-free startup for the agent system. Activates the versioned git hooks via `git config core.hooksPath .githooks` (without depending on the `pre-commit` framework), grants execute permissions, and seeds `.claude/state/` (`counters.json` + `decisions.jsonl`). Contract: always `exit 0` (non-blocking hook), clean stdout on success so as not to pollute the master's context, diagnostics to stderr.
+- `SessionStart` hook in `.claude/settings.json` → automatically runs `bootstrap.sh` on every session start. Since `settings.json` is versioned, bootstrap fires on its own in any fresh clone (local, Codespaces, Claude Code Cloud) without manual steps.
 
-### Modificado
+### Changed
 
-- `.claude/settings.json`: añadido `hooks.SessionStart` (apunta a `bootstrap.sh`) y `Bash(./.claude/scripts/bootstrap.sh)` a `permissions.allow`.
-- `.claude/scripts/setup.sh`: refactor a "superset manual". Ahora delega la activación de hooks a `bootstrap.sh` (evita el conflicto `core.hooksPath` vs `pre-commit install`), y `pre-commit` pasa a ser **opcional** (aviso en vez de `exit 3`) porque el guardrail pre-push ya queda activo vía `core.hooksPath`. `bootstrap.sh` añadido a `EXPECTED_FILES`.
+- `.claude/settings.json`: added `hooks.SessionStart` (points to `bootstrap.sh`) and `Bash(./.claude/scripts/bootstrap.sh)` to `permissions.allow`.
+- `.claude/scripts/setup.sh`: refactored to a "manual superset". It now delegates hook activation to `bootstrap.sh` (avoids the `core.hooksPath` vs `pre-commit install` conflict), and `pre-commit` becomes **optional** (a warning instead of `exit 3`) because the pre-push guardrail is already active via `core.hooksPath`. `bootstrap.sh` added to `EXPECTED_FILES`.
 
-### Motivación
+### Motivation
 
-Preparar el proyecto para trabajo desde Claude Code Cloud. Diagnóstico previo: un clon fresco recuperaba todo `.claude/**` versionado y los hooks de Claude Code (viajan en `settings.json`), pero la **capa 2 de guardrails (git hook `pre-push` contra Next-Flip) quedaba inactiva** hasta ejecutar `setup.sh` a mano — y `setup.sh` dependía de `pre-commit`. El auto-bootstrap cierra ese hueco sin dependencias externas.
+Prepare the project for work from Claude Code Cloud. Prior diagnosis: a fresh clone recovered all of the versioned `.claude/**` and the Claude Code hooks (they travel in `settings.json`), but **guardrail layer 2 (the `pre-push` git hook against Next-Flip) remained inactive** until `setup.sh` was run by hand — and `setup.sh` depended on `pre-commit`. Auto-bootstrap closes that gap without external dependencies.
 
-### Deliberación
+### Deliberation
 
-- **Nivel L4** (aprobación directa del usuario, ruta D21). El cambio modifica `.claude/settings.json` → matchea `IRREV-6` (G3), lo que prohíbe estructuralmente L1/L2. El usuario aprobó directo sin Concilio, ruta legítima para infraestructura de plan. Log en `.claude/state/decisions.jsonl`.
+- **Level L4** (direct user approval, D21 route). The change modifies `.claude/settings.json` → matches `IRREV-6` (G3), which structurally forbids L1/L2. The user approved directly without a Council, a legitimate route for planned infrastructure. Logged in `.claude/state/decisions.jsonl`.
 
-### Verificación
+### Verification
 
-- `settings.json` validado como JSON.
-- `bootstrap.sh` probado idempotente (2ª ejecución silenciosa, `exit 0`).
-- Guardrail pre-push confirmado activo vía `core.hooksPath`: bloquea URL `Next-Flip/*` (`exit 1`) y permite URL del fork `samartined/*` (`exit 0`).
+- `settings.json` validated as JSON.
+- `bootstrap.sh` tested as idempotent (2nd run silent, `exit 0`).
+- Pre-push guardrail confirmed active via `core.hooksPath`: blocks `Next-Flip/*` URLs (`exit 1`) and allows the fork's `samartined/*` URL (`exit 0`).
 
 ---
 
 ## [0.1.5] — 2026-05-23
 
-### Añadido
+### Added
 
-- `.claude/decisions/ADR-0001-add-cor-angle.md`: primer ADR cerrado del sistema. Decisión sintética para validación funcional V2 de Fase 1.G — el Concilio Tripartito deliberó en 3 rondas si añadir un ángulo `COR` (Correctness) al catálogo cerrado. Resultado: unanimidad 3/3 SÍ con 11 condiciones obligatorias (4 de síntesis + 7 nuevas aceptadas en ronda 3 sin vetos). Materialización decidida por el usuario (opción (a), 2026-05-23).
-- `.claude/decisions/pending/62978df1-.../`: artefactos completos del Concilio (dossier, 3 veredictos ronda 1, síntesis del master ronda 2, 3 votos ronda 2, 3 votos ronda 3). Documentación de auditoría longitudinal.
-- `.claude/state/decisions.jsonl`: entrada V2 con `level: "L3"`, `criterion_invoked: "IRREV-2"`, `council_id: 62978df1-...` (cerrando V2 de los 4 criterios funcionales de Fase 1.G).
+- `.claude/decisions/ADR-0001-add-cor-angle.md`: the system's first closed ADR. A synthetic decision for the V2 functional validation of Phase 1.G — the Tripartite Council deliberated across 3 rounds on whether to add a `COR` (Correctness) angle to the closed catalog. Result: unanimous 3/3 YES with 11 mandatory conditions (4 from synthesis + 7 new ones accepted in round 3 with no vetoes). Materialization decided by the user (option (a), 2026-05-23).
+- `.claude/decisions/pending/62978df1-.../`: the Council's full artifacts (dossier, 3 round-1 verdicts, master's round-2 synthesis, 3 round-2 votes, 3 round-3 votes). Longitudinal audit documentation.
+- `.claude/state/decisions.jsonl`: V2 entry with `level: "L3"`, `criterion_invoked: "IRREV-2"`, `council_id: 62978df1-...` (closing V2 of the 4 functional criteria of Phase 1.G).
 
-### Modificado
+### Changed
 
 - `.claude/design/council-angles.md`:
-  - Catálogo de **12 → 13 ángulos vigentes** (añadido `COR` — Correctness).
-  - `ROB` reformulado para excluir explícitamente correctitud funcional y centrarse en invariantes estructurales (lifecycle, estado, recuperación de fallos).
-  - Pregunta clave de `COR` operacional: "¿Existe un caso de entrada concreto donde el output sea distinto del esperado en ≥1 bit, ≥1 byte, o ≥1 registro, y ese caso no esté cubierto por un test o invariante existente?".
-  - Sección nueva "Notas operacionales para `COR`" con rail disjunto, definición operacional de "elegible para COR" y guard de co-invocación `ROB`+`COR`.
-  - Sección "Historial de cambios al catálogo" inaugurada con **Entrada 1**: definición congelada de `COR`, delimitación frente a `ROB`, cláusula de retirada empírica con disparadores OR (C3-N2 uso bajo + C1-N1 alto solape), comparador semántico (checklist cerrada de 7 subtemas o diff de tokens).
-- `.claude/design/decisions-schema.md`: añadido campo opcional `eligible_for_cor: boolean | null` (C2-N1) para que el master marque elegibilidad de cada L3 y la auditoría a 3 meses sea reproducible sobre el log.
-- `.claude/design/phases.md`: sección nueva "Calendario activo de revisiones" con **Revisión 1** programada para `2026-08-23` (3 meses), owner `agent-architect`, disparadores y sink especificados.
+  - Catalog of **12 → 13 active angles** (added `COR` — Correctness).
+  - `ROB` reworded to explicitly exclude functional correctness and focus on structural invariants (lifecycle, state, failure recovery).
+  - `COR`'s operational key question: "Is there a concrete input case where the output differs from the expected result by ≥1 bit, ≥1 byte, or ≥1 record, and that case is not covered by an existing test or invariant?".
+  - New section "Operational notes for `COR`" with disjoint rail, an operational definition of "eligible for COR", and a co-invocation guard for `ROB`+`COR`.
+  - New "Catalog change history" section, opened with **Entry 1**: frozen definition of `COR`, delimitation against `ROB`, empirical withdrawal clause with OR triggers (C3-N2 low usage + C1-N1 high overlap), semantic comparator (closed 7-subtopic checklist or token diff).
+- `.claude/design/decisions-schema.md`: added optional field `eligible_for_cor: boolean | null` (C2-N1) so the master can flag COR-eligibility for each L3 and the 3-month audit is reproducible against the log.
+- `.claude/design/phases.md`: new "Active review calendar" section with **Review 1** scheduled for `2026-08-23` (3 months out), owner `agent-architect`, triggers and sink specified.
 
-### Cerrado
+### Closed
 
-- **Validación funcional V2 de Fase 1.G**: el Concilio se ejercitó end-to-end con una decisión sintética que matchea G3 (IRREV-2 — modifica `.claude/design/`). El script `check-irreversibility.sh` forzó L3 estructuralmente, el master no pudo degradar a L2, y el flujo completo (dossier → 3 concejales paralelos ronda 1 → síntesis ronda 2 → 3 votos ronda 2 → 3 votos cruzados ronda 3 → ADR cerrado → log decisions.jsonl) funcionó.
-- **Fase 1.G completa**: los 4 criterios funcionales (V1 L1, V2 L3, V3 G3-forzado, V4 push bloqueado) están cerrados.
+- **Phase 1.G functional validation V2**: the Council was exercised end-to-end with a synthetic decision matching G3 (IRREV-2 — modifies `.claude/design/`). The `check-irreversibility.sh` script structurally forced L3, the master could not degrade to L2, and the full flow (dossier → 3 parallel council members round 1 → round-2 synthesis → round-2 votes → round-3 cross-validation votes → closed ADR → decisions.jsonl log) worked.
+- **Phase 1.G complete**: all 4 functional criteria (V1 L1, V2 L3, V3 G3-forced, V4 push blocked) are closed.
 
-### Motivación
+### Motivation
 
-V2 era el último criterio funcional de Fase 1.G por validar. Tras V1, V3 y V4 pasados en sesiones previas, faltaba ejecutar el Concilio completo sobre una decisión que matcheara G3. La decisión sobre `COR` se diseñó como ejercicio sintético — su contenido podía haber sido descartado tras la validación, pero el usuario eligió materializarla porque (a) el firmware Momentum vive principalmente en dominios de I/O de bits (NFC, SubGHz, RFID, IR, parsing, migraciones), exactamente el territorio donde `COR` aplica; (b) la cláusula de retirada empírica a 3 meses actúa como red de seguridad reversible si el ángulo no se amortiza.
+V2 was the last functional criterion of Phase 1.G still to validate. After V1, V3, and V4 passed in prior sessions, the full Council still had to be run on a decision that matched G3. The `COR` decision was designed as a synthetic exercise — its content could have been discarded after validation, but the user chose to materialize it because (a) the Momentum firmware lives mainly in bit-level I/O domains (NFC, SubGHz, RFID, IR, parsing, migrations), exactly the territory where `COR` applies; (b) the 3-month empirical withdrawal clause acts as a reversible safety net if the angle doesn't pay for itself.
 
-### Aprendizajes meta de V2 (material para futuro `system-design.md`)
+### V2 meta-learnings (material for a future `system-design.md`)
 
-- **3 rondas del Concilio sobre L3 funcionó**: ronda 1 (independencia), ronda 2 (síntesis del master + reconsideración), ronda 3 (validación cruzada de condiciones — preserva independencia razonada al leer solo condiciones, no razones de los otros).
-- **Voto minoritario rebatido por mecanismo, no por argumento**: el Concejal 2 (SIM) votó NO en ronda 1 con YAGNI; cambió a SÍ en ronda 2 porque la síntesis añadió la cláusula de retirada empírica. La objeción se incorporó al diseño, no se rebatió retóricamente. Patrón replicable.
-- **Bug del `Write` mid-sesión** (en sesión previa): documentado en RESUME.md como precedente de continuidad inter-sesión cuando el harness presenta fallos puntuales.
+- **3 Council rounds on an L3 worked**: round 1 (independence), round 2 (master's synthesis + reconsideration), round 3 (cross-validation of conditions — preserves reasoned independence by reading only conditions, not the other members' reasoning).
+- **Minority vote overturned by mechanism, not by argument**: Council Member 2 (SIM) voted NO in round 1 citing YAGNI; they switched to YES in round 2 because the synthesis added the empirical withdrawal clause. The objection was incorporated into the design, not rhetorically rebutted. A replicable pattern.
+- **Mid-session `Write` bug** (from a previous session): documented in RESUME.md as a precedent for inter-session continuity when the harness has occasional failures.
 
-### Pendiente
+### Pending
 
-- Arrancar **Fase 2** (especialistas críticos: `flipper-rf-subghz`, `flipper-nfc`, `flipper-app-builder`, `flipper-build-fbt`) — espera orden expresa del usuario.
-- Ejecutar **Revisión 1** el `2026-08-23` (auditoría a 3 meses del ángulo `COR`).
+- Start **Phase 2** (critical specialists: `flipper-rf-subghz`, `flipper-nfc`, `flipper-app-builder`, `flipper-build-fbt`) — awaiting explicit order from the user.
+- Run **Review 1** on `2026-08-23` (3-month audit of the `COR` angle).
 
 ---
 
 ## [0.1.4] — 2026-05-20
 
-### Modificado
+### Changed
 
-- `system-design.md`: anotada D2 con la canonización a `effort: max/medium` (terminología oficial del frontmatter de Claude Code).
-- `system-design.md`: anotada D4 para reflejar que (a) el master sintetiza pero NO vota (aprendizaje meta 2) y (b) las perspectivas fijas originales quedan superadas por el catálogo dinámico D18.
-- `system-design.md`: anotada D11 con la derogación de la "segunda ronda con veredictos compartidos" — sustituida por la regla 1-de-3 SÍ → escalado al usuario (D21) y voto sobre síntesis sin anclaje (aprendizaje meta 3).
-- `system-design.md`: anotada D12 con la revisión al alza del techo total (15 → 20 por D17), manteniendo la regla de "1 agente nuevo por sesión".
-- `system-design.md`: tabla "Roles de agentes" actualizada — eliminada la fila `flipper-master` (el master ya no es subagente), unificadas las 3 filas `council-pragmatist/visionary/skeptic` en una sola fila `council-member` parametrizable, columna `Thinking` renombrada a `Effort` con valores `max/medium` (canonización).
-- `system-design.md`: añadida subsección "Lista cerrada de core agents" dentro de "Roles de agentes" (2 core: `agent-architect` + `council-member`).
-- `system-design.md`: sección "El Concilio Tripartito" rehecha completamente para reflejar D18 (catálogo dinámico), D27 (dossier obligatorio), aprendizaje meta 2 (master no vota), aprendizaje meta 3 (sin ronda 2 anclada), procedimiento de 3 rondas (propuestas → voto sobre síntesis → validación cruzada), persistencia obligatoria en `.claude/decisions/pending/<id>/`.
-- `system-design.md`: subsección "Quotas" del agent-architect actualizada (techo 15 → 20, referencia a la lista cerrada de core agents).
-- `system-design.md`: sección "Operaciones destructivas y guardrails" expandida de 3 capas a 5 (añadidas: capa 1 dos clones físicos D25, capa 3 lista G3 + script regex D19/D23). Añadida tabla resumen de operaciones cubiertas por capa.
-- `system-design.md`: "Estructura de archivos prevista" actualizada con todos los archivos nuevos (`.claude/state/`, `.claude/scripts/`, `.claude/skills/devils-advocate/`, `.claude/decisions/pending/`, `.githooks/`, `.pre-commit-config.yaml`, 4 docs de design, 3 commands nuevos, `council-member.md` en lugar de los 3 fijos, sin `flipper-master.md`).
-- `system-design.md`: añadida sección nueva "Niveles de deliberación L1-L4" con diagrama de decisión, tabla de niveles, mención a auditoría (D20) y hard rule G3 (D23).
-- `system-design.md`: añadida sección nueva "Dossier obligatorio antes de L3" con schema mínimo, tope blando 10 / duro 20, disciplina contra contaminación y comando `/flipper-reset`.
-- `phases.md` (Fase 1): eliminada referencia a `flipper-master.md` (master no es subagente). Reemplazadas las 3 líneas de concejales fijos por una sola línea de `council-member.md` parametrizable. Actualizada la línea de `CLAUDE.md` para mencionar explícitamente el rol del master como conversación principal. Actualizada la línea de `settings.json` para mencionar `alwaysThinkingEnabled: true` (D10).
+- `system-design.md`: annotated D2 with the canonization to `effort: max/medium` (official Claude Code frontmatter terminology).
+- `system-design.md`: annotated D4 to reflect that (a) the master synthesizes but does NOT vote (meta-learning 2) and (b) the original fixed perspectives are superseded by the dynamic catalog D18.
+- `system-design.md`: annotated D11 with the repeal of the "second round with shared verdicts" — replaced by the 1-of-3 YES → escalate to user rule (D21) and voting on an unanchored synthesis (meta-learning 3).
+- `system-design.md`: annotated D12 with an upward revision of the total cap (15 → 20 per D17), keeping the "1 new agent per session" rule.
+- `system-design.md`: "Agent roles" table updated — removed the `flipper-master` row (the master is no longer a subagent), unified the 3 rows `council-pragmatist/visionary/skeptic` into a single parametrizable `council-member` row, `Thinking` column renamed to `Effort` with values `max/medium` (canonization).
+- `system-design.md`: added subsection "Closed list of core agents" inside "Agent roles" (2 core: `agent-architect` + `council-member`).
+- `system-design.md`: "The Tripartite Council" section fully rewritten to reflect D18 (dynamic catalog), D27 (mandatory dossier), meta-learning 2 (master doesn't vote), meta-learning 3 (no anchored round 2), 3-round procedure (proposals → vote on synthesis → cross-validation), mandatory persistence in `.claude/decisions/pending/<id>/`.
+- `system-design.md`: "Quotas" subsection of the agent-architect updated (cap 15 → 20, reference to the closed list of core agents).
+- `system-design.md`: "Destructive operations and guardrails" section expanded from 3 layers to 5 (added: layer 1 two physical clones D25, layer 3 G3 list + regex script D19/D23). Added a summary table of operations covered per layer.
+- `system-design.md`: "Expected file structure" updated with all new files (`.claude/state/`, `.claude/scripts/`, `.claude/skills/devils-advocate/`, `.claude/decisions/pending/`, `.githooks/`, `.pre-commit-config.yaml`, 4 design docs, 3 new commands, `council-member.md` in place of the 3 fixed ones, no `flipper-master.md`).
+- `system-design.md`: added new section "Deliberation levels L1-L4" with a decision diagram, level table, mention of auditing (D20), and the G3 hard rule (D23).
+- `system-design.md`: added new section "Mandatory dossier before L3" with the minimum schema, soft cap 10 / hard cap 20, discipline against contamination, and the `/flipper-reset` command.
+- `phases.md` (Phase 1): removed reference to `flipper-master.md` (the master is not a subagent). Replaced the 3 fixed-council-member lines with a single parametrizable `council-member.md` line. Updated the `CLAUDE.md` line to explicitly mention the master's role as the main conversation. Updated the `settings.json` line to mention `alwaysThinkingEnabled: true` (D10).
 
-### Motivación
+### Motivation
 
-La revisión personal de los archivos plasmados por el agente Sonnet en v0.1.3 detectó 14 inconsistencias internas:
+The personal review of the files produced by the Sonnet agent in v0.1.3 found 14 internal inconsistencies:
 
-- Decisiones antiguas (D2, D4, D11, D12) contradecían a las nuevas (D17-D27) sin anotación de superación.
-- Secciones narrativas (Concilio, agent-architect > Quotas, Guardrails, Roles de agentes, Estructura de archivos) reflejaban el diseño pre-Concilio y no las decisiones D17-D27.
-- Conceptos centrales (niveles L1-L4, dossier obligatorio, lista de core agents) vivían dispersos en filas de la tabla de decisiones sin desarrollo formal en secciones propias.
+- Older decisions (D2, D4, D11, D12) contradicted newer ones (D17-D27) without an annotation marking the supersession.
+- Narrative sections (Council, agent-architect > Quotas, Guardrails, Agent roles, File structure) reflected the pre-Council design rather than decisions D17-D27.
+- Core concepts (L1-L4 levels, mandatory dossier, list of core agents) were scattered across rows of the decisions table with no formal treatment in dedicated sections.
 
-Sin esta reconciliación, un lector fresco del documento — o el master arrancando Fase 1 — encontraría un texto que se contradice a sí mismo y no podría operar de forma coherente. La reconciliación se hizo manualmente (no delegada a subagente) para preservar control granular sobre las anotaciones y evitar regresiones por interpretación.
+Without this reconciliation, a fresh reader of the document — or the master starting Phase 1 — would find a self-contradictory text and would not be able to operate coherently. The reconciliation was done manually (not delegated to a subagent) to preserve granular control over the annotations and to avoid regressions from misinterpretation.
 
-### Pendiente
+### Pending
 
-Solo la orden expresa del usuario para arrancar Fase 1 (D16). Tras esta reconciliación, los 3 documentos (`system-design.md`, `phases.md`, `CHANGELOG.md`) son internamente consistentes con las 27 decisiones cerradas + 4 aprendizajes meta.
+Only the user's explicit order to start Phase 1 (D16). After this reconciliation, the 3 documents (`system-design.md`, `phases.md`, `CHANGELOG.md`) are internally consistent with the 27 closed decisions + 4 meta-learnings.
 
 ---
 
 ## [0.1.3] — 2026-05-20
 
-### Añadido
+### Added
 
-- Decisiones D17-D27 en `system-design.md` (tabla "Decisiones cerradas"), una por cada gap cerrado por el Concilio Tripartito en 3 rondas (G1-G10 + A1).
-- Sección "Aprendizajes meta del Concilio en vivo" en `system-design.md` con 4 observaciones derivadas de ejecutar el Concilio como ejercicio práctico de cierre de los gaps.
-- `.claude/design/council-angles.md`: catálogo cerrado de 12 ángulos del Concilio con IDs estables y regla de wildcard.
-- `.claude/design/irreversibility.md`: lista cerrada de 9 operaciones irreversibles que disparan L3 automáticamente.
-- `.claude/design/decisions-schema.md`: schema del log `.claude/state/decisions.jsonl` + umbral de activación de auditor en Fase 2+ (ratio L1+L2/total > 0.95 con ventana mínima N=100).
-- `.claude/design/cost-policy.md`: presupuesto por sesión, niveles de actuación (60% warning, 200% hard cap) y tabla tokens→USD con fecha y fuente.
-- En `phases.md > Fase 1`: 15 entregables nuevos (4 docs de diseño, 2 scripts, 2 githooks, 3 hooks de Claude Code, 3 commands, 1 skill) + 4 criterios funcionales de "done" verificables.
+- Decisions D17-D27 in `system-design.md` ("Closed decisions" table), one for each gap closed by the Tripartite Council over 3 rounds (G1-G10 + A1).
+- "Meta-learnings from the live Council" section in `system-design.md` with 4 observations derived from running the Council as a practical exercise for closing the gaps.
+- `.claude/design/council-angles.md`: closed catalog of 12 Council angles with stable IDs and a wildcard rule.
+- `.claude/design/irreversibility.md`: closed list of 9 irreversible operations that automatically trigger L3.
+- `.claude/design/decisions-schema.md`: schema for the `.claude/state/decisions.jsonl` log + activation threshold for the auditor in Phase 2+ (L1+L2/total ratio > 0.95 with minimum window N=100).
+- In `phases.md > Phase 1`: 15 new deliverables (4 design docs, 2 scripts, 2 githooks, 3 Claude Code hooks, 3 commands, 1 skill) + 4 verifiable functional "done" criteria.
 
-### Modificado
+### Changed
 
-- Sección "Mapeo de modelos por rol" en `system-design.md`: corregida la afirmación errónea (presente en v0.1.0 a v0.1.2) de que no existía campo `effort` en frontmatter de subagentes. Tras verificación contra documentación oficial (`code.claude.com/docs/en/subagents-and-plugins.md`), el campo existe (`low | medium | high | xhigh | max`). Se especifica `effort: max` para Opus y `effort: medium` para Sonnet.
-- Sección "Puntos abiertos" en `system-design.md`: actualizada para reflejar que tras D27 el sistema queda listo para Fase 1 a orden expresa del usuario (D16).
+- "Model-to-role mapping" section in `system-design.md`: corrected the mistaken claim (present from v0.1.0 through v0.1.2) that subagent frontmatter had no `effort` field. After verifying against the official documentation (`code.claude.com/docs/en/subagents-and-plugins.md`), the field does exist (`low | medium | high | xhigh | max`). `effort: max` is specified for Opus and `effort: medium` for Sonnet.
+- "Open points" section in `system-design.md`: updated to reflect that after D27 the system is ready for Phase 1 pending the user's explicit order (D16).
 
-### Resoluciones G1-G10 + A1 (mapping a decisiones cerradas)
+### G1-G10 + A1 resolutions (mapping to closed decisions)
 
-- **G1** → D17 (techo único 20 + lista cerrada de core agents)
-- **G2** → D18 (catálogo cerrado + 1 wildcard/sesión + `/flipper-review-wildcards`)
-- **G3** → D19 (lista cerrada 9 entradas + script de verificación automática)
-- **G4** → D20 (log JSONL en Fase 1, auditor empírico en Fase 2+)
-- **G5** → D21 (1-de-3 SÍ → escalado obligatorio L4)
-- **G6** → D22 (framework `pre-commit` + `setup.sh` una línea)
-- **G7** → D23 (`/devils-advocate` como L2 + hard rule G3 deshabilita L1/L2)
-- **G8** → D24 (warning 60% + hard cap configurable + tabla tokens→USD)
-- **G9** → D25 (dos clones + hook bloqueante con override visible)
-- **G10** → D26 (`/flipper-redirect` + flag binario `out_of_scope`)
-- **A1** → D27 (dossier obligatorio + schema + tope blando 10/duro 20 + `/flipper-reset` opt-in)
+- **G1** → D17 (single cap of 20 + closed list of core agents)
+- **G2** → D18 (closed catalog + 1 wildcard/session + `/flipper-review-wildcards`)
+- **G3** → D19 (closed 9-entry list + automatic verification script)
+- **G4** → D20 (JSONL log in Phase 1, empirical auditor in Phase 2+)
+- **G5** → D21 (1-of-3 YES → mandatory escalation to L4)
+- **G6** → D22 (`pre-commit` framework + one-line `setup.sh`)
+- **G7** → D23 (`/devils-advocate` as L2 + G3 hard rule disables L1/L2)
+- **G8** → D24 (60% warning + configurable hard cap + tokens→USD table)
+- **G9** → D25 (two clones + blocking hook with visible override)
+- **G10** → D26 (`/flipper-redirect` + binary `out_of_scope` flag)
+- **A1** → D27 (mandatory dossier + schema + soft cap 10/hard cap 20 + opt-in `/flipper-reset`)
 
-### Motivación
+### Motivation
 
-Tras la verificación técnica que confirmó dos errores estructurales del diseño v0.1.0 (subagent nesting no soportado por la plataforma; campo `effort` sí existe y no se usaba), se ejecutó una reformulación arquitectural (master = conversación principal) y una dialéctica adversarial de segunda ronda que identificó 11 gaps remanentes. El Concilio Tripartito convocado para cerrarlos sirvió simultáneamente como (a) mecanismo de cierre de los gaps por unanimidad y (b) validación práctica del propio Concilio antes de su uso productivo. Los aprendizajes meta del ejercicio se incorporan al diseño (sección nueva en `system-design.md`).
+After the technical verification that confirmed two structural errors in the v0.1.0 design (subagent nesting not supported by the platform; the `effort` field does exist and was unused), an architectural reformulation was carried out (master = main conversation) plus a second round of adversarial dialectics that identified 11 remaining gaps. The Tripartite Council, convened to close them, served simultaneously as (a) the mechanism for closing the gaps by unanimity and (b) a practical validation of the Council itself before productive use. The meta-learnings from the exercise are folded into the design (new section in `system-design.md`).
 
-### Pendiente
+### Pending
 
-Solo una cosa: que el usuario dé la orden expresa de arrancar Fase 1 (D16).
+Just one thing: for the user to give the explicit order to start Phase 1 (D16).
 
 ---
 
 ## [0.1.2] — 2026-05-19
 
-### Modificado
+### Changed
 
-- `system-design.md`: añadidas decisiones D10–D16 a la tabla "Decisiones cerradas", correspondientes a las resoluciones de los puntos abiertos P1–P7 por parte del usuario.
-- `system-design.md`: sección "Quotas" del architect fijada (máximo 1 agente nuevo por sesión, máximo 15 totales — modo prudente).
-- `system-design.md`: sección "Periodo experimental" fijada en N=5 invocaciones sin modificación para graduar a `stable`.
-- `system-design.md`: sección "Concilio Tripartito > Coste y atajos" actualizada para referenciar D11 en lugar de marcar "pendiente".
-- `system-design.md`: sección "Puntos abiertos" reemplazada por nota de cierre (todos los puntos resueltos; arranque de Fase 1 a orden expresa del usuario).
-- `phases.md`: "Estado actual" actualizado para reflejar que la Fase 0 está completa en su componente de diseño y que el arranque de Fase 1 espera la orden expresa del usuario.
+- `system-design.md`: added decisions D10–D16 to the "Closed decisions" table, corresponding to the user's resolutions of open points P1–P7.
+- `system-design.md`: "Quotas" section for the architect fixed (maximum 1 new agent per session, maximum 15 total — cautious mode).
+- `system-design.md`: "Experimental period" section fixed at N=5 unmodified invocations to graduate to `stable`.
+- `system-design.md`: "Tripartite Council > Cost and shortcuts" section updated to reference D11 instead of marking it "pending".
+- `system-design.md`: "Open points" section replaced with a closing note (all points resolved; Phase 1 starts on the user's explicit order).
+- `phases.md`: "Current status" updated to reflect that Phase 0 is complete on its design component and that starting Phase 1 awaits the user's explicit order.
 
-### Resoluciones P1–P7
+### P1–P7 resolutions
 
-- **P1** → Extended-thinking activado a nivel de proyecto en `.claude/settings.json` (no global). [D10]
-- **P2** → Quorum del Concilio: 2/3 normal, unanimidad para destructivas, escalado al usuario si no hay 2/3 tras la segunda ronda. [D11]
-- **P3** → Quotas del architect: 1 nuevo/sesión, 15 totales (modo prudente). [D12]
-- **P4** → Periodo experimental: N=5 invocaciones sin modificación para graduar a `stable`. [D13]
-- **P5** → Permisos en `settings.json` confirmados (build libre, git no destructivo libre con matiz en `checkout` a branch existente, destructivos piden aprobación, push a Next-Flip bloqueado por hook). [D14]
-- **P6** → Comandos atajo `/flipper-quick` y `/flipper-council` confirmados. [D15]
-- **P7** → Arranque de Fase 1 a orden expresa del usuario, no automático. [D16]
+- **P1** → Extended thinking enabled at the project level in `.claude/settings.json` (not globally). [D10]
+- **P2** → Council quorum: 2/3 normal, unanimity for destructive actions, escalate to the user if there's no 2/3 after the second round. [D11]
+- **P3** → Architect quotas: 1 new/session, 15 total (cautious mode). [D12]
+- **P4** → Experimental period: N=5 unmodified invocations to graduate to `stable`. [D13]
+- **P5** → Permissions in `settings.json` confirmed (free builds, free non-destructive git with a caveat on `checkout` to an existing branch, destructive actions require approval, push to Next-Flip blocked by hook). [D14]
+- **P6** → Shortcut commands `/flipper-quick` and `/flipper-council` confirmed. [D15]
+- **P7** → Phase 1 starts on the user's explicit order, not automatically. [D16]
 
-### Motivación
+### Motivation
 
-Cerrar los 7 puntos abiertos era requisito para que el sistema saliera de la planificación. Las resoluciones quedan plasmadas como decisiones cerradas y trazables (D10-D16), no como notas dispersas, para que cualquier sesión futura de Claude Code reconstruya el porqué de cada parámetro sin necesidad de la conversación original.
+Closing the 7 open points was a requirement for the system to move past planning. The resolutions are recorded as closed, traceable decisions (D10-D16), not as scattered notes, so that any future Claude Code session can reconstruct the reasoning behind each parameter without needing the original conversation.
 
-### Pendiente
+### Pending
 
-Solo la orden expresa del usuario para arrancar Fase 1. Hasta entonces no se toca ningún otro archivo del repo ni se crean los agentes/configuraciones de Fase 1.
+Only the user's explicit order to start Phase 1. Until then, no other repo file is touched and no Phase 1 agents/configurations are created.
 
 ---
 
 ## [0.1.1] — 2026-05-19
 
-### Modificado
+### Changed
 
-- `system-design.md`: añadida subsección "Áreas no cubiertas por especialista dedicado" (U2F, Archive, GPIO, momentum_app) con criterio de promoción a especialista propio (3 o más tareas reales).
-- `system-design.md`: detallado el mecanismo de conteo de "N usos sin modificación" en la sección "Periodo experimental" mediante los campos `invocation_count` y `last_modified_commit` en `REGISTRY.md`.
-- `system-design.md`: afinado el punto P5 de "Puntos abiertos" para distinguir `git checkout -b <nueva>` (libre) de `git checkout <branch-existente>` (libre solo con árbol limpio; pide aprobación en caso contrario).
+- `system-design.md`: added subsection "Areas not covered by a dedicated specialist" (U2F, Archive, GPIO, momentum_app) with the promotion criterion to a dedicated specialist (3 or more real tasks).
+- `system-design.md`: detailed the counting mechanism for "N uses without modification" in the "Experimental period" section via the `invocation_count` and `last_modified_commit` fields in `REGISTRY.md`.
+- `system-design.md`: refined open point P5 to distinguish `git checkout -b <new>` (free) from `git checkout <existing-branch>` (free only with a clean tree; requires approval otherwise).
 
-### Motivación
+### Motivation
 
-La revisión personal del diseño detectó tres huecos menores que conviene cerrar antes de Fase 1:
+Personal review of the design found three minor gaps worth closing before Phase 1:
 
-- Áreas del firmware sin especialista asignado (U2F, Archive, GPIO, momentum_app) producirían delegación ambigua del master sin una regla explícita de cobertura.
-- "N usos sin modificación" para graduar agentes experimentales era no-implementable sin definir cómo se cuenta.
-- El permiso libre de `git checkout` sin distinguir entre crear branch nueva y cambiar a una existente podía permitir sobrescribir trabajo sin commit.
+- Firmware areas with no assigned specialist (U2F, Archive, GPIO, momentum_app) would cause ambiguous delegation by the master with no explicit coverage rule.
+- "N uses without modification" for graduating experimental agents was not implementable without defining how it's counted.
+- The free permission for `git checkout`, without distinguishing between creating a new branch and switching to an existing one, could allow overwriting uncommitted work.
 
 ---
 
 ## [0.1.0] — 2026-05-19
 
-### Añadido
+### Added
 
-- Documento `.claude/design/system-design.md` con el diseño inicial completo del sistema multi-agente: orquestador, especialistas, Concilio Tripartito, agent-architect con 4 capas de control, guardrails de operaciones destructivas, mapeo de modelos por rol.
-- Documento `.claude/design/phases.md` con la planificación de implementación en 5 fases (Fase 0 a Fase 4), criterios de "done" por fase y mecanismo de persistencia de contexto entre fases.
-- Este archivo `.claude/design/CHANGELOG.md`.
+- Document `.claude/design/system-design.md` with the complete initial design of the multi-agent system: orchestrator, specialists, Tripartite Council, agent-architect with 4 layers of control, guardrails for destructive operations, model-to-role mapping.
+- Document `.claude/design/phases.md` with the implementation plan across 5 phases (Phase 0 to Phase 4), per-phase "done" criteria, and the mechanism for persisting context between phases.
+- This file, `.claude/design/CHANGELOG.md`.
 
-### Motivación
+### Motivation
 
-Estamos construyendo un sistema multi-agente para que Claude pueda asistir hiperespecializadamente en el firmware Momentum del Flipper Zero. El usuario quiere:
+We are building a multi-agent system so Claude can provide hyper-specialized assistance on the Flipper Zero Momentum firmware. The user wants:
 
-- Un orquestador que delegue en especialistas para no contaminar contexto entre dominios (RF, NFC, BLE, app-builder, build, etc.).
-- Un meta-agente capaz de crear nuevos especialistas bajo control humano cuando el firmware lo requiera.
-- Un Concilio de 3 perspectivas (Pragmático, Visionario, Escéptico) que delibere y vote en decisiones globales.
-- Versionado en GitHub para que el sistema agente evolucione junto con el código.
-- Guardrails fuertes para operaciones destructivas (flash, push, borrado) que requieren aprobación humana explícita.
+- An orchestrator that delegates to specialists so context isn't polluted across domains (RF, NFC, BLE, app-builder, build, etc.).
+- A meta-agent able to create new specialists under human control when the firmware requires it.
+- A Council of 3 perspectives (Pragmatist, Visionary, Skeptic) that deliberates and votes on global decisions.
+- Versioning on GitHub so the agent system evolves alongside the code.
+- Strong guardrails for destructive operations (flash, push, deletion) that require explicit human approval.
 
-Esta primera entrega plasma el diseño en archivos antes de empezar a implementar, para no perder contexto entre sesiones y para que el propio sistema cuando arranque pueda autorrecordar su propio diseño.
+This first delivery captures the design in files before starting implementation, so as not to lose context between sessions and so the system itself, once started, can recall its own design.
 
-### Pendiente
+### Pending
 
-7 puntos abiertos por resolver con el usuario antes de pasar a Fase 1 (detallados en `system-design.md` → sección "Puntos abiertos"). Una vez resueltos, comienza Fase 1 (núcleo mínimo viable).
+7 open points to resolve with the user before moving to Phase 1 (detailed in `system-design.md` → "Open points" section). Once resolved, Phase 1 begins (minimum viable core).

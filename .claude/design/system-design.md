@@ -1,114 +1,114 @@
-# Diseño del sistema multi-agente — Momentum Firmware / Flipper Zero
+# Multi-agent system design — Momentum Firmware / Flipper Zero
 
-## Propósito
+## Purpose
 
-Este sistema construye un equipo de agentes de Claude hiperespecializados en el firmware Momentum del Flipper Zero para añadir features, optimizar, corregir bugs y sugerir mejoras. El sistema es auto-extensible: puede crear nuevos agentes especializados bajo control humano estricto. Todas las decisiones quedan versionadas en git dentro del repo personal del usuario (`samartined/My-Momentum-Firmware-F0`). El clone oficial (`Next-Flip/Momentum-Firmware`) no recibe ningún artefacto del sistema agente.
+This system builds a team of Claude agents hyper-specialized in the Momentum firmware for the Flipper Zero, to add features, optimize, fix bugs, and suggest improvements. The system is self-extensible: it can create new specialized agents under strict human control. All decisions are versioned in git within the user's personal repo (`samartined/My-Momentum-Firmware-F0`). The official clone (`Next-Flip/Momentum-Firmware`) receives no artifact from the agent system.
 
 ---
 
-## Decisiones cerradas
+## Closed decisions
 
-| ID | Decisión | Motivación |
+| ID | Decision | Motivation |
 |----|----------|------------|
-| D1 | Eliminar el `AGENTS.md` heredado del repo personal del usuario | El repo personal es propiedad del usuario; la política anti-AI del oficial no aplica aquí. El clone oficial mantiene su `AGENTS.md` intacto y se respeta no subiendo nada allí. |
-| D2 | Modelos por rol: Opus con `effort: max` para razonamiento/diseño/análisis (master, architect, concejales del Concilio); Sonnet con `effort: medium` para especialistas de dominio. La terminología original "thinking máximo/medio" se canoniza al campo oficial `effort` en frontmatter (ver sección "Mapeo de modelos por rol") | El razonamiento profundo justifica el coste de Opus solo donde aporta valor real; los especialistas necesitan velocidad y contexto de dominio más que razonamiento general. |
-| D3 | Arquitectura: orquestador `flipper-master` que delega en especialistas, más meta-agente `agent-architect` que puede crear nuevos especialistas bajo límites | Aislar contexto entre dominios evita contaminación, y escalar capacidad sin diluir el prompt del master. |
-| D4 | Concilio Tripartito: 3 instancias Opus invocadas en paralelo para razonamiento global, diseño y tareas cross-dominio. Decisión por votación de los 3 concejales; el master sintetiza pero NO vota (refinado por aprendizaje meta 2). Las perspectivas originales fijas (Pragmático, Visionario, Escéptico) quedan superadas por catálogo dinámico de ángulos en D18 | Evitar groupthink y forzar consideración explícita de trade-offs; el catálogo dinámico evita el sesgo predecible de roles fijos. |
-| D5 | El `agent-architect` está limitado por 4 capas: overlap check, casos de uso obligatorios, voto del Concilio, aprobación humana explícita | Prevenir spam de agentes, redundancia y agentes mal diseñados. |
-| D6 | Los agentes pueden ejecutar build (`./fbt`, `./fbt fap_*`, `./fbt format`) sin pedir aprobación humana cada vez | El build es no destructivo y se necesita iterar rápido. |
-| D7 | Operaciones destructivas (flash, push a remote, borrado, `rm -rf`, `git reset --hard`, `git clean -fd`, force-push) requieren aprobación humana explícita en cada invocación | Estas acciones pueden perder trabajo, dañar hardware o exponer código al repo equivocado. |
-| D8 | Implementación por fases con checkpoints en archivos para no perder contexto entre sesiones | El contexto de una conversación es finito; el estado del proyecto debe persistir en disco. |
-| D9 | Todo lo del sistema agente (`.claude/**`, `CLAUDE.md`) se versiona en el repo personal. NUNCA en el clone oficial | Alineamiento con la política del oficial y propiedad clara del trabajo en el repo del usuario. |
-| D10 | Extended-thinking activado a nivel de proyecto en `.claude/settings.json` (no global) | Aísla la configuración al firmware sin contaminar otros proyectos del usuario. Resolución de P1. |
-| D11 | Quorum del Concilio: 2-de-3 SÍ para decisiones normales; unanimidad SÍ para decisiones con acciones destructivas (además de aprobación humana). La cláusula original "segunda ronda con veredictos compartidos" queda **derogada** por aprendizaje meta 3: la ronda 2 anclada se elimina porque colapsa la deliberación en groupthink. En su lugar, la regla 1-de-3 SÍ dispara escalado directo al usuario (ver D21). Si se necesita refinar veredictos, se hace mediante voto sobre síntesis sin compartir veredictos completos | Balancea robustez (mayoría diversa) con coste (no exigir unanimidad cuando no es crítico). Resolución de P2. |
-| D12 | Quotas del `agent-architect`: máximo 1 agente nuevo por sesión (modo prudente). El techo total fue revisado al alza por D17 (techo único de 20, no 15) para acomodar la planificación de Fases 2-3. La regla de velocidad de creación (1/sesión) se mantiene | Restricción conservadora para evitar proliferación y forzar consolidación. Resolución de P3 (revisada por D17). |
-| D13 | Periodo experimental: N=5 invocaciones sin modificación para que el architect proponga graduar a `stable` | Umbral suficiente para detectar problemas reales en uso sin retrasar la consolidación. Resolución de P4. |
-| D14 | Permisos `.claude/settings.json`: build libre; git no destructivo libre (`git add`, `git commit`, `git checkout -b <nueva>`); `git checkout <branch-existente>` libre solo con árbol limpio; flash/push/destructivos siempre piden aprobación; push a `Next-Flip/Momentum-Firmware` bloqueado por hook | Build necesita iteración rápida sin fricción; acciones destructivas necesitan revisión humana; el oficial necesita protección dura para evitar fugas accidentales. Resolución de P5. |
-| D15 | Comandos atajo: `/flipper-quick <task>` salta el Concilio y va directo al especialista; `/flipper-council <question>` fuerza convocar al Concilio aunque el master no lo consideraría necesario | Permite control manual al usuario sobre cuándo activar el coste del Concilio. Resolución de P6. |
-| D16 | Arranque de Fase 1: a orden expresa del usuario, no automático tras cerrar el resto de puntos | El usuario quiere control explícito sobre el momento de pasar de planificación a implementación. Resolución de P7. |
-| D17 | Quota del architect: techo único de 20 agentes en `.claude/agents/`. Lista cerrada de "core agents" mantenida en `system-design.md` (editable solo por PR humano). El hook que cuenta agentes considera todos los archivos contra el techo único | Resolución del Concilio G1: distinción categorial sin enforcement formal sería evadible; un techo único auditable es robusto sin overhead. |
-| D18 | Catálogo cerrado de ángulos del Concilio en `.claude/design/council-angles.md` con IDs estables. 1 wildcard máx por sesión con justificación expandida al log. Comando `/flipper-review-wildcards` opt-in para promover recurrentes | Resolución del Concilio G2: catálogo cerrado elimina sesgo del master al elegir ángulos; el wildcard preserva flexibilidad ante casos atípicos del firmware embedded. |
-| D19 | Lista cerrada de operaciones irreversibles en `.claude/design/irreversibility.md` (9 entradas). Script de verificación automática por regex que dispara L3 sin juicio subjetivo del master. Extensión vía PR humano | Resolución del Concilio G3: definición operativa enumerada permite que el matching sea automático, no dependa de disciplina del modelo. |
-| D20 | Auditoría de clasificaciones L1/L2: Fase 1 solo log JSONL en `.claude/state/decisions.jsonl` (gitignored) con schema versionado en `.claude/design/decisions-schema.md`. Activación del auditor Sonnet en Fase 2+ condicionada a evidencia empírica: ratio L1+L2/total > 95% durante ventana mínima de N=100 decisiones | Resolución del Concilio G4: construir auditor sin datos sería sobreingeniería; activación empírica con umbral explícito evita falsas alarmas. |
-| D21 | Regla 1-de-3 SÍ del Concilio: escalado obligatorio al usuario (nivel L4) | Resolución del Concilio G5: cuando solo un concejal vota SÍ, la deliberación automatizada no tiene legitimidad; transparencia al humano es la única respuesta defendible. |
-| D22 | Framework `pre-commit` (Python ya es dependencia del firmware vía fbt) + script `./setup.sh` invocable como una línea sin flags + validación binaria de existencia de archivos esperados (no suite de tests) + mensaje de diagnóstico si falla | Resolución del Concilio G6: `pre-commit` es estándar maduro y la dependencia ya está pagada; setup mínimo verificable cubre el caso de uso individual. |
-| D23 | `/devils-advocate` como L2 articulado explícitamente como "deliberación intermedia barata, no sustituto del Concilio". Hard rule estructural: si la operación matchea la lista G3 (irreversibles), L1 y L2 quedan deshabilitados — solo L3 o L4 son válidos. Matching automático vía script G3, no juicio del master | Resolución del Concilio G7: la lista G3 actúa como invariante estructural que impide la degradación de L3 a L2 sin requerir disciplina del modelo. |
-| D24 | Techo de coste: Fase 1 soft warning al 60% del presupuesto + hard cap configurable en `.claude/design/cost-policy.md` (default $50/sesión) + log granular por invocación con tokens in/out y coste estimado en `.claude/state/costs.jsonl` + tabla tokens→USD con fecha de última actualización y fuente | Resolución del Concilio G8: warning sin enforcement se ignora; hard cap muy alto es safety net contra patologías sin fricción en uso normal. |
-| D25 | Modelo de dos clones físicos formalizado en README + hook `pre-push` bloqueante (exit != 0) que matchea `Next-Flip/*` + override consciente vía variable de entorno + mensaje de stderr imprime literalmente el comando de override en la primera línea al bloquear | Resolución del Concilio G9: la separación física de credenciales es la barrera real; el hook bloqueante con override visible es defensa en profundidad sin fricción crónica. |
-| D26 | Failure modes de routing: comando `/flipper-redirect <especialista>` manual + flag binario obligatorio `out_of_scope: bool` en cada respuesta de especialista. Si `out_of_scope: true`, master reasigna automáticamente al architect. Log de redirecciones para mejora longitudinal. Sin `confidence` per-respuesta en Fase 1 | Resolución del Concilio G10: flag binario es auditable y suficiente; score de confianza sería ruido sin valor empírico demostrado. |
-| D27 | Reconstrucción obligatoria del dossier antes de cada L3 a `.claude/decisions/pending/<id>/dossier.md` con schema mínimo (enunciado, archivos consultados con paths absolutos, alternativas consideradas, criterio de irreversibilidad invocado). Tope blando 10 archivos / hasta 20 con justificación expandida en sección "Por qué excedo el tope". Comando `/flipper-reset` disponible como opt-in del usuario | Resolución del Concilio A1: el master como conversación principal arrastra contexto contaminante; reconstruir dossier desde cero es la salvaguarda más barata; tope blando previene inflación defensiva. |
+| D1 | Remove the `AGENTS.md` inherited from the user's personal repo | The personal repo is owned by the user; the official's anti-AI policy does not apply here. The official clone keeps its `AGENTS.md` intact and is respected by not uploading anything there. |
+| D2 | Models per role: Opus with `effort: max` for reasoning/design/analysis (master, architect, Council members); Sonnet with `effort: medium` for domain specialists. The original terminology "maximum/medium thinking" is canonized to the official `effort` field in frontmatter (see section "Model mapping by role") | Deep reasoning justifies Opus's cost only where it delivers real value; specialists need speed and domain context more than general reasoning. |
+| D3 | Architecture: `flipper-master` orchestrator that delegates to specialists, plus meta-agent `agent-architect` that can create new specialists within limits | Isolating context between domains avoids contamination, and scales capacity without diluting the master's prompt. |
+| D4 | Tripartite Council: 3 Opus instances invoked in parallel for global reasoning, design, and cross-domain tasks. Decision by vote of the 3 council members; the master synthesizes but does NOT vote (refined by meta-learning 2). The original fixed perspectives (Pragmatic, Visionary, Skeptic) are superseded by the dynamic angle catalog in D18 | Avoid groupthink and force explicit consideration of trade-offs; the dynamic catalog avoids the predictable bias of fixed roles. |
+| D5 | The `agent-architect` is limited by 4 layers: overlap check, mandatory use cases, Council vote, explicit human approval | Prevent agent spam, redundancy, and poorly designed agents. |
+| D6 | Agents can run builds (`./fbt`, `./fbt fap_*`, `./fbt format`) without asking human approval every time | The build is non-destructive and fast iteration is needed. |
+| D7 | Destructive operations (flash, push to remote, deletion, `rm -rf`, `git reset --hard`, `git clean -fd`, force-push) require explicit human approval on every invocation | These actions can lose work, damage hardware, or expose code to the wrong repo. |
+| D8 | Phased implementation with checkpoints in files so context is not lost between sessions | A conversation's context is finite; project state must persist on disk. |
+| D9 | Everything in the agent system (`.claude/**`, `CLAUDE.md`) is versioned in the personal repo. NEVER in the official clone | Alignment with the official's policy and clear ownership of the work in the user's repo. |
+| D10 | Extended-thinking enabled at the project level in `.claude/settings.json` (not global) | Isolates the configuration to the firmware without contaminating the user's other projects. Resolution of P1. |
+| D11 | Council quorum: 2-of-3 YES for normal decisions; unanimous YES for decisions involving destructive actions (in addition to human approval). The original "second round with shared verdicts" clause is **repealed** by meta-learning 3: the anchored round 2 is removed because it collapses deliberation into groupthink. Instead, the 1-of-3 YES rule triggers direct escalation to the user (see D21). If verdicts need refining, it is done via a vote on the synthesis without sharing full verdicts | Balances robustness (diverse majority) with cost (not requiring unanimity when it is not critical). Resolution of P2. |
+| D12 | `agent-architect` quotas: maximum 1 new agent per session (prudent mode). The total ceiling was revised upward by D17 (a single cap of 20, not 15) to accommodate planning for Phases 2-3. The creation-rate rule (1/session) is kept | Conservative restriction to avoid proliferation and force consolidation. Resolution of P3 (revised by D17). |
+| D13 | Experimental period: N=5 invocations without modification before the architect proposes graduating to `stable` | Sufficient threshold to detect real problems in use without delaying consolidation. Resolution of P4. |
+| D14 | Permissions in `.claude/settings.json`: build free; non-destructive git free (`git add`, `git commit`, `git checkout -b <new>`); `git checkout <existing-branch>` free only with a clean tree; flash/push/destructive always ask for approval; push to `Next-Flip/Momentum-Firmware` blocked by hook | Build needs fast, frictionless iteration; destructive actions need human review; the official needs hard protection to avoid accidental leaks. Resolution of P5. |
+| D15 | Shortcut commands: `/flipper-quick <task>` skips the Council and goes straight to the specialist; `/flipper-council <question>` forces convening the Council even if the master would not consider it necessary | Gives the user manual control over when to trigger the Council's cost. Resolution of P6. |
+| D16 | Phase 1 kickoff: on the user's express order, not automatic after closing the rest of the points | The user wants explicit control over the moment of moving from planning to implementation. Resolution of P7. |
+| D17 | Architect quota: single cap of 20 agents in `.claude/agents/`. Closed list of "core agents" maintained in `system-design.md` (editable only via human PR). The hook that counts agents considers all files against the single cap | Resolution of Council G1: a categorical distinction without formal enforcement would be evadable; a single auditable cap is robust without overhead. |
+| D18 | Closed catalog of Council angles in `.claude/design/council-angles.md` with stable IDs. Max 1 wildcard per session with expanded justification logged. `/flipper-review-wildcards` command opt-in to promote recurring ones | Resolution of Council G2: a closed catalog removes the master's bias in choosing angles; the wildcard preserves flexibility for atypical embedded-firmware cases. |
+| D19 | Closed list of irreversible operations in `.claude/design/irreversibility.md` (9 entries). Automatic verification script by regex that triggers L3 without the master's subjective judgment. Extension via human PR | Resolution of Council G3: an enumerated operational definition allows matching to be automatic, not dependent on the model's discipline. |
+| D20 | Auditing of L1/L2 classifications: Phase 1 is JSONL log only in `.claude/state/decisions.jsonl` (gitignored) with a versioned schema in `.claude/design/decisions-schema.md`. Activation of the Sonnet auditor in Phase 2+ conditioned on empirical evidence: ratio L1+L2/total > 95% during a minimum window of N=100 decisions | Resolution of Council G4: building an auditor without data would be over-engineering; empirical activation with an explicit threshold avoids false alarms. |
+| D21 | Council 1-of-3 YES rule: mandatory escalation to the user (level L4) | Resolution of Council G5: when only one council member votes YES, automated deliberation has no legitimacy; transparency to the human is the only defensible response. |
+| D22 | `pre-commit` framework (Python is already a firmware dependency via fbt) + `./setup.sh` script invocable as one flagless line + binary validation of the existence of expected files (not a test suite) + diagnostic message on failure | Resolution of Council G6: `pre-commit` is a mature standard and the dependency is already paid for; minimal verifiable setup covers the individual use case. |
+| D23 | `/devils-advocate` as L2, explicitly articulated as "cheap intermediate deliberation, not a substitute for the Council". Structural hard rule: if the operation matches the G3 list (irreversibles), L1 and L2 are disabled — only L3 or L4 are valid. Automatic matching via the G3 script, not the master's judgment | Resolution of Council G7: the G3 list acts as a structural invariant that prevents downgrading from L3 to L2 without requiring model discipline. |
+| D24 | Cost cap: Phase 1 soft warning at 60% of the budget + configurable hard cap in `.claude/design/cost-policy.md` (default $50/session) + granular per-invocation log with tokens in/out and estimated cost in `.claude/state/costs.jsonl` + tokens→USD table with last-updated date and source | Resolution of Council G8: a warning without enforcement gets ignored; a very high hard cap is a safety net against pathologies without friction in normal use. |
+| D25 | Two-physical-clones model formalized in the README + blocking `pre-push` hook (exit != 0) that matches `Next-Flip/*` + conscious override via environment variable + stderr message literally prints the override command on the first line when blocking | Resolution of Council G9: physical separation of credentials is the real barrier; the blocking hook with a visible override is defense in depth without chronic friction. |
+| D26 | Routing failure modes: manual `/flipper-redirect <specialist>` command + mandatory binary flag `out_of_scope: bool` on every specialist response. If `out_of_scope: true`, the master automatically reassigns to the architect. Log of redirections for longitudinal improvement. No per-response `confidence` in Phase 1 | Resolution of Council G10: a binary flag is auditable and sufficient; a confidence score would be noise without demonstrated empirical value. |
+| D27 | Mandatory dossier reconstruction before each L3 to `.claude/decisions/pending/<id>/dossier.md` with a minimum schema (statement, files consulted with absolute paths, alternatives considered, irreversibility criterion invoked). Soft cap of 10 files / up to 20 with expanded justification in a "Why I exceed the cap" section. `/flipper-reset` command available as user opt-in | Resolution of Council A1: the master, as the main conversation, carries contaminating context; rebuilding the dossier from scratch is the cheapest safeguard; the soft cap prevents defensive inflation. |
 
 ---
 
-## Estructura de archivos prevista
+## Planned file structure
 
 ```
 My-personal-momentum-F0-firmware/
-├── CLAUDE.md                              # base auto-cargado; instrucciones del master
-├── .pre-commit-config.yaml                # config del framework pre-commit (D22)
-├── .githooks/                             # hooks git versionados (D22, D25)
-│   ├── pre-push                           # bloqueante para Next-Flip/*
-│   └── pre-tool-use-checkout              # valida árbol limpio antes de git checkout
+├── CLAUDE.md                              # auto-loaded base; master instructions
+├── .pre-commit-config.yaml                # pre-commit framework config (D22)
+├── .githooks/                             # versioned git hooks (D22, D25)
+│   ├── pre-push                           # blocking for Next-Flip/*
+│   └── pre-tool-use-checkout              # validates a clean tree before git checkout
 ├── .claude/
-│   ├── settings.json                      # permisos + alwaysThinkingEnabled (versionado)
-│   ├── settings.local.json                # preferencias locales (en .gitignore)
-│   ├── design/                            # documentación viva del sistema agente
-│   │   ├── system-design.md               # este documento — fuente de verdad
-│   │   ├── phases.md                      # plan de fases de implementación
-│   │   ├── CHANGELOG.md                   # registro de cambios al sistema agente
-│   │   ├── council-angles.md              # catálogo cerrado de 12 ángulos (D18)
-│   │   ├── irreversibility.md             # lista cerrada de 9 patrones (D19)
-│   │   ├── decisions-schema.md            # schema del log decisions.jsonl (D20)
-│   │   └── cost-policy.md                 # techo y tabla tokens→USD (D24)
-│   ├── agents/                            # subagentes (techo 20 — D17)
-│   │   ├── REGISTRY.md                    # registro auditable de agentes
-│   │   ├── agent-architect.md             # META-AGENTE: crea nuevos agentes
-│   │   ├── council-member.md              # Concejal parametrizable (3× en paralelo)
+│   ├── settings.json                      # permissions + alwaysThinkingEnabled (versioned)
+│   ├── settings.local.json                # local preferences (in .gitignore)
+│   ├── design/                            # living documentation of the agent system
+│   │   ├── system-design.md               # this document — source of truth
+│   │   ├── phases.md                      # implementation phase plan
+│   │   ├── CHANGELOG.md                   # log of changes to the agent system
+│   │   ├── council-angles.md              # closed catalog of 12 angles (D18)
+│   │   ├── irreversibility.md             # closed list of 9 patterns (D19)
+│   │   ├── decisions-schema.md            # decisions.jsonl log schema (D20)
+│   │   └── cost-policy.md                 # cap and tokens→USD table (D24)
+│   ├── agents/                            # subagents (cap 20 — D17)
+│   │   ├── REGISTRY.md                    # auditable agent registry
+│   │   ├── agent-architect.md             # META-AGENT: creates new agents
+│   │   ├── council-member.md              # Parametrizable council member (3x in parallel)
 │   │   ├── flipper-rf-subghz.md           # SubGHz / CC1101
 │   │   ├── flipper-nfc.md                 # NFC / ISO14443/15693 / MFC
 │   │   ├── flipper-rfid-ibutton.md        # LFRFID 125kHz + 1-Wire
 │   │   ├── flipper-ble.md                 # Bluetooth LE
-│   │   ├── flipper-ir.md                  # Infrarrojos
+│   │   ├── flipper-ir.md                  # Infrared
 │   │   ├── flipper-badusb-hid.md          # BadUSB / HID
-│   │   ├── flipper-app-builder.md         # Apps externas, .fam, scenes/views
-│   │   ├── flipper-c-furi.md              # C bajo nivel + FuriOS/FreeRTOS
+│   │   ├── flipper-app-builder.md         # External apps, .fam, scenes/views
+│   │   ├── flipper-c-furi.md              # Low-level C + FuriOS/FreeRTOS
 │   │   ├── flipper-build-fbt.md           # SCons / fbt / toolchain / OTA
 │   │   ├── flipper-companion-hw.md        # ESP32 (Marauder/GhostESP), GPIO
-│   │   └── flipper-js-mjs.md              # apps JS (mJS) / JS bindings
+│   │   └── flipper-js-mjs.md              # JS apps (mJS) / JS bindings
 │   ├── skills/
-│   │   └── devils-advocate/               # nivel L2: 1× Opus multi-ángulo (D23)
+│   │   └── devils-advocate/               # level L2: 1x Opus multi-angle (D23)
 │   ├── commands/
-│   │   ├── flipper.md                     # /flipper → entra en modo Flipper
-│   │   ├── flipper-quick.md               # atajo: salta el Concilio (D15)
-│   │   ├── flipper-council.md             # fuerza convocar al Concilio (D15)
-│   │   ├── flipper-redirect.md            # corrige routing en runtime (D26)
-│   │   ├── flipper-review-wildcards.md    # revisa wildcards del Concilio (D18)
-│   │   ├── flipper-reset.md               # opt-in: limpia contexto del master (D27)
+│   │   ├── flipper.md                     # /flipper → enters Flipper mode
+│   │   ├── flipper-quick.md               # shortcut: skips the Council (D15)
+│   │   ├── flipper-council.md             # forces convening the Council (D15)
+│   │   ├── flipper-redirect.md            # fixes runtime routing (D26)
+│   │   ├── flipper-review-wildcards.md    # reviews Council wildcards (D18)
+│   │   ├── flipper-reset.md               # opt-in: clears master context (D27)
 │   │   ├── flipper-new-app.md
 │   │   ├── flipper-spawn-agent.md
 │   │   ├── flipper-promote-prompt.md
 │   │   └── flipper-build.md
-│   ├── decisions/                         # ADRs (versionados)
+│   ├── decisions/                         # ADRs (versioned)
 │   │   ├── README.md
-│   │   ├── ADR-NNNN-<slug>.md             # un archivo por ADR cerrado
-│   │   └── pending/<id>/                  # artefactos intermedios del Concilio (D27)
-│   │       ├── dossier.md                 # del master, schema en sección "Dossier"
-│   │       ├── concejal-1.md              # veredicto ángulo 1
-│   │       ├── concejal-2.md              # veredicto ángulo 2
-│   │       └── concejal-3.md              # veredicto ángulo 3
-│   ├── scripts/                           # scripts del sistema agente
-│   │   ├── check-irreversibility.sh       # matcher regex sobre lista G3 (D19)
-│   │   └── setup.sh                       # bootstrap: pre-commit install + validación
-│   ├── state/                             # estado runtime (en .gitignore, local al clone)
-│   │   ├── decisions.jsonl                # log de clasificaciones L1-L4 (D20)
-│   │   ├── counters.json                  # invocation_count por agente
-│   │   ├── costs.jsonl                    # log granular tokens/USD (D24)
-│   │   └── wildcards.jsonl                # ángulos ad-hoc del Concilio
+│   │   ├── ADR-NNNN-<slug>.md             # one file per closed ADR
+│   │   └── pending/<id>/                  # intermediate Council artifacts (D27)
+│   │       ├── dossier.md                 # from the master, schema in "Dossier" section
+│   │       ├── concejal-1.md              # verdict angle 1
+│   │       ├── concejal-2.md              # verdict angle 2
+│   │       └── concejal-3.md              # verdict angle 3
+│   ├── scripts/                           # agent system scripts
+│   │   ├── check-irreversibility.sh       # regex matcher over the G3 list (D19)
+│   │   └── setup.sh                       # bootstrap: pre-commit install + validation
+│   ├── state/                             # runtime state (in .gitignore, local to the clone)
+│   │   ├── decisions.jsonl                # L1-L4 classification log (D20)
+│   │   ├── counters.json                  # invocation_count per agent
+│   │   ├── costs.jsonl                    # granular tokens/USD log (D24)
+│   │   └── wildcards.jsonl                # Council ad-hoc angles
 │   ├── prompts/
 │   │   ├── README.md
-│   │   ├── golden/                        # prompts probados y versionados
-│   │   └── drafts/                        # prompts en evaluación
-│   └── docs/                              # conocimiento curado del firmware
+│   │   ├── golden/                        # tested and versioned prompts
+│   │   └── drafts/                        # prompts under evaluation
+│   └── docs/                              # curated firmware knowledge
 │       ├── architecture-furios.md
 │       ├── subghz-internals.md
 │       ├── nfc-stack.md
@@ -117,341 +117,341 @@ My-personal-momentum-F0-firmware/
 
 ---
 
-## Roles de agentes
+## Agent roles
 
-El master NO es un subagente: vive como la conversación principal de Claude Code (ver D17 implícitamente y aprendizaje meta 2). Los siguientes son los **subagentes** definidos en `.claude/agents/`:
+The master is NOT a subagent: it lives as the main Claude Code conversation (see D17 implicitly and meta-learning 2). The following are the **subagents** defined in `.claude/agents/`:
 
-| Agente | Modelo | Effort | Rol | Invocado cuando |
+| Agent | Model | Effort | Role | Invoked when |
 |--------|--------|--------|-----|-----------------|
-| agent-architect | Opus | `max` | Diseña y propone nuevos agentes especializados | el master detecta un dominio no cubierto o el usuario lo pide vía `/flipper-spawn-agent` |
-| council-member | Opus | `max` | Concejal del Concilio Tripartito. Recibe un ángulo asignado del catálogo G2 (`.claude/design/council-angles.md`) y argumenta desde él | el master convoca al Concilio (L3): el archivo se invoca **3 veces en paralelo**, cada invocación con un ángulo distinto |
-| flipper-rf-subghz | Sonnet | `medium` | Experto en SubGHz/CC1101: protocolos OOK/FSK, keystore, modulaciones, extensión de bandas, decoders | tarea que toca `applications/main/subghz/`, `lib/subghz/`, o protocolos RF |
-| flipper-nfc | Sonnet | `medium` | Experto en NFC: ISO14443A/B, ISO15693, MFC/MFUL/MFP, EMV, plugins NFC | `applications/main/nfc/`, `lib/nfc/` |
-| flipper-rfid-ibutton | Sonnet | `medium` | Experto en LFRFID 125kHz y 1-Wire (iButton): EM4100, T55xx, HID Prox, Dallas | `applications/main/lfrfid/`, `applications/main/ibutton/`, `applications/main/onewire/`, `lib/lfrfid/`, `lib/ibutton/` |
-| flipper-ble | Sonnet | `medium` | Experto en BLE: profiles, BLE spam, advertising | `lib/ble_profile/`, código BLE relacionado |
-| flipper-ir | Sonnet | `medium` | Experto en infrarrojos: universal remote, capturas, parsing | `applications/main/infrared/`, `lib/infrared/` |
-| flipper-badusb-hid | Sonnet | `medium` | Experto en BadUSB / HID / DuckyScript | `applications/main/bad_usb/` |
-| flipper-app-builder | Sonnet | `medium` | Scaffold de apps externas, manifest `.fam`, patrones de scenes/views/ViewModel | crear nueva app, modificar manifest, refactor de scenes |
-| flipper-c-furi | Sonnet | `medium` | C bajo nivel + FuriOS (FreeRTOS): mutex, threads, message queues, timers, records | código en `furi/`, `lib/`, primitivas de OS |
-| flipper-build-fbt | Sonnet | `medium` | Build system: SCons, fbt, toolchain, generación de OTA, targets | tareas de build, errores de compilación, configuración de toolchain |
-| flipper-companion-hw | Sonnet | `medium` | Hardware externo: ESP32 (Marauder/GhostESP), GPIO, módulos | tarea que involucra hardware compañero o GPIO |
-| flipper-js-mjs | Sonnet | `medium` | Apps JS (mJS) y bindings JavaScript | applications con manifest type JS, `lib/mjs/` |
+| agent-architect | Opus | `max` | Designs and proposes new specialized agents | the master detects an uncovered domain or the user requests it via `/flipper-spawn-agent` |
+| council-member | Opus | `max` | Tripartite Council member. Receives an angle assigned from the G2 catalog (`.claude/design/council-angles.md`) and argues from it | the master convenes the Council (L3): the file is invoked **3 times in parallel**, each invocation with a different angle |
+| flipper-rf-subghz | Sonnet | `medium` | Expert in SubGHz/CC1101: OOK/FSK protocols, keystore, modulations, band extension, decoders | task touching `applications/main/subghz/`, `lib/subghz/`, or RF protocols |
+| flipper-nfc | Sonnet | `medium` | NFC expert: ISO14443A/B, ISO15693, MFC/MFUL/MFP, EMV, NFC plugins | `applications/main/nfc/`, `lib/nfc/` |
+| flipper-rfid-ibutton | Sonnet | `medium` | Expert in LFRFID 125kHz and 1-Wire (iButton): EM4100, T55xx, HID Prox, Dallas | `applications/main/lfrfid/`, `applications/main/ibutton/`, `applications/main/onewire/`, `lib/lfrfid/`, `lib/ibutton/` |
+| flipper-ble | Sonnet | `medium` | BLE expert: profiles, BLE spam, advertising | `lib/ble_profile/`, related BLE code |
+| flipper-ir | Sonnet | `medium` | Infrared expert: universal remote, captures, parsing | `applications/main/infrared/`, `lib/infrared/` |
+| flipper-badusb-hid | Sonnet | `medium` | Expert in BadUSB / HID / DuckyScript | `applications/main/bad_usb/` |
+| flipper-app-builder | Sonnet | `medium` | Scaffolding external apps, `.fam` manifest, scenes/views/ViewModel patterns | creating a new app, modifying the manifest, refactoring scenes |
+| flipper-c-furi | Sonnet | `medium` | Low-level C + FuriOS (FreeRTOS): mutex, threads, message queues, timers, records | code in `furi/`, `lib/`, OS primitives |
+| flipper-build-fbt | Sonnet | `medium` | Build system: SCons, fbt, toolchain, OTA generation, targets | build tasks, compile errors, toolchain configuration |
+| flipper-companion-hw | Sonnet | `medium` | External hardware: ESP32 (Marauder/GhostESP), GPIO, modules | task involving companion hardware or GPIO |
+| flipper-js-mjs | Sonnet | `medium` | JS apps (mJS) and JavaScript bindings | applications with JS manifest type, `lib/mjs/` |
 
-### Lista cerrada de core agents (fijada por D17)
+### Closed list of core agents (fixed by D17)
 
-Los siguientes 2 agentes son **core** — el architect no puede proponer su retiro automáticamente, solo por PR humano. Cuentan contra el techo de 20:
+The following 2 agents are **core** — the architect cannot propose their retirement automatically, only via human PR. They count against the cap of 20:
 
 - `agent-architect`
 - `council-member`
 
-(Originalmente se planificaron 5 core: master + architect + 3 concejales. La cifra real es 2 porque el master ya no es subagente y los 3 concejales se unificaron en un solo archivo parametrizable `council-member`. La planificación de Fases 2-3 añade 11 especialistas — total: 13 agentes, dejando margen de 7 para el architect en operación supervisada.)
+(Originally 5 core agents were planned: master + architect + 3 council members. The real figure is 2 because the master is no longer a subagent and the 3 council members were unified into a single parametrizable file, `council-member`. Phase 2-3 planning adds 11 specialists — total: 13 agents, leaving a margin of 7 for the architect under supervised operation.)
 
-### Áreas no cubiertas por especialista dedicado
+### Areas not covered by a dedicated specialist
 
-Algunas áreas del firmware no tienen un agente especializado propio. Quedan cubiertas implícitamente por agentes adyacentes hasta que el `agent-architect` proponga (con justificación) crear un especialista dedicado:
+Some firmware areas do not have their own dedicated agent. They are implicitly covered by adjacent agents until the `agent-architect` proposes (with justification) creating a dedicated specialist:
 
-- **U2F** (`applications/main/u2f/`): cubierto provisionalmente por `flipper-c-furi` (lógica de bajo nivel) y `flipper-app-builder` (UI/scenes). Candidato claro a especialista propio si la demanda lo justifica.
-- **Archive** (`applications/main/archive/`): visor de archivos del sistema. Cubierto por `flipper-app-builder` y `flipper-c-furi`. No se prevé especialista dedicado salvo refactor mayor.
-- **GPIO** (`applications/main/gpio/`): parcialmente cubierto por `flipper-companion-hw`. Si crece la demanda específica de GPIO sin hardware externo, candidato a especialista propio.
-- **momentum_app** (`applications/main/momentum_app/`): app de configuración interna del firmware. Cubierta por `flipper-app-builder` y `flipper-c-furi`. No se prevé especialista dedicado.
+- **U2F** (`applications/main/u2f/`): provisionally covered by `flipper-c-furi` (low-level logic) and `flipper-app-builder` (UI/scenes). A clear candidate for its own specialist if demand justifies it.
+- **Archive** (`applications/main/archive/`): the system's file viewer. Covered by `flipper-app-builder` and `flipper-c-furi`. No dedicated specialist is planned unless a major refactor occurs.
+- **GPIO** (`applications/main/gpio/`): partially covered by `flipper-companion-hw`. If specific GPIO demand grows without external hardware, it is a candidate for its own specialist.
+- **momentum_app** (`applications/main/momentum_app/`): the firmware's internal configuration app. Covered by `flipper-app-builder` and `flipper-c-furi`. No dedicated specialist is planned.
 
-Esta lista se revisa al final de cada fase. Criterio de promoción: si surgen 3 o más tareas reales sobre un área no cubierta, el architect propone formalmente crear su especialista siguiendo las 4 capas de control.
+This list is reviewed at the end of each phase. Promotion criterion: if 3 or more real tasks arise on an uncovered area, the architect formally proposes creating its specialist following the 4 control layers.
 
 ---
 
-## Niveles de deliberación L1-L4
+## Deliberation levels L1-L4
 
-Toda decisión que el master enfrenta se clasifica en uno de 4 niveles según impacto. Esta clasificación es central al sistema porque controla cuánto coste de modelo se gasta en cada decisión y qué mecanismos de control se activan.
+Every decision the master faces is classified into one of 4 levels according to impact. This classification is central to the system because it controls how much model cost is spent on each decision and which control mechanisms are activated.
 
-### Diagrama de decisión
+### Decision diagram
 
 ```
-                Tarea / decisión
+                Task / decision
                        │
                        ▼
         ┌─────────────────────────────────┐
-        │ ¿Operación matchea lista G3     │
-        │ (irreversibility.md, D19)?      │
-        │ Chequeo automático vía regex    │
+        │ Does the operation match the G3 │
+        │ list (irreversibility.md, D19)? │
+        │ Automatic check via regex       │
         └──────┬──────────────────┬───────┘
-            NO │                  │ SÍ
+             NO│                  │ YES
                ▼                  ▼
         ┌───────────────┐   ┌──────────────────┐
-        │ Master        │   │ FORZADO a L3/L4  │
-        │ clasifica     │   │ L1/L2 prohibidos │
-        │ por impacto   │   │ estructuralmente │
+        │ Master        │   │ FORCED to L3/L4  │
+        │ classifies    │   │ L1/L2 structural-│
+        │ by impact     │   │ ly forbidden     │
         └───┬───┬───┬───┘   └────────┬─────────┘
             │   │   │                │
-           L1  L2  L3 ◄──────────────┘   o L4
+           L1  L2  L3 ◄──────────────┘   or L4
             │   │   │                    │
             ▼   ▼   ▼                    ▼
-         Master /devils- Concilio    Escalado
-         solo   advocate 3× Opus     al usuario
-         decide (skill,  + ADR
-                1× Opus  obligatorio
+         Master /devils- Council     Escalation
+         alone  advocate 3x Opus     to user
+         decides (skill,  + ADR
+                1x Opus  mandatory
                 multi-
-                ángulo)
+                angle)
 ```
 
-### Tabla de niveles
+### Level table
 
-| Nivel | Mecanismo | Coste relativo | Cuándo |
+| Level | Mechanism | Relative cost | When |
 |-------|-----------|----------------|--------|
-| **L1** | Master decide solo, sin invocación extra | 0× | Tarea con 1 dominio claro, ergonomía menor, sin match G3 |
-| **L2** | Skill `/devils-advocate`: 1× llamada Opus con prompt multi-ángulo (D23) | 1× extra | Tarea con 2 dominios, refactor menor, dudas tácticas, sin match G3 |
-| **L3** | Concilio Tripartito: 3× `council-member` paralelos con ángulos del catálogo G2 + ADR | 3× extra mínimo (típicamente ~9× tras 3 rondas) | Match G3, propuesta del architect, decisión irreversible, decisión cross-dominio que el master no se siente legitimado a tomar |
-| **L4** | Escalado al usuario con dossier | 0× modelo | Tras Concilio sin ≥2/3 (1-de-3 SÍ — D21), o cuando el master explícitamente no se siente legitimado |
+| **L1** | Master decides alone, no extra invocation | 0x | Task with 1 clear domain, minor ergonomics, no G3 match |
+| **L2** | `/devils-advocate` skill: 1x Opus call with a multi-angle prompt (D23) | 1x extra | Task with 2 domains, minor refactor, tactical doubts, no G3 match |
+| **L3** | Tripartite Council: 3x parallel `council-member` with angles from the G2 catalog + ADR | minimum 3x extra (typically ~9x after 3 rounds) | G3 match, architect proposal, irreversible decision, cross-domain decision the master does not feel entitled to make |
+| **L4** | Escalation to the user with a dossier | 0x model | After the Council fails ≥2/3 (1-of-3 YES — D21), or when the master explicitly does not feel entitled to decide |
 
-### Auditoría de la clasificación (D20)
+### Auditing the classification (D20)
 
-Cada decisión se registra en `.claude/state/decisions.jsonl` (gitignored) con el schema definido en `decisions-schema.md`. Esto permite detectar empíricamente si el master está sesgando hacia clasificaciones baratas (L1/L2) cuando debería ser L3. En Fase 1 es solo log; en Fase 2+ se activa auditor Sonnet si los datos muestran sesgo (ratio L1+L2/total > 95% durante ventana N ≥ 100, o detección manual del usuario).
+Every decision is logged to `.claude/state/decisions.jsonl` (gitignored) with the schema defined in `decisions-schema.md`. This allows empirically detecting whether the master is biasing toward cheap classifications (L1/L2) when it should be L3. In Phase 1 this is log-only; in Phase 2+ the Sonnet auditor is activated if the data shows bias (ratio L1+L2/total > 95% over a window of N ≥ 100, or manual detection by the user).
 
-### Imposibilidad de degradación de L3 (D23)
+### Impossibility of downgrading L3 (D23)
 
-La hard rule "lista G3 → fuerza L3/L4" es **estructural, no por convención**: el script `check-irreversibility.sh` se ejecuta automáticamente y si hay match, el master no tiene la opción de elegir L1 o L2. Esto cierra el principal modo de fallo (master degradando deliberaciones costosas a baratas por presión de latencia/contexto).
-
----
-
-## El Concilio Tripartito
-
-### Composición y mecanismo base
-
-El Concilio es el mecanismo de nivel L3 (ver sección "Niveles de deliberación L1-L4"). Está formado por **3 instancias del subagente `council-member` invocadas en paralelo** desde la conversación principal (master), cada una con un ángulo distinto asignado del catálogo `.claude/design/council-angles.md` (D18). Los 3 concejales votan; el master **sintetiza pero no vota** (refinado por aprendizaje meta 2).
-
-Los ángulos NO son fijos: el master elige 3 ángulos del catálogo cerrado de 12 (más opcionalmente 1 wildcard ad-hoc con justificación expandida) según el tipo de decisión. Esto sustituye la idea original de roles permanentes Pragmático/Visionario/Escéptico (superada por D18) y elimina el sesgo predecible de roles fijos.
-
-### Cuándo se invoca (criterios de L3)
-
-El master convoca al Concilio (L3) si la tarea cumple cualquiera de:
-
-- La operación matchea la lista cerrada de **irreversibles** (`.claude/design/irreversibility.md`, D19) — el matching es automático vía script regex, no juicio del master, y deshabilita estructuralmente L1/L2 (D23).
-- La propuesta viene del `agent-architect` (crear o retirar un agente).
-- El usuario lo solicita explícitamente vía `/flipper-council` (D15) o "convoca al concilio".
-- La decisión es cross-dominio o implica cambio de arquitectura/convención sin matchear lista G3 (juicio del master, registrado en log para auditoría — ver D20).
-
-Para tareas más ligeras existen niveles inferiores: L1 (master decide solo), L2 (skill `/devils-advocate`, deliberación intermedia con 1× llamada Opus multi-ángulo). Ver sección "Niveles de deliberación L1-L4".
-
-### Procedimiento (3 rondas)
-
-**Ronda 1 — Propuestas paralelas independientes**
-
-1. El master construye un **dossier obligatorio** (ver sección "Dossier obligatorio antes de L3", D27) y lo escribe a `.claude/decisions/pending/<id>/dossier.md`. Schema mínimo + tope blando 10 archivos / hasta 20 con justificación expandida.
-2. El master selecciona 3 ángulos del catálogo G2 (más opcionalmente 1 wildcard con justificación de 3-5 líneas al log).
-3. El master lanza 3 invocaciones paralelas del subagente `council-member`, cada una con su ángulo asignado y el dossier como input. Los concejales no se ven entre sí (independencia para evitar anclaje).
-4. Cada concejal produce un veredicto estructurado:
-   - Recomendación: `PROCEDER` / `MODIFICAR` / `RECHAZAR`
-   - Razones (≤3)
-   - Riesgos detectados desde su ángulo
-   - Voto: `SÍ` / `NO` / `SÍ-CON-CONDICIONES`
-5. Cada veredicto se escribe a `.claude/decisions/pending/<id>/concejal-N.md` antes de que el master los recoja (persistencia obligatoria — permite auditoría, re-ejecución parcial, y trazabilidad sin depender de la memoria conversacional).
-
-**Ronda 2 — Voto sobre síntesis (sin anclaje)**
-
-6. El master sintetiza los 3 veredictos en una propuesta unificada. La síntesis NO comparte los veredictos completos a los concejales (eso reintroduciría el anclaje de la "segunda ronda" derogada por aprendizaje meta 3).
-7. El master lanza una segunda invocación paralela de los 3 concejales con la síntesis propuesta + sus propios veredictos previos. Cada uno vota `SÍ` / `NO` / `SÍ-CON-CONDICIONES` sobre la síntesis específica.
-
-**Ronda 3 (opcional) — Validación cruzada de condiciones**
-
-8. Si en ronda 2 alguno votó `SÍ-CON-CONDICIONES`, el master lanza una tercera invocación paralela pidiendo a cada concejal evaluar las condiciones de los otros (sin ver los veredictos completos, solo las condiciones). Resultado: aceptación o veto de cada condición.
-
-**Resolución final**
-
-- **Unanimidad SÍ tras ronda 2/3**: procede; ADR cerrado en `.claude/decisions/ADR-NNNN-<slug>.md`.
-- **2-de-3 SÍ tras ronda 2/3**: procede; voto minoritario documentado como riesgo conocido en el ADR.
-- **1-de-3 SÍ**: escalado **obligatorio** al usuario (L4) — fijado por D21. Sin ronda 2 anclada (derogada por aprendizaje meta 3).
-- **Decisiones con acciones destructivas**: requieren unanimidad SÍ + aprobación explícita del usuario (D11).
-- **0-de-3 SÍ**: escalado al usuario; la propuesta queda registrada como rechazada.
-
-### Documentación
-
-Cada sesión del Concilio que cierra (unanimidad o 2-de-3) genera un ADR en `.claude/decisions/ADR-NNNN-<slug>.md`. El directorio `.claude/decisions/pending/<id>/` contiene los artefactos intermedios (dossier + 3 veredictos por ronda); al cerrar el ADR, `pending/<id>/` puede archivarse o mantenerse según política de retención.
-
-### Coste y atajos
-
-El Concilio en una sola ronda son 3 llamadas Opus con `effort: max` (coste elevado). El procedimiento típico convergente son 3 rondas: ~9 llamadas Opus. Atajos:
-
-- `/flipper-quick <task>` (D15): salta el Concilio y va directo a especialista. Solo aplicable si la operación NO matchea la lista G3 (irreversibles).
-- `/flipper-council <question>` (D15): fuerza convocar al Concilio incluso cuando el master no lo consideraría necesario.
-- `/devils-advocate` (D23): nivel L2, 1× llamada Opus con prompt multi-ángulo. NO sustituto del Concilio, solo deliberación intermedia barata.
-
-Los umbrales del quorum están fijados por D11+D21 (refinados sobre la versión original).
+The hard rule "G3 list → forces L3/L4" is **structural, not by convention**: the `check-irreversibility.sh` script runs automatically, and if there is a match, the master has no option to choose L1 or L2. This closes the main failure mode (the master downgrading costly deliberations to cheap ones under latency/context pressure).
 
 ---
 
-## Dossier obligatorio antes de L3 (D27)
+## The Tripartite Council
 
-Antes de cada invocación del Concilio (L3), el master debe construir un **dossier formal escrito a disco**. Esto resuelve el riesgo de contaminación de contexto del master (ahora que es la conversación principal y arrastra historial conversacional) y garantiza que los 3 concejales reciban el mismo input verificable.
+### Composition and base mechanism
 
-### Ubicación
+The Council is the L3-level mechanism (see section "Deliberation levels L1-L4"). It consists of **3 instances of the `council-member` subagent invoked in parallel** from the main conversation (master), each with a different angle assigned from the catalog `.claude/design/council-angles.md` (D18). The 3 council members vote; the master **synthesizes but does not vote** (refined by meta-learning 2).
 
-`.claude/decisions/pending/<id>/dossier.md` (donde `<id>` es un UUIDv7 del Concilio).
+The angles are NOT fixed: the master picks 3 angles from the closed catalog of 12 (plus optionally 1 ad-hoc wildcard with expanded justification) depending on the type of decision. This replaces the original idea of permanent Pragmatic/Visionary/Skeptic roles (superseded by D18) and removes the predictable bias of fixed roles.
 
-### Schema mínimo (secciones obligatorias)
+### When it is invoked (L3 criteria)
 
-1. **Enunciado**: descripción precisa de la decisión a tomar, reconstruida desde cero — no copiada del historial conversacional. ≤200 palabras.
-2. **Archivos consultados**: lista de paths absolutos de los archivos del codebase que el master leyó para informar el dossier. Cada uno con un resumen de 1-2 líneas de por qué es relevante.
-3. **Alternativas consideradas**: ≥2 opciones reales (no "X" vs "no X"), cada una con trade-offs explícitos.
-4. **Criterio de irreversibilidad invocado**: si la decisión llegó a L3 por match con lista G3, indicar qué entrada (`IRREV-N`). Si llegó por juicio del master, indicar criterio (cross-dominio, architect, etc.).
+The master convenes the Council (L3) if the task meets any of:
 
-### Tope de archivos consultados
+- The operation matches the closed list of **irreversibles** (`.claude/design/irreversibility.md`, D19) — matching is automatic via a regex script, not the master's judgment, and it structurally disables L1/L2 (D23).
+- The proposal comes from the `agent-architect` (creating or retiring an agent).
+- The user explicitly requests it via `/flipper-council` (D15) or "convene the council".
+- The decision is cross-domain or implies an architecture/convention change without matching the G3 list (master's judgment, logged for audit — see D20).
 
-- **Tope blando**: 10 archivos típicamente.
-- **Tope duro**: 20 archivos máximo.
-- Si el master excede 10, debe incluir sección "Por qué excedo el tope" con justificación expandida.
-- Si excede 20, debe escalar al usuario antes de continuar (la decisión requiere demasiado contexto para deliberar de forma estructurada).
+For lighter tasks there are lower levels: L1 (master decides alone), L2 (`/devils-advocate` skill, intermediate deliberation with 1x multi-angle Opus call). See section "Deliberation levels L1-L4".
 
-### Disciplina contra contaminación
+### Procedure (3 rounds)
 
-El master debe operar como si el contexto conversacional previo NO existiera al construir el dossier. Solo el dossier resultante es input para los concejales. El historial puede informar al master sobre el problema, pero no debe filtrarse al Concilio sin pasar por el filtro del dossier.
+**Round 1 — Independent parallel proposals**
 
-### Comando de escape
+1. The master builds a **mandatory dossier** (see section "Mandatory dossier before L3", D27) and writes it to `.claude/decisions/pending/<id>/dossier.md`. Minimum schema + soft cap of 10 files / up to 20 with expanded justification.
+2. The master selects 3 angles from the G2 catalog (plus optionally 1 wildcard with a 3-5 line justification logged).
+3. The master launches 3 parallel invocations of the `council-member` subagent, each with its assigned angle and the dossier as input. The council members do not see each other (independence to avoid anchoring).
+4. Each council member produces a structured verdict:
+   - Recommendation: `PROCEED` / `MODIFY` / `REJECT`
+   - Reasons (≤3)
+   - Risks detected from their angle
+   - Vote: `YES` / `NO` / `YES-WITH-CONDITIONS`
+5. Each verdict is written to `.claude/decisions/pending/<id>/concejal-N.md` before the master collects them (mandatory persistence — enables auditing, partial re-execution, and traceability without relying on conversational memory).
 
-`/flipper-reset` está disponible como opt-in del usuario para limpiar contexto cuando se sospecha contaminación severa. NO se invoca automáticamente — la disciplina del dossier es el mecanismo primario; el reset es el secundario.
+**Round 2 — Vote on the synthesis (without anchoring)**
+
+6. The master synthesizes the 3 verdicts into a unified proposal. The synthesis does NOT share the full verdicts with the council members (that would reintroduce the anchoring of the "second round" repealed by meta-learning 3).
+7. The master launches a second parallel invocation of the 3 council members with the proposed synthesis + their own previous verdicts. Each votes `YES` / `NO` / `YES-WITH-CONDITIONS` on the specific synthesis.
+
+**Round 3 (optional) — Cross-validation of conditions**
+
+8. If in round 2 anyone voted `YES-WITH-CONDITIONS`, the master launches a third parallel invocation asking each council member to evaluate the others' conditions (without seeing the full verdicts, only the conditions). Result: acceptance or veto of each condition.
+
+**Final resolution**
+
+- **Unanimous YES after round 2/3**: proceeds; ADR closed in `.claude/decisions/ADR-NNNN-<slug>.md`.
+- **2-of-3 YES after round 2/3**: proceeds; the minority vote is documented as a known risk in the ADR.
+- **1-of-3 YES**: **mandatory** escalation to the user (L4) — fixed by D21. No anchored round 2 (repealed by meta-learning 3).
+- **Decisions with destructive actions**: require unanimous YES + explicit user approval (D11).
+- **0-of-3 YES**: escalation to the user; the proposal is recorded as rejected.
+
+### Documentation
+
+Every Council session that closes (unanimity or 2-of-3) generates an ADR in `.claude/decisions/ADR-NNNN-<slug>.md`. The directory `.claude/decisions/pending/<id>/` contains the intermediate artifacts (dossier + 3 verdicts per round); once the ADR is closed, `pending/<id>/` can be archived or kept per retention policy.
+
+### Cost and shortcuts
+
+A single Council round is 3 Opus calls with `effort: max` (high cost). The typical convergent procedure is 3 rounds: ~9 Opus calls. Shortcuts:
+
+- `/flipper-quick <task>` (D15): skips the Council and goes straight to the specialist. Only applicable if the operation does NOT match the G3 list (irreversibles).
+- `/flipper-council <question>` (D15): forces convening the Council even when the master would not consider it necessary.
+- `/devils-advocate` (D23): level L2, 1x Opus call with a multi-angle prompt. NOT a substitute for the Council, only cheap intermediate deliberation.
+
+The quorum thresholds are fixed by D11+D21 (refined from the original version).
 
 ---
 
-## El agent-architect y sus límites
+## Mandatory dossier before L3 (D27)
 
-### Propósito
+Before every invocation of the Council (L3), the master must build a **formal dossier written to disk**. This resolves the risk of context contamination of the master (now that it is the main conversation and carries conversational history) and guarantees that the 3 council members receive the same verifiable input.
 
-Crear nuevos subagentes especializados cuando se detecta un dominio del firmware no cubierto por los agentes existentes.
+### Location
 
-### Cuatro capas de control en serie
+`.claude/decisions/pending/<id>/dossier.md` (where `<id>` is a Council UUIDv7).
 
-1. **Overlap check**: el architect debe demostrar que ningún agente existente cubre el dominio propuesto. Para ello lista los agentes actuales (por `REGISTRY.md`) y justifica la brecha con ejemplos concretos del codebase o de peticiones del usuario.
+### Minimum schema (mandatory sections)
 
-2. **Casos de uso obligatorios**: el architect debe presentar 3 tareas reales, no hipotéticas, basadas en el firmware o en peticiones concretas del usuario, que se beneficiarían del nuevo agente. Tareas hipotéticas o genéricas no son válidas.
+1. **Statement**: precise description of the decision to be made, reconstructed from scratch — not copied from the conversational history. ≤200 words.
+2. **Files consulted**: list of absolute paths of the codebase files the master read to inform the dossier. Each with a 1-2 line summary of why it is relevant.
+3. **Alternatives considered**: ≥2 real options (not "X" vs "not X"), each with explicit trade-offs.
+4. **Irreversibility criterion invoked**: if the decision reached L3 via a match with the G3 list, indicate which entry (`IRREV-N`). If it reached L3 via the master's judgment, indicate the criterion (cross-domain, architect, etc.).
 
-3. **Voto del Concilio**: el architect presenta la propuesta formal al Concilio. Requiere 2-de-3 SÍ para avanzar. Cuando la decisión es "crear un agente nuevo", los ángulos típicamente seleccionados del catálogo G2 son `ORT` (¿ortogonal con los existentes o redundante?), `MNT` (¿quién lo mantiene?) y `COS` (¿justifica el coste-token?), pero el master puede sustituirlos según el caso.
+### Cap on files consulted
 
-4. **Aprobación humana**: el master presenta el plan final al usuario (rol, prompt completo, modelo, herramientas, casos de uso aprobados, votos del Concilio). Sin OK explícito del usuario, no se escribe ningún archivo.
+- **Soft cap**: typically 10 files.
+- **Hard cap**: 20 files maximum.
+- If the master exceeds 10, it must include a "Why I exceed the cap" section with expanded justification.
+- If it exceeds 20, it must escalate to the user before continuing (the decision requires too much context to deliberate in a structured way).
+
+### Discipline against contamination
+
+The master must operate as if the prior conversational context did NOT exist when building the dossier. Only the resulting dossier is input for the council members. The history can inform the master about the problem, but must not leak to the Council without passing through the dossier filter.
+
+### Escape command
+
+`/flipper-reset` is available as a user opt-in to clear context when severe contamination is suspected. It is NOT invoked automatically — the dossier discipline is the primary mechanism; the reset is the secondary one.
+
+---
+
+## The agent-architect and its limits
+
+### Purpose
+
+Create new specialized subagents when an uncovered firmware domain is detected among the existing agents.
+
+### Four control layers in series
+
+1. **Overlap check**: the architect must demonstrate that no existing agent covers the proposed domain. To do so it lists the current agents (via `REGISTRY.md`) and justifies the gap with concrete examples from the codebase or user requests.
+
+2. **Mandatory use cases**: the architect must present 3 real, non-hypothetical tasks, based on the firmware or on concrete user requests, that would benefit from the new agent. Hypothetical or generic tasks are not valid.
+
+3. **Council vote**: the architect presents the formal proposal to the Council. Requires 2-of-3 YES to proceed. When the decision is "create a new agent", the angles typically selected from the G2 catalog are `ORT` (orthogonal to existing ones, or redundant?), `MNT` (who maintains it?), and `COS` (does it justify the token cost?), but the master may substitute them depending on the case.
+
+4. **Human approval**: the master presents the final plan to the user (role, complete prompt, model, tools, approved use cases, Council votes). Without explicit OK from the user, no file is written.
 
 ### Quotas
 
-**Máximo 1 agente nuevo por sesión** (modo prudente: obliga a digerir cada propuesta antes de seguir, fijado por D12) y **techo único de 20 agentes totales** en `.claude/agents/` (fijado por D17). Los 2 agentes core (ver sección "Lista cerrada de core agents" más arriba: `agent-architect` y `council-member`) cuentan contra el techo único pero están marcados como permanentes — el architect no puede proponer su retiro automáticamente, solo por PR humano.
+**Maximum 1 new agent per session** (prudent mode: forces digesting each proposal before continuing, fixed by D12) and a **single cap of 20 total agents** in `.claude/agents/` (fixed by D17). The 2 core agents (see section "Closed list of core agents" above: `agent-architect` and `council-member`) count against the single cap but are marked as permanent — the architect cannot propose their retirement automatically, only via human PR.
 
-Si se llega al techo de 20, el architect debe proponer retirar un agente especialista existente antes de crear otro (consolidación obligatoria). El hook que cuenta agentes considera todos los archivos `*.md` en `.claude/agents/` contra el techo único.
+If the cap of 20 is reached, the architect must propose retiring an existing specialist agent before creating another (mandatory consolidation). The hook that counts agents considers all `*.md` files in `.claude/agents/` against the single cap.
 
-### Registro auditable
+### Auditable registry
 
-Cada agente creado genera una entrada en `.claude/agents/REGISTRY.md` con: fecha de creación, motivo, casos de uso aprobados, votos del Concilio y commit hash donde se añadió el archivo.
+Every agent created generates an entry in `.claude/agents/REGISTRY.md` with: creation date, reason, approved use cases, Council votes, and the commit hash where the file was added.
 
-### Periodo experimental
+### Experimental period
 
-Un agente nuevo nace con `status: experimental`. Tras **5 invocaciones sin modificación posterior** (fijado por D13), el architect propone graduarlo a `status: stable`. Mientras es experimental, el master menciona "este agente está en pruebas" al invocarlo.
+A new agent is born with `status: experimental`. After **5 invocations without subsequent modification** (fixed by D13), the architect proposes graduating it to `status: stable`. While experimental, the master mentions "this agent is under trial" when invoking it.
 
-**Mecanismo de conteo**: cada entrada en `REGISTRY.md` lleva dos campos contadores:
+**Counting mechanism**: each entry in `REGISTRY.md` carries two counter fields:
 
-- `invocation_count`: incrementado por el master cada vez que delega una tarea al agente.
-- `last_modified_commit`: hash del último commit que tocó el archivo del agente.
+- `invocation_count`: incremented by the master every time it delegates a task to the agent.
+- `last_modified_commit`: hash of the last commit that touched the agent's file.
 
-El conteo de "usos sin modificación" es `invocation_count` desde el último cambio de `last_modified_commit`. Cuando alcanza N, el architect lanza una propuesta de graduación al usuario; tras OK explícito se actualiza `status: stable` y se reinicia el contador. Si el agente se modifica antes de alcanzar N, el contador se reinicia automáticamente al actualizarse `last_modified_commit`.
+The count of "uses without modification" is `invocation_count` since the last change of `last_modified_commit`. When it reaches N, the architect launches a graduation proposal to the user; after explicit OK, `status: stable` is updated and the counter is reset. If the agent is modified before reaching N, the counter automatically resets when `last_modified_commit` updates.
 
 ---
 
-## Operaciones destructivas y guardrails
+## Destructive operations and guardrails
 
-Cinco capas de protección en defensa en profundidad. Cada capa cubre un modo de fallo distinto; ninguna sola basta.
+Five layers of defense-in-depth protection. Each layer covers a different failure mode; no single one is sufficient.
 
-### Capa 1 — Modelo de dos clones físicos (D25)
+### Layer 1 — Two-physical-clones model (D25)
 
-Barrera primaria, no evadible desde el agente:
+Primary barrier, not evadable from the agent:
 
-- Clone oficial (`Momentum-Firmware/`): sin sistema agente, con remote `Next-Flip/Momentum-Firmware`. Aquí se hace `git fetch` y se sigue el upstream. **No se versiona nada de `.claude/**` aquí**.
-- Clone personal (`My-personal-momentum-F0-firmware/`): con sistema agente completo, SIN remote `Next-Flip` añadido. Solo `origin → samartined/My-Momentum-Firmware-F0`.
+- Official clone (`Momentum-Firmware/`): no agent system, with the `Next-Flip/Momentum-Firmware` remote. `git fetch` is done here and the upstream is followed. **Nothing from `.claude/**` is versioned here**.
+- Personal clone (`My-personal-momentum-F0-firmware/`): with the complete agent system, WITHOUT the `Next-Flip` remote added. Only `origin → samartined/My-Momentum-Firmware-F0`.
 
-Sin remote configurado y sin credenciales, no hay forma técnica de push accidental al oficial desde el clone personal.
+Without a configured remote and without credentials, there is no technical way to accidentally push to the official from the personal clone.
 
-### Capa 2 — Git hooks bloqueantes (D22, D25)
+### Layer 2 — Blocking git hooks (D22, D25)
 
-Hooks versionados vía framework `pre-commit` + `.githooks/`:
+Hooks versioned via the `pre-commit` framework + `.githooks/`:
 
-- `.githooks/pre-push`: si el URL de destino matchea `Next-Flip/*`, exit code != 0 y mensaje en stderr que imprime literalmente el comando de override (variable de entorno) en la primera línea, para que el usuario consciente desbloquee con un copia-pega y el distraído lea el mensaje antes de actuar.
-- `pre-commit install` ejecutado por `setup.sh` post-clone garantiza activación uniforme.
+- `.githooks/pre-push`: if the destination URL matches `Next-Flip/*`, exit code != 0 and a stderr message that literally prints the override command (environment variable) on the first line, so the conscious user unblocks it with a copy-paste and the distracted one reads the message before acting.
+- `pre-commit install` run by `setup.sh` post-clone guarantees uniform activation.
 
-### Capa 3 — Lista G3 + script regex (D19, D23)
+### Layer 3 — G3 list + regex script (D19, D23)
 
-Invariante estructural sobre la clasificación de decisiones:
+Structural invariant over decision classification:
 
-- `.claude/design/irreversibility.md` lista 9 patrones de operaciones irreversibles.
-- `.claude/scripts/check-irreversibility.sh` matchea por regex sobre el comando o path antes de ejecutar.
-- Si hay match positivo, L1 (master solo) y L2 (`/devils-advocate`) quedan **estructuralmente prohibidos**: solo L3 (Concilio) o L4 (escalado al usuario) son válidos. El master no puede degradar a barato — es invariante, no depende de su disciplina.
+- `.claude/design/irreversibility.md` lists 9 patterns of irreversible operations.
+- `.claude/scripts/check-irreversibility.sh` matches by regex over the command or path before execution.
+- If there is a positive match, L1 (master alone) and L2 (`/devils-advocate`) are **structurally forbidden**: only L3 (Council) or L4 (escalation to the user) are valid. The master cannot downgrade to cheap — it is an invariant, not dependent on its discipline.
 
-### Capa 4 — Claude Code `permissions.ask` + hook `PreToolUse`
+### Layer 4 — Claude Code `permissions.ask` + `PreToolUse` hook
 
-Capa de permisos a nivel de Claude Code (D14):
+Permission layer at the Claude Code level (D14):
 
-- `.claude/settings.json` define `permissions.ask` para patrones de comandos destructivos: `./fbt flash*`, `git push` (cualquier remote), `git push --force`, `git reset --hard`, `git clean -fd`, `rm -rf`.
-- Hook `PreToolUse` específico para `git checkout <branch-existente>`: ejecuta `git status --porcelain` antes; si el árbol no está limpio, fuerza `permissions.ask` para evitar sobrescribir trabajo no commiteado.
+- `.claude/settings.json` defines `permissions.ask` for destructive command patterns: `./fbt flash*`, `git push` (any remote), `git push --force`, `git reset --hard`, `git clean -fd`, `rm -rf`.
+- A `PreToolUse` hook specific to `git checkout <existing-branch>`: runs `git status --porcelain` beforehand; if the tree is not clean, it forces `permissions.ask` to avoid overwriting uncommitted work.
 
-### Capa 5 — Política replicada en cada subagente
+### Layer 5 — Policy replicated in each subagent
 
-CLAUDE.md y cada `.claude/agents/*.md` incluyen instrucción explícita: "Tu rol es proponer, no flashear. Cuando llegues a una acción que toca hardware, push a remoto o borrado, escribe el comando exacto y pide confirmación al usuario; no lo ejecutes tú."
+CLAUDE.md and each `.claude/agents/*.md` include an explicit instruction: "Your role is to propose, not to flash. When you reach an action that touches hardware, pushes to a remote, or deletes something, write the exact command and ask the user for confirmation; do not execute it yourself."
 
-Esta capa es de cultura, no de mecanismo — pero refuerza el patrón en cada subagente.
+This layer is cultural, not mechanical — but it reinforces the pattern in each subagent.
 
-### Operaciones cubiertas por las capas
+### Operations covered by the layers
 
-| Operación | Capas que la protegen |
+| Operation | Layers protecting it |
 |-----------|------------------------|
-| Push a `Next-Flip/*` | 1 (no remote) + 2 (hook bloqueante) |
-| `./fbt flash*` | 3 (lista G3 #7) + 4 (`permissions.ask`) + 5 (política) |
-| `git push --force` | 3 (lista G3 #1) + 4 (`permissions.ask`) |
-| `rm -rf` sobre versionados | 3 (lista G3 #3) + 4 (`permissions.ask`) + 5 |
-| Modificación de `.claude/design/`, `.claude/agents/`, `settings.json`, hooks | 3 (lista G3 #2, #5, #6) — fuerza L3 |
-| `git checkout <existente>` con árbol sucio | 4 (hook PreToolUse condicional) |
-| Borrado de slots SubGHz/NFC/IR/RFID, SD card assets | 4 (`permissions.ask`) + 5 |
+| Push to `Next-Flip/*` | 1 (no remote) + 2 (blocking hook) |
+| `./fbt flash*` | 3 (G3 list #7) + 4 (`permissions.ask`) + 5 (policy) |
+| `git push --force` | 3 (G3 list #1) + 4 (`permissions.ask`) |
+| `rm -rf` over versioned files | 3 (G3 list #3) + 4 (`permissions.ask`) + 5 |
+| Modification of `.claude/design/`, `.claude/agents/`, `settings.json`, hooks | 3 (G3 list #2, #5, #6) — forces L3 |
+| `git checkout <existing>` with a dirty tree | 4 (conditional PreToolUse hook) |
+| Deletion of SubGHz/NFC/IR/RFID slots, SD card assets | 4 (`permissions.ask`) + 5 |
 
 ---
 
-## Mapeo de modelos por rol
+## Model mapping by role
 
-El frontmatter de subagente de Claude Code soporta los siguientes campos relevantes para este sistema:
+Claude Code's subagent frontmatter supports the following fields relevant to this system:
 
-- `name`, `description` (obligatorios)
+- `name`, `description` (mandatory)
 - `tools`, `disallowedTools`
 - `model`: `opus | sonnet | haiku | inherit`
-- `effort`: `low | medium | high | xhigh | max` (sobreescribe el nivel de sesión)
+- `effort`: `low | medium | high | xhigh | max` (overrides the session level)
 - `permissionMode`, `maxTurns`, `skills`, `mcpServers`, `hooks`, `memory`, `background`, `isolation`, `color`, `initialPrompt`
 
-Mapeo aplicado a este sistema:
+Mapping applied to this system:
 
-| Rol | Modelo | Effort | Notas |
+| Role | Model | Effort | Notes |
 |-----|--------|--------|-------|
-| Conversación principal (master) | Opus | n/a (controlado por `alwaysThinkingEnabled: true` en `.claude/settings.json`) | El master no es subagente |
-| `agent-architect` | Opus | `max` | Diseño de nuevos agentes |
-| `council-member` (invocado 3× en paralelo desde la conversación principal) | Opus | `max` | Razonamiento profundo desde el ángulo asignado del catálogo G2 |
-| Especialistas de dominio | Sonnet | `medium` | Trabajo concreto, contexto curado |
+| Main conversation (master) | Opus | n/a (controlled by `alwaysThinkingEnabled: true` in `.claude/settings.json`) | The master is not a subagent |
+| `agent-architect` | Opus | `max` | Design of new agents |
+| `council-member` (invoked 3x in parallel from the main conversation) | Opus | `max` | Deep reasoning from the assigned angle in the G2 catalog |
+| Domain specialists | Sonnet | `medium` | Concrete work, curated context |
 
-Esta configuración corrige una nota técnica errónea del diseño original (versión v0.1.0 a v0.1.2) que afirmaba que no existía campo `effort` por agente. Tras verificación contra la documentación oficial de Claude Code (`code.claude.com/docs/en/subagents-and-plugins.md`) se confirma que el campo existe y se debe usar.
-
----
-
-## Persistencia de decisiones
-
-- `.claude/design/system-design.md` — documento vivo del sistema agente (este archivo). Fuente de verdad única sobre cómo está construido el sistema. Se actualiza al final de cada fase.
-- `.claude/design/phases.md` — el plan de fases de implementación con criterios de "done" por fase.
-- `.claude/design/CHANGELOG.md` — registro de cambios al sistema agente: qué se cambió, por qué y cuándo.
-- `.claude/decisions/ADR-NNNN-<slug>.md` — decisiones operativas tomadas por el sistema (no sobre el sistema). Formato ADR: Status, Context, Decision, Consequences.
+This configuration corrects an erroneous technical note in the original design (version v0.1.0 to v0.1.2) that claimed there was no per-agent `effort` field. After verification against Claude Code's official documentation (`code.claude.com/docs/en/subagents-and-plugins.md`) it is confirmed that the field exists and should be used.
 
 ---
 
-## Aprendizajes meta del Concilio en vivo
+## Persistence of decisions
 
-Al ejecutar el Concilio Tripartito como ejercicio práctico para cerrar los 11 gaps emergieron observaciones que refinan el propio mecanismo:
-
-1. **Ronda 1 paralela funciona sin groupthink**: dos concejales Opus con posturas asignadas producen propuestas genuinamente complementarias cuando no se ven entre sí. La diversidad estructural emerge.
-
-2. **El rol de moderador-sintetizador debe ser distinto del de los 3 concejales votantes**: en versión productiva del Concilio, el master sintetiza pero NO vota. Construye puentes entre concejales sin convertirse en cuarta voz. Esto refuerza D4 con un matiz importante.
-
-3. **Ronda 2 de voto sobre síntesis funciona sin reintroducir anclaje**: lo que generaba groupthink era compartir veredictos completos para re-deliberar; lo que sí sirve es una ronda separada de voto SÍ / NO / SÍ-CON-CONDICIONES sobre una síntesis ya producida. La eliminación de "ronda 2 anclada" (D11) se mantiene; el voto sobre síntesis es mecanismo distinto.
-
-4. **Convergencia típica en 3 rondas**: propuestas paralelas → voto sobre síntesis con condiciones → validación cruzada de condiciones. Coste ~3x respecto a una sola llamada al master; defendible solo para decisiones L3.
+- `.claude/design/system-design.md` — living document of the agent system (this file). Single source of truth on how the system is built. Updated at the end of each phase.
+- `.claude/design/phases.md` — the implementation phase plan with "done" criteria per phase.
+- `.claude/design/CHANGELOG.md` — log of changes to the agent system: what was changed, why, and when.
+- `.claude/decisions/ADR-NNNN-<slug>.md` — operational decisions made by the system (not about the system). ADR format: Status, Context, Decision, Consequences.
 
 ---
 
-## Puntos abiertos
+## Live meta-learnings from the Council
 
-**Sin puntos abiertos.** Los 7 originales (P1-P7) fueron resueltos como D10-D16. Los 11 gaps detectados por la dialéctica adversarial (G1-G10 + A1) fueron cerrados por el Concilio Tripartito en 3 rondas (ronda 1: propuestas paralelas; ronda 2: voto sobre síntesis con condiciones; ronda 3: validación cruzada de condiciones) y plasmados como D17-D27.
+Running the Tripartite Council as a practical exercise to close the 11 gaps produced observations that refine the mechanism itself:
 
-El sistema está listo para arrancar Fase 1; la orden de arranque la da expresamente el usuario (D16).
+1. **Round 1 in parallel works without groupthink**: two Opus council members with assigned stances produce genuinely complementary proposals when they do not see each other. Structural diversity emerges.
+
+2. **The moderator-synthesizer role must be distinct from the 3 voting council members**: in the production version of the Council, the master synthesizes but does NOT vote. It builds bridges between council members without becoming a fourth voice. This reinforces D4 with an important nuance.
+
+3. **Round 2 voting on the synthesis works without reintroducing anchoring**: what generated groupthink was sharing full verdicts to re-deliberate; what does work is a separate round of YES / NO / YES-WITH-CONDITIONS voting on an already-produced synthesis. The removal of the "anchored round 2" (D11) is kept; voting on the synthesis is a distinct mechanism.
+
+4. **Typical convergence in 3 rounds**: parallel proposals → vote on synthesis with conditions → cross-validation of conditions. Cost ~3x relative to a single call to the master; defensible only for L3 decisions.
+
+---
+
+## Open points
+
+**No open points.** The original 7 (P1-P7) were resolved as D10-D16. The 11 gaps detected by adversarial dialectic (G1-G10 + A1) were closed by the Tripartite Council over 3 rounds (round 1: parallel proposals; round 2: vote on synthesis with conditions; round 3: cross-validation of conditions) and captured as D17-D27.
+
+The system is ready to start Phase 1; the start order is given expressly by the user (D16).

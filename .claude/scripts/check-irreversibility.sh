@@ -1,31 +1,31 @@
 #!/usr/bin/env bash
-# check-irreversibility.sh — chequea si una operación matchea la lista G3 (D19)
+# check-irreversibility.sh — checks whether an operation matches the G3 list (D19)
 #
-# Uso:
-#   .claude/scripts/check-irreversibility.sh "<comando o path>"
+# Usage:
+#   .claude/scripts/check-irreversibility.sh "<command or path>"
 #
-# Salida:
-#   - Si matchea uno o más patrones: imprime "MATCH IRREV-N: <descripción>"
-#     (una línea por match) y exit 0.
-#   - Si no matchea ninguno: exit 1 (no output).
-#   - Si argumento ausente: exit 2 (error de uso).
+# Output:
+#   - If it matches one or more patterns: prints "MATCH IRREV-N: <description>"
+#     (one line per match) and exit 0.
+#   - If it matches none: exit 1 (no output).
+#   - If argument is missing: exit 2 (usage error).
 #
-# Fuente de patrones: .claude/design/irreversibility.md
-# Resolución del Concilio: D19, D23.
+# Pattern source: .claude/design/irreversibility.md
+# Council resolution: D19, D23.
 #
-# Convención: el master debe pasar un resumen textual de la operación que va
-# a ejecutar (un comando shell completo, un path tocado, etc.). El matching
-# es por regex extendida de bash sobre ese texto.
+# Convention: the master must pass a textual summary of the operation it is
+# about to execute (a full shell command, a touched path, etc.). Matching
+# is done via bash extended regex over that text.
 
 set -uo pipefail
 
 INPUT="${1:-}"
 if [[ -z "$INPUT" ]]; then
-  echo "Usage: $0 \"<comando o path>\"" >&2
+  echo "Usage: $0 \"<command or path>\"" >&2
   exit 2
 fi
 
-# Patrones en orden de IDs (corresponden a las 9 entradas de irreversibility.md)
+# Patterns in ID order (correspond to the 9 entries in irreversibility.md)
 IDS=(IRREV-1 IRREV-2 IRREV-3 IRREV-4 IRREV-5 IRREV-6 IRREV-7 IRREV-8 IRREV-9)
 
 PATTERNS=(
@@ -41,15 +41,15 @@ PATTERNS=(
 )
 
 DESCRIPTIONS=(
-  'git push --force / reescritura de historia publicada'
-  'modificación de .claude/design/ (auto-modificación del sistema)'
-  'borrado recursivo o forzado con rm -r/-f'
-  'cambio en targets/ o furi/ con impacto potencial ABI'
-  'creación o eliminación de subagente en .claude/agents/'
-  'modificación de hooks o .claude/settings.json (policy de permisos)'
-  'flash del Flipper físico (./fbt flash o dfu-util)'
-  'push a remote Next-Flip/Momentum-Firmware'
-  'eliminación de logs de auditoría .claude/state/*.jsonl'
+  'git push --force / rewriting published history'
+  'modification of .claude/design/ (self-modification of the system)'
+  'recursive or forced deletion with rm -r/-f'
+  'change in targets/ or furi/ with potential ABI impact'
+  'creation or removal of a subagent in .claude/agents/'
+  'modification of hooks or .claude/settings.json (permission policy)'
+  'flashing the physical Flipper (./fbt flash or dfu-util)'
+  'push to the Next-Flip/Momentum-Firmware remote'
+  'deletion of audit logs .claude/state/*.jsonl'
 )
 
 MATCH_COUNT=0

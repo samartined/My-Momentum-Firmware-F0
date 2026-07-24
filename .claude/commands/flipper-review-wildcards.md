@@ -1,35 +1,35 @@
 ---
-description: Lista los wildcards ad-hoc del Concilio que aún no han sido promovidos al catálogo cerrado de ángulos. Útil para decidir si algún wildcard recurrente merece formalizarse como ángulo estable. Opt-in del usuario, no programado.
+description: Lists the ad-hoc Council wildcards that have not yet been promoted to the closed catalog of angles. Useful for deciding whether a recurring wildcard deserves to be formalized as a stable angle. User opt-in, not scheduled.
 ---
 
 # Flipper Review Wildcards
 
-Has sido invocado vía `/flipper-review-wildcards`. El usuario quiere revisar los ángulos wildcard que el master ha usado en convocatorias del Concilio.
+You have been invoked via `/flipper-review-wildcards`. The user wants to review the wildcard angles that the master has used in Council convenings.
 
-## Procedimiento
+## Procedure
 
-1. **Lee `.claude/state/wildcards.jsonl`** (gitignored). Cada línea contiene:
+1. **Read `.claude/state/wildcards.jsonl`** (gitignored). Each line contains:
    - `timestamp`
    - `council_id`
-   - `wildcard_id` (típicamente `WILD-<timestamp>`)
-   - `description`: nombre del ángulo ad-hoc
-   - `justification`: 3-5 líneas explicando por qué los 12 ángulos del catálogo no aplicaban
-2. **Agrupa los wildcards por descripción semántica similar** (no por ID — cada wildcard tiene un ID único pero pueden tratar del mismo ángulo conceptual con palabras distintas).
-3. **Presenta al usuario una tabla**:
+   - `wildcard_id` (typically `WILD-<timestamp>`)
+   - `description`: name of the ad-hoc angle
+   - `justification`: 3-5 lines explaining why the 12 catalog angles didn't apply
+2. **Group the wildcards by similar semantic description** (not by ID — each wildcard has a unique ID but they may deal with the same conceptual angle using different wording).
+3. **Present the user with a table**:
 
-   | Descripción (agrupada) | Apariciones | Council IDs | Justificaciones representativas |
+   | Description (grouped) | Occurrences | Council IDs | Representative justifications |
    |------------------------|-------------|-------------|--------------------------------|
    | ... | N | [...] | [...] |
 
-4. **Recomienda al usuario**:
-   - Wildcards con **3 o más apariciones**: candidatos a promoción al catálogo. Sugerir un ID estable (3 letras mayúsculas) y proponer entry en `.claude/design/council-angles.md`.
-   - Wildcards con 1-2 apariciones: dejar como están — pueden ser casos atípicos legítimos sin necesidad de formalización.
-5. **No promuevas al catálogo sin aprobación del usuario**. La promoción es modificar `.claude/design/council-angles.md`, que matchea G3 #2 → requiere L3. El proceso es:
-   - Tú propones al usuario qué wildcards promover.
-   - Usuario aprueba.
-   - Tú convocas Concilio (L3) sobre "añadir ángulo X al catálogo" — el Concilio decide si la promoción procede.
-   - Tras 2-de-3 SÍ y aprobación humana, se modifica el catálogo vía PR.
+4. **Recommend to the user**:
+   - Wildcards with **3 or more occurrences**: candidates for promotion to the catalog. Suggest a stable ID (3 uppercase letters) and propose an entry in `.claude/design/council-angles.md`.
+   - Wildcards with 1-2 occurrences: leave as is — they may be legitimate atypical cases that don't need formalization.
+5. **Do not promote to the catalog without user approval**. The promotion is a modification of `.claude/design/council-angles.md`, which matches G3 #2 → requires L3. The process is:
+   - You propose to the user which wildcards to promote.
+   - The user approves.
+   - You convene the Council (L3) on "adding angle X to the catalog" — the Council decides whether the promotion proceeds.
+   - After 2-of-3 YES and human approval, the catalog is modified via PR.
 
-## Si el archivo está vacío o no existe
+## If the file is empty or does not exist
 
-Reporta al usuario: "No hay wildcards registrados. Esto significa que el master no ha necesitado salirse del catálogo de 12 ángulos en las convocatorias del Concilio. Posibilidades: (a) el catálogo cubre bien los casos reales; (b) el master está evitando wildcards por inercia. Sugiero revisar los últimos N concilios para ver si la elección de ángulos fue siempre del catálogo."
+Report to the user: "No wildcards registered. This means the master hasn't needed to step outside the 12-angle catalog in Council convenings. Possibilities: (a) the catalog covers real cases well; (b) the master is avoiding wildcards out of inertia. I suggest reviewing the last N councils to see whether the angle choice was always from the catalog."

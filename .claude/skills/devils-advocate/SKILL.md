@@ -1,71 +1,71 @@
 ---
 name: devils-advocate
-description: Deliberación intermedia barata (nivel L2 del sistema multi-agente). 1 sola llamada Opus con prompt multi-ángulo donde el modelo asume 3 perspectivas en sucesión interna (no en llamadas separadas). NO es sustituto del Concilio Tripartito real (L3) — es complemento para tareas con 2 dominios o refactor menor que no matchean la lista G3 pero merecen una segunda voz.
+description: Cheap intermediate deliberation (level L2 of the multi-agent system). A single Opus call with a multi-angle prompt where the model takes on 3 perspectives in internal succession (not in separate calls). It is NOT a substitute for the real Tripartite Council (L3) — it complements it for tasks with 2 domains or a minor refactor that don't match the G3 list but deserve a second voice.
 ---
 
-# Skill: Devil's Advocate (nivel L2)
+# Skill: Devil's Advocate (level L2)
 
-## Propósito
+## Purpose
 
-Forzar al master a articular el caso contrario antes de decidir, mediante 1 sola llamada Opus que adopta 3 ángulos en sucesión interna. Reduce sesgos cognitivos simples sin pagar el coste 3× del Concilio Tripartito real.
+Force the master to articulate the opposing case before deciding, by means of a single Opus call that adopts 3 angles in internal succession. Reduces simple cognitive biases without paying the 3× cost of the real Tripartite Council.
 
-## Cuándo invocar esto
+## When to invoke this
 
-- La tarea toca 2 dominios del firmware sin matchear lista G3 (D19).
-- El refactor es menor pero tiene trade-offs no triviales.
-- El master tiene dudas tácticas y quiere una "segunda voz" sin gastar Concilio.
+- The task touches 2 firmware domains without matching the G3 list (D19).
+- The refactor is minor but has non-trivial trade-offs.
+- The master has tactical doubts and wants a "second voice" without spending a Council.
 
-## Cuándo NO invocar esto
+## When NOT to invoke this
 
-- **La operación matchea la lista G3 (irreversibilidad)**: en ese caso L1 y L2 quedan estructuralmente prohibidos (D23 hard rule). Solo L3 (Concilio) o L4 (escalado) son válidos. Si llegas aquí y la lista matchea, niégate y convoca al Concilio.
-- **La propuesta viene del `agent-architect`** (crear/retirar agente): siempre L3.
-- **Decisión cross-dominio que afecta 3+ áreas**: ese es claramente L3.
-- **El usuario invocó `/flipper-council` explícitamente**: respeta su petición y va a L3.
+- **The operation matches the G3 list (irreversibility)**: in that case L1 and L2 are structurally forbidden (D23 hard rule). Only L3 (Council) or L4 (escalation) are valid. If you get here and the list matches, refuse and convene the Council.
+- **The proposal comes from the `agent-architect`** (create/retire agent): always L3.
+- **Cross-domain decision affecting 3+ areas**: that's clearly L3.
+- **The user explicitly invoked `/flipper-council`**: honor their request and go to L3.
 
-L2 (`/devils-advocate`) **no es sustituto** del Concilio. Es complemento para casos donde 3 instancias separadas serían exceso pero "decidir solo" es poco.
+L2 (`/devils-advocate`) is **not a substitute** for the Council. It's a complement for cases where 3 separate instances would be overkill but "deciding alone" is too little.
 
-## Procedimiento
+## Procedure
 
-Asume las 3 perspectivas siguientes en sucesión interna (todo en 1 sola respuesta tuya, sin lanzar subagentes):
+Take on the following 3 perspectives in internal succession (all in a single response of yours, without launching subagents):
 
-### Perspectiva 1 — Pragmático
+### Perspective 1 — Pragmatist
 
-¿Qué dice "el desarrollador que solo quiere que esto funcione hoy y mantenga la estabilidad existente"?
+What does "the developer who just wants this to work today and keep existing stability" say?
 
-- Pregunta: ¿la propuesta introduce riesgo innecesario o complejidad evitable?
-- Responde en 2-3 frases concisas.
+- Question: does the proposal introduce unnecessary risk or avoidable complexity?
+- Answer in 2-3 concise sentences.
 
-### Perspectiva 2 — Visionario
+### Perspective 2 — Visionary
 
-¿Qué dice "el arquitecto que piensa en la salud del sistema a 12 meses"?
+What does "the architect who thinks about the health of the system over the next 12 months" say?
 
-- Pregunta: ¿la propuesta envejece bien o introduce deuda técnica?
-- Responde en 2-3 frases concisas.
+- Question: does the proposal age well or introduce technical debt?
+- Answer in 2-3 concise sentences.
 
-### Perspectiva 3 — Escéptico
+### Perspective 3 — Skeptic
 
-¿Qué dice "el reviewer que busca activamente qué puede romper esto"?
+What does "the reviewer actively looking for what this could break" say?
 
-- Pregunta: ¿qué edge case, regresión o vector de fallo no se ha considerado?
-- Responde en 2-3 frases concisas.
+- Question: what edge case, regression, or failure vector has not been considered?
+- Answer in 2-3 concise sentences.
 
-### Síntesis
+### Synthesis
 
-Tras las 3 perspectivas, decide:
+After the 3 perspectives, decide:
 
-- **PROCEDER**: las 3 perspectivas avalan la propuesta o sus reservas son menores. Continúa.
-- **MODIFICAR**: alguna perspectiva señala un problema serio que se puede mitigar ajustando la propuesta. Describe el ajuste y procede con la versión modificada.
-- **ESCALAR-A-L3**: las perspectivas detectan tensión sustantiva que merece deliberación real con 3 instancias separadas. Convoca al Concilio (L3).
+- **PROCEED**: all 3 perspectives endorse the proposal or their reservations are minor. Continue.
+- **MODIFY**: some perspective flags a serious problem that can be mitigated by adjusting the proposal. Describe the adjustment and proceed with the modified version.
+- **ESCALATE-TO-L3**: the perspectives detect substantive tension that deserves real deliberation with 3 separate instances. Convene the Council (L3).
 
 ## Output
 
-Tu respuesta al usuario debe incluir:
+Your response to the user must include:
 
-1. Las 3 perspectivas (claramente etiquetadas como tales, 2-3 frases cada una).
-2. La síntesis (PROCEDER / MODIFICAR / ESCALAR-A-L3).
-3. Si MODIFICAR, la versión ajustada.
-4. Si ESCALAR-A-L3, el motivo concreto por el que L2 no basta.
+1. The 3 perspectives (clearly labeled as such, 2-3 sentences each).
+2. The synthesis (PROCEED / MODIFY / ESCALATE-TO-L3).
+3. If MODIFY, the adjusted version.
+4. If ESCALATE-TO-L3, the concrete reason why L2 is not enough.
 
-## Coste
+## Cost
 
-1× llamada extra (la respuesta multi-ángulo a la conversación principal). NO se invocan subagentes. NO se persiste a disco (a diferencia del Concilio que escribe a `pending/<id>/`). El log de decisiones (`decisions.jsonl`) sí registra `level: "L2"` con `criterion_invoked: null` para auditoría.
+1× extra call (the multi-angle response to the main conversation). NO subagents are invoked. It is NOT persisted to disk (unlike the Council, which writes to `pending/<id>/`). The decision log (`decisions.jsonl`) does record `level: "L2"` with `criterion_invoked: null` for auditing.

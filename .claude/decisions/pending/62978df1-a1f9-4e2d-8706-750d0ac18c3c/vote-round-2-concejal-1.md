@@ -6,21 +6,21 @@ ronda: 2
 timestamp: 2026-05-23T18:45:00Z
 ---
 
-# Voto del concejal 1 sobre síntesis — ronda 2
+# Council Member 1's vote on the synthesis — round 2
 
-## Voto
-SÍ-CON-CONDICIONES-NUEVAS
+## Vote
+YES-WITH-NEW-CONDITIONS
 
-## Razones (máximo 3, breves)
+## Reasons (maximum 3, brief)
 
-1. **Las tres condiciones operativas de mi ronda 1 quedan incorporadas según el resumen del master.** La reformulación simultánea de ROB para excluir correctitud funcional, el campo "no aplicable cuando" en la entrada de COR, y la entrada congelada en el historial del catálogo — los tres mecanismos que pedí para que la separación ROB/COR sea operacionalmente disjunta y no solo semánticamente — están en la síntesis. La frontera deja de ser un matiz frágil y se vuelve verificable por inspección del catálogo.
+1. **The three operational conditions from my round 1 are incorporated according to the master's summary.** The simultaneous reformulation of ROB to exclude functional correctness, the "not applicable when" field in the COR entry, and the frozen entry in the catalog history — the three mechanisms I asked for so that the ROB/COR split is operationally disjoint and not merely semantic — are in the synthesis. The boundary stops being a fragile nuance and becomes verifiable by inspecting the catalog.
 
-2. **La pregunta clave operacional propuesta para COR ("contraejemplo concreto" vs "garantía estructural" de ROB) cierra el solape en runtime.** Mis ejemplos de ronda 1 (deserialización SubGHz, NFC, `flipper_migrate_files`) ya no son ambiguos: ROB pregunta "¿qué invariante queda verificable?" mientras COR pregunta "¿puedo construir un input que rompa este resultado?". Esto produce críticas no-redundantes, que era el test definitivo de ortogonalidad que mi razón 2 de ronda 1 demandaba.
+2. **The proposed operational key question for COR ("concrete counterexample" vs. ROB's "structural guarantee") closes the runtime overlap.** My round 1 examples (SubGHz deserialization, NFC, `flipper_migrate_files`) are no longer ambiguous: ROB asks "which invariant remains verifiable?" while COR asks "can I construct an input that breaks this result?". This produces non-redundant critiques, which was the definitive orthogonality test my round 1 reason 2 demanded.
 
-3. **El rail de aplicabilidad disjunto restringido a operaciones bit-a-bit / byte-a-byte comparables acota correctamente el alcance de COR.** Mi riesgo de "doble asignación encubierta" queda mitigado: las decisiones puramente arquitectónicas o de lifecycle caen en ROB, y solo las transformaciones input→output con criterio de éxito en el contenido del output caen en COR. La regla 2-de-3 SÍ recupera su mecánica anti-sesgo porque los dos ángulos ya no votan sobre la misma sub-cuestión.
+3. **The disjoint applicability rail restricted to comparable bit-by-bit / byte-by-byte operations correctly bounds COR's scope.** My "covert double assignment" risk is mitigated: purely architectural or lifecycle decisions fall under ROB, and only input→output transformations whose success criterion is the content of the output fall under COR. The 2-of-3 YES rule recovers its anti-bias mechanics because the two angles no longer vote on the same sub-question.
 
-## Condiciones nuevas (solo si SÍ-CON-CONDICIONES-NUEVAS)
+## New conditions (only if YES-WITH-NEW-CONDITIONS)
 
-- **Condición ORT-N1 (auditoría a 3 meses con métrica explícita de disjunción).** La cláusula de retirada empírica a 3 meses (atendiendo al voto minoritario) debe incluir un criterio operacional medible *desde ortogonalidad*: revisar el log `decisions.jsonl` y contar cuántas convocatorias asignaron ROB y COR al mismo trío y cuántos veredictos resultantes fueron textualmente solapantes (>70% de razones compartidas). Si la tasa de co-asignación con solape supera el 30%, la separación se considera fallida desde ORT y se retira COR — independientemente de los criterios de utilidad funcional que justifiquen su mantenimiento desde otros ángulos. Esta condición no contradice la cláusula de retirada propuesta; la operacionaliza desde mi ángulo.
+- **Condition ORT-N1 (3-month audit with an explicit disjunction metric).** The 3-month empirical withdrawal clause (addressing the minority vote) must include an operational criterion measurable *from orthogonality*: review the `decisions.jsonl` log and count how many convocations assigned ROB and COR to the same trio and how many resulting verdicts were textually overlapping (>70% shared reasons). If the co-assignment-with-overlap rate exceeds 30%, the split is considered a failure from ORT and COR is withdrawn — regardless of the functional-utility criteria that might justify keeping it from other angles. This condition does not contradict the proposed withdrawal clause; it operationalizes it from my angle.
 
-- **Condición ORT-N2 (guard de auto-veto al routing del master).** Hasta la primera auditoría a 3 meses, el master debe registrar en el dossier de cada L3 que invoque tanto ROB como COR una justificación de una línea explicando por qué la decisión requiere las dos lentes y no es expresable como una sola. Si en 3 meses no se acumula ningún dossier con justificación creíble de co-invocación, esto es evidencia adicional de no-ortogonalidad que la auditoría debe ponderar. Es trazabilidad ligera, no carga operacional pesada.
+- **Condition ORT-N2 (auto-veto guard on master routing).** Until the first 3-month audit, the master must record in the dossier of every L3 that invokes both ROB and COR a one-line justification of why the decision requires both lenses and cannot be expressed as a single one. If in 3 months no dossier accumulates a credible co-invocation justification, this is additional evidence of non-orthogonality that the audit must weigh. This is light traceability, not heavy operational burden.

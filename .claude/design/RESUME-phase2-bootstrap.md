@@ -1,166 +1,166 @@
-# RESUME — Arranque de Fase 2 (Especialistas críticos)
+# RESUME — Starting Phase 2 (Critical specialists)
 
-## Resumen ultracorto
+## Ultra-short summary
 
-**Fase 1 cerrada y verificada.** Sistema multi-agente operativo end-to-end. ADR-0001 cerrado y materializado. Próximo paso por orden expresa del usuario: arrancar **Fase 2** = crear 4 especialistas críticos + sus docs curados.
+**Phase 1 closed and verified.** Multi-agent system operational end-to-end. ADR-0001 closed and materialized. Next step, on the user's explicit order: start **Phase 2** = create 4 critical specialists + their curated docs.
 
-Este RESUME es autocontenido: una sesión nueva (local, web, codespaces) puede leerlo + `CLAUDE.md` + `.claude/design/phases.md` y arrancar Fase 2 sin más contexto histórico.
+This RESUME is self-contained: a new session (local, web, codespaces) can read it + `CLAUDE.md` + `.claude/design/phases.md` and start Phase 2 without any further historical context.
 
 ---
 
-## Estado del sistema (a 2026-05-23, commit `7a8a91f2`)
+## System status (as of 2026-05-23, commit `7a8a91f2`)
 
-### Lo que ya está hecho
+### What's already done
 
-- **Fase 0** (planificación): completa. Diseño en `.claude/design/system-design.md` con 27 decisiones + 4 aprendizajes meta.
-- **Fase 1** (núcleo mínimo viable): completa. Los 4 criterios funcionales de done están verificados:
-  - V1 (L1 single-domain): pasado.
-  - V2 (L3 Concilio end-to-end): pasado (esta sesión → ADR-0001).
-  - V3 (G3 forzado): pasado.
-  - V4 (push a Next-Flip bloqueado): pasado.
-- **2 core agents operativos** en `.claude/agents/`:
+- **Phase 0** (planning): complete. Design in `.claude/design/system-design.md` with 27 decisions + 4 meta-learnings.
+- **Phase 1** (minimum viable core): complete. All 4 functional done criteria are verified:
+  - V1 (L1 single-domain): passed.
+  - V2 (L3 Council end-to-end): passed (this session → ADR-0001).
+  - V3 (G3 forced): passed.
+  - V4 (push to Next-Flip blocked): passed.
+- **2 operational core agents** in `.claude/agents/`:
   - `agent-architect` (Opus, effort: max).
-  - `council-member` (Opus, effort: max, parametrizable con ángulo del catálogo).
-- **Catálogo del Concilio**: 13 ángulos vigentes (12 + `COR` añadido en ADR-0001).
-- **Hooks**: `SubagentStop`, `PreToolUse`, `pre-push` activos.
-- **decisions.jsonl**: 3 entradas registradas (V1 L1, V3 L3 sin council_id, V2 L3 con council_id).
+  - `council-member` (Opus, effort: max, parametrizable with an angle from the catalog).
+- **Council catalog**: 13 active angles (12 + `COR` added in ADR-0001).
+- **Hooks**: `SubagentStop`, `PreToolUse`, `pre-push` active.
+- **decisions.jsonl**: 3 entries logged (V1 L1, V3 L3 with no council_id, V2 L3 with council_id).
 
-### Revisiones calendarizadas pendientes
+### Pending scheduled reviews
 
-- **`2026-08-23`**: Auditoría a 3 meses del ángulo `COR` (Revisión 1 en `phases.md` → "Calendario activo de revisiones"). Owner: `agent-architect`. Dispara retirada (OR): <2 invocaciones reales o >30% solape `ROB`+`COR`.
+- **`2026-08-23`**: 3-month audit of the `COR` angle (Review 1 in `phases.md` → "Active review calendar"). Owner: `agent-architect`. Triggers withdrawal (OR): <2 real invocations or >30% `ROB`+`COR` overlap.
 
 ---
 
-## Plan de arranque de Fase 2
+## Phase 2 startup plan
 
-Según `phases.md` → Fase 2, los entregables son:
+Per `phases.md` → Phase 2, the deliverables are:
 
-### Agentes especialistas (4)
+### Specialist agents (4)
 
-| Archivo | Dominio | Modelo sugerido |
+| File | Domain | Suggested model |
 |---|---|---|
-| `.claude/agents/flipper-rf-subghz.md` | SubGHz, OOK, radio CC1101, slots `.sub` | Opus, effort: max |
+| `.claude/agents/flipper-rf-subghz.md` | SubGHz, OOK, CC1101 radio, `.sub` slots | Opus, effort: max |
 | `.claude/agents/flipper-nfc.md` | NFC (ISO14443 A/B, MIFARE, NTAG, NDEF, plugins) | Opus, effort: max |
-| `.claude/agents/flipper-app-builder.md` | Estructura de apps (`application.fam`, gui, scenes, views, FAP) | Opus, effort: max |
-| `.claude/agents/flipper-build-fbt.md` | Sistema de build (fbt, scons, toolchain, firmware vs apps) | Sonnet, effort: medium |
+| `.claude/agents/flipper-app-builder.md` | App structure (`application.fam`, gui, scenes, views, FAP) | Opus, effort: max |
+| `.claude/agents/flipper-build-fbt.md` | Build system (fbt, scons, toolchain, firmware vs apps) | Sonnet, effort: medium |
 
-### Docs curados (4)
+### Curated docs (4)
 
-| Archivo | Contenido esperado |
+| File | Expected content |
 |---|---|
-| `.claude/docs/subghz-internals.md` | Stack SubGHz: protocolos soportados, formato `.sub`, mapeo a TX worker, integración con app SubGHz |
-| `.claude/docs/nfc-stack.md` | Stack NFC: capas (lib/nfc, plugins), tipos soportados, ISO14443 A/B, MIFARE, NTAG, custom apps |
-| `.claude/docs/adding-an-app-checklist.md` | Pasos verificados para añadir una app FAP (application.fam, entry point, scenes, build) |
-| `.claude/docs/build-system.md` | fbt, scons, targets `f7-firmware-C` vs apps, comandos comunes (`./fbt`, `./fbt fap_X`, `./fbt firmware_flash`) |
+| `.claude/docs/subghz-internals.md` | SubGHz stack: supported protocols, `.sub` format, mapping to the TX worker, integration with the SubGHz app |
+| `.claude/docs/nfc-stack.md` | NFC stack: layers (lib/nfc, plugins), supported types, ISO14443 A/B, MIFARE, NTAG, custom apps |
+| `.claude/docs/adding-an-app-checklist.md` | Verified steps for adding a FAP app (application.fam, entry point, scenes, build) |
+| `.claude/docs/build-system.md` | fbt, scons, `f7-firmware-C` vs apps targets, common commands (`./fbt`, `./fbt fap_X`, `./fbt firmware_flash`) |
 
-### Criterios de done de Fase 2
+### Phase 2 done criteria
 
-1. Los 4 archivos de agentes creados con frontmatter válido (model, effort, description, tools).
-2. Los 4 docs creados con contenido útil verificable contra el codebase.
-3. **Validación**: el master delega correctamente al especialista correspondiente en una tarea real del firmware (ej. "implementa lectura del protocolo X de SubGHz" → delega a `flipper-rf-subghz`).
-4. Registry actualizado: cada especialista añadido a `.claude/agents/REGISTRY.md`.
-
----
-
-## Decisiones que el master debe tomar al arrancar Fase 2
-
-### 1. ¿Crear los 4 especialistas vía `agent-architect` o directamente?
-
-**Opción A (vía architect)**: el master pide al `agent-architect` que proponga cada uno. El architect aplica sus 4 capas de control (descripción, herramientas, modelo, justificación). El usuario aprueba en lote o uno a uno. Este es el flujo "canónico" de creación de agentes (D5).
-
-- **+** Disciplina del proceso de creación de agentes.
-- **+** Cada especialista pasa por 4 capas de control.
-- **−** Cuota D12 dice "máximo 1 agente nuevo por sesión" → habría que ejecutar 4 sesiones de architect, o relajar la cuota explícitamente para Fase 2 (entregable planificado, no propuesta espontánea).
-
-**Opción B (directa, sin architect)**: el master crea los 4 agentes manualmente porque son entregables planificados en `phases.md`, no propuestas reactivas del architect.
-
-- **+** Más rápido (1 sesión vs 4).
-- **+** La cuota del architect es para propuestas espontáneas, no para entregables de plan.
-- **−** Salta el control del architect. Hay que justificar bien por qué.
-
-**Recomendación**: **Opción B con commit consolidado**. Razón: el architect existe para detectar gaps de cobertura no planificados; los 4 especialistas de Fase 2 ya están explícitamente en `phases.md` como entregables fijos. Saltarlos vía architect es duplicar disciplina. Sin embargo, debe consultarse al usuario antes (decisión meta).
-
-### 2. ¿Es Fase 2 un L3 consolidado o 4 L3 separados?
-
-**Crear archivos en `.claude/agents/` matchea G3** (CLAUDE.md: "Modificación de `.claude/agents/`... matchea G3 → fuerza L3").
-
-**Opción A (4 L3 separados)**: un Concilio por especialista. Mucho coste (~12 invocaciones Opus solo para Fase 2 Concilios). Inadecuado para entregables planificados ex ante.
-
-**Opción B (1 L3 consolidado "Fase 2 bootstrap")**: un solo Concilio que delibera sobre el conjunto de 4 especialistas como bootstrap. Más razonable porque la deliberación es "¿están bien definidos los 4 nuevos especialistas?", no 4 preguntas separadas.
-
-**Opción C (sin L3, escalado directo L4)**: el master construye dossier mínimo, lo presenta al usuario directo, y el usuario aprueba sin Concilio porque es entregable planificado. Esto es legítimo: el script `check-irreversibility.sh` fuerza L3 estructuralmente, pero el usuario puede aprobar explícitamente L4 sin pasar por Concilio (D21 — "1-de-3 SÍ → escalado L4" es la ruta normal, pero L4 directo también es válido si el usuario lo pide).
-
-**Recomendación**: depende del nivel de disciplina del usuario. Si quiere todo el flujo, **Opción B**. Si quiere arrancar Fase 2 rápido y confía en el plan de `phases.md`, **Opción C**.
-
-### 3. ¿Orden de creación?
-
-**Sugerencia**: `flipper-build-fbt` primero (cualquier app necesita saber buildear), luego `flipper-app-builder` (estructura general), luego los dos de dominio (`flipper-nfc`, `flipper-rf-subghz`). Pero el usuario puede pedir otro orden si tiene una tarea concreta pendiente.
+1. The 4 agent files created with valid frontmatter (model, effort, description, tools).
+2. The 4 docs created with useful content verifiable against the codebase.
+3. **Validation**: the master correctly delegates to the right specialist on a real firmware task (e.g. "implement reading of protocol X for SubGHz" → delegates to `flipper-rf-subghz`).
+4. Registry updated: each specialist added to `.claude/agents/REGISTRY.md`.
 
 ---
 
-## Trampas conocidas y precedentes
+## Decisions the master must make when starting Phase 2
 
-### Trampa 1: bug del `Write` (precedente V2)
+### 1. Create the 4 specialists via `agent-architect` or directly?
 
-En la sesión anterior a esta, el `Write` falló sistemáticamente. Workaround documentado: usar `Bash` con heredoc. En la sesión actual el bug está resuelto. Si vuelve a aparecer, ver `.claude/decisions/pending/62978df1-.../RESUME.md` (el original de V2).
+**Option A (via architect)**: the master asks `agent-architect` to propose each one. The architect applies its 4 layers of control (description, tools, model, justification). The user approves in batch or one by one. This is the "canonical" agent-creation flow (D5).
 
-### Trampa 2: cuotas del architect (D12)
+- **+** Discipline in the agent-creation process.
+- **+** Each specialist goes through 4 layers of control.
+- **−** The D12 quota says "maximum 1 new agent per session" → would require running 4 architect sessions, or explicitly relaxing the quota for Phase 2 (a planned deliverable, not a spontaneous proposal).
 
-Si decides Opción A del paso 1, recuerda que la cuota de "1 agente nuevo por sesión" puede bloquear. Hay dos vías:
+**Option B (direct, no architect)**: the master creates the 4 agents manually because they are deliverables planned in `phases.md`, not reactive proposals from the architect.
 
-- Ejecutar 4 sesiones separadas del architect.
-- Relajar la cuota para esta sesión específica con justificación explícita en `decisions.jsonl` y mención al usuario.
+- **+** Faster (1 session vs 4).
+- **+** The architect's quota is for spontaneous proposals, not for planned deliverables.
+- **−** Skips the architect's control. Needs a good justification.
 
-### Trampa 3: docs curados sin verificación
+**Recommendation**: **Option B with a consolidated commit**. Reason: the architect exists to detect unplanned coverage gaps; the 4 Phase 2 specialists are already explicitly listed in `phases.md` as fixed deliverables. Routing them through the architect would duplicate discipline. However, the user should be consulted first (a meta-decision).
 
-Los 4 docs (`.claude/docs/*.md`) deben construirse leyendo el codebase real, no inventando. Usar `Explore` (subagent) para mapear cada subsistema antes de escribir el doc. Precedente: el doc `architecture-furios.md` de Fase 1 se construyó así.
+### 2. Is Phase 2 a single consolidated L3 or 4 separate L3s?
 
-### Trampa 4: política anti-AI del upstream
+**Creating files under `.claude/agents/` matches G3** (CLAUDE.md: "Modification of `.claude/agents/`... matches G3 → forces L3").
 
-`Next-Flip/Momentum-Firmware` tiene política anti-AI. Tu fork (`samartined/...`) es safe; pero los docs de Fase 2 son tuyos y nunca van al upstream. El hook `pre-push` bloquea cualquier intento. Confirmado en V4.
+**Option A (4 separate L3s)**: one Council per specialist. High cost (~12 Opus invocations for Phase 2 Councils alone). Inadequate for ex-ante planned deliverables.
+
+**Option B (1 consolidated "Phase 2 bootstrap" L3)**: a single Council that deliberates on the set of 4 specialists as a bootstrap. More reasonable because the deliberation is "are the 4 new specialists well defined?", not 4 separate questions.
+
+**Option C (no L3, direct escalation to L4)**: the master builds a minimal dossier, presents it directly to the user, and the user approves without a Council because it's a planned deliverable. This is legitimate: the `check-irreversibility.sh` script structurally forces L3, but the user can explicitly approve L4 without going through the Council (D21 — "1-of-3 YES → escalate to L4" is the normal route, but direct L4 is also valid if the user asks for it).
+
+**Recommendation**: depends on the user's desired level of discipline. If they want the full flow, **Option B**. If they want to start Phase 2 quickly and trust the `phases.md` plan, **Option C**.
+
+### 3. Order of creation?
+
+**Suggestion**: `flipper-build-fbt` first (any app needs to know how to build), then `flipper-app-builder` (general structure), then the two domain-specific ones (`flipper-nfc`, `flipper-rf-subghz`). But the user may request a different order if they have a specific pending task.
 
 ---
 
-## Cómo arrancar la sesión nueva
+## Known traps and precedents
 
-### Paso 1 — Verificar contexto
+### Trap 1: the `Write` bug (V2 precedent)
+
+In the session before this one, `Write` failed systematically. Documented workaround: use `Bash` with a heredoc. In the current session the bug is resolved. If it reappears, see `.claude/decisions/pending/62978df1-.../RESUME.md` (the original from V2).
+
+### Trap 2: architect quotas (D12)
+
+If you choose Option A from step 1, remember the "1 new agent per session" quota may block you. There are two paths:
+
+- Run 4 separate architect sessions.
+- Relax the quota for this specific session with an explicit justification in `decisions.jsonl` and a mention to the user.
+
+### Trap 3: unverified curated docs
+
+The 4 docs (`.claude/docs/*.md`) must be built by reading the real codebase, not by making things up. Use `Explore` (subagent) to map each subsystem before writing the doc. Precedent: the `architecture-furios.md` doc from Phase 1 was built this way.
+
+### Trap 4: upstream's anti-AI policy
+
+`Next-Flip/Momentum-Firmware` has an anti-AI policy. Your fork (`samartined/...`) is safe; but the Phase 2 docs are yours and never go to upstream. The `pre-push` hook blocks any attempt. Confirmed in V4.
+
+---
+
+## How to start the new session
+
+### Step 1 — Verify context
 
 ```bash
-git status                                          # debe estar limpio o con cambios de build (no relevantes)
-git log --oneline -3                                # último commit debe ser 7a8a91f2 (V2 close)
-cat .claude/design/CHANGELOG.md | head -50          # confirma versión 0.1.5 en cabecera
-cat .claude/decisions/ADR-0001-add-cor-angle.md     # confirma ADR materializado
+git status                                          # should be clean or have build-related changes (not relevant)
+git log --oneline -3                                # last commit should be 7a8a91f2 (V2 close)
+cat .claude/design/CHANGELOG.md | head -50          # confirms version 0.1.5 in the header
+cat .claude/decisions/ADR-0001-add-cor-angle.md     # confirms the ADR was materialized
 ```
 
-### Paso 2 — Confirmar al usuario el plan
+### Step 2 — Confirm the plan with the user
 
-Pregunta al usuario qué decisiones quiere para los 3 puntos abiertos (vía architect vs directo, 4 L3 vs 1 L3 vs L4 directo, orden de creación). No empieces a crear archivos hasta tener su respuesta.
+Ask the user which decisions they want for the 3 open points (via architect vs direct, 4 L3s vs 1 L3 vs direct L4, order of creation). Do not start creating files until you have their answer.
 
-### Paso 3 — Si Opción C (L4 directo)
+### Step 3 — If Option C (direct L4)
 
-- Construye un dossier mínimo de "Fase 2 bootstrap" en `.claude/decisions/pending/<nuevo-uuid>/dossier.md`.
-- Loguea L4 en `decisions.jsonl` con `criterion_invoked: "user-direct-approval-planned-deliverable"`.
-- Crea los 4 archivos de agentes en el orden acordado.
-- Crea los 4 docs curados (usa `Explore` subagent para mapear código real).
-- Actualiza `REGISTRY.md`.
-- Commit consolidado `feat(.claude): bootstrap Phase 2 specialists (subghz, nfc, app-builder, build-fbt)`.
+- Build a minimal "Phase 2 bootstrap" dossier at `.claude/decisions/pending/<new-uuid>/dossier.md`.
+- Log L4 in `decisions.jsonl` with `criterion_invoked: "user-direct-approval-planned-deliverable"`.
+- Create the 4 agent files in the agreed order.
+- Create the 4 curated docs (use the `Explore` subagent to map the real code).
+- Update `REGISTRY.md`.
+- Consolidated commit `feat(.claude): bootstrap Phase 2 specialists (subghz, nfc, app-builder, build-fbt)`.
 
-### Paso 4 — Validación final
+### Step 4 — Final validation
 
-- Ejecuta una tarea de prueba real (ej. "explícame cómo funciona el TX worker de SubGHz") y verifica que el master delega al especialista correcto.
-- Loguea la validación en `decisions.jsonl`.
-- Actualiza `CHANGELOG.md` con entrada 0.1.6 cerrando Fase 2.
+- Run a real test task (e.g. "explain how the SubGHz TX worker works") and verify the master delegates to the correct specialist.
+- Log the validation in `decisions.jsonl`.
+- Update `CHANGELOG.md` with a 0.1.6 entry closing Phase 2.
 
 ---
 
-## Información importante de continuidad
+## Important continuity information
 
-- **Branch actual**: `my-momentum/feature/multi-agent-system-v1`.
-- **Remote**: solo `origin` → `git@github.com:samartined/My-Momentum-Firmware-F0.git`. NO hay remote `Next-Flip` en este clone.
-- **Último commit**: `7a8a91f2 validate(v2): close Council deliberation ADR-0001 (Phase 1.G done)`.
-- **Push a origin**: realizado en `2026-05-23`. La rama está accesible desde cualquier sesión cloud que clone este fork.
-- **decisions.jsonl**: gitignored. NO viaja con el repo. La nueva sesión arrancará con `decisions.jsonl` propio (local a su clone). Si necesitas continuidad estricta del log, ver opciones en la conversación o cambiar el gitignore.
+- **Current branch**: `my-momentum/feature/multi-agent-system-v1`.
+- **Remote**: only `origin` → `git@github.com:samartined/My-Momentum-Firmware-F0.git`. There is NO `Next-Flip` remote in this clone.
+- **Last commit**: `7a8a91f2 validate(v2): close Council deliberation ADR-0001 (Phase 1.G done)`.
+- **Push to origin**: done on `2026-05-23`. The branch is reachable from any cloud session that clones this fork.
+- **decisions.jsonl**: gitignored. Does NOT travel with the repo. The new session will start with its own `decisions.jsonl` (local to its clone). If you need strict log continuity, see the options discussed in conversation or change the gitignore.
 
-## Sobre la sesión master
+## About the master session
 
-La conversación principal de Claude Code asume el rol de master del sistema multi-agente (CLAUDE.md). Cualquier sesión nueva en cualquier dispositivo (local, claude.ai/code web, Codespaces, VM) que cargue `CLAUDE.md` automáticamente asume ese rol. No hay "sesión master persistente" — el rol vive en el archivo, no en una instancia.
+Claude Code's main conversation assumes the role of master of the multi-agent system (CLAUDE.md). Any new session on any device (local, claude.ai/code web, Codespaces, VM) that loads `CLAUDE.md` automatically assumes that role. There is no "persistent master session" — the role lives in the file, not in an instance.

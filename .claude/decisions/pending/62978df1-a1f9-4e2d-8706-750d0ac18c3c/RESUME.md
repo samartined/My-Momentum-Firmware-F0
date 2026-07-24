@@ -1,94 +1,95 @@
-# RESUME — Continuación de V2 (Validación funcional Fase 1.G)
+# RESUME — Continuation of V2 (Phase 1.G functional validation)
 
-## Resumen ultracorto
+## Ultra-short summary
 
-El Concilio está en **ronda 2 completada**; falta **ronda 3 + ADR + log decisions.jsonl**. La sesión anterior se interrumpió por un bug de Claude Code (tool `Write` retorna `Path must be a string, received undefined` para cualquier path). Workaround: Bash heredoc.
+The Council is in **round 2 completed**; still missing **round 3 + ADR + decisions.jsonl log**. The previous session was interrupted by a Claude Code bug (the `Write` tool returns `Path must be a string, received undefined` for any path). Workaround: Bash heredoc.
 
-## Contexto del Concilio
+## Council context
 
 - **Council ID**: `62978df1-a1f9-4e2d-8706-750d0ac18c3c`
-- **Decisión sintética**: ¿añadir un ángulo `COR` (Correctness) al catálogo cerrado de `.claude/design/council-angles.md`?
-- **Criterio de irreversibilidad invocado**: `IRREV-2` (modifica `.claude/design/`)
-- **Propósito**: validación funcional **V2** de Fase 1.G (último de los 4 criterios de "done"; V1, V3, V4 ya pasaron).
-- **Coste hasta ahora**: 6 invocaciones Opus (3 ronda 1 + 3 ronda 2). Ronda 3 son 3 más → total ~9.
+- **Synthetic decision**: should a `COR` (Correctness) angle be added to the closed catalog in `.claude/design/council-angles.md`?
+- **Irreversibility criterion invoked**: `IRREV-2` (modifies `.claude/design/`)
+- **Purpose**: **V2** functional validation of Phase 1.G (last of the 4 "done" criteria; V1, V3, V4 already passed).
+- **Cost so far**: 6 Opus invocations (3 round 1 + 3 round 2). Round 3 is 3 more → total ~9.
 
-## Estado de archivos en disco
+## State of files on disk
 
 ```
 .claude/decisions/pending/62978df1-a1f9-4e2d-8706-750d0ac18c3c/
-├── dossier.md                  # entrada original al Concilio
-├── concejal-1.md               # veredicto ronda 1 ángulo ORT (MODIFICAR / SÍ-CON-CONDICIONES)
-├── concejal-2.md               # veredicto ronda 1 ángulo SIM (RECHAZAR / NO)
-├── concejal-3.md               # veredicto ronda 1 ángulo MNT (MODIFICAR / SÍ-CON-CONDICIONES)
-├── synthesis-round-2.md        # síntesis del master (Alternativa A + 4 condiciones + cláusula retirada)
-├── vote-round-2-concejal-1.md  # ronda 2 ángulo ORT (SÍ-CON-CONDICIONES-NUEVAS, 2 cond)
-├── vote-round-2-concejal-2.md  # ronda 2 ángulo SIM (SÍ-CON-CONDICIONES-NUEVAS, 3 cond) — cambió de NO a SÍ
-├── vote-round-2-concejal-3.md  # ronda 2 ángulo MNT (SÍ-CON-CONDICIONES-NUEVAS, 2 cond)
-└── RESUME.md                   # este archivo
+├── dossier.md                  # original entry to the Council
+├── concejal-1.md               # round 1 verdict, ORT angle (MODIFY / YES-WITH-CONDITIONS)
+├── concejal-2.md               # round 1 verdict, SIM angle (REJECT / NO)
+├── concejal-3.md               # round 1 verdict, MNT angle (MODIFY / YES-WITH-CONDITIONS)
+├── synthesis-round-2.md        # master's synthesis (Alternative A + 4 conditions + withdrawal clause)
+├── vote-round-2-concejal-1.md  # round 2, ORT angle (YES-WITH-NEW-CONDITIONS, 2 cond)
+├── vote-round-2-concejal-2.md  # round 2, SIM angle (YES-WITH-NEW-CONDITIONS, 3 cond) — changed from NO to YES
+├── vote-round-2-concejal-3.md  # round 2, MNT angle (YES-WITH-NEW-CONDITIONS, 2 cond)
+└── RESUME.md                   # this file
 ```
 
-Conteo final ronda 2: **3 SÍ-CON-CONDICIONES-NUEVAS / 0 NO**. Las 7 condiciones nuevas son compatibles entre sí y convergen en operacionalizar la cláusula de retirada empírica a 3 meses.
+Final round 2 tally: **3 YES-WITH-NEW-CONDITIONS / 0 NO**. The 7 new conditions are mutually compatible and converge on operationalizing the 3-month empirical withdrawal clause.
 
-## Las 7 condiciones nuevas (resumen)
+## The 7 new conditions (summary)
 
-- **C1-N1** (ORT): métrica explícita de disjunción ROB↔COR en la auditoría a 3 meses (tasa de co-asignación con solape >70%).
-- **C1-N2** (ORT): el master debe registrar en cada dossier que invoque ROB+COR una justificación de una línea de por qué requiere ambas lentes.
-- **C2-N1** (SIM): umbral de retirada (<10%) implementado como query reproducible sobre `decisions.jsonl`, no prosa.
-- **C2-N2** (SIM): "elegible para COR" definido operacionalmente en `council-angles.md` (criterios objetivos: I/O protocolos, parsing, migración, serialización).
-- **C2-N3** (SIM): revisión a 3 meses obligatoria calendarizada, no opcional.
-- **C3-N1** (MNT): owner = `agent-architect`, sink = entrada en "Historial de cambios al catálogo" con formato fijo.
-- **C3-N2** (MNT): umbral numérico congelado ex ante = "menos de 2 invocaciones reales en ventana de 3 meses".
+- **C1-N1** (ORT): explicit ROB↔COR disjunction metric in the 3-month audit (co-assignment rate with >70% overlap).
+- **C1-N2** (ORT): the master must record in every dossier that invokes both ROB and COR a one-line justification of why it requires both lenses.
+- **C2-N1** (SIM): withdrawal threshold (<10%) implemented as a reproducible query over `decisions.jsonl`, not prose.
+- **C2-N2** (SIM): "eligible for COR" defined operationally in `council-angles.md` (objective criteria: protocol I/O, parsing, migration, serialization).
+- **C2-N3** (SIM): mandatory scheduled 3-month review, not optional.
+- **C3-N1** (MNT): owner = `agent-architect`, sink = entry in the "Catalog change history" with fixed format.
+- **C3-N2** (MNT): frozen numeric threshold set ex ante = "fewer than 2 real invocations in a 3-month window".
 
-Lee los archivos `vote-round-2-concejal-*.md` para texto completo.
+Read the `vote-round-2-concejal-*.md` files for the full text.
 
 ---
 
-## INSTRUCCIONES PARA LA SESIÓN NUEVA
+## INSTRUCTIONS FOR THE NEW SESSION
 
-### Paso 1 — Verificar bug del Write
+### Step 1 — Verify the Write bug
 
-Antes de seguir, comprueba si `Write` funciona:
-
-```
-Tool Write con file_path = /tmp/test_write.txt, content = "ok"
-```
-
-Si funciona → continúa normalmente. Si falla con el mismo error → usa Bash heredoc para crear archivos.
-
-### Paso 2 — Lanzar ronda 3 (validación cruzada de condiciones)
-
-Lanza **3 invocaciones paralelas** del subagente equivalente a `council-member` (vía tool `Agent` con `subagent_type: general-purpose` y `model: opus`). Cada uno recibe el prompt template abajo, adaptado con su ángulo (ORT, SIM, MNT) y el ID de concejal (1, 2, 3).
-
-**Prompt template ronda 3** (sustituye `{N}` por 1/2/3 y `{ANGULO}` por ORT/SIM/MNT):
+Before continuing, check whether `Write` works:
 
 ```
-Eres el Concejal {N} del Concilio Tripartito con ángulo {ANGULO}. Esta es la
-ronda 3 (validación cruzada de condiciones) del Concilio con
+Write tool with file_path = /tmp/test_write.txt, content = "ok"
+```
+
+If it works → continue normally. If it fails with the same error → use Bash heredoc to create files.
+
+### Step 2 — Launch round 3 (cross-validation of conditions)
+
+Launch **3 parallel invocations** of the subagent equivalent to `council-member` (via the `Agent` tool with `subagent_type: general-purpose` and `model: opus`). Each receives the prompt template below, adapted with its angle (ORT, SIM, MNT) and council member ID (1, 2, 3).
+
+**Round 3 prompt template** (replace `{N}` with 1/2/3 and `{ANGULO}` with ORT/SIM/MNT):
+
+```
+You are Council Member {N} of the Tripartite Council with angle {ANGULO}. This is
+round 3 (cross-validation of conditions) of the Council with
 council_id = 62978df1-a1f9-4e2d-8706-750d0ac18c3c.
 
-Material que DEBES leer:
-1. Tu propio veredicto y voto previo en:
+Material you MUST read:
+1. Your own verdict and previous vote in:
    - .claude/decisions/pending/62978df1-a1f9-4e2d-8706-750d0ac18c3c/concejal-{N}.md
    - .claude/decisions/pending/62978df1-a1f9-4e2d-8706-750d0ac18c3c/vote-round-2-concejal-{N}.md
-2. Las CONDICIONES NUEVAS propuestas por los OTROS 2 concejales en sus
-   archivos vote-round-2-concejal-OTRO.md. Lee SOLO la sección
-   "Condiciones nuevas" — NO leas sus razones para no anclarte.
+2. The NEW CONDITIONS proposed by the OTHER 2 council members in their
+   vote-round-2-concejal-OTHER.md files. Read ONLY the "New conditions"
+   section — do NOT read their reasoning, to avoid anchoring.
 
-Tu tarea:
-Para CADA condición nueva propuesta por OTRO concejal (5 condiciones en total:
-2 del primero, 3 del segundo, o las combinaciones equivalentes), decide:
-- accepted: compatible con tu ángulo, no introduce problema.
-- vetoed: introduce problema sustantivo desde tu ángulo. Explica en una frase.
-- accepted-with-note: aceptable pero con observación menor.
+Your task:
+For EACH new condition proposed by an OTHER council member (5 conditions in
+total: 2 from the first, 3 from the second, or the equivalent combinations),
+decide:
+- accepted: compatible with your angle, introduces no problem.
+- vetoed: introduces a substantive problem from your angle. Explain in one sentence.
+- accepted-with-note: acceptable but with a minor observation.
 
-Si NINGUNA condición de los otros es vetada por ti, esto es voto SÍ pleno
-de tu parte sobre el paquete completo. Si vetas alguna, esa condición se
-cae del ADR (no entra en el plan).
+If NONE of the others' conditions is vetoed by you, this is a full YES vote
+on your part on the whole package. If you veto any, that condition falls
+out of the ADR (does not enter the plan).
 
-Escribe a:
+Write to:
 .claude/decisions/pending/62978df1-a1f9-4e2d-8706-750d0ac18c3c/vote-round-3-concejal-{N}.md
 
-Con este formato exacto:
+With this exact format:
 
 ---
 council_id: 62978df1-a1f9-4e2d-8706-750d0ac18c3c
@@ -98,102 +99,102 @@ ronda: 3
 timestamp: <ISO 8601 UTC>
 ---
 
-# Validación cruzada del concejal {N} — ronda 3
+# Council member {N} cross-validation — round 3
 
-## Evaluación de condiciones de los otros concejales
+## Evaluation of the other council members' conditions
 
-(Una sección por cada condición nueva del otro, identificada por su
-referencia tipo C1-N1, C2-N1, etc.)
+(One section per new condition from the other, identified by its
+reference type C1-N1, C2-N1, etc.)
 
-### Condición CX-NY (texto resumido)
-- Decisión: accepted | vetoed | accepted-with-note
-- Razón (si vetoed o accepted-with-note): <una frase>
+### Condition CX-NY (summarized text)
+- Decision: accepted | vetoed | accepted-with-note
+- Reason (if vetoed or accepted-with-note): <one sentence>
 
-### Condición CX-NZ ...
+### Condition CX-NZ ...
 ...
 
-## Voto final de ronda 3
-SÍ (todas las condiciones aceptadas) | SÍ-CON-VETOS (las condiciones X, Y vetadas)
+## Final round 3 vote
+YES (all conditions accepted) | YES-WITH-VETOES (conditions X, Y vetoed)
 
-Reglas:
-- Breve y enfocado. No re-deliberes el problema.
-- Sé honesto si una condición de otro concejal te parece innecesaria desde
-  tu ángulo: mejor vetarla ahora que descubrirlo en operación real.
-- Si todas son aceptables, dilo claro.
-- Reporte conversacional al master: <=60 palabras.
-- Idioma: español.
+Rules:
+- Brief and focused. Do not re-deliberate the problem.
+- Be honest if a condition from another council member seems unnecessary
+  from your angle: better to veto it now than discover it in real operation.
+- If all are acceptable, say so clearly.
+- Conversational report to the master: <=60 words.
+- Language: Spanish.
 ```
 
-Lanza las 3 en paralelo (una sola message con 3 tool_use de Agent).
+Launch all 3 in parallel (a single message with 3 Agent tool_use calls).
 
-### Paso 3 — Componer ADR-0001
+### Step 3 — Compose ADR-0001
 
-Lee `vote-round-3-concejal-1.md`, `vote-round-3-concejal-2.md`, `vote-round-3-concejal-3.md`.
+Read `vote-round-3-concejal-1.md`, `vote-round-3-concejal-2.md`, `vote-round-3-concejal-3.md`.
 
-Identifica:
-- Cuáles condiciones fueron aceptadas por **todos** los concejales (van al ADR).
-- Cuáles fueron vetadas por al menos uno (se caen del ADR).
-- Si TODOS votaron SÍ pleno (cero vetos) → unanimidad SÍ del Concilio.
+Identify:
+- Which conditions were accepted by **all** council members (go into the ADR).
+- Which were vetoed by at least one (fall out of the ADR).
+- If ALL voted a full YES (zero vetoes) → unanimous YES from the Council.
 
-Compón `.claude/decisions/ADR-0001-add-cor-angle.md` siguiendo el formato definido en `.claude/decisions/README.md`. Incluye:
+Compose `.claude/decisions/ADR-0001-add-cor-angle.md` following the format defined in `.claude/decisions/README.md`. Include:
 
-- Header: `Status: accepted` (si 2/3 SÍ o unanimidad), `Date: <hoy>`, `Decision-Level: L3`, `Council-ID: 62978df1-...`, `Dossier: .claude/decisions/pending/.../dossier.md`.
-- Context: copiar del dossier.
-- Alternatives considered: A/B/C del dossier con trade-offs.
-- Decision: Alternativa A con las N condiciones finales aceptadas (las 4 originales de la síntesis + las nuevas no vetadas).
-- Council votes: tabla con los 3 concejales (ángulo, voto final, condiciones).
-- Voto minoritario histórico: Concejal 2 votó NO en ronda 1, cambió a SÍ en ronda 2 — documentar la transición.
-- Consequences: positivas, negativas (cláusula de retirada empírica a 3 meses), reversibilidad.
-- Follow-ups: tareas derivadas (modificar council-angles.md realmente o marcar ADR como "synthetic"; ver Paso 5).
+- Header: `Status: accepted` (if 2/3 YES or unanimity), `Date: <today>`, `Decision-Level: L3`, `Council-ID: 62978df1-...`, `Dossier: .claude/decisions/pending/.../dossier.md`.
+- Context: copy from the dossier.
+- Alternatives considered: A/B/C from the dossier with trade-offs.
+- Decision: Alternative A with the N final accepted conditions (the 4 original ones from the synthesis + the new non-vetoed ones).
+- Council votes: table with the 3 council members (angle, final vote, conditions).
+- Historical minority vote: Council Member 2 voted NO in round 1, changed to YES in round 2 — document the transition.
+- Consequences: positive, negative (3-month empirical withdrawal clause), reversibility.
+- Follow-ups: derived tasks (actually modify council-angles.md or mark the ADR as "synthetic"; see Step 5).
 
-### Paso 4 — Log final en decisions.jsonl
+### Step 4 — Final log in decisions.jsonl
 
-Append una línea JSON a `.claude/state/decisions.jsonl` (gitignored, local):
+Append a JSON line to `.claude/state/decisions.jsonl` (gitignored, local):
 
 ```json
-{"timestamp":"<ISO 8601>","decision_id":"<UUIDv7-nuevo>","task_hash":"<sha256-del-enunciado>","level":"L3","criterion_invoked":"IRREV-2","domains_touched":["agent-system","council"],"justification_short":"V2 functional validation: synthetic decision on adding COR angle to council catalog","model_version":"claude-opus-4-7","council_id":"62978df1-a1f9-4e2d-8706-750d0ac18c3c"}
+{"timestamp":"<ISO 8601>","decision_id":"<new-UUIDv7>","task_hash":"<sha256-of-the-statement>","level":"L3","criterion_invoked":"IRREV-2","domains_touched":["agent-system","council"],"justification_short":"V2 functional validation: synthetic decision on adding COR angle to council catalog","model_version":"claude-opus-4-7","council_id":"62978df1-a1f9-4e2d-8706-750d0ac18c3c"}
 ```
 
-Usa `python3 -c 'import uuid; print(uuid.uuid4())'` para decision_id.
-Hash de la tarea: `echo -n "add COR angle to council catalog" | sha256sum`.
+Use `python3 -c 'import uuid; print(uuid.uuid4())'` for decision_id.
+Task hash: `echo -n "add COR angle to council catalog" | sha256sum`.
 
-### Paso 5 — Decidir si materializar la decisión sintética
+### Step 5 — Decide whether to materialize the synthetic decision
 
-La decisión "añadir COR al catálogo" fue **sintética para validar el flujo**. Tras V2 cerrada, hay dos opciones:
+The decision "add COR to the catalog" was **synthetic, to validate the flow**. After V2 is closed, there are two options:
 
-- **(a) Materializarla realmente**: aplicar las condiciones aceptadas al `.claude/design/council-angles.md` real, reformular ROB simultáneamente, añadir COR con la pregunta clave operacional, rail disjunto, entrada de historial. El sistema gana un ángulo nuevo y un compromiso de auditoría a 3 meses.
-- **(b) Marcar como "synthetic — for V2 validation only — not materialized"**: dejar el catálogo en 12 ángulos. El ADR queda como ejercicio de validación, no como decisión operativa.
+- **(a) Actually materialize it**: apply the accepted conditions to the real `.claude/design/council-angles.md`, reformulate ROB at the same time, add COR with the operational key question, the disjoint rail, the history entry. The system gains a new angle and a 3-month audit commitment.
+- **(b) Mark it as "synthetic — for V2 validation only — not materialized"**: leave the catalog at 12 angles. The ADR stands as a validation exercise, not as an operational decision.
 
-**Sugerencia**: pregunta al usuario antes de elegir. La decisión es honesta tras pasar el Concilio; descartarla solo por ser "de prueba" desperdicia el resultado, pero materializarla compromete al sistema con un cambio que nunca fue una necesidad real del firmware.
+**Suggestion**: ask the user before choosing. The decision is honest after passing the Council; discarding it just because it was "a test" wastes the result, but materializing it commits the system to a change that was never a real firmware need.
 
-### Paso 6 — Cerrar Fase 1.G
+### Step 6 — Close Phase 1.G
 
-Tras Paso 4 (decisions.jsonl loguado) y Paso 3 (ADR cerrado):
+After Step 4 (decisions.jsonl logged) and Step 3 (ADR closed):
 
-- Actualiza task #7 (Fase 1.G) a `completed` vía `TaskUpdate`.
-- Reporta al usuario: V2 pass, los 4 criterios funcionales de Fase 1.G están completos, sistema multi-agente operativo end-to-end.
-- Pregunta al usuario si arrancar Fase 2 (especialistas críticos: RF, NFC, app-builder, build-fbt).
+- Update task #7 (Phase 1.G) to `completed` via `TaskUpdate`.
+- Report to the user: V2 pass, the 4 functional criteria of Phase 1.G are complete, multi-agent system operational end-to-end.
+- Ask the user whether to start Phase 2 (critical specialists: RF, NFC, app-builder, build-fbt).
 
-### Paso 7 — Commit final
+### Step 7 — Final commit
 
 ```bash
 git add .claude/decisions/
 git commit -m "validate(v2): close Council deliberation ADR-0001 (Phase 1.G done)"
 ```
 
-Sin push hasta aprobación explícita del usuario.
+No push until explicit user approval.
 
 ---
 
-## Convenciones que debes mantener
+## Conventions you must maintain
 
-- **No leas archivos `concejal-N.md` o `vote-round-2-concejal-N.md` que no sean tu propia identidad** en cada invocación de concejal — la independencia de ronda 1 se preserva en ronda 3 también: cada concejal ve solo las CONDICIONES de los otros (no sus razones completas).
-- **Persistencia obligatoria a disco**: cada veredicto/voto va al archivo correspondiente antes de que el concejal termine. El master recoge desde archivo, no desde respuesta conversacional.
-- **El master sintetiza pero NO vota**: lo dice aprendizaje meta 2 del system-design.
+- **Do not read `concejal-N.md` or `vote-round-2-concejal-N.md` files that are not your own identity** in each council member invocation — round 1's independence is also preserved in round 3: each council member sees only the CONDITIONS of the others (not their full reasoning).
+- **Mandatory persistence to disk**: each verdict/vote goes to its corresponding file before the council member finishes. The master collects from the file, not from the conversational response.
+- **The master synthesizes but does NOT vote**: this is stated in meta-learning 2 of the system-design.
 
-## Si algo va mal
+## If something goes wrong
 
-- Si Write sigue roto: usa Bash heredoc para todos los archivos.
-- Si una invocación de concejal falla: re-lánzala (las invocaciones son idempotentes en el sentido de que el archivo se sobrescribe).
-- Si hay conflicto irresoluble en ronda 3 (ej. C2 veta una condición que considera infraestructura excesiva): el conflicto va al ADR como riesgo conocido y la condición se cae.
-- Si nada funciona: escala al usuario con `decisions.jsonl` `level: "L4"` documentando el estado.
+- If Write is still broken: use Bash heredoc for all files.
+- If a council member invocation fails: relaunch it (invocations are idempotent in the sense that the file gets overwritten).
+- If there is an unresolvable conflict in round 3 (e.g. C2 vetoes a condition it considers excessive infrastructure): the conflict goes into the ADR as a known risk and the condition is dropped.
+- If nothing works: escalate to the user with `decisions.jsonl` `level: "L4"` documenting the state.

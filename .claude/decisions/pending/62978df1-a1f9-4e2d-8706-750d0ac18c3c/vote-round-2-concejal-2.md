@@ -6,23 +6,23 @@ ronda: 2
 timestamp: 2026-05-23T18:45:00Z
 ---
 
-# Voto del concejal 2 sobre síntesis — ronda 2
+# Council Member 2's vote on the synthesis — round 2
 
-## Voto
-SÍ-CON-CONDICIONES-NUEVAS
+## Vote
+YES-WITH-NEW-CONDITIONS
 
-## Razones (máximo 3, breves)
+## Reasons (maximum 3, brief)
 
-1. **La cláusula de retirada empírica a 3 meses convierte "permanente arriesgada" en "reversible con criterio".** Mi objeción central de ronda 1 era YAGNI: añadir COR sin datapoints. La cláusula con umbral medible (<10% de L3 elegibles) y plazo definido transforma la decisión en un experimento con condición de parada explícita. Eso es exactamente lo que SIM exige para tolerar una extensión especulativa del catálogo: si no se amortiza, vuelve a 12. Riesgo del "ratchet de catálogo" mitigado por precedente de retirada documentada.
+1. **The 3-month empirical withdrawal clause turns "permanently risky" into "reversible with criteria".** My central round 1 objection was YAGNI: adding COR without datapoints. The clause with a measurable threshold (<10% of eligible L3s) and a defined deadline transforms the decision into an experiment with an explicit stop condition. That is exactly what SIM requires to tolerate a speculative catalog extension: if it doesn't pay off, it reverts to 12. The "catalog ratchet" risk is mitigated by a documented withdrawal precedent.
 
-2. **La pregunta clave operacional + rail de aplicabilidad disjunto bajan el coste cognitivo de selección.** Mi riesgo de "solape semántico ROB↔COR" se atenúa si la frontera está pre-resuelta en la documentación del ángulo (no en runtime, en cada selección del master). C(13,3)=286 sigue siendo +30% combinatoria, pero con rail disjunto el master no necesita prosa interna para resolver el caso — la decisión es lookup, no deliberación.
+2. **The operational key question + disjoint applicability rail lower the cognitive cost of selection.** My "ROB↔COR semantic overlap" risk is attenuated if the boundary is pre-resolved in the angle's documentation (not at runtime, on every master selection). C(13,3)=286 is still +30% combinatorics, but with a disjoint rail the master does not need internal prose to resolve the case — the decision is a lookup, not a deliberation.
 
-3. **Sigo prefiriendo Alternativa B en abstracto, pero la síntesis no es estrictamente peor que A original**, y añade un mecanismo de auto-corrección que B no tiene (B requiere ≥3 wildcards convergentes + invocación humana de `/flipper-review-wildcards` para promover). La síntesis incluye ambas direcciones del ratchet (entrar y salir), B solo cubre entrar. Eso es mejor desde SIM a largo plazo.
+3. **I still prefer Alternative B in the abstract, but the synthesis is not strictly worse than the original A**, and it adds a self-correction mechanism that B lacks (B requires ≥3 convergent wildcards + a human invocation of `/flipper-review-wildcards` to promote). The synthesis covers both directions of the ratchet (entry and exit), B only covers entry. That is better from SIM in the long run.
 
-## Condiciones nuevas (solo si SÍ-CON-CONDICIONES-NUEVAS)
+## New conditions (only if YES-WITH-NEW-CONDITIONS)
 
-- **Umbral de retirada explícito y auditable en código, no solo en prosa**: el cálculo de "<10% de decisiones L3 elegibles" debe estar implementado como query reproducible sobre `decisions.jsonl` (campo `eligible_for_cor: true` o equivalente marcado por el master en el momento de clasificación). Sin esto, el architect a 3 meses operaría sobre estimación subjetiva — defeating el propósito empírico de la cláusula.
+- **Withdrawal threshold explicit and auditable in code, not only in prose**: the calculation of "<10% of eligible L3 decisions" must be implemented as a reproducible query over `decisions.jsonl` (an `eligible_for_cor: true` field or equivalent, marked by the master at classification time). Without this, the architect at 3 months would be working off subjective estimation — defeating the empirical purpose of the clause.
 
-- **Definición operacional de "elegible para COR"** documentada en `council-angles.md` junto a la entrada: criterios objetivos (involucra I/O de protocolos, parsing, migración, serialización) verificables por inspección del enunciado del dossier. Sin esto, "10%" es divisor indeterminado.
+- **Operational definition of "eligible for COR"** documented in `council-angles.md` next to the entry: objective criteria (involves protocol I/O, parsing, migration, serialization) verifiable by inspecting the dossier's statement. Without this, "10%" is an indeterminate divisor.
 
-- **Revisión obligatoria a los 3 meses (no opcional)**: si la cláusula dice "el architect propone retirarlo", debe haber un calendario activo (cron o recordatorio en `phases.md`) que dispare la revisión. Cláusulas de retirada que dependen de iniciativa proactiva tienden a no ejecutarse en sistemas vivos.
+- **Mandatory review at 3 months (not optional)**: if the clause says "the architect proposes withdrawing it", there must be an active schedule (cron or a reminder in `phases.md`) that triggers the review. Withdrawal clauses that depend on proactive initiative tend not to get executed in live systems.

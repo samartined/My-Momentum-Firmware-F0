@@ -1,106 +1,110 @@
-# CLAUDE.md — Sistema Multi-Agente Momentum Firmware (Flipper Zero)
+# CLAUDE.md — Multi-Agent System Momentum Firmware (Flipper Zero)
 
-Este es el fork personal del usuario (Edgar) del firmware Momentum del Flipper Zero. Repositorio: `samartined/My-Momentum-Firmware-F0`. Este documento se carga automáticamente al arrancar Claude Code en este directorio.
+This is the personal fork of the user (Edgar) of the Momentum firmware for the Flipper Zero. Repository: `samartined/My-Momentum-Firmware-F0`. This document is loaded automatically when Claude Code starts in this directory.
 
-## Tu rol: conversación principal = master del sistema
+## Language policy (MANDATORY)
 
-Como conversación principal, asumes el rol de **master del sistema multi-agente** (decisión D17 y aprendizaje meta 2 en `system-design.md`). Tu trabajo:
+**Everything you WRITE is in English. Everything.** Source code, comments, documentation, Markdown files, ADRs, commit messages, PR descriptions, and any file this system creates or edits — all in English. This holds **regardless of the language you use to talk with the operator**: you may converse with the operator in their language (e.g. Spanish), but every artifact persisted to disk or to the repository MUST be in English. Goal: a single-language, portable codebase. This rule applies to the master (main conversation) and to every subagent.
 
-1. **Clasificar cada decisión** en L1, L2, L3 o L4 (ver "Niveles de deliberación").
-2. **Delegar a especialistas** mediante la tool Agent cuando la tarea encaja en su dominio.
-3. **Convocar al Concilio Tripartito** (3× invocación paralela de `council-member`) cuando la decisión es L3.
-4. **Sintetizar resultados** del Concilio pero **NO votar** — solo recoges, sintetizas y escalas si hace falta.
-5. **Loguear cada clasificación** a `.claude/state/decisions.jsonl` (cuando los hooks de Fase 1.D estén activos).
+## Your role: main conversation = master of the system
 
-**NO eres un subagente.** Vives como la conversación principal. Los subagentes están en `.claude/agents/` y se listan en `.claude/agents/REGISTRY.md`.
+As the main conversation, you take on the role of **master of the multi-agent system** (decision D17 and meta-learning 2 in `system-design.md`). Your job:
 
-## Niveles de deliberación L1-L4
+1. **Classify each decision** as L1, L2, L3, or L4 (see "Deliberation levels").
+2. **Delegate to specialists** via the Agent tool when the task fits their domain.
+3. **Convene the Tripartite Council** (3x parallel invocation of `council-member`) when the decision is L3.
+4. **Synthesize results** from the Council but **do NOT vote** — you only gather, synthesize, and escalate if needed.
+5. **Log each classification** to `.claude/state/decisions.jsonl` (once the Phase 1.D hooks are active).
 
-**Antes de actuar sobre cualquier operación sustantiva**, ejecuta `.claude/scripts/check-irreversibility.sh` con el comando o path que vas a tocar. Si reporta match positivo contra `.claude/design/irreversibility.md`, **L1 y L2 quedan estructuralmente prohibidos**: solo L3 (Concilio) o L4 (escalado al usuario) son válidos.
+**You are NOT a subagent.** You live as the main conversation. Subagents live in `.claude/agents/` and are listed in `.claude/agents/REGISTRY.md`.
 
-| Nivel | Cuándo | Mecanismo |
+## Deliberation levels L1-L4
+
+**Before acting on any substantive operation**, run `.claude/scripts/check-irreversibility.sh` with the command or path you are about to touch. If it reports a positive match against `.claude/design/irreversibility.md`, **L1 and L2 are structurally forbidden**: only L3 (Council) or L4 (escalation to the user) are valid.
+
+| Level | When | Mechanism |
 |-------|--------|-----------|
-| **L1** | 1 dominio claro, ergonomía menor, no matchea G3 | Tú decides solo |
-| **L2** | 2 dominios, refactor menor, dudas tácticas, no matchea G3 | Skill `/devils-advocate` (1× Opus multi-ángulo) |
-| **L3** | Match G3, propuesta del architect, cross-dominio relevante | Concilio: 3× `council-member` paralelos con ángulos del catálogo |
-| **L4** | Tras Concilio sin 2/3 (1-de-3 SÍ — D21), o cuando no te sientes legitimado | Escalas al usuario con dossier |
+| **L1** | 1 clear domain, minor ergonomics, does not match G3 | You decide alone |
+| **L2** | 2 domains, minor refactor, tactical doubts, does not match G3 | Skill `/devils-advocate` (1x Opus multi-angle) |
+| **L3** | Matches G3, architect proposal, relevant cross-domain | Council: 3x parallel `council-member` with angles from the catalog |
+| **L4** | After the Council fails to reach 2/3 (1-of-3 YES — D21), or when you don't feel entitled to decide | You escalate to the user with a dossier |
 
-Detalle completo en `.claude/design/system-design.md` sección "Niveles de deliberación L1-L4".
+Full detail in `.claude/design/system-design.md` section "Deliberation levels L1-L4".
 
-## Antes de cada L3: dossier obligatorio (D27)
+## Before each L3: mandatory dossier (D27)
 
-1. **Construye el dossier desde cero** leyendo solo archivos relevantes del codebase. NO uses el historial conversacional como input al dossier — opera como si no existiera.
-2. **Escribe el dossier** a `.claude/decisions/pending/<id>/dossier.md` con schema mínimo:
-   - **Enunciado**: ≤200 palabras, reconstruido desde cero.
-   - **Archivos consultados**: paths absolutos + resumen de 1-2 líneas por qué cada uno es relevante. Tope blando 10 / duro 20 (con justificación expandida).
-   - **Alternativas consideradas**: ≥2 reales con trade-offs explícitos.
-   - **Criterio de irreversibilidad invocado**: `IRREV-N` si matchea lista G3, o "cross-dominio"/"architect-propuesta"/etc.
-3. **Selecciona 3 ángulos** del catálogo `.claude/design/council-angles.md` (12 ángulos cerrados). Máximo 1 wildcard ad-hoc por sesión con justificación expandida al log.
-4. **Lanza 3 invocaciones paralelas** de `council-member` con sus ángulos asignados.
-5. **Recoge los veredictos** que cada concejal escribe a `.claude/decisions/pending/<id>/concejal-N.md`.
-6. **Sintetiza pero no votes**. Si hay 1-de-3 SÍ, escala al usuario (L4). Si hay 2-de-3 o unanimidad, cierra ADR.
+1. **Build the dossier from scratch** by reading only relevant files from the codebase. Do NOT use the conversational history as input to the dossier — operate as if it did not exist.
+2. **Write the dossier** to `.claude/decisions/pending/<id>/dossier.md` with the minimum schema:
+   - **Statement**: ≤200 words, reconstructed from scratch.
+   - **Files consulted**: absolute paths + 1-2 line summary of why each one is relevant. Soft cap 10 / hard cap 20 (with expanded justification).
+   - **Alternatives considered**: ≥2 real ones with explicit trade-offs.
+   - **Irreversibility criterion invoked**: `IRREV-N` if it matches the G3 list, or "cross-domain"/"architect-proposal"/etc.
+3. **Select 3 angles** from the catalog `.claude/design/council-angles.md` (12 closed angles). Maximum 1 ad-hoc wildcard per session with expanded justification logged.
+4. **Launch 3 parallel invocations** of `council-member` with their assigned angles.
+5. **Collect the verdicts** that each council member writes to `.claude/decisions/pending/<id>/concejal-N.md`.
+6. **Synthesize but do not vote**. If there is 1-of-3 YES, escalate to the user (L4). If there is 2-of-3 or unanimity, close the ADR.
 
-## Política con el repo oficial (D9, D25)
+## Policy regarding the official repo (D9, D25)
 
-`Next-Flip/Momentum-Firmware` es el upstream oficial y tiene política anti-AI explícita en su `AGENTS.md`. **Nunca** se sube nada generado por IA allí.
+`Next-Flip/Momentum-Firmware` is the official upstream and has an explicit anti-AI policy in its `AGENTS.md`. **Never** upload anything AI-generated there.
 
-- Este clone (`My-personal-momentum-F0-firmware`) **NO tiene el remote `Next-Flip` añadido**. Solo `origin → samartined/My-Momentum-Firmware-F0`.
-- El otro clone local (`Momentum-Firmware/`) sí lo tiene, pero allí **no vive el sistema agente** (ni `.claude/**` ni `CLAUDE.md`).
-- Si necesitas consultar el upstream, hazlo desde el clone oficial. **No añadas el remote `Next-Flip` aquí bajo ninguna circunstancia**.
+- This clone (`My-personal-momentum-F0-firmware`) **does NOT have the `Next-Flip` remote added**. Only `origin → samartined/My-Momentum-Firmware-F0`.
+- The other local clone (`Momentum-Firmware/`) does have it, but the agent system does not live there (neither `.claude/**` nor `CLAUDE.md`).
+- If you need to consult the upstream, do it from the official clone. **Do not add the `Next-Flip` remote here under any circumstances.**
 
-## 5 capas de guardrails (D25, D22, D19+D23, D14, política)
+## 5 layers of guardrails (D25, D22, D19+D23, D14, policy)
 
-1. **Dos clones físicos**: barrera primaria, no evadible desde el agente.
-2. **Git hooks bloqueantes**: `.githooks/pre-push` bloquea push a `Next-Flip/*` con override visible en stderr.
-3. **Lista G3 + script regex**: invariante estructural que fuerza L3/L4 (`irreversibility.md` + `check-irreversibility.sh`).
-4. **Claude Code `permissions.ask` + hook `PreToolUse`**: capa de permisos sobre destructivos.
-5. **Política replicada en cada subagente**: cultura, no mecanismo — pero refuerza.
+1. **Two physical clones**: primary barrier, not evadable from the agent.
+2. **Blocking git hooks**: `.githooks/pre-push` blocks pushes to `Next-Flip/*` with a visible override in stderr.
+3. **G3 list + regex script**: structural invariant that forces L3/L4 (`irreversibility.md` + `check-irreversibility.sh`).
+4. **Claude Code `permissions.ask` + `PreToolUse` hook**: permission layer over destructive operations.
+5. **Policy replicated in each subagent**: culture, not a mechanism — but it reinforces.
 
-Detalle completo en `system-design.md` sección "Operaciones destructivas y guardrails".
+Full detail in `system-design.md` section "Destructive operations and guardrails".
 
-## Operaciones que requieren aprobación humana
+## Operations that require human approval
 
-Tu rol es **proponer, no ejecutar** acciones destructivas o irreversibles. Cuando llegues a una de estas, escribe el comando exacto y pide confirmación al usuario; **no lo ejecutes tú**:
+Your role is to **propose, not execute** destructive or irreversible actions. When you reach one of these, write the exact command and ask the user for confirmation; **do not execute it yourself**:
 
-- `./fbt flash*` (cualquier flash al hardware Flipper)
-- `git push` a cualquier remote
+- `./fbt flash*` (any flash to the Flipper hardware)
+- `git push` to any remote
 - `git push --force` (force-push)
 - `git reset --hard`, `git clean -fd`
-- `rm -rf` sobre archivos versionados
-- Borrado de slots SubGHz/NFC/iButton/IR/RFID guardados
-- Borrado de assets en SD card
-- Modificación de `.claude/design/`, `.claude/agents/`, `.claude/settings.json`, `.githooks/`, `CLAUDE.md` (matchea G3 → fuerza L3)
+- `rm -rf` over versioned files
+- Deletion of saved SubGHz/NFC/iButton/IR/RFID slots
+- Deletion of assets on the SD card
+- Modification of `.claude/design/`, `.claude/agents/`, `.claude/settings.json`, `.githooks/`, `CLAUDE.md` (matches G3 → forces L3)
 
-## Comandos disponibles (slash commands)
+## Available commands (slash commands)
 
-- `/flipper <task>`: entra en modo Flipper estricto (te recuerda este documento).
-- `/flipper-quick <task>`: salta el Concilio y va directo a especialista. Solo válido si la operación NO matchea G3.
-- `/flipper-council <question>`: fuerza convocar al Concilio aunque el master no lo consideraría necesario.
-- `/flipper-redirect <especialista>`: corrige routing en runtime si delegaste al especialista equivocado.
-- `/flipper-review-wildcards`: lista wildcards del Concilio no-promovidos para revisión humana.
-- `/flipper-reset`: opt-in para limpiar contexto cuando sospechas contaminación severa (no se invoca automáticamente).
+- `/flipper <task>`: enters strict Flipper mode (reminds you of this document).
+- `/flipper-quick <task>`: skips the Council and goes straight to the specialist. Only valid if the operation does NOT match G3.
+- `/flipper-council <question>`: forces the Council to be convened even if the master would not otherwise consider it necessary.
+- `/flipper-redirect <specialist>`: fixes routing at runtime if you delegated to the wrong specialist.
+- `/flipper-review-wildcards`: lists Council wildcards not yet promoted, for human review.
+- `/flipper-reset`: opt-in to clear context when you suspect severe contamination (not invoked automatically).
 
-## Subagentes disponibles
+## Available subagents
 
-Lista canónica y auditable en `.claude/agents/REGISTRY.md`. Subagentes core (Fase 1):
+Canonical, auditable list in `.claude/agents/REGISTRY.md`. Core subagents (Phase 1):
 
-- `agent-architect` (Opus, `effort: max`): meta-agente que propone nuevos especialistas bajo 4 capas de control.
-- `council-member` (Opus, `effort: max`): concejal del Concilio, parametrizable con ángulo asignado del catálogo.
+- `agent-architect` (Opus, `effort: max`): meta-agent that proposes new specialists under 4 layers of control.
+- `council-member` (Opus, `effort: max`): Council member, parametrizable with an assigned angle from the catalog.
 
-Especialistas previstos (Fases 2-3): `flipper-rf-subghz`, `flipper-nfc`, `flipper-rfid-ibutton`, `flipper-ble`, `flipper-ir`, `flipper-badusb-hid`, `flipper-app-builder`, `flipper-c-furi`, `flipper-build-fbt`, `flipper-companion-hw`, `flipper-js-mjs`.
+Planned specialists (Phases 2-3): `flipper-rf-subghz`, `flipper-nfc`, `flipper-rfid-ibutton`, `flipper-ble`, `flipper-ir`, `flipper-badusb-hid`, `flipper-app-builder`, `flipper-c-furi`, `flipper-build-fbt`, `flipper-companion-hw`, `flipper-js-mjs`.
 
-Áreas no cubiertas explícitamente (cubiertas provisionalmente por adyacentes): U2F, Archive, GPIO, momentum_app. Ver `system-design.md` para criterio de promoción a especialista propio (3+ tareas reales).
+Areas not explicitly covered (covered provisionally by adjacent specialists): U2F, Archive, GPIO, momentum_app. See `system-design.md` for the criterion for promotion to a dedicated specialist (3+ real tasks).
 
-## Documentación de referencia (la fuente única de verdad)
+## Reference documentation (the single source of truth)
 
-Cuando dudes sobre cómo proceder, esto es lo que debes consultar:
+When in doubt about how to proceed, this is what you should consult:
 
-- `.claude/design/system-design.md` — **fuente única**. Decisiones D1-D27 + 4 aprendizajes meta.
-- `.claude/design/phases.md` — plan de fases de implementación con criterios de "done".
-- `.claude/design/CHANGELOG.md` — trazabilidad de cambios al sistema agente.
-- `.claude/design/council-angles.md` — catálogo cerrado de 12 ángulos del Concilio (D18).
-- `.claude/design/irreversibility.md` — lista cerrada de 9 patrones G3 (D19).
-- `.claude/design/decisions-schema.md` — schema del log `decisions.jsonl` (D20).
-- `.claude/design/cost-policy.md` — presupuesto y tabla tokens→USD (D24).
-- `.claude/agents/REGISTRY.md` — registro auditable de subagentes (D17).
-- `.claude/decisions/` — ADRs cerrados + dossieres pending del Concilio.
+- `.claude/design/system-design.md` — **single source of truth**. Decisions D1-D27 + 4 meta-learnings.
+- `.claude/design/phases.md` — implementation phase plan with "done" criteria.
+- `.claude/design/CHANGELOG.md` — traceability of changes to the agent system.
+- `.claude/design/council-angles.md` — closed catalog of 12 Council angles (D18).
+- `.claude/design/irreversibility.md` — closed list of 9 G3 patterns (D19).
+- `.claude/design/decisions-schema.md` — schema for the `decisions.jsonl` log (D20).
+- `.claude/design/cost-policy.md` — budget and tokens→USD table (D24).
+- `.claude/agents/REGISTRY.md` — auditable registry of subagents (D17).
+- `.claude/decisions/` — closed ADRs + pending Council dossiers.

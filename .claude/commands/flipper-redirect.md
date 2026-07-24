@@ -1,28 +1,28 @@
 ---
-description: Corrige el routing en runtime cuando el master delegó al especialista equivocado o un especialista respondió con out_of_scope. $ARGUMENTS es el nombre del especialista correcto al que reasignar la tarea.
+description: Fixes routing at runtime when the master delegated to the wrong specialist or a specialist responded with out_of_scope. $ARGUMENTS is the name of the correct specialist to reassign the task to.
 ---
 
-# Flipper Redirect (corrige routing en runtime)
+# Flipper Redirect (fix runtime routing)
 
-Has sido invocado vía `/flipper-redirect <especialista>`. El usuario ha detectado que la respuesta del especialista anterior no era adecuada (mal routing) y quiere reasignar la tarea.
+You have been invoked via `/flipper-redirect <specialist>`. The user has detected that the previous specialist's response was not adequate (bad routing) and wants to reassign the task.
 
-## Especialista correcto
+## Correct specialist
 
 $ARGUMENTS
 
-## Procedimiento
+## Procedure
 
-1. **Marca el routing previo como erróneo** en `.claude/state/routing-errors.jsonl` (gitignored). Línea JSON con:
+1. **Mark the previous routing as erroneous** in `.claude/state/routing-errors.jsonl` (gitignored). JSON line with:
    - `timestamp` (ISO 8601)
-   - `original_agent`: el subagente al que delegaste antes
-   - `corrected_agent`: el especialista que el usuario indica ahora
-   - `task_hash`: SHA-256 del enunciado de la tarea
-   - `reason`: si el usuario lo proporciona, breve nota
-2. **Reanuda la tarea** invocando el especialista correcto vía tool Agent. Pásale:
-   - El enunciado de la tarea original (reconstruido desde el contexto reciente).
-   - Nota explícita: "Routing corregido. El especialista anterior (`<original_agent>`) no era adecuado por <razón>. Ignora cualquier respuesta previa de aquel especialista."
-3. **Si el routing erróneo fue causado por flag `out_of_scope: true` del especialista anterior**, NO esperes a que el usuario use `/flipper-redirect` — la reasignación al architect debe ser automática (D26 segunda parte). El comando manual es para casos donde el usuario detecta el error antes que el especialista.
+   - `original_agent`: the subagent you delegated to before
+   - `corrected_agent`: the specialist the user now indicates
+   - `task_hash`: SHA-256 of the task statement
+   - `reason`: if the user provides it, a brief note
+2. **Resume the task** by invoking the correct specialist via the Agent tool. Give it:
+   - The original task statement (reconstructed from recent context).
+   - Explicit note: "Routing corrected. The previous specialist (`<original_agent>`) was not adequate because of <reason>. Ignore any previous response from that specialist."
+3. **If the erroneous routing was caused by an `out_of_scope: true` flag from the previous specialist**, do NOT wait for the user to use `/flipper-redirect` — the reassignment to the architect must be automatic (D26 second part). The manual command is for cases where the user detects the error before the specialist does.
 
-## Aprendizaje longitudinal
+## Longitudinal learning
 
-El log `routing-errors.jsonl` se revisa periódicamente (sin frecuencia obligatoria) para detectar patrones: si el master rutea sistemáticamente mal en un dominio concreto, su prompt o las reglas de routing en `CLAUDE.md` deben recalibrarse.
+The `routing-errors.jsonl` log is reviewed periodically (no mandatory frequency) to detect patterns: if the master systematically routes badly in a particular domain, its prompt or the routing rules in `CLAUDE.md` should be recalibrated.

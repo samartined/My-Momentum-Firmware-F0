@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
-# deploy-to-esp-flasher.sh — copia los binarios GhostESP ESP32-S2 personalizados
-# a la ruta de recursos del app esp_flasher (dentro del submódulo Momentum-Apps),
-# para que ./fbt los despliegue a la SD del Flipper.
+# deploy-to-esp-flasher.sh — copies the custom GhostESP ESP32-S2 binaries
+# to the esp_flasher app's resource path (inside the Momentum-Apps submodule),
+# so that ./fbt deploys them to the Flipper's SD card.
 #
-# Uso:
+# Usage:
 #   ./custom/ghostesp-s2/deploy-to-esp-flasher.sh
 #
-# Requisito: submódulos inicializados (git submodule update --init applications/external).
-# Idempotente. exit != 0 con diagnóstico si falta el destino.
+# Requirement: submodules initialized (git submodule update --init applications/external).
+# Idempotent. exit != 0 with diagnostics if the destination is missing.
 
 set -euo pipefail
 
@@ -18,8 +18,8 @@ SRC_DIR="custom/ghostesp-s2"
 DEST_DIR="applications/external/esp_flasher/resources/apps_data/esp_flasher/assets/ghostesp/s2"
 
 if [[ ! -d "applications/external/esp_flasher" ]]; then
-  echo "ERROR: el app esp_flasher no está presente." >&2
-  echo "  Inicializa el submódulo: git submodule update --init applications/external" >&2
+  echo "ERROR: the esp_flasher app is not present." >&2
+  echo "  Initialize the submodule: git submodule update --init applications/external" >&2
   exit 1
 fi
 
@@ -30,6 +30,6 @@ for f in bootloader.bin partition-table.bin Ghost_ESP_IDF.bin; do
 done
 
 echo ""
-echo "Hecho. Ahora despliega los recursos a la SD con ./fbt (p. ej. ./fbt resources)."
-echo "NOTA: estos archivos quedan como cambios locales del submódulo (no los commitees allí:"
-echo "      el submódulo apunta a Momentum-Apps oficial)."
+echo "Done. Now deploy the resources to the SD card with ./fbt (e.g. ./fbt resources)."
+echo "NOTE: these files remain as local changes to the submodule (do not commit them there:"
+echo "      the submodule points to the official Momentum-Apps)."

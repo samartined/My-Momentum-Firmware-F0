@@ -6,25 +6,25 @@ ronda: 3
 timestamp: 2026-05-23T20:15:00Z
 ---
 
-# Validación cruzada del concejal 2 — ronda 3
+# Council Member 2 cross-validation — round 3
 
-## Evaluación de condiciones de los otros concejales
+## Evaluation of the other council members' conditions
 
-### Condición C1-N1 (auditoría a 3 meses con métrica de disjunción: >30% de solape textual entre veredictos ROB/COR co-asignados → retirar COR)
-- Decisión: accepted-with-note
-- Razón: la idea de medir disjunción es compatible con SIM (segundo eje de retirada complementa mi criterio de sub-utilización), pero la implementación operacional ("contar veredictos con >70% de razones textualmente solapantes") introduce parsing de prosa subjetivo y requiere convención sobre qué cuenta como "razón compartida". Acepto el principio; recomiendo que la auditoría a 3 meses ejecute primero un conteo manual sobre el corpus real (que será pequeño: <20 dossieres en 3 meses) en lugar de definir el umbral 70%/30% como invariante de código ex ante.
+### Condition C1-N1 (3-month audit with a disjunction metric: >30% of cases with co-assigned ROB/COR verdicts having >70% textual overlap → withdraw COR)
+- Decision: accepted-with-note
+- Reason: the idea of measuring disjunction is compatible with SIM (a second withdrawal axis complements my underuse criterion), but the operational implementation ("count verdicts with >70% textually overlapping reasons") introduces subjective prose parsing and requires a convention on what counts as a "shared reason". I accept the principle; I recommend that the 3-month audit first run a manual count over the real corpus (which will be small: <20 dossiers in 3 months) rather than defining the 70%/30% threshold as an ex-ante code invariant.
 
-### Condición C1-N2 (guard de auto-veto: justificación de 1 línea en dossier cuando se co-invocan ROB y COR)
-- Decisión: accepted
-- Razón: trazabilidad ligera (una línea por dossier afectado), compatible con mi C2-N1 (auditoría reproducible sobre `decisions.jsonl`) — incluso la fortalece añadiendo un campo de justificación human-readable junto al marker booleano `eligible_for_cor`. Cero carga incremental significativa, ganancia neta en señal para la auditoría.
+### Condition C1-N2 (auto-veto guard: 1-line justification in the dossier whenever ROB and COR are co-invoked)
+- Decision: accepted
+- Reason: light traceability (one line per affected dossier), compatible with my C2-N1 (reproducible audit over `decisions.jsonl`) — it even strengthens it by adding a human-readable justification field alongside the boolean `eligible_for_cor` marker. Zero significant incremental burden, net gain in signal for the audit.
 
-### Condición C3-N1 (owner=architect y sink="Historial de cambios al catálogo" para la medición a 3 meses)
-- Decisión: accepted
-- Razón: operacionaliza exactamente mi C2-N3 ("revisión obligatoria no opcional, con calendario activo"). Especifica quién (architect), dónde (entrada en historial), y formato (`{fecha, council_id_origen, invocaciones_observadas, decisión}`). Refuerzo positivo de mi propia condición, no introduce ningún solape ni complejidad adicional desde SIM.
+### Condition C3-N1 (owner=architect and sink="Catalog change history" for the 3-month measurement)
+- Decision: accepted
+- Reason: operationalizes exactly my C2-N3 ("mandatory review, not optional, with an active schedule"). It specifies who (architect), where (history entry), and format (`{date, origin_council_id, observed_invocations, decision}`). Positive reinforcement of my own condition, introduces no overlap or extra complexity from SIM.
 
-### Condición C3-N2 (umbral numérico ex ante congelado: <2 invocaciones reales de COR en ventana de 3 meses → retirar)
-- Decisión: accepted
-- Razón: complementa mi C2-N1 (que pedía umbral implementado como query reproducible) con un umbral absoluto más simple que mi "<10% de elegibles". El umbral "<2 invocaciones" es estrictamente más fácil de evaluar (counting puro, no requiere divisor "elegibles") y es consistente con mi propuesta — si <2 invocaciones absolutas, prácticamente garantizado que <10% relativo. SIM prefiere el contador absoluto al ratio. Acepto.
+### Condition C3-N2 (numeric threshold frozen ex ante: <2 real COR invocations in a 3-month window → withdraw)
+- Decision: accepted
+- Reason: complements my C2-N1 (which asked for a threshold implemented as a reproducible query) with a simpler absolute threshold than my "<10% of eligible". The "<2 invocations" threshold is strictly easier to evaluate (pure counting, no need for an "eligible" divisor) and is consistent with my proposal — if there are <2 absolute invocations, it is practically guaranteed that the relative <10% also holds. SIM prefers the absolute counter over the ratio. Accepted.
 
-## Voto final de ronda 3
-SÍ (todas las condiciones aceptadas, una con nota menor sobre C1-N1)
+## Final round 3 vote
+YES (all conditions accepted, one with a minor note on C1-N1)

@@ -1,31 +1,31 @@
 name: "Sync upstream (Next-Flip dev)"
 
-# Trae los cambios del firmware oficial (Next-Flip/Momentum-Firmware, rama `dev`)
-# a tu fork, mediante un Pull Request de revisión.
+# Brings changes from the official firmware (Next-Flip/Momentum-Firmware, `dev`
+# branch) into your fork, via a review Pull Request.
 #
-# Diseño (respeta la política D9/D25 del sistema multi-agente):
-#   - El remote Next-Flip SOLO existe dentro de este runner efímero de GitHub,
-#     NUNCA en tu working clone (local ni Claude Code Cloud).
-#   - Dirección estrictamente INBOUND (traer). Este workflow jamás hace push a
-#     Next-Flip; solo hace fetch (lectura de código público) y push a TU fork.
-#   - Los cambios entran vía PR con revisión humana, no auto-merge.
+# Design (respects the multi-agent system's D9/D25 policy):
+#   - The Next-Flip remote ONLY exists inside this ephemeral GitHub runner,
+#     NEVER in your working clone (local nor Claude Code Cloud).
+#   - Strictly INBOUND direction (bring in). This workflow never pushes to
+#     Next-Flip; it only fetches (reading public code) and pushes to YOUR fork.
+#   - Changes come in via PR with human review, no auto-merge.
 #
-# Cómo activarlo: este archivo debe estar en la rama por defecto del fork
-# (`my-momentum-firmware`) para que los disparadores `schedule` y
-# `workflow_dispatch` funcionen.
+# How to enable it: this file must be on the fork's default branch
+# (`my-momentum-firmware`) for the `schedule` and `workflow_dispatch`
+# triggers to work.
 
 on:
   schedule:
-    # Lunes 06:00 UTC. GitHub usa siempre UTC para cron.
+    # Monday 06:00 UTC. GitHub always uses UTC for cron.
     - cron: "0 6 * * 1"
   workflow_dispatch: {}
 
-# Permisos mínimos del GITHUB_TOKEN para este job.
+# Minimum GITHUB_TOKEN permissions for this job.
 permissions:
-  contents: write        # push de la rama espejo sync/upstream-dev
-  pull-requests: write   # crear/actualizar el PR
+  contents: write        # push of the sync/upstream-dev mirror branch
+  pull-requests: write   # create/update the PR
 
-# Evita solapamiento si un run tarda o se dispara manualmente durante el cron.
+# Avoids overlap if a run takes long or is triggered manually during the cron.
 concurrency:
   group: sync-upstream
   cancel-in-progress: false
@@ -40,79 +40,79 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: "Checkout del fork (rama por defecto, historia completa)"
+      - name: "Checkout the fork (default branch, full history)"
         uses: actions/checkout@v4
         with:
           ref: ${{ env.FORK_BRANCH }}
-          fetch-depth: 0   # historia completa: necesaria para calcular el ancestro común
-          # PAT en vez del GITHUB_TOKEN: el token del bot NO puede empujar cambios en
-          # .github/workflows/* (no existe scope 'workflows' para GITHUB_TOKEN). El mirror
-          # de upstream/dev incluye ficheros de workflow, así que el push del bot se
-          # rompería en cuanto upstream los tocara. El PAT (identidad de usuario) sí puede.
+          fetch-depth: 0   # full history: needed to compute the common ancestor
+          # PAT instead of GITHUB_TOKEN: the bot token CANNOT push changes to
+          # .github/workflows/* (there is no 'workflows' scope for GITHUB_TOKEN). The
+          # upstream/dev mirror includes workflow files, so the bot's push would
+          # break as soon as upstream touched them. The PAT (user identity) can.
           token: ${{ secrets.SYNC_PAT }}
 
-      - name: "Añadir upstream (solo en el runner) y hacer fetch de dev"
+      - name: "Add upstream (runner-only) and fetch dev"
         run: |
           set -euo pipefail
           git remote add upstream "$UPSTREAM_URL"
           git fetch upstream "$UPSTREAM_BRANCH"
-          echo "Último commit de upstream/$UPSTREAM_BRANCH:"
+          echo "Latest commit of upstream/$UPSTREAM_BRANCH:"
           git log -1 --format='  %h %ci %s' FETCH_HEAD
 
-      - name: "¿Hay commits nuevos del upstream?"
+      - name: "Are there new commits from upstream?"
         id: check
         run: |
           set -euo pipefail
           NEW_COMMITS="$(git rev-list --count "${FORK_BRANCH}..FETCH_HEAD")"
-          echo "Commits nuevos en upstream/$UPSTREAM_BRANCH no presentes en $FORK_BRANCH: $NEW_COMMITS"
+          echo "New commits in upstream/$UPSTREAM_BRANCH not present in $FORK_BRANCH: $NEW_COMMITS"
           echo "new_commits=$NEW_COMMITS" >> "$GITHUB_OUTPUT"
 
-      - name: "Actualizar rama espejo del upstream en el fork"
+      - name: "Update the fork's upstream mirror branch"
         if: steps.check.outputs.new_commits != '0'
         run: |
           set -euo pipefail
-          # Empuja el tip de upstream/dev a TU fork como rama espejo.
-          # --force porque la rama espejo se reescribe en cada sync (es un tap limpio del upstream).
+          # Pushes the tip of upstream/dev to YOUR fork as a mirror branch.
+          # --force because the mirror branch gets rewritten on every sync (it's a clean tap of upstream).
           git push origin "FETCH_HEAD:refs/heads/${MIRROR_BRANCH}" --force
-          echo "Rama espejo '$MIRROR_BRANCH' actualizada en el fork."
+          echo "Mirror branch '$MIRROR_BRANCH' updated on the fork."
 
-      - name: "Abrir o actualizar el Pull Request de sync"
+      - name: "Open or update the sync Pull Request"
         if: steps.check.outputs.new_commits != '0'
         env:
-          GH_TOKEN: ${{ secrets.SYNC_PAT }}   # PAT: crea el PR como usuario (evita el gate del bot)
+          GH_TOKEN: ${{ secrets.SYNC_PAT }}   # PAT: creates the PR as a user (avoids the bot gate)
         run: |
           set -euo pipefail
-          # Si ya hay un PR abierto con esta rama espejo, el push anterior ya lo actualizó.
+          # If a PR with this mirror branch is already open, the previous push already updated it.
           EXISTING="$(gh pr list --head "$MIRROR_BRANCH" --base "$FORK_BRANCH" --state open --json number --jq '.[0].number // empty')"
           if [ -n "$EXISTING" ]; then
-            echo "PR #$EXISTING ya abierto; actualizado por el push de la rama espejo."
+            echo "PR #$EXISTING already open; updated by the mirror branch push."
             exit 0
           fi
-          # Construir el cuerpo del PR con printf (evita heredocs anidados en YAML).
+          # Build the PR body with printf (avoids nested heredocs in YAML).
           printf '%s\n' \
-            '## Sincronización con el firmware oficial' \
+            '## Sync with the official firmware' \
             '' \
-            "Este PR trae los cambios nuevos de **Next-Flip/Momentum-Firmware** (rama \`${UPSTREAM_BRANCH}\`) a tu fork." \
+            "This PR brings new changes from **Next-Flip/Momentum-Firmware** (\`${UPSTREAM_BRANCH}\` branch) into your fork." \
             '' \
-            '- **Generado automáticamente** por el workflow `.github/workflows/sync-upstream.yml`.' \
-            '- El diff mostrado usa el ancestro común, así que ves **solo lo nuevo del upstream**.' \
-            '- Al mergear se integran con tus personalizaciones; resuelve los conflictos que aparezcan.' \
+            '- **Automatically generated** by the `.github/workflows/sync-upstream.yml` workflow.' \
+            '- The diff shown uses the common ancestor, so you see **only what is new from upstream**.' \
+            '- Merging integrates them with your customizations; resolve any conflicts that appear.' \
             '' \
-            '> **Recomendado:** usar "Create a merge commit" (no squash/rebase) para preservar la historia del upstream.' \
+            '> **Recommended:** use "Create a merge commit" (not squash/rebase) to preserve upstream history.' \
             '' \
-            '_Este PR es INBOUND (traer código público del oficial). Nunca sube nada a Next-Flip._' \
+            '_This PR is INBOUND (bringing in public code from the official repo). It never pushes anything to Next-Flip._' \
             > pr_body.md
           gh pr create \
             --base "$FORK_BRANCH" \
             --head "$MIRROR_BRANCH" \
             --title "Sync upstream: Next-Flip/${UPSTREAM_BRANCH} → ${FORK_BRANCH}" \
             --body-file pr_body.md
-          echo "PR de sync creado."
+          echo "Sync PR created."
 
-      - name: "Resumen"
+      - name: "Summary"
         run: |
           if [ "${{ steps.check.outputs.new_commits }}" = "0" ]; then
-            echo "✓ Tu fork ya está al día con upstream/$UPSTREAM_BRANCH. Nada que hacer."
+            echo "✓ Your fork is already up to date with upstream/$UPSTREAM_BRANCH. Nothing to do."
           else
-            echo "✓ ${{ steps.check.outputs.new_commits }} commits nuevos del upstream disponibles en un PR para revisión."
+            echo "✓ ${{ steps.check.outputs.new_commits }} new commits from upstream available in a PR for review."
           fi

@@ -1,47 +1,47 @@
-# REGISTRY de subagentes del sistema multi-agente
+# Subagent REGISTRY of the multi-agent system
 
-Este archivo registra **todos** los subagentes en `.claude/agents/`. Es auditable y versionado. El hook `SubagentStop` (configurado en `settings.json` durante Fase 1.D) actualiza los contadores tras cada invocación.
+This file registers **all** subagents in `.claude/agents/`. It is auditable and version-controlled. The `SubagentStop` hook (configured in `settings.json` during Phase 1.D) updates the counters after each invocation.
 
-## Schema de cada entrada
+## Schema of each entry
 
-Cada subagente tiene una entrada con los siguientes campos:
+Each subagent has an entry with the following fields:
 
-- **agent_name**: nombre del archivo sin extensión (ej. `agent-architect`).
+- **agent_name**: filename without extension (e.g. `agent-architect`).
 - **model**: `opus | sonnet | haiku`.
 - **effort**: `low | medium | high | xhigh | max`.
-- **status**: `experimental | stable`. Tras 5 invocaciones sin modificación, el architect propone graduar (D13).
-- **core**: `true | false`. Los core no pueden ser retirados por el architect (D17).
-- **invocation_count**: nº de veces que el master ha delegado tarea a este agente. Tracked en `.claude/state/counters.json` (gitignored); este archivo refleja el último snapshot conocido tras un commit.
-- **last_modified_commit**: hash corto del último commit que tocó `.claude/agents/<agent>.md`.
-- **created_at**: timestamp ISO 8601 de creación.
-- **motivo**: ¿por qué se creó? (1 línea)
-- **casos_de_uso**: 3 casos de uso aprobados por el Concilio.
-- **council_votes**: votos del Concilio que aprobaron su creación.
-- **approval_commit**: hash del commit donde se añadió.
+- **status**: `experimental | stable`. After 5 invocations without modification, the architect proposes graduating it (D13).
+- **core**: `true | false`. Core agents cannot be retired by the architect (D17).
+- **invocation_count**: number of times the master has delegated a task to this agent. Tracked in `.claude/state/counters.json` (gitignored); this file reflects the last known snapshot after a commit.
+- **last_modified_commit**: short hash of the last commit that touched `.claude/agents/<agent>.md`.
+- **created_at**: ISO 8601 timestamp of creation.
+- **motivo**: why was it created? (1 line)
+- **casos_de_uso**: 3 use cases approved by the Council.
+- **council_votes**: Council votes that approved its creation.
+- **approval_commit**: hash of the commit where it was added.
 
-## Conteo contra el techo (D17)
+## Count against the ceiling (D17)
 
-- **Techo único**: 20 agentes en `.claude/agents/`.
-- **Core (no retirables automáticamente)**: 2 — `agent-architect`, `council-member`.
-- **Especialistas previstos en Fases 2-3**: 11.
-- **Total tras Fase 3**: 13.
-- **Margen para creación por el architect en operación supervisada (Fase 4)**: 7.
+- **Single ceiling**: 20 agents in `.claude/agents/`.
+- **Core (cannot be automatically retired)**: 2 — `agent-architect`, `council-member`.
+- **Specialists planned for Phases 2-3**: 11.
+- **Total after Phase 3**: 13.
+- **Margin for creation by the architect under supervised operation (Phase 4)**: 7.
 
-## Política de creación de agentes
+## Agent creation policy
 
-Un agente nuevo solo se añade tras pasar las 4 capas de control del `agent-architect` (ver `system-design.md`):
+A new agent is only added after passing the 4 control layers of the `agent-architect` (see `system-design.md`):
 
-1. Overlap check (no hay agente existente que cubra).
-2. Casos de uso obligatorios (3 reales, no hipotéticos).
-3. Voto del Concilio (2-de-3 SÍ, con ángulos típicos `ORT` + `MNT` + `COS`).
-4. Aprobación humana explícita.
+1. Overlap check (no existing agent covers it).
+2. Mandatory use cases (3 real, not hypothetical).
+3. Council vote (2-of-3 YES, with typical angles `ORT` + `MNT` + `COS`).
+4. Explicit human approval.
 
-Cada agente nace con `status: experimental`. Tras 5 invocaciones sin modificación posterior, el architect propone graduarlo a `status: stable` (D13).
+Each agent is born with `status: experimental`. After 5 invocations without subsequent modification, the architect proposes graduating it to `status: stable` (D13).
 
-## Agentes registrados
+## Registered agents
 
-| Agente | Modelo | Effort | Status | Core | Invocations | Last modified | Created at |
+| Agent | Model | Effort | Status | Core | Invocations | Last modified | Created at |
 |--------|--------|--------|--------|------|-------------|---------------|------------|
-| _(pendiente Fase 1.B)_ | | | | | | | |
+| _(pending Phase 1.B)_ | | | | | | | |
 
-Las primeras 2 entradas se añaden al completar Fase 1.B (`agent-architect` y `council-member`). Las siguientes 4 en Fase 2 y las 7 restantes en Fase 3.
+The first 2 entries are added upon completing Phase 1.B (`agent-architect` and `council-member`). The next 4 in Phase 2 and the remaining 7 in Phase 3.

@@ -1,22 +1,22 @@
 ---
-description: Atajo - salta el Concilio para una tarea $ARGUMENTS que NO matchea la lista G3. Solo válido si el chequeo automático de irreversibilidad da negativo. Va directo al master decidiendo o al especialista del dominio.
+description: Shortcut - skips the Council for a task $ARGUMENTS that does NOT match the G3 list. Only valid if the automatic irreversibility check comes back negative. Goes straight to the master deciding or to the domain specialist.
 ---
 
-# Flipper Quick (saltar Concilio)
+# Flipper Quick (skip Council)
 
-Has sido invocado vía `/flipper-quick`. El usuario ha indicado explícitamente que la tarea NO requiere Concilio Tripartito.
+You have been invoked via `/flipper-quick`. The user has explicitly indicated that the task does NOT require the Tripartite Council.
 
-## Tarea del usuario
+## User task
 
 $ARGUMENTS
 
-## Procedimiento obligatorio
+## Mandatory procedure
 
-1. **Ejecuta primero `.claude/scripts/check-irreversibility.sh`** con un resumen de la operación que vas a realizar.
-2. **Si reporta match con la lista G3, NIÉGATE a saltar el Concilio.** Explica al usuario que la operación matchea `IRREV-N` y que debe pasar por L3 (Concilio) o L4 (escalado). El atajo `/flipper-quick` NO sortea la lista G3 — es invariante estructural (D23).
-3. **Si NO matchea G3**, procede con L1 (master solo) o delega directamente al especialista del dominio según la naturaleza de la tarea. NO invoques Concilio. NO invoques `/devils-advocate`.
-4. **Loguea en `.claude/state/decisions.jsonl`** con `level: "L1"`, `criterion_invoked: null`, `justification_short: "user invoked /flipper-quick"`.
+1. **First run `.claude/scripts/check-irreversibility.sh`** with a summary of the operation you are going to perform.
+2. **If it reports a match with the G3 list, REFUSE to skip the Council.** Explain to the user that the operation matches `IRREV-N` and that it must go through L3 (Council) or L4 (escalation). The `/flipper-quick` shortcut does NOT bypass the G3 list — it is a structural invariant (D23).
+3. **If it does NOT match G3**, proceed with L1 (master alone) or delegate directly to the domain specialist depending on the nature of the task. Do NOT invoke the Council. Do NOT invoke `/devils-advocate`.
+4. **Log to `.claude/state/decisions.jsonl`** with `level: "L1"`, `criterion_invoked: null`, `justification_short: "user invoked /flipper-quick"`.
 
-## Política sobre destructivas
+## Policy on destructive actions
 
-Aunque `/flipper-quick` salta el Concilio, **NO salta la aprobación humana sobre operaciones destructivas**. Si la tarea implica flash, push, rm -rf u otras destructivas, sigue pidiendo confirmación al usuario antes de ejecutar.
+Although `/flipper-quick` skips the Council, it does **NOT skip human approval for destructive operations**. If the task involves flash, push, rm -rf or other destructive actions, keep asking the user for confirmation before executing.

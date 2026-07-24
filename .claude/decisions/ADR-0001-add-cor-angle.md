@@ -1,224 +1,224 @@
 ---
 id: ADR-0001
-title: Añadir ángulo `COR` (Correctness) al catálogo cerrado del Concilio Tripartito
+title: Add `COR` (Correctness) angle to the Tripartite Council's closed catalog
 status: accepted
 date: 2026-05-23
 decision-level: L3
 council-id: 62978df1-a1f9-4e2d-8706-750d0ac18c3c
 dossier: .claude/decisions/pending/62978df1-a1f9-4e2d-8706-750d0ac18c3c/dossier.md
 synthetic: true
-synthetic-purpose: Validación funcional V2 de Fase 1.G — ejercicio end-to-end del Concilio
+synthetic-purpose: Phase 1.G functional validation V2 — end-to-end Council exercise
 materialization-status: materialized
 materialization-date: 2026-05-23
 materialization-files:
-  - .claude/design/council-angles.md (ROB reformulado, COR añadido, sección "Notas operacionales para COR", entrada 1 en historial)
-  - .claude/design/decisions-schema.md (campo opcional eligible_for_cor)
-  - .claude/design/phases.md (Revisión 1 calendarizada para 2026-08-23)
+  - .claude/design/council-angles.md (ROB reworded, COR added, "Operational notes for COR" section, entry 1 in history)
+  - .claude/design/decisions-schema.md (optional field eligible_for_cor)
+  - .claude/design/phases.md (Review 1 scheduled for 2026-08-23)
 ---
 
-# ADR-0001 — Añadir ángulo `COR` (Correctness) al catálogo del Concilio
+# ADR-0001 — Add `COR` (Correctness) angle to the Council catalog
 
 ## Status
 
-`accepted` (3-de-3 SÍ tras ronda 3 de validación cruzada de condiciones; unanimidad sin vetos).
+`accepted` (3-of-3 YES after round 3 cross-validation of conditions; unanimity with no vetoes).
 
-**Nota meta**: esta deliberación fue construida como **decisión sintética** para la validación funcional V2 de Fase 1.G del sistema multi-agente. Tras cierre del Concilio con unanimidad, el usuario decidió **materializarla efectivamente** (opción (a), 2026-05-23). El cambio está aplicado en los siguientes archivos:
+**Meta note**: this deliberation was built as a **synthetic decision** for the Phase 1.G functional validation V2 of the multi-agent system. After the Council closed with unanimity, the user decided to **materialize it for real** (option (a), 2026-05-23). The change has been applied to the following files:
 
-- `.claude/design/council-angles.md`: `ROB` reformulado, `COR` añadido (catálogo a 13 ángulos), sección "Notas operacionales para `COR`" con rail disjunto, definición operacional de elegibilidad y guard de co-invocación; entrada 1 en "Historial de cambios al catálogo" con definición congelada, comparador semántico y cláusula de retirada.
-- `.claude/design/decisions-schema.md`: campo opcional `eligible_for_cor` añadido (C2-N1).
-- `.claude/design/phases.md`: "Calendario activo de revisiones" → "Revisión 1" calendarizada para `2026-08-23` con owner `agent-architect` (C2-N3, C3-N1).
+- `.claude/design/council-angles.md`: `ROB` reworded, `COR` added (catalog now at 13 angles), "Operational notes for `COR`" section with a disjoint rail, an operational eligibility definition and a co-invocation guard; entry 1 in the "Catalog change history" with the frozen definition, semantic comparator, and withdrawal clause.
+- `.claude/design/decisions-schema.md`: optional field `eligible_for_cor` added (C2-N1).
+- `.claude/design/phases.md`: "Active review calendar" → "Review 1" scheduled for `2026-08-23` with owner `agent-architect` (C2-N3, C3-N1).
 
 ## Context
 
-El catálogo cerrado de ángulos del Concilio Tripartito (D18 en `system-design.md`, definido en `.claude/design/council-angles.md`) cuenta con 12 ángulos vigentes, incluyendo `ROB` (Robustez), cuya pregunta clave actual es "¿qué propiedad del sistema queda verificable tras este cambio?".
+The Tripartite Council's closed catalog of angles (D18 in `system-design.md`, defined in `.claude/design/council-angles.md`) has 12 active angles, including `ROB` (Robustness), whose current key question is "what system property remains verifiable after this change?".
 
-La propuesta evalúa si añadir un ángulo `COR` (Correctness) que cubra específicamente la sub-propiedad "la operación produce el resultado funcionalmente correcto sin pérdida o corrupción de datos", separada operacionalmente de la robustez estructural. Casos del firmware Momentum donde un ángulo dedicado aportaría valor: lectura/escritura NFC sin perder bits, deserialización del keystore SubGHz, parsing FAT, integridad de migraciones (`flipper_migrate_files()` en `furi/flipper.c:58`), persistencia de slots SubGHz/iButton/IR.
+The proposal evaluates whether to add a `COR` (Correctness) angle that specifically covers the sub-property "the operation produces the functionally correct result without loss or corruption of data", operationally separated from structural robustness. Cases in the Momentum firmware where a dedicated angle would add value: NFC read/write without losing bits, SubGHz keystore deserialization, FAT parsing, migration integrity (`flipper_migrate_files()` in `furi/flipper.c:58`), persistence of SubGHz/iButton/IR slots.
 
-El criterio de irreversibilidad invocado es **IRREV-2** (la decisión modifica archivos bajo `.claude/design/`), lo que estructuralmente fuerza nivel L3 (Concilio) según el script `check-irreversibility.sh` (D23 — hard rule).
+The irreversibility criterion invoked is **IRREV-2** (the decision modifies files under `.claude/design/`), which structurally forces level L3 (Council) per the `check-irreversibility.sh` script (D23 — hard rule).
 
 ## Alternatives considered
 
-### Alternativa A — Añadir `COR` como nuevo ángulo del catálogo cerrado (la propuesta principal)
+### Alternative A — Add `COR` as a new angle in the closed catalog (the main proposal)
 
-Crear entrada `COR` con pregunta clave operacional y "aplicable cuando" restringido a I/O comparable bit-a-bit.
+Create a `COR` entry with an operational key question and an "applicable when" scope restricted to bit-for-bit comparable I/O.
 
-- **+** Distinción explícita robustez (verificabilidad estructural) vs correctitud (resultado funcional).
-- **+** Reduce wildcards en I/O y parsing, frecuentes en firmware embedded.
-- **−** Catálogo crece a 13 ángulos: más espacio combinatorio para sesgo del master (C(13,3)=286 vs C(12,3)=220, +30%).
-- **−** Riesgo de solape con `ROB` si las definiciones no son operacionalmente disjuntas.
+- **+** Explicit distinction between robustness (structural verifiability) and correctness (functional result).
+- **+** Reduces wildcards in I/O and parsing, which are common in embedded firmware.
+- **−** The catalog grows to 13 angles: more combinatorial space for the master's selection bias (C(13,3)=286 vs C(12,3)=220, +30%).
+- **−** Risk of overlap with `ROB` if the definitions aren't operationally disjoint.
 
-### Alternativa B — No añadir; usar wildcard ad-hoc cuando aparezca
+### Alternative B — Don't add it; use an ad-hoc wildcard when it comes up
 
-Dejar el catálogo en 12. Cuando se requiera ángulo de correctness, master crea wildcard con justificación expandida en `.claude/state/wildcards.jsonl` (D18). Promoción opt-in vía `/flipper-review-wildcards` cuando aparezca recurrencia.
+Leave the catalog at 12. When a correctness angle is needed, the master creates a wildcard with an expanded justification in `.claude/state/wildcards.jsonl` (D18). Opt-in promotion via `/flipper-review-wildcards` once recurrence appears.
 
-- **+** Catálogo permanece pequeño y disciplinado. Implementación mínima (cero líneas).
-- **+** El mecanismo de wildcard ya existe precisamente para casos atípicos.
-- **−** Si correctness es frecuente, los wildcards recurrentes inflarán el log; termina en A pero con retraso.
+- **+** The catalog stays small and disciplined. Minimal implementation (zero lines).
+- **+** The wildcard mechanism already exists precisely for atypical cases.
+- **−** If correctness comes up often, recurring wildcards will bloat the log; ends up at A anyway, just later.
 
-### Alternativa C — Reformular `ROB` para incluir correctness explícitamente
+### Alternative C — Reword `ROB` to explicitly include correctness
 
-Cambiar la definición de `ROB` a "¿qué propiedad funcional o estructural queda verificable y correcta tras este cambio?".
+Change `ROB`'s definition to "what functional or structural property remains verifiable and correct after this change?".
 
-- **+** Mantiene el catálogo en 12.
-- **+** Robustez en literatura formal (Lamport, Lynch) históricamente incluye correctness.
-- **−** Diluye `ROB`: un concejal asignado tendría que cubrir dos sub-propiedades distintas en una sola respuesta.
-- **−** Cambia retroactivamente la definición de un ángulo ya en uso (ADRs históricos con `ROB` quedan con definición distinta).
+- **+** Keeps the catalog at 12.
+- **+** Robustness in the formal literature (Lamport, Lynch) has historically included correctness.
+- **−** Dilutes `ROB`: an assigned council member would have to cover two distinct sub-properties in a single response.
+- **−** Retroactively changes the definition of an angle already in use (historical ADRs referencing `ROB` end up with a different definition).
 
 ## Decision
 
-**Alternativa A**, con **11 condiciones obligatorias** que el Concilio fijó a través de 3 rondas de deliberación.
+**Alternative A**, with **11 mandatory conditions** set by the Council over 3 rounds of deliberation.
 
-### Condiciones de síntesis (master, ronda 2, condensando ronda 1)
+### Synthesis conditions (master, round 2, condensing round 1)
 
-**S1. Reformulación simultánea de `ROB`** en el mismo PR que introduce `COR`:
+**S1. Simultaneous rewording of `ROB`** in the same PR that introduces `COR`:
 
-> **ROB — Robustez**: ¿Qué invariante estructural del sistema (lifecycle, estado, recuperación de fallos, manejo de errores) queda verificable tras este cambio? No cubre correctitud del resultado funcional — ver `COR`.
+> **ROB — Robustness**: What structural invariant of the system (lifecycle, state, failure recovery, error handling) remains verifiable after this change? Does not cover the correctness of the functional result — see `COR`.
 
-Si esta reformulación no se incluye, la propuesta no procede (precondición dura).
+If this rewording isn't included, the proposal does not proceed (a hard precondition).
 
-**S2. Pregunta clave operacional para `COR`**:
+**S2. Operational key question for `COR`**:
 
-> **COR — Correctness**: ¿Existe un caso de entrada concreto donde el output sea distinto del esperado en ≥1 bit, ≥1 byte, o ≥1 registro, y ese caso no esté cubierto por un test o invariante existente?
+> **COR — Correctness**: Is there a concrete input case where the output differs from the expected result by ≥1 bit, ≥1 byte, or ≥1 record, and that case is not covered by an existing test or invariant?
 
-Predicado verificable (¿existe contraejemplo? sí/no) que se distingue mecánicamente de `ROB` (existencia de garantía, no de contraejemplo).
+A verifiable predicate (does a counterexample exist? yes/no) that is mechanically distinguishable from `ROB` (existence of a guarantee, not of a counterexample).
 
-**S3. Rail de aplicabilidad disjunto con `ROB`**. `COR` aplica solo cuando el resultado es comparable bit-a-bit o byte-a-byte con un esperado:
+**S3. Applicability rail disjoint from `ROB`**. `COR` applies only when the result is comparable bit-for-bit or byte-for-byte against an expected value:
 
-- Deserialización de formatos estructurados (FAT, NFC dumps, SubGHz keystore, archivos `.sub`/`.nfc`/`.ir`).
-- Migraciones de archivos con esquema definido.
-- Parsing de protocolos con frame definido.
+- Deserialization of structured formats (FAT, NFC dumps, SubGHz keystore, `.sub`/`.nfc`/`.ir` files).
+- File migrations with a defined schema.
+- Parsing of protocols with a defined frame.
 
-Se excluye explícitamente (en el catálogo, no solo en el ADR): lógica de control, máquinas de estado, UI/scenes/views, scheduling/threading/timing (esto último es `THR`).
+Explicitly excluded (in the catalog itself, not just in this ADR): control logic, state machines, UI/scenes/views, scheduling/threading/timing (the latter is `THR`).
 
-**S4. Entrada congelada en el historial del catálogo** (sección "Historial de cambios al catálogo" de `council-angles.md`) con: fecha, `council_id`, ID del ADR, definición exacta congelada de `COR` (texto completo, no por referencia), delimitación explícita frente a `ROB`. Entrada inmutable; refinamientos futuros generan nueva entrada, no edición in-place.
+**S4. Frozen entry in the catalog history** (the "Catalog change history" section of `council-angles.md`) with: date, `council_id`, ADR ID, the exact frozen definition of `COR` (full text, not by reference), explicit delimitation against `ROB`. The entry is immutable; future refinements generate a new entry, not an in-place edit.
 
-### Condiciones nuevas aceptadas (ronda 3, unanimidad)
+### New conditions accepted (round 3, unanimity)
 
-**C1-N1 (origen: Concejal 1 — ORT)**. Métrica de disjunción operacional en la auditoría a 3 meses: contar dossieres que co-asignaron `ROB`+`COR` y cuántos veredictos resultantes fueron textualmente solapantes (>70% de razones compartidas). Si la tasa de co-asignación con solape supera el 30%, la separación se considera fallida desde ORT y se retira `COR`.
+**C1-N1 (origin: Council Member 1 — ORT)**. Operational disjointness metric for the 3-month audit: count dossiers that co-assigned `ROB`+`COR` and how many of the resulting verdicts were textually overlapping (>70% shared reasoning). If the co-assignment overlap rate exceeds 30%, the separation is considered a failure from ORT's standpoint and `COR` is withdrawn.
 
-> **Nota técnica (concejal 2, ronda 3)**: calibrar el umbral 70%/30% manualmente sobre el corpus real a 3 meses (esperablemente <20 dossieres) en lugar de congelarlo como invariante ex ante.
+> **Technical note (council member 2, round 3)**: calibrate the 70%/30% threshold manually against the real corpus at 3 months (expected <20 dossiers) rather than freezing it as an ex-ante invariant.
 >
-> **Nota técnica (concejal 3, ronda 3)**: el comparador semántico (diff de tokens, embedding, o checklist de subtemas) debe quedar especificado en la misma entrada de historial, no diferido.
+> **Technical note (council member 3, round 3)**: the semantic comparator (token diff, embedding, or subtopic checklist) must be specified in the same history entry, not deferred.
 
-**C1-N2 (origen: Concejal 1 — ORT)**. Hasta la primera auditoría a 3 meses, el master debe registrar en el dossier de cada L3 que invoque `ROB`+`COR` simultáneamente una justificación de una línea de por qué la decisión requiere las dos lentes y no es expresable como una sola. Trazabilidad ligera; los datapoints alimentan la auditoría.
+**C1-N2 (origin: Council Member 1 — ORT)**. Until the first 3-month audit, the master must record in the dossier of every L3 that invokes `ROB`+`COR` simultaneously a one-line justification of why the decision needs both lenses and cannot be expressed with just one. Light traceability; the datapoints feed the audit.
 
-**C2-N1 (origen: Concejal 2 — SIM)**. El umbral de retirada (<10% de elegibles, ver C2-N2) implementado como **query reproducible** sobre `decisions.jsonl`, no como prosa. Cada entrada L3 incluye un campo `eligible_for_cor: true|false` marcado por el master en clasificación.
+**C2-N1 (origin: Council Member 2 — SIM)**. The withdrawal threshold (<10% eligible, see C2-N2) implemented as a **reproducible query** over `decisions.jsonl`, not as prose. Every L3 entry includes a field `eligible_for_cor: true|false` set by the master at classification time.
 
-**C2-N2 (origen: Concejal 2 — SIM)**. La definición operacional de "elegible para COR" documentada en `council-angles.md` junto a la entrada del ángulo, con criterios objetivos verificables por inspección del enunciado del dossier: involucra I/O de protocolos, parsing, migración, serialización. Sin esto, el divisor del cociente "<10%" queda indeterminado.
+**C2-N2 (origin: Council Member 2 — SIM)**. The operational definition of "eligible for COR" documented in `council-angles.md` alongside the angle's entry, with objective criteria verifiable by inspecting the dossier's statement: involves protocol I/O, parsing, migration, serialization. Without this, the denominator of the "<10%" ratio remains undefined.
 
-**C2-N3 (origen: Concejal 2 — SIM)**. Revisión obligatoria a los 3 meses calendarizada (cron, recordatorio en `phases.md`, o equivalente), no opcional. Cláusulas de retirada que dependen de iniciativa proactiva sistemáticamente no se ejecutan.
+**C2-N3 (origin: Council Member 2 — SIM)**. Mandatory 3-month review scheduled (cron, reminder in `phases.md`, or equivalent), not optional. Withdrawal clauses that depend on proactive initiative systematically never get executed.
 
-**C3-N1 (origen: Concejal 3 — MNT)**. Owner de la medición a 3 meses = `agent-architect`. Sink del resultado = entrada adicional en "Historial de cambios al catálogo" con formato fijo: `{fecha, council_id_origen, invocaciones_observadas, decisión: mantener | retirar | reevaluar-a-6m}`, incluso si la decisión es mantener sin cambios.
+**C3-N1 (origin: Council Member 3 — MNT)**. Owner of the 3-month measurement = `agent-architect`. Sink for the result = an additional entry in "Catalog change history" with a fixed format: `{date, origin_council_id, invocations_observed, decision: keep | withdraw | reassess-at-6m}`, even if the decision is to keep it unchanged.
 
-**C3-N2 (origen: Concejal 3 — MNT)**. Umbral numérico congelado ex ante: **menos de 2 invocaciones reales de `COR` en ventana de 3 meses contados desde la aprobación** dispara propuesta de retirada. Umbral inmodificable sin nueva entrada de changelog.
+**C3-N2 (origin: Council Member 3 — MNT)**. Numeric threshold frozen ex ante: **fewer than 2 real invocations of `COR` in a 3-month window counted from approval** triggers a withdrawal proposal. The threshold cannot be modified without a new changelog entry.
 
-> **Nota interpretativa (concejal 1, ronda 3)**: C3-N2 (umbral de uso bajo) y C1-N1 (umbral de solape alto) deben aplicarse como **OR lógico**, no AND. La retirada procede si `COR` falla en cualquiera de las dos métricas (poco uso O alto solape), no solo en ambas.
+> **Interpretive note (council member 1, round 3)**: C3-N2 (low-usage threshold) and C1-N1 (high-overlap threshold) must be applied as a logical **OR**, not AND. Withdrawal proceeds if `COR` fails on either metric (low usage OR high overlap), not only on both.
 
-### Cláusula de retirada empírica (consolidada)
+### Empirical withdrawal clause (consolidated)
 
-Tras 3 meses de operación desde aprobación, el `agent-architect` ejecuta auditoría sobre `decisions.jsonl` y produce entrada en historial con:
+After 3 months of operation from approval, `agent-architect` runs an audit against `decisions.jsonl` and produces a history entry with:
 
-| Métrica | Disparador de retirada |
+| Metric | Withdrawal trigger |
 |---|---|
-| Invocaciones reales de `COR` | < 2 en 3 meses (C3-N2) |
-| Tasa de co-asignación `ROB`+`COR` con solape >70% | > 30% del subconjunto co-asignado (C1-N1) |
+| Real `COR` invocations | < 2 in 3 months (C3-N2) |
+| `ROB`+`COR` co-assignment rate with >70% overlap | > 30% of the co-assigned subset (C1-N1) |
 
-**Lógica**: OR (retira si falla cualquiera). Resultado se loguea como entrada en "Historial de cambios al catálogo".
+**Logic**: OR (withdraw if either fails). The result is logged as an entry in "Catalog change history".
 
 ## Council votes
 
-### Ronda 1 (independencia preservada — concejales no ven veredictos entre sí)
+### Round 1 (independence preserved — council members don't see each other's verdicts)
 
-| Concejal | Ángulo | Recomendación | Voto | Resumen |
+| Council member | Angle | Recommendation | Vote | Summary |
 |---|---|---|---|---|
-| 1 | ORT (Ortogonalidad) | MODIFICAR | SÍ-CON-CONDICIONES | Solape `ROB`/`COR` no disjunto sin reformulación simultánea. 4 condiciones. |
-| 2 | SIM (Simplicidad) | RECHAZAR | **NO** | YAGNI: wildcard ya es la implementación mínima; sin datapoints empíricos de recurrencia. |
-| 3 | MNT (Mantenibilidad) | MODIFICAR | SÍ-CON-CONDICIONES | Pregunta clave no operacionalizada; rail demasiado laxo; historial vacío. 3 condiciones. |
+| 1 | ORT (Orthogonality) | MODIFY | YES-WITH-CONDITIONS | `ROB`/`COR` overlap not disjoint without simultaneous rewording. 4 conditions. |
+| 2 | SIM (Simplicity) | REJECT | **NO** | YAGNI: the wildcard is already the minimal implementation; no empirical recurrence datapoints. |
+| 3 | MNT (Maintainability) | MODIFY | YES-WITH-CONDITIONS | Key question not operationalized; rail too loose; history empty. 3 conditions. |
 
-Conteo ronda 1: **2 SÍ-CON-CONDICIONES / 1 NO**. Estructuralmente 2-de-3, pero las condiciones de C1 y C3 son sustantivas y el voto NO de C2 (YAGNI sin datapoints) es válido — master sintetiza para ronda 2.
+Round 1 count: **2 YES-WITH-CONDITIONS / 1 NO**. Structurally 2-of-3, but C1's and C3's conditions are substantive and C2's NO vote (YAGNI with no datapoints) is valid — the master synthesizes for round 2.
 
-### Ronda 2 (sobre síntesis del master con 4 condiciones + cláusula de retirada empírica a 3 meses)
+### Round 2 (on the master's synthesis with 4 conditions + a 3-month empirical withdrawal clause)
 
-| Concejal | Ángulo | Voto | Condiciones nuevas |
+| Council member | Angle | Vote | New conditions |
 |---|---|---|---|
-| 1 | ORT | SÍ-CON-CONDICIONES-NUEVAS | 2 (C1-N1, C1-N2) |
-| 2 | SIM | **SÍ-CON-CONDICIONES-NUEVAS** (cambio desde NO) | 3 (C2-N1, C2-N2, C2-N3) |
-| 3 | MNT | SÍ-CON-CONDICIONES-NUEVAS | 2 (C3-N1, C3-N2) |
+| 1 | ORT | YES-WITH-NEW-CONDITIONS | 2 (C1-N1, C1-N2) |
+| 2 | SIM | **YES-WITH-NEW-CONDITIONS** (changed from NO) | 3 (C2-N1, C2-N2, C2-N3) |
+| 3 | MNT | YES-WITH-NEW-CONDITIONS | 2 (C3-N1, C3-N2) |
 
-Conteo ronda 2: **3 SÍ / 0 NO**. El concejal 2 (SIM) cambió de NO a SÍ gracias a la cláusula de retirada empírica que convierte la decisión "permanente arriesgada" en "experimento con condición de parada explícita".
+Round 2 count: **3 YES / 0 NO**. Council member 2 (SIM) switched from NO to YES thanks to the empirical withdrawal clause, which turns a "risky permanent change" into an "experiment with an explicit stopping condition".
 
-### Ronda 3 (validación cruzada de las 7 condiciones nuevas)
+### Round 3 (cross-validation of the 7 new conditions)
 
-Cada concejal evalúa las condiciones nuevas de los OTROS 2 (lee solo la sección "Condiciones nuevas" para preservar independencia razonada).
+Each council member evaluates the new conditions from the OTHER 2 (reading only the "New conditions" section to preserve reasoned independence).
 
-| Concejal | Ángulo | Voto final | Condiciones vetadas | Notas |
+| Council member | Angle | Final vote | Vetoed conditions | Notes |
 |---|---|---|---|---|
-| 1 | ORT | **SÍ** | Ninguna | C3-N2 con nota (OR lógico, no AND) |
-| 2 | SIM | **SÍ** | Ninguna | C1-N1 con nota (calibrar umbral sobre corpus real) |
-| 3 | MNT | **SÍ** | Ninguna | C1-N1 con nota (especificar comparador en historial) |
+| 1 | ORT | **YES** | None | Note on C3-N2 (logical OR, not AND) |
+| 2 | SIM | **YES** | None | Note on C1-N1 (calibrate threshold against real corpus) |
+| 3 | MNT | **YES** | None | Note on C1-N1 (specify comparator in history) |
 
-Conteo ronda 3: **3 SÍ / 0 vetos / unanimidad sobre el paquete completo**. Las 7 condiciones nuevas entran al ADR; las 3 notas técnicas se incorporan como refinamientos.
+Round 3 count: **3 YES / 0 vetoes / unanimity on the full package**. The 7 new conditions enter the ADR; the 3 technical notes are incorporated as refinements.
 
-### Voto minoritario histórico (transición de ronda 1 → ronda 2)
+### Historical minority vote (round 1 → round 2 transition)
 
-El **Concejal 2 (SIM)** votó **NO** en ronda 1 con argumento YAGNI/falta de evidencia empírica. Su objeción central no fue rebatida sino **incorporada como mecanismo de auto-corrección**: la síntesis del master añadió la cláusula de retirada empírica a 3 meses con criterios medibles. En ronda 2, C2 cambió a SÍ-CON-CONDICIONES-NUEVAS razonando que "la cláusula con umbral medible y plazo definido transforma la decisión en un experimento con condición de parada explícita; eso es exactamente lo que SIM exige para tolerar una extensión especulativa del catálogo".
+**Council Member 2 (SIM)** voted **NO** in round 1 on YAGNI/lack-of-empirical-evidence grounds. Their central objection was not rebutted but rather **incorporated as a self-correction mechanism**: the master's synthesis added the 3-month empirical withdrawal clause with measurable criteria. In round 2, C2 switched to YES-WITH-NEW-CONDITIONS, reasoning that "the clause with a measurable threshold and a defined deadline turns the decision into an experiment with an explicit stopping condition; that's exactly what SIM requires to tolerate a speculative extension of the catalog".
 
-**Esta transición se documenta como riesgo conocido del ADR**: la decisión solo es legítima mientras la cláusula de retirada empírica permanezca activa y observable. Si en algún momento se diluye (sin auditoría, sin owner, sin umbrales medibles), el voto minoritario original recupera fuerza y la decisión debe revisarse.
+**This transition is documented as a known risk of the ADR**: the decision is only legitimate while the empirical withdrawal clause remains active and observable. If it ever gets diluted (no audit, no owner, no measurable thresholds), the original minority vote regains force and the decision must be revisited.
 
 ## Consequences
 
-### Positivas
+### Positive
 
-- Distinción operacionalmente disjunta entre robustez estructural (`ROB`) y correctitud funcional (`COR`) en el catálogo.
-- Reduce wildcards recurrentes en dominios de I/O del firmware (NFC, SubGHz, RFID, IR, storage).
-- Introduce primer precedente de **cláusula de retirada empírica** en el catálogo cerrado — el ratchet de catálogo (solo crecer) deja de ser monótono.
-- Las 4+7=11 condiciones constituyen un patrón replicable para futuras extensiones del catálogo: pregunta clave operacional, rail disjunto, historial congelado, owner, sink, métricas de retirada.
-- El voto NO→SÍ del Concejal 2 valida empíricamente el diseño de las rondas múltiples del Concilio (D18 + arquitectura general).
+- Operationally disjoint distinction between structural robustness (`ROB`) and functional correctness (`COR`) in the catalog.
+- Reduces recurring wildcards in the firmware's I/O domains (NFC, SubGHz, RFID, IR, storage).
+- Introduces the first precedent for an **empirical withdrawal clause** in the closed catalog — the catalog's ratchet (grow-only) stops being monotonic.
+- The 4+7=11 conditions form a replicable pattern for future catalog extensions: operational key question, disjoint rail, frozen history, owner, sink, withdrawal metrics.
+- Council Member 2's NO→YES vote empirically validates the design of the Council's multiple rounds (D18 + overall architecture).
 
-### Negativas / riesgos asumidos
+### Negative / assumed risks
 
-- **Crecimiento del catálogo a 13 ángulos** (+30% combinatoria de selección, C(13,3)=286). El sesgo de selección del master sube proporcionalmente y la mitigación depende de la disciplina del rail "aplicable cuando".
-- **Riesgo de doble asignación encubierta `ROB`+`COR`**. Aunque las definiciones son disjuntas tras S1+S2+S3, el master puede asignar ambos al mismo trío. La condición C1-N2 (justificación de una línea por co-invocación) es el guard ligero; la auditoría a 3 meses es el remedio.
-- **Deuda de implementación**: las condiciones C2-N1 (campo `eligible_for_cor` en `decisions.jsonl`) y C2-N3 (calendario activo de revisión) requieren cambios en herramientas de log y en `phases.md`. Hasta que se implementen, la cláusula de retirada no es efectivamente operacional.
-- **Voto minoritario condicional**: la decisión solo es legítima mientras la cláusula de retirada empírica permanezca activa y observable.
+- **Catalog growth to 13 angles** (+30% selection combinatorics, C(13,3)=286). The master's selection bias grows proportionally, and mitigation depends on the discipline of the "applicable when" rail.
+- **Risk of covert double-assignment of `ROB`+`COR`**. Even though the definitions are disjoint after S1+S2+S3, the master could still assign both to the same trio. Condition C1-N2 (a one-line justification per co-invocation) is the light guard; the 3-month audit is the remedy.
+- **Implementation debt**: conditions C2-N1 (the `eligible_for_cor` field in `decisions.jsonl`) and C2-N3 (the active review calendar) require changes to logging tools and to `phases.md`. Until implemented, the withdrawal clause is not effectively operational.
+- **Conditional minority vote**: the decision is only legitimate while the empirical withdrawal clause remains active and observable.
 
-### Reversibilidad
+### Reversibility
 
-- ¿Matchea G3? **Sí — IRREV-2** (modifica `.claude/design/council-angles.md`).
-- ¿Cómo se deshace? Mediante el propio mecanismo de retirada empírica fijado en este ADR: tras 3 meses, si la métrica falla (C3-N2 OR C1-N1), el `agent-architect` propone retirada vía PR humano. Cualquier retirada anticipada también requiere PR humano (D18 — el catálogo cerrado se modifica solo así).
-- Coste de salida: una entrada adicional en el historial del catálogo con `decisión: retirar`. No invalida ADRs futuros que invocaron `COR` correctamente durante el periodo de prueba — quedan como histórico.
+- Does it match G3? **Yes — IRREV-2** (modifies `.claude/design/council-angles.md`).
+- How is it undone? Via the empirical withdrawal mechanism set out in this ADR itself: after 3 months, if the metric fails (C3-N2 OR C1-N1), `agent-architect` proposes withdrawal via a human PR. Any early withdrawal also requires a human PR (D18 — the closed catalog can only be modified this way).
+- Exit cost: one additional entry in the catalog history with `decision: withdraw`. Doesn't invalidate future ADRs that correctly invoked `COR` during the trial period — they remain as historical record.
 
 ## Follow-ups
 
-### F1 — Decisión del usuario sobre materialización [RESUELTO 2026-05-23]
+### F1 — User decision on materialization [RESOLVED 2026-05-23]
 
-Esta deliberación se construyó como **decisión sintética para la validación V2 de Fase 1.G**. El usuario eligió **opción (a) — materializar completo**.
+This deliberation was built as a **synthetic decision for the Phase 1.G V2 validation**. The user chose **option (a) — materialize in full**.
 
-Cambios aplicados en este commit:
+Changes applied in this commit:
 
-- `.claude/design/council-angles.md`: `ROB` reformulado, `COR` añadido como ángulo 13, sección "Notas operacionales para `COR`" añadida, entrada 1 al "Historial de cambios al catálogo" con definición congelada + comparador semántico + cláusula de retirada empírica.
-- `.claude/design/decisions-schema.md`: campo opcional `eligible_for_cor: boolean` añadido.
-- `.claude/design/phases.md`: sección "Calendario activo de revisiones" añadida con "Revisión 1" calendarizada para `2026-08-23`.
+- `.claude/design/council-angles.md`: `ROB` reworded, `COR` added as angle 13, "Operational notes for `COR`" section added, entry 1 added to "Catalog change history" with the frozen definition + semantic comparator + empirical withdrawal clause.
+- `.claude/design/decisions-schema.md`: optional field `eligible_for_cor: boolean` added.
+- `.claude/design/phases.md`: "Active review calendar" section added with "Review 1" scheduled for `2026-08-23`.
 
-### F2 — Implementación de la cláusula de retirada empírica [COMPLETADO 2026-05-23]
+### F2 — Implementation of the empirical withdrawal clause [COMPLETED 2026-05-23]
 
-- ✅ Campo `eligible_for_cor: bool` añadido al schema (`.claude/design/decisions-schema.md`).
-- ✅ Entrada de calendario activo en `.claude/design/phases.md` (Revisión 1, 2026-08-23).
-- ✅ Comparador semántico especificado en `council-angles.md` (checklist cerrada de 7 subtemas; alternativa: diff de tokens significativos con umbral 70%).
+- ✅ Field `eligible_for_cor: bool` added to the schema (`.claude/design/decisions-schema.md`).
+- ✅ Active calendar entry in `.claude/design/phases.md` (Review 1, 2026-08-23).
+- ✅ Semantic comparator specified in `council-angles.md` (closed 7-subtopic checklist; alternative: significant-token diff with a 70% threshold).
 
-### F3 — Auditoría a 3 meses (programada para 2026-08-23)
+### F3 — 3-month audit (scheduled for 2026-08-23)
 
-Fecha: `2026-08-23`. Owner: `agent-architect`. Referencia operacional: `phases.md` → "Calendario activo de revisiones" → "Revisión 1".
+Date: `2026-08-23`. Owner: `agent-architect`. Operational reference: `phases.md` → "Active review calendar" → "Review 1".
 
-Disparadores de retirada (OR):
-- < 2 invocaciones de `COR` en ventana.
-- > 30% de co-asignaciones `ROB`+`COR` con razones solapantes >70%.
+Withdrawal triggers (OR):
+- < 2 `COR` invocations in the window.
+- > 30% of `ROB`+`COR` co-assignments with >70% overlapping reasoning.
 
-Sink: entrada en "Historial de cambios al catálogo" de `council-angles.md` con formato `{fecha, council_id_origen, invocaciones_observadas, decisión}`.
+Sink: entry in `council-angles.md`'s "Catalog change history" with the format `{date, origin_council_id, invocations_observed, decision}`.
 
-### F4 — Lecciones meta del flujo (independiente de F1)
+### F4 — Meta lessons from the flow (independent of F1)
 
-- **3 rondas del Concilio sobre L3 funcionó**: ronda 1 (independencia), ronda 2 (síntesis del master + reconsideración), ronda 3 (validación cruzada de condiciones — preserva independencia razonada).
-- **El voto minoritario rebatible vía mecanismo** (no vía argumento) es el patrón valioso: SIM cambió de NO a SÍ porque la síntesis añadió cláusula de retirada, no porque se le rebatiera el YAGNI.
-- **Bug de `Write`** detectado mid-sesión y workaround vía Bash heredoc documentado en RESUME.md. En la sesión actual el bug está resuelto.
-- Estas lecciones son material para enriquecer `system-design.md` o `phases.md` con un párrafo de "aprendizajes meta operacionales" — fuera del scope de este ADR.
+- **3 Council rounds on an L3 worked**: round 1 (independence), round 2 (master's synthesis + reconsideration), round 3 (cross-validation of conditions — preserves reasoned independence).
+- **The rebuttable minority vote via mechanism** (not via argument) is the valuable pattern: SIM changed from NO to YES because the synthesis added a withdrawal clause, not because their YAGNI point was rebutted.
+- **`Write` bug** detected mid-session, with a Bash-heredoc workaround documented in RESUME.md. In the current session the bug is resolved.
+- These lessons are material for enriching `system-design.md` or `phases.md` with an "operational meta-learnings" paragraph — out of scope for this ADR.
