@@ -41,7 +41,8 @@
       "Bash(stat:*)",
       "Bash(mkdir -p:*)",
       "Bash(./.claude/scripts/check-irreversibility.sh:*)",
-      "Bash(./.claude/scripts/setup.sh)"
+      "Bash(./.claude/scripts/setup.sh)",
+      "Bash(./.claude/scripts/bootstrap.sh)"
     ],
     "ask": [
       "Bash(./fbt flash:*)",
@@ -67,6 +68,16 @@
     "deny": []
   },
   "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PROJECT_DIR}/.claude/scripts/bootstrap.sh"
+          }
+        ]
+      }
+    ],
     "PreToolUse": [
       {
         "matcher": "Bash",

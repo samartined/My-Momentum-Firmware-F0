@@ -1,14 +1,19 @@
 #!/usr/bin/env bash
-# setup.sh — bootstrap del sistema multi-agente tras git clone (D22)
+# setup.sh — setup COMPLETO/manual del sistema multi-agente tras git clone (D22)
 #
 # Uso:
 #   ./.claude/scripts/setup.sh
 #
-# Hace tres cosas:
-#   1. Instala los git hooks vía pre-commit (pre-push, opcionalmente pre-commit).
-#   2. Verifica que los archivos esperados del sistema agente existen
-#      (validación binaria — existe / no existe).
-#   3. Otorga permisos de ejecución a scripts y hooks.
+# NOTA: el arranque MÍNIMO e idempotente lo hace ahora bootstrap.sh, que además
+# corre automáticamente en cada SessionStart de Claude Code (hook en
+# settings.json). setup.sh es el superset MANUAL: hace todo lo de bootstrap.sh
+# + validación exhaustiva + instalación OPCIONAL del framework pre-commit.
+#
+# Hace:
+#   1. Ejecuta bootstrap.sh (core.hooksPath, permisos, siembra de state/).
+#   2. Verifica que TODOS los archivos esperados del sistema agente existen.
+#   3. Instala pre-commit si está disponible (OPCIONAL — no falla si no lo está;
+#      el guardrail pre-push ya queda activo vía core.hooksPath en el paso 1).
 #
 # Salida:
 #   - exit 0: setup completado, sistema agente listo.
@@ -25,19 +30,25 @@ cd "$REPO_ROOT"
 
 echo "==> Setup del sistema multi-agente Momentum Firmware"
 
-# 1. Verificar pre-commit framework
-if ! command -v pre-commit >/dev/null 2>&1; then
-  echo "ERROR: 'pre-commit' no está instalado." >&2
-  echo "  Instálalo con: pip install pre-commit  (o brew install pre-commit)" >&2
-  exit 3
+# 1. Arranque idempotente (activa git hooks vía core.hooksPath, permisos, state/)
+echo "    [1/3] Ejecutando bootstrap idempotente..."
+if [[ -x ".claude/scripts/bootstrap.sh" ]]; then
+  ./.claude/scripts/bootstrap.sh
+else
+  bash ".claude/scripts/bootstrap.sh"
 fi
+echo "          OK (core.hooksPath -> .githooks, state/ sembrado)"
 
-echo "    [1/3] Instalando git hooks vía pre-commit..."
-pre-commit install --install-hooks --hook-type pre-commit --hook-type pre-push >/dev/null || {
-  echo "ERROR: 'pre-commit install' falló." >&2
-  exit 4
-}
-echo "          OK"
+# 1b. pre-commit OPCIONAL — el guardrail ya está activo vía core.hooksPath.
+if command -v pre-commit >/dev/null 2>&1; then
+  echo "    [1b] pre-commit detectado — instalando hooks adicionales..."
+  pre-commit install --install-hooks --hook-type pre-commit --hook-type pre-push >/dev/null 2>&1 \
+    && echo "          OK" \
+    || echo "          AVISO: 'pre-commit install' falló (no crítico; core.hooksPath ya cubre el guardrail)." >&2
+else
+  echo "    [1b] 'pre-commit' no instalado — se omite (opcional)." >&2
+  echo "          El guardrail pre-push ya está activo vía core.hooksPath." >&2
+fi
 
 # 2. Validación binaria: existen los archivos esperados del sistema agente
 echo "    [2/3] Verificando archivos del sistema agente..."
@@ -56,6 +67,7 @@ EXPECTED_FILES=(
   ".claude/design/decisions-schema.md"
   ".claude/design/cost-policy.md"
   ".claude/decisions/README.md"
+  ".claude/scripts/bootstrap.sh"
   ".claude/scripts/check-irreversibility.sh"
   ".claude/scripts/check-git-checkout-clean.sh"
   ".claude/skills/devils-advocate/SKILL.md"

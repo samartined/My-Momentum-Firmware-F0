@@ -6,6 +6,34 @@ Formato basado en Keep-a-Changelog. Fechas en formato YYYY-MM-DD.
 
 ---
 
+## [0.1.6] — 2026-07-24
+
+### Añadido
+
+- `.claude/scripts/bootstrap.sh`: arranque idempotente y dependency-free del sistema agente. Activa los git hooks versionados vía `git config core.hooksPath .githooks` (sin depender del framework `pre-commit`), otorga permisos de ejecución, y siembra `.claude/state/` (`counters.json` + `decisions.jsonl`). Contrato: `exit 0` siempre (hook no bloqueante), stdout limpio en éxito para no contaminar el contexto del master, diagnóstico a stderr.
+- Hook `SessionStart` en `.claude/settings.json` → ejecuta `bootstrap.sh` automáticamente en cada arranque de sesión. Como `settings.json` está versionado, el bootstrap se dispara solo en cualquier clon nuevo (local, Codespaces, Claude Code Cloud) sin pasos manuales.
+
+### Modificado
+
+- `.claude/settings.json`: añadido `hooks.SessionStart` (apunta a `bootstrap.sh`) y `Bash(./.claude/scripts/bootstrap.sh)` a `permissions.allow`.
+- `.claude/scripts/setup.sh`: refactor a "superset manual". Ahora delega la activación de hooks a `bootstrap.sh` (evita el conflicto `core.hooksPath` vs `pre-commit install`), y `pre-commit` pasa a ser **opcional** (aviso en vez de `exit 3`) porque el guardrail pre-push ya queda activo vía `core.hooksPath`. `bootstrap.sh` añadido a `EXPECTED_FILES`.
+
+### Motivación
+
+Preparar el proyecto para trabajo desde Claude Code Cloud. Diagnóstico previo: un clon fresco recuperaba todo `.claude/**` versionado y los hooks de Claude Code (viajan en `settings.json`), pero la **capa 2 de guardrails (git hook `pre-push` contra Next-Flip) quedaba inactiva** hasta ejecutar `setup.sh` a mano — y `setup.sh` dependía de `pre-commit`. El auto-bootstrap cierra ese hueco sin dependencias externas.
+
+### Deliberación
+
+- **Nivel L4** (aprobación directa del usuario, ruta D21). El cambio modifica `.claude/settings.json` → matchea `IRREV-6` (G3), lo que prohíbe estructuralmente L1/L2. El usuario aprobó directo sin Concilio, ruta legítima para infraestructura de plan. Log en `.claude/state/decisions.jsonl`.
+
+### Verificación
+
+- `settings.json` validado como JSON.
+- `bootstrap.sh` probado idempotente (2ª ejecución silenciosa, `exit 0`).
+- Guardrail pre-push confirmado activo vía `core.hooksPath`: bloquea URL `Next-Flip/*` (`exit 1`) y permite URL del fork `samartined/*` (`exit 0`).
+
+---
+
 ## [0.1.5] — 2026-05-23
 
 ### Añadido
