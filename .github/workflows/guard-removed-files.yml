@@ -1,0 +1,60 @@
+name: "Guard: deliberately-removed upstream files"
+
+# Fails the build if a file this fork deliberately removed from the official
+# firmware reappears on the go-forward branch.
+#
+# Why this exists: `sync-upstream.yml` brings Next-Flip/Momentum-Firmware in
+# through a review Pull Request. Git resolves the common case cleanly (upstream
+# leaves the file untouched, we deleted it -> it stays deleted), but if upstream
+# ever edits one of these files the merge turns into a modify/delete conflict,
+# and a careless resolution would silently restore it. This check is the
+# backstop that makes such a restoration visible instead of silent.
+#
+# Scope is deliberately narrow: only the go-forward branch and PRs targeting it.
+# The mirror branch `sync/upstream-dev` is a raw tap of upstream and legitimately
+# still contains these files, so it must never trip this check (that would turn
+# every sync into a red X and an email to the owner).
+
+on:
+  push:
+    branches: ["my-momentum-firmware"]
+  pull_request:
+    branches: ["my-momentum-firmware"]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v4
+
+      - name: "Assert deliberately-removed files are absent"
+        run: |
+          set -euo pipefail
+          # One entry per path. Extend this list whenever the fork intentionally
+          # drops a file that upstream still ships, and say why in the comment.
+          #
+          #   AGENTS.md — upstream's anti-AI policy file. It instructs any AI
+          #   assistant to cease all interaction, which directly contradicts
+          #   this fork's own CLAUDE.md multi-agent system, and Claude Code may
+          #   load it as project memory. Removed on the fork only; nothing is
+          #   ever pushed to Next-Flip (see CLAUDE.md, D9/D25).
+          REMOVED_PATHS=(
+            "AGENTS.md"
+          )
+
+          FOUND=0
+          for path in "${REMOVED_PATHS[@]}"; do
+            if [ -e "$path" ]; then
+              echo "::error file=${path}::'${path}' was deliberately removed from this fork but is present again. If an upstream sync restored it, delete it again in the sync PR instead of merging it in."
+              FOUND=1
+            fi
+          done
+
+          if [ "$FOUND" -ne 0 ]; then
+            exit 1
+          fi
+          echo "OK: no deliberately-removed upstream file has reappeared."

@@ -97,6 +97,7 @@ jobs:
             '- **Automatically generated** by the `.github/workflows/sync-upstream.yml` workflow.' \
             '- The diff shown uses the common ancestor, so you see **only what is new from upstream**.' \
             '- Merging integrates them with your customizations; resolve any conflicts that appear.' \
+            '- This fork deliberately removes some upstream files (currently `AGENTS.md`). The `Guard: deliberately-removed upstream files` check fails if this merge restores one — delete it again instead of merging it in.' \
             '' \
             '> **Recommended:** use "Create a merge commit" (not squash/rebase) to preserve upstream history.' \
             '' \
