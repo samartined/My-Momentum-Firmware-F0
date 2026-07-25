@@ -6,10 +6,27 @@ Council resolution: D19.
 
 ## Matching pattern
 
-- Matching is automatic via script (regex over the command or operation that the master proposes to execute).
+- Matching is scripted (regex over the command or operation that the master proposes to execute). The *verdict* is deterministic; **running the script is a convention the master follows**, not something the harness compels. See `system-design.md` → "Deliberation levels L1-L4" for the precise split.
 - The script lives at `.claude/scripts/check-irreversibility.sh` (created in Phase 1).
+- **The script's exit codes are inverted relative to normal shell semantics**: `0` = MATCHED (a G3 hit), `1` = no match, `2` = usage error. Any wrapper must capture the code explicitly and branch on it; `if check-irreversibility.sh …; then` reads as "allow" when it means "blocked" and produces a perfectly inverted guardrail. `set -e` in a wrapper is likewise forbidden, because exit `1` is a normal answer, not a failure. Note that `.claude/scripts/check-git-checkout-clean.sh`, in the same directory, uses the **opposite** convention (`0` = allow), so the two are not interchangeable templates.
 - If the script reports a positive match, the master must convene the Council (L3) or escalate to the user (L4); it cannot decide alone (L1) nor invoke `/devils-advocate` (L2).
 - Extending the list: via human PR. Adding patterns at runtime is not allowed.
+
+### Path-shaped vs command-shaped entries
+
+The list mixes two kinds of pattern, and the distinction is a **permanent property of the list**, not a temporary gap:
+
+| Kind | Entries | Can a path matcher enforce it? |
+|---|---|---|
+| Path-shaped | IRREV-2, 4, 5, 6, 9, 10 | Yes — these fire on a file path. |
+| Command-shaped | IRREV-1 (`git push --force`), IRREV-3 (`rm -r`), IRREV-7 (`./fbt flash`), IRREV-8 (`Next-Flip/`) | **No.** They describe shell commands. A mechanism that inspects file paths can never enforce them. |
+
+Consequences to keep in mind before anyone tries to mechanize this list again:
+
+- The command-shaped entries are covered by other layers: `permissions.ask` in `settings.json` (push, `rm -rf`, flash, `reset --hard`) and the `.githooks/pre-push` hook (IRREV-8).
+- Feeding a bare file path to the matcher can produce **spurious** command-shaped hits, because matching is by substring: a file named `notes/git push --force.md` trips IRREV-1, and a directory named `Next-Flip/` trips IRREV-8.
+- Substring matching also means an **enclosing directory** can trip a path entry. A clone placed under any directory named `furi` or `targets` makes IRREV-4 fire on every file in the repo. Path-structural rules (`permissions.ask` globs) do not have this defect; a substring matcher does.
+- **IRREV-4 is not mechanizable as a blocking rule.** Its own text says "with additional analysis", and it matches **246 tracked files** (`targets/` + `furi/`), of which 227 are `.c`/`.h` ordinary firmware sources and **8 are provably spurious** — `applications/debug/unit_tests/tests/furi/furi_*_test.c`, unit tests with zero ABI impact, caught only because their path contains `furi/`. Mechanizing it would put 92% of the protected surface on ordinary development work. The entry stays in the list as a judgment trigger for the master; it is deliberately **not** wired into `permissions.ask`. This is a decision not to mechanize a pattern, **not** a narrowing of the list under "Narrowing or removing a pattern" — the G3 obligation on an ABI-relevant change is unchanged.
 
 ## Closed list (10 entries)
 
