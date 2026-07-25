@@ -8,7 +8,13 @@ This RESUME is self-contained: a new session (local, web, codespaces) can read i
 
 ---
 
-## System status (as of 2026-05-23, commit `7a8a91f2`)
+## System status
+
+> **Refreshed 2026-07-25.** The plan in this document is still valid, but its
+> continuity data was two months stale and pointed at a branch that no longer
+> carries the work. Corrected below. If you are a fresh session reading this,
+> trust the values here and cross-check against `CHANGELOG.md` (entries 0.1.10
+> and 0.1.11 are the most recent and they changed the guardrails).
 
 ### What's already done
 
@@ -23,7 +29,22 @@ This RESUME is self-contained: a new session (local, web, codespaces) can read i
   - `council-member` (Opus, effort: max, parametrizable with an angle from the catalog).
 - **Council catalog**: 13 active angles (12 + `COR` added in ADR-0001).
 - **Hooks**: `SubagentStop`, `PreToolUse`, `pre-push` active.
-- **decisions.jsonl**: 3 entries logged (V1 L1, V3 L3 with no council_id, V2 L3 with council_id).
+- **decisions.jsonl**: local to each clone and gitignored, so the count varies by
+  machine. The original 3 Phase-1 entries did not travel; the durable record is
+  `CHANGELOG.md` + the ADRs.
+- **G3 hardening (0.1.10 + 0.1.11)** — this changes how Phase 2 feels:
+  - The list has **10 entries**. `IRREV-10` covers `CLAUDE.md`,
+    `.claude/scripts/`, `.claude/hooks/`, `.claude/commands/`, `.claude/skills/`.
+    `IRREV-6` also covers `.claude/settings.local.json`.
+  - `permissions.ask` now carries 11 path-scoped `Edit(...)` rules, so **writes to
+    protected paths prompt the operator**. Creating the 4 agent files will prompt.
+    `.claude/docs/` is deliberately **not** protected: those 4 docs are L1.
+  - Whether those rules actually fire is **still unverified** — the check could not
+    be run from a remote session that auto-approves. Confirm it locally.
+  - The matcher's exit codes are **inverted** (0 = matched). Read the warning block
+    in `check-irreversibility.sh`'s header before writing anything that calls it.
+  - Operative principle now recorded: **a G3 approval authorizes a change set, not
+    a single file.**
 
 ### Pending scheduled reviews
 
@@ -63,6 +84,23 @@ Per `phases.md` → Phase 2, the deliverables are:
 ---
 
 ## Decisions the master must make when starting Phase 2
+
+> **RESOLVED by the operator on 2026-07-25.** All three are settled; do not
+> re-litigate them. The analysis below is kept for the reasoning, not as an open
+> question.
+>
+> 1. **Direct creation**, without `agent-architect`. Its 1-agent-per-session quota
+>    governs spontaneous proposals; these 4 are fixed deliverables listed in
+>    `phases.md` since Phase 0.
+> 2. **L4** — direct operator approval, no Council.
+> 3. **Order**: `flipper-build-fbt` → `flipper-app-builder` → `flipper-nfc` →
+>    `flipper-rf-subghz`, infrastructure before domain.
+>
+> One correction to criterion 4 below, which this document got wrong: updating
+> `REGISTRY.md` is **not** a Phase 2 done criterion in `phases.md` (that file lists
+> only two: agent file + curated doc per specialist, and delegation validation).
+> Backfilling the 2 missing core rows is **Phase-1.B debt**; it rides inside the
+> Phase 2 change set under the change-set principle, with no separate deliberation.
 
 ### 1. Create the 4 specialists via `agent-architect` or directly?
 
@@ -127,9 +165,12 @@ The 4 docs (`.claude/docs/*.md`) must be built by reading the real codebase, not
 
 ```bash
 git status                                          # should be clean or have build-related changes (not relevant)
-git log --oneline -3                                # last commit should be 7a8a91f2 (V2 close)
-cat .claude/design/CHANGELOG.md | head -50          # confirms version 0.1.5 in the header
+git branch --show-current                           # must be my-momentum-firmware or a branch based on it
+git log --oneline -5                                # 0.1.11 hardening commits should be reachable
+head -12 .claude/design/CHANGELOG.md                # newest entry should be 0.1.11 or later
 cat .claude/decisions/ADR-0001-add-cor-angle.md     # confirms the ADR was materialized
+./.claude/scripts/check-irreversibility.sh ".claude/agents/x.md"   # must print MATCH IRREV-5
+./.claude/scripts/check-irreversibility.sh ".claude/docs/x.md"     # must print nothing (docs are L1)
 ```
 
 ### Step 2 — Confirm the plan with the user
@@ -155,10 +196,25 @@ Ask the user which decisions they want for the 3 open points (via architect vs d
 
 ## Important continuity information
 
-- **Current branch**: `my-momentum/feature/multi-agent-system-v1`.
-- **Remote**: only `origin` → `git@github.com:samartined/My-Momentum-Firmware-F0.git`. There is NO `Next-Flip` remote in this clone.
-- **Last commit**: `7a8a91f2 validate(v2): close Council deliberation ADR-0001 (Phase 1.G done)`.
-- **Push to origin**: done on `2026-05-23`. The branch is reachable from any cloud session that clones this fork.
+- **Default / go-forward branch**: **`my-momentum-firmware`**. Start Phase 2 from
+  it, or from a branch based on it.
+  - ⚠️ **`my-momentum/feature/multi-agent-system-v1` is dead.** It is anchored to
+    the pre-refounding orphan history and must NOT be used or merged. An earlier
+    version of this document named it as the current branch; that was the single
+    most dangerous stale fact here, because a fresh session reading it in good
+    faith would have worked on a branch disconnected from upstream.
+  - Other branches: `legacy/snapshot-2026-02` (archive of the old fork, do not
+    delete), `sync/upstream-dev` (mirror maintained by the sync workflow).
+- **Remote**: only `origin` → `samartined/My-Momentum-Firmware-F0`. There is NO
+  `Next-Flip` remote in this clone and none may be added (D9/D25).
+- **Recent history on the default branch**: the 0.1.10 + 0.1.11 guardrail
+  hardening, merged via PR #11 (`f3fb3c4`). Immediately before it, 0.1.9 restored
+  `.githooks/pre-push`. Verify with `git log --oneline -8` rather than trusting a
+  hash written here — that is how this section went stale in the first place.
+- **Also present on the default branch**: `.github/workflows/guard-removed-files.yml`,
+  which fails the build if a deliberately-removed upstream file reappears.
+  Currently it guards `AGENTS.md` (upstream's anti-AI policy, removed from this
+  fork). If an upstream sync restores it, delete it again rather than merging it.
 - **decisions.jsonl**: gitignored. Does NOT travel with the repo. The new session will start with its own `decisions.jsonl` (local to its clone). If you need strict log continuity, see the options discussed in conversation or change the gitignore.
 
 ## About the master session
