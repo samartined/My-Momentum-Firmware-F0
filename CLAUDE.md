@@ -73,8 +73,15 @@ Your role is to **propose, not execute** destructive or irreversible actions. Wh
 - `rm -rf` over versioned files
 - Deletion of saved SubGHz/NFC/iButton/IR/RFID slots
 - Deletion of assets on the SD card
-- Modification of `.claude/design/`, `.claude/agents/`, `.claude/settings.json`, `.githooks/`, `CLAUDE.md`, `.claude/scripts/`, `.claude/hooks/` (matches G3 → forces L3)
+- Modification of `.claude/design/`, `.claude/agents/`, `.claude/settings.json`, **`.claude/settings.local.json`**, `.githooks/`, `CLAUDE.md`, `.claude/scripts/`, `.claude/hooks/`, **`.claude/commands/`**, **`.claude/skills/`** (matches G3 → forces L3)
 - Deletion of or tampering with `.claude/state/*.json` / `*.jsonl` (audit state — matches G3 via IRREV-9)
+
+These paths are also wired into `permissions.ask` in `settings.json` as
+`Edit(/path/**)` rules, so a write to one of them prompts the operator. That is
+the **only** mechanical part of the G3 enforcement: the matcher script gives a
+deterministic verdict, but nothing forces you to run it. Do not restate the claim
+that the invariant is "structural" — it is not, and four sentences asserting it
+were removed from `system-design.md` on 2026-07-25.
 
 Two notes on the scope above, both learned the hard way (see `irreversibility.md`
 → "Extension history", Entry 1). The `.claude/agents/` entry is at **directory**
