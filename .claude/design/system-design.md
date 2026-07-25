@@ -340,10 +340,12 @@ Every agent created generates an entry in `.claude/agents/REGISTRY.md` with: cre
 
 A new agent is born with `status: experimental`. After **5 invocations without subsequent modification** (fixed by D13), the architect proposes graduating it to `status: stable`. While experimental, the master mentions "this agent is under trial" when invoking it.
 
-**Counting mechanism**: each entry in `REGISTRY.md` carries two counter fields:
+**Counting mechanism**: the live counters live in `.claude/state/counters.json`, **not** in `REGISTRY.md`. The `SubagentStop` hook (`.claude/hooks/update-agent-counter.sh`) is the only writer, and it writes only to that file. `REGISTRY.md` holds a human-curated snapshot of the last known values as of a commit, and it is never machine-written (`agent-architect.md`: "do NOT touch `REGISTRY.md`"). Two counters per agent:
 
-- `invocation_count`: incremented by the master every time it delegates a task to the agent.
+- `invocation_count`: incremented by the `SubagentStop` hook in `.claude/state/counters.json` each time the master delegates a task to the agent.
 - `last_modified_commit`: hash of the last commit that touched the agent's file.
+
+Corrected on 2026-07-25: this paragraph previously stated that the counters were fields inside `REGISTRY.md` and were incremented there. That was never true of the implementation, and the stale text was itself used as evidence for a proposal to weaken IRREV-5 (refuted — see `irreversibility.md` → "Extension history", Entry 1). Because `counters.json` is gitignored and therefore has no history to audit against, it is protected by IRREV-9.
 
 The count of "uses without modification" is `invocation_count` since the last change of `last_modified_commit`. When it reaches N, the architect launches a graduation proposal to the user; after explicit OK, `status: stable` is updated and the counter is reset. If the agent is modified before reaching N, the counter automatically resets when `last_modified_commit` updates.
 

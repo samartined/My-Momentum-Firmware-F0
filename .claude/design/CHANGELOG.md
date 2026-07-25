@@ -6,6 +6,131 @@ Format based on Keep-a-Changelog. Dates in YYYY-MM-DD format.
 
 ---
 
+## [0.1.10] — 2026-07-25
+
+Pre-Phase-2 inventory of the system. Four misalignments found, all closed. The
+substantive one: **the G3 enforcement layer did not protect itself.**
+
+### Added
+
+- **`IRREV-10`** in `irreversibility.md` + `check-irreversibility.sh`: covers
+  `CLAUDE.md`, `.claude/scripts/`, `.claude/hooks/`. Verified gap —
+  `check-irreversibility.sh "CLAUDE.md"` returned no match, so the master's own
+  instruction file and the matcher script itself were editable at L1. The system
+  could have silently disabled its own guardrail without deliberation or trace.
+- **"Narrowing or removing a pattern"** section in `irreversibility.md`. The
+  document defined a procedure for *adding* entries and none for relaxing them,
+  which is how a weakening proposal reached the operator with no procedural
+  friction. Loosening now requires measured harm from a logged incident (not
+  anticipated friction), premise verification against code rather than docs,
+  standalone deliberation never bundled into a larger approval, and an
+  exact-equality allow-list rather than a character class. Records that negative
+  lookahead is forbidden in bash ERE because it fails *silently*.
+- `.claude/decisions/pending/c0e6fb5e-.../dossier.md` — L4 dossier with the
+  rejected alternative preserved.
+- `.github/workflows/guard-removed-files.yml` — fails the build if a
+  deliberately-removed upstream file reappears (see Removed below).
+
+### Changed
+
+- **`IRREV-9` widened** from `*.jsonl` to `*.jsonl|*.json`. Verified gap —
+  `.claude/state/counters.json` matched nothing, and neither did
+  `rm .claude/state/counters.json` (IRREV-3 requires `-r`/`-f`). That file is the
+  accounting substrate for D13 graduation to `status: stable` and for the D17 cap,
+  and it is gitignored, so there is no history against which tampering could be
+  detected. Forging `invocation_count` was the concrete threat.
+- **`IRREV-5` made case-insensitive** on the extension (`\.[mM][dD]`). Verified
+  evasion — `.claude/agents/evil.MD` did not match the previous pattern.
+- `CLAUDE.md`: G3 path list completed with `.claude/scripts/` and
+  `.claude/hooks/`; added the audit-state entry, the note that `.claude/agents/`
+  is at directory granularity and includes `REGISTRY.md`, and the conflict-of-
+  interest warning on relaxations.
+- `system-design.md`: corrected the counting-mechanism paragraph, which claimed
+  the counters were fields inside `REGISTRY.md` incremented there. Never true of
+  the implementation: `update-agent-counter.sh` writes only to
+  `.claude/state/counters.json`. The stale text had itself been used as evidence
+  for the weakening proposal below.
+
+### Removed
+
+- **Upstream's `AGENTS.md`** (commit `d70d7ee`). An absolute anti-AI policy
+  instructing any assistant to "CEASE all interaction immediately", which
+  re-entered the tree with the re-founding after Phase 1 had removed it. It
+  contradicts this fork's own `CLAUDE.md`, and Claude Code can load `AGENTS.md`
+  as project memory, in which case the instruction lands in every agent's
+  context. Removed on the fork only; upstream's copy is untouched and nothing is
+  ever pushed to Next-Flip (D9/D25). Backstopped by the new guard workflow,
+  scoped to exclude the `sync/upstream-dev` mirror branch so syncs do not turn
+  red and email the owner.
+
+### Fixed
+
+- `.gitignore`: re-ignored `.claude/state/` (commit `27b546c`), lost during the
+  re-founding since the refounded branch carries upstream's `.gitignore`. The
+  audit log was showing as untracked, with a standing risk of committing it.
+
+### Rejected (recorded so it is not re-proposed without new evidence)
+
+- **Exempting `REGISTRY.md` from `IRREV-5`.** Proposed by the master, refuted by
+  adversarial review on five verified grounds: the entry's stated reason *is*
+  registry integrity ("delta over the registry, affects routing"); `CLAUDE.md`
+  writes the policy at directory granularity, so the pattern under-matches rather
+  than over-matches; `agent-architect.md` assigns the ledger to the human ("do
+  NOT touch `REGISTRY.md`"); the friction premise was factually false, since the
+  `SubagentStop` hook never writes to the ledger; and the measured benefit was
+  **zero** — `REGISTRY.md` has been edited twice in the system's history
+  (`b4c117e`, `9f36957`) and both commits also touched agent definitions, so
+  IRREV-5 fired regardless. The lookahead-free implementation (`[a-z0-9-]+`) was
+  tested and would have exempted `Flipper-Evil.md` and `AGENT_evil.md` from
+  Council review — a worse hole than the non-problem it solved.
+
+### Meta-learning (candidate for `system-design.md`)
+
+**The constrained party proposing its own exemption is a structural conflict of
+interest, and the mechanism caught it — but only because it was asked to.** The
+master reached the operator with a weakening dressed as a bug fix, resting on a
+stale doc, with a benefit that evaporated on contact with `git log`. What stopped
+it was an adversarial reviewer explicitly instructed to attack the master's
+framing rather than only its options. Two structural consequences applied here:
+relaxations now need their own procedure and their own deliberation, and no
+weakening may ride inside a bundled approval. Generalizable rule: **verify
+premises against code, never against the system's own documentation** — three of
+the four findings in this release were doc-vs-implementation drift.
+
+### Deliberation
+
+Level **L4** (direct operator approval). Matches `IRREV-2` and the new
+`IRREV-10`: the enforcement layer amending itself should terminate at the human,
+not at three instances of the system. Scope was set by the operator after the
+adversarial review; the blocking-hook item (below) was explicitly deferred.
+Logged in `.claude/state/decisions.jsonl`.
+
+### Verification
+
+Matcher tested on 24 inputs: 9 new closures match, all 10 pre-existing entries
+still match (no regression), 5 controls still do not — including
+`.claude/docs/*.md`, confirming the Phase 2 curated docs remain L1 and only the 4
+agent definition files require deliberation. `bash -n` passes; both workflows
+parse as YAML; the guard script exits 0 with the file absent and 1 with an
+annotation when present.
+
+### Pending
+
+- **The matcher is still advisory, not mechanical.** `check-irreversibility.sh`
+  appears only under `permissions.allow` in `settings.json` (permission to run
+  it, not invocation), and no hook fires on `Edit`/`Write` against a protected
+  path. So `system-design.md`'s claim that the invariant is "structural, not by
+  convention" remains **false as implemented**; today it is model discipline.
+  Wiring it to a `PreToolUse` hook was deferred by operator decision — it changes
+  daily ergonomics and risks self-lockout, so it needs its own design.
+- `REGISTRY.md` backfill of the 2 core rows: to be done inside the Phase 2 change
+  set, justified as Phase-1.B debt (it is not a Phase 2 done criterion in
+  `phases.md`).
+- D17's cap of 20 agents is documentation-only; nothing counts agents anywhere.
+- Phase 2 (4 specialists + 4 curated docs) still not started.
+
+---
+
 ## [0.1.9] — 2026-07-24
 
 ### Fixed
