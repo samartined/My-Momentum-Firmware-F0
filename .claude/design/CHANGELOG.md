@@ -56,6 +56,18 @@ permission rules.
   a convention, the permission layer is the mechanical part.
 - `CLAUDE.md`: approval list updated with the three newly covered paths, plus an
   explicit instruction not to restate the "structural" claim.
+- **`RESUME-phase2-bootstrap.md` continuity data refreshed** (the plan itself was
+  left intact — it is still valid). It had gone two months stale and named
+  `my-momentum/feature/multi-agent-system-v1` as the current branch: that branch is
+  anchored to the pre-refounding orphan history, so a fresh session reading the
+  document in good faith would have started Phase 2 disconnected from upstream.
+  Also: the three open decisions are marked resolved (direct creation, L4,
+  build-fbt → app-builder → nfc → rf-subghz); the `7a8a91f2` hash and `0.1.5`
+  version check were replaced with commands that verify state rather than assert
+  it; the new G3 surface is described, including that `.claude/docs/` is
+  deliberately unprotected so the 4 curated docs stay L1; and the document's own
+  incorrect claim that updating `REGISTRY.md` is a Phase 2 done criterion is
+  corrected to Phase-1.B debt.
 
 ### Removed
 
