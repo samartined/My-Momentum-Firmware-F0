@@ -6,6 +6,274 @@ Format based on Keep-a-Changelog. Dates in YYYY-MM-DD format.
 
 ---
 
+## [0.1.11] — 2026-07-25
+
+Pays the debt left open by 0.1.10 — the G3 matcher was advisory, not mechanical —
+but **not** in the way originally proposed. The master's design for a blocking
+`PreToolUse` hook was rejected by adversarial review and replaced with native
+permission rules.
+
+### Added
+
+- **11 path-scoped `Edit(...)` rules in `permissions.ask`** (`settings.json`),
+  covering `CLAUDE.md`, `.claude/design/`, `.claude/agents/`, `.claude/scripts/`,
+  `.claude/hooks/`, `.claude/commands/`, `.claude/skills/`, both settings files,
+  `.claude/state/`, `.githooks/`. A write to any of them now prompts the operator.
+  This is the mechanical component the system previously claimed to have.
+  - Spelled `Edit(...)` deliberately: verified against the docs, a single
+    `Edit(path)` rule governs the `Edit`, `Write` **and** `NotebookEdit` tools,
+    whereas `Write(path)` / `NotebookEdit(path)` / `Glob(path)` rules are
+    *accepted but never matched* and emit startup warnings.
+  - Leading single slash anchors at the settings source (the project root), not
+    the filesystem root — so `Edit(/.claude/design/**)` is correct and
+    path-structural, which avoids the enclosing-directory false positives a
+    substring matcher suffers.
+- Sections in `irreversibility.md` recording two properties that cost real effort
+  to rediscover: the matcher's **inverted exit codes** (0 = matched), including the
+  fact that the sibling helper `check-git-checkout-clean.sh` uses the opposite
+  convention so the two are not interchangeable templates; and the **path-shaped
+  vs command-shaped** split, with the consequence that IRREV-1/3/7/8 can never be
+  enforced by a path matcher. A prominent warning block was added to the script's
+  own header.
+
+### Changed
+
+- **`IRREV-6` extended to `.claude/settings.local.json`.** Verified hole, and the
+  most serious one found: that file has *higher precedence* than the protected
+  `settings.json`, so a single `Write` of `{"disableAllHooks": true}` switched off
+  every hook — using the very tool a hook would be watching, with no shell
+  redirection needed.
+- **`IRREV-10` extended to `.claude/commands/` and `.claude/skills/`**, and
+  reframed from "the enforcement layer" to "the layer governing the master's
+  behaviour". `.claude/commands/flipper-quick.md` is the file that tells the master
+  when it may skip the Council: the rule for bypassing deliberation was itself
+  editable without deliberation.
+- **`system-design.md`: four false claims corrected** (D19, and the three
+  narrative assertions that the invariant is "structural, not by convention" /
+  "not dependent on its discipline" / "structurally disables L1/L2"). These are
+  claims about *classification*, which no write-time mechanism can make true.
+  Replaced with the three-part split: the verdict is deterministic, invocation is
+  a convention, the permission layer is the mechanical part.
+- `CLAUDE.md`: approval list updated with the three newly covered paths, plus an
+  explicit instruction not to restate the "structural" claim.
+
+### Removed
+
+- **`Bash(find:*)` from `permissions.allow`.** `find … -exec sh -c '…' \;` is
+  unconditional arbitrary code execution, auto-approved. No mechanism scoped to
+  `Edit`/`Write` can be called enforcement while that line exists. `Glob` and
+  `Grep` are the dedicated tools for the legitimate use and remain allowed.
+
+### Rejected (the original proposal)
+
+- **A blocking `PreToolUse` hook returning `exit 2` on a G3 match.** Designed by
+  the master, contrasted by an adversarial reviewer, and ranked *below doing
+  nothing*. Six independent defects, all verified:
+  1. **The core safety claim was unfounded.** The design asserted a hook failure
+     fails open. The default `command`-hook timeout is **600 s**, and what happens
+     when it is exceeded is **not documented at all** — two independent reviews
+     reached opposite conclusions. Building a guardrail on an undocumented failure
+     mode, with a 10-minute worst case on every file edit, is not acceptable.
+  2. **`ask` and `deny` were both unusable**: hook-returned `ask` has undocumented
+     behaviour under `-p`, and `deny` blocks even in `bypassPermissions` mode and
+     with `--dangerously-skip-permissions`, so a buggy `deny` is unescapable.
+  3. **One unmatched `Write` disabled it** — the `settings.local.json` hole above.
+  4. **Two of three natural implementations invert the guardrail**, because of the
+     inverted exit codes plus a sibling template using the opposite convention.
+     The `set -e` variant is permanently inert *and silent*.
+  5. **92% false-friction surface.** Mechanizing IRREV-4 would protect 246 tracked
+     files, 227 of them ordinary `.c`/`.h` firmware sources and 8 provably
+     spurious (`applications/debug/unit_tests/tests/furi/furi_*_test.c` — unit
+     tests, zero ABI impact, caught only because their path contains `furi/`).
+     Governance surface without IRREV-4: **21 files**, touched in 5 of 263 commits.
+  6. **It would have taught the bypass 7–11 times during Phase 2**, since each
+     blocked write is answered by one `cat >` line, and it contradicts the
+     change-set principle recorded in 0.1.10 once per file.
+
+### Deliberation
+
+Level **L4** (direct operator approval), in two commits: correcting the record
+first, then the mechanism. Matches `IRREV-2`, `IRREV-6` and `IRREV-10`. The design
+was submitted to an adversarial reviewer before implementation at the operator's
+explicit instruction, and the review changed the outcome from "build a hook" to
+"do not build it".
+
+### Verification
+
+`settings.json` valid JSON; 11 `Edit(...)` rules present; zero rules in the
+never-matched `Write(...)`/`NotebookEdit(...)`/`Glob(...)` forms; `Bash(find:*)`
+absent. Matcher: the three newly covered paths now match, all 10 pre-existing
+entries still match, and `lib/nfc/`, `.claude/docs/`, `.claude/decisions/` still
+do not. `bash -n` passes.
+
+### Meta-learning (candidate for `system-design.md`)
+
+**Two adversarial passes in one session, two proposals from the master defeated,
+both in the direction of the master's own convenience or ambition.** In 0.1.10 it
+was a guardrail relaxation resting on a stale document; here it was a guardrail
+*mechanism* resting on an undocumented failure mode, whose first contact with real
+work would have demonstrated its own bypass. The pattern worth institutionalising
+is not "the master proposes badly" — it is that **the review only worked because it
+was told to attack the framing, not merely to evaluate the options.** Both times
+the decisive finding was outside the option set presented.
+
+Second, an evidential asymmetry named by the reviewer and accepted: this repo
+demands measured harm from a logged incident before *relaxing* a guardrail. The
+same bar should apply before *mechanising* one. Observed incidents of a protected
+file being edited without L3/L4: **zero**, across 5 commits that touched
+`.claude/`. The motivation was a theoretical gap in a document, which is precisely
+the kind of evidence the repo rejects in the other direction.
+
+### Pending
+
+- **Empirical check still owed**: confirm the `Edit(...)` `ask` rules actually fire
+  in the installed version. If they do not, the advisory hook below becomes the
+  primary mechanism rather than an optional complement.
+- **Advisory hook, deliberately not built.** An `exit 0` hook that prints the
+  IRREV verdict to the model's context on a match — no blocking, no lockout
+  surface. It is the only mechanism that works when no human is present to answer
+  a prompt, which is exactly the unattended case where `ask` behaviour is
+  undocumented. Deferred pending the check above. If built, it must be added to
+  `bootstrap.sh`'s `EXEC_FILES` in the same commit or it lands non-executable in
+  every fresh clone, silently inactive.
+- **`Bash(cat:*)` remains in `permissions.allow`** and is the residual write
+  bypass (`cat > protected_file <<'EOF'`). Left untouched because it was not part
+  of the approved scope; whether Claude Code routes shell redirections through
+  file-write permission checks is unverified.
+- **Duplication accepted, drift not yet detected mechanically**: the protected
+  paths now exist both as regexes in the matcher and as `Edit(...)` rules in
+  `settings.json`. A cross-check in `bootstrap.sh` (which is a `SessionStart` hook
+  and therefore cannot be blocked) would make drift loud; not implemented.
+- D17's cap of 20 agents is still documentation-only.
+- Phase 2 (4 specialists + 4 curated docs) still not started.
+
+---
+
+## [0.1.10] — 2026-07-25
+
+Pre-Phase-2 inventory of the system. Four misalignments found, all closed. The
+substantive one: **the G3 enforcement layer did not protect itself.**
+
+### Added
+
+- **`IRREV-10`** in `irreversibility.md` + `check-irreversibility.sh`: covers
+  `CLAUDE.md`, `.claude/scripts/`, `.claude/hooks/`. Verified gap —
+  `check-irreversibility.sh "CLAUDE.md"` returned no match, so the master's own
+  instruction file and the matcher script itself were editable at L1. The system
+  could have silently disabled its own guardrail without deliberation or trace.
+- **"Narrowing or removing a pattern"** section in `irreversibility.md`. The
+  document defined a procedure for *adding* entries and none for relaxing them,
+  which is how a weakening proposal reached the operator with no procedural
+  friction. Loosening now requires measured harm from a logged incident (not
+  anticipated friction), premise verification against code rather than docs,
+  standalone deliberation never bundled into a larger approval, and an
+  exact-equality allow-list rather than a character class. Records that negative
+  lookahead is forbidden in bash ERE because it fails *silently*.
+- `.claude/decisions/pending/c0e6fb5e-.../dossier.md` — L4 dossier with the
+  rejected alternative preserved.
+- `.github/workflows/guard-removed-files.yml` — fails the build if a
+  deliberately-removed upstream file reappears (see Removed below).
+
+### Changed
+
+- **`IRREV-9` widened** from `*.jsonl` to `*.jsonl|*.json`. Verified gap —
+  `.claude/state/counters.json` matched nothing, and neither did
+  `rm .claude/state/counters.json` (IRREV-3 requires `-r`/`-f`). That file is the
+  accounting substrate for D13 graduation to `status: stable` and for the D17 cap,
+  and it is gitignored, so there is no history against which tampering could be
+  detected. Forging `invocation_count` was the concrete threat.
+- **`IRREV-5` made case-insensitive** on the extension (`\.[mM][dD]`). Verified
+  evasion — `.claude/agents/evil.MD` did not match the previous pattern.
+- `CLAUDE.md`: G3 path list completed with `.claude/scripts/` and
+  `.claude/hooks/`; added the audit-state entry, the note that `.claude/agents/`
+  is at directory granularity and includes `REGISTRY.md`, and the conflict-of-
+  interest warning on relaxations.
+- `system-design.md`: corrected the counting-mechanism paragraph, which claimed
+  the counters were fields inside `REGISTRY.md` incremented there. Never true of
+  the implementation: `update-agent-counter.sh` writes only to
+  `.claude/state/counters.json`. The stale text had itself been used as evidence
+  for the weakening proposal below.
+
+### Removed
+
+- **Upstream's `AGENTS.md`** (commit `d70d7ee`). An absolute anti-AI policy
+  instructing any assistant to "CEASE all interaction immediately", which
+  re-entered the tree with the re-founding after Phase 1 had removed it. It
+  contradicts this fork's own `CLAUDE.md`, and Claude Code can load `AGENTS.md`
+  as project memory, in which case the instruction lands in every agent's
+  context. Removed on the fork only; upstream's copy is untouched and nothing is
+  ever pushed to Next-Flip (D9/D25). Backstopped by the new guard workflow,
+  scoped to exclude the `sync/upstream-dev` mirror branch so syncs do not turn
+  red and email the owner.
+
+### Fixed
+
+- `.gitignore`: re-ignored `.claude/state/` (commit `27b546c`), lost during the
+  re-founding since the refounded branch carries upstream's `.gitignore`. The
+  audit log was showing as untracked, with a standing risk of committing it.
+
+### Rejected (recorded so it is not re-proposed without new evidence)
+
+- **Exempting `REGISTRY.md` from `IRREV-5`.** Proposed by the master, refuted by
+  adversarial review on five verified grounds: the entry's stated reason *is*
+  registry integrity ("delta over the registry, affects routing"); `CLAUDE.md`
+  writes the policy at directory granularity, so the pattern under-matches rather
+  than over-matches; `agent-architect.md` assigns the ledger to the human ("do
+  NOT touch `REGISTRY.md`"); the friction premise was factually false, since the
+  `SubagentStop` hook never writes to the ledger; and the measured benefit was
+  **zero** — `REGISTRY.md` has been edited twice in the system's history
+  (`b4c117e`, `9f36957`) and both commits also touched agent definitions, so
+  IRREV-5 fired regardless. The lookahead-free implementation (`[a-z0-9-]+`) was
+  tested and would have exempted `Flipper-Evil.md` and `AGENT_evil.md` from
+  Council review — a worse hole than the non-problem it solved.
+
+### Meta-learning (candidate for `system-design.md`)
+
+**The constrained party proposing its own exemption is a structural conflict of
+interest, and the mechanism caught it — but only because it was asked to.** The
+master reached the operator with a weakening dressed as a bug fix, resting on a
+stale doc, with a benefit that evaporated on contact with `git log`. What stopped
+it was an adversarial reviewer explicitly instructed to attack the master's
+framing rather than only its options. Two structural consequences applied here:
+relaxations now need their own procedure and their own deliberation, and no
+weakening may ride inside a bundled approval. Generalizable rule: **verify
+premises against code, never against the system's own documentation** — three of
+the four findings in this release were doc-vs-implementation drift.
+
+### Deliberation
+
+Level **L4** (direct operator approval). Matches `IRREV-2` and the new
+`IRREV-10`: the enforcement layer amending itself should terminate at the human,
+not at three instances of the system. Scope was set by the operator after the
+adversarial review; the blocking-hook item (below) was explicitly deferred.
+Logged in `.claude/state/decisions.jsonl`.
+
+### Verification
+
+Matcher tested on 24 inputs: 9 new closures match, all 10 pre-existing entries
+still match (no regression), 5 controls still do not — including
+`.claude/docs/*.md`, confirming the Phase 2 curated docs remain L1 and only the 4
+agent definition files require deliberation. `bash -n` passes; both workflows
+parse as YAML; the guard script exits 0 with the file absent and 1 with an
+annotation when present.
+
+### Pending
+
+- **The matcher is still advisory, not mechanical.** `check-irreversibility.sh`
+  appears only under `permissions.allow` in `settings.json` (permission to run
+  it, not invocation), and no hook fires on `Edit`/`Write` against a protected
+  path. So `system-design.md`'s claim that the invariant is "structural, not by
+  convention" remains **false as implemented**; today it is model discipline.
+  Wiring it to a `PreToolUse` hook was deferred by operator decision — it changes
+  daily ergonomics and risks self-lockout, so it needs its own design.
+- `REGISTRY.md` backfill of the 2 core rows: to be done inside the Phase 2 change
+  set, justified as Phase-1.B debt (it is not a Phase 2 done criterion in
+  `phases.md`).
+- D17's cap of 20 agents is documentation-only; nothing counts agents anywhere.
+- Phase 2 (4 specialists + 4 curated docs) still not started.
+
+---
+
 ## [0.1.9] — 2026-07-24
 
 ### Fixed

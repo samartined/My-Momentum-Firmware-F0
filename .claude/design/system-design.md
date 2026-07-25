@@ -28,7 +28,7 @@ This system builds a team of Claude agents hyper-specialized in the Momentum fir
 | D16 | Phase 1 kickoff: on the user's express order, not automatic after closing the rest of the points | The user wants explicit control over the moment of moving from planning to implementation. Resolution of P7. |
 | D17 | Architect quota: single cap of 20 agents in `.claude/agents/`. Closed list of "core agents" maintained in `system-design.md` (editable only via human PR). The hook that counts agents considers all files against the single cap | Resolution of Council G1: a categorical distinction without formal enforcement would be evadable; a single auditable cap is robust without overhead. |
 | D18 | Closed catalog of Council angles in `.claude/design/council-angles.md` with stable IDs. Max 1 wildcard per session with expanded justification logged. `/flipper-review-wildcards` command opt-in to promote recurring ones | Resolution of Council G2: a closed catalog removes the master's bias in choosing angles; the wildcard preserves flexibility for atypical embedded-firmware cases. |
-| D19 | Closed list of irreversible operations in `.claude/design/irreversibility.md` (9 entries). Automatic verification script by regex that triggers L3 without the master's subjective judgment. Extension via human PR | Resolution of Council G3: an enumerated operational definition allows matching to be automatic, not dependent on the model's discipline. |
+| D19 | Closed list of irreversible operations in `.claude/design/irreversibility.md` (10 entries after 2026-07-25). Verification script by regex that yields a deterministic verdict without the master's subjective judgment. Extension via human PR | Resolution of Council G3: an enumerated operational definition makes the *verdict* deterministic. Annotated 2026-07-25: it does not make *invocation* automatic — running the matcher remains a convention. The mechanical backing is `permissions.ask` at the point of the write. |
 | D20 | Auditing of L1/L2 classifications: Phase 1 is JSONL log only in `.claude/state/decisions.jsonl` (gitignored) with a versioned schema in `.claude/design/decisions-schema.md`. Activation of the Sonnet auditor in Phase 2+ conditioned on empirical evidence: ratio L1+L2/total > 95% during a minimum window of N=100 decisions | Resolution of Council G4: building an auditor without data would be over-engineering; empirical activation with an explicit threshold avoids false alarms. |
 | D21 | Council 1-of-3 YES rule: mandatory escalation to the user (level L4) | Resolution of Council G5: when only one council member votes YES, automated deliberation has no legitimacy; transparency to the human is the only defensible response. |
 | D22 | `pre-commit` framework (Python is already a firmware dependency via fbt) + `./setup.sh` script invocable as one flagless line + binary validation of the existence of expected files (not a test suite) + diagnostic message on failure | Resolution of Council G6: `pre-commit` is a mature standard and the dependency is already paid for; minimal verifiable setup covers the individual use case. |
@@ -208,7 +208,13 @@ Every decision is logged to `.claude/state/decisions.jsonl` (gitignored) with th
 
 ### Impossibility of downgrading L3 (D23)
 
-The hard rule "G3 list → forces L3/L4" is **structural, not by convention**: the `check-irreversibility.sh` script runs automatically, and if there is a match, the master has no option to choose L1 or L2. This closes the main failure mode (the master downgrading costly deliberations to cheap ones under latency/context pressure).
+The hard rule "G3 list → forces L3/L4" is **enforced in two parts, only one of which is mechanical**. Being precise about which is which matters, because the imprecise version of this sentence stood here until 2026-07-25 and was false:
+
+- **Matching is scripted.** `check-irreversibility.sh` decides by regex, not by the master's judgment. Given an input, the verdict is deterministic and auditable.
+- **Invocation is by convention.** Nothing forces the master to run the script before acting. The script is referenced in `settings.json` only under `permissions.allow` — permission to *run* it, not invocation of it.
+- **The mechanical component is the permission layer.** Path-scoped `Edit(...)` rules in `permissions.ask` make writes to protected paths prompt the operator. That covers file writes to the path-shaped subset of the list; it does not cover classification.
+
+So the master choosing L1 for a G3 operation is **not structurally impossible**. What is mechanically enforced is that the *write* to a protected path surfaces to the human. This closes the main failure mode (downgrading costly deliberations to cheap ones under latency/context pressure) only insofar as the operation ends in a write the permission layer sees.
 
 ---
 
@@ -224,7 +230,7 @@ The angles are NOT fixed: the master picks 3 angles from the closed catalog of 1
 
 The master convenes the Council (L3) if the task meets any of:
 
-- The operation matches the closed list of **irreversibles** (`.claude/design/irreversibility.md`, D19) — matching is automatic via a regex script, not the master's judgment, and it structurally disables L1/L2 (D23).
+- The operation matches the closed list of **irreversibles** (`.claude/design/irreversibility.md`, D19) — matching is scripted rather than left to the master's judgment, and it disables L1/L2 (D23). Note that *running* the matcher is a convention the master follows, not something the harness compels; see "Deliberation levels L1-L4" for the precise split between what is mechanical and what is not.
 - The proposal comes from the `agent-architect` (creating or retiring an agent).
 - The user explicitly requests it via `/flipper-council` (D15) or "convene the council".
 - The decision is cross-domain or implies an architecture/convention change without matching the G3 list (master's judgment, logged for audit — see D20).
@@ -340,10 +346,12 @@ Every agent created generates an entry in `.claude/agents/REGISTRY.md` with: cre
 
 A new agent is born with `status: experimental`. After **5 invocations without subsequent modification** (fixed by D13), the architect proposes graduating it to `status: stable`. While experimental, the master mentions "this agent is under trial" when invoking it.
 
-**Counting mechanism**: each entry in `REGISTRY.md` carries two counter fields:
+**Counting mechanism**: the live counters live in `.claude/state/counters.json`, **not** in `REGISTRY.md`. The `SubagentStop` hook (`.claude/hooks/update-agent-counter.sh`) is the only writer, and it writes only to that file. `REGISTRY.md` holds a human-curated snapshot of the last known values as of a commit, and it is never machine-written (`agent-architect.md`: "do NOT touch `REGISTRY.md`"). Two counters per agent:
 
-- `invocation_count`: incremented by the master every time it delegates a task to the agent.
+- `invocation_count`: incremented by the `SubagentStop` hook in `.claude/state/counters.json` each time the master delegates a task to the agent.
 - `last_modified_commit`: hash of the last commit that touched the agent's file.
+
+Corrected on 2026-07-25: this paragraph previously stated that the counters were fields inside `REGISTRY.md` and were incremented there. That was never true of the implementation, and the stale text was itself used as evidence for a proposal to weaken IRREV-5 (refuted — see `irreversibility.md` → "Extension history", Entry 1). Because `counters.json` is gitignored and therefore has no history to audit against, it is protected by IRREV-9.
 
 The count of "uses without modification" is `invocation_count` since the last change of `last_modified_commit`. When it reaches N, the architect launches a graduation proposal to the user; after explicit OK, `status: stable` is updated and the counter is reset. If the agent is modified before reaching N, the counter automatically resets when `last_modified_commit` updates.
 
@@ -375,7 +383,7 @@ Structural invariant over decision classification:
 
 - `.claude/design/irreversibility.md` lists 9 patterns of irreversible operations.
 - `.claude/scripts/check-irreversibility.sh` matches by regex over the command or path before execution.
-- If there is a positive match, L1 (master alone) and L2 (`/devils-advocate`) are **structurally forbidden**: only L3 (Council) or L4 (escalation to the user) are valid. The master cannot downgrade to cheap — it is an invariant, not dependent on its discipline.
+- If there is a positive match, L1 (master alone) and L2 (`/devils-advocate`) are **forbidden**: only L3 (Council) or L4 (escalation to the user) are valid. This is a rule the master obeys, backed mechanically at the point of the write by `permissions.ask`, not an invariant that holds independently of the master's discipline. The honest statement of the guarantee: the verdict is deterministic once the matcher is run, and a write to a protected path surfaces to the operator.
 
 ### Layer 4 — Claude Code `permissions.ask` + `PreToolUse` hook
 

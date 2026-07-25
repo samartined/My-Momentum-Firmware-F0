@@ -4,6 +4,10 @@
 *.gdb_history
 *.old
 
+# Agent system local state (audit log + counters): machine-local, append-only,
+# kept out of version control to avoid merge conflicts. See RESUME docs.
+/.claude/state/
+
 
 # LSP
 .cache
