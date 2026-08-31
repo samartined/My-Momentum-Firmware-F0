@@ -1,3 +1,24 @@
+> # ⚠ CLOSED — this RESUME is obsolete, kept for the record
+>
+> **Annotated 2026-08-31.** Everything this document describes as missing was in fact
+> completed on 2026-05-23. Do not act on it.
+>
+> It says "round 2 completed; still missing round 3 + ADR + decisions.jsonl log". But
+> `vote-round-3-concejal-{1,2,3}.md` sit in this same folder, and
+> `.claude/decisions/ADR-0001-add-cor-angle.md` exists with `status: accepted`,
+> 3-of-3 unanimity after round 3, `materialization-status: materialized`. The `COR`
+> angle is live in `council-angles.md` (row 20) with its "Operational notes" section.
+> Validation V2 of Phase 1.G therefore **passed**.
+>
+> The one part that remains genuinely unresolved is the `decisions.jsonl` log entry —
+> and not for this council specifically: nothing writes that file at all
+> (see `phases.md` → Review 1 blocker).
+>
+> The audit trail below is preserved unchanged because it is the Council's actual
+> deliberation record. Only this banner was added.
+
+---
+
 # RESUME — Continuation of V2 (Phase 1.G functional validation)
 
 ## Ultra-short summary

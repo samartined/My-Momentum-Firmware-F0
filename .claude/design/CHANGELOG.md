@@ -1,8 +1,119 @@
 # Agent system changelog
 
-This document records changes to the Claude multi-agent system for this repo (`.claude/**`, `CLAUDE.md`). It does NOT document changes to the Flipper Zero firmware itself — those go in the firmware's CHANGELOG.md.
+This document records changes to the Claude multi-agent system for this repo:
+`.claude/**`, `CLAUDE.md`, and the repository infrastructure the system depends on —
+`.githooks/`, `.pre-commit-config.yaml`, `.gitignore`, and `.github/workflows/`. It does
+NOT document changes to the Flipper Zero firmware itself — those go in the firmware's
+CHANGELOG.md.
+
+The infrastructure clause was added on 2026-08-31 to match what this document had
+already been doing since 0.1.6: entries for `.githooks/pre-push`, `.pre-commit-config.yaml`,
+`.gitignore`, `sync-upstream.yml` (0.1.7, 0.1.8) and `guard-removed-files.yml` (0.1.10)
+all predate it. The stated scope was narrower than the practice, not the other way round.
 
 Format based on Keep-a-Changelog. Dates in YYYY-MM-DD format.
+
+---
+
+## [0.1.12] — 2026-08-31
+
+Fixes the upstream sync, which had never once opened a pull request, and then aligns the
+design documents with what the inventory actually found. Two of those documents were
+asserting mechanisms that do not exist.
+
+### Fixed
+
+- **`.github/workflows/sync-upstream.yml`: pull-request calls moved off GraphQL onto
+  REST** (PR #14, `e7f3f64`). `gh pr create` and `gh pr list` both use GitHub's GraphQL
+  API, and a fine-grained PAT is refused on the `createPullRequest` mutation even when it
+  holds `pull_requests=write`. Runs 7 (08-10), 8 (08-17), 9 (08-24) and 10 (08-31) all
+  failed byte-identically on that mutation while the mirror push succeeded — so upstream
+  code kept arriving in the fork and only the review PR was missing.
+  - Decisive evidence: a REST probe with `head` equal to `base`, which cannot create
+    anything, returned **422** rather than 403, with
+    `x-accepted-github-permissions: pull_requests=write`. The token was authorized all
+    along; the transport was wrong.
+  - Verified end to end: run 11 opened PR #15 with 4 upstream commits on the first
+    attempt; the operator merged it as `639cdd8`.
+  - A comment at the top of the file records why these calls must not be turned back
+    into `gh pr create`.
+- **`actions/checkout` bumped `v4` → `v5`** in `sync-upstream.yml` and
+  `guard-removed-files.yml`; `v4` targets the deprecated Node 20 and was being force-run
+  on Node 24, warning on every run.
+
+### Added
+
+- **Preflight capability probe in `sync-upstream.yml`, running on every execution.** It
+  prints the token identity and the status/`x-accepted-github-permissions` of the same
+  harmless REST probe, warning without failing. This exists because the bug hid for a
+  month behind green checkmarks: runs 4 (07-24), 5 (07-27) and 6 (08-03) reported success
+  while **skipping the PR step entirely**, upstream having no new commits those weeks.
+  The run intended to validate the PAT was itself one of those no-ops. Three greens
+  certified nothing.
+- Actionable failure path: on failure the step now emits the compare URL and states that
+  the commits are already safe on the mirror branch, so the failure reads as "no PR
+  opened" rather than "sync lost". Closes a follow-up owed by ADR-0002.
+- Honest summary step distinguishing "already up to date" from "opened PR #N" from
+  "pushed but no PR", which previously read almost identically.
+
+### Changed
+
+- **`phases.md`: "Current status" rewritten.** It claimed the system was "ready to start
+  Phase 1" — five weeks after Phase 1 shipped. Now records the verified state per phase,
+  the stale hook path (the PreToolUse checkout hook lives at
+  `.claude/hooks/pre-tool-use-git-checkout.sh`, not `.githooks/pre-tool-use-checkout`),
+  `bootstrap.sh` as a Phase 1 deliverable, and the two Phase 3 commands already
+  delivered out of order.
+- **`.claude/agents/REGISTRY.md`: the two core entries backfilled.** The table had read
+  `_(pending Phase 1.B)_` since the agents shipped on 2026-07-24, under-reporting the
+  system for five weeks. Includes per-entry detail and a note that the invocation counts
+  are a per-clone snapshot, since `.claude/state/` is gitignored.
+- **ADR-0002 amended, not rewritten.** A dated amendment closes two follow-ups (the full
+  push+PR path is now exercised; the compare-URL fallback exists) and **corrects a false
+  root cause** the ADR recorded as adversarially verified: "the PR setting being OFF by
+  default + propagation latency". It was never latency — the failure persisted unchanged
+  for over a month. That explanation belongs only to run 1's *different* error,
+  `Resource not accessible by integration` (the bot token). Conflating the two errors is
+  what sent the diagnosis down the wrong path. The original text is left intact; the
+  wrong diagnosis is part of the record.
+- The two folders under `.claude/decisions/pending/` annotated as closed rather than
+  deleted, since they are Council deliberation records. `62978df1`'s `RESUME.md` claimed
+  round 3 and the ADR were missing, when both exist and ADR-0001 closed 3-of-3;
+  `c0e6fb5e` shipped in 0.1.11 and now carries a `CLOSED.md`.
+
+### Found (not fixed)
+
+- **The `PostToolUse` cost hook was never implemented.** `settings.json` wires only
+  `SessionStart`, one `PreToolUse` and two `SubagentStop` hooks. So
+  `.claude/state/costs.jsonl` is never written, and **none** of D24's three levels
+  exists — no 60% warning, no 100% persistent warning, and no hard cap blocking Opus
+  subagents at 200% of budget. `cost-policy.md` and the D24 row in `system-design.md`
+  now carry explicit status blocks marking them as specification, not behaviour. This is
+  the same class of defect 0.1.11 corrected when it removed four sentences claiming the
+  G3 invariant was "structural". Cost control is currently the operator's attention.
+- **Nothing writes `.claude/state/decisions.jsonl`.** `bootstrap.sh` only seeds the path.
+  Per-decision logging is therefore manual, and the file is empty in the cloud clone.
+  Because `.claude/state/` is gitignored, a populated copy may exist on the operator's
+  machine; this cannot be verified from a fresh clone either way.
+- **Review 1 is overdue.** The 3-month `COR` audit was due 2026-08-23 and reads its data
+  from `decisions.jsonl`, which is the file above. Marked OVERDUE in `phases.md` with the
+  blocker recorded, and with the note that the honest outcome absent a log is
+  `reevaluate-in-6m`, not a fabricated invocation count.
+- The `c0e6fb5e` guardrail change was an L4 over G3 paths closed **without an ADR**.
+  Writing `ADR-0003` retroactively would close it; left for the operator rather than
+  back-dated unilaterally.
+- The tokens→USD table in `cost-policy.md` is still `(pending)` in every cell and names
+  models that are not the ones in use.
+
+### Deliberation
+
+L4, direct operator approval. Five of the touched files match G3 —
+`phases.md`, `cost-policy.md`, `system-design.md`, `CHANGELOG.md` (IRREV-2) and
+`REGISTRY.md` (IRREV-5) — verified with `check-irreversibility.sh`, which returned
+`rc=0` for each and `rc=1` for `ADR-0002` and the `pending/` files. The operator was
+offered L3 and chose L4 on the grounds that no design decision was being deliberated:
+these are corrections aligning documents with facts already verified in-session. The
+`.github/workflows/` change was L1 (matcher clean, single domain).
 
 ---
 

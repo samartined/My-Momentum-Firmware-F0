@@ -2,11 +2,30 @@
 
 ## Current status
 
-Phase 0 completed in its design component. The design is captured in `system-design.md` and the 7 open points were resolved by the user (decisions D10-D16 in `system-design.md`). The system is ready to start Phase 1; the start happens by express order of the user (D16), not automatically.
+**Last verified: 2026-08-31**, by a file-by-file inventory of the working tree and of
+the hooks actually wired in `settings.json` — not by reading these documents. The
+previous text here claimed the system was "ready to start Phase 1", five weeks after
+Phase 1 shipped.
+
+- **Phase 0 — done.** Design captured in `system-design.md`; the 7 open points resolved
+  (D10-D16).
+- **Phase 1 — done except one deliverable.** Every file exists and the guardrails are
+  active (matcher verified against a positive control; 11 `Edit(...)` ask rules in
+  place). The gap is the `PostToolUse` cost hook: it was never implemented, so
+  `.claude/state/costs.jsonl` is never written and the 60% budget warning of D24 does
+  not exist. Marked accordingly in the Phase 1 list below.
+- **Phase 2 — not started.** 0 of 8 deliverables. Agreed order:
+  `build-fbt` → `app-builder` → `nfc` → `rf-subghz`.
+- **Phase 3 — two items already delivered**, out of phase order:
+  `.claude/commands/flipper-quick.md` and `.claude/commands/flipper-council.md`.
+- **Review 1 below is overdue** (due 2026-08-23) and its data source is empty in at
+  least one clone.
+
+Starting a phase still happens by express order of the user (D16), not automatically.
 
 ---
 
-## Phase 0 — Planning (in progress)
+## Phase 0 — Planning (done)
 
 **Objective**: align the full agent system design with the user.
 
@@ -43,12 +62,13 @@ Phase 0 completed in its design component. The design is captured in `system-des
 - `.claude/design/decisions-schema.md` (JSONL schema).
 - `.claude/design/cost-policy.md` (ceiling and tokens→USD table).
 - `.claude/scripts/check-irreversibility.sh` (regex matcher over the G3 list).
-- `.claude/scripts/setup.sh` (one line: `pre-commit install` + binary validation).
+- `.claude/scripts/setup.sh` (manual superset; delegates hook activation to `bootstrap.sh`, `pre-commit` optional).
+- `.claude/scripts/bootstrap.sh` (SessionStart hook: activates `core.hooksPath`, seeds `.claude/state/`; always exits 0). Added in 0.1.6, after this list was first written.
 - `.pre-commit-config.yaml` (framework config).
 - `.githooks/pre-push` (blocking hook for `Next-Flip/*` with override via environment variable).
-- `.githooks/pre-tool-use-checkout` (PreToolUse hook that validates a clean tree before `git checkout` to an existing branch).
+- PreToolUse hook that validates a clean tree before `git checkout` to an existing branch. **Delivered at a different path than planned**: `.claude/hooks/pre-tool-use-git-checkout.sh` + `.claude/scripts/check-git-checkout-clean.sh`, not `.githooks/pre-tool-use-checkout`. Note the helper uses the *opposite* exit-code convention to `check-irreversibility.sh` — see `irreversibility.md`.
 - `SubagentStop` hook that updates `.claude/state/counters.json` with `invocation_count` and `last_modified_commit` per agent.
-- `PostToolUse` hook that writes to `.claude/state/costs.jsonl` per invocation and emits a warning when crossing 60% of the budget.
+- ~~`PostToolUse` hook that writes to `.claude/state/costs.jsonl` per invocation and emits a warning when crossing 60% of the budget.~~ **NOT IMPLEMENTED** (verified 2026-08-31: `settings.json` wires only `SessionStart`, one `PreToolUse` and two `SubagentStop` hooks). Consequence: `costs.jsonl` is never produced and the D24 budget warning does not exist, even though `cost-policy.md` and `system-design.md` describe it. Either implement it or amend D24 — do not leave the documents asserting a mechanism that is absent.
 - `.claude/commands/flipper-redirect.md` (`/flipper-redirect <specialist>`).
 - `.claude/commands/flipper-review-wildcards.md` (`/flipper-review-wildcards`).
 - `.claude/commands/flipper-reset.md` (opt-in `/flipper-reset` to clear the master's context).
@@ -103,8 +123,8 @@ Phase 0 completed in its design component. The design is captured in `system-des
 - `.claude/commands/flipper-new-app.md`
 - `.claude/commands/flipper-spawn-agent.md`
 - `.claude/commands/flipper-promote-prompt.md`
-- `.claude/commands/flipper-quick.md`
-- `.claude/commands/flipper-council.md`
+- ~~`.claude/commands/flipper-quick.md`~~ — already delivered ahead of phase order.
+- ~~`.claude/commands/flipper-council.md`~~ — already delivered ahead of phase order.
 - `.claude/commands/flipper-build.md`
 - `.claude/prompts/README.md`
 - `.claude/prompts/golden/` (initial folder with golden prompt template)
@@ -152,4 +172,11 @@ This section records mandatory scheduled reviews derived from closed ADRs. Each 
   - **C3-N2**: < 2 real invocations of `COR` in the 3-month window.
   - **C1-N1**: > 30% of Councils that co-assigned `ROB`+`COR` with reasons overlapping >70% (semantic comparator defined in the same entry).
 - **Result sink**: new entry in "Catalog change history" of `council-angles.md` with format `{date, originating_council_id, observed_invocations, decision: keep | withdraw | reevaluate-in-6m}`, even if the decision is to keep it.
-- **Status**: pending.
+- **Status**: **OVERDUE.** Due 2026-08-23; still not run as of 2026-08-31.
+- **Blocker found 2026-08-31**: the audit reads `.claude/state/decisions.jsonl`, and that
+  file is empty in the cloud clone. `.claude/state/` is gitignored (`.gitignore:9`), so a
+  populated copy may exist on the operator's machine — but no hook or script writes to it
+  (`bootstrap.sh` only seeds the path), so per-decision logging is manual and may never
+  have happened. Resolve the data source before attempting the audit; if no log exists,
+  the honest outcome is `reevaluate-in-6m` with the reason recorded, not a fabricated
+  invocation count.
