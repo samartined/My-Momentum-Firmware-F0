@@ -13,6 +13,18 @@ name: "Sync upstream (Next-Flip dev)"
 # How to enable it: this file must be on the fork's default branch
 # (`my-momentum-firmware`) for the `schedule` and `workflow_dispatch`
 # triggers to work.
+#
+# !! REST, NOT GraphQL, for every pull-request call in this file. `gh pr create`
+# and `gh pr list` both go through GitHub's GraphQL API, and a fine-grained PAT
+# is refused on the `createPullRequest` mutation even when it does hold
+# `pull_requests=write`:
+#     pull request create failed: GraphQL: Resource not accessible by
+#     personal access token (createPullRequest)
+# That single line broke every run from 2026-08-10 onward while the mirror push
+# kept succeeding, so the fork looked synced and was not. The equivalent REST
+# endpoints accept the same token (verified: POST .../pulls returns 422, not 403,
+# with `x-accepted-github-permissions: pull_requests=write`). Do not "simplify"
+# these `gh api` calls back into `gh pr create` / `gh pr list`.
 
 on:
   schedule:
@@ -40,8 +52,48 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
+      - name: "Preflight: can the token actually open pull requests?"
+        id: preflight
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_PAT }}
+        run: |
+          # Deliberately no `set -e`: every probe below is EXPECTED to return a
+          # non-2xx status, and a failed command substitution must not kill the step.
+          set -uo pipefail
+
+          # Why this step exists at all: between 2026-07-24 and 2026-08-03 three runs
+          # reported success while the PR path was broken, because upstream had no new
+          # commits and the PR step was skipped. A latent token problem stayed invisible
+          # for a month. This probe runs unconditionally so the capability is reported
+          # on every run, not only on the weeks that happen to have work to do.
+
+          LOGIN="$(gh api user --jq .login 2>/dev/null || echo '<unreadable: token dead or lacking Metadata>')"
+
+          # Harmless capability probe: `head` equal to `base` can never create a pull
+          # request, so the status code alone tells us whether the token is authorized.
+          #   422 -> authorized; GitHub reached payload validation and rejected it.
+          #   403 -> refused; the response names the permission it wanted.
+          PROBE="$(gh api -i -X POST "repos/${GITHUB_REPOSITORY}/pulls" \
+                     -f title="preflight capability probe (cannot create anything)" \
+                     -f head="${FORK_BRANCH}" \
+                     -f base="${FORK_BRANCH}" 2>&1 || true)"
+          STATUS="$(printf '%s\n' "$PROBE" | grep -m1 -oE 'HTTP/[0-9.]+ [0-9]{3}' | grep -oE '[0-9]{3}$' || true)"
+          NEEDS="$(printf '%s\n' "$PROBE" | tr -d '\r' | grep -i -m1 '^x-accepted-github-permissions:' | sed 's/^[^:]*:[[:space:]]*//' || true)"
+
+          echo "token identity      : ${LOGIN}"
+          echo "PR-create capability: HTTP ${STATUS:-unknown}  (422 = authorized, 403 = refused)"
+          echo "permission required : ${NEEDS:-<not reported>}"
+
+          if [ "${STATUS:-}" = "422" ]; then
+            echo "capable=true" >> "$GITHUB_OUTPUT"
+            echo "OK: SYNC_PAT can open pull requests over REST."
+          else
+            echo "capable=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::SYNC_PAT cannot open pull requests (HTTP ${STATUS:-unknown}${NEEDS:+, requires ${NEEDS}}). The mirror branch will still be updated, but the next sync carrying new commits will not be able to open a review PR. Check the token's 'Pull requests' permission and its expiry."
+          fi
+
       - name: "Checkout the fork (default branch, full history)"
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ env.FORK_BRANCH }}
           fetch-depth: 0   # full history: needed to compute the common ancestor
@@ -77,17 +129,28 @@ jobs:
           echo "Mirror branch '$MIRROR_BRANCH' updated on the fork."
 
       - name: "Open or update the sync Pull Request"
+        id: pr
         if: steps.check.outputs.new_commits != '0'
         env:
           GH_TOKEN: ${{ secrets.SYNC_PAT }}   # PAT: creates the PR as a user (avoids the bot gate)
+          NEW_COMMITS: ${{ steps.check.outputs.new_commits }}
         run: |
           set -euo pipefail
+
+          # REST only in this step -- see the note at the top of this file before
+          # replacing any of these calls with `gh pr create` / `gh pr list`.
+          OWNER="${GITHUB_REPOSITORY%%/*}"
+
           # If a PR with this mirror branch is already open, the previous push already updated it.
-          EXISTING="$(gh pr list --head "$MIRROR_BRANCH" --base "$FORK_BRANCH" --state open --json number --jq '.[0].number // empty')"
+          EXISTING="$(gh api \
+            "repos/${GITHUB_REPOSITORY}/pulls?head=${OWNER}:${MIRROR_BRANCH}&base=${FORK_BRANCH}&state=open" \
+            --jq '.[0].number // empty')"
           if [ -n "$EXISTING" ]; then
             echo "PR #$EXISTING already open; updated by the mirror branch push."
+            echo "pr_number=$EXISTING" >> "$GITHUB_OUTPUT"
             exit 0
           fi
+
           # Build the PR body with printf (avoids nested heredocs in YAML).
           printf '%s\n' \
             '## Sync with the official firmware' \
@@ -103,17 +166,36 @@ jobs:
             '' \
             '_This PR is INBOUND (bringing in public code from the official repo). It never pushes anything to Next-Flip._' \
             > pr_body.md
-          gh pr create \
-            --base "$FORK_BRANCH" \
-            --head "$MIRROR_BRANCH" \
-            --title "Sync upstream: Next-Flip/${UPSTREAM_BRANCH} → ${FORK_BRANCH}" \
-            --body-file pr_body.md
-          echo "Sync PR created."
+          BODY="$(cat pr_body.md)"
+
+          if PR_NUMBER="$(gh api -X POST "repos/${GITHUB_REPOSITORY}/pulls" \
+                            -f title="Sync upstream: Next-Flip/${UPSTREAM_BRANCH} → ${FORK_BRANCH}" \
+                            -f head="${MIRROR_BRANCH}" \
+                            -f base="${FORK_BRANCH}" \
+                            -f body="${BODY}" \
+                            --jq .number 2>pr_err.txt)"; then
+            echo "pr_number=${PR_NUMBER}" >> "$GITHUB_OUTPUT"
+            echo "Sync PR #${PR_NUMBER} created."
+          else
+            ERR="$(tr -d '\r' < pr_err.txt | tr '\n' ' ' | head -c 500)"
+            COMPARE="https://github.com/${GITHUB_REPOSITORY}/compare/${FORK_BRANCH}...${MIRROR_BRANCH}?expand=1"
+            echo "::error::Could not open the sync PR. The ${NEW_COMMITS} new upstream commits ARE already safe on '${MIRROR_BRANCH}' in this fork -- nothing was lost, only the review PR is missing. API said: ${ERR}"
+            echo "::error::Check that SYNC_PAT still holds 'Pull requests: Read and write' on ${GITHUB_REPOSITORY} and has not expired; the Preflight step above reports what the token can actually do. To open the PR by hand meanwhile: ${COMPARE}"
+            exit 1
+          fi
 
       - name: "Summary"
+        if: always()
         run: |
-          if [ "${{ steps.check.outputs.new_commits }}" = "0" ]; then
-            echo "✓ Your fork is already up to date with upstream/$UPSTREAM_BRANCH. Nothing to do."
+          set -uo pipefail
+          NEW="${{ steps.check.outputs.new_commits }}"
+          PR="${{ steps.pr.outputs.pr_number }}"
+          if [ -z "$NEW" ]; then
+            echo "Sync did not reach the upstream commit count; see the failing step above."
+          elif [ "$NEW" = "0" ]; then
+            echo "Already up to date with upstream/${UPSTREAM_BRANCH}: 0 new commits. Nothing pushed, no PR needed."
+          elif [ -n "$PR" ]; then
+            echo "${NEW} new upstream commits are on '${MIRROR_BRANCH}' and open for review in PR #${PR}."
           else
-            echo "✓ ${{ steps.check.outputs.new_commits }} new commits from upstream available in a PR for review."
+            echo "${NEW} new upstream commits were pushed to '${MIRROR_BRANCH}', but NO review PR was opened -- see the error above."
           fi
